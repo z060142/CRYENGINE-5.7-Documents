@@ -12,8 +12,5 @@
 
 ## Content
 
--
-[Shaders](Rendering%20Modules/Shaders.md)
-
--
-[Generating Stars DAT File](Rendering%20Modules/Generating%20Stars%20DAT%20File.md)
+- [Shaders](Rendering%20Modules/Shaders.md)
+- [Generating Stars DAT File](Rendering%20Modules/Generating%20Stars%20DAT%20File.md)

@@ -11,5 +11,4 @@
 
 ## Content
 
--
-[Tutorial - Multiplayer Networking](Multiplayer%20and%20Networking%20Tutorials/Tutorial%20-%20Multiplayer%20Networking.md)
+- [Tutorial - Multiplayer Networking](Multiplayer%20and%20Networking%20Tutorials/Tutorial%20-%20Multiplayer%20Networking.md)

@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 The only internal project available right now is the Crysis demo so I will use this, but the issues also exists elsewhere, which prompted this article.
 
@@ -24,9 +23,7 @@ Here are some examples with the Stereo Window altered using 'Easy Adjustment' in
 
 Here are some other examples:
 
-![Image](https://www.cryengine.com/docs/static/attachments/53542942)
-
-The stereo window is so deep, it takes a second to adjust, whereas below, you instantly see and there is less ghosting.
+![Image](https://www.cryengine.com/docs/static/attachments/53542942) The stereo window is so deep, it takes a second to adjust, whereas below, you instantly see and there is less ghosting.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/53542946)
 

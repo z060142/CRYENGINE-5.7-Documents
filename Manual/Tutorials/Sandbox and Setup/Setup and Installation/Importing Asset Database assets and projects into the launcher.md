@@ -8,6 +8,5 @@
 ## Content
 
 [Embed: http://youtube.com/watch?v=TZWrGejTCfU]
-At the time this tutorial was recorded, the CRYENGINE
-[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
- was known as the "Marketplace."
+
+At the time this tutorial was recorded, the CRYENGINE [Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project) was known as the "Marketplace."

@@ -14,8 +14,7 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 The tools in the Advanced section of the Designer Tool let you manipulate the object vertices/edges/polygons that you have selected.
 
@@ -23,14 +22,7 @@ The tools in the Advanced section of the Designer Tool let you manipulate the ob
 
 These tools are divided into four different groups:
 
--
-[Advanced - Extrude/Delete](Advanced/Advanced%20-%20Extrude%20Delete.md)
-
--
-[Advanced - Groups/UV](Advanced/Advanced%20-%20Groups%20UV.md)
-
--
-[Advanced - Tools](Advanced/Advanced%20-%20Tools.md)
-
--
-[Advanced - Transform](Advanced/Advanced%20-%20Transform.md)
+- [Advanced - Extrude/Delete](Advanced/Advanced%20-%20Extrude%20Delete.md)
+- [Advanced - Groups/UV](Advanced/Advanced%20-%20Groups%20UV.md)
+- [Advanced - Tools](Advanced/Advanced%20-%20Tools.md)
+- [Advanced - Transform](Advanced/Advanced%20-%20Transform.md)

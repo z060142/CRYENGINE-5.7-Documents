@@ -12,11 +12,7 @@
 
 ## Content
 
-##
-In This Topic
+### In This Topic
 
--
-[CRYENGINE Functions](ScriptBind%20Reference/CRYENGINE%20Functions.md)
-
--
-[CryAction Functions](ScriptBind%20Reference/CryAction%20Functions.md)
+- [CRYENGINE Functions](ScriptBind%20Reference/CRYENGINE%20Functions.md)
+- [CryAction Functions](ScriptBind%20Reference/CryAction%20Functions.md)

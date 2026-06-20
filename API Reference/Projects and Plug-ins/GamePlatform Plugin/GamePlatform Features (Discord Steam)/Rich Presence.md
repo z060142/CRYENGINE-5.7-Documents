@@ -7,105 +7,48 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 The Rich Presence abstraction attempts to unify the functionality of presenting the status of local users to other clients on a platform.
 
 The implementation and corresponding options of Rich Presence vary across each platform in terms of what and how data is shown to other clients. For this reason, currently only Discord has full Rich Presence functionality as it provides the most options. Other platforms will make use of the Status (or the Headline Data) interface to provide basic presence information.
 
-##
-Rich Presence Service Functions
+### Rich Presence Service Functions
 
-##
-GetRichPresence
+#### GetRichPresence
 
 Gets the rich presence data for the local user on the specified platform.
 
-Platforms
- |
-Discord
- |
+Platforms | Discord
+--- | ---
+API | Cry::GamePlatform::IService::GetRichPresence
+Flow Graph Nodes | GamePlatform:Account:RichPresence
+Schematyc Nodes | Function::GamePlatform::Service::Accounts::GetRichPresence
 
-API
- |
-Cry::GamePlatform::IService::GetRichPresence
- |
-
-Flow Graph Nodes
- |
-GamePlatform:Account:RichPresence
- |
-
-Schematyc Nodes
- |
-Function::GamePlatform::Service::Accounts::GetRichPresence
- |
-
-##
-SetRichPresence
+#### SetRichPresence
 
 Sets the rich presence data for the local user on the specified platform.
 
-Platforms
- |
-Discord
- |
+Platforms | Discord
+--- | ---
+API | Cry::GamePlatform::IService::SetRichPresence
+Flow Graph Nodes | GamePlatform:Account:RichPresence
+Schematyc Nodes | Function::GamePlatform::Service::Accounts::SetRichPresence
 
-API
- |
-Cry::GamePlatform::IService::SetRichPresence
- |
-
-Flow Graph Nodes
- |
-GamePlatform:Account:RichPresence
- |
-
-Schematyc Nodes
- |
-Function::GamePlatform::Service::Accounts::SetRichPresence
- |
-
-##
-SetStatus
+#### SetStatus
 
 Sets the status string for the local user on the specified platform.
 
--
-The status string is the displayed text that shows what the user is currently doing in a game. For example, playing on a certain map, etc. Each platform implements this differently.
+- The status string is the displayed text that shows what the user is currently doing in a game. For example, playing on a certain map, etc. Each platform implements this differently.
+- To retrieve the status, use [GetRichPresence](Rich%20Presence.md#RichPresence-getrichpresence)and read the "headline" output.
 
--
-To retrieve the status, use
-[GetRichPresence](Rich%20Presence.md#RichPresence-getrichpresence)
-and read the "headline" output.
+- On most, if not all platforms, setting the status string for the local user is not instant and make take up to 3 minutes to be visible by other users on the platform.
+- Executing this too often will cause some calls to be ignored. As a rule of thumb, only execute this function at most every 3 minutes as needed. If the text you want displayed doesn't change, there is no need to set it again.
 
--
-On most, if not all platforms, setting the status string for the local user is not instant and make take up to 3 minutes to be visible by other users on the platform.
+Platforms | Discord, Steam
+--- | ---
+API | Cry::GamePlatform::IService::SetStatus
+Flow Graph Nodes | GamePlatform:Account:SetStatus
+Schematyc Nodes | Function::GamePlatform::Service::Accounts::SetStatus
 
--
-Executing this too often will cause some calls to be ignored. As a rule of thumb, only execute this function at most every 3 minutes as needed. If the text you want displayed doesn't change, there is no need to set it again.
-Platforms
- |
-Discord, Steam
- |
-
-API
- |
-Cry::GamePlatform::IService::SetStatus
- |
-
-Flow Graph Nodes
- |
-GamePlatform:Account:SetStatus
- |
-
-Schematyc Nodes
- |
-Function::GamePlatform::Service::Accounts::SetStatus
- |
-
-[Rich Presence Service Functions](#rich-presence-service-functions)
-[GetRichPresence](#getrichpresence)
-[SetRichPresence](#setrichpresence)
-[SetStatus](#setstatus)
+[Rich Presence Service Functions](#rich-presence-service-functions)[GetRichPresence](#getrichpresence)[SetRichPresence](#setrichpresence)[SetStatus](#setstatus)

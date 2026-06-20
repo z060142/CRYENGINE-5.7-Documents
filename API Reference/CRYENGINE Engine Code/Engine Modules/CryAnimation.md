@@ -18,11 +18,9 @@
 
 ## Content
 
-##
-Purpose of CryAnimation
+### Purpose of CryAnimation
 
-##
-Highlights of CryAnimation
+### Highlights of CryAnimation
 
 Command Buffer
 
@@ -50,26 +48,11 @@ Animation Event System
 
 Asset management and streaming
 
--
-[CryAnimation Overview](CryAnimation/CryAnimation%20Overview.md)
-
--
-[Animation Events](CryAnimation/Animation%20Events.md)
-
--
-[Limb IK Technical](CryAnimation/Limb%20IK%20Technical.md)
-
--
-[Facial Animation Programming](CryAnimation/Facial%20Animation%20Programming.md)
-
--
-[Animation Streaming](CryAnimation/Animation%20Streaming.md)
-
--
-[Animation Debugging](CryAnimation/Animation%20Debugging.md)
-
--
-[Fall and Play](CryAnimation/Fall%20and%20Play.md)
-
--
-[Time in CryAnimation](CryAnimation/Time%20in%20CryAnimation.md)
+- [CryAnimation Overview](CryAnimation/CryAnimation%20Overview.md)
+- [Animation Events](CryAnimation/Animation%20Events.md)
+- [Limb IK Technical](CryAnimation/Limb%20IK%20Technical.md)
+- [Facial Animation Programming](CryAnimation/Facial%20Animation%20Programming.md)
+- [Animation Streaming](CryAnimation/Animation%20Streaming.md)
+- [Animation Debugging](CryAnimation/Animation%20Debugging.md)
+- [Fall and Play](CryAnimation/Fall%20and%20Play.md)
+- [Time in CryAnimation](CryAnimation/Time%20in%20CryAnimation.md)

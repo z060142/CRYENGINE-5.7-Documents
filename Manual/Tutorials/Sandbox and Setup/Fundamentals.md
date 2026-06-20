@@ -11,5 +11,4 @@
 
 ## Content
 
--
-[Beginner's Guide](Fundamentals/Beginner%27s%20Guide.md)
+- [Beginner's Guide](Fundamentals/Beginner%27s%20Guide.md)

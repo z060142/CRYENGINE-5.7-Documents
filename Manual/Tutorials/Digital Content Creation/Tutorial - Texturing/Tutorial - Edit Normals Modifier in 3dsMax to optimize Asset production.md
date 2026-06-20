@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 Custom normals are a good way to control the smoothing of your lowpoly and/or to get around having to use a normalmap which results in less texture memory and way more detailed smoothing since it doesn't depend on the resolution of a normalmap.
 

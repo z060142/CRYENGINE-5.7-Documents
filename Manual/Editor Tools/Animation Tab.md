@@ -13,11 +13,6 @@
 
 ## Content
 
--
-[Character Tool](Animation%20Tab/Character%20Tool.md)
-
--
-[Facial Editor](Animation%20Tab/Facial%20Editor.md)
-
--
-[Mannequin Editor](Animation%20Tab/Mannequin%20Editor.md)
+- [Character Tool](Animation%20Tab/Character%20Tool.md)
+- [Facial Editor](Animation%20Tab/Facial%20Editor.md)
+- [Mannequin Editor](Animation%20Tab/Mannequin%20Editor.md)

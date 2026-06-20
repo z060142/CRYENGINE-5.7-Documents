@@ -9,113 +9,28 @@
 
 The following is not intended to be a complete list of CRYENGINE 5.6 C++ API changes, rather it is an indication of the most important changes that Programmers need to be aware of.
 
-##
-Table of Contents
+### Table of Contents
 
-##
-Components
+### Components
 
--
-RigidBodyComponent
+- RigidBodyComponent
+- The *RigidBodyComponent* properties for * Density* and * Resistance*now have a higher default value of **1000**.
+- PointConstraintComponent
+- The *PointContraintComponent* is now **active** by default.
+- AudioSwitchComponent
 
--
-The
-*
-RigidBodyComponent
-*
- properties for
-*
-Density
-*
- and
-*
-Resistance
-*
-now have a higher default value of
-**
-1000
-**
-.
+- This component has been moved to the SwitchStateComponent.
 
--
-PointConstraintComponent
+### Core System
 
--
-The
-*
-PointContraintComponent
-*
-is now
-**
-active
-**
- by default.
+- CRY_ASSERT_MESSAGE has been deprecated. CRY_ASSERT now has the functionality to provide a message if necessary and should be used instead. In user code a simple find and replace will suffice.
 
--
-AudioSwitchComponent
+### Entity System
 
--
-This component has been moved to the SwitchStateComponent.
+- IEntityComponent::GetEventMask's signature has changed from uint64 GetEventMask() const to Cry::Entity::EventFlags GetEventMask() const. User code needs updating to change the return value, code inside should continue building and functioning as before.
+- The ENTITY_EVENT_BIT and BIT64 macros no longer need to be used for IEntityComponent::GetEventMask. Instead, the event can be applied directly. For example: Cry::Entity::EventFlags GetEventMask() const { return EEntityEvent::Update | EEntityEvent::NameChanged; }.
+- The move from ENTITY_EVENT_BIT can be automated using Visual Studio's Find and Replace tool. Find: "ENTITY_EVENT_BIT\((?<event>.+?)\)", and replace with "${event}", without the citation marks. Make sure to enable 'Use Regular Expressions'.
+- Entity timers have been moved from the entity level (IEntity) to the component level (IEntityComponent). This change was made to remove the need to find unique identifier on the entity instance level to avoid a clash with other components, something that could become very expensive.
+- The majority of use cases in a component can change m_pEntity->SetTimer to this->SetTimer and maintain behavior as before. The same applies for KillTimer.
 
-##
-Core System
-
--
-CRY_ASSERT_MESSAGE
-
-has been deprecated.
-CRY_ASSERT
- now has the functionality to provide a message if necessary and should be used instead. In user code a simple find and replace will suffice.
-
-##
-Entity System
-
--
-IEntityComponent::GetEventMask
-'s signature has changed from
-uint64 GetEventMask() const
- to
-Cry::Entity::EventFlags GetEventMask() const
-. User code needs updating to change the return value, code inside should continue building and functioning as before.
-
--
-The
-ENTITY_EVENT_BIT
- and
-BIT64
- macros no longer need to be used for
-IEntityComponent::GetEventMask
-. Instead, the event can be applied directly. For example:
-Cry::Entity::EventFlags GetEventMask() const
- { return EEntityEvent::Update | EEntityEvent::NameChanged; }
-.
-
--
-The move from
-ENTITY_EVENT_BIT
- can be automated using Visual Studio's Find and Replace tool. Find: "
-ENTITY_EVENT_BIT
-\((?<event>.+?)\)
-", and replace with "
-${event}
-", without the citation marks. Make sure to enable 'Use Regular Expressions'.
-
--
-Entity timers have been moved from the entity level (
-IEntity
-) to the component level (
-IEntityComponent
-). This change was made to remove the need to find unique identifier on the entity instance level to avoid a clash with other components, something that could become very expensive.
-
--
-The majority of use cases in a component can change
-m_pEntity->SetTimer
- to
-this->SetTimer
- and maintain behavior as before. The same applies for
-KillTimer
-.
-
-[Components](#components)
-[Core System](#core-system)
-[Entity System](#entity-system)
+[Components](#components)[Core System](#core-system)[Entity System](#entity-system)

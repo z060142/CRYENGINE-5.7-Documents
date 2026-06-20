@@ -7,119 +7,48 @@
 
 ## Content
 
-##
-Audio
+## Audio
 
-##
-Audio General
+#### Audio General
 
--
-**
-Fixed
-**
-: Default Audio Entities plus some areas in game templates are not working. Audio Entities and dependencies added to game templates.
+- **Fixed**: Default Audio Entities plus some areas in game templates are not working. Audio Entities and dependencies added to game templates.
 
-##
-ACE (Audio Controls Editor)
+#### ACE (Audio Controls Editor)
 
--
-**
-Fixed
-**
-: ACE sometimes crashes when opened while running either FMOD Studio or SDL_mixer.
+- **Fixed**: ACE sometimes crashes when opened while running either FMOD Studio or SDL_mixer.
 
-##
-Core/System
+## Core/System
 
-##
-Engine General
+#### Engine General
 
--
-**
-Fixed
-**
-: Game projects missing assets in the Engine's templates folder.
+- **Fixed**: Game projects missing assets in the Engine's templates folder.
+- **Fixed**: Added missing main layer to project upgrade packages.
+- **Fixed**: Crash during Engine initialization when no PAK encryption is provided.
+- **Fixed:** Windows dedicated server did not support the new project setup.
 
--
-**
-Fixed
-**
-: Added missing main layer to project upgrade packages.
+## Graphics and Rendering
 
--
-**
-Fixed
-**
-: Crash during Engine initialization when no PAK encryption is provided.
+#### Renderer General
 
--
-**
-Fixed:
-**
- Windows dedicated server did not support the new project setup.
+- **Fixed**: Missing shader-item/resource ref-counting.
 
-##
-Graphics and Rendering
+#### GPU Particles
 
-##
-Renderer General
+- **Fixed**: GPU particle temporal anti-aliasing was inverted.
 
--
-**
-Fixed
-**
-: Missing shader-item/resource ref-counting.
+## Sandbox
 
-##
-GPU Particles
+#### Editor General
 
--
-**
-Fixed
-**
-: GPU particle temporal anti-aliasing was inverted.
+- **Fixed**: A Layer will be created as fallback even if a Level is loaded with no layers.
+- **Fixed**: Editor crashes when an object creation fails.
+- **Fixed:** The Notification Center gets spammed with notification (>500) when opening a GameSDK project in the Editor.
 
-##
-Sandbox
+## Known Issues
 
-##
-Editor General
-
--
-**
-Fixed
-**
-: A Layer will be created as fallback even if a Level is loaded with no layers.
-
--
-**
-Fixed
-**
-: Editor crashes when an object creation fails.
-
--
-**
-Fixed:
-**
-The Notification Center gets spammed with notification (>500) when opening a GameSDK project in the Editor.
-
-##
-Known Issues
-
--
-Unable to initialize the Engine after downloading CRYENGINE 5.2 through Launcher.
-
--
-The engine crashes when users try to open the Mannequin editor two times in a row.
-
--
-By loading a non-exported map into the launcher causes the map to corrupt indefinitely.
-
--
-Mouse cursor does not lock to the game window when a template project is launched in the game mode.
-
--
-Rolling ball template cannot be opened using the launcher without reinstalling the launcher.
-
--
-Alembic caches are unable to be imported.
+- Unable to initialize the Engine after downloading CRYENGINE 5.2 through Launcher.
+- The engine crashes when users try to open the Mannequin editor two times in a row.
+- By loading a non-exported map into the launcher causes the map to corrupt indefinitely.
+- Mouse cursor does not lock to the game window when a template project is launched in the game mode.
+- Rolling ball template cannot be opened using the launcher without reinstalling the launcher.
+- Alembic caches are unable to be imported.

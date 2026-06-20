@@ -7,518 +7,155 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 In this tutorial, we will be using our Merged Mesh system and show you the process of how to setup bendable grass blades. Merged Meshes are mainly used to handle areas with dense numbers of vegetation objects like big fields of grass. Merged Meshes also allow the usage of a rope based bending effect. Ropes get generated for each asset instance that bends upon impact.
 
 Contrary to bone based setups like Touch Bending, ropes can be cheaper and get affected through the global wind and our Breeze Generation system. Large fields of grass are perfect examples to showcase this type of technology since each asset instance can be merged into bigger clusters through the merged mesh system. So for this tutorial, we will create two simple grass plane assets as a base for a dense overgrown grass field.
 
-*
-![Image](https://www.cryengine.com/docs/static/attachments/24157040)
+*![Image](https://www.cryengine.com/docs/static/attachments/24157040) Pic1: Dense grass field affected through wind*
 
-Pic1: Dense grass field affected through wind
-*
+*![Image](https://www.cryengine.com/docs/static/attachments/24157041) Pic2: 2 assets that this entire grass field contains*
 
-*
-![Image](https://www.cryengine.com/docs/static/attachments/24157041)
-
-Pic2: 2 assets that this entire grass field contains
-*
-
-##
-Tutorial Files
+### Tutorial Files
 
 Source 3dsMax scene with exported CRYENGINE files:
 
-**
-[GameSDK_vegtut02_files.zip](/docs/static/attachments/25523835)
-**
+**[GameSDK_vegtut02_files.zip](/docs/static/attachments/25523835)**
 
-##
-Pre-requisites for this Tutorial
+### Pre-requisites for this Tutorial
 
 Before you continue with this tutorial, make sure to have read and understood the following topics;
 
--
-[How to Install CryMaxTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
+- [How to Install CryMaxTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
+- [The Basic CRYENGINE 3dsMax Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
+- [CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
+- [3dsMax Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
--
-[The Basic CRYENGINE 3dsMax Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
-
--
-[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
-
--
-[3dsMax Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
-
-##
-Helpful Information
+### Helpful Information
 
 Make sure to keep the following things in mind while you work on your asset:
 
--
-Align your dummies to your geometry surface; snapping to individual vertices is not necessary.
+- Align your dummies to your geometry surface; snapping to individual vertices is not necessary.
+- Dummies need to follow the naming convention rules for Merged Meshes to recognize them.
+- Do not scale or reset XForm your dummies.
+- It's useful to keep the amount of different materials for merged meshes as low as possible, to keep the memory usage low for console systems. Use one large texture sheet containing multiple variations.
+- Keep your geometry simple and planar.
+- Collision proxies are not needed so do not create any custom ones.
+- The grass blades should be as low-poly as possible for consoles, to guarantee that they don't have to stream in and merge large amounts of mesh data. You can also disable vertex colors for these, while exporting to decrease the size further.
+- You do not need to make LODs for assets using this system. The Merged Meshes technology batches together the vegetation into 16m cells that internally LODs itself, by removing items as the camera gets further away from the "sector".
 
--
-Dummies need to follow the naming convention rules for Merged Meshes to recognize them.
-
--
-Do not scale or reset XForm your dummies.
-
--
-It's useful to keep the amount of different materials for merged meshes as low as possible, to keep the memory usage low for console systems. Use one large texture sheet containing multiple variations.
-
--
-Keep your geometry simple and planar.
-
--
-Collision proxies are not needed so do not create any custom ones.
-
--
-The grass blades should be as low-poly as possible for consoles, to guarantee that they don't have to stream in and merge large amounts of mesh data. You can also disable vertex colors for these, while exporting to decrease the size further.
-
--
-You do not need to make LODs for assets using this system. The Merged Meshes technology batches together the vegetation into 16m cells that internally LODs itself, by removing items as the camera gets further away from the "sector".
 Merged Meshes has some improvements but also some missing features compared to Touch Bending. This table gives you an overview about the differences between those two systems. Use this to decide which type of feature works best for your asset.
 
-**
-Description
-**
- |
-**
-Merged Mesh
-**
- |
-**
-**
-Touch Bending
-**
-**
- |
+**Description** | **Merged Mesh** | ****Touch Bending****
+--- | --- | ---
+**Type of bending** | Ropes | Bones
+****Instance merging to clusters**** | Yes | No
+****Influenced by Wind**** | Yes | No
+****Influenced by Breeze gen**** | Yes | No
+******Requires simplified geometry (low poly count)****** | No | Yes
+****Bone parenting support**** | No | Yes
+****Proxy support**** | No | Yes
+******UV instancing for bones****** | No | Yes
 
-**
-Type of bending
-**
- |
-Ropes
- |
-Bones
- |
-
-**
-**
-Instance merging to clusters
-**
-**
- |
-Yes
- |
-No
- |
-
-**
-**
-Influenced by Wind
-**
-**
- |
-Yes
- |
-No
- |
-
-**
-**
-Influenced by Breeze gen
-**
-**
- |
-Yes
- |
-No
- |
-
-**
-**
-**
-Requires simplified geometry (low poly count)
-**
-**
-
-**
- |
-No
- |
-Yes
- |
-
-**
-**
-Bone parenting support
-**
-**
- |
-No
- |
-Yes
- |
-
-**
-**
-Proxy support
-**
-**
- |
-No
- |
-Yes
- |
-
-**
-**
-**
-UV instancing for bones
-**
-**
-**
- |
-No
- |
-Yes
- |
-
-##
-Initial 3dsMax setup
+### Initial 3dsMax setup
 
 For this tutorial, we will be creating our asset in the following directory.
 
--
-`
-<
-`
-*
-Your_Project
-*
->\Assets\
-`
-Objects\tutorial\vegetation\02\grass\merged_mesh\
-`
+- `<Your_Project>\Assets\Objects\tutorial\vegetation\02\grass\merged_mesh\`
+
 So to begin with, save your max scene to this location. All our exported assets will be saved in there. Some of the textures which we use will come from an already existing asset and we will point you to the directory where they are later in this tutorial.
 
 We will continue with the assumption that you have already created the asset, since this is not a 3dsMax modeling tutorial. We will begin with preparing the asset ready for CRYENGINE, assigning SubIds to the relevant polygons and configuring the material.
 
-*
-![Image](https://www.cryengine.com/docs/static/attachments/24157042)
+*![Image](https://www.cryengine.com/docs/static/attachments/24157042) * Pic3: 3dsMax overview of the finished model**
 
-*
-Pic3: 3dsMax overview of the finished model
-*
-*
+### Material
 
-##
-Material
-
-First, we will configure the material for the object. In 3dsMax, open the
-**
-Material Editor,
-**
- and create a new
-**
-Multi-SubObject
-**
- material with one
-**
-SubId
-**
- called
-**
-tutorial_merged_mesh
-**
+First, we will configure the material for the object. In 3dsMax, open the **Material Editor,** and create a new ** Multi-SubObject** material with one ** SubId** called ** tutorial_merged_mesh**
 
 Even though, we are using one material SubID, it is better if you follow the standard convention with all our other asset setups, of using a Multi-SubObject material.
 
-Load in your diffuse map which
- should contain an alpha channel for the opacity.
+Load in your diffuse map which should contain an alpha channel for the opacity.
 
 The example file refers to the following provided tutorial texture:
 
--
-`
-`
-<
-`
-*
-Your_Project
-*
->\Assets\
-`
-objects\tutorial\vegetation\02\grass\merged_mesh\
-**
-tutorial_merged_mesh_diff.tif
-**
-`
->
-`
-*
-*
+- `<Your_Project>\Assets\objects\tutorial\vegetation\02\grass\merged_mesh\tutorial_merged_mesh_diff.tif>`
 
-*
-*
-![Image](https://www.cryengine.com/docs/static/attachments/24157052)
-
-*
-Pic3a: Shader parameters setup
-*
+![Image](https://www.cryengine.com/docs/static/attachments/24157052) *Pic3a: Shader parameters setup*
 
 In the SubID for the material:
 
--
-Select the
-**
-Crytek Shader
-**
-.
+- Select the **Crytek Shader**.
+- In the **Physicalization** section, ** do not** check the ** Physicalize** check-box.
+- In the next drop-down box select **Default**.
+- Set **Alpha Test** to 40.
 
--
-In the
-**
-Physicalization
-**
- section,
-**
-do not
-**
- check the
-**
-Physicalize
-**
- check-box.
-
--
-In the next drop-down box select
-**
-Default
-**
-.
-
--
-Set
-**
-Alpha Test
-**
- to 40.
-
-##
-Export out the material
+#### Export out the material
 
 Now, we have configured the material for the object with its standard properties.
 
--
-Make sure you have the correct material selected in the material editor.
+- Make sure you have the correct material selected in the material editor.
+- And you are at the root level of the material (not inside the SubID).
+- In the **CRYENGINE exporter**, click the ** Create Material** button. Save this into the same directory as the object:
 
--
-And you are at the root level of the material (not inside the SubID).
+- `<Your_Project>\Assets\Objects\tutorial\vegetation\02\grass\merged_mesh\tutorial_merged_mesh.mtl>`
 
--
-In the
-**
-CRYENGINE exporter
-**
-, click the
-**
-Create Material
-**
- button. Save this into the same directory as the object:
+**![Image](https://www.cryengine.com/docs/static/attachments/24157053) Pic4: Select the material to export and make sure you are at the top level, not inside a SubID**
 
--
-`
-<
-`
-*
-Your_Project
-*
->\Assets\
-`
-Objects\tutorial\vegetation\02\grass\merged_mesh\
-**
-**
-tutorial_merged_mesh
-**
-.mtl
-**
->
-`
-*
-*
-![Image](https://www.cryengine.com/docs/static/attachments/24157053)
-
-Pic4: Select the material to export and make sure you are at the top level, not inside a SubID
-*
-*
-
-##
-Geometry
+### Geometry
 
 Our geometry for this tutorial is going to be two patches of grass blades. Keep in mind that we will place several hundred thousand instances of those two assets throughout our scene so keep your triangle count as low as possible.
 
 Note how the examples below only contain either 4 or 5 polygons. This is enough mesh detail to work with this system.
 
-##
-Create the Meshes
+#### Create the Meshes
 
-Create a single plane mesh for your first grass patch, divide up the shape into a similar polygon configuration (and assign ID1), and apply the material that we have just created to it (tutorial_merged_mesh.mtl). Use the
-**
-Unwrap UVW
-**
- modifier to adjust its UV shell to only fit around one of the grass patches on the texture. Create a copy of your mesh and move its UV shell to a different grass patch through another
-**
-Unwrap UVW
-**
- modifier (See
-*
-Pic5
-*
- and
-*
-Pic6)
-*
-.
+Create a single plane mesh for your first grass patch, divide up the shape into a similar polygon configuration (and assign ID1), and apply the material that we have just created to it (tutorial_merged_mesh.mtl). Use the **Unwrap UVW** modifier to adjust its UV shell to only fit around one of the grass patches on the texture. Create a copy of your mesh and move its UV shell to a different grass patch through another ** Unwrap UVW** modifier (See * Pic5* and * Pic6)*.
 
 Adapt the shape of both meshes to their applied textures. Finally name your 2 grass objects as:
 
--
-tutorial_merged_mesh_a
+- tutorial_merged_mesh_a
+- tutorial_merged_mesh_b
 
--
-tutorial_merged_mesh_b
-*
-*
-![Image](https://www.cryengine.com/docs/static/attachments/24157046)
+**![Image](https://www.cryengine.com/docs/static/attachments/24157046) Pic5: Geometry of the grass patches**
 
-Pic5: Geometry of the grass patches
-*
-*
+***![Image](https://www.cryengine.com/docs/static/attachments/24157047) Pic6: UV Layout of both grass meshes in 3dsMax. Note the grass UVs are matching the underlying texture***
 
-*
-*
-*
-![Image](https://www.cryengine.com/docs/static/attachments/24157047)
-
-Pic6: UV Layout of both grass meshes in 3dsMax. Note the grass UVs are matching the underlying texture
-*
-*
-*
-
-##
-Adding the Helper Dummies
+#### Adding the Helper Dummies
 
 Next let us add the dummies so that our grass can bend in the wind. Dummies are necessary for us to define a start, mid and end point of our rope chain. Create three dummies for both assets. Align them to the surface and place them roughly at the bottom, in the middle and the end of your grass geometry.
 
 Using the same naming convention as the Touch Bending system, name the dummies as follows;
 
--
-**
-branch1_1
-**
- - bottom dummy
+- **branch1_1** - bottom dummy
+- **branch1_2** - mid dummy
+- **branch1_3** - top dummy
 
--
-**
-branch1_2
-**
- - mid dummy
+Note how we do not have to **snap** the dummies exactly onto a vertex like the touch bending setup. You can if you want, but it is not required by the Merged Mesh system.
 
--
-**
-branch1_3
-**
- - top dummy
-
-Note how we do not have to
-**
-snap
-**
- the dummies exactly onto a vertex like the touch bending setup. You can if you want, but it is not required by the Merged Mesh system.
-
-*
-![Image](https://www.cryengine.com/docs/static/attachments/24157048)
-
-Pic7: Geometry of the grass patches with aligned dummies
-*
+*![Image](https://www.cryengine.com/docs/static/attachments/24157048) Pic7: Geometry of the grass patches with aligned dummies*
 
 Next, open up the Schematic view and link both sets of dummies to their corresponding geometry. Make sure the correct branch chain is connected to the right geometry, since we are dealing with two assets at once here.
 
-*
-*
-![Image](https://www.cryengine.com/docs/static/attachments/24157049)
+**![Image](https://www.cryengine.com/docs/static/attachments/24157049) Pic8: Schematic view of the assets hierarchy**
 
-Pic8: Schematic view of the assets hierarchy
-*
-*
+#### Export the Geometry
 
-##
-Export the Geometry
+We are now ready to export our geometry to the engine. In the **CRYENGINE exporter**:
 
-We are now ready to export our geometry to the engine. In the
-**
-CRYENGINE exporter
-**
-:
+- Add the root node of the asset to the export list. In this case it is called *tutorial_merged_mesh (a & b)*.
+- Select **Geometry (*.cgf)** from the ** Export** format drop down list.
+- Press the **Export Nodes** button.
 
--
-Add the root node of the asset to the export list. In this case it is called
-*
-tutorial_merged_mesh (a & b)
-*
-.
+*![Image](https://www.cryengine.com/docs/static/attachments/24157050) Pic9: Adding the asset to the exporter*
 
--
-Select
-**
-Geometry (*.cgf)
-**
- from the
-**
-Export
-**
- format drop down list.
+**![Image](https://www.cryengine.com/docs/static/attachments/24157051) Pic10: Successful export**
 
--
-Press the
-**
-Export Nodes
-**
- button.
-*
-![Image](https://www.cryengine.com/docs/static/attachments/24157050)
+### Continue to CRYENGINE
 
-Pic9: Adding the asset to the exporter
-*
-
-*
-*
-![Image](https://www.cryengine.com/docs/static/attachments/24157051)
-
-Pic10: Successful export
-*
-*
-
-##
-Continue to CRYENGINE
-
-We have now finished the setup for the 3dsMax portion of the tutorial. To continue, move to the next page where we configure the material and use the
-**
-Vegetation
-**
- Tool to place down some of these Merged Mesh assets.
+We have now finished the setup for the 3dsMax portion of the tutorial. To continue, move to the next page where we configure the material and use the **Vegetation** Tool to place down some of these Merged Mesh assets.
 
 [Vegetation 02 Grass (Merged Meshes) CRYENGINE](Vegetation%2002%20Grass%20(Merged%20Meshes)%20CRYENGINE.md)
 
-[Tutorial Files](#tutorial-files)
-[Pre-requisites for this Tutorial](#pre-requisites-for-this-tutorial)
-[Helpful Information](#helpful-information)
-[Initial 3dsMax setup](#initial-3dsmax-setup)
-[Material](#material)
-[Geometry](#geometry)
-[Continue to CRYENGINE](#continue-to-cryengine)
+[Tutorial Files](#tutorial-files)[Pre-requisites for this Tutorial](#pre-requisites-for-this-tutorial)[Helpful Information](#helpful-information)[Initial 3dsMax setup](#initial-3dsmax-setup)[Material](#material)[Geometry](#geometry)[Continue to CRYENGINE](#continue-to-cryengine)

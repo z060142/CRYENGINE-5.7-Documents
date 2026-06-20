@@ -7,103 +7,42 @@
 
 ## Content
 
-##
-Animation
+## Animation
 
-##
-Animation General
+### Animation General
 
--
-**
-Fixed:
-**
-(Cloth): Added output of skin-filename - for a warning in the case of missing metadata.
+- **Fixed:**(Cloth): Added output of skin-filename - for a warning in the case of missing metadata.
+- **Fixed:** Issue with view distance ratios not being refreshed correctly when propagating through attachment hierarchies.
+- **Tweaked:** Shipping pose modifiers that have been missing since the 5.6.3 release.
 
--
-**
-Fixed:
-**
-Issue with view distance ratios not being refreshed correctly when propagating through attachment hierarchies.
+## Audio
 
--
-**
-Tweaked:
-**
- Shipping pose modifiers that have been missing since the 5.6.3 release.
+### Audio General
 
-##
-Audio
+- **Tweaked:** Updated to FMOD 2.00.06.
+- **Tweaked:** Updated to Wwise 2019.1.5.
 
-##
-Audio General
+## Core System
 
--
-**
-Tweaked:
-**
- Updated to FMOD 2.00.06.
+### Entity System
 
--
-**
-Tweaked:
-**
- Updated to Wwise 2019.1.5.
+- **Fixed:** (DefaultComponents): Physicalized entities using CBaseMeshComponent are re-physicalized on any slot change resulting in physical properties being reset.
 
-##
-Core System
+## Graphics and Rendering
 
-##
-Entity System
+### Renderer General
 
--
-**
-Fixed:
-**
- (DefaultComponents): Physicalized entities using CBaseMeshComponent are re-physicalized on any slot change resulting in physical properties being reset.
+- **Fixed:** (Volumetric Fog): Fog on light probes - by bringing its GenerateLightList more in line with its counterpart in TiledLightVolumes.
 
-##
-Graphics and Rendering
+## Sandbox
 
-##
-Renderer General
+### Editor General
 
--
-**
-Fixed:
-**
- (Volumetric Fog): Fog on light probes - by bringing its GenerateLightList more in line with its counterpart in TiledLightVolumes.
+- **Fixed:** (Prefab LE): Snapping a hidden prefab to a place will un-hide the brush object inside of it, but keep the UI and helper in the invisible state.
+- **Fixed:** (MayaExporter): The "Create CryExportNode" window is smaller than the content displayed.
 
-##
-Sandbox
+## Tools
 
-##
-Editor General
+### Resource Compiler
 
--
-**
-Fixed:
-**
- (Prefab LE): Snapping a hidden prefab to a place will un-hide the brush object inside of it, but keep the UI and helper in the invisible state.
-
--
-**
-Fixed:
-**
- (MayaExporter): The "Create CryExportNode" window is smaller than the content
-displayed
-.
-
-##
-Tools
-
-##
-Resource Compiler
-
-**
-Fixed:
-**
- Converted a number of RCLogError to RCLogWarning. Will prevent the RC quitting early in the case of the Assets Folder
-containing
- an
-invalid
- skeleton. NOTE: Will still output a single error for the failing to load the skeleton after warnings (if LoadSkeletonInfo is called with bWarningsAsErrors disabled).
+**Fixed:** Converted a number of RCLogError to RCLogWarning. Will prevent the RC quitting early in the case of the Assets Folder containing an invalid skeleton. NOTE: Will still output a single error for the failing to load the skeleton after warnings (if LoadSkeletonInfo is called with bWarningsAsErrors disabled).

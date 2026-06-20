@@ -11,5 +11,4 @@
 
 ## Content
 
--
-[C++ Game Programming Tutorials](C%2B%2B%20Programming%20Tutorials/C%2B%2B%20Game%20Programming%20Tutorials.md)
+- [C++ Game Programming Tutorials](C%2B%2B%20Programming%20Tutorials/C%2B%2B%20Game%20Programming%20Tutorials.md)

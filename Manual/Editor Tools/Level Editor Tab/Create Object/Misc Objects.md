@@ -20,59 +20,35 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 The Misc Objects can be found on the Create Object tab. They include various tools and functions used in game development and particularly level design.
 
-##
-Camera
+### Camera
 
 A camera object is used to define custom views of your level. They can be triggered via the Flow Graph and Track View, and are heavily used within animated sequences.
 
-For more Information, please see
-[Camera](Misc%20Objects/Camera%20Object.md)
-.
+For more Information, please see [Camera](Misc%20Objects/Camera%20Object.md).
 
-##
-Comment
+### Comment
 
 The comment tool allows the adding of comments anywhere inside a level.
 
-For more Information, please
-see
+For more Information, please see [Comment](Misc%20Objects/Comment%20Tool.md).
 
-[Comment](Misc%20Objects/Comment%20Tool.md)
-.
+### Decal
 
-##
-Decal
+Placing decals in a level is a simple way to break up uninteresting textures, as well as bring together various level elements like brushes and terrain. A decal material has to be marked with the Decal flag in the Shader Generation Parameters in the material options.
 
-Placing decals in a level is a simple way to break up uninteresting textures, as well as bring together various level elements like brushes and terrain.
-A decal material has to be marked with the
-Decal
- flag in the
-Shader Generation Parameters
- in the material options.
+For more Information, please see [Decal](Misc%20Objects/Decal%20Entity.md).
 
-For more Information, please
-see
-[Decal](Misc%20Objects/Decal%20Entity.md)
-.
-
-##
-DistanceCloud
+### DistanceCloud
 
 Distance Clouds are basically horizontal planes placed into the sky. Unlike other types of clouds they cannot be flown through and thus they're mostly suitable for filling the sky in at far distances (horizon) or high altitudes.
 
-For more Information, please
-see
+For more Information, please see [DistanceCloud](Misc%20Objects/Distance%20Cloud.md).
 
-[DistanceCloud](Misc%20Objects/Distance%20Cloud.md)
-.
-
-##
-Environment Probe
+### Environment Probe
 
 With Environment Probes you have the ability to place cubemaps easily throughout a level just as you would a light. It is very useful especially with reflective materials because it will automatically assign the cubemap to anything within its radius.
 
@@ -80,44 +56,23 @@ This tool can be useful when used with dynamic lighting as well; it just require
 
 With the introduction of Physically Based Shading in CRYENGINE 3.6 cubemaps control many things in the engine now. Everything from Shadow colors, ambient diffuse values, particle diffuse, and reflections. They act as bounce lighting by taking the colors from the surroundings and applying them directly into the diffuse of materials inside their radius.
 
-For more information, please
-see
+For more information, please see [Environment Probe](Misc%20Objects/Environment%20Probe%20Entity.md)**.**
 
-[Environment Probe](Misc%20Objects/Environment%20Probe%20Entity.md)
-**
-.
-**
-
-##
-Reference Picture
+### Reference Picture
 
 The main purpose of the Reference Picture setup is that the ReferenceImage shader does not receive light or other shader information from within the level. It keeps the image at its pure source.
 
-For more information, please
-see
+For more information, please see [Reference Picture](Misc%20Objects/Reference%20Picture.md)**.**
 
-[Reference Picture](Misc%20Objects/Reference%20Picture.md)
-**
-.
-**
-
-##
-River
+### River
 
 The River Tool functions similarly to the Road Tool, but is preferable for setting up rivers as it contains several more, and very important, parameters needed for creating realistic looking rivers.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/16220240)
 
-For more information, please
-see
+For more information, please see [The River Tool](Misc%20Objects/River%20Tool.md)**.**
 
-[The River Tool](Misc%20Objects/River%20Tool.md)
-**
-.
-**
-
-##
-Road
+### Road
 
 The Road Tool uses a series of points to shape terrain and/or apply a texture on top of the terrain texture. Its use is not limited to designing roads in the traditional sense, but can also be used generally to shape terrain.
 
@@ -127,48 +82,22 @@ Depending on the purpose of the road, it may be useful to first place a vehicle 
 
 ![Image](https://www.cryengine.com/docs/static/attachments/1212787)
 
-For more Information, please
-see
+For more Information, please see [The Road Tool](Misc%20Objects/Road%20Tool.md)**.**
 
-[The Road Tool](Misc%20Objects/Road%20Tool.md)
-**
-.
-**
-
-##
-Rope
+### Rope
 
 Ropes can be used to attach objects together or to hang objects from. They react to objects around them, but will not affect those objects.
 
- |
- |
+|
+--- | ---
+Attached | Not Attached
 
-Attached
- |
-Not Attached
- |
+Please see the [Rope Tool](Misc%20Objects/Rope%20Tool.md) tutorial.
 
-Please see the
-[Rope Tool](Misc%20Objects/Rope%20Tool.md)
- tutorial.
-
-##
-Spline Distributor
+### Spline Distributor
 
 You can make precise changes to the geometry by adjusting the spline points and parameters.
 
-For more information, please
-see
-[Spline Distributor](Misc%20Objects/Spline%20Distributor.md)
-.
+For more information, please see [Spline Distributor](Misc%20Objects/Spline%20Distributor.md).
 
-[Camera](#camera)
-[Comment](#comment)
-[Decal](#decal)
-[DistanceCloud](#distancecloud)
-[Environment Probe](#environment-probe)
-[Reference Picture](#reference-picture)
-[River](#river)
-[Road](#road)
-[Rope](#rope)
-[Spline Distributor](#spline-distributor)
+[Camera](#camera)[Comment](#comment)[Decal](#decal)[DistanceCloud](#distancecloud)[Environment Probe](#environment-probe)[Reference Picture](#reference-picture)[River](#river)[Road](#road)[Rope](#rope)[Spline Distributor](#spline-distributor)

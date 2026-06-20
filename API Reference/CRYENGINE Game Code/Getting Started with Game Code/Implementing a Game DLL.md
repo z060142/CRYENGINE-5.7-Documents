@@ -7,24 +7,10 @@
 
 ## Content
 
-##
-Dependencies
+### Dependencies
 
-To compile the DLL, header files from both
-`
-Code\CryEngine\CryCommon
-`
- and
-`
-Code\CryEngine\CryAction
-`
- are required. STLport should be used if the rest of the engine is compiled using it.
+To compile the DLL, header files from both `Code\CryEngine\CryCommon` and ` Code\CryEngine\CryAction` are required. STLport should be used if the rest of the engine is compiled using it.
 
-##
-Selecting a Game DLL
+### Selecting a Game DLL
 
-It's possible to instruct CryENGINE to load any specific Game DLL by setting the
-**
-sys_dll_game
-**
- console variable inside system.cfg. It is not possible to switch to a different DLL during run-time.
+It's possible to instruct CryENGINE to load any specific Game DLL by setting the **sys_dll_game** console variable inside system.cfg. It is not possible to switch to a different DLL during run-time.

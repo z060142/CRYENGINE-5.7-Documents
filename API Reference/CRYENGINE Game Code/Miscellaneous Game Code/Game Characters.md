@@ -12,16 +12,11 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 This section hosts various information on Characters/Players for your game, and related system.s
 
-##
-In This Topic
+### In This Topic
 
--
-[Hit and Death Reactions System](Game%20Characters/Hit%20and%20Death%20Reactions%20System.md)
-
--
-[Body Damage and Destruction](Game%20Characters/Body%20Damage%20and%20Destruction.md)
+- [Hit and Death Reactions System](Game%20Characters/Hit%20and%20Death%20Reactions%20System.md)
+- [Body Damage and Destruction](Game%20Characters/Body%20Damage%20and%20Destruction.md)

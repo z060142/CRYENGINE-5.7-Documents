@@ -7,237 +7,73 @@
 
 ## Content
 
-##
-Description
+### Description
 
 A Controller Definition contains the setup of a mannequin character.
 
-It refers to the
-[Tag Definition File (xxxTags.xml)](Tag%20Definition%20File%20(xxxTags.xml).md)
- and
-[FragmentID Definition File (xxxActions.xml)](FragmentID%20Definition%20File%20(xxxActions.xml).md)
- used by this character.
-It is typically referred to by the game entity, as the file is needed by the entity to create a
-[Mannequin ActionController](../Mannequin%20Technical%20Topics/Mannequin%20ActionController.md)
-. See the overview picture in the
-[Mannequin Files](../Mannequin%20Files.md)
- document.
+It refers to the [Tag Definition File (xxxTags.xml)](Tag%20Definition%20File%20(xxxTags.xml).md) and [FragmentID Definition File (xxxActions.xml)](FragmentID%20Definition%20File%20(xxxActions.xml).md) used by this character. It is typically referred to by the game entity, as the file is needed by the entity to create a [Mannequin ActionController](../Mannequin%20Technical%20Topics/Mannequin%20ActionController.md). See the overview picture in the [Mannequin Files](../Mannequin%20Files.md) document.
 
-It defines which scopes are assigned to each of the FragmentIDs, aka the scopemasks. See
-[FragmentIDs](../Mannequin%20Concepts/FragmentIDs.md)
- and
-[Scopemasks](../Mannequin%20Concepts/Mannequin%20Scopemasks.md)
-.
+It defines which scopes are assigned to each of the FragmentIDs, aka the scopemasks. See [FragmentIDs](../Mannequin%20Concepts/FragmentIDs.md) and [Scopemasks](../Mannequin%20Concepts/Mannequin%20Scopemasks.md).
 
-It defines which scopes and scope contexts the character has. See
-[Mannequin Scopes](../Mannequin%20Concepts/Mannequin%20Scopes.md)
- and
-[Scope Contexts](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
-.
+It defines which scopes and scope contexts the character has. See [Mannequin Scopes](../Mannequin%20Concepts/Mannequin%20Scopes.md) and [Scope Contexts](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md).
 
-##
-Creating a Controller Definition
+### Creating a Controller Definition
 
-You create a controller definition manually.
- See the
-[FileFormat](Controller%20Definition%20File%20(xxxControllerDefs.xml).md#ControllerDefinitionFile%28xxxControllerDefs.xml)-FileFormat)
- section.
+You create a controller definition manually. See the [FileFormat](Controller%20Definition%20File%20(xxxControllerDefs.xml).md#ControllerDefinitionFile%28xxxControllerDefs.xml)-FileFormat) section.
 
-##
-Editing a Controller Definition
+### Editing a Controller Definition
 
-The scopemasks and related flags can be edited in the
-[Mannequin FragmentID Editor](../Mannequin%20FragmentID%20Editor.md)
-.
+The scopemasks and related flags can be edited in the [Mannequin FragmentID Editor](../Mannequin%20FragmentID%20Editor.md).
 
-All the rest has to be edited manually in the xml file. See the
-[FileFormat](Controller%20Definition%20File%20(xxxControllerDefs.xml).md#ControllerDefinitionFile%28xxxControllerDefs.xml)-FileFormat)
- section.
+All the rest has to be edited manually in the xml file. See the [FileFormat](Controller%20Definition%20File%20(xxxControllerDefs.xml).md#ControllerDefinitionFile%28xxxControllerDefs.xml)-FileFormat) section.
 
-##
-File Format
+### File Format
 
 This is an example Controller Definition File:
 
 ```
-
-`
 <ControllerDef>
- <Tags filename="Animations/Mannequin/ADB/sampleTags.xml"/>
- <Fragments filename="Animations/Mannequin/ADB/sampleFragmentIds.xml"/>
- <SubContexts/>
- <FragmentDefs>
-  <move scopes="FullBody+Torso" flags="Persistent"/>
-  <burst_fire scopes="Torso+Weapon">
-   <Override tags="heavyMortar" fragTags="boosted" scopes="Torso"/>
-  </burst_fire>
- </FragmentDefs>
- <ScopeDefs>
-  <FullBody layer="0" numLayers="3" context="MainContext"/>
-  <Torso layer="3" numLayers="3" context="MainContext"/>
-  <Face layer="6" numLayers="0" context="MainContext" Tags="scope_face"/>
-  <Weapon layer="0" numLayers="2" context="WeaponContext"/>
- </ScopeDefs>
+<Tags filename="Animations/Mannequin/ADB/sampleTags.xml"/>
+<Fragments filename="Animations/Mannequin/ADB/sampleFragmentIds.xml"/>
+<SubContexts/>
+<FragmentDefs>
+<move scopes="FullBody+Torso" flags="Persistent"/>
+<burst_fire scopes="Torso+Weapon">
+<Override tags="heavyMortar" fragTags="boosted" scopes="Torso"/>
+</burst_fire>
+</FragmentDefs>
+<ScopeDefs>
+<FullBody layer="0" numLayers="3" context="MainContext"/>
+<Torso layer="3" numLayers="3" context="MainContext"/>
+<Face layer="6" numLayers="0" context="MainContext" Tags="scope_face"/>
+<Weapon layer="0" numLayers="2" context="WeaponContext"/>
+</ScopeDefs>
 </ControllerDef>
-`
-
 ```
 
-The
-*
-Tags
-*
- element contains a reference to the
-[Tag Definition File (xxxTags.xml)](Tag%20Definition%20File%20(xxxTags.xml).md)
- used by this setup.
+The *Tags* element contains a reference to the [Tag Definition File (xxxTags.xml)](Tag%20Definition%20File%20(xxxTags.xml).md) used by this setup.
 
-The
-*
-Fragments
-*
- element contains a reference to the
-[FragmentID Definition File (xxxActions.xml)](FragmentID%20Definition%20File%20(xxxActions.xml).md)
- used by this setup.
+The *Fragments* element contains a reference to the [FragmentID Definition File (xxxActions.xml)](FragmentID%20Definition%20File%20(xxxActions.xml).md) used by this setup.
 
-The
-*
-SubContexts
-*
- element lists all the different
-[Mannequin SubContexts](../Mannequin%20Technical%20Topics/Mannequin%20SubContexts.md)
+The *SubContexts* element lists all the different [Mannequin SubContexts](../Mannequin%20Technical%20Topics/Mannequin%20SubContexts.md) available for this controller definition.
 
-available for this controller definition.
+The *FragmentDefs* element has to contain exactly one entry for each fragmentID specified in the FragmentID Definition. Typically editing of these elements is done automatically by the editor. For each of the fragmentIDs:
 
-The
-*
-FragmentDefs
-*
- element has to contain exactly one entry for each fragmentID specified in the FragmentID Definition. Typically editing of these elements is done automatically by the editor.
+- *scopes* attribute: defines the [ScopeMasks](../Mannequin%20Concepts/Mannequin%20Scopemasks.md) for this fragmentID.
+- *flags* attribute: optionally provides flags in the Flags attribute. If more than one flag is set, separate them by a "+" character. Supported flags:
 
-For each of the fragmentIDs:
+Flag | Description
+--- | ---
+**Persistent** | Forces the action that requested this fragmentID to keep playing, even when the fragment that is playing is not looping and has ended.
+**AutoReinstall** | Constantly checks whether there is a fragment available that matches the current [Mannequin TagState](../Mannequin%20Concepts/Mannequin%20TagState.md). If so, the system will push the new, better matching fragment for you. Useful for basic 'idling' actions. Typically used together with the "Persistent" flag.
 
--
-*
-scopes
-*
- attribute: defines the
-[ScopeMasks](../Mannequin%20Concepts/Mannequin%20Scopemasks.md)
- for this fragmentID.
+- *Override* element: overrides the scopemask for this fragmentID when certain tags (and [fragtags](../Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)) are matched. In the example, when the fragmentID "burst_fire" is requested, normally the scopemask would be "Torso+Weapon". But if the global tag "heavyMortar" and fragtag "boosted" is set at that time, the scopemask "Torso" is used instead.
 
--
-*
-flags
-*
- attribute: optionally provides flags in the Flags attribute. If more than one flag is set, separate them by a "+" character. Supported flags:
-Flag
+The *ScopeDefs* elements defines the [scopes](../Mannequin%20Concepts/Mannequin%20Scopes.md) as well as the [scope contexts](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md) used by this setup. Each element inside the ScopeDefs element defines a scope. The element name is the scope name. Each scope has the following attributes:
 
- |
-Description
-
- |
-
-**
-Persistent
-**
-
- |
-Forces the action that requested this fragmentID to keep playing, even when the fragment that is playing is not looping and has ended.
-
- |
-
-**
-AutoReinstall
-**
-
- |
-Constantly checks whether there is a fragment available that matches the current
-[Mannequin TagState](../Mannequin%20Concepts/Mannequin%20TagState.md)
-.
-
-If so, the system will push the new, better matching fragment for you. Useful for basic 'idling' actions. Typically used together with the "Persistent" flag.
-
- |
-
--
-*
-Override
-*
- element: overrides the scopemask for this fragmentID when certain tags (and
-[fragtags](../Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)
-) are matched. In the example, when the fragmentID "burst_fire" is requested, normally the scopemask would be "Torso+Weapon". But if the global tag "heavyMortar" and fragtag "boosted" is set at that time, the scopemask "Torso" is used instead.
-The
-*
-ScopeDefs
-*
- elements defines the
-[scopes](../Mannequin%20Concepts/Mannequin%20Scopes.md)
- as well as the
-[scope contexts](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
- used by this setup. Each element inside the ScopeDefs element defines a scope. The element name is the scope name. Each scope has the following attributes:
-
-Attribute
-
- |
-Description
-
- |
-
-**
-layer
-**
-
- |
-The index of the first layer in the animation system this scope is bound to.
-
-Careful: When picking a layer, make sure it doesn't clash with the layer being in use by the Pseudo Lip-Sync feature. Mannequin and Pseudo LipSync don't know about each other and therefore can't detect when one uses a layer that is already in use by the other!
-
- |
-
-**
-numLayers
-**
-
- |
-The number of animation layers this scope is bound to. A scope is bound to the animation layers with indices "layer" up to "layer+numLayers-1".
-
-You have to make sure yourself that layers of scopes that use the same scope context do not overlap. It is allowed to specify '0' here, in which case the scope will only allow procedural layers.
-
- |
-
-**
-context
-**
-
- |
-The name of the scope context used by this scope.
-
- |
-
-**
-tags
-**
-
- |
-An optional tag, sometimes called the 'scope tag'. If set, it will be a tag that is
-*
-required
-*
- for fragments playing on this scope.
-
-This makes it possible to have multiple fragments playing on scopes that are using the same scope context.
-
-In the above example, it is possible to have different fragments playing on the FullBody and Face scope. If you start an action on "FullBody+Face", the system will select two different fragments.
-
-The fragment that is playing on the Face scope will need the "scope_face" tag. The fragment playing on the FullBody scope will not have this tag.
-
-The editor will automatically add this tag to a fragment if you start editing this fragment on the Face scope.
-
-The system will, however, only play
-*
-one
-*
- fragment when you start an action on "FullBody+Torso", as they also both refer to the same context ("MainContext"), but neither of the two scopes has a scope tag.
-
-In that example the fragment will end up on the FullBody scope.
-
- |
+Attribute | Description
+--- | ---
+**layer** | The index of the first layer in the animation system this scope is bound to. Careful: When picking a layer, make sure it doesn't clash with the layer being in use by the Pseudo Lip-Sync feature. Mannequin and Pseudo LipSync don't know about each other and therefore can't detect when one uses a layer that is already in use by the other!
+**numLayers** | The number of animation layers this scope is bound to. A scope is bound to the animation layers with indices "layer" up to "layer+numLayers-1". You have to make sure yourself that layers of scopes that use the same scope context do not overlap. It is allowed to specify '0' here, in which case the scope will only allow procedural layers.
+**context** | The name of the scope context used by this scope.
+**tags** | An optional tag, sometimes called the 'scope tag'. If set, it will be a tag that is *required* for fragments playing on this scope. This makes it possible to have multiple fragments playing on scopes that are using the same scope context. In the above example, it is possible to have different fragments playing on the FullBody and Face scope. If you start an action on "FullBody+Face", the system will select two different fragments. The fragment that is playing on the Face scope will need the "scope_face" tag. The fragment playing on the FullBody scope will not have this tag. The editor will automatically add this tag to a fragment if you start editing this fragment on the Face scope. The system will, however, only play * one* fragment when you start an action on "FullBody+Torso", as they also both refer to the same context ("MainContext"), but neither of the two scopes has a scope tag. In that example the fragment will end up on the FullBody scope.

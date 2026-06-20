@@ -7,36 +7,14 @@
 
 ## Content
 
-##
-Child Entity
+### Child Entity
 
 Spawns an entity of the specified class at the component's location when the child entity component instance is created.
 
-Setting
- |
-Description
- |
+Setting | Description
+--- | ---
+**Entity Class** | The entity class of which we want to create an instance.
+**Lock Transformation** | If checked, the spawned entity will become a child of this entity.
+**Ignore Collision With** | Whether or not the spawned entity should ignore collisions with the entity.
 
-**
-Entity Class
-**
- |
-The entity class of which we want to create an instance.
- |
-
-**
-Lock Transformation
-**
- |
-If checked, the spawned entity will become a child of this entity.
- |
-
-**
-Ignore Collision With
-**
- |
-Whether or not the spawned entity should ignore collisions with the entity.
- |
-
-[Child Entity](#child-entity)
-[On This Page.](#on-this-page)
+[Child Entity](#child-entity)[On This Page.](#on-this-page)

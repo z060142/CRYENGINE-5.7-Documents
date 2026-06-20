@@ -7,121 +7,34 @@
 
 ## Content
 
-##
-Video:ClipCapture
+### Video:ClipCapture
 
 Used to capture video clips while a game is running and save them locally or to the cloud.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688102)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Capture** | Any | Begins capturing a video clip
+**DurationBefore** | Float | Records the specified number of seconds before the**Capture** input triggers
+**DurationAfter** | Float | Records the specified number of seconds after the**Capture** input triggers
+**ClipName** | String | Usage details are specific to the operating system
+**LocalizedClipName** | String | Usage details are specific to the operating system
+**Metadata** | String | (Optional) Tags video clips
 
-**
-Capture
-**
- |
-Any
- |
-Begins capturing a video clip
- |
+**Outputs**
 
-**
-DurationBefore
-**
- |
-Float
- |
-Records the specified number of seconds before the
-**
-Capture
-**
- input triggers
- |
+Port | Type | Description
+--- | --- | ---
+**BeganCapture** | Any | Triggers when video clip capturing begins
+**Error** | Any | Triggers when a clip capture error occurs
 
-**
-DurationAfter
-**
- |
-Float
- |
-Records the specified number of seconds after the
-**
-Capture
-**
- input triggers
- |
-
-**
-ClipName
-**
- |
-String
- |
-Usage details are specific to the operating system
- |
-
-**
-LocalizedClipName
-**
- |
-String
- |
-Usage details are specific to the operating system
- |
-
-**
-Metadata
-**
- |
-String
- |
-(Optional) Tags video clips
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-BeganCapture
-**
- |
-Any
- |
-Triggers when video clip capturing begins
- |
-
-**
-Error
-**
- |
-Any
- |
-Triggers when a clip capture error occurs
- |
-
-##
-Video:VideoPlayback
+### Video:VideoPlayback
 
 Video player node that is using USMPlayer UIElement.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688101)
 
-[Video:ClipCapture](#videoclipcapture)
-[Video:VideoPlayback](#videovideoplayback)
+[Video:ClipCapture](#videoclipcapture)[Video:VideoPlayback](#videovideoplayback)

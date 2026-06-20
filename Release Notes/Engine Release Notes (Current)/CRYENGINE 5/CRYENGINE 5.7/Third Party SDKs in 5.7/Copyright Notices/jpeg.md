@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 The authors make NO WARRANTY or representation, either express or implied,
 with respect to this software, its quality, accuracy, merchantability, or
 fitness for a particular purpose. This software is provided "AS IS", and you,
@@ -60,6 +58,4 @@ support has been removed altogether, and the GIF writer has been simplified
 to produce "uncompressed GIFs". This technique does not use the LZW
 algorithm; the resulting GIF files are larger than usual, but are readable
 by all standard GIF decoders.
-`
-
 ```

@@ -7,25 +7,18 @@
 
 ## Content
 
-##
-Group-level AI
+### Group-level AI
 
-##
-Example 1: Factions
+#### Example 1: Factions
 
 Place on a map three Grunts of the following factions:
 
--
-Grunts.
+- Grunts.
+- Assassins.
+- Civilians.
 
--
-Assassins.
-
--
-Civilians.
 Note who is hostile to who.
 
-##
-Example 2: AI formations
+#### Example 2: AI formations
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23461220)

@@ -13,11 +13,6 @@
 
 ## Content
 
--
-[Qt Programming in Sandbox](Qt%20Programming/Qt%20Programming%20in%20Sandbox.md)
-
--
-[UI Programming Patterns](Qt%20Programming/UI%20Programming%20Patterns.md)
-
--
-[ItemModels and ItemViews](Qt%20Programming/ItemModels%20and%20ItemViews.md)
+- [Qt Programming in Sandbox](Qt%20Programming/Qt%20Programming%20in%20Sandbox.md)
+- [UI Programming Patterns](Qt%20Programming/UI%20Programming%20Patterns.md)
+- [ItemModels and ItemViews](Qt%20Programming/ItemModels%20and%20ItemViews.md)

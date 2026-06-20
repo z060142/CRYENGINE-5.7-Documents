@@ -7,124 +7,66 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 Flow Graph nodes can be used at any time, as long as the plugins are loaded. This means you can tie them into the System Events and Actions such as level loading or UI procedures.
 
-##
-Flow Graph Architecture Limitations
+### Flow Graph Architecture Limitations
 
 Due to the architecture of the Flow Graph system, the following limits effective interaction with the GamePlatform system:
 
--
-Data types are limited to Strings, 32-bit integers and Booleans.
+- Data types are limited to Strings, 32-bit integers and Booleans.
+- Execution should be handled during a Flow Graph update tick. Event nodes are not triggered immediately, but are queued until the next tick (frame).
+- Containers are limited, which makes array data difficult to handle.
 
--
-Execution should be handled during a Flow Graph update tick. Event nodes are not triggered immediately, but are queued until the next tick (frame).
-
--
-Containers are limited, which makes array data difficult to handle.
-
-##
-Data Types
+### Data Types
 
 Most identifiers used by the GamePlatform services are variations of 64 bit types.
 
 Since Flow Graph doesn't natively support 64 bit types, convert them to strings for Flow Graph, and then back into 64 bit types for execution on the service APIs. Here is an example of an identifier being implicitly converted to a string:
 
-![Image](https://www.cryengine.com/docs/static/attachments/76448711)
+![Image](https://www.cryengine.com/docs/static/attachments/76448711) *The "Account Id" pins are strings, converted from the underlying data type of the Account Identifier. For Steam, this would be the Steam 64 Id, a 64bit number*
 
-*
-The "Account Id" pins are strings, converted from the underlying data type of the Account Identifier. For Steam, this would be the Steam 64 Id, a 64bit number
-*
-
-##
-Event Handling
+### Event Handling
 
 Almost all GamePlatform events are queued in nodes called Listeners. Some things to note about listener nodes:
 
--
-Each individual Flow Graph node of the same event duplicates the event data. If you have 2 nodes of the same event, handling an event from one node will not remove it from any other.
+- Each individual Flow Graph node of the same event duplicates the event data. If you have 2 nodes of the same event, handling an event from one node will not remove it from any other.
+- Each Flow Graph Listener node can queue several events before execution is passed to it. You should pull all events, if there are any; instead of pulling one event per frame, pull as many as there are or you may fall behind.
+- Some Listener nodes will make use of special Container nodes which are explained further below in more detail.
 
--
-Each Flow Graph Listener node can queue several events before execution is passed to it. You should pull all events, if there are any; instead of pulling one event per frame, pull as many as there are or you may fall behind.
-
--
-Some Listener nodes will make use of special Container nodes which are explained further below in more detail.
 It is recommended to only have a single event node for each unique event you are listening to at a time, as there is also no guarantee which node will execute first.
 
 Here is an example of handling events with a Listener node:
 
-![Image](https://www.cryengine.com/docs/static/attachments/76448713)
+![Image](https://www.cryengine.com/docs/static/attachments/76448713) **The "Get Next Event" input on the Listener node is triggered as long as there are events left to consume**
 
-*
-*
-The "Get Next Event" input on the Listener node is triggered as long as there are events left to consume
-*
-*
+### Container-based Event Data
 
-##
-Container-based Event Data
-
-Some Listener nodes will provide a "
-*
-Container Id
-*
-" that can be used to access array data.
+Some Listener nodes will provide a "*Container Id*" that can be used to access array data.
 
 These are required in some cases for functions that require an array as input; for example, getting details on multiple Catalog items. Some details to mention regarding the special containers:
 
--
-Each Container is unique and accessible from any graph. (Similar to System Containers).
+- Each Container is unique and accessible from any graph. (Similar to System Containers).
+- All Containers are persistent and must be deleted manually.
+- Each Container is specialized and must be accessed by the respective Container node.
+- An event will be sent to every event node of the event type in any active Flow Graph. When each event node receives the event, a unique container is created for each node (in the backend) which can then be accessed using the Container nodes. This means that data will be duplicated.
+- Some functions require these Containers so that you can pass all the elements from one event into the function of another directly.
 
--
-All Containers are persistent and must be deleted manually.
-
--
-Each Container is specialized and must be accessed by the respective Container node.
-
--
-An event will be sent to every event node of the event type in any active Flow Graph. When each event node receives the event, a unique container is created for each node (in the backend) which can then be accessed using the Container nodes. This means that data will be duplicated.
-
--
-Some functions require these Containers so that you can pass all the elements from one event into the function of another directly.
 Here is an example of handling a Container-based event:
 
-![Image](https://www.cryengine.com/docs/static/attachments/76448714)
-
-*
-For each event, each item in the Container is looped. The Container is deleted when there are no elements left
-*
+![Image](https://www.cryengine.com/docs/static/attachments/76448714) *For each event, each item in the Container is looped. The Container is deleted when there are no elements left*
 
 Since multiple events can be queued, there may be multiple Containers waiting to be pulled.
 
-The following is an example of a function that uses the Container created by an event node:
+The following is an example of a function that uses the Container created by an event node:![Image](https://www.cryengine.com/docs/static/attachments/76448715) *The deletion of the container is not shown here, as the event node for the function called should handle the deletion of the Container that was used to generate it*
 
-![Image](https://www.cryengine.com/docs/static/attachments/76448715)
-
-*
-The deletion of the container is not shown here, as the event node for the function called should handle the deletion of the Container that was used to generate it
-*
-
-##
-Simplified Array Results
+### Simplified Array Results
 
 Container nodes are used when a function node requires an array input. As this is not the case for all data that can be received from a function or event node, some nodes allow you to iterate over each item directly.
 
-The following an example of a node that lists each item individually without a Container node:
+The following an example of a node that lists each item individually without a Container node:![Image](https://www.cryengine.com/docs/static/attachments/76448716)
 
-![Image](https://www.cryengine.com/docs/static/attachments/76448716)
+*There is no Container node to manage. * Each call to the Retrieve input will overwrite the elements that will be output by the node. Get Next is used to get each item sequentially and can be handled directly.**
 
-*
-There is no Container node to manage.
-*
-Each call to the Retrieve input will overwrite the elements that will be output by the node. Get Next is used to get each item sequentially and can be handled directly.
-*
-*
-
-[Flow Graph Architecture Limitations](#flow-graph-architecture-limitations)
-[Data Types](#data-types)
-[Event Handling](#event-handling)
-[Container-based Event Data](#container-based-event-data)
-[Simplified Array Results](#simplified-array-results)
+[Flow Graph Architecture Limitations](#flow-graph-architecture-limitations)[Data Types](#data-types)[Event Handling](#event-handling)[Container-based Event Data](#container-based-event-data)[Simplified Array Results](#simplified-array-results)

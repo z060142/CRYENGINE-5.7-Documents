@@ -16,23 +16,10 @@
 
 ## Content
 
--
-[Getting Started with Game Code](CRYENGINE%20Game%20Code/Getting%20Started%20with%20Game%20Code.md)
-
--
-[Flowgraph Programming](CRYENGINE%20Game%20Code/Flowgraph%20Programming.md)
-
--
-[GameZero Programming](CRYENGINE%20Game%20Code/GameZero%20Programming.md)
-
--
-[Game Objects](CRYENGINE%20Game%20Code/Game%20Objects.md)
-
--
-[Weapon System](CRYENGINE%20Game%20Code/Weapon%20System.md)
-
--
-[Game Rules Script Callbacks](CRYENGINE%20Game%20Code/Game%20Rules%20Script%20Callbacks.md)
-
--
-[Miscellaneous Game Code](CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code.md)
+- [Getting Started with Game Code](CRYENGINE%20Game%20Code/Getting%20Started%20with%20Game%20Code.md)
+- [Flowgraph Programming](CRYENGINE%20Game%20Code/Flowgraph%20Programming.md)
+- [GameZero Programming](CRYENGINE%20Game%20Code/GameZero%20Programming.md)
+- [Game Objects](CRYENGINE%20Game%20Code/Game%20Objects.md)
+- [Weapon System](CRYENGINE%20Game%20Code/Weapon%20System.md)
+- [Game Rules Script Callbacks](CRYENGINE%20Game%20Code/Game%20Rules%20Script%20Callbacks.md)
+- [Miscellaneous Game Code](CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code.md)

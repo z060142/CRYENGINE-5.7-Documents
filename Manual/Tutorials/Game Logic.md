@@ -16,8 +16,4 @@
 
 Building, debugging, and optimizing game mechanics and logic using the visual scripting tools in CRYENGINE 5.x, and creating game mechanics and custom plugins, defining characters, entity components, custom entities, installation and compiling using C++.
 
--
-[Flow Graph Tutorials](Game%20Logic/Flow%20Graph%20Tutorials.md)
-
--
-[Programming Tutorials](Game%20Logic/Programming%20Tutorials.md)
+- [Flow Graph Tutorials](Game%20Logic/Flow%20Graph%20Tutorials.md) - [Programming Tutorials](Game%20Logic/Programming%20Tutorials.md)

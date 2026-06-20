@@ -16,20 +16,9 @@
 
 ## Content
 
--
-[Creating an Entity](Entities%20Overview/Creating%20an%20Entity.md)
-
--
-[Prefabs](Entities%20Overview/Prefabs.md)
-
--
-[Archetypes](Entities%20Overview/Archetypes.md)
-
--
-[Area Objects](Entities%20Overview/Area%20Objects.md)
-
--
-[Brushes](Entities%20Overview/Brushes.md)
-
--
-[Ruler Tool](Entities%20Overview/Ruler%20Tool.md)
+- [Creating an Entity](Entities%20Overview/Creating%20an%20Entity.md)
+- [Prefabs](Entities%20Overview/Prefabs.md)
+- [Archetypes](Entities%20Overview/Archetypes.md)
+- [Area Objects](Entities%20Overview/Area%20Objects.md)
+- [Brushes](Entities%20Overview/Brushes.md)
+- [Ruler Tool](Entities%20Overview/Ruler%20Tool.md)

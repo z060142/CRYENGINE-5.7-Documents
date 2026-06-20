@@ -12,8 +12,5 @@
 
 ## Content
 
--
-[LocalGrids Component](Physics%20Features/LocalGrids%20Component.md)
-
--
-[Rigid Body Component](Physics%20Features/Rigid%20Body%20Component.md)
+- [LocalGrids Component](Physics%20Features/LocalGrids%20Component.md)
+- [Rigid Body Component](Physics%20Features/Rigid%20Body%20Component.md)

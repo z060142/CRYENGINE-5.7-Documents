@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,
 All rights reserved.
 
@@ -46,6 +44,4 @@ email: matumoto@math.keio.ac.jp
 
 Feedback about the C++ port should be sent to Jasper Bedaux,
 see http://www.bedaux.net/mtrand/ for e-mail address and info.
-`
-
 ```

@@ -8,9 +8,5 @@
 ## Content
 
 ```
-
-`
 This product includes components of the PowerVR Tools Software from Imagination Technologies Limited.
-`
-
 ```

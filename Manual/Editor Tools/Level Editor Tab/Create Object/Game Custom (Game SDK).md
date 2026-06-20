@@ -7,7 +7,4 @@
 
 ## Content
 
-These entities are tied to GameSDK. For more information about GameSDK, please visit the
-
-[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
-.
+These entities are tied to GameSDK. For more information about GameSDK, please visit the [Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project).

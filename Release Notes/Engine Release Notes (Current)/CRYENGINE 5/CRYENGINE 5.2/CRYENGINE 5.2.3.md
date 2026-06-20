@@ -7,50 +7,22 @@
 
 ## Content
 
-##
-Audio
+### Audio
 
-##
-Audio General
+#### Audio General
 
--
-**
-Fixed:
-**
- FMOD Studio events did not assume obstruction and occlusion values on start.
+- **Fixed:** FMOD Studio events did not assume obstruction and occlusion values on start.
+- **Fixed:** AreaManager: "InnerFadeDistance" property wasn't properly ex-/imported for AreaBox, AreaSphere and AreaShape.
 
--
-**
-Fixed:
-**
- AreaManager: "InnerFadeDistance" property wasn't properly ex-/imported for AreaBox, AreaSphere and AreaShape.
+### Core/System
 
-##
-Core/System
+#### Engine General
 
-##
-Engine General
+- **Fixed:** UIElements not loaded in CE 5.1.
 
--
-**
-Fixed:
-**
- UIElements not loaded in CE 5.1.
+### Sandbox
 
-##
-Sandbox
+#### Editor General
 
-##
-Editor General
-
--
-**
-Fixed:
-**
- 'Console Variables' window crashes when a CVar is unregistered.
-
--
-**
-Fixed:
-**
- Crash when opening a level while searching in the 'Console Variables' window.
+- **Fixed:** 'Console Variables' window crashes when a CVar is unregistered.
+- **Fixed:** Crash when opening a level while searching in the 'Console Variables' window.

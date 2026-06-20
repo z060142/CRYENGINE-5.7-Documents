@@ -7,7 +7,6 @@
 
 ## Content
 
-H
-ow to debug the AI awareness of a NPC through its primary and secondary FOV, where to change it in the property table as well as how to dynamically set the property during gameplay. The method shown is a key input, but could be extended for any sort of event.
+How to debug the AI awareness of a NPC through its primary and secondary FOV, where to change it in the property table as well as how to dynamically set the property during gameplay. The method shown is a key input, but could be extended for any sort of event.
 
 [Embed: https://www.youtube.com/watch?v=huImqOd4fdg&list=PLpCgy91Y5vMuwKSCe-iOJ-OyAMXkMvb4I&index=9]

@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 Copyright (c) 1998-2014,2015 Free Software Foundation, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a
@@ -38,6 +36,4 @@ authorization.
 
 -- vile:txtmode fc=72
 -- $Id: COPYING,v 1.3 2015/01/03 20:12:01 tom Exp $
-`
-
 ```

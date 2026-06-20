@@ -7,230 +7,88 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 This is a stand-alone tool in the Tools/Substance folder in your Engine installation folder. It cannot be found in the Sandbox Editor.
 This tool is a shader that tries to match the viewport shading of Allegorithmic's Substance Designer and Painter software, more that is, toward the shading found in CRYENGINE.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28900914)
 
-##
-Installation
+### Installation
 
-##
-Substance Designer
+#### Substance Designer
 
-Download
-**
-[Designer_shaders.zip](/docs/static/attachments/28900920)
+Download **[Designer_shaders.zip](/docs/static/attachments/28900920)** and unzip it to **c:\Program Files\Allegorithmic\Substance Designer\5\resources\view3d\shaders** or the respective folder where your Designer is installed.
 
-**
-and unzip it to
-**
-c:\Program Files\Allegorithmic\Substance Designer\5\resources\view3d\shaders
-**
-or the respective folder where your Designer is installed.
+Restart the Designer. After this, the new shader should appear in the shader list named **ce_physically_specular_glossiness.**
 
-Restart the Designer. After this, the new shader should appear in the shader list named
-**
-ce_physically_specular_glossiness.
-**
+#### Substance Painter
 
-##
-Substance Painter
-
-Download
-**
-[CryEngine.glsl](/docs/static/attachments/28900919)
-**
- and when your project is open, drag&drop it to the Shaders shelf in the Painter:
+Download **[CryEngine.glsl](/docs/static/attachments/28900919)** and when your project is open, drag&drop it to the Shaders shelf in the Painter:
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28900913)
 
 In Painter you should use the same channels CRYENGINE is using:
 
--
-**
-Base Color
-**
+- **Base Color**
+- **Glossiness**
+- **Displacement**
+- **Specular**
+- **Transmissive**
 
--
-**
-Glossiness
-**
-
--
-**
-Displacement
-**
-
--
-**
-Specular
-**
-
--
-**
-Transmissive
-**
-
-##
-Usage
+### Usage
 
 This shader tries to mimic CRYENGINE shading. It supports default Physically Based Rendering (PBR) shading, together with Parallax Occlusion Mapping (POM) with selfshadow and also supports translucency.
 
 Most of the settings from the Designer or Painter software should be straightforward and mean exactly the same as in CRYENGINE.
 
-![Image](https://www.cryengine.com/docs/static/attachments/28900916)
+![Image](https://www.cryengine.com/docs/static/attachments/28900916)![Image](https://www.cryengine.com/docs/static/attachments/28900915)
 
-![Image](https://www.cryengine.com/docs/static/attachments/28900915)
+### Parallax Occlusion Mapping (POM)
 
-##
-Parallax Occlusion Mapping (POM)
+Substance Designer: As a target map for a heightmap use "**Height"**
 
-Substance Designer: As a target map for a heightmap use "
-**
-Height"
-**
-
-Substance Painter: As a source channel for POM use "
-**
-Displacement"
-**
+Substance Painter: As a source channel for POM use "**Displacement"**
 
 Since Substance doesn't support small step changes in values, the depth for POM is displayed as being in the 0-1 range, but it is the same as a CRYENGINE range of 0-0.05.
 
-##
-Light Setup
+### Light Setup
 
-The only
-difference in
-setup is in light handling, since
-**
-Substance Designer
-**
- only allows having light intensity defined by color, while
-**
-Substance Painter
-**
- doesn't have any light in the scene at all.
+The only difference in setup is in light handling, since **Substance Designer** only allows having light intensity defined by color, while ** Substance Painter** doesn't have any light in the scene at all.
 
-Therefore, for
-**
-Substance Painter
-**
-, Sun-related parameters were introduced to mimic the sun in the scene. In
-**
-Substance Designer
-**
-,
-**
-Sun Multiplier Intensity
-**
- was added as a shader parameter to allow increasing the sun intensity in the scene.
+Therefore, for **Substance Painter**, Sun-related parameters were introduced to mimic the sun in the scene. In ** Substance Designer**, ** Sun Multiplier Intensity** was added as a shader parameter to allow increasing the sun intensity in the scene.
 
-By default, using the cubemap together with the sun intensity set to 1 means the sun has almost the same intensity as brightness coming from the image based lighting setup. It might look as if selfshadows on POM are not working, but they do; you need to actually boost
-**
-Sun Intensity
-**
-. It is also recommended to lower
-**
-Environment Exposure
-**
- to
-**
-below 0.
-**
-This is not a bug, it is the result of differences between Substance and CRYENGINE. See below.
+By default, using the cubemap together with the sun intensity set to 1 means the sun has almost the same intensity as brightness coming from the image based lighting setup. It might look as if selfshadows on POM are not working, but they do; you need to actually boost **Sun Intensity**. It is also recommended to lower **Environment Exposure** to **below 0.**This is not a bug, it is the result of differences between Substance and CRYENGINE. See below.
 ![Image](https://www.cryengine.com/docs/static/attachments/28900911)
 
-##
-Using CryEngine Cubemap in a Viewport
+### Using CryEngine Cubemap in a Viewport
 
 It is also possible to use CRYENGINE cubemaps as a Panorama image in Substance:
 
--
-Open a cryengine tif cubemap in Photoshop. (found in the cubemaps folder, with _cm suffix). Don't be scared by strange colors.
-
+- Open a cryengine tif cubemap in Photoshop. (found in the cubemaps folder, with _cm suffix). Don't be scared by strange colors.
 ![Image](https://www.cryengine.com/docs/static/attachments/28900912)
-
--
-Run this
-[vertical_cubemap.jsx](/docs/static/attachments/28900918)
- Photoshop script to transform the image to a vertical cross cubemap.
-
+- Run this [vertical_cubemap.jsx](/docs/static/attachments/28900918) Photoshop script to transform the image to a vertical cross cubemap.
 ![Image](https://www.cryengine.com/docs/static/attachments/28900910)
-
--
-You can now expand the border of the cubemap so there are less seams.
-
--
-Save the image as an
-**
-HDR
-**
- image format.
-
--
-Open the image in
-[HDRShop.zip](/docs/static/attachments/28900917)
-.
-
--
-Go to menu
-**
-Image/Panorama/PanoramaticTranform
-**
-.
-
--
-Make sure the settings are as below, and potentially raise resolution.
-
+- You can now expand the border of the cubemap so there are less seams.
+- Save the image as an **HDR** image format.
+- Open the image in [HDRShop.zip](/docs/static/attachments/28900917).
+- Go to menu **Image/Panorama/PanoramaticTranform**.
+- Make sure the settings are as below, and potentially raise resolution.
 ![Image](https://www.cryengine.com/docs/static/attachments/28900909)
+- Save as a new **HDR** image.
+- In **Substance Designer**, change the panorama image in the scene options.
+- Done.
 
--
-Save as a new
-**
-HDR
-**
- image.
+### Substance Render vs CRYENGINE Render Differences
 
--
-In
-**
-Substance Designer
-**
-, change the panorama image in the scene options.
+Apart from using a different cubemap format where Substance uses a latitude-longitude environment map and CRYENGINE uses a 6-sided cubemap, there is also a difference in the sampling. Whereas in CRYENGINE cubemap importance sampling is done during dds generation in the Resource Compiler, in Substance it is done directly in the shader. Also, CRYENGINE uses a secondary low res diffuse cubemap, whereas Substance uses SphericalHarmonics coefficients calculated from the environmental map. However, results should be similar.
 
--
-Done.
+#### ToneMapping
 
-##
-Substance Render vs CRYENGINE Render Differences
-
-Apart from using a different cubemap format where Substance uses a latitude-longitude environment map and CRYENGINE uses a 6-sided cubemap, there is also a difference in the sampling. Whereas in
-CRYENGINE
- cubemap importance sampling is done during dds generation in the Resource Compiler, in Substance it is done directly in the shader. Also,
-CRYENGINE
- uses a secondary low res diffuse cubemap, whereas Substance uses SphericalHarmonics coefficients calculated from the environmental map. However, results should be similar.
-
-##
-ToneMapping
-
-The biggest difference is in tonemapping.
-CRYENGINE
- lights the scene with raw values that it gets from light and cubemaps (see the very top right in the cubemap example above) and then applies tonemapping to the final scene to compensate.
+The biggest difference is in tonemapping. CRYENGINE lights the scene with raw values that it gets from light and cubemaps (see the very top right in the cubemap example above) and then applies tonemapping to the final scene to compensate.
 
 Substance, however doesn't compensate too much or use too lower light in postprocessing, but it allows changing the exposure of the Environmental map. This is almost the same as lowering the Diffuse and Specular multiplier for an Environmental probe in the Sandbox Editor.
 
-This is why it's highly recommended to lower Environmental map exposure in Substance and higher sun intensity to get more similar results to that produced in
-CRYENGINE
-.
+This is why it's highly recommended to lower Environmental map exposure in Substance and higher sun intensity to get more similar results to that produced in CRYENGINE.
 
-[Installation](#installation)
-[Usage](#usage)
-[Parallax Occlusion Mapping (POM)](#parallax-occlusion-mapping-pom)
-[Light Setup](#light-setup)
-[Using CryEngine Cubemap in a Viewport](#using-cryengine-cubemap-in-a-viewport)
-[Substance Render vs CRYENGINE Render Differences](#substance-render-vs-cryengine-render-differences)
+[Installation](#installation)[Usage](#usage)[Parallax Occlusion Mapping (POM)](#parallax-occlusion-mapping-pom)[Light Setup](#light-setup)[Using CryEngine Cubemap in a Viewport](#using-cryengine-cubemap-in-a-viewport)[Substance Render vs CRYENGINE Render Differences](#substance-render-vs-cryengine-render-differences)

@@ -7,44 +7,16 @@
 
 ## Content
 
-The GUID allows the engine to uniquely identify this plug-in without the possibility of conflicting with other plug-ins. This GUID can be generated from Visual Studio inside the
-**
-Tools
-**
- menu:
+The GUID allows the engine to uniquely identify this plug-in without the possibility of conflicting with other plug-ins. This GUID can be generated from Visual Studio inside the **Tools** menu:
 
-##
-Generating our GUID
+#### Generating our GUID
 
 Now, we need to provide our plug-in with a name and a GUID:
 
--
-Access the
-**
-Create GUID
-**
- from entering the
-**
-Tools
-**
-menu.
+- Access the **Create GUID** from entering the ** Tools**menu.
+- In the message box, choose **Registry Format**.
+- Next, press **Copy**, and paste our generated GUID into our code.
 
--
-In the message box, choose
-**
-Registry Format
-**
-.
+##### Step 1
 
--
-Next, press
-**
-Copy
-**
-, and paste our generated GUID into our code.
-
-##
-Step 1
-
-##
-Step 2
+##### Step 2

@@ -15,33 +15,20 @@ You can combine it with different locomotion cycles. The character with Look IK 
 
 The same techniques is used in half-interactive cut-scenes, to make sure the actors makes eye-contact with the player.
 
-##
-Look IK Setup
+### Look IK Setup
 
-##
-Skeleton Setup
+#### Skeleton Setup
 
-Refer to Skeleton Setup section in
-[Aim IK (aimposes)](Aim%20IK%20(aimposes).md)
-.
+Refer to Skeleton Setup section in [Aim IK (aimposes)](Aim%20IK%20(aimposes).md).
 
-##
-Setting up the Character in 3ds Max
+#### Setting up the Character in 3ds Max
 
-Your character needs a Look IK bone as shown in the picture below.
+Your character needs a Look IK bone as shown in the picture below.![Image](https://www.cryengine.com/docs/static/attachments/23994486)
 
-![Image](https://www.cryengine.com/docs/static/attachments/23994486)
-
-The Look IK bone is a child of the Head bone. Make sure your eye bones are also properly named and children of the Head bone.
-
-![Image](https://www.cryengine.com/docs/static/attachments/23994487)
+The Look IK bone is a child of the Head bone. Make sure your eye bones are also properly named and children of the Head bone.![Image](https://www.cryengine.com/docs/static/attachments/23994487)
 
 If you are switching from the older Look IK system, you have to re-export all your chrs after adding the Look IK bone.
 
-##
-CHRPARAMS Setup
+#### CHRPARAMS Setup
 
-[Look IK Setup](#look-ik-setup)
-[Skeleton Setup](#skeleton-setup)
-[Setting up the Character in 3ds Max](#setting-up-the-character-in-3ds-max)
-[CHRPARAMS Setup](#chrparams-setup)
+[Look IK Setup](#look-ik-setup)[Skeleton Setup](#skeleton-setup)[Setting up the Character in 3ds Max](#setting-up-the-character-in-3ds-max)[CHRPARAMS Setup](#chrparams-setup)

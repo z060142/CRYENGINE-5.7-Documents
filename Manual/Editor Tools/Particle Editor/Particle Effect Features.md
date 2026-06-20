@@ -28,17 +28,9 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
-CRYENGINE
- offers a
-unique
- particle system
-designed
- to
-provide
- more flexibility to the user and to make optimal use of modern CPU and memory architectures. To achieve this goal, the particle simulation backend implements a data-oriented design, where memory layouts have been optimized for vectorized processing.
+CRYENGINE offers a unique particle system designed to provide more flexibility to the user and to make optimal use of modern CPU and memory architectures. To achieve this goal, the particle simulation backend implements a data-oriented design, where memory layouts have been optimized for vectorized processing.
 
 On the frontend side, the particle system presents a modular setup approach that allows a more flexible design of particle effects that can be set up to interact with the rest of the engine through attribute passing.
 
@@ -46,13 +38,6 @@ The particle system introduces seamless switching between a GPU and CPU based pa
 
 CRYENGINE Particle System offers a vast variety of features. Combining these features ensures that users can create unique particle effects.
 
-These features are strictly related to the
-**
-Particle Editor
-**
- and they are not to be confused with the
-[Particles Tab (Legacy Particle Editor)](../DataBase%20View/Particles%20Tab%20(Legacy%20Particle%20Editor).md)
- features.
+These features are strictly related to the **Particle Editor** and they are not to be confused with the [Particles Tab (Legacy Particle Editor)](../DataBase%20View/Particles%20Tab%20(Legacy%20Particle%20Editor).md) features.
 
-##
-In This Section
+## In This Section

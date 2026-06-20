@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 Run-time prefabs are designed to expose the concepts of prefabs to the game (it has been an Editor-only concept so far).
 
@@ -16,8 +15,7 @@ In the example below we have a level for short multiplayer sessions and we will 
 
 The system is already built to work synchronized over network. Support for Designer objects is in beta stage.
 
-##
-Setup
+### Setup
 
 1) Drag & drop the prefab as usual from the Database View. Note the naming convention used for the prefabs variations group.
 
@@ -37,8 +35,4 @@ Now you can continue editing as normal if you wish.
 
 Make sure to leave it as a PRC entity (step 3) before you export the level. Otherwise the prefab will be exploded to single objects in the level, and will not be available as a runtime prefab in the game (won't be accessible to game logic)
 Technical note
-When you export to game a regular Editor Prefab, the single entities inside the prefabs are "exploded" into the level XML.
-
-Thus the game and engine have no knowledge of the Editor Prefab concept. But when you export a run-time prefab entity instead, the level XML will now contain only the prefab entity proxy reference.
-
-The corresponding XML prefab library will be loaded automatically. This allows the game to access the high level concept of prefabs at run-time.
+When you export to game a regular Editor Prefab, the single entities inside the prefabs are "exploded" into the level XML. Thus the game and engine have no knowledge of the Editor Prefab concept. But when you export a run-time prefab entity instead, the level XML will now contain only the prefab entity proxy reference. The corresponding XML prefab library will be loaded automatically. This allows the game to access the high level concept of prefabs at run-time.

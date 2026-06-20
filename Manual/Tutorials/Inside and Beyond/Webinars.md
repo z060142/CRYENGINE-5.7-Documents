@@ -11,5 +11,4 @@
 
 ## Content
 
--
-[Tutorial/case study - "Homebound" game](Webinars/Tutorial%20case%20study%20-%20Homebound%20game.md)
+- [Tutorial/case study - "Homebound" game](Webinars/Tutorial%20case%20study%20-%20Homebound%20game.md)

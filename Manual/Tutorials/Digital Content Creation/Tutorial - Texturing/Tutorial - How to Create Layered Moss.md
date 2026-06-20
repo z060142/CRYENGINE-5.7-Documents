@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 This tutorial will explain how the moss in Ryse was made 3D and having depth to it.
 
@@ -20,14 +19,9 @@ Breaking down the moss, one sees that it is made up of 4 polygon layers hovering
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999634)
 
-##
-Preparing the Texture
+### Preparing the Texture
 
-Looking at the moss texture we see that the
-**
- texture is divided up in 4 sections
-**
-. In the diffuse section we see that it is always the same texture just with different kinds of values. From the top left section is being the brightest, to the bottom right the darkest.
+Looking at the moss texture we see that the**texture is divided up in 4 sections**. In the diffuse section we see that it is always the same texture just with different kinds of values. From the top left section is being the brightest, to the bottom right the darkest.
 
 When creating the alpha for the texture we have on the top left the most transparent (lot's of black and dark grey values) and the bottom right the most opaque (lot's of whites and light greys almost no black values).
 
@@ -49,8 +43,7 @@ To see how the moss looks in engine, we have applied the texture to a simple pla
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999640)
 
-##
-Preparing the Geometry
+### Preparing the Geometry
 
 For display purposes we are using a simple rock mesh. The 3D moss should be used mostly you want your moss on objects like stones, rocks, trunks, walls etc.
 
@@ -74,23 +67,13 @@ We should have a result looking like in the image below.
 
 To create the layering effect we are applying following modifiers to our polygon plane:
 
--
-Convert the poly plane to an editable polygon by using "Editable Poly".
+- Convert the poly plane to an editable polygon by using "Editable Poly".
+- After that the "Unwrap UVW" modifier is applied to the stack, so in every single layer we're able to move the UV shells up, down, right or left by exactly 0.5 in U & V space to be able to cover all four sections of our texture.
+- The fist "Push" modifier is now added to the stack, this push modifier affects the entire shape, so the final distances between all the polygon layers can be adjusted.
+- Once we have moved the polygon plane to the right distance we select the vertices on the border of the plane and apply another "Editable Poly".
+- Now we need to apply the second "Push" modifier to the vertices. The border needs to be pushed back into the rock, otherwise we end up with a harsh transition from the rock to the moss, since there's going to be a clear visible border. Once all the four layers have been created and all of them having sequentially their borders push back, a fuzzy and 3D transition will be created towards the rock.
+- The last "Edit Poly" that is applied, serves the purpose to alter all the poly planes at the same time in the end and make final adjustments to the overall shape.
 
--
-After that the "Unwrap UVW" modifier is applied to the stack, so in every single layer we're able to move the UV shells up, down, right or left by exactly 0.5 in U & V space to be able to cover all four sections of our texture.
-
--
-The fist "Push" modifier is now added to the stack, this push modifier affects the entire shape, so the final distances between all the polygon layers can be adjusted.
-
--
-Once we have moved the polygon plane to the right distance we select the vertices on the border of the plane and apply another "Editable Poly".
-
--
-Now we need to apply the second "Push" modifier to the vertices. The border needs to be pushed back into the rock, otherwise we end up with a harsh transition from the rock to the moss, since there's going to be a clear visible border. Once all the four layers have been created and all of them having sequentially their borders push back, a fuzzy and 3D transition will be created towards the rock.
-
--
-The last "Edit Poly" that is applied, serves the purpose to alter all the poly planes at the same time in the end and make final adjustments to the overall shape.
 Please do not collapse the modifier stack!
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999624)
@@ -113,36 +96,20 @@ Here's a detail breakdown:
 
 In summary to create the polygon planes and layer them:
 
--
-Clone to create a new polygon plane from the base polygon plane.
+- Clone to create a new polygon plane from the base polygon plane.
+- Edit UV’s for the shell and determine their new position from the duplicated polygon shell.
+- Move out the new polygon plane with the "Push" modifier.
+- Click on the "Edit poly" modifier to select border vertices.
+- Use the "Push" modifier on the border vertices to push them back into the rock.
+- Select the "Edit Poly" modifier again to tweak all moss layers later.
 
--
-Edit UV’s for the shell and determine their new position from the duplicated polygon shell.
-
--
-Move out the new polygon plane with the "Push" modifier.
-
--
-Click on the "Edit poly" modifier to select border vertices.
-
--
-Use the "Push" modifier on the border vertices to push them back into the rock.
-
--
-Select the "Edit Poly" modifier again to tweak all moss layers later.
-
-##
-Adjusting the moss layers and using vertex paint to create a smooth transition
+### Adjusting the moss layers and using vertex paint to create a smooth transition
 
 After duplicating our polygon planes, moving the UVs and moving them, we export the rock into CRYENGINE. And our result looks currently like the image below
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999631)
 
-Looking at the moss within CRYENGINE we can see the moss. But in reality moss seeps in and out of cracks and right now it looks to even. To fix that we use the last
-**
-"Edit Poly"
-**
- modifier, since we didn't collapse them. That way you can alter all vertices at the same time.
+Looking at the moss within CRYENGINE we can see the moss. But in reality moss seeps in and out of cracks and right now it looks to even. To fix that we use the last **"Edit Poly"** modifier, since we didn't collapse them. That way you can alter all vertices at the same time.
 
 Try to follow real world reference by raising some vertices and lowering others.
 

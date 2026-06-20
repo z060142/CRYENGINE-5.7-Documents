@@ -17,8 +17,7 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 Sydewinder is a simple game made with C# that shows how to interact with the CRYENGINE from C#. This tutorial guides you through all the necessary steps in order to get started from scratch using C#.
 
@@ -28,65 +27,31 @@ CRYENGINE has the potential to create completely new worlds through the use of t
 
 Children:
 
--
-[01. Architectural Overview](Sydewinder/01.%20Architectural%20Overview.md)
+- [01. Architectural Overview](Sydewinder/01.%20Architectural%20Overview.md)
+- [02. User Interface and HUD](Sydewinder/02.%20User%20Interface%20and%20HUD.md)
+- [03. Input and Game Controller](Sydewinder/03.%20Input%20and%20Game%20Controller.md)
+- [04. Level Design Aspects](Sydewinder/04.%20Level%20Design%20Aspects.md)
+- [05. Entity Interaction](Sydewinder/05.%20Entity%20Interaction.md)
+- [06. Physics Interaction](Sydewinder/06.%20Physics%20Interaction.md)
+- [07. Particles](Sydewinder/07.%20Particles.md)
 
--
-[02. User Interface and HUD](Sydewinder/02.%20User%20Interface%20and%20HUD.md)
-
--
-[03. Input and Game Controller](Sydewinder/03.%20Input%20and%20Game%20Controller.md)
-
--
-[04. Level Design Aspects](Sydewinder/04.%20Level%20Design%20Aspects.md)
-
--
-[05. Entity Interaction](Sydewinder/05.%20Entity%20Interaction.md)
-
--
-[06. Physics Interaction](Sydewinder/06.%20Physics%20Interaction.md)
-
--
-[07. Particles](Sydewinder/07.%20Particles.md)
 Related Content:
 
--
-[C# API Reference](../../CRYENGINE%20API%20Reference/C%23%20API%20Reference.md)
+- [C# API Reference](../../CRYENGINE%20API%20Reference/C%23%20API%20Reference.md)
+- [C# Programming](../C%23%20Programming.md)
 
--
-[C# Programming](../C%23%20Programming.md)
+### Getting Started
 
-##
-Getting Started
-
-The tutorial describes various concepts used in the Sydewinder game which is available as a free download from the CRYENGINE
-[Asset Database](https://www.cryengine.com/marketplace/product/crytek/sydewinder-cs)
- Please be aware that in order to download any assets from the CRYENGINE Asset Database requires you to have a CRYENGINE account and to have downloaded the CRYENGINE Launcher. For more information about these elements, please visit
-[cryengine.com](https://www.cryengine.com/get-cryengine/)
-.
+The tutorial describes various concepts used in the Sydewinder game which is available as a free download from the CRYENGINE [Asset Database](https://www.cryengine.com/marketplace/product/crytek/sydewinder-cs) Please be aware that in order to download any assets from the CRYENGINE Asset Database requires you to have a CRYENGINE account and to have downloaded the CRYENGINE Launcher. For more information about these elements, please visit [cryengine.com](https://www.cryengine.com/get-cryengine/).
 
 Each chapter of the tutorial concentrates on different concepts of game development and is based on parts of the source code.
 
-##
-Chapters
+### Chapters
 
--
-[01. Architectural Overview](Sydewinder/01.%20Architectural%20Overview.md)
-
--
-[02. User Interface and HUD](Sydewinder/02.%20User%20Interface%20and%20HUD.md)
-
--
-[03. Input and Game Controller](Sydewinder/03.%20Input%20and%20Game%20Controller.md)
-
--
-[04. Level Design Aspects](Sydewinder/04.%20Level%20Design%20Aspects.md)
-
--
-[05. Entity Interaction](Sydewinder/05.%20Entity%20Interaction.md)
-
--
-[06. Physics Interaction](Sydewinder/06.%20Physics%20Interaction.md)
-
--
-[07. Particles](Sydewinder/07.%20Particles.md)
+- [01. Architectural Overview](Sydewinder/01.%20Architectural%20Overview.md)
+- [02. User Interface and HUD](Sydewinder/02.%20User%20Interface%20and%20HUD.md)
+- [03. Input and Game Controller](Sydewinder/03.%20Input%20and%20Game%20Controller.md)
+- [04. Level Design Aspects](Sydewinder/04.%20Level%20Design%20Aspects.md)
+- [05. Entity Interaction](Sydewinder/05.%20Entity%20Interaction.md)
+- [06. Physics Interaction](Sydewinder/06.%20Physics%20Interaction.md)
+- [07. Particles](Sydewinder/07.%20Particles.md)

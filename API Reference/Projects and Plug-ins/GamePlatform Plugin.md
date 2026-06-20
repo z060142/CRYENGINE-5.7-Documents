@@ -21,14 +21,8 @@ In this documentation, you will learn about the different platform service imple
 
 This does not include details on how to setup your game on an external platform such as Steam, as we recommend referring to the respective platform's documentation instead.
 
-##
-In This Section
+### In This Section
 
--
-[GamePlatform Features (Discord/Steam)](GamePlatform%20Plugin/GamePlatform%20Features%20(Discord%20Steam).md)
-
--
-[GamePlatform Services](GamePlatform%20Plugin/GamePlatform%20Services.md)
-
--
-[GamePlatform Usage Tips](GamePlatform%20Plugin/GamePlatform%20Usage%20Tips.md)
+- [GamePlatform Features (Discord/Steam)](GamePlatform%20Plugin/GamePlatform%20Features%20(Discord%20Steam).md)
+- [GamePlatform Services](GamePlatform%20Plugin/GamePlatform%20Services.md)
+- [GamePlatform Usage Tips](GamePlatform%20Plugin/GamePlatform%20Usage%20Tips.md)

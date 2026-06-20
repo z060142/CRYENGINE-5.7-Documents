@@ -7,33 +7,16 @@
 
 ## Content
 
-##
-Launcher Version 1.8.5
+## Launcher Version 1.8.5
 
-##
-Backend
+#### Backend
 
-**
-Fixed:
-**
+**Fixed:** Login: Bug that was causing login problems for users whose password included special characters.
 
-Login: Bug that was causing login problems for users whose password included special characters.
+**Fixed:** Asset Submission: Increased the maximum attachment size from 2GB to 6GB.
 
-**
-Fixed:
-**
-Asset Submission: Increased the maximum attachment size from 2GB to 6GB.
+#### Landing Page
 
-##
-Landing Page
+**New:** Edit Project: Added an alert popup (Do you really want to remove this Project?). Popup click box options now include 'Remove From List', 'Remove From Disk', 'Cancel'.
 
-**
-New:
-**
-
-Edit Project: Added an alert popup (Do you really want to remove this Project?). Popup click box options now include 'Remove From List', 'Remove From Disk', 'Cancel'.
-
-**
-New:
-**
-Login: Added an improved error message if users try to login with an incorrect password (message now refers to 'incorrect credentials').
+**New:** Login: Added an improved error message if users try to login with an incorrect password (message now refers to 'incorrect credentials').

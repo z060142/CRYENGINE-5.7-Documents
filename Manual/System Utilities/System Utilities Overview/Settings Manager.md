@@ -9,24 +9,17 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29934094)
 
-##
-Overview
+## Overview
 
-##
-Sections
+## Sections
 
 In order for the Resource Compiler to know where the ENGINE is currently located, a key is written to the registry which contains the current ENGINE path information.
 
-This key is obtained and written through the CRYENGINE Settings Manager which is located in:
-`
-<root>\Tools\SettingsMgr.exe
-`
+This key is obtained and written through the CRYENGINE Settings Manager which is located in: `<root>\Tools\SettingsMgr.exe`
 
-[Sections](#sections)
-[Dialog](#dialog)
+[Sections](#sections)[Dialog](#dialog)
 
-##
-Dialog
+### Dialog
 
 The first time you run the Settings Manager the dialog will state that an "Active build setup for CRYENGINE is not found" it should look something like the screenshot below:
 
@@ -34,11 +27,9 @@ The first time you run the Settings Manager the dialog will state that an "Activ
 
 This indicates that there is no CRYENGINE path information written to the registry and gives you two options:
 
--
-Use the path where the SettingsMgr was run from
+- Use the path where the SettingsMgr was run from
+- Or scan for builds in other locations
 
--
-Or scan for builds in other locations
 We recommend, and it's easiest, to use the SettingsMgr.exe's location. It is most likely that you would want to run the ENGINE from that location anyway.
 
 If "all is well" with the build, then you will see two green ticks for the two different components:

@@ -7,297 +7,131 @@
 
 ## Content
 
-##
-CreateEffect
+### CreateEffect
 
 Creates a new particle effect.
 
 ```
-
-`
 Particle.CreateEffect( name, params )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | Particle effect name.
+params | Effect parameters.
 
-name
- |
-Particle effect name.
- |
-
-params
- |
-Effect parameters.
- |
-
-##
-DeleteEffect
+### DeleteEffect
 
 Deletes the specified particle effect.
 
 ```
-
-`
 Particle.DeleteEffect( name )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | Particle effect name.
 
-name
- |
-Particle effect name.
- |
-
-##
-IsEffectAvailable
+### IsEffectAvailable
 
 Checks if the specified particle effect is available.
 
 ```
-
-`
 Particle.IsEffectAvailable( name )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | Particle effect name.
 
-name
- |
-Particle effect name.
- |
-
-##
-SpawnEffect
+### SpawnEffect
 
 Spawns an effect.
 
 ```
-
-`
 Particle.SpawnEffect( effectName, pos, dir )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+effectName | Effect name.
+pos | Position vector.
+dir | Direction vector.
 
-effectName
- |
-Effect name.
- |
-
-pos
- |
-Position vector.
- |
-
-dir
- |
-Direction vector.
- |
-
-##
-SpawnEffectLine
+### SpawnEffectLine
 
 Spawns an effect line.
 
 ```
-
-`
 Particle.SpawnEffectLine( effectName, startPos, endPos, dir, scale, slices )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+effectName | Effect name.
+startPos | Start position.
+endPos | End position.
+dir | Direction of the effect.
+scale | Scale value for the effect.
+slices | Number of slices.
 
-effectName
- |
-Effect name.
- |
-
-startPos
- |
-Start position.
- |
-
-endPos
- |
-End position.
- |
-
-dir
- |
-Direction of the effect.
- |
-
-scale
- |
-Scale value for the effect.
- |
-
-slices
- |
-Number of slices.
- |
-
-##
-SpawnParticles
+### SpawnParticles
 
 Spawns a particle effect.
 
 ```
-
-`
 Particle.SpawnParticles( params, pos, dir )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+params | Effect parameters.
+pos | Effect position.
+dir | Effect direction.
 
-params
- |
-Effect parameters.
- |
-
-pos
- |
-Effect position.
- |
-
-dir
- |
-Effect direction.
- |
-
-##
-CreateDecal
+### CreateDecal
 
 Creates a decal with the specified parameters.
 
 ```
-
-`
 Particle.CreateDecal( pos, normal, size, lifeTime, textureName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pos | Decal position.
+normal | Decal normal vector.
+size | Decal size.
+lifeTime | Decal life time.
 
-pos
- |
-Decal position.
- |
-
-normal
- |
-Decal normal vector.
- |
-
-size
- |
-Decal size.
- |
-
-lifeTime
- |
-Decal life time.
- |
-
-##
-CreateMatDecal
+### CreateMatDecal
 
 Creates a material decal.
 
 ```
-
-`
 Particle.CreateMatDecal( pos, normal, size, lifeTime, materialName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pos | Decal position.
+normal | Decal normal vector.
+size | Decal size.
+lifeTime | Decal life time.
+materialName | Name of the Material.
 
-pos
- |
-Decal position.
- |
+### Attach
 
-normal
- |
-Decal normal vector.
- |
-
-size
- |
-Decal size.
- |
-
-lifeTime
- |
-Decal life time.
- |
-
-materialName
- |
-Name of the Material.
- |
-
-##
-Attach
-
- Attaches an effect.
+Attaches an effect.
 
 ```
-
-`
 Particle.Attach()
-`
-
 ```
 
-##
-Detach
+### Detach
 
- Detaches an effect.
+Detaches an effect.
 
 ```
-
-`
 Particle.Detach()
-`
-
 ```

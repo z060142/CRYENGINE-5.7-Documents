@@ -7,102 +7,54 @@
 
 ## Content
 
--
-[Introduction](/docs)
+- [Introduction](/docs)
+- [How to write your model](/docs)
+- [Combining models](/docs)
+- [Advanced Usage in CRYENGINE Sandbox](/docs)
+- [Advanced ItemModels](/docs)
+- [Advanced ItemViews and UI components](/docs)
+- [Attributes](/docs)
 
--
-[How to write your model](/docs)
-
--
-[Combining models](/docs)
-
--
-[Advanced Usage in CRYENGINE Sandbox](/docs)
-
--
-[Advanced ItemModels](/docs)
-
--
-[Advanced ItemViews and UI components](/docs)
-
--
-[Attributes](/docs)
-
-##
-Introduction
+## Introduction
 
 Item models are the single most useful and powerful feature of Qt. You will use a lot of them as you make trees, lists, and search boxes. Learn how they work, learn how to use them, this is one of the fundamentals of good Qt programming.
 
 Qt documentation and tutorial:
 
--
-[https://doc.qt.io/qt-5/model-view-programming.html](https://doc.qt.io/qt-5/model-view-programming.html)
+- [https://doc.qt.io/qt-5/model-view-programming.html](https://doc.qt.io/qt-5/model-view-programming.html)
+- [https://doc.qt.io/qt-5/modelview.html](https://doc.qt.io/qt-5/modelview.html)
 
--
-[https://doc.qt.io/qt-5/modelview.html](https://doc.qt.io/qt-5/modelview.html)
-ItemModels follow a variant of MVC called
-[Model-View-ViewModel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
- where the ViewModel (the QItemModel) sits in the middle and negotiates all communication with the model (your system).
+ItemModels follow a variant of MVC called [Model-View-ViewModel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) where the ViewModel (the QItemModel) sits in the middle and negotiates all communication with the model (your system).
 
 The below image describes a realistic diagram of a typical usage of QItemModel:
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26952237)
 
-**
-Important things to note:
-**
+**Important things to note:**
 
--
-Neither the ItemModel nor the view replicates the state of the System, i.e.
-**
-there are no fields in the ItemModel
-**
-, only a pointer to the system.
+- Neither the ItemModel nor the view replicates the state of the System, i.e. **there are no fields in the ItemModel**, only a pointer to the system.
+- The view may bypass the ItemModel to act as a controller itself and modify the System directly.
+- It is possible to write the view without even including a dependency to System, by calling all modifications on the model (setData).
 
--
-The view may bypass the ItemModel to act as a controller itself and modify the System directly.
+## How to write your model
 
--
-It is possible to write the view without even including a dependency to System, by calling all modifications on the model (setData).
+There are two options to choose from when writing your model: inheriting from QAbstractItemModel or using QStandardItemModel. The good choice is almost always inheritance.
 
-##
-How to write your model
-
-There are two options to choose from when writing your model:
-inheriting from QAbstractItemModel
- or using
-QStandardItemModel
-.
-The good choice is almost always inheritance.
-
--
-QStandardItemModel has a very verbose and hardly readable syntax.
-
--
-QStandardItemModel has its own state and therefore breaks the MVC pattern.
-
--
-QStandardItemModel is always less efficient in memory and performance.
+- QStandardItemModel has a very verbose and hardly readable syntax.
+- QStandardItemModel has its own state and therefore breaks the MVC pattern.
+- QStandardItemModel is always less efficient in memory and performance.
 
 On the other hand QAbstractItemModel:
 
--
-Will store no state except a pointer to your System.
+- Will store no state except a pointer to your System.
+- Gives access to all the features for models that will change in their lifetime.
+- Enables a lot of tricks that we will talk about later in this document.
 
--
-Gives access to all the features for models that will change in their lifetime.
-
--
-Enables a lot of tricks that we will talk about later in this document.
-
-**
-Conclusion: Always inherit from QAbstractItemModel (or QAbstractListModel for lists)
-**
+**Conclusion: Always inherit from QAbstractItemModel (or QAbstractListModel for lists)**
 
 The only time where QStandardItemModel is reasonable for a fully static model that does not have a corresponding system already, i.e. for pure UI things that never change. Even then, it is a debatable choice due to the clumsiness of using QStandardItemModel.
 
-##
-Combining models
+## Combining models
 
 Models and views can be combined in very creative ways to achieve the desired results. Note that this means we can display the data of the System in very different ways without having to change System at all.
 
@@ -114,119 +66,52 @@ For each instance of System, we only need one corresponding ItemModel. From then
 
 This is used for example in the AssetBrowser where the Thumbnails View and the Details View are attached to the same chain of models, providing different views.
 
-##
-Advanced Usage in CRYENGINE Sandbox
+## Advanced Usage in CRYENGINE Sandbox
 
-##
-Advanced ItemModels
+### Advanced ItemModels
 
--
-**
-DeepFilterProxyModel
-**
+- **DeepFilterProxyModel**
 
--
-Probably the most useful enables various powerful search modes most notably the often needed “deep search”.
+- Probably the most useful enables various powerful search modes most notably the often needed “deep search”.
 
--
-**
-MergingProxyModel
-**
+- **MergingProxyModel**
 
--
-Concatenates several models into one.
-
+- Concatenates several models into one.
 ![Image](https://www.cryengine.com/docs/static/attachments/26952239)
 
--
-**
-MountingProxyModel
-**
+- **MountingProxyModel**
 
--
-Allows combining different models into one hierarchy.
+- Allows combining different models into one hierarchy.
+- Each model will be “mounted” as a child of an element of the main model. Example: LevelExplorer: Layer models that contain the objects inside the layer are mounted under the row representing the layer in the model that contains all the layer hierarchies.![Image](https://www.cryengine.com/docs/static/attachments/26952240)
 
--
-Each model will be “mounted” as a child of an element of the main model.
+### Advanced ItemViews and UI components
 
-Example: LevelExplorer: Layer models that contain the objects inside the layer are mounted under the row representing the layer in the model that contains all the layer hierarchies.
+- **QAdvancedTreeView** (recommended to use over QTreeView)
+- Use over QTreeView, provides a lot of advanced features.
+- Will restore selection and expanded state better than QTreeView.
+- Provides layout saving/restoring features.
+- Is adapted to work with attributes.
+- **QThumbnailsView**
+- Specialized list view to display thumbnails. Please use those wherever you need to display thumbnails/browse images for consistency.
+- **QSearchBox**
+- Basic search box. Use this, do not reinvent the wheel.
+- **QFilteringPanel**
+- Advanced search box and query system, use with attributes.
 
-![Image](https://www.cryengine.com/docs/static/attachments/26952240)
+### Attributes
 
-##
-Advanced ItemViews and UI components
+Please refer to **ItemModelAttribute.h** for the code, and check existing usages.
 
--
-**
-QAdvancedTreeView
-**
- (recommended to use over QTreeView)
-
--
-Use over QTreeView, provides a lot of advanced features.
-
--
-Will restore selection and expanded state better than QTreeView.
-
--
-Provides layout saving/restoring features.
-
--
-Is adapted to work with attributes.
-
--
-**
-QThumbnailsView
-**
-
--
-Specialized list view to display thumbnails. Please use those wherever you need to display thumbnails/browse images for consistency.
-
--
-**
-QSearchBox
-**
-
--
-Basic search box. Use this, do not reinvent the wheel.
-
--
-**
-QFilteringPanel
-**
-
--
-Advanced search box and query system, use with attributes.
-
-##
-Attributes
-
-Please refer to
-**
-ItemModelAttribute.h
-**
- for the code, and check existing usages.
-
-Attributes are additional metadata that can be exposed by a mo
-del to enable advanced functionality. This is a system that is not part of Qt and you must use CRYENGINE views to make the best use of it/
+Attributes are additional metadata that can be exposed by a model to enable advanced functionality. This is a system that is not part of Qt and you must use CRYENGINE views to make the best use of it/
 
 In practice you must implement the following:
 
--
-Create static instances of attributes describing your model's columns or use one of the many generic attributes in ItemModelAttribute.h.
+- Create static instances of attributes describing your model's columns or use one of the many generic attributes in ItemModelAttribute.h.
+- getHeaderData with s_getAttributeRole to return the pointer to the attribute of this column.
+- getHeaderData with other attribute roles for more advanced features.
 
--
-getHeaderData with s_getAttributeRole to return the pointer to the attribute of this column.
-
--
-getHeaderData with other attribute roles for more advanced features.
 Then use one of our widgets that interact with the attributes system:
 
--
-QFilteringPanel: advanced search/filtering based on attributes (see LevelExplorer and AssetBrowser).
-
--
-QAdvancedTreeView: menu to hide and show columns.
-
--
-QtThumbnailsView: needs attributes to display properly.
+- QFilteringPanel: advanced search/filtering based on attributes (see LevelExplorer and AssetBrowser).
+- QAdvancedTreeView: menu to hide and show columns.
+- QtThumbnailsView: needs attributes to display properly.

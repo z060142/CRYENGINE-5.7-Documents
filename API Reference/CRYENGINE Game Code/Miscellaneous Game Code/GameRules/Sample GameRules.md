@@ -13,21 +13,14 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 The CRYENGINE SDK ships with several example GameRules scripts and the code to support them.
 
 Below you'll find links to each gamerule and within, information about it.
 
-##
-In This Topic
+### In This Topic
 
--
-[SinglePlayer](Sample%20GameRules/SinglePlayer.md)
-
--
-[InstantAction](Sample%20GameRules/InstantAction.md)
-
--
-[TeamInstantAction](Sample%20GameRules/TeamInstantAction.md)
+- [SinglePlayer](Sample%20GameRules/SinglePlayer.md)
+- [InstantAction](Sample%20GameRules/InstantAction.md)
+- [TeamInstantAction](Sample%20GameRules/TeamInstantAction.md)

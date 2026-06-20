@@ -7,41 +7,20 @@
 
 ## Content
 
-##
-Launcher Version 1.10.2
+## Launcher Version 1.10.2
 
-##
-Backend
+#### Backend
 
-**
-Improvement:
-**
- Increased performance of built-in cryselect.
+**Improvement:** Increased performance of built-in cryselect.
 
-**
-Change:
-**
- Prepared for cryselect changes coming in 5.6 to further increase performance.
+**Change:** Prepared for cryselect changes coming in 5.6 to further increase performance.
 
-##
-Landing Page
+#### Landing Page
 
-**
-New:
-**
- Added an asset banner available on the Launcher Dashboard.
+**New:** Added an asset banner available on the Launcher Dashboard.
 
-**
-Fix:
-**
- Multiple error messages during asset download failure.
+**Fix:** Multiple error messages during asset download failure.
 
-**
-Fix:
-**
- Grammatical and text errors.ix
+**Fix:** Grammatical and text errors.ix
 
-**
-Fix:
-**
- Report an Issue form was not working as intended.
+**Fix:** Report an Issue form was not working as intended.

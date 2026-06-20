@@ -7,4437 +7,2275 @@
 
 ## Content
 
-##
-DeleteThis
+### DeleteThis
 
- Deletes this entity.
+Deletes this entity.
 
 ```
-
-`
 Entity.DeleteThis()
-`
-
 ```
 
-##
-CreateRenderProxy
+### CreateRenderProxy
 
- Create a proxy render object for the entity, allows entity to be rendered without loading any assets in immediately.
+Create a proxy render object for the entity, allows entity to be rendered without loading any assets in immediately.
 
 ```
-
-`
 Entity.CreateRenderProxy()
-`
-
 ```
 
-##
-CheckShaderParamCallbacks
+### CheckShaderParamCallbacks
 
- Check all the currently set shader param callbacks on the renderproxy with the current state of the entity.
+Check all the currently set shader param callbacks on the renderproxy with the current state of the entity.
 
 ```
-
-`
 Entity.UpdateShaderParamCallback()
-`
-
 ```
 
-##
-LoadObject
+### LoadObject
 
- Load CGF geometry into the entity slot.
+Load CGF geometry into the entity slot.
 
 ```
-
-`
 Entity.LoadObject( nSlot, sFilename )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+sFilename | CGF geometry file name.
 
-nSlot
- |
-Slot identifier.
- |
+### LoadObjectWithFlags
 
-sFilename
- |
-CGF geometry file name.
- |
-
-##
-LoadObjectWithFlags
-
- Load CGF geometry into the entity slot.
+Load CGF geometry into the entity slot.
 
 ```
-
-`
 Entity.LoadObject( nSlot, sFilename, nFlags )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+sFilename | CGF geometry file name.
+nFlags | entity load flags
 
-nSlot
- |
-Slot identifier.
- |
+### LoadObjectLattice
 
-sFilename
- |
-CGF geometry file name.
- |
-
-nFlags
- |
-entity load flags
- |
-
-##
-LoadObjectLattice
-
- Load lattice into the entity slot.
+Load lattice into the entity slot.
 
 ```
-
-`
 Entity.LoadObjectLattice( nSlot )
-`
-
 ```
 
-##
-LoadSubObject
+### LoadSubObject
 
- Load geometry of one CGF node into the entity slot.
+Load geometry of one CGF node into the entity slot.
 
 ```
-
-`
 Entity.LoadSubObject( nSlot, sFilename, sGeomName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+sFilename | CGF geometry file name.
+sGeomName | Name of the node inside CGF geometry.
 
-nSlot
- |
-Slot identifier.
- |
+### LoadCharacter
 
-sFilename
- |
-CGF geometry file name.
- |
-
-sGeomName
- |
-Name of the node inside CGF geometry.
- |
-
-##
-LoadCharacter
-
- Load CGF geometry into the entity slot.
+Load CGF geometry into the entity slot.
 
 ```
-
-`
 Entity.LoadCharacter( nSlot, sFilename )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+sFilename | CGF geometry file name.
 
-nSlot
- |
-Slot identifier.
- |
+### LoadGeomCache
 
-sFilename
- |
-CGF geometry file name.
- |
-
-##
-LoadGeomCache
-
- Load geom cache into the entity slot.
+Load geom cache into the entity slot.
 
 ```
-
-`
 Entity.LoadGeomCache( int nSlot,const char *sFilename )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+sFilename | CAX file name.
 
-nSlot
- |
-Slot identifier.
- |
+### LoadLight
 
-sFilename
- |
-CAX file name.
- |
-
-##
-LoadLight
-
- Load CGF geometry into the entity slot.
+Load CGF geometry into the entity slot.
 
 ```
-
-`
 Entity.LoadLight( nSlot, lightTable )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+lightTable | Table with all the light information.
 
-nSlot
- |
-Slot identifier.
- |
+### SetLightColorParams
 
-lightTable
- |
-Table with all the light information.
- |
-
-##
-SetLightColorParams
-
- changes the color related params of an existing light.
+changes the color related params of an existing light.
 
 ```
-
-`
 Entity.SetLightColorParams( nSlot, color, specular_multiplier)
-`
-
 ```
 
-##
-UpdateLightClipBounds
+### UpdateLightClipBounds
 
- Update the clip bounds of the light from the linked entities.
+Update the clip bounds of the light from the linked entities.
 
 ```
-
-`
 Entity.UpdateLightClipBounds( nSlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
 
-nSlot
- |
-Slot identifier.
- |
+### SetSelfAsLightCasterException
 
-##
-SetSelfAsLightCasterException
-
- Entity render node will be a caster exception for light loaded in nLightSlot.
+Entity render node will be a caster exception for light loaded in nLightSlot.
 
 ```
-
-`
 Entity.SetLightCasterException( nLightSlot, nGeometrySlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nLightSlot | Slot where our light is loaded.
 
-nLightSlot
- |
-Slot where our light is loaded.
- |
+### LoadCloud
 
-##
-LoadCloud
-
- Loads the cloud XML file into the entity slot.
+Loads the cloud XML file into the entity slot.
 
 ```
-
-`
 Entity.LoadCloud( nSlot, sFilename )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+sFilename | Filename.
 
-nSlot
- |
-Slot identifier.
- |
+### SetCloudMovementProperties
 
-sFilename
- |
-Filename.
- |
-
-##
-SetCloudMovementProperties
-
- Sets the cloud movement properties.
+Sets the cloud movement properties.
 
 ```
-
-`
 Entity.SetCloudMovementProperties( nSlot, table )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+table | Table property for the cloud movement.
 
-nSlot
- |
-Slot identifier.
- |
+### LoadFogVolume
 
-table
- |
-Table property for the cloud movement.
- |
-
-##
-LoadFogVolume
-
- Loads the fog volume XML file into the entity slot.
+Loads the fog volume XML file into the entity slot.
 
 ```
-
-`
 Entity.LoadFogVolume( nSlot, table )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+table | Table with fog volume properties.
 
-nSlot
- |
-Slot identifier.
- |
+### FadeGlobalDensity
 
-table
- |
-Table with fog volume properties.
- |
-
-##
-FadeGlobalDensity
-
- Sets the fade global density.
+Sets the fade global density.
 
 ```
-
-`
 Entity.FadeGlobalDensity( nSlot, fadeTime, newGlobalDensity )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | nSlot identifier.
+fadeTime | .
+newGlobalDensity | .
 
-nSlot
- |
-nSlot identifier.
- |
-
-fadeTime
- |
-.
- |
-
-newGlobalDensity
- |
-.
- |
-
-##
-LoadVolumeObject
+### LoadVolumeObject
 
 Loads volume object.
 
 ```
-
-`
 Entity.LoadVolumeObject( nSlot, sFilename )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+sFilename | File name of the volume object.
 
-nSlot
- |
-Slot identifier.
- |
-
-sFilename
- |
-File name of the volume object.
- |
-
-##
-SetVolumeObjectMovementProperties
+### SetVolumeObjectMovementProperties
 
 Sets the properties of the volume object movement.
 
 ```
-
-`
 Entity.SetVolumeObjectMovementProperties( nSlot, table )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+table | Table with volume object properties.
 
-nSlot
- |
-Slot identifier.
- |
+### LoadParticleEffect
 
-table
- |
-Table with volume object properties.
- |
-
-##
-LoadParticleEffect
-
- Loads CGF geometry into the entity slot.
+Loads CGF geometry into the entity slot.
 
 ```
-
-`
 Entity.LoadParticleEffect( nSlot, sEffectName, fPulsePeriod, bPrime, fScale )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+sEffectName | Name of the particle effect (Ex: "explosions/rocket").
+(optional) bPrime | Whether effect starts fully primed to equilibrium state.
+(optional) fPulsePeriod | Time period between particle effect restarts.
+(optional) fScale | Size scale to apply to particles
+(optional) fCountScale | Count multiplier to apply to particles
+(optional) bScalePerUnit | Scale size by attachment extent
+(optional) bCountPerUnit | Scale count by attachment extent
+(optional) sAttachType | string for EGeomType
+(optional) sAttachForm | string for EGeomForm
 
-nSlot
- |
-Slot identifier.
- |
+### PreLoadParticleEffect
 
-sEffectName
- |
-Name of the particle effect (Ex: "explosions/rocket").
- |
-
-(optional) bPrime
- |
-Whether effect starts fully primed to equilibrium state.
- |
-
-(optional) fPulsePeriod
- |
-Time period between particle effect restarts.
- |
-
-(optional) fScale
- |
-Size scale to apply to particles
- |
-
-(optional) fCountScale
- |
-Count multiplier to apply to particles
- |
-
-(optional) bScalePerUnit
- |
-Scale size by attachment extent
- |
-
-(optional) bCountPerUnit
- |
-Scale count by attachment extent
- |
-
-(optional) sAttachType
- |
-string for EGeomType
- |
-
-(optional) sAttachForm
- |
-string for EGeomForm
- |
-
-##
-PreLoadParticleEffect
-
- Pre-loads a particle effect.
+Pre-loads a particle effect.
 
 ```
-
-`
 Entity.PreLoadParticleEffect( sEffectName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sEffectName | Name of the particle effect (Ex: "explosions/rocket").
 
-sEffectName
- |
-Name of the particle effect (Ex: "explosions/rocket").
- |
+### IsSlotParticleEmitter
 
-##
-IsSlotParticleEmitter
-
- Checks if the slot is a particle emitter.
+Checks if the slot is a particle emitter.
 
 ```
-
-`
 Entity.IsSlotParticleEmitter( slot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+slot | Slot identifier.
 
-slot
- |
-Slot identifier.
- |
+### IsSlotLight
 
-##
-IsSlotLight
-
- Checks if the slot is a light.
+Checks if the slot is a light.
 
 ```
-
-`
 Entity.IsSlotLight( slot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+slot | Slot identifier.
 
-slot
- |
-Slot identifier.
- |
+### IsSlotGeometry
 
-##
-IsSlotGeometry
-
- Checks if the slot is a geometry.
+Checks if the slot is a geometry.
 
 ```
-
-`
 Entity.IsSlotGeometry( slot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+slot | Slot identifier.
 
-slot
- |
-Slot identifier.
- |
+### IsSlotCharacter
 
-##
-IsSlotCharacter
-
- Checks if the slot is a character.
+Checks if the slot is a character.
 
 ```
-
-`
 Entity.IsSlotCharacter( slot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+slot | Slot identifier.
 
-slot
- |
-Slot identifier.
- |
+### GetSlotCount
 
-##
-GetSlotCount
-
- Gets the count of the slots.
+Gets the count of the slots.
 
 ```
-
-`
 Entity.GetSlotCount()
-`
-
 ```
 
-##
-GetSlotPos
+### GetSlotPos
 
- Gets the slot position.
+Gets the slot position.
 
 ```
-
-`
 Entity.GetSlotPos( nSlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | nSlot identifier.
 
-nSlot
- |
-nSlot identifier.
- |
+### SetSlotPos
 
-##
-SetSlotPos
-
- Sets the slot position.
+Sets the slot position.
 
 ```
-
-`
 Entity.SetSlotPos( nSlot, v )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | nSlot identifier.
+v | Position to be set.
 
-nSlot
- |
-nSlot identifier.
- |
+### SetSlotPosAndDir
 
-v
- |
-Position to be set.
- |
-
-##
-SetSlotPosAndDir
-
- Sets the slot position and direction.
+Sets the slot position and direction.
 
 ```
-
-`
 Entity.SetSlotPosAndDir( nSlot, pos, dir )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | nSlot identifier.
+pos | Position to be set.
+dir | Direction to be set.
 
-nSlot
- |
-nSlot identifier.
- |
+### GetSlotAngles
 
-pos
- |
-Position to be set.
- |
-
-dir
- |
-Direction to be set.
- |
-
-##
-GetSlotAngles
-
- Gets the slot angles.
+Gets the slot angles.
 
 ```
-
-`
 Entity.GetSlotAngles( nSlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | nSlot identifier.
 
-nSlot
- |
-nSlot identifier.
- |
+### SetSlotAngles
 
-##
-SetSlotAngles
-
- Sets the slot angles.
+Sets the slot angles.
 
 ```
-
-`
 Entity.GetSlotAngles( nSlot, v )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | nSlot identifier.
+v | Angle to be set.
 
-nSlot
- |
-nSlot identifier.
- |
+### GetSlotScale
 
-v
- |
-Angle to be set.
- |
-
-##
-GetSlotScale
-
- Gets the slot scale amount.
+Gets the slot scale amount.
 
 ```
-
-`
 Entity.GetSlotScale( nSlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | nSlot identifier.
 
-nSlot
- |
-nSlot identifier.
- |
+### SetSlotScale
 
-##
-SetSlotScale
-
- Sets the slot scale amount.
+Sets the slot scale amount.
 
 ```
-
-`
 Entity.SetSlotScale( nSlot, fScale )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+fScale | Scale amount for the slot.
 
-nSlot
- |
-Slot identifier.
- |
+### IsSlotValid
 
-fScale
- |
-Scale amount for the slot.
- |
-
-##
-IsSlotValid
-
- Checks if the slot is valid.
+Checks if the slot is valid.
 
 ```
-
-`
 Entity.IsSlotValid( nSlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
 
-nSlot
- |
-Slot identifier.
- |
+### CopySlotTM
 
-##
-CopySlotTM
-
- Copies the TM (Transformation Matrix) of the slot.
+Copies the TM (Transformation Matrix) of the slot.
 
 ```
-
-`
 Entity.CopySlotTM( destSlot, srcSlot, includeTranslation )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+destSlot | Destination slot identifier.
+srcSlot | Source slot identifier.
+includeTranslation | True to include the translation, false otherwise.
 
-destSlot
- |
-Destination slot identifier.
- |
+### MultiplyWithSlotTM
 
-srcSlot
- |
-Source slot identifier.
- |
-
-includeTranslation
- |
-True to include the translation, false otherwise.
- |
-
-##
-MultiplyWithSlotTM
-
- Multiplies with the TM (Transformation Matrix) of the slot.
+Multiplies with the TM (Transformation Matrix) of the slot.
 
 ```
-
-`
 Entity.MultiplyWithSlotTM( slot, pos )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+slot | Slot identifier.
+pos | Position vector.
 
-slot
- |
-Slot identifier.
- |
+### SetSlotWorldTM
 
-pos
- |
-Position vector.
- |
-
-##
-SetSlotWorldTM
-
- Sets the World TM (Transformation Matrix) of the slot.
+Sets the World TM (Transformation Matrix) of the slot.
 
 ```
-
-`
 Entity.SetSlotWorldTM( nSlot, pos, dir )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+pos | Position vector.
+dir | Direction vector.
 
-nSlot
- |
-Slot identifier.
- |
+### GetSlotWorldPos
 
-pos
- |
-Position vector.
- |
-
-dir
- |
-Direction vector.
- |
-
-##
-GetSlotWorldPos
-
- Gets the World position of the slot.
+Gets the World position of the slot.
 
 ```
-
-`
 Entity.GetSlotWorldPos( nSlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
 
-nSlot
- |
-Slot identifier.
- |
+### GetSlotWorldDir
 
-##
-GetSlotWorldDir
-
- Gets the World direction of the slot.
+Gets the World direction of the slot.
 
 ```
-
-`
 Entity.GetSlotWorldDir( nSlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
 
-nSlot
- |
-Slot identifier.
- |
+### SetSlotHud3D
 
-##
-SetSlotHud3D
-
- Setup flags for use as 3D HUD entity.
+Setup flags for use as 3D HUD entity.
 
 ```
-
-`
 Entity.SetSlotHud3D( nSlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
 
-nSlot
- |
-Slot identifier.
- |
+### SetPos
 
-##
-SetPos
-
- Sets the position of the entity.
+Sets the position of the entity.
 
 ```
-
-`
 Entity.SetPos( vPos )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+vPos | Position vector.
 
-vPos
- |
-Position vector.
- |
+### GetPos
 
-##
-GetPos
-
- Gets the position of the entity.
+Gets the position of the entity.
 
 ```
-
-`
 Entity.GetPos()
-`
-
 ```
 
-##
-SetAngles
+### SetAngles
 
 Sets the angle of the entity.
 
 ```
-
-`
 Entity.SetAngles( vAngles )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+vAngles | Angle vector.
 
-vAngles
- |
-Angle vector.
- |
+### GetAngles
 
-##
-GetAngles
-
- Gets the angle of the entity.
+Gets the angle of the entity.
 
 ```
-
-`
 Entity.GetAngles()
-`
-
 ```
 
-##
-SetScale
+### SetScale
 
 Sets the scaling value for the entity.
 
 ```
-
-`
 Entity.SetScale( fScale )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+fScale | Scale amount.
 
-fScale
- |
-Scale amount.
- |
+### GetScale
 
-##
-GetScale
-
- Gets the scaling value for the entity.
+Gets the scaling value for the entity.
 
 ```
-
-`
 Entity.GetScale()
-`
-
 ```
 
-##
-GetCenterOfMassPos
+### GetCenterOfMassPos
 
- Gets the position of the entity center of mass.
+Gets the position of the entity center of mass.
 
 ```
-
-`
 Entity.GetCenterOfMassPos()
-`
-
 ```
 
-##
-GetWorldBoundsCenter
+### GetWorldBoundsCenter
 
- Gets the world bbox center for the entity (defaults to entity position if no bbox present).
+Gets the world bbox center for the entity (defaults to entity position if no bbox present).
 
 ```
-
-`
 Entity.GetWorldBoundsCenter()
-`
-
 ```
 
-##
-SetLocalPos
+### SetLocalPos
 
 ```
-
-`
 Entity.SetLocalPos( vPos )
-`
-
 ```
 
-##
-GetLocalPos
+### GetLocalPos
 
 ```
-
-`
 Vec3 Entity.GetLocalPos()
-`
-
 ```
 
-##
-SetLocalAngles
+### SetLocalAngles
 
 ```
-
-`
 Entity.SetLocalAngles( vAngles )
-`
-
 ```
 
-##
-GetLocalAngles
+### GetLocalAngles
 
 ```
-
-`
 Vec3 Entity.GetLocalAngles( vAngles )
-`
-
 ```
 
-##
-SetLocalScale
+### SetLocalScale
 
 ```
-
-`
 Entity.SetLocalScale( fScale )
-`
-
 ```
 
-##
-GetLocalScale
+### GetLocalScale
 
 ```
-
-`
 float Entity.GetLocalScale()
-`
-
 ```
 
-##
-SetWorldPos
+### SetWorldPos
 
 ```
-
-`
 Entity.SetWorldPos( vPos )
-`
-
 ```
 
-##
-GetWorldPos
+### GetWorldPos
 
 ```
-
-`
 Vec3 Entity.GetWorldPos()
-`
-
 ```
 
-##
-GetWorldDir
+### GetWorldDir
 
 ```
-
-`
 Vec3 Entity.GetWorldDir()
-`
-
 ```
 
-##
-SetWorldAngles
+### SetWorldAngles
 
 ```
-
-`
 Entity.SetWorldAngles( vAngles )
-`
-
 ```
 
-##
-GetWorldAngles
+### GetWorldAngles
 
 ```
-
-`
 Vec3 Entity.GetWorldAngles( vAngles )
-`
-
 ```
 
-##
-SetWorldScale
+### SetWorldScale
 
 ```
-
-`
 Entity.SetWorldScale( fScale )
-`
-
 ```
 
-##
-GetWorldScale
+### GetWorldScale
 
 ```
-
-`
 float Entity.GetWorldScale()
-`
-
 ```
 
-##
-GetBoneLocal
+### GetBoneLocal
 
 ```
-
-`
 float Entity.GetBoneLocal( boneName, trgDir )
-`
-
 ```
 
-##
-CalcWorldAnglesFromRelativeDir
+### CalcWorldAnglesFromRelativeDir
 
 ```
-
-`
 Ang3 Entity.CalcWorldAnglesFromRelativeDir( dir )
-`
-
 ```
 
-##
-IsEntityInside
+### IsEntityInside
 
 ```
-
-`
 float Entity.IsEntityInside(entityId)
-`
-
 ```
 
-##
-GetDistance
+### GetDistance
 
 ```
-
-`
 float Entity.GetDistance( entityId )
-`
-
 ```
 
-**
-Returns:
-**
- The distance from entity specified with entityId/
+**Returns:** The distance from entity specified with entityId/
 
-##
-DrawSlot
+### DrawSlot
 
- Enables/Disables drawing of object or character at specified slot of the entity.
+Enables/Disables drawing of object or character at specified slot of the entity.
 
 ```
-
-`
 Entity.DrawSlot( nSlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
+nEnable | 1-Enable drawing, 0-Disable drawing.
 
-nSlot
- |
-Slot identifier.
- |
+### IgnorePhysicsUpdatesOnSlot
 
-nEnable
- |
-1-Enable drawing, 0-Disable drawing.
- |
-
-##
-IgnorePhysicsUpdatesOnSlot
-
- Ignore physics when it try to update the position of a slot.
+Ignore physics when it try to update the position of a slot.
 
 ```
-
-`
 Entity.IgnorePhysicsUpdatesOnSlot( nSlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
 
-nSlot
- |
-Slot identifier.
- |
+### FreeSlot
 
-##
-FreeSlot
-
- Delete all objects from specified slot.
+Delete all objects from specified slot.
 
 ```
-
-`
 Entity.FreeSlot( nSlot )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | Slot identifier.
 
-nSlot
- |
-Slot identifier.
- |
+### FreeAllSlots
 
-##
-FreeAllSlots
-
- Delete all objects on every slot part of the entity.
+Delete all objects on every slot part of the entity.
 
 ```
-
-`
 Entity.FreeAllSlots()
-`
-
 ```
 
-##
-GetCharacter
+### GetCharacter
 
- Gets the character for the specified slot if there is any.
+Gets the character for the specified slot if there is any.
 
 ```
-
-`
 Entity.GetCharacter( nSlot )
-`
-
 ```
 
-##
-DestroyPhysics
+### DestroyPhysics
 
 ```
-
-`
 Entity.DestroyPhysics()
-`
-
 ```
 
-##
-EnablePhysics
+### EnablePhysics
 
 ```
-
-`
 Entity.EnablePhysics( bEnable )
-`
-
 ```
 
-##
-ResetPhysics
+### ResetPhysics
 
 ```
-
-`
 Entity.ResetPhysics()
-`
-
 ```
 
-##
-AwakePhysics
+### AwakePhysics
 
 ```
-
-`
 Entity.AwakePhysics( nAwake )
-`
-
 ```
 
-##
-AwakeCharacterPhysics
+### AwakeCharacterPhysics
 
 ```
-
-`
 Entity.AwakeCharacterPhysics( nSlot, sRootBoneName, nAwake )
-`
-
 ```
 
-##
-Physicalize
+### Physicalize
 
 <param name="physicsParams - Table with physicalization parameters.
 
 ```
-
-`
 Entity.Physicalize( int nSlot,int nPhysicsType,table physicsParams )
-`
-
 ```
 
-##
-SetPhysicParams
+### SetPhysicParams
 
 ```
-
-`
 Entity.SetPhysicParams()
-`
-
 ```
 
-##
-SetCharacterPhysicParams
+### SetCharacterPhysicParams
 
 ```
-
-`
 Entity.SetCharacterPhysicParams()
-`
-
 ```
 
-##
-ActivatePlayerPhysics
+### ActivatePlayerPhysics
 
 ```
-
-`
 Entity.ActivatePlayerPhysics( bEnable )
-`
-
 ```
 
-##
-ReattachSoftEntityVtx
+### ReattachSoftEntityVtx
 
 ```
-
-`
 Entity.ReattachSoftEntityVtx( partId )
-`
-
 ```
 
-##
-PhysicalizeSlot
+### PhysicalizeSlot
 
 ```
-
-`
 Entity.PhysicalizeSlot( slot, physicsParams )
-`
-
 ```
 
-##
-UpdateSlotPhysics
+### UpdateSlotPhysics
 
 ```
-
-`
 Entity.UpdateSlotPhysics( slot )
-`
-
 ```
 
-##
-SetColliderMode
+### SetColliderMode
 
 ```
-
-`
 Entity.SetColliderMode( mode )
-`
-
 ```
 
-##
-SelectPipe
+### SelectPipe
 
 ```
-
-`
 Entity.SelectPipe()
-`
-
 ```
 
-##
-IsUsingPipe
+### IsUsingPipe
 
 ```
-
-`
 Entity.IsUsingPipe( pipename )
-`
-
 ```
 
-**
-Returns:
-**
- true - if entity is running the given goalpipe or has it inserted false - otherwise
+**Returns:** true - if entity is running the given goalpipe or has it inserted false - otherwise
 
-##
-Activate
+### Activate
 
-  Activates or deactivates entity. This calls ignores update policy and forces entity to activate or deactivate All active entities will be updated every frame, having too many active entities can affect performance.  <param name="bActivate - if true entity will become active, is false will deactivate and stop being updated every frame.
+Activates or deactivates entity. This calls ignores update policy and forces entity to activate or deactivate All active entities will be updated every frame, having too many active entities can affect performance. <param name="bActivate - if true entity will become active, is false will deactivate and stop being updated every frame.
 
 ```
-
-`
 Entity.Activate( bActivate )
-`
-
 ```
 
-##
-IsActive
+### IsActive
 
- Retrieve active status of entity.
+Retrieve active status of entity.
 
 ```
-
-`
 Entity.IsActive( bActivate )
-`
-
 ```
 
-**
-Returns:
-**
- true - Entity is active. false - Entity is not active.
+**Returns:** true - Entity is active. false - Entity is not active.
 
-##
-IsFromPool
+### IsFromPool
 
- Returns if the entity came from an entity pool.
+Returns if the entity came from an entity pool.
 
 ```
-
-`
 Entity.IsFromPool()
-`
-
 ```
 
-**
-Returns:
-**
- true - Entity is from a pool. (Bookmarked) false - Entity is not from a pool. (Not bookmarked)
+**Returns:** true - Entity is from a pool. (Bookmarked) false - Entity is not from a pool. (Not bookmarked)
 
-##
-SetUpdatePolicy
+### SetUpdatePolicy
 
 Use SetUpdateRadius for update policy that require a radius.
 
 ```
-
-`
 Entity.SetUpdatePolicy( nUpdatePolicy )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nUpdatePolicy | Update policy type.
 
-nUpdatePolicy
- |
-Update policy type.
- |
-
-##
-SetLocalBBox
+### SetLocalBBox
 
 ```
-
-`
 Entity.SetLocalBBox( vMin, vMax )
-`
-
 ```
 
-##
-GetLocalBBox
+### GetLocalBBox
 
 ```
-
-`
 Entity.GetLocalBBox()
-`
-
 ```
 
-##
-GetWorldBBox
+### GetWorldBBox
 
 ```
-
-`
 Entity.GetWorldBBox()
-`
-
 ```
 
-##
-GetProjectedWorldBBox
+### GetProjectedWorldBBox
 
 ```
-
-`
 Entity.GetProjectedWorldBBox()
-`
-
 ```
 
-##
-SetTriggerBBox
+### SetTriggerBBox
 
 ```
-
-`
 Entity.SetTriggerBBox( vMin, vMax )
-`
-
 ```
 
-##
-GetTriggerBBox
+### GetTriggerBBox
 
 ```
-
-`
 Entity.GetTriggerBBox()
-`
-
 ```
 
-##
-InvalidateTrigger
+### InvalidateTrigger
 
 ```
-
-`
 Entity.InvalidateTrigger()
-`
-
 ```
 
-##
-ForwardTriggerEventsTo
+### ForwardTriggerEventsTo
 
 ```
-
-`
 Entity.ForwardTriggerEventsTo( entityId )
-`
-
 ```
 
-##
-SetUpdateRadius
+### SetUpdateRadius
 
 ```
-
-`
 Entity.SetUpdateRadius()
-`
-
 ```
 
-##
-GetUpdateRadius
+### GetUpdateRadius
 
 ```
-
-`
 Entity.GetUpdateRadius()
-`
-
 ```
 
-##
-TriggerEvent
+### TriggerEvent
 
 ```
-
-`
 Entity.TriggerEvent()
-`
-
 ```
 
-##
-GetHelperPos
+### GetHelperPos
 
 ```
-
-`
 Entity.GetHelperPos()
-`
-
 ```
 
-##
-GetHelperDir
+### GetHelperDir
 
 ```
-
-`
 Entity.GetHelperDir()
-`
-
 ```
 
-##
-GetHelperAngles
+### GetHelperAngles
 
 ```
-
-`
 Entity.GetHelperAngles()
-`
-
 ```
 
-##
-GetSlotHelperPos
+### GetSlotHelperPos
 
 ```
-
-`
 Entity.GetSlotHelperPos( slot, helperName, objectSpace )
-`
-
 ```
 
-##
-GetBonePos
+### GetBonePos
 
 ```
-
-`
 Entity.GetBonePos()
-`
-
 ```
 
-##
-GetBoneDir
+### GetBoneDir
 
 ```
-
-`
 Entity.GetBoneDir()
-`
-
 ```
 
-##
-GetBoneVelocity
+### GetBoneVelocity
 
 ```
-
-`
 Entity.GetBoneVelocity( characterSlot, boneName )
-`
-
 ```
 
-##
-GetBoneAngularVelocity
+### GetBoneAngularVelocity
 
 ```
-
-`
 Entity.GetBoneAngularVelocity( characterSlot, oneName )
-`
-
 ```
 
-##
-GetBoneNameFromTable
+### GetBoneNameFromTable
 
 ```
-
-`
 Entity.GetBoneNameFromTable()
-`
-
 ```
 
-##
-SetName
+### SetName
 
 ```
-
-`
 Entity.SetName()
-`
-
 ```
 
-##
-GetName
+### GetName
 
 ```
-
-`
 Entity.GetName()
-`
-
 ```
 
-##
-GetRawId
+### GetRawId
 
- Returns entityId in raw numeric format.
+Returns entityId in raw numeric format.
 
 ```
-
-`
 Entity.GetRawId()
-`
-
 ```
 
-##
-SetAIName
+### SetAIName
 
 ```
-
-`
 Entity.SetAIName()
-`
-
 ```
 
-##
-GetAIName
+### GetAIName
 
 ```
-
-`
 Entity.GetAIName()
-`
-
 ```
 
-##
-SetFlags
+### SetFlags
 
- Mode: 0: or 1: and 2: xor
+Mode: 0: or 1: and 2: xor
 
 ```
-
-`
 Entity.SetFlags( flags, mode )
-`
-
 ```
 
-##
-GetFlags
+### GetFlags
 
 ```
-
-`
 Entity.GetFlags()
-`
-
 ```
 
-##
-HasFlags
+### HasFlags
 
 ```
-
-`
 Entity.HasFlags( flags )
-`
-
 ```
 
-##
-SetFlagsExtended
+### SetFlagsExtended
 
- Mode: 0: or 1: and 2: xor
+Mode: 0: or 1: and 2: xor
 
 ```
-
-`
 Entity.SetFlagsExtended( flags, mode )
-`
-
 ```
 
-##
-GetFlagsExtended
+### GetFlagsExtended
 
 ```
-
-`
 Entity.GetFlagsExtended()
-`
-
 ```
 
-##
-HasFlagsExtended
+### HasFlagsExtended
 
 ```
-
-`
 Entity.HasFlags( flags )
-`
-
 ```
 
-##
-GetArchetype
+### GetArchetype
 
- Retrieve the archetype of the entity.
+Retrieve the archetype of the entity.
 
 ```
-
-`
 Entity.GetArchetype()
-`
-
 ```
 
-**
-Returns:
-**
- name of entity archetype, nil if no archetype.
+**Returns:** name of entity archetype, nil if no archetype.
 
-##
-IntersectRay
+### IntersectRay
 
 ```
-
-`
 Entity.IntersectRay( slot, rayOrigin, rayDir, maxDistance )
-`
-
 ```
 
-##
-AttachChild
+### AttachChild
 
 ```
-
-`
 Entity.AttachChild( childEntityId, flags )
-`
-
 ```
 
-##
-DetachThis
+### DetachThis
 
 ```
-
-`
 Entity.DetachThis()
-`
-
 ```
 
-##
-DetachAll
+### DetachAll
 
 ```
-
-`
 Entity.DetachAll()
-`
-
 ```
 
-##
-GetParent
+### GetParent
 
 ```
-
-`
 Entity.GetParent()
-`
-
 ```
 
-##
-GetChildCount
+### GetChildCount
 
 ```
-
-`
 Entity.GetChildCount()
-`
-
 ```
 
-##
-GetChild
+### GetChild
 
 ```
-
-`
 Entity.GetChild( int nIndex )
-`
-
 ```
 
-##
-EnableInheritXForm
+### EnableInheritXForm
 
- Enables/Disable entity from inheriting transformation from the parent.
+Enables/Disable entity from inheriting transformation from the parent.
 
 ```
-
-`
 Entity.EnableInheritXForm()
-`
-
 ```
 
-##
-NetPresent
+### NetPresent
 
 ```
-
-`
 Entity.NetPresent()
-`
-
 ```
 
-##
-RenderShadow
+### RenderShadow
 
 ```
-
-`
 Entity.RenderShadow()
-`
-
 ```
 
-##
-SetRegisterInSectors
+### SetRegisterInSectors
 
 ```
-
-`
 Entity.SetRegisterInSectors()
-`
-
 ```
 
-##
-IsColliding
+### IsColliding
 
 ```
-
-`
 Entity.IsColliding()
-`
-
 ```
 
-##
-GetDirectionVector
+### GetDirectionVector
 
 ```
-
-`
 Entity.GetDirectionVector()
-`
-
 ```
 
-##
-SetDirectionVector
+### SetDirectionVector
 
 ```
-
-`
 Entity.SetDirectionVector( direction )
-`
-
 ```
 
-##
-IsAnimationRunning
+### IsAnimationRunning
 
 ```
-
-`
 Entity.IsAnimationRunning( characterSlot, layer )
-`
-
 ```
 
-**
-Returns:
-**
- nil or not nil
-Parameter
- |
-Description
- |
+**Returns:** nil or not nil
+Parameter | Description
+--- | ---
+characterSlot | Index of the character slot.
+layer | Index of the animation layer.
 
-characterSlot
- |
-Index of the character slot.
- |
+### AddImpulse
 
-layer
- |
-Index of the animation layer.
- |
-
-##
-AddImpulse
-
-  Apply an impulse to the entity. At least four parameters need to be provided for a linear impulse. For an additional angular impulse, at least seven parameters need to be provided.
+Apply an impulse to the entity. At least four parameters need to be provided for a linear impulse. For an additional angular impulse, at least seven parameters need to be provided.
 
 ```
-
-`
 Entity.AddImpulse( ipart, position, direction, linearImpulse, linearImpulseScale, angularAxis, angularImpulse, massScale )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+ipart | The index of the part that receives the impulse.
+position | The point (in world coordinates) where the impulse is applied. Set this to (0, 0, 0) to ignore it.
+direction | The direction in which the impulse is applied.
+linearImpulse | The force of the linear impulse.
+linearImpulseScale | Scaling of the linear impulse. (Default: 1.0)
+angularAxis | The axis on which the angular impulse is applied.
+angularImpulse | The force of the the angular impulse.
+massScale | Mass scaling of the angular impulse. (Default: 1.0)
 
-ipart
- |
-The index of the part that receives the impulse.
- |
-
-position
- |
-The point (in world coordinates) where the impulse is applied. Set this to (0, 0, 0) to ignore it.
- |
-
-direction
- |
-The direction in which the impulse is applied.
- |
-
-linearImpulse
- |
-The force of the linear impulse.
- |
-
-linearImpulseScale
- |
-Scaling of the linear impulse. (Default: 1.0)
- |
-
-angularAxis
- |
-The axis on which the angular impulse is applied.
- |
-
-angularImpulse
- |
-The force of the the angular impulse.
- |
-
-massScale
- |
-Mass scaling of the angular impulse. (Default: 1.0)
- |
-
-##
-AddConstraint
+### AddConstraint
 
 ```
-
-`
 Entity.AddConstraint()
-`
-
 ```
 
-##
-SetPublicParam
+### SetPublicParam
 
- Set a shader parameter
+Set a shader parameter
 
 ```
-
-`
 Entity.SetPublicParam()
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+paramName | The name of the shader parameter.
+value | The new value of the parameter.
 
-paramName
- |
-The name of the shader parameter.
- |
+### GetAllAuxAudioProxiesID
 
-value
- |
-The new value of the parameter.
- |
-
-##
-GetAllAuxAudioProxiesID
-
-  Returns the ID used to address all AuxAudioProxy of the parent EntityAudioProxy.
+Returns the ID used to address all AuxAudioProxy of the parent EntityAudioProxy.
 
 ```
-
-`
 Entity.GetAllAuxAudioProxiesID()
-`
-
 ```
 
-**
-Returns:
-**
- Returns the ID used to address all AuxAudioProxy of the parent EntityAudioProxy.
+**Returns:** Returns the ID used to address all AuxAudioProxy of the parent EntityAudioProxy.
 
-##
-GetDefaultAuxAudioProxyID
+### GetDefaultAuxAudioProxyID
 
-  Returns the ID of the default AudioProxy of the parent EntityAudioProxy.
+Returns the ID of the default AudioProxy of the parent EntityAudioProxy.
 
 ```
-
-`
 Entity.GetDefaultAuxAudioProxyID()
-`
-
 ```
 
-**
-Returns:
-**
- Returns the ID of the default AudioProxy of the parent EntityAudioProxy.
+**Returns:** Returns the ID of the default AudioProxy of the parent EntityAudioProxy.
 
-##
-CreateAuxAudioProxy
+### CreateAuxAudioProxy
 
-  Creates an additional AudioProxy managed by the EntityAudioProxy. The created AuxAudioProxy will move and rotate with the parent EntityAudioProxy.
+Creates an additional AudioProxy managed by the EntityAudioProxy. The created AuxAudioProxy will move and rotate with the parent EntityAudioProxy.
 
 ```
-
-`
 Entity.CreateAuxAudioProxy()
-`
-
 ```
 
-**
-Returns:
-**
- Returns the ID of the additionally created AudioProxy.
+**Returns:** Returns the ID of the additionally created AudioProxy.
 
-##
-RemoveAuxAudioProxy
+### RemoveAuxAudioProxy
 
-  Removes the AuxAudioProxy corresponding to the passed ID from the parent EntityAudioProxy.
+Removes the AuxAudioProxy corresponding to the passed ID from the parent EntityAudioProxy.
 
 ```
-
-`
 Entity.RemoveAuxAudioProxy( hAudioProxyLocalID )
-`
-
 ```
 
-**
-Returns:
-**
- nil
-Parameter
- |
-Description
- |
+**Returns:** nil
+Parameter | Description
+--- | ---
+hAudioProxyLocalID | hAudioProxyLocalID - ID of the AuxAudioProxy to be removed from the parent EntityAudioProxy.
 
-hAudioProxyLocalID
- |
-hAudioProxyLocalID - ID of the AuxAudioProxy to be removed from the parent EntityAudioProxy.
- |
+### ExecuteAudioTrigger
 
-##
-ExecuteAudioTrigger
-
-  Execute the specified audio trigger and attach it to the entity. The created audio object will move and rotate with the entity.
+Execute the specified audio trigger and attach it to the entity. The created audio object will move and rotate with the entity.
 
 ```
-
-`
 Entity.ExecuteAudioTrigger( hTriggerID, hAudioProxyLocalID )
-`
-
 ```
 
-**
-Returns:
-**
- nil
-Parameter
- |
-Description
- |
+**Returns:** nil
+Parameter | Description
+--- | ---
+hTriggerID | the audio trigger ID handle
+hAudioProxyLocalID | ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
 
-hTriggerID
- |
-the audio trigger ID handle
- |
+### StopAudioTrigger
 
-hAudioProxyLocalID
- |
-ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
- |
-
-##
-StopAudioTrigger
-
- Stop the audio event generated by the trigger with the specified ID on this entity.
+Stop the audio event generated by the trigger with the specified ID on this entity.
 
 ```
-
-`
 Entity.StopAudioTrigger( hTriggerID, hAudioProxyLocalID )
-`
-
 ```
 
-**
-Returns:
-**
- nil
-Parameter
- |
-Description
- |
+**Returns:** nil
+Parameter | Description
+--- | ---
+hTriggerID | the audio trigger ID handle
+hAudioProxyLocalID | ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
 
-hTriggerID
- |
-the audio trigger ID handle
- |
+### SetAudioSwitchState
 
-hAudioProxyLocalID
- |
-ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
- |
-
-##
-SetAudioSwitchState
-
- Set the specified audio switch to the specified state on the current Entity.
+Set the specified audio switch to the specified state on the current Entity.
 
 ```
-
-`
 Entity.SetAudioSwitchState( hSwitchID, hSwitchStateID, hAudioProxyLocalID )
-`
-
 ```
 
-**
-Returns:
-**
- nil
-Parameter
- |
-Description
- |
+**Returns:** nil
+Parameter | Description
+--- | ---
+hSwitchID | the audio switch ID handle
+nSwitchStateID | the switch state ID handle
+hAudioProxyLocalID | ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
 
-hSwitchID
- |
-the audio switch ID handle
- |
+### SetAudioObstructionCalcType
 
-nSwitchStateID
- |
-the switch state ID handle
- |
-
-hAudioProxyLocalID
- |
-ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
- |
-
-##
-SetAudioObstructionCalcType
-
- Set the Audio Obstruction/Occlusion calculation type on the underlying GameAudioObject.
+Set the Audio Obstruction/Occlusion calculation type on the underlying GameAudioObject.
 
 ```
-
-`
 Entity.SetAudioObstructionCalcType( nObstructionCalcType, hAudioProxyLocalID )
-`
-
 ```
 
-**
-Returns:
-**
- nil
-Parameter
- |
-Description
- |
+**Returns:** nil
+Parameter | Description
+--- | ---
+nObstructionCalcType | Obstruction/Occlusion calculation type; Possible values: 0 - ignore Obstruction/Occlusion 1 - use single physics ray 2 - use multiple physics rays (currently 5 per object)
+hAudioProxyLocalID | ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
 
-nObstructionCalcType
- |
-Obstruction/Occlusion calculation type; Possible values: 0 - ignore Obstruction/Occlusion 1 - use single physics ray 2 - use multiple physics rays (currently 5 per object)
- |
+### SetFadeDistance
 
-hAudioProxyLocalID
- |
-ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
- |
-
-##
-SetFadeDistance
-
- Sets the distance in which this entity will execute fade calculations.
+Sets the distance in which this entity will execute fade calculations.
 
 ```
-
-`
 Entity.SetFadeDistance( fFadeDistance )
-`
-
 ```
 
-**
-Returns:
-**
- nil
-Parameter
- |
-Description
- |
+**Returns:** nil
+Parameter | Description
+--- | ---
+fFadeDistance | fade distance in meters
 
-fFadeDistance
- |
-fade distance in meters
- |
+### SetAudioProxyOffset
 
-##
-SetAudioProxyOffset
-
- Set offset on the AudioProxy attached to the Entity.
+Set offset on the AudioProxy attached to the Entity.
 
 ```
-
-`
 Entity.SetAudioProxyOffset( vOffset, hAudioProxyLocalID )
-`
-
 ```
 
-**
-Returns:
-**
- nil
-Parameter
- |
-Description
- |
+**Returns:** nil
+Parameter | Description
+--- | ---
+vOffset | offset vector
+hAudioProxyLocalID | ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
 
-vOffset
- |
-offset vector
- |
+### SetEnvironmentFadeDistance
 
-hAudioProxyLocalID
- |
-ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
- |
-
-##
-SetEnvironmentFadeDistance
-
- Sets the distance over which this entity will fade the audio environment amount for all approaching entities.
+Sets the distance over which this entity will fade the audio environment amount for all approaching entities.
 
 ```
-
-`
 Entity.SetEnvironmentFadeDistance( fEnvironmentFadeDistance )
-`
-
 ```
 
-**
-Returns:
-**
- nil
-Parameter
- |
-Description
- |
+**Returns:** nil
+Parameter | Description
+--- | ---
+fEnvironmentFadeDistance | fade distance in meters
 
-fEnvironmentFadeDistance
- |
-fade distance in meters
- |
+### SetAudioEnvironmentID
 
-##
-SetAudioEnvironmentID
-
- Sets the ID of the audio environment this entity will set for entities inside it.
+Sets the ID of the audio environment this entity will set for entities inside it.
 
 ```
-
-`
 Entity.SetAudioEnvironmentID( nAudioEnvironmentID )
-`
-
 ```
 
-**
-Returns:
-**
- nil
-Parameter
- |
-Description
- |
+**Returns:** nil
+Parameter | Description
+--- | ---
+nAudioEnvironmentID | audio environment ID
 
-nAudioEnvironmentID
- |
-audio environment ID
- |
+### SetCurrentAudioEnvironments
 
-##
-SetCurrentAudioEnvironments
-
- Sets the correct audio environment amounts based on the entity's position in the world.
+Sets the correct audio environment amounts based on the entity's position in the world.
 
 ```
-
-`
 Entity.SetCurrentAudioEnvironments()
-`
-
 ```
 
-**
-Returns:
-**
- nil
+**Returns:** nil
 
-##
-SetAudioRtpcValue
+### SetAudioRtpcValue
 
- Set the specified audio RTPC to the specified value on the current Entity.
+Set the specified audio RTPC to the specified value on the current Entity.
 
 ```
-
-`
 Entity.SetAudioRtpcValue( hRtpcID, fValue, hAudioProxyLocalID )
-`
-
 ```
 
-**
-Returns:
-**
- nil
-Parameter
- |
-Description
- |
+**Returns:** nil
+Parameter | Description
+--- | ---
+hRtpcID | the audio RTPC ID handle
+fValue | the RTPC value
+hAudioProxyLocalID | ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
 
-hRtpcID
- |
-the audio RTPC ID handle
- |
+### AuxAudioProxiesMoveWithEntity
 
-fValue
- |
-the RTPC value
- |
-
-hAudioProxyLocalID
- |
-ID of the AuxAudioProxy local to the EntityAudioProxy (to address the default AuxAudioProxy pass 1 to address all AuxAudioProxies pass 0)
- |
-
-##
-AuxAudioProxiesMoveWithEntity
-
- Set whether AuxAudioProxies should move with the entity or not.
+Set whether AuxAudioProxies should move with the entity or not.
 
 ```
-
-`
 Entity.AuxAudioProxiesMoveWithEntity( bCanMoveWithEntity )
-`
-
 ```
 
-**
-Returns:
-**
- nil
-Parameter
- |
-Description
- |
+**Returns:** nil
+Parameter | Description
+--- | ---
+bCanMoveWithEntity | boolean parameter to enable or disable
 
-bCanMoveWithEntity
- |
-boolean parameter to enable or disable
- |
+### SetGeomCachePlaybackTime
 
-##
-SetGeomCachePlaybackTime
-
- Sets the playback time.
+Sets the playback time.
 
 ```
-
-`
- Entity.SetGeomCachePlaybackTime()
-`
-
+Entity.SetGeomCachePlaybackTime()
 ```
 
-##
-SetGeomCacheParams
+### SetGeomCacheParams
 
- Sets geometry cache parameters.
-
-```
-
-`
- Entity.SetGeomCacheParams()
-`
+Sets geometry cache parameters.
 
 ```
-
-##
-SetGeomCacheStreaming
-
- Activates/deactivates geom cache streaming.
-
+Entity.SetGeomCacheParams()
 ```
 
-`
- Entity.SetGeomCacheStreaming()
-`
+### SetGeomCacheStreaming
+
+Activates/deactivates geom cache streaming.
 
 ```
-
-##
-IsGeomCacheStreaming
-
+Entity.SetGeomCacheStreaming()
 ```
 
-`
- Entity.IsGeomCacheStreaming()
-`
+### IsGeomCacheStreaming
 
 ```
-
-**
-Returns:
-**
- true if geom cache is streaming.
-
-##
-GetGeomCachePrecachedTime
-
- Gets time delta from current playback position to last ready to play frame.
-
+Entity.IsGeomCacheStreaming()
 ```
 
-`
- Entity.GetGeomCachePrecachedTime()
-`
+**Returns:** true if geom cache is streaming.
+
+### GetGeomCachePrecachedTime
+
+Gets time delta from current playback position to last ready to play frame.
 
 ```
-
-##
-SetGeomCacheDrawing
-
- Activates/deactivates geom cache drawing.
-
+Entity.GetGeomCachePrecachedTime()
 ```
 
-`
- Entity.SetGeomCacheDrawing()
-`
+### SetGeomCacheDrawing
+
+Activates/deactivates geom cache drawing.
 
 ```
-
-##
-StartAnimation
-
+Entity.SetGeomCacheDrawing()
 ```
 
-`
+### StartAnimation
+
+```
 Entity.StartAnimation()
-`
-
 ```
 
-##
-StopAnimation
+### StopAnimation
 
 ```
-
-`
 Entity.StopAnimation( characterSlot, layer )
-`
-
 ```
 
-##
-ResetAnimation
+### ResetAnimation
 
 ```
-
-`
 Entity.ResetAnimation( characterSlot, layer )
-`
-
 ```
 
-##
-RedirectAnimationToLayer0
+### RedirectAnimationToLayer0
 
 ```
-
-`
 Entity.RedirectAnimationToLayer0( characterSlot, redirect )
-`
-
 ```
 
-##
-SetAnimationBlendOut
+### SetAnimationBlendOut
 
 ```
-
-`
 Entity.SetAnimationBlendOut( characterSlot, layer, blendOut )
-`
-
 ```
 
-##
-EnableBoneAnimation
+### EnableBoneAnimation
 
 ```
-
-`
 Entity.EnableBoneAnimation( characterSlot, layer, boneName, status )
-`
-
 ```
 
-##
-EnableBoneAnimationAll
+### EnableBoneAnimationAll
 
 ```
-
-`
 Entity.EnableBoneAnimationAll( characterSlot, layer, status )
-`
-
 ```
 
-##
-EnableProceduralFacialAnimation
+### EnableProceduralFacialAnimation
 
 ```
-
-`
 Entity.EnableProceduralFacialAnimation( enable )
-`
-
 ```
 
-##
-PlayFacialAnimation
+### PlayFacialAnimation
 
 ```
-
-`
 Entity.PlayFacialAnimation( name, looping )
-`
-
 ```
 
-##
-SetAnimationEvent
+### SetAnimationEvent
 
 ```
-
-`
 Entity.SetAnimationEvent( nSlot, sAnimation )
-`
-
 ```
 
-##
-SetAnimationKeyEvent
+### SetAnimationKeyEvent
 
 ```
-
-`
 Entity.SetAnimationKeyEvent( nSlot, sAnimation, nFrameID, sEvent)
-`
-
 ```
 
-##
-DisableAnimationEvent
+### DisableAnimationEvent
 
 ```
-
-`
 Entity.DisableAnimationEvent( nSlot, sAnimation )
-`
-
 ```
 
-##
-SetAnimationSpeed
+### SetAnimationSpeed
 
 ```
-
-`
- Entity.SetAnimationSpeed( characterSlot, layer, speed )
-`
-
+Entity.SetAnimationSpeed( characterSlot, layer, speed )
 ```
 
-##
-SetAnimationTime
+### SetAnimationTime
 
 ```
-
-`
- Entity.SetAnimationTime( nSlot, nLayer, fTime )
-`
-
+Entity.SetAnimationTime( nSlot, nLayer, fTime )
 ```
 
-##
-GetAnimationTime
+### GetAnimationTime
 
 ```
-
-`
- Entity.GetAnimationTime( nSlot, nLayer )
-`
-
+Entity.GetAnimationTime( nSlot, nLayer )
 ```
 
-##
-GetCurAnimation
+### GetCurAnimation
 
 ```
-
-`
- Entity.GetCurAnimation()
-`
-
+Entity.GetCurAnimation()
 ```
 
-##
-GetAnimationLength
+### GetAnimationLength
 
 ```
-
-`
- Entity.GetAnimationLength( characterSlot, animation )
-`
-
+Entity.GetAnimationLength( characterSlot, animation )
 ```
 
-##
-SetAnimationFlip
+### SetAnimationFlip
 
 ```
-
-`
- Entity.SetAnimationFlip( characterSlot, flip )
-`
-
+Entity.SetAnimationFlip( characterSlot, flip )
 ```
 
-##
-SetTimer
+### SetTimer
 
 ```
-
-`
- Entity.SetTimer()
-`
-
+Entity.SetTimer()
 ```
 
-##
-KillTimer
+### KillTimer
 
 ```
-
-`
- Entity.KillTimer()
-`
-
+Entity.KillTimer()
 ```
 
-##
-SetScriptUpdateRate
+### SetScriptUpdateRate
 
 ```
-
-`
- Entity.SetScriptUpdateRate( nMillis )
-`
-
+Entity.SetScriptUpdateRate( nMillis )
 ```
 
-##
-GotoState
+### GotoState
 
 ```
-
-`
- Entity.GotoState( sState )
-`
-
+Entity.GotoState( sState )
 ```
 
-##
-IsInState
+### IsInState
 
 ```
-
-`
- Entity.IsInState( sState )
-`
-
+Entity.IsInState( sState )
 ```
 
-##
-GetState
+### GetState
 
 ```
-
-`
- Entity.GetState()
-`
-
+Entity.GetState()
 ```
 
-##
-IsHidden
+### IsHidden
 
 ```
-
-`
- Entity.IsHidden()
-`
-
+Entity.IsHidden()
 ```
 
-##
-GetTouchedSurfaceID
+### GetTouchedSurfaceID
 
 ```
-
-`
- Entity.GetTouchedSurfaceID()
-`
-
+Entity.GetTouchedSurfaceID()
 ```
 
-##
-GetTouchedPoint
+### GetTouchedPoint
 
- Retrieves point of collision for rigid body.
+Retrieves point of collision for rigid body.
 
 ```
-
-`
- Entity.GetTouchedPoint()
-`
-
+Entity.GetTouchedPoint()
 ```
 
-##
-CreateBoneAttachment
+### CreateBoneAttachment
 
 ```
-
-`
- Entity.CreateBoneAttachment( characterSlot, boneName, attachmentName )
-`
-
+Entity.CreateBoneAttachment( characterSlot, boneName, attachmentName )
 ```
 
-##
-CreateSkinAttachment
+### CreateSkinAttachment
 
 ```
-
-`
- Entity.CreateSkinAttachment( characterSlot, attachmentName )
-`
-
+Entity.CreateSkinAttachment( characterSlot, attachmentName )
 ```
 
-##
-DestroyAttachment
+### DestroyAttachment
 
 ```
-
-`
- Entity.DestroyAttachment( characterSlot, attachmentName )
-`
-
+Entity.DestroyAttachment( characterSlot, attachmentName )
 ```
 
-##
-GetAttachmentBone
+### GetAttachmentBone
 
 ```
-
-`
- Entity.GetAttachmentBone( characterSlot, attachmentName )
-`
-
+Entity.GetAttachmentBone( characterSlot, attachmentName )
 ```
 
-##
-GetAttachmentCGF
+### GetAttachmentCGF
 
 ```
-
-`
- Entity.GetAttachmentCGF( characterSlot, attachmentName )
-`
-
+Entity.GetAttachmentCGF( characterSlot, attachmentName )
 ```
 
-##
-ResetAttachment
+### ResetAttachment
 
 ```
-
-`
- Entity.ResetAttachment( characterSlot, attachmentName )
-`
-
+Entity.ResetAttachment( characterSlot, attachmentName )
 ```
 
-##
-SetAttachmentEffect
+### SetAttachmentEffect
 
 ```
-
-`
- Entity.SetAttachmentEffect( characterSlot, attachmentName, effectName, offset, dir, scale, flags )
-`
-
+Entity.SetAttachmentEffect( characterSlot, attachmentName, effectName, offset, dir, scale, flags )
 ```
 
-##
-SetAttachmentObject
+### SetAttachmentObject
 
 ```
-
-`
- Entity.SetAttachmentObject( characterSlot, attachmentName, entityId, slot, flags )
-`
-
+Entity.SetAttachmentObject( characterSlot, attachmentName, entityId, slot, flags )
 ```
 
-##
-SetAttachmentCGF
+### SetAttachmentCGF
 
 ```
-
-`
- Entity.SetAttachmentCGF( characterSlot, attachmentName, filePath )
-`
-
+Entity.SetAttachmentCGF( characterSlot, attachmentName, filePath )
 ```
 
-##
-SetAttachmentLight
+### SetAttachmentLight
 
 ```
-
-`
- Entity.SetAttachmentLight( characterSlot, attachmentName, lightTable, flags )
-`
-
+Entity.SetAttachmentLight( characterSlot, attachmentName, lightTable, flags )
 ```
 
-##
-SetAttachmentPos
+### SetAttachmentPos
 
 ```
-
-`
- Entity.SetAttachmentPos( characterSlot, attachmentName, pos )
-`
-
+Entity.SetAttachmentPos( characterSlot, attachmentName, pos )
 ```
 
-##
-SetAttachmentAngles
+### SetAttachmentAngles
 
 ```
-
-`
- Entity.SetAttachmentAngles( characterSlot, attachmentName, angles )
-`
-
+Entity.SetAttachmentAngles( characterSlot, attachmentName, angles )
 ```
 
-##
-SetAttachmentDir
+### SetAttachmentDir
 
 ```
-
-`
- Entity.SetAttachmentDir()
-`
-
+Entity.SetAttachmentDir()
 ```
 
-##
-HideAttachment
+### HideAttachment
 
 ```
-
-`
- Entity.HideAttachment( characterSlot, attachmentName, hide, hideShadow )
-`
-
+Entity.HideAttachment( characterSlot, attachmentName, hide, hideShadow )
 ```
 
-##
-HideAllAttachments
+### HideAllAttachments
 
 ```
-
-`
- Entity.HideAllAttachments( characterSlot, hide, hideShadow )
-`
-
+Entity.HideAllAttachments( characterSlot, hide, hideShadow )
 ```
 
-##
-HideAttachmentMaster
+### HideAttachmentMaster
 
 ```
-
-`
- Entity.HideAttachmentMaster( characterSlot, hide )
-`
-
+Entity.HideAttachmentMaster( characterSlot, hide )
 ```
 
-##
-PhysicalizeAttachment
+### PhysicalizeAttachment
 
 ```
-
-`
- Entity.PhysicalizeAttachment( characterSlot, attachmentName, physicalize )
-`
-
+Entity.PhysicalizeAttachment( characterSlot, attachmentName, physicalize )
 ```
 
-##
-Damage
+### Damage
 
 ```
-
-`
- Entity.Damage()
-`
-
+Entity.Damage()
 ```
 
-##
-GetEntitiesInContact
+### GetEntitiesInContact
 
 ```
-
-`
- Entity.GetEntitiesInContact()
-`
-
+Entity.GetEntitiesInContact()
 ```
 
-##
-GetExplosionObstruction
+### GetExplosionObstruction
 
 ```
-
-`
- Entity.GetExplosionObstruction()
-`
-
+Entity.GetExplosionObstruction()
 ```
 
-##
-GetExplosionImpulse
+### GetExplosionImpulse
 
 ```
-
-`
- Entity.GetExplosionImpulse()
-`
-
+Entity.GetExplosionImpulse()
 ```
 
-##
-SetMaterial
+### SetMaterial
 
 ```
-
-`
- Entity.SetMaterial()
-`
-
+Entity.SetMaterial()
 ```
 
-##
-GetMaterial
+### GetMaterial
 
 ```
-
-`
- Entity.GetMaterial()
-`
-
+Entity.GetMaterial()
 ```
 
-##
-GetEntityMaterial
+### GetEntityMaterial
 
 ```
-
-`
- Entity.GetEntityMaterial()
-`
-
+Entity.GetEntityMaterial()
 ```
 
-##
-ChangeAttachmentMaterial
+### ChangeAttachmentMaterial
 
 ```
-
-`
- Entity.ChangeAttachmentMaterial(attachmentName, materialName)
-`
-
+Entity.ChangeAttachmentMaterial(attachmentName, materialName)
 ```
 
-##
-ReplaceMaterial
+### ReplaceMaterial
 
 ```
-
-`
- Entity.ReplaceMaterial( slot, name, replacement )
-`
-
+Entity.ReplaceMaterial( slot, name, replacement )
 ```
 
-##
-ResetMaterial
+### ResetMaterial
 
 ```
-
-`
- Entity.ResetMaterial( slot )
-`
-
+Entity.ResetMaterial( slot )
 ```
 
-##
-EnableMaterialLayer
+### EnableMaterialLayer
 
 ```
-
-`
- Entity.EnableMaterialLayer( enable, layer )
-`
-
+Entity.EnableMaterialLayer( enable, layer )
 ```
 
-##
-CloneMaterial
+### CloneMaterial
 
-  Replace material on the slot with a cloned version of the material. Cloned material can be freely changed uniquely for this entity.
+Replace material on the slot with a cloned version of the material. Cloned material can be freely changed uniquely for this entity.
 
 ```
-
-`
 Entity.CloneMaterial( nSlotId, sSubMaterialName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlotId | On which slot to clone material.
+sSubMaterialName | if non empty string only this specific sub-material is cloned.
 
-nSlotId
- |
-On which slot to clone material.
- |
+### SetMaterialFloat
 
-sSubMaterialName
- |
-if non empty string only this specific sub-material is cloned.
- |
-
-##
-SetMaterialFloat
-
- Change material parameter.
+Change material parameter.
 
 ```
-
-`
 Entity.SetMaterialFloat( nSlotId, nSubMtlId, sParamName, fValue )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nSlot | On which slot to change material.
+nSubMtlId | Specify sub-material by Id.
+sParamName | Name of the material parameter.
+fValue | New material parameter value.
 
-nSlot
- |
-On which slot to change material.
- |
+### GetMaterialFloat
 
-nSubMtlId
- |
-Specify sub-material by Id.
- |
-
-sParamName
- |
-Name of the material parameter.
- |
-
-fValue
- |
-New material parameter value.
- |
-
-##
-GetMaterialFloat
-
- Change material parameter.
+Change material parameter.
 
 ```
-
-`
 Entity.GetMaterialFloat( nSlotId, nSubMtlId, sParamName )
-`
-
 ```
 
-**
-Returns:
-**
- Material parameter value.
-Parameter
- |
-Description
- |
+**Returns:** Material parameter value.
+Parameter | Description
+--- | ---
+nSlot | On which slot to change material.
+nSubMtlId | Specify sub-material by Id.
+sParamName | Name of the material parameter.
 
-nSlot
- |
-On which slot to change material.
- |
-
-nSubMtlId
- |
-Specify sub-material by Id.
- |
-
-sParamName
- |
-Name of the material parameter.
- |
-
-##
-SetMaterialVec3
+### SetMaterialVec3
 
 ```
-
-`
 Entity.SetMaterialVec3( nSlotId, nSubMtlId, sParamName, vVec3 )
-`
-
 ```
 
-##
-GetMaterialVec3
+### GetMaterialVec3
 
 ```
-
-`
 Entity.GetMaterialVec3( nSlotId, nSubMtlId, sParamName )
-`
-
 ```
 
-##
-MaterialFlashInvoke
+### MaterialFlashInvoke
 
 ```
-
-`
 Entity.MaterialFlashInvoke()
-`
-
 ```
 
-##
-ToLocal
+### ToLocal
 
 ```
-
-`
 Entity.ToLocal( slotId, point )
-`
-
 ```
 
-##
-ToGlobal
+### ToGlobal
 
 ```
-
-`
 Entity.ToGlobal( slotId, point )
-`
-
 ```
 
-##
-VectorToLocal
+### VectorToLocal
 
 ```
-
-`
 Entity.VectorToLocal( slotId, dir )
-`
-
 ```
 
-##
-VectorToGlobal
+### VectorToGlobal
 
 ```
-
-`
 Entity.VectorToGlobal( slotId, dir )
-`
-
 ```
 
-##
-CheckCollisions
+### CheckCollisions
 
 ```
-
-`
 Entity.CheckCollisions()
-`
-
 ```
 
-##
-AwakeEnvironment
+### AwakeEnvironment
 
 ```
-
-`
 Entity.AwakeEnvironment()
-`
-
 ```
 
-##
-GetTimeSinceLastSeen
+### GetTimeSinceLastSeen
 
 ```
-
-`
 Entity.GetTimeSinceLastSeen()
-`
-
 ```
 
-##
-GetViewDistRatio
+### GetViewDistRatio
 
 ```
-
-`
 Entity.GetViewDistRatio()
-`
-
 ```
 
-##
-SetViewDistRatio
+### SetViewDistRatio
 
 ```
-
-`
 Entity.SetViewDistRatio()
-`
-
 ```
 
-##
-SetViewDistUnlimited
+### SetViewDistUnlimited
 
 ```
-
-`
 Entity.SetViewDistUnlimited()
-`
-
 ```
 
-##
-SetLodRatio
+### SetLodRatio
 
 ```
-
-`
 Entity.SetLodRatio()
-`
-
 ```
 
-##
-GetLodRatio
+### GetLodRatio
 
 ```
-
-`
 Entity.GetLodRatio()
-`
-
 ```
 
-##
-SetStateClientside
+### SetStateClientside
 
 ```
-
-`
 Entity.SetStateClientside()
-`
-
 ```
 
-##
-InsertSubpipe
+### InsertSubpipe
 
 ```
-
-`
 Entity.InsertSubpipe()
-`
-
 ```
 
-##
-CancelSubpipe
+### CancelSubpipe
 
 ```
-
-`
 Entity.CancelSubpipe()
-`
-
 ```
 
-##
-PassParamsToPipe
+### PassParamsToPipe
 
 ```
-
-`
 Entity.PassParamsToPipe()
-`
-
 ```
 
-##
-SetDefaultIdleAnimations
+### SetDefaultIdleAnimations
 
 ```
-
-`
 Entity.SetDefaultIdleAnimations()
-`
-
 ```
 
-##
-GetVelocity
+### GetVelocity
 
 ```
-
-`
 Entity.GetVelocity()
-`
-
 ```
 
-##
-GetVelocityEx
+### GetVelocityEx
 
 ```
-
-`
 Entity.GetVelocityEx()
-`
-
 ```
 
-##
-SetVelocity
+### SetVelocity
 
 ```
-
-`
 Entity.SetVelocity(velocity)
-`
-
 ```
 
-##
-SetVelocityEx
+### SetVelocityEx
 
 ```
-
-`
 Entity.GetVelocityEx(velocity, angularVelocity)
-`
-
 ```
 
-##
-GetSpeed
+### GetSpeed
 
 ```
-
-`
 Entity.GetSpeed()
-`
-
 ```
 
-##
-GetMass
+### GetMass
 
 ```
-
-`
 Entity.GetMass()
-`
-
 ```
 
-##
-GetVolume
+### GetVolume
 
 ```
-
-`
 Entity.GetVolume(slot)
-`
-
 ```
 
-##
-GetGravity
+### GetGravity
 
 ```
-
-`
 Entity.GetGravity()
-`
-
 ```
 
-##
-GetSubmergedVolume
+### GetSubmergedVolume
 
 ```
-
-`
 Entity.GetSubmergedVolume( slot, planeNormal, planeOrigin )
-`
-
 ```
 
-##
-CreateLink
+### CreateLink
 
-  Creates a new outgoing link for this entity.
+Creates a new outgoing link for this entity.
 
 ```
-
-`
 Entity.CreateLink( name, targetId )
-`
-
 ```
 
-**
-Returns:
-**
- nothing
-Parameter
- |
-Description
- |
+**Returns:** nothing
+Parameter | Description
+--- | ---
+name | Name of the link. Does not have to be unique among all the links of this entity. Multiple links with the same name can perfectly co-exist.
+(optional) targetId | If specified, the ID of the entity the link shall target. If not specified or 0 then the link will not target anything. Default value: 0
 
-name
- |
-Name of the link. Does not have to be unique among all the links of this entity. Multiple links with the same name can perfectly co-exist.
- |
+### GetLinkName
 
-(optional) targetId
- |
-If specified, the ID of the entity the link shall target. If not specified or 0 then the link will not target anything. Default value: 0
- |
-
-##
-GetLinkName
-
-  Returns the name of the link that is targeting the entity with given ID.
+Returns the name of the link that is targeting the entity with given ID.
 
 ```
-
-`
 Entity.GetLinkName( targetId, ith )
-`
-
 ```
 
-**
-Returns:
-**
- The name of the i'th link targeting given entity or nil if no such link exists.
-Parameter
- |
-Description
- |
+**Returns:** The name of the i'th link targeting given entity or nil if no such link exists.
+Parameter | Description
+--- | ---
+targetId | ID of the entity for which the link name shall be looked up.
+(optional) ith | If specified, the i'th link that targets given entity. Default value: 0 (first entity)
 
-targetId
- |
-ID of the entity for which the link name shall be looked up.
- |
+### SetLinkTarget
 
-(optional) ith
- |
-If specified, the i'th link that targets given entity. Default value: 0 (first entity)
- |
-
-##
-SetLinkTarget
-
-  Specifies the entity that an existing link shall target. Use this function to change the target of an existing link.
+Specifies the entity that an existing link shall target. Use this function to change the target of an existing link.
 
 ```
-
-`
 Entity.SetLinkTarget(name, targetId, ith)
-`
-
 ```
 
-**
-Returns:
-**
- nothing
-Parameter
- |
-Description
- |
+**Returns:** nothing
+Parameter | Description
+--- | ---
+name | Name of the link that shall target given entity.
+targetId | The ID of the entity the link shall target. Pass in NULL_ENTITY to make the link no longer target an entity.
+(optional) ith | If specified, the i'th link with given name that shall target given entity. Default value: 0 (first link with given name)
 
-name
- |
-Name of the link that shall target given entity.
- |
+### GetLinkTarget
 
-targetId
- |
-The ID of the entity the link shall target. Pass in NULL_ENTITY to make the link no longer target an entity.
- |
-
-(optional) ith
- |
-If specified, the i'th link with given name that shall target given entity. Default value: 0 (first link with given name)
- |
-
-##
-GetLinkTarget
-
-  Returns the ID of the entity that given link is targeting.
+Returns the ID of the entity that given link is targeting.
 
 ```
-
-`
 Entity.GetLinkTarget( name, ith )
-`
-
 ```
 
-**
-Returns:
-**
- The ID of the entity that the link is targeting or nil if no such link exists.
-Parameter
- |
-Description
- |
+**Returns:** The ID of the entity that the link is targeting or nil if no such link exists.
+Parameter | Description
+--- | ---
+name | Name of the link.
+(optional) ith | If specified, the i'th link with given name for which to look up the targeted entity. Default value: 0 (first link with given name)
 
-name
- |
-Name of the link.
- |
+### RemoveLink
 
-(optional) ith
- |
-If specified, the i'th link with given name for which to look up the targeted entity. Default value: 0 (first link with given name)
- |
-
-##
-RemoveLink
-
-  Removes an outgoing link from the entity.
+Removes an outgoing link from the entity.
 
 ```
-
-`
 Entity.RemoveLink( name, ith )
-`
-
 ```
 
-**
-Returns:
-**
- nothing
-Parameter
- |
-Description
- |
+**Returns:** nothing
+Parameter | Description
+--- | ---
+name | Name of the link to remove.
+(optional) ith | If specified, the i'th link with given name that shall be removed. Default value: 0 (first link with given name)
 
-name
- |
-Name of the link to remove.
- |
+### RemoveAllLinks
 
-(optional) ith
- |
-If specified, the i'th link with given name that shall be removed. Default value: 0 (first link with given name)
- |
-
-##
-RemoveAllLinks
-
-  Removes all links of an entity.
+Removes all links of an entity.
 
 ```
-
-`
 Entity.RemoveAllLinks()
-`
-
 ```
 
-**
-Returns:
-**
- nothing
+**Returns:** nothing
 
-##
-GetLink
+### GetLink
 
-  Returns the link at given index.
+Returns the link at given index.
 
 ```
-
-`
 Entity.GetLink()
-`
-
 ```
 
-**
-Returns:
-**
- The script table of the entity that the i'th link is targeting or nil if the specified index is out of bounds.
-Parameter
- |
-Description
- |
+**Returns:** The script table of the entity that the i'th link is targeting or nil if the specified index is out of bounds.
+Parameter | Description
+--- | ---
+ith | The index of the link that shall be returned.
 
-ith
- |
-The index of the link that shall be returned.
- |
+### CountLinks
 
-##
-CountLinks
-
-  Counts all outgoing links of the entity.
+Counts all outgoing links of the entity.
 
 ```
-
-`
 Entity.CountLinks()
-`
-
 ```
 
-**
-Returns:
-**
- Number of outgoing links.
+**Returns:** Number of outgoing links.
 
-##
-RemoveDecals
+### RemoveDecals
 
 ```
-
-`
 Entity.RemoveDecals()
-`
-
 ```
 
-##
-ForceCharacterUpdate
+### ForceCharacterUpdate
 
 ```
-
-`
 Entity.ForceCharacterUpdate( characterSlot, updateAlways )
-`
-
 ```
 
-##
-CharacterUpdateAlways
+### CharacterUpdateAlways
 
 ```
-
-`
 Entity.CharacterUpdateAlways( characterSlot, updateAlways )
-`
-
 ```
 
-##
-CharacterUpdateOnRender
+### CharacterUpdateOnRender
 
 ```
-
-`
 Entity.CharacterUpdateOnRender( characterSlot, bUpdateOnRender )
-`
-
 ```
 
-##
-SetAnimateOffScreenShadow
+### SetAnimateOffScreenShadow
 
 ```
-
-`
 Entity.SetAnimateOffScreenShadow( bAnimateOffScreenShadow )
-`
-
 ```
 
-##
-RagDollize
+### RagDollize
 
 ```
-
-`
 Entity.RagDollize(slot)
-`
-
 ```
 
-##
-Hide
+### Hide
 
 ```
-
-`
 Entity.Hide()
-`
-
 ```
 
-##
-NoExplosionCollision
+### NoExplosionCollision
 
 ```
-
-`
 Entity.NoExplosionCollision()
-`
-
 ```
 
-##
-NoBulletForce
+### NoBulletForce
 
 ```
-
-`
 Entity.NoBulletForce( state )
-`
-
 ```
 
-##
-UpdateAreas
+### UpdateAreas
 
 ```
-
-`
 Entity.UpdateAreas()
-`
-
 ```
 
-##
-IsPointInsideArea
+### IsPointInsideArea
 
 ```
-
-`
 Entity.IsPointInsideArea( areaId, point )
-`
-
 ```
 
-##
-IsEntityInsideArea
+### IsEntityInsideArea
 
 ```
-
-`
 Entity.IsEntityInsideArea( areaId, entityId )
-`
-
 ```
 
-##
-GetPhysicalStats
+### GetPhysicalStats
 
- Some more physics related.
+Some more physics related.
 
 ```
-
-`
 Entity.GetPhysicalStats()
-`
-
 ```
 
-##
-SetParentSlot
+### SetParentSlot
 
 ```
-
-`
 Entity.SetParentSlot( child, parent )
-`
-
 ```
 
-##
-GetParentSlot
+### GetParentSlot
 
 ```
-
-`
 Entity.GetParentSlot( child )
-`
-
 ```
 
-##
-BreakToPieces
+### BreakToPieces
 
- Breaks static geometry in slot 0 into sub objects and spawn them as particles or entities.
+Breaks static geometry in slot 0 into sub objects and spawn them as particles or entities.
 
 ```
-
-`
 Entity.BreakToPieces()
-`
-
 ```
 
-##
-AttachSurfaceEffect
+### AttachSurfaceEffect
 
 ```
-
-`
 Entity.AttachSurfaceEffect( nSlot, effect, countPerUnit, form, typ, countScale, sizeScale )
-`
-
 ```
 
-##
-ProcessBroadcastEvent
+### ProcessBroadcastEvent
 
 ```
-
-`
 Entity.ProcessBroadcastEvent()
-`
-
 ```
 
-##
-ActivateOutput
+### ActivateOutput
 
 ```
-
-`
 Entity.ActivateOutput()
-`
-
 ```
 
-##
-CreateCameraProxy
+### CreateCameraProxy
 
- Create a proxy camera object for the entity, allows entity to serve as camera source for material assigned on the entity.
+Create a proxy camera object for the entity, allows entity to serve as camera source for material assigned on the entity.
 
 ```
-
-`
 Entity.CreateCameraProxy()
-`
-
 ```
 
-##
-UnSeenFrames
+### UnSeenFrames
 
 ```
-
-`
 Entity.UnSeenFrames()
-`
-
 ```
 
-##
-DeleteParticleEmitter
+### DeleteParticleEmitter
 
 Deletes particles emitter from 3dengine.
 
 ```
-
-`
 Entity.DeleteParticleEmitter(slot)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+slot | slot number
 
-slot
- |
-slot number
- |
-
-##
-RegisterForAreaEvents
+### RegisterForAreaEvents
 
 Registers the script proxy so that it receives area events for this entity.
 
 ```
-
-`
 Entity.RegisterForAreaEvents(enable)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+enable | 0, for disable, any other value for enable.
 
-enable
- |
-0, for disable, any other value for enable.
- |
-
-##
-RenderAlways
+### RenderAlways
 
 Enables 'always render' on the render node, skipping any kind of culling.
 
 ```
-
-`
 Entity.RenderAlways(enable)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+enable | 0, for disable, any other value for enable.
 
-enable
- |
-0, for disable, any other value for enable.
- |
-
-##
-GetTimeOfDayHour
+### GetTimeOfDayHour
 
 ```
-
-`
 Entity.GetTimeOfDayHour()
-`
-
 ```
 
-**
-Returns:
-**
- current time of day as a float value.
+**Returns:** current time of day as a float value.
 
-##
-CreateDRSProxy
+### CreateDRSProxy
 
-  Creates a Dynamic Response System Proxy
+Creates a Dynamic Response System Proxy
 
 ```
-
-`
 Entity.CreateDRSProxy()
-`
-
 ```
 
-**
-Returns:
-**
- Returns the ID of the created proxy.
+**Returns:** Returns the ID of the created proxy.

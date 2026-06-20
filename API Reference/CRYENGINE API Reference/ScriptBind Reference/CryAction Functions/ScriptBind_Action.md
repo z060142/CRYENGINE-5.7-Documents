@@ -7,1284 +7,597 @@
 
 ## Content
 
-##
-LoadXML
+### LoadXML
 
 ```
-
-`
 Action.LoadXML(definitionFile, dataFile)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+definitionFile | .
+dataFile | XML-lua data file name.
 
-definitionFile
- |
-.
- |
-
-dataFile
- |
-XML-lua data file name.
- |
-
-##
-SaveXML
+### SaveXML
 
 ```
-
-`
 Action.SaveXML(definitionFile, dataFile, dataTable)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+definitionFile | .
+dataFile | XML-lua data file name.
+dataTable | .
 
-definitionFile
- |
-.
- |
-
-dataFile
- |
-XML-lua data file name.
- |
-
-dataTable
- |
-.
- |
-
-##
-IsServer
+### IsServer
 
 ```
-
-`
 Action.IsServer()
-`
-
 ```
 
-**
-Returns:
-**
- true if the current script runs on a server.
+**Returns:** true if the current script runs on a server.
 
-##
-IsClient
+### IsClient
 
 ```
-
-`
 Action.IsClient()
-`
-
 ```
 
-**
-Returns:
-**
- true if the current script runs on a client.
+**Returns:** true if the current script runs on a client.
 
-##
-IsGameStarted
+### IsGameStarted
 
- true if the game has started.
+true if the game has started.
 
 ```
-
-`
 Action.IsGameStarted()
-`
-
 ```
 
-##
-IsRMIServer
+### IsRMIServer
 
- true if the current script is running on an RMI (Remote Method Invocation) server.
+true if the current script is running on an RMI (Remote Method Invocation) server.
 
 ```
-
-`
 Action.IsRMIServer()
-`
-
 ```
 
-##
-GetPlayerList
+### GetPlayerList
 
- Checks the current players list.
+Checks the current players list.
 
 ```
-
-`
 Action.GetPlayerList()
-`
-
 ```
 
-##
-IsGameObjectProbablyVisible
+### IsGameObjectProbablyVisible
 
 ```
-
-`
 Action.IsGameObjectProbablyVisible( gameObject )
-`
-
 ```
 
-**
-Returns:
-**
- true if an object is probably visible.
-Parameter
- |
-Description
- |
+**Returns:** true if an object is probably visible.
+Parameter | Description
+--- | ---
+gameObject | Object that we want to check.
 
-gameObject
- |
-Object that we want to check.
- |
-
-##
-ActivateEffect
+### ActivateEffect
 
 Activates the specified effect.
 
 ```
-
-`
 Action.ActivateEffect( name )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | Name of the effect.
 
-name
- |
-Name of the effect.
- |
-
-##
-GetWaterInfo
+### GetWaterInfo
 
 Gets information about the water at the position pos.
 
 ```
-
-`
 Action.GetWaterInfo( pos )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pos | Position to be checked.
 
-pos
- |
-Position to be checked.
- |
+### SetViewCamera
 
-##
-SetViewCamera
-
- Saves the previous valid view and override it with the current camera settings.
+Saves the previous valid view and override it with the current camera settings.
 
 ```
-
-`
 Action.SetViewCamera()
-`
-
 ```
 
-##
-ResetToNormalCamera
+### ResetToNormalCamera
 
- Resets the camera to the last valid view stored.
+Resets the camera to the last valid view stored.
 
 ```
-
-`
 Action.ResetToNormalCamera()
-`
-
 ```
 
-##
-GetServer
+### GetServer
 
- Gets the server.
+Gets the server.
 
 ```
-
-`
 Action.GetServer( number )
-`
-
 ```
 
-##
-RefreshPings
+### RefreshPings
 
- Refreshes pings for all the servers listed.
+Refreshes pings for all the servers listed.
 
 ```
-
-`
 Action.RefreshPings()
-`
-
 ```
 
-##
-ConnectToServer
+### ConnectToServer
 
 Connects to the specified server.
 
 ```
-
-`
 Action.ConnectToServer( server )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+server | String that specifies the server to be used for the connection.
 
-server
- |
-String that specifies the server to be used for the connection.
- |
+### GetServerTime
 
-##
-GetServerTime
-
- Gets the current time on the server.
+Gets the current time on the server.
 
 ```
-
-`
 Action.GetServerTime()
-`
-
 ```
 
-##
-PauseGame
+### PauseGame
 
 Puts the game into pause mode.
 
 ```
-
-`
 Action.PauseGame( pause )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pause | True to set the game into the pause mode, false to resume the game.
 
-pause
- |
-True to set the game into the pause mode, false to resume the game.
- |
-
-##
-IsImmersivenessEnabled
+### IsImmersivenessEnabled
 
 ```
-
-`
 Action.IsImmersivenessEnabled()
-`
-
 ```
 
-**
-Returns:
-**
- true if immersive multiplayer is enabled.
+**Returns:** true if immersive multiplayer is enabled.
 
-##
-IsChannelSpecial
+### IsChannelSpecial
 
 ```
-
-`
 Action.IsChannelSpecial()
-`
-
 ```
 
-**
-Returns:
-**
- true if the channel is special.
+**Returns:** true if the channel is special.
 
-##
-ForceGameObjectUpdate
+### ForceGameObjectUpdate
 
 Forces the game object to be updated.
 
 ```
-
-`
 Action.ForceGameObjectUpdate( entityId, force )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+force | True to force the update, false otherwise.
 
-entityId
- |
-Identifier for the entity.
- |
-
-force
- |
-True to force the update, false otherwise.
- |
-
-##
-CreateGameObjectForEntity
+### CreateGameObjectForEntity
 
 Creates a game object for the specified entity.
 
 ```
-
-`
 Action.CreateGameObjectForEntity( entityId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
 
-entityId
- |
-Identifier for the entity.
- |
-
-##
-BindGameObjectToNetwork
+### BindGameObjectToNetwork
 
 Binds game object to the network.
 
 ```
-
-`
 Action.BindGameObjectToNetwork( entityId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
 
-entityId
- |
-Identifier for the entity.
- |
-
-##
-ActivateExtensionForGameObject
+### ActivateExtensionForGameObject
 
 Activates a specified extension for a game object.
 
 ```
-
-`
 Action.ActivateExtensionForGameObject( entityId, extension, activate )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+extension | Extension name.
+activate | True to activate the extension, false to deactivate it.
 
-entityId
- |
-Identifier for the entity.
- |
-
-extension
- |
-Extension name.
- |
-
-activate
- |
-True to activate the extension, false to deactivate it.
- |
-
-##
-SetNetworkParent
+### SetNetworkParent
 
 Sets the network parent.
 
 ```
-
-`
 Action.SetNetworkParent( entityId, parentId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+parentID | Identifier for the parent network.
 
-entityId
- |
-Identifier for the entity.
- |
-
-parentID
- |
-Identifier for the parent network.
- |
-
-##
-IsChannelOnHold
+### IsChannelOnHold
 
 ```
-
-`
 Action.IsChannelOnHold( channelId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+channelId | Identifier for the channel. Checks if the specified channel is on hold.
 
-channelId
- |
-Identifier for the channel. Checks if the specified channel is on hold.
- |
-
-##
-BanPlayer
+### BanPlayer
 
 Bans a specified player.
 
 ```
-
-`
 Action.BanPlayer( entityId, message )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+message | Message for the ban.
 
-entityId
- |
-Identifier for the entity.
- |
-
-message
- |
-Message for the ban.
- |
-
-##
-PersistantSphere
+### PersistantSphere
 
 Adds a persistent sphere to the world.
 
 ```
-
-`
 Action.PersistantSphere( pos, radius, color, name, timeout )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pos | Position of the sphere.
+radius | Radius of the sphere.
+color | Color of the sphere.
+name | Name assigned to the sphere.
+timeout | Timeout for the sphere.
 
-pos
- |
-Position of the sphere.
- |
-
-radius
- |
-Radius of the sphere.
- |
-
-color
- |
-Color of the sphere.
- |
-
-name
- |
-Name assigned to the sphere.
- |
-
-timeout
- |
-Timeout for the sphere.
- |
-
-##
-PersistantLine
+### PersistantLine
 
 Adds a persistent line to the world.
 
 ```
-
-`
 Action.PersistantLine( start, end, color, name, timeout )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+start | Starting position of the line.
+end | Ending position of the line.
+color | Color of the line.
+name | Name assigned to the line.
+timeout | Timeout for the line.
 
-start
- |
-Starting position of the line.
- |
-
-end
- |
-Ending position of the line.
- |
-
-color
- |
-Color of the line.
- |
-
-name
- |
-Name assigned to the line.
- |
-
-timeout
- |
-Timeout for the line.
- |
-
-##
-PersistantArrow
+### PersistantArrow
 
 Adds a persistent arrow to the world.
 
 ```
-
-`
 Action.PersistantArrow( pos, radius, dir, color, name, timeout )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pos | Position of the arrow.
+radius | Radius of the arrow.
+dir | Direction of the arrow.
+color | Color of the arrow.
+name | Name assigned to the arrow.
+timeout | Timeout for the arrow.
 
-pos
- |
-Position of the arrow.
- |
-
-radius
- |
-Radius of the arrow.
- |
-
-dir
- |
-Direction of the arrow.
- |
-
-color
- |
-Color of the arrow.
- |
-
-name
- |
-Name assigned to the arrow.
- |
-
-timeout
- |
-Timeout for the arrow.
- |
-
-##
-Persistant2DText
+### Persistant2DText
 
 Adds a persistent 2D text.
 
 ```
-
-`
 Action.Persistant2DText( text, size, color, name, timeout )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+text | Text that has to be displayed.
+size | Size of the 2D text.
+color | Color of the 2D text.
+name | Name assigned to the 2D text.
+timeout | Timeout for the 2D text.
 
-text
- |
-Text that has to be displayed.
- |
-
-size
- |
-Size of the 2D text.
- |
-
-color
- |
-Color of the 2D text.
- |
-
-name
- |
-Name assigned to the 2D text.
- |
-
-timeout
- |
-Timeout for the 2D text.
- |
-
-##
-PersistantEntityTag
+### PersistantEntityTag
 
 Adds a persistent entity tag.
 
 ```
-
-`
 Action.PersistantEntityTag( entityId, text )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+text | Text for the entity tag.
 
-entityId
- |
-Identifier for the entity.
- |
-
-text
- |
-Text for the entity tag.
- |
-
-##
-ClearEntityTags
+### ClearEntityTags
 
 Clears the tag for the specified entity.
 
 ```
-
-`
 Action.ClearEntityTags( entityId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
 
-entityId
- |
-Identifier for the entity.
- |
-
-##
-ClearStaticTag
+### ClearStaticTag
 
 Clears the specified static tag for the specified entity.
 
 ```
-
-`
 Action.ClearStaticTag( entityId, staticId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+staticId | Identifier for the static tag.
 
-entityId
- |
-Identifier for the entity.
- |
-
-staticId
- |
-Identifier for the static tag.
- |
-
-##
-SendGameplayEvent
+### SendGameplayEvent
 
 Sends an event for the gameplay.
 
 ```
-
-`
 Action.SendGameplayEvent( entityId, event )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+event | Integer for the event.
 
-entityId
- |
-Identifier for the entity.
- |
-
-event
- |
-Integer for the event.
- |
-
-##
-CacheItemSound
+### CacheItemSound
 
 Caches an item sound.
 
 ```
-
-`
 Action.CacheItemSound( itemName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+itemName | Item name string.
 
-itemName
- |
-Item name string.
- |
-
-##
-CacheItemGeometry
+### CacheItemGeometry
 
 Caches an item geometry.
 
 ```
-
-`
 Action.CacheItemGeometry( itemName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+itemName | Item name string.
 
-itemName
- |
-Item name string.
- |
-
-##
-DontSyncPhysics
+### DontSyncPhysics
 
 Doesn't sync physics for the specified entity.
 
 ```
-
-`
 Action.DontSyncPhysics( entityId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
 
-entityId
- |
-Identifier for the entity.
- |
-
-##
-EnableSignalTimer
+### EnableSignalTimer
 
 ```
-
-`
 Action.EnableSignalTimer( entityId, sText )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+sText | Text for the signal.
 
-entityId
- |
-Identifier for the entity.
- |
-
-sText
- |
-Text for the signal.
- |
-
-##
-DisableSignalTimer
+### DisableSignalTimer
 
 Disables the signal timer.
 
 ```
-
-`
 Action.DisableSignalTimer( entityId, sText )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+sText | Text for the signal.
 
-entityId
- |
-Identifier for the entity.
- |
-
-sText
- |
-Text for the signal.
- |
-
-##
-SetSignalTimerRate
+### SetSignalTimerRate
 
 Sets the rate for the signal timer.
 
 ```
-
-`
 Action.SetSignalTimerRate( entityId, sText, fRateMin, fRateMax )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+sText | Text for the signal.
+fRateMin | Minimum rate for the signal timer.
+fRateMax | Maximum rate for the signal timer.
 
-entityId
- |
-Identifier for the entity.
- |
-
-sText
- |
-Text for the signal.
- |
-
-fRateMin
- |
-Minimum rate for the signal timer.
- |
-
-fRateMax
- |
-Maximum rate for the signal timer.
- |
-
-##
-ResetSignalTimer
+### ResetSignalTimer
 
 Resets the rate for the signal timer.
 
 ```
-
-`
 Action.ResetSignalTimer( entityId, sText )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+sText | Text for the signal.
 
-entityId
- |
-Identifier for the entity.
- |
-
-sText
- |
-Text for the signal.
- |
-
-##
-EnableRangeSignaling
+### EnableRangeSignaling
 
 Enable/Disable range signalling for the specified entity.
 
 ```
-
-`
 Action.EnableRangeSignaling( entityId, bEnable )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+bEnable | Enable/Disable range signalling.
 
-entityId
- |
-Identifier for the entity.
- |
-
-bEnable
- |
-Enable/Disable range signalling.
- |
-
-##
-DestroyRangeSignaling
+### DestroyRangeSignaling
 
 ```
-
-`
 Action.DestroyRangeSignaling( entityId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
 
-entityId
- |
-Identifier for the entity.
- |
-
-##
-ResetRangeSignaling
+### ResetRangeSignaling
 
 ```
-
-`
 Action.ResetRangeSignaling( entityId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
 
-entityId
- |
-Identifier for the entity.
- |
-
-##
-AddRangeSignal
+### AddRangeSignal
 
 Adds a range for the signal.
 
 ```
-
-`
 Action.AddRangeSignal( entityId, fRadius, fFlexibleBoundary, sSignal )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+fRadius | Radius of the range area.
+fFlexibleBoundary | Flexible boundary size.
+sSignal | String for signal.
 
-entityId
- |
-Identifier for the entity.
- |
-
-fRadius
- |
-Radius of the range area.
- |
-
-fFlexibleBoundary
- |
-Flexible boundary size.
- |
-
-sSignal
- |
-String for signal.
- |
-
-##
-AddTargetRangeSignal
+### AddTargetRangeSignal
 
 ```
-
-`
 Action.AddTargetRangeSignal( entityId, targetId, fRadius, fFlexibleBoundary, sSignal )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+targetId | Identifier for the target.
+fRadius | Radius of the range area.
+fFlexibleBoundary | Flexible boundary size.
+sSignal | String for signal.
 
-entityId
- |
-Identifier for the entity.
- |
-
-targetId
- |
-Identifier for the target.
- |
-
-fRadius
- |
-Radius of the range area.
- |
-
-fFlexibleBoundary
- |
-Flexible boundary size.
- |
-
-sSignal
- |
-String for signal.
- |
-
-##
-AddAngleSignal
+### AddAngleSignal
 
 Adds an angle for the signal.
 
 ```
-
-`
 Action.AddRangeSignal( entityId, fAngle, fFlexibleBoundary, sSignal )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+fAngle | Angle value.
+fFlexibleBoundary | Flexible boundary size.
+sSignal | String for signal.
 
-entityId
- |
-Identifier for the entity.
- |
+### RegisterWithAI
 
-fAngle
- |
-Angle value.
- |
-
-fFlexibleBoundary
- |
-Flexible boundary size.
- |
-
-sSignal
- |
-String for signal.
- |
-
-##
-RegisterWithAI
-
- Registers the entity to AI System, creating an AI object associated to it.
+Registers the entity to AI System, creating an AI object associated to it.
 
 ```
-
-`
 Action.RegisterWithAI()
-`
-
 ```
 
-##
-HasAI
+### HasAI
 
 ```
-
-`
 Action.HasAI( entityId )
-`
-
 ```
 
-**
-Returns:
-**
- true if the entity has an AI object associated to it, meaning it has been registered with the AI System
+**Returns:** true if the entity has an AI object associated to it, meaning it has been registered with the AI System
 
-##
-GetClassName
+### GetClassName
 
 ```
-
-`
 Action.GetClassName( classId )
-`
-
 ```
 
-**
-Returns:
-**
- the matching class name if available for specified classId.
+**Returns:** the matching class name if available for specified classId.
 
-##
-SetAimQueryMode
+### SetAimQueryMode
 
 Set the aim query mode for the ai proxy. Normally the ai proxy asks the movement controller if the character is aiming. You can override that and set your own 'isAiming' state.
 
 ```
-
-`
 Action.SetAimQueryMode( entityId, mode )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Identifier for the entity.
+mode | QueryAimFromMovementController or OverriddenAndAiming or OverriddenAndNotAiming
 
-entityId
- |
-Identifier for the entity.
- |
-
-mode
- |
-QueryAimFromMovementController or OverriddenAndAiming or OverriddenAndNotAiming
- |
-
-##
-PreLoadADB
+### PreLoadADB
 
 Use this function to pre-cache ADB files.
 
 ```
-
-`
 Action.PreLoadADB( adbFileName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
-
-adbFileName
- |
-The path and filename of the animation ADB file which is to be pre-loaded.
- |
+Parameter | Description
+--- | ---
+adbFileName | The path and filename of the animation ADB file which is to be pre-loaded.

@@ -7,131 +7,74 @@
 
 ## Content
 
-##
-PushGameScope
+### PushGameScope
 
 Pushes a scope on top of the stack.
 
 ```
-
-`
 GameStatistics.PushGameScope(scopeID)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+scopeID | identifier of the scope to be placed on top of the stack.
 
-scopeID
- |
-identifier of the scope to be placed on top of the stack.
- |
-
-##
-PopGameScope
+### PopGameScope
 
 Removes the scope from the top of the stack.
 
 ```
-
-`
 GameStatistics.PopGameScope( [checkScopeId] )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+checkScopeId | (optional)
 
-checkScopeId
- |
-(optional)
- |
+### CurrentScope
 
-##
-CurrentScope
-
- Returns the ID of current scope, -1 if stack is empty.
+Returns the ID of current scope, -1 if stack is empty.
 
 ```
-
-`
 GameStatistics.CurrentScope()
-`
-
 ```
 
-##
-AddGameElement
+### AddGameElement
 
- Adds a game element to specified scope.
+Adds a game element to specified scope.
 
 ```
-
-`
 GameStatistics.AddGameElement( scopeID, elementID, locatorID, locatorValue [, table])
-`
-
 ```
 
-##
-RemoveGameElement
+### RemoveGameElement
 
- Removes element from the specified scope if data parameters match.
+Removes element from the specified scope if data parameters match.
 
 ```
-
-`
 GameStatistics.RemoveGameElement( scopeID, elementID, locatorID, locatorValue )
-`
-
 ```
 
-##
-Event
+### Event
 
 ```
-
-`
 GameStatistics.Event()
-`
-
 ```
 
-##
-StateValue
+### StateValue
 
 ```
-
-`
 GameStatistics.StateValue( )
-`
-
 ```
 
-##
-BindTracker
+### BindTracker
 
 ```
-
-`
 GameStatistics.BindTracker( name, tracker )
-`
-
 ```
 
-##
-UnbindTracker
+### UnbindTracker
 
 ```
-
-`
 GameStatistics.UnbindTracker( name, tracker )
-`
-
 ```

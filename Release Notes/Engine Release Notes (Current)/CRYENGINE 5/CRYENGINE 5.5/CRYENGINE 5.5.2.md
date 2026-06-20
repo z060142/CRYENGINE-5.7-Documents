@@ -7,31 +7,21 @@
 
 ## Content
 
-##
-Release Highlights
+## Release Highlights
 
 After releasing CRYENGINE 5.5.1 we identified an issue affecting the Engine when it was downloaded via the CRYENGINE Launcher - this issue has been rectified in release 5.5.2. While we are confident that the problem has been resolved, should you encounter any further problems then please let us know through the usual channels.
 
-##
-Accessing CRYENGINE 5.5.2 and Sandbox Editor Source Code
+## Accessing CRYENGINE 5.5.2 and Sandbox Editor Source Code
 
 Engine versions are now available through the CRYENGINE Launcher.
 
--
-Log into the CRYENGINE Launcher
+- Log into the CRYENGINE Launcher
+- Go to LIBRARY -> My Engines where your currently installed and available Engines are listed. From there Engines can be updated (installed).
 
--
-Go to
-LIBRARY -> My Engines
- where your currently installed and available Engines are listed. From there Engines can be updated (installed).
-Sandbox Editor source code is only available via Github:
-[https://github.com/CRYTEK/CRYENGINE](https://github.com/CRYTEK/CRYENGINE/releases)
+Sandbox Editor source code is only available via Github: [https://github.com/CRYTEK/CRYENGINE](https://github.com/CRYTEK/CRYENGINE/releases)
 
-##
-Audio
+## Audio
 
-##
-Middleware Update
+### Middleware Update
 
--
-Updated to Wwise 2018.1.3.
+- Updated to Wwise 2018.1.3.

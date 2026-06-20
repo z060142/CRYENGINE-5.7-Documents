@@ -7,12 +7,6 @@
 
 ## Content
 
-**
-Landing Page
-**
+**Landing Page**
 
-**
-NEW:
-**
- Added a m
-aintenance message for submission.
+**NEW:** Added a maintenance message for submission.

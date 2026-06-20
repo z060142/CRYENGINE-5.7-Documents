@@ -9,586 +9,92 @@
 
 This tutorial shows you how to set up advanced physics constraints to limit the movement of a physicalized entity using three dimensional objects as surface constraints, and the use of spline paths.
 
-##
-Constraining Movement Within a 3D shape
+### Constraining Movement Within a 3D shape
 
-##
-3D Entity Constraint Setup
+#### 3D Entity Constraint Setup
 
--
-**
-Add a Physics Area component
-**
-
--
-Set the Area component area
-**
-Type
-**
-to
-**
-Box
-**
-,
-**
-Sphere
-**
-,
-**
-Capsule
-**
-,
-**
-Cylinder
-**
-, or
-**
-Geometry
-**
-.
- This shape will function as the actual surface constraint.
-
-If you enable proxies (via the
-**
-ViewModes toolbar →
-Overlay Collision Proxies
-**
- button, see image below), the Area component will show the selected shape type in
-**
-red
-**
-, and this exact volume will become the space over whose surface your constrained entity can move.
-
-*
-![Image](https://www.cryengine.com/docs/static/attachments/56656198)
-
-Overlay Collision Proxies button
-*
-
-*
-![Image](https://www.cryengine.com/docs/static/attachments/56656199)
-
-Red physics proxy
-*
-
-To learn how to display the ViewModes toolbar, see
-[this page](../../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface/Toolbars.md)
-.
-
-Use the
-**
-Size, Radius
-**
-and
-**
-Height
-**
-properties to control its size. For more complex constraints, pick
-**
-Geometry
-**
- and load a
-*
-closed
-*
- CGF mesh. Keep in mind that with the Geometry type, the
-*
-proxy
-*
- mesh of the CGF will be used as a constraint, not the visible mesh.
-
+- **Add a Physics Area component**
+- Set the Area component area **Type** to **Box**, ** Sphere**, ** Capsule**, ** Cylinder**, or ** Geometry**. This shape will function as the actual surface constraint.
+If you enable proxies (via the **ViewModes toolbar → Overlay Collision Proxies** button, see image below), the Area component will show the selected shape type in ** red**, and this exact volume will become the space over whose surface your constrained entity can move.
+*![Image](https://www.cryengine.com/docs/static/attachments/56656198) Overlay Collision Proxies button*
+*![Image](https://www.cryengine.com/docs/static/attachments/56656199) Red physics proxy*
+To learn how to display the ViewModes toolbar, see [this page](../../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface/Toolbars.md).
+Use the **Size, Radius** and **Height** properties to control its size. For more complex constraints, pick **Geometry** and load a * closed* CGF mesh. Keep in mind that with the Geometry type, the * proxy* mesh of the CGF will be used as a constraint, not the visible mesh.
 Smooth surfaces will work best.
+- Create a physicalized object (Mesh + RigidBody components, with a mass or density value).
+- Add a **plane constraint** component to the object. The orientation doesn't matter. Point and line constraints will ** not**work for 3D physics area components.
+- Use **Properties → Entity Links** to link the physicalized object to the area shape you added.
+Make sure you *close the Pick Object tool* after you select the area shape.
+- Copy the **Name** of the entity link and paste it into the ** Helper Link Name**property of the Plane Constraint component that is attached to the physicalized object. The entity is now constrained to the area shape.
+- Make sure your physicalized entity is positioned **within** the red physics area you have, with its pivot as close as possible to a surface plane, otherwise it will snap into the nearest part of the constraint area on game start, possibly colliding with other entities.
 
--
-Create a physicalized object (Mesh + RigidBody components, with a mass or density value).
+Movement will be constrained to the **edges - the outer surface** - of a volumetric physics area component (shown in red when proxies are shown. This could work for something like an ** insect**that should only crawl ** along a surface** and doesn't fly, or a circus motorcycle that should only travel along the inner surface of spherical cage.
 
--
-Add a
-**
-plane constraint
-**
- component to the object. The orientation doesn't matter. Point and line constraints will
-**
-not
-**
-work for 3D physics area components.
-
--
-Use
-**
-Properties → Entity Links
-**
- to link the physicalized object to the area shape you added.
-
-Make sure you
-*
-close the Pick Object tool
-*
- after you select the area shape.
-
--
-Copy the
-**
-Name
-**
- of the entity link and paste it into the
-**
-Helper Link Name
-**
-property of the Plane Constraint component that is attached to the physicalized object. The entity is now constrained to the area shape.
-
--
-Make sure your physicalized entity is positioned
-**
-within
-**
-the red physics area you have, with its pivot as close as possible to a surface plane, otherwise it will snap into the nearest part of the constraint area on game start, possibly colliding with other entities.
-Movement will be constrained to the
-**
-edges - the outer surface
-**
- - of a volumetric physics area component (shown in red when proxies are shown. This could work for something like an
-**
-insect
-**
-that should only crawl
-**
-along a surface
-**
- and doesn't fly, or a circus motorcycle that should only travel along the inner surface of spherical cage.
-
-Note that you
- can also add a Physics Area component to an Area box, sphere, solid, path, or even a clip volume. (You can't add components to water volumes.) The geometry of the area shape itself (shown in blue) will be ignored by the constraint, so whether you use an area shape or an empty entity makes no difference, as the constraint shape itself comes from the Physics Area component. I.e., the only reason to use an area or clip volume would be to serve a function other than to constrain movement. The area shape is effectively just a container, but its shape is ignored by any moving objects constrained to it. Remember that the actual geometry that is used as the surface constraint can only be seen if physics proxies are made visible, and is displayed in red.
+Note that you can also add a Physics Area component to an Area box, sphere, solid, path, or even a clip volume. (You can't add components to water volumes.) The geometry of the area shape itself (shown in blue) will be ignored by the constraint, so whether you use an area shape or an empty entity makes no difference, as the constraint shape itself comes from the Physics Area component. I.e., the only reason to use an area or clip volume would be to serve a function other than to constrain movement. The area shape is effectively just a container, but its shape is ignored by any moving objects constrained to it. Remember that the actual geometry that is used as the surface constraint can only be seen if physics proxies are made visible, and is displayed in red.
 
 In the example image here, the red sphere is generated by the physics area component, and will be used as the surface constraint; the blue box is generated by the area box, and will have no effect as a constraint.
 
-![Image](https://www.cryengine.com/docs/static/attachments/56656242)
+![Image](https://www.cryengine.com/docs/static/attachments/56656242) *Red sphere generated by Physics Area component*
 
-*
-Red sphere generated by Physics Area component
-*
+Effectively these constraints are *surface*constraints, and a surface constraint is effectively a *generalization* of a plane constraint and *only* a plane constraint, (a *spline* is a generalization of a *line*constraint).
 
-Effectively these constraints are
-*
-surface
-*
-constraints, and a surface constraint is effectively a
-*
-generalization
-*
- of a plane constraint and
-*
-only
-*
- a plane constraint, (a
-*
-spline
-*
- is a generalization of a
-*
-line
-*
-constraint).
-
-##
-Moving Objects Along a Spline Path Constraint
+#### Moving Objects Along a Spline Path Constraint
 
 This kind of path constraint can be used for cases like allowing a submarine or whale to follow a specific path through water, or a bird or plane to follow a specific, invisible path through air. (For objects that follow geometry, like a bobsled track, or terrain, it probably makes more sense to just use physics and allow gravity or a physics impulse to move the object.)
 
-So you can see the otherwise invisible Physics Area components, in the Console, type
-**
-p_draw_helpers 1
-**
-. Or on the View Modes toolbar, enable the
-**
-p_draw_helpers_num 7970
-**
-button.
+So you can see the otherwise invisible Physics Area components, in the Console, type **p_draw_helpers 1**. Or on the View Modes toolbar, enable the ** p_draw_helpers_num 7970**button.
 
-Also make sure
-**
-helpers
-**
-are enabled.
+Also make sure **helpers** are enabled.
 
-##
-Adding the Path Constraint
+##### Adding the Path Constraint
 
--
-Use the
-**
-Create Object
-**
-tool to add an
-**
-Area
-**
-→
-**
-Shape
-**
-entity. Draw the desired path. You'll note that at this point, your shape is composed only of straight lines. Later, this path will be interpolated to a spline path automatically.
-
-It's recommended to draw the simplest possible path,
-**
-double clicking
-**
-on the last point to
-**
-exit
-**
-the Create Object mode. Then you can use the
-**
-Edit Shape
-**
-button on the Properties panel's Shape properties to move the existing points,
-**
-Ctrl-Click
-**
-on the path to add new points, double-clicking to
-**
-remove
-**
-existing points.
-
-You must have a minimum of
-**
-three
-**
-points.
-
--
-The path can be
-*
-open
-*
- (a line) or a
-*
-closed
-*
- loop (like a roller coaster or race track).
-
--
-Add a
-**
-Physics
-**
-→
-**
-Area
-**
-component. Set the area component area
-**
-Type
-**
-to
-**
-Path(Spline)
-**
-. The area component will show the path in
-*
-red
-*
-, and you'll see the allowed movement area drawn as a tunnel:
-
-![Image](https://www.cryengine.com/docs/static/attachments/56656207)
-
-*
-Spline path
-*
-
-Use the
-**
-radius
-**
-property to control the tunnel's diameter.
-
+- Use the **Create Object** tool to add an **Area**→ ** Shape**entity. Draw the desired path. You'll note that at this point, your shape is composed only of straight lines. Later, this path will be interpolated to a spline path automatically. It's recommended to draw the simplest possible path, ** double clicking**on the last point to ** exit**the Create Object mode. Then you can use the ** Edit Shape**button on the Properties panel's Shape properties to move the existing points, ** Ctrl-Click**on the path to add new points, double-clicking to ** remove**existing points.
+You must have a minimum of **three**points.
+- The path can be *open* (a line) or a * closed* loop (like a roller coaster or race track).
+- Add a **Physics**→ ** Area**component. Set the area component area ** Type**to ** Path(Spline)**. The area component will show the path in * red*, and you'll see the allowed movement area drawn as a tunnel:![Image](https://www.cryengine.com/docs/static/attachments/56656207) * Spline path* Use the **radius** property to control the tunnel's diameter.
 The radius of the tunnel should be bigger than the physics proxy of the object passing through it.
+
 You'll see that the original straight line path has now been interpolated to a spline path. You may wish to edit the original area shape while keeping proxies visible so you can adjust the path of your spline.
 
-##
-Adding a Constrained Movable Entity
+##### Adding a Constrained Movable Entity
 
--
-Use the
-**
-Create Object
-**
-tool to create a physicalized entity (
-**
-Mesh
-**
- +
-**
-RigidBody
-**
- components). Assign it a
-**
-Mass
-**
-.
+- Use the **Create Object** tool to create a physicalized entity (**Mesh** + ** RigidBody** components). Assign it a ** Mass**.
+- Add a **Physics**→ ** Line Constraint**component to the physicalized entity.
+While the line constraint can be along any axis, keep in mind that the object will be rotated on game start so the line constraint is **parallel** to the spline path, so if your movable entity has a recognizable front and rear, be sure to make the line constraint and the entity itself parallel to the spline path nearest the object, facing forward in the direction of flow.
+A **spline** is a generalization of a **line** constraint, which allows the constrained object to move along the spline path. No other constraint type will work.
+- With the physicalized entity selected, in the Properties → **Entity Links** panel, click on **Link Tools**→ ** Pick**and link the entity to the area shape.
+Make sure you *close the Pick Object tool* after you select the area shape.
+- Copy the **name** of the **entity link** between the physicalized entity and the area shape.
+- **Paste** the link name into the line constraint component's ** Attachment Parameters →** ** Helper Link Name** property. This constrains the object's movement to the area spline path.
+In order for your entity to move, the **Radius**of the of the physics area component's **Shape → Radius**properties must be large enough to accommodate your object. A too-small radius will "squeeze" the object and impede its movement.
+- To test the constraint, **enable Physics/AI** (** Ctrl + P**) and use the ** Pull Physics**tool to drag your object along the area path.
 
--
-Add a
-**
-Physics
-**
-→
-**
-Line Constraint
-**
-component to the physicalized entity.
+##### Moving the Entity Along the Path Automatically
 
-While the line constraint can be along any axis, keep in mind that the object will be rotated on game start so the line constraint is
-**
-parallel
-**
-to the spline path, so if your movable entity has a recognizable front and rear, be sure to make the line constraint and the entity itself parallel to the spline path nearest the object, facing forward in the direction of flow.
+While you can use any force to move your object along the path constraint, you can also use the**Physics → Area** component's ** Flow**value to push entities along the spline path. If travel is not merely in one direction, but the path twists in various directions or is a closed loop, * disable* the **Uniform** property in order to keep the force *behind* the object no matter which way it faces. Otherwise, a positive **Flow** value on the Y axis, for example, will * only*push the object in a positive direction on the Y axis, and will push the object backwards if the direction of the path rotates 180 degrees.
 
-A
-**
-spline
-**
-is a generalization of a
-**
-line
-**
- constraint, which allows the constrained object to move along the spline path. No other constraint type will work.
+By default, physics area component has its density set to **Air** with a force of **5** on the Y axis. This is *added*to the global air (wind, atmospheric density). If you change the force to water, that force *replaces*the global air force inside the physics area. If you're not using a physics area to create a strong wind or water flow area, then it's most efficient to set air flow, air resistance, and density to **0**. Note that the force required to actually move an entity along the path will depend on its mass.
 
--
-With the physicalized entity selected, in the Properties →
-**
-Entity Links
-**
-panel, click on
-**
-Link Tools
-**
-→
-**
-Pick
-**
-and link the entity to the area shape.
-
-Make sure you
-*
-close the Pick Object tool
-*
- after you select the area shape.
-
--
-Copy the
-**
-name
-**
-of the
-**
-entity link
-**
-between the physicalized entity and the area shape.
-
--
-**
-Paste
-**
- the link name into the line constraint component's
-**
-Attachment Parameters →
-**
-
-**
-Helper Link Name
-**
- property. This constrains the object's movement to the area spline path.
-
-In order for your entity to move, the
-**
-Radius
-**
-of the of the physics area component's
-**
-Shape → Radius
-**
-properties must be large enough to accommodate your object. A too-small radius will "squeeze" the object and impede its movement.
-
--
-To test the constraint,
-**
-enable Physics/AI
-**
- (
-**
-Ctrl + P
-**
-) and use the
-**
-Pull Physics
-**
-tool to drag your object along the area path.
-
-##
-Moving the Entity Along the Path Automatically
-
-While you can use any force to move your object along the path constraint, you can also use the
-**
- Physics → Area
-**
- component's
-**
-Flow
-**
-value to push entities along the spline path. If travel is not merely in one direction, but the path twists in various directions or is a closed loop,
-*
-disable
-*
- the
-**
-Uniform
-**
-property in order to keep the force
-*
-behind
-*
- the object no matter which way it faces. Otherwise, a positive
-**
-Flow
-**
- value on the Y axis, for example, will
-*
-only
-*
-push the object in a positive direction on the Y axis, and will push the object backwards if the direction of the path rotates 180 degrees.
-
-By default, physics area component has its density set to
-**
-Air
-**
- with a force of
-**
-5
-**
- on the Y axis. This is
-*
-added
-*
-to the global air (wind, atmospheric density). If you change the force to water, that force
-*
-replaces
-*
-the global air force inside the physics area. If you're not using a physics area to create a strong wind or water flow area, then it's most efficient to set air flow, air resistance, and density to
-**
-0
-**
-. Note that the force required to actually move an entity along the path will depend on its mass.
-
-##
-Controlling Twist
+##### Controlling Twist
 
 If your moving entity has an obvious top/bottom, you may notice that it twists in "barrel rolls" as it moves – twisting around the line constraint's axis. To control this:
 
--
-Disable
-**
-Lock Rotation
-**
- on the
-**
-Line Constraint
-**
- component.
+- Disable **Lock Rotation** on the ** Line Constraint** component.
+- When an object is constrained to a spline path using a Line Constraint component, the Minimum Limit and Maximum Limit on the line constraint no longer affect how far the object can slide along the line; they control how far the object can *rotate* around the axis of the line constraint. These units are specified in * degrees*. Experiment with a range of values to get the desired amount of rotation.
+- For further control, add a Point Constraint component to the moving object using the Z axis (or whatever axis is **perpendicular** to the line constraint).
+- Enable **Free Position**.
+- Erase the default **Helper Link Name** on the** Point Constraint** component.
+- To see the point constraint's axis, you can move it slightly up or down so it doesn't overlap the line constraint. Set the **Minimum Limit** to **-360** and ** Maximum Limit** to ** 360**.
+- The **Maximum YZ Angle** value controls how much the object can "barrel roll," but also how far the entity can twist around its own Z axis, so this value has to be large enough so it can navigate the turns in your spline path. Test, adjust and use the minimum possible value to avoid the "barrel roll" effect.
 
--
-When an object is constrained to a spline path using a Line Constraint component, the Minimum Limit and Maximum Limit on the line constraint no longer affect how far the object can slide along the line; they control how far the object can
-*
-rotate
-*
- around the axis of the line constraint. These units are specified in
-*
-degrees
-*
-.
+- When you draw your area shape, place all of the points at the *same height* (like snapping to the flat terrain). While you can edit your area shape and move these as desired, the greater the difference in position, the sharper the turns will be in your spline path, and the more you'll have to allow your moving entity to twist to navigate the turns.
+- Never use non-uniform scaling on an area shape (for example, trying to equalize the position of the points on the Z axis after they've been drawn).
+- Beware of trying to move many entities along the same spline path simultaneously; as you increase the number of entities, they are more likely to get stuck along the spline path.
+- Note that you cannot use both Rigidbody and Physics → Area components on the same entity; the Physics → Area component physicalizes the entity.
+- The **Falloff Start** property sets the distance as a percentage of the physics area's radius at which the effects of the physics area begins to diminish linearly until it reaches zero at the outer edge, if desired. Otherwise, with the default value of 0, the effects are uniform throughout the entity.
 
-Experiment with a range of values to get the desired amount of rotation.
-
--
-For further control, add a Point Constraint component to the moving object using the Z axis (or whatever axis is
-**
-perpendicular
-**
- to the line constraint).
-
--
-Enable
-**
-Free Position
-**
-.
-
--
-Erase the default
-**
-Helper Link Name
-**
- on the
-**
- Point Constraint
-**
- component.
-
--
-To see the point constraint's axis, you can move it slightly up or down so it doesn't overlap the line constraint. Set the
-**
-Minimum Limit
-**
- to
-**
--360
-**
- and
-**
-Maximum Limit
-**
- to
-**
-360
-**
-.
-
--
-The
-**
-Maximum YZ Angle
-**
- value controls how much the object can "barrel roll," but also how far the entity can twist around its own Z axis, so this value has to be large enough so it can navigate the turns in your spline path. Test, adjust and use the minimum possible value to avoid the "barrel roll" effect.
-
--
-When you draw your area shape, place all of the points at the
-*
-same height
-*
- (like snapping to the flat terrain). While you can edit your area shape and move these as desired, the greater the difference in position, the sharper the turns will be in your spline path, and the more you'll have to allow your moving entity to twist to navigate the turns.
-
--
-Never use non-uniform scaling on an area shape (for example, trying to equalize the position of the points on the Z axis after they've been drawn).
-
--
-Beware of trying to move many entities along the same spline path simultaneously; as you increase the number of entities, they are more likely to get stuck along the spline path.
-
--
-Note that you cannot use both Rigidbody and Physics → Area components on the same entity; the Physics → Area component physicalizes the entity.
-
--
-The
-**
-Falloff Start
-**
- property sets the distance as a percentage of the physics area's radius at which the effects of the physics area begins to diminish linearly until it reaches zero at the outer edge, if desired. Otherwise, with the default value of 0, the effects are uniform throughout the entity.
-
-##
-Video Tutorial
+### Video Tutorial
 
 [Embed: https://www.youtube.com/watch?v=KvizHpB75tM]
-[Constraining Movement Within a 3D shape](#constraining-movement-within-a-3d-shape)
-[3D Entity Constraint Setup](#3d-entity-constraint-setup)
-[Moving Objects Along a Spline Path Constraint](#moving-objects-along-a-spline-path-constraint)
-[Video Tutorial](#video-tutorial)
+
+[Constraining Movement Within a 3D shape](#constraining-movement-within-a-3d-shape)[3D Entity Constraint Setup](#3d-entity-constraint-setup)[Moving Objects Along a Spline Path Constraint](#moving-objects-along-a-spline-path-constraint)[Video Tutorial](#video-tutorial)

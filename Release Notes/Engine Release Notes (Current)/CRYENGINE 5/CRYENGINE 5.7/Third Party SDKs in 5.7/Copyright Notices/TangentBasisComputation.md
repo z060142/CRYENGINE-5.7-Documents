@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 Copyright (C) 2011 by Morten S. Mikkelsen
 
 This software is provided 'as-is', without any express or implied
@@ -29,6 +27,4 @@ appreciated but is not required.
 misrepresented as being the original software.
 
 3. This notice may not be removed or altered from any source distribution.
-`
-
 ```

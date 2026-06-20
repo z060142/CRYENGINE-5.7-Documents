@@ -7,95 +7,72 @@
 
 ## Content
 
-##
-Containers
+## Containers
 
-##
-Actions
+### Actions
 
 Node to perform actions on all the entities in the container.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901322)
 
-##
-Add/Remove Entity
+### Add/Remove Entity
 
 Node to add/remove entities to an entity container.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901321)
 
-##
-Clear
+### Clear
 
 Node to remove all entities from an entity container.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901320)
 
-##
-Filters
+### Filters
 
 Node to filter the components of an entity container, producing a sorted output.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901317)
 
-##
-Listener
+### Listener
 
 Node that outputs the number of elements in an entity container when everytime elements are added or removed to it.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901316)
 
-##
-Merge
+### Merge
 
 Node to move the entities from a source container into this node's container.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901315)
 
-##
-QueryContainerId
+### QueryContainerId
 
 Node to query which containers the given Entity Id belongs to.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901314)
 
-##
-QueryContainerSize
+### QueryContainerSize
 
 Node to query the size of an entity container.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901313)
 
-##
-QueryEntityByIndex
+### QueryEntityByIndex
 
 Node to get the entity id of the n-th member of a group.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901312)
 
-##
-QueryIsInContainer
+### QueryIsInContainer
 
 Node to query if an entity is in an entity container.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901319)
 
-##
-QueryRandomEntity
+### QueryRandomEntity
 
 Node to retrieve a random element from the container.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901318)
 
-[Containers](#containers)
-[Actions](#actions)
-[Add/Remove Entity](#addremove-entity)
-[Clear](#clear)
-[Filters](#filters)
-[Listener](#listener)
-[Merge](#merge)
-[QueryContainerId](#querycontainerid)
-[QueryContainerSize](#querycontainersize)
-[QueryEntityByIndex](#queryentitybyindex)
-[QueryIsInContainer](#queryisincontainer)
-[QueryRandomEntity](#queryrandomentity)
+[Containers](#containers)[Actions](#actions)[Add/Remove Entity](#addremove-entity)[Clear](#clear)[Filters](#filters)[Listener](#listener)[Merge](#merge)[QueryContainerId](#querycontainerid)[QueryContainerSize](#querycontainersize)[QueryEntityByIndex](#queryentitybyindex)[QueryIsInContainer](#queryisincontainer)[QueryRandomEntity](#queryrandomentity)

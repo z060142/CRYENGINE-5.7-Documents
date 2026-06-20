@@ -7,31 +7,16 @@
 
 ## Content
 
-##
-Launcher Version 1.7.2
+## Launcher Version 1.7.2
 
-##
-Backend
+#### Backend
 
-**
-Tweaked:
-**
- Updated CrySelect version.
+**Tweaked:** Updated CrySelect version.
 
-**
-Tweaked:
-**
- Changed temporal folder in http cache.
+**Tweaked:** Changed temporal folder in http cache.
 
-##
-Landing Page
+#### Landing Page
 
-**
-Fixed:
-**
-User validation issue.
+**Fixed:** User validation issue.
 
-**
-Fixed:
-**
- CRYENGINE not being registered locally.
+**Fixed:** CRYENGINE not being registered locally.

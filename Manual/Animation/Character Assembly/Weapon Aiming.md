@@ -11,8 +11,7 @@
 
 [![Image](https://www.cryengine.com/docs/static/attachments/26952088)](https://www.cryengine.com/get-cryengine/memberships)
 
-##
-Overview
+## Overview
 
 Having a character aim or look towards a point in the 3d world is a common feature required by many games.
 
@@ -24,19 +23,14 @@ For the more complex cases of looking and aiming, CRYENGINE provides a parametri
 
 Our current implementation is designed with characters that exhibit a range of motion similar to human characters in mind (eg. it doesn't support continuous 360 degrees aiming around a pivot point, like a mechanical turret would rotate)
 
-##
-Chapters:
+## Chapters:
 
-[Chapters:](#chapters)
-[Aim IK Setup](#aim-ik-setup)
-[Common Pitfalls](#common-pitfalls)
+[Chapters:](#chapters)[Aim IK Setup](#aim-ik-setup)[Common Pitfalls](#common-pitfalls)
 ![Image](https://www.cryengine.com/docs/static/attachments/26952868)
 
-##
-Aim IK Setup
+### Aim IK Setup
 
-##
-Animation File Setup
+#### Animation File Setup
 
 The system requires a number of poses of our character aiming in several directions so that it can blend between them to aim in any intermediate direction. It works with exactly 9 or 15 poses.
 
@@ -44,8 +38,7 @@ The poses are exported as an animation file, with a pose per frame. The naming o
 
 The order of the poses in the animation is also important.
 
-![Image](https://www.cryengine.com/docs/static/attachments/35400831)
-![Image](https://www.cryengine.com/docs/static/attachments/35400832)
+![Image](https://www.cryengine.com/docs/static/attachments/35400831)![Image](https://www.cryengine.com/docs/static/attachments/35400832)
 
 How this could really look for the 9 poses case:
 
@@ -59,101 +52,67 @@ If the underlying animation currently playing for a character is different enoug
 
 It is not supported to have AimPose or LookPose animations in DBA files.
 
-##
-ChrParams File Setup
+#### ChrParams File Setup
 
 The main configuration for a character to be able to use aim and look poses is specified in the chrparams file for its skeleton
 
 It is important that this is the skeleton used by the RC to process the animation since aimposes are processed by the RC.
 
-##
-AimIK
+##### AimIK
 
 The specific structure in the chrparams file looks like the following:
 
 ```
-
-`
 <Params>
-  <IK_Definition>
-    <AimIK_Definition>
-      <DirectionalBlends>
-        <Joint AnimToken="AimPoses" ParameterJoint="Bip01 CustomAim" StartJoint="Bip01 CustomAimStart" ReferenceJoint="Bip01 Pelvis"/>
-      </DirectionalBlends>
-      <RotationList>
-        <Rotation Additive="1" Primary="1" JointName="Bip01 Pelvis"/>
-        <Rotation Additive="1" Primary="1" JointName="Bip01 Spine"/>
-        <Rotation Additive="1" Primary="1" JointName="Bip01 Spine1"/>
-        <Rotation Additive="1" Primary="1" JointName="Bip01 Spine2" />
-        <Rotation Additive="0" Primary="1" JointName="Bip01 CustomAim" />
-        <Rotation Additive="0" Primary="1" JointName="Bip01 CustomAimStart" />
-        <Rotation Additive="0" Primary="0" JointName="Bip01 LHand2Aim_IKTarget" />
-        <Rotation Additive="0" Primary="0" JointName="Bip01 LHand2Aim_IKBlend" />
-        ...
-        <Rotation Additive="0" Primary="0" JointName="Bip01 RHand2Weapon_IKBlend" />
-      </RotationList>
-      <PositionList>
-        <Position Additive="1" JointName="Bip01 Pelvis"/>
-        <Position Additive="0" JointName="Bip01 CustomAim" />
-        ...
-        <Position Additive="0" JointName="Bip01 RHand2Weapon_IKBlend"/>
-      </PositionList>
-    </AimIK_Definition>
-  </IK_Definition>
-  ...
+<IK_Definition>
+<AimIK_Definition>
+<DirectionalBlends>
+<Joint AnimToken="AimPoses" ParameterJoint="Bip01 CustomAim" StartJoint="Bip01 CustomAimStart" ReferenceJoint="Bip01 Pelvis"/>
+</DirectionalBlends>
+<RotationList>
+<Rotation Additive="1" Primary="1" JointName="Bip01 Pelvis"/>
+<Rotation Additive="1" Primary="1" JointName="Bip01 Spine"/>
+<Rotation Additive="1" Primary="1" JointName="Bip01 Spine1"/>
+<Rotation Additive="1" Primary="1" JointName="Bip01 Spine2" />
+<Rotation Additive="0" Primary="1" JointName="Bip01 CustomAim" />
+<Rotation Additive="0" Primary="1" JointName="Bip01 CustomAimStart" />
+<Rotation Additive="0" Primary="0" JointName="Bip01 LHand2Aim_IKTarget" />
+<Rotation Additive="0" Primary="0" JointName="Bip01 LHand2Aim_IKBlend" />
+...
+<Rotation Additive="0" Primary="0" JointName="Bip01 RHand2Weapon_IKBlend" />
+</RotationList>
+<PositionList>
+<Position Additive="1" JointName="Bip01 Pelvis"/>
+<Position Additive="0" JointName="Bip01 CustomAim" />
+...
+<Position Additive="0" JointName="Bip01 RHand2Weapon_IKBlend"/>
+</PositionList>
+</AimIK_Definition>
+</IK_Definition>
+...
 <Params>
-`
-
 ```
 
-**
-DirectionalBlends
-**
+**DirectionalBlends**
 
 The DirectionalBlends specifies a combination of parameter, start and reference joints to use for aimposes. An animation is processed as an aimpose with this specific configuration when the AnimToken is found somehwere in its name (in this example, any animation processed for this skeleton that contains the sub-string "AimPoses" anywhere in its path will be considered an aimpose with "Bip01 CustomAim" as the parameter joint, "Bip01 CustomAimStart" as the start joint and "Bip01 Pelvis" as the reference joint).
 
-AnimToken
- |
-Sub-string that needs to be matched to some part of the name of an animation in order to be processed as an aimpose with the current configuration for parameter, start and reference joints.
- |
-
-ParameterJoint
- |
-Name of the parameter joint.
- |
-
-StartJoint
- |
-Name of the start joint.
- |
-
-ReferenceJoint
- |
-Name of the reference joint.
- |
+AnimToken | Sub-string that needs to be matched to some part of the name of an animation in order to be processed as an aimpose with the current configuration for parameter, start and reference joints.
+--- | ---
+ParameterJoint | Name of the parameter joint.
+StartJoint | Name of the start joint.
+ReferenceJoint | Name of the reference joint.
 
 It is possible to specify more than one DirectionalBlends section.
 
-**
-RotationList
-**
+**RotationList**
 
 This list is used by the run-time code to know the joints that contribute with their orientation to aimposes. Any joint not in this list will be ignored for the purposes of calculating and blending the aimpose.
 
-JointName
- |
-Name of the joint
- |
-
-Additive
- |
-Specifies the blend mode. 1 -> Additive blending 0 -> Override blending
- |
-
-Primary
- |
-Specifies if it is part of the hierarchical chain that goes from the root joint up to the parameter joint
- |
+JointName | Name of the joint
+--- | ---
+Additive | Specifies the blend mode. 1 -> Additive blending 0 -> Override blending
+Primary | Specifies if it is part of the hierarchical chain that goes from the root joint up to the parameter joint
 
 Primary joints should be specified at the start of the rotation list.
 
@@ -161,26 +120,17 @@ Currently it is necessary to have all primary joints appear before any of their 
 
 AimPoses can only have one rotation list, so all joints used by all aimposes should appear in it, and it should be valid for all of them.
 
-**
-PositionList
-**
+**PositionList**
 
 This list is used by the run-time code to know the joints that contribute with their position to aimposes. Any joint not in this list will be ignored for the purposes of calculating and blending the aimpose.
 
-JointName
- |
-Name of the joint
- |
-
-Additive
- |
-Specifies the blend mode. 1 -> Additive blending 0 -> Override blending
- |
+JointName | Name of the joint
+--- | ---
+Additive | Specifies the blend mode. 1 -> Additive blending 0 -> Override blending
 
 AimPoses can only have one position list, so all joints used by all aimposes should appear in it.
 
-##
-Common Pitfalls
+### Common Pitfalls
 
 Aim and look poses are processed by the Resource Compiler (RC) as part of the animation folder processing step. As a result of this process, the RC writes the DirectionalBlends.img file.
 
@@ -190,8 +140,4 @@ By default, when running Sandbox or the game, the animation system just loads th
 
 When working on aim or look pose CAF files, or editing the AimIK or LookIK definition in the chrparams file, we usually do not want to have to recreate this file, since it requires that we have all the source animation files locally and it usually takes some time for the RC to process the full animations folder (creating DirectionalBlends.img isn't the only thing it does). In such cases, it's best to disable the loading of DirectionalBlends.img and have the engine recalculate the information it needs during load time, so the local changes can be picked up correctly.
 
-To let the engine know that we do not want to load the DirectionalBlends.img file we must
-**
-set the "ca_useIMG_AIM" cvar to 0 before starting the Sandbox or the game
-**
- (eg. in the user.cfg file). Now, when loading an aim or look pose, the information that used to be in DirectionalBlends.img will be recalculated.
+To let the engine know that we do not want to load the DirectionalBlends.img file we must **set the "ca_useIMG_AIM" cvar to 0 before starting the Sandbox or the game** (eg. in the user.cfg file). Now, when loading an aim or look pose, the information that used to be in DirectionalBlends.img will be recalculated.

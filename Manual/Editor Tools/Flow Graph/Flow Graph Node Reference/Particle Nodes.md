@@ -7,99 +7,32 @@
 
 ## Content
 
-##
-AttributeGet
+### AttributeGet
 
 Returns the value of the specified Attribute.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/65438697)
 
-Input
- |
-Description
- |
+Input | Description
+--- | ---
+**Get** | Triggers the node.
+**Attribute** | The name of the Attribute from which the value will be taken. Names are case sensitive, please make sure to type the names correctly.
+Output | Description
+**Value** | Outputs the value that was taken from the Attribute defined in the Attribute input.
+**Error** | Outputs when an error occurs in the acquisition of the Attribute's value.
 
-**
-Get
-**
- |
-Triggers the node.
- |
-
-**
-Attribute
-**
- |
-The name of the Attribute from which the value will be taken.
-
-Names are case sensitive, please make sure to type the names correctly.
- |
-
-Output
- |
-Description
- |
-
-**
-Value
-**
- |
-Outputs the value that was taken from the Attribute defined in the Attribute input.
- |
-
-**
-Error
-**
- |
-Outputs when an error occurs in the acquisition of the Attribute's value.
- |
-
-##
-AttributeSet
+### AttributeSet
 
 Changes the value of the specified Attribute.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/65438696)
 
-Input
- |
-Description
- |
+Input | Description
+--- | ---
+**Set** | Triggers the node.
+**Attribute** | The name of the Attribute whose the value should be changed. Names are case sensitive, please make sure to type the names correctly.
+**Value** | The new value that the Attribute's value will be set to.
+Output | Description
+**Error** | Outputs when an error occurs in the change of the Attribute's value.
 
-**
-Set
-**
- |
-Triggers the node.
- |
-
-**
-Attribute
-**
- |
-The name of the Attribute whose the value should be changed.
-
-Names are case sensitive, please make sure to type the names correctly.
- |
-
-**
-Value
-**
- |
-The new value that the Attribute's value will be set to.
- |
-
-Output
- |
-Description
- |
-
-**
-Error
-**
- |
-Outputs when an error occurs in the change of the Attribute's value.
- |
-
-[AttributeGet](#attributeget)
-[AttributeSet](#attributeset)
+[AttributeGet](#attributeget)[AttributeSet](#attributeset)

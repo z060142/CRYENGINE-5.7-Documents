@@ -15,25 +15,14 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 GameRules are scripts that define gameplay, be it Singleplayer or a Multiplayer game mode. The CRYENGINE SDK ships with several different GameRules examples and they are outlined in the articles below.
 
-##
-In This Topic
+### In This Topic
 
--
-[Multiplayer](GameRules/Multiplayer.md)
-
--
-[Creating a new GameRules](GameRules/Creating%20a%20new%20GameRules.md)
-
--
-[GameModes](GameRules/GameModes.md)
-
--
-[Sample GameRules](GameRules/Sample%20GameRules.md)
-
--
-[GameRules Precache](GameRules/GameRules%20Precache.md)
+- [Multiplayer](GameRules/Multiplayer.md)
+- [Creating a new GameRules](GameRules/Creating%20a%20new%20GameRules.md)
+- [GameModes](GameRules/GameModes.md)
+- [Sample GameRules](GameRules/Sample%20GameRules.md)
+- [GameRules Precache](GameRules/GameRules%20Precache.md)

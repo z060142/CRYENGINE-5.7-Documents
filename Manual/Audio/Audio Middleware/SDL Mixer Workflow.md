@@ -16,20 +16,9 @@
 
 ## Content
 
--
-[SDL Mixer Initial Setup](SDL%20Mixer%20Workflow/SDL%20Mixer%20Initial%20Setup.md)
-
--
-[SDL Mixer & Ambience](SDL%20Mixer%20Workflow/SDL%20Mixer%20%26%20Ambience.md)
-
--
-[SDL Mixer & SpotFX](SDL%20Mixer%20Workflow/SDL%20Mixer%20%26%20SpotFX.md)
-
--
-[SDL Mixer Console Commands](SDL%20Mixer%20Workflow/SDL%20Mixer%20Console%20Commands.md)
-
--
-[SDL Mixer & Localization](SDL%20Mixer%20Workflow/SDL%20Mixer%20%26%20Localization.md)
-
--
-[SDL Mixer & Volume Control](SDL%20Mixer%20Workflow/SDL%20Mixer%20%26%20Volume%20Control.md)
+- [SDL Mixer Initial Setup](SDL%20Mixer%20Workflow/SDL%20Mixer%20Initial%20Setup.md)
+- [SDL Mixer & Ambience](SDL%20Mixer%20Workflow/SDL%20Mixer%20%26%20Ambience.md)
+- [SDL Mixer & SpotFX](SDL%20Mixer%20Workflow/SDL%20Mixer%20%26%20SpotFX.md)
+- [SDL Mixer Console Commands](SDL%20Mixer%20Workflow/SDL%20Mixer%20Console%20Commands.md)
+- [SDL Mixer & Localization](SDL%20Mixer%20Workflow/SDL%20Mixer%20%26%20Localization.md)
+- [SDL Mixer & Volume Control](SDL%20Mixer%20Workflow/SDL%20Mixer%20%26%20Volume%20Control.md)

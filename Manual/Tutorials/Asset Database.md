@@ -13,5 +13,4 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/106627404)
 
--
-[Submitting Assets to CRYENGINE Asset Database](Asset%20Database/Submitting%20Assets%20to%20CRYENGINE%20Asset%20Database.md)
+- [Submitting Assets to CRYENGINE Asset Database](Asset%20Database/Submitting%20Assets%20to%20CRYENGINE%20Asset%20Database.md)

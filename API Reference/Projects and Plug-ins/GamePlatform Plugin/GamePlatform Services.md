@@ -13,13 +13,11 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 Services are the underlying implementations for each supported platform. They provide all the functions and interfaces necessary to communicate with the host platform, and other supported services on that platform.
 
-##
-The Main Service
+### The Main Service
 
 This is the first platform service registered to the GamePlatform plugin service registry.
 
@@ -27,36 +25,22 @@ There can only be one main Service at a time; usually this corresponds to the pl
 
 Supported main services include:
 
--
-Steam
+- Steam
+- Playstation Network
+- Xbox Live
 
--
-Playstation Network
-
--
-Xbox Live
-
-##
-Optional Services
+### Optional Services
 
 Optional services are those that are not necessarily related to the platform the game is deployed upon, and can co-exist with a main platform. There can be multiple optional services registered at any time.
 
 Supported optional services include:
 
--
-Discord
+- Discord
 
-##
-Setup
+### Setup
 
--
-[Setting Up Plugin Definitions for Platform Services](GamePlatform%20Services/Setting%20Up%20Plugin%20Definitions%20for%20Platform%20Services.md)
+- [Setting Up Plugin Definitions for Platform Services](GamePlatform%20Services/Setting%20Up%20Plugin%20Definitions%20for%20Platform%20Services.md)
+- [Setting Up Discord Platform Services](GamePlatform%20Services/Setting%20Up%20Discord%20Platform%20Services.md)
+- [Setting Up Steam Platform Services](GamePlatform%20Services/Setting%20Up%20Steam%20Platform%20Services.md)
 
--
-[Setting Up Discord Platform Services](GamePlatform%20Services/Setting%20Up%20Discord%20Platform%20Services.md)
-
--
-[Setting Up Steam Platform Services](GamePlatform%20Services/Setting%20Up%20Steam%20Platform%20Services.md)
-[The Main Service](#the-main-service)
-[Optional Services](#optional-services)
-[Setup](#setup)
+[The Main Service](#the-main-service)[Optional Services](#optional-services)[Setup](#setup)

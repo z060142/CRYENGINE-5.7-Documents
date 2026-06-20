@@ -7,13 +7,8 @@
 
 ## Content
 
-##
-Launcher Version 1.10.8
+## Launcher Version 1.10.8
 
-##
-Landing Page
+#### Landing Page
 
-**
-Fixed:
-**
-Report an issue form not loading correctly.
+**Fixed:** Report an issue form not loading correctly.

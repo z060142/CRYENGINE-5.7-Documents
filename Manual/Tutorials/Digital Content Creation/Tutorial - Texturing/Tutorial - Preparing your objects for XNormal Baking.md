@@ -7,13 +7,11 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 The section below provides information on how to set up your lowpoly & highpoly models to calculate a high quality normal map.
 
-##
-Broken Normal Map Seams
+### Broken Normal Map Seams
 
 Many times after rendering out a normal map in Xnormal, applying it to the low res mesh and looking it in Cryengine you have normal map seams like in the picture below. In this tutorial we will explain what they are, why they happen and what to do to avoid them.
 
@@ -37,8 +35,7 @@ In the image below you we displayed what actually got captured in the normal map
 
 There multiple options to solve this, you should choose which one is the most effective for the particular situation.
 
-##
-Using a custom render cage in xNormal
+### Using a custom render cage in xNormal
 
 xNormal offers the option to use a custom cage that is created and then exported from the modeling package.
 
@@ -66,8 +63,7 @@ This will also speed up the process compared to the option below, since the rays
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999610)
 
-##
-How to lay out UVs based on smoothing groups to get a clean normal map using xNormal
+### How to lay out UVs based on smoothing groups to get a clean normal map using xNormal
 
 To get the best results when rendering out a normal map when using xNormal it is advisable to split the low poly asset into different smoothing groups and have for each smoothing group it's own UV island.
 
@@ -99,6 +95,4 @@ Here are the results after assigning multiple smoothing groups and splitting up 
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999604)
 
-[Broken Normal Map Seams](#broken-normal-map-seams)
-[Using a custom render cage in xNormal](#using-a-custom-render-cage-in-xnormal)
-[How to lay out UVs based on smoothing groups to get a clean normal map using xNormal](#how-to-lay-out-uvs-based-on-smoothing-groups-to-get-a-clean-normal-map-using-xnormal)
+[Broken Normal Map Seams](#broken-normal-map-seams)[Using a custom render cage in xNormal](#using-a-custom-render-cage-in-xnormal)[How to lay out UVs based on smoothing groups to get a clean normal map using xNormal](#how-to-lay-out-uvs-based-on-smoothing-groups-to-get-a-clean-normal-map-using-xnormal)

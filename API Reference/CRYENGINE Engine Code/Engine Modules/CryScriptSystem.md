@@ -11,8 +11,6 @@
 
 ## Content
 
-##
-In This Topic
+### In This Topic
 
--
-[Lua Scripting](CryScriptSystem/Lua%20Scripting.md)
+- [Lua Scripting](CryScriptSystem/Lua%20Scripting.md)

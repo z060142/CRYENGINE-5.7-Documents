@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 /******************** COPYRIGHT AND LICENCE NOTICE ********************
 
 This source code is part of the BIGDIGITS multiple-precision
@@ -43,6 +41,4 @@ The latest version of the source code can be downloaded from
 
 Last updated: 11 November 2011.
 *************** END OF COPYRIGHT AND LICENCE NOTICE ******************/
-`
-
 ```

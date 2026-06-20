@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 Copyright (c) 2015-2019 The Khronos Group Inc.
 Copyright (c) 2015-2017 Valve Corporation
 Copyright (c) 2015-2017 LunarG, Inc.
@@ -1764,6 +1762,4 @@ library `Frob' (a library for tweaking knobs) written by James Random Hacker.
 Ty Coon, President of Vice
 
 That's all there is to it!
-`
-
 ```

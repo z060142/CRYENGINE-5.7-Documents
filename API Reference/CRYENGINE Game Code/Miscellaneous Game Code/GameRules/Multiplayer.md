@@ -7,10 +7,8 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 This section contains information on various aspects of multiplayer, from gamerules to playlists, to multiplayer effects scripts and more.
 
-##
-In This Topic
+### In This Topic

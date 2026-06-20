@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 PDCurses is public domain software;
 
 you may use it for any purpose. This software is provided AS IS with
@@ -23,7 +21,4 @@ maintainer for the benefit of other users.
 No distribution of modified PDCurses code may be made under the name
 "PDCurses", except by the current maintainer. (Although PDCurses is
 public domain, the name is a trademark.)
-
-`
-
 ```

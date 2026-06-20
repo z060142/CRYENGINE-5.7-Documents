@@ -12,8 +12,7 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 This tutorial series, called the Deer Project, will discuss the animation pipeline, including importing a character, setting up animations for that character and adding new animations.
 
@@ -23,8 +22,5 @@ Assets will be provided, but of course self-created assets can also be used.
 
 At this time, the series consists of the following tutorials, but new ones will be added in due time:
 
--
-[Tutorial - Replacing the Player Character](A%20Deer%20Project%20-%20Character%20Animation%20Pipeline/Tutorial%20-%20Replacing%20the%20Player%20Character.md)
-
--
-[Tutorial - Adding an Animation in Mannequin](A%20Deer%20Project%20-%20Character%20Animation%20Pipeline/Tutorial%20-%20Adding%20an%20Animation%20in%20Mannequin.md)
+- [Tutorial - Replacing the Player Character](A%20Deer%20Project%20-%20Character%20Animation%20Pipeline/Tutorial%20-%20Replacing%20the%20Player%20Character.md)
+- [Tutorial - Adding an Animation in Mannequin](A%20Deer%20Project%20-%20Character%20Animation%20Pipeline/Tutorial%20-%20Adding%20an%20Animation%20in%20Mannequin.md)

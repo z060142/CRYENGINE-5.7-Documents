@@ -7,13 +7,11 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 This article will give some examples on how each node for this section could be used.
 
-##
-Enter
+### Enter
 
 Player enter vehicle on spawn.
 

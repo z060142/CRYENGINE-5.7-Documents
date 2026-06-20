@@ -18,11 +18,4 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44971645)
 
--
-[Exporting a Level for Playing](Packaging%20and%20Deployment/Exporting%20a%20Level%20for%20Playing.md)
-
--
-[Game Executable Command-line Arguments](Packaging%20and%20Deployment/Game%20Executable%20Command-line%20Arguments.md)
-
--
-[Game Executable Launcher](Packaging%20and%20Deployment/Game%20Executable%20Launcher.md)
+- [Exporting a Level for Playing](Packaging%20and%20Deployment/Exporting%20a%20Level%20for%20Playing.md) - [Game Executable Command-line Arguments](Packaging%20and%20Deployment/Game%20Executable%20Command-line%20Arguments.md) - [Game Executable Launcher](Packaging%20and%20Deployment/Game%20Executable%20Launcher.md)

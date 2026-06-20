@@ -11,5 +11,4 @@
 
 ## Content
 
--
-[Tutorial - Setting Up Mission Objectives](Legacy%20AI%20entity%20tutorials/Tutorial%20-%20Setting%20Up%20Mission%20Objectives.md)
+- [Tutorial - Setting Up Mission Objectives](Legacy%20AI%20entity%20tutorials/Tutorial%20-%20Setting%20Up%20Mission%20Objectives.md)

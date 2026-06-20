@@ -7,64 +7,35 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
-Textures in CRYENGINE are usually created with Adobe Photoshop and stored in the TIF image format using the
-[Export Textures with CryTIF - Photoshop](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20CryTIF%20Plugin%20for%20Photoshop/Export%20Textures%20with%20CryTIF%20-%20Photoshop.md)
-. However, the TIF images are not used directly in the game but converted to a more optimized format (usually dds) by the
-[Resource Compiler](/docs/static/engines/cryengine-5/categories/23756816/pages/23308211)
-.
+Textures in CRYENGINE are usually created with Adobe Photoshop and stored in the TIF image format using the [Export Textures with CryTIF - Photoshop](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20CryTIF%20Plugin%20for%20Photoshop/Export%20Textures%20with%20CryTIF%20-%20Photoshop.md). However, the TIF images are not used directly in the game but converted to a more optimized format (usually dds) by the [Resource Compiler](/docs/static/engines/cryengine-5/categories/23756816/pages/23308211).
 
 Not all textures can use the same settings, normal maps for example require a different compression than diffuse maps. For that reason the Resource Compiler does the conversion based on presets that can be selected by the user when saving the TIF file.
 
-##
-General Guidelines
+### General Guidelines
 
--
-All textures must be in .tif format and saved with the CryTIF plugin; the Resource Compiler will automatically generate the final dds textures.
+- All textures must be in.tif format and saved with the CryTIF plugin; the Resource Compiler will automatically generate the final dds textures.
+- When using the CryTIF plugin, meta data is stored into the file which the Resource Compiler uses to generate.dds images correctly for the engine to use.
+- The engine does not support bump to normal map conversion at load time as this can be done more efficiently in the pre-processing stage together with compression.
+- **All textures must be power of 2** (e.g. 128* 128, 1024*1024, 512* 2048, etc).
+- For road textures, make sure your texture is horizontal.
+- Alpha is typically done in the Alpha channel of the [Diffuse](/docs/static/engines/cryengine-5/categories/23756816) texture.
 
--
-When using the CryTIF plugin, meta data is stored into the file which the Resource Compiler uses to generate .dds images correctly for the engine to use.
+### Specifying Texture Conversion Presets
 
--
-The engine does not support bump to normal map conversion at load time as this can be done more efficiently in the pre-processing stage together with compression.
+In the [CryTIF plugin for Photoshop](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20CryTIF%20Plugin%20for%20Photoshop/Export%20Textures%20with%20CryTIF%20-%20Photoshop.md), artists can specify the appropriate conversion preset for the TIF texture. The RC will automatically apply certain assumptions depending on the source.tif contents, filename, and preset settings.
 
--
-**
-All textures must be power of 2
-**
- (e.g. 128*128, 1024*1024, 512*2048, etc).
+When no special presets for the.tif file are specified, the RC will do the following:
 
--
-For road textures, make sure your texture is horizontal.
+- .tif file that have alpha channel (if the alpha channel is not completely white) it will generate DXT3 compressed.dds file.
+- .tif file without alpha channel will generate DXT1 compressed.dds file.
 
--
-Alpha is typically done in the Alpha channel of the
-[Diffuse](/docs/static/engines/cryengine-5/categories/23756816)
- texture.
+If the conversion preset for the.tif file is specified, the RC will try to match the target format to the specified preset.
 
-##
-Specifying Texture Conversion Presets
+### Texture Creation Tips
 
-In the
-[CryTIF plugin for Photoshop](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20CryTIF%20Plugin%20for%20Photoshop/Export%20Textures%20with%20CryTIF%20-%20Photoshop.md)
-, artists can specify the appropriate conversion preset for the TIF texture. The RC will automatically apply certain assumptions depending on the source .tif contents, filename, and preset settings.
-
-When no special presets for the .tif file are specified, the RC will do the following:
-
--
-.tif file that have alpha channel (if the alpha channel is not completely white) it will generate DXT3 compressed .dds file.
-
--
-.tif file without alpha channel will generate DXT1 compressed .dds file.
-If the conversion preset for the .tif file is specified, the RC will try to match the target format to the specified preset.
-
-##
-Texture Creation Tips
-
-##
-Reusing Normal Maps and Specular Maps
+#### Reusing Normal Maps and Specular Maps
 
 Reusing normal maps and specular maps when possible will save a lot of texture memory. Especially normal maps, as they are twice as expensive memory wise compared to regular textures.
 
@@ -76,8 +47,7 @@ Only using spec maps and normal maps when really needed will also save a lot on 
 
 Two different floor textures using the same normal map.
 
-##
-Combining Textures
+#### Combining Textures
 
 Smaller generic architecture parts like pipes, railings, etc., can also be combined into one texture to save on drawcall materials and texture space.
 
@@ -89,8 +59,7 @@ A simple house can consist of a wall texture, roof texture and a detail sheet wi
 
 Example of textures used for the above building: wall, roof, and a detail sheet with all the parts.
 
-##
-Improving Texture Quality
+#### Improving Texture Quality
 
 To compensate for a lack of texture memory and texture amount, the following tricks help to improve texture quality. Use decals to break up and compensate for lack of texture amount.
 
@@ -120,6 +89,4 @@ Use detail maps to add more details and crispness to lower res textures. Detail 
 
 Examples could be to add extra grain to wood, extra bump and cracks to a concrete wall or smaller stains and scratches to car paint.
 
-[General Guidelines](#general-guidelines)
-[Specifying Texture Conversion Presets](#specifying-texture-conversion-presets)
-[Texture Creation Tips](#texture-creation-tips)
+[General Guidelines](#general-guidelines)[Specifying Texture Conversion Presets](#specifying-texture-conversion-presets)[Texture Creation Tips](#texture-creation-tips)

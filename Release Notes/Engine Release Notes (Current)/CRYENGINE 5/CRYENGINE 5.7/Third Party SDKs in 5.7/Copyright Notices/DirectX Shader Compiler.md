@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 ==============================================================================
 LLVM Release License
 ==============================================================================
@@ -18,9 +16,9 @@ Open Source License
 Copyright (c) 2003-2015 University of Illinois at Urbana-Champaign.
 All rights reserved.
 Developed by:
-    LLVM Team
-    University of Illinois at Urbana-Champaign
-    http://llvm.org
+LLVM Team
+University of Illinois at Urbana-Champaign
+http://llvm.org
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal with
@@ -29,17 +27,17 @@ use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
 of the Software, and to permit persons to whom the Software is furnished to do
 so, subject to the following conditions:
 
-    * Redistributions of source code must retain the above copyright notice,
-      this list of conditions and the following disclaimers.
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimers.
 
-    * Redistributions in binary form must reproduce the above copyright notice,
-      this list of conditions and the following disclaimers in the
-      documentation and/or other materials provided with the distribution.
+* Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimers in the
+documentation and/or other materials provided with the distribution.
 
-    * Neither the names of the LLVM Team, University of Illinois at
-      Urbana-Champaign, nor the names of its contributors may be used to
-      endorse or promote products derived from this Software without specific
-      prior written permission.
+* Neither the names of the LLVM Team, University of Illinois at
+Urbana-Champaign, nor the names of its contributors may be used to
+endorse or promote products derived from this Software without specific
+prior written permission.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
@@ -66,13 +64,10 @@ licenses, and/or restrictions:
 Program             Directory
 -------             ---------
 Autoconf            llvm/autoconf
-                    llvm/projects/ModuleMaker/autoconf
+llvm/projects/ModuleMaker/autoconf
 Google Test         llvm/utils/unittest/googletest
 OpenBSD regex       llvm/lib/Support/{reg*, COPYRIGHT.regex}
 pyyaml tests        llvm/test/YAMLParser/{*.data, LICENSE.TXT}
 ARM contributions   llvm/lib/Target/ARM/LICENSE.TXT
 md5 contributions   llvm/lib/Support/MD5.cpp llvm/include/llvm/Support/MD5.h
-
-`
-
 ```

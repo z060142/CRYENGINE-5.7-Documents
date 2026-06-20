@@ -13,11 +13,6 @@
 
 ## Content
 
--
-[Animation Precaching](Animation%20%26%20Characters/Animation%20Precaching.md)
-
--
-[Linking to Character Bones](Animation%20%26%20Characters/Linking%20to%20Character%20Bones.md)
-
--
-[Look IK for Cinematics](Animation%20%26%20Characters/Look%20IK%20for%20Cinematics.md)
+- [Animation Precaching](Animation%20%26%20Characters/Animation%20Precaching.md)
+- [Linking to Character Bones](Animation%20%26%20Characters/Linking%20to%20Character%20Bones.md)
+- [Look IK for Cinematics](Animation%20%26%20Characters/Look%20IK%20for%20Cinematics.md)

@@ -12,8 +12,5 @@
 
 ## Content
 
--
-[Tutorial - Game Optimization](Organization%20and%20Optimization%20Tutorials/Tutorial%20-%20Game%20Optimization.md)
-
--
-[Tutorial - Understanding debug view modes](Organization%20and%20Optimization%20Tutorials/Tutorial%20-%20Understanding%20debug%20view%20modes.md)
+- [Tutorial - Game Optimization](Organization%20and%20Optimization%20Tutorials/Tutorial%20-%20Game%20Optimization.md)
+- [Tutorial - Understanding debug view modes](Organization%20and%20Optimization%20Tutorials/Tutorial%20-%20Understanding%20debug%20view%20modes.md)

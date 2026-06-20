@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 LICENSE ISSUES
 ==============
 
@@ -133,7 +131,4 @@ Original SSLeay License
 * copied and put under another distribution licence
 * [including the GNU Public Licence.]
 */
-
-`
-
 ```

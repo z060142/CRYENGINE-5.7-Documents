@@ -7,82 +7,19 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 The general properties at the bottom of the Designer tool are always the same. These include:
 
-Property
- |
-Description
- |
-
-**
-Display Back Facing Polygons
-**
- |
-This Editor only feature allows for the showing of backfaces of Designer objects, such as when inside of a building or object.
- |
-
-**
-Seamless Edit
-**
- |
-Enables editing of objects when the mouse cursor is over them.
- |
-
-**
-Keep Pivot Center
-**
- |
-Pivot remains locked during editing
- |
-
-**
-Highlight Elements
-**
- |
-Visualization of the vertices, edges, faces, and pivots.
- |
-
-**
-Highlight Box Size
-**
- |
-First requiring to have Highlight Elements active, this scales the helpers they use.
- |
-
-**
-Display Dimension Helper
-**
- |
-Enables visualization of the object's dimensions: width, height, and depth.
- |
-
-**
-Display Triangulation
-**
- |
-Overlay's the objects's triangulation through an outline.
- |
-
-**
-Display Subdivided Result
-**
- |
-Overlays the object's subdivisions through an outline.
- |
-
-**
-Display Vertex Normals
-**
- |
-Draws normal vertex direction and axis.
- |
-
-**
-Display Polygon Normals
-**
- |
-Draws polygon vertex direction and axis.
- |
+Property | Description
+--- | ---
+**Display Back Facing Polygons** | This Editor only feature allows for the showing of backfaces of Designer objects, such as when inside of a building or object.
+**Seamless Edit** | Enables editing of objects when the mouse cursor is over them.
+**Keep Pivot Center** | Pivot remains locked during editing
+**Highlight Elements** | Visualization of the vertices, edges, faces, and pivots.
+**Highlight Box Size** | First requiring to have Highlight Elements active, this scales the helpers they use.
+**Display Dimension Helper** | Enables visualization of the object's dimensions: width, height, and depth.
+**Display Triangulation** | Overlay's the objects's triangulation through an outline.
+**Display Subdivided Result** | Overlays the object's subdivisions through an outline.
+**Display Vertex Normals** | Draws normal vertex direction and axis.
+**Display Polygon Normals** | Draws polygon vertex direction and axis.

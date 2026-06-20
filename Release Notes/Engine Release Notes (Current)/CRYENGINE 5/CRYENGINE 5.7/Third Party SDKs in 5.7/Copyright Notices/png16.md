@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 This copy of the libpng notices is provided for your convenience. In case of
 any discrepancy between this copy and the notices in the file png.h that is
 included in the libpng distribution, the latter shall prevail.
@@ -139,6 +137,4 @@ any encryption software. See the EAR, paragraphs 734.3(b)(3) and
 Glenn Randers-Pehrson
 glennrp at users.sourceforge.net
 August 4, 2016
-`
-
 ```

@@ -7,67 +7,42 @@
 
 ## Content
 
-##
-GetVehicleImplementations
+### GetVehicleImplementations
 
- Get a table of all implemented vehicles.
+Get a table of all implemented vehicles.
 
 ```
-
-`
 VehicleSystem.GetVehicleImplementations()
-`
-
 ```
 
-##
-GetOptionalScript
+### GetOptionalScript
 
- Get an (optional) script for the named vehicle.
+Get an (optional) script for the named vehicle.
 
 ```
-
-`
 VehicleSystem.GetOptionalScript(vehicleName)
-`
-
 ```
 
-##
-SetTpvDistance
+### SetTpvDistance
 
- Distance of camera in third person view.
+Distance of camera in third person view.
 
 ```
-
-`
 VehicleSystem.SetTpvDistance(distance)
-`
-
 ```
 
-##
-SetTpvHeight
+### SetTpvHeight
 
- Height of camera in third person view.
+Height of camera in third person view.
 
 ```
-
-`
 VehicleSystem.SetTpvHeight(height)
-`
-
 ```
 
-##
-ReloadSystem
+### ReloadSystem
 
- Reloads the vehicle system with default values.
+Reloads the vehicle system with default values.
 
 ```
-
-`
 VehicleSystem.ReloadSystem()
-`
-
 ```

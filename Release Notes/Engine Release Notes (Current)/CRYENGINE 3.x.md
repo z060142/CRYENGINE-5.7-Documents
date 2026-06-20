@@ -15,17 +15,8 @@
 
 ## Content
 
--
-[EaaS 3.6](CRYENGINE%203.x/EaaS%203.6.md)
-
--
-[EaaS 3.7](CRYENGINE%203.x/EaaS%203.7.md)
-
--
-[EaaS 3.8](CRYENGINE%203.x/EaaS%203.8.md)
-
--
-[FreeSDK Archive](CRYENGINE%203.x/FreeSDK%20Archive.md)
-
--
-[Sample Assets Package](CRYENGINE%203.x/Sample%20Assets%20Package.md)
+- [EaaS 3.6](CRYENGINE%203.x/EaaS%203.6.md)
+- [EaaS 3.7](CRYENGINE%203.x/EaaS%203.7.md)
+- [EaaS 3.8](CRYENGINE%203.x/EaaS%203.8.md)
+- [FreeSDK Archive](CRYENGINE%203.x/FreeSDK%20Archive.md)
+- [Sample Assets Package](CRYENGINE%203.x/Sample%20Assets%20Package.md)

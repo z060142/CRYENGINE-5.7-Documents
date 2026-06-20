@@ -7,229 +7,112 @@
 
 ## Content
 
-##
-Reset
+### Reset
 
- Resets the item system.
+Resets the item system.
 
 ```
-
-`
 ItemSystem.Reset()
-`
-
 ```
 
-##
-GiveItem
+### GiveItem
 
 Gives the specified item.
 
 ```
-
-`
 ItemSystem.GiveItem( itemName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+itemName | Item name.
 
-itemName
- |
-Item name.
- |
-
-##
-GiveItemPack
+### GiveItemPack
 
 Gives the item pack to the specified actor.
 
 ```
-
-`
 ItemSystem.GiveItemPack( actorId, packName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+actorId | Actor identifier.
+packName | Pack name.
 
-actorId
- |
-Actor identifier.
- |
-
-packName
- |
-Pack name.
- |
-
-##
-GetPackPrimaryItem
+### GetPackPrimaryItem
 
 Gets the primary item of the specified pack.
 
 ```
-
-`
 ItemSystem.GetPackPrimaryItem( packName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+packName | Pack name.
 
-packName
- |
-Pack name.
- |
+### GetPackNumItems
 
-##
-GetPackNumItems
-
- Get the number of items in the specified pack.
+Get the number of items in the specified pack.
 
 ```
-
-`
 ItemSystem.GetPackNumItems()
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+packName | Pack name.
 
-packName
- |
-Pack name.
- |
-
-##
-GetPackItemByIndex
+### GetPackItemByIndex
 
 Gets a pack item from its index.
 
 ```
-
-`
 ItemSystem.GetPackItemByIndex( packName, index )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+packName | Pack name.
+index | Pack index.
 
-packName
- |
-Pack name.
- |
-
-index
- |
-Pack index.
- |
-
-##
-SetActorItem
+### SetActorItem
 
 Sets an actor item.
 
 ```
-
-`
 ItemSystem.SetActorItem( actorId, itemId, keepHistory )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+actorId | Actor identifier.
+itemId | Item identifier.
+keepHistory | True to keep history, false otherwise.
 
-actorId
- |
-Actor identifier.
- |
-
-itemId
- |
-Item identifier.
- |
-
-keepHistory
- |
-True to keep history, false otherwise.
- |
-
-##
-SetActorItemByName
+### SetActorItemByName
 
 Sets an actor item by name.
 
 ```
-
-`
 ItemSystem.SetActorItemByName( actorId, name, keepHistory )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+actorId | Actor identifier.
+name | Actor item name.
+keepHistory | True to keep history, false otherwise.
 
-actorId
- |
-Actor identifier.
- |
-
-name
- |
-Actor item name.
- |
-
-keepHistory
- |
-True to keep history, false otherwise.
- |
-
-##
-SerializePlayerLTLInfo
+### SerializePlayerLTLInfo
 
 Serializes player LTL info.
 
 ```
-
-`
 ItemSystem.SerializePlayerLTLInfo( reading )
-`
-
 ```
 
-Parameter
- |
-Description
- |
-
-reading
- |
-Boolean value.
- |
+Parameter | Description
+--- | ---
+reading | Boolean value.

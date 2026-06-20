@@ -11,8 +11,6 @@
 
 ## Content
 
-##
-In This Topic
+### In This Topic
 
--
-[Maya Destroyable Object Tutorial](Destroyable%20Objects/Maya%20Destroyable%20Object%20Tutorial.md)
+- [Maya Destroyable Object Tutorial](Destroyable%20Objects/Maya%20Destroyable%20Object%20Tutorial.md)

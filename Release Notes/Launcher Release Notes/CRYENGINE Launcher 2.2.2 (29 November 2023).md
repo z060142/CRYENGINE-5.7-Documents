@@ -7,26 +7,10 @@
 
 ## Content
 
-**
-Fixed:
+**Fixed:** An issue where Contributors were unable to download the deprecated versions of an asset.
 
-**
-An issue where Contributors were unable to download the deprecated versions of an asset.
+**New:** Public profile pages are now available to users.
 
-**
-New:
+**New**: Users are now able to link their CryEngine accounts to their Discord and GitHub accounts.
 
-**
-Public profile pages are now available to users.
-
-**
-New
-**
-: Users are now able to link their CryEngine accounts to their Discord and GitHub accounts.
-
-**
-Updated:
-
-**
-The link
- redirecting users to the Forum now points users to CE's Discord channel.
+**Updated:** The link redirecting users to the Forum now points users to CE's Discord channel.

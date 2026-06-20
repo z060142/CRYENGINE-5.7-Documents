@@ -25,38 +25,32 @@
 
 [![Image](https://www.cryengine.com/docs/static/attachments/44964852)](http://www.cryengine.com/support)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/44964872) Audio Controls Editor](/docs/static/engines/cryengine-5/categories/23756816/pages/51347481)
+[![Image](https://www.cryengine.com/docs/static/attachments/44964872)Audio Controls Editor](/docs/static/engines/cryengine-5/categories/23756816/pages/51347481)
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44964871)
 
-##
-   Audio Controls Editor
+##### Audio Controls Editor
 
-##
-   Audio System
+##### Audio System
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44969602)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/44964874) Audio & Ambience](/docs/static/engines/cryengine-5/categories/23756816/pages/44964884)
+[![Image](https://www.cryengine.com/docs/static/attachments/44964874)Audio & Ambience](/docs/static/engines/cryengine-5/categories/23756816/pages/44964884)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/44964873) Audio & Animations](/docs/static/engines/cryengine-5/categories/23756816/pages/44964886)
+[![Image](https://www.cryengine.com/docs/static/attachments/44964873)Audio & Animations](/docs/static/engines/cryengine-5/categories/23756816/pages/44964886)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/44964870) Audio & Cinematics](/docs/static/engines/cryengine-5/categories/23756816/pages/44964892)
+[![Image](https://www.cryengine.com/docs/static/attachments/44964870)Audio & Cinematics](/docs/static/engines/cryengine-5/categories/23756816/pages/44964892)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/44964868) Audio & Occlusion](/docs/static/engines/cryengine-5/categories/23756816/pages/44964914)
+[![Image](https://www.cryengine.com/docs/static/attachments/44964868)Audio & Occlusion](/docs/static/engines/cryengine-5/categories/23756816/pages/44964914)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/44964865) Audio & Particles](/docs/static/engines/cryengine-5/categories/23756816/pages/44964916)
+[![Image](https://www.cryengine.com/docs/static/attachments/44964865)Audio & Particles](/docs/static/engines/cryengine-5/categories/23756816/pages/44964916)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/44964867) Audio & Reverbs](/docs/static/engines/cryengine-5/categories/23756816/pages/44964924)
+[![Image](https://www.cryengine.com/docs/static/attachments/44964867)Audio & Reverbs](/docs/static/engines/cryengine-5/categories/23756816/pages/44964924)
 
-##
-Occlusion
+##### Occlusion
 
-##
-Particles
+##### Particles
 
-##
-Reverb
+##### Reverb
 
-##
-Rope
+##### Rope

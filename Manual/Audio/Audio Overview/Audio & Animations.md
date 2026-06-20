@@ -15,18 +15,12 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44964887)
 
-##
-Overview
+### Overview
 
 This section explains how to setup and trigger Audio on Animations in CRYENGINE.
 
 This section includes the following articles:
 
--
-[Audio & Character Tool*](Audio%20%26%20Animations/Audio%20%26%20Character%20Tool.md)
-
--
-[Audio & Foley/Footsteps](Audio%20%26%20Animations/Audio%20%26%20Foley%20Footsteps.md)
-
--
-[Audio & Mannequin](Audio%20%26%20Animations/Audio%20%26%20Mannequin.md)
+- [Audio & Character Tool*](Audio%20%26%20Animations/Audio%20%26%20Character%20Tool.md)
+- [Audio & Foley/Footsteps](Audio%20%26%20Animations/Audio%20%26%20Foley%20Footsteps.md)
+- [Audio & Mannequin](Audio%20%26%20Animations/Audio%20%26%20Mannequin.md)

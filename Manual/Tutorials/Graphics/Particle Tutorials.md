@@ -12,8 +12,5 @@
 
 ## Content
 
--
-[Particle Editor Tutorials](Particle%20Tutorials/Particle%20Editor%20Tutorials.md)
-
--
-[Tutorial - Creating an Omnipresent Colliding Effect](Particle%20Tutorials/Tutorial%20-%20Creating%20an%20Omnipresent%20Colliding%20Effect.md)
+- [Particle Editor Tutorials](Particle%20Tutorials/Particle%20Editor%20Tutorials.md)
+- [Tutorial - Creating an Omnipresent Colliding Effect](Particle%20Tutorials/Tutorial%20-%20Creating%20an%20Omnipresent%20Colliding%20Effect.md)

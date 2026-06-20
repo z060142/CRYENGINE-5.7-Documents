@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Comment
+### Comment
 
 The comment tool allows the adding of comments anywhere inside a level.
 
@@ -26,36 +25,8 @@ And this is what a comment looks like in the game:
 
 ![Image](https://www.cryengine.com/docs/static/attachments/36849621)
 
-Parameter
-
- |
-Description
-
- |
-
-**
-Text
-**
-
- |
-Lets you specify the text that needs to be displayed.
-
- |
-
-**
-Font Size
-**
-
- |
-Size of the text.
-
- |
-
-**
-View Distance
-**
-
- |
-Lets you specify the distance at which the comment will be displayed. If the camera is further than this, the comment will be hidden.
-
- |
+Parameter | Description
+--- | ---
+**Text** | Lets you specify the text that needs to be displayed.
+**Font Size** | Size of the text.
+**View Distance** | Lets you specify the distance at which the comment will be displayed. If the camera is further than this, the comment will be hidden.

@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 LZ4 - Fast LZ compression algorithm
 Header File
 Copyright (C) 2011-2015, Yann Collet.
@@ -45,6 +43,4 @@ You can contact the author at :
 - LZ4 source repository : https://github.com/Cyan4973/lz4
 
 - LZ4 public forum : https://groups.google.com/forum/#!forum/lz4c
-`
-
 ```

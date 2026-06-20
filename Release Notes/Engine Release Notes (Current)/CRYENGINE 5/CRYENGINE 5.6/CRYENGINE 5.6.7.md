@@ -7,64 +7,32 @@
 
 ## Content
 
-##
-Core/System
+## Core/System
 
-##
-Engine General
+### Engine General
 
--
-**
-Tweaked:
+- **Tweaked:** Removed unnecessary files from the Engine build to reduce package size.
 
-**
-Removed unnecessary files from the Engine build to reduce package size.
+## Graphics & Rendering
 
-##
-Graphics & Rendering
+### Renderer General
 
-##
-Renderer General
+- **Fixed:**(RenderDll, CrySystem) Window mode CVars not being respected.
 
--
-**
-Fixed:
-**
-(RenderDll, CrySystem) Window mode CVars not being respected.
+## Sandbox
 
-##
-Sandbox
+### Editor General
 
-##
-Editor General
+- **Fixed:** Setting an object's type from 'LOD0' to 'PhysicsProxy' shows 'LOD6' instead.
 
--
-**
-Fixed:
-**
- Setting an object's type from 'LOD0' to 'PhysicsProxy' shows 'LOD6' instead.
+## Tools
 
-##
-Tools
+### Tools General
 
-##
-Tools General
+- **Fixed:** Image conversion failure due to missing third party utility.
 
--
-**
-Fixed:
-**
- Image conversion failure due to missing third party utility.
+## Plugins and Projects
 
-##
-Plugins and Projects
+### Templates
 
-##
-Templates
-
--
-**
-Fixed:
-
-**
-Templates having inverted SetAnimationDrivenMotion setting.
+- **Fixed:** Templates having inverted SetAnimationDrivenMotion setting.

@@ -7,51 +7,24 @@
 
 ## Content
 
-##
-Launcher Version 1.8.2
+## Launcher Version 1.8.2
 
-##
-Backend
+#### Backend
 
-**
-Fixed:
-**
-Bug that was causing News Articles to be published on the Launcher earlier than was scheduled.
+**Fixed:** Bug that was causing News Articles to be published on the Launcher earlier than was scheduled.
 
-**
-Fixed:
-**
-Asset Submission: Bug causing 'Cancel' submission button to not always be visible on the new asset submission window.
+**Fixed:** Asset Submission: Bug causing 'Cancel' submission button to not always be visible on the new asset submission window.
 
-**
-Fixed:
-**
-Asset Submission: Bug causing 'Cancel' button on asset submission window to change name and be greyed out.
+**Fixed:** Asset Submission: Bug causing 'Cancel' button on asset submission window to change name and be greyed out.
 
-**
-Fixed:
-**
-Asset Submission: Bug causing previous step to no longer be visible when activating 'Back' button on asset submission window.
+**Fixed:** Asset Submission: Bug causing previous step to no longer be visible when activating 'Back' button on asset submission window.
 
-**
-Fixed:
-**
- Bug causing the error popup "Error Cancelling" to be displayed when a Vendor had edited, then submitted an asset and then cancelled the edited asset.
+**Fixed:** Bug causing the error popup "Error Cancelling" to be displayed when a Vendor had edited, then submitted an asset and then cancelled the edited asset.
 
-##
-Landing Page
+#### Landing Page
 
-**
-New:
-**
-Asset Submission: Added a 'Cancel' confirmation popup (do you really want to cancel an asset submission?).
+**New:** Asset Submission: Added a 'Cancel' confirmation popup (do you really want to cancel an asset submission?).
 
-**
-New:
-**
-Added a link for Launcher Release Notes on the 'A new CRYENGINE Launcher Update is ready!' popup.
+**New:** Added a link for Launcher Release Notes on the 'A new CRYENGINE Launcher Update is ready!' popup.
 
-**
-New:
-**
- Added a logout option to the context menu (when right-clicking on the Launcher icon in the notification area/system tray).
+**New:** Added a logout option to the context menu (when right-clicking on the Launcher icon in the notification area/system tray).

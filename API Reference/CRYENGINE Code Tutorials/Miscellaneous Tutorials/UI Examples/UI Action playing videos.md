@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 Here's an example of the UIAction system being used to display a USM Video file:
 

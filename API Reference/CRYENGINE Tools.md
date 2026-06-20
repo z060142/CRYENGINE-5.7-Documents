@@ -20,17 +20,8 @@ CRYENGINE ships with several complementary tools to assist the development proce
 
 Below you can find documentation with the purpose and usage of the auxiliary tools.
 
--
-[Bootprofiler](CRYENGINE%20Tools/Bootprofiler.md)
-
--
-[MemReplay](CRYENGINE%20Tools/MemReplay.md)
-
--
-[Statoscope](CRYENGINE%20Tools/Statoscope.md)
-
--
-[Brofiler](CRYENGINE%20Tools/Brofiler.md)
-
--
-[RenderDoc](CRYENGINE%20Tools/RenderDoc.md)
+- [Bootprofiler](CRYENGINE%20Tools/Bootprofiler.md)
+- [MemReplay](CRYENGINE%20Tools/MemReplay.md)
+- [Statoscope](CRYENGINE%20Tools/Statoscope.md)
+- [Brofiler](CRYENGINE%20Tools/Brofiler.md)
+- [RenderDoc](CRYENGINE%20Tools/RenderDoc.md)

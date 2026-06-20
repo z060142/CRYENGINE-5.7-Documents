@@ -6,97 +6,42 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
-The engine exposes the console as a means for the user to set and store values of
-**
-console variables
-**
-, in order to manipulate the state of the game and engine without requiring source code modifications. Additionally, the console allows for
-**
-console commands
-**
-, similar to variables but execute a function whenever it is executed by the user.
+The engine exposes the console as a means for the user to set and store values of **console variables**, in order to manipulate the state of the game and engine without requiring source code modifications. Additionally, the console allows for ** console commands**, similar to variables but execute a function whenever it is executed by the user.
 
 The console can be manipulated either through code, or by pressing the tilde key in-game.
 
-##
-Table of Contents
+## Table of Contents
 
-[API Types](#api-types)
-[Console Variables](#console-variables)
-[Console Commands](#console-commands)
-[Conclusion](#conclusion)
+[API Types](#api-types)[Console Variables](#console-variables)[Console Commands](#console-commands)[Conclusion](#conclusion)
 
-##
-API Types
+## API Types
 
--
-[IConsole](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
+- [IConsole](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
+- [ICVar](/docs/static/engines/cryengine-5/categories/28704770/pages/29797231)
+- [IConsoleCmdArgs](/docs/static/engines/cryengine-5/categories/28704770/pages/29797234)
+- [IConsoleArgumentAutoComplete](/docs/static/engines/cryengine-5/categories/28704770/pages/29797232)
 
--
-[ICVar](/docs/static/engines/cryengine-5/categories/28704770/pages/29797231)
+## Console Variables
 
--
-[IConsoleCmdArgs](/docs/static/engines/cryengine-5/categories/28704770/pages/29797234)
-
--
-[IConsoleArgumentAutoComplete](/docs/static/engines/cryengine-5/categories/28704770/pages/29797232)
-
-##
-Console Variables
-
-Often referred to as
-**
-CVars
-**
-, console variables can be registered in code in order to expose a global variable that can be tweaked by designers without modifying code later on.
-CVars are represented by the
-[ICVar](/docs/static/engines/cryengine-5/categories/28704770/pages/29797231)
- interface in code. For an example of how to create a CVar, see
-[IConsole::Register](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
-.
+Often referred to as **CVars**, console variables can be registered in code in order to expose a global variable that can be tweaked by designers without modifying code later on. CVars are represented by the [ICVar](/docs/static/engines/cryengine-5/categories/28704770/pages/29797231) interface in code. For an example of how to create a CVar, see [IConsole::Register](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230).
 
 [Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
-
 Adding a CVar can be done in many ways:
 
--
-Through
-[IConsole::GetCVar](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
- and
-[ICVar::Set](/docs/static/engines/cryengine-5/categories/28704770/pages/29797231)
+- Through [IConsole::GetCVar](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230) and [ICVar::Set](/docs/static/engines/cryengine-5/categories/28704770/pages/29797231)
+- By adding the CVar and its desired value to your.cryproject
+- By modifying a.cfg file
 
--
-By adding the CVar and its desired value to your .cryproject
+### Console Variable Groups
 
--
-By modifying a .cfg file
+Console variable groups provide a convenient way to apply predefined settings to multiple console variables at once, and are commonly referred to as **CVarGroup**. The main use case for CVarGroups is for changing the graphical spec, using the "sys_spec" CVar.
 
-##
-Console Variable Groups
+#### Registering a new variable group
 
-Console variable groups provide a convenient way to apply predefined settings to multiple console variables at once, and are commonly referred to as
-**
-CVarGroup
-**
-. The main use case for CVarGroups is for changing the graphical spec, using the "sys_spec" CVar.
-
-##
-Registering a new variable group
-
-To register a new variable group, add a new .cfg text file to the
-*
-`
-Config/CVarGroups
-`
-*
- directory.
-
+To register a new variable group, add a new .cfg text file to the *`Config/CVarGroups`* directory.
 ```
-
-`
 [default]
 ; default of this CVarGroup
 = 4
@@ -112,39 +57,24 @@ e_particles_max_emitter_draw_screen=4
 
 [3]
 e_particles_max_emitter_draw_screen=16
-`
-
 ```
 
 This creates a new console variable group named "sys_spec_Particles" that behaves like an integer console variable. By default, this variable has the state 4 (set through the line following the comment).
 
-On changing the variable, the new state is applied. Console variables not specified in the .cfg file are not set. All desired console variables need to be part of the default section. An error message is output in case of violation of this rule.
+On changing the variable, the new state is applied. Console variables not specified in the.cfg file are not set. All desired console variables need to be part of the default section. An error message is output in case of violation of this rule.
 
 If a console variable is not specified in a custom section, the value specified in the default section is applied.
 
-##
-Console Commands
+## Console Commands
 
-Similarly to Console Variables, Console Commands are referred to as
-**
-CCommands
-**
- and provide support for executing a function whenever the specified command is executed. For an example of how to create your own console commands, see
-[IConsole::AddCommand](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
-.
+Similarly to Console Variables, Console Commands are referred to as **CCommands** and provide support for executing a function whenever the specified command is executed. For an example of how to create your own console commands, see [IConsole::AddCommand](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230).
 
 [Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
 
-##
-Conclusion
+## Conclusion
 
 This concludes the article on the console. You may be interested in:
 
--
-[Filesystem_](Filesystem_.md)
-
--
-[Profiling and Debugging](Profiling%20and%20Debugging.md)
-
--
-[_Shaders](_Shaders.md)
+- [Filesystem_](Filesystem_.md)
+- [Profiling and Debugging](Profiling%20and%20Debugging.md)
+- [_Shaders](_Shaders.md)

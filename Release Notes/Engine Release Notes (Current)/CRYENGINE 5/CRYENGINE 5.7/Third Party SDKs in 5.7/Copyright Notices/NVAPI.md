@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 Copyright © 2012 NVIDIA Corporation. All rights reserved.
 
 NOTICE TO USER:
@@ -41,6 +39,4 @@ all U.S. Government End Users acquire the software with only those rights set fo
 Any use of this software in individual and commercial software must include,
 in the user documentation and internal comments to the code,
 the above Disclaimer (as applicable) and U.S. Government End Users Notice.
-`
-
 ```

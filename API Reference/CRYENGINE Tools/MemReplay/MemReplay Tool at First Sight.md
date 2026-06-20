@@ -7,22 +7,15 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
-This article explains how to start investigating a MemReplay log file. Please refer to
-[Getting Started with MemReplay](Getting%20Started%20with%20MemReplay.md)
- and
-[Setup and Loading data with MemReplay Tool](Setup%20and%20Loading%20data%20with%20MemReplay%20Tool.md)
- if you have not yet successfully loaded a zmrl file.
+This article explains how to start investigating a MemReplay log file. Please refer to [Getting Started with MemReplay](Getting%20Started%20with%20MemReplay.md) and [Setup and Loading data with MemReplay Tool](Setup%20and%20Loading%20data%20with%20MemReplay%20Tool.md) if you have not yet successfully loaded a zmrl file.
 
 Chapters:
 
-[Usage Screen](#usage-screen)
-[Tracing Memory](#tracing-memory)
+[Usage Screen](#usage-screen)[Tracing Memory](#tracing-memory)
 
-##
-Usage Screen
+### Usage Screen
 
 If you have loaded a zmrl file into the MemReplay Tool you will see something similar to the following screenshot.
 
@@ -32,148 +25,39 @@ The example log file which has been loaded here is showing all the allocations f
 
 starting the executable -> main menu -> loading forest level -> reaching spawn point -> player interaction possible
 
-The
-**
-By Allocation Event
-**
- window and the
-**
-By Frame
-**
- window both represent the same memory allocations. However, they differ in the way they display them:
+The **By Allocation Event** window and the ** By Frame** window both represent the same memory allocations. However, they differ in the way they display them:
 
--
-**
-By Allocation Event
-**
-: Each graph sample represents exactly one allocation (not related to time)
+- **By Allocation Event**: Each graph sample represents exactly one allocation (not related to time)
+- **By Frame**: Each graph sample represents exactly one frame (not related to number of allocations or time)
 
--
-**
-By Frame
-**
-: Each graph sample represents exactly one frame (not related to number of allocations or time)
-There are three lines with different colors (
-**
-Requested
-**
-,
-**
-Consumed
-**
- and
-**
-Pagefile)
-**
- which have different memory usage meanings:
+There are three lines with different colors (**Requested**, ** Consumed** and ** Pagefile)** which have different memory usage meanings:
 
--
-**
-Requested
-**
-: The amount of memory requested by the Engine. This line might be hidden behind the
-*
-Consumed
-*
- memory since they usually match
+- **Requested**: The amount of memory requested by the Engine. This line might be hidden behind the * Consumed* memory since they usually match
+- **Consumed**: The actual memory in use. This is parameter you are most likely to be interested in
+- **Pagefile**: Consumed memory of process. On PC, it might be that some allocations are performed on a different RAM for e.g. textures on VRAM. Note that * Pagefile* memory usage only gives information about the actual usage of the process
 
--
-**
-Consumed
-**
-: The actual memory in use. This is parameter you are most likely to be interested in
+The color of the three lines (**Requested**, ** Consumed** and ** Pagefile)** can be adjusted by selecting the right tab.
 
--
-**
-Pagefile
-**
-: Consumed memory of process. On PC, it might be that some allocations are performed on a different RAM for e.g. textures on VRAM. Note that
-*
-Pagefile
-*
- memory usage only gives information about the actual usage of the process
-The color of the three lines (
-**
-Requested
-**
-,
-**
-Consumed
-**
- and
-**
-Pagefile)
-**
- can be adjusted by selecting the right tab.
+- **Uniform Zooming**: Scroll mouse wheel
+- **Free-Zoom**: Hold Middle mouse button and drag mouse
+- **Panning**: Hold Right mouse button and drag mouse
 
--
-**
-Uniform Zooming
-**
-: Scroll mouse wheel
-
--
-**
-Free-Zoom
-**
-: Hold Middle mouse button and drag mouse
-
--
-**
-Panning
-**
-: Hold Right mouse button and drag mouse
 Adding new markers
-New markers are added inside the code by making use of the macro
-**
-MEMSTAT_LABEL
-**
-,
-**
-MEMSTAT_LABEL_FMT
-**
- or
-**
-MEMSTAT_LABEL_SCOPED
-**
+New markers are added inside the code by making use of the macro **MEMSTAT_LABEL**, ** MEMSTAT_LABEL_FMT** or ** MEMSTAT_LABEL_SCOPED**
 
-##
-Tracing Memory
+### Tracing Memory
 
-The following example shows, how memory allocations are investigated. Select an area inside the
-**
-By Allocation Event
-**
- or the
-**
-By Frame
-**
- window.
+The following example shows, how memory allocations are investigated. Select an area inside the **By Allocation Event** or the ** By Frame** window.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26964617)
 
-In the top bar, press the
-**
-D
-**
--button which gives you
-*
-view selection details
-*
-.
+In the top bar, press the **D**-button which gives you * view selection details*.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26964618)
 
-Then press
-**
-Go!
-**
+Then press **Go!**
 
-The
-**
-Alloc Ev Range
-**
- is representing the actual selection and can be adjusted if required.
+The **Alloc Ev Range** is representing the actual selection and can be adjusted if required.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26964619)
 
@@ -181,73 +65,26 @@ This opens a new tab which looks similar to the one in the following screenshot.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26964620)
 
-In this example the memory block and callstack reveal that
-**
-6.4MB
-**
- have been allocated by
-**
-Create2DTexture()
-**
- in the range specified.
+In this example the memory block and callstack reveal that **6.4MB** have been allocated by ** Create2DTexture()** in the range specified.
 
-Selecting the
-**
-Code
-**
- tab at the bottom shows you the actual position inside code.
+Selecting the **Code** tab at the bottom shows you the actual position inside code.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26964621)
 
-Pressing the
-**
-D
-**
--Button again after selecting a function from the callstack will invoke a jump to the line of code in Visual Studio. Note it is required to have the solution already opened in Visual Studio.
+Pressing the **D**-Button again after selecting a function from the callstack will invoke a jump to the line of code in Visual Studio. Note it is required to have the solution already opened in Visual Studio.
 
-Getting more information about the memory block is easy. Select the memory block you want to explore and click on the
-**
-C
-**
--button on the top bar to show the
-**
-context tree
-**
-.
+Getting more information about the memory block is easy. Select the memory block you want to explore and click on the **C**-button on the top bar to show the ** context tree**.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26964622)
 
 This gives a summary of the items which together form the memory block you have selected.
 
-In this example, the 6.4MB memory block consists of textures such as
-*
- blood_anim_a.dds
-*
-,
-*
-foam_tiled2.dds
-*
- and others.
+In this example, the 6.4MB memory block consists of textures such as*blood_anim_a.dds*, * foam_tiled2.dds* and others.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26964623)
 
-Context tree information can programmatically be added by using macros
-**
-MEMSTAT_CONTEXT
-**
- and
-**
-MEMSTAT_CONTEXT_FMT
-**
+Context tree information can programmatically be added by using macros **MEMSTAT_CONTEXT** and ** MEMSTAT_CONTEXT_FMT**
 
-A categorized context tree can be generated from
-**
-Tools
-**
- ->
-**
-Build context trees
-**
-. If no area is selected, then it will be generated for the complete life cycle of the capture log.
+A categorized context tree can be generated from **Tools** -> ** Build context trees**. If no area is selected, then it will be generated for the complete life cycle of the capture log.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26964634)

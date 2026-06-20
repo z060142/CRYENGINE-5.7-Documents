@@ -7,11 +7,9 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
-##
-Topics
+## Topics
 
 With Environment Probes you have the ability to place cubemaps easily throughout a level just as you would with a light. It is very useful especially with reflective materials because it will automatically assign the cubemap to anything within its radius.
 
@@ -19,142 +17,56 @@ This tool can be useful when used with dynamic lighting as well; it just require
 
 With the introduction of Physically Based Shading, cubemaps control many things in the engine. Everything from shadow colors, ambient diffuse values, particle diffuse, and reflections. They act as bounce lighting by taking the colors from the surroundings and applying them directly into the diffuse of materials inside their radius.
 
-[Topics](#topics)
-[Setup](#setup)
-[Tweaking Environment Probes](#tweaking-environment-probes)
+[Topics](#topics)[Setup](#setup)[Tweaking Environment Probes](#tweaking-environment-probes)
 
-##
-Setup
+### Setup
 
-Having loaded a level in Sandbox, select the
-**
-Environment Probe
-**
-entity from the
-**
-Create Object → Components → Light
-**
-list. Make sure it's placed in the horizontal center of your heightmap.
+Having loaded a level in Sandbox, select the **Environment Probe** entity from the **Create Object → Components → Light** list. Make sure it's placed in the horizontal center of your heightmap.
 
 After selecting the Environment Probe, move your cursor into the view port to position and place it into your level. You can adjust the location as the same as with any entity.
 
-With the new tile shading in CRYENGINE, all cubemaps must be at resolution of 256
-.
-The image generated is a floating point HDR image and has a much higher fidelity than before.
+With the new tile shading in CRYENGINE, all cubemaps must be at resolution of 256. The image generated is a floating point HDR image and has a much higher fidelity than before.
 
-##
-Cubemap Generation
+#### Cubemap Generation
 
 The texture file name will always be the name of the Environment Probe entity. So it is a good idea to name your probe before you start generating a cubemap.
 
-On the Properties panel, you see the entity options and 'Generation Parameters' section. Click the
-**
-Generate
-**
-
-button to generate a cubemap. When you generate a cubemap, you will get get 2 textures. One will be the diffuse bounce lighting information and the other is the reflection map.
-This will generate a Tif cubemap image in:
-`
-Textures\cubemaps\<LevelDirectory>\<EnvironmentProbeName_cm>.tif
-`
+On the Properties panel, you see the entity options and 'Generation Parameters' section. Click the **Generate** button to generate a cubemap. When you generate a cubemap, you will get get 2 textures. One will be the diffuse bounce lighting information and the other is the reflection map. This will generate a Tif cubemap image in: `Textures\cubemaps\<LevelDirectory>\<EnvironmentProbeName_cm>.tif`
 
 Generally, the environment probe should be placed at the head height to generate proper reflections.
 
-##
-Global Cubemap Probes
+#### Global Cubemap Probes
 
 Every level should have a global cubemap to start with. This is a special cubemap that acts as the default/fallback. Generally you only need one global cube map per level.
 
 Having a global probe in your level ensures that you will always have an active cubemap available. Any local probes will automatically sort as a higher priority within its defined radius and blend in over the top of the global probe.
 
-Setting a cubemap as a global cubemap requires a few special settings. The following settings can be found on the
-**
-Properties
-**
-panel, when an Environment Probe is selected:
+Setting a cubemap as a global cubemap requires a few special settings. The following settings can be found on the **Properties** panel, when an Environment Probe is selected:
 
--
-Ensure that it covers the entire level by setting the
-**
-Box Size
-**
-values high enough.
+- Ensure that it covers the entire level by setting the **Box Size** values high enough.
+- Set the **Sort Priority** to ** 0**.
+- Set**Maximum Attenuation Falloff** to **0**.
+- Set **Ignore VisAreas** to ** true**.
 
--
-Set the
-**
-Sort Priority
-**
- to
-**
-0
-**
-.
-
--
-Set
-**
- Maximum Attenuation Falloff
-**
-to
-**
-0
-**
-.
-
--
-Set
-**
-Ignore VisAreas
-**
- to
-**
-true
-**
-.
 ![Image](https://www.cryengine.com/docs/static/attachments/52593429)
 
-For more information about Environment Probe options, please refer to the
-[Light Components](../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6)/Light%20Components.md)
- documentation .
+For more information about Environment Probe options, please refer to the [Light Components](../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6)/Light%20Components.md) documentation.
 
-##
-Tweaking Environment Probes
+### Tweaking Environment Probes
 
 High reflective materials are suggested to be used in conjunction with SSR (Screen Space Reflections) as it will provide localized real-time reflections.
 
-*
-No SSR and no Environment Probe
-*
+*No SSR and no Environment Probe*
 
-The following example was put together using a box projection method SSR with Environment Probe. Notice how the grid is accurately aligned with the shapes. When modifying your box projection be aware that a bounding green bounding box appears and to tweak the size accordingly.
+The following example was put together using a box projection method SSR with Environment Probe. Notice how the grid is accurately aligned with the shapes. When modifying your box projection be aware that a bounding green bounding box appears and to tweak the size accordingly. *SSR with Environment Probe*
 
-*
-SSR with Environment Probe
-*
+This screen has SSR with no Environment Probe enabled. Notice the localized reflections located around edges and corners. *SSR with no Environment Probe*
 
-This screen has SSR with no Environment Probe enabled. Notice the localized reflections located around edges and corners.
+No SSR with Box Project enabled Environment Probe aligned with the size of the room. *No SSR with Box Project enabled Environment Probe*
 
-*
-SSR with no Environment Probe
-*
-
-No SSR with Box Project enabled Environment Probe aligned with the size of the room.
-
-*
-No SSR with Box Project enabled Environment Probe
-*
-
-SSR with spherical Environment Probe. This aspect is not as accurate but in less reflective areas this option may be easier to use.
-
-*
-SSR with spherical Environment Probe
-*
+SSR with spherical Environment Probe. This aspect is not as accurate but in less reflective areas this option may be easier to use. *SSR with spherical Environment Probe*
 
 For more information about Environment Probes and how to use them efficiently in your level, please refer to the following tutorials:
 
--
-[Tutorial - Creative Lighting Basics](../../../Tutorials/Graphics/Lighting%20Tutorials/Tutorial%20-%20Creative%20Lighting%20Basics.md)
-
--
-[Tutorial - Environment Editor part 3 - SVOGI and Ambient Light](../../../Tutorials/Graphics/Environment%20Tutorials/Environment%20Editor%20Tutorials/Tutorial%20-%20Environment%20Editor%20part%203%20-%20SVOGI%20and%20Ambient%20Light.md)
+- [Tutorial - Creative Lighting Basics](../../../Tutorials/Graphics/Lighting%20Tutorials/Tutorial%20-%20Creative%20Lighting%20Basics.md)
+- [Tutorial - Environment Editor part 3 - SVOGI and Ambient Light](../../../Tutorials/Graphics/Environment%20Tutorials/Environment%20Editor%20Tutorials/Tutorial%20-%20Environment%20Editor%20part%203%20-%20SVOGI%20and%20Ambient%20Light.md)

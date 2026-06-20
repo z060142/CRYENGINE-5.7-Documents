@@ -7,23 +7,8 @@
 
 ## Content
 
-##
-Landing Page
+#### Landing Page
 
--
-**
-Fixed:
-**
- GameSDK sample project not downloading.
-
--
-**
-Fixed:
-**
-Generate/repair assets metadata for a project option not working.
-
--
-**
-Fixed:
-**
-Launcher does not show an update button when a new Engine version is released.
+- **Fixed:** GameSDK sample project not downloading.
+- **Fixed:** Generate/repair assets metadata for a project option not working.
+- **Fixed:** Launcher does not show an update button when a new Engine version is released.

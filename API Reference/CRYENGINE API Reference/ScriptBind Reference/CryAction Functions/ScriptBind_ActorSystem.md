@@ -7,30 +7,15 @@
 
 ## Content
 
-##
-CreateActor
+### CreateActor
 
 Creates an actor.
 
 ```
-
-`
 ActorSystem.CreateActor( channelId, actorParams )
-`
-
 ```
 
-Parameter
- |
-Description
- |
-
-channelId
- |
-Identifier for the network channel.
- |
-
-actorParams
- |
-Parameters for the actor.
- |
+Parameter | Description
+--- | ---
+channelId | Identifier for the network channel.
+actorParams | Parameters for the actor.

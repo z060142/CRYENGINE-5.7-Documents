@@ -7,41 +7,26 @@
 
 ## Content
 
-##
-SetToken
+### SetToken
 
- Set the value of a game token.
+Set the value of a game token.
 
 ```
-
-`
 GameToken.SetToken( TokenName, TokenValue )
-`
-
 ```
 
-##
-GetToken
+### GetToken
 
- Get the value of a game token.
+Get the value of a game token.
 
 ```
-
-`
 GameToken.GetToken( TokenName )
-`
-
 ```
 
-##
-DumpAllTokens
+### DumpAllTokens
 
- Dump all game tokens with their values to the log.
+Dump all game tokens with their values to the log.
 
 ```
-
-`
 GameToken.DumpAllTokens()
-`
-
 ```

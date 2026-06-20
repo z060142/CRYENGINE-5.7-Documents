@@ -17,35 +17,24 @@
 
 ## Content
 
-[![Image](https://www.cryengine.com/docs/static/attachments/52593256) Scripting](/docs/static/engines/cryengine-5/categories/23756816/pages/26870363)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593256)Scripting](/docs/static/engines/cryengine-5/categories/23756816/pages/26870363)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/52593258) 1 - Flow Graph Scene Setup](/docs/static/engines/cryengine-5/categories/23756816/pages/27591067)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593258)1 - Flow Graph Scene Setup](/docs/static/engines/cryengine-5/categories/23756816/pages/27591067)
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29926884)
 
-##
-Goals
+#### Goals
 
 The focus of the Scripting tutorial is to get you using Flow Graph visual scripting to connect game logic and store variables.
 
-##
-Objectives
+#### Objectives
 
 After going through this tutorial, developers will know the following:
 
--
-How to initially connect nodes
-
--
-How to use the debugger and breakpoints
-
--
-How to create a counter with debug text
-
--
-How to trigger events
-
--
-How to use Flow Graph Modules
+- How to initially connect nodes
+- How to use the debugger and breakpoints
+- How to create a counter with debug text
+- How to trigger events
+- How to use Flow Graph Modules
 
 [![Image](https://www.cryengine.com/docs/static/attachments/52593260)](/docs/static/engines/cryengine-5/categories/23756816/pages/27591067)

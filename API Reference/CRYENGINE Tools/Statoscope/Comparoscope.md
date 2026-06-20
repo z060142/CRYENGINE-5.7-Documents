@@ -7,16 +7,11 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 Comparoscope allows you to load more than one log into the same tab, this makes it very easy to compare repetitions of the same game scenes and most importantly measure the impact of changes between runs.
 
-To use this feature, then at the same time drag more than one log into the tool. One log will be the base (named in the tab) and the other will be sub-entries in the
-*
-Overview
-*
-hierarchy.
+To use this feature, then at the same time drag more than one log into the tool. One log will be the base (named in the tab) and the other will be sub-entries in the *Overview* hierarchy.
 
 Chapters:
 
@@ -25,8 +20,7 @@ For example, here's the Forest level timedemo run, with and without Global Illum
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26966539)
 
-##
-Lining up the Logs
+### Lining up the Logs
 
 In the top right hand corner (above the Overview, Function Profile etc tabs) are the active logs being displayed. The logs can be enabled and disabled by simply ticking/un-ticking the relevant checkboxes.
 
@@ -46,14 +40,10 @@ Alternatively, in the User Markers tab you can right click on a user marker and 
 
 As slight changes exist between runs (longer loading times etc.), then slight imperfections are introduced to the system. Despite this, the system still provides a very useful method for the comparison of two logs.
 
-**
-Before
-**
+**Before**
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26966542)
 
-**
-After
-**
+**After**
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26966543)

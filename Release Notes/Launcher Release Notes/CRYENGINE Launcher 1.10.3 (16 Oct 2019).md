@@ -7,46 +7,22 @@
 
 ## Content
 
-##
-Launcher Version 1.10.3
+## Launcher Version 1.10.3
 
-##
-Backend
+#### Backend
 
-**
-Tweaked:
-**
- General bug fixes and minor improvements.
+**Tweaked:** General bug fixes and minor improvements.
 
-##
-Landing Page
+#### Landing Page
 
-**
-New:
-**
- Added a new button 'Documentation' to the popup 'when an Engine has successfully downloaded' (link goes to CEMANUAL/Installing+CRYENGINE).
+**New:** Added a new button 'Documentation' to the popup 'when an Engine has successfully downloaded' (link goes to CEMANUAL/Installing+CRYENGINE).
 
-**
-Fixed:
-**
- Bug - Some error/alert messages have truncated text.
+**Fixed:** Bug - Some error/alert messages have truncated text.
 
-**
-Fixed:
-**
- Bug - The Dependencies popup will not display correctly on the desktop (even when it's actually there).
+**Fixed:** Bug - The Dependencies popup will not display correctly on the desktop (even when it's actually there).
 
-**
-Fixed:
-**
- Bug - After installing a new Engine version the 'CRYENGINE Launcher Modal' window will not disappear from the taskbar.
+**Fixed:** Bug - After installing a new Engine version the 'CRYENGINE Launcher Modal' window will not disappear from the taskbar.
 
-**
-Fixed:
-**
-Bug - Sometimes the 'Update Available" panel was getting stuck in the background of the Launcher.
+**Fixed:** Bug - Sometimes the 'Update Available" panel was getting stuck in the background of the Launcher.
 
-**
-Fixed:
-**
- The same project can be imported multiple times (it should only be possible to import the same project once).
+**Fixed:** The same project can be imported multiple times (it should only be possible to import the same project once).

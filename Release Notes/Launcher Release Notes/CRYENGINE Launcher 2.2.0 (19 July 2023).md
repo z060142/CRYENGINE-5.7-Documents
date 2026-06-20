@@ -7,18 +7,7 @@
 
 ## Content
 
-##
-Launcher
+### Launcher
 
--
-**
-New
-**
-: Updated Electron version as a part of maintenance to ensure better security
-.
-
--
-**
-Fixed:
-**
- An issue causing the asset download to fail to complete.
+- **New**: Updated Electron version as a part of maintenance to ensure better security.
+- **Fixed:** An issue causing the asset download to fail to complete.

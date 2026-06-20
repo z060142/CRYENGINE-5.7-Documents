@@ -7,16 +7,8 @@
 
 ## Content
 
-##
-Launcher Version 1.10.9
+### Launcher Version 1.10.9
 
-##
-Backend
+#### Backend
 
-**
-Fixed:
-**
-If an asset name has an illegal character
-
-(e.g. \ / : ? * " < > |)
-, the project cannot be created.
+**Fixed:** If an asset name has an illegal character (e.g. \ /:? * " < > |), the project cannot be created.

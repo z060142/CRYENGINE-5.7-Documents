@@ -9,32 +9,21 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29934085)
 
-##
-Overview
+## Overview
 
-##
-Sections
+## Sections
 
-Before we begin, grab the Maya file here:
-[proxy_man.zip](/docs/static/attachments/23994252)
- This file is Y up, but Z up also works, though you must check 'export as Z up' in the exporter.
+Before we begin, grab the Maya file here: [proxy_man.zip](/docs/static/attachments/23994252) This file is Y up, but Z up also works, though you must check 'export as Z up' in the exporter.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23994253)
 
-[Sections](#sections)
-[Physics Proxy Setup](#physics-proxy-setup)
-[Joint Ragdoll Limit Attributes](#joint-ragdoll-limit-attributes)
+[Sections](#sections)[Physics Proxy Setup](#physics-proxy-setup)[Joint Ragdoll Limit Attributes](#joint-ragdoll-limit-attributes)
 
-##
-Physics Proxy Setup
+### Physics Proxy Setup
 
 Create proxies in Maya and snap them to the joints you want them to be attached to, it's easiest if their orientation matches the joint, then parent them under it.
 
-The phys meshes need to be called '
-**
-<joint_name>_Phys
-**
-'.
+The phys meshes need to be called '**<joint_name>_Phys**'.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23994248)
 
@@ -44,33 +33,13 @@ If you're feeling adventurous, or would like to explicitly set the in engine pro
 
 This adds a custom attribute with your UDP info on the joint. The flags you can set are as follows:
 
--
-**
-nonphysical
-**
+- **nonphysical**
+- **sphere**
+- **box**
+- **capsule**
+- **cylinder**
 
--
-**
-sphere
-**
-
--
-**
-box
-**
-
--
-**
-capsule
-**
-
--
-**
-cylinder
-**
-
-##
-Joint Ragdoll Limit Attributes
+### Joint Ragdoll Limit Attributes
 
 Let's take a look at the Crytek Maya shelf:
 

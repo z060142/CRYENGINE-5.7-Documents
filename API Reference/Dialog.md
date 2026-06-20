@@ -10,5 +10,4 @@
 
 ## Content
 
--
-[Programming With the Dynamic Response System](Dialog/Programming%20With%20the%20Dynamic%20Response%20System.md)
+- [Programming With the Dynamic Response System](Dialog/Programming%20With%20the%20Dynamic%20Response%20System.md)

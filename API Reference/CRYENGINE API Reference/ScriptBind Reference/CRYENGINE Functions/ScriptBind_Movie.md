@@ -7,123 +7,70 @@
 
 ## Content
 
-##
-PlaySequence
+### PlaySequence
 
 Plays the specified sequence.
 
 ```
-
-`
 Movie.PlaySequence(sSequenceName)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sSequenceName | Sequence name.
 
-sSequenceName
- |
-Sequence name.
- |
-
-##
-StopSequence
+### StopSequence
 
 Stops the specified sequence.
 
 ```
-
-`
 Movie.StopSequence(sSequenceName)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sSequenceName | Sequence name.
 
-sSequenceName
- |
-Sequence name.
- |
-
-##
-AbortSequence
+### AbortSequence
 
 Aborts the specified sequence.
 
 ```
-
-`
 Movie.AbortSequence(sSequenceName)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sSequenceName | Sequence name.
 
-sSequenceName
- |
-Sequence name.
- |
+### StopAllSequences
 
-##
-StopAllSequences
-
- Stops all the video sequences.
+Stops all the video sequences.
 
 ```
-
-`
 Movie.StopAllSequences()
-`
-
 ```
 
-##
-StopAllCutScenes
+### StopAllCutScenes
 
- Stops all the cut scenes.
+Stops all the cut scenes.
 
 ```
-
-`
 Movie.StopAllCutScenes()
-`
-
 ```
 
-##
-PauseSequences
+### PauseSequences
 
- Pauses all the sequences.
+Pauses all the sequences.
 
 ```
-
-`
 Movie.PauseSequences()
-`
-
 ```
 
-##
-ResumeSequences
+### ResumeSequences
 
- Resume all the sequences.
+Resume all the sequences.
 
 ```
-
-`
 Movie.ResumeSequences()
-`
-
 ```

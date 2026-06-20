@@ -7,12 +7,9 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
-You can add Animation Events by double clicking
-on the timeline
-. Each animation can have a set of them:
+You can add Animation Events by double clicking on the timeline. Each animation can have a set of them:
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28900247)
 

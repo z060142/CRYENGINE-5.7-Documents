@@ -14,14 +14,7 @@
 
 ## Content
 
--
-[Create Object](Level%20Editor%20Tab/Create%20Object.md)
-
--
-[Level Explorer](Level%20Editor%20Tab/Level%20Explorer.md)
-
--
-[Level Settings](Level%20Editor%20Tab/Level%20Settings.md)
-
--
-[Properties](Level%20Editor%20Tab/Properties.md)
+- [Create Object](Level%20Editor%20Tab/Create%20Object.md)
+- [Level Explorer](Level%20Editor%20Tab/Level%20Explorer.md)
+- [Level Settings](Level%20Editor%20Tab/Level%20Settings.md)
+- [Properties](Level%20Editor%20Tab/Properties.md)

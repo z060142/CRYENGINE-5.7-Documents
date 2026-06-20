@@ -14,5 +14,4 @@ Here you'll find explanations of physics features and how to use them.
 
 Please note that these are mainly code-based, so some programming experience may be required.
 
--
-[Double-Buffered Physical Entity Coordinates](Physics/Double-Buffered%20Physical%20Entity%20Coordinates.md)
+- [Double-Buffered Physical Entity Coordinates](Physics/Double-Buffered%20Physical%20Entity%20Coordinates.md)

@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 OSVR Core
 Copyright 2014-2016 Sensics, Inc.
 OSVR Tracker Viewer
@@ -159,6 +157,4 @@ or claims asserted against, such Contributor by reason of
 your accepting any such warranty or additional liability.
 
 END OF TERMS AND CONDITIONS
-`
-
 ```

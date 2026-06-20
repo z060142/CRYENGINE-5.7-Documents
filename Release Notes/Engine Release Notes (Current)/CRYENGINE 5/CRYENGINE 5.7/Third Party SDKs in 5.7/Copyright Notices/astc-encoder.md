@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 END USER LICENCE AGREEMENT FOR THE MALI ASTC SPECIFICATION AND SOFTWARE CODEC,
 VERSION: 1.3
 
@@ -147,6 +145,4 @@ user who has been prohibited from participating in the U.S.A. export
 transactions by any federal agency of the U.S.A. government; or
 (2) intended to be used for any purpose prohibited by Export Laws, including,
 without limitation, nuclear, chemical, or biological weapons proliferation.
-`
-
 ```

@@ -7,12 +7,6 @@
 
 ## Content
 
-Building on the
-
-[movement](https://www.youtube.com/watch?v=_dmzt168M3Q&list=PLpCgy91Y5vMtWDdz1L0UnFo7lwi4LDBUq&index=28)
-and
-
-[turn](https://www.youtube.com/watch?v=EC5TNYq5Pkk&list=PLpCgy91Y5vMtWDdz1L0UnFo7lwi4LDBUq&index=29)
-Blendspace tutorials, this tutorial shows you where to find some example three dimensional Blendspaces and animation fragments defined in the Mannequin Editor using the default GameSDK player character.
+Building on the [movement](https://www.youtube.com/watch?v=_dmzt168M3Q&list=PLpCgy91Y5vMtWDdz1L0UnFo7lwi4LDBUq&index=28)and [turn](https://www.youtube.com/watch?v=EC5TNYq5Pkk&list=PLpCgy91Y5vMtWDdz1L0UnFo7lwi4LDBUq&index=29)Blendspace tutorials, this tutorial shows you where to find some example three dimensional Blendspaces and animation fragments defined in the Mannequin Editor using the default GameSDK player character.
 
 [Embed: https://www.youtube.com/watch?v=63KvqQkrQGI]

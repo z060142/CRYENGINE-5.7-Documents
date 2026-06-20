@@ -7,2460 +7,1233 @@
 
 ## Content
 
-##
-CreateDownload
+### CreateDownload
 
 ```
-
-`
 System.CreateDownload()
-`
-
 ```
 
-##
-LoadFont
+### LoadFont
 
 Loads a font.
 
 ```
-
-`
 System.LoadFont(pszName)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pszName | Font name.
 
-pszName
- |
-Font name.
- |
-
-##
-ExecuteCommand
+### ExecuteCommand
 
 Executes a command.
 
 ```
-
-`
 System.ExecuteCommand(szCmd)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+szCmd | Command string.
 
-szCmd
- |
-Command string.
- |
-
-##
-LogToConsole
+### LogToConsole
 
 Logs a message to the console.
 
 ```
-
-`
 System.LogToConsole(sText)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sText | Text to be logged.
 
-sText
- |
-Text to be logged.
- |
+### ClearConsole
 
-##
-ClearConsole
-
- Clears the console.
+Clears the console.
 
 ```
-
-`
 System.ClearConsole()
-`
-
 ```
 
-##
-Log
+### Log
 
 Logs a message.
 
 ```
-
-`
 System.Log(sText)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sText | Text to be logged.
 
-sText
- |
-Text to be logged.
- |
-
-##
-LogAlways
+### LogAlways
 
 Logs important data that must be printed regardless verbosity.
 
 ```
-
-`
 System.LogAlways(sText)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sText | Text to be logged.
 
-sText
- |
-Text to be logged.
- |
-
-##
-Warning
+### Warning
 
 Shows a message text with the warning severity.
 
 ```
-
-`
 System.Warning(sText)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sText | Text to be logged.
 
-sText
- |
-Text to be logged.
- |
-
-##
-Error
+### Error
 
 Shows a message text with the error severity.
 
 ```
-
-`
 System.Error(sText)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sText | Text to be logged.
 
-sText
- |
-Text to be logged.
- |
+### IsEditor
 
-##
-IsEditor
-
- Checks if the system is the editor.
+Checks if the system is the editor.
 
 ```
-
-`
 System.IsEditor()
-`
-
 ```
 
-##
-IsEditing
+### IsEditing
 
- Checks if the system is in pure editor mode, i.e. not editor game mode.
+Checks if the system is in pure editor mode, i.e. not editor game mode.
 
 ```
-
-`
 System.IsEditing()
-`
-
 ```
 
-##
-GetCurrTime
+### GetCurrTime
 
- Gets the current time.
+Gets the current time.
 
 ```
-
-`
 System.GetCurrTime()
-`
-
 ```
 
-##
-GetCurrAsyncTime
+### GetCurrAsyncTime
 
- Gets the current asynchronous time.
+Gets the current asynchronous time.
 
 ```
-
-`
 System.GetCurrAsyncTime()
-`
-
 ```
 
-##
-GetFrameTime
+### GetFrameTime
 
- Gets the frame time.
+Gets the frame time.
 
 ```
-
-`
 System.GetFrameTime()
-`
-
 ```
 
-##
-GetLocalOSTime
+### GetLocalOSTime
 
- Gets the local operating system time.
+Gets the local operating system time.
 
 ```
-
-`
 System.GetLocalOSTime()
-`
-
 ```
 
-##
-GetUserName
+### GetUserName
 
- Gets the username on this machine.
+Gets the username on this machine.
 
 ```
-
-`
 System.GetUserName()
-`
-
 ```
 
-##
-ShowConsole
+### ShowConsole
 
 Shows/hides the console.
 
 ```
-
-`
 System.ShowConsole(nParam)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+nParam | 1 to show the console, 0 to hide.
 
-nParam
- |
-1 to show the console, 0 to hide.
- |
-
-##
-CheckHeapValid
+### CheckHeapValid
 
 Checks the heap validity.
 
 ```
-
-`
 System.CheckHeapValid(name)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | Name string.
 
-name
- |
-Name string.
- |
+### GetConfigSpec
 
-##
-GetConfigSpec
-
- Gets the config specification.
+Gets the config specification.
 
 ```
-
-`
 System.GetConfigSpec()
-`
-
 ```
 
-##
-IsMultiplayer
+### IsMultiplayer
 
- Checks if the game is multiplayer.
+Checks if the game is multiplayer.
 
 ```
-
-`
 System.IsMultiplayer()
-`
-
 ```
 
-##
-GetEntity
+### GetEntity
 
 Gets an entity from its ID.
 
 ```
-
-`
 System.GetEntity(entityId)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Entity identifier.
 
-entityId
- |
-Entity identifier.
- |
-
-##
-GetEntityClass
+### GetEntityClass
 
 Gets an entity class from its ID.
 
 ```
-
-`
 System.GetEntityClass(entityId)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Entity identifier.
 
-entityId
- |
-Entity identifier.
- |
-
-##
-PrepareEntityFromPool
+### PrepareEntityFromPool
 
 Prepares the given bookmarked entity from the pool, bringing it into existence.
 
 ```
-
-`
 System.PrepareEntityFromPool(entityId)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Entity identifier.
+bPrepareNow | (optional) Specifies whether the pooled entity shall be prepared immediately rather than queuing a request in case there is a preparation already in progress.
 
-entityId
- |
-Entity identifier.
- |
-
-bPrepareNow
- |
-(optional) Specifies whether the pooled entity shall be prepared immediately rather than queuing a request in case there is a preparation already in progress.
- |
-
-##
-ReturnEntityToPool
+### ReturnEntityToPool
 
 ```
-
-`
 System.ReturnEntityToPool(entityId)
-`
-
 ```
 
-**
-Returns:
-**
- the bookmarked entity to the pool, destroying it.
-Parameter
- |
-Description
- |
+**Returns:** the bookmarked entity to the pool, destroying it.
+Parameter | Description
+--- | ---
+entityId | Entity identifier.
 
-entityId
- |
-Entity identifier.
- |
-
-##
-ResetPoolEntity
+### ResetPoolEntity
 
 Resets the entity's bookmarked, which frees memory.
 
 ```
-
-`
 System.ResetPoolEntity(entityId)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Entity identifier.
 
-entityId
- |
-Entity identifier.
- |
-
-##
-GetEntities
+### GetEntities
 
 Gets all the entities contained in the specific area of the level.
 
 ```
-
-`
 System.GetEntities(center, radius)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+center | Center position vector for the area where to get entities.
+radius | Radius of the area.
 
-center
- |
-Center position vector for the area where to get entities.
- |
-
-radius
- |
-Radius of the area.
- |
-
-##
-GetEntitiesByClass
+### GetEntitiesByClass
 
 Gets all the entities of the specified class.
 
 ```
-
-`
 System.GetEntitiesByClass(EntityClass)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+EntityClass | Entity class name.
 
-EntityClass
- |
-Entity class name.
- |
-
-##
-GetEntitiesInSphere
+### GetEntitiesInSphere
 
 Gets all the entities contained into the specified sphere.
 
 ```
-
-`
 System.GetEntitiesInSphere( centre, radius )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+centre | Centre position vector for the sphere where to look at entities.
+radius | Radius of the sphere.
 
-centre
- |
-Centre position vector for the sphere where to look at entities.
- |
-
-radius
- |
-Radius of the sphere.
- |
-
-##
-GetEntitiesInSphereByClass
+### GetEntitiesInSphereByClass
 
 Gets all the entities contained into the specified sphere for the specific class name.
 
 ```
-
-`
 System.GetEntitiesInSphereByClass( centre, radius, EntityClass )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+centre | Centre position vector for the sphere where to look at entities.
+radius | Radius of the sphere.
+EntityClass | Entity class name.
 
-centre
- |
-Centre position vector for the sphere where to look at entities.
- |
-
-radius
- |
-Radius of the sphere.
- |
-
-EntityClass
- |
-Entity class name.
- |
-
-##
-GetPhysicalEntitiesInBox
+### GetPhysicalEntitiesInBox
 
 Gets all the entities contained into the specified area.
 
 ```
-
-`
 System.GetPhysicalEntitiesInBox( centre, radius )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+centre | Centre position vector for the area where to look at entities.
+radius | Radius of the sphere.
 
-centre
- |
-Centre position vector for the area where to look at entities.
- |
-
-radius
- |
-Radius of the sphere.
- |
-
-##
-GetPhysicalEntitiesInBoxByClass
+### GetPhysicalEntitiesInBoxByClass
 
 Gets all the entities contained into the specified area for the specific class name.
 
 ```
-
-`
 System.GetPhysicalEntitiesInBoxByClass( centre, radius, className )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+centre | Centre position vector for the area where to look at entities.
+radius | Radius of the sphere.
+className | Entity class name.
 
-centre
- |
-Centre position vector for the area where to look at entities.
- |
-
-radius
- |
-Radius of the sphere.
- |
-
-className
- |
-Entity class name.
- |
-
-##
-GetNearestEntityByClass
+### GetNearestEntityByClass
 
 Gets the nearest entity with the specified class.
 
 ```
-
-`
 System.GetNearestEntityByClass( centre, radius, className )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+centre | Centre position vector for the area where to look at entities.
+radius | Radius of the sphere.
+className | Entity class name.
 
-centre
- |
-Centre position vector for the area where to look at entities.
- |
+### GetEntityByName
 
-radius
- |
-Radius of the sphere.
- |
-
-className
- |
-Entity class name.
- |
-
-##
-GetEntityByName
-
-  Retrieve entity table for the first entity with specified name. If multiple entities with same name exist, first one found is returned.
+Retrieve entity table for the first entity with specified name. If multiple entities with same name exist, first one found is returned.
 
 ```
-
-`
 System.GetEntityByName( sEntityName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sEntityName | Name of the entity to search.
 
-sEntityName
- |
-Name of the entity to search.
- |
+### GetEntityIdByName
 
-##
-GetEntityIdByName
-
-  Retrieve entity Id for the first entity with specified name. If multiple entities with same name exist, first one found is returned.
+Retrieve entity Id for the first entity with specified name. If multiple entities with same name exist, first one found is returned.
 
 ```
-
-`
 System.GetEntityIdByName( sEntityName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sEntityName | Name of the entity to search.
 
-sEntityName
- |
-Name of the entity to search.
- |
-
-##
-DrawLabel
+### DrawLabel
 
 Draws a label with the specified parameter.
 
 ```
-
-`
 System.DrawLabel( vPos, fSize, text [, r [, g [, b [, alpha]]]] )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+vPos | Position vector.
+fSize | Size for the label.
+text | Text of the label.
+r | Red component for the label colour. Default is 1.
+g | Green component for the label colour. Default is 1.
+b | Blue component for the label colour. Default is 1.
+alpha | Alpha component for the label colour. Default is 1.
 
-vPos
- |
-Position vector.
- |
+### DeformTerrain
 
-fSize
- |
-Size for the label.
- |
-
-text
- |
-Text of the label.
- |
-
-r
- |
-Red component for the label colour. Default is 1.
- |
-
-g
- |
-Green component for the label colour. Default is 1.
- |
-
-b
- |
-Blue component for the label colour. Default is 1.
- |
-
-alpha
- |
-Alpha component for the label colour. Default is 1.
- |
-
-##
-DeformTerrain
-
- Deforms the terrain.
+Deforms the terrain.
 
 ```
-
-`
 System.DeformTerrain()
-`
-
 ```
 
-##
-DeformTerrainUsingMat
+### DeformTerrainUsingMat
 
- Deforms the terrain using material.
+Deforms the terrain using material.
 
 ```
-
-`
 System.DeformTerrainUsingMat()
-`
-
 ```
 
-##
-ApplyForceToEnvironment
+### ApplyForceToEnvironment
 
 Applies a force to the environment.
 
 ```
-
-`
 System.ApplyForceToEnvironment( pos, force, radius)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pos | Position of the force.
+force | Strength of the force.
+radius | Area where the force has effects.
 
-pos
- |
-Position of the force.
- |
-
-force
- |
-Strength of the force.
- |
-
-radius
- |
-Area where the force has effects.
- |
-
-##
-ScreenToTexture
+### ScreenToTexture
 
 ```
-
-`
 System.ScreenToTexture()
-`
-
 ```
 
-##
-DrawTriStrip
+### DrawTriStrip
 
 Draws a triangle strip.
 
 ```
-
-`
 System.DrawTriStrip(handle, nMode, vtxs, r, g, b, alpha )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+handle | .
+nMode | .
+vtx | .
+r | Red component for the label color. Default is 1.
+g | Green component for the label color. Default is 1.
+b | Blue component for the label color. Default is 1.
+alpha | Alpha component for the label color. Default is 1.
 
-handle
- |
-.
- |
-
-nMode
- |
-.
- |
-
-vtx
- |
-.
- |
-
-r
- |
-Red component for the label color. Default is 1.
- |
-
-g
- |
-Green component for the label color. Default is 1.
- |
-
-b
- |
-Blue component for the label color. Default is 1.
- |
-
-alpha
- |
-Alpha component for the label color. Default is 1.
- |
-
-##
-DrawLine
+### DrawLine
 
 Draws a line.
 
 ```
-
-`
 System.DrawLine( p1, p2, r, g, b, alpha )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+p1 | Start position of the line.
+p2 | End position of the line.
+r | Red component for the label color. Default is 1.
+g | Green component for the label color. Default is 1.
+b | Blue component for the label color. Default is 1.
+alpha | Alpha component for the label color. Default is 1.
 
-p1
- |
-Start position of the line.
- |
-
-p2
- |
-End position of the line.
- |
-
-r
- |
-Red component for the label color. Default is 1.
- |
-
-g
- |
-Green component for the label color. Default is 1.
- |
-
-b
- |
-Blue component for the label color. Default is 1.
- |
-
-alpha
- |
-Alpha component for the label color. Default is 1.
- |
-
-##
-Draw2DLine
+### Draw2DLine
 
 Draws a 2D line.
 
 ```
-
-`
 System.Draw2DLine(p1x, p1y, p2x, p2y, r, g, b, alpha )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+p1x | X value of the start point of the line.
+p1y | Y value of the start point of the line.
+p2x | X value of the end point of the line.
+p2y | Y value of the end point of the line.
+r | Red component for the label color. Default is 1.
+g | Green component for the label color. Default is 1.
+b | Blue component for the label color. Default is 1.
+alpha | Alpha component for the label color. Default is 1.
 
-p1x
- |
-X value of the start point of the line.
- |
-
-p1y
- |
-Y value of the start point of the line.
- |
-
-p2x
- |
-X value of the end point of the line.
- |
-
-p2y
- |
-Y value of the end point of the line.
- |
-
-r
- |
-Red component for the label color. Default is 1.
- |
-
-g
- |
-Green component for the label color. Default is 1.
- |
-
-b
- |
-Blue component for the label color. Default is 1.
- |
-
-alpha
- |
-Alpha component for the label color. Default is 1.
- |
-
-##
-DrawText
+### DrawText
 
 Draws text.
 
 ```
-
-`
 System.DrawText( x, y, text, font, size, p2y, r, g, b, alpha )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+x | X position for the text.
+y | Y position for the text.
+text | Text to be displayed.
+font | Font name.
+size | Text size.
+r | Red component for the label color. Default is 1.
+g | Green component for the label color. Default is 1.
+b | Blue component for the label color. Default is 1.
+alpha | Alpha component for the label color. Default is 1.
 
-x
- |
-X position for the text.
- |
-
-y
- |
-Y position for the text.
- |
-
-text
- |
-Text to be displayed.
- |
-
-font
- |
-Font name.
- |
-
-size
- |
-Text size.
- |
-
-r
- |
-Red component for the label color. Default is 1.
- |
-
-g
- |
-Green component for the label color. Default is 1.
- |
-
-b
- |
-Blue component for the label color. Default is 1.
- |
-
-alpha
- |
-Alpha component for the label color. Default is 1.
- |
-
-##
-SetGammaDelta
+### SetGammaDelta
 
 Sets the gamma/delta value.
 
 ```
-
-`
 System.SetGammaDelta( fDelta )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+fDelta | Delta value.
 
-fDelta
- |
-Delta value.
- |
-
-##
-SetPostProcessFxParam
+### SetPostProcessFxParam
 
 Sets a post processing effect parameter value.
 
 ```
-
-`
 System.SetPostProcessFxParam( pszEffectParam, value )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pszEffectParam | Parameter for the post processing effect.
+value | Value for the parameter.
 
-pszEffectParam
- |
-Parameter for the post processing effect.
- |
-
-value
- |
-Value for the parameter.
- |
-
-##
-GetPostProcessFxParam
+### GetPostProcessFxParam
 
 Gets a post processing effect parameter value.
 
 ```
-
-`
 System.GetPostProcessFxParam( pszEffectParam, value )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pszEffectParam | Parameter for the post processing effect.
+value | Value for the parameter.
 
-pszEffectParam
- |
-Parameter for the post processing effect.
- |
-
-value
- |
-Value for the parameter.
- |
-
-##
-SetScreenFx
+### SetScreenFx
 
 Sets a post processing effect parameter value.
 
 ```
-
-`
 System.SetScreenFx( pszEffectParam, value )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pszEffectParam | Parameter for the post processing effect.
+value | Value for the parameter.
 
-pszEffectParam
- |
-Parameter for the post processing effect.
- |
-
-value
- |
-Value for the parameter.
- |
-
-##
-GetScreenFx
+### GetScreenFx
 
 Gets a post processing effect parameter value.
 
 ```
-
-`
 System.GetScreenFx( pszEffectParam, value )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pszEffectParam | Parameter for the post processing effect.
+value | Value for the parameter.
 
-pszEffectParam
- |
-Parameter for the post processing effect.
- |
-
-value
- |
-Value for the parameter.
- |
-
-##
-SetCVar
+### SetCVar
 
 Sets the value of a CVariable.
 
 ```
-
-`
 System.SetCVar( sCVarName, value )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sCVarName | Name of the variable.
+value | Value of the variable.
 
-sCVarName
- |
-Name of the variable.
- |
-
-value
- |
-Value of the variable.
- |
-
-##
-GetCVar
+### GetCVar
 
 Gets the value of a CVariable.
 
 ```
-
-`
 System.GetCVar( sCVarName)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sCVarName | Name of the variable.
 
-sCVarName
- |
-Name of the variable.
- |
-
-##
-AddCCommand
+### AddCCommand
 
 Adds a C command to the system.
 
 ```
-
-`
 System.AddCCommand( sCCommandName, sCommand, sHelp)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sCCommandName | C command name.
+sCommand | Command string.
+sHelp | Help for the command usage.
 
-sCCommandName
- |
-C command name.
- |
-
-sCommand
- |
-Command string.
- |
-
-sHelp
- |
-Help for the command usage.
- |
-
-##
-SetScissor
+### SetScissor
 
 Sets scissor info.
 
 ```
-
-`
 System.SetScissor( x, y, w, h )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+x | X position.
 
-x
- |
-X position.
- |
+### GetSystemMem
 
-##
-GetSystemMem
-
- Gets the amount of the memory for the system.
+Gets the amount of the memory for the system.
 
 ```
-
-`
 System.GetSystemMem()
-`
-
 ```
 
-##
-IsPS20Supported
+### IsPS20Supported
 
- Checks if the PS20 is supported.
+Checks if the PS20 is supported.
 
 ```
-
-`
 System.IsPS20Supported()
-`
-
 ```
 
-##
-IsHDRSupported
+### IsHDRSupported
 
- Checks if the HDR is supported.
+Checks if the HDR is supported.
 
 ```
-
-`
 System.IsHDRSupported()
-`
-
 ```
 
-##
-SetBudget
+### SetBudget
 
 Sets system budget.
 
 ```
-
-`
 System.SetBudget(sysMemLimitInMB, videoMemLimitInMB, frameTimeLimitInMS, soundChannelsPlayingLimit, soundMemLimitInMB, numDrawCallsLimit )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+sysMemLimitInMB | Limit of the system memory in MB.
+videoMemLimitInMB | Limit of the video memory in MB.
+frameTimeLimitInMS | Limit in the frame time in MS.
+soundChannelsPlayingLimit | Limit of the sound channels playing.
+soundMemLimitInMB | Limit of the sound memory in MB.
+numDrawCallsLimit | Limit of the draw calls.
 
-sysMemLimitInMB
- |
-Limit of the system memory in MB.
- |
-
-videoMemLimitInMB
- |
-Limit of the video memory in MB.
- |
-
-frameTimeLimitInMS
- |
-Limit in the frame time in MS.
- |
-
-soundChannelsPlayingLimit
- |
-Limit of the sound channels playing.
- |
-
-soundMemLimitInMB
- |
-Limit of the sound memory in MB.
- |
-
-numDrawCallsLimit
- |
-Limit of the draw calls.
- |
-
-##
-SetVolumetricFogModifiers
+### SetVolumetricFogModifiers
 
 Sets the volumetric fog modifiers.
 
 ```
-
-`
 System.SetVolumetricFogModifiers( gobalDensityModifier, atmosphereHeightModifier )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+gobalDensityModifier | Modifier for the global density.
+atmosphereHeightModifier | Modifier for the atmosphere height.
 
-gobalDensityModifier
- |
-Modifier for the global density.
- |
-
-atmosphereHeightModifier
- |
-Modifier for the atmosphere height.
- |
-
-##
-SetWind
+### SetWind
 
 Sets the wind direction.
 
 ```
-
-`
 System.SetWind( vWind )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+vWind | Wind direction.
 
-vWind
- |
-Wind direction.
- |
+### GetWind
 
-##
-GetWind
-
- Gets the wind direction.
+Gets the wind direction.
 
 ```
-
-`
 System.SetWind()
-`
-
 ```
 
-##
-GetSurfaceTypeIdByName
+### GetSurfaceTypeIdByName
 
 Gets the surface type identifier by its name.
 
 ```
-
-`
 System.GetSurfaceTypeIdByName( surfaceName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+surfaceName | Surface name.
 
-surfaceName
- |
-Surface name.
- |
-
-##
-GetSurfaceTypeNameById
+### GetSurfaceTypeNameById
 
 Gets the surface type name by its identifier.
 
 ```
-
-`
 System.GetSurfaceTypeNameById( surfaceId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+surfaceId | Surface identifier.
 
-surfaceId
- |
-Surface identifier.
- |
-
-##
-RemoveEntity
+### RemoveEntity
 
 Removes the specified entity.
 
 ```
-
-`
 System.RemoveEntity( entityId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+entityId | Entity identifier.
 
-entityId
- |
-Entity identifier.
- |
-
-##
-SpawnEntity
+### SpawnEntity
 
 Spawns an entity.
 
 ```
-
-`
 System.SpawnEntity( params )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+params | Entity parameters.
 
-params
- |
-Entity parameters.
- |
+### ActivateLight
 
-##
-ActivateLight
-
- NOT SUPPORTED ANYMORE.
+NOT SUPPORTED ANYMORE.
 
 ```
-
-`
 System.ActivateLight(name, activate)
-`
-
 ```
 
-##
-SetWaterVolumeOffset
+### SetWaterVolumeOffset
 
- SetWaterLevel is not supported by 3dengine for now.
+SetWaterLevel is not supported by 3dengine for now.
 
 ```
-
-`
 System.SetWaterVolumeOffset()
-`
-
 ```
 
-##
-IsValidMapPos
+### IsValidMapPos
 
 Checks if the position is a valid map position.
 
 ```
-
-`
 System.IsValidMapPos( v )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+v | Position vector.
 
-v
- |
-Position vector.
- |
+### EnableMainView
 
-##
-EnableMainView
-
- Feature unimplemented.
+Feature unimplemented.
 
 ```
-
-`
 System.EnableMainView()
-`
-
 ```
 
-##
-EnableOceanRendering
+### EnableOceanRendering
 
 Enables/disables ocean rendering.
 
 ```
-
-`
 System.EnableOceanRendering()
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+bOcean | True to activate the ocean rendering, false to deactivate it.
 
-bOcean
- |
-True to activate the ocean rendering, false to deactivate it.
- |
-
-##
-ScanDirectory
+### ScanDirectory
 
 Scans a directory.
 
 ```
-
-`
 System.ScanDirectory( pszFolderName, nScanMode )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pszFolderName | Folder name.
+nScanMode | Scan mode for the folder. Can be: SCANDIR_ALL SCANDIR_FILES SCANDIR_SUBDIRS
 
-pszFolderName
- |
-Folder name.
- |
-
-nScanMode
- |
-Scan mode for the folder. Can be: SCANDIR_ALL SCANDIR_FILES SCANDIR_SUBDIRS
- |
-
-##
-DebugStats
+### DebugStats
 
 ```
-
-`
 System.DebugStats( cp )
-`
-
 ```
 
-##
-ViewDistanceSet
+### ViewDistanceSet
 
 Sets the view distance.
 
 ```
-
-`
 System.ViewDistanceSet( fViewDist )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+fViewDist | View distance.
 
-fViewDist
- |
-View distance.
- |
+### ViewDistanceGet
 
-##
-ViewDistanceGet
-
- Gets the view distance.
+Gets the view distance.
 
 ```
-
-`
 System.ViewDistanceSet()
-`
-
 ```
 
-##
-GetOutdoorAmbientColor
+### GetOutdoorAmbientColor
 
- Gets the outdoor ambient color.
+Gets the outdoor ambient color.
 
 ```
-
-`
 System.GetOutdoorAmbientColor()
-`
-
 ```
 
-##
-SetOutdoorAmbientColor
+### SetOutdoorAmbientColor
 
 Sets the outdoor ambient color.
 
 ```
-
-`
 System.GetOutdoorAmbientColor( v3Color )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+v3Color | Outdoor ambient color value.
 
-v3Color
- |
-Outdoor ambient color value.
- |
-
-##
-GetTerrainElevation
+### GetTerrainElevation
 
 Gets the terrain elevation of the specified position.
 
 ```
-
-`
 System.GetTerrainElevation( v3Pos )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+v3Pos | Position of the terraint to be checked.
 
-v3Pos
- |
-Position of the terraint to be checked.
- |
-
-##
-ActivatePortal
+### ActivatePortal
 
 Activates/deactivates a portal.
 
 ```
-
-`
 System.ActivatePortal( vPos, bActivate, nID )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+vPos | Position vector.
+bActivate | True to activate the portal, false to deactivate.
+nID | Entity identifier.
 
-vPos
- |
-Position vector.
- |
+### DumpMMStats
 
-bActivate
- |
-True to activate the portal, false to deactivate.
- |
-
-nID
- |
-Entity identifier.
- |
-
-##
-DumpMMStats
-
- Dumps the MM statistics.
+Dumps the MM statistics.
 
 ```
-
-`
 System.DumpMMStats()
-`
-
 ```
 
-##
-EnumAAFormats
+### EnumAAFormats
 
- Enumerates the AA formats.
+Enumerates the AA formats.
 
 ```
-
-`
 System.EnumAAFormats( m_Width, m_Height, m_BPP )
-`
-
 ```
 
-##
-EnumDisplayFormats
+### EnumDisplayFormats
 
- Enumerates display formats.
+Enumerates display formats.
 
 ```
-
-`
 System.EnumDisplayFormats()
-`
-
 ```
 
-##
-IsPointIndoors
+### IsPointIndoors
 
 Checks if a point is indoors.
 
 ```
-
-`
 System.IsPointIndoors( vPos )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+vPos | Position vector.
 
-vPos
- |
-Position vector.
- |
-
-##
-SetConsoleImage
+### SetConsoleImage
 
 Sets the console image.
 
 ```
-
-`
 System.SetConsoleImage( pszName, bRemoveCurrent )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pszName | Texture image.
+bRemoveCurrent | True to remove the current image, false otherwise.
 
-pszName
- |
-Texture image.
- |
-
-bRemoveCurrent
- |
-True to remove the current image, false otherwise.
- |
-
-##
-ProjectToScreen
+### ProjectToScreen
 
 Projects to the screen (not guaranteed to work if used outside Renderer).
 
 ```
-
-`
 System.ProjectToScreen( vec )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+vec | Position vector.
 
-vec
- |
-Position vector.
- |
+### EnableHeatVision
 
-##
-EnableHeatVision
-
- Is not supported anymore.
+Is not supported anymore.
 
 ```
-
-`
 System.EnableHeatVision()
-`
-
 ```
 
-##
-ShowDebugger
+### ShowDebugger
 
- Shows the debugger.
+Shows the debugger.
 
 ```
-
-`
 System.ShowDebugger()
-`
-
 ```
 
-##
-DumpMemStats
+### DumpMemStats
 
 Dumps memory statistics.
 
 ```
-
-`
 System.DumpMemStats( bUseKB )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+bUseKB | True to use KB, false otherwise.
 
-bUseKB
- |
-True to use KB, false otherwise.
- |
+### DumpMemoryCoverage
 
-##
-DumpMemoryCoverage
-
- Dumps memory coverage.
+Dumps memory coverage.
 
 ```
-
-`
 System.DumpMemoryCoverage( bUseKB )
-`
-
 ```
 
-##
-ApplicationTest
+### ApplicationTest
 
 Test the application with the specified parameters.
 
 ```
-
-`
 System.ApplicationTest( pszParam )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pszParam | Parameters.
 
-pszParam
- |
-Parameters.
- |
-
-##
-QuitInNSeconds
+### QuitInNSeconds
 
 Quits the application in the specified number of seconds.
 
 ```
-
-`
 System.QuitInNSeconds( fInNSeconds )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+fInNSeconds | Number of seconds before quitting.
 
-fInNSeconds
- |
-Number of seconds before quitting.
- |
+### DumpWinHeaps
 
-##
-DumpWinHeaps
-
- Dumps windows heaps.
+Dumps windows heaps.
 
 ```
-
-`
 System.DumpWinHeaps()
-`
-
 ```
 
-##
-Break
+### Break
 
- Breaks the application with a fatal error message.
+Breaks the application with a fatal error message.
 
 ```
-
-`
 System.Break()
-`
-
 ```
 
-##
-SetViewCameraFov
+### SetViewCameraFov
 
- Sets the view camera fov.
+Sets the view camera fov.
 
 ```
-
-`
 System.SetViewCameraFov( fov )
-`
-
 ```
 
-##
-GetViewCameraFov
+### GetViewCameraFov
 
- Gets the view camera fov.
+Gets the view camera fov.
 
 ```
-
-`
 System.GetViewCameraFov()
-`
-
 ```
 
-##
-IsPointVisible
+### IsPointVisible
 
 Checks if the specified point is visible.
 
 ```
-
-`
 System.IsPointVisible( point )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+point | Point vector.
 
-point
- |
-Point vector.
- |
+### GetViewCameraPos
 
-##
-GetViewCameraPos
-
- Gets the view camera position.
+Gets the view camera position.
 
 ```
-
-`
 System.GetViewCameraPos()
-`
-
 ```
 
-##
-GetViewCameraDir
+### GetViewCameraDir
 
- Gets the view camera direction.
+Gets the view camera direction.
 
 ```
-
-`
 System.GetViewCameraDir()
-`
-
 ```
 
-##
-GetViewCameraUpDir
+### GetViewCameraUpDir
 
- Gets the view camera up-direction.
+Gets the view camera up-direction.
 
 ```
-
-`
 System.GetViewCameraUpDir()
-`
-
 ```
 
-##
-GetViewCameraAngles
+### GetViewCameraAngles
 
- Gets the view camera angles.
+Gets the view camera angles.
 
 ```
-
-`
 System.GetViewCameraAngles()
-`
-
 ```
 
-##
-RayWorldIntersection
+### RayWorldIntersection
 
 Shots rays into the world.
 
 ```
-
-`
 System.RayWorldIntersection(vPos, vDir, nMaxHits, iEntTypes)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+vPos | Position vector.
+vDir | Direction vector.
+nMaxHits | Maximum number of hits.
+iEntTypes | .
 
-vPos
- |
-Position vector.
- |
-
-vDir
- |
-Direction vector.
- |
-
-nMaxHits
- |
-Maximum number of hits.
- |
-
-iEntTypes
- |
-.
- |
-
-##
-RayTraceCheck
+### RayTraceCheck
 
 ```
-
-`
 System.RayTraceCheck(src, dst, skipId1, skipId2)
-`
-
 ```
 
-##
-BrowseURL
+### BrowseURL
 
 Browses a URL address.
 
 ```
-
-`
 System.BrowseURL(szURL)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+szURL | URL string.
 
-szURL
- |
-URL string.
- |
+### IsDevModeEnable
 
-##
-IsDevModeEnable
-
-  Checks if game is running in dev mode (cheat mode) to check if we are allowed to enable certain scripts function facilities (god mode, fly mode etc.).
+Checks if game is running in dev mode (cheat mode) to check if we are allowed to enable certain scripts function facilities (god mode, fly mode etc.).
 
 ```
-
-`
 System.IsDevModeEnable()
-`
-
 ```
 
-##
-SaveConfiguration
+### SaveConfiguration
 
- Saves the configuration.
+Saves the configuration.
 
 ```
-
-`
 System.SaveConfiguration()
-`
-
 ```
 
-##
-Quit
+### Quit
 
- Quits the program.
+Quits the program.
 
 ```
-
-`
 System.Quit()
-`
-
 ```
 
-##
-GetHDRDynamicMultiplier
+### GetHDRDynamicMultiplier
 
- Gets the HDR dynamic multiplier.
+Gets the HDR dynamic multiplier.
 
 ```
-
-`
 System.GetHDRDynamicMultiplier()
-`
-
 ```
 
-##
-SetHDRDynamicMultiplier
+### SetHDRDynamicMultiplier
 
 Sets the HDR dynamic multiplier.
 
 ```
-
-`
 System.SetHDRDynamicMultiplier( fMul )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+fMul | Dynamic multiplier value.
 
-fMul
- |
-Dynamic multiplier value.
- |
+### GetFrameID
 
-##
-GetFrameID
-
- Gets the frame identifier.
+Gets the frame identifier.
 
 ```
-
-`
 System.GetFrameID()
-`
-
 ```
 
-##
-ClearKeyState
+### ClearKeyState
 
- Clear the key state.
+Clear the key state.
 
 ```
-
-`
 System.ClearKeyState()
-`
-
 ```
 
-##
-SetSunColor
+### SetSunColor
 
- Set color of the sun, only relevant outdoors.
+Set color of the sun, only relevant outdoors.
 
 ```
-
-`
 System.SetSunColor( vColor )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+vColor | Sun Color as an {x,y,z} vector (x=r,y=g,z=b).
 
-vColor
- |
-Sun Color as an {x,y,z} vector (x=r,y=g,z=b).
- |
+### GetSunColor
 
-##
-GetSunColor
-
- Retrieve color of the sun outdoors.
+Retrieve color of the sun outdoors.
 
 ```
-
-`
 Vec3 System.GetSunColor()
-`
-
 ```
 
-**
-Returns:
-**
- Sun Color as an {x,y,z} vector (x=r,y=g,z=b).
+**Returns:** Sun Color as an {x,y,z} vector (x=r,y=g,z=b).
 
-##
-SetSkyColor
+### SetSkyColor
 
- Set color of the sky (outdoors ambient color).
+Set color of the sky (outdoors ambient color).
 
 ```
-
-`
 System.SetSkyColor( vColor )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+vColor | Sky Color as an {x,y,z} vector (x=r,y=g,z=b).
 
-vColor
- |
-Sky Color as an {x,y,z} vector (x=r,y=g,z=b).
- |
+### GetSkyColor
 
-##
-GetSkyColor
-
- Retrieve color of the sky (outdoor ambient color).
+Retrieve color of the sky (outdoor ambient color).
 
 ```
-
-`
 Vec3 System.GetSkyColor()
-`
-
 ```
 
-**
-Returns:
-**
- Sky Color as an {x,y,z} vector (x=r,y=g,z=b).
+**Returns:** Sky Color as an {x,y,z} vector (x=r,y=g,z=b).
 
-##
-SetSkyHighlight
+### SetSkyHighlight
 
- Set Sky highlighing parameters.
-Highligh Params Meaning <hruler />
- size Sky highlight scale. color Sky highlight color. direction Direction of the sky highlight in world space. pod Position of the sky highlight in world space.
+Set Sky highlighing parameters. Highligh Params Meaning <hruler /> size Sky highlight scale. color Sky highlight color. direction Direction of the sky highlight in world space. pod Position of the sky highlight in world space.
 
 ```
-
-`
 System.SetSkyHighlight( params )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+params | Table with Sky highlighing parameters.
 
-params
- |
-Table with Sky highlighing parameters.
- |
+### GetSkyHighlight
 
-##
-GetSkyHighlight
-
-  Retrieves Sky highlighing parameters. see SetSkyHighlight for parameters description.
+Retrieves Sky highlighing parameters. see SetSkyHighlight for parameters description.
 
 ```
-
-`
 System.SetSkyHighlight( params )
-`
-
 ```
 
-##
-LoadLocalizationXml
+### LoadLocalizationXml
 
- Loads Excel exported xml file with text and dialog localization data.
+Loads Excel exported xml file with text and dialog localization data.
 
 ```
-
-`
 System.LoadLocalizationXml( filename )
-`
-
 ```

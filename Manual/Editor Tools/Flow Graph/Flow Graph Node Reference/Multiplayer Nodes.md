@@ -7,81 +7,56 @@
 
 ## Content
 
-##
-AttachToPath
+### AttachToPath
 
 Requests an entity be attached to a path. The entity target should be the follower entity.
 
-##
-CheckCVar
+### CheckCVar
 
 Gets the value of a console variable (CVar).
 
-##
-EnvironmentalWeaponListener
+### EnvironmentalWeaponListener
 
 Allows listening to key rip events for environmental weapons.
 
-##
-GameState
+### GameState
 
 React to various game state events.
 
-##
-GameType
+### GameType
 
 Obtain Game Type information.
 
-##
-GetClientTeamId
+### GetClientTeamId
 
 Obtain client player team id.
 
-##
-HighlightEntity
+### HighlightEntity
 
 Highlights the given entity through the interactive entity monitor player plugin.
 
-##
-IsMultiplayer
+### IsMultiplayer
 
 Checks if Game Mode is Multiplayer or not.
 
-##
-IsServer
+### IsServer
 
 Multiplayer check to see if the current user is the server.
 
-##
-MP
+### MP
 
 Checks various Multiplayer states and conditions.
 
-##
-MsgSender
+### MsgSender
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687962)
 
-##
-MsgListener
+### MsgListener
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687961)
 
-##
-RequestPlaySequence
+### RequestPlaySequence
 
 Requests a track view sequence to be started by the server.
 
-[AttachToPath](#attachtopath)
-[CheckCVar](#checkcvar)
-[EnvironmentalWeaponListener](#environmentalweaponlistener)
-[GameState](#gamestate)
-[GameType](#gametype)
-[GetClientTeamId](#getclientteamid)
-[HighlightEntity](#highlightentity)
-[IsMultiplayer](#ismultiplayer)
-[IsServer](#isserver)
-[MP](#mp)
-[MsgSender](#msgsender)
-[MsgListener](#msglistener)
-[RequestPlaySequence](#requestplaysequence)
+[AttachToPath](#attachtopath)[CheckCVar](#checkcvar)[EnvironmentalWeaponListener](#environmentalweaponlistener)[GameState](#gamestate)[GameType](#gametype)[GetClientTeamId](#getclientteamid)[HighlightEntity](#highlightentity)[IsMultiplayer](#ismultiplayer)[IsServer](#isserver)[MP](#mp)[MsgSender](#msgsender)[MsgListener](#msglistener)[RequestPlaySequence](#requestplaysequence)

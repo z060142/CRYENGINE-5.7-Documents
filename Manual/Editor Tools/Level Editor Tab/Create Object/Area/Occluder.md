@@ -7,30 +7,12 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
-An Occluder area allows users to create an occlusion plane out of a custom shape with multiple edges
-, unlike an OccluderPlane object which can only be a square shape.
+An Occluder area allows users to create an occlusion plane out of a custom shape with multiple edges, unlike an OccluderPlane object which can only be a square shape.
 
 The purpose of this object is to stop the engine from rendering everything that is behind it. It is used for performance optimization in areas where automatic occlusion from brushes and terrain don't work very well.
 
-**
-Property
-**
-
- |
-**
-Description
-**
-
- |
-
-**
-Display Filled
-**
-
- |
-Just for visibility in the editor this option defines if the area should be rendered as filled or not.
-
- |
+**Property** | **Description**
+--- | ---
+**Display Filled** | Just for visibility in the editor this option defines if the area should be rendered as filled or not.

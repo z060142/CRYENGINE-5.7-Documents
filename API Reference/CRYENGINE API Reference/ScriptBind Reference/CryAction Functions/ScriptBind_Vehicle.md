@@ -7,544 +7,269 @@
 
 ## Content
 
-##
-GetVehicle
+### GetVehicle
 
- Gets the vehicle identifier.
+Gets the vehicle identifier.
 
 ```
-
-`
 Vehicle.GetVehicle()
-`
-
 ```
 
-##
-Reset
+### Reset
 
- Resets the vehicle.
+Resets the vehicle.
 
 ```
-
-`
 Vehicle.Reset()
-`
-
 ```
 
-##
-IsInsideRadius
+### IsInsideRadius
 
- Checks if the vehicle is inside the specified radius.
+Checks if the vehicle is inside the specified radius.
 
 ```
-
-`
 Vehicle.IsInsideRadius( pos, radius )
-`
-
 ```
 
-##
-MultiplyWithWorldTM
+### MultiplyWithWorldTM
 
 Multiplies with the world transformation matrix.
 
 ```
-
-`
 Vehicle.MultiplyWithWorldTM( pos )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+pos | Position vector.
 
-pos
- |
-Position vector.
- |
-
-##
-ResetSlotGeometry
+### ResetSlotGeometry
 
 ```
-
-`
 Vehicle.ResetSlotGeometry( slot, filename, geometry )
-`
-
 ```
 
-##
-AddSeat
+### AddSeat
 
 Adds a seat to the vehicle.
 
 ```
-
-`
 Vehicle.AddSeat( paramsTable )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+paramsTable | Seat parameters.
 
-paramsTable
- |
-Seat parameters.
- |
-
-##
-HasHelper
+### HasHelper
 
 Checks if the vehicle has the specified helper.
 
 ```
-
-`
 Vehicle.HasHelper(name)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | Helper name.
 
-name
- |
-Helper name.
- |
-
-##
-GetHelperPos
+### GetHelperPos
 
 Gets the helper position.
 
 ```
-
-`
 Vehicle.GetHelperPos(name, isInVehicleSpace)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | Helper name.
+isInVehicleSpace | .
 
-name
- |
-Helper name.
- |
-
-isInVehicleSpace
- |
-.
- |
-
-##
-GetHelperDir
+### GetHelperDir
 
 Gets the helper direction.
 
 ```
-
-`
 Vehicle.GetHelperDir( name, isInVehicleSpace )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | Helper name.
+isInVehicleSpace | .
 
-name
- |
-Helper name.
- |
-
-isInVehicleSpace
- |
-.
- |
-
-##
-GetHelperWorldPos
+### GetHelperWorldPos
 
 Gets the helper position in the world coordinates.
 
 ```
-
-`
 Vehicle.GetHelperWorldPos( name )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | Helper name.
 
-name
- |
-Helper name.
- |
-
-##
-EnableMovement
+### EnableMovement
 
 Enables/disables the movement of the vehicle.
 
 ```
-
-`
 Vehicle.EnableMovement( enable )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+enable | True to enable movement, false to disable.
 
-enable
- |
-True to enable movement, false to disable.
- |
-
-##
-DisableEngine
+### DisableEngine
 
 Disables/enables the engine of the vehicle.
 
 ```
-
-`
 Vehicle.DisableEngine( disable )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+disable | True to disable the engine, false to enable.
 
-disable
- |
-True to disable the engine, false to enable.
- |
-
-##
-OnHit
+### OnHit
 
 Event that occurs after the vehicle is hit.
 
 ```
-
-`
 Vehicle.OnHit( targetId, shooterId, damage, position, radius, pHitClass, explosion )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+targetId | Target identifier.
+shooterId | Shooter identifier.
+damage | Damage amount.
+radius | Radius of the hit.
+hitTypeId | Hit type.
+explosion | True if the hit cause an explosion, false otherwise.
 
-targetId
- |
-Target identifier.
- |
-
-shooterId
- |
-Shooter identifier.
- |
-
-damage
- |
-Damage amount.
- |
-
-radius
- |
-Radius of the hit.
- |
-
-hitTypeId
- |
-Hit type.
- |
-
-explosion
- |
-True if the hit cause an explosion, false otherwise.
- |
-
-##
-ProcessPassengerDamage
+### ProcessPassengerDamage
 
 Processes passenger damages.
 
 ```
-
-`
 Vehicle.ProcessPassengerDamage( passengerId, actorHealth, damage, pDamageClass, explosion )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+passengerId | Passenger identifier.
+actorHealth | Actor health amount.
+damage | Damage amount.
+hitTypeId | Damage type.
+explosion | True if there is an explosion, false otherwise.
 
-passengerId
- |
-Passenger identifier.
- |
+### Destroy
 
-actorHealth
- |
-Actor health amount.
- |
-
-damage
- |
-Damage amount.
- |
-
-hitTypeId
- |
-Damage type.
- |
-
-explosion
- |
-True if there is an explosion, false otherwise.
- |
-
-##
-Destroy
-
- Destroys the vehicle.
+Destroys the vehicle.
 
 ```
-
-`
 Vehicle.Destroy()
-`
-
 ```
 
-##
-IsDestroyed
+### IsDestroyed
 
- Checks if the vehicle is destroyed.
+Checks if the vehicle is destroyed.
 
 ```
-
-`
 Vehicle.IsDestroyed()
-`
-
 ```
 
-##
-IsUsable
+### IsUsable
 
 Checks if the vehicle is usable by the user.
 
 ```
-
-`
 Vehicle.IsUsable( userHandle )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+userHandle | User identifier.
 
-userHandle
- |
-User identifier.
- |
-
-##
-OnUsed
+### OnUsed
 
 Events that occurs when the user uses the vehicle.
 
 ```
-
-`
 Vehicle.OnUsed( userHandle, index )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+userHandle | User identifier.
+index | Seat identifier.
 
-userHandle
- |
-User identifier.
- |
-
-index
- |
-Seat identifier.
- |
-
-##
-EnterVehicle
+### EnterVehicle
 
 Makes the actor entering the vehicle.
 
 ```
-
-`
 Vehicle.EnterVehicle( actorHandle, seatId, isAnimationEnabled )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+actorHandle | Actor identifier.
+seatId | Seat identifier.
 
-actorHandle
- |
-Actor identifier.
- |
-
-seatId
- |
-Seat identifier.
- |
-
-##
-ChangeSeat
+### ChangeSeat
 
 Makes the actor changing the seat inside the vehicle.
 
 ```
-
-`
 Vehicle.ChangeSeat(actorHandle, seatId, isAnimationEnabled)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+actorHandle | Actor identifier.
+seatId | Seat identifier.
 
-actorHandle
- |
-Actor identifier.
- |
-
-seatId
- |
-Seat identifier.
- |
-
-##
-ExitVehicle
+### ExitVehicle
 
 Makes the actor going out from the vehicle.
 
 ```
-
-`
 Vehicle.ExitVehicle( actorHandle )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+actorHandle | Actor identifier.
 
-actorHandle
- |
-Actor identifier.
- |
+### GetComponentDamageRatio
 
-##
-GetComponentDamageRatio
-
- Gets the damage ratio of the specified component.
+Gets the damage ratio of the specified component.
 
 ```
-
-`
 Vehicle.GetComponentDamageRatio( componentName )
-`
-
 ```
 
-##
-GetSeatForPassenger
+### GetSeatForPassenger
 
 ```
-
-`
 Vehicle.GetSeatForPassenger(id)
-`
-
 ```
 
-**
-Returns:
-**
- Vehicle seat id for the specified passenger.
-Parameter
- |
-Description
- |
+**Returns:** Vehicle seat id for the specified passenger.
+Parameter | Description
+--- | ---
+id | passenger id.
 
-id
- |
-passenger id.
- |
+### OnSpawnComplete
 
-##
-OnSpawnComplete
-
- Callback into game code for OnSpawnComplete.
+Callback into game code for OnSpawnComplete.
 
 ```
-
-`
 Vehicle.OnSpawnComplete()
-`
-
 ```

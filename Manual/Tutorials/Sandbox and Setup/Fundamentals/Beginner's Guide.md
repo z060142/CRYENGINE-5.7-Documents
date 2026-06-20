@@ -7,17 +7,15 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 This Beginner's Guide will guide new users through getting the Engine installed and navigating the Sandbox interface. Users will also learn how to create terrain and add elements like vegetation and weather.
 
-The guide is available as a downloadable .pdf file, so it can be accessed whenever necessary.
+The guide is available as a downloadable.pdf file, so it can be accessed whenever necessary.
 
 The other file provide below is the heightmap that is referred to in the Beginner's Guide.
 
-##
-Files
+### Files
 
 [CE 5 Beginner's Guide 2018-10-26.pdf](/docs/static/attachments/36844915)
 

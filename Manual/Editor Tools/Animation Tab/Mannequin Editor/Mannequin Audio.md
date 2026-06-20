@@ -7,13 +7,6 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
-The Setup of Audio for Mannequin is explained in
-[Audio & Mannequin](../../../Audio/Audio%20Overview/Audio%20%26%20Animations/Audio%20%26%20Mannequin.md)
-.
-
-A detailed explanation of the audio setup in Mannequin can be found in
-[Audio Middleware](../../../Audio/Audio%20Middleware.md)
-. This section explains the Audio setup in general for every audio middleware that is supported.
+The Setup of Audio for Mannequin is explained in [Audio & Mannequin](../../../Audio/Audio%20Overview/Audio%20%26%20Animations/Audio%20%26%20Mannequin.md). A detailed explanation of the audio setup in Mannequin can be found in [Audio Middleware](../../../Audio/Audio%20Middleware.md). This section explains the Audio setup in general for every audio middleware that is supported.

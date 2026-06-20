@@ -12,16 +12,11 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 This section will describe the required file setup of characters to work in CRYENGINE.
 
-##
-In This Topic
+### In This Topic
 
--
-[Attachment Setup](Engine%20Setup%20(animated)/Attachment%20Setup.md)
-
--
-[Character Parameters File (chrparams)](Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)
+- [Attachment Setup](Engine%20Setup%20(animated)/Attachment%20Setup.md)
+- [Character Parameters File (chrparams)](Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)

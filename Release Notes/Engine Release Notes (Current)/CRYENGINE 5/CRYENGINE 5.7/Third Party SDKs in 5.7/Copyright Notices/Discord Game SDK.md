@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 # Discord Developer Terms of Service
 
 ## Effective Date: August 20, 2017
@@ -367,6 +365,4 @@ of this Agreement.
 
 Use of the API or SDK affirms that Licensee has read this
 Agreement, understands it, and agrees to be bound by its contents.
-`
-
 ```

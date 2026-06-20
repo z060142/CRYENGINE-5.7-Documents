@@ -8,9 +8,6 @@
 ## Content
 
 ```
-
-`
-
 This software contains Autodesk® FBX® code developed by Autodesk, Inc.
 Copyright 2014 Autodesk, Inc. All rights, reserved.
 
@@ -23,7 +20,4 @@ or consequential damages (including, but not limited to, procurement of substitu
 loss of use, data, or profits; or business interruption) however caused and on any theory of liability,
 whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of such
 code.
-
-`
-
 ```

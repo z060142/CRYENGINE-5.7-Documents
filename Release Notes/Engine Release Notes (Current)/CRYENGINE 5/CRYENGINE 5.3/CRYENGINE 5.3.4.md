@@ -11,44 +11,17 @@
 
 ## Content
 
-##
-Core/System
+### Core/System
 
-##
-System
+#### System
 
--
-**
-New:
-**
- Re-enable DirectX-check at startup and prompt message box if Engine is not supported by hardware.
+- **New:** Re-enable DirectX-check at startup and prompt message box if Engine is not supported by hardware.
+- **Fixed:** Linking against Scaleform.
+- **Fixed:** Shutdown crash which occurs when Sandbox cannot be initialized.
 
--
-**
-Fixed:
-**
- Linking against Scaleform.
+### Tools
 
--
-**
-Fixed:
-**
- Shutdown crash which occurs when Sandbox cannot be initialized.
+#### Resource Compiler
 
-##
-Tools
-
-##
-Resource Compiler
-
--
-**
-New:
-**
- Release source code for Resource Compiler (we have added the Resource Compiler source code to our public Github repository, so you can now build your own instead of copying rc.exe from the Launcher installation).
-
--
-**
-Fixed:
-**
- Add jobfile for creating/repairing metadata using CrySelect.
+- **New:** Release source code for Resource Compiler (we have added the Resource Compiler source code to our public Github repository, so you can now build your own instead of copying rc.exe from the Launcher installation).
+- **Fixed:** Add jobfile for creating/repairing metadata using CrySelect.

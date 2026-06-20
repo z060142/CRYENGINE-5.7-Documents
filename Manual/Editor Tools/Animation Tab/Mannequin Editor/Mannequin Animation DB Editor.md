@@ -7,17 +7,10 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23998329)
 
-The Animation Database Editor is used to edit the rules which determine in which
-[ADB file](Mannequin%20Files/Animation%20Database%20(ADB).md)
- fragments end up. It can also be used to create new ADB files.
+The Animation Database Editor is used to edit the rules which determine in which [ADB file](Mannequin%20Files/Animation%20Database%20(ADB).md) fragments end up. It can also be used to create new ADB files.
 
-It can be accessed from the
-**
-File
-**
- menu.
+It can be accessed from the **File** menu.

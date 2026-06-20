@@ -12,8 +12,5 @@
 
 ## Content
 
--
-[Tutorial - Creating Decal Textures and Materials](Decal%20Tutorials/Tutorial%20-%20Creating%20Decal%20Textures%20and%20Materials.md)
-
--
-[Tutorial - Deferred Decal Setup](Decal%20Tutorials/Tutorial%20-%20Deferred%20Decal%20Setup.md)
+- [Tutorial - Creating Decal Textures and Materials](Decal%20Tutorials/Tutorial%20-%20Creating%20Decal%20Textures%20and%20Materials.md)
+- [Tutorial - Deferred Decal Setup](Decal%20Tutorials/Tutorial%20-%20Deferred%20Decal%20Setup.md)

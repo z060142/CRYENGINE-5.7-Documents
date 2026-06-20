@@ -7,12 +7,10 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 The Effect System manages a list of predefined CEffects. Those effects can include 3DEngine parameters and/or particles or other engine components. The System itself takes care of activating, updating and deactivating them in one central place.
 
-##
-Initialization
+### Initialization
 
 The Effect System is created during the initialization of CryAction. It will get intialized right away and register your predefined effects.

@@ -23,26 +23,11 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/27558379)
 
--
-[Mass Decay in Rigidbody Solver](Physics/Mass%20Decay%20in%20Rigidbody%20Solver.md)
-
--
-[NVIDIA PhysX](Physics/NVIDIA%20PhysX.md)
-
--
-[Posing Ragdolls](Physics/Posing%20Ragdolls.md)
-
--
-[Pressurized Closed Buoyant Cloth](Physics/Pressurized%20Closed%20Buoyant%20Cloth.md)
-
--
-[RigidBodyEx Entity (GameSDK)](Physics/RigidBodyEx%20Entity%20(GameSDK).md)
-
--
-[VCloth 2.0](Physics/VCloth%202.0.md)
-
--
-[Vehicles Basics (GameSDK)](Physics/Vehicles%20Basics%20(GameSDK).md)
-
--
-[Physics Features](Physics/Physics%20Features.md)
+- [Mass Decay in Rigidbody Solver](Physics/Mass%20Decay%20in%20Rigidbody%20Solver.md)
+- [NVIDIA PhysX](Physics/NVIDIA%20PhysX.md)
+- [Posing Ragdolls](Physics/Posing%20Ragdolls.md)
+- [Pressurized Closed Buoyant Cloth](Physics/Pressurized%20Closed%20Buoyant%20Cloth.md)
+- [RigidBodyEx Entity (GameSDK)](Physics/RigidBodyEx%20Entity%20(GameSDK).md)
+- [VCloth 2.0](Physics/VCloth%202.0.md)
+- [Vehicles Basics (GameSDK)](Physics/Vehicles%20Basics%20(GameSDK).md)
+- [Physics Features](Physics/Physics%20Features.md)

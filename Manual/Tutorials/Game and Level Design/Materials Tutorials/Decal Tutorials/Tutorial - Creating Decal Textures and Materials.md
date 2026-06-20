@@ -7,25 +7,17 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 In this tutorial you'll learn how decals are created from a texture perspective, how to setup materials for decals and how to place them in Sandbox.
 
-##
-Texture Setup
+### Texture Setup
 
 The main difference with a decal diffuse texture is that it should have an alpha channel to control what parts of the RGB channels are visible.
 
-![Image](https://www.cryengine.com/docs/static/attachments/23996027)
- |
-![Image](https://www.cryengine.com/docs/static/attachments/23996028)
- |
-
-Diffuse RGB Channels
- |
-Diffuse Alpha Channel
- |
+![Image](https://www.cryengine.com/docs/static/attachments/23996027) | ![Image](https://www.cryengine.com/docs/static/attachments/23996028)
+--- | ---
+Diffuse RGB Channels | Diffuse Alpha Channel
 
 In this example we're going to use a concrete decal, with the main "feature" being a large crack. This will be useful in breaking up tiling and monotony on standard concrete materials.
 
@@ -33,145 +25,81 @@ You can see in the above images the alpha channel closely resembles the RGB chan
 
 Below you can see a comparison of how the Alpha channel controls visible content.
 
-![Image](https://www.cryengine.com/docs/static/attachments/23996041)
- |
-![Image](https://www.cryengine.com/docs/static/attachments/23996044)
- |
+![Image](https://www.cryengine.com/docs/static/attachments/23996041) | ![Image](https://www.cryengine.com/docs/static/attachments/23996044)
+--- | ---
+Decal Diffuse with no Alpha | Decal Diffuse with Alpha
 
-Decal Diffuse with no Alpha
- |
-Decal Diffuse with Alpha
- |
+After you've got your textures completed, save them in an appropriate place such as: `<root>/GameSDK/Textures/decals/concrete/`
 
-After you've got your textures completed, save them in an appropriate place such as:
-`
-<root>/GameSDK/Textures/decals/concrete/
-`
+### Material Setup
 
-##
-Material Setup
-
-Open the Material Editor (press 'M' on the keyboard while the perspective view is active) or click on the material sphere button in the toolbar, or via
-**
-View -> Open View Pane -> Material Editor
-**
-.
+Open the Material Editor (press 'M' on the keyboard while the perspective view is active) or click on the material sphere button in the toolbar, or via **View -> Open View Pane -> Material Editor**.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23996032)
 
 With the Material Editor open, we can now create a new material for our decal texture.
 
-Click on the
-**
-Add New Item
-**
- button in the toolbar.
+Click on the **Add New Item** button in the toolbar.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23996034)
 
 Now select an appropriate folder where you want to save the material file. In order to keep things consistent, lets save it alongside our existing decal materials.
 
-By default, the location of these materials won't be visible in the file dialog because they're zipped up inside the
-[GameData.pak](/docs/static/engines/cryengine-3/categories/1638401/pages/1605746)
-. But we can manually create the path:
-`
-<root>/GameSDK/Materials/decals/concrete/concrete_crack_new.mtl
-`
+By default, the location of these materials won't be visible in the file dialog because they're zipped up inside the [GameData.pak](/docs/static/engines/cryengine-3/categories/1638401/pages/1605746). But we can manually create the path: `<root>/GameSDK/Materials/decals/concrete/concrete_crack_new.mtl`
 
 After you save the material, the Material Editor will automatically select your new material and apply default settings to it to get you started.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23996029)
 
-Lets start customizing this new material by
-[adding the Diffuse texture](/docs/static/engines/cryengine-3/categories/1114113/pages/1048667)
- which we created earlier in the Texture Setup section.
+Lets start customizing this new material by [adding the Diffuse texture](/docs/static/engines/cryengine-3/categories/1114113/pages/1048667) which we created earlier in the Texture Setup section.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23996030)
 
-We've already got the
-[Illum Shader 5.5.2](/docs/static/engines/cryengine-5/categories/23756816/pages/23307902)
- selected by default and you don't need to specify surface types for decals, as they're purely a visual projection with no surface logic behind them.
+We've already got the [Illum Shader 5.5.2](/docs/static/engines/cryengine-5/categories/23756816/pages/23307902) selected by default and you don't need to specify surface types for decals, as they're purely a visual projection with no surface logic behind them.
 
-In the Shader Gen Parameters, just enable the
-**
-Decal
-**
- checkbox so that the engine understands this material is to be used by the
-[Decal entity](/docs/static/engines/cryengine-5/categories/23756816/pages/23308150)
-.
+In the Shader Gen Parameters, just enable the **Decal** checkbox so that the engine understands this material is to be used by the [Decal entity](/docs/static/engines/cryengine-5/categories/23756816/pages/23308150).
 
 As of CRYENGINE 3.6, a few additional parameters have been added to Decals to control Alpha Multiplier/Falloff as well as Opacity.
 
-##
-Examples
+#### Examples
 
-![Image](https://www.cryengine.com/docs/static/attachments/23996043)
- |
-![Image](https://www.cryengine.com/docs/static/attachments/23996042)
- |
+![Image](https://www.cryengine.com/docs/static/attachments/23996043) | ![Image](https://www.cryengine.com/docs/static/attachments/23996042)
+--- | ---
+Standard, Planar Projection | Diffuse Opacity 0.5
 
-Standard, Planar Projection
- |
-Diffuse Opacity 0.5
- |
+![Image](https://www.cryengine.com/docs/static/attachments/23996037) | ![Image](https://www.cryengine.com/docs/static/attachments/23996038)
+--- | ---
+Alpha Falloff 10 | Alpha Falloff 128
 
-![Image](https://www.cryengine.com/docs/static/attachments/23996037)
- |
-![Image](https://www.cryengine.com/docs/static/attachments/23996038)
- |
-
-Alpha Falloff 10
- |
-Alpha Falloff 128
- |
-
-![Image](https://www.cryengine.com/docs/static/attachments/23996040)
- |
-![Image](https://www.cryengine.com/docs/static/attachments/23996039)
- |
-
-Alpha Multiplier 2
- |
-Alpha Multiplier 10
- |
+![Image](https://www.cryengine.com/docs/static/attachments/23996040) | ![Image](https://www.cryengine.com/docs/static/attachments/23996039)
+--- | ---
+Alpha Multiplier 2 | Alpha Multiplier 10
 
 Note that currently these only affect Planar, non-deferred decals.
 We can leave all other settings default for now as we'll tweak those further once the decal is in the level.
 
-##
-Sandbox Setup
+### Sandbox Setup
 
-Lets start with a small, basic level. See
-[Creating a New Level 5.5.2](/docs/static/engines/cryengine-5/categories/23756816/pages/23308318)
- for more information.
+Lets start with a small, basic level. See [Creating a New Level 5.5.2](/docs/static/engines/cryengine-5/categories/23756816/pages/23308318) for more information.
 
 Place a few concrete objects in and have them all use the same, tiling concrete texture for an extreme example.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23996036)
 
-Now place a Decal in the level by going to
-**
-RollupBar -> Objects -> Misc -> Decal
-**
+Now place a Decal in the level by going to **RollupBar -> Objects -> Misc -> Decal**
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23996031)
 
 You should see the decal object with its default "Replace Me" material applied.
 
-Check you've enabled "
-[Follow Terrain and Snap to Objects](/docs/static/engines/cryengine-5/categories/23756816)
-" before you bring it into the level to help with navigation.
+Check you've enabled "[Follow Terrain and Snap to Objects](/docs/static/engines/cryengine-5/categories/23756816)" before you bring it into the level to help with navigation.
 ![Image](https://www.cryengine.com/docs/static/attachments/23996051)
 
 Now, with the Decal still selected, click on the Material button in the RollupBar to open the Material Editor.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23996033)
 
-Right-click on your new Decal material in the list and choose
-**
-Assign to Selected Objects
-**
-.
+Right-click on your new Decal material in the list and choose **Assign to Selected Objects**.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23996035)
 
@@ -183,45 +111,24 @@ Now our Decal looks like this:
 
 Experiment with placing numerous decals with various sizes and rotation to try and break up the scene.
 
-##
-Examples
+#### Examples
 
 An easy way to get decals to follow the contours of objects is to set them to Deferred (or "Project on Static Objects").
 
-![Image](https://www.cryengine.com/docs/static/attachments/23996047)
- |
-![Image](https://www.cryengine.com/docs/static/attachments/23996045)
- |
-
-Planar Projection
- |
-Deferred Projection
- |
+![Image](https://www.cryengine.com/docs/static/attachments/23996047) | ![Image](https://www.cryengine.com/docs/static/attachments/23996045)
+--- | ---
+Planar Projection | Deferred Projection
 
 You can also tweak settings such as projection depth to get different blend amounts. This also works based off the distance the decal is from the object.
 
-![Image](https://www.cryengine.com/docs/static/attachments/23996052)
- |
-![Image](https://www.cryengine.com/docs/static/attachments/23996053)
- |
-
-Projection Depth 0.5
- |
-Projection Depth 1
- |
+![Image](https://www.cryengine.com/docs/static/attachments/23996052) | ![Image](https://www.cryengine.com/docs/static/attachments/23996053)
+--- | ---
+Projection Depth 0.5 | Projection Depth 1
 
 Keep in mind this is just one base concrete material and one decal. The more flavor you add, the better the final result will be!
 
-![Image](https://www.cryengine.com/docs/static/attachments/23996049)
- |
-![Image](https://www.cryengine.com/docs/static/attachments/23996050)
- |
+![Image](https://www.cryengine.com/docs/static/attachments/23996049) | ![Image](https://www.cryengine.com/docs/static/attachments/23996050)
+--- | ---
+Without Helpers | With Helpers
 
-Without Helpers
- |
-With Helpers
- |
-
-[Texture Setup](#texture-setup)
-[Material Setup](#material-setup)
-[Sandbox Setup](#sandbox-setup)
+[Texture Setup](#texture-setup)[Material Setup](#material-setup)[Sandbox Setup](#sandbox-setup)

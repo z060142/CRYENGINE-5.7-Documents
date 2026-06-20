@@ -7,27 +7,10 @@
 
 ## Content
 
-**
-New:
-**
- Progress bar to track progression when creating a project from an asset.
+**New:** Progress bar to track progression when creating a project from an asset.
 
-**
-New
-**
-: N
-otification when a project backup is successfully completed.
+**New**: Notification when a project backup is successfully completed.
 
-**
-Fixed:
-**
- Engines not being displayed in the Engine list after a Launcher re-installation.
+**Fixed:** Engines not being displayed in the Engine list after a Launcher re-installation.
 
-**
-Fixed:
-**
- Minor
-bug
-and
-usability issues
-.
+**Fixed:** Minor bug and usability issues.

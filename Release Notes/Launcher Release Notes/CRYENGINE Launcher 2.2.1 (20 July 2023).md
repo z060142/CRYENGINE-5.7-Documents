@@ -7,12 +7,6 @@
 
 ## Content
 
-##
-Launcher
+### Launcher
 
--
-**
-Fixed:
-**
-
-An issue causing errors when uploading a .zip file to contributor assets.
+- **Fixed:** An issue causing errors when uploading a.zip file to contributor assets.

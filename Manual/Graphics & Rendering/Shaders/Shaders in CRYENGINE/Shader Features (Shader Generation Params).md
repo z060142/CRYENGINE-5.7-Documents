@@ -16,20 +16,9 @@
 
 ## Content
 
--
-[Blend Layer - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
-
--
-[Detail Mapping - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
-
--
-[Dirt Layer - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Dirt%20Layer%20-%20Shader%20Generation%20Params.md)
-
--
-[Displacement/Phong/PN Triangles Tesselation - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Displacement%20Phong%20PN%20Triangles%20Tesselation%20-%20Shader%20Generation%20Params.md)
-
--
-[Parallax Occlusion Mapping - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
-
--
-[Silhouette POM - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Silhouette%20POM%20-%20Shader%20Generation%20Params.md)
+- [Blend Layer - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
+- [Detail Mapping - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
+- [Dirt Layer - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Dirt%20Layer%20-%20Shader%20Generation%20Params.md)
+- [Displacement/Phong/PN Triangles Tesselation - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Displacement%20Phong%20PN%20Triangles%20Tesselation%20-%20Shader%20Generation%20Params.md)
+- [Parallax Occlusion Mapping - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
+- [Silhouette POM - Shader Generation Params](Shader%20Features%20(Shader%20Generation%20Params)/Silhouette%20POM%20-%20Shader%20Generation%20Params.md)

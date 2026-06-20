@@ -14,19 +14,11 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 CRYENGINE Sandbox is very customizable and its layout can be changed to fit anyone's needs. On the following pages, we'll discuss several things that can be customized.
 
--
-[Changing Sandbox Preferences](Customizing%20CRYENGINE%20Sandbox/Changing%20Sandbox%20Preferences.md)
-
--
-[Customizing Sandbox Layout](Customizing%20CRYENGINE%20Sandbox/Customizing%20Sandbox%20Layout.md)
-
--
-[Customizing ToolBars](Customizing%20CRYENGINE%20Sandbox/Customizing%20ToolBars.md)
-
--
-[Restoring Default Settings](Customizing%20CRYENGINE%20Sandbox/Restoring%20Default%20Settings.md)
+- [Changing Sandbox Preferences](Customizing%20CRYENGINE%20Sandbox/Changing%20Sandbox%20Preferences.md)
+- [Customizing Sandbox Layout](Customizing%20CRYENGINE%20Sandbox/Customizing%20Sandbox%20Layout.md)
+- [Customizing ToolBars](Customizing%20CRYENGINE%20Sandbox/Customizing%20ToolBars.md)
+- [Restoring Default Settings](Customizing%20CRYENGINE%20Sandbox/Restoring%20Default%20Settings.md)

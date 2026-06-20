@@ -18,14 +18,7 @@
 
 Cameras, lighting, environment settings, particle effects, rendering, post-processing etc.
 
--
-[Environment Tutorials](Graphics/Environment%20Tutorials.md)
-
--
-[Lighting Tutorials](Graphics/Lighting%20Tutorials.md)
-
--
-[Particle Tutorials](Graphics/Particle%20Tutorials.md)
-
--
-[Trackview Tutorials](Graphics/Trackview%20Tutorials.md)
+- [Environment Tutorials](Graphics/Environment%20Tutorials.md)
+- [Lighting Tutorials](Graphics/Lighting%20Tutorials.md)
+- [Particle Tutorials](Graphics/Particle%20Tutorials.md)
+- [Trackview Tutorials](Graphics/Trackview%20Tutorials.md)

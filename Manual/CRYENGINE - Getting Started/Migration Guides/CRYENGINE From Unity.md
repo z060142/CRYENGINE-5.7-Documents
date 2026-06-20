@@ -9,26 +9,21 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29933260)
 
-##
-Overview
+## Overview
 
-##
-Table of Contents
+## Table of Contents
 
-This guide provides an overview of the CRYENGINE V interface from the standpoint of a Unity user. It covers the
-basic differences between Unity and CRYENGINE V and discusses how to port existing assets to CRYENGINE V from Unity.
+This guide provides an overview of the CRYENGINE V interface from the standpoint of a Unity user. It covers the basic differences between Unity and CRYENGINE V and discusses how to port existing assets to CRYENGINE V from Unity.
 
 Focus is made on using CRYENGINE V's C# support as this will be most similar and appropriate for Unity users, however much of the content in this guide also applies to C++ projects as well.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890510)
 
-##
-Porting from Unity to CRYENGINE V
+## Porting from Unity to CRYENGINE V
 
 In Unity, the Inspector Tab is used to edit selected assets in your project. In CRYENGINE V, the Properties Panel exposes properties of selected objects, while larger editing tasks are undertaken in the Perspective Window.
 
-##
-Creating a Project
+### Creating a Project
 
 CRYENGINE and Unity have similar concepts when considering a project. However, there are some subtle differences that you need to be aware of.
 
@@ -36,23 +31,13 @@ In Unity you can run the game inside the Editor and then produce a build when yo
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890318)
 
-##
-Comparing the Editors
+### Comparing the Editors
 
-In CRYENGINE the Sandbox Editor (the equivalent to Unity’s editor) is already running a version of your game
-*
- -
-*
-this is started as soon as you load your level in CRYENGINE. However, it’s quite easy to use this in a similar way to the Scene/Game views in Unity. Using the
-**
-Switch to Game
-**
--button (highlighted in orange below), CRYENGINE sends callbacks to your code to start/stop gameplay. This disables the additional widgets and free-roam camera that are enforced in the editing mode. CRYENGINE also has the additional feature of being able to preview/debug physics simulation (without starting the game logic) by using the buttons highlighted in purple below.
+In CRYENGINE the Sandbox Editor (the equivalent to Unity’s editor) is already running a version of your game*-* this is started as soon as you load your level in CRYENGINE. However, it’s quite easy to use this in a similar way to the Scene/Game views in Unity. Using the **Switch to Game**-button (highlighted in orange below), CRYENGINE sends callbacks to your code to start/stop gameplay. This disables the additional widgets and free-roam camera that are enforced in the editing mode. CRYENGINE also has the additional feature of being able to preview/debug physics simulation (without starting the game logic) by using the buttons highlighted in purple below.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29925051)
 
-##
-Editors Side by Side
+### Editors Side by Side
 
 Below are images of the Unity Editor (left-hand image) and the CRYENGINE Sandbox Editor (right-hand image). Each is color-coded to show what each section is used for. As in Unity, the Sandbox Editor is fully customizable by dragging and dropping tabs into different parts of the Sandbox Editor window.
 
@@ -60,178 +45,54 @@ Below are images of the Unity Editor (left-hand image) and the CRYENGINE Sandbox
 
 In Unity, game objects can have multiple Components that are displayed in the Inspector (right-hand panel of the Unity Editor). Similarly, CRYENGINE has the Properties Panel that provides the same functionality of being able to add and remove Components from entities, as well as being able to modify their properties.
 
-##
-Glossary
+### Glossary
 
-Unity
- |
-CRYENGINE V
- |
+Unity | CRYENGINE V
+--- | ---
+Editor | Sandbox Editor
+Component | Component
+GameObject | Entity
+Prefab | Schematyc Entity
+Hierarchy Panel | Level Explorer
+Inspector | Properties Panel
+Project Browser | Asset Browser
+Scene | Level
+Scene View | Perspective
+Static Mesh | Brush
+Skinned Mesh | Character
+Material | Material
+Particle Effect | Particle Effect
+UI | Scaleform
+Mecanim | Mannequin
+Blend Tree | Blendspace
+Rigidbody/Character Controller | Entity Physics
 
-Editor
+### Project Structure
 
- |
-Sandbox Editor
+As with Unity projects, CRYENGINE projects exist in their own directory. Additionally, CRYENGINE projects have a project file that defines certain properties of the project. You can double click on this file to load the Sandbox Editor, or right click it for additional options. CRYENGINE is very liberal about how you structure your project, however there are general conventions that are commonly followed as illustrated in the image below**.**
 
- |
-
-Component
-
- |
-Component
-
- |
-
-GameObject
-
- |
-Entity
-
- |
-
-Prefab
-
- |
-Schematyc Entity
-
- |
-
-Hierarchy Panel
-
- |
-Level Explorer
-
- |
-
-Inspector
-
- |
-Properties Panel
-
- |
-
-Project Browser
-
- |
-Asset Browser
-
- |
-
-Scene
-
- |
-Level
-
- |
-
-Scene View
-
- |
-Perspective
-
- |
-
-Static Mesh
-
- |
-Brush
-
- |
-
-Skinned Mesh
-
- |
-Character
-
- |
-
-Material
-
- |
-Material
-
- |
-
-Particle Effect
-
- |
-Particle Effect
-
- |
-
-UI
-
- |
-Scaleform
-
- |
-
-Mecanim
-
- |
-Mannequin
-
- |
-
-Blend Tree
-
- |
-Blendspace
-
- |
-
-Rigidbody/Character Controller
-
- |
-Entity Physics
-
- |
-
-##
-Project Structure
-
-As with Unity projects, CRYENGINE projects exist in their own directory. Additionally, CRYENGINE projects have a project file that defines certain properties of the project. You can double click on this file to load the Sandbox Editor, or right click it for additional options. CRYENGINE is very liberal about how you structure your project, however there are general conventions that are commonly followed as illustrated in the image below
-**
-.
-**
-
-By default the C# code for the templates is located in the Code folder. A solution for this code can be generated by right-clicking on the Game.cryproject file and selecting
-**
-Generate Solution
-**
-. The solution file will be in the Code folder and can be opened with Visual Studio 2017 providing the CRYENGINE extension is installed.
+By default the C# code for the templates is located in the Code folder. A solution for this code can be generated by right-clicking on the Game.cryproject file and selecting **Generate Solution**. The solution file will be in the Code folder and can be opened with Visual Studio 2017 providing the CRYENGINE extension is installed.
 
 It's also possible to have C# scripts in the Assets folder. These will show up in the Asset Browser of the Sandbox Editor and can be opened from there.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890332)
 
-##
-Importing your Meshes
+### Importing your Meshes
 
 CRYENGINE uses its own file format, Crytek Geometry Format (CGF) for reading meshes. There are two main methods used to convert your meshes into this format:
 
--
-The FBX importer can be used to drag and drop your FBX files directly from Unity into your CRYENGINE project.
+- The FBX importer can be used to drag and drop your FBX files directly from Unity into your CRYENGINE project.
+- If you are a 3DS Max user, the provided plugin can be used to export a CGF directly from 3DS Max.
 
--
-If you are a 3DS Max user, the provided plugin can be used to export a CGF directly from 3DS Max.
+#### Option 1: Using the FBX Importer
 
-##
-Option 1: Using the FBX Importer
+The FBX Importer allows FBX, DXF, DAE, OBJ and 3DS Max files to be dropped directly into your project’s Asset folder and produces a usable CGF file. For more information about this system see [here](../../Editor%20Tools/FBX%20Import%20Tools.md).
 
-The FBX Importer allows FBX, DXF, DAE, OBJ and 3DS Max files to be dropped directly into your project’s Asset folder and produces a usable CGF file. For more information about this system see
-[here](../../Editor%20Tools/FBX%20Import%20Tools.md)
-.
-
-##
-Option 2: Using the 3DS Max Plugin
+#### Option 2: Using the 3DS Max Plugin
 
 Once you have a mesh that is ready to export from 3DS Max, then create a ‘dummy’ from the panel on the right hand side of 3DS Max (as shown below). Place it where you would like the pivot point of your mesh to be and name the dummy what you would like your mesh to be exported as.
 
-**
-Quick Tip:
-**
- If you already have your pivot point set on your mesh press Shift+A, then click your mesh to quickly align the dummy object.
+**Quick Tip:** If you already have your pivot point set on your mesh press Shift+A, then click your mesh to quickly align the dummy object.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890333)
 
@@ -239,248 +100,108 @@ Next open the Schematyc View from the icon shown below and link the mesh to the 
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890335)
 
-As for physics in CRYENGINE, then you can create a proxy mesh for collisions. This is defined by the shape and the material that is applied to the proxy that you create. For more information about this system see
-[here](/docs/static/engines/cryengine-3/categories/1114113/pages/1310876)
-.
+As for physics in CRYENGINE, then you can create a proxy mesh for collisions. This is defined by the shape and the material that is applied to the proxy that you create. For more information about this system see [here](/docs/static/engines/cryengine-3/categories/1114113/pages/1310876).
 
-In the example used here a simple proxy has been created - it has been made a child of the
-**
-mesh
-**
- (not a dummy), assigned the correct material ID and checked the links in schematyc view.
-
-Below is the final setup (the red box being the Proxy Mesh for collisions).
+In the example used here a simple proxy has been created - it has been made a child of the **mesh** (not a dummy), assigned the correct material ID and checked the links in schematyc view. Below is the final setup (the red box being the Proxy Mesh for collisions).
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890336)
 
-Now that we have everything setup, we can use the CRYENGINE Exporter to export the geometry. In the Exporter tick
-**
-“Export File Per Node”
-**
- to create a different CGF file for each file in the export list. If you have changed the normal of the mesh, then also tick
-**
-“Custom Normals”
-**
- and
-if you aren’t using them
-remember to untick
-**
-“Vertex Colours”
-**
-.
+Now that we have everything setup, we can use the CRYENGINE Exporter to export the geometry. In the Exporter tick **“Export File Per Node”** to create a different CGF file for each file in the export list. If you have changed the normal of the mesh, then also tick **“Custom Normals”** and if you aren’t using them remember to untick **“Vertex Colours”**.
 
 Finally, after exporting navigate to where your 3DS Max file is on the file system and you will find that the CGF file has been created.
 
-##
-Converting Textures and Materials
+### Converting Textures and Materials
 
-CRYENGINE comes with a Resource Compiler (RC) tool that is used to
-appropriately
-compress textures for their given use. One common use of this compiler is through a tool integrated into Photoshop that simply gets your textures CRYENGINE ready.
+CRYENGINE comes with a Resource Compiler (RC) tool that is used to appropriately compress textures for their given use. One common use of this compiler is through a tool integrated into Photoshop that simply gets your textures CRYENGINE ready.
 
-**
-Note:
-**
-CRYENGINE uses a Spec/Gloss workflow. If you are using a Metal/Spec workflow then you will need to convert or re-create your metalness map. A good resource in regard to best practices for doing this can be found
-[here](https://www.marmoset.co/posts/pbr-texture-conversion/)
-.
+**Note:** CRYENGINE uses a Spec/Gloss workflow. If you are using a Metal/Spec workflow then you will need to convert or re-create your metalness map. A good resource in regard to best practices for doing this can be found [here](https://www.marmoset.co/posts/pbr-texture-conversion/).
 
 For each map then CRYENGINE looks for different file name endings to determine the type of map it is.
 
-File Name
- |
-File Ending
- |
-Map Type
- |
+File Name | File Ending | Map Type
+--- | --- | ---
+YourTextureName_diff | _diff | Diffuse
+YourTextureName_ddna | _ddna | Normal map, Gloss in Alpha
+YourTextureName_spec | _spec | Specular
+YourTextureName_displ | _displ | Displacement
 
-YourTextureName_diff
-
- |
-_diff
-
- |
-Diffuse
-
- |
-
-YourTextureName_ddna
-
- |
-_ddna
-
- |
-Normal map, Gloss in Alpha
-
- |
-
-YourTextureName_spec
-
- |
-_spec
-
- |
-Specular
-
- |
-
-YourTextureName_displ
-
- |
-_displ
-
- |
-Displacement
-
- |
-
-When saving textures out of Photoshop as a CryTif with the correct file extension, then the RC should bring up the correct settings as seen below. On this screen you have the option for setting the resolution and how things are compressed. If you don’t see your preset, then press the
-**
-"list all presets"
-**
- button to make them appear in the list.
+When saving textures out of Photoshop as a CryTif with the correct file extension, then the RC should bring up the correct settings as seen below. On this screen you have the option for setting the resolution and how things are compressed. If you don’t see your preset, then press the **"list all presets"** button to make them appear in the list.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890337)
 
-##
-Substance Painter Exports
+### Substance Painter Exports
 
 Substance Painter provides you with the ability to combine textures before the export - so it’s easier to run through the RC. Saving out as a PSD file type gives you the ability to load up the PSD and Save out CryTifs efficiently.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890338)
 
-##
-Creating Materials
+### Creating Materials
 
 You can create materials in 3DS Max or directly in CRYENGINE. A quick way to make materials is to just duplicate an existing material in Windows Explorer.
 
 Materials work just like Multi-Materials in 3DS Max. For each different Material ID you need a corresponding material. After you have taken your textures from Unity (and ran them through the RC in Photoshop to create your CryTifs), you can combine them to create your materials.
 
-##
-Importing an Animated Character
+### Importing an Animated Character
 
-##
-Exporting from Maya
+#### Exporting from Maya
 
 Before you start - your skinned mesh must be skinned with Dual Quaternions (DQ's) and not Classic Linear. CRYENGINE works with DQ's, so even if you skin in classic linear, CRYENGINE will treat it as a DQ when it's imported (your skin won’t deform the way you see it in Maya).
 
 Other points to note.
 
--
-When binding also make sure to set the Max Influence Limit to 4
+- When binding also make sure to set the Max Influence Limit to 4
+- The root joint should be oriented so that Y is forward of the Character and Z is up
+- Your root joint should be oriented (90,0,180) - you can achieve this in Maya using the Joint Orient setting in the Attribute Editor
 
--
-The root joint should be oriented so that Y is forward of the Character and Z is up
-
--
-Your root joint should be oriented (90,0,180) - you can achieve this in Maya using the Joint Orient setting in the Attribute Editor
-Start with the rig, making sure it has a skinned mesh and a skeleton, and be sure that all the materials are assigned to the correct meshes. After this you can create material groups in the Material Editor in the CryExporter. Select whichever objects/specific materials will share the same material group and click
-**
-"Create Group From Selection"
-**
-. In this example we use three different material groups, but you can put them all in one if you prefer.
+Start with the rig, making sure it has a skinned mesh and a skeleton, and be sure that all the materials are assigned to the correct meshes. After this you can create material groups in the Material Editor in the CryExporter. Select whichever objects/specific materials will share the same material group and click **"Create Group From Selection"**. In this example we use three different material groups, but you can put them all in one if you prefer.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890339)
 
-##
-Create a Polyplane
+#### Create a Polyplane
 
 Once this is done create a polyplane and hide it inside your Character. Then delete the history, freeze transforms and skin to the pelvis joint. Finally, assign a lambert to it in it’s own material group.
 
 In this example we created a lambert called human_proxyplane and assigned it to the material group M_Human_Rig. We create this polyplane and bind it to the skeleton to transfer information about the skeleton hierarchy in/to CRYENGINE.
 
-Next, open CryTools in Maya, select
-**
-"proxy plane"
-**
- and create CryExportNode. Select chr, name it as you like/or whatever the Character is called and then hit create.
+Next, open CryTools in Maya, select **"proxy plane"** and create CryExportNode. Select chr, name it as you like/or whatever the Character is called and then hit create.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890340)
 
-##
-Skin Attachment
+#### Skin Attachment
 
-We now need to do the same for the skin. For each skin attachment, select it and press
-**
-"Create CryExportNode"
-**
-. Change the file type to skin and press
-**
-"create"
-**
-.
-**
-Note:
-**
- All these things will be taken out of any hierarchy that you have them in (this is fine). Once in CRYENGINE we will attach skin files to the chr file and effectively ‘dress’ our Character.
+We now need to do the same for the skin. For each skin attachment, select it and press **"Create CryExportNode"**. Change the file type to skin and press **"create"**. ** Note:** All these things will be taken out of any hierarchy that you have them in (this is fine). Once in CRYENGINE we will attach skin files to the chr file and effectively ‘dress’ our Character.
 
-Once all the CryExportNodes are created for the rig and every skin attachment, select the proxyplane material made earlier. In the Attribute Editor go down to
-**
- “Extra Attributes”
-**
- and set the Physicalise attribute to ProxyNoDraw. If this attribute isn’t there, open the Cry Exporter and hit the
-**
-"Add Attributes"
-**
- button (it's near the top).
+Once all the CryExportNodes are created for the rig and every skin attachment, select the proxyplane material made earlier. In the Attribute Editor go down to**“Extra Attributes”** and set the Physicalise attribute to ProxyNoDraw. If this attribute isn’t there, open the Cry Exporter and hit the **"Add Attributes"** button (it's near the top).
 
 Create a SceneRoot (Front View: model’s front). This will create a scene root node (and you’ll want to delete everything underneath it). This is an empty ‘group’ node in Maya that is oriented correctly and which is used to let CRYENGINE know which way is forward and up - why? CRYENGINE and Maya use different orientations for world space.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890341)
 
-##
-Physics Mesh
+#### Physics Mesh
 
-The next thing we’ll be making is a Physics Mesh for collisions. Create a polyCube, parent it to the joint it will be following and zero out the translate and rotate values - doing this will make it snap into place. Then in Component mode, tweak the cube into a shape that fits the general area it’s meant to be covering, you can add edge loops and extrude to get what you’re looking for.
-**
-Note:
-**
- You want to try and keep it as low a poly as is possible.
+The next thing we’ll be making is a Physics Mesh for collisions. Create a polyCube, parent it to the joint it will be following and zero out the translate and rotate values - doing this will make it snap into place. Then in Component mode, tweak the cube into a shape that fits the general area it’s meant to be covering, you can add edge loops and extrude to get what you’re looking for. **Note:** You want to try and keep it as low a poly as is possible.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890342)
 
-Name it whatever the joint it’s following is named, but append a ‘_Phys’ to the end of it. So for example a cube that’s following the ‘Bip01__Pelvis’ would be called ‘Bip01__Pelvis_Phys’. Assign it a new lambert and add it to the proxy plane’s material group that you created earlier. To do this select the lambert, open the Material Editor, select the material group you want to add it to and click
-**
-"Add Selected Shaders"
-**
-.
+Name it whatever the joint it’s following is named, but append a ‘_Phys’ to the end of it. So for example a cube that’s following the ‘Bip01__Pelvis’ would be called ‘Bip01__Pelvis_Phys’. Assign it a new lambert and add it to the proxy plane’s material group that you created earlier. To do this select the lambert, open the Material Editor, select the material group you want to add it to and click **"Add Selected Shaders"**.
 
 Duplicate all the proxy meshes and change the ‘_Phys’ to ‘_PhysParentFrame’. Each of these will need to be parented to the joint above the one they’re meant to be following. So look at the joint it’s following and then find the next joint above it that also has a proxy mesh. Parent it to that joint. So for example, the head parent frame mesh wouldn’t be parented to the neck joint.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890343)
 
-Open the CryExporter, set the export path to where you want to save the Character in your project’s asset folder. Select the chr cryExportNode in the Outliner, then in the geometry export section (in Crytek Export) set the custom export path at the bottom of the CryExporter - this will likely be the same destination as the export path you have just set.
-**
-Note:
-**
- While you are doing that, double check and make sure it’s set to chr.
+Open the CryExporter, set the export path to where you want to save the Character in your project’s asset folder. Select the chr cryExportNode in the Outliner, then in the geometry export section (in Crytek Export) set the custom export path at the bottom of the CryExporter - this will likely be the same destination as the export path you have just set. **Note:** While you are doing that, double check and make sure it’s set to chr.
 
 Undertake the same process for each skin cryExportNode, selecting both, setting the custom export path and then checking to make sure they are set to skin files.
 
-Export the chr and skin files by selecting them all in the Outliner and in the Exporter and hitting
-**
-"Export Selected"
-**
-. If it complains, try exporting to a different folder by setting both the export path
-and
- the custom export paths of each node to something else. You might also need to check that you have run the Settings Manager in the cry tools folder. If you needed to export it to somewhere else, just copy and paste the files back into the original place where you were trying to put them.
+Export the chr and skin files by selecting them all in the Outliner and in the Exporter and hitting **"Export Selected"**. If it complains, try exporting to a different folder by setting both the export path and the custom export paths of each node to something else. You might also need to check that you have run the Settings Manager in the cry tools folder. If you needed to export it to somewhere else, just copy and paste the files back into the original place where you were trying to put them.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890344)
 
-##
-Importing into CRYENGINE V
+### Importing into CRYENGINE V
 
 Now that we have finished exporting everything we are ready to move on and import into CRYENGINE.
 
-Head into the Character Tool
-**
-Tools -> Animation -> Character tool.
-**
- Then go to
-**
-File -> New Character
-**
- and create a new Character in the folder, this will make a Character Definition File (CDF).
+Head into the Character Tool **Tools -> Animation -> Character tool.** Then go to ** File -> New Character** and create a new Character in the folder, this will make a Character Definition File (CDF).
 
 In the cdf that has just been made, attach the chr to the ‘skeleton’ field. You’ll find all this in the Properties Panel on the right-hand side. The joints will be pulled into the scene. Put on the proxy material that you made in the skeleton material section. If you can’t find where you put it, you may have to do it directly in the XML and then reload CRYENGINE.
 
@@ -496,22 +217,13 @@ In the Assets Outliner in CRYENGINE, expand the Compression (Animations/) sectio
 
 Add a new Alias and on the right add in your chr. The left-hand side should automatically fill-in with CRYENGINE's default name - feel free to change it. Save the Skeleton List. When you do this CRYENGINE will generate a chrparams file for you.
 
-In the Outliner, under Skeletons, find the chrparams file and double click to open it. However, and before you continue, make sure that you have created a folder under Animations where you will be storing your Character’s animations. You can just look at the whole of the Animations folder, but it’s much better for CRYENGINE to look in a specific folder and not in any of the other Character(s) or weapon animations. Set the chrparams to look at this folder and click the
-**
-"create new anim events"
-**
- button and name it.
+In the Outliner, under Skeletons, find the chrparams file and double click to open it. However, and before you continue, make sure that you have created a folder under Animations where you will be storing your Character’s animations. You can just look at the whole of the Animations folder, but it’s much better for CRYENGINE to look in a specific folder and not in any of the other Character(s) or weapon animations. Set the chrparams to look at this folder and click the **"create new anim events"** button and name it.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890348)
 
-The chrparams file will also contain things such as; AimIK definitions, ground alignment definitions, LOD information and so on.
-**
-NOTE:
-**
- To make changes to the chrparams file then you will need to use a Text Editor of your choice.
+The chrparams file will also contain things such as; AimIK definitions, ground alignment definitions, LOD information and so on. **NOTE:** To make changes to the chrparams file then you will need to use a Text Editor of your choice.
 
-##
-Importing the Animations
+### Importing the Animations
 
 Now that we have the Character loaded into CRYENGINE we are ready to begin importing our animations.
 
@@ -523,28 +235,19 @@ In Maya's Outliner select the root for the animation - this will usually be the 
 
 Set the folder where your animations will be stored and hit OK.
 
-**
-Note:
-**
- In the Anim Manager you cannot list multiple animations that share the same root joint and the same time range - if you do this, then an error will be displayed telling you there’s a duplicate. So you may need to export this animation then come back to the Anim Manager and export out another.
- Select the animations that you want to export, or if you are exporting every animation listed then you don’t need to select anything - just hit export selected animations. Finally, close the Anim Manager.
+**Note:** In the Anim Manager you cannot list multiple animations that share the same root joint and the same time range - if you do this, then an error will be displayed telling you there’s a duplicate. So you may need to export this animation then come back to the Anim Manager and export out another. Select the animations that you want to export, or if you are exporting every animation listed then you don’t need to select anything - just hit export selected animations. Finally, close the Anim Manager.
 
 Once your animations have been exported you will need to go back into the Character Tool in CRYENGINE. Double click on your Character (on the left) and your animations will now be listed under the Animations section in the CRYENGINE Outliner. The little icons beside each animation will have a little man with a hollow head. The hollow head means that the animation hasn’t yet been imported fully. So under Properties, click on the animation and hit import. Once the import is complete the little man's head will be filled in.
 
 CRYENGINE will automatically figure out which rig the animation is attached to. If it does not, then simply change the Skeleton Alias section to the appropriate rig i.e. the one you made in the skeleton list a few steps previously.
 
-##
-Setting up Blendspaces
+### Setting up Blendspaces
 
-For more information regarding
-Blendspaces
- see
-[here](/docs/static/engines/cryengine-3/categories/1114113/pages/11240535)
-.
+For more information regarding Blendspaces see [here](/docs/static/engines/cryengine-3/categories/1114113/pages/11240535).
 
-Make a .bspace file in the Animations folder with following contents:
+Make a.bspace file in the Animations folder with following contents:
 
- <ParaGroup>
+<ParaGroup>
 
 <Dimensions></Dimensions>
 
@@ -554,82 +257,35 @@ Make a .bspace file in the Animations folder with following contents:
 
 </ParaGroup>
 
-Open the Sandbox Editor and open your new Blendspace from the Outliner in the Character Tool. Then go to
-**
-View -> Blendspace Preview
-**
-. First add a dimension, this will be for a variable that will cause the animation to change, such as MoveSpeed or TravelAngle. Think of these as an axes on a graph. Set a minimum and maximum value for the dimension and set the cell count. The cell count will describe the density of the Blendspace grid, and so the density of the virtual examples. Virtual examples are important for providing points where the blendweights are pre-calculated, and so save some calculations at runtime.
-**
-Note:
-**
- The grid won’t appear until you start placing animations in it.
+Open the Sandbox Editor and open your new Blendspace from the Outliner in the Character Tool. Then go to **View -> Blendspace Preview**. First add a dimension, this will be for a variable that will cause the animation to change, such as MoveSpeed or TravelAngle. Think of these as an axes on a graph. Set a minimum and maximum value for the dimension and set the cell count. The cell count will describe the density of the Blendspace grid, and so the density of the virtual examples. Virtual examples are important for providing points where the blendweights are pre-calculated, and so save some calculations at runtime. ** Note:** The grid won’t appear until you start placing animations in it.
 
-You then need to start bringing the animations into the Blendspace. Head over to Examples in the Properties Tab, add an example, hit the little folder icon and find the animation you want to add. Below each animation that you add, you’ll find the variable(s) you are working with and their playback speed. You may need to change the playback speed occasionally, either to fix an animation or if you need to add pseudo examples. An example of when pseudo examples need to be used are when the player is running faster than anticipated - you add the pseudo example to account for this.
-**
-Note:
-**
- You can add the same animation to the Blendspace as many times as you like and then change the playback speed.
+You then need to start bringing the animations into the Blendspace. Head over to Examples in the Properties Tab, add an example, hit the little folder icon and find the animation you want to add. Below each animation that you add, you’ll find the variable(s) you are working with and their playback speed. You may need to change the playback speed occasionally, either to fix an animation or if you need to add pseudo examples. An example of when pseudo examples need to be used are when the player is running faster than anticipated - you add the pseudo example to account for this. **Note:** You can add the same animation to the Blendspace as many times as you like and then change the playback speed.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890350)
 
-Occasionally you may need to change the variables of each animation.
-**
-Note:
-**
- CRYENGINE tries to extrapolate these variables from your animation. So in the case of a rearwards travel angle, then you may need to change the values CRYENGINE gives you. This is because with rearwards movement CRYENGINE reads the angle in radians. Hence:
+Occasionally you may need to change the variables of each animation. **Note:** CRYENGINE tries to extrapolate these variables from your animation. So in the case of a rearwards travel angle, then you may need to change the values CRYENGINE gives you. This is because with rearwards movement CRYENGINE reads the angle in radians. Hence:
 
--
-Moving forwards is 0, moving backwards is π
+- Moving forwards is 0, moving backwards is π
+- Heading left, the travel angle is somewhere between 0 and π
+- Heading right, the travel angle is somewhere between 0 and -π
 
--
-Heading left, the travel angle is somewhere between 0 and π
-
--
-Heading right, the travel angle is somewhere between 0 and -π
 So, in order to create nice blends, you need to import the rearwards animation twice, and to set one with a travel angle of π and the other with a travel angle of -π.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890351)
 
-There is also another type of pseudo example where you combine pre-existing animations to make one new one. You can do this in the pseudo example section under the Properties Panel. However, and depending on the type of Blendspace that you require (1D, 2D or 3D) then the number of animations to be combined will be different.
-**
-Note:
-**
- Regardless of the Blendspace type you will need to set weights for blending - this will be based on how much of each animation you want blended with the other(s).
+There is also another type of pseudo example where you combine pre-existing animations to make one new one. You can do this in the pseudo example section under the Properties Panel. However, and depending on the type of Blendspace that you require (1D, 2D or 3D) then the number of animations to be combined will be different. **Note:** Regardless of the Blendspace type you will need to set weights for blending - this will be based on how much of each animation you want blended with the other(s).
 
-So you have just put the animations into the Blendspace, you now need to actually blend between them - these are called Annotations. Go to the Annotations section under the Properties Panel and add one animation.
-**
-Note:
-**
- At this point you need to decide on how many animations you are blending between. So:
+So you have just put the animations into the Blendspace, you now need to actually blend between them - these are called Annotations. Go to the Annotations section under the Properties Panel and add one animation. **Note:** At this point you need to decide on how many animations you are blending between. So:
 
- If it’s a 1D Blendspace, then you will just be blending between two animations, in which case the default annotation size is fine. You can now add the two animations you are blending between - it doesn’t matter in which order you add them.
+If it’s a 1D Blendspace, then you will just be blending between two animations, in which case the default annotation size is fine. You can now add the two animations you are blending between - it doesn’t matter in which order you add them.
 
-If you require a 2D Blendspace, then it is likely that you will be making squares. In this case set the annotation size to 4 (since 4 animations are needed). Then
-**
-(viewing the Blendspace from above)
-**
-list each animation in an anti-clockwise direction.
-**
-Note:
-**
- It doesn’t matter which animation you start with as long as you list them in an anti-clockwise direction.
+If you require a 2D Blendspace, then it is likely that you will be making squares. In this case set the annotation size to 4 (since 4 animations are needed). Then **(viewing the Blendspace from above)** list each animation in an anti-clockwise direction. **Note:** It doesn’t matter which animation you start with as long as you list them in an anti-clockwise direction.
 
 When using 3D Blendspaces then you can make one of three shapes with your blends; a triangle based pyramid, a square based pyramid or a triangular prism - these will require 4, 5 and 6 animations respectively.
 
-If your shape is pointing up: Then
-**
+If your shape is pointing up: Then**(viewing the Blendspace from above)** start with the base of the shape and list the animations in an anti-clockwise direction.
 
-**
-**
-(viewing the Blendspace from above)
-**
- start with the base of the shape and list the animations in an anti-clockwise direction.
-
-If your shape is pointing downwards: Then
-**
-(viewing the Blendspace from below)
-**
- start with the base of the shape and list the animations in an anti-clockwise direction.
+If your shape is pointing downwards: Then **(viewing the Blendspace from below)** start with the base of the shape and list the animations in an anti-clockwise direction.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890350)
 
@@ -643,8 +299,7 @@ For reference, below is an example of a 1D Blendspace (TurnAngle) and a 3D Blend
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890356)
 
-##
-Translating a Unity Blend Tree
+### Translating a Unity Blend Tree
 
 How do you move from a 2D Blend Tree in Unity to a 2D Blendspace in CRYENGINE? In the example below we have created one that is functional for jogging backwards, forwards and for strafing left and right. Overall the same principles apply - in Unity we would create a 2D freeform Blend Tree using the parameters MovementAngle and Speed in your Character's Animator Controller.
 
@@ -658,7 +313,7 @@ Now you can add jog_fwd, 0.0 on travel angle and 0.5 on PosY. Other examples cou
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890409)
 
-So we will now create a 2D Blendspace in CRYENGINE using the same parameters as were used in the Unity example. However, first make a .bspace file in the Animations Folder with the following contents:
+So we will now create a 2D Blendspace in CRYENGINE using the same parameters as were used in the Unity example. However, first make a.bspace file in the Animations Folder with the following contents:
 
 <ParaGroup>
 
@@ -670,40 +325,23 @@ So we will now create a 2D Blendspace in CRYENGINE using the same parameters as 
 
 </ParaGroup>
 
-Open the Sandbox Editor, open your new Blendspace from the Outliner in the Character Tool and then go to
-**
-View -> Blendspace Preview
-**
-. This will open up a new window that allows you to clearly visualise the parameters and how they will affect your animation.
+Open the Sandbox Editor, open your new Blendspace from the Outliner in the Character Tool and then go to **View -> Blendspace Preview**. This will open up a new window that allows you to clearly visualise the parameters and how they will affect your animation.
 
 First off we want to add the two parameters we are working with i.e. ‘Speed’ and ‘MovementAngle’. In CRYENGINE MovementAngle is called Travel Angle, so select it from the parameter drop down. Under Parameters is another drop down menu, this allows you to change the cell count of your grid. Change the cell count to 10 for Speed and 20 for Angle.
 
 Next we will set our Travel Speed and Travel Angle min and max values. These are 0 and +25 and -3.14 and +3.14 respectively. The speeds selected here suit the particular type of animation we are using in the example, note that in the case of a sprint then they should be increased and in the case of a crawl they should be reduced.
 
-**
-Note:
-**
- We have selected -3.14 and +3.14 for the Travel Angle, why is that? We have done this because 'Moving forward' always has a value of 0.0. Note that values between 0.0 and -3.14 are movements to the right and values between 0.0 and +3.14 are movements to the left. Also note, that the values of +3.14 and -3.14 both represent a perfect rearwards motion and of course to cover a full 360 degrees we need a Blendspace that ranges from -3.14 to +3.14.
+**Note:** We have selected -3.14 and +3.14 for the Travel Angle, why is that? We have done this because 'Moving forward' always has a value of 0.0. Note that values between 0.0 and -3.14 are movements to the right and values between 0.0 and +3.14 are movements to the left. Also note, that the values of +3.14 and -3.14 both represent a perfect rearwards motion and of course to cover a full 360 degrees we need a Blendspace that ranges from -3.14 to +3.14.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890410)
 
 Now let's add animation clips to our Blendspace. Unity calls them Motion Fields, while CRYENGINE calls them Example Fields. Add your animations to the example boxes under the parameters.
 
-Whereas Unity would require you to add a PosX and PosY value (so that the engine understands the motion of the animation clip) CRYENGINE automatically reads the root motion from the animation clip and plots it on your Blendspace Preview. To access this go to
-**
-Edit -> Blend Space Preview
-**
-.
+Whereas Unity would require you to add a PosX and PosY value (so that the engine understands the motion of the animation clip) CRYENGINE automatically reads the root motion from the animation clip and plots it on your Blendspace Preview. To access this go to **Edit -> Blend Space Preview**.
 
-**
-Note:
-**
- If your animation is too slow or too fast, then you can adjust the Playback Scale in the drop down. If you didn’t include root motion and instead want to move the Character in code, then you can simply add a value in the Travel Speed or Travel Angle by ticking the check box and entering a value. Unticking the check box reverts it back to reading root motion.
+**Note:** If your animation is too slow or too fast, then you can adjust the Playback Scale in the drop down. If you didn’t include root motion and instead want to move the Character in code, then you can simply add a value in the Travel Speed or Travel Angle by ticking the check box and entering a value. Unticking the check box reverts it back to reading root motion.
 
-**
-Note:
-**
- CRYENGINE does not want the Idle in this Blendspace (as it would interfere with the smooth blending between directions) so the idle is in another fragment and changed by code.
+**Note:** CRYENGINE does not want the Idle in this Blendspace (as it would interfere with the smooth blending between directions) so the idle is in another fragment and changed by code.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890498)
 
@@ -723,7 +361,7 @@ An example of the blend annotations in XML could be:
 
 </Blendable>
 
- Continue to fill in the blends until you have something in the Blendpsace Preview that looks like the one shown below.
+Continue to fill in the blends until you have something in the Blendpsace Preview that looks like the one shown below.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890510)
 
@@ -731,8 +369,7 @@ You can now preview your new Blendspace by adjusting the Blendspace parameters (
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890511)
 
-##
-From Mecanim to Mannequin
+### From Mecanim to Mannequin
 
 Mannequin is a set of high level tools to help manage the complexities of interactive animation.
 
@@ -744,126 +381,85 @@ To get setup in Mannequin you first need to make a context for your Character in
 
 You will need the following files in Assets/Animations/Mannequin/ADB.
 
--
-thirdperson.adb - the animation database
+- thirdperson.adb - the animation database
+- thirdpersoncontrollerdefinition.xml file - this will define which tags, fragments and scope will belong to the Character
+- playertags.xml - this will be edited by CRYENGINE whenever you add a tag
+- playerfragmentids.xml - this will be edited by CRYENGINE whenever you add a fragment id
 
--
-thirdpersoncontrollerdefinition.xml file -  this will define which tags, fragments and scope will belong to the Character
-
--
-playertags.xml - this will be edited by CRYENGINE whenever you add a tag
-
--
-playerfragmentids.xml - this will be edited by CRYENGINE whenever you add a fragment id
 In Assets/Animations/Mannequin/Preview you’ll need.
 
--
-player.xml - this will tell CRYENGINE what models/scopes and such to use when you are working with the player Character in the Mannequin Editor.
-Once you have created fragments for your animations, then it is easy to right click the scope, add an animation layer(s) and then add your animation. You can add many layers if you choose - this allows you to utilize additive animation techniques. You can set an animation as ‘additive’ by opening the animation in the Character Tool and checking the
-**
-"additive"
-**
- box in the Properties Panel. You can also change the blending of the animation when coming into and out of the fragment and also do other things such as attaching props or inserting aim poses (or other kinds of features programmed by Developers) via
-[procedural](/docs/static/engines/cryengine-3/categories/1114113/pages/15011327)
- layers.
+- player.xml - this will tell CRYENGINE what models/scopes and such to use when you are working with the player Character in the Mannequin Editor.
+
+Once you have created fragments for your animations, then it is easy to right click the scope, add an animation layer(s) and then add your animation. You can add many layers if you choose - this allows you to utilize additive animation techniques. You can set an animation as ‘additive’ by opening the animation in the Character Tool and checking the **"additive"** box in the Properties Panel. You can also change the blending of the animation when coming into and out of the fragment and also do other things such as attaching props or inserting aim poses (or other kinds of features programmed by Developers) via [procedural](/docs/static/engines/cryengine-3/categories/1114113/pages/15011327) layers.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28890530)
 
-##
-Developing User Interfaces
+### Developing User Interfaces
 
-It is possible to create a basic User Interface (UI) through C# using
-[C# UI](../../../API%20Reference/CRYENGINE%20Code%20Tutorials/C%23%20Programming/Using%20C%23%20UI.md)
-. However, we recommend that you use the Scaleform UI implementation that ships with CRYENGINE to develop your games UI. For more information about creating a UI see
-[here](../../User%20Interface%20(HUD%20Menu).md)
-.
+It is possible to create a basic User Interface (UI) through C# using [C# UI](../../../API%20Reference/CRYENGINE%20Code%20Tutorials/C%23%20Programming/Using%20C%23%20UI.md). However, we recommend that you use the Scaleform UI implementation that ships with CRYENGINE to develop your games UI. For more information about creating a UI see [here](../../User%20Interface%20(HUD%20Menu).md).
 
 Another good use for the Timeline is Button states. You can have each of your states on a different frame and switch between them in code.
 
-##
-Localization
+### Localization
 
-CRYENGINE can localize text and sound for different languages. For more information about localiaztion see
-[here](../../User%20Interface%20(HUD%20Menu)/UI%20Overview/Localization%20System.md)
-.
+CRYENGINE can localize text and sound for different languages. For more information about localiaztion see [here](../../User%20Interface%20(HUD%20Menu)/UI%20Overview/Localization%20System.md).
 
-##
-Porting C# Scripted Components
+### Porting C# Scripted Components
 
-To use the generated C# solution from CRYENGINE you need to use
-[Visual Studio 2017 with the CRYENGINE Extension](../../../API%20Reference/CRYENGINE%20Code%20Tutorials/C%23%20Programming.md)
-.
+To use the generated C# solution from CRYENGINE you need to use [Visual Studio 2017 with the CRYENGINE Extension](../../../API%20Reference/CRYENGINE%20Code%20Tutorials/C%23%20Programming.md).
 
-Firstly, create a new project based on the Third Person Shooter C# template - this can be done from the CRYENGINE Launcher. Then with the created template files, right click the
-**
-Game.cryproject
-**
- file and select
-**
-Generate Solution
-**
-. The generated solution can be found in the Code folder of your project.
+Firstly, create a new project based on the Third Person Shooter C# template - this can be done from the CRYENGINE Launcher. Then with the created template files, right click the **Game.cryproject** file and select ** Generate Solution**. The generated solution can be found in the Code folder of your project.
 
 Alternatively, the C# files can be added to the assets. This will make them appear in the Asset Browser of the SandboxEditor from where they can be opened in their solution.
 
-##
-From GameObjects to Entities
+### From GameObjects to Entities
 
 In Unity GameObjects can be placed in the world and functionality added to them through Components (which extend the class named MonoBehaviour). Similarly, in CRYENGINE Entities are placed in the world and EntityComponents are added to them.
 
 Below are two examples of basic Components in Unity and CRYENGINE.
 
 ```
-
-`
 public class ExampleComponent : MonoBehaviour
 {
-  public float myFloat = 5.0f;
+public float myFloat = 5.0f;
 
-  // Use this for initialization
-    void Start(){
+// Use this for initialization
+void Start(){
 
-    }
-
-    // Update is called once per frame
-    void Update(){
-
-    }
-
-    void OnDestroy(){
-
-  }
 }
 
-`
+// Update is called once per frame
+void Update(){
 
+}
+
+void OnDestroy(){
+
+}
+}
 ```
 
 ```
-
-`
 public class ExampleComponent : EntityComponent
 {
-    [EntityProperty]
-    private float MyFloat{get; set;} = 5.0f;
+[EntityProperty]
+private float MyFloat{get; set;} = 5.0f;
 
-    protected override void OnInitialize()
-    {
+protected override void OnInitialize()
+{
 
-    }
-
-    protected override void OnUpdate(float frameTime)
-    {
-
-    }
-
-    protected override void OnRemove()
-    {
-
-    }
 }
-`
 
+protected override void OnUpdate(float frameTime)
+{
+
+}
+
+protected override void OnRemove()
+{
+
+}
+}
 ```
 
 In Unity the Start, Update and OnDestroy functions in MonoBehaviour are; OnGameplayStart, OnUpdate and OnRemove in CRYENGINE. OnInitialize in the CRYENGINE is similar to Awake in Unity, but it is handled a bit differently in some cases. For example, it is called in the Sandbox Editor as soon as the Entity is added to the world, irrespective of whether the game is currently playing. The method OnEditorGameModeChange(bool) can be overriden to receive messages when the user enters GameMode or leaves it again.
@@ -872,244 +468,149 @@ To expose values to the editor in Unity you would create a field and make it pub
 
 These Components can be added to Entities in the Sandbox Editor, for Entities placed in the world or they can be added dynamically at runtime – this is similar to Unity.
 
-##
-Porting Unity's FixedUpdate
+### Porting Unity's FixedUpdate
 
 Unity offers a FixedUpdate function which is called at regular intervals (irrespective of any variations in framerate). However, there is no direct equivalent in CRYENGINE. Any code that interacts with physics can however be moved to the OnPrePhysicsUpdate(float frameTime) function as long as the frameTime is used to scale any movement that should be independent of frame rate.
 
 In the example game in the next section, movement speed is multiplied by frameTime in the Player Component, this is to cancel out any variations in frame rate and ensure movement is smooth and consistent between machines. This is the same as multiplying values in Unity with Time.deltaTime.
 
-##
-Adding a Component
+### Adding a Component
 
 Adding a Component at runtime in Unity and CRYENGINE is very similar, as shown in the examples below.
 
 ```
-
-`
 ExampleComponent component = gameObject.AddComponent<ExampleComponent>();
-`
-
 ```
 
 ```
-
-`
 ExampleComponent component = Entity.AddComponent<ExampleComponent>();
-`
-
 ```
 
-##
-Creating and Destroying Entities
+### Creating and Destroying Entities
 
- In Unity to create an empty GameObject at runtime you can use a function like this.
+In Unity to create an empty GameObject at runtime you can use a function like this.
 
 ```
-
-`
 GameObject SpawnObject(string name, Vector3 spawnPosition, Quaternion spawnRotation)
 {
-    GameObject gameObject = new GameObject(name);
-    gameObject.transform.position = spawnPosition;
-    gameObject.transform.rotation = spawnRotation;
-    return gameObject;
+GameObject gameObject = new GameObject(name);
+gameObject.transform.position = spawnPosition;
+gameObject.transform.rotation = spawnRotation;
+return gameObject;
 }
-`
-
 ```
 
 ```
-
-`
 Entity SpawnEntity(string name, Vector3 position, Quaternion rotation)
 {
-    return Entity.Spawn(name, position, rotation, Vector3.One);
+return Entity.Spawn(name, position, rotation, Vector3.One);
 }
-`
-
 ```
 
 The last parameter in the Entity.Spawn function specifies the scale of the Entity.
 
 In Unity GameObjects have a Transform Component, in CRYENGINE this is built into the Entity itself.
 
-##
-Destroying Entities
+### Destroying Entities
 
 Destroying Entities in the CRYENGINE is very straightforward.
 
 ```
-
-`
 Destroy(gameObject);
-`
-
 ```
 
 ```
-
-`
 Entity.Remove();
-`
-
 ```
 
-##
-Physics (Rigidbody to PhysicsEntity)
+### Physics (Rigidbody to PhysicsEntity)
 
 In Unity Physics support is added to a GameObject using a Rigidbody Component. To add a Rigidbody Component and set its mass to 30 via C# we would simply do the following.
 
 ```
-
-`
 Rigidbody rb = gameObject.AddComponent<Rigidbody>();
 rb.mass = 30;
-`
-
 ```
 
 ```
-
-`
 var physicParams = new RigidPhysicalizeParams();
 physicParams.Mass = 30;
 Entity.Physics.Physicalize(physicParams);
-`
-
 ```
 
 There is no need to add a Rigidbody Component, as Physics is a built-in system that can be accessed through the Physics field in the Component’s Entity. Calling the Physicalize method using this particular structure is what will cause the Entity to have a Rigidbody associated with it (i.e. an associated PhysicsEntity).
 
 Another structure that can be passed, as shown in the next section’s example game is LivingPhysicalizeParams, which will make the Physics Entity behave like a more powerful version of Unity’s CharacterController Component.
 
-##
-Raytracing/Raycast
+### Raytracing/Raycast
 
 A simple raycast from the camera with a distance of 100 meters.
 
 ```
-
-`
 float distance = 100.0f;
 RaycastHit hit;
 
 if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, distance))
 {
-    return hit.collider.gameObject;
+return hit.collider.gameObject;
 }
-`
-
 ```
 
 ```
-
-`
 float distance = 100.0f;
 RaycastHit hit;
 
 if (Physics.Raycast(Camera.Position, Camera.ForwardDirection, distance, out hit))
 {
-    return hit.Entity;
+return hit.Entity;
 }
-`
-
 ```
 
-##
-From Prefabs to Schematyc
+### From Prefabs to Schematyc
 
 In Unity we can easily turn a GameObject (that has been setup in a scene) into a Prefab - which is then stored in a file so that a similar object can be created any number of times. In CRYENGINE this functionality isn’t tied into the Sandbox (level) Editor. Instead there is a system called Schematyc which provides the functionality to setup an Entity prefab in a separate window and that also has a built-in visual scripting language. This way it enables Designers to add simple functionality without requiring the services of a Programmer.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28893802)
 
-The Schematyc Editor can be opened from the Tools menu in the Sandbox Editor. We will use it in the following shooter example to implement a simple prefab, you can read more about its additional features
-[here](../../Beta%20Features/Schematyc.md)
-.
+The Schematyc Editor can be opened from the Tools menu in the Sandbox Editor. We will use it in the following shooter example to implement a simple prefab, you can read more about its additional features [here](../../Beta%20Features/Schematyc.md).
 
-##
-Commonly Asked Questions
+## Commonly Asked Questions
 
-##
-What common file formats are supported?
+#### What common file formats are supported?
 
-Asset Type
- |
-Supported Formats
- |
+Asset Type | Supported Formats
+--- | ---
+3D | .fbx,.obj
+Texture | .tif
 
-3D
- |
-.fbx, .obj
- |
-
-Texture
- |
-.tif
- |
-
-##
-How is my scene stored in CRYENGINE - how does it differ from Unity?
+#### How is my scene stored in CRYENGINE - how does it differ from Unity?
 
 In CRYENGINE the concept of a Unity Scene is replaced with a 'level'. Levels are like Scenes and consist of a terrain setup and a hierarchy of objects. However, unlike in Scenes the hierarchy is split into layers, which are actually separate files on the system. This system of layers allows different layers to be worked on simultaneously and by different people through a version control system.
 
-##
-How do I create and use components?
+#### How do I create and use components?
 
 In CRYENGINE you can add empty Entities to the level, and then add more Components to it through the Add Component button found in the Properties Panel. See the earlier section From GameObjects to Entities.
 
-##
-What about MonoBehaviours?
+#### What about MonoBehaviours?
 
 In Unity, script Components extend MonoBehaviour which provides methods to allow you to define what a Component does. In CRYENGINE you have two options; you can create Components in both C# and C++. In C# just extend the EntityComponent class in the CryEngine namespace. In C++ you can extend IEntityComponent and register it with Schematyc to make it show in the Sandbox Editor.
 
-##
-In code how do I add a component to an enity?
+#### In code how do I add a component to an enity?
 
 In unity you can use the AddComponent<T>() function to add a Component to a Game Object. In CRYENGINE you can use AddComponent<T>() or GetOrCreateComponent<T>() which has similar behavior.
 
-##
-Is the world coordinate system in Unity the same as that used in CRYENGINE?
+#### Is the world coordinate system in Unity the same as that used in CRYENGINE?
 
 In Unity the world coordinate system is left-handed i.e. where +ve X is right, +ve Y is up and +ve Z is into the screen. CRYENGINE also uses a left-handed world coordinate system, however in CRYENGINE's case +ve X is right, +ve Y is into the screen and +ve Z is up.
 
-##
-How do I throw exceptions?
+#### How do I throw exceptions?
 
-In C# exceptions can simply be thrown as usual in C#. If an exception is thrown it will  pause the game and show a popup with more details about the exception. To log messages to the output you can use the Log class.
+In C# exceptions can simply be thrown as usual in C#. If an exception is thrown it will pause the game and show a popup with more details about the exception. To log messages to the output you can use the Log class.
 
 In C++ the CRYENGINE does not allow exception handling. Instead, use the assert() function to trigger assertions when building in debug mode, and use CryLog to log to the output.
 
-##
-How do I see the log output from my game?
+#### How do I see the log output from my game?
 
 Whilst playing the game, the console can be opened by pressing the ~ key (top left on most keyboards). Additionally, the log is appended to a game.log file in the root directory of your project.
 
-[Porting from Unity to CRYENGINE V](#porting-from-unity-to-cryengine-v)
-[Creating a Project](#creating-a-project)
-[Comparing the Editors](#comparing-the-editors)
-[Editors Side by Side](#editors-side-by-side)
-[Glossary](#glossary)
-[Project Structure](#project-structure)
-[Importing your Meshes](#importing-your-meshes)
-[Converting Textures and Materials](#converting-textures-and-materials)
-[Substance Painter Exports](#substance-painter-exports)
-[Creating Materials](#creating-materials)
-[Importing an Animated Character](#importing-an-animated-character)
-[Importing into CRYENGINE V](#importing-into-cryengine-v)
-[Importing the Animations](#importing-the-animations)
-[Setting up Blendspaces](#setting-up-blendspaces)
-[Translating a Unity Blend Tree](#translating-a-unity-blend-tree)
-[From Mecanim to Mannequin](#from-mecanim-to-mannequin)
-[Developing User Interfaces](#developing-user-interfaces)
-[Localization](#localization)
-[Porting C# Scripted Components](#porting-c-scripted-components)
-[From GameObjects to Entities](#from-gameobjects-to-entities)
-[Porting Unity's FixedUpdate](#porting-unitys-fixedupdate)
-[Adding a Component](#adding-a-component)
-[Creating and Destroying Entities](#creating-and-destroying-entities)
-[Destroying Entities](#destroying-entities)
-[Physics (Rigidbody to PhysicsEntity)](#physics-rigidbody-to-physicsentity)
-[Raytracing/Raycast](#raytracingraycast)
-[From Prefabs to Schematyc](#from-prefabs-to-schematyc)
-[Commonly Asked Questions](#commonly-asked-questions)
+[Porting from Unity to CRYENGINE V](#porting-from-unity-to-cryengine-v)[Creating a Project](#creating-a-project)[Comparing the Editors](#comparing-the-editors)[Editors Side by Side](#editors-side-by-side)[Glossary](#glossary)[Project Structure](#project-structure)[Importing your Meshes](#importing-your-meshes)[Converting Textures and Materials](#converting-textures-and-materials)[Substance Painter Exports](#substance-painter-exports)[Creating Materials](#creating-materials)[Importing an Animated Character](#importing-an-animated-character)[Importing into CRYENGINE V](#importing-into-cryengine-v)[Importing the Animations](#importing-the-animations)[Setting up Blendspaces](#setting-up-blendspaces)[Translating a Unity Blend Tree](#translating-a-unity-blend-tree)[From Mecanim to Mannequin](#from-mecanim-to-mannequin)[Developing User Interfaces](#developing-user-interfaces)[Localization](#localization)[Porting C# Scripted Components](#porting-c-scripted-components)[From GameObjects to Entities](#from-gameobjects-to-entities)[Porting Unity's FixedUpdate](#porting-unitys-fixedupdate)[Adding a Component](#adding-a-component)[Creating and Destroying Entities](#creating-and-destroying-entities)[Destroying Entities](#destroying-entities)[Physics (Rigidbody to PhysicsEntity)](#physics-rigidbody-to-physicsentity)[Raytracing/Raycast](#raytracingraycast)[From Prefabs to Schematyc](#from-prefabs-to-schematyc)[Commonly Asked Questions](#commonly-asked-questions)

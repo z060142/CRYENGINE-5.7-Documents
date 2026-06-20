@@ -9,17 +9,14 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29933580)
 
-##
-Overview
+### Overview
 
 In this section you'll find a Photoshop template with the correct PBS values for metals.
 
-##
-Physically Based Values for Metals
+### Physically Based Values for Metals
 
 Here are a selection of various metals saved as swatches for easy color picking based on realistic specular settings.
 
 This will be updated once we discover more values that are not regarded to fit in the 50,50,50 range.
 
-You can download the Physically based value here:
-[pbs_spec_values.aco](/docs/static/attachments/16221041)
+You can download the Physically based value here: [pbs_spec_values.aco](/docs/static/attachments/16221041)

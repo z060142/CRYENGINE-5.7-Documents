@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 Node.js is licensed for use as follows:
 
 """
@@ -1185,6 +1183,4 @@ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE AND DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
 DAMAGE.
 """
-`
-
 ```

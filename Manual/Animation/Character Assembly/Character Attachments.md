@@ -18,8 +18,5 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/51347604)
 
--
-[Cloth](Character%20Attachments/Cloth.md)
-
--
-[Jiggle Bones](Character%20Attachments/Jiggle%20Bones.md)
+- [Cloth](Character%20Attachments/Cloth.md)
+- [Jiggle Bones](Character%20Attachments/Jiggle%20Bones.md)

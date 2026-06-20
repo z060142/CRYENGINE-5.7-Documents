@@ -25,30 +25,26 @@
 ![Image](https://www.cryengine.com/docs/static/attachments/29934153)
 [![Image](https://www.cryengine.com/docs/static/attachments/51347779)](http://www.cryengine.com/support)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/35409820) Animated](/docs/static/engines/cryengine-5/categories/23756816/pages/25534109)
+[![Image](https://www.cryengine.com/docs/static/attachments/35409820)Animated](/docs/static/engines/cryengine-5/categories/23756816/pages/25534109)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/35409591) Blend Layers](/docs/static/engines/cryengine-5/categories/23756816/pages/25534113)
+[![Image](https://www.cryengine.com/docs/static/attachments/35409591)Blend Layers](/docs/static/engines/cryengine-5/categories/23756816/pages/25534113)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/35409592) Decal Texture](/docs/static/engines/cryengine-5/categories/23756816/pages/27593380)
+[![Image](https://www.cryengine.com/docs/static/attachments/35409592)Decal Texture](/docs/static/engines/cryengine-5/categories/23756816/pages/27593380)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/35409597) Detail](/docs/static/engines/cryengine-5/categories/23756816/pages/25534115)
+[![Image](https://www.cryengine.com/docs/static/attachments/35409597)Detail](/docs/static/engines/cryengine-5/categories/23756816/pages/25534115)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/35409593) Skin (SSS)](/docs/static/engines/cryengine-5/categories/23756816/pages/25534119)
+[![Image](https://www.cryengine.com/docs/static/attachments/35409593)Skin (SSS)](/docs/static/engines/cryengine-5/categories/23756816/pages/25534119)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/35409594) Terrain*](/docs/static/engines/cryengine-5/categories/23756816/pages/25534105)
+[![Image](https://www.cryengine.com/docs/static/attachments/35409594)Terrain*](/docs/static/engines/cryengine-5/categories/23756816/pages/25534105)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/35409595) Vegetation](/docs/static/engines/cryengine-5/categories/23756816/pages/25534107)
+[![Image](https://www.cryengine.com/docs/static/attachments/35409595)Vegetation](/docs/static/engines/cryengine-5/categories/23756816/pages/25534107)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/35409596) Wrinkle Map](/docs/static/engines/cryengine-5/categories/23756816/pages/23307984)
+[![Image](https://www.cryengine.com/docs/static/attachments/35409596)Wrinkle Map](/docs/static/engines/cryengine-5/categories/23756816/pages/23307984)
 
-##
-Skin
+##### Skin
 
-##
-Terrain
+##### Terrain
 
-##
-Vegetation
+##### Vegetation
 
-##
-Wrinkle Map
+##### Wrinkle Map

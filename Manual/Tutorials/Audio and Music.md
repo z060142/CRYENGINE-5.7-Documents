@@ -14,8 +14,5 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/106627342)
 
--
-[Tutorial - Audio Showcase](Audio%20and%20Music/Tutorial%20-%20Audio%20Showcase.md)
-
--
-[Tutorial - Setting Up the Dynamic Response System](Audio%20and%20Music/Tutorial%20-%20Setting%20Up%20the%20Dynamic%20Response%20System.md)
+- [Tutorial - Audio Showcase](Audio%20and%20Music/Tutorial%20-%20Audio%20Showcase.md)
+- [Tutorial - Setting Up the Dynamic Response System](Audio%20and%20Music/Tutorial%20-%20Setting%20Up%20the%20Dynamic%20Response%20System.md)

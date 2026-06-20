@@ -7,87 +7,41 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 This article will explain how to setup the MemReplay tool. Depending on your CRYENGINE license, you may have to add some files to your MemReplay folder.
 
 Chapters:
 
-[Requirements](#requirements)
-[Xbox One](#xbox-one)
-[PS4](#ps4)
-[Loading and Analyzing a ZMRL File](#loading-and-analyzing-a-zmrl-file)
+[Requirements](#requirements)[Xbox One](#xbox-one)[PS4](#ps4)[Loading and Analyzing a ZMRL File](#loading-and-analyzing-a-zmrl-file)
 
-##
-Requirements
+### Requirements
 
 MemReplay 1.9 and earlier versions require Visual Studio 2010 to resolve symbols from PDB files. This requirement does not exist for MemReplay 1.10 and later versions.
 
-If you are planning to compile CRYENGINE with a different version than Visual Studio 2012, then you will have to replace
-`
-bin/<platform>/dbghelp.dll
-`
+If you are planning to compile CRYENGINE with a different version than Visual Studio 2012, then you will have to replace `bin/<platform>/dbghelp.dll`
 
-`
-dbghelp.dll
-`
- can be found in the installation folder of the current Visual Studio version. For e.g. if Visual Studio 2012 is used the files can be found here:
+`dbghelp.dll` can be found in the installation folder of the current Visual Studio version. For e.g. if Visual Studio 2012 is used the files can be found here:
 
 ```
-
-`
- C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\Remote Debugger\x64
-`
-
+C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\Remote Debugger\x64
 ```
 
-##
-Xbox One
+#### Xbox One
 
-In addition to the zmrl file, MemReplay requires a core dump file on this platform. Please refer to
-[Getting Started with MemReplay](Getting%20Started%20with%20MemReplay.md)
-.
+In addition to the zmrl file, MemReplay requires a core dump file on this platform. Please refer to [Getting Started with MemReplay](Getting%20Started%20with%20MemReplay.md).
 
-##
-PS4
+#### PS4
 
 MemReplay will ask you to locate the following file when opening a zmrl file the first time. It is located here:
 
 ```
-
-`
 $SCE_ROOT_DIR/ORBIS SDKs/<version>/host_tools/bin/orbis-bin.exe
-`
-
 ```
 
-##
-Loading and Analyzing a ZMRL File
+### Loading and Analyzing a ZMRL File
 
-A
-**
-zmrl
-**
- (
-**
-z
-**
-libbed
-**
-m
-**
-em
-**
-r
-**
-eplay
-**
-l
-**
-og) file is a compressed stream which contains information about memory actions in CRYENGINE. Please read
-[Getting Started with MemReplay](Getting%20Started%20with%20MemReplay.md)
- to find out how to create a zmrl file.
+A **zmrl** (** z**libbed ** m**em** r**eplay ** l**og) file is a compressed stream which contains information about memory actions in CRYENGINE. Please read [Getting Started with MemReplay](Getting%20Started%20with%20MemReplay.md) to find out how to create a zmrl file.
 
 Run MemReplay.exe either from Win32 or x64 and open the zmrl file. You will be asked to help MemReplay locating some files such as pdb files.
 

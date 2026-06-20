@@ -7,19 +7,15 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
-##
-What is xNormal
+### What is xNormal
 
 xNormal is a program that is widely used in the industry for baking down your high res sculpts/ high geometry meshes out of programs like zBrush, Mudbox, etc. to you low res and game ready mesh, maintaining all the detail from your high sculpt/ geometry.
 
-The program is free available and you can download it by visiting:
-[http://www.xnormal.net/Downloads.aspx](http://www.xnormal.net/Downloads.aspx)
+The program is free available and you can download it by visiting: [http://www.xnormal.net/Downloads.aspx](http://www.xnormal.net/Downloads.aspx)
 
-##
-How to use xNormal for normal map bakes and getting the best results
+### How to use xNormal for normal map bakes and getting the best results
 
 The challenge in using xNormal is to be able to get all the detail of your high res mesh onto your low res, game ready mesh and make your lower res game usable mesh appear like the high res mesh.
 
@@ -27,8 +23,7 @@ The defaults results will give you a pretty average result in giving you a lot o
 
 By following this simple rules you'll be able to get all of your detail to your low res game ready mesh, while making it appear like the high res mesh.
 
-##
-Making sure that the low res geometry isn't too low and being able to catch all the rays from the bake
+### Making sure that the low res geometry isn't too low and being able to catch all the rays from the bake
 
 When you're creating your low res mesh, don't go too low on geometry. Always make sure that low res will catch all the curves and angles.
 
@@ -38,8 +33,7 @@ Down below is an example of how low res looks like to get a nice bake.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999585)
 
-##
-Adjusting the ray distance and default mesh scale in xNormal
+### Adjusting the ray distance and default mesh scale in xNormal
 
 Since there are a multiple of 3D software packages in the industry and being used the scale from each to the next can be very different (for an example a grid unit in Maya is different that a grid unit in 3DS Max).
 
@@ -51,8 +45,7 @@ We should also set the ray distance to a higher value then the default one. The 
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999587)
 
-##
-Baking out separate pieces of your geometry
+### Baking out separate pieces of your geometry
 
 If you're still getting double projections and bad seams, one option to fix it is to bake out separate pieces of your mesh.
 
@@ -64,8 +57,7 @@ It is a bit more of a laborious task to break up your mesh into several pieces, 
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999579)
 
-##
-Inverting the Y- value/ green channel of the bake for CRYENGINE
+### Inverting the Y- value/ green channel of the bake for CRYENGINE
 
 In the regular normal map bake settings for xNormal, the Y channel (or green channel in Photoshop) is set to Y+. CRYENGINE and Max use the inverse, meaning a value of Y-. There are two ways to fix that problem.
 
@@ -79,8 +71,7 @@ So the second way is to bake it out normally from xNormal and then once everythi
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999581)
 
-##
-Using xNormal for baking out your Ambient Occlusion
+### Using xNormal for baking out your Ambient Occlusion
 
 With xNormal we are also able to bake out our Ambient Occlusion. To get a nice AO bake we have to tweak some settings. Preferably we want to set our Occlusion rays to 256 or higher. 256 is a good value for a 2048 x2048 image.
 
@@ -92,8 +83,7 @@ The next setting we have to adjust is the spread angle. The maximum value is 179
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999588)
 
-##
-Setting the correct Bucket size and Antialising settings
+### Setting the correct Bucket size and Antialising settings
 
 The next setting we want to change is our bucket size. Normally we used to have the smallest bucket size (16) because the general impression was that it would be more detailed because it does 16 pixels per CPU core but after doing some research we found out that the highest (512) is faster. So if you use 512 and have a quad core with 8 threads, you will see 8 render blocks trying to render 512 pixels each in one go. What we don't want set higher is our AA setting. 1x AA is enough and the difference to a 4x AA is minimal.
 
@@ -107,10 +97,9 @@ The same image has been rendered once with an AA setting of 1x the other of 4x. 
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999590)
 
-##
-Curvature Map
+### Curvature Map
 
-The best use for having a good gloss map, render a curvature map  and that use as an absolute base for the gloss map.
+The best use for having a good gloss map, render a curvature map and that use as an absolute base for the gloss map.
 
 It provides a mid gray image with every edge highlighted where a curve is.
 
@@ -124,8 +113,7 @@ The amount of rays you should set are the same as the AO and also their spread a
 
 To get it to render a grey image, change the "Tone Mapping" setting to monochrome.
 
-##
-ZBrush polypaint/Vertex Colour
+### ZBrush polypaint/Vertex Colour
 
 Some people prefer to use ZBrush polypaint to texture assets. It is important to keep in mind when you do this that the mesh be as dense as possible considering it is vertex colour based. If the high poly mesh is too low, the texturing will turn out blurry and will look very low res.
 
@@ -137,21 +125,10 @@ Now turn on the "Bake Highpoly's Vertex Colour" and asset is ready to render.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999595)
 
-##
-Texture Baking/UV transfer
+### Texture Baking/UV transfer
 
 You can use Xnormal as a "render to texture" tool with the "Bake Base Texture" option.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999596)
 
-[What is xNormal](#what-is-xnormal)
-[How to use xNormal for normal map bakes and getting the best results](#how-to-use-xnormal-for-normal-map-bakes-and-getting-the-best-results)
-[Making sure that the low res geometry isn't too low and being able to catch all the rays from the bake](#making-sure-that-the-low-res-geometry-isnt-too-low-and-being-able-to-catch-all-the-rays-from-the-bake)
-[Adjusting the ray distance and default mesh scale in xNormal](#adjusting-the-ray-distance-and-default-mesh-scale-in-xnormal)
-[Baking out separate pieces of your geometry](#baking-out-separate-pieces-of-your-geometry)
-[Inverting the Y- value/ green channel of the bake for CRYENGINE](#inverting-the-y-value-green-channel-of-the-bake-for-cryengine)
-[Using xNormal for baking out your Ambient Occlusion](#using-xnormal-for-baking-out-your-ambient-occlusion)
-[Setting the correct Bucket size and Antialising settings](#setting-the-correct-bucket-size-and-antialising-settings)
-[Curvature Map](#curvature-map)
-[ZBrush polypaint/Vertex Colour](#zbrush-polypaintvertex-colour)
-[Texture Baking/UV transfer](#texture-bakinguv-transfer)
+[What is xNormal](#what-is-xnormal)[How to use xNormal for normal map bakes and getting the best results](#how-to-use-xnormal-for-normal-map-bakes-and-getting-the-best-results)[Making sure that the low res geometry isn't too low and being able to catch all the rays from the bake](#making-sure-that-the-low-res-geometry-isnt-too-low-and-being-able-to-catch-all-the-rays-from-the-bake)[Adjusting the ray distance and default mesh scale in xNormal](#adjusting-the-ray-distance-and-default-mesh-scale-in-xnormal)[Baking out separate pieces of your geometry](#baking-out-separate-pieces-of-your-geometry)[Inverting the Y- value/ green channel of the bake for CRYENGINE](#inverting-the-y-value-green-channel-of-the-bake-for-cryengine)[Using xNormal for baking out your Ambient Occlusion](#using-xnormal-for-baking-out-your-ambient-occlusion)[Setting the correct Bucket size and Antialising settings](#setting-the-correct-bucket-size-and-antialising-settings)[Curvature Map](#curvature-map)[ZBrush polypaint/Vertex Colour](#zbrush-polypaintvertex-colour)[Texture Baking/UV transfer](#texture-bakinguv-transfer)

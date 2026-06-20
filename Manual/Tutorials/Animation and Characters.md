@@ -19,17 +19,4 @@
 
 Everything about getting animated characters, props, and anything else you want to move up and running.
 
--
-[3DS Max](Animation%20and%20Characters/3DS%20Max.md)
-
--
-[Blender](Animation%20and%20Characters/Blender.md)
-
--
-[Maya](Animation%20and%20Characters/Maya.md)
-
--
-[Character Tool and Pipeline](Animation%20and%20Characters/Character%20Tool%20and%20Pipeline.md)
-
--
-[Mannequin Editor*](Animation%20and%20Characters/Mannequin%20Editor.md)
+- [3DS Max](Animation%20and%20Characters/3DS%20Max.md) - [Blender](Animation%20and%20Characters/Blender.md) - [Maya](Animation%20and%20Characters/Maya.md) - [Character Tool and Pipeline](Animation%20and%20Characters/Character%20Tool%20and%20Pipeline.md) - [Mannequin Editor*](Animation%20and%20Characters/Mannequin%20Editor.md)

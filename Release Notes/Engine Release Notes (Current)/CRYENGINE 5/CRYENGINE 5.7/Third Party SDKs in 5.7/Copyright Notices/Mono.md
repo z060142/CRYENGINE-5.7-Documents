@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 In general, the runtime and its class libraries are licensed under the
 terms of the MIT license, and some third party code is licensed under
 the 3-clause BSD license. See the file "PATENTS.TXT" for Microsoft's
@@ -1465,6 +1463,4 @@ proprietary programs. If your program is a subroutine library, you may
 consider it more useful to permit linking proprietary applications with the
 library. If this is what you want to do, use the GNU Library General
 Public License instead of this License.
-`
-
 ```

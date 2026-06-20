@@ -13,61 +13,37 @@
 
 ## Content
 
-Currently,
-CRYENGINE lets you use predefined C# templates that allow users to easily create a game level from scratch. The template enables you to:
+Currently, CRYENGINE lets you use predefined C# templates that allow users to easily create a game level from scratch. The template enables you to:
 
--
-Quickly get started with your game.
+- Quickly get started with your game.
+- Use the CRYENGINE as a practice platform where you can try out certain features that can be used in your game(s).
 
--
-Use the CRYENGINE as a practice platform where you can try out certain features that can be used in your game(s).
-[Blank Template](#blank-template)
-[Rolling Ball Template](#rolling-ball-template)
-[Third Person Shooter Template](#third-person-shooter-template)
+[Blank Template](#blank-template)[Rolling Ball Template](#rolling-ball-template)[Third Person Shooter Template](#third-person-shooter-template)
 
-##
-Blank Template
+### Blank Template
 
-The blank template is designed for those situations where you want to start a project from scratch. This template only includes an FPS counter and a basic setup of a
-[CryEnginePlugin](https://www.cryengine.com/sdk/5.3.0/cs_api/interface_cry_engine_1_1_i_cry_engine_plugin.html)
- which can be used as a starting point for initializing your project. If you're not familiar with programming in C# in CRYENGINE, then we recommended that you first start off with another one of the available basic templates.
+The blank template is designed for those situations where you want to start a project from scratch. This template only includes an FPS counter and a basic setup of a [CryEnginePlugin](https://www.cryengine.com/sdk/5.3.0/cs_api/interface_cry_engine_1_1_i_cry_engine_plugin.html) which can be used as a starting point for initializing your project. If you're not familiar with programming in C# in CRYENGINE, then we recommended that you first start off with another one of the available basic templates.
 
-See also:
-[C# Blank Template](C%23%20Game%20Templates/C%23%20Blank%20Template.md)
+See also: [C# Blank Template](C%23%20Game%20Templates/C%23%20Blank%20Template.md)
 
-##
-Rolling Ball Template
+### Rolling Ball Template
 
 The Rolling Ball template is a simple game in which you can control a ball that rolls around the level. The template shows you how to;
 
--
-Use the
-[EntityComponent](https://www.cryengine.com/sdk/5.3.0/cs_api/class_cry_engine_1_1_entity_component.html)
-to modify the behavior of the entities in your game.
+- Use the [EntityComponent](https://www.cryengine.com/sdk/5.3.0/cs_api/class_cry_engine_1_1_entity_component.html)to modify the behavior of the entities in your game.
+- How to receive input from the Player.
+- How to use physics to move entities around.
 
--
-How to receive input from the Player.
-
--
-How to use physics to move entities around.
 If you're not familiar with programming in C# in CRYENGINE then it is recommended that you take a look at this template first.
 
-See also:
-[C# Rolling Ball Template](C%23%20Game%20Templates/C%23%20Rolling%20Ball%20Template.md)
+See also: [C# Rolling Ball Template](C%23%20Game%20Templates/C%23%20Rolling%20Ball%20Template.md)
 
-##
-Third Person Shooter Template
+### Third Person Shooter Template
 
 The Third Person Shooter template provides the very basics of a third person shooting game. The template shows you how to:
 
--
-Set up a player character using
-[EntityComponent.](https://www.cryengine.com/sdk/5.3.0/cs_api/class_cry_engine_1_1_entity_component.html)
+- Set up a player character using [EntityComponent.](https://www.cryengine.com/sdk/5.3.0/cs_api/class_cry_engine_1_1_entity_component.html)
+- Animate a character.
+- Spawn bullets and detect collision.
 
--
-Animate a character.
-
--
-Spawn bullets and detect collision.
-See also:
-[C# Third Person Shooter Template](C%23%20Game%20Templates/C%23%20Third%20Person%20Shooter%20Template.md)
+See also: [C# Third Person Shooter Template](C%23%20Game%20Templates/C%23%20Third%20Person%20Shooter%20Template.md)

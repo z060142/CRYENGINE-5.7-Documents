@@ -8,9 +8,5 @@
 ## Content
 
 ```
-
-`
 LZMA Compression Library, Igor Pavlov : Public domain
-`
-
 ```

@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Damage
+### Damage
 
 Damages attached entity by [Damage] when [Trigger] is activated.
 
@@ -22,22 +21,19 @@ The target of the node has to be an actor, it does not work with entities that a
 
 In the above example, when the player is inside the trigger box it will apply 1 damage to the player every second at the start. As the Interpol:Float counts down to 0.05, this will reduce the time between each damage strike being applied.
 
-##
-EnslaveCharacter
+### EnslaveCharacter
 
 Enslave one character to another.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901103)
 
-##
-GrabObject
+### GrabObject
 
 Target entity will try to grab the input object, respectively drop/throw its currently grabbed object.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901108)
 
-##
-HealthCheck
+### HealthCheck
 
 The HealthCheck (formerly Game:ActorCheckHealth) node checks the health of an actor and outputs the result on a Boolean output port.
 
@@ -49,26 +45,9 @@ When the node is triggered the health of the target entity is checked and if it 
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901101)
 
-In the above example, we have set up a flow graph to test the player's health value when he enters a trigger box, then if it is above 50, spawn all three of the enemies. If the player's health is below 50, only spawn two of the enemies. The health of an actor is checked by using the
-*
-Game:ActorCheckHealth
-*
- node and checking the Boolean output port using a
-*
-Math:FromBoolean
-*
- node. The input to the
-*
-Math:FromBoolean
-*
- node will be true if the health of the target entity is between 0 and 50. The
-*
-Math:FromBoolean
-*
- node then splits the output to be passed on to either 2 or 3 enemies.
+In the above example, we have set up a flow graph to test the player's health value when he enters a trigger box, then if it is above 50, spawn all three of the enemies. If the player's health is below 50, only spawn two of the enemies. The health of an actor is checked by using the *Game:ActorCheckHealth* node and checking the Boolean output port using a * Math:FromBoolean* node. The input to the * Math:FromBoolean* node will be true if the health of the target entity is between 0 and 50. The * Math:FromBoolean* node then splits the output to be passed on to either 2 or 3 enemies.
 
-##
-HealthGet
+### HealthGet
 
 Formerly "Game:ActorGetHealth". Get health of an entity (actor).
 
@@ -82,8 +61,7 @@ In this example, the health of the target entity is compared using a Math:Less n
 
 If it is true, it will pass through the true port & into the HealthSet node then carry on with the flowgraph. If the health is above 50, do nothing and pass on to the next step of the flowgraph.
 
-##
-HealthSet
+### HealthSet
 
 Formerly "Game:ActorSetHealth". Set health of an entity (actor).
 
@@ -95,39 +73,24 @@ This node can be used to set the health amount on a specified entity.
 
 In the above example, we are testing the player's health level with the Game:ActorSetHealth node and if it is below a certain level we use the Game:ActorSetHealth node to set it to 75.
 
-##
-LocalPlayer
+### LocalPlayer
 
 Outputs the local player's entity id - NOT USABLE FOR MULTIPLAYER WITHOUT UPDATING BY HAND AFTER GAMESTART.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901114)
 
-In this example, the ID of an entity entering a proximity trigger is compared to the local player ID using the
-*
-Math:Equal
-*
- node.
+In this example, the ID of an entity entering a proximity trigger is compared to the local player ID using the *Math:Equal* node.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901096)
 
-##
-PlayMannequinFragment
+### PlayMannequinFragment
 
 Play a Mannequin Fragment on a given entity with given Tags.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901089)
 
-##
-ProcClipEventListener
+### ProcClipEventListener
 
 Listens for Mannequin procedural clip events.
 
-[Damage](#damage)
-[EnslaveCharacter](#enslavecharacter)
-[GrabObject](#grabobject)
-[HealthCheck](#healthcheck)
-[HealthGet](#healthget)
-[HealthSet](#healthset)
-[LocalPlayer](#localplayer)
-[PlayMannequinFragment](#playmannequinfragment)
-[ProcClipEventListener](#procclipeventlistener)
+[Damage](#damage)[EnslaveCharacter](#enslavecharacter)[GrabObject](#grabobject)[HealthCheck](#healthcheck)[HealthGet](#healthget)[HealthSet](#healthset)[LocalPlayer](#localplayer)[PlayMannequinFragment](#playmannequinfragment)[ProcClipEventListener](#procclipeventlistener)

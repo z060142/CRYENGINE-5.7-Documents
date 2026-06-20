@@ -7,20 +7,12 @@
 
 ## Content
 
-##
-Launcher Version 1.9.2
+## Launcher Version 1.9.2
 
-##
-Landing Page
+#### Landing Page
 
-**
-Fixed:
-**
-Remove project popup was not working correctly.
+**Fixed:** Remove project popup was not working correctly.
 
-**
-Fixed:
-**
-Conflicting DLLs (differing versions) installed by other programs caused the Launcher to not open properly. This fixes errors such as "
+**Fixed:** Conflicting DLLs (differing versions) installed by other programs caused the Launcher to not open properly. This fixes errors such as "
 
 "Fatal Error: Ordinal 456 could not be found in libcore.dll".

@@ -7,57 +7,47 @@
 
 ## Content
 
-##
-AnimationEventListener
+### AnimationEventListener
 
 Listens for a specific animation event and triggers the output.
 
-##
-AttachmentControl
+### AttachmentControl
 
-By choosing a .cdf entity, you can choose all its attachments and hide or display them. The Barrel_Guy is a cdf entity, who has a Barrel attached to his hand.
+By choosing a.cdf entity, you can choose all its attachments and hide or display them. The Barrel_Guy is a cdf entity, who has a Barrel attached to his hand.
 
 This Barrel is getting shown or hidden based on Trackevent in a Trackview sequence.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901194)
 
-##
-BoneInfo
+### BoneInfo
 
-By choosing a .chr entity, you can choose all its bones and use the local and global position and rotation data of that bone to create attachments or link objects.
+By choosing a.chr entity, you can choose all its bones and use the local and global position and rotation data of that bone to create attachments or link objects.
 
-##
-CheckAnimPlaying
+### CheckAnimPlaying
 
 Can check if a defined animation is being played or not.
 
-##
-CooperativeAnimation
+### CooperativeAnimation
 
 Allows the playing of an exact positioned animation on one or two characters with alignment.
 
-##
-LookAt
+### LookAt
 
 The LookAt node makes AI entities use LookAt control. Target is for an entityID and TargetPos is a position in space.
 
-##
-NoAiming
+### NoAiming
 
 Controls the AnimationGraph of the attached entity.
 
-##
-PlayAnimation
+### PlayAnimation
 
-Plays an animation on this character's skeleton - bypassing the AnimationGraph. The animation name can be specified directly as mapped in the .cal file.
+Plays an animation on this character's skeleton - bypassing the AnimationGraph. The animation name can be specified directly as mapped in the.cal file.
 
-##
-PlayCGA
+### PlayCGA
 
-Plays .cga files and their animation also plays .anm files belonging to the .cga file. Trigger starts the animation.
+Plays.cga files and their animation also plays.anm files belonging to the.cga file. Trigger starts the animation.
 
-##
-PlaySequence
+### PlaySequence
 
 Plays a Trackview Sequence. Sequence has to point to the right Trackview Sequence. StartTrigger is starting the sequence. StopTrigger is stopping a sequence. PerformBlendOut would make sure that the camera has a seamless blend into the game camera when the sequence is over. Make sure to beam the player to the right place when the sequence starts. BlendPosSpeed and BlendRotSpeed sets the speed which the blending of position and rotation happens to the game camera. If BreakOnStop is set to True, stopping the sequence doesn't make it jump to the end. Start time sets the time from which the sequence starts playing.
 
@@ -65,31 +55,16 @@ Started outputs the start, Done outputs if the sequence is either played or skip
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901195)
 
-##
-StopAnimation
+### StopAnimation
 
 Controls the AnimationGraph of the attached entity.
 
-##
-SynchronizeTwoAnimations
+### SynchronizeTwoAnimations
 
 Synchronize two animations between two entities.
 
-##
-TriggerOnKeyTime
+### TriggerOnKeyTime
 
 Triggers the animations based on the key time.
 
-[AnimationEventListener](#animationeventlistener)
-[AttachmentControl](#attachmentcontrol)
-[BoneInfo](#boneinfo)
-[CheckAnimPlaying](#checkanimplaying)
-[CooperativeAnimation](#cooperativeanimation)
-[LookAt](#lookat)
-[NoAiming](#noaiming)
-[PlayAnimation](#playanimation)
-[PlayCGA](#playcga)
-[PlaySequence](#playsequence)
-[StopAnimation](#stopanimation)
-[SynchronizeTwoAnimations](#synchronizetwoanimations)
-[TriggerOnKeyTime](#triggeronkeytime)
+[AnimationEventListener](#animationeventlistener)[AttachmentControl](#attachmentcontrol)[BoneInfo](#boneinfo)[CheckAnimPlaying](#checkanimplaying)[CooperativeAnimation](#cooperativeanimation)[LookAt](#lookat)[NoAiming](#noaiming)[PlayAnimation](#playanimation)[PlayCGA](#playcga)[PlaySequence](#playsequence)[StopAnimation](#stopanimation)[SynchronizeTwoAnimations](#synchronizetwoanimations)[TriggerOnKeyTime](#triggeronkeytime)

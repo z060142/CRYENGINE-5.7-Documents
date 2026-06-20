@@ -7,24 +7,20 @@
 
 ## Content
 
-##
-C++ API Reference
+### C++ API Reference
 
 The CRYENGINE C++ API reference for the most recent version of CRYENGINE is available here:
 
 [C++ API for CRYENGINE 5.5](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 
-C++ API documentation for earlier relases
-[C++ API for CRYENGINE 5.4](http://www.cryengine.com/sdk/5.4.0/cpp_api/annotated.html)
+C++ API documentation for earlier relases[C++ API for CRYENGINE 5.4](http://www.cryengine.com/sdk/5.4.0/cpp_api/annotated.html)
 
 [C++ API for CRYENGINE 5.3](http://www.cryengine.com/sdk/5.3.0/cpp_api/annotated.html)
 
 [C++ API for CRYENGINE 5.2](http://www.cryengine.com/sdk/5.2.0/cpp_api/annotated.html)
 
-[C++ API for CRYENGINE 5.1](http://www.cryengine.com/sdk/5.1.0/cpp_api/annotated.html)
-[http://www.cryengine.com/sdk/5.0.0/cpp_api/index.html](http://www.cryengine.com/sdk/5.0.0/cpp_api/index.html)
+[C++ API for CRYENGINE 5.1](http://www.cryengine.com/sdk/5.1.0/cpp_api/annotated.html)[http://www.cryengine.com/sdk/5.0.0/cpp_api/index.html](http://www.cryengine.com/sdk/5.0.0/cpp_api/index.html)
 
 [C++ API for CRYENGINE 5.0](http://www.cryengine.com/sdk/5.0.0/cpp_api/annotated.html)
 
-##
-Related Pages
+##### Related Pages

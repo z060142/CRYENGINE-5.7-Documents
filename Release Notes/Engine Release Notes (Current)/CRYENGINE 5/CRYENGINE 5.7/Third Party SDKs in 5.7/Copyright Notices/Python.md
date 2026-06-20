@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 A. HISTORY OF THE SOFTWARE
 ==========================
 
@@ -602,7 +600,4 @@ Parts of this software are based on the HTML Library software
 copyrighted by Sun Microsystems, Inc. The original license terms of
 the HTML Library software distribution is included in the file
 docs/license.html_lib.
-
-`
-
 ```

@@ -7,558 +7,129 @@
 
 ## Content
 
-##
-GetEntities
+### GetEntities
 
 Used to find and return all entities in the world.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687850)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Start** | Any | Triggers the node
+**Next** | Any | Gets the next entity found
+**Limit** | Integer | Limits how many entities are returned
+**Immediate** | Boolean | Iterates immediately through the results
+**Type** | Integer | Type of entity to iterate
 
-**
-Start
-**
- |
-Any
- |
-Triggers the node
- |
+**Outputs**
 
-**
-Next
-**
- |
-Any
- |
-Gets the next entity found
- |
+Port | Type | Description
+--- | --- | ---
+**EntityId** | Any | Outputs the entity and entity ID
+**Count** | Integer | Outputs the current of entities
+**Done** | Integer | Triggered when all entities have been found, with the total count returned
 
-**
-Limit
-**
- |
-Integer
- |
-Limits how many entities are returned
- |
-
-**
-Immediate
-**
- |
-Boolean
- |
-Iterates immediately through the results
- |
-
-**
-Type
-**
- |
-Integer
- |
-Type of entity to iterate
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-EntityId
-**
- |
-Any
- |
-Outputs the entity and entity ID
- |
-
-**
-Count
-**
- |
-Integer
- |
-Outputs the current of entities
- |
-
-**
-Done
-**
- |
-Integer
- |
-Triggered when all entities have been found, with the total count returned
- |
-
-##
-GetEntitiesInArea
+### GetEntitiesInArea
 
 Used to find and return all entities within the specified area shape.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687849)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Start** | Any | Triggers the node
+**Next** | Any | Gets the next entity found
+**Limit** | Integer | Limits how many entities are returned
+**Immediate** | Boolean | Iterates immediately through the results
+**Type** | Integer | Type of entity to iterate
+**Area** | String | Name of area shape to test against
 
-**
-Start
-**
- |
-Any
- |
-Triggers the node
- |
+**Outputs**
 
-**
-Next
-**
- |
-Any
- |
-Gets the next entity found
- |
+Port | Type | Description
+--- | --- | ---
+**EntityId** | Any | Outputs the entity and entity ID
+**Count** | Integer | Outputs the current of entities
+**Done** | Integer | Triggered when all entities have been found, with the total count returned
 
-**
-Limit
-**
- |
-Integer
- |
-Limits how many entities are returned
- |
-
-**
-Immediate
-**
- |
-Boolean
- |
-Iterates immediately through the results
- |
-
-**
-Type
-**
- |
-Integer
- |
-Type of entity to iterate
- |
-
-**
-Area
-**
- |
-String
- |
-Name of area shape to test against
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-EntityId
-**
- |
-Any
- |
-Outputs the entity and entity ID
- |
-
-**
-Count
-**
- |
-Integer
- |
-Outputs the current of entities
- |
-
-**
-Done
-**
- |
-Integer
- |
-Triggered when all entities have been found, with the total count returned
- |
-
-##
-GetEntitiesInBox
+### GetEntitiesInBox
 
 Used to find and return all entities within the defined AABB box.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687848)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Start** | Any | Triggers the node
+**Next** | Any | Gets the next entity found
+**Limit** | Integer | Limits how many entities are returned
+**Immediate** | Any | Iterates immediately through the results
+**Type** | Integer | Type of entity to iterate
+**Min** | Vec3 | Minimum vector extents of the AABB bounding box to check for entities
+**Max** | Vec3 | Maximum vector extents of the AABB bounding box to check for entities
 
-**
-Start
-**
- |
-Any
- |
-Triggers the node
- |
+**Outputs**
 
-**
-Next
-**
- |
-Any
- |
-Gets the next entity found
- |
+Port | Type | Description
+--- | --- | ---
+**EntityId** | Any | Outputs the entity and entity ID
+**Count** | Integer | Outputs the current of entities
+**Done** | Integer | Triggered when all entities have been found, with the total count returned
 
-**
-Limit
-**
- |
-Integer
- |
-Limits how many entities are returned
- |
-
-**
-Immediate
-**
- |
-Any
- |
-Iterates immediately through the results
- |
-
-**
-Type
-**
- |
-Integer
- |
-Type of entity to iterate
- |
-
-**
-Min
-**
- |
-Vec3
- |
-Minimum vector extents of the AABB bounding box to check for entities
- |
-
-**
-Max
-**
- |
-Vec3
- |
-Maximum vector extents of the AABB bounding box to check for entities
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-EntityId
-**
- |
-Any
- |
-Outputs the entity and entity ID
- |
-
-**
-Count
-**
- |
-Integer
- |
-Outputs the current of entities
- |
-
-**
-Done
-**
- |
-Integer
- |
-Triggered when all entities have been found, with the total count returned
- |
-
-##
-GetEntitiesInBoxByClass
+### GetEntitiesInBoxByClass
 
 Used to find and return all entities assigned to the classes that are defined AABB box.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687847)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Start** | Any | Triggers the node
+**Next** | Any | Gets the next entity found
+**Limit** | Integer | Limits how many entities are returned
+**Immediate** | Any | Iterates immediately through the results
+**ClassName** | Integer | Specify the Class name.
 
-**
-Start
-**
- |
-Any
- |
-Triggers the node
- |
+**Outputs**
 
-**
-Next
-**
- |
-Any
- |
-Gets the next entity found
- |
+Port | Type | Description
+--- | --- | ---
+**EntityId** | Any | Outputs the entity and entity ID
+**Count** | Integer | Outputs the current of entities
+**Done** | Integer | Triggered when all entities have been found, with the total count returned
 
-**
-Limit
-**
- |
-Integer
- |
-Limits how many entities are returned
- |
-
-**
-Immediate
-**
- |
-Any
- |
-Iterates immediately through the results
- |
-
-**
-ClassName
-**
- |
-Integer
- |
-Specify the Class name.
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-EntityId
-**
- |
-Any
- |
-Outputs the entity and entity ID
- |
-
-**
-Count
-**
- |
-Integer
- |
-Outputs the current of entities
- |
-
-**
-Done
-**
- |
-Integer
- |
-Triggered when all entities have been found, with the total count returned
- |
-
-##
-GetEntitiesInSphere
+### GetEntitiesInSphere
 
 Used to find and return all entities within the defined sphere volume.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687846)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Start** | Any | Triggers the node
+**Next** | Any | Gets the next entity found
+**Limit** | Integer | Limits how many entities are returned
+**Immediate** | Boolean | Iterates immediately through the results
+**Type** | Integer | Type of entity to iterate
+**Center** | Vec3 | Center of the sphere
+**Radius** | Float | Distance from the center of the sphere to check for entities
 
-**
-Start
-**
- |
-Any
- |
-Triggers the node
- |
+**Outputs**
 
-**
-Next
-**
- |
-Any
- |
-Gets the next entity found
- |
+Port | Type | Description
+--- | --- | ---
+**EntityId** | Any | Outputs the entity and entity ID
+**Count** | Integer | Outputs the current of entities
+**Done** | Integer | Triggered when all entities have been found, with the total count returned
 
-**
-Limit
-**
- |
-Integer
- |
-Limits how many entities are returned
- |
-
-**
-Immediate
-**
- |
-Boolean
- |
-Iterates immediately through the results
- |
-
-**
-Type
-**
- |
-Integer
- |
-Type of entity to iterate
- |
-
-**
-Center
-**
- |
-Vec3
- |
-Center of the sphere
- |
-
-**
-Radius
-**
- |
-Float
- |
-Distance from the center of the sphere to check for entities
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-EntityId
-**
- |
-Any
- |
-Outputs the entity and entity ID
- |
-
-**
-Count
-**
- |
-Integer
- |
-Outputs the current of entities
- |
-
-**
-Done
-**
- |
-Integer
- |
-Triggered when all entities have been found, with the total count returned
- |
-
-[GetEntities](#getentities)
-[GetEntitiesInArea](#getentitiesinarea)
-[GetEntitiesInBox](#getentitiesinbox)
-[GetEntitiesInBoxByClass](#getentitiesinboxbyclass)
-[GetEntitiesInSphere](#getentitiesinsphere)
+[GetEntities](#getentities)[GetEntitiesInArea](#getentitiesinarea)[GetEntitiesInBox](#getentitiesinbox)[GetEntitiesInBoxByClass](#getentitiesinboxbyclass)[GetEntitiesInSphere](#getentitiesinsphere)

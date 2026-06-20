@@ -14,10 +14,8 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 These topics will cover the fundamentals behind the implementation and use of SSRS (Screen Space Re-Projection Stereo) within CryENGINE3 and Sandbox.
 
-##
-In This Topic
+### In This Topic

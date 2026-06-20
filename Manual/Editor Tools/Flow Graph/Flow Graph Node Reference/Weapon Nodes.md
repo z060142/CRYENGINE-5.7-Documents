@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Accessory
+### Accessory
 
 Attach/Detach [Accessory] from Actor's weapon [Weapon]. Both must be in the Inventory.
 
@@ -18,8 +17,7 @@ In this example, we're pressing 'P' to detach the currently equipped SniperScope
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688111)
 
-##
-AccessoryCheck
+### AccessoryCheck
 
 Checks if target actor's current weapon has [Accessory] attached.
 
@@ -29,8 +27,7 @@ In this example, we're checking which Scope the player's current weapon has atta
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688113)
 
-##
-ActorWeaponMagazineAmmo
+### ActorWeaponMagazineAmmo
 
 Get/Set ammo in the magazine of the current player's weapon.
 
@@ -42,103 +39,59 @@ We also set the AmmoCount amount to '3' with the 'P' key which then gives us 3 s
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688115)
 
-##
-AmmoChange
+### AmmoChange
 
 Give or Take ammo to/from a local player. Weapon and AmmoType must match [e.g. "SOCOM and "bullet"].
 
-##
-AutoSightWeapon
+### AutoSightWeapon
 
 This node allows to connect the enenmy position vector to shoot here.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688103)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Enemy** | Vec3 | Aims the weapon at the enemy's position
 
-**
-Enemy
-**
- |
-Vec3
- |
-Aims the weapon at the enemy's position
- |
-
-##
-ChangeFireMode
+### ChangeFireMode
 
 Switched the weapon fire mode.
 
-##
-Explosion
+### Explosion
 
 Triggers an explosion.
 
-##
-ExplosionInfo
+### ExplosionInfo
 
 Tracks Explosions. All input conditions (ShooterId, Ammo, ImpactTargetId) must be fulfilled to output. If a condition is left empty/not connected, it is regarded as fulfilled.
 
-##
-FireWeapon
+### FireWeapon
 
 Fires a weapon and sets a target entity or a target position.
 
-##
-HitInfo
+### HitInfo
 
 Tracks Hits on Actors. All input conditions (ShooterId, TargetId, Weapon, Ammo) must be fulfilled to output. If a condition is left empty/not connected, it is regarded as fulfilled.
 
-##
-ItemAction
+### ItemAction
 
 Plays an action on an item.
 
-##
-Listener
+### Listener
 
 Listens on [WeaponId] (or players [WeaponClass], or as fallback current players weapon) and triggers OnShoot when shot.
 
-##
-ZoomCheck
+### ZoomCheck
 
 Checks if target actor's current weapon is zoomed.
 
-##
-Deprecated Nodes
+### Deprecated Nodes
 
--
-ChangeAmmo
+- ChangeAmmo
+- CheckAccessory
+- CheckZoom
+- WeaponListener
 
--
-CheckAccessory
-
--
-CheckZoom
-
--
-WeaponListener
-[Accessory](#accessory)
-[AccessoryCheck](#accessorycheck)
-[ActorWeaponMagazineAmmo](#actorweaponmagazineammo)
-[AmmoChange](#ammochange)
-[AutoSightWeapon](#autosightweapon)
-[ChangeFireMode](#changefiremode)
-[Explosion](#explosion)
-[ExplosionInfo](#explosioninfo)
-[FireWeapon](#fireweapon)
-[HitInfo](#hitinfo)
-[ItemAction](#itemaction)
-[Listener](#listener)
-[ZoomCheck](#zoomcheck)
-[Deprecated Nodes](#deprecated-nodes)
+[Accessory](#accessory)[AccessoryCheck](#accessorycheck)[ActorWeaponMagazineAmmo](#actorweaponmagazineammo)[AmmoChange](#ammochange)[AutoSightWeapon](#autosightweapon)[ChangeFireMode](#changefiremode)[Explosion](#explosion)[ExplosionInfo](#explosioninfo)[FireWeapon](#fireweapon)[HitInfo](#hitinfo)[ItemAction](#itemaction)[Listener](#listener)[ZoomCheck](#zoomcheck)[Deprecated Nodes](#deprecated-nodes)

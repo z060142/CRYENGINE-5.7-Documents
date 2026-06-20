@@ -12,8 +12,5 @@
 
 ## Content
 
--
-[Tutorial - How to create bending vegetation](Vegetation%20Tutorials/Tutorial%20-%20How%20to%20create%20bending%20vegetation.md)
-
--
-[Tutorial - Vegetation Asset Creation](Vegetation%20Tutorials/Tutorial%20-%20Vegetation%20Asset%20Creation.md)
+- [Tutorial - How to create bending vegetation](Vegetation%20Tutorials/Tutorial%20-%20How%20to%20create%20bending%20vegetation.md)
+- [Tutorial - Vegetation Asset Creation](Vegetation%20Tutorials/Tutorial%20-%20Vegetation%20Asset%20Creation.md)

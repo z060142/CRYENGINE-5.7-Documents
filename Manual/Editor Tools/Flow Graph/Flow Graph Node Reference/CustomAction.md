@@ -7,59 +7,46 @@
 
 ## Content
 
-##
-Abort
+### Abort
 
 This node starts the abort path for the Custom Action.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901219)
 
-##
-Control
+### Control
 
 Node is used to control a specific custom action instance.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901217)
 
-##
-End
+### End
 
 This node is the endpoint for all the paths in the Custom Action.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901216)
 
-##
-Start
+### Start
 
 This node is the start of the Custom Action.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901215)
 
-##
-Succeed
+### Succeed
 
 This node is the succeed path of the Custom Action.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901218)
 
-##
-SucceedWait
+### SucceedWait
 
 This node is the succeed wait path of the Custom Action.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901214)
 
-##
-SucceedWaitComplete
+### SucceedWaitComplete
 
- This node is the succeed wait complete path of the Custom Action.
+This node is the succeed wait complete path of the Custom Action.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901213)
 
-[Abort](#abort)
-[Control](#control)
-[End](#end)
-[Start](#start)
-[Succeed](#succeed)
-[SucceedWait](#succeedwait)
-[SucceedWaitComplete](#succeedwaitcomplete)
+[Abort](#abort)[Control](#control)[End](#end)[Start](#start)[Succeed](#succeed)[SucceedWait](#succeedwait)[SucceedWaitComplete](#succeedwaitcomplete)

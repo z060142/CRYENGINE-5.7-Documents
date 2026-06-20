@@ -12,11 +12,6 @@
 
 ## Content
 
--
-[C++ API Reference](CRYENGINE%20API%20Reference/C%2B%2B%20API%20Reference.md)
-
--
-[ScriptBind Reference](CRYENGINE%20API%20Reference/ScriptBind%20Reference.md)
-
--
-[C# API Reference](CRYENGINE%20API%20Reference/C%23%20API%20Reference.md)
+- [C++ API Reference](CRYENGINE%20API%20Reference/C%2B%2B%20API%20Reference.md)
+- [ScriptBind Reference](CRYENGINE%20API%20Reference/ScriptBind%20Reference.md)
+- [C# API Reference](CRYENGINE%20API%20Reference/C%23%20API%20Reference.md)

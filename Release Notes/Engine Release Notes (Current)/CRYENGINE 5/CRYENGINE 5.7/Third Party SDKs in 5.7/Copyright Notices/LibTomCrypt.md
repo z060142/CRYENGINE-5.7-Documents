@@ -8,9 +8,5 @@
 ## Content
 
 ```
-
-`
 LibTomCrypt is public domain.  As should all quality software be.
-`
-
 ```

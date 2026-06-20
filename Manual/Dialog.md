@@ -16,21 +16,12 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26955404)
 
-**
-Dialog Overview
-**
+**Dialog Overview**
 
--
-[Localization](Dialog/Localization.md)
-**
-Dialog Reference
-**
+- [Localization](Dialog/Localization.md)
 
--
-[Dynamic Response System Concept](Editor%20Tools/Dynamic%20Response%20System/Dynamic%20Response%20System%20Concept.md)
+**Dialog Reference**
 
--
-[Dynamic Response System Tool Reference](Editor%20Tools/Dynamic%20Response%20System.md)
-
--
-[Dialog Flow Graph Nodes](Editor%20Tools/Flow%20Graph/Flow%20Graph%20Node%20Reference/Dialog%20Nodes.md)
+- [Dynamic Response System Concept](Editor%20Tools/Dynamic%20Response%20System/Dynamic%20Response%20System%20Concept.md)
+- [Dynamic Response System Tool Reference](Editor%20Tools/Dynamic%20Response%20System.md)
+- [Dialog Flow Graph Nodes](Editor%20Tools/Flow%20Graph/Flow%20Graph%20Node%20Reference/Dialog%20Nodes.md)

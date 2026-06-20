@@ -17,11 +17,9 @@
 
 [![Image](https://www.cryengine.com/docs/static/attachments/51347591)](https://www.cryengine.com/get-cryengine/memberships)
 
-##
-   Blendspace Explanation
+##### Blendspace Explanation
 
-##
-   Assembling a Blendspace
+##### Assembling a Blendspace
 
 Within game development one of the not so obvious aspects of the design is how the character can transition from pose to pose when taking in the players input. This concept of Blendspaces is explored in this article.
 

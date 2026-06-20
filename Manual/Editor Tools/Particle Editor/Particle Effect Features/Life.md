@@ -7,53 +7,23 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
-This feature controls the duration of a particle after it spawns
-.
+This feature controls the duration of a particle after it spawns.
 
-The following options are available under the Life
-category:
+The following options are available under the Life category:
 
-##
-Time
+### Time
 
-This feature sets the lifetime of a new born particle. It functions similarly to the
-[Field](Field.md)
-feature, this feature is specifically designed to be used with
-[Modifiers](Modifiers.md)
- for further control on how particles should spawn and die.
+This feature sets the lifetime of a new born particle. It functions similarly to the [Field](Field.md)feature, this feature is specifically designed to be used with [Modifiers](Modifiers.md) for further control on how particles should spawn and die.
 
-Property
+Property | Description
+--- | ---
+**Life Time** | Defines a base value in seconds as the lifetime of the particle it is assigned to before it gets modified.
+**Kill On Parent Death** | Kills the component if its parent dies.
 
- |
-Description
-
- |
-
-**
-Life Time
-**
-
- |
-Defines a base value in seconds as the lifetime of the particle it is assigned to before it gets modified.
-
- |
-
-**
-Kill On Parent Death
-**
-
- |
-Kills the component if its parent dies.
-
- |
-
-##
-GPU Support
+### GPU Support
 
 The Time category is supported in the GPU Pipeline, although currently there is no support for modifiers on the Life: Time feature.
 
-[Time](#time)
-[GPU Support](#gpu-support)
+[Time](#time)[GPU Support](#gpu-support)

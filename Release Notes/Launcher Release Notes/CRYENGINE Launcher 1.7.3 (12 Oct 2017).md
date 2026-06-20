@@ -7,44 +7,20 @@
 
 ## Content
 
-##
-Launcher Version 1.7.3
+## Launcher Version 1.7.3
 
-##
-Backend
+#### Backend
 
-**
-Fixed:
-**
-Potential path mismatch for the installed Engine(s) between WinRegistry and cryengine.json.
+**Fixed:** Potential path mismatch for the installed Engine(s) between WinRegistry and cryengine.json.
 
-**
-Tweaked:
-**
- Made improvements to the Launcher so that it does not rely on the CrySelect.exe version that is shipped with the Launcher.
+**Tweaked:** Made improvements to the Launcher so that it does not rely on the CrySelect.exe version that is shipped with the Launcher.
 
-**
-Tweaked:
-**
-Removed CrySelect autoinstall when the Launcher opens.
+**Tweaked:** Removed CrySelect autoinstall when the Launcher opens.
 
-##
-Landing Page
+#### Landing Page
 
-**
-Fixed:
-**
- A potential bug with some asset downloads.
-**
+**Fixed:** A potential bug with some asset downloads.
 
-**
+**Fixed:** Error when trying to start a project when WinRegistry and cryengine.json is not available - projects will now run/edit after initialization.
 
-**
-Fixed:
-**
-Error when trying to start a project when WinRegistry and cryengine.json is not available - projects will now run/edit after initialization.
-
-**
-Tweaked:
-**
- There is now a feedback message "Executing" when a project is being executed in the Launcher.
+**Tweaked:** There is now a feedback message "Executing" when a project is being executed in the Launcher.

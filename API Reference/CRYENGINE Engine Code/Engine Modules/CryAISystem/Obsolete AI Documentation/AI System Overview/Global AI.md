@@ -7,22 +7,12 @@
 
 ## Content
 
-##
-Flowgraph editor allows non-programmers build global AI logic visually
+### Flowgraph editor allows non-programmers build global AI logic visually
 
-##
-Example: Two AIs meet in a helicopter and fly away
+#### Example: Two AIs meet in a helicopter and fly away
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23461215)
 
 Experiment with the flowgraph debugger features, e.g. signal propagation highlighting and breakpoints.
 
-Consider connecting output "Id" of
-**
-Entity:EntityId
-**
- with input "EntityId" (the first input) of
-**
-AI:AIGoto
-**
-.
+Consider connecting output "Id" of **Entity:EntityId** with input "EntityId" (the first input) of ** AI:AIGoto**.

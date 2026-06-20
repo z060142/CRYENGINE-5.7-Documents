@@ -7,141 +7,53 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 Each entity can have slots which are used to hold different resources available in CryENGINE.
 
-##
-Usage
+### Usage
 
-##
-Allocating a Slot
+#### Allocating a Slot
 
 The following table list all the different resources which can be allocated in a slot along with the ScriptBind function which allocates it.
 
-**
-CryENGINE Resource
-**
+**CryENGINE Resource** | **Function**
+--- | ---
+**static geometry** | LoadObject() or LoadSubObject()
+**animated character** | LoadCharacter()
+**particle emitter** | LoadParticleEffect()
+**light** | LoadLight()
+**cloud** | LoadCloud()
+**fog** | LoadFogVolume()
+**volume** | LoadVolumeObject()
 
- |
-**
-Function
-**
-
- |
-
-**
-static geometry
-**
-
- |
-LoadObject() or LoadSubObject()
-
- |
-
-**
-animated character
-**
-
- |
-LoadCharacter()
-
- |
-
-**
-particle emitter
-**
-
- |
-LoadParticleEffect()
-
- |
-
-**
-light
-**
-
- |
-LoadLight()
-
- |
-
-**
-cloud
-**
-
- |
-LoadCloud()
-
- |
-
-**
-fog
-**
-
- |
-LoadFogVolume()
-
- |
-
-**
-volume
-**
-
- |
-LoadVolumeObject()
-
- |
-
-##
-Modifying Slot Parameters
+#### Modifying Slot Parameters
 
 Each one of these resource may be moved, rotated or scaled related to the entity itself.
 
--
-SetSlotPos()
+- SetSlotPos()
+- GetSlotPos()
+- SetSlotAngles()
+- GetSlotAngles()
+- SetSlotScale()
+- GetSlotScale()
 
--
-GetSlotPos()
-
--
-SetSlotAngles()
-
--
-GetSlotAngles()
-
--
-SetSlotScale()
-
--
-GetSlotScale()
 It's possible to add parenting link between the slots, making it possible to have related positions.
 
--
-SetParentSlot()
+- SetParentSlot()
+- GetParentSlot()
 
--
-GetParentSlot()
+#### Slot Management
 
-##
-Slot Management
+It is possible to determine if a specified slot is allocated by calling!IsSlotValid().
 
-It is possible to determine if a specified slot is allocated by calling !IsSlotValid().
+Additionally, it's possible either to free one slot by calling!FreeSlot() or to free all allocated slot within the entity by calling!FreeAllSlots().
 
-Additionally, it's possible either to free one slot by calling !FreeSlot() or to free all allocated slot within the entity by calling !FreeAllSlots().
-
-##
-Example of Loading a Slot in a Script Function
+#### Example of Loading a Slot in a Script Function
 
 ```
-
-`
 local pos={x=0,y=0,z=0};
 self:LoadObject(0,props.fileModel);
 self:SetSlotPos(0,pos);
 self:SetCurrentSlot(0);
-
-`
-
 ```

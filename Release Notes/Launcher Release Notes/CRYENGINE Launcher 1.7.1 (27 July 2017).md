@@ -7,20 +7,9 @@
 
 ## Content
 
-##
-Launcher Version 1.7.1
+## Launcher Version 1.7.1
 
-##
-Landing Page
+#### Landing Page
 
--
-**
-Tweaked:
-**
-CRYENGINE Limited License Agreement update.
-
--
-**
-Tweaked:
-**
-Asset Submission Form UI improvements.
+- **Tweaked:** CRYENGINE Limited License Agreement update.
+- **Tweaked:** Asset Submission Form UI improvements.

@@ -7,33 +7,19 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 Overview of the CVar's available through the SDL Mixer specific implementation.
 
-##
-CVar's
+### CVar's
 
-##
-s_SDLMixerEventPoolSize
+#### s_SDLMixerEventPoolSize
 
 Sets the number of preallocated events.
 
--
-**
-Usage:
-**
+- **Usage:** * s_SDLMixerEventPoolSize [0/...]*
+- Default: 256
 
-*
-s_SDLMixerEventPoolSize [0/...]
-*
+For more information on how to set up a simple effect inside the SDL Mixer, please refer to [SDL Mixer Initial Setup](SDL%20Mixer%20Initial%20Setup.md).
 
--
-Default: 256
-For more information on how to set up a simple effect inside the SDL Mixer, please refer to
-[SDL Mixer Initial Setup](SDL%20Mixer%20Initial%20Setup.md)
-.
-
-[CVar's](#cvars)
-[s_SDLMixerEventPoolSize](#ssdlmixereventpoolsize)
+[CVar's](#cvars)[s_SDLMixerEventPoolSize](#ssdlmixereventpoolsize)

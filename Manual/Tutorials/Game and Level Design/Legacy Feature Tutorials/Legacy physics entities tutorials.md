@@ -21,24 +21,15 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/27562634)
 
-##
-Goals
+#### Goals
 
 The focus of this introduction tutorial is to get you trying out gravity and constraints within CRYENGINE V.
 
-##
-Objectives
+#### Objectives
 
 After going through this tutorial, you will know the following:
 
--
-How to create a gravity component
-
--
-How to adjust gravity
-
--
-How to use Rigid Bodies
-
--
-How to set constraints
+- How to create a gravity component
+- How to adjust gravity
+- How to use Rigid Bodies
+- How to set constraints

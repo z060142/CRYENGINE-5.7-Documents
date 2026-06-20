@@ -7,14 +7,9 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
-"Fall-and-Play" is activated when a character is ragdollized (on in interface level, it is called
-*
-RelinquishCharacterPhysics
-*
-) with a >0 stiffness. This will activate angular springs in the physical ragdoll that will attempt to bring the joints to the angles specified in the current animation frame. The character will also try to select an animation internally based on the current f'n'p stage. If there are none, or very few, physical contacts, this will be a falling animation, otherwise it will be the first frame of a standup animation that corresponds to the current body orientation.
+"Fall-and-Play" is activated when a character is ragdollized (on in interface level, it is called *RelinquishCharacterPhysics*) with a >0 stiffness. This will activate angular springs in the physical ragdoll that will attempt to bring the joints to the angles specified in the current animation frame. The character will also try to select an animation internally based on the current f'n'p stage. If there are none, or very few, physical contacts, this will be a falling animation, otherwise it will be the first frame of a standup animation that corresponds to the current body orientation.
 
 Standup is initiated from outside the animation system through the appropriately named function. During the standup, the character physics is switched back into an alive mode and his final physical pose is blended into a corresponding standup animation. This, again, is selected from a standup anims list to best match this pose.
 
@@ -22,17 +17,7 @@ There are a filename covention for standup animations. When there is an animatio
 
 You can name stand-up animations as follows, for example.
 
--
-*
-standUp_toCombat_nw_back_01
-*
+- *standUp_toCombat_nw_back_01*
+- *standUp_toCombat_nw_stomach_01*
 
--
-*
-standUp_toCombat_nw_stomach_01
-*
-At any moment when the character is still a ragdoll it's also possible to turn the stiffness off with a
-*
-GoLimp
-*
- method.
+At any moment when the character is still a ragdoll it's also possible to turn the stiffness off with a *GoLimp* method.

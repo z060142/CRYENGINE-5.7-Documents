@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 Behaviors and characters are not the only types of scripts that exist in the AI portion of CryAISystem scripting. Since LUA is a very flexible scripting language, and one that offers instant access to any global objects and global functions, it is easy to abstract a lot of the common functionality in a separate LUA table and write that code only once but call it from all places where it is needed.
 
@@ -16,8 +15,7 @@ In CryAISystem, this strategy is used very often. While the actual implementatio
 
 As a general guideline, anything that needs to be called by any behavior or script on more than one occasion – it is a good idea to isolate it into its own special table. Some of those general logic tables can be found in the Scripts/AI/Logic folder in your installation directory.
 
-##
-Idle Animation Manager
+### Idle Animation Manager
 
 In a lot of places, during the execution of an idle behavior or any kind of job, the system needs to select one idle animation (head scratching, arm stretching etc) from some pool of existing animations. There are a certain amount of fine details when it comes down to how these animations are selected, how the system knows from which animations it can choose etc. This piece of script logic addresses all these issues.
 
@@ -25,70 +23,52 @@ There are a couple of functions that the Idle manager implements, and they basic
 
 The function that selects the controlled random animation is the GetIdle function. It receives the name of the model for the specified enemy and then analyzes whether there are animations for this model. If there are, it selects them at random, and tags the ones that have been selected already. Every random selection is made from animations that have not been tagged. When there is no untagged animation left, the tags are cleared on all of them, and the process starts again with randomly selecting an animation. Please refer to the actual script for the implementation.
 
-One remaining issue is how the idle manager discovers which animations are available for a particular model. This is half-automated. All the idle animations in all models have to adhere to a simple naming rule – they have to be named with the string
-**
-idle
-**
- followed by a double digit number. The double digit number has to start at 00 and increase by one for every subsequent animation (animations named with non-consecutive numbers will not be discovered). Then the idle manager will try to enumerate all the animations starting with
-**
-idle00
-**
- and go as long as the subsequent animations exist. Finally, it will create a table of available animations for every model.
+One remaining issue is how the idle manager discovers which animations are available for a particular model. This is half-automated. All the idle animations in all models have to adhere to a simple naming rule – they have to be named with the string **idle** followed by a double digit number. The double digit number has to start at 00 and increase by one for every subsequent animation (animations named with non-consecutive numbers will not be discovered). Then the idle manager will try to enumerate all the animations starting with ** idle00** and go as long as the subsequent animations exist. Finally, it will create a table of available animations for every model.
 
 The tables of available animations are created the first time some model requests an idle animation. If the animations are named correctly, the system will discover them all and make sure they are displayed sufficiently randomly. For more information on how this all works please consult the script code.
 
 As discussed before, since the IdleManager becomes a global table in the LUA space, it can be accessed from any place in the code. Plus, it conveniently isolates all the operations discussed here so that any intervention in the selection method for animations or their discovery is transparent to its user.
 
-##
-Conversation Management
+### Conversation Management
 
 The complete logic that controls how conversations are performed in CryAISystem is written in the form of a few script tables. There is no C++ code related to the conversations. This makes it easier to maintain and completely rewrite. The following text explains how conversational logic works in CryAISystem.
 
-Conversations in the game have to be first and foremost – scripted. There must be a conversation script that tells the system how many participants a certain conversation has, and the
-**
-flow
-**
- of the conversation. Its best explained in an example, so we will look at one conversation from the few that can be found in the Scripts/AI/Packs/Conversations folder.
+Conversations in the game have to be first and foremost – scripted. There must be a conversation script that tells the system how many participants a certain conversation has, and the **flow** of the conversation. Its best explained in an example, so we will look at one conversation from the few that can be found in the Scripts/AI/Packs/Conversations folder.
 
 ```
-
-`
 Participants = 2,
 Script = {
-  {
-   Actor = 1,
-   Duration = 1837,
-   SoundData = {
-    soundFile = "languages/missiontalk/training/training_generic_H_1.wav", Volume = 255,
-    min = 10,
-    max = 40,
-    sound_unscalable = 0,
-   },
-  },
-  {
-   Actor = 2,
-   Duration = 1420,
-   SoundData = {
-    soundFile = "languages/missiontalk/training/training_generic_H_2.wav", Volume = 255,
-    min = 10,
-    max = 40,
-    sound_unscalable = 0,
-    },
-  },
-  {
-   Actor = 1,
-   Duration = 1200,
-   SoundData = {
-    soundFile = "languages/missiontalk/training/training_generic_H_3.wav", Volume = 255,
-    min = 10,
-    max = 40,
-    sound_unscalable = 0,
-   },
-  },
+{
+Actor = 1,
+Duration = 1837,
+SoundData = {
+soundFile = "languages/missiontalk/training/training_generic_H_1.wav", Volume = 255,
+min = 10,
+max = 40,
+sound_unscalable = 0,
 },
-
-`
-
+},
+{
+Actor = 2,
+Duration = 1420,
+SoundData = {
+soundFile = "languages/missiontalk/training/training_generic_H_2.wav", Volume = 255,
+min = 10,
+max = 40,
+sound_unscalable = 0,
+},
+},
+{
+Actor = 1,
+Duration = 1200,
+SoundData = {
+soundFile = "languages/missiontalk/training/training_generic_H_3.wav", Volume = 255,
+min = 10,
+max = 40,
+sound_unscalable = 0,
+},
+},
+},
 ```
 
 This really looks more complicated than it actually is. The table simply describes the lines that will be said in the conversation and the dynamics of the conversation. Each conversation needs to be defined in this way.
@@ -113,8 +93,7 @@ When the last line of the conversation is finished, then the participants go bac
 
 To understand the finer details of how conversations are managed and how they are executed on runtime, the actual script logic files for the AI_ConvManager and the AI_Conversation can be found as LUA files under the same name in Scripts/AI/Logic.
 
-##
-Name Generator
+#### Name Generator
 
 The name generator is very simple, and it really can hardly be called a logic script. It just contains a big list of names that were inserted into a table, and a simple function that retrieves the next available name when someone requests it.
 

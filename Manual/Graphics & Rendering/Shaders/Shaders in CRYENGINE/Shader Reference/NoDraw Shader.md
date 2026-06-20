@@ -7,7 +7,6 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 Use mainly for physics proxies, this shader does not render the selected geometry.

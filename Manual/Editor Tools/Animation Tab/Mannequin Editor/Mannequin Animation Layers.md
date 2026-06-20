@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 Animations are started in layers:
 
@@ -21,16 +20,13 @@ Animations are mixed by running them on different layers concurrently. Layers th
 
 The base layer will usually contain full body animation (affecting most joints and containing motion), while higher layers usually play override or additive partial body animations (affecting only a subset of joints).
 
-##
-Transition Queues
+### Transition Queues
 
 When starting an animation in a layer, the default behavior is for the current animations in that layer to be blended out (decrease their current weight to 0) and be removed from the queue when their weight reaches 0, and the new animation to be blended in (increase its weight from 0 to 1).
 
 This blending in and out of animations is handled by a component called the Transition Queue.
 
-Transition Queues behaves like FIFO
-(First-In-First-Out)
- queues.
+Transition Queues behaves like FIFO (First-In-First-Out) queues.
 
 Each animation layer has its own Transition Queue.
 
@@ -38,21 +34,17 @@ The Transition Queue also holds the state information for all animations playing
 
 Animations will also be removed from the queue once they are fully played once. This default behavior can be changed by starting animations with the looping flag (CA_LOOP_ANIMATION), or the repeat last key flag (CA_REPEAT_LAST_KEY). Those flags will cause the animation to remain in the queue until a new animation is started on the same layer.
 
-##
-Code
+### Code
 
 Communication with the animation layers and the transition queues of a character is always done through the ISkeletonAnim interface.
 
 To obtain the ISkeletonAnim interface, call the GetISkeletonAnim() function for your character instance (ICharacterInstance).
 
-##
-Starting Animations
+#### Starting Animations
 
 Animations are started on layers via the StartAnimation or StartAnimationById functions.
 
 ```
-
-`
 ISkeltonAnim& skeletonAnim = ...;
 
 CryCharAnimationParams params;
@@ -62,57 +54,40 @@ params.m_fTransTime = 0.5f;
 
 // Starting the animation by id. Alternatively use StartAnimation to start an animation by name.
 skeletonAnim.StartAnimationById(animationId, params);
-`
-
 ```
 
 In the example above we request a looping animation to be started on layer 2, and we want it to be fully blended in in 0.5 seconds.
 
-Detailed information on all the possible parameters and flags available for the
-CryCharAnimationParams can be found in the CryCharAnimationParams.h file in CryCommon.
+Detailed information on all the possible parameters and flags available for the CryCharAnimationParams can be found in the CryCharAnimationParams.h file in CryCommon.
 
-##
-Stopping Animations
+#### Stopping Animations
 
 To smoothly blend out animations in a layer we can use the StopAnimationInLayer function:
 
 ```
-
-`
 ISkeltonAnim& skeletonAnim = ...;
 
 // Blend out all animations in layer 2 in 0.5 seconds:
 skeletonAnim.StopAnimationInLayer(2, 0.5f);
-`
-
 ```
 
 To force the TransitionQueue in a specific layer to immediately clear all its animations:
 
 ```
-
-`
 ISkeltonAnim& skeletonAnim = ...;
 
 skeletonAnim.ClearFIFOLayer(layerId);
-`
-
 ```
 
 To force the all TransitionQueues in all layers to be to cleared immediately we can use StopAnimationsAllLayers.
 
 ```
-
-`
 ISkeltonAnim& skeletonAnim = ...;
 
 skeletonAnim.StopAnimationsAllLayers();
-`
-
 ```
 
-##
-Inspecting the Transition Queue
+#### Inspecting the Transition Queue
 
 To obtain the number of animations in a transition queue we can use GetNumAnimsInFIFO.
 

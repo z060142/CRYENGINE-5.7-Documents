@@ -15,92 +15,19 @@
 
 The C# UI makes it possible to quickly create a simple UI without using external tools such as Scaleform. Currently the C# UI is able to:
 
--
-Show text and images.
+- Show text and images.
+- Receive user-input.
+- Render directly to the screen, or render to a texture.
+- Organise the UI with layout groups.
 
--
-Receive user-input.
+### Introduction
 
--
-Render directly to the screen, or render to a texture.
-
--
-Organise the UI with layout groups.
-
-##
-Introduction
-
-The UI in C# runs basically on two classes. The first class is the
-`
-UIElement
-`
--class, which inherits from
-`
-SceneObject
-`
- and adds support for a
-`
-RectTransform
-`
-. The
-`
-RectTransform
-`
- defines information about the location, orientation and size of each
-`
-UIElement
-`
-. The second class is the
-`
-UIComponent
-`
--class, which defines the behavior of the
-`
-UIElement
-`
-. Each
-`
-UIElement
-`
- can have multiple
-`
-UIComponents
-`
-.
+The UI in C# runs basically on two classes. The first class is the `UIElement`-class, which inherits from ` SceneObject` and adds support for a ` RectTransform`. The ` RectTransform` defines information about the location, orientation and size of each ` UIElement`. The second class is the ` UIComponent`-class, which defines the behavior of the ` UIElement`. Each ` UIElement` can have multiple ` UIComponents`.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26954502)
 
-Every UI starts with a
-`
-Canvas
-`
-. The
-`
-Canvas
-`
- is responsible for drawing the UI to the screen or to a render texture and delegating events to its child
-`
-UIElements
-`
-. Every
-`
-UIElement
-`
- has to be a child of a
-`
-Canvas
-`
-. A scene can have multiple
-`
-Canvas
-`
- instances at the same time.
+Every UI starts with a `Canvas`. The ` Canvas` is responsible for drawing the UI to the screen or to a render texture and delegating events to its child ` UIElements`. Every ` UIElement` has to be a child of a ` Canvas`. A scene can have multiple ` Canvas` instances at the same time.
 
--
-[01. Creating a Basic UI](Using%20C%23%20UI/01.%20Creating%20a%20Basic%20UI.md)
-
--
-[02. Creating a Menu](Using%20C%23%20UI/02.%20Creating%20a%20Menu.md)
-
--
-[03. Creating a Popup](Using%20C%23%20UI/03.%20Creating%20a%20Popup.md)
+- [01. Creating a Basic UI](Using%20C%23%20UI/01.%20Creating%20a%20Basic%20UI.md)
+- [02. Creating a Menu](Using%20C%23%20UI/02.%20Creating%20a%20Menu.md)
+- [03. Creating a Popup](Using%20C%23%20UI/03.%20Creating%20a%20Popup.md)

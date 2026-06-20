@@ -7,210 +7,115 @@
 
 ## Content
 
-##
-Destroy
+### Destroy
 
- Destroys the inventory.
+Destroys the inventory.
 
 ```
-
-`
 Inventory.Destroy()
-`
-
 ```
 
-##
-Clear
+### Clear
 
- Clears the inventory.
+Clears the inventory.
 
 ```
-
-`
 Inventory.Clear()
-`
-
 ```
 
-##
-Dump
+### Dump
 
- Dumps the inventory.
+Dumps the inventory.
 
 ```
-
-`
 Inventory.Dump()
-`
-
 ```
 
-##
-GetItemByClass
+### GetItemByClass
 
 Gets item by class name.
 
 ```
-
-`
 Inventory.GetItemByClass( className )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+className | Class name.
 
-className
- |
-Class name.
- |
-
-##
-GetGrenadeWeaponByClass
+### GetGrenadeWeaponByClass
 
 Gets grenade weapon by class name.
 
 ```
-
-`
 Inventory.GetGrenadeWeaponByClass( className )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+className | Class name.
 
-className
- |
-Class name.
- |
-
-##
-HasAccessory
+### HasAccessory
 
 Checks if the inventory contains the specified accessory.
 
 ```
-
-`
 Inventory.HasAccessory( accessoryName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+accessoryName | Accessory name.
 
-accessoryName
- |
-Accessory name.
- |
+### GetCurrentItemId
 
-##
-GetCurrentItemId
-
- Gets the identifier of the current item.
+Gets the identifier of the current item.
 
 ```
-
-`
 Inventory.GetCurrentItemId()
-`
-
 ```
 
-##
-GetCurrentItem
+### GetCurrentItem
 
- Gets the current item.
+Gets the current item.
 
 ```
-
-`
 Inventory.GetCurrentItem()
-`
-
 ```
 
-##
-GetAmmoCount
+### GetAmmoCount
 
 Gets the amount of the specified ammunition name.
 
 ```
-
-`
 Inventory.GetAmmoCount(ammoName)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+ammoName | Ammunition name.
 
-ammoName
- |
-Ammunition name.
- |
-
-##
-GetAmmoCapacity
+### GetAmmoCapacity
 
 Gets the capacity for the specified ammunition.
 
 ```
-
-`
 Inventory.GetAmmoCapacity( ammoName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+ammoName | Ammunition name.
 
-ammoName
- |
-Ammunition name.
- |
-
-##
-SetAmmoCount
+### SetAmmoCount
 
 Sets the amount of the specified ammunition.
 
 ```
-
-`
 Inventory.SetAmmoCount( ammoName, count )
-`
-
 ```
 
-Parameter
- |
-Description
- |
-
-ammoName
- |
-Ammunition name.
- |
-
-count
- |
-Ammunition amount.
- |
+Parameter | Description
+--- | ---
+ammoName | Ammunition name.
+count | Ammunition amount.

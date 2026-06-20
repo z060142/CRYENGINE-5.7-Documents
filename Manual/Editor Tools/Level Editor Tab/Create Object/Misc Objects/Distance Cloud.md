@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Distance Cloud
+### Distance Cloud
 
 Distance Clouds are basically horizontal planes placed into the sky. Unlike other types of clouds they cannot be flown through and thus they're mostly suitable for filling the sky in at far distances (horizon) or high altitudes.
 

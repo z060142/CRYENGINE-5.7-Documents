@@ -11,67 +11,44 @@
 
 ## Content
 
-##
-CSVDumper
+### CSVDumper
 
-Used to store the cell values of the specified
-`
-.csv
-`
- file.
+Used to store the cell values of the specified `.csv` file.
 
-##
-ConsoleVariable
+### ConsoleVariable
 
 Sets/Gets the value of a console variable (CVar).
 
-##
-DisplayMessage
+### DisplayMessage
 
 If an entity is not provided, the local player will be used instead.
 
-##
-ExecuteString
+### ExecuteString
 
 Executes a string like when using the console.
 
-##
-FloatToString
+### FloatToString
 
 Outputs a float in string format, with limited amount of decimals. Used for debug visualization.
 
-##
-Frame
+### Frame
 
 Used to output the current frame rate data.
 
-##
-FrameExtended
+### FrameExtended
 
 When activated, this node outputs the current frame rate data and the lowest, highest and the average frame rate.
 
-##
-InputKey
+### InputKey
 
 FlowNode to catch key inputs. Use only for debugging. It is enabled by default. Entity Input needs to be used in multiplayer.
 
-##
-Log
+### Log
 
 Logs string input message to console. Useful for debugging events.
 
-##
-Memory
+### Memory
 
 Used to display video memory data.
 
-[CSVDumper](#csvdumper)
-[ConsoleVariable](#consolevariable)
-[DisplayMessage](#displaymessage)
-[ExecuteString](#executestring)
-[FloatToString](#floattostring)
-[Frame](#frame)
-[FrameExtended](#frameextended)
-[InputKey](#inputkey)
-[Log](#log)
-[Memory](#memory)
+[CSVDumper](#csvdumper)[ConsoleVariable](#consolevariable)[DisplayMessage](#displaymessage)[ExecuteString](#executestring)[FloatToString](#floattostring)[Frame](#frame)[FrameExtended](#frameextended)[InputKey](#inputkey)[Log](#log)[Memory](#memory)

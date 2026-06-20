@@ -7,7 +7,6 @@
 
 ## Content
 
-H
-ow to use a blacklist to rearrange and hide Flow Graph nodes to suit your own development.
+How to use a blacklist to rearrange and hide Flow Graph nodes to suit your own development.
 
 [Embed: http://youtube.com/watch?v=K9r_Ghh3BmM]

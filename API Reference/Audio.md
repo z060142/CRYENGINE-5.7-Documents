@@ -10,5 +10,4 @@
 
 ## Content
 
--
-[CrySpatial](Audio/CrySpatial.md)
+- [CrySpatial](Audio/CrySpatial.md)

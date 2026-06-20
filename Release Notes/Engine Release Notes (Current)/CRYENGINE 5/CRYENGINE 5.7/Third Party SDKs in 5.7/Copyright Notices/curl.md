@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 COPYRIGHT AND PERMISSION NOTICE
 
 Copyright (c) 1996 - 2016, Daniel Stenberg, <daniel@haxx.se>, and many
@@ -32,6 +30,4 @@ OR OTHER DEALINGS IN THE SOFTWARE.
 Except as contained in this notice, the name of a copyright holder shall not
 be used in advertising or otherwise to promote the sale, use or other dealings
 in this Software without prior written authorization of the copyright holder.
-`
-
 ```

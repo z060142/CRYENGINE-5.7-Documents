@@ -7,13 +7,8 @@
 
 ## Content
 
-##
-Launcher Version 1.8.4
+## Launcher Version 1.8.4
 
-##
-Landing Page
+#### Landing Page
 
-**
-New:
-**
- Updated license agreement.
+**New:** Updated license agreement.

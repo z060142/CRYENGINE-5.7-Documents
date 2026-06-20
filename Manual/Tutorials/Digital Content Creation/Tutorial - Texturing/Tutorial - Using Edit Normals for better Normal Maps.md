@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Using Custom Normals
+### Using Custom Normals
 
 By editing the geometry normals we can achieve various effects and even save a normal map channel that can be used for something else later on.
 
@@ -38,9 +37,7 @@ During that process all normals get merged together and give us a very smooth sh
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999882)
 
-To get the flat faces looking flat we need to run the script, which you can
-get here:
-[GetVertNormalsFromFace_0_2.ms](/docs/static/attachments/23999873)
+To get the flat faces looking flat we need to run the script, which you can get here: [GetVertNormalsFromFace_0_2.ms](/docs/static/attachments/23999873)
 
 Don't forget to have everything assigned to one smoothing group before you apply the script to your object.
 
@@ -72,11 +69,7 @@ Here's an image, making it visible.
 
 If the shading of your object looks broken, something might be wrong with normals. To fix that simply apply the 'Edit Normals' modifier, select all the normals and rest them.
 
-To export the asset and get it look exactly the same when it's imported in to CRYENGINE, you need to tick on the check box
-**
- "custom normals"
-**
-in the CryExport options.
+To export the asset and get it look exactly the same when it's imported in to CRYENGINE, you need to tick on the check box**"custom normals"** in the CryExport options.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999877)
 
@@ -84,19 +77,9 @@ in the CryExport options.
 
 There are some pros and cons to be aware of though:
 
--
-**
-Pros:
-**
- You save a normalmap, you can avoid unique mapping, it's a timesaver, less normals, higher res looking mesh
+- **Pros:** You save a normalmap, you can avoid unique mapping, it's a timesaver, less normals, higher res looking mesh
+- **Cons:** You use more polygons, the normals have to be reset and then reforced again if the mesh changes
 
--
-**
-Cons:
-**
-You use more polygons, the normals have to be reset and then reforced again if the mesh changes
-
-##
-See also
+### See also
 
 [Tutorial - Preparing Geometry Normals to optimal results in Xnormal](Tutorial%20-%20Preparing%20Geometry%20Normals%20to%20optimal%20results%20in%20Xnormal.md)

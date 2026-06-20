@@ -7,70 +7,25 @@
 
 ## Content
 
-##
-CheckPlatform
+### CheckPlatform
 
 Use this node to change game events depending on what platform you are running the game on.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901287)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Check** | Any | Triggers a check of the current platform
 
-**
-Check
-**
- |
-Any
- |
-Triggers a check of the current platform
- |
+**Outputs**
 
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-PC
-**
- |
-Any
- |
-Triggers if the platform is PC
- |
-
-**
-PS4
-**
- |
-Any
- |
-Triggers if the platform is PS4
- |
-
-**
-XboxOne
-**
- |
-Any
- |
-Triggers if the platform is XboxOne
- |
+Port | Type | Description
+--- | --- | ---
+**PC** | Any | Triggers if the platform is PC
+**PS4** | Any | Triggers if the platform is PS4
+**XboxOne** | Any | Triggers if the platform is XboxOne
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901286)
 
@@ -78,135 +33,70 @@ In the above example, we have setup a script that checks which platform the game
 
 So PC will enable all four entities, the Xbox360 will enable the first three and then the PS3 will enable the first two entities.
 
-##
-ForceFeedback
+### ForceFeedback
 
 FlowNode to play/stop force feedback effects.
 
-##
-ForceFeedbackTweaker
+### ForceFeedbackTweaker
 
 FlowNode to control individual high and low frequency force feedback effect.
 
-##
-GetEntityState
+### GetEntityState
 
 Get current state of an entity.
 
-##
-GetGameRulesEntityId
+### GetGameRulesEntityId
 
 Calls a script function on the entity.
 
-##
-GetSupportedGameRulesForMap
+### GetSupportedGameRulesForMap
 
 Get supported gamerules for a map.
 
-##
-IsLevelOfType
+### IsLevelOfType
 
 Check if a level is of given type.
 
-##
-ObjectEvent
+### ObjectEvent
 
 Broadcast a game object event or send to a specific entity. EventParam is an event-specific string.
 
-##
-PauseGameUpdate
+### PauseGameUpdate
 
- This node allows pausing/unpausing the game update and querying its state.
+This node allows pausing/unpausing the game update and querying its state.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901288)
 
 USE THIS NODE IN UI FLOWGRAPH (e.g. UI_ACTIONS) NOT IN GAME FLOWGRAPH.
 
-##
-Start
+### Start
 
 Fires on the start of the game, used to trigger flowgraphs on level start.
 
-##
-Deprecated Nodes
+### Deprecated Nodes
 
--
-Game:ActorCheckHealth (now Actor:HealthCheck)
+- Game:ActorCheckHealth (now Actor:HealthCheck)
+- Game:ActorGetHealth (now Actor:HealthGet)
+- Game:ActorSensor (now Actor:Sensor)
+- Game:ActorSetHealth (now Actor:HealthSet)
+- Game:DamageActor (now Actor:Damage)
+- Game:DisplayTag (now Debug:DisplayTag)
+- Game:DisplayTagAdv (now Debug:DisplayTagAdv)
+- Game:LocalPlayer (now Actor:LocalPlayer)
+- Game:PlayerLink (now Actor:PlayerLink)
+- Game:SetVehicleAltitudeLimit (deprecated, use v_altitudeLimit CVar)
+- Game:DifficultyLevel
+- Game:EventListener
+- Game:FireSystemEvent
+- Game:ForceFeedbackTriggerTweaker
+- Game:GiveAchievement
+- Game:IsDemo
+- Game:IsZoomToggling
+- Game:MP:SetEquipmentLoadout
+- Game:RoundTrigger
+- Game:SaveGame
+- Game:SetPostEffectParam
+- Game:TutorialPlayerSP
+- Game:WeaponSensor
 
--
-Game:ActorGetHealth (now Actor:HealthGet)
-
--
-Game:ActorSensor (now Actor:Sensor)
-
--
-Game:ActorSetHealth (now Actor:HealthSet)
-
--
-Game:DamageActor (now Actor:Damage)
-
--
-Game:DisplayTag (now Debug:DisplayTag)
-
--
-Game:DisplayTagAdv (now Debug:DisplayTagAdv)
-
--
-Game:LocalPlayer (now Actor:LocalPlayer)
-
--
-Game:PlayerLink (now Actor:PlayerLink)
-
--
-Game:SetVehicleAltitudeLimit (deprecated, use v_altitudeLimit CVar)
-
--
-Game:DifficultyLevel
-
--
-Game:EventListener
-
--
-Game:FireSystemEvent
-
--
-Game:ForceFeedbackTriggerTweaker
-
--
-Game:GiveAchievement
-
--
-Game:IsDemo
-
--
-Game:IsZoomToggling
-
--
-Game:MP:SetEquipmentLoadout
-
--
-Game:RoundTrigger
-
--
-Game:SaveGame
-
--
-Game:SetPostEffectParam
-
--
-Game:TutorialPlayerSP
-
--
-Game:WeaponSensor
-
-[CheckPlatform](#checkplatform)
-[ForceFeedback](#forcefeedback)
-[ForceFeedbackTweaker](#forcefeedbacktweaker)
-[GetEntityState](#getentitystate)
-[GetGameRulesEntityId](#getgamerulesentityid)
-[GetSupportedGameRulesForMap](#getsupportedgamerulesformap)
-[IsLevelOfType](#isleveloftype)
-[ObjectEvent](#objectevent)
-[PauseGameUpdate](#pausegameupdate)
-[Start](#start)
-[Deprecated Nodes](#deprecated-nodes)
+[CheckPlatform](#checkplatform)[ForceFeedback](#forcefeedback)[ForceFeedbackTweaker](#forcefeedbacktweaker)[GetEntityState](#getentitystate)[GetGameRulesEntityId](#getgamerulesentityid)[GetSupportedGameRulesForMap](#getsupportedgamerulesformap)[IsLevelOfType](#isleveloftype)[ObjectEvent](#objectevent)[PauseGameUpdate](#pausegameupdate)[Start](#start)[Deprecated Nodes](#deprecated-nodes)

@@ -9,900 +9,310 @@
 
 Released October 18th, 2013
 
-##
-Fixed
-
--
-Fixed array bounds crash in tail rendering.
-
--
-Exit simulation mode assert
-
--
-Fixed an error caused by vertex snapping button in a ribbon bar when the sandbox started.
-
--
-CryDesigner Fix a bug creating duplicated edges after finishing the drawing tool by pressing ESC key.
-
--
-Added a new variable to enable/disable highlighting the vegetation when selected.
-
--
-nullpointer crash: Added additional test to see if ammotype is valid.
-
--
-Fixed localizing strings in the middle of sentences.
-
--
-ExportColladaDlg not opening.
-
--
-Sandbox: MoveTool: Support copping vegetation with rotation.
-
--
-Sandbox: Do not show Main Editor window in Material Editor mode. To fix a crash in 3ds MAX sync time.
-
--
-Crash changing material on painted vegetation with Automerged.
-
--
-Added tangent frame re-construction in pixel shader.
-
--
-EULA dialog size compatibility.
-
--
-Sandbox: Ledge Object: Make consistent parameters order.
-
--
-Missed constructor initialization.
-
--
-Adjusted shadow map packing size.
-
--
-Item physicalizes every 2nd spawn.
-
--
-Fix for cloth + make alive ropes never fall asleep.
-
--
-Spawnpoint: Enabled and InitialSpawn params warning.
-
--
-Crash on rope properties editing in character editor.
-
--
-Default ocean water material not working properly in launcher.
-
--
-CryDesigner/AreaSolid Fixed a bug related to snapping to the axis aligned line.
-
--
-Fix to MultiTree control to properly select a range when selected from bottom to top.
-
--
-Wrongly applied spin quaternion (particle entity).
-
--
-Fixes to emitter lifetime, priming, pulsing, target, and attachment. Fixed and optimised particle memory usage computation.
-
--
-Fixed bugs with dynamic bounds inheritance, pulsing, and registering emitters.
-
--
-Fix UIElements on dynamic textures are not visible.
-
--
-Fix UIElement instances for editor.
-
--
-Made auto save of prefab objects possible when changing FG nodes . Made nested prefabs supported well. Fixed a bug related to jumping a prefab object created in group object.
-
--
-Flowgraph: Checkbox drawing correct size when zoomed in.
-
--
-Save level statistics crash.
-
--
-Character bone cloth fixes.
-
--
-Vegetation can be moved by click and drag.
-
--
-Disabling Image:EffectDepthOfField node doesn't disable depth of field posteffect.
-
--
-Removed limitation of 256 vegetation objects.
-
--
-Remove FogVolume object from Area creation menu.
-
--
-CryDesigner: Improved repeat action function in "Push/Pull" and "Offset" function. Excluded back regions in serialization and generated back regions from the front regions. Refactored codes related to LButton message in Push/Pull and Offset tool. Changed a way of push/pull by using only front regions. Fixed a bug about move's first pass not being applied in move tool. Added regions on a mirror plane after moving to mirror mode in mirror tool.
-
--
-M_bSliding not reset when setting parameters for particle entities.
-
--
-Sandbox: Terrain Modify Tool: Keep height value for Raise/Low brush when you leave tool and back again.
-
--
-Sandbox: Open Smart File Dialog: Fix empty list.
-
--
-Fixed MoveRelEmitter bug causing muzzle flash lag. MRE particles not adjusted after first emission. Also corrected transform calculation error.
-
--
-Fixed particle iteration infinite looping – inconsistent checking of sliding state. Removed unneeded ParticleUpdateContext.bHasDeviation
-
--
-Fixed positioning and texture coords of newest particle in ConnectToOrigin mode.
-
--
-Fixed inefficient repetition of lookahead collision checks when turbulence enabled.
-
--
-Fixed particle targeting with bShrink.
-
--
-Fixed black polygons on Connected particles with ConnectToOrigin (prevent 0 axes).
-
--
-Corrected calculation of e_ParticlesMinDrawPixels check.
-
--
-Fixed and greatly improved particle target motion: no longer applies velocity twice; target orbit fraction computed from particle start age; radial motion properly separated from orbital motion; faster average radius for angular velocity computation.
-
--
-Fixed double rotation speed for free particles, simplified rotation code.
-
--
-Flowgraph
- Crash on exit while removing pending timers.
-
--
-Character rope terrain collisions.
-
--
-File "Save" option saved to the root of game folder instead of correct path.
-
--
-Lod generator updates.
-
--
-EnvironmentPanel: Fixed default settings not displaying checkboxes correctly on new level creation.
-
--
-Mannequin dialog not updated on preview setup load.
-
--
-Lua interpreted strings as numbers.
-
--
-Fixed a crash bug when adding quick search node. This bug was caused by incorrect casting of a graph node.
-
--
-Fpe in unused_marker.
-
--
-Opening console adds extra '^' on German keyboards.
-
--
-Fixed crash when accessing invalid pointer in Merged Meshes.
-
--
-MergedMeshes
- Wrong groupID type.
-
--
-Crash at game exit.
-
--
-EntityEffect assert.
-
--
-Eliminated SubEmitter ref-counting errors and crash. Fixed lifetime errors with child emitters.
-
--
-Null pointer for model animation header
-
--
-Sandbox: Fix bug in LayersListBox::OnLButtonUp() - in layer moving to new parent.
-
--
-Sandbox: Do not show Sequence Object in creation tab.
-
--
-TRACK: Scrubbing over the end of an animation causes timeline scrubbing to not work any longer.
-
--
-Sandbox: Fix selection for objects with zero size of one side, like plane.
-
--
-Tilt function of 3D mouse not working.
-
--
-Dedicated Server (asserts, runaway threads, no need for an ui manager).
-
--
-Fixes lua stack corruption. The number of elements pushed and popped from the stack did not match before exiting the method.
-
--
-Removed tangent frame re-construction from pixel shader because of un-orthonormality of the tangent frame.
-
--
-Fixed terrain normal map.
-
--
-Sandbox: Sound Entities Duplicated, removed from Entities list.
-
--
-Fix helicopter controls.
-
--
-Selecting a Reverb type produces an error.
-
--
-Fix for delayed material deletion.
-
--
-Box-box ghost contacts issue in swept tests.
-
--
-Fixed a Problem where an Entity can be linked to a Joint of itself.
-
--
-TRACK: The camera DOF track should be removed from the Editor. There is a separate DOF node which works.
-
--
-Validated pointer before use; It can be null during terrain resizing.
-
--
-Recorded filename of terrain texture pak after serialization to make it possible to close the pak in the save procedure.
-
--
-Improved rigidbody swept collisions.
-
--
-Sandbox: Preferences Dialog: Show vertical scroll for list of preferences.
-
--
-Issue in character rope sync.
-
--
-Pistol clip_size changing because of flashlight attachment.
-
--
-Fixes to LightBeam shader.
-
--
-Vertex Snapping Removed unnecessary picking check when the mouse cursor doesn't move. Excluded vegetation in the vertex snapping to speed up. Improved rendering vertex cube on a scaled object.
-
--
-HMMWV: Fixed incorrect helper positions.
-
--
-Hidden vegetation is not detected by the material picker.
-
--
-Error handler shows missing tifs as errors even if the converted dds exists.
-
--
-TOD: Prev/Next key doesn't actually make selection.
-
--
-CActionMap errors.
-
--
-Weapon switching has a huge delay on gamepads.
-
--
-Vehicle enter/exit transitions will be skipped if no actionController is available.
-
--
-EnvironmentProbes: Fixed incorrect dimensions for box projection.
-
--
-Projectiles don't reset spin when reinitialized from projectile pool.
-
--
-New mechanic for moving vegetation to places where it cannot be placed down.
-
--
-Fixed tangent frame calculation to happen in the pixel shader.
-
--
-Brushes using a cylinder, sphere or a capsule could have been not correctly process by the MNM system if they were the only physical element in a tile. Also the rasterization of the cylinder has been fixed to correctly process the base. Correctly multiply and divide two FixedPoint numbers.
-
--
-Toolbox Macros not working.
-
--
-Zero-Pointer check when CHR has no CAFs.
-
--
-Flash lockless rendering did not check sys_flash cvar.
-
--
-Wrong stack string unittest expectation.
-
--
-Fixed deselecting vegetation that's no longer inside the selection rectangle.
-
--
-Improved the selection of the solid and designer object by giving the render proxy higher priority than the physical proxy in a brush object and reflecting a world transform to calculate distance from src pos to hit pos of Designer object.
-
--
-Sandbox: Fix for Changing the skin of the UI results in some text not being displayed.
-
--
-Fixed bug with WeaponCustomization system not separating accessory strings correctly.
-
--
-Fix a bug related to naming exported file of designer object so that it won't have duplicated names with solid name by putting prefab "designer_".
-
--
-Comment object wasn't saving properly to xml level file.
-
--
-FileSystemSearcher iterator invalidation.
-
--
-"Reload Item" tooltip in database editors.
-
--
-Material picker picks the editor-defined material of vegetation instead of the default material (if it has been defined).
-
--
-Sandbox: Preferences dialog: Show General Settings when dialog has been opened.
-
--
-Deleting flowgraph modules didn't unregister flowgraph types and didn't remove existing caller nodes - New system event ESYSTEM_EVENT_EDITOR_SIMULATION_MODE_CHANGED to reset modules on simulation mode change - Scanning and clearing level modules only during level load - Flowsystem now generates a type id instead of relying on the type vector size.
-
--
-Some bone character cloth fixes.
-
--
-Sandbox: Show cursor after returning from Game mode.
-
--
-Bug in CMovieSystem::FindSequenceGroup().
-
--
-Fragment browser didnt properly rebuild fragment list.
-
--
-Added hidden, fixed and max number of chars to the Comment object.
-
--
-Entity Links in rollup bar - Button state incorrect / PickObjectButton highlighted after OnCancelPick.
-
--
-Sandbox:
- Exporting a layer always overwrites the existing old layer.
-
--
-Clamp setting segment normalized time between 0 and 1.
-
--
-Various character rope and character aux physics (ropes/cloth) improvements.
-
--
-CryDESIGNER/AreaSolid: Fixed some minor bugs Added Multiple elements selection Improved the move tool Improved Snapping Tool in drawing line tool Added Select Tool Added Loop Cut Tool.
-
--
-Prefixed levelname to prevent broken xml formats.
-
--
-Pistol 1P melee animation and 3P death.
-
--
-Fixed issue with Abrams PFX firing off on enter (child PFX need to be set to ParentStart). Slight tweaks to PFX.
-
--
-Fixed issue with being unable to respawn.
-
--
-Rifle magazine re-textured and re-exported to be suitable for platforms.
-
--
-Added flashlight helper to the 3P Item and fixed the geometry to prevent UV stretching at the mirror border.
-
--
-Missing Pistol melee animation entry.
-
--
-Blend factor fix on terrain material.
-
--
-Fixed material for Blackhawk.
-
--
-Crash because of missing initial stiffness for blending ragdoll (fall and play).
-
--
-HitDeathReactions & MP_music: Fixed some syntax problems.
-
-##
-Added
-
--
-Added initial implementation of Smoke Grenades.
-
--
-Added initial rocketlauncher implementation. Updated material effects.
-
--
-Added initial implementation of heavy mounted gun. Added new PFX set.
-
--
-Added initial implementation of Incendiary ammo type. New MaterialEffets entry for pistol. New bulletimpacts and particles setup.
-
--
-Added initial implementation of Shotgun weapon, mostly based off Rifle.
-
--
-Added Shotgun attachment asset.
-
--
-Added Pistol ammunition accessories, updated Pistol script. Tweaked Incendiary script.
-
--
-Added Lightswitch EntityArchetype examples, updated Switch script.
-
--
-Added ExtendedClip accessory script.
-
--
-Added HMMWV animations.
-
--
-Flownode to enslave a character through flowgraph.
-
--
-Flownode to provide the seathelper position.
-
--
-Multiple datatype support for squish-ccr.
-
--
-Dynamic cloth slicing + dynamic rope slicing in two.
-
--
-Optional physicalized leg colliders for characters.
-
--
-CryDesigner Rotation and Scale has been added to the Move tool. Rotation of clip plane in Mirror and LoopCut tool has been added.
-
--
-CryDesigner Implemented the Mirror tool. Improved performance by drawing outlines of only the selected objects. Implemented repeating the previous action by double clicking. Activated the converter tool converting from solid object to designer object.
-
--
-Added several example cloud scripts. Added VolumeObject default material.
-
--
-Added a light_term helper to the attachment.
-
-##
-Optimization
-
--
-Completely removed CParticleDeferredReleaseObjects class; all objects now either released in main thread, or are thread-safe released, or are forced to PPU (physics and geom attachment).
-
--
-Particle stats gathering optimization and consolidation, 200 lines less code. No longer allocate stats in CParticleEffect; collect dynamically in map.
-
--
-Simplified application of MinPixels particle param. Param now also prevents distance culling.
-
--
-Removed some obsolete negative-age particle code.
-
--
-Removed confusing notion of parent SubEmitters in sibling Containers; was used for target generation (now specified in child TargetMotion param), and synchronised pulsing (now requires parent emitter).
-
--
-Put particle param conversion from older versions back inside case switch, avoiding needless work on recent versions.
-
--
-Removed particle merging, due to inconsistent rendering.
-
--
-Max distance check for animated cloth.
-
--
-Various character attachment optimizations.
-
--
-Joint List is also sorted now.
-
-##
-Refactored
-
--
-Changed separate location members in CParticle to standard QuatTS, for better interoperability and simplicity. Converted tail history to also use QuatTS.
-
--
-Moved Age and LifeTime fields to SParticleTimeState, renamed LifeTime and EndAge everywhere to StopAge for consistency. Simplified some particle age-related code.
-
--
-CryArray minor cleanup: Moved Storage specifiers up in file to avoid templated forward declarations. Fixed Array<> constructors and assign() functions to avoid unintentional deep copy. Added STACK_ARRAY macros for alloca, removed unused macro from SpuUtils.
-
--
-Remove CryExtension from IComponent.
-
--
-Made EntityProxy and GameObjectExtension derive from IComponent. Fixed potential dangling pointer when deleting GameObjectExtensions.
-
--
-Added crycomponent_cast to cast between IComponent types (note: this is a static cast).
-
--
-Turned IComponentPtr into a boost::shared_ptr. Made Component system perform a lazy registration in order to reduce memory overhead for components that never get an event.
-
--
-Changed 'enable' and 'lazy' arguments into flags.
-
--
-Created SEmitGeom class to combine StatObj and CharInstance into one pointer (for memory savings), and handle geom attachment functions.
-
--
-Refactoring, saves struct memory and 300 lines of code. Renamed CParticleLocEmitter to more descriptive CParticleSource, inherits from SMoveState, STimeState, and SEmitGeom. Particle and Emitter now both inherit from CParticleSource, no separate LocEmitter for parent particles. Parent particles and subemitters now managed by ref counting, fixing targeting and other bugs.
-
--
-Replaced EEmitterState enum with Activate, IsActive, IsAlive methods.
-
--
-Deprecating RaisingWater entity. Use GameVolumes instead.
-
--
-Deprecating PlayerModelChanger entity. Use Actor:SetPlayerModel node instead.
-
--
-Isolated Pak functions from ResourceCompiler.
-
--
-Wind entity: Moved wind entity into Physics folder, alongside WindArea entity.
-
--
-Tangent basis code and removed duplicate files.
-
--
-Big ActionMap cleanup.
-
--
-Removed previous imagecompressors.
-
--
-Made external compressor libraries optional.
-
--
-Created a closed variation for the ammocrate. Updated the AmmoCrateMP.lua to now use the correct model by default.
-
--
-Made rope properties per-character-instance instead of per-model + added disabled flag.
-
-##
-Tweak
-
--
-Particle DebugBounds code now colors particle red when out of static bounds.
-
--
-WindArea: Added description text and exposed Speed value in FG.
-
--
-Sandbox: Removed unrelated keyboard options from various Tools menus. Added Tool tips to several Terrain Editor functions. Clarified Ocean vs Water and Terrain text.
-
--
-"Assign Selected Entity" and "Assign Graph Entity" are part of node and port context menus (Flowgraph).
-
--
-Default mannequin preview changed to SDK_playerPreview1P.
-
--
-Def_vehicle: Updated description text and layout.
-
--
-Light.lua: Added DeferredLight checkbox back in for special case workarounds. Increased maximum clamp to 1000 on Shadow Bias settings.
-
--
-GameToken
-: Select dialog background color.
-
--
-TipOfDay Dialog: Added support for skinning. Grey font on Dark Skin style, else, Black font.
-
--
-PressurizedObject: Updated script, added new steam particle effect.
-
--
-Removed unnecessary conversion step RGBA32F -> R32F -> A8.
-
--
-Changed the default size of the Comment object.
-
--
-HMMWV: Reset layout to tabbed spacing.
-
--
-Removed unused code from CryCompressorRC and TextureSplitter.
-
--
-Disabled STAP while in vehicle.
-
--
-Rain Entity: Exposed radius, mistamount, puddlesamount, raindropsamount and raindropsspeed values through FG.
-
--
-Changed "hide helpers" editor buttons to "show/toggle helpers".
-
--
-Aligned UI elements.
-
--
-Sandbox style updates.
-
--
-Removed tangent frame re-calculation from terrain pixel shader.
-
--
-Renamed tank125 to Tank125, updated scripts referencing. Updated Equipment packs to prevent new ammo found message.
-
--
-Sandbox: Tree report control highlight color.
-
--
-Rifle Pistol scripts: Updated with comments for parameters. Reorganized into FP->3P and SP->MP structure for consistency. Removed duplicate and invalid entries.
-
--
-Readding sleep event for AI to trigger fall and play from editor context menu.
-
--
-Sandbox Welcome Dialog: Slight adjustment to bottom text area, set to single line.
-
--
-Removed hardcoded dialog colors.
-
--
-Updated r_MeasureOverdraw descriptions.
-
--
-UIInput: Fixed typo on "VirtualKeyboard" node. Flow Graphs using this node will need to be updated.
-
--
-Default TOD: Lowered GI amount, increased moon life time.
-
--
-Wrong shape panel background color for target selection.
-
--
-Added editor settings version number check.
-
--
-Exposed several options for Light entities in FG. Added helper description text.
-
--
-Flowgraph
-: Debugging text color.
-
--
-Added info to ItemPackages.xml script about its use. Added SDK content to it.
-
--
-Update to TerrainLighting Tool. Tidied layout.
-
--
-Unnecessary unloading of level data / resetting systems even if no level was loaded.
-
--
-Removed "Export occlusion mesh" option from Sandbox File menu, function is not used.
-
--
-Removed obsolete cvars, updated e_ParticlesDebug help.
-
--
-Elevator Entity: Updated scripts sounds, models, text.
-
--
-R_displayinfo shows total and instanced drawcalls.
-
--
-Updated application icons.
-
--
-GeometryBeam Shader: Added/updated description text.
-
--
-Hid CameraTarget entity (deprecated). Added icon for CloneFactory entity.
-
--
-Enabling ca_StreamCHR on all platforms.
-
--
-Toggle Console/RollupBar with the menu.
-
--
-Renamed "Realtime Reflection Approximation" to "Realtime Reflection" in WaterVolume shader so it fits on one line in MatEd.
-
--
-Various tweaks to default time of day.
-
--
-HMMWV: Tweaked collision damages to be stronger. Fixed blown tire PFX not working. Various handling tweaks (less slippery, slower to turn, unlimited boost). Set TP camera offset further back.
-
--
-Fan Entity: Updated script.
-
--
-ModelViewport
-: Default colors.
-
--
-Renamed Endian.h to CryEndian.h. Causes conflict with compiling case sensitive software on case insenstive platforms.
-
--
-RiverObject: Fixed FogColorAffectedBySun property appearing as mv_waterFogColorAffectedBySun in River object.
-
--
-ActionMaps: Removed gamepad controls for prev/next item (interfered with firemode toggle). Set vehicle lights key to "L" instead of "1". Removed "Gamepad specific" section and assigned into each section as needed. Set Attack 1 to gamepad right shoulder and 2 to left. Added rotate/pitch controls to vehicle driver to allow player to aim tank turret as driver (gamepads). Set Helicopter collective (ascend/descend) to W/S instead of Space/Ctrl. Set Helicopter roll and pitch to left stick, yaw to right stick (gamepads). Added RotatePitch into VehicleMovementHelicopter code.
-
--
-Flowgraph
-: QuickSearch rendering.
-
--
-Chunkexplore: added displaying of new and missing flags.
-
--
-Readded support for level.cfg.
-
--
-Separating views (Front, Z, Map, Perspective etc.) from normal viewpanes (Mannequin, Material, Flowgraph) in the views menu.
-
--
-AreaBezierVolume: Hiding entity from Entity/Physics list as it's not needed to be placed in the world. Script is used for Gravity Volume object in Misc section.
-
--
-Added warning about computation time of e_debugdraw 13 to CVar description text.
-
--
-Flowgraph
-: Style/Colors.
-
--
-Don't use highlight color for values different than default type values (PropertyItem).
-
--
-Added "arealight" tag to SelectObjects Dialog for area lights.
-
--
-TerrainEditor: Shrunk white space at bottom of Modify Terrain panel to fit in-line with default sized terrain preview window, preventing unnecessary scrollbar.
-
--
-Tweaked MH60 destroyed PFX. Added refraction. Tweaked smoke. Slowed flame effects.
-
--
-Human mannequin setup
-
--
-Tweaked erosion material, tiled grass surface, decreased diff/spec/fres for tree trunk.
-
--
-Removed cubemap and normalmap from shell material.
-
--
-PressurizedObject: Updated script, added new steam particle effect.
-
--
-Small plane material tweaks. Lowered spec amount and lowered glass dirtiness/reflection.
-
--
-Various tweaks to HMMWV PFX.
-
--
-Lowered terrain blend dist amount on Forest Grass to prevent darkening.
-
-##
-New Feature
-
--
-Flowgraph
-: Input:Mouse flownode.
-
--
-Engine: project-specific per-platform mesh vtx_idx uint16/uint32 (mostly to support more than 64K vertices in static geometry).
-
--
-Added eventID to the GetEventPriority interface so we can have per event updates/registration.
-
--
-Sandbox: DataBase view. Add Copy Path for items.
-
--
-Exposed more rope properties.
-
--
-Sandbox: Terrain sector resolution: Change multiple tile resolution at once.
-
--
-Added cast shadows option for ropes.
-
--
-Mannequin HMMWV Setup.
-
--
-Added option to use bone in FirstPerson vehicle camera.
-
--
-Added particle fill stat and sort mode to PerfHud ParticleWidget.
-
--
-New bitmaps to reflect new CRYENGINE branding.
-
--
-Levels can be tagged with user defined level types.
-
--
-Add two missing header to compile the GameDLL without engine code.
-
--
-Undo & Redo implemented for attachment modifications.
-
--
-Sandbox: Vegetation: Update category for dragged item in vegetation object list.
-
--
-Copied all ParticleParam comments to TypeInfo metadata, so they now show up in editor tooltips. Updated several comments.
-
--
-Replaced PendulumOffset by SimulationAxis.
-
--
-Allow character-space cloth sim + some cloth fixes.
-
--
-Prevent zero-length vector generation from mip-mapping.
-
--
-Flowgraph
-: Double click on a flowgraph module caller node opens corresponding module flowgraph.
-
--
-Added support for Mikkelsen's Tangent Basis algorithm.
-
--
-Fixed terrain not rendering when e_DefaultMaterial=1.
-
--
-Terrain Painter menu item support.
-
--
-Removed gap between ocean and sky in High~Med config.
-
--
-Option to switch rendering order of flowgraph edges on top or below nodes (default: below nodes).
-
--
-Added export/import of animation event presets to file to the Animation Editor. Changed an initial layout of the character editor so that animation control's space can become bigger.
-
--
-Support for global constraints on alive skeletons.
-
--
-MissionObjectives and HudEvent listeners.
-
--
-Added entity_classes for flownodes.
-
--
-Sandbox: Particle Editor: Add Copy Path menu item.
-
--
-Fixed wrong pointer offset for BC4.
-
--
-Made collision types for rigidbodies customizable.
+### Fixed
+
+- Fixed array bounds crash in tail rendering.
+- Exit simulation mode assert
+- Fixed an error caused by vertex snapping button in a ribbon bar when the sandbox started.
+- CryDesigner Fix a bug creating duplicated edges after finishing the drawing tool by pressing ESC key.
+- Added a new variable to enable/disable highlighting the vegetation when selected.
+- nullpointer crash: Added additional test to see if ammotype is valid.
+- Fixed localizing strings in the middle of sentences.
+- ExportColladaDlg not opening.
+- Sandbox: MoveTool: Support copping vegetation with rotation.
+- Sandbox: Do not show Main Editor window in Material Editor mode. To fix a crash in 3ds MAX sync time.
+- Crash changing material on painted vegetation with Automerged.
+- Added tangent frame re-construction in pixel shader.
+- EULA dialog size compatibility.
+- Sandbox: Ledge Object: Make consistent parameters order.
+- Missed constructor initialization.
+- Adjusted shadow map packing size.
+- Item physicalizes every 2nd spawn.
+- Fix for cloth + make alive ropes never fall asleep.
+- Spawnpoint: Enabled and InitialSpawn params warning.
+- Crash on rope properties editing in character editor.
+- Default ocean water material not working properly in launcher.
+- CryDesigner/AreaSolid Fixed a bug related to snapping to the axis aligned line.
+- Fix to MultiTree control to properly select a range when selected from bottom to top.
+- Wrongly applied spin quaternion (particle entity).
+- Fixes to emitter lifetime, priming, pulsing, target, and attachment. Fixed and optimised particle memory usage computation.
+- Fixed bugs with dynamic bounds inheritance, pulsing, and registering emitters.
+- Fix UIElements on dynamic textures are not visible.
+- Fix UIElement instances for editor.
+- Made auto save of prefab objects possible when changing FG nodes. Made nested prefabs supported well. Fixed a bug related to jumping a prefab object created in group object.
+- Flowgraph: Checkbox drawing correct size when zoomed in.
+- Save level statistics crash.
+- Character bone cloth fixes.
+- Vegetation can be moved by click and drag.
+- Disabling Image:EffectDepthOfField node doesn't disable depth of field posteffect.
+- Removed limitation of 256 vegetation objects.
+- Remove FogVolume object from Area creation menu.
+- CryDesigner: Improved repeat action function in "Push/Pull" and "Offset" function. Excluded back regions in serialization and generated back regions from the front regions. Refactored codes related to LButton message in Push/Pull and Offset tool. Changed a way of push/pull by using only front regions. Fixed a bug about move's first pass not being applied in move tool. Added regions on a mirror plane after moving to mirror mode in mirror tool.
+- M_bSliding not reset when setting parameters for particle entities.
+- Sandbox: Terrain Modify Tool: Keep height value for Raise/Low brush when you leave tool and back again.
+- Sandbox: Open Smart File Dialog: Fix empty list.
+- Fixed MoveRelEmitter bug causing muzzle flash lag. MRE particles not adjusted after first emission. Also corrected transform calculation error.
+- Fixed particle iteration infinite looping – inconsistent checking of sliding state. Removed unneeded ParticleUpdateContext.bHasDeviation
+- Fixed positioning and texture coords of newest particle in ConnectToOrigin mode.
+- Fixed inefficient repetition of lookahead collision checks when turbulence enabled.
+- Fixed particle targeting with bShrink.
+- Fixed black polygons on Connected particles with ConnectToOrigin (prevent 0 axes).
+- Corrected calculation of e_ParticlesMinDrawPixels check.
+- Fixed and greatly improved particle target motion: no longer applies velocity twice; target orbit fraction computed from particle start age; radial motion properly separated from orbital motion; faster average radius for angular velocity computation.
+- Fixed double rotation speed for free particles, simplified rotation code.
+- Flowgraph Crash on exit while removing pending timers.
+- Character rope terrain collisions.
+- File "Save" option saved to the root of game folder instead of correct path.
+- Lod generator updates.
+- EnvironmentPanel: Fixed default settings not displaying checkboxes correctly on new level creation.
+- Mannequin dialog not updated on preview setup load.
+- Lua interpreted strings as numbers.
+- Fixed a crash bug when adding quick search node. This bug was caused by incorrect casting of a graph node.
+- Fpe in unused_marker.
+- Opening console adds extra '^' on German keyboards.
+- Fixed crash when accessing invalid pointer in Merged Meshes.
+- MergedMeshes Wrong groupID type.
+- Crash at game exit.
+- EntityEffect assert.
+- Eliminated SubEmitter ref-counting errors and crash. Fixed lifetime errors with child emitters.
+- Null pointer for model animation header
+- Sandbox: Fix bug in LayersListBox::OnLButtonUp() - in layer moving to new parent.
+- Sandbox: Do not show Sequence Object in creation tab.
+- TRACK: Scrubbing over the end of an animation causes timeline scrubbing to not work any longer.
+- Sandbox: Fix selection for objects with zero size of one side, like plane.
+- Tilt function of 3D mouse not working.
+- Dedicated Server (asserts, runaway threads, no need for an ui manager).
+- Fixes lua stack corruption. The number of elements pushed and popped from the stack did not match before exiting the method.
+- Removed tangent frame re-construction from pixel shader because of un-orthonormality of the tangent frame.
+- Fixed terrain normal map.
+- Sandbox: Sound Entities Duplicated, removed from Entities list.
+- Fix helicopter controls.
+- Selecting a Reverb type produces an error.
+- Fix for delayed material deletion.
+- Box-box ghost contacts issue in swept tests.
+- Fixed a Problem where an Entity can be linked to a Joint of itself.
+- TRACK: The camera DOF track should be removed from the Editor. There is a separate DOF node which works.
+- Validated pointer before use; It can be null during terrain resizing.
+- Recorded filename of terrain texture pak after serialization to make it possible to close the pak in the save procedure.
+- Improved rigidbody swept collisions.
+- Sandbox: Preferences Dialog: Show vertical scroll for list of preferences.
+- Issue in character rope sync.
+- Pistol clip_size changing because of flashlight attachment.
+- Fixes to LightBeam shader.
+- Vertex Snapping Removed unnecessary picking check when the mouse cursor doesn't move. Excluded vegetation in the vertex snapping to speed up. Improved rendering vertex cube on a scaled object.
+- HMMWV: Fixed incorrect helper positions.
+- Hidden vegetation is not detected by the material picker.
+- Error handler shows missing tifs as errors even if the converted dds exists.
+- TOD: Prev/Next key doesn't actually make selection.
+- CActionMap errors.
+- Weapon switching has a huge delay on gamepads.
+- Vehicle enter/exit transitions will be skipped if no actionController is available.
+- EnvironmentProbes: Fixed incorrect dimensions for box projection.
+- Projectiles don't reset spin when reinitialized from projectile pool.
+- New mechanic for moving vegetation to places where it cannot be placed down.
+- Fixed tangent frame calculation to happen in the pixel shader.
+- Brushes using a cylinder, sphere or a capsule could have been not correctly process by the MNM system if they were the only physical element in a tile. Also the rasterization of the cylinder has been fixed to correctly process the base. Correctly multiply and divide two FixedPoint numbers.
+- Toolbox Macros not working.
+- Zero-Pointer check when CHR has no CAFs.
+- Flash lockless rendering did not check sys_flash cvar.
+- Wrong stack string unittest expectation.
+- Fixed deselecting vegetation that's no longer inside the selection rectangle.
+- Improved the selection of the solid and designer object by giving the render proxy higher priority than the physical proxy in a brush object and reflecting a world transform to calculate distance from src pos to hit pos of Designer object.
+- Sandbox: Fix for Changing the skin of the UI results in some text not being displayed.
+- Fixed bug with WeaponCustomization system not separating accessory strings correctly.
+- Fix a bug related to naming exported file of designer object so that it won't have duplicated names with solid name by putting prefab "designer_".
+- Comment object wasn't saving properly to xml level file.
+- FileSystemSearcher iterator invalidation.
+- "Reload Item" tooltip in database editors.
+- Material picker picks the editor-defined material of vegetation instead of the default material (if it has been defined).
+- Sandbox: Preferences dialog: Show General Settings when dialog has been opened.
+- Deleting flowgraph modules didn't unregister flowgraph types and didn't remove existing caller nodes - New system event ESYSTEM_EVENT_EDITOR_SIMULATION_MODE_CHANGED to reset modules on simulation mode change - Scanning and clearing level modules only during level load - Flowsystem now generates a type id instead of relying on the type vector size.
+- Some bone character cloth fixes.
+- Sandbox: Show cursor after returning from Game mode.
+- Bug in CMovieSystem::FindSequenceGroup().
+- Fragment browser didnt properly rebuild fragment list.
+- Added hidden, fixed and max number of chars to the Comment object.
+- Entity Links in rollup bar - Button state incorrect / PickObjectButton highlighted after OnCancelPick.
+- Sandbox: Exporting a layer always overwrites the existing old layer.
+- Clamp setting segment normalized time between 0 and 1.
+- Various character rope and character aux physics (ropes/cloth) improvements.
+- CryDESIGNER/AreaSolid: Fixed some minor bugs Added Multiple elements selection Improved the move tool Improved Snapping Tool in drawing line tool Added Select Tool Added Loop Cut Tool.
+- Prefixed levelname to prevent broken xml formats.
+- Pistol 1P melee animation and 3P death.
+- Fixed issue with Abrams PFX firing off on enter (child PFX need to be set to ParentStart). Slight tweaks to PFX.
+- Fixed issue with being unable to respawn.
+- Rifle magazine re-textured and re-exported to be suitable for platforms.
+- Added flashlight helper to the 3P Item and fixed the geometry to prevent UV stretching at the mirror border.
+- Missing Pistol melee animation entry.
+- Blend factor fix on terrain material.
+- Fixed material for Blackhawk.
+- Crash because of missing initial stiffness for blending ragdoll (fall and play).
+- HitDeathReactions & MP_music: Fixed some syntax problems.
+
+### Added
+
+- Added initial implementation of Smoke Grenades.
+- Added initial rocketlauncher implementation. Updated material effects.
+- Added initial implementation of heavy mounted gun. Added new PFX set.
+- Added initial implementation of Incendiary ammo type. New MaterialEffets entry for pistol. New bulletimpacts and particles setup.
+- Added initial implementation of Shotgun weapon, mostly based off Rifle.
+- Added Shotgun attachment asset.
+- Added Pistol ammunition accessories, updated Pistol script. Tweaked Incendiary script.
+- Added Lightswitch EntityArchetype examples, updated Switch script.
+- Added ExtendedClip accessory script.
+- Added HMMWV animations.
+- Flownode to enslave a character through flowgraph.
+- Flownode to provide the seathelper position.
+- Multiple datatype support for squish-ccr.
+- Dynamic cloth slicing + dynamic rope slicing in two.
+- Optional physicalized leg colliders for characters.
+- CryDesigner Rotation and Scale has been added to the Move tool. Rotation of clip plane in Mirror and LoopCut tool has been added.
+- CryDesigner Implemented the Mirror tool. Improved performance by drawing outlines of only the selected objects. Implemented repeating the previous action by double clicking. Activated the converter tool converting from solid object to designer object.
+- Added several example cloud scripts. Added VolumeObject default material.
+- Added a light_term helper to the attachment.
+
+### Optimization
+
+- Completely removed CParticleDeferredReleaseObjects class; all objects now either released in main thread, or are thread-safe released, or are forced to PPU (physics and geom attachment).
+- Particle stats gathering optimization and consolidation, 200 lines less code. No longer allocate stats in CParticleEffect; collect dynamically in map.
+- Simplified application of MinPixels particle param. Param now also prevents distance culling.
+- Removed some obsolete negative-age particle code.
+- Removed confusing notion of parent SubEmitters in sibling Containers; was used for target generation (now specified in child TargetMotion param), and synchronised pulsing (now requires parent emitter).
+- Put particle param conversion from older versions back inside case switch, avoiding needless work on recent versions.
+- Removed particle merging, due to inconsistent rendering.
+- Max distance check for animated cloth.
+- Various character attachment optimizations.
+- Joint List is also sorted now.
+
+### Refactored
+
+- Changed separate location members in CParticle to standard QuatTS, for better interoperability and simplicity. Converted tail history to also use QuatTS.
+- Moved Age and LifeTime fields to SParticleTimeState, renamed LifeTime and EndAge everywhere to StopAge for consistency. Simplified some particle age-related code.
+- CryArray minor cleanup: Moved Storage specifiers up in file to avoid templated forward declarations. Fixed Array<> constructors and assign() functions to avoid unintentional deep copy. Added STACK_ARRAY macros for alloca, removed unused macro from SpuUtils.
+- Remove CryExtension from IComponent.
+- Made EntityProxy and GameObjectExtension derive from IComponent. Fixed potential dangling pointer when deleting GameObjectExtensions.
+- Added crycomponent_cast to cast between IComponent types (note: this is a static cast).
+- Turned IComponentPtr into a boost::shared_ptr. Made Component system perform a lazy registration in order to reduce memory overhead for components that never get an event.
+- Changed 'enable' and 'lazy' arguments into flags.
+- Created SEmitGeom class to combine StatObj and CharInstance into one pointer (for memory savings), and handle geom attachment functions.
+- Refactoring, saves struct memory and 300 lines of code. Renamed CParticleLocEmitter to more descriptive CParticleSource, inherits from SMoveState, STimeState, and SEmitGeom. Particle and Emitter now both inherit from CParticleSource, no separate LocEmitter for parent particles. Parent particles and subemitters now managed by ref counting, fixing targeting and other bugs.
+- Replaced EEmitterState enum with Activate, IsActive, IsAlive methods.
+- Deprecating RaisingWater entity. Use GameVolumes instead.
+- Deprecating PlayerModelChanger entity. Use Actor:SetPlayerModel node instead.
+- Isolated Pak functions from ResourceCompiler.
+- Wind entity: Moved wind entity into Physics folder, alongside WindArea entity.
+- Tangent basis code and removed duplicate files.
+- Big ActionMap cleanup.
+- Removed previous imagecompressors.
+- Made external compressor libraries optional.
+- Created a closed variation for the ammocrate. Updated the AmmoCrateMP.lua to now use the correct model by default.
+- Made rope properties per-character-instance instead of per-model + added disabled flag.
+
+### Tweak
+
+- Particle DebugBounds code now colors particle red when out of static bounds.
+- WindArea: Added description text and exposed Speed value in FG.
+- Sandbox: Removed unrelated keyboard options from various Tools menus. Added Tool tips to several Terrain Editor functions. Clarified Ocean vs Water and Terrain text.
+- "Assign Selected Entity" and "Assign Graph Entity" are part of node and port context menus (Flowgraph).
+- Default mannequin preview changed to SDK_playerPreview1P.
+- Def_vehicle: Updated description text and layout.
+- Light.lua: Added DeferredLight checkbox back in for special case workarounds. Increased maximum clamp to 1000 on Shadow Bias settings.
+- GameToken: Select dialog background color.
+- TipOfDay Dialog: Added support for skinning. Grey font on Dark Skin style, else, Black font.
+- PressurizedObject: Updated script, added new steam particle effect.
+- Removed unnecessary conversion step RGBA32F -> R32F -> A8.
+- Changed the default size of the Comment object.
+- HMMWV: Reset layout to tabbed spacing.
+- Removed unused code from CryCompressorRC and TextureSplitter.
+- Disabled STAP while in vehicle.
+- Rain Entity: Exposed radius, mistamount, puddlesamount, raindropsamount and raindropsspeed values through FG.
+- Changed "hide helpers" editor buttons to "show/toggle helpers".
+- Aligned UI elements.
+- Sandbox style updates.
+- Removed tangent frame re-calculation from terrain pixel shader.
+- Renamed tank125 to Tank125, updated scripts referencing. Updated Equipment packs to prevent new ammo found message.
+- Sandbox: Tree report control highlight color.
+- Rifle Pistol scripts: Updated with comments for parameters. Reorganized into FP->3P and SP->MP structure for consistency. Removed duplicate and invalid entries.
+- Readding sleep event for AI to trigger fall and play from editor context menu.
+- Sandbox Welcome Dialog: Slight adjustment to bottom text area, set to single line.
+- Removed hardcoded dialog colors.
+- Updated r_MeasureOverdraw descriptions.
+- UIInput: Fixed typo on "VirtualKeyboard" node. Flow Graphs using this node will need to be updated.
+- Default TOD: Lowered GI amount, increased moon life time.
+- Wrong shape panel background color for target selection.
+- Added editor settings version number check.
+- Exposed several options for Light entities in FG. Added helper description text.
+- Flowgraph: Debugging text color.
+- Added info to ItemPackages.xml script about its use. Added SDK content to it.
+- Update to TerrainLighting Tool. Tidied layout.
+- Unnecessary unloading of level data / resetting systems even if no level was loaded.
+- Removed "Export occlusion mesh" option from Sandbox File menu, function is not used.
+- Removed obsolete cvars, updated e_ParticlesDebug help.
+- Elevator Entity: Updated scripts sounds, models, text.
+- R_displayinfo shows total and instanced drawcalls.
+- Updated application icons.
+- GeometryBeam Shader: Added/updated description text.
+- Hid CameraTarget entity (deprecated). Added icon for CloneFactory entity.
+- Enabling ca_StreamCHR on all platforms.
+- Toggle Console/RollupBar with the menu.
+- Renamed "Realtime Reflection Approximation" to "Realtime Reflection" in WaterVolume shader so it fits on one line in MatEd.
+- Various tweaks to default time of day.
+- HMMWV: Tweaked collision damages to be stronger. Fixed blown tire PFX not working. Various handling tweaks (less slippery, slower to turn, unlimited boost). Set TP camera offset further back.
+- Fan Entity: Updated script.
+- ModelViewport: Default colors.
+- Renamed Endian.h to CryEndian.h. Causes conflict with compiling case sensitive software on case insenstive platforms.
+- RiverObject: Fixed FogColorAffectedBySun property appearing as mv_waterFogColorAffectedBySun in River object.
+- ActionMaps: Removed gamepad controls for prev/next item (interfered with firemode toggle). Set vehicle lights key to "L" instead of "1". Removed "Gamepad specific" section and assigned into each section as needed. Set Attack 1 to gamepad right shoulder and 2 to left. Added rotate/pitch controls to vehicle driver to allow player to aim tank turret as driver (gamepads). Set Helicopter collective (ascend/descend) to W/S instead of Space/Ctrl. Set Helicopter roll and pitch to left stick, yaw to right stick (gamepads). Added RotatePitch into VehicleMovementHelicopter code.
+- Flowgraph: QuickSearch rendering.
+- Chunkexplore: added displaying of new and missing flags.
+- Readded support for level.cfg.
+- Separating views (Front, Z, Map, Perspective etc.) from normal viewpanes (Mannequin, Material, Flowgraph) in the views menu.
+- AreaBezierVolume: Hiding entity from Entity/Physics list as it's not needed to be placed in the world. Script is used for Gravity Volume object in Misc section.
+- Added warning about computation time of e_debugdraw 13 to CVar description text.
+- Flowgraph: Style/Colors.
+- Don't use highlight color for values different than default type values (PropertyItem).
+- Added "arealight" tag to SelectObjects Dialog for area lights.
+- TerrainEditor: Shrunk white space at bottom of Modify Terrain panel to fit in-line with default sized terrain preview window, preventing unnecessary scrollbar.
+- Tweaked MH60 destroyed PFX. Added refraction. Tweaked smoke. Slowed flame effects.
+- Human mannequin setup
+- Tweaked erosion material, tiled grass surface, decreased diff/spec/fres for tree trunk.
+- Removed cubemap and normalmap from shell material.
+- PressurizedObject: Updated script, added new steam particle effect.
+- Small plane material tweaks. Lowered spec amount and lowered glass dirtiness/reflection.
+- Various tweaks to HMMWV PFX.
+- Lowered terrain blend dist amount on Forest Grass to prevent darkening.
+
+### New Feature
+
+- Flowgraph: Input:Mouse flownode.
+- Engine: project-specific per-platform mesh vtx_idx uint16/uint32 (mostly to support more than 64K vertices in static geometry).
+- Added eventID to the GetEventPriority interface so we can have per event updates/registration.
+- Sandbox: DataBase view. Add Copy Path for items.
+- Exposed more rope properties.
+- Sandbox: Terrain sector resolution: Change multiple tile resolution at once.
+- Added cast shadows option for ropes.
+- Mannequin HMMWV Setup.
+- Added option to use bone in FirstPerson vehicle camera.
+- Added particle fill stat and sort mode to PerfHud ParticleWidget.
+- New bitmaps to reflect new CRYENGINE branding.
+- Levels can be tagged with user defined level types.
+- Add two missing header to compile the GameDLL without engine code.
+- Undo & Redo implemented for attachment modifications.
+- Sandbox: Vegetation: Update category for dragged item in vegetation object list.
+- Copied all ParticleParam comments to TypeInfo metadata, so they now show up in editor tooltips. Updated several comments.
+- Replaced PendulumOffset by SimulationAxis.
+- Allow character-space cloth sim + some cloth fixes.
+- Prevent zero-length vector generation from mip-mapping.
+- Flowgraph: Double click on a flowgraph module caller node opens corresponding module flowgraph.
+- Added support for Mikkelsen's Tangent Basis algorithm.
+- Fixed terrain not rendering when e_DefaultMaterial=1.
+- Terrain Painter menu item support.
+- Removed gap between ocean and sky in High~Med config.
+- Option to switch rendering order of flowgraph edges on top or below nodes (default: below nodes).
+- Added export/import of animation event presets to file to the Animation Editor. Changed an initial layout of the character editor so that animation control's space can become bigger.
+- Support for global constraints on alive skeletons.
+- MissionObjectives and HudEvent listeners.
+- Added entity_classes for flownodes.
+- Sandbox: Particle Editor: Add Copy Path menu item.
+- Fixed wrong pointer offset for BC4.
+- Made collision types for rigidbodies customizable.

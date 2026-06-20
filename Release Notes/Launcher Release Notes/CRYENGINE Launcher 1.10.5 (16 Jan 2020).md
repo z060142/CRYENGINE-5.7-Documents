@@ -7,26 +7,14 @@
 
 ## Content
 
-##
-Launcher Version 1.10.5
+## Launcher Version 1.10.5
 
-##
-Backend
+#### Backend
 
-**
-FIXED:
-**
-When user manually checks for update, the 'Remind me later' option is available.
+**FIXED:** When user manually checks for update, the 'Remind me later' option is available.
 
-**
-FIXED:
-**
- A second update warning opens when the update check interval has passed and another update warning is already open.
+**FIXED:** A second update warning opens when the update check interval has passed and another update warning is already open.
 
-##
-Landing Page
+#### Landing Page
 
-**
-IMPROVED:
-**
- Added progress bar and pop-ups for more feedback while the Launcher is performing tasks.
+**IMPROVED:** Added progress bar and pop-ups for more feedback while the Launcher is performing tasks.

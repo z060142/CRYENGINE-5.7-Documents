@@ -7,37 +7,27 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
-Procedural Clips, as explained in
-[the article on them](../Mannequin%20Concepts/Mannequin%20Procedural%20Clips/Procedural%20Clip%20Directory.md)
-, are clips that can be placed in fragments and allow to execute custom code in synch with the rest of the fragment.
+Procedural Clips, as explained in [the article on them](../Mannequin%20Concepts/Mannequin%20Procedural%20Clips/Procedural%20Clip%20Directory.md), are clips that can be placed in fragments and allow to execute custom code in synch with the rest of the fragment.
 
-We have Procedural Clips that range all the way from playing a sound, controlling joints on a character, to procedurally aligning an entity to a location specified by the game. The current types are listed in
-[this article](../Mannequin%20Concepts/Mannequin%20Procedural%20Clips/Procedural%20Clip%20Directory.md)
-.
+We have Procedural Clips that range all the way from playing a sound, controlling joints on a character, to procedurally aligning an entity to a location specified by the game. The current types are listed in [this article](../Mannequin%20Concepts/Mannequin%20Procedural%20Clips/Procedural%20Clip%20Directory.md).
 
 The main interface functions that a procedural clip offers are OnEnter(blendTime, duration, params) Update(timePassed) and OnExit(blendTime).
 
 The following diagram shows when the events are triggered in relation to the lifetime of a Procedural Clip.
 
 ```
-
-`
-   +-----+--------------------------+
-   |    /|                          |\
-   |   / |                          | \
-   |  /  |                          |  \
-   | /   |                          |   \
-   |/    |                          |    \
-   +-----+--------------------------+-----+
-   [             Update             ]
-   ^                                ^
++-----+--------------------------+
+|    /|                          |\
+|   / |                          | \
+|  /  |                          |  \
+| /   |                          |   \
+|/    |                          |    \
++-----+--------------------------+-----+
+[             Update             ]
+^                                ^
 OnEnter                           OnExit
-
-`
-
 ```
 
 Handling blend in or out times is the responsibility of the implementation of the Procedural Clip.
@@ -47,43 +37,36 @@ Note that after a clip receives the OnExit callback it will stop receiving any U
 The following is an example of a class that implements an empty Procedural Clip.
 
 ```
-
-`
 // In ProceduralClipEmpty.cpp:
 struct SProceduralClipEmptyParams
-  : public IProceduralParams
+: public IProceduralParams
 {
-  virtual void Serialize(Serialization::IArchive& ar)
-  {
-    ar(exampleParam, "exampleParam", "Example Parameter");
-  }
+virtual void Serialize(Serialization::IArchive& ar)
+{
+ar(exampleParam, "exampleParam", "Example Parameter");
+}
 
-  float exampleParam;
+float exampleParam;
 };
 
 class CProceduralClipEmpty
-  : public TProceduralClip<SProceduralClipEmptyParams>
+: public TProceduralClip<SProceduralClipEmptyParams>
 {
 public:
-  virtual void OnEnter(float blendTime, float duration, const SProceduralClipEmptyParams& params) {}
+virtual void OnEnter(float blendTime, float duration, const SProceduralClipEmptyParams& params) {}
 
-  virtual void OnExit(float blendTime) {}
+virtual void OnExit(float blendTime) {}
 
-  virtual void Update(float timePassed) {}
+virtual void Update(float timePassed) {}
 };
 REGISTER_PROCEDURAL_CLIP(CProceduralClipEmpty, "Empty");
-`
-
 ```
 
 CRYENGINE 3.6
 
-##
-Procedural Context
+### Procedural Context
 
-(not to be confused with
-[scope context](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
-)
+(not to be confused with [scope context](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md))
 
 Procedural Clips have a limited lifetime. By themselves they have no way to handle what to do when blending out, since after the OnExit callback they are not getting updated anymore. They also have no straightforward way to know what other Procedural Clips might be doing in other layers and resolve any conflicts between them if they should want to, or work together with other Procedural Clips to combine what they do.
 
@@ -92,19 +75,17 @@ If there's no underlying system on the entity that can take care of this interac
 To create a Procedural Context and ProceduralClips that can refer to that Procedural Context see the following code snippet:
 
 ```
-
-`
 // In ProceduralContextExample.h:
 class CProceduralContextExample
 : public IProceduralContext
 {
 public:
-  PROCEDURAL_CONTEXT(CProceduralContextExample, "ProceduralContextExample", 0xbd3b8e9b263b4768, 0x8e5444b453233fb7);
+PROCEDURAL_CONTEXT(CProceduralContextExample, "ProceduralContextExample", 0xbd3b8e9b263b4768, 0x8e5444b453233fb7);
 
-  // IProceduralContext
-  virtual void Initialise(IEntity& entity, IActionController& actionController);
-  virtual void Update(float timePassedSeconds);
-  // \~IProceduralContext
+// IProceduralContext
+virtual void Initialise(IEntity& entity, IActionController& actionController);
+virtual void Update(float timePassedSeconds);
+// \~IProceduralContext
 };
 
 ...
@@ -113,13 +94,13 @@ CRYREGISTER_CLASS(CProceduralContextExample);
 
 void CProceduralContextExample::Initialise(IEntity& entity, IActionController& actionController)
 {
-  IProceduralContext::Initialise(entity, actionController);
-  ...
+IProceduralContext::Initialise(entity, actionController);
+...
 }
 
 void CProceduralContextExample::Update(float timePassedSeconds)
 {
-  ...
+...
 }
 
 ...
@@ -128,16 +109,14 @@ class CProceduralClipWithProceduralContext
 : public TProceduralContextualClip<SProceduralParams, CProceduralContextExample>
 {
 public:
-  virtual void OnEnter(float blendTime, float duration, const SProceduralParams& params){
-    // The Procedural Context can be accessed through the m_context member
-  }
+virtual void OnEnter(float blendTime, float duration, const SProceduralParams& params){
+// The Procedural Context can be accessed through the m_context member
+}
 
-  virtual void OnExit(float blendTime) {}
+virtual void OnExit(float blendTime) {}
 
-  virtual void Update(float timePassed) {}
+virtual void Update(float timePassed) {}
 };
 REGISTER_PROCEDURAL_CLIP(CProceduralClipWithProceduralContext, "ProceduralClipWithContext");
-
-`
 
 ```

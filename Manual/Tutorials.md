@@ -21,15 +21,8 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
-This section contains a complete list of our video and written tutorials to help you master CRYENGINE. You can also view our video tutorials (along with community comments) on our
-[YouTube channel](https://www.youtube.com/cryengine)
-. Many written tutorials have corresponding video versions, which are linked from the written pages.
+This section contains a complete list of our video and written tutorials to help you master CRYENGINE. You can also view our video tutorials (along with community comments) on our [YouTube channel](https://www.youtube.com/cryengine). Many written tutorials have corresponding video versions, which are linked from the written pages.
 
-Tutorials for CRYENGINE 3.8.6 and earlier can be found in their relevant sections in the
-**
-[CRYENGINE 3 Manual](/docs/static/engines/cryengine-3/categories/1114113/pages/1048786)
-**
-.
+Tutorials for CRYENGINE 3.8.6 and earlier can be found in their relevant sections in the **[CRYENGINE 3 Manual](/docs/static/engines/cryengine-3/categories/1114113/pages/1048786)**.

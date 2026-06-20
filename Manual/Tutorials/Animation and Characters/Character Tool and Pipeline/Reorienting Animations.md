@@ -11,11 +11,6 @@ CRYENGINE features a world coordinate system where the Z-Axis points upwards, th
 
 Since the coordinate systems of DCC tools might differ from CRYENGINE's, the following explains how to reorient your character animations in Autodesk 3ds Max, Autodesk Maya and Blender.
 
--
-[Reorienting Animations in 3ds Max](../3DS%20Max/Reorienting%20Animations%20in%203ds%20Max.md)
-
--
-[Reorienting Animations in Blender](../Blender/Reorienting%20Animations%20in%20Blender.md)
-
--
-[Reorienting Animations in Maya](../Maya/Reorienting%20Animations%20in%20Maya.md)
+- [Reorienting Animations in 3ds Max](../3DS%20Max/Reorienting%20Animations%20in%203ds%20Max.md)
+- [Reorienting Animations in Blender](../Blender/Reorienting%20Animations%20in%20Blender.md)
+- [Reorienting Animations in Maya](../Maya/Reorienting%20Animations%20in%20Maya.md)

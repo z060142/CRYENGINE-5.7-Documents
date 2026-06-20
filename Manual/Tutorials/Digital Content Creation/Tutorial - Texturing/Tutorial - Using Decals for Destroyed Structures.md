@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 This guide describes the process of using alpha-blended decals to create broken concrete pieces and building ruins of high visual quality.
 
@@ -18,8 +17,7 @@ While it is performance-effective and simple to do this, the disadvantage of thi
 
 While both solutions use two material IDs, the new technique introduces additional overdraw through the alpha-blending and thus is the more expensive method.
 
-##
-Traditional Technique
+#### Traditional Technique
 
 Note the sharp seam between the two materials (marked in orange).
 
@@ -27,8 +25,7 @@ Note the sharp seam between the two materials (marked in orange).
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999851)
 
-##
-Alpha-Blended Decals
+#### Alpha-Blended Decals
 
 Note the more believable transition between the two materials (marked in orange).
 
@@ -46,17 +43,12 @@ The normal map used for this decal:
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999855)
 
-##
-Using These Decals in a 3D Application
+#### Using These Decals in a 3D Application
 
--
-Add an extra geometry element for the broken edge.
+- Add an extra geometry element for the broken edge.
+- Extrude the border edges of this element inwards so they overlap the other material.
+- Adjust the UV mapping of the element to create the overlap.
 
--
-Extrude the border edges of this element inwards so they overlap the other material.
-
--
-Adjust the UV mapping of the element to create the overlap.
 Here you can see the extra geometry element following the edge of your broken piece of building:
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999856)
@@ -67,14 +59,10 @@ Here you can see how the UV mapping must be adjusted to create a convincing over
 
 Use the chipped-off looking edge decals by
 
--
-Duplicating the geometry of whichever edge you want to use them on
+- Duplicating the geometry of whichever edge you want to use them on
+- Cutting out the part where the decal will be visible
+- Adjusting the UV mapping to show the decal in the right position
 
--
-Cutting out the part where the decal will be visible
-
--
-Adjusting the UV mapping to show the decal in the right position
 Illustration of these steps:
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999859)
@@ -89,6 +77,4 @@ Using this method, you will also have the correct silhouette.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999860)
 
-[Traditional Technique](#traditional-technique)
-[Alpha-Blended Decals](#alpha-blended-decals)
-[Using These Decals in a 3D Application](#using-these-decals-in-a-3d-application)
+[Traditional Technique](#traditional-technique)[Alpha-Blended Decals](#alpha-blended-decals)[Using These Decals in a 3D Application](#using-these-decals-in-a-3d-application)

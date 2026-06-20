@@ -7,281 +7,40 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 The Terrain.Layer shader is used for all the terrain materials in order to paint terrain texture layers. When creating even the most simple terrain material, you always need a Diffuse map.
 
 Since the terrain is never flat, you can make your terrain more interesting by using a Bumpmap on it.
 
-##
-Shader Params
-
-Shader Param
-
- |
-Description
-
- |
-Shader Gen Option
-
- |
-
-**
-Blend Factor
-**
-
- |
-Change the visibility of the blended layer. Heightmap required.
-
- |
-Default (but requires OBM or POM)
-
- |
-
-**
-Blend Falloff
-**
-
- |
-Change the falloff of blending. Heightmap required.
-
- |
-Default
-(but requires OBM or POM)
-
- |
-
-**
-Detail bump scale
-**
-
- |
-**
-Detail mapping
-**
- shader generation parameter must be enabled first.
-See
-[Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
- for more information.
-
- |
-Detail Mapping
-
- |
-
-**
-Detail diffuse scale
-**
-
- |
-**
-Detail mapping
-**
- shader generation parameter must be enabled first.
-See
-[Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
- for more information.
-
- |
-Detail Mapping
-
- |
-
-**
-Detail gloss scale
-**
-
- |
-**
-Detail mapping
-**
- shader generation parameter must be enabled first.
-See
-[Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
- for more information.
-
- |
-Detail Mapping
-
- |
-
-**
-DetailTextureStrength
-**
-
- |
-Sets the amount the Diffuse map, which is your Detail Texture is visible over the Layer Texture.
-
-The higher the value the more you see only your Diffuse map.
-
- |
-Default
-
- |
-
-**
-Height bias
-**
-
- |
-**
-Offset Bump Mapping (OBM)
-**
-
-shader generation parameter must be enabled first.
-See
-[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
- for more information.
-
- |
-Offset bump mapping
-
- |
-
-**
-OBM Displacement
-**
-
- |
-**
-OBM
-**
- shader generation parameter must be enabled first.
-
- |
-Offset bump mapping
-
- |
-
-**
-POM Displacement
-**
-
- |
-POM
-shader generation parameter must be enabled first.
-See
-[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
- for more information.
-
- |
-Parallax occlusion mapping
-
- |
-
-**
-Self shadow strength
-**
-
- |
-**
-POM
-**
- shader generation parameter must be enabled first.
-See
-[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
- for more information.
-
- |
-Parallax occlusion mapping
-
- |
-
-**
-Soft Depth Test Distance Ratio
-**
-
- |
-**
-Soft Depth Test
-**
-
-shader generation parameter must be enabled first.
-
- |
-Soft Depth Test
-
- |
-
-**
-Soft Depth Test Range
-**
-
- |
-**
-Soft Depth Test
-**
-shader generation parameter must be enabled first.
-
- |
-Soft Depth Test
-
- |
-
-##
-Shader Gen Params
-
-Shader Gen Param
-
- |
-Description
-
- |
-
-**
-Offset Bump Mapping (OBM)
-**
-
- |
-Uses offset bump mapping. Requires a height map.
-
- |
-
-**
-Detail mapping
-**
-
- |
-Uses detail mapping.
-See
-[Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
- for more information.
-
- |
-
-**
-Parallax occlusion mapping (POM)
-**
-
- |
-Uses parallax occlusion mapping. Requires a height map.
-See
-[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
- for more information.
-
- |
-
-**
-Soft Depth Test
-**
-
- |
-Allows you to enable soft depth test.
-
- |
-
-**
-Use Original Diffuse Map
-**
-
- |
-Uses the original diffuse map.
-
- |
-
-##
-Material Settings
+### Shader Params
+
+Shader Param | Description | Shader Gen Option
+--- | --- | ---
+**Blend Factor** | Change the visibility of the blended layer. Heightmap required. | Default (but requires OBM or POM)
+**Blend Falloff** | Change the falloff of blending. Heightmap required. | Default (but requires OBM or POM)
+**Detail bump scale** | **Detail mapping** shader generation parameter must be enabled first. See [Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md) for more information. | Detail Mapping
+**Detail diffuse scale** | **Detail mapping** shader generation parameter must be enabled first. See [Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md) for more information. | Detail Mapping
+**Detail gloss scale** | **Detail mapping** shader generation parameter must be enabled first. See [Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md) for more information. | Detail Mapping
+**DetailTextureStrength** | Sets the amount the Diffuse map, which is your Detail Texture is visible over the Layer Texture. The higher the value the more you see only your Diffuse map. | Default
+**Height bias** | **Offset Bump Mapping (OBM)** shader generation parameter must be enabled first. See [Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md) for more information. | Offset bump mapping
+**OBM Displacement** | **OBM** shader generation parameter must be enabled first. | Offset bump mapping
+**POM Displacement** | POM shader generation parameter must be enabled first. See [Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md) for more information. | Parallax occlusion mapping
+**Self shadow strength** | **POM** shader generation parameter must be enabled first. See [Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md) for more information. | Parallax occlusion mapping
+**Soft Depth Test Distance Ratio** | **Soft Depth Test** shader generation parameter must be enabled first. | Soft Depth Test
+**Soft Depth Test Range** | **Soft Depth Test** shader generation parameter must be enabled first. | Soft Depth Test
+
+### Shader Gen Params
+
+Shader Gen Param | Description
+--- | ---
+**Offset Bump Mapping (OBM)** | Uses offset bump mapping. Requires a height map.
+**Detail mapping** | Uses detail mapping. See [Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md) for more information.
+**Parallax occlusion mapping (POM)** | Uses parallax occlusion mapping. Requires a height map. See [Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md) for more information.
+**Soft Depth Test** | Allows you to enable soft depth test.
+**Use Original Diffuse Map** | Uses the original diffuse map.
+
+### Material Settings
 
 By default the Terrain shader has several parameters, most notably for 3.5+ builds is the option to adjust the blending of different terrain layers instead of relying on basic fading between each other.
 
@@ -291,51 +50,22 @@ For example, if you have pebbles on one material and dirt as another you will li
 
 Make sure diffuse texture is high-passed and the material diffuse color is set to 255, 255, 255 white. This is required for proper add-signed blending with terrain base color.
 
-##
-Examples
+#### Examples
 
 ![Image](https://www.cryengine.com/docs/static/attachments/35402188)
-
- |
-
+---
 No POM or OBM
- |
 
-##
-Blending
+#### Blending
 
-![Image](https://www.cryengine.com/docs/static/attachments/28898604)
+![Image](https://www.cryengine.com/docs/static/attachments/28898604) | ![Image](https://www.cryengine.com/docs/static/attachments/28898605)
+--- | ---
+Blend Factor 0 | Blend Factor 16
 
- |
-![Image](https://www.cryengine.com/docs/static/attachments/28898605)
+![Image](https://www.cryengine.com/docs/static/attachments/28898606) | ![Image](https://www.cryengine.com/docs/static/attachments/28898607)
+--- | ---
+Blend Falloff 0 | Blend Falloff 128
 
- |
-
-Blend Factor 0
- |
-Blend Factor 16
- |
-
-![Image](https://www.cryengine.com/docs/static/attachments/28898606)
-
- |
-![Image](https://www.cryengine.com/docs/static/attachments/28898607)
-
- |
-
-Blend Falloff 0
- |
-Blend Falloff 128
- |
-
-![Image](https://www.cryengine.com/docs/static/attachments/35402193)
-
- |
-![Image](https://www.cryengine.com/docs/static/attachments/35401945)
-
- |
-
-Low vs High Detail Texture Strength
- |
-Without and without Detail Bumpmap
- |
+![Image](https://www.cryengine.com/docs/static/attachments/35402193) | ![Image](https://www.cryengine.com/docs/static/attachments/35401945)
+--- | ---
+Low vs High Detail Texture Strength | Without and without Detail Bumpmap

@@ -7,49 +7,16 @@
 
 ## Content
 
-##
-Debug Draw
+### Debug Draw
 
 The Debug Draw component can be used to draw debug text; the text will be drawn at the world position of the parent entity. This component can be useful to mark or highlight specific entities in the world.
 
-Setting
- |
-Description
- |
-
-**
-Draw Persistent Text
-**
- |
-Whether persistent text will be drawn to the screen.
- |
-
-**
-Persistent Text
-**
- |
-The persistent text to draw to the screen.
- |
-
-**
-Persistent Text Color
-**
- |
-The color of the persistent text.
- |
-
-**
-Persistent View Distance
-**
- |
-The maximum view distance for the persistent text.
- |
-
-**
-Persistent Font Size
-**
- |
-The font size of the persistent text.
- |
+Setting | Description
+--- | ---
+**Draw Persistent Text** | Whether persistent text will be drawn to the screen.
+**Persistent Text** | The persistent text to draw to the screen.
+**Persistent Text Color** | The color of the persistent text.
+**Persistent View Distance** | The maximum view distance for the persistent text.
+**Persistent Font Size** | The font size of the persistent text.
 
 [Debug Draw](#debug-draw)

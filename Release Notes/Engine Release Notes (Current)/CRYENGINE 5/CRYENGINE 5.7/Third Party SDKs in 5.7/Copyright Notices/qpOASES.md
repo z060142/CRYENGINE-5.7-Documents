@@ -7,17 +7,10 @@
 
 ## Content
 
--
-The source code for this library can be found
-[here](https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/qpOASES-3.0-Src.zip)
-.
-
--
-This source code has been modified for compatibility with CRYENGINE. Please check the patches folder in the source ZIP for the unified .diff used to patch the code.
+- The source code for this library can be found [here](https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/qpOASES-3.0-Src.zip).
+- This source code has been modified for compatibility with CRYENGINE. Please check the patches folder in the source ZIP for the unified.diff used to patch the code.
 
 ```
-
-`
 GNU LESSER GENERAL PUBLIC LICENSE
 Version 2.1, February 1999
 
@@ -520,7 +513,4 @@ library `Frob' (a library for tweaking knobs) written by James Random Hacker.
 Ty Coon, President of Vice
 
 That's all there is to it!
-
-`
-
 ```

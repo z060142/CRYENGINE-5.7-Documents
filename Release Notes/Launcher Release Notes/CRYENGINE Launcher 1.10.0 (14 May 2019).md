@@ -7,32 +7,16 @@
 
 ## Content
 
-##
-Launcher Version 1.10.0
+## Launcher Version 1.10.0
 
-##
-Backend
+#### Backend
 
-**
-New:
-**
-Engine version(s) can now be downloaded without the need to firstly create a project. Note: A banner has been added to the Engine List view that informs users when no Engine is installed "An engine version must be installed before projects can be created"
+**New:** Engine version(s) can now be downloaded without the need to firstly create a project. Note: A banner has been added to the Engine List view that informs users when no Engine is installed "An engine version must be installed before projects can be created"
 
-**
-Landing Page
-**
+**Landing Page**
 
-**
-New:
-**
-A banner has been added to the Launcher Dashboard that informs users of the latest CRYENGINE version that is available for install.
+**New:** A banner has been added to the Launcher Dashboard that informs users of the latest CRYENGINE version that is available for install.
 
-**
-New:
-**
- Added Engine version shortcuts to the Launcher Dashboard - allows users to create project(s) faster i.e. without the need to go to Library-> My Engines to create projects.
+**New:** Added Engine version shortcuts to the Launcher Dashboard - allows users to create project(s) faster i.e. without the need to go to Library-> My Engines to create projects.
 
-**
-New:
-**
- Added a persistent Create Project button to the Launcher Dashboard (appears once installation steps have taken place).
+**New:** Added a persistent Create Project button to the Launcher Dashboard (appears once installation steps have taken place).

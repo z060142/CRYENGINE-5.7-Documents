@@ -7,22 +7,19 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 This part describes the modelling and principal operation of the sensors implemented in the CryAISystem, namely the visual sensors, sound sensors and a general purpose signalling mechanism that is included here for completeness even though it cannot be called a sensor in the strictest of terms.
 
 Processing the sensory information is done on a full update of each enemy (details here), even though the actual time at which a sensory event was received is asynchronous. The sensors are the only interface the enemy has with the outside world, and they provide data from which the enemy then assesses his situation and selects potential targets. All sensors are completely configurable in all aspects that they offer, and they can be turned on/off at run-time for any individual enemy.
 
-##
-Vision
+### Vision
 
 The visual sensory model is the heart of the CryAISystem. It provides the enemies with the most important sense they have and it tries to simulate it as realistically as possible while still maintaining a low execution cost. To be able to meet these two often-opposing goals, various compromises and optimizations had to be done, but the end result is a quite satisfactory simulation of vision.
 
 Every full update for each individual enemy the system traverses all potential targets from the enemy’s point of view and puts them through a visibility determination routine (which is discussed in detail later). All targets that survive this filtering procedure are placed in a visibility list that is maintained until the next full update. For a target to persist as visible it has to pass the visibility test for every subsequent full update – otherwise it will be moved into the memory targets list which means that the enemy will now remember that he has seen this particular target before, but its not seeing it anymore. If some target is not visible for a few updates, but becomes visible again, it is removed from the memory target list and then goes back into the visibility list. The memory targets have an expiration time (basically a time interval it takes the enemy to “forget” about a target). This is defined by the threat index of the target, the time it was “exposed” – visible – as well as some other factors. Visibility targets have the highest priority and will be taken as the current attention target even if there is another target with a higher threat index. This is done in order to simulate the natural tendency of humans to act faster based on what they see rather then on what they remember, or hear.
 
-##
-Visibility determination details
+### Visibility determination details
 
 Here the actual visibility determination procedure will be dissected and explained. First and foremost we will define a few terms that we will use in the explanation. The sight range of an enemy is a floating-point value that determines how far (in meters) a particular enemy can see. The FOV (field of view) of an enemy is a floating-point value that determines how wide the visibility cone of the enemy is (in degrees). The visibility cone has its tip at the enemy’s head and extends outwards in the forward direction (out of the enemy’s face). The perception coefficient (SOM value) is a floating-point value in the range between 0 and 10 that defines how close the enemy is to actually seeing his target. An explanation of how the SOM coefficient is used is given here.
 
@@ -44,8 +41,7 @@ The visibility physical ray is used to determine whether there are any physical 
 
 An additional property of this last test is the TYPE of surface the visibility ray hits. In essence, there are generally 2 types of surfaces that the AI system discriminates – the so-called soft cover and hard cover. The primary difference in a physical sense between soft and hard cover is that the players of the game can pass through soft cover, while a hard cover object is an actual obstacle. In CryENGINE, players can also hide behind soft cover objects but the visibility determination is a little “skewed” when the target is behind a soft cover object rather than behind a hard cover object or just in the open. So skewed, that it merits its own note.
 
-##
-Soft cover visibility and behavior
+### Soft cover visibility and behavior
 
 One additional factor comes into play when determining visibility behind soft cover, and this is whether the enemy for which we are determining visibility already has a living target (living meaning not a memory, sound or other type of target). If the enemy does NOT have a living target, then for all intents and purposes soft cover is equal to hard cover and normal visibility determination is performed. This happens for example when the enemy is idle, or when the enemy is looking for the source of a sound, but has not yet spotted it.
 
@@ -65,18 +61,9 @@ Now you are surely thinking – what possible use can this “exotic” feature 
 
 The same feature is used when looking at rocks, grenades, rockets etc… Optionally it can be used to add more features to the game, for example if the enemies would leave footsteps on the ground that evaporate after some time, attribute objects can be spawned on the footsteps so that any guard who sees them will know where the person who left them is. The same can be expanded to blood tracks etc.
 
-To make sure that the attribute objects are included in the visibility determination – they have to have an assessment multiplier set. Refer to
-**
-aiconfig.lua
-**
- in the
-`
-Scripts\AI
-`
- folder to see where CryAISystem defines the multiplier for the attribute objects.
+To make sure that the attribute objects are included in the visibility determination – they have to have an assessment multiplier set. Refer to **aiconfig.lua** in the `Scripts\AI` folder to see where CryAISystem defines the multiplier for the attribute objects.
 
-##
-Perception coefficient and visibility
+### Perception coefficient and visibility
 
 Visibility in CryENGINE is not an on/off switch. Since the idea was to enable the player a certain freedom in choosing his playing style (action or stealth) it was necessary to come up with some mechanism that would allow the player to make certain amount of mistakes and still be able to recover from them.
 
@@ -86,42 +73,28 @@ The perception coefficient is only implemented in player AI objects. This is one
 
 When an AI enemy is processing a player target for visibility, if that player passes all possible visibility tests (including the visibility ray), it still has to go through one last test – the perception coefficient that the enemy stores for this particular player target has to reach maximum value before the enemy can receive a definite visual stimulus. This statement contains several corollaries:
 
--
-Every enemy has his own perception coefficient for every player target it is processing.
+- Every enemy has his own perception coefficient for every player target it is processing.
+- Every enemy has to have his own perception coefficient reach maximum value before he receives notification that he sees a particular player target.
+- Perception coefficients of two different enemies (even for the same player target) are UNRELATED.
+- There is no GAME perception coefficient (a value that shows how much a player target is perceived by ANY enemy) – although this information can be derived by statistics.
 
--
-Every enemy has to have his own perception coefficient reach maximum value before he receives notification that he sees a particular player target.
-
--
-Perception coefficients of two different enemies (even for the same player target) are UNRELATED.
-
--
-There is no GAME perception coefficient (a value that shows how much a player target is perceived by ANY enemy) – although this information can be derived by statistics.
 The perception coefficient starts at 0. When the enemy starts receiving notification that some player target is passing the visibility determination routine, it starts adding to this value. The amount that is added to it depends on several factors – among others: the distance of the player target from the enemy, how high from the ground the player target is, if the player target is moving or static etc. All of these factors influence the rise of the perception coefficient in various ways.
 
-##
-Distance
+### Distance
 
 This is the overwhelming factor in the rise of the perception coefficient. The closer the player target is to the enemy, the faster the coefficient rises – the farther away it is, the slower the coefficient rises. The increase function is a basic quadratic function as can be seen on the figure. At distances very close to the enemy, the time to reach the maximum perception coefficient is almost non-existent – the target is instantly seen. But it can be also seen that on the boundaries of the sight range sphere, the player can move freely as the rise of the coefficient is very slow. As said before, the target STILL has to pass the complete visibility determination routine to affect the perception coefficient.
 
-##
-Height from ground
+### Height from ground
 
 The player target’s distance from the ground plane also is a major factor in determining the rate of increase of the perception coefficient. This is rationalized by the fact that a proning target is much harder to spot than someone who is standing up straight. The system has an idea of the distance of the target from the ground via the “eye height” property of each AI object. This property is set on initialization of the AI object and can be changed at anytime during the execution of the game. Note: If the enemies and the player have animated characters as their representation in the game, then the eye height is automatically calculated as the actual height of the head bone in the character. The influence of this property to the speed of increase of the perception coefficient is that its normal distance increase value (which is calculated as previously discussed based on the target’s proximity to the enemy) is lowered by 50% if the target has a height less than 1 meter.
 
-##
-Target motion
+### Target motion
 
 It also makes a difference whether the player is standing still or he is moving. Obviously, stationary targets are much harder to spot then moving targets, so if the player is standing still, the rate of increase of the perception coefficient is lowered by additional 50% from the calculated value thus far.
 
-##
-Artificial modifiers
+### Artificial modifiers
 
-There are additional values that can define how fast the increase rate is. Some of them affect ALL enemies in the game world, and some affect only particular targets. An example of a modifier that affects all enemies is the console variable
-**
-ai_SOM_SPEED
-**
-. Its default value varies depending on the difficulty level, but it provides a constant multiplier that is applied on top of all other calculation to the rate of increase of the perception coefficient – for all enemies. On the other hand, it is possible to set a custom multiplier per object type that will be used as an additional multiplier when a certain target is processed for perception – this is however limited to the lowest level of the AI system and thus is not available for tweaking.
+There are additional values that can define how fast the increase rate is. Some of them affect ALL enemies in the game world, and some affect only particular targets. An example of a modifier that affects all enemies is the console variable **ai_SOM_SPEED**. Its default value varies depending on the difficulty level, but it provides a constant multiplier that is applied on top of all other calculation to the rate of increase of the perception coefficient – for all enemies. On the other hand, it is possible to set a custom multiplier per object type that will be used as an additional multiplier when a certain target is processed for perception – this is however limited to the lowest level of the AI system and thus is not available for tweaking.
 
 Obviously the effect of all these modifications on the coefficient is cumulative, so a target that is crouching and standing still will have an increase rate of only 25% of the calculated distance increase. The result is a floating-point value that is added to the perception coefficient during EACH FULL UPDATE. Basically, every time an enemy is fully updated, the update of any coefficients to any potential targets is done together with the visibility determination
 

@@ -15,26 +15,12 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
-The
-`
-Code\CryCommon
-`
- directory is the central directory for all the engine interfaces. Additionally some commonly used code also is stored there when it is desired to encourage reuse among different.
+The `Code\CryCommon` directory is the central directory for all the engine interfaces. Additionally some commonly used code also is stored there when it is desired to encourage reuse among different.
 
--
-[CryExtension](CryCommon/CryExtension.md)
-
--
-[CryString](CryCommon/CryString.md)
-
--
-[ICrySizer](CryCommon/ICrySizer.md)
-
--
-[CryColor Table](CryCommon/CryColor%20Table.md)
-
--
-[Serialization Library](CryCommon/Serialization%20Library.md)
+- [CryExtension](CryCommon/CryExtension.md)
+- [CryString](CryCommon/CryString.md)
+- [ICrySizer](CryCommon/ICrySizer.md)
+- [CryColor Table](CryCommon/CryColor%20Table.md)
+- [Serialization Library](CryCommon/Serialization%20Library.md)

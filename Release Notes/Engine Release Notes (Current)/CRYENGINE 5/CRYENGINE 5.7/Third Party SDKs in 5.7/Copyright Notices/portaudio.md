@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 Portable header file to contain:
 >>>>>
 
@@ -86,6 +84,4 @@ requested that these non-binding requests be included along with the
 license above.
 
 <<<<<
-`
-
 ```

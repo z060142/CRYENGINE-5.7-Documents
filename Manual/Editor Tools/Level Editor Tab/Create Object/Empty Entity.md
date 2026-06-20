@@ -7,19 +7,8 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
-Lets you load an empty entity into your level. You can use the Entity Components feature to assign an entity functionality to it. Click
-**
-Add Component
-**
- in the
-**
-Properties
-**
- section to add an entity component to your empty entity.
+Lets you load an empty entity into your level. You can use the Entity Components feature to assign an entity functionality to it. Click **Add Component** in the ** Properties** section to add an entity component to your empty entity.
 
-For more information, please refer to
-[Entity Components](../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)
-.
+For more information, please refer to [Entity Components](../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md).

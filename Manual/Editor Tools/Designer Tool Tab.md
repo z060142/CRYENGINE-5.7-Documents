@@ -12,8 +12,7 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 With this powerful tool, you can easily create complex meshes without the need for any external DCC tools.
 
@@ -21,14 +20,7 @@ A physics mesh is automatically created in the exact shape of the object.
 
 This means the physics mesh can become quite complicated and therefore expensive. Use with care!
 
-You can find the Designer tool under
-**
-Tools -> Designer Tool
-**
-. In this sub-menu, there are two options: Modeling and UV Mapping. We'll discuss both in separate sub-pages.
+You can find the Designer tool under **Tools -> Designer Tool**. In this sub-menu, there are two options: Modeling and UV Mapping. We'll discuss both in separate sub-pages.
 
--
-[Modeling](Designer%20Tool%20Tab/Modeling.md)
-
--
-[UV Mapping](Designer%20Tool%20Tab/UV%20Mapping.md)
+- [Modeling](Designer%20Tool%20Tab/Modeling.md)
+- [UV Mapping](Designer%20Tool%20Tab/UV%20Mapping.md)

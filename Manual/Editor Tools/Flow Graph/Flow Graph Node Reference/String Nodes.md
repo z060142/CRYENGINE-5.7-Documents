@@ -7,29 +7,22 @@
 
 ## Content
 
-##
-Compare
+### Compare
 
 Compare two strings.
 
-##
-Concat
+### Concat
 
 Concat two string values.
 
-##
-SetString
+### SetString
 
 Set String value.
 
-##
-WildcardExtract
+### WildcardExtract
 
 Extract strings matching a pattern in another string.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687998)
 
-[Compare](#compare)
-[Concat](#concat)
-[SetString](#setstring)
-[WildcardExtract](#wildcardextract)
+[Compare](#compare)[Concat](#concat)[SetString](#setstring)[WildcardExtract](#wildcardextract)

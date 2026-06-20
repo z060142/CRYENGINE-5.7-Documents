@@ -7,20 +7,9 @@
 
 ## Content
 
-##
-Launcher Version 1.6.5
+## Launcher Version 1.6.5
 
-##
-Landing Page
+#### Landing Page
 
--
-**
-Fixed:
-**
-Issue Reporter: Issue Report attachments missing.
-
--
-**
-Tweaked:
-**
-Issue Reporter: Removed "Include Technical Information" section and added "Additional Information" section to the Report an Issue form.
+- **Fixed:** Issue Reporter: Issue Report attachments missing.
+- **Tweaked:** Issue Reporter: Removed "Include Technical Information" section and added "Additional Information" section to the Report an Issue form.

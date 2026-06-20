@@ -12,8 +12,5 @@
 
 ## Content
 
--
-[Creating a New Flow Node](Flowgraph%20Programming/Creating%20a%20New%20Flow%20Node.md)
-
--
-[Creating a Flow Graph Node as a C++ Plugin](Flowgraph%20Programming/Creating%20a%20Flow%20Graph%20Node%20as%20a%20C%2B%2B%20Plugin.md)
+- [Creating a New Flow Node](Flowgraph%20Programming/Creating%20a%20New%20Flow%20Node.md)
+- [Creating a Flow Graph Node as a C++ Plugin](Flowgraph%20Programming/Creating%20a%20Flow%20Graph%20Node%20as%20a%20C%2B%2B%20Plugin.md)

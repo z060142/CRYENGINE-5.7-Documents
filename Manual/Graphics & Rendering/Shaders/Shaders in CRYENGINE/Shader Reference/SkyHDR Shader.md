@@ -7,39 +7,16 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 The SkyHDR shader is used to render realistic dynamic sky effects that change based on the time of day in a level.
 
-##
-Shader Generation Params
+### Shader Generation Params
 
-The
-Shader Generation Parameters consists of the following options:
+The Shader Generation Parameters consists of the following options:
 
-Parameter
- |
-Description
- |
-
-**
-No Moon
-**
- |
-Removes the moon for the dynamic sky.
- |
-
-**
-No Night Sky Gradient
-**
- |
-Removes the entire day night effect gradient for the dynamic sky.
- |
-
-**
-No Day Sky Gradient
-**
- |
-Removes the entire day sky effect gradient for the dynamic sky.
- |
+Parameter | Description
+--- | ---
+**No Moon** | Removes the moon for the dynamic sky.
+**No Night Sky Gradient** | Removes the entire day night effect gradient for the dynamic sky.
+**No Day Sky Gradient** | Removes the entire day sky effect gradient for the dynamic sky.

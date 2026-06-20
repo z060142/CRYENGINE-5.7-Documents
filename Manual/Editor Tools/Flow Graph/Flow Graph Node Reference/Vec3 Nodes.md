@@ -7,872 +7,291 @@
 
 ## Content
 
-##
-AddVec3
+### AddVec3
 
 Used to output the sum of two vectors.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688072)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**A** | Vec3 | First operand
+**B** | Vec3 | Second operand
 
-**
-A
-**
- |
-Vec3
- |
-First operand
- |
+**Outputs**
 
-**
-B
-**
- |
-Vec3
- |
-Second operand
- |
+Port | Type | Description
+--- | --- | ---
+**Out** | Vec3 | Addition of A and B
 
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Out
-**
- |
-Vec3
- |
-Addition of A and B
- |
-
-##
-Calculate
+### Calculate
 
 Used to output the specified calculation between two vectors.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688071)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Operator** | Integer | Math operation to perform
+**A** | Vec3 | First operand
+**B** | Vec3 | Second operand
 
-**
-Operator
-**
- |
-Integer
- |
-Math operation to perform
- |
+**Outputs**
 
-**
-A
-**
- |
-Vec3
- |
-First operand
- |
+Port | Type | Description
+--- | --- | ---
+**Out** | Vec3 | Calculated operation of A and B
 
-**
-B
-**
- |
-Vec3
- |
-Second operand
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Out
-**
- |
-Vec3
- |
-Calculated operation of A and B
- |
-
-##
-ClampVec3
+### ClampVec3
 
 Used to clamp the output range of a vector between a minimum and a maximum.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688070)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**In** | Vec3 | Input value
+**Min** | Vec3 | Minimum clamping value
+**Max** | Vec3 | Maximum clamping value
 
-**
-In
-**
- |
-Vec3
- |
-Input value
- |
+**Outputs**
 
-**
-Min
-**
- |
-Vec3
- |
-Minimum clamping value
- |
+Port | Type | Description
+--- | --- | ---
+**Out** | Vec3 | Triggers when the input value is between the minimum and maximum values
 
-**
-Max
-**
- |
-Vec3
- |
-Maximum clamping value
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Out
-**
- |
-Vec3
- |
-Triggers when the input value is between the minimum and maximum values
- |
-
-##
-CrossVec3
+### CrossVec3
 
 Used to output the cross product of two vectors.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688069)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**A** | Vec3 | First operand
+**B** | Vec3 | Second operand
 
-**
-A
-**
- |
-Vec3
- |
-First operand
- |
+**Outputs**
 
-**
-B
-**
- |
-Vec3
- |
-Second operand
- |
+Port | Type | Description
+--- | --- | ---
+**Out** | Vec3 | Outputs the cross product of the inputs
 
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Out
-**
- |
-Vec3
- |
-Outputs the cross product of the inputs
- |
-
-##
-DotVec3
+### DotVec3
 
 Used to output the dot product of the inputs.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688068)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**A** | Vec3 | First operand
+**B** | Vec3 | Second operand
 
-**
-A
-**
- |
-Vec3
- |
-First operand
- |
+**Outputs**
 
-**
-B
-**
- |
-Vec3
- |
-Second operand
- |
+Port | Type | Description
+--- | --- | ---
+**Out** | Float | Outputs the dot product of the inputs
 
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Out
-**
- |
-Float
- |
-Outputs the dot product of the inputs
- |
-
-##
-EqualVec3
+### EqualVec3
 
 Used to trigger an output when both vectors are equal in value.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688067)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**A** | Vec3 | First operand
+**B** | Vec3 | Second operand
 
-**
-A
-**
- |
-Vec3
- |
-First operand
- |
+**Outputs**
 
-**
-B
-**
- |
-Vec3
- |
-Second operand
- |
+Port | Type | Description
+--- | --- | ---
+**Out** | Boolean | Triggers when A and B are equal in value
 
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Out
-**
- |
-Boolean
- |
-Triggers when A and B are equal in value
- |
-
-##
-FromVec3
+### FromVec3
 
 Used to output the x, y, and z values of the vector.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688066)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Vec3** | Vec3 | Input vector
 
-**
-Vec3
-**
- |
-Vec3
- |
-Input vector
- |
+**Outputs**
 
-**
-Outputs
-**
+Port | Type | Description
+--- | --- | ---
+**X** | Float | X-axis value of vector
+**Y** | Float | Y-axis value of vector
+**Z** | Float | Z-axis value of vector
 
-Port
- |
-Type
- |
-Description
- |
-
-**
-X
-**
- |
-Float
- |
-X-axis value of vector
- |
-
-**
-Y
-**
- |
-Float
- |
-Y-axis value of vector
- |
-
-**
-Z
-**
- |
-Float
- |
-Z-axis value of vector
- |
-
-##
-MagnitudeVec3
+### MagnitudeVec3
 
 Used to output the magnitude (length) of the vector.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688065)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Vector** | Vec3 | Input vector
 
-**
-Vector
-**
- |
-Vec3
- |
-Input vector
- |
+**Outputs**
 
-**
-Outputs
-**
+Port | Type | Description
+--- | --- | ---
+**Length** | Any | Magnitude (length) of the input vector
 
-Port
- |
-Type
- |
-Description
- |
-
-**
-Length
-**
- |
-Any
- |
-Magnitude (length) of the input vector
- |
-
-##
-MulVec3
+### MulVec3
 
 Used to output the multiplication of two vectors.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688064)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**A** | Vec3 | First operand
+**B** | Vec3 | Second operand
 
-**
-A
-**
- |
-Vec3
- |
-First operand
- |
+**Outputs**
 
-**
-B
-**
- |
-Vec3
- |
-Second operand
- |
+Port | Type | Description
+--- | --- | ---
+**Out** | Vec3 | Multiplication of A and B
 
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Out
-**
- |
-Vec3
- |
-Multiplication of A and B
- |
-
-##
-NormalizeVec3
+### NormalizeVec3
 
 Used to output the normalized value of the vector.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688063)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Vector** | Vec3 | Vector input
 
-**
-Vector
-**
- |
-Vec3
- |
-Vector input
- |
+**Outputs**
 
-**
-Outputs
-**
+Port | Type | Description
+--- | --- | ---
+**Out** | Vec3 | Normalized vector input
+**Length** | Float | Magnitude
 
-Port
- |
-Type
- |
-Description
- |
-
-**
-Out
-**
- |
-Vec3
- |
-Normalized vector input
- |
-
-**
-Length
-**
- |
-Float
- |
-Magnitude
- |
-
-##
-ReciprocalVec3
+### ReciprocalVec3
 
 Used to output the reciprocal of the vector.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688062)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Vector** | Vec3 | Input vector
 
-**
-Vector
-**
- |
-Vec3
- |
-Input vector
- |
+**Outputs**
 
-**
-Outputs
-**
+Port | Type | Description
+--- | --- | ---
+**Length** | Float | Reciprocal value of input
 
-Port
- |
-Type
- |
-Description
- |
-
-**
-Length
-**
- |
-Float
- |
-Reciprocal value of input
- |
-
-##
-Scalevec3
+### Scalevec3
 
 Used to output a scaled value of the vector.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688061)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Vector** | Vec3 | Input vector
+**Scale** | Float | Scale factor to apply to the input
 
-**
-Vector
-**
- |
-Vec3
- |
-Input vector
- |
+**Outputs**
 
-**
-Scale
-**
- |
-Float
- |
-Scale factor to apply to the input
- |
+Port | Type | Description
+--- | --- | ---
+**Out** | Vec3 | Result of the scaling
 
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Out
-**
- |
-Vec3
- |
-Result of the scaling
- |
-
-##
-SetVec3
+### SetVec3
 
 Used to output the input value when the Set input is activated.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688060)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Set** | Any | Triggers the vector to the output
+**In** | Vec3 | Input value
 
-**
-Set
-**
- |
-Any
- |
-Triggers the vector to the output
- |
+**Outputs**
 
-**
-In
-**
- |
-Vec3
- |
-Input value
- |
+Port | Type | Description
+--- | --- | ---
+**Out** | Vec3 | Outputs the input value
 
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Out
-**
- |
-Vec3
- |
-Outputs the input value
- |
-
-##
-SubVec3
+### SubVec3
 
 Used to output the subtracted value of two vectors.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688059)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**A** | Vec3 | First operand
+**B** | Vec3 | Second operand
 
-**
-A
-**
- |
-Vec3
- |
-First operand
- |
+**Outputs**
 
-**
-B
-**
- |
-Vec3
- |
-Second operand
- |
+Port | Type | Description
+--- | --- | ---
+**Out** | Vec3 | Subtraction of B from A
 
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Out
-**
- |
-Vec3
- |
-Subtraction of B from A
- |
-
-##
-ToVec3
+### ToVec3
 
 Used to output three floating point values to a vector.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29688058)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**X** | Float | X-axis value
+**Y** | Float | Y-axis value
+**Z** | Float | Z-axis value
 
-**
-X
-**
- |
-Float
- |
-X-axis value
- |
+**Outputs**
 
-**
-Y
-**
- |
-Float
- |
-Y-axis value
- |
+Port | Description
+--- | ---
+**Vec3** | Vector output
 
-**
-Z
-**
- |
-Float
- |
-Z-axis value
- |
-
-**
-Outputs
-**
-
-Port
- |
-Description
- |
-
-**
-Vec3
-**
- |
-Vector output
- |
-
-[AddVec3](#addvec3)
-[Calculate](#calculate)
-[ClampVec3](#clampvec3)
-[CrossVec3](#crossvec3)
-[DotVec3](#dotvec3)
-[EqualVec3](#equalvec3)
-[FromVec3](#fromvec3)
-[MagnitudeVec3](#magnitudevec3)
-[MulVec3](#mulvec3)
-[NormalizeVec3](#normalizevec3)
-[ReciprocalVec3](#reciprocalvec3)
-[Scalevec3](#scalevec3)
-[SetVec3](#setvec3)
-[SubVec3](#subvec3)
-[ToVec3](#tovec3)
+[AddVec3](#addvec3)[Calculate](#calculate)[ClampVec3](#clampvec3)[CrossVec3](#crossvec3)[DotVec3](#dotvec3)[EqualVec3](#equalvec3)[FromVec3](#fromvec3)[MagnitudeVec3](#magnitudevec3)[MulVec3](#mulvec3)[NormalizeVec3](#normalizevec3)[ReciprocalVec3](#reciprocalvec3)[Scalevec3](#scalevec3)[SetVec3](#setvec3)[SubVec3](#subvec3)[ToVec3](#tovec3)

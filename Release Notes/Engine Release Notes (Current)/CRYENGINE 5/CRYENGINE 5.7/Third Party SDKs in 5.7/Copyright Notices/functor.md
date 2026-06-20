@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 Copyright 1994 Rich Hickey
 
 Permission to use, copy, modify, distribute and sell this software
@@ -19,8 +17,5 @@ that both that copyright notice and this permission notice appear in supporting 
 Rich Hickey makes no representations about the suitability of this software for any
 purpose. It is provided "as is" without express or implied warranty.
 
- - Source is modified
-
-`
-
+- Source is modified
 ```

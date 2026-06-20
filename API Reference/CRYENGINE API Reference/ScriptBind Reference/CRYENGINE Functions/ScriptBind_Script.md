@@ -7,215 +7,102 @@
 
 ## Content
 
-##
-LoadScript
+### LoadScript
 
- Loads the script.
+Loads the script.
 
 ```
-
-`
 Script.LoadScript(scriptName)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+scriptName | name of the script to load
 
-scriptName
- |
-name of the script to load
- |
+### ReloadScripts
 
-##
-ReloadScripts
-
- Reloads all the scripts.
+Reloads all the scripts.
 
 ```
-
-`
 Script.ReloadScripts()
-`
-
 ```
 
-##
-ReloadScript
+### ReloadScript
 
- Reload the script.
+Reload the script.
 
 ```
-
-`
 Script.ReloadScript()
-`
-
 ```
 
-##
-ReloadEntityScript
+### ReloadEntityScript
 
 Reloads the specified entity script.
 
 ```
-
-`
 Script.ReloadEntityScript( className )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+className | Name of the entity script.
 
-className
- |
-Name of the entity script.
- |
+### UnloadScript
 
-##
-UnloadScript
-
- Unloads the script.
+Unloads the script.
 
 ```
-
-`
 Script.UnloadScript()
-`
-
 ```
 
-##
-DumpLoadedScripts
+### DumpLoadedScripts
 
- Dumps all the loaded scripts.
+Dumps all the loaded scripts.
 
 ```
-
-`
 Script.DumpLoadedScripts()
-`
-
 ```
 
-##
-SetTimer
+### SetTimer
 
-  Set a general script timer, when timer expires will call back a specified lua function. Lua function will accept 1 or 2 parameters, if userData is specified luaFunction must be: <preformatted>LuaCallback = function( userData,nTimerId )
-        -- function body
-     end;</preformatted> if userData is not specified luaFunction must be: <preformatted>LuaCallback = function( nTimerId )
-        -- function body
-     end;</preformatted>
+Set a general script timer, when timer expires will call back a specified lua function. Lua function will accept 1 or 2 parameters, if userData is specified luaFunction must be: <preformatted>LuaCallback = function(userData,nTimerId) -- function body end;</preformatted> if userData is not specified luaFunction must be: <preformatted>LuaCallback = function(nTimerId) -- function body end;</preformatted>
 
 ```
-
-`
 Script.SetTimer( nMilliseconds, luaFunction [, userData [, bUpdateDuringPause]] )
-`
-
 ```
 
-**
-Returns:
-**
- ID assigned to this timer or nil if not specified.
-Parameter
- |
-Description
- |
+**Returns:** ID assigned to this timer or nil if not specified.
+Parameter | Description
+--- | ---
+nMilliseconds | Delay of trigger in milliseconds.
+luaFunction | .
+userData | (optional) Any user defined table. If specified will be passed as a first argument of the callback function.
+bUpdateDuringPause | (optional) will be updated and trigger even if in pause mode.
 
-nMilliseconds
- |
-Delay of trigger in milliseconds.
- |
+### SetTimerForFunction
 
-luaFunction
- |
-.
- |
-
-userData
- |
-(optional) Any user defined table. If specified will be passed as a first argument of the callback function.
- |
-
-bUpdateDuringPause
- |
-(optional) will be updated and trigger even if in pause mode.
- |
-
-##
-SetTimerForFunction
-
-  Set a general script timer, when timer expires will call back a specified lua function. Lua function will accept 1 or 2 parameters, if userData is specified luaFunction must be: <preformatted>LuaCallback = function( userData,nTimerId )
-            -- function body
-      end;</preformatted> if userData is not specified luaFunction must be: <preformatted>LuaCallback = function( nTimerId )
-            -- function body
-      end;</preformatted> .
+Set a general script timer, when timer expires will call back a specified lua function. Lua function will accept 1 or 2 parameters, if userData is specified luaFunction must be: <preformatted>LuaCallback = function(userData,nTimerId) -- function body end;</preformatted> if userData is not specified luaFunction must be: <preformatted>LuaCallback = function(nTimerId) -- function body end;</preformatted>.
 
 ```
-
-`
 Script.SetTimerForFunction( nMilliseconds, luaFunction [, userData [, bUpdateDuringPause]] )
-`
-
 ```
 
-**
-Returns:
-**
- ID assigned to this timer or nil if not specified.
-Parameter
- |
-Description
- |
+**Returns:** ID assigned to this timer or nil if not specified.
+Parameter | Description
+--- | ---
+nMilliseconds | Delay of trigger in milliseconds.
+luaFunction | .
+userData | (optional) Any user defined table. If specified it will be passed as a first argument of the callback function.
+bUpdateDuringPause | (optional) will be updated and trigger even if in pause mode.
 
-nMilliseconds
- |
-Delay of trigger in milliseconds.
- |
+### KillTimer
 
-luaFunction
- |
-.
- |
-
-userData
- |
-(optional) Any user defined table. If specified it will be passed as a first argument of the callback function.
- |
-
-bUpdateDuringPause
- |
-(optional) will be updated and trigger even if in pause mode.
- |
-
-##
-KillTimer
-
- Stops a timer set by the Script.SetTimer function.
+Stops a timer set by the Script.SetTimer function.
 
 ```
-
-`
 Script.KillTimer( nTimerId )
-`
-
 ```
 
-Parameter
- |
-Description
- |
-
-nTimerId
- |
-ID of the timer returned by the Script.SetTimer function.
- |
+Parameter | Description
+--- | ---
+nTimerId | ID of the timer returned by the Script.SetTimer function.

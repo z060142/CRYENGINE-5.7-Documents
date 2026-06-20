@@ -20,45 +20,21 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 The area objects are used to create three dimensional zones in the level that can be used to trigger events.
 
-When editing a shape or area, it is possible to snap a vertex to terrain or physicalized objects using
-**
-Ctrl + Shift + LMB
-**
-.
+When editing a shape or area, it is possible to snap a vertex to terrain or physicalized objects using **Ctrl + Shift + LMB**.
 
 This is true for all Area objects, except Occluders.
 
--
-[Box](Area/Box.md)
-
--
-[Clip Volume](Area/Clip%20Volume.md)
-
--
-[Occluder](Area/Occluder.md)
-
--
-[Occluder Plane](Area/Occluder%20Plane.md)
-
--
-[Portal](Area/Portal.md)
-
--
-[Shape](Area/Shape.md)
-
--
-[Solid](Area/Solid.md)
-
--
-[Sphere](Area/Sphere.md)
-
--
-[Vis Area](Area/Vis%20Area.md)
-
--
-[Water Volume](Area/Water%20Volume.md)
+- [Box](Area/Box.md)
+- [Clip Volume](Area/Clip%20Volume.md)
+- [Occluder](Area/Occluder.md)
+- [Occluder Plane](Area/Occluder%20Plane.md)
+- [Portal](Area/Portal.md)
+- [Shape](Area/Shape.md)
+- [Solid](Area/Solid.md)
+- [Sphere](Area/Sphere.md)
+- [Vis Area](Area/Vis%20Area.md)
+- [Water Volume](Area/Water%20Volume.md)

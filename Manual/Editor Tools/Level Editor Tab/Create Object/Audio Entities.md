@@ -7,20 +7,11 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
-CRYENGINE contains the following Audio Entities
-:
+CRYENGINE contains the following Audio Entities:
 
--
-[Audio Trigger Spot Entity](/docs/static/engines/cryengine-5/categories/23756816)
-
--
-[Audio Area Entity](/docs/static/engines/cryengine-5/categories/23756816)
-
--
-[Audio Area Ambience Entity](/docs/static/engines/cryengine-5/categories/23756816)
-
--
-[Audio Area Random Entity](/docs/static/engines/cryengine-5/categories/23756816)
+- [Audio Trigger Spot Entity](/docs/static/engines/cryengine-5/categories/23756816)
+- [Audio Area Entity](/docs/static/engines/cryengine-5/categories/23756816)
+- [Audio Area Ambience Entity](/docs/static/engines/cryengine-5/categories/23756816)
+- [Audio Area Random Entity](/docs/static/engines/cryengine-5/categories/23756816)

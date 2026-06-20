@@ -7,22 +7,12 @@
 
 ## Content
 
-##
-Launcher Version 1.8.1
+## Launcher Version 1.8.1
 
-##
-Backend
+#### Backend
 
-**
-Fixed:
-**
-Where an Asset could fail to be added to the products list.
+**Fixed:** Where an Asset could fail to be added to the products list.
 
-##
-Landing Page
+#### Landing Page
 
-**
-Fixed:
-**
- The f
-orgot-password link in the Launcher generating a 404 Not Found error.
+**Fixed:** The forgot-password link in the Launcher generating a 404 Not Found error.

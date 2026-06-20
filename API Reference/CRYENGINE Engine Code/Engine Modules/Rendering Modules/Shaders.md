@@ -12,14 +12,9 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
-This section provides information for
-shader development and customization. It includes a material and pipeline overview with the Effect format, Shader Cache and Remote Shader Compiler.
+This section provides information for shader development and customization. It includes a material and pipeline overview with the Effect format, Shader Cache and Remote Shader Compiler.
 
--
-[Shader Cache](Shaders/Shader%20Cache.md)
-
--
-[Shader Development Introduction](Shaders/Shader%20Development%20Introduction.md)
+- [Shader Cache](Shaders/Shader%20Cache.md)
+- [Shader Development Introduction](Shaders/Shader%20Development%20Introduction.md)

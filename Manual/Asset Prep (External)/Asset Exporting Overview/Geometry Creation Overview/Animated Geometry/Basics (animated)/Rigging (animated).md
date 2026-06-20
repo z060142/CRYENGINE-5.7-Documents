@@ -16,22 +16,13 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29934059)
 
-##
-Overview
+## Overview
 
 In this section you will learn about the various rigging tools, guidelines, and specific rigging situations which will go into details on how to setup in DCC tools, exporting and preparation in CRYENGINE.
 
-##
-In This Topic
+### In This Topic
 
--
-[Biped Rigging](Rigging%20(animated)/Biped%20Rigging.md)
-
--
-[Character Rigging Guidelines](Rigging%20(animated)/Character%20Rigging%20Guidelines.md)
-
--
-[Locomotion Locator](Rigging%20(animated)/Locomotion%20Locator.md)
-
--
-[Reset Transformations](Rigging%20(animated)/Reset%20Transformations.md)
+- [Biped Rigging](Rigging%20(animated)/Biped%20Rigging.md)
+- [Character Rigging Guidelines](Rigging%20(animated)/Character%20Rigging%20Guidelines.md)
+- [Locomotion Locator](Rigging%20(animated)/Locomotion%20Locator.md)
+- [Reset Transformations](Rigging%20(animated)/Reset%20Transformations.md)

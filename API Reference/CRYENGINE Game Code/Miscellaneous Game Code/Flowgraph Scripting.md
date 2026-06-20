@@ -12,8 +12,5 @@
 
 ## Content
 
--
-[Adding Lua Flownode Inputs and Outputs](Flowgraph%20Scripting/Adding%20Lua%20Flownode%20Inputs%20and%20Outputs.md)
-
--
-[FlowNode Substitutions](Flowgraph%20Scripting/FlowNode%20Substitutions.md)
+- [Adding Lua Flownode Inputs and Outputs](Flowgraph%20Scripting/Adding%20Lua%20Flownode%20Inputs%20and%20Outputs.md)
+- [FlowNode Substitutions](Flowgraph%20Scripting/FlowNode%20Substitutions.md)

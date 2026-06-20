@@ -8,9 +8,5 @@
 ## Content
 
 ```
-
-`
 ModPlug-XMMS and libmodplug are now in the public domain.
-`
-
 ```

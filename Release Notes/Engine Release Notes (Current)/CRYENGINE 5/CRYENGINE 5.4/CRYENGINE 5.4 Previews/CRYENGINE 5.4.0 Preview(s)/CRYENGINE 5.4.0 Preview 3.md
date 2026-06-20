@@ -7,190 +7,76 @@
 
 ## Content
 
-##
-Overview - CRYENGINE 5.4.0 Preview 3
+## Overview - CRYENGINE 5.4.0 Preview 3
 
 We are very pleased to bring you the 5.4.0 Preview 3 release. This is another “hot-fix” preview release where we have addressed further issues identified by you our community.
 
-##
-Pull Requests
+#### Pull Requests
 
-As our community you will know that
-[CRYENGINE Pull Requests](https://www.cryengine.com/news/cryengine-github-pull-requests-are-go-here-s-what-you-need-to-know)
-are go - for more information
-about Pull Requests follow this
-[link](https://help.github.com/articles/creating-a-pull-request/)
-on GitHub. Please note that the 'branch' for submitting CRYENGINE Pull Requests is called
-*
-pullrequests
-*
+As our community you will know that [CRYENGINE Pull Requests](https://www.cryengine.com/news/cryengine-github-pull-requests-are-go-here-s-what-you-need-to-know)are go - for more information about Pull Requests follow this [link](https://help.github.com/articles/creating-a-pull-request/)on GitHub. Please note that the 'branch' for submitting CRYENGINE Pull Requests is called *pullrequests*
 
 Just to let you know, we are working on some detailed steps for the submission of Pull Requests - these will be available very soon.
 
 Finally, thank you once again for your feedback, please keep it coming (but through the normal channels).
 
-##
-Vulkan Support in CRYENGINE
+#### Vulkan Support in CRYENGINE
 
-We are very pleased to let you know that we have begun adding
-[documentation](../../../../../../Manual/Beta%20Features/Vulkan%20Support%20in%20CRYENGINE.md)
- for Vulkan support in CRYENGINE. We will continue to add to our Rendering documentation over the coming months.
+We are very pleased to let you know that we have begun adding [documentation](../../../../../../Manual/Beta%20Features/Vulkan%20Support%20in%20CRYENGINE.md) for Vulkan support in CRYENGINE. We will continue to add to our Rendering documentation over the coming months.
 
-##
-Accessing the 5.4.0 Preview 3 Release
+## Accessing the 5.4.0 Preview 3 Release
 
--
-Go to
-[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview3](https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview3)
+- Go to [https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview3](https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview3)
+- Download CRYENGINE_preview_5.4.0.108_pc.zip
+- Unzip it somewhere and open the directory “CRYENGINE_preview_5.4.0.108_pc”
+- Double-click on “InstallEngine.bat"
 
--
-Download CRYENGINE_preview_5.4.0.108_pc.zip
+## Code Interface Changes
 
--
-Unzip it somewhere and open the directory “CRYENGINE_preview_5.4.0.108_pc”
+For more information, see the [Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)](../Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes%20(5.4%20Preview%20Releases).md)article.
 
--
-Double-click on “InstallEngine.bat"
+If you are upgrading from CRYENGINE 5.3, please read this topic: [Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)](../Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4%20(5.4%20Preview%20Releases).md)[.](/docs)
 
-##
-Code Interface Changes
+## Known Issues
 
-For more information, see the
-[Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)](../Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes%20(5.4%20Preview%20Releases).md)
-**
+- **CRASH:** (Schematyc/Particle) If too many or large graphs are opened or created, then the Sandbox Editor runs out of GDI and or USER handles, resulting in a crash
+- **CRASH:** (CMake) The Generate Solution option for C++ projects can result in setting NMake as the generator for CMake instead of Visual Studio, resulting in CMake to crash
 
-**
-article.
+## Audio
 
-If you are upgrading from CRYENGINE 5.3, please read this topic:
-[Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)](../Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4%20(5.4%20Preview%20Releases).md)
-[.](/docs)
+#### Audio General
 
-##
-Known Issues
+- **New:** Added Listener Component and fixed Listener for ModelViewPort.
+- **Tweaked:** Updated Wwise SDK to v2017.1.0 build 6302.
+- **Tweaked:** Updated FMOD Studio API to version 1.09.06.
 
--
-**
-CRASH:
-**
- (Schematyc/Particle) If too many or large graphs are opened or created, then the Sandbox Editor runs out of GDI and or USER handles, resulting in a crash
+## Core/System
 
--
-**
-CRASH:
-**
- (CMake) The Generate Solution option for C++ projects can result in setting NMake as the generator for CMake instead of Visual Studio, resulting in CMake to crash
+#### Engine General
 
-##
-Audio
+- **Refactored:** Save/Load Entity Component members when going in and out of game mode - to prevent Setter nodes or user code modifying properties that were not supposed to be changed.
+- **Fixed:** 'Open Editor' icon not appearing next to particle fields.
+- **Fixed:** Inability to specify material for Geometry Components.
+- **Tweaked:** Improve markup of license.md.
 
-##
-Audio General
+#### System
 
--
-**
-New:
-**
- Added Listener Component and fixed Listener for ModelViewPort.
+- **Fixed:** Engine would silently start without project folder and/or assets - now shows errors to the user.
 
--
-**
-Tweaked:
-**
- Updated Wwise SDK to v2017.1.0 build 6302.
+#### CMake
 
--
-**
-Tweaked:
-**
- Updated FMOD Studio API to version 1.09.06.
+- **Tweaked:** Sign CMake binaries and DLLs.
 
-##
-Core/System
+## Graphics and Rendering
 
-##
-Engine General
+#### Particles
 
--
-**
-Refactored:
-**
- Save/Load Entity Component members when going in and out of game mode - to prevent Setter nodes or user code modifying properties that were not supposed to be changed.
+- **Fixed:** Random seed not being exposed to UI spawn parameters.
 
--
-**
-Fixed:
-**
- 'Open Editor' icon not appearing next to particle fields.
+## Sandbox
 
--
-**
-Fixed:
-**
- Inability to specify material for Geometry Components.
+#### Editor General
 
--
-**
-Tweaked:
-**
- Improve markup of license.md.
-
-##
-System
-
--
-**
-Fixed:
-**
- Engine would silently start without project folder and/or assets - now shows errors to the user.
-
-##
-CMake
-
--
-**
-Tweaked:
-**
- Sign CMake binaries and DLLs.
-
-##
-Graphics and Rendering
-
-##
-Particles
-
--
-**
-Fixed:
-**
- Random seed not being exposed to UI spawn parameters.
-
-##
-Sandbox
-
-##
-Editor General
-
--
-**
-Fixed:
-**
- (Prefab) Prefab properties don't hot reload after using undo.
-
--
-**
-Fixed:
-**
- Issues with undoing folder layer creation, including a potential crash.
-
--
-**
-Fixed:
-**
- (UI) All colors set to black (in Preferences) after registering Engine.
-
--
-**
-Fixed:
-**
- Occasional crash when rapidly docking and undocking windows.
+- **Fixed:** (Prefab) Prefab properties don't hot reload after using undo.
+- **Fixed:** Issues with undoing folder layer creation, including a potential crash.
+- **Fixed:** (UI) All colors set to black (in Preferences) after registering Engine.
+- **Fixed:** Occasional crash when rapidly docking and undocking windows.

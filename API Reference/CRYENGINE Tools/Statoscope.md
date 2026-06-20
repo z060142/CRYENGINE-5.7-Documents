@@ -17,8 +17,7 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 Statoscope is a tool to view and analyse data logged on a per-frame basis, and more generally it is the system that produces and manages that data.
 
@@ -26,28 +25,14 @@ In essence then, it provides a way of recording values (e.g. fps, number of draw
 
 Chapters:
 
-The viewer (shown below) aims to present the recorded data in
-useful ways, such as visually in a plot that supports filtering and zooming, basic processing (averaging, local max), stats (min/max/average, buckets), comparison with other logs or with target lines and display of in-game screenshots and user markers for gameplay reference.
+The viewer (shown below) aims to present the recorded data in useful ways, such as visually in a plot that supports filtering and zooming, basic processing (averaging, local max), stats (min/max/average, buckets), comparison with other logs or with target lines and display of in-game screenshots and user markers for gameplay reference.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/26964652)
 
--
-[Connecting Statoscope](Statoscope/Connecting%20Statoscope.md)
-
--
-[Logging Data in Statoscope](Statoscope/Logging%20Data%20in%20Statoscope.md)
-
--
-[Using the Main Graph Window](Statoscope/Using%20the%20Main%20Graph%20Window.md)
-
--
-[Usage and Features](Statoscope/Usage%20and%20Features.md)
-
--
-[Comparoscope](Statoscope/Comparoscope.md)
-
--
-[Data Groups](Statoscope/Data%20Groups.md)
-
--
-[Creating new Data Groups](Statoscope/Creating%20new%20Data%20Groups.md)
+- [Connecting Statoscope](Statoscope/Connecting%20Statoscope.md)
+- [Logging Data in Statoscope](Statoscope/Logging%20Data%20in%20Statoscope.md)
+- [Using the Main Graph Window](Statoscope/Using%20the%20Main%20Graph%20Window.md)
+- [Usage and Features](Statoscope/Usage%20and%20Features.md)
+- [Comparoscope](Statoscope/Comparoscope.md)
+- [Data Groups](Statoscope/Data%20Groups.md)
+- [Creating new Data Groups](Statoscope/Creating%20new%20Data%20Groups.md)

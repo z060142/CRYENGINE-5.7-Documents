@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-EventSource
+### EventSource
 
 Event node that must be placed inside a prefab for it to be handled in an instance.
 

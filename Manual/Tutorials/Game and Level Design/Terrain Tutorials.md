@@ -11,5 +11,4 @@
 
 ## Content
 
--
-[Tutorial - Importing a Level from World Machine](Terrain%20Tutorials/Tutorial%20-%20Importing%20a%20Level%20from%20World%20Machine.md)
+- [Tutorial - Importing a Level from World Machine](Terrain%20Tutorials/Tutorial%20-%20Importing%20a%20Level%20from%20World%20Machine.md)

@@ -7,43 +7,20 @@
 
 ## Content
 
-##
-Launcher Version 1.10.6
+## Launcher Version 1.10.6
 
-##
-Backend
+#### Backend
 
-**
-**
-Tweaked:
-**
-**
-General bug fixes and minor improvements.
+****Tweaked:****General bug fixes and minor improvements.
 
-##
-Landing Page
+#### Landing Page
 
-**
-New:
-**
-Added a pop-up with Close and Retry options - in the case that a Launcher update download has failed.
+**New:** Added a pop-up with Close and Retry options - in the case that a Launcher update download has failed.
 
-**
-New:
-**
-Added the ability to create a project via an asset (when the asset includes a .cryproject file).
+**New:** Added the ability to create a project via an asset (when the asset includes a.cryproject file).
 
-**
-New:
-**
- It is now possible to login to the Launcher using just an email address.
+**New:** It is now possible to login to the Launcher using just an email address.
 
-**
-New:
-**
-(Vendor Accounts) Added an error message/warning when Jira is unavailable.
+**New:**(Vendor Accounts) Added an error message/warning when Jira is unavailable.
 
-**
-New:
-**
-Added re-captcha "I'm not a robot" for user log-in.
+**New:** Added re-captcha "I'm not a robot" for user log-in.

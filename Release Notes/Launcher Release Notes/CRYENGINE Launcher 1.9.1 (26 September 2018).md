@@ -7,25 +7,12 @@
 
 ## Content
 
-##
-Launcher Version 1.9.1
+## Launcher Version 1.9.1
 
-##
-Backend
+#### Backend
 
-**
-New:
-**
-Project data
-**
+**New:** Project datais now saved in a file outside of the CRYENGINE Launcher. This results in users still being able to access their project data even after a CRYENGINE Launcher re-install.
 
-**
-is now saved in a file outside of the CRYENGINE Launcher. This results in users still being able to access their project data even after a CRYENGINE Launcher re-install.
+#### Landing Page
 
-##
-Landing Page
-
-**
-New:
-**
-Added a Discord icon (redirect to the CRYENGINE Discord channel) to the Social Media icons already present on the footer.
+**New:** Added a Discord icon (redirect to the CRYENGINE Discord channel) to the Social Media icons already present on the footer.

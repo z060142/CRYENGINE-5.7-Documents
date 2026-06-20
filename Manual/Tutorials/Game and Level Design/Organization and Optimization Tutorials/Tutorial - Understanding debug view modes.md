@@ -7,8 +7,6 @@
 
 ## Content
 
-This lesson simply demonstrates some of the debug view modes that are useful during the optimization and debugging process, pointing out the ViewModes toolbar that can be used to switch them on as an alternative to typing the console variables in the Console tool. The sample level used for the demo can be downloaded
-[here](https://www.cryengine.com/tutorials/download/assets)
-.
+This lesson simply demonstrates some of the debug view modes that are useful during the optimization and debugging process, pointing out the ViewModes toolbar that can be used to switch them on as an alternative to typing the console variables in the Console tool. The sample level used for the demo can be downloaded [here](https://www.cryengine.com/tutorials/download/assets).
 
 [Embed: https://www.youtube.com/watch?v=K64InG4w744]

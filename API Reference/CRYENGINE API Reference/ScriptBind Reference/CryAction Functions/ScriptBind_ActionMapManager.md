@@ -7,219 +7,110 @@
 
 ## Content
 
-##
-EnableActionFilter
+### EnableActionFilter
 
 Enables a filter for the actions.
 
 ```
-
-`
 ActionMapManager.EnableActionFilter( name, enable )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | Filter name.
+enable | True to enable the filter, false otherwise.
 
-name
- |
-Filter name.
- |
-
-enable
- |
-True to enable the filter, false otherwise.
- |
-
-##
-EnableActionMap
+### EnableActionMap
 
 Enables an action map.
 
 ```
-
-`
 ActionMapManager.EnableActionMap( name, enable )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | Action map name.
+enable | True to enable the filter, false otherwise.
 
-name
- |
-Action map name.
- |
-
-enable
- |
-True to enable the filter, false otherwise.
- |
-
-##
-EnableActionMapManager
+### EnableActionMapManager
 
 Enables/Disables ActionMapManager.
 
 ```
-
-`
 ActionMapManager.EnableActionMapManager( enable, resetStateOnDisable )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+enable | Enables/Disables ActionMapManager.
+resetStateOnDisable | Resets the different Action states when ActionMapManager gets disabled.
 
-enable
- |
-Enables/Disables ActionMapManager.
- |
-
-resetStateOnDisable
- |
-Resets the different Action states when ActionMapManager gets disabled.
- |
-
-##
-LoadFromXML
+### LoadFromXML
 
 Loads information from an XML file.
 
 ```
-
-`
 ActionMapManager.LoadFromXML( name )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+name | XML file name.
 
-name
- |
-XML file name.
- |
-
-##
-InitActionMaps
+### InitActionMaps
 
 Initializes the action maps and filters found in given file
 
 ```
-
-`
 ActionMapManager.InitActionMaps( path )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+path | XML file path.
 
-path
- |
-XML file path.
- |
-
-##
-SetDefaultActionEntity
+### SetDefaultActionEntity
 
 Sets the new default entity.
 
 ```
-
-`
 ActionMapManager.SetDefaultActionEntity( id, updateAll )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+id | EntityId of the new default action entity.
+updateAll | Updates all existing action map assignments.
 
-id
- |
-EntityId of the new default action entity.
- |
+### GetDefaultActionEntity
 
-updateAll
- |
-Updates all existing action map assignments.
- |
-
-##
-GetDefaultActionEntity
-
- Gets the currently set default action entity.
+Gets the currently set default action entity.
 
 ```
-
-`
 ActionMapManager.GetDefaultActionEntity()
-`
-
 ```
 
-##
-LoadControllerLayoutFile
+### LoadControllerLayoutFile
 
 Loads the given controller layout into the action manager.
 
 ```
-
-`
 ActionMapManager.LoadControllerLayoutFile( layoutName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+layoutName | layout name.
 
-layoutName
- |
-layout name.
- |
-
-##
-IsFilterEnabled
+### IsFilterEnabled
 
 Checks if a filter is currently enabled.
 
 ```
-
-`
 ActionMapManager.IsFilterEnabled( filterName )
-`
-
 ```
 
-Parameter
- |
-Description
- |
-
-filterName
- |
-filter name.
- |
+Parameter | Description
+--- | ---
+filterName | filter name.

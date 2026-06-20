@@ -18,33 +18,20 @@
 ## Content
 
 Prerequisites
-For more in-depth information about programming in CRYENGINE, see
-[CRYENGINE Programming](/docs/static/engines/cryengine-5/categories/23756813/pages/23306343)
-.
+For more in-depth information about programming in CRYENGINE, see [CRYENGINE Programming](/docs/static/engines/cryengine-5/categories/23756813/pages/23306343).
 
 [![Image](https://www.cryengine.com/docs/static/attachments/28897349)](/docs/static/engines/cryengine-5/categories/23756816)
 
-##
-Goals
+#### Goals
 
 The focus of the Programmer Quick Start is to walk you through the basics of working with CRYENGINE V and creating a project using C++.
 
-##
-Objectives
+#### Objectives
 
 After going through this tutorial, developers will know the following:
 
--
-Required prerequisites
-
--
-How to generate a solution
-
--
-How to start using plug-ins
-
--
-How to receive updates
-
--
-How to add source files
+- Required prerequisites
+- How to generate a solution
+- How to start using plug-ins
+- How to receive updates
+- How to add source files

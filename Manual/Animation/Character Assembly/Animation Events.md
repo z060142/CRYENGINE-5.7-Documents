@@ -9,43 +9,31 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29933220)
 
-##
-Overview
+## Overview
 
-This page deals with the AnimEvent Database and the Tracks Database. For general information about the .chrparams File and on how to map animations, see the
-[CRYENGINE V Manual](/docs/static/engines/cryengine-5/categories/23756816)
- and
-[Character Parameters File (chrparams)](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)
- documentation.
+This page deals with the AnimEvent Database and the Tracks Database. For general information about the.chrparams File and on how to map animations, see the [CRYENGINE V Manual](/docs/static/engines/cryengine-5/categories/23756816) and [Character Parameters File (chrparams)](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md) documentation.
 
-The .chrparams file, or Character Parameters File, contains a reference list of animation files (.caf) to character specific animations in the game. The .chrparams file has the same name as the character file to which it refers.
+The.chrparams file, or Character Parameters File, contains a reference list of animation files (.caf) to character specific animations in the game. The.chrparams file has the same name as the character file to which it refers.
 
-Aside from listing all animations that the engine should load for the character, the .chrparams file has special entries that allow the specification of an animation events database and a tracks database. Both entries are optional.
+Aside from listing all animations that the engine should load for the character, the.chrparams file has special entries that allow the specification of an animation events database and a tracks database. Both entries are optional.
 
-##
-Sections
+## Sections
 
-[Sections](#sections)
-[Setup](#setup)
-[Presets](#presets)
+[Sections](#sections)[Setup](#setup)[Presets](#presets)
 
-##
-Setup
+### Setup
 
-##
-Creating Timeline Events
+#### Creating Timeline Events
 
 You can add Animation Events by double clicking on the timeline. Each animation can have a set of them:
 
-##
-Accessing Context Menu
+#### Accessing Context Menu
 
 The timeline has a context menu that gives you possibilities to jump between frames and events. It also contains hints about keyboard shortcuts.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/51347571)
 
-##
-Event Properties
+#### Event Properties
 
 These are stored in a separate ANIMEVENTS file. Such file is referred from skeleton parameters (CHRPARAMS) and contains lists of animation events per animation.
 
@@ -53,13 +41,10 @@ That is, with multiple animations in one file. Nevertheless they are saved when 
 
 If you need to quickly create a large amount of events you may use the AnimEvent Presets panel.
 
-##
-Presets
+### Presets
 
-##
-Toggle
+#### Toggle
 
 Toggle gives you a set of quickly accessible animation events. You can add them to the timeline with a double-click, or by using assignable hotkeys (number keys 1-0).
 
-##
-Panel
+#### Panel

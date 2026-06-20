@@ -7,372 +7,97 @@
 
 ## Content
 
-##
-EntityMaterialChange
+### EntityMaterialChange
 
 Used to apply the specified material to an entity.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687858)
 
-##
-EntityMaterialParams
+### EntityMaterialParams
 
 Used to get the entity's material parameters.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687857)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Get** | Any | Activates the node
+**Slot** | Integer | Material slot
+**SubMtlId** | Integer | Submaterial ID
+**ParamFloat** | String | Float parameter to be set
+**ValueFloat** | Float | Sets float parameter value
+**ParamColor** | String | Color parameter to be set
+**ValueColor** | Vec3 | Color value to be set
 
-**
-Get
-**
- |
-Any
- |
-Activates the node
- |
+**Outputs**
 
-**
-Slot
-**
- |
-Integer
- |
-Material slot
- |
+Port | Type | Description
+--- | --- | ---
+**Value Float** | Float | Current float value
+**Value Color** | Vec3 | Current color value
 
-**
-SubMtlId
-**
- |
-Integer
- |
-Submaterial ID
- |
-
-**
-ParamFloat
-**
- |
-String
- |
-Float parameter to be set
- |
-
-**
-ValueFloat
-**
- |
-Float
- |
-Sets float parameter value
- |
-
-**
-ParamColor
-**
- |
-String
- |
-Color parameter to be set
- |
-
-**
-ValueColor
-**
- |
-Vec3
- |
-Color value to be set
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Value Float
-**
- |
-Float
- |
-Current float value
- |
-
-**
-Value Color
-**
- |
-Vec3
- |
-Current color value
- |
-
-##
-MaterialClone
+### MaterialClone
 
 Used to clone an entity's material or reset it back to the original.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687856)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Clone** | Any | Activates the node
+**Reset** | Any | Resets to the original material
+**Slot** | Integer | Material slot
 
-**
-Clone
-**
- |
-Any
- |
-Activates the node
- |
+**Outputs**
 
-**
-Reset
-**
- |
-Any
- |
-Resets to the original material
- |
+Port | Type | Description
+--- | --- | ---
+**Cloned** | Any | Activated when material is cloned
+**Reset** | Any | Activated when material is reset
 
-**
-Slot
-**
- |
-Integer
- |
-Material slot
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Cloned
-**
- |
-Any
- |
-Activated when material is cloned
- |
-
-**
-Reset
-**
- |
-Any
- |
-Activated when material is reset
- |
-
-##
-MaterialParams
+### MaterialParams
 
 Used to get the specified material's parameters.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687855)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Get** | Any | Activates the node
+**Material** | String | Material name
+**SubMaterial Id** | Integer | Submaterial name
+**ParamFloat** | String | Float parameter to be set
+**ValueFloat** | Float | Value of the float parameter
+**ParamColor** | String | Color parametetr to be set
+**ValueColor** | Vec3 | Value of the color parameter
+**Serialize** | Boolean | Serialize the change
 
-**
-Get
-**
- |
-Any
- |
-Activates the node
- |
+**Outputs**
 
-**
-Material
-**
- |
-String
- |
-Material name
- |
+Port | Type | Description
+--- | --- | ---
+**Value Float** | Float | Current float value
+**Value Color** | Vec3 | Current color value
 
-**
-SubMaterial Id
-**
- |
-Integer
- |
-Submaterial name
- |
-
-**
-ParamFloat
-**
- |
-String
- |
-Float parameter to be set
- |
-
-**
-ValueFloat
-**
- |
-Float
- |
-Value of the float parameter
- |
-
-**
-ParamColor
-**
- |
-String
- |
-Color parametetr to be set
- |
-
-**
-ValueColor
-**
- |
-Vec3
- |
-Value of the color parameter
- |
-
-**
-Serialize
-**
- |
-Boolean
- |
-Serialize the change
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-Value Float
-**
- |
-Float
- |
-Current float value
- |
-
-**
-Value Color
-**
- |
-Vec3
- |
-Current color value
- |
-
-##
-SetObjectMaterial
+### SetObjectMaterial
 
 Used to set an object's (render node) material to the specified position.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29687854)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Material** | String | Set object material
+**ObjectType** | Integer | Object type
+**Position** | Vec3 | Position to set material at
+**Activate** | Any | Activates the node
 
-**
-Material
-**
- |
-String
- |
-Set object material
- |
-
-**
-ObjectType
-**
- |
-Integer
- |
-Object type
- |
-
-**
-Position
-**
- |
-Vec3
- |
-Position to set material at
- |
-
-**
-Activate
-**
- |
-Any
- |
-Activates the node
- |
-
-[EntityMaterialChange](#entitymaterialchange)
-[EntityMaterialParams](#entitymaterialparams)
-[MaterialClone](#materialclone)
-[MaterialParams](#materialparams)
-[SetObjectMaterial](#setobjectmaterial)
+[EntityMaterialChange](#entitymaterialchange)[EntityMaterialParams](#entitymaterialparams)[MaterialClone](#materialclone)[MaterialParams](#materialparams)[SetObjectMaterial](#setobjectmaterial)

@@ -21,26 +21,17 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29926884)
 
-##
-Goals
+#### Goals
 
 The focus of this gameplay tutorial is to have you start managing data in Flow Graph to help execute game loops.
 
-##
-Objectives
+#### Objectives
 
 After going through this tutorial, developers will know the following:
 
--
-How to create Game and Graph Tokens
-
--
-How to modify our Token in the level at runtime
-
--
-How to write to XML
-
--
-How to read XML
+- How to create Game and Graph Tokens
+- How to modify our Token in the level at runtime
+- How to write to XML
+- How to read XML
 
 [![Image](https://www.cryengine.com/docs/static/attachments/27561990)](/docs/static/engines/cryengine-5/categories/23756816/pages/27593405)

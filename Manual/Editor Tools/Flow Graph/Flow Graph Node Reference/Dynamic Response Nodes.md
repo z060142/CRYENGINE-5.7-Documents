@@ -7,353 +7,98 @@
 
 ## Content
 
-##
-CancelSignalProcessing
+### CancelSignalProcessing
 
 This node sends a signal to cancel the processing of the sent signal in the Dynamic Response System.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901228)
 
-##
-SendSignal
+### SendSignal
 
 This node sends a signal to the Dynamic Response System.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901227)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Send** | Any | Sends the dynamic response signal
+**Signal Name** | String | Name of the dynamic response signal
 
-**
-Send
-**
- |
-Any
- |
-Sends the dynamic response signal
- |
+**Outputs**
 
-**
-Signal Name
-**
- |
-String
- |
-Name of the dynamic response signal
- |
+Port | Type | Description
+--- | --- | ---
+**Done** | String | Triggered when the signal is sent or is canceled.
 
-**
-Outputs
-**
+### SetFloatVariable
 
-Port
- |
-Type
- |
-Description
- |
-
-**
-Done
-**
- |
-String
- |
-Triggered when the signal is sent or is canceled.
- |
-
-##
-SetFloatVariable
-
-This node is used to set a
-float
-variable in a variable collection for the Dynamic Response System.
+This node is used to set a float variable in a variable collection for the Dynamic Response System.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901226)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Set** | Any | Set the given value to the specified variable
+**EntityID** | Any | The ID of the entity to fetch the collection from
+**CollectionName** | String | The name of the collection
+**VariableName** | String | The name of the variable to set
+**FloatValue** | Float | The value of the variable
+**ResetTime** | Float | The time after which the variable is reset to its previous value
 
-**
-Set
-**
- |
-Any
- |
-Set the given value to the specified variable
- |
+**Outputs**
 
-**
-EntityID
-**
- |
-Any
- |
-The ID of the entity to fetch the collection from
- |
+Port | Type | Description
+--- | --- | ---
+**UsedCollectionName** | String | Outputs the name of the variable collection created or used
 
-**
-CollectionName
-**
- |
-String
- |
-The name of the collection
- |
+### SetIntegerVariable
 
-**
-VariableName
-**
- |
-String
- |
-The name of the variable to set
- |
-
-**
-FloatValue
-**
- |
-Float
- |
-The value of the variable
- |
-
-**
-ResetTime
-**
- |
-Float
- |
-The time after which the variable is reset to its previous value
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-UsedCollectionName
-**
- |
-String
- |
-Outputs the name of the variable collection created or used
- |
-
-##
-SetIntegerVariable
-
-This node is used to set an
-integer
-variable in a variable collection for the Dynamic Response System.
+This node is used to set an integer variable in a variable collection for the Dynamic Response System.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901225)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Set** | Any | Set the given value to the specified variable
+**EntityID** | Any | The ID of the entity to fetch the collection from
+**CollectionName** | String | The name of the collection
+**VariableName** | String | The name of the variable to set
+**IntegerValue** | Float | The value of the variable
+**ResetTime** | Float | The time after which the variable is reset to its previous value
 
-**
-Set
-**
- |
-Any
- |
-Set the given value to the specified variable
- |
+**Outputs**
 
-**
-EntityID
-**
- |
-Any
- |
-The ID of the entity to fetch the collection from
- |
+Port | Type | Description
+--- | --- | ---
+**UsedCollectionName** | String | Outputs the name of the variable collection created or used
 
-**
-CollectionName
-**
- |
-String
- |
-The name of the collection
- |
+### SetStringVariable
 
-**
-VariableName
-**
- |
-String
- |
-The name of the variable to set
- |
-
-**
-IntegerValue
-**
- |
-Float
- |
-The value of the variable
- |
-
-**
-ResetTime
-**
- |
-Float
- |
-The time after which the variable is reset to its previous value
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-UsedCollectionName
-**
- |
-String
- |
-Outputs the name of the variable collection created or used
- |
-
-##
-SetStringVariable
-
-This node is used to set a
-String
-variable in a variable collection for the Dynamic Response System.
+This node is used to set a String variable in a variable collection for the Dynamic Response System.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28901224)
 
-**
-Inputs
-**
+**Inputs**
 
-Port
- |
-Type
- |
-Description
- |
+Port | Type | Description
+--- | --- | ---
+**Set** | Any | Set the given value to the specified variable
+**EntityID** | Any | The ID of the entity to fetch the collection from
+**CollectionName** | String | The name of the collection
+**VariableName** | String | The name of the variable to set
+**StringValue** | Float | The value of the variable
+**ResetTime** | Float | The time after which the variable is reset to its previous value
 
-**
-Set
-**
- |
-Any
- |
-Set the given value to the specified variable
- |
+**Outputs**
 
-**
-EntityID
-**
- |
-Any
- |
-The ID of the entity to fetch the collection from
- |
+Port | Type | Description
+--- | --- | ---
+**UsedCollectionName** | String | Outputs the name of the variable collection created or used
 
-**
-CollectionName
-**
- |
-String
- |
-The name of the collection
- |
-
-**
-VariableName
-**
- |
-String
- |
-The name of the variable to set
- |
-
-**
-StringValue
-**
- |
-Float
- |
-The value of the variable
- |
-
-**
-ResetTime
-**
- |
-Float
- |
-The time after which the variable is reset to its previous value
- |
-
-**
-Outputs
-**
-
-Port
- |
-Type
- |
-Description
- |
-
-**
-UsedCollectionName
-**
- |
-String
- |
-Outputs the name of the variable collection created or used
- |
-
-[CancelSignalProcessing](#cancelsignalprocessing)
-[SendSignal](#sendsignal)
-[SetFloatVariable](#setfloatvariable)
-[SetIntegerVariable](#setintegervariable)
-[SetStringVariable](#setstringvariable)
+[CancelSignalProcessing](#cancelsignalprocessing)[SendSignal](#sendsignal)[SetFloatVariable](#setfloatvariable)[SetIntegerVariable](#setintegervariable)[SetStringVariable](#setstringvariable)

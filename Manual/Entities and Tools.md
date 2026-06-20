@@ -17,8 +17,5 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44971664)
 
--
-[Entity Components](Entities%20and%20Tools/Entity%20Components.md)
-
--
-[Entities Overview](Entities%20and%20Tools/Entities%20Overview.md)
+- [Entity Components](Entities%20and%20Tools/Entity%20Components.md)
+- [Entities Overview](Entities%20and%20Tools/Entities%20Overview.md)

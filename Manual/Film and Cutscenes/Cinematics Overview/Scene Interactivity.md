@@ -13,14 +13,8 @@
 
 ## Content
 
-##
-In This Section
+## In This Section
 
--
-[Cinematic Force Feedback](Scene%20Interactivity/Cinematic%20Force%20Feedback.md)
-
--
-[Controlled Event Blending](Scene%20Interactivity/Controlled%20Event%20Blending.md)
-
--
-[Track Events](Scene%20Interactivity/Track%20Events.md)
+- [Cinematic Force Feedback](Scene%20Interactivity/Cinematic%20Force%20Feedback.md)
+- [Controlled Event Blending](Scene%20Interactivity/Controlled%20Event%20Blending.md)
+- [Track Events](Scene%20Interactivity/Track%20Events.md)

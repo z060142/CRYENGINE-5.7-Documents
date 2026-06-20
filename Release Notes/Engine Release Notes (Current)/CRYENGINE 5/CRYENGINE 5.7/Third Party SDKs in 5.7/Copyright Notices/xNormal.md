@@ -7,16 +7,13 @@
 
 ## Content
 
-##
-xNormal's SDK main license & copyright
+## xNormal's SDK main license & copyright
 
 --- begin ---
 
 Copyright (c) 2005-2018 S.Orgaz
 
-This software is provided 'as-is', without any express or implied warranty.
-
-In no event will the authors be held liable for any damages arising from the use of this software.
+This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
 
 Permission is granted to anyone to use, copy and/or redistribute this software for any purpose, including commercial applications, subject to the following restrictions:
 
@@ -34,31 +31,21 @@ Permission is granted to anyone to use, copy and/or redistribute this software f
 
 *********************************************
 
-##
-Portions related to Morten S. Mikkelsen's tangent space/derivative calculation ( used internally for several computations ):
+### Portions related to Morten S. Mikkelsen's tangent space/derivative calculation (used internally for several computations):
 
 --- begin ---
 
-Copyright (C) 2011 by Morten S. Mikkelsen.
+Copyright (C) 2011 by Morten S. Mikkelsen. This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
 
-This software is provided 'as-is', without any express or implied warranty.
-
-In no event will the authors be held liable for any damages arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions: 1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
 
 2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
 
 3. This notice may not be removed or altered from any source distribution.
 
---- end ---
+--- end --- *********************************************
 
-*********************************************
-
-##
-Portions related to Autodesk's 3ds Max / Maya :
+### Portions related to Autodesk's 3ds Max / Maya:
 
 --- begin ---
 
@@ -83,9 +70,7 @@ Autodesk, the Autodesk logo, FBX, Maya and T-Splines are registered trademarks o
 --- end ---
 
 *********************************************
-
-##
-Portions related to Ogre3D ( used in the xNormal's Ogre mesh importer ):
+### Portions related to Ogre3D (used in the xNormal's Ogre mesh importer):
 
 --- begin ---
 
@@ -100,70 +85,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 --- end ---
 
 *********************************************
-
-##
-Portions related to TinyXML ( used in the xNormal's Ogre mesh importer ):
+### Portions related to TinyXML (used in the xNormal's Ogre mesh importer):
 
 --- begin ---
 
-[www.sourceforge.net/projects/tinyxml](http://www.sourceforge.net/projects/tinyxml)
+[www.sourceforge.net/projects/tinyxml](http://www.sourceforge.net/projects/tinyxml) Original code (2.0 and earlier)copyright (c) 2000-2006 Lee Thomason ([www.grinninglizard.com](http://www.grinninglizard.com/))
 
-Original code (2.0 and earlier )copyright (c) 2000-2006 Lee Thomason (
-[www.grinninglizard.com](http://www.grinninglizard.com/)
-)
-
-This software is provided 'as-is', without any express or implied
-
-warranty. In no event will the authors be held liable for any
-
-damages arising from the use of this software.
-
-Permission is granted to anyone to use this software for any
-
-purpose, including commercial applications, and to alter it and
-
-redistribute it freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
-
-2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
-
-3. This notice may not be removed or altered from any source distribution.
-
-— end ----
-
-*********************************************
-
-##
-Portions related to NSIS ( which is used for the xNormal's SDK installer ):
-
--– begin —
-
-Copyright (C) 1999-2016 Contributors
-
-More detailed copyright information can be found in the individual source code files.
-
-##
-Applicable Licenses
-
--------------------
-
--
-All NSIS source code, plug-ins, documentation, examples, header files and graphics, with the exception of the compression modules and where otherwise noted, are licensed under the zlib/libpng license.
-
--
-The zlib compression module for NSIS is licensed under the zlib/libpng license.
-
--
-The bzip2 compression module for NSIS is licensed under the bzip2 license.
-
--
-The LZMA compression module for NSIS is licensed under the Common Public License version 1.0.
-
-##
-ZLIB/LIBPNG License
-
--------------------
 This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
 
 Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
@@ -174,11 +101,40 @@ Permission is granted to anyone to use this software for any purpose, including 
 
 3. This notice may not be removed or altered from any source distribution.
 
-##
-BZIP2 License
+— end ----
 
--------------
-This program, "bzip2" and associated library "libbzip2", are copyright (C) 1996-2000 Julian R Seward. All rights reserved.
+*********************************************
+### Portions related to NSIS (which is used for the xNormal's SDK installer):
+
+-– begin —
+
+Copyright (C) 1999-2016 Contributors
+
+More detailed copyright information can be found in the individual source code files.
+
+### Applicable Licenses
+
+-------------------
+- All NSIS source code, plug-ins, documentation, examples, header files and graphics, with the exception of the compression modules and where otherwise noted, are licensed under the zlib/libpng license.
+- The zlib compression module for NSIS is licensed under the zlib/libpng license.
+- The bzip2 compression module for NSIS is licensed under the bzip2 license.
+- The LZMA compression module for NSIS is licensed under the Common Public License version 1.0.
+
+#### ZLIB/LIBPNG License
+
+-------------------This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source distribution.
+
+#### BZIP2 License
+
+-------------This program, "bzip2" and associated library "libbzip2", are copyright (C) 1996-2000 Julian R Seward. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -196,24 +152,17 @@ Julian Seward, Cambridge, UK.
 
 [jseward@acm.org](mailto:jseward@acm.org)
 
-##
-Common Public License Version 1.0
+#### Common Public License Version 1.0
 
----------------------------------
-THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS COMMON PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+---------------------------------THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS COMMON PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
 
-##
-1. DEFINITIONS
+##### 1. DEFINITIONS
 
 "Contribution" means:
 
-a) in the case of the initial Contributor, the initial code and documentation distributed under this Agreement, and
+a) in the case of the initial Contributor, the initial code and documentation distributed under this Agreement, and b) in the case of each subsequent Contributor:
 
-b) in the case of each subsequent Contributor:
-
-i) changes to the Program, and
-
-ii) additions to the Program;
+i) changes to the Program, and ii) additions to the Program;
 
 where such changes and/or additions to the Program originate from and are distributed by that particular Contributor. A Contribution 'originates' from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor's behalf. Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.
 
@@ -225,8 +174,7 @@ where such changes and/or additions to the Program originate from and are distri
 
 "Recipient" means anyone who receives the Program under this Agreement, including all Contributors.
 
-##
-2. Grant of Rights
+##### 2. Grant of Rights
 
 a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.
 
@@ -236,8 +184,7 @@ c) Recipient understands that although each Contributor grants the licenses to i
 
 d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.
 
-##
-3. Requirements
+##### 3. Requirements
 
 A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that:
 
@@ -263,20 +210,17 @@ Contributors may not remove or alter any copyright notices contained within the 
 
 Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.
 
-##
-4. Commercial Distribution
+##### 4. Commercial Distribution
 
 Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor ("Commercial Contributor") hereby agrees to defend and indemnify every other Contributor ("Indemnified Contributor") against any losses, damages and costs (collectively "Losses") arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
 
 For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor's responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.
 
-##
-5. No Warranty
+##### 5. No Warranty
 
 EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement, including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
 
-##
-6. Disclaimer of Liability
+##### 6. Disclaimer of Liability
 
 EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
@@ -292,22 +236,16 @@ Everyone is permitted to copy and distribute copies of this Agreement, but in or
 
 This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
 
-##
-SPECIAL EXCEPTION FOR LZMA COMPRESSION MODULE
+### SPECIAL EXCEPTION FOR LZMA COMPRESSION MODULE
 
----------------------------------------------
-Igor Pavlov and Amir Szekely, the authors of the LZMA compression module for NSIS, expressly permit you to statically or dynamically link your code (or bind by name) to the files from the LZMA compression module for NSIS without subjecting your linked code to the terms of the Common Public license version 1.0. Any modifications or additions to files from the LZMA compression module for NSIS, however, are subject to the terms of the Common Public License version 1.0.
+---------------------------------------------Igor Pavlov and Amir Szekely, the authors of the LZMA compression module for NSIS, expressly permit you to statically or dynamically link your code (or bind by name) to the files from the LZMA compression module for NSIS without subjecting your linked code to the terms of the Common Public license version 1.0. Any modifications or additions to files from the LZMA compression module for NSIS, however, are subject to the terms of the Common Public License version 1.0.
 
 — end —
 
 *********************************************
+### Portions related to NSIS’s Modern UI (used in the xNormal’s SDK installer)
 
-##
-Portions related to NSIS’s Modern UI (used in the xNormal’s SDK installer)
-
---- begin —
-
-Copyright © 2002-2016 Joost Verburg
+--- begin — Copyright © 2002-2016 Joost Verburg
 
 This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
 
@@ -321,12 +259,4 @@ Permission is granted to anyone to use this software for any purpose, including 
 
 — end —
 
-[xNormal's SDK main license & copyright](#xnormals-sdk-main-license-and-copyright)
-[Portions related to Morten S. Mikkelsen's tangent space/derivative calculation ( used internally for several computations ):](#portions-related-to-morten-s-mikkelsens-tangent-spacederivative-calculation-used-internally-for-several-computations)
-[Portions related to Autodesk's 3ds Max / Maya :](#portions-related-to-autodesks-3ds-max-maya)
-[Portions related to Ogre3D ( used in the xNormal's Ogre mesh importer ):](#portions-related-to-ogre3d-used-in-the-xnormals-ogre-mesh-importer)
-[Portions related to TinyXML ( used in the xNormal's Ogre mesh importer ):](#portions-related-to-tinyxml-used-in-the-xnormals-ogre-mesh-importer)
-[Portions related to NSIS ( which is used for the xNormal's SDK installer ):](#portions-related-to-nsis-which-is-used-for-the-xnormals-sdk-installer)
-[Applicable Licenses](#applicable-licenses)
-[SPECIAL EXCEPTION FOR LZMA COMPRESSION MODULE](#special-exception-for-lzma-compression-module)
-[Portions related to NSIS’s Modern UI (used in the xNormal’s SDK installer)](#portions-related-to-nsiss-modern-ui-used-in-the-xnormals-sdk-installer)
+[xNormal's SDK main license & copyright](#xnormals-sdk-main-license-and-copyright)[Portions related to Morten S. Mikkelsen's tangent space/derivative calculation (used internally for several computations):](#portions-related-to-morten-s-mikkelsens-tangent-spacederivative-calculation-used-internally-for-several-computations)[Portions related to Autodesk's 3ds Max / Maya:](#portions-related-to-autodesks-3ds-max-maya)[Portions related to Ogre3D (used in the xNormal's Ogre mesh importer):](#portions-related-to-ogre3d-used-in-the-xnormals-ogre-mesh-importer)[Portions related to TinyXML (used in the xNormal's Ogre mesh importer):](#portions-related-to-tinyxml-used-in-the-xnormals-ogre-mesh-importer)[Portions related to NSIS (which is used for the xNormal's SDK installer):](#portions-related-to-nsis-which-is-used-for-the-xnormals-sdk-installer)[Applicable Licenses](#applicable-licenses)[SPECIAL EXCEPTION FOR LZMA COMPRESSION MODULE](#special-exception-for-lzma-compression-module)[Portions related to NSIS’s Modern UI (used in the xNormal’s SDK installer)](#portions-related-to-nsiss-modern-ui-used-in-the-xnormals-sdk-installer)

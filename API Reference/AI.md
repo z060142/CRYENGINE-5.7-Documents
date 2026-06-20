@@ -13,14 +13,7 @@
 
 ## Content
 
--
-[Behavior Trees*](AI/Behavior%20Trees.md)
-
--
-[NavMesh Queries](AI/NavMesh%20Queries.md)
-
--
-[Universal Debug Recordings (UDR)](AI/Universal%20Debug%20Recordings%20(UDR).md)
-
--
-[Flexible Subsystem Update](AI/Flexible%20Subsystem%20Update.md)
+- [Behavior Trees*](AI/Behavior%20Trees.md)
+- [NavMesh Queries](AI/NavMesh%20Queries.md)
+- [Universal Debug Recordings (UDR)](AI/Universal%20Debug%20Recordings%20(UDR).md)
+- [Flexible Subsystem Update](AI/Flexible%20Subsystem%20Update.md)

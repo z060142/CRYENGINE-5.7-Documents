@@ -12,11 +12,6 @@
 
 ## Content
 
--
-[Getting Started with Engine Code](CRYENGINE%20Engine%20Code/Getting%20Started%20with%20Engine%20Code.md)
-
--
-[Engine Modules](CRYENGINE%20Engine%20Code/Engine%20Modules.md)
-
--
-[Python Plugins](CRYENGINE%20Engine%20Code/Python%20Plugins.md)
+- [Getting Started with Engine Code](CRYENGINE%20Engine%20Code/Getting%20Started%20with%20Engine%20Code.md)
+- [Engine Modules](CRYENGINE%20Engine%20Code/Engine%20Modules.md)
+- [Python Plugins](CRYENGINE%20Engine%20Code/Python%20Plugins.md)

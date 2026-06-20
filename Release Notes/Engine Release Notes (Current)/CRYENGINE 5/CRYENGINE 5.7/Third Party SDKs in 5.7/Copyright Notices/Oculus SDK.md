@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 Oculus VR, LLC Software Development Kit License Agreement
 
 Copyright © 2014-2016 Oculus VR, LLC All rights reserved.
@@ -279,7 +277,4 @@ in any court of competent jurisdiction. You and Oculus agree to submit to the pe
 of the courts located within Santa Clara, California in connection with any entrance of an
 arbitrator's judgment or decision or any dispute with respect to the
 arbitration process or procedure or Oculus's exercise of its equitable rights or remedies.
-
-`
-
 ```

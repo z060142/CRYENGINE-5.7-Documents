@@ -12,11 +12,7 @@
 
 ## Content
 
-##
-In This Section
+## In This Section
 
--
-[Capturing Video & Audio](Render%20Output/Capturing%20Video%20%26%20Audio.md)
-
--
-[Recording Time Demos](Render%20Output/Recording%20Time%20Demos.md)
+- [Capturing Video & Audio](Render%20Output/Capturing%20Video%20%26%20Audio.md)
+- [Recording Time Demos](Render%20Output/Recording%20Time%20Demos.md)

@@ -7,26 +7,14 @@
 
 ## Content
 
-##
-Launcher Version 1.10.7
+## Launcher Version 1.10.7
 
-##
-Backend
+#### Backend
 
-**
-Fixed:
-**
- In some cases cryselect.exe could fail to run where a user had limited user access (no admin rights) to the Windows OS.
+**Fixed:** In some cases cryselect.exe could fail to run where a user had limited user access (no admin rights) to the Windows OS.
 
-**
-Fixed:
-**
-CRYENGINE continuously pushing 'checking for updates' or asking to 'validate login' (even when the Launcher was in the off-line mode).
+**Fixed:** CRYENGINE continuously pushing 'checking for updates' or asking to 'validate login' (even when the Launcher was in the off-line mode).
 
-##
-Landing Page
+#### Landing Page
 
-**
-Fixed:
-**
-When the relevant Engine version is not installed for a given project an error message is displayed (normal behavior - Launcher should start to download the relevant Engine version that is related to the given project).
+**Fixed:** When the relevant Engine version is not installed for a given project an error message is displayed (normal behavior - Launcher should start to download the relevant Engine version that is related to the given project).

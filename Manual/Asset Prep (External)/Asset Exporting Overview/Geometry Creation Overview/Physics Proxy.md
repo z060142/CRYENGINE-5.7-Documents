@@ -9,84 +9,47 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29934005)
 
-##
-Overview
+## Overview
 
-##
-Sections
+## Sections
 
 The physics proxy is the geometry that is used for collision detection. It can be part of the visible geometry or linked to it as a separate node. Usually the physics proxy geometry is a simplified version of the render geometry but it is also possible to use the render geometry directly for physics. However, for performance reasons the collision geometry should be kept as simple as possible since checking for intersections on complex geometry is very expensive, especially if it happens often. A physics proxy is set up in the DCC tool exclusively. The only setup needed in Sandbox is assigning the surface type.
 
-[Sections](#sections)
-[General Setup in DCC Tools](#general-setup-in-dcc-tools)
-[Current Allowed Proxy Settings](#current-allowed-proxy-settings)
-[Level of Detail Settings](#level-of-detail-settings)
-[Complexity of Geometry](#complexity-of-geometry)
-[Linking Objects to Simplify Export](#linking-objects-to-simplify-export)
-[Setup in Sandbox](#setup-in-sandbox)
-[Debugging](#debugging)
+[Sections](#sections)[General Setup in DCC Tools](#general-setup-in-dcc-tools)[Current Allowed Proxy Settings](#current-allowed-proxy-settings)[Level of Detail Settings](#level-of-detail-settings)[Complexity of Geometry](#complexity-of-geometry)[Linking Objects to Simplify Export](#linking-objects-to-simplify-export)[Setup in Sandbox](#setup-in-sandbox)[Debugging](#debugging)
 
-##
-General Setup in DCC Tools
+### General Setup in DCC Tools
 
-##
-3ds Max
+#### 3ds Max
 
-In 3ds Max you need to assign a separate sub material ID for the proxy. Furthermore, make sure that all faces of your proxy are in smoothing group one. The physics proxy is configured in the shader settings in the 3ds Max material editor. The physics properties can only be changed here and not later in Sandbox. If you want to change the physics settings, you need to re-export your object. Physicalization is enabled with the checkbox
-Physicalize
- in the CryShader
-Physicalization
- panel. If physicalization is disabled, all entities can pass through the object.
+In 3ds Max you need to assign a separate sub material ID for the proxy. Furthermore, make sure that all faces of your proxy are in smoothing group one. The physics proxy is configured in the shader settings in the 3ds Max material editor. The physics properties can only be changed here and not later in Sandbox. If you want to change the physics settings, you need to re-export your object. Physicalization is enabled with the checkbox Physicalize in the CryShader Physicalization panel. If physicalization is disabled, all entities can pass through the object.
 
 The screenshot below shows a physics proxy surrounding a standard render mesh.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/35400698)
 
-##
-Using Primitives
+##### Using Primitives
 
 CRYENGINE will automatically try to replace physics proxies with parametric primitives by comparing the proxy geometry against the supported primitive shapes and approximating the potential primitive within some calculative limits. The shape is generated around the general bounding box of the geometry and uses the original pivot point to attempt to rotate the primitive to match the geometry as good as possible.
 
 Primitives are a lot more efficient performance-wise than custom collision geometry (one single face of custom geometry is as expensive as a single primitive), so it is important to use them as much as possible.
 
-It is possible to explicitly specify a collision primitive that should be used. In this case the engine will replace the physics proxy by the specified primitive. In 3ds Max the primitive can be specified in the
-*
-User Defined Property
-*
- dialog of a node. The following primitive tags are available:
+It is possible to explicitly specify a collision primitive that should be used. In this case the engine will replace the physics proxy by the specified primitive. In 3ds Max the primitive can be specified in the *User Defined Property* dialog of a node. The following primitive tags are available:
 
--
-nonphysical (use only with characters that have no separate phys skeleton).
+- nonphysical (use only with characters that have no separate phys skeleton).
+- box.
+- sphere.
+- capsule.
+- cylinder.
 
--
-box.
+![Image](https://www.cryengine.com/docs/static/attachments/35400697) *Box, sphere, capsule and cylinder*
 
--
-sphere.
-
--
-capsule.
-
--
-cylinder.
-![Image](https://www.cryengine.com/docs/static/attachments/35400697)
-
-*
-Box, sphere, capsule and cylinder
-*
-
-##
-Maya
+#### Maya
 
 1. Create a group called 'cryexportnode_@' replacing the '@' with the filename to export to.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/35400696)
 
-2. Create a group under the 'cryexportnode'.
-
-3. Name the new group '#_group' replacing the '#' with the name of the model you want to export.
-
-4. Group the meshes to the group you created in step 3.
+2. Create a group under the 'cryexportnode'. 3. Name the new group '#_group' replacing the '#' with the name of the model you want to export. 4. Group the meshes to the group you created in step 3.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/35400695)
 
@@ -98,133 +61,44 @@ Maya
 
 ![Image](https://www.cryengine.com/docs/static/attachments/35400693)
 
-7. Assign the new material to the physics mesh.
-
-8. Be sure to add your material to the material group with the rest of your materials.
-
-![Image](https://www.cryengine.com/docs/static/attachments/35400692)
-
-9. Click the export button on the 'Crytek' toolbar to open the 'Crytek Export' dialog.
-
-10. Click the 'Add Attributes' button
-
-11. Modify the physics proxy material and set its physicalise flag to
-Proxy No Draw
+7. Assign the new material to the physics mesh. 8. Be sure to add your material to the material group with the rest of your materials.![Image](https://www.cryengine.com/docs/static/attachments/35400692) 9. Click the export button on the 'Crytek' toolbar to open the 'Crytek Export' dialog. 10. Click the 'Add Attributes' button 11. Modify the physics proxy material and set its physicalise flag to Proxy No Draw
 
 ![Image](https://www.cryengine.com/docs/static/attachments/35400691)
 
-12. Select the 'cryexportnode' group.
-
-13. Select the file type from the drop down that appears in the 'Node Options' section. You can also find this drop down menu in the 'Extra Attributes' section in Maya's Attribute Editor.
-
-14. Ensure the
-Do Not Merge
- option is checked.
+12. Select the 'cryexportnode' group. 13. Select the file type from the drop down that appears in the 'Node Options' section. You can also find this drop down menu in the 'Extra Attributes' section in Maya's Attribute Editor. 14. Ensure the Do Not Merge option is checked.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/35400690)
 
-15. Click the
-Export
- button on the 'Crytek Export' dialog.
+15. Click the Export button on the 'Crytek Export' dialog.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/35400689)
 
-An example Maya scene with the hierarchy setup for the static geometry exporting can be downloaded
-[proxytest.mb](/docs/static/attachments/23994590)
-.
+An example Maya scene with the hierarchy setup for the static geometry exporting can be downloaded [proxytest.mb](/docs/static/attachments/23994590).
 
-##
-Current Allowed Proxy Settings
+### Current Allowed Proxy Settings
 
 The following physics proxy settings are available.
 
-Value
-
- |
-Entity/Player Interaction
-
- |
-Details
-
- |
-
-Default (None)
-
- |
-Entities are blocked
-
- |
-The render geometry is used as physics proxy.
-
-This is expensive for complex objects, so use this only for simple objects like cubes or if you really need to fully physicalize an object.
-
- |
-
-Physical Proxy (NoDraw)
-
- |
-Entities are blocked
-
- |
-Mesh is used exclusively for collision detection and is not rendered.
-
- |
-
-No Collide
-
- |
-Entities can pass through object
-
- |
-Special purpose proxy which is used by the engine to detect player interaction (e.g. for vegetation touch bending).
-
- |
-
-Obstruct
-
- |
-Entities can pass through object; AI View is blocked
-
- |
-Used for
-*
-Soft Cover
-*
- to block AI view (i.e. on dense foliage).
-
- |
+Value | Entity/Player Interaction | Details
+--- | --- | ---
+Default (None) | Entities are blocked | The render geometry is used as physics proxy. This is expensive for complex objects, so use this only for simple objects like cubes or if you really need to fully physicalize an object.
+Physical Proxy (NoDraw) | Entities are blocked | Mesh is used exclusively for collision detection and is not rendered.
+No Collide | Entities can pass through object | Special purpose proxy which is used by the engine to detect player interaction (e.g. for vegetation touch bending).
+Obstruct | Entities can pass through object; AI View is blocked | Used for *Soft Cover* to block AI view (i.e. on dense foliage).
 
 These properties are assigned in the materials in each 3D package:
 
-*
-![Image](https://www.cryengine.com/docs/static/attachments/35400688)
+*![Image](https://www.cryengine.com/docs/static/attachments/35400688) Material Editor in 3ds Max.*
 
-Material Editor in 3ds Max.
-*
-
-![Image](https://www.cryengine.com/docs/static/attachments/35400687)
-
-*
-Extra Attributes tab in the material's attribute editor.
-*
-
-*
-NOTE
-*
-*
-: This attribute needs to be manually added through the exporter's "add attribute" button
-*
-.
+![Image](https://www.cryengine.com/docs/static/attachments/35400687) *Extra Attributes tab in the material's attribute editor.* * NOTE: This attribute needs to be manually added through the exporter's "add attribute" button*.
 
 The physics proxy is not allowed to have open edges. Open edges can confuse the physics engine and have a negative effect on performance. It is helpful to assign an extreme color (like a strong red) to the proxy in order to keep track of it.
 
-##
-Level of Detail Settings
+### Level of Detail Settings
 
 Proxies are only created for LOD0. Every successive LOD will automatically take the proxy from LOD0. The same happens if different quality settings are used (e.g. Lowspec).
 
-##
-Complexity of Geometry
+### Complexity of Geometry
 
 The physics proxies of environment objects (fences, crates, containers, trees, rocks, ladders, stairs, etc.) should be as simple as possible.
 
@@ -236,13 +110,11 @@ The proxy is used for blocking character movement as well as first pass tracing 
 
 Simple objects like for example crates and fences can usually be approximated with a simple box which has 6 sides (12 triangles). The top of stairs should usually be simple ramps, resulting in just 2 triangles. More organic or irregularly shaped objects like rocks and trees can still be approximated with a fairly simple hull by allowing slight and acceptable inaccuracies between the render mesh and the physics proxy.
 
-##
-Linking Objects to Simplify Export
+### Linking Objects to Simplify Export
 
 The physics proxy can be part of the render object (in 3ds Max as an Element) or as a separate object, linked to the render object.
 
-##
-Setup in Sandbox
+### Setup in Sandbox
 
 In Sandbox you need to assign a surface type to your physics proxy in the Material Editor, as well as to your render geometry. The surface type gives information about sound and the particle effects of your surface.
 
@@ -250,39 +122,9 @@ You also need to assign a NoDraw shader in the material editor. Make sure that n
 
 To reload the physics proxy you need to reload your object, delete it, and undo delete.
 
-##
-Debugging
+### Debugging
 
-**
-p_draw_helpers
-**
-
-```
-
-Same as p_draw_helpers_num, but encoded in letters
-Usage [Entity_Types]_[Helper_Types] - [t|s|r|R|l|i|g|a|y|e]_[g|c|b|l|t(#)]
-Entity Types:
-t - show terrain
-s - show static entities
-r - show sleeping rigid bodies
-R - show active rigid bodies
-l - show living entities
-i - show independent entities
-g - show triggers
-a - show areas
-y - show rays in RayWorldIntersection
-e - show explosion occlusion maps
-Helper Types
-g - show geometry
-c - show contact points
-b - show bounding boxes
-l - show tetrahedra lattices for breakable objects
-j - show structural joints (will force translucency on the main geometry)
-t(#) - show bounding volume trees up to the level #
-f(#) - only show geometries with this bit flag set (multiple f's stack)
-Example: p_draw_helpers larRis_g - show geometry for static, sleeping, active, independent entities and areas
-
-```
+**p_draw_helpers** ``` Same as p_draw_helpers_num, but encoded in letters Usage [Entity_Types]_[Helper_Types] - [t|s|r|R|l|i|g|a|y|e]_[g|c|b|l|t(#)] Entity Types: t - show terrain s - show static entities r - show sleeping rigid bodies R - show active rigid bodies l - show living entities i - show independent entities g - show triggers a - show areas y - show rays in RayWorldIntersection e - show explosion occlusion maps Helper Types g - show geometry c - show contact points b - show bounding boxes l - show tetrahedra lattices for breakable objects j - show structural joints (will force translucency on the main geometry) t(#) - show bounding volume trees up to the level # f(#) - only show geometries with this bit flag set (multiple f's stack) Example: p_draw_helpers larRis_g - show geometry for static, sleeping, active, independent entities and areas ```
 
 Example picture without physics proxy visualization:
 
@@ -292,33 +134,15 @@ The same object with physics proxy visualization:
 
 ![Image](https://www.cryengine.com/docs/static/attachments/35400685)
 
-**
-p_proxy_highlight_range
-**
+**p_proxy_highlight_range**
 
 ```
-
-Changes the triangle count threshold of the physical debug view for marking proxies in red.
-
-Usage: p_proxy_highlight_range [number]
-
-Number - Any positive integer.
-
+Changes the triangle count threshold of the physical debug view for marking proxies in red.Usage: p_proxy_highlight_range [number]Number - Any positive integer.
 ```
 
-**
-e_PhysProxyTriLimit
-**
+**e_PhysProxyTriLimit** ``` Maximum allowed triangle count for phys proxies ```
 
-```
-
-Maximum allowed triangle count for phys proxies
-
-```
-
-If you notice your assets are wrapped in a message stating "No Collisions, Proxy Too Big!" then the physics proxy for that asset is over the triangle count specified in
-e_PhysProxyTriLimit
-.
+If you notice your assets are wrapped in a message stating "No Collisions, Proxy Too Big!" then the physics proxy for that asset is over the triangle count specified in e_PhysProxyTriLimit.
 
 It will look something like this:
 

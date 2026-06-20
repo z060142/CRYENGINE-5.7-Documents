@@ -12,16 +12,11 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 This section describes the setup of animated and skinned objects in the DCC and CRYENGINE.
 
-##
-In This Topic
+### In This Topic
 
--
-[DCC Setup (animated)](Character%20(animated)/DCC%20Setup%20(animated).md)
-
--
-[Engine Setup (animated)](Character%20(animated)/Engine%20Setup%20(animated).md)
+- [DCC Setup (animated)](Character%20(animated)/DCC%20Setup%20(animated).md)
+- [Engine Setup (animated)](Character%20(animated)/Engine%20Setup%20(animated).md)

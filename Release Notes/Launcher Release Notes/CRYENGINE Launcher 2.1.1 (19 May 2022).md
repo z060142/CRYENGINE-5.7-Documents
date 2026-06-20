@@ -7,18 +7,8 @@
 
 ## Content
 
-**
-New
-**
-: Updated Electron version as a part of maintenance to ensure better security.
+**New**: Updated Electron version as a part of maintenance to ensure better security.
 
-**
-Tweaked
-**
-: F
-low for checking available disk space when installing CE.
+**Tweaked**: Flow for checking available disk space when installing CE.
 
-**
-Fixed
-**
-: Minor bugs and usability issues.
+**Fixed**: Minor bugs and usability issues.

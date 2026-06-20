@@ -14,17 +14,9 @@
 
 ## Content
 
-##
-In This Topic
+### In This Topic
 
--
-[Common.lua](Common%20Lua%20Functions/Common%20Lua.md)
-
--
-[Physics.lua](Common%20Lua%20Functions/Physics%20Lua.md)
-
--
-[Utils\EntityUtils.lua](Common%20Lua%20Functions/EntityUtils%20Lua.md)
-
--
-[Utils\Math.lua](Common%20Lua%20Functions/Math%20Lua.md)
+- [Common.lua](Common%20Lua%20Functions/Common%20Lua.md)
+- [Physics.lua](Common%20Lua%20Functions/Physics%20Lua.md)
+- [Utils\EntityUtils.lua](Common%20Lua%20Functions/EntityUtils%20Lua.md)
+- [Utils\Math.lua](Common%20Lua%20Functions/Math%20Lua.md)

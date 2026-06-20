@@ -11,12 +11,9 @@
 
 ## Content
 
-##
-Release Highlights
+### Release Highlights
 
-**
-Crash Reporter Now Available
-**
+**Crash Reporter Now Available**
 
 The new Crash Reporter has now been activated. Should the Engine crash, then the following window will open:
 
@@ -24,72 +21,33 @@ The new Crash Reporter has now been activated. Should the Engine crash, then the
 
 This will allow you to send us information (along with the necessary files) and create a bug report that is sent to our QA team. Hence, reporting a crash has never been easier.
 
-##
-Audio
+### Audio
 
-##
-Fmod
+#### Fmod
 
--
-**
-Fixed:
-**
- Fmod dlls now properly added to the build.
+- **Fixed:** Fmod dlls now properly added to the build.
 
-##
-Core/System
+### Core/System
 
-##
-Engine General
+#### Engine General
 
--
-**
-Fixed:
-**
- Added GeomEntity not visible in GameLauncher.
+- **Fixed:** Added GeomEntity not visible in GameLauncher.
 
-##
-Physics
+### Physics
 
-##
-PhysX
+#### PhysX
 
--
-**
-Fixed:
-**
-Merge changes from main to main_stabilization - resolve former limitation to just 4-wheeled vehicles in PhysX.
+- **Fixed:** Merge changes from main to main_stabilization - resolve former limitation to just 4-wheeled vehicles in PhysX.
 
-##
-Network
+### Network
 
-##
-Network General
+#### Network General
 
--
-**
-Fixed:
-**
- Dedicated crash on start in CEnvironmentProbeEntity.
+- **Fixed:** Dedicated crash on start in CEnvironmentProbeEntity.
 
-##
-Known Issues
+### Known Issues
 
--
-Cryselect Issue. If users do not see 'Generate/repair metadata' (please see:
-[AssetSystem-GeneratingMetadata](../../../../Manual/Editor%20Tools/Asset%20Browser/Asset%20System.md)
-) they
-should then;
+- Cryselect Issue. If users do not see 'Generate/repair metadata' (please see: [AssetSystem-GeneratingMetadata](../../../../Manual/Editor%20Tools/Asset%20Browser/Asset%20System.md)) they should then;
 
--
-Copy
-*
-cryselect.exe
-*
-from the latest engine folder <c:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\Tools\CryVersionSelector\cryselect.exe> to the <c:\Program Files (x86)\Crytek\CRYENGINE Launcher\live\cryselect.exe>
-
--
-This registers *.cryproject files as a Windows file extension:
-*
-cryselect.exe install
-*
+- Copy *cryselect.exe* from the latest engine folder <c:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.3\Tools\CryVersionSelector\cryselect.exe> to the <c:\Program Files (x86)\Crytek\CRYENGINE Launcher\live\cryselect.exe>
+- This registers *.cryproject files as a Windows file extension: * cryselect.exe install*

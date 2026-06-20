@@ -7,7 +7,6 @@
 
 ## Content
 
-H
-ow to construct basic teleporter logic using proximity triggers and beaming an entity from one point to the other.
+How to construct basic teleporter logic using proximity triggers and beaming an entity from one point to the other.
 
 [Embed: http://youtube.com/watch?v=Cbs04Cq6CRk]

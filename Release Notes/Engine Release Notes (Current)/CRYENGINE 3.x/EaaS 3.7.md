@@ -11,34 +11,20 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 Release notes for the 3.7.x revisions of CRYENGINE Engine as a Service.
 
-##
-Steam Beta Branch
+### Steam Beta Branch
 
-In order to opt-out of the Steam auto-updates you simply need to join a different "
-beta
-"
-branch
- in which we're archiving previous releases, starting from 3.6.5.
+In order to opt-out of the Steam auto-updates you simply need to join a different "beta" branch in which we're archiving previous releases, starting from 3.6.5.
 
-To do this, right click on "CRYENGINE" (not Sandbox) in your Steam library, click on Properties, click on "BETAS" tab and then you'll be presented with a
-![Image](https://www.cryengine.com/docs/static/attachments/44963005)
- where you can opt-into different engine revisions.
+To do this, right click on "CRYENGINE" (not Sandbox) in your Steam library, click on Properties, click on "BETAS" tab and then you'll be presented with a![Image](https://www.cryengine.com/docs/static/attachments/44963005) where you can opt-into different engine revisions.
 
-In order to return to the "main"
-branch
- which receives auto-updates, simply chose the "NONE - Opt out of all
-beta
- programs" option.
+In order to return to the "main" branch which receives auto-updates, simply chose the "NONE - Opt out of all beta programs" option.
 
 You must opt in to the Beta on the CRYENGINE app, not the CRYENGINE Sandbox app. The Sandbox app is a child of the CRYENGINE app and follows what it does.
 
-##
-In This Topic
+### In This Topic
 
--
-[EaaS 3.7.0](EaaS%203.7/EaaS%203.7.0.md)
+- [EaaS 3.7.0](EaaS%203.7/EaaS%203.7.0.md)

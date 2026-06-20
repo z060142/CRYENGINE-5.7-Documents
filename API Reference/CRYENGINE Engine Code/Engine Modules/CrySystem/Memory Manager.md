@@ -11,5 +11,4 @@
 
 ## Content
 
--
-[Memory Handling](Memory%20Manager/Memory%20Handling.md)
+- [Memory Handling](Memory%20Manager/Memory%20Handling.md)

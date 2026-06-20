@@ -7,138 +7,33 @@
 
 ## Content
 
-##
-Code Interface Changes
+### Code Interface Changes
 
-##
-IAudioSystemImplementation
+#### IAudioSystemImplementation
 
--
-**
-Added
-**
-: EAudioRequestStatus PlayFile(IATLAudioObjectData* const pAudioObjectData, char const* const szFile);
+- **Added**: EAudioRequestStatus PlayFile(IATLAudioObjectData* const pAudioObjectData, char const* const szFile);
+- **Added**: EAudioRequestStatus StopFile(IATLAudioObjectData* const pAudioObjectData, char const* const szFile);
+- **Added**: Void GamepadConnected(TAudioGamepadUniqueID const deviceUniqueID);
+- **Added**: Void GamepadDisconnected(TAudioGamepadUniqueID const deviceUniqueID);
 
--
-**
-Added
-**
-: EAudioRequestStatus StopFile(IATLAudioObjectData* const pAudioObjectData, char const* const szFile);
+#### IAudioProxy
 
--
-**
-Added
-**
-: Void GamepadConnected(TAudioGamepadUniqueID const deviceUniqueID);
+- **Added**: Void PlayFile(char const* const szFile);
+- **Added**: Void StopFile(char const* const szFile);
+- **Changed**: Void SetPosition(**SATLWorldPosition**const& rPosition); **to**
+Void SetPosition(**Matrix34**const& rPosition);
 
--
-**
-Added
-**
-: Void GamepadDisconnected(TAudioGamepadUniqueID const deviceUniqueID);
+#### IEntityAudioProxy
 
-##
-IAudioProxy
+- **Added**: Void PlayFile(char const* const szFile);
+- **Added**: Void StopFile(char const* const szFile);
+- **Changed**: Void SetAuxAudioProxyOffset(**SATLWorldPosition**const& rOffset, TAudioProxyID const nAudioProxyLocalID = DEFAULT_AUDIO_PROXY_ID); **to**
+Void SetAuxAudioProxyOffset(**Matrix34**const& rOffset, TAudioProxyID const nAudioProxyLocalID = DEFAULT_AUDIO_PROXY_ID);
 
--
-**
-Added
-**
-: Void PlayFile(char const* const szFile);
+- **Changed**: **SATLWorldPosition**const& GetAuxAudioProxyOffset(TAudioProxyID const nAudioProxyLocalID = DEFAULT_AUDIO_PROXY_ID); **to**
+**Matrix34**const& GetAuxAudioProxyOffset(TAudioProxyID const nAudioProxyLocalID = DEFAULT_AUDIO_PROXY_ID);
 
--
-**
-Added
-**
-: Void StopFile(char const* const szFile);
+#### IEntityProxy
 
--
-**
-Changed
-**
-: Void SetPosition(
-**
-SATLWorldPosition
-
-**
-const& rPosition);
-**
-to
-**
-
-                 Void SetPosition(
-**
-Matrix34
-
-**
-const& rPosition);
-
-##
-IEntityAudioProxy
-
--
-**
-Added
-**
-: Void PlayFile(char const* const szFile);
-
--
-**
-Added
-**
-: Void StopFile(char const* const szFile);
-
--
-**
-Changed
-**
-: Void SetAuxAudioProxyOffset(
-**
-SATLWorldPosition
-
-**
-const& rOffset, TAudioProxyID const nAudioProxyLocalID = DEFAULT_AUDIO_PROXY_ID);
-**
-to
-**
-
-                 Void SetAuxAudioProxyOffset(
-**
-Matrix34
-
-**
-const& rOffset, TAudioProxyID const nAudioProxyLocalID = DEFAULT_AUDIO_PROXY_ID);
-
--
-**
-Changed
-**
-:
-**
-SATLWorldPosition
-
-**
-const& GetAuxAudioProxyOffset(TAudioProxyID const nAudioProxyLocalID = DEFAULT_AUDIO_PROXY_ID);
-**
-to
-**
-
-**
-Matrix34
-
-**
-const& GetAuxAudioProxyOffset(TAudioProxyID const nAudioProxyLocalID = DEFAULT_AUDIO_PROXY_ID);
-
-##
-IEntityProxy
-
--
-**
-Changed
-**
-: Int GetPartId0();
-**
-to
-**
-
-                 Int GetPartId0(int islot=0);
+- **Changed**: Int GetPartId0(); **to**
+Int GetPartId0(int islot=0);

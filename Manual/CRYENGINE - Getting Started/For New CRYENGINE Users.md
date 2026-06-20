@@ -13,11 +13,6 @@
 
 ## Content
 
--
-[Getting Started Guide for CRYENGINE](For%20New%20CRYENGINE%20Users/Getting%20Started%20Guide%20for%20CRYENGINE.md)
-
--
-[CRYENGINE V Basics](For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics.md)
-
--
-[CRYENGINE V Interface](For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface.md)
+- [Getting Started Guide for CRYENGINE](For%20New%20CRYENGINE%20Users/Getting%20Started%20Guide%20for%20CRYENGINE.md)
+- [CRYENGINE V Basics](For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics.md)
+- [CRYENGINE V Interface](For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface.md)

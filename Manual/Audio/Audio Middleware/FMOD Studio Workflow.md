@@ -18,26 +18,11 @@
 
 ## Content
 
--
-[FMOD Initial Setup](FMOD%20Studio%20Workflow/FMOD%20Initial%20Setup.md)
-
--
-[FMOD & Ambience](FMOD%20Studio%20Workflow/FMOD%20%26%20Ambience.md)
-
--
-[FMOD & Localization](FMOD%20Studio%20Workflow/FMOD%20%26%20Localization.md)
-
--
-[FMOD & Occlusion](FMOD%20Studio%20Workflow/FMOD%20%26%20Occlusion.md)
-
--
-[FMOD & Time of Day](FMOD%20Studio%20Workflow/FMOD%20%26%20Time%20of%20Day.md)
-
--
-[FMOD & SpotFX](FMOD%20Studio%20Workflow/FMOD%20%26%20SpotFX.md)
-
--
-[FMOD & Reverb](FMOD%20Studio%20Workflow/FMOD%20%26%20Reverb.md)
-
--
-[FMOD Console Commands](FMOD%20Studio%20Workflow/FMOD%20Console%20Commands.md)
+- [FMOD Initial Setup](FMOD%20Studio%20Workflow/FMOD%20Initial%20Setup.md)
+- [FMOD & Ambience](FMOD%20Studio%20Workflow/FMOD%20%26%20Ambience.md)
+- [FMOD & Localization](FMOD%20Studio%20Workflow/FMOD%20%26%20Localization.md)
+- [FMOD & Occlusion](FMOD%20Studio%20Workflow/FMOD%20%26%20Occlusion.md)
+- [FMOD & Time of Day](FMOD%20Studio%20Workflow/FMOD%20%26%20Time%20of%20Day.md)
+- [FMOD & SpotFX](FMOD%20Studio%20Workflow/FMOD%20%26%20SpotFX.md)
+- [FMOD & Reverb](FMOD%20Studio%20Workflow/FMOD%20%26%20Reverb.md)
+- [FMOD Console Commands](FMOD%20Studio%20Workflow/FMOD%20Console%20Commands.md)

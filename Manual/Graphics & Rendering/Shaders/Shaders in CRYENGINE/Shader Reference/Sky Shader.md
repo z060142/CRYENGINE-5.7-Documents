@@ -7,7 +7,6 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 The Sky shader is used to render performance-optimized static sky (SkyBox) effects.

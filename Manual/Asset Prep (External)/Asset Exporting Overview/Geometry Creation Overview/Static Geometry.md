@@ -14,14 +14,7 @@
 
 ## Content
 
--
-[Creating and Importing a Heightmap Using World Machine](Static%20Geometry/Creating%20and%20Importing%20a%20Heightmap%20Using%20World%20Machine.md)
-
--
-[Geometry Instancing](Static%20Geometry/Geometry%20Instancing.md)
-
--
-[Merge All Nodes](Static%20Geometry/Merge%20All%20Nodes.md)
-
--
-[Shadow Proxies](Static%20Geometry/Shadow%20Proxies.md)
+- [Creating and Importing a Heightmap Using World Machine](Static%20Geometry/Creating%20and%20Importing%20a%20Heightmap%20Using%20World%20Machine.md)
+- [Geometry Instancing](Static%20Geometry/Geometry%20Instancing.md)
+- [Merge All Nodes](Static%20Geometry/Merge%20All%20Nodes.md)
+- [Shadow Proxies](Static%20Geometry/Shadow%20Proxies.md)

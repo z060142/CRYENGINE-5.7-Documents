@@ -7,24 +7,14 @@
 
 ## Content
 
-##
-Lua Version
+### Lua Version
 
 CryENGINE integrates Lua 5.1.1-rc4 inside CryScriptSystem.
 
-##
-Recommended Reading
+### Recommended Reading
 
 Before working working scripts with CryENGINE, it's strongly suggested to learn more the Lua language. The following website hold useful documentation about the language.
 
--
-[Lua 5.1 Reference Manual](http://www.lua.org/manual/5.1/)
-.
-
--
-[Programming in Lua, Second Edition](http://www.inf.puc-rio.br/~roberto/pil2/)
-.
-
--
-[Game Development with Lua](http://www.charlesriver.com/Books/BookDetail.aspx?productID=109811)
-.
+- [Lua 5.1 Reference Manual](http://www.lua.org/manual/5.1/).
+- [Programming in Lua, Second Edition](http://www.inf.puc-rio.br/~roberto/pil2/).
+- [Game Development with Lua](http://www.charlesriver.com/Books/BookDetail.aspx?productID=109811).

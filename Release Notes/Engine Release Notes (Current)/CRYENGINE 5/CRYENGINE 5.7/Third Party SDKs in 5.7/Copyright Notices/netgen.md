@@ -7,13 +7,9 @@
 
 ## Content
 
-The source code for this library can be downloaded
-[here](https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/NetGen431-Src.tar)
-.
+The source code for this library can be downloaded [here](https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/NetGen431-Src.tar).
 
 ```
-
-`
 GNU LESSER GENERAL PUBLIC LICENSE
 Version 2.1, February 1999
 
@@ -517,7 +513,7 @@ Ty Coon, President of Vice
 
 That's all there is to it!
 
- === TCL 8.3 ===
+=== TCL 8.3 ===
 
 This software is copyrighted by the Regents of the University of
 California, Sun Microsystems, Inc., Scriptics Corporation,
@@ -600,7 +596,4 @@ Government shall have only "Restricted Rights" as defined in Clause
 authors grant the U.S. Government and others acting in its behalf
 permission to use and distribute the software in accordance with the
 terms specified in this license.
-
-`
-
 ```

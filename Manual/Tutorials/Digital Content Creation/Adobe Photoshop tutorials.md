@@ -11,5 +11,4 @@
 
 ## Content
 
--
-[Tutorial - Creating a terrain texture in Photoshop](Adobe%20Photoshop%20tutorials/Tutorial%20-%20Creating%20a%20terrain%20texture%20in%20Photoshop.md)
+- [Tutorial - Creating a terrain texture in Photoshop](Adobe%20Photoshop%20tutorials/Tutorial%20-%20Creating%20a%20terrain%20texture%20in%20Photoshop.md)

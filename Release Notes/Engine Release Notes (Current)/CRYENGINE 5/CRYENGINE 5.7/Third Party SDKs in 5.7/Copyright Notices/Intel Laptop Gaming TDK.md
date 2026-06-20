@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 MPORTANT - READ BEFORE COPYING, INSTALLING OR USING.
 Do not copy, install, or use the Materials provided under this license agreement ("Agreement"), until you
 have carefully read the following terms and conditions.
@@ -141,6 +139,4 @@ internal substantive laws of the State of Delaware, without regard to principles
 may not export the Materials in violation of applicable export laws.
 
 * Other names and brands may be claimed as the property of others
-`
-
 ```

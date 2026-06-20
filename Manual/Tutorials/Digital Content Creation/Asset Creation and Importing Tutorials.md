@@ -15,23 +15,13 @@
 
 ## Content
 
--
-[Tutorial - Environment Art Pipeline](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Environment%20Art%20Pipeline.md)
+- [Tutorial - Environment Art Pipeline](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Environment%20Art%20Pipeline.md)
+- [Tutorial - Creating a desert scene using Quixel Suite 2 & Megascans assets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Creating%20a%20desert%20scene%20using%20Quixel%20Suite%202%20%26%20Megascans%20assets.md)
+- [Tutorial - Creating a forest using Quixel Megascans assets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Creating%20a%20forest%20using%20Quixel%20Megascans%20assets.md)
+- [Tutorial - How to batch process assets in Resource Compiler](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20How%20to%20batch%20process%20assets%20in%20Resource%20Compiler.md)
+- [Tutorial - How to use Resource Compiler presets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20How%20to%20use%20Resource%20Compiler%20presets.md)
 
--
-[Tutorial - Creating a desert scene using Quixel Suite 2 & Megascans assets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Creating%20a%20desert%20scene%20using%20Quixel%20Suite%202%20%26%20Megascans%20assets.md)
-
--
-[Tutorial - Creating a forest using Quixel Megascans assets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Creating%20a%20forest%20using%20Quixel%20Megascans%20assets.md)
-
--
-[Tutorial - How to batch process assets in Resource Compiler](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20How%20to%20batch%20process%20assets%20in%20Resource%20Compiler.md)
-
--
-[Tutorial - How to use Resource Compiler presets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20How%20to%20use%20Resource%20Compiler%20presets.md)
-
-##
-Related topics:
+### Related topics:
 
 [Character Tool tutorials](/docs)
 

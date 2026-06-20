@@ -7,13 +7,9 @@
 
 ## Content
 
-The source code for this library can be downloaded
-[here](https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/libsndfile-1.0.26.zip)
-.
+The source code for this library can be downloaded [here](https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/libsndfile-1.0.26.zip).
 
 ```
-
-`
 GNU LESSER GENERAL PUBLIC LICENSE
 Version 2.1, February 1999
 
@@ -516,7 +512,4 @@ library `Frob' (a library for tweaking knobs) written by James Random Hacker.
 Ty Coon, President of Vice
 
 That's all there is to it!
-
-`
-
 ```

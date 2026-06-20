@@ -7,22 +7,15 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 An easy way to animate the camera in Track View is using the Viewport Camera controls move and rotate it.
 
 1. Add your camera to a Track View sequence.
 
-*
-Adding a camera entity.
-*
+*Adding a camera entity.*
 
-2. Make sure the
-**
-Record
-**
- button is active.
+2. Make sure the **Record** button is active.
 
 3. Select the camera (hint: press CTRL+Shift+Space to "Lock Selection" – this prevents accidental de-selection).
 
@@ -30,30 +23,17 @@ Record
 
 5. Right-click the tab above the 3D perspective view and deactivate "Lock Camera Movement".
 
-*
-Viewport is set to Camera1 and Lock Camera Movement is disabled
-*
+*Viewport is set to Camera1 and Lock Camera Movement is disabled*
 
 Moving around in the 3D perspective view will now automatically create keys in Track View.
 
-##
-Notes
+#### Notes
 
--
-Don't forget to auto-adjust the tangents in the Curve Editor for more even movement.
+- Don't forget to auto-adjust the tangents in the Curve Editor for more even movement.
+- Rotation on the Y axis still has to be set by other methods.
 
--
-Rotation on the Y axis still has to be set by other methods.
+#### Tips
 
-##
-Tips
+*Set As View Camera*
 
-*
-Set As View Camera
-*
-
-*
-
-*
-[Notes](#notes)
-[Tips](#tips)
+[Notes](#notes)[Tips](#tips)

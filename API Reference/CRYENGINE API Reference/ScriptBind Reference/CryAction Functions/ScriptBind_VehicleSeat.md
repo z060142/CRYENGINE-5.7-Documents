@@ -7,149 +7,86 @@
 
 ## Content
 
-##
-GetVehicleSeat
+### GetVehicleSeat
 
- Gets the vehicle seat identifier.
+Gets the vehicle seat identifier.
 
 ```
-
-`
 VehicleSeat.GetVehicleSeat()
-`
-
 ```
 
-##
-Reset
+### Reset
 
- Resets the vehicle seat.
+Resets the vehicle seat.
 
 ```
-
-`
 VehicleSeat.Reset()
-`
-
 ```
 
-##
-IsFree
+### IsFree
 
 Checks if the seat is free.
 
 ```
-
-`
 VehicleSeat.IsFree(actor)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+actorHandle | Passenger identifier.
 
-actorHandle
- |
-Passenger identifier.
- |
+### IsDriver
 
-##
-IsDriver
-
- Checks if the seat is the driver seat.
+Checks if the seat is the driver seat.
 
 ```
-
-`
 VehicleSeat.IsDriver()
-`
-
 ```
 
-##
-IsGunner
+### IsGunner
 
- Checks if the seat is the gunner seat.
+Checks if the seat is the gunner seat.
 
 ```
-
-`
 VehicleSeat.IsGunner()
-`
-
 ```
 
-##
-GetWeaponId
+### GetWeaponId
 
 Gets the weapon identifier.
 
 ```
-
-`
 VehicleSeat.GetWeaponId(weaponIndex)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+weaponIndex | Weapon identifier.
 
-weaponIndex
- |
-Weapon identifier.
- |
+### GetWeaponCount
 
-##
-GetWeaponCount
-
- Gets the number of weapons available on this seat.
+Gets the number of weapons available on this seat.
 
 ```
-
-`
 VehicleSeat.GetWeaponCount()
-`
-
 ```
 
-##
-SetAIWeapon
+### SetAIWeapon
 
 Sets the weapon artificial intelligence.
 
 ```
-
-`
 VehicleSeat.SetAIWeapon(weaponHandle)
-`
-
 ```
 
-Parameter
- |
-Description
- |
+Parameter | Description
+--- | ---
+weaponHandle | Weapon identifier.
 
-weaponHandle
- |
-Weapon identifier.
- |
+### GetPassengerId
 
-##
-GetPassengerId
-
- Gets the passenger identifier.
+Gets the passenger identifier.
 
 ```
-
-`
 VehicleSeat.GetPassengerId()
-`
-
 ```

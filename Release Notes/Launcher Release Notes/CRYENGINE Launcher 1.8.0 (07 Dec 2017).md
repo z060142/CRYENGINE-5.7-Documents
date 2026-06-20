@@ -7,48 +7,20 @@
 
 ## Content
 
-##
-Launcher Version 1.8.0
+## Launcher Version 1.8.0
 
-##
-Backend
+#### Backend
 
-**
-Fixed:
-**
-Sometimes during Vendor Asset submission the process status would get stuck on 'Package'.
+**Fixed:** Sometimes during Vendor Asset submission the process status would get stuck on 'Package'.
 
-##
-Landing Page
+#### Landing Page
 
-**
-New:
-**
+**New:** Added a 'Refresh" button to the My Submissions Page.
 
-Added a 'Refresh" button to the My Submissions Page.
+**New:** Asset Vendors can now update/edit their previously submitted Assets through the Launcher.
 
-**
-New:
-**
- Asset Vendors can now update/edit their previously submitted Assets through the Launcher.
+**Fixed:** Not always able to update a project from Engine version 5.3 to 5.4.
 
-**
-Fixed:
-**
-Not always able to update a project from Engine version 5.3 to 5.4.
+**Tweaked:** Removed the 'Edit' option for Asset type.
 
-**
-Tweaked:
-**
-
-Removed the 'Edit' option for Asset type.
-
-**
-Tweaked:
-**
-
-Cancel option added for the Engine download process. Note: Once the Engine has downloaded the 'Cancel' option changes to 'Remove'.
-
-**
-
-**
+**Tweaked:** Cancel option added for the Engine download process. Note: Once the Engine has downloaded the 'Cancel' option changes to 'Remove'.

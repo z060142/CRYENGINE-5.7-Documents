@@ -7,29 +7,14 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 The ParticleImposter shader is used to create particle effects that are not affected by light and hence do not cast shadows or cause reflections.
 
-##
-Shader Generation Params
+### Shader Generation Params
 
-Parameter
- |
-Description
- |
-
-**
-Soft Particles Scale
-**
- |
-Allows users to control soft particle intersection softness, for sharper or softer intersections.
-
- |
-
-**
-
-**
+Parameter | Description
+--- | ---
+**Soft Particles Scale** | Allows users to control soft particle intersection softness, for sharper or softer intersections.
 
 :

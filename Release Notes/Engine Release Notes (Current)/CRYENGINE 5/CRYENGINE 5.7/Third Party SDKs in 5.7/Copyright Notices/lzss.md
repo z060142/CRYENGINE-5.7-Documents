@@ -8,9 +8,5 @@
 ## Content
 
 ```
-
-`
 LZSS encoder-decoder (Haruhiko Okumura; public domain)
-`
-
 ```

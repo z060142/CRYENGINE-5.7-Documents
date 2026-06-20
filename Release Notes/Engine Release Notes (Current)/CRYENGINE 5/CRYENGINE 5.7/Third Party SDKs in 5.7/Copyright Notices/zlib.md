@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 (C) 1995-2017 Jean-loup Gailly and Mark Adler
 
 This software is provided 'as-is', without any express or implied
@@ -39,6 +37,4 @@ Gailly and Mark Adler; it does not include third-party code.
 If you redistribute modified sources, we would appreciate that you include in
 the file ChangeLog history information documenting your changes. Please read
 the FAQ for more information on the distribution of modified source versions.
-`
-
 ```

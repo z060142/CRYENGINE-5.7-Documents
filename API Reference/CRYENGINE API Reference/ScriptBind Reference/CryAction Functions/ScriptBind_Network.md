@@ -7,41 +7,21 @@
 
 ## Content
 
-##
-Expose
+### Expose
 
 ```
-
-`
 Network.Expose()
-`
-
 ```
 
-##
-DelegateAuthority
+### DelegateAuthority
 
 Delegate authority for an object to some client.
 
 ```
-
-`
 Network.DelegateAuthority(ent, channel)
-`
-
 ```
 
-Parameter
- |
-Description
- |
-
-ent
- |
-Entity identifier.
- |
-
-channel
- |
-Network channel.
- |
+Parameter | Description
+--- | ---
+ent | Entity identifier.
+channel | Network channel.

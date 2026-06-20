@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 This article is aimed at easing migration of projects from CRYENGINE 5.2 to CRYENGINE 5.3 It will focus on changes made to the CRYENGINE's source code format.
 

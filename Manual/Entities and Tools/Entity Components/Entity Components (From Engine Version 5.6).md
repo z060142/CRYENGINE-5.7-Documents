@@ -22,8 +22,7 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 The Entity Component system removes the need for CRYENGINE game code to expose and manage Entities within a scene. Furthermore, the system has been designed to provide a modular and an intuitive way for Developers to construct games, both at a system and at an Entity level.
 
@@ -33,46 +32,18 @@ The Components panel contains all of the available Components that can be applie
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44967981)
 
-When these Entity Components have been applied to an Entity, a new subsection appears in the Properties of that Entity:
+When these Entity Components have been applied to an Entity, a new subsection appears in the Properties of that Entity:![Image](https://www.cryengine.com/docs/static/attachments/44966031)
 
-![Image](https://www.cryengine.com/docs/static/attachments/44966031)
+It can be removed from the entity by clicking the button in the top-right corner and choosing **Remove**.
 
-It can be removed from the entity by clicking the button in the top-right corner and choosing
-**
-Remove
-**
-.
-
-##
-Transformation
+### Transformation
 
 Many of the components have a Transform setting. This allows their position and orientation to be offset from the entity they are attached to, while still following it.
 
-Setting
- |
-Description
- |
+Setting | Description
+--- | ---
+**Translation** | The positional offset in relation to the entity - for example a value of 0,0,1 will mean an offset of one unit upwards (Z axis).
+**Rotation** | The rotation offset in relation to the entity.
+**Scale** | The scale offset in relation to the entity. The linking symbol locks the scaling so that the values are relative to each other. For e.g. a value of 1,2,3, scaled by 2x would result in 2,4,6. (if unlocked then the scaling cannot be guaranteed).
 
-**
-Translation
-**
- |
-The positional offset in relation to the entity - for example a value of 0,0,1 will mean an offset of one unit upwards (Z axis).
- |
-
-**
-Rotation
-**
- |
-The rotation offset in relation to the entity.
- |
-
-**
-Scale
-**
- |
-The scale offset in relation to the entity. The linking symbol locks the scaling so that the values are relative to each other. For e.g. a value of 1,2,3, scaled by 2x would result in 2,4,6. (if unlocked then the scaling cannot be guaranteed).
- |
-
-##
-In This Section
+## In This Section

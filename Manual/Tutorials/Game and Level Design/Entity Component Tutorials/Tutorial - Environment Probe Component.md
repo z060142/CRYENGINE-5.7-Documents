@@ -7,34 +7,19 @@
 
 ## Content
 
-##
-Using the Environment Probe Component
+### Using the Environment Probe Component
 
-In this tutorial we are going to explain the environment probe component and what it's for. With Environment Probes you have the ability to place cubemaps easily throughout a level just as you would a light. It is very useful especially with reflective materials because it will automatically assign the cubemap to anything within its radius.  I would also recommend seeing the
-[Entity Components](../../../Entities%20and%20Tools/Entity%20Components.md)
- documentation to understand or look up what the specific attributes do.
+In this tutorial we are going to explain the environment probe component and what it's for. With Environment Probes you have the ability to place cubemaps easily throughout a level just as you would a light. It is very useful especially with reflective materials because it will automatically assign the cubemap to anything within its radius. I would also recommend seeing the [Entity Components](../../../Entities%20and%20Tools/Entity%20Components.md) documentation to understand or look up what the specific attributes do.
 
 To explain the environment probe component we are going to work in the Rolling Ball template.
 
-First, we are going to delete the already existing environment probe component in the Rolling Ball level. To find the already existing entity go to the Level Explorer and double click on the "EnvironmentProbe1" entity. If you can't find the Level Explorer go to
-**
-Tools -> Level Editor -> Level Explorer
-**
-. Press the
-**
-Delete
-**
- key on your keyboard or right click on the entity in the Level Explorer and click on the delete option.
+First, we are going to delete the already existing environment probe component in the Rolling Ball level. To find the already existing entity go to the Level Explorer and double click on the "EnvironmentProbe1" entity. If you can't find the Level Explorer go to **Tools -> Level Editor -> Level Explorer**. Press the ** Delete** key on your keyboard or right click on the entity in the Level Explorer and click on the delete option.
 
-*
-Deleting the already existing EnvironmentProbe1 entity in the Rolling Ball template.
-*
+*Deleting the already existing EnvironmentProbe1 entity in the Rolling Ball template.*
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28254261)
 
-*
-After deleting the environment probe component.
-*
+*After deleting the environment probe component.*
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28254262)
 
@@ -42,9 +27,7 @@ As you can see the shadows are now really black and rough. So this might already
 
 Creating an empty entity and add the environment probe component to it.
 
-*
-![Image](https://www.cryengine.com/docs/static/attachments/28254264)
-*
+*![Image](https://www.cryengine.com/docs/static/attachments/28254264)*
 
 After adding the component you can a box around the entity, that's the visual representation of the area where the environment probe will be active. First, we should expand the size of the effective range of the environment probe, adjust the values of the "Box Size" attributes in the properties inspector of the entity and change the box size to something bigger.
 
@@ -54,16 +37,12 @@ Changing the box size of the Environment Probe Component.
 
 But the shadows still didn't change even after changing the box size. That's because the cubemap wasn't generated yet, to do so click on the "Generate" button under the "Generation Parameters" in the properties inspector. After the generation is done the lighting is now physical based and you should see smoother shadows in the area of your environment probe.
 
-*
-Level after generating the cubemap.
-*
+*Level after generating the cubemap.*
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28254268)
 
 Now you can start to play around with the attributes of the components and adjust for example the color of the shadows. Just click on the color field next to the color attribute in the inspector and select the color you like.
 
-*
-Changing the color of the environment probe component.
-*
+*Changing the color of the environment probe component.*
 
 ![Image](https://www.cryengine.com/docs/static/attachments/28254273)

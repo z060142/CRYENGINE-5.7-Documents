@@ -9,45 +9,27 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29933297)
 
-##
-Overview
+### Overview
 
- The Solid is for defining complex range of sound obstructions with CryDesigner, which is the Geometry Editing Tool.
+The Solid is for defining complex range of sound obstructions with CryDesigner, which is the Geometry Editing Tool.
 
-##
-Designer Tool
+### Designer Tool
 
-With the
-[Designer Tool](../../../Editor%20Tools/Designer%20Tool%20Tab.md)
-, any complex area for sound can be created. You can enter it by clicking
-**
-Edit
-**
-button in the Properties panel.
+With the [Designer Tool](../../../Editor%20Tools/Designer%20Tool%20Tab.md), any complex area for sound can be created. You can enter it by clicking **Edit** button in the Properties panel.
 
 The "Designer Tool" will be started automatically when the empty areasolid is selected or new areasolid object is created.
 
-##
-Display of Memory Usage
+### Display of Memory Usage
 
 You can see how much memory is used for the AreaSolid Object, which is displayed in the Edit mode.
 
 It can be an indication to optimize the AreaSolid shape. The displayed memory usage is the real size occupied in the game mode.
 
- |
- |
+|
+--- | ---
+Memory size is displayed. | Every time you change the shape, the memory usage will be updated.
 
-Memory size is displayed.
-
- |
-Every time you change the shape,
-
-the memory usage will be updated.
-
- |
-
-##
-Workflow
+### Workflow
 
 1. Create a Box as an AreaSolid object.
 
@@ -61,22 +43,14 @@ Fill PlayTrigger and RtpcDistance properties.
 
 5. There is the "Attached Entities" dialog box in the AreaSolid roll-up bar on the right. You should attach the ambience sound entity to the AreaSolid object as a target of the "AreaSolid" object.
 
-6. Try to modify the AreaSolid object with the Designer tool as explained above. If you want to visualize the sound to see how it works, type '
-**
-s_DrawAudioDebug = abcdefvw
-**
-' in the console. When you approach near an open space in the AreaSolid Object, you will be able to see the red ball as follows.
+6. Try to modify the AreaSolid object with the Designer tool as explained above. If you want to visualize the sound to see how it works, type '**s_DrawAudioDebug = abcdefvw**' in the console. When you approach near an open space in the AreaSolid Object, you will be able to see the red ball as follows.
 
 7. Every time you modify the AreaSolid object with the Designer Object, polygons consisting of the area solid will be transferred to the Engine side and you will be able to make sure the interaction between the sound object and the AreaSolid object as a result of the modification.
 
-##
-Go to "Solid Edit Mode"
+### Go to "Solid Edit Mode"
 
 1. Select the "AreaSolid" type of "Area" under the "Objects" menu on the roll-up bar.
 
 2. Click "Designer" in the panel on the right to enter the edit mode.
 
-[Designer Tool](#designer-tool)
-[Display of Memory Usage](#display-of-memory-usage)
-[Workflow](#workflow)
-[Go to "Solid Edit Mode"](#go-to-solid-edit-mode)
+[Designer Tool](#designer-tool)[Display of Memory Usage](#display-of-memory-usage)[Workflow](#workflow)[Go to "Solid Edit Mode"](#go-to-solid-edit-mode)

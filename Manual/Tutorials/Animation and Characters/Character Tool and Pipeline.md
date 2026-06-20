@@ -32,7 +32,4 @@
 
 ## Content
 
--
-[Tutorial](../../Editor%20Tools/Animation%20Tab/Character%20Tool/Attachment%20System%20Tutorial%20-%20Character%20Tool.md)
- -
-[Attachment System](../../Editor%20Tools/Animation%20Tab/Character%20Tool/Attachment%20System%20Tutorial%20-%20Character%20Tool.md)
+- [Tutorial](../../Editor%20Tools/Animation%20Tab/Character%20Tool/Attachment%20System%20Tutorial%20-%20Character%20Tool.md) - [Attachment System](../../Editor%20Tools/Animation%20Tab/Character%20Tool/Attachment%20System%20Tutorial%20-%20Character%20Tool.md)

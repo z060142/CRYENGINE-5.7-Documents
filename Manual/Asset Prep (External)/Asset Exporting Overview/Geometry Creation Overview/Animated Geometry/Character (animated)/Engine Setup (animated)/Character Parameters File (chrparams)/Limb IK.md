@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 CRYENGINE's animation system allows you to setup IK chains for characters.
 
@@ -18,72 +17,38 @@ When an IK chain is active, the system figures out the values for the joints tha
 
 Examples of systems that currently use LimbIK chains:
 
--
-[Leg and Foot Ground Alignment](Leg%20and%20Foot%20Ground%20Alignment.md)
+- [Leg and Foot Ground Alignment](Leg%20and%20Foot%20Ground%20Alignment.md)
+- [Animation Driven IK](Animation%20Driven%20IK.md)
 
--
-[Animation Driven IK](Animation%20Driven%20IK.md)
+### Setup
 
-##
-Setup
-
-IK chains are defined in the
-[chrparams file](../Character%20Parameters%20File%20(chrparams).md)
- for a character
+IK chains are defined in the [chrparams file](../Character%20Parameters%20File%20(chrparams).md) for a character
 
 ```
-
-`
 <Params>
-  <IK_Definition>
-    <LimbIK_Definition>
-      <IK EndEffector="Bip01 R Hand" Handle="RgtArm01" Root="Bip01 R UpperArm" Solver="2BIK"/>
-      ...
-      <IK EndEffector="Bip01 L Foot" Handle="LftLeg01" Root="Bip01 L Thigh" Solver="2BIK"/>
-    </LimbIK_Definition>
-    ...
-  </IK_Definition>
-  ...
+<IK_Definition>
+<LimbIK_Definition>
+<IK EndEffector="Bip01 R Hand" Handle="RgtArm01" Root="Bip01 R UpperArm" Solver="2BIK"/>
+...
+<IK EndEffector="Bip01 L Foot" Handle="LftLeg01" Root="Bip01 L Thigh" Solver="2BIK"/>
+</LimbIK_Definition>
+...
+</IK_Definition>
+...
 </Params>
-`
-
 ```
 
 The following summarizes the attributes that must be defined for each IK element.
 
-EndEffector
- |
-Name of the joint that will try to reach the target location
- |
-
-Handle
- |
-Name used to identify the LimbIk definition. No more than 8 characters allowed. No two LimbIK definitions for a character should have the same Handle.
- |
-
-Root
- |
-Name of the starting joint for the IK chain
- |
-
-Solver
- |
-Name of the solver used to calculate the joint values when the chain is active.
- |
+EndEffector | Name of the joint that will try to reach the target location
+--- | ---
+Handle | Name used to identify the LimbIk definition. No more than 8 characters allowed. No two LimbIK definitions for a character should have the same Handle.
+Root | Name of the starting joint for the IK chain
+Solver | Name of the solver used to calculate the joint values when the chain is active.
 
 These are the available solvers:
 
-2BIK
- |
-2 bone IK
- |
-
-3BIK
- |
-3 bone IK
- |
-
-CCDX
- |
-Cyclic Coordinate Descent with X joints
- |
+2BIK | 2 bone IK
+--- | ---
+3BIK | 3 bone IK
+CCDX | Cyclic Coordinate Descent with X joints

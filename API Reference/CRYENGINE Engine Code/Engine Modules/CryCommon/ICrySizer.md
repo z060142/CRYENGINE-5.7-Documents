@@ -7,38 +7,29 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 The ICrySizer interface is used to record detailed information about the memory usage of a class.
 
-##
-Memory profiling
+### Memory profiling
 
 The console variable "MemStats" 0/x=refresh rate in milliseconds
 
 Also available in Editor as "Engine Memory info".
 
-##
-How to use the ICrySizer interface
+### How to use the ICrySizer interface
 
-##
-Sample:
+#### Sample:
 
 ```
-
-`
-  void GetMemoryUsage( ICrySizer *pSizer )
-  {
-    {
-       SIZER_COMPONENT_NAME( pSizer, "Renderer (Aux Geometries)" );
-       pSizer->Add(*this);
-    }
-    pSizer->AddObject(<element_ptr>,<element_count>);
-    pSizer->AddObject(<container>);
-    m_SubObject.GetMemoryUsage(pSizer);
-  }
-
-`
-
+void GetMemoryUsage( ICrySizer *pSizer )
+{
+{
+SIZER_COMPONENT_NAME( pSizer, "Renderer (Aux Geometries)" );
+pSizer->Add(*this);
+}
+pSizer->AddObject(<element_ptr>,<element_count>);
+pSizer->AddObject(<container>);
+m_SubObject.GetMemoryUsage(pSizer);
+}
 ```

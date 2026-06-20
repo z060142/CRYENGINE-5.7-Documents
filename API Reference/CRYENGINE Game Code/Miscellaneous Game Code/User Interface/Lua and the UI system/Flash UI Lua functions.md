@@ -7,19 +7,10 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
-You find all UIAction related Lua function in class
-**
-CScriptBind_UIAction
-**
-, located here:
+You find all UIAction related Lua function in class **CScriptBind_UIAction**, located here:
 
 ```
-
-`
 \Code\CryEngine\CryAction\FlashUI\ScriptBind_UIAction.h
-`
-
 ```

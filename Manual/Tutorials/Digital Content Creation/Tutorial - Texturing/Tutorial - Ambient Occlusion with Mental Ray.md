@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Ambient Occlusion with Mental Ray
+### Ambient Occlusion with Mental Ray
 
 Objects with their own texture should always have some radiosity baked in. You can do this with a skylight, but this renders very slowly and always has a light direction in it.
 
@@ -47,11 +46,7 @@ Toggle Projection Mapping off and add a "LightingMap" under "Output". Select the
 Don't apply the mental ray material to the object on which you want to bake the texture. Instead, apply a standard material to the object. The material is only created to instance the shader to the omni light, so you can modify the settings later.
 If you want to render the scene with a camera, apply the mental ray material to the object and you will see the ambient occlusion in the rendered image.
 
-Click
-**
-render
-**
-, ignore all the mental ray warnings, and wait for the map to be finished. With low resolutions and ray samples, the texture for a medium-poly object are rendered in under a couple of minutes. With high quality settings it can take much longer.
+Click **render**, ignore all the mental ray warnings, and wait for the map to be finished. With low resolutions and ray samples, the texture for a medium-poly object are rendered in under a couple of minutes. With high quality settings it can take much longer.
 
 This is the resulting "Dirtmap". Multiply it over your diffuse map to get a convincing radiosity effect. It is also very useful as a layer mask for dirt or rust, since it tends to accumulate at the occluded parts of an object.
 

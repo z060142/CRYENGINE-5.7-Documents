@@ -7,8 +7,7 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
 AI control objects are used to control the AI entities and their behaviors in the game world. They define a specific behavior for an AI with reference to its location.
 
@@ -16,6 +15,4 @@ In addition, AI control objects define navigation paths or an area for the AI on
 
 The AI control objects are mostly used with the Flow Graph scripting feature to design level concepts and scripted or triggered events.
 
-For more information about the objects listed on this page and their functions, please refer to the
-[AI Control Objects](../../../AI%20and%20Navigation/AI%20Overview/AI%20(NPC)/AI%20Control%20Objects.md)
- page.
+For more information about the objects listed on this page and their functions, please refer to the [AI Control Objects](../../../AI%20and%20Navigation/AI%20Overview/AI%20(NPC)/AI%20Control%20Objects.md) page.

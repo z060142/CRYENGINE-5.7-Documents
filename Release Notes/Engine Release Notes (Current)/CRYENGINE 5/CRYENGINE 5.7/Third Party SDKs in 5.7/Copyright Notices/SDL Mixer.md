@@ -8,8 +8,6 @@
 ## Content
 
 ```
-
-`
 SDL_mixer: An audio mixer library based on the SDL library
 Copyright (C) 1997-2018 Sam Lantinga <slouken@libsdl.org>
 
@@ -30,6 +28,4 @@ appreciated but is not required.
 misrepresented as being the original software.
 
 3. This notice may not be removed or altered from any source distribution.
-`
-
 ```

@@ -15,17 +15,8 @@
 
 ## Content
 
--
-[Animation & Characters](Cinematics%20Overview/Animation%20%26%20Characters.md)
-
--
-[Facial Sequence Tracks](Cinematics%20Overview/Facial%20Sequence%20Tracks.md)
-
--
-[Render Output](Cinematics%20Overview/Render%20Output.md)
-
--
-[Scene Interactivity](Cinematics%20Overview/Scene%20Interactivity.md)
-
--
-[Track Cameras](Cinematics%20Overview/Track%20Cameras.md)
+- [Animation & Characters](Cinematics%20Overview/Animation%20%26%20Characters.md)
+- [Facial Sequence Tracks](Cinematics%20Overview/Facial%20Sequence%20Tracks.md)
+- [Render Output](Cinematics%20Overview/Render%20Output.md)
+- [Scene Interactivity](Cinematics%20Overview/Scene%20Interactivity.md)
+- [Track Cameras](Cinematics%20Overview/Track%20Cameras.md)

@@ -7,23 +7,12 @@
 
 ## Content
 
-##
-Launcher Version 1.7.0
+## Launcher Version 1.7.0
 
-##
-Landing Page
+#### Landing Page
 
--
-**
-Tweaked:
-**
-The current title 'Terms of Service' has been renamed to 'Limited License Agreement for the use of the CRYENGINE'.
+- **Tweaked:** The current title 'Terms of Service' has been renamed to 'Limited License Agreement for the use of the CRYENGINE'.
 
-##
-Projects
+#### Projects
 
--
-**
-Fixed:
-**
- Project Name field: When 'this field is required' error message appeared, user was unable to click on the Name field and edit the field.
+- **Fixed:** Project Name field: When 'this field is required' error message appeared, user was unable to click on the Name field and edit the field.

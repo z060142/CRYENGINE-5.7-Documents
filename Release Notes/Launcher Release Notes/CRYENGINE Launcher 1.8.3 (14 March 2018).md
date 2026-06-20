@@ -7,25 +7,12 @@
 
 ## Content
 
-##
-Launcher Version 1.8.3
+## Launcher Version 1.8.3
 
-##
-Landing Page
+#### Landing Page
 
-**
-New:
-**
+**New:** Added a 'Backup' button option to the Edit Project window.
 
-Added a 'Backup' button option to the Edit Project window.
+**New:** Added a 'Backup' button option to the Edit Project window (when switching Engine version).
 
-**
-New:
-**
-
-Added a 'Backup' button option to the Edit Project window (when switching Engine version).
-
-**
-New:
-**
-Added a 'Remove' button option to "My Assets" (LIBRARY menu).
+**New:** Added a 'Remove' button option to "My Assets" (LIBRARY menu).

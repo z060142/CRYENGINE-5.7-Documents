@@ -19,10 +19,10 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44970982)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/29934221) Localization System](/docs/static/engines/cryengine-5/categories/23756816/pages/25534808)
+[![Image](https://www.cryengine.com/docs/static/attachments/29934221)Localization System](/docs/static/engines/cryengine-5/categories/23756816/pages/25534808)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/29934156) Texture Localization](/docs/static/engines/cryengine-5/categories/23756816/pages/25535435)
+[![Image](https://www.cryengine.com/docs/static/attachments/29934156)Texture Localization](/docs/static/engines/cryengine-5/categories/23756816/pages/25535435)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/29934157) TrueType Font Rendering](/docs/static/engines/cryengine-5/categories/23756816/pages/25535262)
+[![Image](https://www.cryengine.com/docs/static/attachments/29934157)TrueType Font Rendering](/docs/static/engines/cryengine-5/categories/23756816/pages/25535262)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/29934158) UI Dynamic Textures](/docs/static/engines/cryengine-5/categories/23756816/pages/25535439)
+[![Image](https://www.cryengine.com/docs/static/attachments/29934158)UI Dynamic Textures](/docs/static/engines/cryengine-5/categories/23756816/pages/25535439)

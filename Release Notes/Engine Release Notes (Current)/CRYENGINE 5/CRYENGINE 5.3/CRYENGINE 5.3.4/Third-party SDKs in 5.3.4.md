@@ -8,5 +8,4 @@
 ## Content
 
 Third-party SDKs
-There were no changes to Third-party SDKs in release 5.3.4, so please see the 5.3.3 list
-[here.](../CRYENGINE%205.3.3/Third-party%20SDKs%20in%205.3.3.md)
+There were no changes to Third-party SDKs in release 5.3.4, so please see the 5.3.3 list [here.](../CRYENGINE%205.3.3/Third-party%20SDKs%20in%205.3.3.md)

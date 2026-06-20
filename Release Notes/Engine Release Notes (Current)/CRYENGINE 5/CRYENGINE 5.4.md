@@ -12,16 +12,11 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 Release notes for the 5.4.x revisions of CRYENGINE.
 
-##
-In This Topic
+### In This Topic
 
--
-[CRYENGINE 5.4.0](CRYENGINE%205.4/CRYENGINE%205.4.0.md)
-
--
-[CRYENGINE 5.4 Previews](CRYENGINE%205.4/CRYENGINE%205.4%20Previews.md)
+- [CRYENGINE 5.4.0](CRYENGINE%205.4/CRYENGINE%205.4.0.md)
+- [CRYENGINE 5.4 Previews](CRYENGINE%205.4/CRYENGINE%205.4%20Previews.md)

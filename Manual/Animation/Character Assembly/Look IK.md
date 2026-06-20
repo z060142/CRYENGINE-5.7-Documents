@@ -9,8 +9,7 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29933226)
 
-##
-Overview
+## Overview
 
 CRYENGINE supports parametric-blending for automated Look IK that can be used to make characters look at points in the 3D world. This system is used from the code, from AI and can be used by designers through Flow Graph.
 
@@ -18,64 +17,36 @@ You can combine it with different locomotion cycles. The character with Look IK 
 
 The same techniques are used in half-interactive cut-scenes, to make sure the actors makes eye-contact with the player.
 
-##
-Chapters
+## Chapters
 
-[Chapters](#chapters)
-[CHRPARAMS Setup](#chrparams-setup)
-[Creating the Look Poses](#creating-the-look-poses)
-[Testing the Look IK in the Character Editor](#testing-the-look-ik-in-the-character-editor)
-[Using Look IK on a character in TrackView](#using-look-ik-on-a-character-in-trackview)
+[Chapters](#chapters)[CHRPARAMS Setup](#chrparams-setup)[Creating the Look Poses](#creating-the-look-poses)[Testing the Look IK in the Character Editor](#testing-the-look-ik-in-the-character-editor)[Using Look IK on a character in TrackView](#using-look-ik-on-a-character-in-trackview)
 ![Image](https://www.cryengine.com/docs/static/attachments/26952869)
 
-##
-CHRPARAMS Setup
+#### CHRPARAMS Setup
 
-##
-Creating the Look Poses
+#### Creating the Look Poses
 
-Once you have setup the definitions in the
-[.chrparams file](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)
-, you need to create the Look Poses asset in 3ds Max. You can use the AimPose Creator provided with CryMaxTools to create the Look Poses.
+Once you have setup the definitions in the [.chrparams file](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md), you need to create the Look Poses asset in 3ds Max. You can use the AimPose Creator provided with CryMaxTools to create the Look Poses.
 
-Look poses work by setting up a pattern or range of aiming directions that the engine uses to blend between, in order to find the correct direction in which a character should be looking. CRYENGINE requires exactly
-**
-9
-**
- or
-**
-15
-**
- sequential frames to create this pattern.
+Look poses work by setting up a pattern or range of aiming directions that the engine uses to blend between, in order to find the correct direction in which a character should be looking. CRYENGINE requires exactly **9** or ** 15** sequential frames to create this pattern.
 
-Here is a sample Look Poses Bip asset:
-[LookPoses_SDKFullBody.bip](/docs/static/attachments/1442499)
+Here is a sample Look Poses Bip asset: [LookPoses_SDKFullBody.bip](/docs/static/attachments/1442499)
 
-You need to export the animation into a folder mapped for your character (see
-[.chrparams file](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)
-)
+You need to export the animation into a folder mapped for your character (see [.chrparams file](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md))
 
 The final exported CAF file cannot be part of a DBA file.
 
-##
-Testing the Look IK in the Character Editor
+#### Testing the Look IK in the Character Editor
 
 To test local lookpose assets (added to the build after the animations folder has not been processed by the build system) it is necessary to set the ca_UseIMG_AIM to 0 before starting Sandbox.
 In the character editor you can test them by playing any default animation on the default layer, then activating a lookpose on the layer which has been assigned being a look-ik layer (default is 15).
 
-A helpful CVar for debugging is
-**
-ca_DrawAimIKVEGrid 1
-**
-. Make sure the Look IK checkbox is on!
+A helpful CVar for debugging is **ca_DrawAimIKVEGrid 1**. Make sure the Look IK checkbox is on!
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23994489)
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23994485)
 
-##
-Using Look IK on a character in TrackView
+#### Using Look IK on a character in TrackView
 
-For information on how to use the look IK system with Trackview refer to:
-[Look IK for Cinematics](../../Film%20and%20Cutscenes/Cinematics%20Overview/Animation%20%26%20Characters/Look%20IK%20for%20Cinematics.md)
-.
+For information on how to use the look IK system with Trackview refer to: [Look IK for Cinematics](../../Film%20and%20Cutscenes/Cinematics%20Overview/Animation%20%26%20Characters/Look%20IK%20for%20Cinematics.md).

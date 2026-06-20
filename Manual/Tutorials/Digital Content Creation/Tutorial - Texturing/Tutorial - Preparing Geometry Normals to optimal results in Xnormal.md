@@ -7,16 +7,13 @@
 
 ## Content
 
-##
-Overview
+### Overview
 
 This tutorial is about how to render hard surface objects tangents without splitting UV's, making it the cheapest and efficient way to create your UV's while maintaining a great result.
 
 We'll use a more complex box for this example:
 
-![Image](https://www.cryengine.com/docs/static/attachments/23999927)
-
-![Image](https://www.cryengine.com/docs/static/attachments/23999928)
+![Image](https://www.cryengine.com/docs/static/attachments/23999927)![Image](https://www.cryengine.com/docs/static/attachments/23999928)
 
 First of all, we have to make sure that we have everything ready and our low poly UV's however we like, completely disregarding the splitting of hard edges.
 
@@ -44,8 +41,7 @@ To do that select the faces that are supposed to be hard edge/flat and average t
 
 ![Image](https://www.cryengine.com/docs/static/attachments/23999924)
 
-We have created a script where you are able to select multiple faces and do them all at the same time. You can download it here:
-[GetVertNormalsFromFace_0_2.ms](/docs/static/attachments/23999917)
+We have created a script where you are able to select multiple faces and do them all at the same time. You can download it here: [GetVertNormalsFromFace_0_2.ms](/docs/static/attachments/23999917)
 
 Looking at the picture down below you can see the difference:
 

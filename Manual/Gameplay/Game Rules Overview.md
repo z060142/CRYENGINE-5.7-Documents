@@ -17,6 +17,6 @@
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44971162)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/29934451) Force Feedback](/docs/static/engines/cryengine-5/categories/23756816/pages/26873013)
+[![Image](https://www.cryengine.com/docs/static/attachments/29934451)Force Feedback](/docs/static/engines/cryengine-5/categories/23756816/pages/26873013)
 
-[![Image](https://www.cryengine.com/docs/static/attachments/29934452) Mission Objectives](/docs/static/engines/cryengine-5/categories/23756816/pages/25534394)
+[![Image](https://www.cryengine.com/docs/static/attachments/29934452)Mission Objectives](/docs/static/engines/cryengine-5/categories/23756816/pages/25534394)

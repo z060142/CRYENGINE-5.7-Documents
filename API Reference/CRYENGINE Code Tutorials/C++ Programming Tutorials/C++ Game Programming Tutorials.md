@@ -12,8 +12,5 @@
 
 ## Content
 
--
-[Custom C++ Entity Game Sample](C%2B%2B%20Game%20Programming%20Tutorials/Custom%20C%2B%2B%20Entity%20Game%20Sample.md)
-
--
-[UI Event System](C%2B%2B%20Game%20Programming%20Tutorials/UI%20Event%20System.md)
+- [Custom C++ Entity Game Sample](C%2B%2B%20Game%20Programming%20Tutorials/Custom%20C%2B%2B%20Entity%20Game%20Sample.md)
+- [UI Event System](C%2B%2B%20Game%20Programming%20Tutorials/UI%20Event%20System.md)

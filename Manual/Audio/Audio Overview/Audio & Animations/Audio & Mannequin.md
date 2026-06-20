@@ -11,189 +11,45 @@
 
 ## Content
 
-##
-Overview
+## Overview
 
-This section gives an overview of how to apply Audio to Mannequin. Please note however that the article
-[Mannequin Editor Tutorial 1](../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md)
- is prerequisite knowledge for the following information.
+This section gives an overview of how to apply Audio to Mannequin. Please note however that the article [Mannequin Editor Tutorial 1](../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md) is prerequisite knowledge for the following information.
 
-##
-Introduction
+### Introduction
 
-Audio in Mannequin is controlled by adding
-[Procedural Clips](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Procedural%20Clips.md)
- to
-[Fragments](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Fragments.md)
+Audio in Mannequin is controlled by adding [Procedural Clips](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Procedural%20Clips.md) to [Fragments](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Fragments.md) and setting their Type to Audio in the Procedural Clip Properties.
 
-and setting their
-Type
- to
-Audio
- in the
-Procedural Clip Properties
-.
+*Fragments* are played on [Scopes](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Scopes.md)*[,](/docs/static/engines/cryengine-5/categories/23756816/pages/23308437)* but there are no technical restrictions on which *Scopes* the Audio * Procedural Clip*s are placed. However, it is quite common for a project to setup a Mannequin character in such a way that certain * Scopes* only have audio system Triggers placed on them. For example, in the case of the [Audio & Mannequin Usecases*](Audio%20%26%20Mannequin/Audio%20%26%20Mannequin%20Usecases.md) we have the Audio1 and Audio2 * Scopes* on which all audio system Triggersare placed.
 
-*
-Fragments
-*
- are played on
-[Scopes](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Scopes.md)
-*
-[,](/docs/static/engines/cryengine-5/categories/23756816/pages/23308437)
+Mannequin decides which *Fragments* it will trigger via [Tag States](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Tags%20%26%20Tag%20Definitions.md). This allows flexibility in supporting animations with sound, so you can go very granular or stay rather generic.
 
-*
-but there are no technical restrictions on which
-*
-Scopes
-*
- the Audio
-*
-Procedural Clip
-*
-s are placed. However, it is quite common for a project to setup a Mannequin character in such a way that certain
-*
-Scopes
-*
- only have audio system Triggers placed on them. For example, in the case of the
-[Audio & Mannequin Usecases*](Audio%20%26%20Mannequin/Audio%20%26%20Mannequin%20Usecases.md)
- we have the
-Audio1
- and
-Audio2
+The [Mannequin Editor](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor.md) describes how to add tags to a *Fragment*. These tags define what needs to be going on in the game or with the character in order for that specific * Fragment* to be selected.
 
-*
-Scopes
-*
- on which all audio system Triggers
-*
+For example, say you want to support each weapon with a different sound, but you don't necessarily want to distinguish between whether the player is crouching or standing while firing. To ensure this, you need to make sure that the [FragmentID](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Fragments.md) is properly flagged using the parent of the weapon item name. For example, fire [SDKRifle] needs the SDKRifle selected to work in all stances (crouch, stand, etc).
 
-*
-are placed.
+*FragmentID properly flagged*![Image](https://www.cryengine.com/docs/static/attachments/44971420)
 
-Mannequin decides which
-*
-Fragments
-*
- it will trigger via
-[Tag States](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Tags%20%26%20Tag%20Definitions.md)
-. This allows flexibility in supporting animations with sound, so you can go very granular or stay rather generic.
+The game might also trigger extra tags such as "standing" or "crouch" depending on the character's stance, but will always pick the best fitting one - this means the one that matches most of the tags provided. If you decide to provide more detail, this can be achieved by creating different *Fragments* with different * audio system Triggers* and a wider range of tags.
 
-The
-[Mannequin Editor](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor.md)
+To learn more about Tags please read the article [Mannequin Tag Definition Editor](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Tag%20Definition%20Editor.md).
 
-describes how to add tags to a
-*
-Fragment
-*
-. These tags define what needs to be going on in the game or with the character in order for that specific
-*
-Fragment
-*
- to be selected.
+### Enabling Scopes for a Fragment
 
-For example, say you want to support each weapon with a different sound, but you don't necessarily want to distinguish between whether the player is crouching or standing while firing. To ensure this, you need to make sure that the
-[FragmentID](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Fragments.md)
- is properly flagged using the parent of the weapon item name. For example, fire
-[SDKRifl
-e]
- needs the SDKRifle selected to work in all stances (crouch, stand, etc).
+Depending on your setup, you might want to place audio system Triggers in specific *Scopes*. For example, in the Sandbox Editor setup, sounds are usually placed in the "Audio1" or the "Audio2" * Scopes*.
 
-*
-FragmentID properly flagged
-*
+Furthermore, the preferred way of enabling a *Scope* for a * FragmentID* is to edit its default Scope Mask: When editing a * FragmentID* you can select which * Scopes* it should use by default.
 
-![Image](https://www.cryengine.com/docs/static/attachments/44971420)
+*Enabling a Scope for a Fragment - 1*![Image](https://www.cryengine.com/docs/static/attachments/44971422)
 
-The game might also trigger extra tags such as "standing" or "crouch" depending on the character's stance, but will always pick the best fitting one - this means the one that matches most of the tags provided.  If you decide to provide more detail, this can be achieved by creating different
-*
-Fragments
-*
- with different
-*
-audio system Triggers
-*
- and a wider range of tags.
+*Enabling a Scope for a Fragment - 2*![Image](https://www.cryengine.com/docs/static/attachments/44971423)
 
-To learn more about Tags please read the article
-[Mannequin Tag Definition Editor](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Tag%20Definition%20Editor.md)
-.
+For an extensive step-by-step guide on how to achieve this please refer to the [Mannequin Editor Tutorial 1](../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md).
 
-##
-Enabling Scopes for a Fragment
+### Adding a ProcLayer Track
 
-Depending on your setup, you might want to place audio system Triggers in specific
-*
-Scopes
-*
-. For example, in the
-Sandbox Editor setup
-, sounds are usually placed in the "Audio1" or the "Audio2"
-*
-Scopes
-*
-.
+Once you have decided on which *Scope* you want to place the audio system * Triggers* on, you need to create a * ProcLayer t*rack.
 
-Furthermore, the preferred way of enabling a
-*
-Scope
-*
- for a
-*
-FragmentID
-*
- is to edit its default Scope Mask: When editing a
-*
-FragmentID
-*
- you can select which
-*
-Scopes
-*
- it should use by default.
-
-*
-Enabling a Scope for a Fragment - 1
-*
-
-![Image](https://www.cryengine.com/docs/static/attachments/44971422)
-
-*
-Enabling a Scope for a Fragment - 2
-
-*
-![Image](https://www.cryengine.com/docs/static/attachments/44971423)
-
-For an extensive step-by-step guide on how to achieve this please refer to the
-[Mannequin Editor Tutorial 1](../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md)
-.
-
-##
-Adding a ProcLayer Track
-
-Once you have decided on which
-*
-Scope
-*
- you want to place the audio system
-*
-Triggers
-*
- on, you need to create a
-*
-ProcLayer t
-*
-rack.
-
-To add a
-*
-ProcLayer
-*
-track, right click on the
-Scope
- and select
-AddTrack -> ProcLayer
-:
+To add a *ProcLayer* track, right click on the Scope and select AddTrack -> ProcLayer:
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44971429)
 
@@ -201,101 +57,31 @@ Afterwards the layout should look like screenshot below.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44971430)
 
-To learn more about these tracks and their properties, please read the article
-[Mannequin Track Properties](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Track%20Properties.md)
-.
+To learn more about these tracks and their properties, please read the article [Mannequin Track Properties](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Track%20Properties.md).
 
-##
-Creating an Audio System Trigger on an Audio Proc Layer
+### Creating an Audio System Trigger on an Audio Proc Layer
 
-In the
-*
-ProcLayer’s
-*
- timeline double-click to add a
-*
-Procedural Clip
-*
-. The clip can be moved by dragging its start point.
+In the *ProcLayer’s* timeline double-click to add a * Procedural Clip*. The clip can be moved by dragging its start point.
 
 Under the Procedural Clip Properties menu you can set what type the clip should be.
 
-In order to execute audio system Triggers click on the Type property and select Audio
-.
+In order to execute audio system Triggers click on the Type property and select Audio.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44971431)
 
-You can see that this selection changes the options available for the clip in the Procedural Clip Properties  (screenshot below). It is now possible to set a Start and Stop Trigger and define its behavior.
+You can see that this selection changes the options available for the clip in the Procedural Clip Properties (screenshot below). It is now possible to set a Start and Stop Trigger and define its behavior.
 
-When the
-*
-Fragment
-*
- ends the Sound stops and as described in the Start/Stop Trigger behavior see
-[here](../Play%20Stop%20Behavior.md)
-.
+When the *Fragment* ends the Sound stops and as described in the Start/Stop Trigger behavior see [here](../Play%20Stop%20Behavior.md).
 
-To keep the Sound playing, then use
-*
-do_nothing
-*
- as the
-*
-StopTrigger
-*
-.
+To keep the Sound playing, then use *do_nothing* as the * StopTrigger*.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/44971432)
 
 The Blend time does not affect the fade-in of a sound.
 
-##
-Tips
+### Tips
 
-You can add any number of
-*
-ProcLayers
-*
- to a S
-*
-cope
-*
- which can help you to better organize your
-*
-Fragment
-*
-.
+You can add any number of *ProcLayers* to a S* cope* which can help you to better organize your * Fragment*. * Procedural Clip*s can be added to any * ProcLayer* on any * Scope*. Just be aware that depending on your setup the clips might then be saved to a different [Database](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Files/Animation%20Database%20(ADB).md) file.
 
-*
-Procedural Clip
-*
-s can be added to any
-*
-ProcLayer
-*
- on any
-*
-Scope
-*
-. Just be aware that depending on your setup the clips might then be saved to a different
-[Database](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Files/Animation%20Database%20(ADB).md)
- file.
-
-The CVar
-mn_debug <entity name>
- shows you the
-*
-Fragments
-*
- and Animations that are triggered by an Entity at any given time. This helps you to figure out which
-*
-Fragments
-*
- are the ones without Sound. See
-[Mannequin Debugging](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Debugging.md)
-.
-[Introduction](#introduction)
-[Enabling Scopes for a Fragment](#enabling-scopes-for-a-fragment)
-[Adding a ProcLayer Track](#adding-a-proclayer-track)
-[Creating an Audio System Trigger on an Audio Proc Layer](#creating-an-audio-system-trigger-on-an-audio-proc-layer)
-[Tips](#tips)
+The CVar mn_debug <entity name> shows you the *Fragments* and Animations that are triggered by an Entity at any given time. This helps you to figure out which *Fragments* are the ones without Sound. See [Mannequin Debugging](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Debugging.md).
+[Introduction](#introduction)[Enabling Scopes for a Fragment](#enabling-scopes-for-a-fragment)[Adding a ProcLayer Track](#adding-a-proclayer-track)[Creating an Audio System Trigger on an Audio Proc Layer](#creating-an-audio-system-trigger-on-an-audio-proc-layer)[Tips](#tips)
