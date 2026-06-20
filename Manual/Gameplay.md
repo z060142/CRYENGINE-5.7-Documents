@@ -6,6 +6,7 @@
 
 ## Child Pages
 
+- [Gameplay Framework Programming](Gameplay/Gameplay%20Framework%20Programming.md)
 - [Game Rules Overview](Gameplay/Game%20Rules%20Overview.md)
 
 ## Content

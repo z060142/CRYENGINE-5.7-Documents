@@ -6,6 +6,7 @@
 
 ## Child Pages
 
+- [Engine Architecture Overview](CRYENGINE%20-%20Getting%20Started/Engine%20Architecture%20Overview.md)
 - [Installing CRYENGINE](CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE.md)
 - [For New CRYENGINE Users](CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users.md)
 - [Sample Projects](CRYENGINE%20-%20Getting%20Started/Sample%20Projects.md)

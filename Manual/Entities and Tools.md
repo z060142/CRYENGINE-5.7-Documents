@@ -6,6 +6,7 @@
 
 ## Child Pages
 
+- [Entity Component Programming](Entities%20and%20Tools/Entity%20Component%20Programming.md)
 - [Entity Components](Entities%20and%20Tools/Entity%20Components.md)
 - [Entities Overview](Entities%20and%20Tools/Entities%20Overview.md)
 

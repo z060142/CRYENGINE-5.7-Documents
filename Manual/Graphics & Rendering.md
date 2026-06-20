@@ -6,6 +6,7 @@
 
 ## Child Pages
 
+- [Rendering and Shader Programming](Graphics%20%26%20Rendering/Rendering%20and%20Shader%20Programming.md)
 - [Lighting](Graphics%20%26%20Rendering/Lighting.md)
 - [Particles](Graphics%20%26%20Rendering/Particles.md)
 - [Shaders](Graphics%20%26%20Rendering/Shaders.md)
