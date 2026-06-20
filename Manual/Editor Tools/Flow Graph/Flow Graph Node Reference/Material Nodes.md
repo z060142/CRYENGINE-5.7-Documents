@@ -12,14 +12,14 @@ EntityMaterialChange
 
 Used to apply the specified material to an entity.
 
-[Image: /docs/static/attachments/29687858]
+![Image](https://www.cryengine.com/docs/static/attachments/29687858)
 
 ##
 EntityMaterialParams
 
 Used to get the entity's material parameters.
 
-[Image: /docs/static/attachments/29687857]
+![Image](https://www.cryengine.com/docs/static/attachments/29687857)
 
 **
 Inputs
@@ -129,7 +129,7 @@ MaterialClone
 
 Used to clone an entity's material or reset it back to the original.
 
-[Image: /docs/static/attachments/29687856]
+![Image](https://www.cryengine.com/docs/static/attachments/29687856)
 
 **
 Inputs
@@ -203,7 +203,7 @@ MaterialParams
 
 Used to get the specified material's parameters.
 
-[Image: /docs/static/attachments/29687855]
+![Image](https://www.cryengine.com/docs/static/attachments/29687855)
 
 **
 Inputs
@@ -322,7 +322,7 @@ SetObjectMaterial
 
 Used to set an object's (render node) material to the specified position.
 
-[Image: /docs/static/attachments/29687854]
+![Image](https://www.cryengine.com/docs/static/attachments/29687854)
 
 **
 Inputs
@@ -371,18 +371,8 @@ Any
 Activates the node
  |
 
-[#entitymaterialchange](
-EntityMaterialChange
-)
-[#entitymaterialparams](
-EntityMaterialParams
-)
-[#materialclone](
-MaterialClone
-)
-[#materialparams](
-MaterialParams
-)
-[#setobjectmaterial](
-SetObjectMaterial
-)
+[EntityMaterialChange](#entitymaterialchange)
+[EntityMaterialParams](#entitymaterialparams)
+[MaterialClone](#materialclone)
+[MaterialParams](#materialparams)
+[SetObjectMaterial](#setobjectmaterial)

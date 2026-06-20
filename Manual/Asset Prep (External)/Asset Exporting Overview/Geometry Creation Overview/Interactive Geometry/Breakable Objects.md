@@ -7,15 +7,15 @@
 
 ## Child Pages
 
-- [Destroyable Objects](Breakable Objects/Destroyable Objects.md)
-- [Jointed Breakable Objects](Breakable Objects/Jointed Breakable Objects.md)
-- [Automatic Generation of Breakable Joints in Sandbox](Breakable Objects/Automatic Generation of Breakable Joints in Sandbox.md)
-- [Boolean Destructibles](Breakable Objects/Boolean Destructibles.md)
-- [Breakable Glass](Breakable Objects/Breakable Glass.md)
-- [Deformable Objects](Breakable Objects/Deformable Objects.md)
-- [Fractionalizing Objects Tutorial](Breakable Objects/Fractionalizing Objects Tutorial.md)
-- [Jointed Destructable Object](Breakable Objects/Jointed Destructable Object.md)
-- [Pre-Baked Physics](Breakable Objects/Pre-Baked Physics.md)
+- [Destroyable Objects](Breakable%20Objects/Destroyable%20Objects.md)
+- [Jointed Breakable Objects](Breakable%20Objects/Jointed%20Breakable%20Objects.md)
+- [Automatic Generation of Breakable Joints in Sandbox](Breakable%20Objects/Automatic%20Generation%20of%20Breakable%20Joints%20in%20Sandbox.md)
+- [Boolean Destructibles](Breakable%20Objects/Boolean%20Destructibles.md)
+- [Breakable Glass](Breakable%20Objects/Breakable%20Glass.md)
+- [Deformable Objects](Breakable%20Objects/Deformable%20Objects.md)
+- [Fractionalizing Objects Tutorial](Breakable%20Objects/Fractionalizing%20Objects%20Tutorial.md)
+- [Jointed Destructable Object](Breakable%20Objects/Jointed%20Destructable%20Object.md)
+- [Pre-Baked Physics](Breakable%20Objects/Pre-Baked%20Physics.md)
 
 ## Content
 
@@ -28,25 +28,17 @@ There are several methods of setting up breakable assets that the player can des
 Breakable Assets
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308021](
-Jointed Breakable Objects
-)
+[Jointed Breakable Objects](Breakable%20Objects/Jointed%20Breakable%20Objects.md)
  are structures that are built of separate pieces held together by virtual joints. Breakable Objects can also be broken up in to even smaller pieces or particles. Please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308021](
-Jointed Destructable Objects
-)
+[Jointed Destructable Objects](Breakable%20Objects/Jointed%20Breakable%20Objects.md)
  for further information.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308024](
-Destroyable Objects
-)
+[Destroyable Objects](Breakable%20Objects/Destroyable%20Objects.md)
  (also referred to as Assembled Pieces) are structures that contain the original object and pre-created pieces that appear when the original object is destroyed.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308028](
-Jointed Destructable Objects
-)
+[Jointed Destructable Objects](Breakable%20Objects/Jointed%20Destructable%20Object.md)
  is a jointed breakable object that can be set up to break into smaller pieces when being detached from the joint. For example a wooden sign falls off the signpost and breaks into several planks.
 Artists need to set up a breakable asset (CGF), with all the broken pieces in their initial location. Instances are not supported (pieces that share geometry and have different position/scale/orientation don't save memory). All the pieces should form the unbroken object. If required, physical constraints (they force the pieces to lose their hard connection) can be set up. The unbroken case should render faster than the individual pieces (if the material is the same, you can save some draw calls).
 
@@ -195,72 +187,48 @@ No triangle that forms a surface should be at more than a 45 degree angle from t
 ##
 3D Destroyable Objects
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308030](
-Boolean Destructibles
-)
+[Boolean Destructibles](Breakable%20Objects/Boolean%20Destructibles.md)
 
 The object internally splits up into tetrahedrons during the geometry export. In real-time, the object can be carved by another mesh object (boolean operation). This operation is computationally more intensive than pre-broken objects and 2D destroyable objects. New objects can be spawned in the created hole. If the carving process creates separate pieces, they become individual physical objects.
 
 ##
 Deformable Objects
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308029](
-Deformable Objects
-)
+[Deformable Objects](Breakable%20Objects/Deformable%20Objects.md)
 
 Deformable objects are basically cloth objects skinned to a skeleton. Unlike cloth, they are not constantly moving, but instead "freeze" in their deformed position, so they can be used to create deformable metal or other bending materials. To set up a deformable object, first make sure it is sufficiently tessellated, so the deformation looks convincing.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308021](
-Jointed Breakable Objects
-)
+[Jointed Breakable Objects](Breakable%20Objects/Jointed%20Breakable%20Objects.md)
 
 Learn about the types of breakable objects, the preparation and rules for their setup.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308024](
-Destroyable Objects
-)
+[Destroyable Objects](Breakable%20Objects/Destroyable%20Objects.md)
 
 This topic details the instructions for creating a destroyable object, along with an explanation of its parameters and properties.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308028](
-Jointed Destructable Objects
-)
+[Jointed Destructable Objects](Breakable%20Objects/Jointed%20Destructable%20Object.md)
 
 This shows you how you can iterate on the jointed Breakable object and destroy the pieces further.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308027](
-Breakable Glass
-)
+[Breakable Glass](Breakable%20Objects/Breakable%20Glass.md)
 
 This topic shows you how to set up breakable glass assets.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308031](
-Pre-Baked Physics
-)
+[Pre-Baked Physics](Breakable%20Objects/Pre-Baked%20Physics.md)
 
 The pre-baked physics pipeline allows you to place a physics simulation in a 3D asset creation package, and then keyframe the data and load it into the Sandbox Editor.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308032](
-Fractionalizing Objects Tutorial
-)
+[Fractionalizing Objects Tutorial](Breakable%20Objects/Fractionalizing%20Objects%20Tutorial.md)
 
 Fractionalizing is a technique we use when we are breaking apart an asset which will be setup up for various forms of breakability.
 
 ##
 Essential UDP Strings for physics properties of CGFs
 
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310799](
-UDP Settings
-)
+[UDP Settings](/docs/static/engines/cryengine-3/categories/1114113/pages/1310799)
 
 List of UDP settings (User Defined Properties) for use in Max and Maya to change Physics Properties for Objects.
 
-[#breakable-assets](
-Breakable Assets
-)
-[#2d-breakable-assets](
-2D Breakable Assets
-)
-[#essential-udp-strings-for-physics-properties-of-cgfs](
-Essential UDP Strings for physics properties of CGFs
-)
+[Breakable Assets](#breakable-assets)
+[2D Breakable Assets](#2d-breakable-assets)
+[Essential UDP Strings for physics properties of CGFs](#essential-udp-strings-for-physics-properties-of-cgfs)

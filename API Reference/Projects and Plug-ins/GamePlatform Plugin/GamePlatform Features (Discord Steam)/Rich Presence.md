@@ -77,9 +77,7 @@ The status string is the displayed text that shows what the user is currently do
 
 -
 To retrieve the status, use
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448635#RichPresence-getrichpresence](
- GetRichPresence
-)
+[GetRichPresence](Rich%20Presence.md#RichPresence-getrichpresence)
 and read the "headline" output.
 
 -
@@ -107,15 +105,7 @@ Schematyc Nodes
 Function::GamePlatform::Service::Accounts::SetStatus
  |
 
-[#rich-presence-service-functions](
-Rich Presence Service Functions
-)
-[#getrichpresence](
-GetRichPresence
-)
-[#setrichpresence](
-SetRichPresence
-)
-[#setstatus](
-SetStatus
-)
+[Rich Presence Service Functions](#rich-presence-service-functions)
+[GetRichPresence](#getrichpresence)
+[SetRichPresence](#setrichpresence)
+[SetStatus](#setstatus)

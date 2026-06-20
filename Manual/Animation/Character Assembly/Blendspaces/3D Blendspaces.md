@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933232]
+![Image](https://www.cryengine.com/docs/static/attachments/29933232)
 
 ##
 3D-Blend Spaces Overview
@@ -19,18 +19,10 @@ The only issue we have with 3D and higher dimensions, is that it starts to get h
 ##
 Sections
 
-[#3d-blend-spaces-overview](
-3D-Blend Spaces Overview
-)
-[#sections](
-Sections
-)
-[#3d-bspacemoveturnslopebspace](
-3D-BSpace_MoveTurnSlope.bspace
-)
-[#3d-bspacemoveturnslopecombinationcomb](
-3D-BSpace_MoveTurnSlope_Combination.comb
-)
+[3D-Blend Spaces Overview](#3d-blend-spaces-overview)
+[Sections](#sections)
+[3D-BSpace_MoveTurnSlope.bspace](#3d-bspacemoveturnslopebspace)
+[3D-BSpace_MoveTurnSlope_Combination.comb](#3d-bspacemoveturnslopecombinationcomb)
 
 ##
 3D-BSpace_MoveTurnSlope.bspace
@@ -57,7 +49,7 @@ a new dimension
 **
  in the Blend-Space. In 3D we can control uphill/downhill motion and we can combine this with all different speeds and turn-angles.
 
-[Image: /docs/static/attachments/35397169]
+![Image](https://www.cryengine.com/docs/static/attachments/35397169)
 
 ```
 

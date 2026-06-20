@@ -11,28 +11,16 @@
 Overview
 
 HTC Vive support is now included in CRYENGINE. This article covers the programming side of interacting with a Vive headset. For information on the basics of HTC Vive use, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534185](
-HTC Vive
-)
+[HTC Vive](../../../Manual/Virtual%20Reality/HTC%20Vive.md)
 .
 
 Chapters:
 
-[#code](
-Code
-)
-[#check-vr-setup](
-Check VR Setup
-)
-[#get-hmd-device-tracking-state](
-Get HMD Device Tracking State
-)
-[#get-controller-tracking-state](
-Get Controller Tracking State
-)
-[#react-to-controller-input](
-React to Controller Input
-)
+[Code](#code)
+[Check VR Setup](#check-vr-setup)
+[Get HMD Device Tracking State](#get-hmd-device-tracking-state)
+[Get Controller Tracking State](#get-controller-tracking-state)
+[React to Controller Input](#react-to-controller-input)
 
 ##
 Code
@@ -163,9 +151,7 @@ Action Maps:
 **
  Please read
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306384](
-Setting Up Controls and Action Maps
-)
+[Setting Up Controls and Action Maps](../../CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/Setting%20Up%20Controls%20and%20Action%20Maps.md)
 .
 **
  The relevant button names are:
@@ -257,9 +243,7 @@ InputListener:
 **
  Please read
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306383](
-CryInput
-)
+[CryInput](../../CRYENGINE%20Engine%20Code/Engine%20Modules/CryInput.md)
 .
 **
  Check for DeviceType

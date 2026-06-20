@@ -26,23 +26,23 @@ Exporting Smart Objects from 3ds Max
 
 This will be a short primer on creating Smart Objects in Max using the cryTools Smart Object exporter.
 
-[Image: /docs/static/attachments/23994791]
+![Image](https://www.cryengine.com/docs/static/attachments/23994791)
 
 First, load up an animation that was made to use a Smart Object.
 
-[Image: /docs/static/attachments/23994792]
+![Image](https://www.cryengine.com/docs/static/attachments/23994792)
 
 Create geometry that is the same height as the animation, this is the geometry that the Designers will see when they place the Smart Object in the level.
 
 Make sure the Smart Object object has its pivot centered at the base.
 
-[Image: /docs/static/attachments/23994793]
+![Image](https://www.cryengine.com/docs/static/attachments/23994793)
 
 The animation needs to be offset from the Smart Object, and the Smart Object needs to be at the origin [0,0,0].
 
 The easiest way to do this is to parent the root of the character to the Smart Object Object, then move the Smart Object Object to the origin (above).
 
-[Image: /docs/static/attachments/23994794]
+![Image](https://www.cryengine.com/docs/static/attachments/23994794)
 
 Now open cryRigging, which is part of cryTools (AboutCryTools). With the Smart Object Object selected, press
 **
@@ -50,7 +50,7 @@ Get Smart Obj Geometry
 **
  and you will see the button change to the name of the object.
 
-[Image: /docs/static/attachments/23994795]
+![Image](https://www.cryengine.com/docs/static/attachments/23994795)
 
 Then click
 **
@@ -58,7 +58,7 @@ Add Start/Stop Locations
 **
 , and you will see the start and stop locations added. Green is the Start and Red is the Stop
 
-[Image: /docs/static/attachments/23994796]
+![Image](https://www.cryengine.com/docs/static/attachments/23994796)
 
 Align the circles and radii to the start and stop locations/areas of the animation. Finally, click
 **
@@ -105,12 +105,6 @@ The Smart Object helpers should not be children of the Smart Object geometry whe
 
 -
 By default they are children of the Smart Object when you export the XML, this also allows easy placement/aligning.
-[#exporting-smart-objects](
-Exporting Smart Objects
-)
-[#exporting-smart-objects-from-3ds-max](
-Exporting Smart Objects from 3ds Max
-)
-[#things-to-remember](
-Things to Remember
-)
+[Exporting Smart Objects](#exporting-smart-objects)
+[Exporting Smart Objects from 3ds Max](#exporting-smart-objects-from-3ds-max)
+[Things to Remember](#things-to-remember)

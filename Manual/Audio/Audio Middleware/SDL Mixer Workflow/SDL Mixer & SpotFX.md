@@ -10,21 +10,11 @@
 ##
 In This Topic
 
-[#in-this-topic](
-In This Topic
-)
-[#setting-up-spotfx-in-sdl-mixer](
-Setting up SpotFX in SDL-Mixer
-)
-[#using-the-audio-trigger-spot-entity](
-Using the Audio Trigger Spot Entity
-)
-[#working-with-attenuation](
-Working with Attenuation
-)
-[#randomizing-sound-on-the-audiotriggerspot-with-sdl-mixer](
-Randomizing Sound on the AudioTriggerSpot with SDL-Mixer
-)
+[In This Topic](#in-this-topic)
+[Setting up SpotFX in SDL-Mixer](#setting-up-spotfx-in-sdl-mixer)
+[Using the Audio Trigger Spot Entity](#using-the-audio-trigger-spot-entity)
+[Working with Attenuation](#working-with-attenuation)
+[Randomizing Sound on the AudioTriggerSpot with SDL-Mixer](#randomizing-sound-on-the-audiotriggerspot-with-sdl-mixer)
 
 ##
 Setting up SpotFX in SDL-Mixer
@@ -57,9 +47,7 @@ For a detailed explanation on how to correctly setup the
 Audio Trigger Spot
 *
  entity in your level, follow the instructions found on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964959](
-SDL Mixer Initial Setup
-)
+[SDL Mixer Initial Setup](SDL%20Mixer%20Initial%20Setup.md)
 .
 
 ##
@@ -67,7 +55,7 @@ Working with Attenuation
 
 Using SDL-Mixer, you can enable a simple set of 3D properties for each sound connected to an audio system Trigger. You can access these options in the Properties panel when you select the connected audio file under the audio system Trigger.
 
-[Image: /docs/static/attachments/44968297]
+![Image](https://www.cryengine.com/docs/static/attachments/44968297)
 
 The
 Enable Panning
@@ -156,4 +144,4 @@ RadiusRandom
  to define the range in which the sounds can be randomized.
 This can be useful for adding more variation and interest to the soundscape in your level. For example, this can be used to simulate frog croaks which can be heard at different points in time and in different positions around the entity based on the random radius setting.
 
-[Image: /docs/static/attachments/44968300]
+![Image](https://www.cryengine.com/docs/static/attachments/44968300)

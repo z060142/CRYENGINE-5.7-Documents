@@ -11,13 +11,11 @@
 Overview
 
 In this tutorial, we will be adding the "jumping" functionality to the player character that was built in the first part of this series (
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
 )
 .
 
-[Image: /docs/static/attachments/106627256]
+![Image](https://www.cryengine.com/docs/static/attachments/106627256)
 
 You will be building upon the
 *
@@ -32,9 +30,7 @@ Player.h
 *
  files built
 in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
  tutorial
 .
 
@@ -60,7 +56,7 @@ Game.sln,
 *
 which can be found within the solution folder of your project's main directory.
 
-[Image: /docs/static/attachments/106627230]
+![Image](https://www.cryengine.com/docs/static/attachments/106627230)
 
 *
 The location of the Game.sln file in the solutions folder
@@ -72,9 +68,7 @@ f you have not generated a solution yet, or are unsure about the location of the
 Game.sln
 *
  file, follow the first steps of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
  tutorial.
 
 -
@@ -101,7 +95,7 @@ m_jumpHeight
 `
 "
 :
-[Image: /docs/static/attachments/106627223]
+![Image](https://www.cryengine.com/docs/static/attachments/106627223)
 
 *
 The float variable for the character's jump height
@@ -147,7 +141,7 @@ desc.AddMember(&CPlayerComponent::m_jumpHeight, 'pjh', "playerjumpheight", "Play
 
 ```
 
-[Image: /docs/static/attachments/106627224]
+![Image](https://www.cryengine.com/docs/static/attachments/106627224)
 
 *
 The AddMember line which generates the Player Jump Height property
@@ -194,7 +188,7 @@ m_pInputComponent->BindAction("player", "jump", eAID_KeyboardMouse, eKI_Space);
 
 ```
 
-[Image: /docs/static/attachments/106627225]
+![Image](https://www.cryengine.com/docs/static/attachments/106627225)
 
 *
 Defining the eKI and name for the jump action
@@ -233,7 +227,7 @@ if (m_pCharacterController->IsOnGround())
 
 ```
 
-[Image: /docs/static/attachments/106627232]
+![Image](https://www.cryengine.com/docs/static/attachments/106627232)
 
 *
 The if statement to check whether the player is on the ground prior to jumping
@@ -276,7 +270,7 @@ jumpHeight
 `
  value in CRYENGINE, it will apply the given value to the Z axis.
 
-[Image: /docs/static/attachments/106627226]
+![Image](https://www.cryengine.com/docs/static/attachments/106627226)
 
 *
 The final input lines
@@ -299,9 +293,7 @@ Once the solution is built, you can test your player character in the Sandbox Ed
 
 -
 Open the level you created in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
  tutorial
 , and select the previously placed
 Player Entity.
@@ -329,7 +321,7 @@ Jump Height
 **
 .
 
-[Image: /docs/static/attachments/106627227]
+![Image](https://www.cryengine.com/docs/static/attachments/106627227)
 *
 Player Jump Height in the Entity Component properties
 *
@@ -363,7 +355,7 @@ CPlayerComponent
 WASD
 **
  key inputs while the character is still in the air.
-[Image: /docs/static/attachments/106627228]
+![Image](https://www.cryengine.com/docs/static/attachments/106627228)
 
 *
 The Air Control Ratio property
@@ -398,13 +390,9 @@ Ctrl + G
 Conclusion
 
 This concludes Part 3 of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
  tutorial. To learn more about C++ in CRYENGINE and/or other topics, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307414](
-CRYENGINE V Manual
-)
+[CRYENGINE V Manual](/docs/static/engines/cryengine-5/categories/23756816/pages/23307414)
 .
 
 ##
@@ -412,32 +400,18 @@ Video Tutorial
 
 You can also follow this tutorial series in video form on our YouTube channel:
 
+[Embed: https://www.youtube.com/watch?v=85hiBjsGClI]
+
 ##
 Related Information
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Tutorial - Creating a Player using C++
-)
+[Tutorial - Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Tutorial - Coding in C++ - Creating a Player Controller - CRYENGINE Summer Academy
-)
+[Tutorial - Coding in C++ - Creating a Player Controller - CRYENGINE Summer Academy](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
 
-[#prerequisites](
-Prerequisites
-)
-[#adding-jumping](
-Adding Jumping
-)
-[#testing-the-character](
-Testing the Character
-)
-[#conclusion](
-Conclusion
-)
-[#video-tutorial](
-Video Tutorial
-)
-[#related-information](
-Related Information
-)
+[Prerequisites](#prerequisites)
+[Adding Jumping](#adding-jumping)
+[Testing the Character](#testing-the-character)
+[Conclusion](#conclusion)
+[Video Tutorial](#video-tutorial)
+[Related Information](#related-information)

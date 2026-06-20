@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [RenderNode Interface](Cry3DEngine/RenderNode Interface.md)
+- [RenderNode Interface](Cry3DEngine/RenderNode%20Interface.md)
 
 ## Content
 
@@ -15,6 +15,4 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306415](
-RenderNode Interface
-)
+[RenderNode Interface](Cry3DEngine/RenderNode%20Interface.md)

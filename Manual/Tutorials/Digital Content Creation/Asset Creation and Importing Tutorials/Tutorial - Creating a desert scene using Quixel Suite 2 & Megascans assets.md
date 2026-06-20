@@ -8,3 +8,5 @@
 ## Content
 
 Artist Joe Garth demonstrates how to create and import assets using Quixel Suite 2 and Megascans
+
+[Embed: https://www.youtube.com/watch?v=YD2i6HuXh-0&list=PLpCgy91Y5vMtWDdz1L0UnFo7lwi4LDBUq&index=12]

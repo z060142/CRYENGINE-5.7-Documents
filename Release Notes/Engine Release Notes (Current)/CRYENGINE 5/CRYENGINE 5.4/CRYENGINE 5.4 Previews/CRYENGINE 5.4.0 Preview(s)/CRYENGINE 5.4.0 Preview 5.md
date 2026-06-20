@@ -16,24 +16,18 @@ We are very pleased to bring you the 5.4.0 Preview 5 release. This is another â€
 Pull Requests
 
 As we promised in the 5.4.0 Preview 3 release, more detailed steps on submitting Pull Requests can now be found
-[/docs](
-here
-)
+[here](/docs)
 . The following links were first published in the Release Notes for the 5.4.0 Preview 3 release.
 
 You can visit the below page f
 or more information on handling pull requests in the CRYENGINE
 :
 
-[https://www.cryengine.com/news/cryengine-github-pull-requests-are-go-here-s-what-you-need-to-know](
-CRYENGINE GitHub pull requests are go
-)
+[CRYENGINE GitHub pull requests are go](https://www.cryengine.com/news/cryengine-github-pull-requests-are-go-here-s-what-you-need-to-know)
 
 For g
 eneral information provided by GitHub regarding Pull Requests, please refer here
-[https://help.github.com/articles/creating-a-pull-request/](
-Pull Requests
-)
+[Pull Requests](https://help.github.com/articles/creating-a-pull-request/)
 .
 
 Finally, thank you once again for your feedback, please keep it coming (but through the normal channels).
@@ -43,9 +37,7 @@ Accessing the 5.4.0 Preview 5 Release
 
 -
 Go to
-[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview5](
-https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview5
-)
+[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview5](https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview5)
 .
 
 -
@@ -61,21 +53,15 @@ Double-click on â€œInstallEngine.bat".
 Code Interface Changes
 
 For more information, see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962727](
-Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)
-)
+[Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)](../Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes%20(5.4%20Preview%20Releases).md)
 **
 
 **
 article.
 
 If you are upgrading from CRYENGINE 5.3, please read this topic:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962700](
-Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)
-)
-[/docs](
-.
-)
+[Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)](../Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4%20(5.4%20Preview%20Releases).md)
+[.](/docs)
 
 ##
 Known Issues

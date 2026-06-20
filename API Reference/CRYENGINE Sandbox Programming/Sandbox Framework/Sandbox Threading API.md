@@ -34,9 +34,7 @@ Multithreaded programming is inherently difficult and error prone, so we need to
 Multi-threading in Qt:
 
 The Sandbox user-interface is built on top of the Qt library, so you must conform to Qt's assumptions with respect to multi-threading. For a comprehensive description of Qt's multithreading model read
-[http://doc.qt.io/qt-5/thread-basics.html](
-Thread Basics
-)
+[Thread Basics](http://doc.qt.io/qt-5/thread-basics.html)
 .
 
 Among the central features of Qt are QObject, QWidget, and the signal&slot mechanism. QObject is the base class of virtually every other class in Qt. QWidget (which derives from QObject) is the base class of every user-interface class. The signal&slot mechanism is used to connect events (signals) of one QObject to callbacks (slots) of one or more other QObjects. Signal&slot implements loose coupling, in the sense that the signaling object is not aware of its listeners.
@@ -44,9 +42,7 @@ Among the central features of Qt are QObject, QWidget, and the signal&slot mecha
 Nothing is thread-safe unless stated otherwise.
 
 Qt's documentation explicitly states what functions are thread-safe. For example, see the note in the text of
-[http://doc.qt.io/qt-5/qcoreapplication.html#postEvent](
-postEvent()
-)
+[postEvent()](http://doc.qt.io/qt-5/qcoreapplication.html#postEvent)
 .
 
 Qt is inherently single-threaded, as it is built around a single main event loop. As a corollary,
@@ -206,9 +202,7 @@ Async
 PostOnMainThread
 `
  runs a function on the main thread (i.e., user-interface thread). Both functions return a
-[http://en.cppreference.com/w/cpp/thread/future](
-std::future
-)
+[std::future](http://en.cppreference.com/w/cpp/thread/future)
  that can be used to retrieve the result. If
 `
 PostOnMainThread
@@ -354,23 +348,15 @@ result = PostOnMainThread(DoSomethingElse()).get();
  |
 
 Arguments are copied, and the same rules apply as for passing arguments to
-[http://en.cppreference.com/w/cpp/thread/async](
-std::async
-)
+[std::async](http://en.cppreference.com/w/cpp/thread/async)
  or
-[http://en.cppreference.com/w/cpp/thread/thread](
-std::thread
-)
+[std::thread](http://en.cppreference.com/w/cpp/thread/thread)
 . Use
-[http://en.cppreference.com/w/cpp/utility/functional/ref](
-std::ref
-)
+[std::ref](http://en.cppreference.com/w/cpp/utility/functional/ref)
  for pass-by-reference; or capture-by-reference, if the function is a lambda.
 
 The functions are modeled after
-[http://en.cppreference.com/w/cpp/thread/async](
-std::async
-)
+[std::async](http://en.cppreference.com/w/cpp/thread/async)
 .
 `
 Async
@@ -694,17 +680,11 @@ Merge(r0.get(), r1);
 Continuations:
 
 In some other task-based APIs, there is the concept of a continuation (see
-[https://msdn.microsoft.com/en-us/library/ee372288(v=vs.110).aspx](
-NET framework,
-)
+[NET framework,](https://msdn.microsoft.com/en-us/library/ee372288(v=vs.110).aspx)
 
-[https://msdn.microsoft.com/library/cdc3a8c0-5cbe-45a0-b5d5-e9f81d94df1a.aspx#task__then_method](
-PPL's then
-)
+[PPL's then](https://msdn.microsoft.com/library/cdc3a8c0-5cbe-45a0-b5d5-e9f81d94df1a.aspx#task__then_method)
  or
-[http://www.boost.org/doc/libs/1_55_0/doc/html/thread/synchronization.html#thread.synchronization.futures.reference.unique_future.then](
-boost's then
-)
+[boost's then](http://www.boost.org/doc/libs/1_55_0/doc/html/thread/synchronization.html#thread.synchronization.futures.reference.unique_future.then)
 ). Continuations are a powerful concept in which tasks can be chained together arbitrarily. Most importantly, a task need not be aware of what other tasks follow. Typically, there are also functions to synchronize with a group of tasks, and you can wait for the completion of any tasks in a group, or all of them. In conjunction with continuations, task-based programming is a very powerful paradigm.
 
 In example 0, we showed how to launch one task on the main thread, once an asynchronous task has finished. This is a special case of continuation, where the task executed on the main thread is a continuation of the asynchronous task. Since this is a very common use-case, two convenience function templates are provided —

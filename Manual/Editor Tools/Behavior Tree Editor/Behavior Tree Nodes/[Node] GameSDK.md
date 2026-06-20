@@ -288,9 +288,7 @@ Name
 
  |
 Name of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-Fragment
-)
+[Fragment](../../Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Fragments.md)
  containing that animation which must be played by the agent.
 
  |
@@ -299,9 +297,7 @@ Accepts a string value representing the FragmentID.
 The specified FragmentID and the animation it links to however must already exist.
 
 Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-Mannequin Fragments
-)
+[Mannequin Fragments](../../Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Fragments.md)
  page for more information on creating and editing Fragments.
 
  |
@@ -908,9 +904,7 @@ Additional Information
 
  |
 More information on Communications and Communication Channels can be found in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306491](
-Technical Documentation
-)
+[Technical Documentation](../../../../API%20Reference/CRYENGINE%20Engine%20Code/Engine%20Modules/CryAISystem/AI%20Communication.md)
 .
 
  |
@@ -1229,9 +1223,7 @@ The
 ReferencePoint
 **
  can be set by performing a Tactical Position System query via the
-[](
-Query TPS
-)
+[Query TPS]()
  node, and storing the result in the
 **
 RefPoint
@@ -1942,9 +1934,7 @@ The
 RefPoint
 **
  values can be set by performing a Tactical Position System query via the
-[](
-Query TPS
-)
+[Query TPS]()
 
 node, and storing the result in the
 **
@@ -2135,9 +2125,7 @@ Additional Information
 
  |
 Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306474](
-Technical Documentation
-)
+[Technical Documentation](../../../../API%20Reference/CRYENGINE%20Engine%20Code/Engine%20Modules/CryAISystem/Tactical%20Point%20System.md)
  on the Tactical Point System for more information on TPS queries.
 
  |
@@ -2151,9 +2139,7 @@ Description
 
  |
 Sends a transition signal/Event destined for a
-[](
-State Machine
-)
+[State Machine]()
  node on the behavior tree, with special intent of causing a change in its State.
 
 Execution of the tree is put on hold until the signal is received, and execution resumes in the new State.
@@ -3066,9 +3052,7 @@ Sends a transition signal/Event,
 
 However unlike the
 **
-[](
-Send Transition Signal
-)
+[Send Transition Signal]()
 
 **
 node,
@@ -3421,9 +3405,7 @@ Idle animations are contained within the
 Motion_Idle
 *
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-FragmentID
-)
+[FragmentID](../../Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Fragments.md)
 .
 
  |
@@ -3486,79 +3468,31 @@ Execution of this node might not always stop the agent's physical movement immed
 The Movement System often relies on the influence of animation and physics, for example, which may result in the agent's movement being stopped over a period of time rather than immediately.
 
 Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23310535](
-Technical Documentation
-)
+[Technical Documentation](../../../../API%20Reference/CRYENGINE%20Engine%20Code/Engine%20Modules/CryAISystem/Movement%20System.md)
  for more information on the Movement System.
 
  |
 
-[#gamesdk-nodes](
-GameSDK Nodes
-)
-[#adjust-cover-stance](
-Adjust Cover Stance
-)
-[#aim](
-Aim
-)
-[#animate](
-Animate
-)
-[#assert-lua](
-Assert Lua
-)
-[#bubble](
-Bubble
-)
-[#clear-targets](
-Clear Targets
-)
-[#communicate](
-Communicate
-)
-[#execute-lua](
-Execute Lua
-)
-[#group-scope](
-Group Scope
-)
-[#look](
-Look
-)
-[#lua-behavior-deprecated](
-Lua Behavior (DEPRECATED)
-)
-[#lua-gate](
-Lua Gate
-)
-[#move](
-Move
-)
-[#pull-down-threat-level](
-Pull Down Threat Level
-)
-[#query-tps](
-Query TPS
-)
-[#send-transition-signal](
-Send Transition Signal
-)
-[#set-alertness](
-Set Alertness
-)
-[#shoot](
-Shoot
-)
-[#shoot-from-cover](
-Shoot From Cover
-)
-[#send-signal](
-Send Signal
-)
-[#stance](
-Stance
-)
-[#stop-movement](
-Stop Movement
-)
+[GameSDK Nodes](#gamesdk-nodes)
+[Adjust Cover Stance](#adjust-cover-stance)
+[Aim](#aim)
+[Animate](#animate)
+[Assert Lua](#assert-lua)
+[Bubble](#bubble)
+[Clear Targets](#clear-targets)
+[Communicate](#communicate)
+[Execute Lua](#execute-lua)
+[Group Scope](#group-scope)
+[Look](#look)
+[Lua Behavior (DEPRECATED)](#lua-behavior-deprecated)
+[Lua Gate](#lua-gate)
+[Move](#move)
+[Pull Down Threat Level](#pull-down-threat-level)
+[Query TPS](#query-tps)
+[Send Transition Signal](#send-transition-signal)
+[Set Alertness](#set-alertness)
+[Shoot](#shoot)
+[Shoot From Cover](#shoot-from-cover)
+[Send Signal](#send-signal)
+[Stance](#stance)
+[Stop Movement](#stop-movement)

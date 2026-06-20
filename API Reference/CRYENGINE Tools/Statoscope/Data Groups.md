@@ -15,102 +15,38 @@ This page holds a list of the available data groups used in Statoscope and the t
 Group identifiers are case sensitive!
 Chapters:
 
-[#reference](
-Reference
-)
-[#d-device-buffer-pool](
-D: Device Buffer Pool
-)
-[#l-overload-scene-manager-osm](
-L: Overload Scene Manager (OSM)
-)
-[#o-frame-performance-overview](
-O: Frame Performance Overview
-)
-[#p-texture-stream-pools](
-P: Texture Stream Pools
-)
-[#s-texture-streaming-items](
-S: Texture Streaming Items
-)
-[#w-individual-worker-information](
-W: Individual Worker Information
-)
-[#x-summarized-worker-information](
-X: Summarized Worker Information
-)
-[#y-individual-job-information](
-Y: Individual Job Information
-)
-[#z-summarized-job-information](
-Z: Summarized Job Information
-)
-[#a-audio-streaming](
-a: Audio Streaming
-)
-[#b-device-buffer-pool-manager](
-b: Device Buffer Pool Manager
-)
-[#c-per-cgf-gpu-profiling](
-c: Per-CGF GPU Profiling
-)
-[#d-network-profiling](
-d: Network Profiling
-)
-[#e-effect-processing](
-e: Effect Processing
-)
-[#f-frame-timing](
-f: Frame Timing
-)
-[#g-graphics](
-g: Graphics
-)
-[#i-gpu-timing](
-i: GPU Timing
-)
-[#j-cpu-timing](
-j: CPU Timing
-)
-[#l-camera-location](
-l: Camera Location
-)
-[#m-memory-usage](
-m: Memory Usage
-)
-[#n-network-traffic](
-n: Network Traffic
-)
-[#o-object-streaming](
-o: Object Streaming
-)
-[#p-particles](
-p: Particles
-)
-[#r-frame-profilers](
-r: Frame Profilers
-)
-[#s-streaming](
-s: Streaming
-)
-[#t-threading](
-t: Threading
-)
-[#u-user-defined-markers](
-u: User-defined Markers
-)
-[#v-vertex-counts](
-v: Vertex Counts
-)
-[#w-physical-entity-profiling](
-w: Physical Entity Profiling
-)
-[#x-texture-streaming](
-x: Texture Streaming
-)
-[#z-network-channel](
-z: Network Channel
-)
+[Reference](#reference)
+[D: Device Buffer Pool](#d-device-buffer-pool)
+[L: Overload Scene Manager (OSM)](#l-overload-scene-manager-osm)
+[O: Frame Performance Overview](#o-frame-performance-overview)
+[P: Texture Stream Pools](#p-texture-stream-pools)
+[S: Texture Streaming Items](#s-texture-streaming-items)
+[W: Individual Worker Information](#w-individual-worker-information)
+[X: Summarized Worker Information](#x-summarized-worker-information)
+[Y: Individual Job Information](#y-individual-job-information)
+[Z: Summarized Job Information](#z-summarized-job-information)
+[a: Audio Streaming](#a-audio-streaming)
+[b: Device Buffer Pool Manager](#b-device-buffer-pool-manager)
+[c: Per-CGF GPU Profiling](#c-per-cgf-gpu-profiling)
+[d: Network Profiling](#d-network-profiling)
+[e: Effect Processing](#e-effect-processing)
+[f: Frame Timing](#f-frame-timing)
+[g: Graphics](#g-graphics)
+[i: GPU Timing](#i-gpu-timing)
+[j: CPU Timing](#j-cpu-timing)
+[l: Camera Location](#l-camera-location)
+[m: Memory Usage](#m-memory-usage)
+[n: Network Traffic](#n-network-traffic)
+[o: Object Streaming](#o-object-streaming)
+[p: Particles](#p-particles)
+[r: Frame Profilers](#r-frame-profilers)
+[s: Streaming](#s-streaming)
+[t: Threading](#t-threading)
+[u: User-defined Markers](#u-user-defined-markers)
+[v: Vertex Counts](#v-vertex-counts)
+[w: Physical Entity Profiling](#w-physical-entity-profiling)
+[x: Texture Streaming](#x-texture-streaming)
+[z: Network Channel](#z-network-channel)
 
 ##
 Reference

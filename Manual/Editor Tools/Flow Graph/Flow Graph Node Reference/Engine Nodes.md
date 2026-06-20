@@ -12,7 +12,7 @@ LayerSwitch
 
 Activate/Deactivate objects in the layer.
 
-[Image: /docs/static/attachments/44959024]
+![Image](https://www.cryengine.com/docs/static/attachments/44959024)
 '
 
 **
@@ -105,7 +105,7 @@ LayerSetSwitch
 
 This node lets you change the visibility of multiple layers at once, allowing for better organization of layers that belong together, and simpler Flow Graph structures to perform such layer switches. Visibility of layers can optionally be limited to a given scope.
 
-[Image: /docs/static/attachments/44959032]
+![Image](https://www.cryengine.com/docs/static/attachments/44959032)
 
 **
 Inputs
@@ -196,7 +196,7 @@ OcclusionAreaSwitch
 
 Used to switch the OcclusionArea on or off.
 
-[Image: /docs/static/attachments/44959023]
+![Image](https://www.cryengine.com/docs/static/attachments/44959023)
 
 **
 Inputs
@@ -234,7 +234,7 @@ PortalSwitch
 
 Used to switch the portal on or off.
 
-[Image: /docs/static/attachments/44959028]
+![Image](https://www.cryengine.com/docs/static/attachments/44959028)
 
 **
 Inputs
@@ -270,7 +270,7 @@ PrecacheArea
 
 Precache area at a specified position.
 
-[Image: /docs/static/attachments/44959027]
+![Image](https://www.cryengine.com/docs/static/attachments/44959027)
 
 **
 Inputs
@@ -315,14 +315,14 @@ ShadowChacheParams
 
 Used to specify the shadow cache parameters.
 
-[Image: /docs/static/attachments/44959025]
+![Image](https://www.cryengine.com/docs/static/attachments/44959025)
 
 ##
 Viewport
 
 Gets current rendering viewport information.
 
-[Image: /docs/static/attachments/44959026]
+![Image](https://www.cryengine.com/docs/static/attachments/44959026)
 
 **
 Inputs
@@ -414,27 +414,11 @@ Engine:SkyboxSwitch
 
 -
 Engine:Viewport
-[#layerswitch](
-LayerSwitch
-)
-[#layersetswitch](
-LayerSetSwitch
-)
-[#occlusionareaswitch](
-OcclusionAreaSwitch
-)
-[#portalswitch](
-PortalSwitch
-)
-[#precachearea](
-PrecacheArea
-)
-[#shadowchacheparams](
-ShadowChacheParams
-)
-[#viewport](
-Viewport
-)
-[#deprecated-nodes](
-Deprecated Nodes
-)
+[LayerSwitch](#layerswitch)
+[LayerSetSwitch](#layersetswitch)
+[OcclusionAreaSwitch](#occlusionareaswitch)
+[PortalSwitch](#portalswitch)
+[PrecacheArea](#precachearea)
+[ShadowChacheParams](#shadowchacheparams)
+[Viewport](#viewport)
+[Deprecated Nodes](#deprecated-nodes)

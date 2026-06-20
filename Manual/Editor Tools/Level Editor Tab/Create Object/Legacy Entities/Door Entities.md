@@ -113,9 +113,7 @@ SmartObjectClass
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -529,9 +527,7 @@ SmartObjectClass
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -708,9 +704,7 @@ SmartObjectClass
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -730,9 +724,7 @@ Usable
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -752,9 +744,7 @@ UseMessage
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -933,12 +923,6 @@ Specifies the volume of the sound used.
 
  |
 
-[#advanced-door](
-Advanced Door
-)
-[#anim-door](
-Anim Door
-)
-[#door](
-Door
-)
+[Advanced Door](#advanced-door)
+[Anim Door](#anim-door)
+[Door](#door)

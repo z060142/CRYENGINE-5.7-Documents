@@ -16,7 +16,7 @@ Execute
 **
 .
 
-[Image: /docs/static/attachments/44967743]
+![Image](https://www.cryengine.com/docs/static/attachments/44967743)
 
 Depending on what you use as a basis for your project, Python scripts should be saved in different folders.
 
@@ -30,7 +30,7 @@ When modifying GameSDK, they can be saved in the GameSDK folder or any sub-folde
 Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44966470]
+![Image](https://www.cryengine.com/docs/static/attachments/44966470)
  icon on the top-right corner of the tool. When clicked, it reveals the following
 **
 
@@ -118,18 +118,10 @@ Creating Python Plugins
 
 For more information on how to create Python plugins, please see
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26217475](
-this page
-)
+[this page](../../../API%20Reference/CRYENGINE%20Engine%20Code/Python%20Plugins.md)
 **
 .
 
-[#python-scripts](
-Python Scripts
-)
-[#menu](
-Menu
-)
-[#creating-python-plugins](
-Creating Python Plugins
-)
+[Python Scripts](#python-scripts)
+[Menu](#menu)
+[Creating Python Plugins](#creating-python-plugins)

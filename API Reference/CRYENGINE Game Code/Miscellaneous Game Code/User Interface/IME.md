@@ -15,9 +15,7 @@ Some languages (such as Chinese) have on-screen helpers and various keyboard lay
 This feature is supported by Scaleform as well.
 
 Please refer to
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23309145](
-Enabling IME in code
-)
+[Enabling IME in code](../../../CRYENGINE%20Engine%20Code/Engine%20Modules/CrySystem/User%20Interface%20(Programming)/Enabling%20IME%20in%20code.md)
  to see if your version is supporting IME.
 
 ##
@@ -31,7 +29,7 @@ Depending on the current language setting of the OS, you will be presented with 
 
 For example, with input language set to Chinese it should look similar to the below screenshot:
 
-[Image: /docs/static/attachments/23461408]
+![Image](https://www.cryengine.com/docs/static/attachments/23461408)
 
 ##
 Updating Flash files for IME support
@@ -66,6 +64,4 @@ ont_Body
  ActionScript symbol to render glyphs.
 
 For additional information on font importing and exporting read also
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306533](
-UI Localization
-)
+[UI Localization](UI%20Localization.md)

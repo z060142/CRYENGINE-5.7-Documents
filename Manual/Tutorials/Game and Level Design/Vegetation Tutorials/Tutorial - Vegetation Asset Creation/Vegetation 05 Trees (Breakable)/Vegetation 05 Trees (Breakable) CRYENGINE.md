@@ -43,7 +43,7 @@ If the export process went OK for the material and geometry, you should have the
 The rest is completed here in the CRYENGINE Material Editor.
 
 *
-[Image: /docs/static/attachments/24157210]
+![Image](https://www.cryengine.com/docs/static/attachments/24157210)
 
 Pic1: Initial Material Editor overview
 *
@@ -73,7 +73,7 @@ Vegetation
 
 *
 *
-[Image: /docs/static/attachments/24157204]
+![Image](https://www.cryengine.com/docs/static/attachments/24157204)
 
 Pic2: Material settings
 *
@@ -98,7 +98,7 @@ set the "Specular Color" within the 40 - 60 range (dark grey)
 set the "Smoothness" slider to 255 max because we are controlling this value through the normalmap's alpha channel (ddna).
 *
 *
-[Image: /docs/static/attachments/24157203]
+![Image](https://www.cryengine.com/docs/static/attachments/24157203)
 
 Pic3: Lighting Settings
 *
@@ -112,7 +112,7 @@ The Texture Maps section should already have been filled out with our "Diffuse" 
 *
 *
 *
-[Image: /docs/static/attachments/24157208]
+![Image](https://www.cryengine.com/docs/static/attachments/24157208)
 
 Pic4: Texture maps
 *
@@ -142,7 +142,7 @@ Leaves
 *
 *
 *
-[Image: /docs/static/attachments/24157205]
+![Image](https://www.cryengine.com/docs/static/attachments/24157205)
 
 Pic5: Shader Generation Params
 *
@@ -235,7 +235,7 @@ Shader Params
 *
 *
 *
-[Image: /docs/static/attachments/24157206]
+![Image](https://www.cryengine.com/docs/static/attachments/24157206)
 
 Pic6: Shader Params
 *
@@ -253,9 +253,7 @@ Bending branch amplitude
  |
 Detail bending control. Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this
-)
+[this](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 
 **
 page for information on detail bending.
@@ -268,9 +266,7 @@ Bending edges amplitude
  |
 Detail bending control. Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this
-)
+[this](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 
 **
 page for information on detail bending.
@@ -291,9 +287,7 @@ Detail bending frequency
  |
 Detail bending control.  Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this
-)
+[this](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 
 **
 page for information on detail bending.
@@ -390,7 +384,7 @@ objects\natural\bushes\ground_cover_fern\ground_cover_fernbush_sss.tif
 
 *
 *
-[Image: /docs/static/attachments/24157207]
+![Image](https://www.cryengine.com/docs/static/attachments/24157207)
 
 Pic7: Adding the SSS map to the material
 *
@@ -411,7 +405,7 @@ Surface Type
  and select wood option from the drop down list.
 
 *
-[Image: /docs/static/attachments/24157213]
+![Image](https://www.cryengine.com/docs/static/attachments/24157213)
 
 Pic8: Material settings
 *
@@ -462,7 +456,7 @@ set the "Specular Color" within the 40 - 60 range (dark grey).
 
 -
 set the "Smoothness" slider to 255 max because we are controlling this value through the normalmap's alpha channel (ddna).
-[Image: /docs/static/attachments/24157212]
+![Image](https://www.cryengine.com/docs/static/attachments/24157212)
 
 *
 Pic9: Lighting settings
@@ -474,7 +468,7 @@ Texture Maps
 The Texture Maps section should already have been filled out with our "Diffuse" (*_diff.tif) and our "Normalmap" (*_ddna.tif).
 
 *
-[Image: /docs/static/attachments/24157214]
+![Image](https://www.cryengine.com/docs/static/attachments/24157214)
 
 Pic10: Texture maps
 *
@@ -506,7 +500,7 @@ vegetation
 **
 .
 *
-[Image: /docs/static/attachments/24157211]
+![Image](https://www.cryengine.com/docs/static/attachments/24157211)
 
 Pic11: Material Settings
 *
@@ -541,7 +535,7 @@ vegetation
 .
 *
 *
-[Image: /docs/static/attachments/24157211]
+![Image](https://www.cryengine.com/docs/static/attachments/24157211)
 
 Pic12: Material Settings
 *
@@ -559,7 +553,7 @@ Save
  icon.
 
 *
-[Image: /docs/static/attachments/24157209]
+![Image](https://www.cryengine.com/docs/static/attachments/24157209)
 
 Pic13: Saving the material changes
 *
@@ -569,9 +563,7 @@ Vegetation Editor
 
 We will not go into an in-depth tutorial of the Vegetation Editor here. For more information of the usage of the Vegetation Editor, please refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865590](
-HERE
-)
+[HERE](../../../../../Editor%20Tools/Vegetation%20Editor.md)
 **
 .
 
@@ -586,7 +578,7 @@ Vegetation Editor
 .
 
 *
-[Image: /docs/static/attachments/25495608]
+![Image](https://www.cryengine.com/docs/static/attachments/25495608)
 
 Pic13: Selecting the "Vegetation" tool
 *
@@ -599,7 +591,7 @@ Add Group
 
 *
 *
-[Image: /docs/static/attachments/25495609]
+![Image](https://www.cryengine.com/docs/static/attachments/25495609)
 
 Pic14: Adding a Vegetation group
 *
@@ -614,7 +606,7 @@ Add Object
 *
 *
 *
-[Image: /docs/static/attachments/25495610]
+![Image](https://www.cryengine.com/docs/static/attachments/25495610)
 
 Pic15: Adding a vegetation object to the group
 *
@@ -659,7 +651,7 @@ Jump In-Game (CTRL+G) to Test
 *
 *
 *
-[Image: /docs/static/attachments/25497155]
+![Image](https://www.cryengine.com/docs/static/attachments/25497155)
 
 Pic16: Level Woodland, with boolean destruction palm tree added at the start
 *
@@ -670,20 +662,12 @@ Pic16: Level Woodland, with boolean destruction palm tree added at the start
 The below image is similar to the above but with the physics debug view on to see the active boolean capsules within the physics proxy (p_draw_helpers=1). The trees on the left and the right have been broken while the one in the center is about to break down. Note the physics capsule spawned at the breakpoint.
 
 *
-[Image: /docs/static/attachments/25497156]
+![Image](https://www.cryengine.com/docs/static/attachments/25497156)
 
 Pic17: Level Woodland with Physics debug view.
 *
 
-[#material-setup-in-cryengine](
-Material Setup in CRYENGINE
-)
-[#material](
-Material
-)
-[#vegetation-editor](
-Vegetation Editor
-)
-[#jump-in-game-ctrl-g-to-test](
-Jump In-Game (CTRL+G) to Test
-)
+[Material Setup in CRYENGINE](#material-setup-in-cryengine)
+[Material](#material)
+[Vegetation Editor](#vegetation-editor)
+[Jump In-Game (CTRL+G) to Test](#jump-in-game-ctrl-g-to-test)

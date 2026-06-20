@@ -6,23 +6,17 @@
 
 ## Child Pages
 
-- [Engine Modules](CRYENGINE Engine Code/Engine Modules.md)
-- [Getting Started with Engine Code](CRYENGINE Engine Code/Getting Started with Engine Code.md)
-- [Python Plugins](CRYENGINE Engine Code/Python Plugins.md)
+- [Engine Modules](CRYENGINE%20Engine%20Code/Engine%20Modules.md)
+- [Getting Started with Engine Code](CRYENGINE%20Engine%20Code/Getting%20Started%20with%20Engine%20Code.md)
+- [Python Plugins](CRYENGINE%20Engine%20Code/Python%20Plugins.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306505](
-Getting Started with Engine Code
-)
+[Getting Started with Engine Code](CRYENGINE%20Engine%20Code/Getting%20Started%20with%20Engine%20Code.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23298508](
-Engine Modules
-)
+[Engine Modules](CRYENGINE%20Engine%20Code/Engine%20Modules.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26217475](
-Python Plugins
-)
+[Python Plugins](CRYENGINE%20Engine%20Code/Python%20Plugins.md)

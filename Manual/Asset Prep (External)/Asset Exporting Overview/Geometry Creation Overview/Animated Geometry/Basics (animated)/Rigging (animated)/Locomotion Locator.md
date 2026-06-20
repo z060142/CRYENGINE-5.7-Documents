@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934055]
+![Image](https://www.cryengine.com/docs/static/attachments/29934055)
 
 ##
 Locomotion Locator Rig Element
@@ -24,7 +24,7 @@ In biped the easiest way to add this node is to turn on figure mode and create a
 The following image shows how to add the prop. Simply access figure mode, traverse to the structure menu of biped and check the box
 Props:1
 .
-[Image: /docs/static/attachments/23994376]
+![Image](https://www.cryengine.com/docs/static/attachments/23994376)
 
 -
 Make sure the bone faces the positive Y axis in its local coordinate system.
@@ -32,4 +32,4 @@ Make sure the bone faces the positive Y axis in its local coordinate system.
 -
 The following image is a check list for the required points above. Name, coordinate system and direction of Y+.
 
-[Image: /docs/static/attachments/23994375]
+![Image](https://www.cryengine.com/docs/static/attachments/23994375)

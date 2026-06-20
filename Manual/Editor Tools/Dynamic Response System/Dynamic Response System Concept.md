@@ -254,7 +254,7 @@ player was shot by someone
 **
  block is the part where the DRS comes into play:
 
-[Image: /docs/static/attachments/44970819]
+![Image](https://www.cryengine.com/docs/static/attachments/44970819)
 
 *
 Flow diagram for a game event
@@ -294,7 +294,7 @@ Dynamic Response System Steps
 
 The diagram below shows the flow of the same signal as above. This time though, in a vertical way and is based on the outcome of the conditions when different paths are chosen.
 
-[Image: /docs/static/attachments/44970820]
+![Image](https://www.cryengine.com/docs/static/attachments/44970820)
 
 *
 Flow signal in a vertical path
@@ -357,12 +357,6 @@ DRS knows what the best response is by simply assuming that the most specific re
 *
  (a response with many conditions). Clearly the second option here is the best fit for the situation. Each response can have any number of follow-up responses, but only one is executed; in other words, the one with the most matched conditions.
 
-[#important-dynamic-response-system-concepts](
-Important Dynamic Response System Concepts
-)
-[#flow-of-a-game-event](
-Flow of a Game Event
-)
-[#dynamic-response-system-steps](
-Dynamic Response System Steps
-)
+[Important Dynamic Response System Concepts](#important-dynamic-response-system-concepts)
+[Flow of a Game Event](#flow-of-a-game-event)
+[Dynamic Response System Steps](#dynamic-response-system-steps)

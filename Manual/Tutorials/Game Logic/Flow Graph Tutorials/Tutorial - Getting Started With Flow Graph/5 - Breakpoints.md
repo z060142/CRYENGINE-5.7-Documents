@@ -7,15 +7,9 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591908](
-[Image: /docs/static/attachments/52593299]
-4 - Debugging
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593299) 4 - Debugging](/docs/static/engines/cryengine-5/categories/23756816/pages/27591908)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591911](
-[Image: /docs/static/attachments/52593300]
-6 - Entity Communication
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593300) 6 - Entity Communication](/docs/static/engines/cryengine-5/categories/23756816/pages/27591911)
 
 ##
 How do you use breakpoints?
@@ -72,34 +66,28 @@ Breakpoints
 ##
 Step 1.1
 
-[Image: /docs/static/attachments/36309987]
+![Image](https://www.cryengine.com/docs/static/attachments/36309987)
 
 ##
 Step 1.2
 
-[Image: /docs/static/attachments/36309988]
+![Image](https://www.cryengine.com/docs/static/attachments/36309988)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/36309989]
+![Image](https://www.cryengine.com/docs/static/attachments/36309989)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/36309990]
+![Image](https://www.cryengine.com/docs/static/attachments/36309990)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/36309991]
+![Image](https://www.cryengine.com/docs/static/attachments/36309991)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591908](
-[Image: /docs/static/attachments/52593299]
-4 - Debugging
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593299) 4 - Debugging](/docs/static/engines/cryengine-5/categories/23756816/pages/27591908)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591911](
-[Image: /docs/static/attachments/52593300]
-6 - Entity Communication
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593300) 6 - Entity Communication](/docs/static/engines/cryengine-5/categories/23756816/pages/27591911)

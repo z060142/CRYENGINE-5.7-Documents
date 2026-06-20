@@ -7,17 +7,13 @@
 
 ## Child Pages
 
-- [Particle Editor Tutorials](Particle Tutorials/Particle Editor Tutorials.md)
-- [Tutorial - Creating an Omnipresent Colliding Effect](Particle Tutorials/Tutorial - Creating an Omnipresent Colliding Effect.md)
+- [Particle Editor Tutorials](Particle%20Tutorials/Particle%20Editor%20Tutorials.md)
+- [Tutorial - Creating an Omnipresent Colliding Effect](Particle%20Tutorials/Tutorial%20-%20Creating%20an%20Omnipresent%20Colliding%20Effect.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/65437720](
-Particle Editor Tutorials
-)
+[Particle Editor Tutorials](Particle%20Tutorials/Particle%20Editor%20Tutorials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867992](
-Tutorial - Creating an Omnipresent Colliding Effect
-)
+[Tutorial - Creating an Omnipresent Colliding Effect](Particle%20Tutorials/Tutorial%20-%20Creating%20an%20Omnipresent%20Colliding%20Effect.md)

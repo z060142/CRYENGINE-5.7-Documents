@@ -39,7 +39,7 @@ True
 
 Create a new Cue and drag/drop the audio material file on to a new track of the Cue.
 
-[Image: /docs/static/attachments/44967817]
+![Image](https://www.cryengine.com/docs/static/attachments/44967817)
 
 *
 Cue tracks
@@ -69,7 +69,7 @@ Add AISAC
 **
  window that lets you specify the details of the new AISAC, as shown in the image below.
 
-[Image: /docs/static/attachments/44966409]
+![Image](https://www.cryengine.com/docs/static/attachments/44966409)
 
 *
 Add Aisac
@@ -103,7 +103,7 @@ AISAC
 **
  button at the bottom of the Atom Craft main window.
 
-[Image: /docs/static/attachments/44966412]
+![Image](https://www.cryengine.com/docs/static/attachments/44966412)
 
 *
 AISAC graph
@@ -116,7 +116,5 @@ Add the newly created
 to the ACE so that its value can later be altered by Entities in CRYENGINE. You can now build the CueSheet Binaries that contain the ambience Cue.
 
 For more information on setting up and using your created ADX2 ambience Cue inside CRYENGINE, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964884](
-Audio & Ambience
-)
+[Audio & Ambience](../../Audio%20Overview/Audio%20%26%20Ambience.md)
  documentation.

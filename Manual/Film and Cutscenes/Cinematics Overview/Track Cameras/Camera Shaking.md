@@ -93,6 +93,8 @@ Above the AmpA is 0,0,0, so no matter how much one cranks the Amplitude A in Tra
 
 Here is a video that better explains the relation between the amplitude camera parameters and the track multiplier in trackview. This camera motion is playing directly from trackview, the track AmpA multiplier is always 100, but the x,y,z camera parameters are changing:
 
+[Embed: https://www.youtube.com/watch?v=bnIOFvbwIjc]
+
 **
 Limitation:
 **
@@ -103,11 +105,14 @@ Frequency Explained
 
 Frequency is sort of what it means, how frequently the camera changes orientations. Here's a video cycling through frequency multipliers of 1,5,10:
 
+[Embed: https://www.youtube.com/watch?v=5gN8S8c72mc]
+
 ##
 Tweaking the values
 
 First let's take a look at something that looks good:
 
+[Embed: https://www.youtube.com/watch?v=_FDB9ivIoIU]
 Why does this look different than most other times you see something heavy fall in the game? Because the curves were tweaked to achieve the result.
 
 ##
@@ -145,12 +150,6 @@ Don't go shake crazy! Try to keep your amplitudes & frequencies between 1 and 8 
 
 -
 Keep in mind that some people are playing in Stereo 3D.
-[#amplitude-explained](
-Amplitude Explained
-)
-[#frequency-explained](
-Frequency Explained
-)
-[#tweaking-the-values](
-Tweaking the values
-)
+[Amplitude Explained](#amplitude-explained)
+[Frequency Explained](#frequency-explained)
+[Tweaking the values](#tweaking-the-values)

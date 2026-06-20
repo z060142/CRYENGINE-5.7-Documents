@@ -12,17 +12,13 @@ In general the export workflow for a single animation *.cga and standard non-ani
 
 This tutorial may rely on the GameSDK Sample Project. We recommend that you download this from the
 **
-[https://www.cryengine.com/marketplace](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace)
 **
 , import it into your Launcher, start it from there and then create a new level.
 
 See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870288](
-this page
-)
+[this page](/docs/static/engines/cryengine-5/categories/23756816/pages/36870288)
 **
  to find out how to import a project to your Launcher. (The default folder for the GameSDK Sample Project when downloaded is
 `
@@ -38,9 +34,7 @@ Tutorial Files
 Source 3ds Max scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25523856](
-tutorial_cga_max.zip
-)
+[tutorial_cga_max.zip](/docs/static/attachments/25523856)
 **
 
 Please extract this zip file to
@@ -113,7 +107,7 @@ Character Tool
 Pic1: Note the filename difference between the actual filename in the *.pak file vs. what's seen in the Character Tool
 *
 
-[Image: /docs/static/attachments/23434655]
+![Image](https://www.cryengine.com/docs/static/attachments/23434655)
 
 ##
 Prerequisites for this Tutorial
@@ -123,24 +117,16 @@ Before you continue with this tutorial, make sure to have read and understood th
 -
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963469](
-How to Install CryMaxTools
-)
+[How to Install CryMaxTools](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-The Basic CRYENGINE 3ds Max Workflow
-)
+[The Basic CRYENGINE 3ds Max Workflow](../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-3ds Max Unit Scale to Match up With CRYENGINE Unit System
-)
+[3ds Max Unit Scale to Match up With CRYENGINE Unit System](../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Setup for a Single Animation CGA
@@ -169,7 +155,7 @@ For this tutorial we will use a simple ball as the content. Configure the object
 Pic2: 3ds Max hierarchy and material setup
 *
 
-[Image: /docs/static/attachments/23434695]
+![Image](https://www.cryengine.com/docs/static/attachments/23434695)
 
 Export out your object as a standard *.cgf. This is done to make sure that your Exporter is configured correctly. In the Editor add your exported object (*.cgf) as a brush to an empty level (
 **
@@ -197,7 +183,7 @@ This is a very important step because if it is not done, then no animations will
 Pic3: Controller conversion in 3ds Max
 
 *
-[Image: /docs/static/attachments/23434696]
+![Image](https://www.cryengine.com/docs/static/attachments/23434696)
 
 With the object selected:
 
@@ -311,7 +297,7 @@ Select the CRYENGINE Exporter.
 Pic4: 3ds Max Exporter
 
 *
-[Image: /docs/static/attachments/23435195]
+![Image](https://www.cryengine.com/docs/static/attachments/23435195)
 
 -
 Select the object in the scene and pick the root object to the Exporter's list (in this case "tutorialcga"). (Not the proxy)!
@@ -353,7 +339,7 @@ AnimObject
 Pic5: Adding an AnimObject to the Level
 
 *
-[Image: /docs/static/attachments/25034782]
+![Image](https://www.cryengine.com/docs/static/attachments/25034782)
 
 To change the model to the object that you have just created go to the Entity Properties menu. One of the options available is a field called
 **
@@ -387,7 +373,7 @@ It could be that the windsock model is fluttering in your Level. If so, then thi
 Pic6: AnimObjects - model and animation paths
 
 *
-[Image: /docs/static/attachments/25034776]
+![Image](https://www.cryengine.com/docs/static/attachments/25034776)
 
 ##
 Final Results
@@ -395,7 +381,7 @@ Final Results
 *
 Pic7: AnimObject using the newly exported *.cga
 
-[Image: /docs/static/attachments/25034777]
+![Image](https://www.cryengine.com/docs/static/attachments/25034777)
 *
 
 As you can see in the above screenshot we have the AnimObject Entity using the exported *.cga. Also highlighted in the screenshot is the model path that links to your object (objects\tutorial\tutorial_cga\tutorialcga.cga).
@@ -480,7 +466,7 @@ Flow Graph
 Pic8: Flow Graph used to trigger an animation on an AnimObject
 
 *
-[Image: /docs/static/attachments/23434885]
+![Image](https://www.cryengine.com/docs/static/attachments/23434885)
 
 -
 Create a
@@ -565,7 +551,7 @@ Time Configuration
 Pic9: Timeline modification
 *
 
-[Image: /docs/static/attachments/23435053]
+![Image](https://www.cryengine.com/docs/static/attachments/23435053)
 
 -
 Open the
@@ -610,7 +596,7 @@ consistency's sake always return the ball to the center start position and 3: us
 Pic10: Full time line with 3 animations
 *
 
-[Image: /docs/static/attachments/23435138]
+![Image](https://www.cryengine.com/docs/static/attachments/23435138)
 
 Now with all the keyframes in place that cover the 3 separate animations, the entire timeline can be exported to replace the existing "Default" animation.
 
@@ -635,7 +621,7 @@ Go to the CRYENGINE Exporter and underneath the export list (where you select th
 Pic11: Modified timeline length to only cover the range you want to export (0 - 99 frames)
 *
 
-[Image: /docs/static/attachments/23435171]
+![Image](https://www.cryengine.com/docs/static/attachments/23435171)
 
 -
 From the dropdown list change the file type to
@@ -749,7 +735,7 @@ In the following screenshot the Character Tool is open, the asset (*.cga) select
 Pic12: Character Tool showing the selected *.cga and the created animations that are associated with it
 *
 
-[Image: /docs/static/attachments/23435172]
+![Image](https://www.cryengine.com/docs/static/attachments/23435172)
 
 -
 Object active and selected in the Character Tool
@@ -829,4 +815,4 @@ In the following screenshot there are 4 *.cga's lined up and where each one is p
 Pic13: Final output, 4 AnimObjects using the same *.cga, playing 4 different animations
 *
 
-[Image: /docs/static/attachments/25035558]
+![Image](https://www.cryengine.com/docs/static/attachments/25035558)

@@ -12,15 +12,13 @@ Overview
 
 Water Volumes are shape objects which can be used in a variety of different circumstances, such as rivers, lakes, pools, puddles or even oceans.
 
-[Image: /docs/static/attachments/36849699]
+![Image](https://www.cryengine.com/docs/static/attachments/36849699)
 
 ##
 Properties
 
 For the detailed description of the Shape area properties, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869902](
-Shape
-)
+[Shape](Shape.md)
 .
 
 **
@@ -85,9 +83,7 @@ Fog Color Affected By Sun
 
  |
 If true, Sun Color value set in the
-[/docs/static/engines/cryengine-5/categories/23756816](
-Environment Editor (Old as of 26/2)
-)
+[Environment Editor (Old as of 26/2)](/docs/static/engines/cryengine-5/categories/23756816)
  will affect fog color of the water volume.
 
  |
@@ -164,11 +160,11 @@ Caustic Intensity
  |
 Controls the intensity of the caustics (this scales the normals of the surface when rendering to the caustic map, producing stronger caustics).
 
-[Image: /docs/static/attachments/1213737]
+![Image](https://www.cryengine.com/docs/static/attachments/1213737)
  |
-[Image: /docs/static/attachments/1213738]
+![Image](https://www.cryengine.com/docs/static/attachments/1213738)
  |
-[Image: /docs/static/attachments/1213739]
+![Image](https://www.cryengine.com/docs/static/attachments/1213739)
  |
 
 **
@@ -193,11 +189,11 @@ Caustic Tiling
  |
 This is a multiplier for the tiling applied to the surface normals during caustic generation. It's used to scale the caustics generation independently from the surface material in cases of strong tiled normals or vice-versa.
 
-[Image: /docs/static/attachments/1213737]
+![Image](https://www.cryengine.com/docs/static/attachments/1213737)
  |
-[Image: /docs/static/attachments/1213746]
+![Image](https://www.cryengine.com/docs/static/attachments/1213746)
  |
-[Image: /docs/static/attachments/1213744]
+![Image](https://www.cryengine.com/docs/static/attachments/1213744)
  |
 
 **
@@ -222,11 +218,11 @@ Caustic Height
  |
 Controls the height above the water entity in which caustics can be cast. This can be used to cause caustics on overhangs and other nearby objects.
 
-[Image: /docs/static/attachments/1213742]
+![Image](https://www.cryengine.com/docs/static/attachments/1213742)
  |
-[Image: /docs/static/attachments/1213749]
+![Image](https://www.cryengine.com/docs/static/attachments/1213749)
  |
-[Image: /docs/static/attachments/1213748]
+![Image](https://www.cryengine.com/docs/static/attachments/1213748)
  |
 
 **
@@ -476,15 +472,13 @@ Usage Examples
 Caustics
 
 Caustics are a great way to give the water volumes a much bigger visual presence and involve them more into the scenes that has been created. For more information, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816](
-CRYENGINE V Manual
-)
+[CRYENGINE V Manual](/docs/static/engines/cryengine-5/categories/23756816)
 .
 
-[Image: /docs/static/attachments/36849706]
+![Image](https://www.cryengine.com/docs/static/attachments/36849706)
 
  |
-[Image: /docs/static/attachments/36849702]
+![Image](https://www.cryengine.com/docs/static/attachments/36849702)
 
  |
 
@@ -497,9 +491,7 @@ Caustics On
 Fog Shadowing
 
 Fog Shadows gives real visual depth to the water volumes, also making optional use of the global Vol Fog Shadows function available in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848989](
-Level Settings
-)
+[Level Settings](../../Level%20Settings.md)
 .
 
 Due to a technical limitation, using
@@ -512,10 +504,10 @@ Fog Shadowing
 **
  param to be either off or full.
 
-[Image: /docs/static/attachments/36849695]
+![Image](https://www.cryengine.com/docs/static/attachments/36849695)
 
  |
-[Image: /docs/static/attachments/36849694]
+![Image](https://www.cryengine.com/docs/static/attachments/36849694)
 
  |
 
@@ -524,13 +516,13 @@ Vol Fog Shadows Disabled
 Vol Fog Shadows Enabled
  |
 
-[Image: /docs/static/attachments/36849697]
+![Image](https://www.cryengine.com/docs/static/attachments/36849697)
 
  |
-[Image: /docs/static/attachments/36849698]
+![Image](https://www.cryengine.com/docs/static/attachments/36849698)
 
  |
-[Image: /docs/static/attachments/36849693]
+![Image](https://www.cryengine.com/docs/static/attachments/36849693)
 
  |
 
@@ -550,10 +542,10 @@ Depth
 **
  parameter defines both visual and physical depth of the water volume. Things such as the underwater distortion effect is based off the Depth setting.
 
-[Image: /docs/static/attachments/36849703]
+![Image](https://www.cryengine.com/docs/static/attachments/36849703)
 
  |
-[Image: /docs/static/attachments/36849704]
+![Image](https://www.cryengine.com/docs/static/attachments/36849704)
 
  |
 
@@ -569,10 +561,10 @@ With this disabled, the fog settings from the water volume will display infinite
 
 A usage example would be if you had a room that was accessible underneath a water volume, then you would probably activate this setting to prevent the fog from being seen inside the room.
 
-[Image: /docs/static/attachments/36849703]
+![Image](https://www.cryengine.com/docs/static/attachments/36849703)
 
  |
-[Image: /docs/static/attachments/36849705]
+![Image](https://www.cryengine.com/docs/static/attachments/36849705)
 
  |
 
@@ -590,38 +582,30 @@ Height
 **
  parameter is not used for water volumes, it can be useful for visualizing the edges of the volume which would typically be hidden underground.
 
-[Image: /docs/static/attachments/36849692]
+![Image](https://www.cryengine.com/docs/static/attachments/36849692)
 
 ##
 Speed
 
 Although Speed isn't supported by water volumes (because there's no easy way to define direction on an arbitrarily user-designed shape with infinite results) there's an easy way you can physicalize your water volumes.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867737](
-Rivers
-)
+[Rivers](../Misc%20Objects/River%20Tool.md)
 support the Speed parameter and can be placed without any visual representation by simply not applying a material to the object. Layering Rivers on top of your Water volumes (remember to match depths!)
 
 When placing Rivers for this use, make sure to keep them straight (the 'Speed' is applied only for the initial vector and cornering is not supported) and overlap where you want them to change course so they don't get stuck.
 
-[Image: /docs/static/attachments/36849700]
+![Image](https://www.cryengine.com/docs/static/attachments/36849700)
 
  |
-[Image: /docs/static/attachments/36849701]
+![Image](https://www.cryengine.com/docs/static/attachments/36849701)
 
  |
-[Image: /docs/static/attachments/36849696]
+![Image](https://www.cryengine.com/docs/static/attachments/36849696)
 
  |
 
 In the above example, we have three main Rivers (with outside supports to simulate from waterfall) atop the main water volume, carrying several RigidBodyEx entities along for a ride.
 
-[#properties](
-Properties
-)
-[#console-variables](
-Console Variables
-)
-[#usage-examples](
-Usage Examples
-)
+[Properties](#properties)
+[Console Variables](#console-variables)
+[Usage Examples](#usage-examples)

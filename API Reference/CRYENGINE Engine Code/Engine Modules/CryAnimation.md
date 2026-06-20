@@ -7,14 +7,14 @@
 
 ## Child Pages
 
-- [CryAnimation Overview](CryAnimation/CryAnimation Overview.md)
-- [Animation Events](CryAnimation/Animation Events.md)
-- [Limb IK Technical](CryAnimation/Limb IK Technical.md)
-- [Facial Animation Programming](CryAnimation/Facial Animation Programming.md)
-- [Animation Streaming](CryAnimation/Animation Streaming.md)
-- [Animation Debugging](CryAnimation/Animation Debugging.md)
-- [Fall and Play](CryAnimation/Fall and Play.md)
-- [Time in CryAnimation](CryAnimation/Time in CryAnimation.md)
+- [CryAnimation Overview](CryAnimation/CryAnimation%20Overview.md)
+- [Animation Events](CryAnimation/Animation%20Events.md)
+- [Limb IK Technical](CryAnimation/Limb%20IK%20Technical.md)
+- [Facial Animation Programming](CryAnimation/Facial%20Animation%20Programming.md)
+- [Animation Streaming](CryAnimation/Animation%20Streaming.md)
+- [Animation Debugging](CryAnimation/Animation%20Debugging.md)
+- [Fall and Play](CryAnimation/Fall%20and%20Play.md)
+- [Time in CryAnimation](CryAnimation/Time%20in%20CryAnimation.md)
 
 ## Content
 
@@ -51,41 +51,25 @@ Animation Event System
 Asset management and streaming
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306437](
-CryAnimation Overview
-)
+[CryAnimation Overview](CryAnimation/CryAnimation%20Overview.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306438](
-Animation Events
-)
+[Animation Events](CryAnimation/Animation%20Events.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306440](
-Limb IK Technical
-)
+[Limb IK Technical](CryAnimation/Limb%20IK%20Technical.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306439](
-Facial Animation Programming
-)
+[Facial Animation Programming](CryAnimation/Facial%20Animation%20Programming.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306441](
-Animation Streaming
-)
+[Animation Streaming](CryAnimation/Animation%20Streaming.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306443](
-Animation Debugging
-)
+[Animation Debugging](CryAnimation/Animation%20Debugging.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306436](
-Fall and Play
-)
+[Fall and Play](CryAnimation/Fall%20and%20Play.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306444](
-Time in CryAnimation
-)
+[Time in CryAnimation](CryAnimation/Time%20in%20CryAnimation.md)

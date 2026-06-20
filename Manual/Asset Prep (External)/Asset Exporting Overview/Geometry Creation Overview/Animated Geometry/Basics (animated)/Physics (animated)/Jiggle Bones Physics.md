@@ -34,7 +34,7 @@ Assign to Root
 
 Create your bonechain by clicking left.
 
-[Image: /docs/static/attachments/23994267]
+![Image](https://www.cryengine.com/docs/static/attachments/23994267)
 
 It is important that the bonechain is a precise, even line because it defines the
 **
@@ -42,7 +42,7 @@ standard-pose
 **
 . Use snap to grid.
 
-[Image: /docs/static/attachments/23994268]
+![Image](https://www.cryengine.com/docs/static/attachments/23994268)
 
 When you complete the chain by clicking the right mouse button a dialog opens. Make sure
 **
@@ -64,11 +64,11 @@ OK
 **
 , the Spline will be automatically created.
 
-[Image: /docs/static/attachments/23994269]
+![Image](https://www.cryengine.com/docs/static/attachments/23994269)
 
 Create a sphere or something you want to have as the base for the system. Make sure your first point of the SplineIK is inside the object you just created. Then link only the first control box of the Spline-IK to the base, which in this case, is the sphere.
 
-[Image: /docs/static/attachments/23994270]
+![Image](https://www.cryengine.com/docs/static/attachments/23994270)
 
 Apply a Flex-Modifier to the Spline and adjust the values.
 
@@ -109,7 +109,7 @@ Solver:
 Samples:
 **
  2
-[Image: /docs/static/attachments/23994271]
+![Image](https://www.cryengine.com/docs/static/attachments/23994271)
 
 Go to
 **
@@ -117,7 +117,7 @@ Create Panel -> Space Warps -> Forces
 **
  and create a Gravity Node.
 
-[Image: /docs/static/attachments/23994272]
+![Image](https://www.cryengine.com/docs/static/attachments/23994272)
 
 Select your Spline again and in the Rollout
 **
@@ -125,7 +125,7 @@ Forces and Deflectors
 **
  add the Gravity node to the list. Adjust the other modifiers.
 
-[Image: /docs/static/attachments/23994273]
+![Image](https://www.cryengine.com/docs/static/attachments/23994273)
 
 In the Rollout Advanced Springs on the bottom, check
 **
@@ -149,7 +149,7 @@ Hold Shape Springs
 **
 . Tweak the Hold Shape Radius (good radius value might be the Average Edge Length which you can see in the bottom line)
 
-[Image: /docs/static/attachments/23994274]
+![Image](https://www.cryengine.com/docs/static/attachments/23994274)
 
 In the Flex Modifier expand the branch and select Edge Vertices. Then select the first vertex in the Spline which is placed inside the base object (Sphere).
 

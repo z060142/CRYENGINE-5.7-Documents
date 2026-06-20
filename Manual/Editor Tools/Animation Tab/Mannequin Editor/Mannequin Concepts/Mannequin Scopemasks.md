@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934024]
+![Image](https://www.cryengine.com/docs/static/attachments/29934024)
 
 ##
 Overview
@@ -16,28 +16,16 @@ Overview
 Sections
 
 A scopemask is how we call the set of
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-scopes
-)
+[scopes](Mannequin%20Scopes.md)
  that a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-fragmentID
-)
+[fragmentID](../Mannequin%20Files/FragmentID%20Definition%20File%20(xxxActions.xml).md)
  (more correctly: an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308467](
-action
-)
+[action](../Mannequin%20Technical%20Topics/Mannequin%20Actions.md)
 ) will run on.
 
-[#sections](
-Sections
-)
-[#scopemask-examples](
-Scopemask Examples
-)
-[#managing-scopemasks](
-Managing Scopemasks
-)
+[Sections](#sections)
+[Scopemask Examples](#scopemask-examples)
+[Managing Scopemasks](#managing-scopemasks)
 
 ##
 Scopemask Examples
@@ -54,44 +42,30 @@ A fragmentID used during a fully scripted action might need full control of the 
 all
 *
  scopes in the scopemask. Exceptions to this rule might be fully systemic scopes like the LookPose, described in the tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308487](
-Tutorial - Controlling Looking (and Aiming) for AI in Mannequin
-)
+[Tutorial - Controlling Looking (and Aiming) for AI in Mannequin](../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Controlling%20Looking%20(and%20Aiming)%20for%20AI%20in%20Mannequin.md)
 .
 
 ##
 Managing Scopemasks
 
 Typically the scope mask is determined by the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-FragmentID
-)
+[FragmentID](../Mannequin%20Files/FragmentID%20Definition%20File%20(xxxActions.xml).md)
 . Each fragmentID has a scopemask associated to it. (this is set up using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308446](
-FragmentID Editor
-)
+[FragmentID Editor](../Mannequin%20FragmentID%20Editor.md)
  and stored in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-controller definition
-)
+[controller definition](../Mannequin%20Files/Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
 )
 
 It is possible to specify 'overrides' and select different scopemasks based on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-global tagstate
-)
+[global tagstate](Mannequin%20TagState.md)
  and requested fragtags. See the file format section in the article on the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011270](
-controller definition file
-)
+[controller definition file](/docs/static/engines/cryengine-3/categories/1114113/pages/15011270)
  for more on how this is set up.
 
 Optionally the scopemask and the overrides are overridden by the 'forced scopemask' that can be specified by the action itself.
 
 When an action requests a fragmentID and is installed, the action will own the scopes in the fragmentID's scopemask. The system will then start playing fragments on these scopes. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308439](
-Fragment Selection Process
-)
+[Fragment Selection Process](Fragment%20Selection%20Process.md)
  for more information.
 
 For programmers: a scopemask has the type ActionScopes which currently is just a uint32 in which each bit represents a scope. This determines the maximum number of scopes.

@@ -37,37 +37,23 @@ UI
 **
 If you do not see your asset in the Asset Browser, then you can generate the .cryasset file creation on all files by going to the Asset Browser and RMB-clicking in the folder area to generate the specific metadata for assets in that folder.
 
-[#geometry](
-Geometry
-)
-[#textures](
-Textures
-)
-[#geometry](
-Geometry
-)
-[#textures-and-materials](
-Textures and Materials
-)
-[#audio](
-Audio
-)
-[#animation](
-Animation
-)
-[#ui](
-UI
-)
+[Geometry](#geometry)
+[Textures](#textures)
+[Geometry](#geometry)
+[Textures and Materials](#textures-and-materials)
+[Audio](#audio)
+[Animation](#animation)
+[UI](#ui)
 
 ##
 Geometry
 
-[Image: /docs/static/attachments/44959561]
+![Image](https://www.cryengine.com/docs/static/attachments/44959561)
 
 ##
 Textures
 
-[Image: /docs/static/attachments/44959562]
+![Image](https://www.cryengine.com/docs/static/attachments/44959562)
 
 Below are some of the most common asset file types that you will encounter inside of the Engine:
 
@@ -108,9 +94,7 @@ Textures and Materials
 CryTif
 **
  plugin. (Learn how to install the plug-in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27592411](
-here
-)
+[here](/docs/static/engines/cryengine-5/categories/23756816/pages/27592411)
 .) A TIFF Tagged Image File Format) file is a high quality 2D raster image plus additional metadata used by the Resource Compiler (RC). The RC transforms the .tif format into the target file format of the platform being used. While TIFF images can use LZW image compression, it is lossless (as opposed to lossy JPEG compression).
 
 -
@@ -192,9 +176,7 @@ The character definition file is created in the Character Editor in Sandbox. It 
 
 For a (skeletal) character in the game, there are certain definitions that have to be made in a single unified XML file-structure called a .chrparams file. The .chrparams file has the same name as the character file to which it refers.
 Please see The
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310772](
-AnimEvents and Tracks Database Files
-)
+[AnimEvents and Tracks Database Files](/docs/static/engines/cryengine-3/categories/1114113/pages/1310772)
  document for more information.
 
 **
@@ -203,9 +185,7 @@ AnimEvents and Tracks Database Files
  (Intermediate Character Animation File)
 
 The intermediate character animation file contains the animated bone data for a specific character. The .i_caf files can be exchanged between characters with similar bone structures. The intermediate character animation file stores animation in uncompressed format and is used in production. Such files are created with DCC plugins, see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310796](
-Exporting Animations
-)
+[Exporting Animations](/docs/static/engines/cryengine-3/categories/1114113/pages/1310796)
  for details.
 
 **
@@ -214,9 +194,7 @@ Exporting Animations
  (Animation Settings)
 
 The animation settings file contains per-animation compression settings. This is a sidecar file that is stored next to an .i_caf file and describes how it should be compiled by the Resource Compiler. Animation Settings are created by the Animation Import tool in Sandbox, see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310796](
-Exporting Animations
-)
+[Exporting Animations](/docs/static/engines/cryengine-3/categories/1114113/pages/1310796)
 .
 
 **
@@ -232,9 +210,7 @@ Compressed representation of the i_caf format. This format uses lossy compressio
  (Blend-Space)
 
 Blend space defines how multiple animation assets are blended together. Blend spaces are parameterized at runtime with locomotion parameters such as movement speed, movement direction, turning angle or slope. See
-[/docs](
-Blend Spaces
-)
+[Blend Spaces](/docs)
 .
 
 .

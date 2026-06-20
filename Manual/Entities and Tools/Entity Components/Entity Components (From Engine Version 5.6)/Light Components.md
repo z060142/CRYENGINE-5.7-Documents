@@ -376,9 +376,7 @@ Attenuation Bulb Size
 **
  |
 Controls the falloff exponentially from the origin. A value of 1 means that the light is at full intensity (within a 1 meter ball) before it begins to falloff. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215193](
-Attenuation and Falloff
-)
+[Attenuation and Falloff](../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Light%20Entity.md)
  for more information.
  |
 
@@ -906,15 +904,9 @@ The animation speed of the light.
 
  |
 
-[#environment-probe](
-Environment Probe
-)
-[#point-light](
-Point Light
-)
-[#projector-light](
-Projector Light
-)
+[Environment Probe](#environment-probe)
+[Point Light](#point-light)
+[Projector Light](#projector-light)
 **
 Related Content
 **

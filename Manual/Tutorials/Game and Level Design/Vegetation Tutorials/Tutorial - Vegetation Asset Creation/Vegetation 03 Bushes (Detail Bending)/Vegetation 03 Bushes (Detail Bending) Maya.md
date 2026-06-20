@@ -17,7 +17,7 @@ Detail Bending
  system and show you the process of how to setup vertex movement through vertex paint. We will use all three vertex color channels to control different movement behaviors for the leaf geometry of our bush asset. This effect is meant to be used on vegetation objects and will help us to create a performance friendly bending effect on the bush asset. It works best for vegetation with big leaves like palm trees and fern bushes.
 
 *
-[Image: /docs/static/attachments/24157099]
+![Image](https://www.cryengine.com/docs/static/attachments/24157099)
 
 Pic1: Final asset with underlying vertex color for this system to work
 *
@@ -30,9 +30,7 @@ Tutorial Files
 Source Maya scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25523838](
-GameSDK_vegtut03_files.zip
-)
+[GameSDK_vegtut03_files.zip](/docs/static/attachments/25523838)
 **
 
 ##
@@ -42,24 +40,16 @@ Before you continue with this tutorial, make sure to have read and understood th
 :
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963475](
-How to Install CryMayaTools
-)
+[How to Install CryMayaTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308292](
-The Basic CRYENGINE Maya Workflow
-)
+[The Basic CRYENGINE Maya Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205569](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools/CRYENGINE%20User%20Interface%20in%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-Maya Unit Scale to Match up With CRYENGINE Unit System
-)
+[Maya Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Helpful Information
@@ -152,7 +142,7 @@ Material Group
 **
  and have any Maya shader assigned to it. Assign appropriate names to the Material Group and its shader, so you can find them later.
 
-[Image: /docs/static/attachments/24157112]
+![Image](https://www.cryengine.com/docs/static/attachments/24157112)
 
 *
 Pic2: Material Setup
@@ -185,7 +175,7 @@ detail_bendingMAT
 **
 >
 `
-[Image: /docs/static/attachments/24157113]
+![Image](https://www.cryengine.com/docs/static/attachments/24157113)
 
 *
 Pic3: Exporting out the *.mtl file
@@ -205,7 +195,7 @@ UV Editor
  to adjust its UV shell to fit around one of the leaves on the texture.
 
 *
-[Image: /docs/static/attachments/24157102]
+![Image](https://www.cryengine.com/docs/static/attachments/24157102)
 
 *
 Pic4: Geometry of a single leaf
@@ -222,7 +212,7 @@ Duplicate
  function to make several copies of the single leaf. You are free to scale, rotate and translate the leaves. This does not matter because the mesh objects use the parent group node transformation matrix.
 
 *
-[Image: /docs/static/attachments/24157114]
+![Image](https://www.cryengine.com/docs/static/attachments/24157114)
 
 *
 Pic5: Single fern leaf duplicated several time to form the bush
@@ -268,7 +258,7 @@ Detail Bending
 **
  in your vegetation Material, you might end up with the leaf folding upward along the center line of the leaf. Hence, you have to take special care while using these values. It's recommended to keep the changes to small values, such as 0.1 steps.
 
-[Image: /docs/static/attachments/24157115]
+![Image](https://www.cryengine.com/docs/static/attachments/24157115)
 
 *
 Pic6: Start with a bright blue, so you have no movement at all for each leaf
@@ -280,7 +270,7 @@ Pic:7
 *
 . This way you get the bottom staying in place while the tip of the leaves will undulate in the wind.
 
-[Image: /docs/static/attachments/24157116]
+![Image](https://www.cryengine.com/docs/static/attachments/24157116)
 
 *
 Pic7: Blue gradient
@@ -288,7 +278,7 @@ Pic7: Blue gradient
 
 Now for the detail bending to shine we need to add the red component to the vertex colors. We will begin with the second column of vertices next to the edges of the leaf. Assign them a red value of 100.
 
-[Image: /docs/static/attachments/24157117]
+![Image](https://www.cryengine.com/docs/static/attachments/24157117)
 
 *
 Pic8: Begin adding the red component to the vertex color (on the penultimate vertex row)
@@ -296,7 +286,7 @@ Pic8: Begin adding the red component to the vertex color (on the penultimate ver
 
 Since we want the edge of the fern bush to bend the most, we will give these vertices a bright red. But we do not have enough geometry resolution to really add a nice smooth bending deformation. We should stick with values lower than 100% Red (255,0,0) and aim for the color (175,0,0). Keep in mind, you must not replace the color.
 
-[Image: /docs/static/attachments/24157118]
+![Image](https://www.cryengine.com/docs/static/attachments/24157118)
 
 *
 Pic9: Adding the last red value to the outer edges of the leaves
@@ -305,7 +295,7 @@ Pic9: Adding the last red value to the outer edges of the leaves
 For the time-shifting effect, we need to add the green component to the vertex colors. Depending on how many copies of the leaves you made, you can randomly add a green value to the vertex colors. You may want to add gradients of green to a single leaves or change a single green color for a whole leaf. This is up to you. But the time-shifting effect of the green channel is so subtle, you will hardly notice it if you do not make several fern bushes with different green vertex colors to compare.
 
 *
-[Image: /docs/static/attachments/24157119]
+![Image](https://www.cryengine.com/docs/static/attachments/24157119)
 
 Pic10: Adding a green component to make a time-shifting effect
 *
@@ -320,7 +310,7 @@ combine
  the mesh. This is useful if you want to try different vertex colors, you can pick the individual leaf for manipulation.
 
 *
-[Image: /docs/static/attachments/24157120]
+![Image](https://www.cryengine.com/docs/static/attachments/24157120)
 
 Pic11: Final Maya scene hierarchy to CRYENGINE export
 *
@@ -336,28 +326,12 @@ Vegetation
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285896](
-Vegetation 03 Bushes (Detail Bending) CRYENGINE
-)
+[Vegetation 03 Bushes (Detail Bending) CRYENGINE](Vegetation%2003%20Bushes%20(Detail%20Bending)%20CRYENGINE.md)
 **
-[#tutorial-files](
-Tutorial Files
-)
-[#pre-requisites-for-this-tutorial](
-Pre-requisites for this Tutorial
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-maya-setup](
-Initial Maya setup
-)
-[#material](
-Material
-)
-[#geometry](
-Geometry
-)
-[#continue-to-cryengine](
-Continue to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Pre-requisites for this Tutorial](#pre-requisites-for-this-tutorial)
+[Helpful Information](#helpful-information)
+[Initial Maya setup](#initial-maya-setup)
+[Material](#material)
+[Geometry](#geometry)
+[Continue to CRYENGINE](#continue-to-cryengine)

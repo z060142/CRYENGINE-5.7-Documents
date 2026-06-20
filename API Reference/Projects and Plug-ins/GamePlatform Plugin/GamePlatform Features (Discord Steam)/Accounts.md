@@ -105,13 +105,9 @@ Function::GamePlatform::Service::Accounts::GetAvatar
  |
 
 Some platforms only have one size of avatars (e.g. Discord), while others only provide the Small size by default. To get the Medium and Large sizes, you need to use the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430#Accounts-requestuser](
-RequestUserInformation
-)
+[RequestUserInformation](Accounts.md#Accounts-requestuser)
  function and wait for the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430#Accounts-onavatar](
-OnAvatarImageLoaded
-)
+[OnAvatarImageLoaded](Accounts.md#Accounts-onavatar)
  event.
 
 ##
@@ -202,13 +198,9 @@ Requests user information (nickname, avatar) from the remote server for the spec
 
 Listen for
  the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430#Accounts-onpersona](
-OnPersonaStateChanged
-)
+[OnPersonaStateChanged](Accounts.md#Accounts-onpersona)
 and
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430#Accounts-onavatar](
-OnAvatarImageLoaded
-)
+[OnAvatarImageLoaded](Accounts.md#Accounts-onavatar)
  events for changes.
 Platform(s)
  |
@@ -338,42 +330,16 @@ Schematyc Nodes
 Signal::Receive::[EntityName]::Accounts::PlatformSignalReceiver::Accounts::OnPersonaStateChanged
  |
 
-[#account-service-functions](
-Account Service Functions
-)
-[#isfriendwith](
-IsFriendWith
-)
-[#getaccountinfo](
-GetAccountInfo
-)
-[#getavatar](
-GetAvatar
-)
-[#getblockedaccounts](
-GetBlockedAccounts
-)
-[#getfriendaccounts](
-GetFriendAccounts
-)
-[#getlocalaccount](
-GetLocalAccount
-)
-[#requestuserinformation](
-RequestUserInformation
-)
-[#account-service-events](
-Account Service Events
-)
-[#onaccountadded](
-OnAccountAdded
-)
-[#onaccountremoved](
-OnAccountRemoved
-)
-[#onavatarimageloaded](
-OnAvatarImageLoaded
-)
-[#onpersonastatechanged](
-OnPersonaStateChanged
-)
+[Account Service Functions](#account-service-functions)
+[IsFriendWith](#isfriendwith)
+[GetAccountInfo](#getaccountinfo)
+[GetAvatar](#getavatar)
+[GetBlockedAccounts](#getblockedaccounts)
+[GetFriendAccounts](#getfriendaccounts)
+[GetLocalAccount](#getlocalaccount)
+[RequestUserInformation](#requestuserinformation)
+[Account Service Events](#account-service-events)
+[OnAccountAdded](#onaccountadded)
+[OnAccountRemoved](#onaccountremoved)
+[OnAvatarImageLoaded](#onavatarimageloaded)
+[OnPersonaStateChanged](#onpersonastatechanged)

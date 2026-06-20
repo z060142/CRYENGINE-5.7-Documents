@@ -36,7 +36,7 @@ FBX export
 :
 **
 
-[Image: /docs/static/attachments/64290866]
+![Image](https://www.cryengine.com/docs/static/attachments/64290866)
 
 **
 *
@@ -128,7 +128,7 @@ Save
 **
 . The following window will pop up:
 
-[Image: /docs/static/attachments/64290867]
+![Image](https://www.cryengine.com/docs/static/attachments/64290867)
 
 *
 3ds Max FBX Export window
@@ -210,7 +210,7 @@ Include → Object Types
 **
  in the panel on the right, choose which object types you want to include in your .fbx file:
 
-[Image: /docs/static/attachments/64290869]
+![Image](https://www.cryengine.com/docs/static/attachments/64290869)
 
 *
 Blender File View window
@@ -307,18 +307,9 @@ Wait for the asset to be imported and you're done!
 ##
 Video Tutorial
 
-[#maya](
-Maya
-)
-[#3ds-max](
-3ds Max
-)
-[#blender](
-Blender
-)
-[#in-cryengine](
-In CRYENGINE
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=SYfr_MnFecA&feature=youtu.be]
+[Maya](#maya)
+[3ds Max](#3ds-max)
+[Blender](#blender)
+[In CRYENGINE](#in-cryengine)
+[Video Tutorial](#video-tutorial)

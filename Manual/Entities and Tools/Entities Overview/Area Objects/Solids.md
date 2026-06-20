@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933297]
+![Image](https://www.cryengine.com/docs/static/attachments/29933297)
 
 ##
 Overview
@@ -18,9 +18,7 @@ Overview
 Designer Tool
 
 With the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534693](
-Designer Tool
-)
+[Designer Tool](../../../Editor%20Tools/Designer%20Tool%20Tab.md)
 , any complex area for sound can be created. You can enter it by clicking
 **
 Edit
@@ -78,15 +76,7 @@ Go to "Solid Edit Mode"
 
 2. Click "Designer" in the panel on the right to enter the edit mode.
 
-[#designer-tool](
-Designer Tool
-)
-[#display-of-memory-usage](
-Display of Memory Usage
-)
-[#workflow](
-Workflow
-)
-[#go-to-solid-edit-mode](
-Go to "Solid Edit Mode"
-)
+[Designer Tool](#designer-tool)
+[Display of Memory Usage](#display-of-memory-usage)
+[Workflow](#workflow)
+[Go to "Solid Edit Mode"](#go-to-solid-edit-mode)

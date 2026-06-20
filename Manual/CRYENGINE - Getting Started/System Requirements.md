@@ -139,39 +139,27 @@ Please also keep in mind, that integrated GPUs share RAM with the CPU, thus resu
 Furthermore, for full DirectX 11 compatibility not only does the OS have to support it, but so does the GPU and at a hardware feature level. Hence, it doesn’t matter that the Windows OS is DX11 capable, the GPU MUST be too.
 
 Check your GPU manufacturer’s website for more info (
-[http://www.nvidia.com/content/global/global.php](
-NVidia
-)
+[NVidia](http://www.nvidia.com/content/global/global.php)
  or
-[https://www.amd.com/en/home](
-AMD
-)
+[AMD](https://www.amd.com/en/home)
 )
 
 Software
 Ensure that you have the most
-[https://support.microsoft.com/en-us/help/179113/how-to-install-the-latest-version-of-directx](
-up to date version of Direct X
-)
+[up to date version of Direct X](https://support.microsoft.com/en-us/help/179113/how-to-install-the-latest-version-of-directx)
 installed on your PC - this is particularly important after installing Windows from scratch when it is advisable to re-run the installation manually.
 
 It’s also advisable to install all Visual C++ redistributables, these are available
-[https://support.microsoft.com/en-us/kb/2977003](
-here.
-)
+[here.](https://support.microsoft.com/en-us/kb/2977003)
  This is particularly important if you have performed a new installation of Windows (minimum version Visual C++ 2015).
 
 .NET Framework should be installed and up to date, it's available from
-[https://www.microsoft.com/net/download/framework](
-here
-)
+[here](https://www.microsoft.com/net/download/framework)
 .
 
 Windows Update
 If you encounter issues with API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL or similar missing on launch, ensure that Windows Update is enabled.
 
 Specifically, this
-[https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](
-update
-)
+[update](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
  is required to be installed.

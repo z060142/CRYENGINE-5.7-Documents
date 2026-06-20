@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933206]
+![Image](https://www.cryengine.com/docs/static/attachments/29933206)
 
 ##
 Overview
@@ -23,15 +23,9 @@ When you open the editor you will see the following panels:
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#signal-view](
-Signal View
-)
-[#possible-future-improvements](
-Possible Future Improvements
-)
+[Sections](#sections)
+[Signal View](#signal-view)
+[Possible Future Improvements](#possible-future-improvements)
 
 ##
 Signal View

@@ -12,7 +12,7 @@ Overview
 
 The Perspective Viewport is the only Viewport that is adjustable. On this page, we'll discuss the Display Settings.
 
-[Image: /docs/static/attachments/35953484]
+![Image](https://www.cryengine.com/docs/static/attachments/35953484)
 
 ##
 Hide by Category
@@ -45,7 +45,7 @@ Solid
 **
 renders the scene in solid mode, which is the default mode:
 
-[Image: /docs/static/attachments/35953494]
+![Image](https://www.cryengine.com/docs/static/attachments/35953494)
 
 **
 Wireframe
@@ -53,7 +53,7 @@ Wireframe
 renders the scene in wireframe mode:
 
 **
-[Image: /docs/static/attachments/35953493]
+![Image](https://www.cryengine.com/docs/static/attachments/35953493)
 
 **
 
@@ -65,7 +65,7 @@ Safe Frame
  |
 Displays a Target Aspect Ratio frame to show what is visible in game mode:
 
-[Image: /docs/static/attachments/35953491]
+![Image](https://www.cryengine.com/docs/static/attachments/35953491)
 
  |
 
@@ -186,18 +186,8 @@ If the information for each eye comes in the wrong order, you can flip the two a
 
  |
 
-[#hide-by-category](
-Hide by Category
-)
-[#render-types](
-Render Types
-)
-[#display-options](
-Display Options
-)
-[#profile-options](
-Profile Options
-)
-[#stereo-settings](
-Stereo Settings
-)
+[Hide by Category](#hide-by-category)
+[Render Types](#render-types)
+[Display Options](#display-options)
+[Profile Options](#profile-options)
+[Stereo Settings](#stereo-settings)

@@ -13,9 +13,7 @@ Overview
 The Flowgraph is the implementation of visual scripting, so allowing non-programmers to interact with different parts of CRYENGINE.
 
 For more information about the Flowgraph in the Sandbox Manual see:
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048897](
-Flow Graph Editor
-)
+[Flow Graph Editor](/docs/static/engines/cryengine-3/categories/1114113/pages/1048897)
 .
 
 ##

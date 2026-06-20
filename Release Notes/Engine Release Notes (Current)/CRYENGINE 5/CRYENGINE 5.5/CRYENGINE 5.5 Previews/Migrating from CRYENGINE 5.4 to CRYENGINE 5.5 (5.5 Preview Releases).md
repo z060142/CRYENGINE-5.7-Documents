@@ -87,9 +87,7 @@ Upgrading a Template Project (Assets and Game Code)
 
 **
 Updating your game code is only necessary if you have made edits to the source code of your game. In this case, you should refer your assigned programmer to the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962794](
-Important CRYENGINE 5.5 Data and Code Changes (5.5 Preview Releases)
-)
+[Important CRYENGINE 5.5 Data and Code Changes (5.5 Preview Releases)](Important%20CRYENGINE%205.5%20Data%20and%20Code%20Changes%20(5.5%20Preview%20Releases).md)
 .
 **
 
@@ -160,13 +158,9 @@ Upgrading the GameSDK project (Assets and Game Code)
 
 **
 Updating your game code is only necessary if you have made edits to the source code of your game. In this case, you should refer your assigned programmer to the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962794](
-Important CRYENGINE 5.5 Data and Code Changes (5.5 Preview Releases)
-)
+[Important CRYENGINE 5.5 Data and Code Changes (5.5 Preview Releases)](Important%20CRYENGINE%205.5%20Data%20and%20Code%20Changes%20(5.5%20Preview%20Releases).md)
 . Since the GameSDK code is only contained within the Engine source code, building the Engine is outside the scope of this guide, but details can be found on our documentation pages
-[/docs](
-here
-)
+[here](/docs)
 .
 **
 

@@ -32,9 +32,7 @@ Saving and Loading Layouts.
 
 -
 Easier access to
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873106](
-Personalization
-)
+[Personalization](Personalization.md)
 .
 
 -
@@ -77,9 +75,7 @@ CAssetEditor:
 **
 Adds extra functionality relevant to editing asset types.
 In this case please follow the documentation on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874315](
-Asset System 5.5.2
-)
+[Asset System 5.5.2](/docs/static/engines/cryengine-5/categories/23756816/pages/26874315)
 .
 
 One most basic example of a CDockableEditor can be found in

@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [CAT Bones Proxy and Ragdoll Setup](Tutorial - Setting up a CAT Rig for CRYENGINE in 3ds Max/CAT Bones Proxy and Ragdoll Setup.md)
+- [CAT Bones Proxy and Ragdoll Setup](Tutorial%20-%20Setting%20up%20a%20CAT%20Rig%20for%20CRYENGINE%20in%203ds%20Max/CAT%20Bones%20Proxy%20and%20Ragdoll%20Setup.md)
 
 ## Content
 
@@ -16,15 +16,13 @@ Overview
 
 In this tutorial we will cover the process of setting up a CAT Rig in 3ds Max. This tutorial is not covering the modeling or texturing process. It´s an overview how to setup your mesh with CAT, going over the skinning process, create an animation and export it into CRYENGINE. CAT (Character Animation Toolkit) is a 3ds Max plug-in. It offers a simple interface and gets good result whenever you are creating your own custom rigs or using an existing rig. Further information about this tool can be found at the
 **
-[https://knowledge.autodesk.com/support/3ds-max/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/3DSMax/files/GUID-EA1D6D09-A2CD-4204-8093-A7AE5EC5E333-htm.html](
-Autodesk documentation
-)
+[Autodesk documentation](https://knowledge.autodesk.com/support/3ds-max/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/3DSMax/files/GUID-EA1D6D09-A2CD-4204-8093-A7AE5EC5E333-htm.html)
 **
 .
 
 *
 
-[Image: /docs/static/attachments/26512600]
+![Image](https://www.cryengine.com/docs/static/attachments/26512600)
 
 Pic1: Mesh with CAT Rig and walk animation
 *
@@ -36,23 +34,17 @@ Before you we continue make sure that you know about the following information:
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-The basic CRYENGINE 3ds Max workflow
-)
+[The basic CRYENGINE 3ds Max workflow](../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-3ds Max unit scale to match up with CRYENGINE unit system
-)
+[3ds Max unit scale to match up with CRYENGINE unit system](../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 **
 
 ##
@@ -81,9 +73,7 @@ Is recommended to test the scale with a CGF export, also the material setup
 
 For a documentation about how to export a CGF your can find out more information
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-here
-)
+[here](../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 **
 .
 
@@ -148,7 +138,7 @@ eye_lash
 *
 
 *
-[Image: /docs/static/attachments/26512601]
+![Image](https://www.cryengine.com/docs/static/attachments/26512601)
 
 *
 Pic2: 3ds Max Material IDs applied to the mesh
@@ -181,7 +171,7 @@ Create Material
 *
 
 *
-[Image: /docs/static/attachments/26512602]
+![Image](https://www.cryengine.com/docs/static/attachments/26512602)
 
 *
 Pic3: 3ds Max Material IDs applied to the mesh
@@ -222,7 +212,7 @@ Layer Explorer
 **
  and name it "Cattle". We are adding our Cattle mesh to this layer. For the CAT Rig we also need a Layer, so let´s create a second Layer and call it "CAT".
 
-[Image: /docs/static/attachments/26512604]
+![Image](https://www.cryengine.com/docs/static/attachments/26512604)
 
 *
 Pic4: Setup in Layer Explorer
@@ -232,7 +222,7 @@ Before we start, make sure the your mesh is facing in Y up, and X + direction (I
 
 The pivot of the mesh should be in the 0,0,0 position.
 
-[Image: /docs/static/attachments/26512887]
+![Image](https://www.cryengine.com/docs/static/attachments/26512887)
 
 *
 Pic5: Layer Explorer Setup
@@ -265,7 +255,7 @@ CAT Objects
 
 *
 *
-[Image: /docs/static/attachments/26512605]
+![Image](https://www.cryengine.com/docs/static/attachments/26512605)
 
 Pic6: Create Panel and choosing CAT Objects
 *
@@ -273,7 +263,7 @@ Pic6: Create Panel and choosing CAT Objects
 *
 
 *
-[Image: /docs/static/attachments/26512606]
+![Image](https://www.cryengine.com/docs/static/attachments/26512606)
 
 *
 Pic7: Choose the CAT Parent and choose the Horse preset
@@ -316,7 +306,7 @@ CRYENGINE needs the Rig with the belonging animation in the Y + direction.
 
 *
 *
-[Image: /docs/static/attachments/26512607]
+![Image](https://www.cryengine.com/docs/static/attachments/26512607)
 
 Pic8: Created Horse rig in the Scene Center and rotate it with the Xform 180 degrees
 *
@@ -325,16 +315,14 @@ The next step is to fit the rig into our actual mesh. Select the bones, move and
 
 You can also customize your bones to fit your actual shape more. You can find out more about this in the
 **
-[http://download.autodesk.com/esd/3dsmax/cat-help-2010/index.html?url=WS7af5cac11814013a17ba0fbf11fde8bf84b-7ff8.htm,topicNumber=d0e375](
-Autodesk documentation
-)
+[Autodesk documentation](http://download.autodesk.com/esd/3dsmax/cat-help-2010/index.html?url=WS7af5cac11814013a17ba0fbf11fde8bf84b-7ff8.htm,topicNumber=d0e375)
 **
 .
 
 *
 
 *
-[Image: /docs/static/attachments/26512609]
+![Image](https://www.cryengine.com/docs/static/attachments/26512609)
 
 *
 Pic9: The final rig setup fitting to the cattle geometry with helper Dummy
@@ -362,7 +350,7 @@ Select and Link
 
 *
 *
-[Image: /docs/static/attachments/26512610]
+![Image](https://www.cryengine.com/docs/static/attachments/26512610)
 
 Pic10: Hierarchy of our Rig Setup and Dummy linking in the Schematic View
 *
@@ -392,7 +380,7 @@ Add
 *
 
 *
-[Image: /docs/static/attachments/26512611]
+![Image](https://www.cryengine.com/docs/static/attachments/26512611)
 
 *
 Pic11: Add Bones to your Skin Modifier
@@ -412,7 +400,7 @@ Bone Affect Limit
 
 *
 *
-[Image: /docs/static/attachments/26512612]
+![Image](https://www.cryengine.com/docs/static/attachments/26512612)
 
 Pic12: Set Bone Affect Limit to 8
 *
@@ -426,7 +414,7 @@ Undo
 *
 
 *
-[Image: /docs/static/attachments/26512614]
+![Image](https://www.cryengine.com/docs/static/attachments/26512614)
 
 *
 Pic13: Editing Envelopes
@@ -436,7 +424,7 @@ Pic13: Editing Envelopes
 
 *
 *
-[Image: /docs/static/attachments/26512615]
+![Image](https://www.cryengine.com/docs/static/attachments/26512615)
 
 Pic14: Start skinning and painting weights by hand for each bone
 *
@@ -516,7 +504,7 @@ Save Pose
 
 *
 *
-[Image: /docs/static/attachments/26512616]
+![Image](https://www.cryengine.com/docs/static/attachments/26512616)
 
 Pic15: Create abolute animation layer and save binding pose
 *
@@ -535,7 +523,7 @@ Motion
 *
 
 *
-[Image: /docs/static/attachments/26512617]
+![Image](https://www.cryengine.com/docs/static/attachments/26512617)
 
 *
 Pic16: CAT Motion Layer, with default walk animation
@@ -618,7 +606,7 @@ The *.chr file allows us to show the blank rig in the Engine, so we can easily c
 *
 
 *
-[Image: /docs/static/attachments/26512618]
+![Image](https://www.cryengine.com/docs/static/attachments/26512618)
 
 *
 Pic16: Character File (*chr.) with Skin Modifier
@@ -683,7 +671,7 @@ Export Nodes
 
 *
 *
-[Image: /docs/static/attachments/26512619]
+![Image](https://www.cryengine.com/docs/static/attachments/26512619)
 
  Pic17: Skin Export Setup in the CRYENGINE3 EXPORTER
 *
@@ -696,7 +684,7 @@ For exporting the bones, the first thing we have to do is to go to our "Motion P
 *
 
 *
-[Image: /docs/static/attachments/26512620]
+![Image](https://www.cryengine.com/docs/static/attachments/26512620)
 
 *
 Pic18: Play mode animation layer is on, stop mode mesh has its binding pose and no animation is playing
@@ -802,7 +790,7 @@ File -> New Character
 *
 
 *
-[Image: /docs/static/attachments/26512621]
+![Image](https://www.cryengine.com/docs/static/attachments/26512621)
 
 *
 Pic19: Create a New Character in the Character Tool
@@ -813,7 +801,7 @@ Next click on the new created "Cattle.cdf" file
 *
 
 *
-[Image: /docs/static/attachments/26512623]
+![Image](https://www.cryengine.com/docs/static/attachments/26512623)
 
 *
 Pic20: New created Cattle.cdf
@@ -874,7 +862,7 @@ Cattle_eye.skin
 **
  file to the geometry tab, same goes for the texture.
 
-[Image: /docs/static/attachments/26512624]
+![Image](https://www.cryengine.com/docs/static/attachments/26512624)
 
 *
 Pic21: Chr file with blank skeleton and bone naming
@@ -883,7 +871,7 @@ Pic21: Chr file with blank skeleton and bone naming
 *
 
 *
-[Image: /docs/static/attachments/26512625]
+![Image](https://www.cryengine.com/docs/static/attachments/26512625)
 
 *
 Pic22: CDF with skin attachment
@@ -922,7 +910,7 @@ Add
 
 *
 
-[Image: /docs/static/attachments/26512599]
+![Image](https://www.cryengine.com/docs/static/attachments/26512599)
 
 Pic23: Adding an Animation Set Filter
 
@@ -948,36 +936,14 @@ To play the animation make a double click on the Cattle.cdf file.
 
 If the animation is not playing, shut down the CRYENGINE Editor and reopen it.
 
-[#pre-requisites-for-this-tutorial](
-Pre-requisites for this Tutorial
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-3ds-max-setup](
-Initial 3ds Max Setup
-)
-[#material](
-Material
-)
-[#exporting-the-material](
-Exporting the Material
-)
-[#geometry](
-Geometry
-)
-[#create-a-cat-rig](
-Create a CAT Rig
-)
-[#skinning](
-Skinning
-)
-[#animation](
-Animation
-)
-[#setup-for-cryengine-export](
-Setup for CRYENGINE Export
-)
-[#cryengine-character-tool-setup](
-CRYENGINE Character Tool Setup
-)
+[Pre-requisites for this Tutorial](#pre-requisites-for-this-tutorial)
+[Helpful Information](#helpful-information)
+[Initial 3ds Max Setup](#initial-3ds-max-setup)
+[Material](#material)
+[Exporting the Material](#exporting-the-material)
+[Geometry](#geometry)
+[Create a CAT Rig](#create-a-cat-rig)
+[Skinning](#skinning)
+[Animation](#animation)
+[Setup for CRYENGINE Export](#setup-for-cryengine-export)
+[CRYENGINE Character Tool Setup](#cryengine-character-tool-setup)

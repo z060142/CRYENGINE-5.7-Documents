@@ -9,23 +9,17 @@
 
 -
 For a list of Qt module licenses related to the specific version of Qt used in CRYENGINE, please refer to the Third-Party Licenses on the
-[https://doc.qt.io/archives/qt-5.12/licenses-used-in-qt.html](
- Qt website
-)
+[Qt website](https://doc.qt.io/archives/qt-5.12/licenses-used-in-qt.html)
 .
 
 -
 The source code for the Qt library used can be downloaded
-[https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/Qt-5.12.3-Src.7z](
-here
-)
+[here](https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/Qt-5.12.3-Src.7z)
 .
 
 -
 The source code for the PySide2 library used can be found
-[https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/PySide2-fef1bfb9-Src.zip](
-here
-)
+[here](https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/PySide2-fef1bfb9-Src.zip)
 .
 
 ```

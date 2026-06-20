@@ -52,7 +52,7 @@ If the dimensions of the Photoshop image that you are trying to save are not a p
 
 Directly below the preview images, you can see different image properties such as resolution, number of mip maps, texture format, and memory. The original values are displayed on the left, the values on the right are based on the chosen preset or the custom settings.
 
-[Image: /docs/static/attachments/25505572]
+![Image](https://www.cryengine.com/docs/static/attachments/25505572)
 
 Number
  |
@@ -198,7 +198,7 @@ Presets
 The presets define how a texture gets compiled for in-game usage.
 
 *
-[Image: /docs/static/attachments/25505574]
+![Image](https://www.cryengine.com/docs/static/attachments/25505574)
 
 *
 
@@ -305,9 +305,7 @@ Displacement
 **
  |
 Grey-scale Alpha channel use only. Used for
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450127](
-Displacement Maps
-)
+[Displacement Maps](../../../../Graphics%20%26%20Rendering/Shaders/Shaders%20in%20CRYENGINE/Shader%20Features%20(Shader%20Generation%20Params)/Displacement%20Phong%20PN%20Triangles%20Tesselation%20-%20Shader%20Generation%20Params.md)
  textures.
 
  |
@@ -318,9 +316,7 @@ Terrain_Albedo
  |
 For use with the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449280](
-Terrain.Layer Shader
-)
+[Terrain.Layer Shader](../../../../Graphics%20%26%20Rendering/Shaders/Shaders%20in%20CRYENGINE/Shader%20Reference/Terrain.Layer%20Shader.md)
 **
 . Automatically applies a high-pass filter to remove low frequency colors.
 
@@ -347,9 +343,7 @@ Detail_MergedAlbedoNormalsSmoothness
  |
 For use with
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449936](
-Detail Mapping
-)
+[Detail Mapping](../../../../Graphics%20%26%20Rendering/Shaders/Shaders%20in%20CRYENGINE/Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
 **
 .
 
@@ -361,9 +355,7 @@ Detail_MergedAlbedoNormalsSmoothness_Lossless
  |
 For use with
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449936](
-Detail Mapping
-)
+[Detail Mapping](../../../../Graphics%20%26%20Rendering/Shaders/Shaders%20in%20CRYENGINE/Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
 **
 . No compression.
 
@@ -410,9 +402,7 @@ ColorChart
  |
 For use with ColorChart textures. See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872965](
-Tutorial - Color Grading
-)
+[Tutorial - Color Grading](../../../../Post-processing/Tutorial%20-%20Color%20Grading.md)
 **
  for more information.
 
@@ -437,9 +427,9 @@ _mask
 *
  texture filenames.
 
-[Image: /docs/static/attachments/44972224]
+![Image](https://www.cryengine.com/docs/static/attachments/44972224)
 
-[Image: /docs/static/attachments/44972226]
+![Image](https://www.cryengine.com/docs/static/attachments/44972226)
 *
 **
 
@@ -463,9 +453,7 @@ LensOptics
  |
 For use with
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869088](
-Lens Flare Editor
-)
+[Lens Flare Editor](../../../../Editor%20Tools/Lens%20Flare%20Editor.md)
 **
  textures. No mips will prevent blurry results.
 
@@ -611,7 +599,7 @@ Resolution Tab
 
 **
 
-[Image: /docs/static/attachments/23996895]
+![Image](https://www.cryengine.com/docs/static/attachments/23996895)
 
 **
 Reduce Resolution drop-down list
@@ -698,7 +686,7 @@ You can shift the alphatest bias in the different mip levels using the sliders. 
 
 **
 
-[Image: /docs/static/attachments/23996896]
+![Image](https://www.cryengine.com/docs/static/attachments/23996896)
 
 The lowest slider, which you see when you scroll down, controls the mip sharpening. This is a sharpness filter that is applied to the mip maps to counteract the blur that naturally occurs when down-scaling the textures during mip map generation. This feature can greatly improve image quality. The default value is 35.
 
@@ -745,7 +733,7 @@ RGB to Normal Tab
 
 **
 
-[Image: /docs/static/attachments/23996894]
+![Image](https://www.cryengine.com/docs/static/attachments/23996894)
 
 The CryTIF plugin can convert a grayscale bumpmap into a normal map. To activate the feature, select a Filter Type other than
 **
@@ -816,12 +804,12 @@ The preview window should change now to indicate the change.
 
 Please note that with PBR in CRYENGINE, the alpha channel of the normal map usually contains the smoothness already, so this feature has to be considered as deprecated.
 
-[Image: /docs/static/attachments/23996906]
+![Image](https://www.cryengine.com/docs/static/attachments/23996906)
 
 ##
 Generate Output
 
-[Image: /docs/static/attachments/23996908]
+![Image](https://www.cryengine.com/docs/static/attachments/23996908)
 
 Pressing the
 **
@@ -842,30 +830,12 @@ Help -> About Plugin -> CryTIFPlugin
 **
 . If the RC executable cannot be found, the configuration dialog is opened automatically.
 
-[#texture-compilation](
-Texture Compilation
-)
-[#preview-window](
-Preview Window
-)
-[#presets](
-Presets
-)
-[#resolution-tab](
-Resolution Tab
-)
-[#mip-control-tab](
-MIP Control Tab
-)
-[#rgb-to-normal-tab](
-RGB to Normal Tab
-)
-[#a-to-normal-tab-deprecated](
-A to Normal Tab (Deprecated)
-)
-[#generate-output](
-Generate Output
-)
-[#troubleshooting](
-Troubleshooting
-)
+[Texture Compilation](#texture-compilation)
+[Preview Window](#preview-window)
+[Presets](#presets)
+[Resolution Tab](#resolution-tab)
+[MIP Control Tab](#mip-control-tab)
+[RGB to Normal Tab](#rgb-to-normal-tab)
+[A to Normal Tab (Deprecated)](#a-to-normal-tab-deprecated)
+[Generate Output](#generate-output)
+[Troubleshooting](#troubleshooting)

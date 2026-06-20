@@ -15,7 +15,7 @@ Create
 
 Used to create a container.
 
-[Image: /docs/static/attachments/29688001]
+![Image](https://www.cryengine.com/docs/static/attachments/29688001)
 
 **
 Inputs
@@ -89,7 +89,7 @@ Edit
 
 Used to edit a container.
 
-[Image: /docs/static/attachments/29688000]
+![Image](https://www.cryengine.com/docs/static/attachments/29688000)
 
 **
 Inputs
@@ -199,7 +199,7 @@ Iterate
 
 Used to iterate over a container.
 
-[Image: /docs/static/attachments/29687999]
+![Image](https://www.cryengine.com/docs/static/attachments/29687999)
 
 **
 Inputs
@@ -268,15 +268,7 @@ Any
 Outputs the container ID
  |
 
-[#container-nodes](
-Container Nodes
-)
-[#create](
-Create
-)
-[#edit](
-Edit
-)
-[#iterate](
-Iterate
-)
+[Container Nodes](#container-nodes)
+[Create](#create)
+[Edit](#edit)
+[Iterate](#iterate)

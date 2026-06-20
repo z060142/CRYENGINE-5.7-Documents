@@ -15,9 +15,7 @@ Velocity features are used to specify the speed and direction at which the parti
 A very important aspect to take into account is that these features can be combined with each other. So, using the right type of combinations allow users to create striking and advanced effects.
 
 Particles will only move if at least one type of Motion feature is present, For more information, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867966](
-Motion
-)
+[Motion](Motion.md)
 .
 
 The following options are available under the Velocity category:
@@ -88,9 +86,7 @@ Angle
 
  |
 Allows users to specify the aperture angle of the cone. Without modifiers, particles are only shot through the skin of the cone. Use the Random option under the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
  section
 **
 
@@ -164,9 +160,7 @@ Scale
 
  |
 Scales the velocity vector. Can be used with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
  to dynamically change the particle's velocity.
 
  |
@@ -175,9 +169,7 @@ Modifiers
 Inherit
 
 This feature adds parent particles or an emitter's velocity to a new particle, For more information on parent-child relationships, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-SecondGen
-)
+[SecondGen](SecondGen.md)
 .
 
 Properties
@@ -248,21 +240,9 @@ MoveRelativeToEmitter
 **
 , are supported on the GPU and initialization is fully achieved on the GPU side. Properties do not support modifiers on the GPU.
 
-[#compass](
-Compass
-)
-[#cone](
-Cone
-)
-[#directional](
-Directional
-)
-[#inherit](
-Inherit
-)
-[#omnidirectional](
-OmniDirectional
-)
-[#gpu-support](
-GPU Support
-)
+[Compass](#compass)
+[Cone](#cone)
+[Directional](#directional)
+[Inherit](#inherit)
+[OmniDirectional](#omnidirectional)
+[GPU Support](#gpu-support)

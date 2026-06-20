@@ -23,28 +23,28 @@ Traditional Technique
 
 Note the sharp seam between the two materials (marked in orange).
 
-[Image: /docs/static/attachments/23999850]
+![Image](https://www.cryengine.com/docs/static/attachments/23999850)
 
-[Image: /docs/static/attachments/23999851]
+![Image](https://www.cryengine.com/docs/static/attachments/23999851)
 
 ##
 Alpha-Blended Decals
 
 Note the more believable transition between the two materials (marked in orange).
 
-[Image: /docs/static/attachments/23999852]
+![Image](https://www.cryengine.com/docs/static/attachments/23999852)
 
 The normal map used for this decal:
 
-[Image: /docs/static/attachments/23999853]
+![Image](https://www.cryengine.com/docs/static/attachments/23999853)
 
 Example for "chipped-off" pieces using alphablend decals:
 
-[Image: /docs/static/attachments/23999854]
+![Image](https://www.cryengine.com/docs/static/attachments/23999854)
 
 The normal map used for this decal:
 
-[Image: /docs/static/attachments/23999855]
+![Image](https://www.cryengine.com/docs/static/attachments/23999855)
 
 ##
 Using These Decals in a 3D Application
@@ -59,11 +59,11 @@ Extrude the border edges of this element inwards so they overlap the other mater
 Adjust the UV mapping of the element to create the overlap.
 Here you can see the extra geometry element following the edge of your broken piece of building:
 
-[Image: /docs/static/attachments/23999856]
+![Image](https://www.cryengine.com/docs/static/attachments/23999856)
 
 Here you can see how the UV mapping must be adjusted to create a convincing overlap of the two materials:
 
-[Image: /docs/static/attachments/23999857]
+![Image](https://www.cryengine.com/docs/static/attachments/23999857)
 
 Use the chipped-off looking edge decals by
 
@@ -77,24 +77,18 @@ Cutting out the part where the decal will be visible
 Adjusting the UV mapping to show the decal in the right position
 Illustration of these steps:
 
-[Image: /docs/static/attachments/23999859]
+![Image](https://www.cryengine.com/docs/static/attachments/23999859)
 
 Another example:
 
-[Image: /docs/static/attachments/23999858]
+![Image](https://www.cryengine.com/docs/static/attachments/23999858)
 
 For the best results, use the low-res geometry you used for rendering the normal map, snap them on the edge of the object you are working on, and cut its shape out of the solid block using the knife tool together with vertex snapping.
 
 Using this method, you will also have the correct silhouette.
 
-[Image: /docs/static/attachments/23999860]
+![Image](https://www.cryengine.com/docs/static/attachments/23999860)
 
-[#traditional-technique](
-Traditional Technique
-)
-[#alpha-blended-decals](
-Alpha-Blended Decals
-)
-[#using-these-decals-in-a-3d-application](
-Using These Decals in a 3D Application
-)
+[Traditional Technique](#traditional-technique)
+[Alpha-Blended Decals](#alpha-blended-decals)
+[Using These Decals in a 3D Application](#using-these-decals-in-a-3d-application)

@@ -8,3 +8,5 @@
 ## Content
 
 In this second section we modify a previous behavior tree to reflect the cover surface targets and declare the speed and stance for the AI to engage in.
+
+[Embed: https://www.youtube.com/watch?v=D8mj7XQbOZ8&list=PLpCgy91Y5vMuwKSCe-iOJ-OyAMXkMvb4I&index=6]

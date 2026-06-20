@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Lua Scripting](CryScriptSystem/Lua Scripting.md)
+- [Lua Scripting](CryScriptSystem/Lua%20Scripting.md)
 
 ## Content
 
@@ -15,6 +15,4 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306623](
-Lua Scripting
-)
+[Lua Scripting](CryScriptSystem/Lua%20Scripting.md)

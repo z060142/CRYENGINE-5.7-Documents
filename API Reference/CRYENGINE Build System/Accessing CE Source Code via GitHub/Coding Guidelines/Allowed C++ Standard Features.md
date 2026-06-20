@@ -66,135 +66,105 @@ State
 Comments
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#template-argument-deduction-for-class-templates](
-Template argument deduction for class templates
-)
+[Template argument deduction for class templates](https://github.com/AnthonyCalandra/modern-cpp-features#template-argument-deduction-for-class-templates)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#declaring-non-type-template-parameters-with-auto](
-Declaring non-type template parameters with auto
-)
+[Declaring non-type template parameters with auto](https://github.com/AnthonyCalandra/modern-cpp-features#declaring-non-type-template-parameters-with-auto)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#folding-expressions](
-Folding expressions
-)
+[Folding expressions](https://github.com/AnthonyCalandra/modern-cpp-features#folding-expressions)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#new-rules-for-auto-deduction-from-braced-init-list](
-New rules for auto deduction from braced-init-list
-)
+[New rules for auto deduction from braced-init-list](https://github.com/AnthonyCalandra/modern-cpp-features#new-rules-for-auto-deduction-from-braced-init-list)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#constexpr-lambda](
-Constexpr lambda
-)
+[Constexpr lambda](https://github.com/AnthonyCalandra/modern-cpp-features#constexpr-lambda)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#lambda-capture-this-by-value](
-Lambda capture this by value
-)
+[Lambda capture this by value](https://github.com/AnthonyCalandra/modern-cpp-features#lambda-capture-this-by-value)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#inline-variables](
-Inline variables
-)
+[Inline variables](https://github.com/AnthonyCalandra/modern-cpp-features#inline-variables)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#nested-namespaces](
-Nested namespaces
-)
+[Nested namespaces](https://github.com/AnthonyCalandra/modern-cpp-features#nested-namespaces)
  |
 Allowed
  |
 This feature is considered light weight and doesn’t negatively impact code quality or run-time/compile-time performance. It is one of the first C++17 features adopted by compiler vendors, and has therefore been made available even on older tool-chains such as vc140. It is more of a cosmetic feature, since it helps improve readability in nested namespace scenarios.
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#structured-bindings](
-Structured bindings
-)
+[Structured bindings](https://github.com/AnthonyCalandra/modern-cpp-features#structured-bindings)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#selection-statements-with-initializer](
-Selection statements with initializer
-)
+[Selection statements with initializer](https://github.com/AnthonyCalandra/modern-cpp-features#selection-statements-with-initializer)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#constexpr-if](
-Constexpr if
-)
+[Constexpr if](https://github.com/AnthonyCalandra/modern-cpp-features#constexpr-if)
  |
 Needs validation
  |
 The feature greatly simplifies compile-time branching that was only possible through overloading or specialization / SFINAE. It improves compile time and readability. The feature is available on all platforms and compilers (VS2017.3)
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#utf-8-character-literals](
-Utf-8 character literals
-)
+[Utf-8 character literals](https://github.com/AnthonyCalandra/modern-cpp-features#utf-8-character-literals)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#direct-list-initialization-of-enums](
-Direct-list-initialization of enums
-)
+[Direct-list-initialization of enums](https://github.com/AnthonyCalandra/modern-cpp-features#direct-list-initialization-of-enums)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#new-standard-attributes](
-New standard attributes [[fallthrough]], [[nodiscard]], [[maybe_unused]]
-)
+[New standard attributes [[fallthrough]], [[nodiscard]], [[maybe_unused]]](https://github.com/AnthonyCalandra/modern-cpp-features#new-standard-attributes)
  |
 Allowed
  |
 The [[nodiscard]] attribute, when put in front of function return type, can prevent discarding important return value or error code or misunderstanding the purpose of function. A typical example is the confusion of .empty() with .clear() in custom containers. With [[nodiscard]] the compiler issues a warning.
  |
 
-[https://docs.microsoft.com/en-us/cpp/cpp/static-assert?view=vs-2019](
-Terse static_assert
-)
+[Terse static_assert](https://docs.microsoft.com/en-us/cpp/cpp/static-assert?view=vs-2019)
  |
 Needs validation
  |
@@ -218,48 +188,36 @@ State
 Comments
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#stdvariant](
-std::variant
-)
+[std::variant](https://github.com/AnthonyCalandra/modern-cpp-features#stdvariant)
  |
 Needs validation
  |
 (Note: newly supported by PS4 SDK 7.0)
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#stdoptional](
-std::optional
-)
+[std::optional](https://github.com/AnthonyCalandra/modern-cpp-features#stdoptional)
  |
 Needs validation
  |
 (Note: newly supported by PS4 SDK 7.0)
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#stdany](
-std::any
-)
+[std::any](https://github.com/AnthonyCalandra/modern-cpp-features#stdany)
  |
 Disallowed
  |
 Not supported on PS4 as of SDK 7.0 when RTTI is turned off.
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#stdstring_view](
-std::string_view
-)
+[std::string_view](https://github.com/AnthonyCalandra/modern-cpp-features#stdstring_view)
  |
 Needs validation
  |
 -
  |
 
-[https://en.cppreference.com/w/cpp/header/functional](
-<functional>
-)
-[https://github.com/AnthonyCalandra/modern-cpp-features#stdinvoke](
-
-)
+[<functional>](https://en.cppreference.com/w/cpp/header/functional)
+[https://github.com/AnthonyCalandra/modern-cpp-features#stdinvoke](https://github.com/AnthonyCalandra/modern-cpp-features#stdinvoke)
 
 std::invoke, std::not_fn
 
@@ -269,9 +227,7 @@ Needs validation
 -
  |
 
-[https://en.cppreference.com/w/cpp/header/tuple](
-<tuple>
-)
+[<tuple>](https://en.cppreference.com/w/cpp/header/tuple)
 
 std::apply, std::make_from_tuple
 
@@ -281,9 +237,7 @@ Needs validation
 -
  |
 
-[https://en.cppreference.com/w/cpp/header/type_traits](
-<type_traits>
-)
+[<type_traits>](https://en.cppreference.com/w/cpp/header/type_traits)
 
 std::void_t, std::conjunction, std::disjunction, std::negation, std::invoke_result, std::is_invocable, std::bool_constant
 
@@ -293,36 +247,28 @@ std::void_t, std::conjunction, std::disjunction, std::negation, std::invoke_resu
 
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#stdfilesystem](
-std::filesystem
-)
+[std::filesystem](https://github.com/AnthonyCalandra/modern-cpp-features#stdfilesystem)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#stdbyte](
-std::byte
-)
+[std::byte](https://github.com/AnthonyCalandra/modern-cpp-features#stdbyte)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#splicing-for-maps-and-sets](
-Splicing for maps and sets
-)
+[Splicing for maps and sets](https://github.com/AnthonyCalandra/modern-cpp-features#splicing-for-maps-and-sets)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#parallel-algorithms](
-Parallel algorithms
-)
+[Parallel algorithms](https://github.com/AnthonyCalandra/modern-cpp-features#parallel-algorithms)
  |
 Needs validation
  |
@@ -339,18 +285,14 @@ State
 Comments
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#binary-literals](
-Binary literals
-)
+[Binary literals](https://github.com/AnthonyCalandra/modern-cpp-features#binary-literals)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#generic-lambda-expressions](
-Generic lambda expressions
-)
+[Generic lambda expressions](https://github.com/AnthonyCalandra/modern-cpp-features#generic-lambda-expressions)
  |
 Needs validation
  |
@@ -360,36 +302,28 @@ The feature is supported by all compilers.
 
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#lambda-capture-initializers](
-Lambda capture initializers
-)
+[Lambda capture initializers](https://github.com/AnthonyCalandra/modern-cpp-features#lambda-capture-initializers)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#return-type-deduction](
-Return type deduction
-)
+[Return type deduction](https://github.com/AnthonyCalandra/modern-cpp-features#return-type-deduction)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#decltypeauto](
-Decltype(auto)
-)
+[Decltype(auto)](https://github.com/AnthonyCalandra/modern-cpp-features#decltypeauto)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#relaxing-constraints-on-constexpr-functions](
-Relaxing constraints on constexpr functions
-)
+[Relaxing constraints on constexpr functions](https://github.com/AnthonyCalandra/modern-cpp-features#relaxing-constraints-on-constexpr-functions)
  |
 Needs validation
  |
@@ -399,18 +333,14 @@ Supported by all compilers.
 
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#variable-templates](
-Variable templates
-)
+[Variable templates](https://github.com/AnthonyCalandra/modern-cpp-features#variable-templates)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#deprecated-attribute](
-[[deprecated]] attribute
-)
+[[[deprecated]] attribute](https://github.com/AnthonyCalandra/modern-cpp-features#deprecated-attribute)
  |
 Needs validation
  |
@@ -427,18 +357,14 @@ State
 Comments
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#user-defined-literals-for-standard-library-types](
-User-defined literals for standard library types
-)
+[User-defined literals for standard library types](https://github.com/AnthonyCalandra/modern-cpp-features#user-defined-literals-for-standard-library-types)
  |
 Needs validation
  |
 -
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#compile-time-integer-sequences](
-Compile-time integer sequences
-)
+[Compile-time integer sequences](https://github.com/AnthonyCalandra/modern-cpp-features#compile-time-integer-sequences)
  |
 Needs validation
  |
@@ -448,24 +374,14 @@ Supported compilers - ?
 
  |
 
-[https://github.com/AnthonyCalandra/modern-cpp-features#stdmake_unique](
-std::make_unique
-)
+[std::make_unique](https://github.com/AnthonyCalandra/modern-cpp-features#stdmake_unique)
  |
 Needs validation
  |
 -
  |
 
-[#c-17-language-features](
-C++17 Language Features
-)
-[#c-17-library-features](
-C++17 Library Features
-)
-[#c-14-language-features](
-C++14 Language Features
-)
-[#c-14-library-features](
-C++14 Library Features
-)
+[C++17 Language Features](#c-17-language-features)
+[C++17 Library Features](#c-17-library-features)
+[C++14 Language Features](#c-14-language-features)
+[C++14 Library Features](#c-14-library-features)

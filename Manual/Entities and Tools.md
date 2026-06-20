@@ -6,25 +6,19 @@
 
 ## Child Pages
 
-- [Entity Components](Entities and Tools/Entity Components.md)
-- [Entities Overview](Entities and Tools/Entities Overview.md)
+- [Entity Components](Entities%20and%20Tools/Entity%20Components.md)
+- [Entities Overview](Entities%20and%20Tools/Entities%20Overview.md)
 
 ## Content
 
-[Image: /docs/static/attachments/26955441]
+![Image](https://www.cryengine.com/docs/static/attachments/26955441)
 
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/44971665]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971665)](https://www.cryengine.com/support)
 
-[Image: /docs/static/attachments/44971664]
+![Image](https://www.cryengine.com/docs/static/attachments/44971664)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28180907](
-Entity Components
-)
+[Entity Components](Entities%20and%20Tools/Entity%20Components.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26870343](
-Entities Overview
-)
+[Entities Overview](Entities%20and%20Tools/Entities%20Overview.md)

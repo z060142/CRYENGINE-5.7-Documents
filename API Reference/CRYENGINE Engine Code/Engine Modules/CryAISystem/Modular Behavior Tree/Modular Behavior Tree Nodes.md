@@ -15,29 +15,19 @@ It's possible to expose Modular Behavior Tree Nodes from withing the whole CryEN
 This brings to a grouping of the nodes related to the system they are defined into:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-generic](
-Generic
-)
+[Generic](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-generic)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-aisystem](
-AI System
-)
+[AI System](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-aisystem)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-cryaction](
-CryAction
-)
+[CryAction](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-cryaction)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-game](
-Game
-)
+[Game](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-game)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-helicopter](
-Helicopter
-)
+[Helicopter](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-helicopter)
 
 ##
 General information
@@ -59,338 +49,208 @@ Node index
 - Generic nodes -
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-loop](
-Loop
-)
+[Loop](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-loop)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-loopuntilsuccess](
-LoopUntilSuccess
-)
+[LoopUntilSuccess](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-loopuntilsuccess)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-parallel](
-Parallel
-)
+[Parallel](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-parallel)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-selector](
-Selector
-)
+[Selector](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-selector)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-sequence](
-Sequence
-)
+[Sequence](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-sequence)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-statemachine](
-StateMachine
-)
+[StateMachine](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-statemachine)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-state](
-State
-)
+[State](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-state)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-suppressfailure](
-SuppressFailure
-)
+[SuppressFailure](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-suppressfailure)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-timeout](
-Timeout
-)
+[Timeout](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-timeout)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-wait](
-Wait
-)
+[Wait](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-wait)
 
 ##
 - AI System nodes -
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-bubble](
-Bubble
-)
+[Bubble](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-bubble)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-goalpipe](
-GoalPipe
-)
+[GoalPipe](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-goalpipe)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-luabehavior](
-LuaBehavior
-)
+[LuaBehavior](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-luabehavior)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-move](
-Move
-)
+[Move](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-move)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-querytps](
-QueryTPS
-)
+[QueryTPS](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-querytps)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-IfTime](
-IfTime
-)
+[IfTime](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-IfTime)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-WaitUntilTime](
-WaitUntilTime
-)
+[WaitUntilTime](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-WaitUntilTime)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-AssertTime](
-AssertTime
-)
+[AssertTime](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-AssertTime)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-Priority](
-Priority
-)
+[Priority](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-Priority)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-Case](
-Case
-)
+[Case](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-Case)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-LuaGate](
-LuaGate
-)
+[LuaGate](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-LuaGate)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-RandomGate](
-RandomGate
-)
+[RandomGate](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-RandomGate)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-AdjustCoverStance](
-AdjustCoverStance
-)
+[AdjustCoverStance](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-AdjustCoverStance)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-SetAlertness](
-SetAlertness
-)
+[SetAlertness](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-SetAlertness)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-Log](
-Log
-)
+[Log](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-Log)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-Communicate](
-Communicate
-)
+[Communicate](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-Communicate)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-Animate](
-Animate
-)
+[Animate](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-Animate)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-Signal](
-Signal
-)
+[Signal](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-Signal)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-SendTransitionSignal](
-SendTransitionSignal
-)
+[SendTransitionSignal](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-SendTransitionSignal)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-Stance](
-Stance
-)
+[Stance](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-Stance)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-IfCondition](
-IfCondition
-)
+[IfCondition](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-IfCondition)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-AssertCondition](
-AssertCondition
-)
+[AssertCondition](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-AssertCondition)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-LuaWrapper](
-LuaWrapper
-)
+[LuaWrapper](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-LuaWrapper)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-ExecuteLua](
-ExecuteLua
-)
+[ExecuteLua](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-ExecuteLua)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-AssertLua](
-AssertLua
-)
+[AssertLua](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-AssertLua)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-GroupScope](
-GroupScope
-)
+[GroupScope](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-GroupScope)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-Look](
-Look
-)
+[Look](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-Look)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-Aim](
-Aim
-)
+[Aim](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-Aim)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-AimAroundWhileUsingAMachingGun](
-AimAroundWhileUsingAMachingGun
-)
+[AimAroundWhileUsingAMachingGun](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-AimAroundWhileUsingAMachingGun)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-ClearTargets](
-ClearTargets
-)
+[ClearTargets](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-ClearTargets)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-turnbody](
-TurnBody
-)
+[TurnBody](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-turnbody)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-stopmovement](
-StopMovement
-)
+[StopMovement](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-stopmovement)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-Teleport](
-Teleport
-)
+[Teleport](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-Teleport)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-SmartObjectStatesWrapper](
-SmartObjectStatesWrapper
-)
+[SmartObjectStatesWrapper](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-SmartObjectStatesWrapper)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-CheckIfTargetCanBeReached](
-CheckIfTargetCanBeReached
-)
+[CheckIfTargetCanBeReached](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-CheckIfTargetCanBeReached)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-MonitorCondition](
-MonitorCondition
-)
+[MonitorCondition](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-MonitorCondition)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-AnimationTagWrapper](
-AnimationTagWrapper
-)
+[AnimationTagWrapper](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-AnimationTagWrapper)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-ShootFromCover](
-ShootFromCover
-)
+[ShootFromCover](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-ShootFromCover)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-Shoot](
-Shoot
-)
+[Shoot](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-Shoot)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-ThrowGrenade](
-ThrowGrenade
-)
+[ThrowGrenade](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-ThrowGrenade)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-PullDownThreatLevel](
-PullDownThreatLevel
-)
+[PullDownThreatLevel](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-PullDownThreatLevel)
 
 ##
 - CryAction nodes -
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-animatefragment](
-AnimateFragment
-)
+[AnimateFragment](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-animatefragment)
 
 ##
 - Game nodes-
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-melee](
-Melee
-)
+[Melee](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-melee)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-keeptargetatadistance](
-KeepTargetAtADistance
-)
+[KeepTargetAtADistance](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-keeptargetatadistance)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-suppresshitreaction](
-SuppressHitReactions
-)
+[SuppressHitReactions](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-suppresshitreaction)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-inflateagentcollisionradiususingphysicstrick](
-InflateAgentCollisionRadiusUsingPhysicsTrick
-)
+[InflateAgentCollisionRadiusUsingPhysicsTrick](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-inflateagentcollisionradiususingphysicstrick)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-holdformation](
-HoldFormation
-)
+[HoldFormation](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-holdformation)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-joinformation](
-JoinFormation
-)
+[JoinFormation](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-joinformation)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-scorcherdeploy](
-ScorcherDeploy
-)
+[ScorcherDeploy](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-scorcherdeploy)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-runwhiledeploying](
-RunWhileDeploying
-)
+[RunWhileDeploying](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-runwhiledeploying)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-runwhiledeployed](
-RunWhileDeployed
-)
+[RunWhileDeployed](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-runwhiledeployed)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-heavyshootmortar](
-HeavyShootMortar
-)
+[HeavyShootMortar](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-heavyshootmortar)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-squadscope](
-SquadScope
-)
+[SquadScope](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-squadscope)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-sendsquadevent](
-SendSquadEvent
-)
+[SendSquadEvent](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-sendsquadevent)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-ifsquadcount](
-IfSquadCount
-)
+[IfSquadCount](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-ifsquadcount)
 
 ##
 Generic Nodes
@@ -1482,9 +1342,7 @@ Should only be used for backwards compatibility.
 
 -
 The XML children that this node contains are not Module Behavior Tree nodes, but xml tags that are defined by the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306483](
-Goal Pipes system
-)
+[Goal Pipes system](../Obsolete%20AI%20Documentation/Obsolete%20AI%20Scripting%20Documentation/Goal%20Pipes.md)
 .
 
 ##
@@ -2193,9 +2051,7 @@ _For more information about the
 Tactical Point System
 **
  you can go
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306474](
-Tactical Point System
-)
+[Tactical Point System](../Tactical%20Point%20System.md)
 
 ##
 IfTime
@@ -5795,9 +5651,7 @@ Template to define new descriptions
 ##
 Summary
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489#ModularBehaviorTreeNodes-modularbehaviortreenodename_template](
-ModularBehaviorTreeNodeName_Template
-)
+[ModularBehaviorTreeNodeName_Template](Modular%20Behavior%20Tree%20Nodes.md#ModularBehaviorTreeNodes-modularbehaviortreenodename_template)
 
 ##
 ModularBehaviorTreeNodeName_Template

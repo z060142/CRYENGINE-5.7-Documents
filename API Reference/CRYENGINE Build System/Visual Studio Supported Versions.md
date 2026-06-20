@@ -17,18 +17,10 @@ Chapters:
 
 Related Pages:
 
-[#3rd-party-installation](
-3rd party installation
-)
-[#waf-configuration](
-WAF Configuration
-)
-[#3rd-party-installation](
-3rd party installation
-)
-[#waf-configuration](
-WAF Configuration
-)
+[3rd party installation](#3rd-party-installation)
+[WAF Configuration](#waf-configuration)
+[3rd party installation](#3rd-party-installation)
+[WAF Configuration](#waf-configuration)
 
 ##
 3rd party installation
@@ -131,7 +123,7 @@ Visual C++ and Windows SDK are required components for all CRYENGINE compilation
 
 Here is an example of a working installation for CRYENGINE:
 
-[Image: /docs/static/attachments/28869225]
+![Image](https://www.cryengine.com/docs/static/attachments/28869225)
 
 ##
 Windows SDK versions supported
@@ -546,7 +538,7 @@ Visual C++ and Windows SDK are required components for all CRYENGINE compilation
 
 Here is an example of a working installation for CRYENGINE:
 
-[Image: /docs/static/attachments/28869226]
+![Image](https://www.cryengine.com/docs/static/attachments/28869226)
 
 ##
 Windows SDK versions supported

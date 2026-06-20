@@ -7,37 +7,25 @@
 
 ## Child Pages
 
-- [[Node] Flow](Behavior Tree Nodes/[Node] Flow.md)
-- [[Node] Conditions](Behavior Tree Nodes/[Node] Conditions.md)
-- [[Node] Time](Behavior Tree Nodes/[Node] Time.md)
-- [[Node] Core](Behavior Tree Nodes/[Node] Core.md)
-- [[Node] Debug](Behavior Tree Nodes/[Node] Debug.md)
-- [[Node] GameSDK](Behavior Tree Nodes/[Node] GameSDK.md)
+- [[Node] Flow](Behavior%20Tree%20Nodes/%5BNode%5D%20Flow.md)
+- [[Node] Conditions](Behavior%20Tree%20Nodes/%5BNode%5D%20Conditions.md)
+- [[Node] Time](Behavior%20Tree%20Nodes/%5BNode%5D%20Time.md)
+- [[Node] Core](Behavior%20Tree%20Nodes/%5BNode%5D%20Core.md)
+- [[Node] Debug](Behavior%20Tree%20Nodes/%5BNode%5D%20Debug.md)
+- [[Node] GameSDK](Behavior%20Tree%20Nodes/%5BNode%5D%20GameSDK.md)
 
 ## Content
 
 Behavior tree nodes within the Behavior Tree Editor are divided into the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869467](
-Flow
-)
+[Flow](Behavior%20Tree%20Nodes/%5BNode%5D%20Flow.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869469](
-Conditions
-)
+[Conditions](Behavior%20Tree%20Nodes/%5BNode%5D%20Conditions.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869473](
-Time
-)
+[Time](Behavior%20Tree%20Nodes/%5BNode%5D%20Time.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869477](
-Core
-)
+[Core](Behavior%20Tree%20Nodes/%5BNode%5D%20Core.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869479](
-Debug
-)
+[Debug](Behavior%20Tree%20Nodes/%5BNode%5D%20Debug.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869482](
-GameSDK
-)
+[GameSDK](Behavior%20Tree%20Nodes/%5BNode%5D%20GameSDK.md)
  categories.

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/56656154]
+![Image](https://www.cryengine.com/docs/static/attachments/56656154)
 
 ##
 Overview
@@ -23,7 +23,7 @@ Level Layers
 The first thing you may notice when opening the level is that the layers do not contain many objects.
 
 *
-[Image: /docs/static/attachments/56656155]
+![Image](https://www.cryengine.com/docs/static/attachments/56656155)
 
 Level layers
 *
@@ -118,7 +118,7 @@ Most of the Entities in this project consist of Visual Scripting Entities, which
 
 In CRYENGINE 5.6, these entities are known as Schematyc Entities that use the experimental version of the Visual Scripting system. Here we briefly look at each Scripting Entity without going into too much detail. If you want to know more about how these Entities interact with each other, we advise opening them up and playing around with them.
 
-[Image: /docs/static/attachments/56656163]
+![Image](https://www.cryengine.com/docs/static/attachments/56656163)
 
 *
 Entity Assets
@@ -239,7 +239,7 @@ Various Entity components have been added to the sample project to enable much h
 
 Almost all of the Entities used in the sample project make use of one or, usually, many components to build up the functionality of the Entity. This allows the designer much more control when designing the level and gameplay mechanics, without having to resort to programming.
 
-[Image: /docs/static/attachments/56656169]
+![Image](https://www.cryengine.com/docs/static/attachments/56656169)
 
 *
 Added Components
@@ -362,12 +362,6 @@ Weapon Attachment
 
 The Weapon Attachment component is used to hold the current weapon in use by the owning Entity. The weapon itself is spawned as a child entity and attached to the owning entity. This allows pre-defined weapons (entities) to be switched out on demand without adding and removing, and tweaking properties of components themselves.
 
-[#level-layers](
-Level Layers
-)
-[#entities](
-Entities
-)
-[#components](
-Components
-)
+[Level Layers](#level-layers)
+[Entities](#entities)
+[Components](#components)

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933282]
+![Image](https://www.cryengine.com/docs/static/attachments/29933282)
 
 ##
 Overview
@@ -26,18 +26,10 @@ Left: In-game shadows, right: Per Object shadows
 
 *
 
-[#usage](
-Usage
-)
-[#object-shadows-flow-graph-node](
-Object Shadows Flow Graph Node
-)
-[#restrictions](
-Restrictions
-)
-[#related-cvars](
-Related CVars
-)
+[Usage](#usage)
+[Object Shadows Flow Graph Node](#object-shadows-flow-graph-node)
+[Restrictions](#restrictions)
+[Related CVars](#related-cvars)
 
 ##
 Usage

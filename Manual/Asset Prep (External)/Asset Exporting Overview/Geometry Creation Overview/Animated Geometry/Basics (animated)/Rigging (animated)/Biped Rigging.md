@@ -25,7 +25,7 @@ For Maya Users:
 **
  Also be sure that you work with -Z as your front view as this is the front in-engine.
 
-[Image: /docs/static/attachments/23994324]
+![Image](https://www.cryengine.com/docs/static/attachments/23994324)
 
 The joint orientations must be aligned as described:
 
@@ -38,9 +38,9 @@ Eyes: Y= forward, z= along vertical axis
 ##
 Fitting the Rig to a Character
 
-[Image: /docs/static/attachments/23994353]
+![Image](https://www.cryengine.com/docs/static/attachments/23994353)
 
-[Image: /docs/static/attachments/23994373]
+![Image](https://www.cryengine.com/docs/static/attachments/23994373)
 
 In the above left image, you see the kind of object you will be receiving from a modeler. The arms are in a default position and the object should be frozen. The object may or may not be one single mesh, with no unattached pieces, and likely a head. On the right, you see the biped rig. If your character does not have a biped skeleton
 **
@@ -68,17 +68,17 @@ motion tab
 Command Menu
 **
 
-[Image: /docs/static/attachments/23994344]
+![Image](https://www.cryengine.com/docs/static/attachments/23994344)
 
 -
 With a part of the biped selected, click
-[Image: /docs/static/attachments/23994367]
+![Image](https://www.cryengine.com/docs/static/attachments/23994367)
  to enter
 **
 Figure Mode
 **
 , which is located under the
-[Image: /docs/static/attachments/23994360]
+![Image](https://www.cryengine.com/docs/static/attachments/23994360)
  rollout.
 
 -
@@ -89,7 +89,7 @@ Standard Rigging For Maya Users
 
 Now, you will be lining the biped up with the character that you have been given. As stated above, do not worry if the character is not in the same pose as the biped. In Maya you will have your jointed skeleton, then parented on that will be the phys mesh and next to it will be the copied phys mesh but with the parent frames.
 
-[Image: /docs/static/attachments/23994326]
+![Image](https://www.cryengine.com/docs/static/attachments/23994326)
 
 ##
 Important Tips and Tricks
@@ -105,9 +105,9 @@ Alt+X
 **
 .
 
-[Image: /docs/static/attachments/23994351]
+![Image](https://www.cryengine.com/docs/static/attachments/23994351)
 
-[Image: /docs/static/attachments/23994371]
+![Image](https://www.cryengine.com/docs/static/attachments/23994371)
 
 -
 This is an example of a model that was not created to fit the biped, the arm is longer than the biped arm, and no amount of joint rotations will fix this.
@@ -147,7 +147,7 @@ For Maya Users:
 **
  Another way to do this is to click "Shading" then enable "X Ray" or other various rendering options to better viewing.
 
-[Image: /docs/static/attachments/23994327]
+![Image](https://www.cryengine.com/docs/static/attachments/23994327)
 
 ##
 Skinning
@@ -159,9 +159,9 @@ For Max Users:
 **
  You can begin by using 3ds Max's Skin modifier in place of the old physique for the skinning purposes. Skin modifier is a much newer and more versatile addition in 3ds Max. There is also Cryskin which features a more accurate preview of how your skinning will look in Sandbox.
 
-[Image: /docs/static/attachments/23994346]
+![Image](https://www.cryengine.com/docs/static/attachments/23994346)
 
-[Image: /docs/static/attachments/23994368]
+![Image](https://www.cryengine.com/docs/static/attachments/23994368)
 
 As you have now aligned the biped to the model, you are ready to proceed with skinning.
 
@@ -199,11 +199,11 @@ Smooth Bind
 **
 . Be sure that when you skin the character to the rig you have Quaternion skinning and no more than 4 influences.
 
-[Image: /docs/static/attachments/23994341]
+![Image](https://www.cryengine.com/docs/static/attachments/23994341)
 
 Most of your weight editing will be done via the Paint Skin Weights Tool:
 
-[Image: /docs/static/attachments/23994328]
+![Image](https://www.cryengine.com/docs/static/attachments/23994328)
 
 ##
 Painting Weights In Maya
@@ -215,7 +215,7 @@ Paint Skin Weights Tool
 
 The Paint Skin Weights Tool is one of the rigging tools in Maya. With the Paint Skin Weights Tool, you can paint weight intensity values on the current smooth skin. If you want to set individual skin point weights to specific values, you can use the Component Editor.
 
-[Image: /docs/static/attachments/23994331]
+![Image](https://www.cryengine.com/docs/static/attachments/23994331)
 
 **
 Note:
@@ -239,7 +239,7 @@ For best results, the skeleton on the character you are copying from and the ske
 
 Scale and rotate the joints to make the skeletons better match.
 
-[Image: /docs/static/attachments/23994329]
+![Image](https://www.cryengine.com/docs/static/attachments/23994329)
 
 Copy skin weights using the UV space influence association setting provided UVs exist on the both characters. In addition, the skeletons on each character should be in the same pose during copying. If the orientation of the joints are not similar, the copying can lack some precision, which means you may have to do some touch up painting to the results.
 
@@ -252,7 +252,7 @@ Mirroring smooth skin weights
 
 You can mirror smooth skin weights, either from one smooth skin object to another, or within the same smooth skin object. You can also mirror skin weights on selected components of the skin.
 
-[Image: /docs/static/attachments/23994330]
+![Image](https://www.cryengine.com/docs/static/attachments/23994330)
 
 Mirroring smooth skin weights greatly speeds up the process of editing and fine-tuning skin deformation effects. For example, you can perfect the smooth skin weighting for a character's right shoulder area, then simply mirror the weighting to the character's left shoulder.
 
@@ -261,40 +261,40 @@ Maya mirrors weights across planes defined by Maya's global workspace axis. For 
 ##
 Painting Weights In 3ds Max
 
-[Image: /docs/static/attachments/23994372]
+![Image](https://www.cryengine.com/docs/static/attachments/23994372)
 
 Now you can proceed with the fine tuning of the skinning. At your disposal are several very effective skinning tools:
 
-[Image: /docs/static/attachments/23994363]
+![Image](https://www.cryengine.com/docs/static/attachments/23994363)
 
 ##
 Adjusting Envelopes
 
-[Image: /docs/static/attachments/23994349]
+![Image](https://www.cryengine.com/docs/static/attachments/23994349)
 
 The way of working with skin is usually a personal preference. Yet there is really one common way of starting skinning and that is using the Skin Envelopes.
 
 -
 Press Edit Envelopes in the Parameters rollout. As you go into the Edit mode, the model will turn a slightly darker color and you will see the bone envelopes. To make the rough weight value of bones on the verts visible, Max colors the verts that are affected by bones. Dark red means the area is affected either almost entirely or completely by the selected bone. When the affect decreases the colors go to orange, yellow, blue, and then, if there is no affect on the verts, they are not colored at all. To adjust the envelopes select the outer envelope control verts and move them. Adjust all the envelopes the way you want them to be. You will notice that some envelopes affect verts that you don't want them to affect at all i.e; the leg joints: right leg bone might have some affect on some verts on the left leg. To fix this problem check the "Vertices" checkbox in the Parameters rollout, select the verts that you want to be excluded from the bones affect area, and press the "Exclude Selected Verts" button:
-[Image: /docs/static/attachments/23994352]
+![Image](https://www.cryengine.com/docs/static/attachments/23994352)
 
 -
 Once you have adjusted the envelopes as much as possible for the main areas, select all of the vertices and press the "Bake Selected Verts" button. After you have done that, you are no longer going to affect the weights of the vertices by the envelopes. To turn the envelopes off, go into the display rollout and check "Show No envelopes" box.
-[Image: /docs/static/attachments/23994366]
+![Image](https://www.cryengine.com/docs/static/attachments/23994366)
 
 ##
 Weight Tool
 
 -
 This tool gives you access to the numerical entry of the bone affect onto selected vertices. You can scale the weights, set the weights to certain numbers, blend weights, etc... For more precise information please refer to the 3ds Max User Reference.
-[Image: /docs/static/attachments/23994347]
+![Image](https://www.cryengine.com/docs/static/attachments/23994347)
 
 ##
 Paint Weights
 
 -
 This is a more of an artistic tool that skin has that allows the user to apply the skin with a sort of a brush with the options of changing the strength and diameter. When the tool is on, holding Ctrl+Shift and Click+Move the mouse to change the diameter. Holding Alt+Shift and Click+Move the mouse to change the strength. You can also open the "Painter Options" dialog to get access to fine tuning the skin paint tool. The best part about actual painting weights is that you can use a Pen Tablet with pressure sensitivity and really speed up the process. Another highly valuable tool for Painting weights is the option to Paint Blend Weights. To use the blend weights option just check the box right underneath the Paint Tool. It will blend the weight of the vertices to balance them out between each other.
-[Image: /docs/static/attachments/23994370]
+![Image](https://www.cryengine.com/docs/static/attachments/23994370)
 
 ##
 Mirror Weights
@@ -310,7 +310,7 @@ Physique
 
 -
 Now that you have successfully positioned the biped skeleton inside the character mesh, you are ready to attach the mesh with Physique. Physique deforms the control points, which in turn deform the character. When you apply Physique to the character and attach it to the biped skeleton, Physique determines how each component of the biped skeleton influences each vertex of the character skin, based on settings you will specify.
-[Image: /docs/static/attachments/23994362]
+![Image](https://www.cryengine.com/docs/static/attachments/23994362)
 
 ##
 Attaching the Character Biped to a Physique
@@ -324,7 +324,7 @@ To attach your character mesh to Physique, select it and click
 Attach To Node
 **
 
-[Image: /docs/static/attachments/23994359]
+![Image](https://www.cryengine.com/docs/static/attachments/23994359)
  on the Physique rollout and select a root node. When you do this, Physique moves through all the children in the hierarchy, starting with the root and then creates it's own
 **
 Links
@@ -345,7 +345,7 @@ You will now turn off Figure Mode, and begin to work on envelopes and point weig
 ##
 Vertex Link Assignment Rollout
 
-[Image: /docs/static/attachments/23994355]
+![Image](https://www.cryengine.com/docs/static/attachments/23994355)
 
 Here you see the
 **
@@ -436,7 +436,7 @@ Vertex Link Assignment Rollout
 ##
 The Art is in the Details: Vertex Sub-Object Weighting with Physique
 
-[Image: /docs/static/attachments/23994350]
+![Image](https://www.cryengine.com/docs/static/attachments/23994350)
 
 The most important thing about enveloping a character, is knowing how to override those envelopes. You cannot get by with enveloping many times, and you must define weights on a point-by-point basis by manually assigning
 **
@@ -448,7 +448,7 @@ Vertex Properties
 Select
 **
  - This allows you to select vertices when in the Vertex Sub-Object Weighting mode. Click
-[Image: /docs/static/attachments/23994369]
+![Image](https://www.cryengine.com/docs/static/attachments/23994369)
  to enter the global selection mode.
 
 **
@@ -461,7 +461,7 @@ Assign to Link / Remove From Link
 **
  - This will add or remove weighting from the selected vertices. You do this by selecting the verts, then choosing an option and then selecting the link in question.
 
-[Image: /docs/static/attachments/23994356]
+![Image](https://www.cryengine.com/docs/static/attachments/23994356)
 
 **
 Locking Assignments, and Type-In Weights
@@ -485,15 +485,11 @@ Character Studio (CS3.X) does not have MaxScript support.
  You may have noticed this if you were trying to echo commands in MaxScriptListener to create a script to mirror envelopes or weights (and it would be such a simple script too!). This is a major problem with Physique and Character Studio in general. Luckily for us, enough people seemed to have complained, and Discreet later released some source code on their website that exposed some of Physique to MaxScript. The source code is attached to this tutorial. The source code has also been compiled into a .GUP file for Max 7. Here are links to the files:
 
 -
-[/docs/static/attachments/23994338](
-PhysiqueInterface.zip
-)
+[PhysiqueInterface.zip](/docs/static/attachments/23994338)
  - Physique exposure source from Discreet.
 
 -
-[/docs/static/attachments/23994323](
-IPhysique.gup
-)
+[IPhysique.gup](/docs/static/attachments/23994323)
  - Physique exposure compiled for Max 7.
 Place
 **
@@ -516,12 +512,10 @@ There are very few MaxScripts that utilize the Physique Exposure plugin/source. 
 MirrorWeights/PhyTool - Terminal Reality
 
 -
-[/docs/static/attachments/23994332](
-MirrorWeightsV0.91_Beta.rar
-)
+[MirrorWeightsV0.91_Beta.rar](/docs/static/attachments/23994332)
 This is a great tool for mirroring all assigned or locked vert weights in across the X axis. Here is a quick rundown:
 
-[Image: /docs/static/attachments/23994354]
+![Image](https://www.cryengine.com/docs/static/attachments/23994354)
 
 1) Weight up one part of the model (i.e; hand).
 
@@ -583,9 +577,7 @@ This script has been updated to work with Max7, if you find and download the one
 Physique Import/Export Weights
 
 -
-[/docs/static/attachments/23994322](
-import-export.zip
-)
+[import-export.zip](/docs/static/attachments/23994322)
 
 This tool allows you to save all vertex weights of a character, you can even
 **
@@ -625,7 +617,7 @@ Threshold Check
 ##
 Verts are influenced by more than five links.
 
-[Image: /docs/static/attachments/23994365]
+![Image](https://www.cryengine.com/docs/static/attachments/23994365)
 
 On export you receive this message. After initializing a Physique with <4 links/bones, how are there 5 assigned to one vert? How do you find this vert?
 
@@ -654,7 +646,7 @@ $Rifleman_Light_Body.verts["baz"]
 
 This should select the vert you were looking for. If it is not the point you are looking for, follow the next step.
 
-[Image: /docs/static/attachments/23994345]
+![Image](https://www.cryengine.com/docs/static/attachments/23994345)
 
 2)
 **
@@ -679,7 +671,7 @@ IF THIS DOES NOT WORK:
 **
  Sometimes the dummy will be created in a spot with no point. You will need to add a 'reset Xform' to reset the transformations, depending on certain things the modeler may have done to the model. Add the xform modifier between the editable mesh and physique in the stack, as shown below:
 
-[Image: /docs/static/attachments/23994361]
+![Image](https://www.cryengine.com/docs/static/attachments/23994361)
 
 Now this will mess up physique, so you may want to save first. It helps to open another copy of Max and load the character, you can then create the dummy on the version with transformations reset, and find the same vert on the character with physique applied in the other running version of Max. If the dummy is still not encasing the point, you may need to try exporting the character again as the numeric location of the erroneous point may have changed in the error message.
 
@@ -689,7 +681,7 @@ Type-In Weights
 **
 '.. (It has to be locked, if not it wouldn't have 5 links unless you messed up in initialization by selecting N Links).
 
-[Image: /docs/static/attachments/23994348]
+![Image](https://www.cryengine.com/docs/static/attachments/23994348)
 
 It has five links assigned, but in 3ds Max, four of them are the exactly the same bone, and on top of that, they have zero influence. This should count as only one link, but it doesn't. It also does not ignore links with values of zero, or even multiple links with the same name.
 
@@ -705,7 +697,7 @@ Known Issues, Problems, and Solutions
 
 Deformation in the Character Editor not matching what is in your DCC tools:
 
-[Image: /docs/static/attachments/23994358]
+![Image](https://www.cryengine.com/docs/static/attachments/23994358)
 
 There are a few reasons the deformations you see in Maya or Max may not match what you see in Character editor. Here are some fixes to known problems:
 
@@ -720,7 +712,7 @@ For Maya Users:
 **
  Simply be sure you have the Quaternion method chosen when you bind your skin.
 
-[Image: /docs/static/attachments/23994341]
+![Image](https://www.cryengine.com/docs/static/attachments/23994341)
 
 **
 For Max Users:
@@ -731,21 +723,9 @@ ca_SphericalSkinning 0.
 **
  This will drop to the default linear skinning you are accustomed to from Max.
 
-[#basic-understanding-and-setup](
-Basic Understanding and Setup
-)
-[#joint-orientations](
-Joint Orientations
-)
-[#fitting-the-rig-to-a-character](
-Fitting the Rig to a Character
-)
-[#important-tips-and-tricks](
-Important Tips and Tricks
-)
-[#skinning](
-Skinning
-)
-[#known-issues-problems-and-solutions](
-Known Issues, Problems, and Solutions
-)
+[Basic Understanding and Setup](#basic-understanding-and-setup)
+[Joint Orientations](#joint-orientations)
+[Fitting the Rig to a Character](#fitting-the-rig-to-a-character)
+[Important Tips and Tricks](#important-tips-and-tricks)
+[Skinning](#skinning)
+[Known Issues, Problems, and Solutions](#known-issues-problems-and-solutions)

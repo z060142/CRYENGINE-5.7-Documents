@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Remote Shader Compiler](Shader Cache/Remote Shader Compiler.md)
-- [Generating Shader Combinations](Shader Cache/Generating Shader Combinations.md)
-- [ShaderCache Generation](Shader Cache/ShaderCache Generation.md)
+- [Remote Shader Compiler](Shader%20Cache/Remote%20Shader%20Compiler.md)
+- [Generating Shader Combinations](Shader%20Cache/Generating%20Shader%20Combinations.md)
+- [ShaderCache Generation](Shader%20Cache/ShaderCache%20Generation.md)
 
 ## Content
 
@@ -30,19 +30,13 @@ A Shader Cache is necessary in any platform in order for the game to run smoothl
 More information on the shader cache can be found in the following topics:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306645](
-Remote Shader Compiler
-)
+[Remote Shader Compiler](Shader%20Cache/Remote%20Shader%20Compiler.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306644](
-Generating Shader Combinations
-)
+[Generating Shader Combinations](Shader%20Cache/Generating%20Shader%20Combinations.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306646](
-ShaderCache Generation
-)
+[ShaderCache Generation](Shader%20Cache/ShaderCache%20Generation.md)
 The shader cache generally refers to the following files:
 
 Chapters:

@@ -33,7 +33,7 @@ r_HDRDebug=1
 **
  this command disables the in engine tone mapper and displays the average luminance for the scene in debug text as seen in the image
 
-[Image: /docs/static/attachments/25493657]
+![Image](https://www.cryengine.com/docs/static/attachments/25493657)
 
 *
 r_HDRDebug
@@ -54,7 +54,7 @@ Properties → General→ Material
 
 To get the angle correct to the sun, watch the shadow of the plane. It will be biggest in width and length when it's perfectly perpendicular, thus, rotate the plane whilst observing the shadow with the goal of having the largest shadow possible.
 
-[Image: /docs/static/attachments/60522551]
+![Image](https://www.cryengine.com/docs/static/attachments/60522551)
 
 *
 Primitive plane
@@ -249,9 +249,9 @@ Variables
 **
  section and should be used to achieve the desired luminance.
 
-[Image: /docs/static/attachments/60522552]
+![Image](https://www.cryengine.com/docs/static/attachments/60522552)
 
-[Image: /docs/static/attachments/60522553]
+![Image](https://www.cryengine.com/docs/static/attachments/60522553)
 
 *
 Environment Editor values for luminance
@@ -269,7 +269,7 @@ Create Object → Components → Lights → Environment Probe
 **
 .
 
-[Image: /docs/static/attachments/60522554]
+![Image](https://www.cryengine.com/docs/static/attachments/60522554)
 
 *
 Environment Probe location
@@ -392,10 +392,10 @@ Examples
 
 In the following images you can see the difference between an active and an inactive environment probes. Note that the contents of the scene are baked into and then re-projected out from the environment probe and thus, the variety of indirect lighting and it's apparent effect will vary greatly.
 
-[Image: /docs/static/attachments/60522555]
+![Image](https://www.cryengine.com/docs/static/attachments/60522555)
 
  |
-[Image: /docs/static/attachments/60522556]
+![Image](https://www.cryengine.com/docs/static/attachments/60522556)
 
  |
 
@@ -405,10 +405,10 @@ Probes Active -
 Slightly blue and grey ambient from the sky and terrain
  |
 
-[Image: /docs/static/attachments/60522557]
+![Image](https://www.cryengine.com/docs/static/attachments/60522557)
 
  |
-[Image: /docs/static/attachments/60522558]
+![Image](https://www.cryengine.com/docs/static/attachments/60522558)
 
  |
 
@@ -604,7 +604,7 @@ Exposure Value,
 **
 as shown respectively in the image below.
 
-[Image: /docs/static/attachments/60522559]
+![Image](https://www.cryengine.com/docs/static/attachments/60522559)
 
 *
 Tone Mapping and Exposure Value parameters
@@ -645,9 +645,7 @@ Saturation
 Color Balance
 **
 parameters allow you to quickly change the intensity of the colors in your scene as well as to apply a colored filter on top of the image. These two should be used for previewing purposes only; for final image color/saturation tweaking you should follow the Color Grading workflow. For more information about color grading, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872965](
-Tutorial - Color Grading
-)
+[Tutorial - Color Grading](../../../Post-processing/Tutorial%20-%20Color%20Grading.md)
  page.
 
 It is important to understand that Exposure Value is a concept borrowed from photography. Lower EV usually gives a brighter result by making the camera more sensitive to light. In CRYENGINE, the EV is automatically measured and is being used to balance the brightness and contrast of a given scene. In order to visualize the Exposure Value we also use the
@@ -683,28 +681,12 @@ Bloom amount
 ##
 Related Topics
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959238](
-Physically Based Shading (PBS)
-)
+[Physically Based Shading (PBS)](../../Shaders/Physically%20Based%20Shading%20(PBS).md)
 
-[#step-by-step-workflow-for-lighting-levels](
-Step-by-Step Workflow for Lighting Levels
-)
-[#examples](
-Examples
-)
-[#further-considerations](
-Further Considerations
-)
-[#local-cubemaps](
-Local Cubemaps
-)
-[#resolution](
-Resolution
-)
-[#why-is-luminance-so-important](
-Why is Luminance so Important?
-)
-[#how-does-tone-mapping-work](
-How does Tone Mapping Work?
-)
+[Step-by-Step Workflow for Lighting Levels](#step-by-step-workflow-for-lighting-levels)
+[Examples](#examples)
+[Further Considerations](#further-considerations)
+[Local Cubemaps](#local-cubemaps)
+[Resolution](#resolution)
+[Why is Luminance so Important?](#why-is-luminance-so-important)
+[How does Tone Mapping Work?](#how-does-tone-mapping-work)

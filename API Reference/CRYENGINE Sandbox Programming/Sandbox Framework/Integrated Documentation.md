@@ -20,19 +20,17 @@ Tooltips
 Tooltips are the most basic and the most practical form of integrated documentation.
 
 They are text overlays that appear when the mouse hovers over an interactive UI element. Use them liberally, in fact, our
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873248](
-User Experience Guidelines
-)
+[User Experience Guidelines](../User%20Experience%20Guidelines.md)
  dictate that every interactable element that supports tooltip must have one. The downside is that a tooltip should not be too long and therefore can sometimes lack detail or be ambiguous.
 
-[Image: /docs/static/attachments/26957756]
+![Image](https://www.cryengine.com/docs/static/attachments/26957756)
 
 ##
 Drag-Tooltip
 
 The drag-tooltip is a custom Sandbox system that allows displaying a tooltip that follows the mouse during a drag operation.
 
-[Image: /docs/static/attachments/26957757]
+![Image](https://www.cryengine.com/docs/static/attachments/26957757)
 
 The purpose of this tooltip is to inform the user what will be triggered through the drag action, and in combination to "cannot drag" cursor changes, make it much easier to discover drag-drop functionality than guess-work.
 

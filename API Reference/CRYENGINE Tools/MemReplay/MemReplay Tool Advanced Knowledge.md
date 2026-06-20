@@ -11,21 +11,13 @@
 Overview
 
 This article describes some advanced MemReplay functions. If you want to get an overview of the tool's functionality please refer to
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306661](
-MemReplay Tool at First Sight
-)
+[MemReplay Tool at First Sight](MemReplay%20Tool%20at%20First%20Sight.md)
 .
 Chapters:
 
-[#inspecting-no-frees-analysis](
-Inspecting No Frees Analysis
-)
-[#inspecting-heap](
-Inspecting Heap
-)
-[#tracing-allocation-history](
-Tracing Allocation History
-)
+[Inspecting No Frees Analysis](#inspecting-no-frees-analysis)
+[Inspecting Heap](#inspecting-heap)
+[Tracing Allocation History](#tracing-allocation-history)
 
 ##
 Inspecting No Frees Analysis
@@ -42,7 +34,7 @@ D
 
 If an allocation has happened outside the scope, but the free is inside, MemReplay will display negative numbers as the following screenshot shows.
 
-[Image: /docs/static/attachments/26964635]
+![Image](https://www.cryengine.com/docs/static/attachments/26964635)
 
 Instead of pressing the
 **
@@ -54,7 +46,7 @@ No frees analysis
 **
 . This displays allocations only, which results in a result similar to the following screenshot.
 
-[Image: /docs/static/attachments/26964636]
+![Image](https://www.cryengine.com/docs/static/attachments/26964636)
 
 ##
 Inspecting Heap
@@ -65,7 +57,7 @@ Tools -> Inspect heap
 
 This option generates a graphical representation of the memory heap usage. This can be helpful to find large memory blocks or fragmentation.
 
-[Image: /docs/static/attachments/26964637]
+![Image](https://www.cryengine.com/docs/static/attachments/26964637)
 
 ##
 Tracing Allocation History
@@ -82,4 +74,4 @@ As an example, the following screenshot shows that five allocations and respecti
 **
 .
 
-[Image: /docs/static/attachments/26964638]
+![Image](https://www.cryengine.com/docs/static/attachments/26964638)

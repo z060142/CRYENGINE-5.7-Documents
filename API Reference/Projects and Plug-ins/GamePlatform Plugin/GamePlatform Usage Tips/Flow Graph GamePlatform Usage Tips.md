@@ -33,7 +33,7 @@ Most identifiers used by the GamePlatform services are variations of 64 bit type
 
 Since Flow Graph doesn't natively support 64 bit types, convert them to strings for Flow Graph, and then back into 64 bit types for execution on the service APIs. Here is an example of an identifier being implicitly converted to a string:
 
-[Image: /docs/static/attachments/76448711]
+![Image](https://www.cryengine.com/docs/static/attachments/76448711)
 
 *
 The "Account Id" pins are strings, converted from the underlying data type of the Account Identifier. For Steam, this would be the Steam 64 Id, a 64bit number
@@ -56,7 +56,7 @@ It is recommended to only have a single event node for each unique event you are
 
 Here is an example of handling events with a Listener node:
 
-[Image: /docs/static/attachments/76448713]
+![Image](https://www.cryengine.com/docs/static/attachments/76448713)
 
 *
 *
@@ -91,7 +91,7 @@ An event will be sent to every event node of the event type in any active Flow G
 Some functions require these Containers so that you can pass all the elements from one event into the function of another directly.
 Here is an example of handling a Container-based event:
 
-[Image: /docs/static/attachments/76448714]
+![Image](https://www.cryengine.com/docs/static/attachments/76448714)
 
 *
 For each event, each item in the Container is looped. The Container is deleted when there are no elements left
@@ -101,7 +101,7 @@ Since multiple events can be queued, there may be multiple Containers waiting to
 
 The following is an example of a function that uses the Container created by an event node:
 
-[Image: /docs/static/attachments/76448715]
+![Image](https://www.cryengine.com/docs/static/attachments/76448715)
 
 *
 The deletion of the container is not shown here, as the event node for the function called should handle the deletion of the Container that was used to generate it
@@ -114,7 +114,7 @@ Container nodes are used when a function node requires an array input. As this i
 
 The following an example of a node that lists each item individually without a Container node:
 
-[Image: /docs/static/attachments/76448716]
+![Image](https://www.cryengine.com/docs/static/attachments/76448716)
 
 *
 There is no Container node to manage.
@@ -123,18 +123,8 @@ Each call to the Retrieve input will overwrite the elements that will be output 
 *
 *
 
-[#flow-graph-architecture-limitations](
-Flow Graph Architecture Limitations
-)
-[#data-types](
-Data Types
-)
-[#event-handling](
-Event Handling
-)
-[#container-based-event-data](
-Container-based Event Data
-)
-[#simplified-array-results](
-Simplified Array Results
-)
+[Flow Graph Architecture Limitations](#flow-graph-architecture-limitations)
+[Data Types](#data-types)
+[Event Handling](#event-handling)
+[Container-based Event Data](#container-based-event-data)
+[Simplified Array Results](#simplified-array-results)

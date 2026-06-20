@@ -32,7 +32,7 @@ Embed
 **
  button to modify the font embedding options.
 
-[Image: /docs/static/attachments/90833579]
+![Image](https://www.cryengine.com/docs/static/attachments/90833579)
 
 *
 Embed
@@ -46,7 +46,7 @@ Also Include These Characters
 **
 : textbox.
 
-[Image: /docs/static/attachments/90833230]
+![Image](https://www.cryengine.com/docs/static/attachments/90833230)
 
 *
 Also include these characters
@@ -61,9 +61,7 @@ in the Font Embedding window to finalize your changes and publish your project.
 
 -
 Following this, export your your SWF file to a GFx file as explained in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/89456800](
-Chapter 2 - Flash and Gfx
-)
+[Chapter 2 - Flash and Gfx](Chapter%202%20-%20Flash%20and%20Gfx.md)
 .
 
 ##
@@ -81,7 +79,7 @@ Embed
 **
  button to modify the font embedding options.
 
-[Image: /docs/static/attachments/90833582]
+![Image](https://www.cryengine.com/docs/static/attachments/90833582)
 
 *
 Embed
@@ -95,7 +93,7 @@ Also Include These Characters
 **
 : textbox.
 
-[Image: /docs/static/attachments/90833232]
+![Image](https://www.cryengine.com/docs/static/attachments/90833232)
 
 *
 Also include these characters
@@ -111,19 +109,9 @@ in the Font Embedding window to finalize your changes and publish your project.
 
 -
 Following this, export your your SWF file to a GFx file as explained in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/89456800](
-Chapter 2 - Flash and Gfx
-)
+[Chapter 2 - Flash and Gfx](Chapter%202%20-%20Flash%20and%20Gfx.md)
 .
-[#what-do-font-glyphs-provide](
-What Do Font Glyphs Provide?
-)
-[#embedding-fonts](
-Embedding Fonts
-)
-[#scaleform-3](
-Scaleform 3
-)
-[#scaleform-4](
-Scaleform 4
-)
+[What Do Font Glyphs Provide?](#what-do-font-glyphs-provide)
+[Embedding Fonts](#embedding-fonts)
+[Scaleform 3](#scaleform-3)
+[Scaleform 4](#scaleform-4)

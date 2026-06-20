@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933197]
+![Image](https://www.cryengine.com/docs/static/attachments/29933197)
 
 ##
 Overview
@@ -17,35 +17,17 @@ Boids exist only as an atmospheric entity, to add life and ambiance to the level
 Their complex behavior arises from the interaction of an individual agent (Boid) with other agents and the environment that they are moving in.
 
 For information on setting up Boids from an Asset Creation perspective, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308008](
-Boids (animated)
-)
+[Boids (animated)](../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Boids%20(animated).md)
 .
 
-[#placing-boids-as-an-entity](
-Placing Boids as an Entity
-)
-[#boid-entity-properties](
-Boid Entity Properties
-)
-[#boid](
-Boid
-)
-[#flocking](
-Flocking
-)
-[#ground](
-Ground
-)
-[#movement](
-Movement
-)
-[#options](
-Options
-)
-[#particle-effects](
-Particle Effects
-)
+[Placing Boids as an Entity](#placing-boids-as-an-entity)
+[Boid Entity Properties](#boid-entity-properties)
+[Boid](#boid)
+[Flocking](#flocking)
+[Ground](#ground)
+[Movement](#movement)
+[Options](#options)
+[Particle Effects](#particle-effects)
 
 ##
 Placing Boids as an Entity
@@ -64,7 +46,7 @@ If the animal isn't displayed immediately, move the camera a good distance away 
 
 Ambient animals cannot be directly controlled, but the player can interact with them. They come complete with sound effects and a simple flocking behavior.
 
-[Image: /docs/static/attachments/56000628]
+![Image](https://www.cryengine.com/docs/static/attachments/56000628)
 
 ##
 Boid Entity Properties

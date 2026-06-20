@@ -57,7 +57,7 @@ D
 **
  to strafe left or right with the camera.
 
-[Image: /docs/static/attachments/24152172]
+![Image](https://www.cryengine.com/docs/static/attachments/24152172)
 
 Press
 **
@@ -72,7 +72,7 @@ WASD
 increased speed.
 
 **
-[Image: /docs/static/attachments/24152171]
+![Image](https://www.cryengine.com/docs/static/attachments/24152171)
 
 Roll the
 **
@@ -80,7 +80,7 @@ mouse wheel
 **
  to move forward or backward.
 
-[Image: /docs/static/attachments/24152168]
+![Image](https://www.cryengine.com/docs/static/attachments/24152168)
 
 When the mouse pointer is within the window, hold down the
 **
@@ -88,7 +88,7 @@ right mouse button
 **
  and move the mouse pointer to rotate the view.
 
-[Image: /docs/static/attachments/24152343]
+![Image](https://www.cryengine.com/docs/static/attachments/24152343)
 
 Hold down the
 **
@@ -96,7 +96,7 @@ middle mouse button
 **
  and move the mouse pointer to pan the view.
 
-[Image: /docs/static/attachments/24152342]
+![Image](https://www.cryengine.com/docs/static/attachments/24152342)
 
 ##
 Viewport Movement Speed Control
@@ -121,14 +121,14 @@ Speed
 **
  slider:
 
-[Image: /docs/static/attachments/24151456]
+![Image](https://www.cryengine.com/docs/static/attachments/24151456)
 
 ##
 Interactive Speed Slider
 
 When using the mouse wheel while moving to change the movement speed, an interactive speed slider will appear in the top-left corner of the Perspective viewport which displays the current camera speed. You can click and drag this slider to change the movement speed:
 
-[Image: /docs/static/attachments/25503312]
+![Image](https://www.cryengine.com/docs/static/attachments/25503312)
 
 ##
 Camera Speed Buttons
@@ -136,7 +136,7 @@ Camera Speed Buttons
 In the top-left corner of the Perspective viewport, next to the button for the Camera Settings, you'll find three buttons to set the camera movement speed to a preset value:
 
 *
-[Image: /docs/static/attachments/44971142]
+![Image](https://www.cryengine.com/docs/static/attachments/44971142)
 
 *
 
@@ -154,7 +154,7 @@ Q
 ##
 Frame selected objects
 
-[Image: /docs/static/attachments/24152064]
+![Image](https://www.cryengine.com/docs/static/attachments/24152064)
 
 If you have selected an object,
 **
@@ -166,18 +166,8 @@ object
 **
 in your current Viewport (works both in perspective and orthographic views). An averaged center is calculated if more than one object is selected.
 
-[#viewport-navigation](
-Viewport Navigation
-)
-[#navigation](
-Navigation
-)
-[#viewport-movement-speed-control](
-Viewport Movement Speed Control
-)
-[#terrain-collision](
-Terrain Collision
-)
-[#frame-selected-objects](
-Frame selected objects
-)
+[Viewport Navigation](#viewport-navigation)
+[Navigation](#navigation)
+[Viewport Movement Speed Control](#viewport-movement-speed-control)
+[Terrain Collision](#terrain-collision)
+[Frame selected objects](#frame-selected-objects)

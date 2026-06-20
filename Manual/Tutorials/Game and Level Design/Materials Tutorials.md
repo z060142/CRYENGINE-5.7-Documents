@@ -7,41 +7,29 @@
 
 ## Child Pages
 
-- [Decal Tutorials](Materials Tutorials/Decal Tutorials.md)
-- [How to create a terrain texture in Photoshop](Materials Tutorials/How to create a terrain texture in Photoshop.md)
-- [Tutorial - Creating Material Files](Materials Tutorials/Tutorial - Creating Material Files.md)
-- [Tutorial - Getting Started with the Material Editor](Materials Tutorials/Tutorial - Getting Started with the Material Editor.md)
-- [Tutorial - How to create a detail texture in Photoshop](Materials Tutorials/Tutorial - How to create a detail texture in Photoshop.md)
-- [Tutorial - How to set up relative pathing for materials](Materials Tutorials/Tutorial - How to set up relative pathing for materials.md)
+- [Decal Tutorials](Materials%20Tutorials/Decal%20Tutorials.md)
+- [How to create a terrain texture in Photoshop](Materials%20Tutorials/How%20to%20create%20a%20terrain%20texture%20in%20Photoshop.md)
+- [Tutorial - Creating Material Files](Materials%20Tutorials/Tutorial%20-%20Creating%20Material%20Files.md)
+- [Tutorial - Getting Started with the Material Editor](Materials%20Tutorials/Tutorial%20-%20Getting%20Started%20with%20the%20Material%20Editor.md)
+- [Tutorial - How to create a detail texture in Photoshop](Materials%20Tutorials/Tutorial%20-%20How%20to%20create%20a%20detail%20texture%20in%20Photoshop.md)
+- [Tutorial - How to set up relative pathing for materials](Materials%20Tutorials/Tutorial%20-%20How%20to%20set%20up%20relative%20pathing%20for%20materials.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28184584](
-Decal Tutorials
-)
+[Decal Tutorials](Materials%20Tutorials/Decal%20Tutorials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656893](
-How to create a terrain texture in Photoshop
-)
+[How to create a terrain texture in Photoshop](Materials%20Tutorials/How%20to%20create%20a%20terrain%20texture%20in%20Photoshop.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308590](
-Tutorial - Creating Material Files
-)
+[Tutorial - Creating Material Files](Materials%20Tutorials/Tutorial%20-%20Creating%20Material%20Files.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308589](
-Tutorial - Getting Started with the Material Editor
-)
+[Tutorial - Getting Started with the Material Editor](Materials%20Tutorials/Tutorial%20-%20Getting%20Started%20with%20the%20Material%20Editor.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656895](
-Tutorial - How to create a detail texture in Photoshop
-)
+[Tutorial - How to create a detail texture in Photoshop](Materials%20Tutorials/Tutorial%20-%20How%20to%20create%20a%20detail%20texture%20in%20Photoshop.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656887](
-Tutorial - How to set up relative pathing for materials
-)
+[Tutorial - How to set up relative pathing for materials](Materials%20Tutorials/Tutorial%20-%20How%20to%20set%20up%20relative%20pathing%20for%20materials.md)

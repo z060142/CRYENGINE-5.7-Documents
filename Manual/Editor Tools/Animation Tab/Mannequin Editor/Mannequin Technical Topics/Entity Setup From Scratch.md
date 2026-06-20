@@ -19,7 +19,7 @@ Core Mannequin Classes
 
 The following is a diagram with an overview of the main components that are involved in CryMannequin. It aims to illustrate the key classes and their relationships. It is not a complete UML diagram of all classes, but more of a useful companion for this article where all of them are used in practice. It is not necessary to fully understand all the concepts at this point, since this article aims to present them as they are used.
 
-[Image: /docs/static/attachments/23998363]
+![Image](https://www.cryengine.com/docs/static/attachments/23998363)
 
 ##
 Mannequin Setup
@@ -33,60 +33,46 @@ The first thing we will do is decide how we will divide our character into a ser
 
 For each of these logical parts we create what is called a
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-Scope
-)
+[Scope](../Mannequin%20Concepts/Mannequin%20Scopes.md)
 *
 . Scopes are where fragments are started on.
 
 In our simple example we don't need much complexity yet. We will have a single entity with one character instance and we will change between an Idle and Movement logical animation state. For the moment we don't want to be able to control separately what is playing on the upper body of the character. We have enough control if we can decide what plays on the full body of the character. Therefore a single scope will suffice for now. We will call it FullBody.
 
-[Image: /docs/static/attachments/23998376]
+![Image](https://www.cryengine.com/docs/static/attachments/23998376)
 
 Scopes are mapped to an entity, a character instance and an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743](
-animation database
-)
+[animation database](../Mannequin%20Files/Animation%20Database%20(ADB).md)
  through a
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450870](
-Scope Context
-)
+[Scope Context](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
 *
 . We will create this mapping through code during the entity setup by referring to it by name (MainCharacter). These properties of a Scope Context can change during run-time, so it is possible to swap the entity, character instance or animation database we are playing animations on at any time (we made use of this when swapping weapons in Crysis3 for example).
 
-[Image: /docs/static/attachments/23998373]
+![Image](https://www.cryengine.com/docs/static/attachments/23998373)
 
 We can always add more scopes later on, when we need more complicated setups or to obtain a more fine grained control over a character. For example, if we want a setup in which we have a full body, an upper body and a weapon entity that we want to control separately and be able to synchronize animations on, we could have three scopes in our mannequin character, one to control full body fragments, one for upper body and a final one for the weapon. Notice how the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28186162](
-animation layers
-)
+[animation layers](../Mannequin%20Animation%20Layers.md)
  that specify which layers of the character instance in the scope context we use are a property of the scope.
 
-[Image: /docs/static/attachments/23998378]
+![Image](https://www.cryengine.com/docs/static/attachments/23998378)
 
-[Image: /docs/static/attachments/23998374]
+![Image](https://www.cryengine.com/docs/static/attachments/23998374)
 
 ##
 Creating the Controller Definition
 
 The structure of the character we will be controlling through mannequin is setup in what we call a
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition
-)
+[Controller Definition](../Mannequin%20Files/Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
 *
 . We usually load controller definitions from XML files.
 
 In controller definitions we specify what
-[/docs/static/engines/cryengine-5/categories/23756816](
-Tags
-)
+[Tags](/docs/static/engines/cryengine-5/categories/23756816)
  make up its global state, what animation states (we will usually refer to an animation state as a
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-FragmentId
-)
+[FragmentId](../Mannequin%20Concepts/FragmentIDs.md)
 *
 ), and how the character is broken down into scopes.
 
@@ -131,18 +117,16 @@ View -> Views -> Mannequin Editor
 **
 
 The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308456](
-tag definition editor
-)
+[tag definition editor](../Mannequin%20Tag%20Definition%20Editor.md)
  is located under "File->Tag Definition Editor...".
 
-[Image: /docs/static/attachments/23998384]
+![Image](https://www.cryengine.com/docs/static/attachments/23998384)
 
-[Image: /docs/static/attachments/23998381]
+![Image](https://www.cryengine.com/docs/static/attachments/23998381)
 
 To create a new tag definition we only need to press on the create new tag definition button.
 
-[Image: /docs/static/attachments/23998385]
+![Image](https://www.cryengine.com/docs/static/attachments/23998385)
 
 A prompt will require us to specify the filename (without extension) of the tag definition file we want. By default it will be placed in the
 `
@@ -150,11 +134,11 @@ Animations/Mannequin/ADB
 `
  folder.
 
-[Image: /docs/static/attachments/23998382]
+![Image](https://www.cryengine.com/docs/static/attachments/23998382)
 
 We should repeat this step for the two files we need to create: "sampleTags" and "sampleFragmentIds"
 
-[Image: /docs/static/attachments/23998386]
+![Image](https://www.cryengine.com/docs/static/attachments/23998386)
 
 The content of the files should look similar to this:
 
@@ -182,7 +166,7 @@ The tag definition editor can be used to add tags manually to the fragmentIds ta
 
 Tag definitions that don't end with the name "tags.xml" will not be visible in the tag definition editor unless the "Filter Tags" option is disabled.
 
-[Image: /docs/static/attachments/23998383]
+![Image](https://www.cryengine.com/docs/static/attachments/23998383)
 
 ##
 Scope Definitions
@@ -211,9 +195,7 @@ The name used for the XML tag, "FullBody" in the example, will be the name given
 The context attribute (here "MainCharacter") specifies which scope context the scope refers to. From the code side we will later on assign what entity and character instance are associated to that scope context. A new scope context is implicitly created by declaring it, and the name is important since we will reference it later on from the code side when we set up the entity. Different scopes can reference the same scope context.
 
 The layer and numLayers attributes specify on which
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28186162](
-layers
-)
+[layers](../Mannequin%20Animation%20Layers.md)
  of the character instance in the MainCharacter scope context the fragments will be playing animations on. In this case we are taking layers 0, 1 and 2.
 
 It is possible to have scopes that don't allow any animations by specifying 0 numLayers. It is always possible to play procedural clips on a scope.
@@ -227,9 +209,7 @@ Creating the Editor Preview Setup File
 Creating an Empty Preview Setup File
 
 The last bit of XML editing we need to do for now is to create a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308475](
-preview setup file
-)
+[preview setup file](../Mannequin%20Files/Preview%20Setup%20File%20(xxxPreview.xml).md)
 . For this we will simply need it to point to the controller definition file we just created.
 
 ```
@@ -252,9 +232,7 @@ File -> Load Preview Setup...
 
 The views will appear empty, since at no point did we fill in the scopes contexts for our preview setup. We need to do this to specify the character or animation database files to use. We will be doing that using the
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308457](
-Context Editor
-)
+[Context Editor](../Mannequin%20Context%20Editor.md)
 *
 .
 
@@ -270,7 +248,7 @@ Context Editor
 File -> Context Editor...
 **
 
-[Image: /docs/static/attachments/23998359]
+![Image](https://www.cryengine.com/docs/static/attachments/23998359)
 
 The mapping of contexts in the editor is something local to the preview files. This mimics on the editor side what we would be doing in our game code when setting the scope contexts.
 
@@ -280,16 +258,14 @@ For our character, we have one scope context that we've called MainCharacter. To
 
 We can create a new mapping by clicking the "New" button.
 
-[Image: /docs/static/attachments/23998358]
+![Image](https://www.cryengine.com/docs/static/attachments/23998358)
 
 The following window allows us to edit the properties of the mapping.
 
-[Image: /docs/static/attachments/23998360]
+![Image](https://www.cryengine.com/docs/static/attachments/23998360)
 
 The name is how we will identify a specific scope context mapping in the editor side of Mannequin. It is local to the preview file, so from the game code we will not reference it. We will see it in the context dropdown menu in the editor and next to the scope names in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-previewer](
-Previewer
-)
+[Previewer](../../Mannequin%20Editor.md#MannequinEditor-previewer)
 . In this case we call it MainCharacter, but we could give it any name we want (e.g. SDKPlayer), or change it later without any consequences.
 
 In more advanced setups we can have multiple mappings for the same scope context and swap them in the editor to be able to preview how other characters work with this controller definition setup and to create and edit fragments for the animation database associated to that scope context. For example, we could have a scope context for the weapon, and have a setup where we can preview different weapons without having to swap preview files, just by changing which mapping for that scope is active. For this specific case we can even have the editor do this swapping automatically based on the active tags for the character, to make the editing and preview a more seamless experience.
@@ -302,19 +278,19 @@ Objects/characters/human/sdk_player/sdk_player.cdf
 
 We also need to specify which database will be used to store fragments. Since we don't have any databases yet, we will create a new one by pressing the "+" button. This will prompt us for the name we want to give to the new database. In our example we will call it sampleDatabase.
 
-[Image: /docs/static/attachments/23998362]
+![Image](https://www.cryengine.com/docs/static/attachments/23998362)
 
 The Start Active check box makes sure that in the Previewer this scope context mapping is enabled by default. If this is not checked, we would need to associate its activation with a specific set of tags, or manually set it up in the Previewer by right clicking on a scope and selecting the mapping that we want to activate. For our example it is more convenient to make sure that this mapping is always active, since we always want to be able to preview it.
 
 Once we have set up the name, model and database we have specified enough information to create a valid mapping to start creating fragments on.
 
-[Image: /docs/static/attachments/23998361]
+![Image](https://www.cryengine.com/docs/static/attachments/23998361)
 
 Closing the context editor will save the changes to the preview file automatically.
 
 The Mannequin Editor should now show us the SDK player character loaded in the central viewport, and the name we gave to the context in the context editor selected as current context.
 
-[Image: /docs/static/attachments/23998372]
+![Image](https://www.cryengine.com/docs/static/attachments/23998372)
 
 ##
 Creating the Initial Fragments
@@ -322,28 +298,22 @@ Creating the Initial Fragments
 We can now add the fragmentIds we want. We will call them "Idle" and "Motion" to match the animation states we will be requesting through code.
 
 For an in-depth explanation on how to create
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-fragmentIds
-)
+[fragmentIds](../Mannequin%20Concepts/FragmentIDs.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-fragments
-)
+[fragments](../Mannequin%20Concepts/Mannequin%20Fragments.md)
  check out their respective articles or the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308482](
-tutorial articles
-)
+[tutorial articles](/docs/static/engines/cryengine-5/categories/23756816/pages/23308482)
 .
 
 Once we have the fragmentIds we create a fragment for each.
 
 Idle:
 
-[Image: /docs/static/attachments/23998366]
+![Image](https://www.cryengine.com/docs/static/attachments/23998366)
 
 Motion:
 
-[Image: /docs/static/attachments/23998367]
+![Image](https://www.cryengine.com/docs/static/attachments/23998367)
 
 ##
 Creating our Entity
@@ -353,9 +323,7 @@ Initialization and Setup
 
 Mannequin controlled entities access mannequin through the
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308466](
-Action Controller
-)
+[Action Controller](Mannequin%20ActionController.md)
 *
 . When an entity wants to play a fragment it will create an Action and queue it on the action controller. Actions can also start fragments themselves, so it is possible to write actions that have logic that controls which fragment is playing. It is a good idea to only write logic that takes care of animation selection logic in the Actions. There is no technical restriction against it, but relying on the Action Controller as an Action framework for game logic is not greatly encouraged since it is tuned for animation playback.
 
@@ -510,7 +478,7 @@ Adding Random Variation
 
 At this stage we have no fragment variation within a fragmentId. Every time we start the Idle fragment we will see the same idle animation. If we had several characters starting the same fragment at the same time it would most likely look dull. We can achieve a bit more variation by adding more fragments. If we add a new fragment to the Idle fragmentId we can see in the fragment browser that we now have more than one option. Now, when we queue the Idle fragment, since we have more than one valid fragment to play, a random one will be selected.
 
-[Image: /docs/static/attachments/23998371]
+![Image](https://www.cryengine.com/docs/static/attachments/23998371)
 
 Queries for the best possible matching fragment to play on a scope are performed on the animation database. When there are multiple valid fragments (i.e. Options), the default behavior is to obtain a random one. Nevertheless, it is possible to force the system to pick a specific option by specifically selecting an option index. It is not necessary for the option index to be in the range of valid options for a fragment (it will be forced in that range automatically using 'modulo').
 
@@ -614,31 +582,31 @@ The global tags for our controller definition are stored in sampleTags.xml. We c
 
 In the tag definition editor select the sampleTags.xml tag definition and click on the add new tag button.
 
-[Image: /docs/static/attachments/23998393]
+![Image](https://www.cryengine.com/docs/static/attachments/23998393)
 
 A prompt will appear requesting to give a name to the new tag.
 
-[Image: /docs/static/attachments/23998392]
+![Image](https://www.cryengine.com/docs/static/attachments/23998392)
 
 We will need a tag for each possible stance the character should be able to have.
 
-[Image: /docs/static/attachments/23998387]
+![Image](https://www.cryengine.com/docs/static/attachments/23998387)
 
 Since both tags are mutually exclusive, we will want to group them together, so they can never be active at the same time. It is a good idea to group tags whenever it is possible.
 
 We can create a group by selecting the new group button.
 
-[Image: /docs/static/attachments/23998389]
+![Image](https://www.cryengine.com/docs/static/attachments/23998389)
 
 And giving it the name that we want. In our case Stance.
 
-[Image: /docs/static/attachments/23998391]
+![Image](https://www.cryengine.com/docs/static/attachments/23998391)
 
 Then we just need to drag and drop the Crouch and Stand tags into the Stance group.
 
-[Image: /docs/static/attachments/23998390]
+![Image](https://www.cryengine.com/docs/static/attachments/23998390)
 
-[Image: /docs/static/attachments/23998388]
+![Image](https://www.cryengine.com/docs/static/attachments/23998388)
 
 Two tags in the same tag definition cannot have the same name. Even when they are in different groups.
 
@@ -657,27 +625,25 @@ Assigning Tags to Fragments.
 
 When we are editing a fragment we can set the tags that we want it to have for its selection. By double clicking on a fragment to edit it in the fragment browser, the properties table under it will allow to select the tags we want to assign to it.
 
-[Image: /docs/static/attachments/23998379]
+![Image](https://www.cryengine.com/docs/static/attachments/23998379)
 
 Notice how when we change the tags, the fragment browser reflects that fact by placing the fragment in a subfolder with the name of the tag.
 
-[Image: /docs/static/attachments/23998380]
+![Image](https://www.cryengine.com/docs/static/attachments/23998380)
 
 We can repeat this so that we have each fragment categorized with the appropriate Stance tag.
 
-[Image: /docs/static/attachments/23998368]
+![Image](https://www.cryengine.com/docs/static/attachments/23998368)
 
 We usually have more than a single tag. A more complex example might look closer to this:
 
-[Image: /docs/static/attachments/23998369]
+![Image](https://www.cryengine.com/docs/static/attachments/23998369)
 
 ##
 Fragment Selection Details
 
 (see specific article
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308439](
-Fragment Selection Process
-)
+[Fragment Selection Process](../Mannequin%20Concepts/Fragment%20Selection%20Process.md)
  for more details)
 
 When an action gets installed on a scope it will try to find the fragment that should play on it.
@@ -700,7 +666,7 @@ Entries in the database are ordered based on their tags' priority, that's why th
 
 Since the best match search in the database heavily depends on the ranking of fragments and their order, it's important to be able to get a clear idea of how this looks like. We can see the order of fragments in the database by unchecking the Show Folders option in the fragment panel.
 
-[Image: /docs/static/attachments/23998365]
+![Image](https://www.cryengine.com/docs/static/attachments/23998365)
 
 The priority of a tag can be set in the tag definition editor by selecting a tag. Since the order in which fragments are stored in the database depends on the tag priorities, changing tag priorities might require resaving the databases.
 
@@ -719,7 +685,7 @@ In our database we now have all our fragments marked either with the Stance or C
 
 Not having a match can be valid use case, but we must be careful. It's important to not allow this to happen by mistake in full body (base) layers, since this might translate in our characters going into T-Pose. We can make sure this never happens by having some default fragment to always fall back to. In our case we can remove the Stand tag so they become the default fragments for our fragmentIds.
 
-[Image: /docs/static/attachments/23998370]
+![Image](https://www.cryengine.com/docs/static/attachments/23998370)
 
 An equally valid solution is to keep the tags as they were before and duplicate fragments that are generic enough and make them the default fragments. In our case this would be the fragments tagged with "Stand".
 
@@ -727,9 +693,7 @@ An equally valid solution is to keep the tags as they were before and duplicate 
 Changing the Global Tag State.
 
 To change the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-global tag state
-)
+[global tag state](../Mannequin%20Concepts/Mannequin%20TagState.md)
  from code to reflect our logical state we must do it through the animation context we created during the entity initialization.
 
 ```
@@ -754,7 +718,7 @@ We have several ways to make sure that we always are playing the best fragment f
 
 If we want to enforce it on a fragmentId level we just need to edit a fragmentId in the editor and select the Auto Update option.
 
-[Image: /docs/static/attachments/23998364]
+![Image](https://www.cryengine.com/docs/static/attachments/23998364)
 
 If we prefer to get more control we need to write a custom action. On each update, our action needs to check if there is a better fragment than the currently playing one. If that's the case, then it needs to request a new fragment. An action can re-queue itself by calling SetFragment, so there's no need to create a new action from within the action:
 
@@ -820,21 +784,9 @@ External control logic is starting actions: The movement logic for our character
 Internal Action logic is setting fragments: The movement logic for our character should still be controlled by the entity in a similar way as in the previous case, but the control of the animation logic is left up to a custom action. In our case, we can write a custom action that would take into account the state of our entity (is it moving or stationary?) and then sets the appropriate fragmentID, option index, fragment-specific tags etc.
 In the end, we commonly use a combination of both, with higher level control logic taking care of the generic action that should be started, and the internal action logic taking care of animation specific logic that might not belong on the higher level logic.
 
-[#core-mannequin-classes](
-Core Mannequin Classes
-)
-[#mannequin-setup](
-Mannequin Setup
-)
-[#creating-our-entity](
-Creating our Entity
-)
-[#adding-variation](
-Adding Variation
-)
-[#changing-the-global-tag-state](
-Changing the Global Tag State.
-)
-[#starting-movement-fragments](
-Starting Movement Fragments
-)
+[Core Mannequin Classes](#core-mannequin-classes)
+[Mannequin Setup](#mannequin-setup)
+[Creating our Entity](#creating-our-entity)
+[Adding Variation](#adding-variation)
+[Changing the Global Tag State.](#changing-the-global-tag-state)
+[Starting Movement Fragments](#starting-movement-fragments)

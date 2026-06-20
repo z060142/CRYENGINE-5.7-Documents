@@ -19,9 +19,7 @@ If the constraint is not supposed to
 
 The below video illustrates the usage of constraints with live character skeleton:
 
-[/docs/static/attachments/25516158](
-character_constraint1.avi
-)
+[character_constraint1.avi](/docs/static/attachments/25516158)
  |
 
 ##

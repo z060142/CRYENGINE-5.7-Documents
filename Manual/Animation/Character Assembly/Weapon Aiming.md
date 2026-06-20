@@ -7,11 +7,9 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933228]
+![Image](https://www.cryengine.com/docs/static/attachments/29933228)
 
-[https://www.cryengine.com/get-cryengine/memberships](
-[Image: /docs/static/attachments/26952088]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/26952088)](https://www.cryengine.com/get-cryengine/memberships)
 
 ##
 Overview
@@ -29,16 +27,10 @@ Our current implementation is designed with characters that exhibit a range of m
 ##
 Chapters:
 
-[#chapters](
-Chapters:
-)
-[#aim-ik-setup](
-Aim IK Setup
-)
-[#common-pitfalls](
-Common Pitfalls
-)
-[Image: /docs/static/attachments/26952868]
+[Chapters:](#chapters)
+[Aim IK Setup](#aim-ik-setup)
+[Common Pitfalls](#common-pitfalls)
+![Image](https://www.cryengine.com/docs/static/attachments/26952868)
 
 ##
 Aim IK Setup
@@ -52,12 +44,12 @@ The poses are exported as an animation file, with a pose per frame. The naming o
 
 The order of the poses in the animation is also important.
 
-[Image: /docs/static/attachments/35400831]
-[Image: /docs/static/attachments/35400832]
+![Image](https://www.cryengine.com/docs/static/attachments/35400831)
+![Image](https://www.cryengine.com/docs/static/attachments/35400832)
 
 How this could really look for the 9 poses case:
 
-[Image: /docs/static/attachments/35400833]
+![Image](https://www.cryengine.com/docs/static/attachments/35400833)
 
 While 9 poses might be enough for many cases, it is recommended to use 15 poses for better visual results, since when providing 9 poses the system currently extrapolates the provided ones to create 15 poses.
 

@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [RagDoll Setup - Maya](Ragdoll/RagDoll Setup - Maya.md)
+- [RagDoll Setup - Maya](Ragdoll/RagDoll%20Setup%20-%20Maya.md)
 
 ## Content
 
-[Image: /docs/static/attachments/29934086]
+![Image](https://www.cryengine.com/docs/static/attachments/29934086)
 
 ##
 Overview
@@ -23,36 +23,22 @@ This section covers how to create a the proper physics setup for various DCC too
 
 In order for the bodies of characters to become physicalized upon death, there is a certain setup required to add additional information into the files. There are two main skeletons, one for the main character, and one for the dead or ragdoll character. Both will likely have very similar setups with only a few variations.
 
-[Image: /docs/static/attachments/23994237]
+![Image](https://www.cryengine.com/docs/static/attachments/23994237)
 
 Here you see the main and/or dead skeleton to the left, the one on the right is the Phys Skeleton which has the physics properties.
 
-[#sections](
-Sections
-)
-[#before-you-begin](
-Before You Begin
-)
-[#the-main-skeleton](
-The Main Skeleton
-)
-[#the-dead-body-ragdoll-skeleton](
-The Dead Body/ Ragdoll Skeleton
-)
-[#phys-skeletons](
-Phys Skeletons
-)
-[#ik-rotation-dampening-and-parentframes](
-IK, Rotation, Dampening, and ParentFrames
-)
+[Sections](#sections)
+[Before You Begin](#before-you-begin)
+[The Main Skeleton](#the-main-skeleton)
+[The Dead Body/ Ragdoll Skeleton](#the-dead-body-ragdoll-skeleton)
+[Phys Skeletons](#phys-skeletons)
+[IK, Rotation, Dampening, and ParentFrames](#ik-rotation-dampening-and-parentframes)
 
 ##
 Before You Begin
 
 Before you read further, be sure that you downloaded the compressed file at the top of
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307993](
-DCC Setup (animated)
-)
+[DCC Setup (animated)](../../Character%20(animated)/DCC%20Setup%20(animated).md)
  for reference.
 
 ##
@@ -74,7 +60,7 @@ The bones act as switches. A Phys bone being present, acts as a switch, activati
 
 -
 The IK limits and dampening used in the Phys mesh will be read and used in rag doll physics to limit and dampen the movement of any given joint.
-[Image: /docs/static/attachments/23994240]
+![Image](https://www.cryengine.com/docs/static/attachments/23994240)
 
 ##
 Saving the Dead Body Skeleton
@@ -100,7 +86,7 @@ Non-Biped Characters
 
 Characters that are not rigged with the biped setup do not necessarily need a 'Phys' Skeleton unless you intend on using ragdoll, then a phys skeleton needs to be with LOD1. It is possible to export IK limits from the Main Skeleton in non-biped characters. (There is a problem with how 3ds Max reads biped characters, and because of this, there is a need to create the 'Phys' Skeleton) In non-biped characters when you want a bone to not be physicalized, you should put the word 'nonphysical' in it's user-defined properties.
 
-[Image: /docs/static/attachments/23994242]
+![Image](https://www.cryengine.com/docs/static/attachments/23994242)
 
 ##
 User Defined Properties
@@ -142,9 +128,7 @@ Defined Properties
 , the current max geometry is replaced with the named primitive. The shape is created around the general bounding box of the geometry and uses the original pivot point to attempt to rotate the primitive to match the geometry as best as possible. This is a great tool for troubleshooting, but is far from perfect for characters as you cannot see the volume in 3ds Max, and must load it into Sandbox.
 
 For more information on user defined properties please refer to the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310799](
-UDP Settings
-)
+[UDP Settings](/docs/static/engines/cryengine-3/categories/1114113/pages/1310799)
  page.
 
 ##
@@ -177,9 +161,9 @@ Avoid using joints with all 3 axis locked whenever possible, because they slow d
 All of your geometry tweaking/editing should be on the Main Skeleton. No geometry is read from the 'Phys' Skeleton at all, remember that it is basically just a set of 'switches', and a place to store IK and dampening info.
 Example of the physics attributes sections for Maya and 3ds Max:
 
-[Image: /docs/static/attachments/23994238]
+![Image](https://www.cryengine.com/docs/static/attachments/23994238)
 
-[Image: /docs/static/attachments/23994234]
+![Image](https://www.cryengine.com/docs/static/attachments/23994234)
 
 ##
 Stiffness and Spring Tension
@@ -213,22 +197,22 @@ For Max Users:
 
 To edit the IK information for a bone in the 'phys' skeleton, select it and click the 'Hierarchy' tab on the right tool pane, as shown here:
 
-[Image: /docs/static/attachments/23994239]
+![Image](https://www.cryengine.com/docs/static/attachments/23994239)
 
 Next, click the IK button (pictured below), you will then be able to scroll down to the IK limit information.
 
-[Image: /docs/static/attachments/23994241]
+![Image](https://www.cryengine.com/docs/static/attachments/23994241)
 
 At the right you can see the IK limits panel. This is what it looks like for the lower leg (tibia-fibula).
 
-[Image: /docs/static/attachments/23994238]
+![Image](https://www.cryengine.com/docs/static/attachments/23994238)
 
 ##
 For Maya Users:
 
 To edit the IK information for a bone you need to click "Add Attributes" in the main exporter window, select the jointed skeleton, then open up the Attribute Editor, and then expand Extra Attributes:
 
-[Image: /docs/static/attachments/23994234]
+![Image](https://www.cryengine.com/docs/static/attachments/23994234)
 
 In order to limit the movement of the dead skeleton during rag doll physics simulation, you need to set limits on the rotational angles of the bones. The lower leg is set with a rotational angle of
 **
@@ -315,11 +299,11 @@ Bip01 Head Phys ParentFrame
 **
 ° range. Here is a hierarchical view of parent frames inserted at key joints:
 
-[Image: /docs/static/attachments/23994243]
+![Image](https://www.cryengine.com/docs/static/attachments/23994243)
 
 Here is a look in schematic view:
 
-[Image: /docs/static/attachments/23994246]
+![Image](https://www.cryengine.com/docs/static/attachments/23994246)
 
 ##
 For Maya Users:

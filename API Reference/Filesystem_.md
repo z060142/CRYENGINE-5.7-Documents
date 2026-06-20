@@ -6,9 +6,9 @@
 
 ## Child Pages
 
-- [Avoiding Runtime File Access Stalls](Filesystem_/Avoiding Runtime File Access Stalls.md)
-- [Reading & Writing XML](Filesystem_/Reading & Writing XML.md)
-- [Serializing JSON & XML](Filesystem_/Serializing JSON & XML.md)
+- [Avoiding Runtime File Access Stalls](Filesystem_/Avoiding%20Runtime%20File%20Access%20Stalls.md)
+- [Reading & Writing XML](Filesystem_/Reading%20%26%20Writing%20XML.md)
+- [Serializing JSON & XML](Filesystem_/Serializing%20JSON%20%26%20XML.md)
 
 ## Content
 
@@ -20,34 +20,22 @@ fopen
 ', '
 fread
 ' etc... functions via the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797181](
-ICryPak
-)
+[ICryPak](/docs/static/engines/cryengine-5/categories/28704770/pages/29797181)
  interface. This allows for supporting multiple platforms as well as the custom .pak archive implementation, without over complicating file access.
 
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#working-directory](
-Working Directory
-)
-[#aliases](
-Aliases
-)
-[#pak-archives](
-PAK Archives
-)
+[API Types](#api-types)
+[Working Directory](#working-directory)
+[Aliases](#aliases)
+[PAK Archives](#pak-archives)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797181](
-ICryPak
-)
+[ICryPak](/docs/static/engines/cryengine-5/categories/28704770/pages/29797181)
 
 ##
 Working Directory
@@ -62,9 +50,7 @@ Assets
 Aliases
 
 Paths specified to
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797181](
-ICryPak
-)
+[ICryPak](/docs/static/engines/cryengine-5/categories/28704770/pages/29797181)
  can contain aliases wrapped in percentage signs (%) in order to access a predefined location. This is commonly used to access the Engine root directory or the user folder. The default aliases are.
 
 Alias
@@ -112,18 +98,14 @@ Not
 PAK Archives
 
 A very important aspect of
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797181](
-ICryPak
-)
+[ICryPak](/docs/static/engines/cryengine-5/categories/28704770/pages/29797181)
  is its support for storing game content in compressed or uncompressed archives. This allows for both synchronous (stalls until the data is loaded) and asynchronous (streaming) loading of archived data.
 
 ##
 Creating a .pak File Using 7za
 
 You can easily create a .pak file using the
-[http://www.7-zip.org/](
-7-Zip
-)
+[7-Zip](http://www.7-zip.org/)
  tool using the command:
 
 `

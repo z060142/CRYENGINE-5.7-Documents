@@ -32,9 +32,7 @@ Note that installing the "P4VS" plugin (Perforce plugin for Visual Studio) is st
 Step 1: Get Uncrustify
 
 Extract
-[/docs/static/attachments/44962606](
-CRYENGINE_5.0.0_uncrustify.zip
-)
+[CRYENGINE_5.0.0_uncrustify.zip](/docs/static/attachments/44962606)
  to your preferred location (default:
 `
  D:\p4\Tools\uncrustify
@@ -52,16 +50,14 @@ Step 2: Download "Code Beautifier" Extension
 
 Download and install the "Code Beautifier" from the following page:
 **
-[https://visualstudiogallery.msdn.microsoft.com/febc2d81-34bd-4324-aadb-0a942eb39d43](
-Code Beautifier extension for Visual Studio 2015
-)
+[Code Beautifier extension for Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/febc2d81-34bd-4324-aadb-0a942eb39d43)
 **
 .
 
 ##
 Step 3: Open Code Beautifier options
 
-[Image: /docs/static/attachments/44962609]
+![Image](https://www.cryengine.com/docs/static/attachments/44962609)
 
 ##
 Step 4: Import settings
@@ -80,7 +76,7 @@ CodeBeautifierSettings.xml
 **
 .
 
-[Image: /docs/static/attachments/44962608]
+![Image](https://www.cryengine.com/docs/static/attachments/44962608)
 
 ##
 Step 5: Save
@@ -101,4 +97,4 @@ Uncrustify -> Application
 **
  (see below) and edit the paths.)
 
-[Image: /docs/static/attachments/44962607]
+![Image](https://www.cryengine.com/docs/static/attachments/44962607)

@@ -59,9 +59,7 @@ Q: But how path following actually works? Where to start?
 **
 
 A: Try
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306473](
-Path Following
-)
+[Path Following](Path%20Following.md)
 .
 
 ##
@@ -72,7 +70,5 @@ Q: How to keep patrols always active, regardless of the distance to the player?
 **
 
 A: Please consult
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306465](
-Auto-disable
-)
+[Auto-disable](../Auto-disable.md)
 .

@@ -20,17 +20,13 @@ you will be more familiar with morph targets.
 
 This tutorial may rely on the free GameSDK sample project. We recommend that you download this from the
 **
-[https://www.cryengine.com/marketplace](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace)
 **
 , import it into your Launcher, start it from there and then create a new level.
 
 See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870288](
-this page
-)
+[this page](/docs/static/engines/cryengine-5/categories/23756816/pages/36870288)
 **
  to find out how to import a project to your Launcher. (The default folder for the GameSDK Sample Project when downloaded is
 `
@@ -46,9 +42,7 @@ Tutorial Files
 Source 3dsMax scenes with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/44959540](
-sdk_blendshape_max_tutorial.zip
-)
+[sdk_blendshape_max_tutorial.zip](/docs/static/attachments/44959540)
 **
  (8.6 MB)
 (Extract this to the Assets folder in your GameSDK folder. See above for the default location of this folder.)
@@ -75,30 +69,22 @@ Before you continue with this tutorial, make sure to have read and understood th
 
 -
 **
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310877](
-How to install CryMaxTools
-)
+[How to install CryMaxTools](/docs/static/engines/cryengine-3/categories/1114113/pages/1310877)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-Basic Asset Setup and Export - 3ds Max
-)
+[Basic Asset Setup and Export - 3ds Max](../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-3dsMax unit scale to match up with CRYENGINE unit system
-)
+[3dsMax unit scale to match up with CRYENGINE unit system](../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 **
 
 ##
@@ -118,7 +104,7 @@ Decrease the morph target position threshold in the Exporter options to 0.001 or
 Pic1: Morph target export option in 3dsMax
 
 *
-[Image: /docs/static/attachments/44959539]
+![Image](https://www.cryengine.com/docs/static/attachments/44959539)
 
 The blue colored vertices are marked for CRYENGINE to update these vertex normals when morph targets are blended in addition to skin deformation.
 
@@ -194,7 +180,7 @@ Please open the start scene max file:
 Pic2a: 3dsMax scene with head geometry skinned to a skeleton
 *
 
-[Image: /docs/static/attachments/44959538]
+![Image](https://www.cryengine.com/docs/static/attachments/44959538)
 
 -
 We will add a
@@ -227,7 +213,7 @@ animated_blendshape_tutorial_mid01.max
 Pic3: Add the 3 morph target meshes to the Morpher modifier
 *
 
-[Image: /docs/static/attachments/44959537]
+![Image](https://www.cryengine.com/docs/static/attachments/44959537)
 
 -
 Before proceeding to animation we will show you how to set up the dummy triangle mesh for the skeleton CHR. This *.CHR file is required for CRYENGINE's attachments system. We can only have morph targets/blendshapes with CRYENGINE *.SKIN file format. The *.SKIN file is always an attachment. This implies we need to make a CHR with just the skeleton. For this skeleton we need a simple mesh object which holds all information about the skeleton hierarchy, a triangle mesh object.
@@ -237,7 +223,7 @@ Pic4: Created CHR triangle mesh for the skeleton
 *
 *
 
-[Image: /docs/static/attachments/44959536]
+![Image](https://www.cryengine.com/docs/static/attachments/44959536)
 
 *
 
@@ -260,7 +246,7 @@ Skin
 Pic5: CHR skeleton mesh dummy with a Skin modifier
 *
 
-[Image: /docs/static/attachments/44959535]
+![Image](https://www.cryengine.com/docs/static/attachments/44959535)
 *
 
 ##
@@ -299,7 +285,7 @@ Pic6a
 : Create a "Point Helper" node in 3dsMax and rename it following the naming convention
 *
 
-[Image: /docs/static/attachments/44959534]
+![Image](https://www.cryengine.com/docs/static/attachments/44959534)
 
 -
 After created the the "blendWeightVertex" nodes you need to use the 3dsMax' "
@@ -320,14 +306,14 @@ of the corresponding
 Pic6b: Start Parameter Wiring the base mesh with the Morpher to a "blendWeightVertex" helper node
 *
 
-[Image: /docs/static/attachments/44959533]
+![Image](https://www.cryengine.com/docs/static/attachments/44959533)
 
 *
 Pic6c: Continue the parameter wiring to connect the morph channel to the "Position X" of the "blendWeightVertex" node
 
 *
 *
-[Image: /docs/static/attachments/44959549]
+![Image](https://www.cryengine.com/docs/static/attachments/44959549)
 *
 
 *
@@ -335,7 +321,7 @@ Pic6d: Pick the destination track of the connection
 
 *
 *
-[Image: /docs/static/attachments/44959532]
+![Image](https://www.cryengine.com/docs/static/attachments/44959532)
 *
 
 *
@@ -343,7 +329,7 @@ Pic6e: Finalize the control direction of the parameter wiring process
 
 *
 *
-[Image: /docs/static/attachments/44959531]
+![Image](https://www.cryengine.com/docs/static/attachments/44959531)
 *
 
 *
@@ -468,7 +454,7 @@ Pic6: Created and "parameter-wired" the "blendWeightVertex" nodes to the morph c
 *
 *
 *
-[Image: /docs/static/attachments/44959530]
+![Image](https://www.cryengine.com/docs/static/attachments/44959530)
 *
 *
 
@@ -580,7 +566,7 @@ Export Nodes
 Pic8a: Set CHR export options
 *
 
-[Image: /docs/static/attachments/44959529]
+![Image](https://www.cryengine.com/docs/static/attachments/44959529)
 
 -
 Next file we want to write if the actual skinned mesh with the Morpher as CRYENGINE *.skin file. Make sure you reset the Geometry Export list in the CRYENGINE Exporter options before adding the "sdk_player_head_max" mesh.
@@ -590,7 +576,7 @@ Pic8b: Export options needed to generate the *.SKIN file with morph targets
 *
 
 *
-[Image: /docs/static/attachments/44959528]
+![Image](https://www.cryengine.com/docs/static/attachments/44959528)
 *
 
 *
@@ -615,7 +601,7 @@ Pic8c: Export animation to an *.i_caf file:
 *
 
 *
-[Image: /docs/static/attachments/44959527]
+![Image](https://www.cryengine.com/docs/static/attachments/44959527)
 
 *
 *
@@ -630,7 +616,7 @@ Pic9a: Two geometry files
 *
 
 *
-[Image: /docs/static/attachments/44971238]
+![Image](https://www.cryengine.com/docs/static/attachments/44971238)
 
 *
 
@@ -638,35 +624,16 @@ Pic9a: Two geometry files
 Pic9b: One intermetdiate animation file
 
 *
-[Image: /docs/static/attachments/44959525]
+![Image](https://www.cryengine.com/docs/static/attachments/44959525)
 The next tutorial section will cover how to set up the exported character assets in CRYENGINE's Character Tool.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285808](
-[Image: /docs/static/attachments/24151097]
-Tutorial - Animated Blendshapes - CRYENGINE 5.5.2
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/24151097) Tutorial - Animated Blendshapes - CRYENGINE 5.5.2](/docs/static/engines/cryengine-5/categories/23756816/pages/24285808)
 
-[#tutorial-files](
-Tutorial Files
-)
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#helpful-information-about-3dsmax-morpher-modifier-in-conjunction-with-cryengine](
-Helpful information about 3dsMax "Morpher" modifier in conjunction with CRYENGINE:
-)
-[#set-up-your-content-in-3dsmax](
-Set up Your Content In 3dsMax
-)
-[#add-the-blendweightvertex-nodes-for-animation](
-Add the "blendWeightVertex" Nodes for Animation
-)
-[#add-animation-to-the-morpher](
-Add Animation to the Morpher
-)
-[#some-pitfalls-using-morph-targets](
-Some Pitfalls using Morph Targets:
-)
-[#export-animated-morph-targets-to-cryengine](
-Export Animated Morph Targets to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Helpful information about 3dsMax "Morpher" modifier in conjunction with CRYENGINE:](#helpful-information-about-3dsmax-morpher-modifier-in-conjunction-with-cryengine)
+[Set up Your Content In 3dsMax](#set-up-your-content-in-3dsmax)
+[Add the "blendWeightVertex" Nodes for Animation](#add-the-blendweightvertex-nodes-for-animation)
+[Add Animation to the Morpher](#add-animation-to-the-morpher)
+[Some Pitfalls using Morph Targets:](#some-pitfalls-using-morph-targets)
+[Export Animated Morph Targets to CRYENGINE](#export-animated-morph-targets-to-cryengine)

@@ -11,13 +11,9 @@
 Overview
 
 Textures in CRYENGINE are usually created with Adobe Photoshop and stored in the TIF image format using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308299](
-Export Textures with CryTIF - Photoshop
-)
+[Export Textures with CryTIF - Photoshop](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20CryTIF%20Plugin%20for%20Photoshop/Export%20Textures%20with%20CryTIF%20-%20Photoshop.md)
 . However, the TIF images are not used directly in the game but converted to a more optimized format (usually dds) by the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308211](
-Resource Compiler
-)
+[Resource Compiler](/docs/static/engines/cryengine-5/categories/23756816/pages/23308211)
 .
 
 Not all textures can use the same settings, normal maps for example require a different compression than diffuse maps. For that reason the Resource Compiler does the conversion based on presets that can be selected by the user when saving the TIF file.
@@ -45,18 +41,14 @@ For road textures, make sure your texture is horizontal.
 
 -
 Alpha is typically done in the Alpha channel of the
-[/docs/static/engines/cryengine-5/categories/23756816](
-Diffuse
-)
+[Diffuse](/docs/static/engines/cryengine-5/categories/23756816)
  texture.
 
 ##
 Specifying Texture Conversion Presets
 
 In the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308299](
-CryTIF plugin for Photoshop
-)
+[CryTIF plugin for Photoshop](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20CryTIF%20Plugin%20for%20Photoshop/Export%20Textures%20with%20CryTIF%20-%20Photoshop.md)
 , artists can specify the appropriate conversion preset for the TIF texture. The RC will automatically apply certain assumptions depending on the source .tif contents, filename, and preset settings.
 
 When no special presets for the .tif file are specified, the RC will do the following:
@@ -80,7 +72,7 @@ Example: If an area will use several types of floor tiles, brick walls, concrete
 
 Only using spec maps and normal maps when really needed will also save a lot on performance and memory.
 
-[Image: /docs/static/attachments/23999843]
+![Image](https://www.cryengine.com/docs/static/attachments/23999843)
 
 Two different floor textures using the same normal map.
 
@@ -89,11 +81,11 @@ Combining Textures
 
 Smaller generic architecture parts like pipes, railings, etc., can also be combined into one texture to save on drawcall materials and texture space.
 
-[Image: /docs/static/attachments/23999844]
+![Image](https://www.cryengine.com/docs/static/attachments/23999844)
 
 A simple house can consist of a wall texture, roof texture and a detail sheet with all the additional parts as windows, frames, door etc. This will save on materials and drawcalls.
 
-[Image: /docs/static/attachments/23999845]
+![Image](https://www.cryengine.com/docs/static/attachments/23999845)
 
 Example of textures used for the above building: wall, roof, and a detail sheet with all the parts.
 
@@ -104,15 +96,15 @@ To compensate for a lack of texture memory and texture amount, the following tri
 
 Using dirt and stain decals is an easy way to break up tiling patterns:
 
-[Image: /docs/static/attachments/23999846]
+![Image](https://www.cryengine.com/docs/static/attachments/23999846)
 
 The following picture is a saw mill floor with a tiling wood floor texture. Sawdust decals in the Alpha map were placed in corners and around to break up the pattern.
 
-[Image: /docs/static/attachments/23999847]
+![Image](https://www.cryengine.com/docs/static/attachments/23999847)
 
 Below is an example of the use of decals for walls. Broken concrete parts on pillars are decals that were placed on farm stucco buildings.
 
-[Image: /docs/static/attachments/23999848]
+![Image](https://www.cryengine.com/docs/static/attachments/23999848)
 
 Use vertex colors to create variety, depth and color variations. Vertex painting and pre-baked vertex lighting is a relatively cheap way of adding depth to models and to make them look more interesting. Adding shadows or color variations on models using smaller tillable textures.
 
@@ -122,18 +114,12 @@ More objects that could benefit from this technique are, for example: Car paint,
 
 The cars in the screenshot below all share the same grayscale texture.
 
-[Image: /docs/static/attachments/23999849]
+![Image](https://www.cryengine.com/docs/static/attachments/23999849)
 
 Use detail maps to add more details and crispness to lower res textures. Detail maps are smaller textures used to add details on low res textures. They add details on closer range and create the illusion that the texture is more high-res that it actually is.
 
 Examples could be to add extra grain to wood, extra bump and cracks to a concrete wall or smaller stains and scratches to car paint.
 
-[#general-guidelines](
-General Guidelines
-)
-[#specifying-texture-conversion-presets](
-Specifying Texture Conversion Presets
-)
-[#texture-creation-tips](
-Texture Creation Tips
-)
+[General Guidelines](#general-guidelines)
+[Specifying Texture Conversion Presets](#specifying-texture-conversion-presets)
+[Texture Creation Tips](#texture-creation-tips)

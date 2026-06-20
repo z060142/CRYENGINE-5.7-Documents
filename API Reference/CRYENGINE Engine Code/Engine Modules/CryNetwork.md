@@ -7,12 +7,12 @@
 
 ## Child Pages
 
-- [Concepts Overview](CryNetwork/Concepts Overview.md)
-- [RMI Functions](CryNetwork/RMI Functions.md)
-- [Network Scheduling](CryNetwork/Network Scheduling.md)
-- [Host Migration](CryNetwork/Host Migration.md)
-- [Bandwidth Profiler](CryNetwork/Bandwidth Profiler.md)
-- [Network Serialization and Aspects](CryNetwork/Network Serialization and Aspects.md)
+- [Concepts Overview](CryNetwork/Concepts%20Overview.md)
+- [RMI Functions](CryNetwork/RMI%20Functions.md)
+- [Network Scheduling](CryNetwork/Network%20Scheduling.md)
+- [Host Migration](CryNetwork/Host%20Migration.md)
+- [Bandwidth Profiler](CryNetwork/Bandwidth%20Profiler.md)
+- [Network Serialization and Aspects](CryNetwork/Network%20Serialization%20and%20Aspects.md)
 
 ## Content
 
@@ -33,73 +33,47 @@ Communicating changes and events to peers.
 -
 Low-level cross-platform networking.
 For matchmaking and cross-platform lobby services see a separate
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306387](
-CryLobby
-)
+[CryLobby](CryLobby.md)
  module.
 
 ##
 Highlights of CryNetwork
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306392](
-Aspect Serialization
-)
+[Aspect Serialization](/docs/static/engines/cryengine-5/categories/23756813/pages/23306392)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306395](
-Remote Method Invocation (RMI)
-)
+[Remote Method Invocation (RMI)](CryNetwork/RMI%20Functions.md)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306390#ConceptsOverview-ProtocolLibrary](
-Protocol Overview
-)
+[Protocol Overview](CryNetwork/Concepts%20Overview.md#ConceptsOverview-ProtocolLibrary)
 
 Compression
 
 Cryptography
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306390#ConceptsOverview-MemoryManagement](
-Memory Management
-)
+[Memory Management](CryNetwork/Concepts%20Overview.md#ConceptsOverview-MemoryManagement)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306390#ConceptsOverview-Multithreading](
-Multithreading
-)
+[Multithreading](CryNetwork/Concepts%20Overview.md#ConceptsOverview-Multithreading)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306390#ConceptsOverview-MessagingSystem](
-Messaging System
-)
+[Messaging System](CryNetwork/Concepts%20Overview.md#ConceptsOverview-MessagingSystem)
 
 Low-level socket library
 
  |
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306390](
-Concepts Overview
-)
+[Concepts Overview](CryNetwork/Concepts%20Overview.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306395](
-RMI Functions
-)
+[RMI Functions](CryNetwork/RMI%20Functions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306391](
-Network Scheduling
-)
+[Network Scheduling](CryNetwork/Network%20Scheduling.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306389](
-Host Migration
-)
+[Host Migration](CryNetwork/Host%20Migration.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306396](
-Bandwidth Profiler
-)
+[Bandwidth Profiler](CryNetwork/Bandwidth%20Profiler.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26874253](
-Network Serialization and Aspects
-)
+[Network Serialization and Aspects](CryNetwork/Network%20Serialization%20and%20Aspects.md)

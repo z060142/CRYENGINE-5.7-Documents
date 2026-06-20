@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [DisplayInfo Icons](Debugging and Profiling Tools/DisplayInfo Icons.md)
+- [DisplayInfo Icons](Debugging%20and%20Profiling%20Tools/DisplayInfo%20Icons.md)
 
 ## Content
 
@@ -74,7 +74,7 @@ MemInfo
 
 Displays current memory info. Useful for finding memory leaks.
 
-[Image: /docs/static/attachments/36848276]
+![Image](https://www.cryengine.com/docs/static/attachments/36848276)
 
 **
 MemInfo
@@ -92,7 +92,7 @@ MemStats
 
 Displays detailed information of each function currently being called, sorted by size. This view contains a lot of detailed information, although on some occasions the data may be slightly distorted.
 
-[Image: /docs/static/attachments/36848272]
+![Image](https://www.cryengine.com/docs/static/attachments/36848272)
 
 **
 MemStats
@@ -145,7 +145,7 @@ Down
 **
  Arrow keys to navigate through the rows.
  |
-[Image: /docs/static/attachments/44960387]
+![Image](https://www.cryengine.com/docs/static/attachments/44960387)
 
  |
 
@@ -172,7 +172,7 @@ Down
 **
  Arrow keys to navigate through the rows.
  |
-[Image: /docs/static/attachments/44960388]
+![Image](https://www.cryengine.com/docs/static/attachments/44960388)
 
  |
 
@@ -199,7 +199,7 @@ Down
 **
  Arrow keys to navigate through the rows.
  |
-[Image: /docs/static/attachments/44960389]
+![Image](https://www.cryengine.com/docs/static/attachments/44960389)
 
  |
 
@@ -216,7 +216,7 @@ Profile 4
 **
 
  |
-[Image: /docs/static/attachments/44960443]
+![Image](https://www.cryengine.com/docs/static/attachments/44960443)
 
  |
 
@@ -231,7 +231,7 @@ Subsystem Info -
 
 More than 100% is possible, as times are summed over all threads.
  |
-[Image: /docs/static/attachments/44960390]
+![Image](https://www.cryengine.com/docs/static/attachments/44960390)
 
  |
 
@@ -245,7 +245,7 @@ Thread Info -
  Shows the time each thread spends in active (working) and waiting sections and the corresponding percentages of the frame time.
 
  |
-[Image: /docs/static/attachments/44960444]
+![Image](https://www.cryengine.com/docs/static/attachments/44960444)
 
  |
 
@@ -259,7 +259,7 @@ Minimal View -
  This only shows the header.
 
  |
-[Image: /docs/static/attachments/44960445]
+![Image](https://www.cryengine.com/docs/static/attachments/44960445)
 
  |
 
@@ -302,7 +302,7 @@ sys_budget_
 **
  (type it in to the console and press tab for a list). When a bar reaches the far right, the associated text will flash as a warning that you are over budget. As the text shown states, please test this in pure game mode, as the editor version of the game can give false results.
 
-[Image: /docs/static/attachments/36848275]
+![Image](https://www.cryengine.com/docs/static/attachments/36848275)
 
 **
 sys_enable_budgetmonitoring
@@ -388,7 +388,7 @@ All objects will now use their highest detail LOD version.
 
 In the picture below with e_lods turned off, the high detail object shows. With e_lods turned on, the appropriately calculated lower detail LOD shows:
 
-[Image: /docs/static/attachments/36848271]
+![Image](https://www.cryengine.com/docs/static/attachments/36848271)
 
 **
 e_Lods
@@ -450,7 +450,7 @@ r_DisplayInfo
 
 Displays various important information for debugging, such as camera position and angle, build number and name of level loaded.
 
-[Image: /docs/static/attachments/36848273]
+![Image](https://www.cryengine.com/docs/static/attachments/36848273)
 
 **
 r_DisplayInfo
@@ -486,8 +486,8 @@ Usage: r_MeasureOverdraw [0/1/2/3/4]
 
 ```
 
-[Image: /docs/static/attachments/36848265]
-[Image: /docs/static/attachments/36848262]
+![Image](https://www.cryengine.com/docs/static/attachments/36848265)
+![Image](https://www.cryengine.com/docs/static/attachments/36848262)
 
 ##
 r_DebugLights
@@ -615,7 +615,7 @@ p_draw_helpers
 
 P_draw_helpers is a command which allows access to various view mode for the physics of the objects in your level.
 
-[Image: /docs/static/attachments/36848268]
+![Image](https://www.cryengine.com/docs/static/attachments/36848268)
 
 **
 p_draw_helpers
@@ -653,7 +653,7 @@ p_debug_joints
 
 When p_draw_helpers is enabled, this CVar will show any tension on physicalized joints within a breakable object.
 
-[Image: /docs/static/attachments/36848270]
+![Image](https://www.cryengine.com/docs/static/attachments/36848270)
 
 **
 p_debug_joints
@@ -668,7 +668,7 @@ If set, breakable objects will log tensions at the weakest spots
 ##
 p_profile_entities
 
-[Image: /docs/static/attachments/36848269]
+![Image](https://www.cryengine.com/docs/static/attachments/36848269)
 
 **
 p_profile_entities
@@ -683,7 +683,7 @@ Enables per-entity time step profiling
 ##
 p_profile_functions
 
-[Image: /docs/static/attachments/36848266]
+![Image](https://www.cryengine.com/docs/static/attachments/36848266)
 
 **
 p_profile_functions
@@ -703,7 +703,7 @@ ai_DebugDraw
 
 When set, shows any AI debugging information currently active in your level.
 
-[Image: /docs/static/attachments/36848274]
+![Image](https://www.cryengine.com/docs/static/attachments/36848274)
 
 **
 ai_DebugDraw
@@ -1154,7 +1154,7 @@ Draws a radar overlay at the center of the view. 'ai_DrawRadar 0' disabled the r
 
 Distance of the radar can be set using ai_DrawRadarDist console variable. The distance is specified in meters. A good combination to start with is 500px high radar with view distance of 50m. The radar displays each unit, including the name of the unit, the alertness state and the current path and readability.
 
-[Image: /docs/static/attachments/36848301]
+![Image](https://www.cryengine.com/docs/static/attachments/36848301)
 
 **
 ai_DrawRadar
@@ -1245,27 +1245,11 @@ Usage: es_DebugTimers 0/1
 
 ```
 
-[#basic-logging-functionality](
-Basic Logging Functionality
-)
-[#basic-asset-information](
-Basic Asset Information
-)
-[#system](
-System
-)
-[#3d-engine](
-3D Engine
-)
-[#renderer](
-Renderer
-)
-[#physics](
-Physics
-)
-[#ai](
-AI
-)
-[#entity-system](
-Entity System
-)
+[Basic Logging Functionality](#basic-logging-functionality)
+[Basic Asset Information](#basic-asset-information)
+[System](#system)
+[3D Engine](#3d-engine)
+[Renderer](#renderer)
+[Physics](#physics)
+[AI](#ai)
+[Entity System](#entity-system)

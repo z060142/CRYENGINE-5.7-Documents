@@ -16,9 +16,7 @@ Vehicles are special geometry objects, which are driven by scripts, which also d
 Sample Files
 
 -
-[/docs/static/attachments/1441794](
-ma_HMMWV.rar
-)
+[ma_HMMWV.rar](/docs/static/attachments/1441794)
 
 ##
 General Setup
@@ -126,9 +124,7 @@ LODs
 
 -
 For general information refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215356](
-LODs
-)
+[LODs](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/LODs.md)
  page. For specialties in vehicle creation, please see below.
 
 -
@@ -156,9 +152,7 @@ debris
 *
 _" suffix. (hull -> hull_debris_1, hull_debris_2, etc.) These will spawn and fly away from the blast when the vehicle explodes.
 It happens only when the SpawnDebris damage behavior is set on a vehicle. Please refer to the Sandbox
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26214869](
-Vehicle Editor
-)
+[Vehicle Editor](../../Editor%20Tools/Deprecated%20Tab/Vehicle%20Editor.md)
  guide for this!
 
 -
@@ -221,9 +215,7 @@ In order to work properly, a vehicle script is required. Otherwise the vehicle c
 
 -
 Drag and drop the item from the entity section in the Roll-up Bar or the Entity Library (in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869094](
-Database View
-)
+[Database View](../../Editor%20Tools/DataBase%20View.md)
 ) into the level.
 
 -
@@ -295,18 +287,8 @@ Shows the specified LOD number as LOD0 - very handy for debugging LOD's in the e
 
  |
 
-[#sample-files](
-Sample Files
-)
-[#general-setup](
-General Setup
-)
-[#export-options](
-Export Options
-)
-[#setup-in-sandbox](
-Setup in Sandbox
-)
-[#debugging](
-Debugging
-)
+[Sample Files](#sample-files)
+[General Setup](#general-setup)
+[Export Options](#export-options)
+[Setup in Sandbox](#setup-in-sandbox)
+[Debugging](#debugging)

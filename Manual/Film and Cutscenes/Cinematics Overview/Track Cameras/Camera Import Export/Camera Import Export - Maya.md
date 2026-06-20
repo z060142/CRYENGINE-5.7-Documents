@@ -13,7 +13,7 @@ Overview
 In this tutorial we continue with the import of the camera sequence from CRYENGINE. The camera we import will not have correct orientation. It will be looking downwards. So, in the course of this turoial section, we will use the FBX camera transformation and parent a second camera for re-orientation. Finally, we must also change the FOV and other camera settings to match the CRYENGINE camera view.
 
 *
-[Image: /docs/static/attachments/26516484]
+![Image](https://www.cryengine.com/docs/static/attachments/26516484)
 
 (img00: the finished Maya scene)
 *
@@ -33,7 +33,7 @@ Plug-In Manager.
 
 The "fbxmaya.mll" plugin should be checked "Loaded".
 *
-[Image: /docs/static/attachments/26516485]
+![Image](https://www.cryengine.com/docs/static/attachments/26516485)
 
 (img01: Loading FBX plugin in Maya)
 *
@@ -48,7 +48,7 @@ Import
 Frame the imported objects in your "persp" camera viewport. They are usually not located in Maya's origin.
 
 *
-[Image: /docs/static/attachments/26516486]
+![Image](https://www.cryengine.com/docs/static/attachments/26516486)
 
 (img01a: imported scene geometries)
 *
@@ -63,7 +63,7 @@ Import
  in Maya's main menu. Browse to the path of the camera animation FBX file and import it.
 
 *
-[Image: /docs/static/attachments/26516487]
+![Image](https://www.cryengine.com/docs/static/attachments/26516487)
 
 (img01b: MasterCamera node with animation)
 *
@@ -75,7 +75,7 @@ Import
 You should change from "Film" fps to "NTSC" fps, as CRYENGINE uses 30 fps. See the picture below how it is done.
 
 *
-[Image: /docs/static/attachments/26516488]
+![Image](https://www.cryengine.com/docs/static/attachments/26516488)
 
 (img01c: NTSC time setting)
 
@@ -100,7 +100,7 @@ Cameras
 Camera
 . This is the free camera without an Up and Aim node. Give it  the name "MayaCamera".
 
-[Image: /docs/static/attachments/26516489]
+![Image](https://www.cryengine.com/docs/static/attachments/26516489)
 
 (img02: new Maya camera created)
 
@@ -123,7 +123,7 @@ MMB- click & drag the "MayaCamera" under the "MayaCamera_Zero.
 -
 To "zero out" the transformation of the "MayaCamera_Zero" group node and "MayaCamera"node, go to ChannelBox and zero the Translate and rotate values. Now you see that the "MayaCamera" and its zero'ed out parent node, are aligned to the CRYENGINE "MasterCamera".
 
-[Image: /docs/static/attachments/26516490]
+![Image](https://www.cryengine.com/docs/static/attachments/26516490)
 
 (img03: How to "Zero out" transformation of a child node)
 
@@ -142,7 +142,7 @@ We need to switch to a new viewport layout, where we are looking through the "Ma
 persp
  view to "MayaCamera":
 
-[Image: /docs/static/attachments/26516491]
+![Image](https://www.cryengine.com/docs/static/attachments/26516491)
 
 *
 (img04: "MayaCamera")
@@ -154,7 +154,7 @@ With offset rotation of 90° in X and Y axis we should have the correct camera a
 
 *
 *
-[Image: /docs/static/attachments/26516492]
+![Image](https://www.cryengine.com/docs/static/attachments/26516492)
 
 (img05: Fixed camera orientation)
 *
@@ -169,7 +169,7 @@ Also, the FOV value from the imported FBX camera ("MasterCamera") is incorrect. 
 -
 Please select the "MayaCamera" and open the Attribute Editor. The FOV value there is not what you might expect to set FOV for the MayaCamera.
 
-[Image: /docs/static/attachments/26516493]
+![Image](https://www.cryengine.com/docs/static/attachments/26516493)
 
 *
 (img06: FOV value of the FBX "MasterCamera" does not match)
@@ -218,19 +218,13 @@ For the moment being, please refer to the 3dsMax tutorial section how to convert
 You still have to change the camera rendering output to 640 x 480. See the screenshot below for the details:
 
 *
-[Image: /docs/static/attachments/26516552]
+![Image](https://www.cryengine.com/docs/static/attachments/26516552)
 
 (img07: Matching the CRYENGINE and Maya camera FOV angles)
 
 *
 You may want to output the camera sequence in CRYENGINE for camera matching in Maya. Please refer to the CRYENGINE docs to render your camera sequence with Track View.
 
-[#import-fbx-scene-objects-and-camera](
-Import FBX scene objects and camera
-)
-[#re-aligning-imported-fbx-camera](
-Re-aligning imported FBX camera
-)
-[#converting-camera-fov](
-Converting camera FOV
-)
+[Import FBX scene objects and camera](#import-fbx-scene-objects-and-camera)
+[Re-aligning imported FBX camera](#re-aligning-imported-fbx-camera)
+[Converting camera FOV](#converting-camera-fov)

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934032]
+![Image](https://www.cryengine.com/docs/static/attachments/29934032)
 
 ##
 Overview
@@ -21,50 +21,32 @@ mannequin transitions
 *
  though, those are specific descriptions of how to transition from one fragment to another.
 
-[#sections](
-Sections
-)
-[#creating-and-editing-transitions](
-Creating & Editing Transitions
-)
-[#storage](
-Storage
-)
+[Sections](#sections)
+[Creating & Editing Transitions](#creating-and-editing-transitions)
+[Storage](#storage)
 
 ##
 Creating & Editing Transitions
 
 (the default blend time when blending to a clip is edited in the clip itself. See the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308449](
-Mannequin Animation Clip Properties
-)
+[Mannequin Animation Clip Properties](../Mannequin%20Animation%20Clip%20Properties.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-FragmentEditor](
-Mannequin Fragment Editor
-)
+[Mannequin Fragment Editor](../../Mannequin%20Editor.md#MannequinEditor-FragmentEditor)
 )
 
 To create specific transitions use the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-TransitionBrowser](
-Mannequin Transition Browser
-)
+[Mannequin Transition Browser](../../Mannequin%20Editor.md#MannequinEditor-TransitionBrowser)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-TransitionEditor](
-Mannequin Transition Editor
-)
+[Mannequin Transition Editor](../../Mannequin%20Editor.md#MannequinEditor-TransitionEditor)
 .
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308485](
-Mannequin Editor Tutorial 3 - Transitions
-)
+[Mannequin Editor Tutorial 3 - Transitions](../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%203%20-%20Transitions.md)
 .
 
 ##
 Storage
 
 Transitions are stored in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743](
-animation database files
-)
+[animation database files](../Mannequin%20Files/Animation%20Database%20(ADB).md)
  alongside the fragments.

@@ -18,24 +18,22 @@ Deferred rendering is faster than the old rendering system but still slower than
 Setup
 
 First place a decal. Do that by following the instructions of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308150](
-Decal Tutorial
-)
+[Decal Tutorial](/docs/static/engines/cryengine-5/categories/23756816/pages/23308150)
 .
 
-[Image: /docs/static/attachments/23996054]
+![Image](https://www.cryengine.com/docs/static/attachments/23996054)
 
 There are two ways to get a decal in the deferred mode:
 
 -
 Set the Deferred flag in the Decal menu list to "True"
 
-[Image: /docs/static/attachments/23996058]
+![Image](https://www.cryengine.com/docs/static/attachments/23996058)
 
 -
 Set the Projection type to "Project on Static Objects" or "Project on Terrain and Static Objects"
 
-[Image: /docs/static/attachments/23996059]
+![Image](https://www.cryengine.com/docs/static/attachments/23996059)
 
 ##
 Limitations
@@ -47,7 +45,7 @@ Cube maps
 
 Decal materials with cube maps are not supported by the deferred system.
 
-[Image: /docs/static/attachments/23996057]
+![Image](https://www.cryengine.com/docs/static/attachments/23996057)
 
 If you need cube map material like water puddles, place them on areas where it can be projected "planar", or choose the option "Project on Terrain".
 
@@ -56,11 +54,11 @@ Projection angle
 
 If you place a decal on an object face in a 90° angle, it will end up with a stretched texture on this face.
 
-[Image: /docs/static/attachments/23996055]
+![Image](https://www.cryengine.com/docs/static/attachments/23996055)
 
 To avoid this, you have to rotate the decal so that the projection hits any object faces on an angle as low as possible.
 
-[Image: /docs/static/attachments/23996056]
+![Image](https://www.cryengine.com/docs/static/attachments/23996056)
 
 ##
 Debug Tool
@@ -73,7 +71,7 @@ r_deferredDecalsDebug 1
 
 Any deferred decal in the main viewport will now be rendered in the colors Red, Green and Blue.
 
-[Image: /docs/static/attachments/23996061]
+![Image](https://www.cryengine.com/docs/static/attachments/23996061)
 
 The colors show how expensive a deferred decal is for the renderer.
 
@@ -96,12 +94,6 @@ Blue
  = cheap
 The cost of a deferred decal depends on how many objects it will project, how expensive the geometry is and how many overdraws it will create. Try to place any deferred decals in a way that they will displayed in blue color.
 
-[#setup](
-Setup
-)
-[#limitations](
-Limitations
-)
-[#debug-tool](
-Debug Tool
-)
+[Setup](#setup)
+[Limitations](#limitations)
+[Debug Tool](#debug-tool)

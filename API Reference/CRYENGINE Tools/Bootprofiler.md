@@ -12,22 +12,14 @@ Overview
 
 The Bootprofiler is used to profile the time it took for the Engine to boot, or to profile the load times of levels. It automatically records each time the Engine is started or a level is loaded.
 
-[Image: /docs/static/attachments/26964639]
+![Image](https://www.cryengine.com/docs/static/attachments/26964639)
 
 Chapters:
 
-[#enabling-the-bootprofiler](
-Enabling the Bootprofiler
-)
-[#analyzing-the-data](
-Analyzing the Data
-)
-[#understanding-the-tool](
-Understanding the Tool
-)
-[#markers-in-the-code](
-Markers in the Code
-)
+[Enabling the Bootprofiler](#enabling-the-bootprofiler)
+[Analyzing the Data](#analyzing-the-data)
+[Understanding the Tool](#understanding-the-tool)
+[Markers in the Code](#markers-in-the-code)
 
 ##
 Enabling the Bootprofiler
@@ -87,7 +79,7 @@ The gray bars are the threads with their name written on them. The 0, 1, 2 ... n
 
 The last 3 functions are called from inside CSystem::Init. So when you encapsulate profile markers they will create multiple layers to breakdown the functions.
 
-[Image: /docs/static/attachments/26964640]
+![Image](https://www.cryengine.com/docs/static/attachments/26964640)
 
 The colors are arbitrary at the moment
 
@@ -96,7 +88,7 @@ Block Info
 
 You can hover over one of the blocks to get more information.
 
-[Image: /docs/static/attachments/26964641]
+![Image](https://www.cryengine.com/docs/static/attachments/26964641)
 
 -
 **
@@ -183,4 +175,4 @@ void Foo()
 
 This results in the following:
 
-[Image: /docs/static/attachments/26964642]
+![Image](https://www.cryengine.com/docs/static/attachments/26964642)

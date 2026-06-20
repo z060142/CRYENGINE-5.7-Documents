@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Tutorial - Debugging Dynamic Response System Responses](Tutorial - Setting Up the Dynamic Response System/Tutorial - Debugging Dynamic Response System Responses.md)
+- [Tutorial - Debugging Dynamic Response System Responses](Tutorial%20-%20Setting%20Up%20the%20Dynamic%20Response%20System/Tutorial%20-%20Debugging%20Dynamic%20Response%20System%20Responses.md)
 
 ## Content
 
@@ -15,6 +15,8 @@ The DRS system is a tool that taps into all other systems to allow the developer
 
 The Dynamic Response System is explained in the written tutorial below, and also in the video master class embedded here. It covers
 how to execute various events through dialog and overall gameplay.
+
+[Embed: http://youtube.com/watch?v=qrlwWFktn2g]
 
 ##
 Overview
@@ -33,9 +35,7 @@ SpeakLine
 action to this Response so that we can actually get a dialog feedback. After completing these steps, you will iterate on the scenario by adding a Condition to the Response and debugging your data.
 
 Please note that in this section, the GameSDK Sample Project is used. The assets in this Tutorial can be accessed only if it is downloaded. Please visit the
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
  to download the GameSDK project.
 
 ##
@@ -43,9 +43,7 @@ Step 1: Sending a DRS Signal From Flow Graph
 
 The Dynamic Response System is event driven; therefore, it only reacts to signals that are sent to the system. In this example, the signal is sent via a Flow Graph script, but it could also come from code, script or any other part of the game logic. For more information about Flow Graph and it's functions, please refer to the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../../Editor%20Tools/Flow%20Graph.md)
 
 section.
 
@@ -73,7 +71,7 @@ Entity → AI → Characters → Human
 on the Create Object tool.
 **
 
-[Image: /docs/static/attachments/44958134]
+![Image](https://www.cryengine.com/docs/static/attachments/44958134)
 
 **
 
@@ -91,7 +89,7 @@ Civilians
 **
 on the Properties panel.
 
-[Image: /docs/static/attachments/44958135]
+![Image](https://www.cryengine.com/docs/static/attachments/44958135)
 
 -
 Create a new Flow Graph for this entity by right-clicking on it and selecting
@@ -102,7 +100,7 @@ Create Flow Graph
 **
 
 **
-[Image: /docs/static/attachments/44958137]
+![Image](https://www.cryengine.com/docs/static/attachments/44958137)
 
 -
 Name the Flow Graph; e.g.
@@ -136,7 +134,7 @@ g
 **
 .
 
-[Image: /docs/static/attachments/44958138]
+![Image](https://www.cryengine.com/docs/static/attachments/44958138)
 
 -
 Add a
@@ -171,7 +169,7 @@ Assign Graph Entity
 **
 without selecting the entity itself as the current graph is already attached to the NPC entity.
 
-[Image: /docs/static/attachments/44958140]
+![Image](https://www.cryengine.com/docs/static/attachments/44958140)
 
 -
 Define a specific name for the signal by typing it in the
@@ -187,7 +185,7 @@ sg_button_pressed
 **
 .
 
-[Image: /docs/static/attachments/44958141]
+![Image](https://www.cryengine.com/docs/static/attachments/44958141)
 
 -
 To complete the setup, connect the
@@ -208,7 +206,7 @@ DynamicRespone:SendSignal
 **
  node.
 
-[Image: /docs/static/attachments/44958139]
+![Image](https://www.cryengine.com/docs/static/attachments/44958139)
 After this step, whenever the designated key (g) is pressed, a signal will be sent to the NPC. However, you won’t get any response from the entity since no Response has been linked to the signal yet.
 
 For linking a Response to a signal, please go through the next step.
@@ -251,7 +249,7 @@ Responses
 
 The Responses panel can be accessed by clicking the respective tab on the bottom-left corner of the panel:
 
-[Image: /docs/static/attachments/44958143]
+![Image](https://www.cryengine.com/docs/static/attachments/44958143)
 
 You can view the recent signals by selecting the
 **
@@ -259,7 +257,7 @@ Recent
 **
  button on the top-left corner of the Signals panel. It reveals the list of all signals sent by the game so far.
 
-[Image: /docs/static/attachments/44958144]
+![Image](https://www.cryengine.com/docs/static/attachments/44958144)
 
 If this list is empty, make sure the game is running and you pressed the key that you specified in Flow Graph at least a couple of times. The list is not updated automatically, so you need to press the
 
@@ -315,7 +313,7 @@ Create response for signal
 **
  button. This will create a new Response which is associated with this signal.
 
-[Image: /docs/static/attachments/44958145]
+![Image](https://www.cryengine.com/docs/static/attachments/44958145)
 
 Alternatively, you can create a new Response file in the
 **
@@ -327,7 +325,7 @@ Create new
 **
  button next to it.
 
-[Image: /docs/static/attachments/44958146]
+![Image](https://www.cryengine.com/docs/static/attachments/44958146)
 
 -
 Switch to the
@@ -400,9 +398,9 @@ sg_button_pressed
 **
 signal.
 
-[Image: /docs/static/attachments/44958147]
+![Image](https://www.cryengine.com/docs/static/attachments/44958147)
 
-[Image: /docs/static/attachments/44958148]
+![Image](https://www.cryengine.com/docs/static/attachments/44958148)
 
 -
 After you add the Response to the signal, you can also edit the text that you want to display by editing the
@@ -440,7 +438,7 @@ Now, in game mode, you can test the setup by pressing the specified key
 **
 :
 
-[Image: /docs/static/attachments/44958150]
+![Image](https://www.cryengine.com/docs/static/attachments/44958150)
 Please ignore the
 **
 Missing
@@ -451,9 +449,7 @@ If the outcome of this setting looks different, it might be useful to open the D
 Response
 **
  tab. This window displays the execution history for the currently selected signal(s). It displays when the signal was executed, Conditions that were checked, the outcome for the Conditions (true/false) and the Actions that were executed. For more information about this widget, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870836#DynamicResponseSystem-execution](
-Execution Info
-)
+[Execution Info](../../Editor%20Tools/Dynamic%20Response%20System.md#DynamicResponseSystem-execution)
  section.
 Now that an Action is assigned to the Response, you can add a Condition as mentioned in the next step.
 
@@ -491,7 +487,7 @@ Probability
 **
 value:
 
-[Image: /docs/static/attachments/44958152]
+![Image](https://www.cryengine.com/docs/static/attachments/44958152)
 
 This property defines the chances of the condition to be met. When you set this value to 50, the condition will only be met half the time, which results in the
 **
@@ -507,7 +503,7 @@ g
 **
  to send the signal a couple of times, the signal history should look as follows:
 
-[Image: /docs/static/attachments/44958153]
+![Image](https://www.cryengine.com/docs/static/attachments/44958153)
 As you can see in the image, the
 **
 SpeakLine
@@ -564,7 +560,7 @@ li_my_test_line
 **
 .
 
-[Image: /docs/static/attachments/44958154]
+![Image](https://www.cryengine.com/docs/static/attachments/44958154)
 
 -
 A single line can have multiple variations, which means even if you execute the same
@@ -585,7 +581,7 @@ Subtitle
 **
 .
 
-[Image: /docs/static/attachments/44958155]
+![Image](https://www.cryengine.com/docs/static/attachments/44958155)
 
 You can archive the same result by splitting the different variations into different lines, and do the randomization on the Response.
 Before you can test your new setup, double check if the
@@ -594,42 +590,28 @@ SpeakLine
 **
  action in the Response is actually linked to the newly created line.
 
-[Image: /docs/static/attachments/44958156]
+![Image](https://www.cryengine.com/docs/static/attachments/44958156)
 
 -
 If you now test the setup in the game, you should get an output as follows:
 
-[Image: /docs/static/attachments/44958157]
+![Image](https://www.cryengine.com/docs/static/attachments/44958157)
 
 Since the variation is picked at random, you might see a different line.
 
 -
 You can now start playing around with these tools. You can add a talk animation to your lines or add an audio trigger, provided that these files are available in the current project:
 
-[Image: /docs/static/attachments/44958159]
+![Image](https://www.cryengine.com/docs/static/attachments/44958159)
 
 ##
 Going Further:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25526924](
-Tutorial - Debugging Dynamic Response System Responses
-)
-[#step-1-sending-a-drs-signal-from-flow-graph](
-Step 1: Sending a DRS Signal From Flow Graph
-)
-[#step-2-creating-a-response](
-Step 2: Creating a Response
-)
-[#step-3-adding-an-action-to-a-response](
-Step 3: Adding an Action to a Response
-)
-[#step-4-adding-a-condition-to-a-response](
-Step 4: Adding a Condition to a Response
-)
-[#step-5-adding-a-dialog-line](
-Step 5: Adding a Dialog Line
-)
-[#going-further](
-Going Further:
-)
+[Tutorial - Debugging Dynamic Response System Responses](Tutorial%20-%20Setting%20Up%20the%20Dynamic%20Response%20System/Tutorial%20-%20Debugging%20Dynamic%20Response%20System%20Responses.md)
+[Step 1: Sending a DRS Signal From Flow Graph](#step-1-sending-a-drs-signal-from-flow-graph)
+[Step 2: Creating a Response](#step-2-creating-a-response)
+[Step 3: Adding an Action to a Response](#step-3-adding-an-action-to-a-response)
+[Step 4: Adding a Condition to a Response](#step-4-adding-a-condition-to-a-response)
+[Step 5: Adding a Dialog Line](#step-5-adding-a-dialog-line)
+[Going Further:](#going-further)

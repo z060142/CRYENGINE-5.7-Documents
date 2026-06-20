@@ -11,13 +11,9 @@
 Description
 
 A tagstate is a combination of
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-tags
-)
+[tags](Mannequin%20Tags%20%26%20Tag%20Definitions.md)
  from a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-tag definition
-)
+[tag definition](Mannequin%20Tags%20%26%20Tag%20Definitions.md)
 . Tagstates can be represented by a list of tags separated by "+" characters. For example "crouching+pistol" defines a tagstate combining the tags "crouching" and "pistol".
 
 There are many different places where sets of tags like this come up. Here are the most used ones and how they are typically called:
@@ -45,32 +41,22 @@ IActionController::GetContext()
 Fragment Tagstate
 
 Each fragment gets labeled with tags in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-Fragments](
-Mannequin Fragment Browser
-)
+[Mannequin Fragment Browser](../../Mannequin%20Editor.md#MannequinEditor-Fragments)
 . Those can be either global tags or
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308434](
-FragmentID-specific Tags (fragtags)
-)
+[FragmentID-specific Tags (fragtags)](FragmentID-specific%20Tags%20(fragtags).md)
 .
 
 They are used to find fragments during
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308439](
-fragment selection
-)
+[fragment selection](Fragment%20Selection%20Process.md)
 .
 
 ##
 Scope Tags
 
 The tags associated with a scope, which is configured in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition File (xxxControllerDefs.xml)
-)
+[Controller Definition File (xxxControllerDefs.xml)](../Mannequin%20Files/Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
 . All fragments that play on this scope require these tags to be set. Typically this contains only one tag. It is recommended to use a specific naming convention for scope tags as opposed to other tags, for example prefixing them with the word "Scope".
 
 See also
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308439](
-Fragment Selection Process
-)
+[Fragment Selection Process](Fragment%20Selection%20Process.md)
 .

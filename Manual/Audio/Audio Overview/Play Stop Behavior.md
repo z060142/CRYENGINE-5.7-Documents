@@ -26,7 +26,7 @@ The audio system automatically stops the PlayTrigger when the corresponding Stop
 
 This functionality can be very useful as it automatically stops sounds without the need to create any additional stop functionality inside of your audio middleware. This also ensures that any looping sounds will be stopped when the Entity is disabled.
 
-[Image: /docs/static/attachments/44964883]
+![Image](https://www.cryengine.com/docs/static/attachments/44964883)
 
 ##
 Just the StopTrigger is Set
@@ -34,7 +34,7 @@ Just the StopTrigger is Set
 On deactivation the StopTrigger is executed, on activation nothing happens.
 As no audio system Trigger is defined under the PlayTrigger nothing will happen when the PlayTrigger is executed. However, as a Trigger is set for the StopTrigger it will be played when the StopTrigger is executed.
 
-[Image: /docs/static/attachments/44964882]
+![Image](https://www.cryengine.com/docs/static/attachments/44964882)
 
 Triggering Audio on the StopTrigger
 Remember that an audio system Trigger can also execute the playback of audio in your middleware i.e. when it is placed as a StopTrigger.
@@ -47,7 +47,7 @@ This will execute the audio system Trigger once the PlayTrigger it is defined in
 
 If you need to stop the PlayTrigger with another audio system Trigger that is set as a StopTrigger, you would have to setup the stop functionality inside of your audio middleware.
 
-[Image: /docs/static/attachments/44964881]
+![Image](https://www.cryengine.com/docs/static/attachments/44964881)
 
 **
 Example:
@@ -70,9 +70,7 @@ The
 do_nothing
 **
  audio system Trigger is a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-defaultcontrols](
-Default Control
-)
+[Default Control](../../Editor%20Tools/Audio%20Controls%20Editor.md#AudioControlsEditor-defaultcontrols)
  that is automatically created by the Audio Controls Editor (ACE).
 
 When it is set on the StopTrigger the audio system will behave as explained in the section "Play and StopTrigger are both Set" found above. However, as the
@@ -81,7 +79,7 @@ do_nothing
 **
  audio system trigger is not connected to any functionality within your audio middleware it will not affect the audio, but will still bypass the automatic stop functionality of the audio system.
 
-[Image: /docs/static/attachments/44964880]
+![Image](https://www.cryengine.com/docs/static/attachments/44964880)
 
 **
 Example:
@@ -94,18 +92,8 @@ do_nothing
 
 Remember that with the above setup any looping sounds that you have set as a PlayTrigger will not be stopped.
 
-[#main-content](
-Main Content
-)
-[#just-the-playtrigger-is-set](
-Just the PlayTrigger is Set
-)
-[#just-the-stoptrigger-is-set](
-Just the StopTrigger is Set
-)
-[#the-playtrigger-and-stoptrigger-are-both-set](
-The PlayTrigger and StopTrigger are both Set
-)
-[#bypassing-the-automatic-stopping-of-a-starttrigger-instance-via-the-donothing-default-audio-system-control](
-Bypassing the Automatic Stopping of a StartTrigger Instance via the "do_nothing" Default Audio System Control
-)
+[Main Content](#main-content)
+[Just the PlayTrigger is Set](#just-the-playtrigger-is-set)
+[Just the StopTrigger is Set](#just-the-stoptrigger-is-set)
+[The PlayTrigger and StopTrigger are both Set](#the-playtrigger-and-stoptrigger-are-both-set)
+[Bypassing the Automatic Stopping of a StartTrigger Instance via the "do_nothing" Default Audio System Control](#bypassing-the-automatic-stopping-of-a-starttrigger-instance-via-the-donothing-default-audio-system-control)

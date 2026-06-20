@@ -62,9 +62,7 @@ Detail mapping
 **
  shader generation parameter must be enabled first.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449936](
-Unified Detail Mapping
-)
+[Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -82,9 +80,7 @@ Detail mapping
 **
  shader generation parameter must be enabled first.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449936](
-Unified Detail Mapping
-)
+[Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -102,9 +98,7 @@ Detail mapping
 **
  shader generation parameter must be enabled first.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449936](
-Unified Detail Mapping
-)
+[Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -137,9 +131,7 @@ Offset Bump Mapping (OBM)
 
 shader generation parameter must be enabled first.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450125](
-Parallax Occlusion Mapping
-)
+[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -170,9 +162,7 @@ POM Displacement
 POM
 shader generation parameter must be enabled first.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450125](
-Parallax Occlusion Mapping
-)
+[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -190,9 +180,7 @@ POM
 **
  shader generation parameter must be enabled first.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450125](
-Parallax Occlusion Mapping
-)
+[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -257,9 +245,7 @@ Detail mapping
  |
 Uses detail mapping.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449936](
-Unified Detail Mapping
-)
+[Unified Detail Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -271,9 +257,7 @@ Parallax occlusion mapping (POM)
  |
 Uses parallax occlusion mapping. Requires a height map.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450125](
-Parallax Occlusion Mapping
-)
+[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -310,7 +294,7 @@ Make sure diffuse texture is high-passed and the material diffuse color is set t
 ##
 Examples
 
-[Image: /docs/static/attachments/35402188]
+![Image](https://www.cryengine.com/docs/static/attachments/35402188)
 
  |
 
@@ -320,10 +304,10 @@ No POM or OBM
 ##
 Blending
 
-[Image: /docs/static/attachments/28898604]
+![Image](https://www.cryengine.com/docs/static/attachments/28898604)
 
  |
-[Image: /docs/static/attachments/28898605]
+![Image](https://www.cryengine.com/docs/static/attachments/28898605)
 
  |
 
@@ -332,10 +316,10 @@ Blend Factor 0
 Blend Factor 16
  |
 
-[Image: /docs/static/attachments/28898606]
+![Image](https://www.cryengine.com/docs/static/attachments/28898606)
 
  |
-[Image: /docs/static/attachments/28898607]
+![Image](https://www.cryengine.com/docs/static/attachments/28898607)
 
  |
 
@@ -344,10 +328,10 @@ Blend Falloff 0
 Blend Falloff 128
  |
 
-[Image: /docs/static/attachments/35402193]
+![Image](https://www.cryengine.com/docs/static/attachments/35402193)
 
  |
-[Image: /docs/static/attachments/35401945]
+![Image](https://www.cryengine.com/docs/static/attachments/35401945)
 
  |
 

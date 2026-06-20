@@ -21,18 +21,10 @@ Currently, the file access tracking only logs access from the main and render th
 ##
 Table of Contents
 
-[#cvars](
-CVars
-)
-[#where-is-invalid-access-defined](
-Where is Invalid Access Defined?
-)
-[#exceptions](
-Exceptions
-)
-[#resolving-file-access-callstacks](
-Resolving File Access Callstacks
-)
+[CVars](#cvars)
+[Where is Invalid Access Defined?](#where-is-invalid-access-defined)
+[Exceptions](#exceptions)
+[Resolving File Access Callstacks](#resolving-file-access-callstacks)
 
 ##
 CVars

@@ -22,7 +22,7 @@ The vast majority of these settings have recently been exposed to designers an a
 
 It can be found under the display tab at the bottom in the sandbox rollup bar.
 
-[Image: /docs/static/attachments/53542918]
+![Image](https://www.cryengine.com/docs/static/attachments/53542918)
 
 ##
 Stereo Rendering Methods (Stereo Mode)
@@ -141,9 +141,7 @@ Experiment with limiting parallax.
 -
 Check more tricks from the
 
-[http://cmpmedia.vo.llnwd.net/o1/vault/gdc10/slides/Bickerstaff_Benson_Making3DGamesOnThePlayStation3.pps](
-Sony GDC presentation
-)
+[Sony GDC presentation](http://cmpmedia.vo.llnwd.net/o1/vault/gdc10/slides/Bickerstaff_Benson_Making3DGamesOnThePlayStation3.pps)
 .
 
 ##

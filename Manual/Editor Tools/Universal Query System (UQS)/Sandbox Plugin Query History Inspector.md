@@ -51,7 +51,7 @@ The "live" history can be saved to a file at any point in time and be loaded aga
 ##
 Details
 
-[Image: /docs/static/attachments/28900924]
+![Image](https://www.cryengine.com/docs/static/attachments/28900924)
 
 -
 **
@@ -248,4 +248,4 @@ InstantEvaluators
 DeferredEvaluators
 **
  (DE): this lets you disable/enable certain evaluators to see how the overall score was constructed by the remaining ones. This will basically change the item coloring of their visual representations in the 3D world to get a better feeling for how each evaluator type had an impact on the overall scores. Here's what it could look like:
-[Image: /docs/static/attachments/28900923]
+![Image](https://www.cryengine.com/docs/static/attachments/28900923)

@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [CryMaxTools - Phys Proxy Tool](Installing the 3ds Max Tools/CryMaxTools - Phys Proxy Tool.md)
-- [CRYENGINE Exporter in 3dsMax](Installing the 3ds Max Tools/CRYENGINE Exporter in 3dsMax.md)
+- [CryMaxTools - Phys Proxy Tool](Installing%20the%203ds%20Max%20Tools/CryMaxTools%20-%20Phys%20Proxy%20Tool.md)
+- [CRYENGINE Exporter in 3dsMax](Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 
 ## Content
 
@@ -17,9 +17,7 @@ Overview
 
 The Tools package includes the CryExporter plugins for 3ds Max as well as
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308297](
-CryMaxTools
-)
+[CryMaxTools](Installing%20the%203ds%20Max%20Tools/CryMaxTools%20-%20Phys%20Proxy%20Tool.md)
 **
 .
 
@@ -29,9 +27,7 @@ The CryExporter enables you directly export engine ready assets from within 3ds 
 Installation via CryToolsInstaller
 
 We recommend using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963458](
-CryToolsInstaller
-)
+[CryToolsInstaller](CryToolsInstaller.md)
  to install all DCC tool packages, including 3dsMax. If you need to manually install them, follow the instructions in the sections below.
 
 Before the installation of any plugins via CryToolsInstaller make sure to have setup your build information via the
@@ -255,7 +251,7 @@ The tools are separated into Animation, Artist, Morph and Rigging packages with 
 
 CryMaxTools MAXScripts are available for the most recent versions of 3dsMax and will automatically choose the right version to load.
 
-[Image: /docs/static/attachments/44963472]
+![Image](https://www.cryengine.com/docs/static/attachments/44963472)
 
 The script files can be found in the
 `
@@ -267,7 +263,7 @@ The script files can be found in the
 `
  of the 3dsMax root directory. After restarting 3dsMax the tools should load automatically.
 
-[Image: /docs/static/attachments/44963470]
+![Image](https://www.cryengine.com/docs/static/attachments/44963470)
 
 To uninstall the tools, delete the "LoadCryMaxTools.ms" file located in the
 `

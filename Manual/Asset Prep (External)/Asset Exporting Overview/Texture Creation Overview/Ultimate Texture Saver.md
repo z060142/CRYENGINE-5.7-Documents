@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933576]
+![Image](https://www.cryengine.com/docs/static/attachments/29933576)
 
 ##
 Overview
@@ -31,24 +31,16 @@ Supported textures and channel(s) mapping are easily and quickly configurable
 
 Currently it has only been tested on Photoshop CS6, but does support Photoshop CS5.5 and CC. Note: This support excludes Photoshop 2014 CC and above versions (includes the usage of the CC Extension Manager in the above versions).
 
-[#sections](
-Sections
-)
-[#installation](
-Installation
-)
-[#technical-documentation](
-Technical Documentation
-)
+[Sections](#sections)
+[Installation](#installation)
+[Technical Documentation](#technical-documentation)
 
 ##
 Installation
 
 -
 It can be installed manually using the
-[/docs/static/attachments/44970556](
-UltimateTextureSaver.zip
-)
+[UltimateTextureSaver.zip](/docs/static/attachments/44970556)
  file. Adobe Extension Manager should then be opened and used to install the extension. After this, you should copy the contents of the folder
 "{zip}UltimateTextureSaver\Install"
 into
@@ -76,13 +68,13 @@ Change Destination Tab
 Edit Shortcuts Tab
  |
 
-[Image: /docs/static/attachments/51347784]
+![Image](https://www.cryengine.com/docs/static/attachments/51347784)
 
  |
-[Image: /docs/static/attachments/51347785]
+![Image](https://www.cryengine.com/docs/static/attachments/51347785)
 
  |
-[Image: /docs/static/attachments/51347786]
+![Image](https://www.cryengine.com/docs/static/attachments/51347786)
 
  |
 

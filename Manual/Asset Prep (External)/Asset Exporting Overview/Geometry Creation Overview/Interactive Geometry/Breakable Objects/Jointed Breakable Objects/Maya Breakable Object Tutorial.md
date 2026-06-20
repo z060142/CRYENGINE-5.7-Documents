@@ -10,18 +10,14 @@
 Example Assets
 
 -
-[/docs/static/attachments/23994638](
-ma_jointedBreakable.rar
-)
+[ma_jointedBreakable.rar](/docs/static/attachments/23994638)
 
 ##
 Object setup in Maya for a simple jointed breakable
 
 -
 Once you cut your object into several pieces, you need to identify which one will be the static remaining piece when the joints get broken. This is your base piece and becomes the parent render mesh for your hierarchy setup which is a child of your export node. Give it a unique nodename and enter "mass=0" and "entity" in its
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310799](
-UDP's
-)
+[UDP's](/docs/static/engines/cryengine-3/categories/1114113/pages/1310799)
 . Create LOD's and collision geometry for it. Center the pivot to the export dummy helper and make sure that it does not have any transformations applied.
 
 -
@@ -34,7 +30,7 @@ _jointxx
 **
  (xx=00,01,02,...). Set a limit to your joints (use 500 for testing, for more explanation in detail refer to joint values). Make sure the joints intersect with only one piece of collision geometry (connecting this piece to the world, making the joint red in debug game mode) or two different pieces of collision geometry (interconnecting those two pieces, making the joint light grey in debug game mode). The joints must not be scaled and should not be rotated.
 
-[Image: /docs/static/attachments/23994639]
+![Image](https://www.cryengine.com/docs/static/attachments/23994639)
 
 -
 Export your object by adding the cryexportnode with "Export File per Node" enabled and "Merge All Nodes" disabled.
@@ -83,12 +79,6 @@ Example: p_draw_helpers larRis_g - show geometry for static, sleeping, active, i
 
 ```
 
-[#object-setup-in-maya-for-a-simple-jointed-breakable](
-Object setup in Maya for a simple jointed breakable
-)
-[#setup-in-sandbox](
-Setup in Sandbox
-)
-[#debugging](
-Debugging
-)
+[Object setup in Maya for a simple jointed breakable](#object-setup-in-maya-for-a-simple-jointed-breakable)
+[Setup in Sandbox](#setup-in-sandbox)
+[Debugging](#debugging)

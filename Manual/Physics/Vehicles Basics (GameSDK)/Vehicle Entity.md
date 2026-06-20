@@ -273,9 +273,7 @@ NavigationType
 
  |
 For use with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534274](
-Multi-layer Navigation
-)
+[Multi-layer Navigation](../../AI%20and%20Navigation/AI%20Overview/Navigation%20(MNM).md)
 .
 
  |

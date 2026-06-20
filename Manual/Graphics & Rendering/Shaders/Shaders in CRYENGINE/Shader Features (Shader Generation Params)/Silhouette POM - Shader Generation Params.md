@@ -11,9 +11,7 @@
 Silhouette POM
 
 Silhouette Parallax Occlusion Mapping is similar to how
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450125](
-Parallax Occlusion Mapping - Shader Generation Params
-)
+[Parallax Occlusion Mapping - Shader Generation Params](Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
  is set up. It's essentially a mix between POM and tessellation.
 
 While it is heavier on performance than POM, it affects the silhouette of the mesh as it would with a tessellated object, without actually being tessellated. Silhouette POM is for PC on "very high" spec only.
@@ -22,12 +20,10 @@ While it is heavier on performance than POM, it affects the silhouette of the me
 Setting up Parallax Occlusion
 
 The SPOM texture and shader setup is the same as for
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450125](
-Parallax Occlusion Mapping - Shader Generation Params
-)
+[Parallax Occlusion Mapping - Shader Generation Params](Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
 :
 
-[Image: /docs/static/attachments/28898790]
+![Image](https://www.cryengine.com/docs/static/attachments/28898790)
 
 The only difference is that there are a two additional Parameters for SPOM.
 
@@ -63,23 +59,23 @@ The upper limit will always be the value for the number of steps specified above
 ##
 Comparison: SPOM vs POM
 
-[Image: /docs/static/attachments/28898788]
+![Image](https://www.cryengine.com/docs/static/attachments/28898788)
 
  |
-[Image: /docs/static/attachments/28898789]
+![Image](https://www.cryengine.com/docs/static/attachments/28898789)
 
  |
-[Image: /docs/static/attachments/28898785]
+![Image](https://www.cryengine.com/docs/static/attachments/28898785)
 
  |
 
-[Image: /docs/static/attachments/28898786]
+![Image](https://www.cryengine.com/docs/static/attachments/28898786)
 
  |
-[Image: /docs/static/attachments/28898787]
+![Image](https://www.cryengine.com/docs/static/attachments/28898787)
 
  |
-[Image: /docs/static/attachments/28898784]
+![Image](https://www.cryengine.com/docs/static/attachments/28898784)
 
  |
 

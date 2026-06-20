@@ -76,7 +76,7 @@ string
 **
  class (CryString) has this behavior built in which means the programmer doesn't need to think where the memory gets released. The following image shows the allocations statistics split up by the different modules:
 
-[Image: /docs/static/attachments/23461198]
+![Image](https://www.cryengine.com/docs/static/attachments/23461198)
 
 ##
 Caching Computational Data
@@ -84,9 +84,7 @@ Caching Computational Data
 In Far Cry (CryENGINE 1) we did skinning (vertex transformation based on joints) of characters in software. The vertex data was sent to the graphics card and was also used to create edge information for the stencil shadows. Doing skinning once and reusing it for multiple passes and for shadow computations was a good solution at that time. More detailed characters require more triangles and have therefore more vertices. This means more computations on CPU side and more bus transfers. For Crysis (CryENGINE 2) we have dropped the stencil shadows and do skinning on GPU. The GPU is generally faster in doing the required computations and the transfer is avoided. Caching the skinned result is still possible but graphics hardware is often more limited on the memory side and is stronger on the computations. Here it can makes sense to recompute the data for every pass. This way we even don't need to manage the memory for the cache. The latter advantage is good because in a dynamic game scene the character count can vary a lot.
 
 See also:
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306701](
-Static vs. Dynamic Lighting
-)
+[Static vs. Dynamic Lighting](/docs/static/engines/cryengine-5/categories/23756813/pages/23306701)
 
 ##
 Compression
@@ -223,45 +221,17 @@ stripped down builds
 **
  (minimal build only consisting of required assets).
 
-[#main-memory-and-gpu-memory](
-Main Memory and GPU Memory
-)
-[#choosing-a-platform-to-target](
-Choosing a Platform to Target
-)
-[#budgets](
-Budgets
-)
-[#allocation-strategy-with-multiple-modules-and-threads](
-Allocation Strategy with Multiple Modules and Threads
-)
-[#caching-computational-data](
-Caching Computational Data
-)
-[#compression](
-Compression
-)
-[#disk-size](
-Disk Size
-)
-[#total-size](
-Total Size
-)
-[#address-space](
-Address Space
-)
-[#bandwidth](
-Bandwidth
-)
-[#latency](
-Latency
-)
-[#alignment](
-Alignment
-)
-[#virtual-memory](
-Virtual Memory
-)
-[#streaming](
-Streaming
-)
+[Main Memory and GPU Memory](#main-memory-and-gpu-memory)
+[Choosing a Platform to Target](#choosing-a-platform-to-target)
+[Budgets](#budgets)
+[Allocation Strategy with Multiple Modules and Threads](#allocation-strategy-with-multiple-modules-and-threads)
+[Caching Computational Data](#caching-computational-data)
+[Compression](#compression)
+[Disk Size](#disk-size)
+[Total Size](#total-size)
+[Address Space](#address-space)
+[Bandwidth](#bandwidth)
+[Latency](#latency)
+[Alignment](#alignment)
+[Virtual Memory](#virtual-memory)
+[Streaming](#streaming)

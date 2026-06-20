@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Texels Per Meter](View Modes ToolBar/Texels Per Meter.md)
+- [Texels Per Meter](View%20Modes%20ToolBar/Texels%20Per%20Meter.md)
 
 ## Content
 
@@ -24,14 +24,14 @@ ViewModes
 **
  from the drop down menu and you will see that the ViewModes toolbar has been added to your Editor's UI.
 
-[Image: /docs/static/attachments/28881127]
+![Image](https://www.cryengine.com/docs/static/attachments/28881127)
 
 This toolbar has been introduced to save you time by not having to remember a large number of CVars and commands.
 
 ##
 Toolbar Breakdown
 
-[Image: /docs/static/attachments/28881128]
+![Image](https://www.cryengine.com/docs/static/attachments/28881128)
 
 From left to right, all the buttons in the toolbar have been listed below along with a description of what they do. Additionally and for your reference the CVar being modified has also been included.
 
@@ -48,7 +48,7 @@ Cvar / command being used
 
 1
  |
-[Image: /docs/static/attachments/28881133]
+![Image](https://www.cryengine.com/docs/static/attachments/28881133)
  |
 Default normal rendering mode
  |
@@ -57,7 +57,7 @@ r_DebugGBuffer = 0
 
 2
  |
-[Image: /docs/static/attachments/28881134]
+![Image](https://www.cryengine.com/docs/static/attachments/28881134)
  |
 Normals PBS debugview
  |
@@ -66,7 +66,7 @@ r_DebugGBuffer = 1
 
 3
  |
-[Image: /docs/static/attachments/28881135]
+![Image](https://www.cryengine.com/docs/static/attachments/28881135)
  |
 Smoothness PBS
 debugview
@@ -76,7 +76,7 @@ r_DebugGBuffer = 2
 
 4
  |
-[Image: /docs/static/attachments/28881136]
+![Image](https://www.cryengine.com/docs/static/attachments/28881136)
  |
 Reflectance PBS
 debugview
@@ -86,7 +86,7 @@ r_DebugGBuffer = 3
 
 5
  |
-[Image: /docs/static/attachments/28881137]
+![Image](https://www.cryengine.com/docs/static/attachments/28881137)
  |
 Albedo
 PBS
@@ -97,7 +97,7 @@ r_DebugGBuffer = 4
 
 6
  |
-[Image: /docs/static/attachments/28881138]
+![Image](https://www.cryengine.com/docs/static/attachments/28881138)
  |
 Lighting Model
 PBS
@@ -108,7 +108,7 @@ r_DebugGBuffer = 5
 
 7
  |
-[Image: /docs/static/attachments/28881139]
+![Image](https://www.cryengine.com/docs/static/attachments/28881139)
  |
 Translucency
 PBS
@@ -119,7 +119,7 @@ r_DebugGBuffer = 6
 
 8
  |
-[Image: /docs/static/attachments/28881140]
+![Image](https://www.cryengine.com/docs/static/attachments/28881140)
  |
 Sun Self Shadowing
 PBS
@@ -130,7 +130,7 @@ r_DebugGBuffer = 7
 
 9
  |
-[Image: /docs/static/attachments/28881141]
+![Image](https://www.cryengine.com/docs/static/attachments/28881141)
  |
 SubSurface Scattering
 PBS
@@ -141,7 +141,7 @@ r_DebugGBuffer = 8
 
 10
  |
-[Image: /docs/static/attachments/28881142]
+![Image](https://www.cryengine.com/docs/static/attachments/28881142)
  |
 Specular Validation
 PBS
@@ -152,7 +152,7 @@ r_DebugGBuffer = 9
 
 11
  |
-[Image: /docs/static/attachments/28881143]
+![Image](https://www.cryengine.com/docs/static/attachments/28881143)
  |
 Default Material
  |
@@ -161,7 +161,7 @@ e_DefaultMaterial = 1
 
 12
  |
-[Image: /docs/static/attachments/28881144]
+![Image](https://www.cryengine.com/docs/static/attachments/28881144)
  |
 Default Material with Normalmaps
  |
@@ -170,7 +170,7 @@ r_TexBindMode = 6
 
 13
  |
-[Image: /docs/static/attachments/28881145]
+![Image](https://www.cryengine.com/docs/static/attachments/28881145)
  |
 Overlay Collision Proxies
  |
@@ -179,7 +179,7 @@ p_Draw_Helpers = 1
 
 14
  |
-[Image: /docs/static/attachments/28881146]
+![Image](https://www.cryengine.com/docs/static/attachments/28881146)
  |
 Shaded Wireframe
  |
@@ -188,7 +188,7 @@ r_ShowLines = 2
 
 15
  |
-[Image: /docs/static/attachments/28881147]
+![Image](https://www.cryengine.com/docs/static/attachments/28881147)
  |
 Full Wireframe
  |
@@ -197,7 +197,7 @@ r_wireframe = 1
 
 16
  |
-[Image: /docs/static/attachments/28881148]
+![Image](https://www.cryengine.com/docs/static/attachments/28881148)
  |
 Show Vertex Normals
  |
@@ -206,7 +206,7 @@ r_shownormals = 1
 
 17
  |
-[Image: /docs/static/attachments/28881149]
+![Image](https://www.cryengine.com/docs/static/attachments/28881149)
  |
 Show Tangents
  |
@@ -215,7 +215,7 @@ r_ShowTangents = 1
 
 18
  |
-[Image: /docs/static/attachments/28881150]
+![Image](https://www.cryengine.com/docs/static/attachments/28881150)
  |
 Texels Per Meter 256
  |
@@ -224,7 +224,7 @@ r_TexelsPerMeter = 256
 
 19
  |
-[Image: /docs/static/attachments/28881151]
+![Image](https://www.cryengine.com/docs/static/attachments/28881151)
  |
 Texels Per Meter 512
  |
@@ -233,7 +233,7 @@ r_TexelsPerMeter = 512
 
 20
  |
-[Image: /docs/static/attachments/28881152]
+![Image](https://www.cryengine.com/docs/static/attachments/28881152)
  |
 Texels Per Meter 1024
  |
@@ -242,7 +242,7 @@ r_TexelsPerMeter = 1024
 
 21
  |
-[Image: /docs/static/attachments/28881153]
+![Image](https://www.cryengine.com/docs/static/attachments/28881153)
  |
 Colour coded LOD visualisation
  |
@@ -252,7 +252,7 @@ e_DebugDraw = 3, -3, 0
 
 22
  |
-[Image: /docs/static/attachments/28881154]
+![Image](https://www.cryengine.com/docs/static/attachments/28881154)
  |
 Minimum LOD cycle
  |
@@ -264,23 +264,15 @@ Further Reading
 
 For more information about 1-10, see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959240](
-Debug GBuffer
-)
+[Debug GBuffer](../../../../Graphics%20%26%20Rendering/Shaders/Physically%20Based%20Shading%20(PBS)/Physically%20Based%20Shading%20-%20Debugging.md)
 **
 .
 
 For more information about 18-20, see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/52199429](
-Texels Per meter
-)
+[Texels Per meter](View%20Modes%20ToolBar/Texels%20Per%20Meter.md)
 **
 .
 
-[#toolbar-breakdown](
-Toolbar Breakdown
-)
-[#further-reading](
-Further Reading
-)
+[Toolbar Breakdown](#toolbar-breakdown)
+[Further Reading](#further-reading)

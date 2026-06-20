@@ -597,42 +597,16 @@ DamageBehaviors
 *
  array definition. It's important that this table be specified as optional.
 
-[#scripts](
-Scripts
-)
-[#vehicle-interfaces](
-Vehicle interfaces
-)
-[#vehicle-object-factories](
-Vehicle Object Factories
-)
-[#vehicle-classes](
-Vehicle classes
-)
-[#vehicle-client](
-Vehicle Client
-)
-[#entering-a-vehicle](
-Entering a vehicle
-)
-[#seat-actions](
-Seat Actions
-)
-[#damages-to-the-passengers](
-Damages to the passengers
-)
-[#hits](
-Hits
-)
-[#damage-multipliers](
-Damage multipliers
-)
-[#vehicle-components](
-Vehicle Components
-)
-[#damage-behaviors](
-Damage Behaviors
-)
-[#implementing-a-new-damage-behavior](
-Implementing a new damage behavior
-)
+[Scripts](#scripts)
+[Vehicle interfaces](#vehicle-interfaces)
+[Vehicle Object Factories](#vehicle-object-factories)
+[Vehicle classes](#vehicle-classes)
+[Vehicle Client](#vehicle-client)
+[Entering a vehicle](#entering-a-vehicle)
+[Seat Actions](#seat-actions)
+[Damages to the passengers](#damages-to-the-passengers)
+[Hits](#hits)
+[Damage multipliers](#damage-multipliers)
+[Vehicle Components](#vehicle-components)
+[Damage Behaviors](#damage-behaviors)
+[Implementing a new damage behavior](#implementing-a-new-damage-behavior)

@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [01. Creating a Basic UI](Using C# UI/01. Creating a Basic UI.md)
-- [02. Creating a Menu](Using C# UI/02. Creating a Menu.md)
-- [03. Creating a Popup](Using C# UI/03. Creating a Popup.md)
+- [01. Creating a Basic UI](Using%20C%23%20UI/01.%20Creating%20a%20Basic%20UI.md)
+- [02. Creating a Menu](Using%20C%23%20UI/02.%20Creating%20a%20Menu.md)
+- [03. Creating a Popup](Using%20C%23%20UI/03.%20Creating%20a%20Popup.md)
 
 ## Content
 
@@ -68,7 +68,7 @@ UIComponents
 `
 .
 
-[Image: /docs/static/attachments/26954502]
+![Image](https://www.cryengine.com/docs/static/attachments/26954502)
 
 Every UI starts with a
 `
@@ -97,16 +97,10 @@ Canvas
  instances at the same time.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26874999](
-01. Creating a Basic UI
-)
+[01. Creating a Basic UI](Using%20C%23%20UI/01.%20Creating%20a%20Basic%20UI.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875001](
-02. Creating a Menu
-)
+[02. Creating a Menu](Using%20C%23%20UI/02.%20Creating%20a%20Menu.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875003](
-03. Creating a Popup
-)
+[03. Creating a Popup](Using%20C%23%20UI/03.%20Creating%20a%20Popup.md)

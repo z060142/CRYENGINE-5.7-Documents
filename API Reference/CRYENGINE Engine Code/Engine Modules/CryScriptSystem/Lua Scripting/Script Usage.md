@@ -43,9 +43,7 @@ Scripts are usually stored in the
 The scripts will have to be invoked by calling the LoadScript function from within C++ code. More information can be found TOPIC Integration Between Scripts and C++
 
 Another workflow is creating a script entity as explained in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306594](
-Structure of a Script Entity
-)
+[Structure of a Script Entity](../../../../CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/Script%20Entity/Structure%20of%20a%20Script%20Entity.md)
  topic.
 
 ##

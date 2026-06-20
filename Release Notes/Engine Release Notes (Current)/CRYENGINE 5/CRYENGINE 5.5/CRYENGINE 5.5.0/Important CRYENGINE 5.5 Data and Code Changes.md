@@ -162,21 +162,9 @@ Miscellaneous
 
 -
 eCryM_Game has been removed, change existing references to eCryM_EnginePlugin for newer projects, otherwise eCryM_LegacyGameDLL.
-[#deprecation-notices](
-Deprecation Notices
-)
-[#renderer](
-Renderer
-)
-[#entity-system-and-schematyc](
-Entity System & Schematyc
-)
-[#plugins](
-Plugins
-)
-[#game-framework-removal](
-Game Framework Removal
-)
-[#miscellaneous](
-Miscellaneous
-)
+[Deprecation Notices](#deprecation-notices)
+[Renderer](#renderer)
+[Entity System & Schematyc](#entity-system-and-schematyc)
+[Plugins](#plugins)
+[Game Framework Removal](#game-framework-removal)
+[Miscellaneous](#miscellaneous)

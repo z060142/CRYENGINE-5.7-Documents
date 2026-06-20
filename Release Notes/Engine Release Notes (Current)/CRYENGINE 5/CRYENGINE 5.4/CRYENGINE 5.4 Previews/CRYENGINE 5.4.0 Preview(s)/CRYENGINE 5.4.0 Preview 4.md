@@ -16,27 +16,21 @@ We are very pleased to bring you the 5.4.0 Preview 4 release. This is another â€
 Entity Components
 
 In this preview release we are able to bring you the first phase of the Entity Components
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28180907](
-documentation
-)
+[documentation](../../../../../../Manual/Entities%20and%20Tools/Entity%20Components.md)
 . Over the coming months we will continue to add to this documentation, but in the meantime we would very much like to hear what you think about this new feature in CRYENGINE.
 
 ##
 Substance Viewport Shader
 
 Also in this Preview Release, we bring you a custom Substance shader that has been designed to match the viewport shading of Allegorithmic's Substance Designer and Painter software. To download the tool and for more general information follow this
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450470](
-link
-)
+[link](../../../../../../Manual/Editor%20Tools/Substance/Substance%20-%20CRYENGINE%20Shader.md)
 .
 
 ##
 Photoshop Ultimate Texture Saver
 
 Finally in this Preview Release, we bring you an extension to Photoshop - the Ultimate Texture Saver. This feature has been developed to make life much easier for Texture Artists and replaces 8 separate files with just 1. To download the tool and for more general information follow this
-[http://docs.cryengine.com/pages/viewpage.action?title=Photoshop+-+Ultimate+Texture+Saver&spaceKey=CEMANUAL](
-link
-)
+[link](http://docs.cryengine.com/pages/viewpage.action?title=Photoshop+-+Ultimate+Texture+Saver&spaceKey=CEMANUAL)
 .
 
 Finally, thank you once again for your feedback, please keep it coming (but as always through the normal channels please).
@@ -46,9 +40,7 @@ Accessing the 5.4.0 Preview 4 Release
 
 -
 Go to
-[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview4](
-https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview4
-)
+[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview4](https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview4)
 
 -
 Download CRYENGINE_preview_5.4.0.120_pc.zip
@@ -63,21 +55,15 @@ Double-click on â€œInstallEngine.bat"
 Code Interface Changes
 
 For more information, see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962727](
-Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)
-)
+[Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)](../Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes%20(5.4%20Preview%20Releases).md)
 **
 
 **
 article.
 
 If you are upgrading from CRYENGINE 5.3, please read this topic:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962700](
-Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)
-)
-[/docs](
-.
-)
+[Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)](../Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4%20(5.4%20Preview%20Releases).md)
+[.](/docs)
 
 ##
 Known Issues

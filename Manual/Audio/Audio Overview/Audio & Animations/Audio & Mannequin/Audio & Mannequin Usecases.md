@@ -22,16 +22,14 @@ SDK_playerPreview1P.xml
  and where we explain why we have done certain things in a certain way.
 
 First off a preview file needs to be loaded. An explanation as to how preview files are loaded can be found at
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011267](
-Preview Setup File (xxxPreview.xml)
-)
+[Preview Setup File (xxxPreview.xml)](/docs/static/engines/cryengine-3/categories/1114113/pages/15011267)
 .
 
 Inside Mannequin go to
 File -> Load Preview Setup
 . In the example below the first-person SDK example has been selected:
 
-[Image: /docs/static/attachments/51871765]
+![Image](https://www.cryengine.com/docs/static/attachments/51871765)
 
 The
 *
@@ -40,7 +38,7 @@ SDK_playerPreview1P.xml
  file can be found in this location: GameSDK/Assets/Animations/Mannequin/Preview/SDK_playerPreview1P.xml.
 With the Preview setup loaded Mannequin should look like the example in the screenshot below:
 
-[Image: /docs/static/attachments/51871766]
+![Image](https://www.cryengine.com/docs/static/attachments/51871766)
 
 When opening the Context Editor you can see the setups that are available for this Preview file.
 
@@ -48,7 +46,7 @@ The Context Editor can be found under
 File -> Context Editor
 .
 
-[Image: /docs/static/attachments/51871767]
+![Image](https://www.cryengine.com/docs/static/attachments/51871767)
 
 In the example above it can be seen that there are several context setups: Player, Audio, Pistol, Rifle, Shotgun, Grenade, Rocketlauncher and HMG.
 
@@ -75,9 +73,7 @@ The "Rifle" context specifies that it will use a rifle model and "rifleWeaponAni
 The "Pistol" context specifies that it will use a pistol model and "pistolWeaponAnims.adb" database on the "Weapon" ScopeContext.
 More information about the setup of contexts can be found at
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308457](
-Mannequin Context Editor
-)
+[Mannequin Context Editor](../../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Context%20Editor.md)
 .
 
 ##
@@ -97,11 +93,11 @@ Fragments
 *
  in the "playerAnims1P.adb"
 
-[Image: /docs/static/attachments/51871768]
+![Image](https://www.cryengine.com/docs/static/attachments/51871768)
 
 Now select the audio context:
 
-[Image: /docs/static/attachments/51871769]
+![Image](https://www.cryengine.com/docs/static/attachments/51871769)
 
 This will populate the Fragment Browser with the
 *
@@ -111,11 +107,11 @@ Fragments
 
 The file name of the database listed in the Fragments browser is shown next to the "Current ADB" label:
 
-[Image: /docs/static/attachments/51871770]
+![Image](https://www.cryengine.com/docs/static/attachments/51871770)
 
 If you switch back to the Player context you will see all the Fragments (that are in the "playerAnims1P.adb" database) in the Fragment Browser.
 
-[Image: /docs/static/attachments/51871771]
+![Image](https://www.cryengine.com/docs/static/attachments/51871771)
 
 ##
 Selecting a Fragment in the Fragment Browser: Important Details when Working with Multiple Scopes
@@ -191,7 +187,7 @@ Scope
 *
  name - it changes from a folder icon to a film reel icon.
 
-[Image: /docs/static/attachments/51871772]
+![Image](https://www.cryengine.com/docs/static/attachments/51871772)
 
 Advanced
 When you have several
@@ -243,7 +239,7 @@ Scopes
 *
 in the Fragment Browser.
 
-[Image: /docs/static/attachments/51871773]
+![Image](https://www.cryengine.com/docs/static/attachments/51871773)
 
 To find which
 *
@@ -273,9 +269,7 @@ Fragment
 
 Fragment Selection Step By Step
 As defined in the Player
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308456](
-Mannequin Tag Definition Editor
-)
+[Mannequin Tag Definition Editor](../../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Tag%20Definition%20Editor.md)
 
 file the "Torso1P"
 *
@@ -443,7 +437,7 @@ Fragment
 *
  that was selected in the Fragment Browser.
 
-[Image: /docs/static/attachments/51871774]
+![Image](https://www.cryengine.com/docs/static/attachments/51871774)
 
 ##
 Using Multiple Scopes for Audio
@@ -556,15 +550,7 @@ FragmentId
 *
 ).
 
-[#introduction](
-Introduction
-)
-[#switching-the-active-context-in-the-fragment-browser](
-Switching the Active Context in the Fragment Browser
-)
-[#selecting-a-fragment-in-the-fragment-browser-important-details-when-working-with-multiple-scopes](
-Selecting a Fragment in the Fragment Browser: Important Details when Working with Multiple Scopes
-)
-[#using-multiple-scopes-for-audio](
-Using Multiple Scopes for Audio
-)
+[Introduction](#introduction)
+[Switching the Active Context in the Fragment Browser](#switching-the-active-context-in-the-fragment-browser)
+[Selecting a Fragment in the Fragment Browser: Important Details when Working with Multiple Scopes](#selecting-a-fragment-in-the-fragment-browser-important-details-when-working-with-multiple-scopes)
+[Using Multiple Scopes for Audio](#using-multiple-scopes-for-audio)

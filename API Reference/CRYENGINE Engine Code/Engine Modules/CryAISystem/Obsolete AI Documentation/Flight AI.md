@@ -32,7 +32,7 @@ They should be used as a replacement to the old archetypes from the c3_vehicles 
 
 The new flownodes that should be used with these entities can be found under the Helicopter category:
 
-[Image: /docs/static/attachments/23461210]
+![Image](https://www.cryengine.com/docs/static/attachments/23461210)
 
 ##
 FollowPath:

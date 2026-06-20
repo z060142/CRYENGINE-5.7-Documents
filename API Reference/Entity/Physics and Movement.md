@@ -11,95 +11,57 @@
 Overview
 
 After loading geometry into a
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216230](
-Slot
-)
+[Slot](Slots%2C%20Geometry%20and%20Effects.md)
 , we can create a physical entity (represented by the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797108](
-IPhysicalEntity
-)
+[IPhysicalEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797108)
 interface) and add the physical geometry from the slots. This results in a physical representation of the entity that can interact with the world.
 
 To physicalize an entity, we can call
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::Physicalize
-)
+[IEntity::Physicalize](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  (example contained within). This will create a physical entity for the entity of the specified type, and optionally create physical parts for individual or all entity slots. Note that physicalization of slots assumes the existence of a
 **
 physics proxy
 **
 , set up by the author in the DCC tool.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-Physicalize Example
-)
+[Physicalize Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 To query the physical entity of an entity, use
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetPhysicalEntity
-)
+[IEntity::GetPhysicalEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 .
 
 Once an entity is physicalized, we can optionally add physical parts for individual entity slots by calling
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::PhysicalizeSlot
-)
+[IEntity::PhysicalizeSlot](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 .
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-Physicalize Slot Example
-)
+[Physicalize Slot Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#physical-types](
-Physical Types
-)
-[#iphysicalentity-functionality](
-IPhysicalEntity functionality
-)
-[#listening-to-collision-events](
-Listening to Collision Events
-)
-[#raycasts](
-Raycasts
-)
-[#impulses](
-Impulses
-)
-[#explosions](
-Explosions
-)
-[#walking-characters](
-Walking Characters
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[Physical Types](#physical-types)
+[IPhysicalEntity functionality](#iphysicalentity-functionality)
+[Listening to Collision Events](#listening-to-collision-events)
+[Raycasts](#raycasts)
+[Impulses](#impulses)
+[Explosions](#explosions)
+[Walking Characters](#walking-characters)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797387](
-IPhysicalWorld
-)
+[IPhysicalWorld](/docs/static/engines/cryengine-5/categories/28704770/pages/29797387)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797108](
-IPhysicalEntity
-)
+[IPhysicalEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797108)
 
 ##
 Physical Types
 
 CRYENGINE provides many different
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797108](
-IPhysicalEntity
-)
+[IPhysicalEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797108)
  implementations, represented by the pe_type enum:
 
 Enum Entry
@@ -163,9 +125,7 @@ Specialized setup that allows tracking entities inside a physical shape to creat
 IPhysicalEntity functionality
 
 Once an entity has been physicalized, we can use the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797108](
-IPhysicalEntity
-)
+[IPhysicalEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797108)
 interface directly to manipulate its physical behavior. The interface exposes, among others, four functions that are crucial to interacting with the physics at run-time:
 
 ##
@@ -177,9 +137,7 @@ pe_params
 bThreadSafe
  set to true.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797108](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797108)
 
 ##
 IPhysicalEntity::GetParams
@@ -188,22 +146,16 @@ Used to get parameters implementing the
 pe_params
  structure. This will always execute immediately using locks, potentially interrupting the main and physics threads until done.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797108](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797108)
 
 ##
 IPhysicalEntity::GetStatus
 
 Used to get status of the entity, implementing the pe_status structure. As with
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797108](
-IPhysicalEntity::GetParams
-)
+[IPhysicalEntity::GetParams](/docs/static/engines/cryengine-5/categories/28704770/pages/29797108)
 , this will always execute immediately using locks.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797108](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797108)
 
 ##
 IPhysicalEntity::Action
@@ -211,17 +163,10 @@ IPhysicalEntity::Action
 Executes an action, implementing the
 pe_action
  structure. As with
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797108](
-IPhysicalEntity::SetParams
-)
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797108](
- this is queued by default.
+[IPhysicalEntity::SetParams](/docs/static/engines/cryengine-5/categories/28704770/pages/29797108)
+[this is queued by default.](/docs/static/engines/cryengine-5/categories/28704770/pages/29797108)
 
-)
-
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797108](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797108)
 The physics simulation is run on a different thread, this means that any attempt at setting data will be delayed until the next thread sync unless 'bThreadSafe' is set to true. This can be used if handling immediate events (such as ENTITY_EVENT_COLLISION_IMMEDIATE) that come directly from the physics thread, to avoid the request being queued.
 
 Get functionality will always execute immediately without queuing.
@@ -230,55 +175,39 @@ Get functionality will always execute immediately without queuing.
 Listening to Collision Events
 
 Components can listen to collision events logged by physics by processing
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797082](
-Cry::Entity::EEvent::PhysicsCollision (ENTITY_EVENT_COLLISION)
-)
+[Cry::Entity::EEvent::PhysicsCollision (ENTITY_EVENT_COLLISION)](/docs/static/engines/cryengine-5/categories/28704770/pages/29797082)
 . This event is fired the next frame after the collision was processed on the physics thread, and provides data through the EventPhysCollision structure - detailing the collision that occurred.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797082](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797082)
 
 ##
 Raycasts
 
 It is often useful to trace a ray through the physical world, for example to let the user mouse-over or click on in-world objects. This is possible through the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797387](
-IPhysicalWorld::RayWorldIntersection
-)
+[IPhysicalWorld::RayWorldIntersection](/docs/static/engines/cryengine-5/categories/28704770/pages/29797387)
  function.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797387](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797387)
 
 ##
 Impulses
 
 Impulses can be triggered on individual physical entities using the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797388](
-pe_action_impulse
-)
+[pe_action_impulse](/docs/static/engines/cryengine-5/categories/28704770/pages/29797388)
  structure.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797388](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797388)
 
 ##
 Explosions
 
 By using the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797387](
-IPhysicalWorld::SimulateExplosion
-)
+[IPhysicalWorld::SimulateExplosion](/docs/static/engines/cryengine-5/categories/28704770/pages/29797387)
  function we can enhance gameplay logic by supporting grenades and more things – effectively adding impulses to nearby entities based on a force and an origin point:
 
 After done, any dynamic entities in the vicinity of the explosion point and radius will be impacted by the impulse.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797387](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797387)
 
 ##
 Walking Characters
@@ -286,28 +215,20 @@ Walking Characters
 As mentioned in the parent page, the
 PE_LIVING
  physical entity type is specialized for walking type actors, specifically developed for games such as Far Cry and Crysis. Physicalizing a living entity is more intricate than static and rigid entities, as it requires setup with the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797495](
-pe_player_dimensions
-)
+[pe_player_dimensions](/docs/static/engines/cryengine-5/categories/28704770/pages/29797495)
  and
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797496](
-pe_player_dynamics
-)
+[pe_player_dynamics](/docs/static/engines/cryengine-5/categories/28704770/pages/29797496)
  structures.
 
 Once done, the entity will be physicalized and start casting a ray down every step to check if the player is on ground or not.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797495](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797495)
 
 ##
 Sending Movement Requests
 
 The living entity will only move when a movement request is sent to it via the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797494](
-pe_action_move
-)
+[pe_action_move](/docs/static/engines/cryengine-5/categories/28704770/pages/29797494)
  structure. For example, to make the player move forward:
 
 ```
@@ -328,9 +249,7 @@ After that, the player will move forward – as if velocity was always 1m/s in t
 Getting the Entity Status
 
 We can query the living entity's status using the pe_status_living structure, in addition to
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797507](
-pe_status_dynamics
-)
+[pe_status_dynamics](/docs/static/engines/cryengine-5/categories/28704770/pages/29797507)
 . For example:
 
 ```
@@ -365,11 +284,7 @@ Conclusion
 This concludes the article on Physics and Movement, you may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216226](
-Characters and Animations
-)
+[Characters and Animations](Characters%20and%20Animations.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216232](
-Networking
-)
+[Networking](Networking.md)

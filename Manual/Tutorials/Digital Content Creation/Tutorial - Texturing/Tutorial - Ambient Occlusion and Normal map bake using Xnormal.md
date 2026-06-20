@@ -16,9 +16,7 @@ What is xNormal
 xNormal is a program that is widely used in the industry for baking down your high res sculpts/ high geometry meshes out of programs like zBrush, Mudbox, etc. to you low res and game ready mesh, maintaining all the detail from your high sculpt/ geometry.
 
 The program is free available and you can download it by visiting:
-[http://www.xnormal.net/Downloads.aspx](
-http://www.xnormal.net/Downloads.aspx
-)
+[http://www.xnormal.net/Downloads.aspx](http://www.xnormal.net/Downloads.aspx)
 
 ##
 How to use xNormal for normal map bakes and getting the best results
@@ -38,7 +36,7 @@ As a practical example, if you have a high res cylinder with 64 spans, you will 
 
 Down below is an example of how low res looks like to get a nice bake.
 
-[Image: /docs/static/attachments/23999585]
+![Image](https://www.cryengine.com/docs/static/attachments/23999585)
 
 ##
 Adjusting the ray distance and default mesh scale in xNormal
@@ -49,9 +47,9 @@ To get the best result in xNormal and making sure the rays hit a big enough mesh
 
 We should also set the ray distance to a higher value then the default one. The default value in xNormal is 0.5 which is too low and a lot of rays miss the target and double projections occur. A good value to start out with is to set our ray distance to 50 and tweak it from there.
 
-[Image: /docs/static/attachments/23999586]
+![Image](https://www.cryengine.com/docs/static/attachments/23999586)
 
-[Image: /docs/static/attachments/23999587]
+![Image](https://www.cryengine.com/docs/static/attachments/23999587)
 
 ##
 Baking out separate pieces of your geometry
@@ -62,9 +60,9 @@ The issue that arises when you bake your whole mesh at once is that the edge pad
 
 It is a bit more of a laborious task to break up your mesh into several pieces, bake them individually and then cut and composite those in Photoshop, but it will give you a nice clean bake with no double projections and edges "bleeding" into your other parts of the texture map.
 
-[Image: /docs/static/attachments/23999578]
+![Image](https://www.cryengine.com/docs/static/attachments/23999578)
 
-[Image: /docs/static/attachments/23999579]
+![Image](https://www.cryengine.com/docs/static/attachments/23999579)
 
 ##
 Inverting the Y- value/ green channel of the bake for CRYENGINE
@@ -75,11 +73,11 @@ The first is to go to the settings in xNormal and set the Y+ value to Y- so we'l
 
 So the second way is to bake it out normally from xNormal and then once everything is ok, to go to the green channel in Photoshop and reverse it manually. Both ways are viable and up to personal preference..
 
-[Image: /docs/static/attachments/23999597]
+![Image](https://www.cryengine.com/docs/static/attachments/23999597)
 
-[Image: /docs/static/attachments/23999580]
+![Image](https://www.cryengine.com/docs/static/attachments/23999580)
 
-[Image: /docs/static/attachments/23999581]
+![Image](https://www.cryengine.com/docs/static/attachments/23999581)
 
 ##
 Using xNormal for baking out your Ambient Occlusion
@@ -92,7 +90,7 @@ If you have lots of smaller pieces and surfaces setting your occlusion rays to 5
 
 The next setting we have to adjust is the spread angle. The maximum value is 179.50. With a higher spread angle we make sure that the AO rays get wider spread hitting also the smallest gaps in our mesh and ensuring we get a nice smooth AO in those.
 
-[Image: /docs/static/attachments/23999588]
+![Image](https://www.cryengine.com/docs/static/attachments/23999588)
 
 ##
 Setting the correct Bucket size and Antialising settings
@@ -101,13 +99,13 @@ The next setting we want to change is our bucket size. Normally we used to have 
 
 The same image has been rendered once with an AA setting of 1x the other of 4x. The 4x AA took 43 minutes to render! The 1x AA took only roughly 3 minutes. The difference is minimal and doesn't justify the time. Plus also once our map gets reduced in size, like from a 2048 map to a 1024 Photoshop applies AA to image as it gets scaled down.
 
-[Image: /docs/static/attachments/23999591]
+![Image](https://www.cryengine.com/docs/static/attachments/23999591)
 
-[Image: /docs/static/attachments/23999584]
+![Image](https://www.cryengine.com/docs/static/attachments/23999584)
 
-[Image: /docs/static/attachments/23999589]
+![Image](https://www.cryengine.com/docs/static/attachments/23999589)
 
-[Image: /docs/static/attachments/23999590]
+![Image](https://www.cryengine.com/docs/static/attachments/23999590)
 
 ##
 Curvature Map
@@ -116,11 +114,11 @@ The best use for having a good gloss map, render a curvature map  and that use a
 
 It provides a mid gray image with every edge highlighted where a curve is.
 
-[Image: /docs/static/attachments/23999592]
+![Image](https://www.cryengine.com/docs/static/attachments/23999592)
 
 To get it to render like this, you need to set up options like the image down below
 
-[Image: /docs/static/attachments/23999593]
+![Image](https://www.cryengine.com/docs/static/attachments/23999593)
 
 The amount of rays you should set are the same as the AO and also their spread angle is the same.
 
@@ -133,49 +131,27 @@ Some people prefer to use ZBrush polypaint to texture assets. It is important to
 
 To be able to render the polypaint/vertex color it is important to turn off the "ignore per vertex color" tick box on your high poly mesh. As the option suggest, if you don't, it will completely ignore it and show you a black render.
 
-[Image: /docs/static/attachments/23999594]
+![Image](https://www.cryengine.com/docs/static/attachments/23999594)
 
 Now turn on the "Bake Highpoly's Vertex Colour" and asset is ready to render.
 
-[Image: /docs/static/attachments/23999595]
+![Image](https://www.cryengine.com/docs/static/attachments/23999595)
 
 ##
 Texture Baking/UV transfer
 
 You can use Xnormal as a "render to texture" tool with the "Bake Base Texture" option.
 
-[Image: /docs/static/attachments/23999596]
+![Image](https://www.cryengine.com/docs/static/attachments/23999596)
 
-[#what-is-xnormal](
-What is xNormal
-)
-[#how-to-use-xnormal-for-normal-map-bakes-and-getting-the-best-results](
-How to use xNormal for normal map bakes and getting the best results
-)
-[#making-sure-that-the-low-res-geometry-isnt-too-low-and-being-able-to-catch-all-the-rays-from-the-bake](
-Making sure that the low res geometry isn't too low and being able to catch all the rays from the bake
-)
-[#adjusting-the-ray-distance-and-default-mesh-scale-in-xnormal](
-Adjusting the ray distance and default mesh scale in xNormal
-)
-[#baking-out-separate-pieces-of-your-geometry](
-Baking out separate pieces of your geometry
-)
-[#inverting-the-y-value-green-channel-of-the-bake-for-cryengine](
-Inverting the Y- value/ green channel of the bake for CRYENGINE
-)
-[#using-xnormal-for-baking-out-your-ambient-occlusion](
-Using xNormal for baking out your Ambient Occlusion
-)
-[#setting-the-correct-bucket-size-and-antialising-settings](
-Setting the correct Bucket size and Antialising settings
-)
-[#curvature-map](
-Curvature Map
-)
-[#zbrush-polypaintvertex-colour](
-ZBrush polypaint/Vertex Colour
-)
-[#texture-bakinguv-transfer](
-Texture Baking/UV transfer
-)
+[What is xNormal](#what-is-xnormal)
+[How to use xNormal for normal map bakes and getting the best results](#how-to-use-xnormal-for-normal-map-bakes-and-getting-the-best-results)
+[Making sure that the low res geometry isn't too low and being able to catch all the rays from the bake](#making-sure-that-the-low-res-geometry-isnt-too-low-and-being-able-to-catch-all-the-rays-from-the-bake)
+[Adjusting the ray distance and default mesh scale in xNormal](#adjusting-the-ray-distance-and-default-mesh-scale-in-xnormal)
+[Baking out separate pieces of your geometry](#baking-out-separate-pieces-of-your-geometry)
+[Inverting the Y- value/ green channel of the bake for CRYENGINE](#inverting-the-y-value-green-channel-of-the-bake-for-cryengine)
+[Using xNormal for baking out your Ambient Occlusion](#using-xnormal-for-baking-out-your-ambient-occlusion)
+[Setting the correct Bucket size and Antialising settings](#setting-the-correct-bucket-size-and-antialising-settings)
+[Curvature Map](#curvature-map)
+[ZBrush polypaint/Vertex Colour](#zbrush-polypaintvertex-colour)
+[Texture Baking/UV transfer](#texture-bakinguv-transfer)

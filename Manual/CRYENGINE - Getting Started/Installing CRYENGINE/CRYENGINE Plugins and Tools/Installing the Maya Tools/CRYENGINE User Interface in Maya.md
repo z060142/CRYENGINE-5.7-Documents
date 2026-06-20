@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Exporting using Crytek Shelf in Maya](CRYENGINE User Interface in Maya/Exporting using Crytek Shelf in Maya.md)
+- [Exporting using Crytek Shelf in Maya](CRYENGINE%20User%20Interface%20in%20Maya/Exporting%20using%20Crytek%20Shelf%20in%20Maya.md)
 
 ## Content
 
@@ -16,12 +16,8 @@ Overview
 
 This article will cover the User Interface for Maya use with CRYENGINE.
 
-[#tools-and-icons](
-Tools and Icons
-)
-[#more-information](
-More Information
-)
+[Tools and Icons](#tools-and-icons)
+[More Information](#more-information)
 
 ##
 Tools and Icons
@@ -36,14 +32,14 @@ Crytek
 **
  tab, you can access the following tools:
 
-[Image: /docs/static/attachments/25506779]
+![Image](https://www.cryengine.com/docs/static/attachments/25506779)
 
 Tools
  |
 Description
  |
 
-[Image: /docs/static/attachments/13271314]
+![Image](https://www.cryengine.com/docs/static/attachments/13271314)
  Export Tool (Export)
 
  |
@@ -53,11 +49,11 @@ Crytek Export
 **
  window. It allows you to export the objects from the Maya scene to the CRYENGINE sandbox editor.
 
-[Image: /docs/static/attachments/25506782]
+![Image](https://www.cryengine.com/docs/static/attachments/25506782)
 
  |
 
-[Image: /docs/static/attachments/13271318]
+![Image](https://www.cryengine.com/docs/static/attachments/13271318)
  Material Editor (MAT.ED)
 
  |
@@ -67,11 +63,11 @@ Material Groups
 **
  window used for organizing all your materials which will be used in Sandbox.
 
-[Image: /docs/static/attachments/25506783]
+![Image](https://www.cryengine.com/docs/static/attachments/25506783)
 
  |
 
-[Image: /docs/static/attachments/13271323]
+![Image](https://www.cryengine.com/docs/static/attachments/13271323)
  Cleanup imported FBX scene (FBX)
 
  |
@@ -82,7 +78,7 @@ cryexportnode.
 
  |
 
-[Image: /docs/static/attachments/13271322]
+![Image](https://www.cryengine.com/docs/static/attachments/13271322)
  Fix Export node pivot position (PIVOT)
 
  |
@@ -94,7 +90,7 @@ Center Pivot
 
  |
 
-[Image: /docs/static/attachments/25506780]
+![Image](https://www.cryengine.com/docs/static/attachments/25506780)
  CryMayaTools Toolbox (Tools)
 
  |
@@ -112,13 +108,13 @@ Plug-in Tools
 -
 Helpers
 *
-[Image: /docs/static/attachments/25506784]
+![Image](https://www.cryengine.com/docs/static/attachments/25506784)
 
 *
 
  |
 
-[Image: /docs/static/attachments/13271320]
+![Image](https://www.cryengine.com/docs/static/attachments/13271320)
  User Defined Properties Editor (UDP)
 
  |
@@ -136,17 +132,17 @@ Crytek
 **
  tab.
 
-[Image: /docs/static/attachments/25506790]
+![Image](https://www.cryengine.com/docs/static/attachments/25506790)
 
  |
 
-[Image: /docs/static/attachments/13271313]
+![Image](https://www.cryengine.com/docs/static/attachments/13271313)
  Export Validation (VALID)
 
  |
 Performs validation checks before exporting an object or scene. It will abort the export operation when it encounters any errors or warning in the validation checks. There are two types of messages produced by the validation, critical and ignorable. If there are any critical messages you can't export until they are fixed. Ignorable messages can be ignored but will displayed the every time the validation is run until fixed.
 
-[Image: /docs/static/attachments/25506981]
+![Image](https://www.cryengine.com/docs/static/attachments/25506981)
 
 You can also use the
 **
@@ -156,14 +152,14 @@ Focus
 
  |
 
-[Image: /docs/static/attachments/13271325]
+![Image](https://www.cryengine.com/docs/static/attachments/13271325)
  Check export geometry for validity
 
  |
 Checks for degenerate faces in the scene.
  |
 
-[Image: /docs/static/attachments/25506781]
+![Image](https://www.cryengine.com/docs/static/attachments/25506781)
  Configuration interface for CryMayaTools core functionality
 
  |
@@ -180,7 +176,7 @@ Project Configurations
 
 -
 Environment info
-[Image: /docs/static/attachments/25506982]
+![Image](https://www.cryengine.com/docs/static/attachments/25506982)
 
  |
 
@@ -188,11 +184,7 @@ Environment info
 More Information
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25531270](
-Exporting using Crytek Shelf in Maya
-)
+[Exporting using Crytek Shelf in Maya](CRYENGINE%20User%20Interface%20in%20Maya/Exporting%20using%20Crytek%20Shelf%20in%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308292](
-Basic Asset Setup and Export - Maya
-)
+[Basic Asset Setup and Export - Maya](../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%20Maya.md)

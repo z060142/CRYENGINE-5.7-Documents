@@ -8,3 +8,5 @@
 ## Content
 
 A 2016 tutorial on creating seamlessly tilable terrain textures using Adobe Photoshop
+
+[Embed: https://www.youtube.com/watch?v=iu08fg9XWSw]

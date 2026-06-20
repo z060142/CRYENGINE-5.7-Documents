@@ -10,27 +10,19 @@
 Released 17th October, 2014
 
 Make sure you visit the GameCode documentation which has been updated here:
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605726](
-Getting Started with Game Code
-)
+[Getting Started with Game Code](/docs/static/engines/cryengine-3/categories/1638401/pages/1605726)
 .
 
 And also the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/17826279](
-ATL for Programmers
-)
+[ATL for Programmers](/docs/static/engines/cryengine-3/categories/1114113/pages/17826279)
  article for updated information on Audio programming.
 
 Remember to delete 'loose' SDK content if you've extracted pak files into your build! Otherwise that old loose content will override the new content inside the pak files.
 
 See:
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605746#DirectoryStructure-PakFiles](
-Directory Structure - PakFiles
-)
+[Directory Structure - PakFiles](/docs/static/engines/cryengine-3/categories/1638401/pages/1605746#DirectoryStructure-PakFiles)
  and
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605659#CryPak-Layering](
-CryPak - Layering
-)
+[CryPak - Layering](/docs/static/engines/cryengine-3/categories/1638401/pages/1605659#CryPak-Layering)
 
 ##
 Editor

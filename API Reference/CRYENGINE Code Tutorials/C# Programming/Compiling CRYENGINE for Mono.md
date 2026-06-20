@@ -8,9 +8,7 @@
 ## Content
 
 Compiling the CRYENGINE for Mono is only applicable when building the engine by yourself by retrieving the source from
-[https://github.com/CRYTEK/CRYENGINE/tree/main](
-Github
-)
+[Github](https://github.com/CRYTEK/CRYENGINE/tree/main)
 . The builds downloaded through the CRYENGINE Launcher have mono enabled by default.
 
 To be able to use C# in the CRYENGINE, an extra option has to be enabled in CMake. To adjust this option, open CMake by either opening
@@ -18,9 +16,7 @@ To be able to use C# in the CRYENGINE, an extra option has to be enabled in CMak
 cry_cmake.exe
 **
  (when using the source from the
-[https://github.com/CRYTEK/CRYENGINE/tree/main](
-main branch
-)
+[main branch](https://github.com/CRYTEK/CRYENGINE/tree/main)
 ) in the source root folder, or
 **
 <root>/Tools/CMake/cmake_create_win32_solution.bat

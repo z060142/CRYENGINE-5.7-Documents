@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933219]
+![Image](https://www.cryengine.com/docs/static/attachments/29933219)
 
 ##
 Overview
@@ -23,28 +23,18 @@ Additives can be started like regular animations, as the engine will automatical
 ##
 Chapters:
 
-[#chapters](
-Chapters:
-)
-[#animation-layers](
-Animation Layers
-)
-[#creating-additives](
-Creating Additives
-)
-[#exporting-additives](
-Exporting Additives
-)
-[#testing-additives-in-the-character-tool](
-Testing Additives in the Character Tool
-)
+[Chapters:](#chapters)
+[Animation Layers](#animation-layers)
+[Creating Additives](#creating-additives)
+[Exporting Additives](#exporting-additives)
+[Testing Additives in the Character Tool](#testing-additives-in-the-character-tool)
 
 ##
 Animation Layers
 
 Animations are started in layers:
 
-[Image: /docs/static/attachments/35391838]
+![Image](https://www.cryengine.com/docs/static/attachments/35391838)
 We have a total of 16 animation layers available.
 
 Layer 0 is special as it is considered the base layer. Layer 0 supports blend spaces and motion extraction.
@@ -83,9 +73,7 @@ For users of
 3ds Max
 **
 , be sure to follow the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28186273](
-Creating Additive Animations
-)
+[Creating Additive Animations](../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Creating%20Additive%20Animations%20with%20Mannequin%20Editor.md)
  tutorial sub-page.
 
 ##
@@ -123,7 +111,7 @@ sdk_player.cdf
 
 Check that your new animations show up on the left side of the Character Tool. If you test the additive animation, don't be scared about any deforming that you see. As it is an additive animation, you are not supposed to play it on the Primary layer.
 
-[Image: /docs/static/attachments/35400769]
+![Image](https://www.cryengine.com/docs/static/attachments/35400769)
 
 Make sure the Layer is set to
 **
@@ -131,7 +119,7 @@ Primary
 **
 , Animation Driven is on, and all the IKs are off.
 
-[Image: /docs/static/attachments/35400770]
+![Image](https://www.cryengine.com/docs/static/attachments/35400770)
 
 Click on the
 **
@@ -145,7 +133,7 @@ Secondary .1
 **
 :
 
-[Image: /docs/static/attachments/35400771]
+![Image](https://www.cryengine.com/docs/static/attachments/35400771)
 
 Click the additive animation
 **
@@ -167,7 +155,7 @@ arms_coverFire_01
 
 You can now see how you get a new cower animation by using additives and upperbody animation. And the end result is what you were previewing in Max already.
 
-[Image: /docs/static/attachments/35400772]
+![Image](https://www.cryengine.com/docs/static/attachments/35400772)
 
 Keep a check on your mesh's deformation when creating additive animations.
 
@@ -177,4 +165,4 @@ Additive Anim Weights
 **
 . 1 is the default value.
 
-[Image: /docs/static/attachments/35400773]
+![Image](https://www.cryengine.com/docs/static/attachments/35400773)

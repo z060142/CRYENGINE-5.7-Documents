@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934030]
+![Image](https://www.cryengine.com/docs/static/attachments/29934030)
 
 ##
 Overview
@@ -20,31 +20,19 @@ A
 Scope Context
 *
  tells
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-Scopes
-)
+[Scopes](../Mannequin%20Scopes.md)
  which entity, character &
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743](
-animation database
-)
+[animation database](../../Mannequin%20Files/Animation%20Database%20(ADB).md)
  to use.
 
 Each scope is attached to a scope context, so you always need at least one Scope Context describing your character.
 
 We fill in the entity, character & animation database during the entity setup by referring to the scope context by name (for example "MainCharacter"). These properties of a Scope Context can change during run-time, so it is possible to swap the entity, character instance or animation database we are playing animations on at any time. This is used for example for swapping weapons, or attaching other characters to the player during a synchronized animation.
 
-[#sections](
-Sections
-)
-[#scope-layout](
-Scope Layout
-)
-[#creating-scope-contexts](
-Creating Scope Contexts
-)
-[#filling-scope-contexts](
-Filling Scope Contexts
-)
+[Sections](#sections)
+[Scope Layout](#scope-layout)
+[Creating Scope Contexts](#creating-scope-contexts)
+[Filling Scope Contexts](#filling-scope-contexts)
 
 ##
 Scope Layout
@@ -68,9 +56,7 @@ And now we can refer to them from the scopes:
 Creating Scope Contexts
 
 You create scope contexts by referring to them in the scope setup in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition File (xxxControllerDefs.xml)
-)
+[Controller Definition File (xxxControllerDefs.xml)](../../Mannequin%20Files/Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
 .
 
 ##
@@ -80,13 +66,9 @@ Filling Scope Contexts
 In the Mannequin Editor
 
 In the editor, the game code is not executed and we use a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308475](
-preview setup file
-)
+[preview setup file](../../Mannequin%20Files/Preview%20Setup%20File%20(xxxPreview.xml).md)
  to fill the scope contexts. You edit these in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308457](
-context editor
-)
+[context editor](../../Mannequin%20Context%20Editor.md)
 .
 
 ##
@@ -191,9 +173,7 @@ GameSDK/Scripts/Entities/Items/XML/Weapons/Rifle.xml
 When controlling a slave during a 'synchronized kill', the hit death reactions system fills the scope context named "SlaveChar"
 
 The animation database to fill in, as well as which
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-global tag
-)
+[global tag](../Mannequin%20TagState.md)
  to set when performing a synchronized kill with a certain entity, is configured in
 *
 Libs/HitDeathReactionsData/HitDeathReactions_XXX.xml files.
@@ -202,19 +182,13 @@ Libs/HitDeathReactionsData/HitDeathReactions_XXX.xml files.
 The manqTargetTag is used to identify the fragments playing on the master and slave while executing the synchronized kill.
 
 It is also the tag you use in the context data when making a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308475](
-preview setup file
-)
+[preview setup file](../../Mannequin%20Files/Preview%20Setup%20File%20(xxxPreview.xml).md)
  in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308457](
-Mannequin Context Editor
-)
+[Mannequin Context Editor](../../Mannequin%20Context%20Editor.md)
 .
 
 Do not confuse this tag with the tag "slave" which is the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-scope tag
-)
+[scope tag](../Mannequin%20TagState.md)
  for the SlaveChar scope in the GameSDK setup. So fragments playing on the slave will have both the "slave" tag and the manqTargetTag set. And fragments playing on the master will only have the manqTargetTag set.
 
 For example this comes from
@@ -239,6 +213,4 @@ GameSDK/Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml
 ```
 
 See also:
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306580](
-Hit and Death Reactions System
-)
+[Hit and Death Reactions System](../../../../../../API%20Reference/CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/Game%20Characters/Hit%20and%20Death%20Reactions%20System.md)

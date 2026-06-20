@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Tutorial - SkyPaint Tutorial](Tutorial - Skybox Texture Setup/Tutorial - SkyPaint Tutorial.md)
+- [Tutorial - SkyPaint Tutorial](Tutorial%20-%20Skybox%20Texture%20Setup/Tutorial%20-%20SkyPaint%20Tutorial.md)
 
 ## Content
 
@@ -32,7 +32,7 @@ In CryENGINE three square textures are used to define the cube sides. One for th
 
 The following images show the required layout of the sky textures:
 
-[Image: /docs/static/attachments/23999861]
+![Image](https://www.cryengine.com/docs/static/attachments/23999861)
 
 *
 skybox_
@@ -43,7 +43,7 @@ skybox_
 *
  (front and right faces)
 
-[Image: /docs/static/attachments/23999863]
+![Image](https://www.cryengine.com/docs/static/attachments/23999863)
 
 *
 skybox_
@@ -54,7 +54,7 @@ skybox_
 *
  (back and left faces)
 
-[Image: /docs/static/attachments/23999864]
+![Image](https://www.cryengine.com/docs/static/attachments/23999864)
 
 *
 skybox_
@@ -65,7 +65,7 @@ skybox_
 *
  (the top face)
 
-[Image: /docs/static/attachments/23999862]
+![Image](https://www.cryengine.com/docs/static/attachments/23999862)
 
 *
 Resulting hemisphere layout (looking upward into the sky)
@@ -73,7 +73,7 @@ Resulting hemisphere layout (looking upward into the sky)
 
 Final result should look like this (without the letters):
 
-[Image: /docs/static/attachments/23999865]
+![Image](https://www.cryengine.com/docs/static/attachments/23999865)
 
 ##
 Using a Static Skybox

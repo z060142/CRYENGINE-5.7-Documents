@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933212]
+![Image](https://www.cryengine.com/docs/static/attachments/29933212)
 
 ##
 Overview
@@ -18,23 +18,13 @@ Sections
 In CRYENGINE Flow Graph nodes exist which make it possible to regenerate the MNM (Multi-Layer Navigation) mesh at run-time in the Launcher.
 
 This feature was used in
-[http://www.rysegame.com/](
-Ryse
-)
+[Ryse](http://www.rysegame.com/)
 , in situations for example, where an object would be destroyed and create or block an area where AI could/couldn't navigate. This meant the navmesh needed to be updated for the AI to understand their new surroundings.
 
-[#sections](
-Sections
-)
-[#entity-getbounds-node](
-Entity GetBounds Node
-)
-[#ai-regeneratemnm-node](
-AI RegenerateMNM Node
-)
-[#example-setup](
-Example Setup
-)
+[Sections](#sections)
+[Entity GetBounds Node](#entity-getbounds-node)
+[AI RegenerateMNM Node](#ai-regeneratemnm-node)
+[Example Setup](#example-setup)
 
 ##
 Entity GetBounds Node

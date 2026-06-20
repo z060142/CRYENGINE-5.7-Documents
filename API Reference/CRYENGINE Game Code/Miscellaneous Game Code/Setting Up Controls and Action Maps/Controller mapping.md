@@ -455,7 +455,5 @@ Select (hold)
 Reconfiguring controls
 
 It's possible to reconfigure the controls by following instructions in
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306384](
-Setting Up Controls and Action Maps
-)
+[Setting Up Controls and Action Maps](../Setting%20Up%20Controls%20and%20Action%20Maps.md)
 .

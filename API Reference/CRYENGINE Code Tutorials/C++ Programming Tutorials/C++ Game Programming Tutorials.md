@@ -7,17 +7,13 @@
 
 ## Child Pages
 
-- [Custom C++ Entity Game Sample](C++ Game Programming Tutorials/Custom C++ Entity Game Sample.md)
-- [UI Event System](C++ Game Programming Tutorials/UI Event System.md)
+- [Custom C++ Entity Game Sample](C%2B%2B%20Game%20Programming%20Tutorials/Custom%20C%2B%2B%20Entity%20Game%20Sample.md)
+- [UI Event System](C%2B%2B%20Game%20Programming%20Tutorials/UI%20Event%20System.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25530072](
-Custom C++ Entity Game Sample
-)
+[Custom C++ Entity Game Sample](C%2B%2B%20Game%20Programming%20Tutorials/Custom%20C%2B%2B%20Entity%20Game%20Sample.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306539](
-UI Event System
-)
+[UI Event System](C%2B%2B%20Game%20Programming%20Tutorials/UI%20Event%20System.md)

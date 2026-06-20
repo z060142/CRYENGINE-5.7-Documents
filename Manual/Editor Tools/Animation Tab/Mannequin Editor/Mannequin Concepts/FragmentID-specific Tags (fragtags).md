@@ -18,17 +18,11 @@ FragmentID-specific tags
 fragtags
 *
 ) are
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-tags
-)
+[tags](Mannequin%20Tags%20%26%20Tag%20Definitions.md)
  that you can only assign to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-fragments
-)
+[fragments](Mannequin%20Fragments.md)
  with a specific
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-fragmentID
-)
+[fragmentID](../Mannequin%20Files/FragmentID%20Definition%20File%20(xxxActions.xml).md)
 .
 
 They exist because many tags don't have to be available to all fragments. For example you might have a FragmentID "hit" grouping together all fragments containing hit reaction animations. The actual
@@ -44,19 +38,13 @@ Another reason to keep your list of global tags small is performance. Even thoug
 Creating & Editing Fragtags
 
 You create a list of fragtags by creating a new
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-tag definition
-)
+[tag definition](Mannequin%20Tags%20%26%20Tag%20Definitions.md)
  in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308456](
-Mannequin Tag Definition Editor
-)
+[Mannequin Tag Definition Editor](../Mannequin%20Tag%20Definition%20Editor.md)
 .
 
 Then you assign this new tag definition to a FragmentID (or FragmentIDs) in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308446](
-Mannequin FragmentID Editor
-)
+[Mannequin FragmentID Editor](../Mannequin%20FragmentID%20Editor.md)
 .
 
 Each fragmentID can have only
@@ -64,20 +52,14 @@ Each fragmentID can have only
 one
 *
  tag definition containing its fragtags, but for more complicated cases you can include (import) other tag definition files hierarchically from this one main tag definition. See the file format section of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-Tag Definition File (xxxTags.xml)
-)
+[Tag Definition File (xxxTags.xml)](../Mannequin%20Files/Tag%20Definition%20File%20(xxxTags.xml).md)
  article.
 
 ##
 Storage
 
 Fragtags are stored in separate
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-tag definition files
-)
+[tag definition files](../Mannequin%20Files/Tag%20Definition%20File%20(xxxTags.xml).md)
 . They are linked to from the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-fragmentID definition file
-)
+[fragmentID definition file](../Mannequin%20Files/FragmentID%20Definition%20File%20(xxxActions.xml).md)
  as sub-tag-definitions.

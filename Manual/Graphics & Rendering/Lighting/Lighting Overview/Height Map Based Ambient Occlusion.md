@@ -7,16 +7,16 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933285]
+![Image](https://www.cryengine.com/docs/static/attachments/29933285)
 
 ##
 Overview
 
 CRYENGINE provides an extremely efficient, yet highly approximate large scale ambient occlusion solution for outdoor environments. In combination with Screen Space Directional Occlusion (SSDO) and Height Map Ambient Occlusion (Height Map AO), additional shading cues are provided to the eye that yield enhanced depth perception of a scene.
 
-[Image: /docs/static/attachments/21868167]
+![Image](https://www.cryengine.com/docs/static/attachments/21868167)
 
-[Image: /docs/static/attachments/21868168]
+![Image](https://www.cryengine.com/docs/static/attachments/21868168)
 
 *
 Click the images for an On/Off comparison
@@ -31,7 +31,7 @@ Level Settings → Settings
 **
 tab as shown in the image below.
 
-[Image: /docs/static/attachments/52593436]
+![Image](https://www.cryengine.com/docs/static/attachments/52593436)
 
 When active, occlusion is evaluated based on a height map representation of the scene. By default, the evaluation is performed at quarter display resolution, though the CVar
 **
@@ -40,13 +40,9 @@ r_HeightMapAO
  allows evaluation at half or even full resolution as well.
 
 The influence of Height Map AO can be restricted via
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869891](
-Clip Volumes
-)
+[Clip Volumes](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Clip%20Volume.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Areas
-)
+[Vis Areas](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Vis%20Area.md)
 : Both object types provide a
 **
 IgnoreHeightMap AO
@@ -79,9 +75,5 @@ r_HeightMapAORange
 r_HeightMapAOResolution
 **
 : Texture resolution of the height map used for approximating the scene
-[#usage](
-Usage
-)
-[#related-cvars](
-Related CVars
-)
+[Usage](#usage)
+[Related CVars](#related-cvars)

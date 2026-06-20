@@ -52,9 +52,9 @@ After copying the plugin to the directory, you simply need to restart xNormal.
 
 To have xNormal save files as CryTIFF files, simply select CryTIFF as file type in xNormals file save dialog:
 
-[Image: /docs/static/attachments/44963514]
+![Image](https://www.cryengine.com/docs/static/attachments/44963514)
 
-[Image: /docs/static/attachments/44963513]
+![Image](https://www.cryengine.com/docs/static/attachments/44963513)
 
 Then type in your filename as you usually do (without any suffixes). Save the file in a location of the game folder (same as with all assets) so you can use it in Sandbox.
 
@@ -84,9 +84,5 @@ OFF
 
 All other map types such as cavity, ray miss and so on, are saved as 8-bit RGB CryTIFF files with Diffuse_HighQ preset.
 
-[#installation](
-Installation
-)
-[#usage](
-Usage
-)
+[Installation](#installation)
+[Usage](#usage)

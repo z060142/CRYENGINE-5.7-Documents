@@ -7,15 +7,9 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793816](
-[Image: /docs/static/attachments/44971037]
-6 - Spawning AI Waves
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971037) 6 - Spawning AI Waves](/docs/static/engines/cryengine-5/categories/23756816/pages/29793816)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450274](
-[Image: /docs/static/attachments/44971038]
-8 - Writing to XML
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971038) 8 - Writing to XML](/docs/static/engines/cryengine-5/categories/23756816/pages/29450274)
 
 ##
 When and what do I track?
@@ -24,6 +18,8 @@ In this section we will be using the base AI that ships with the GameSDK package
 
 This lesson will also take into account the Class of the Entity and show how you can differentiate between death to drive or separate the logic of factions and the way you reward the player. You can keep track of this through the Weapon info and passing the information of the target to the to a check that looks to see if the human class is being affected. If it does than you increment the GameToken variable only when it sees the Human and in this case not the Boid.
 
+[Embed: https://vimeo.com/271654206]
+
 ##
 How To Count Kills
 
@@ -31,9 +27,7 @@ You need to follow these below mentioned steps to keep track of enemy kills:
 
 -
 This lesson requires the previous chapter of
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793816](
-6 - Spawning AI Waves
-)
+[6 - Spawning AI Waves](6%20-%20Spawning%20AI%20Waves.md)
  to have been completed to carry on.
 
 -
@@ -181,49 +175,43 @@ Message
 ##
 Step 2
 
-[Image: /docs/static/attachments/29929359]
+![Image](https://www.cryengine.com/docs/static/attachments/29929359)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/29929360]
+![Image](https://www.cryengine.com/docs/static/attachments/29929360)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/29929361]
+![Image](https://www.cryengine.com/docs/static/attachments/29929361)
 
 ##
 Step 5
 
-[Image: /docs/static/attachments/29929362]
+![Image](https://www.cryengine.com/docs/static/attachments/29929362)
 
 ##
 Step 6
 
-[Image: /docs/static/attachments/29929363]
+![Image](https://www.cryengine.com/docs/static/attachments/29929363)
 
 ##
 Step 7
 
-[Image: /docs/static/attachments/29929364]
+![Image](https://www.cryengine.com/docs/static/attachments/29929364)
 
 ##
 Full Graph
 
-[Image: /docs/static/attachments/29929365]
+![Image](https://www.cryengine.com/docs/static/attachments/29929365)
 
 ##
 Final Result
 
-[Image: /docs/static/attachments/29929358]
+![Image](https://www.cryengine.com/docs/static/attachments/29929358)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793816](
-[Image: /docs/static/attachments/44971037]
-6 - Spawning AI Waves
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971037) 6 - Spawning AI Waves](/docs/static/engines/cryengine-5/categories/23756816/pages/29793816)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450274](
-[Image: /docs/static/attachments/44971038]
-8 - Writing to XML
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971038) 8 - Writing to XML](/docs/static/engines/cryengine-5/categories/23756816/pages/29450274)

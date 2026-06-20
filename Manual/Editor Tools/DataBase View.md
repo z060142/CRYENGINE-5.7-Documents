@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Entity Library](DataBase View/Entity Library.md)
-- [Particles Tab (Legacy Particle Editor)](DataBase View/Particles Tab (Legacy Particle Editor).md)
-- [Game Tokens](DataBase View/Game Tokens.md)
+- [Entity Library](DataBase%20View/Entity%20Library.md)
+- [Particles Tab (Legacy Particle Editor)](DataBase%20View/Particles%20Tab%20(Legacy%20Particle%20Editor).md)
+- [Game Tokens](DataBase%20View/Game%20Tokens.md)
 
 ## Content
 
@@ -29,20 +29,14 @@ Tools → DataBase View
 .
 
 For more information about the DataBase View tabs and their functions, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869335](
-Entity Library
-)
+[Entity Library](DataBase%20View/Entity%20Library.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868751](
-Particle Editor Legacy
-)
+[Particle Editor Legacy](DataBase%20View/Particles%20Tab%20(Legacy%20Particle%20Editor).md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869337](
-Game Tokens
-)
+[Game Tokens](DataBase%20View/Game%20Tokens.md)
  sections.
 
-[Image: /docs/static/attachments/36848708]
+![Image](https://www.cryengine.com/docs/static/attachments/36848708)
 
 ##
 Benefits of Using Libraries
@@ -182,7 +176,7 @@ Additionally, some libraries have a
 Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44966586]
+![Image](https://www.cryengine.com/docs/static/attachments/44966586)
  icon on the top-right corner of the panel. When clicked, it reveals the
 
 **
@@ -204,7 +198,7 @@ The toolbar can be divided into two groups: buttons for library control and butt
 ##
 Library Control
 
-[Image: /docs/static/attachments/44966589]
+![Image](https://www.cryengine.com/docs/static/attachments/44966589)
 
 Button
 
@@ -270,7 +264,7 @@ Reloads the active library. All changes that has been made since the last save w
 ##
 Item Control
 
-[Image: /docs/static/attachments/44966588]
+![Image](https://www.cryengine.com/docs/static/attachments/44966588)
 
 Button
 
@@ -438,7 +432,7 @@ Note how the structure of the available entities is similar to the list availabl
 
 In this example we are adding a new AI (human class) to the database:
 
-[Image: /docs/static/attachments/36848715]
+![Image](https://www.cryengine.com/docs/static/attachments/36848715)
 
 Then once the class is selected, the next window that appears is the
 **
@@ -450,7 +444,7 @@ Name
 **
  options. This is where the structure of how the info is displayed back to yourself can be organized.
 
-[Image: /docs/static/attachments/44966591]
+![Image](https://www.cryengine.com/docs/static/attachments/44966591)
 
 Define a
 **
@@ -495,19 +489,9 @@ ame
  to define what this item is going to be called.
 
 DataBase View is no longer used to create and store prefabs. For more information, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866251](
-Prefabs
-)
+[Prefabs](../Entities%20and%20Tools/Entities%20Overview/Prefabs.md)
 documentation.
-[#benefits-of-using-libraries](
-Benefits of Using Libraries
-)
-[#menu](
-Menu
-)
-[#toolbar](
-Toolbar
-)
-[#adding-items-to-a-database](
-Adding Items to a Database
-)
+[Benefits of Using Libraries](#benefits-of-using-libraries)
+[Menu](#menu)
+[Toolbar](#toolbar)
+[Adding Items to a Database](#adding-items-to-a-database)

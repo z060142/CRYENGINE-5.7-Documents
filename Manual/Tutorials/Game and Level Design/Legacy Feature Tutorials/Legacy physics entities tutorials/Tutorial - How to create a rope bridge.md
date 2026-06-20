@@ -8,3 +8,5 @@
 ## Content
 
 This tutorial utilizes legacy RigidBodyEx entities and ropes to create a physically accurate rope bridge using the GameSDK sample project. However, this same technique could be applied without GameSDK using Mesh and Rigidbody components with ropes to accomplish the same thing.
+
+[Embed: http://youtube.com/watch?v=o1Sg5I68kOM]

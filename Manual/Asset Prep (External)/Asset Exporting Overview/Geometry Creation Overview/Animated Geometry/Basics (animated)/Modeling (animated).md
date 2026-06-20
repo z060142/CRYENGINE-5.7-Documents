@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934058]
+![Image](https://www.cryengine.com/docs/static/attachments/29934058)
 
 ##
 Overview
@@ -19,15 +19,9 @@ This document is a general overview of the topics that need to be taken care of 
 
 A character is a combination of geometry data that is attached to a skeletal hierarchy. Examples include a human body, a shark, an alien, a horse, or a rope. The information below is mainly for humans, but can often be implemented in other types as well.
 
-[#sections](
-Sections
-)
-[#bodies](
-Bodies
-)
-[#heads](
-Heads
-)
+[Sections](#sections)
+[Bodies](#bodies)
+[Heads](#heads)
 
 ##
 Bodies
@@ -64,11 +58,11 @@ It is good to choose angles that are the average of the most used poses. A joint
 
 -
 It is also important that the pose looks natural and comfortable. This is just a rule of thumb rule and can't be nailed down as it always differs with the requirements of the character.
-[Image: /docs/static/attachments/23994164]
+![Image](https://www.cryengine.com/docs/static/attachments/23994164)
 
 -
 Add enough polygons to the joints to ensure a soft deformation.
-[Image: /docs/static/attachments/23994165]
+![Image](https://www.cryengine.com/docs/static/attachments/23994165)
 
 ##
 General Modeling Workflow Tips
@@ -90,7 +84,7 @@ After the high-poly model is done, it is good to start using the mid-poly model 
 
 -
 Shapes are very important: Modeling details, which do not define the shape of the overall silhouette, are most likely a waste of time. Normal maps will be more efficient in 90% of the cases. Use the polygons for keeping the model's shape interesting and detailed.
-[Image: /docs/static/attachments/23994166]
+![Image](https://www.cryengine.com/docs/static/attachments/23994166)
 
 ##
 Setup in Sandbox
@@ -98,9 +92,7 @@ Setup in Sandbox
 Human character bodies should be loaded in the Character Tool and fitted with various attachments (bags, head, helmets).
 
 Please read more about it in the description of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961853](
-Character Tool
-)
+[Character Tool](../../../../../Editor%20Tools/Animation%20Tab/Character%20Tool.md)
 .
 
 ##
@@ -129,7 +121,7 @@ All morph targets need to have their pivot point at the same relative position.
 Note
 **
 : If all the morphs behave correctly after Reset XForm has been applied, they will also behave correctly in the game.
-[Image: /docs/static/attachments/23994167]
+![Image](https://www.cryengine.com/docs/static/attachments/23994167)
 
 *
 Head's pivot position at 0/0/0
@@ -140,11 +132,11 @@ General Modeling Workflow Tips
 
 -
 Use good edge-loops for better facial animation results (refer to the image below):
-[Image: /docs/static/attachments/23994168]
+![Image](https://www.cryengine.com/docs/static/attachments/23994168)
 
 -
 Do not model spiky lips. Use edgeloops to construct nice lips to make sure that the deformation looks good, even when the mouth is wide open.
-[Image: /docs/static/attachments/23994169]
+![Image](https://www.cryengine.com/docs/static/attachments/23994169)
 
 -
 Make sure that the lip volumes inside the mouth are also right. This is vital for good and realistic deformation.
@@ -160,7 +152,7 @@ The Eye-Overlay technique is based on an overlay polygonal layer, with an alpha-
 
 -
 The Eye-Overlay geometry is usually the same as the eye leashes, to save draw calls.
-[Image: /docs/static/attachments/23994163]
+![Image](https://www.cryengine.com/docs/static/attachments/23994163)
 
 For further information on using the PolyBump Application, refer to the
 ,

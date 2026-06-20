@@ -7,17 +7,15 @@
 
 ## Child Pages
 
-- [Important CRYENGINE V Data and Code Changes](CRYENGINE 5.0/Important CRYENGINE V Data and Code Changes.md)
-- [Third-party SDKs in 5.0](CRYENGINE 5.0/Third-party SDKs in 5.0.md)
-- [Upgrading to CRYENGINE V - Code Formatting](CRYENGINE 5.0/Upgrading to CRYENGINE V - Code Formatting.md)
+- [Important CRYENGINE V Data and Code Changes](CRYENGINE%205.0/Important%20CRYENGINE%20V%20Data%20and%20Code%20Changes.md)
+- [Third-party SDKs in 5.0](CRYENGINE%205.0/Third-party%20SDKs%20in%205.0.md)
+- [Upgrading to CRYENGINE V - Code Formatting](CRYENGINE%205.0/Upgrading%20to%20CRYENGINE%20V%20-%20Code%20Formatting.md)
 
 ## Content
 
-[Image: /docs/static/attachments/44969321]
+![Image](https://www.cryengine.com/docs/static/attachments/44969321)
 
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/44969324]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44969324)](https://www.cryengine.com/support)
 
 ##
 Overview of CRYENGINE 5.0
@@ -28,57 +26,23 @@ We have been focusing heavily on Editor workflow, and with this first version we
 ##
 Sections
 
-[#overview-of-cryengine-50](
-Overview of CRYENGINE 5.0
-)
-[#sections](
-Sections
-)
-[#release-highlights](
-Release Highlights
-)
-[#editor](
-Editor
-)
-[#new-tools](
-New Tools
-)
-[#deprecated-tools](
-Deprecated Tools
-)
-[#customization](
-Customization
-)
-[#renderer](
-Renderer
-)
-[#engine](
-Engine
-)
-[#3d-engine](
-3D Engine
-)
-[#particles](
-Particles
-)
-[#rctools](
-RC/Tools
-)
-[#animation](
-Animation
-)
-[#action](
-Action
-)
-[#audio](
-Audio
-)
-[#ai-system](
-AI System
-)
-[#game](
-Game
-)
+[Overview of CRYENGINE 5.0](#overview-of-cryengine-50)
+[Sections](#sections)
+[Release Highlights](#release-highlights)
+[Editor](#editor)
+[New Tools](#new-tools)
+[Deprecated Tools](#deprecated-tools)
+[Customization](#customization)
+[Renderer](#renderer)
+[Engine](#engine)
+[3D Engine](#3d-engine)
+[Particles](#particles)
+[RC/Tools](#rctools)
+[Animation](#animation)
+[Action](#action)
+[Audio](#audio)
+[AI System](#ai-system)
+[Game](#game)
 
 ##
 Release Highlights
@@ -129,9 +93,7 @@ Tight implementation of yet another professional Audio middleware that allows fo
 Improved Profiling:
 **
 Profile your code with the power of advanced external profilers such as
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24283922](
-Brofiler
-)
+[Brofiler](../../../API%20Reference/CRYENGINE%20Tools/Brofiler.md)
  (shipped with CRYENGINE), PIX, GPA and/or VTunes.
 
 **
@@ -544,16 +506,12 @@ Edit -> Undo History
 
 -
 Console Commands: a list of all the existing commands with detailed documentation (
-[/docs](
-docs page
-)
+[docs page](/docs)
 ).
 
 -
 Console Variables: a list of all the existing console variables with detailed documentation (
-[/docs](
-docs page
-)
+[docs page](/docs)
 ).
 
 -
@@ -588,9 +546,7 @@ Customization
 
 -
 Keyboard shortcuts can be customized using the new customization window in "Edit" menu. (
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44965609](
-docs page
-)
+[docs page](../../../Manual/CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Keyboard%20Shortcuts.md)
 )
 
 -
@@ -1425,9 +1381,7 @@ Threading:
 New:
 **
 Introduction of new data driven thread manager. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306432](
-Threading
-)
+[Threading](../../../API%20Reference/CRYENGINE%20Engine%20Code/Engine%20Modules/CrySystem/Threading.md)
  docs for more information.
 **
 

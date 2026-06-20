@@ -248,9 +248,7 @@ CryDesigner
 New
 **
 : Implemented the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/17829070](
-Smoothing Group
-)
+[Smoothing Group](/docs/static/engines/cryengine-3/categories/1114113/pages/17829070)
  tool.
 
 -
@@ -258,9 +256,7 @@ Smoothing Group
 New
 **
 : Implemented the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/17829615](
-RemoveDoubles
-)
+[RemoveDoubles](/docs/static/engines/cryengine-3/categories/1114113/pages/17829615)
  Tool.
 
 -
@@ -268,9 +264,7 @@ RemoveDoubles
 New
 **
 : Implemented the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/17829524](
-HideFace
-)
+[HideFace](/docs/static/engines/cryengine-3/categories/1114113/pages/17829524)
  Tool.
 
 -

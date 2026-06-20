@@ -34,31 +34,15 @@ it must be ticked as well as all its parents
 .
 Chapters:
 
-[#plot-selection](
-Plot selection
-)
-[#history](
-History
-)
-[#item-info](
-Item Info
-)
-[#screenshots](
-Screenshots
-)
-[#buckets](
-Buckets
-)
-[#target-lines](
-Target Lines
-)
-[#user-markers](
-User Markers
-)
-[#profiles](
-Profiles
-)
-[Image: /docs/static/attachments/23461444]
+[Plot selection](#plot-selection)
+[History](#history)
+[Item Info](#item-info)
+[Screenshots](#screenshots)
+[Buckets](#buckets)
+[Target Lines](#target-lines)
+[User Markers](#user-markers)
+[Profiles](#profiles)
+![Image](https://www.cryengine.com/docs/static/attachments/23461444)
 
 There are shortcuts for selecting items:
 
@@ -80,8 +64,8 @@ e_StatoscopeDataGroups S+
 
 Note the Collapsed group (grey background on the text) into one colour (Rocks).
 
-[Image: /docs/static/attachments/23461435]
-[Image: /docs/static/attachments/23461434]
+![Image](https://www.cryengine.com/docs/static/attachments/23461435)
+![Image](https://www.cryengine.com/docs/static/attachments/23461434)
 
 ##
 History
@@ -124,9 +108,9 @@ Function Profile
 *
  item info:
 
-[Image: /docs/static/attachments/23461442]
+![Image](https://www.cryengine.com/docs/static/attachments/23461442)
 
-[Image: /docs/static/attachments/23461443]
+![Image](https://www.cryengine.com/docs/static/attachments/23461443)
 
 The line/bar color can be changed by clicking on the color button to get a color picker, or the
 **
@@ -183,7 +167,7 @@ Screenshots
 
 Screenshots are useful for seeing what happened while the log was being recorded. They are only captured at 1/8 resolution to keep log size down.
 
-[Image: /docs/static/attachments/23461440]
+![Image](https://www.cryengine.com/docs/static/attachments/23461440)
 
 To enable them, set:
 **
@@ -206,7 +190,7 @@ The
 *
  referred to in some columns treats frames whose length is longer than 200ms (5fps) as if it was 200ms. This is useful to stop very long frames from skewing the stats too much.
 
-[Image: /docs/static/attachments/23461441]
+![Image](https://www.cryengine.com/docs/static/attachments/23461441)
 
 ##
 Target Lines
@@ -215,13 +199,13 @@ Target lines are used as a reference for set targets. They are found as a tab in
 
 Below you can see the target lines being used as a reference while displaying data.
 
-[Image: /docs/static/attachments/23461439]
+![Image](https://www.cryengine.com/docs/static/attachments/23461439)
 
 By default, we have included a selection of target lines already.
 
 FPS will show lines at 60, 30, 25, 20, 15, 10 and 5 FPS, (or rather the equivalent ms values), memory at 211 and 240 Mb (PS3 high levels for main and RSX), and so on.
 
-[Image: /docs/static/attachments/23461437]
+![Image](https://www.cryengine.com/docs/static/attachments/23461437)
 
 You also have the ability to add your own target lines to fine tune the view to your preference.
 
@@ -258,7 +242,7 @@ Colour
 Label
 **
 : Decide if you want to display the Target Line name to the left or right of the data.
-[Image: /docs/static/attachments/23461436]
+![Image](https://www.cryengine.com/docs/static/attachments/23461436)
 
 ##
 User Markers

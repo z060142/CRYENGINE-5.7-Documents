@@ -14,17 +14,13 @@ This section will now continue on with the CRYENGINE portion of getting your ass
 
 This tutorial may rely on the GameSDK Sample Project. We recommend that you download this from the
 **
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
 **
 , import it into your Launcher, start it from there and then create a new level.
 
 See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870288](
-this page
-)
+[this page](/docs/static/engines/cryengine-5/categories/23756816/pages/36870288)
 **
  to find out how to import a project to your Launcher. (The default folder for the GameSDK Sample Project when downloaded is
 `
@@ -52,27 +48,27 @@ Tools -> Animation -> Character Tool
 -
 The screenshot below shows the left pane split into two vertical layouts, this is activated using the icon highlighted by the red arrow and provides two viewing filters. You might want to set the lower pane to the filter "Animation" in the course of this tutorial.
 
-[Image: /docs/static/attachments/24156142]
+![Image](https://www.cryengine.com/docs/static/attachments/24156142)
 
 -
 Create a new *.CDF file and give the CRYENGINE character a nice appropriate name:
 
-[Image: /docs/static/attachments/24156126]
+![Image](https://www.cryengine.com/docs/static/attachments/24156126)
 
 -
 Assign your exported skeleton *.CHR file in the skeleton section. The yellow warning boxes will help you fix what is missing to get a correct CRYENGINE character.
 
-[Image: /docs/static/attachments/24156131]
+![Image](https://www.cryengine.com/docs/static/attachments/24156131)
 
 -
 Add a skin attachment to the skeleton *.CHR file.
 
-[Image: /docs/static/attachments/24156134]
+![Image](https://www.cryengine.com/docs/static/attachments/24156134)
 
 -
 By default the Character Tool will add a "Joint Attachment", change this to a "Skin Attachment" and browse for the *.CHR file you have exported earlier.
 
-[Image: /docs/static/attachments/24156135]
+![Image](https://www.cryengine.com/docs/static/attachments/24156135)
 
 ##
 Assigning the Material
@@ -81,7 +77,7 @@ Assigning the Material
 This will be the current configuration of the character. Now assign the material you have exported. We will fix the black shaded material for the head in the last step. This is because we assigned it a dx11Shader in Maya, which CRYENGINE doesn't support.
 
 Activate the "Software Skinning" option for the blendshapes to work!
-[Image: /docs/static/attachments/24156136]
+![Image](https://www.cryengine.com/docs/static/attachments/24156136)
 
 ##
 Assigning the Animations
@@ -89,27 +85,27 @@ Assigning the Animations
 -
 The Character Tool is missing the location of the animations (and more). A *.CHRPARAMS file will handle this. To create a new *.CHRPARAMS for this character, click on the Skeleton field - this is the area marked in red (screenshot above) and that is loaded with the *.CHR.
 
-[Image: /docs/static/attachments/24156137]
+![Image](https://www.cryengine.com/docs/static/attachments/24156137)
 
 -
 Add an "Animation Set Filter" and point to the directory of your exported "default.i_caf" animation file! The *.I_CAF file is an intermediate format before compression. If you wish, you can add a new "Animation Events" after this step to get rid of the yellow warning box - just select the animation folder of the *.I_CAF.
 
-[Image: /docs/static/attachments/24156138]
+![Image](https://www.cryengine.com/docs/static/attachments/24156138)
 
 -
 Browse the directory containing the *.I_CAF file(s):
 
-[Image: /docs/static/attachments/24156139]
+![Image](https://www.cryengine.com/docs/static/attachments/24156139)
 
 -
 On the left you will find the associated animations with the skeleton *.CHR.
 
-[Image: /docs/static/attachments/24156140]
+![Image](https://www.cryengine.com/docs/static/attachments/24156140)
 
 -
 Select the "default" animation from the left pane. You now need to add a new *.ANIMSETTINGS file and save it:
 
-[Image: /docs/static/attachments/24156143]
+![Image](https://www.cryengine.com/docs/static/attachments/24156143)
 
 -
 In order for the the Character Tool to update your blendshape animation go to the left pane - switch by double-clicking LMB on any existing *.CDF and then go back to this tutorial's *.CDF that you created. (You might need to exit and restart the Sandbox Editor and then go back to the Character Tool).
@@ -117,7 +113,7 @@ In order for the the Character Tool to update your blendshape animation go to th
 -
 Browse the left pane for the saved character (sdk_blendshape_tutorial.cdf ). Select and double-click "default" animation from the bottom left (or press spacebar). You should see both the skeletal animation of the head/neck joint AND the blendshape animation playing as well:
 
-[Image: /docs/static/attachments/24156144]
+![Image](https://www.cryengine.com/docs/static/attachments/24156144)
 
 **
 Tip:
@@ -127,7 +123,7 @@ Tip:
 -
 You may also want to correct the "sdk_player_head" material. Open the Material Editor from the Sandbox Editor and edit the material to something more useful:
 
-[Image: /docs/static/attachments/24156141]
+![Image](https://www.cryengine.com/docs/static/attachments/24156141)
 
 The Character Tool window will update the changes made.
 
@@ -228,9 +224,7 @@ default.animsettings
 
 As a follow-up to this blendshape tutorial we will continue with a wrinkle map setup which will add more detail:
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959598](
-Tutorial - Wrinkle Map Setup
-)
+[Tutorial - Wrinkle Map Setup](../../../Digital%20Content%20Creation/Tutorial%20-%20Wrinkle%20Map%20Setup.md)
 **
 .
 
@@ -328,23 +322,11 @@ ca_vaUpdateTangents
 ca_debugSWSkinning
 **
  3 (to display the triangles that get updated)
-[Image: /docs/static/attachments/44959519]
+![Image](https://www.cryengine.com/docs/static/attachments/44959519)
 
-[#creating-the-character](
-Creating the Character
-)
-[#assigning-the-material](
-Assigning the Material
-)
-[#assigning-the-animations](
-Assigning the Animations
-)
-[#summary](
-Summary
-)
-[#engine-cvars](
-Engine CVars
-)
-[#tangent-updates](
-Tangent Updates
-)
+[Creating the Character](#creating-the-character)
+[Assigning the Material](#assigning-the-material)
+[Assigning the Animations](#assigning-the-animations)
+[Summary](#summary)
+[Engine CVars](#engine-cvars)
+[Tangent Updates](#tangent-updates)

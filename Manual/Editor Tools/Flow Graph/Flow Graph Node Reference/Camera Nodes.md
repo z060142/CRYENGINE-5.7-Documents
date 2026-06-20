@@ -12,14 +12,14 @@ GetTransform
 
 Returns the transform for the player camera.
 
-[Image: /docs/static/attachments/28901206]
+![Image](https://www.cryengine.com/docs/static/attachments/28901206)
 
 ##
 View
 
 Creates a custom view linked to an entity.
 
-[Image: /docs/static/attachments/28901209]
+![Image](https://www.cryengine.com/docs/static/attachments/28901209)
 
 Input Port
 
@@ -99,7 +99,7 @@ ViewShakeEx
 
 This node will enable a camera shake on the players view. You can specify the fade in & out durations and also stop the effect via an input.
 
-[Image: /docs/static/attachments/28901210]
+![Image](https://www.cryengine.com/docs/static/attachments/28901210)
 
 Input
 
@@ -265,15 +265,7 @@ OverrideFOV
 -
 ScreenToWorld
 
-[#gettransform](
-GetTransform
-)
-[#view](
-View
-)
-[#viewshakeex](
-ViewShakeEx
-)
-[#deprecated-nodes](
-Deprecated Nodes
-)
+[GetTransform](#gettransform)
+[View](#view)
+[ViewShakeEx](#viewshakeex)
+[Deprecated Nodes](#deprecated-nodes)

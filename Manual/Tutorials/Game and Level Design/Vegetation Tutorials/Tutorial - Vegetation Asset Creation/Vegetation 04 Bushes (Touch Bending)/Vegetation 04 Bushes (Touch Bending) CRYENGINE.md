@@ -50,7 +50,7 @@ DCC Tools has no concept of a surface type or shader type for example, so we can
 
 The rest is completed here in the CRYENGINE's Material Editor.
 
-[Image: /docs/static/attachments/26510092]
+![Image](https://www.cryengine.com/docs/static/attachments/26510092)
 
 *
 Pic1: Initial Material Editor view
@@ -83,7 +83,7 @@ Vegetation
 **
 . Select both from the drop down lists.
 
-[Image: /docs/static/attachments/26510093]
+![Image](https://www.cryengine.com/docs/static/attachments/26510093)
 
 *
 Pic2: Material settings
@@ -102,13 +102,13 @@ AlphaTest
 **
  set to 50.
 
-[Image: /docs/static/attachments/26510094]
+![Image](https://www.cryengine.com/docs/static/attachments/26510094)
 
 *
 Pic3: Opacity
 *
 
-[Image: /docs/static/attachments/26510095]
+![Image](https://www.cryengine.com/docs/static/attachments/26510095)
 
 *
 Pic4: Re-cap of where this info came from in 3dsMax
@@ -143,7 +143,7 @@ Set the
 Smoothness
 **
  slider to 255 max. Since we are controlling this value through the normalmaps alpha channel (ddna).
-[Image: /docs/static/attachments/26510096]
+![Image](https://www.cryengine.com/docs/static/attachments/26510096)
 
 *
 Pic5: Lighting Settings
@@ -162,7 +162,7 @@ Normalmap
 **
  (*.ddna).
 
-[Image: /docs/static/attachments/26510097]
+![Image](https://www.cryengine.com/docs/static/attachments/26510097)
 
 *
 Pic6: Texture maps
@@ -188,7 +188,7 @@ Leaves
 **
  parameter forces the material to be two-sided.
 
-[Image: /docs/static/attachments/26510098]
+![Image](https://www.cryengine.com/docs/static/attachments/26510098)
 
 *
 Pic7: Shader Generation Params
@@ -293,7 +293,7 @@ Shader Params
 Pic8.
 *
 
-[Image: /docs/static/attachments/26510099]
+![Image](https://www.cryengine.com/docs/static/attachments/26510099)
 
 *
 Pic8: Shader Params
@@ -422,7 +422,7 @@ Your_Project
 `
 objects\natural\bushes\ground_cover_fern\ground_cover_fernbush_sss.tif>
 `
-[Image: /docs/static/attachments/26510100]
+![Image](https://www.cryengine.com/docs/static/attachments/26510100)
 
 *
 Pic9: Adding the SSS map to the material
@@ -463,7 +463,7 @@ Change the surface type to
 Vegetation
 **
 .
-[Image: /docs/static/attachments/26510101]
+![Image](https://www.cryengine.com/docs/static/attachments/26510101)
 
 *
 Pic10: Material Settings
@@ -488,7 +488,7 @@ Save
 **
  icon.
 
-[Image: /docs/static/attachments/26510102]
+![Image](https://www.cryengine.com/docs/static/attachments/26510102)
 
 *
 Pic11: Saving the material changes
@@ -499,9 +499,7 @@ Vegetation Tool
 
 We will not go into an in-depth tutorial of the vegetation tool here. For more information of the usage of the Vegetation Editor, please refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865590](
-HERE
-)
+[HERE](../../../../../Editor%20Tools/Vegetation%20Editor.md)
 **
 .
 
@@ -518,7 +516,7 @@ Vegetation
 Editor.
 **
 
-[Image: /docs/static/attachments/25035997]
+![Image](https://www.cryengine.com/docs/static/attachments/25035997)
 
 *
 Pic10: Selecting the Vegetation Editor
@@ -529,7 +527,7 @@ Add a new Group
 **
 and call it something appropriate (like "bushes")
 
-[Image: /docs/static/attachments/25035998]
+![Image](https://www.cryengine.com/docs/static/attachments/25035998)
 
 *
 Pic13: Adding a Vegetation group
@@ -541,7 +539,7 @@ Add Vegetation Object
 **
 (first button) to add a vegetation object to this group.
 
-[Image: /docs/static/attachments/25035999]
+![Image](https://www.cryengine.com/docs/static/attachments/25035999)
 
 *
 Pic14: Adding a vegetation object to the group
@@ -585,13 +583,13 @@ Shift+LMB
 ##
 Jump In-Game (CTRL+G) to Test
 
-[Image: /docs/static/attachments/26510106]
+![Image](https://www.cryengine.com/docs/static/attachments/26510106)
 
 *
 Pic15: Level Woodland, with touch bending fern bush added at the start
 *
 
-[Image: /docs/static/attachments/26510107]
+![Image](https://www.cryengine.com/docs/static/attachments/26510107)
 
 *
 Pic16: As above but with the physics debug view on to see the active touch bending branches (p_draw_helpers=1)
@@ -607,9 +605,7 @@ Vegetation Parameters
 in this page
 **
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865590](
-HERE
-)
+[HERE](../../../../../Editor%20Tools/Vegetation%20Editor.md)
 **
 .
 
@@ -662,18 +658,8 @@ e_vegetation
 (Default 1) Allows to disable/enable the vegetation system completely (0/1).
  |
 
-[#material-setup-in-cryengine](
-Material Setup in CRYENGINE
-)
-[#material](
-Material
-)
-[#vegetation-tool](
-Vegetation Tool
-)
-[#jump-in-game-ctrl-g-to-test](
-Jump In-Game (CTRL+G) to Test
-)
-[#debugging-info](
-Debugging Info
-)
+[Material Setup in CRYENGINE](#material-setup-in-cryengine)
+[Material](#material)
+[Vegetation Tool](#vegetation-tool)
+[Jump In-Game (CTRL+G) to Test](#jump-in-game-ctrl-g-to-test)
+[Debugging Info](#debugging-info)

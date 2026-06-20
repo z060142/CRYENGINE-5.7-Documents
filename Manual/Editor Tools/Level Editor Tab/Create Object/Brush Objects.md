@@ -220,9 +220,9 @@ In the example below, the background glass dome panels use 50% opacity and are i
 
 By activating the Draw Last checkbox for the background dome object, the engine knows that any alpha based objects
 
-[Image: /docs/static/attachments/36849587]
+![Image](https://www.cryengine.com/docs/static/attachments/36849587)
 
-[Image: /docs/static/attachments/36849584]
+![Image](https://www.cryengine.com/docs/static/attachments/36849584)
 
 *
 Draw Last Off (left) Draw Last On (right)
@@ -245,9 +245,7 @@ Ignore Terrain Layer Blend
  |
 Controls blending with terrain layers. For more information, please refer to the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36340007](
-Terrain Layer Blending into Objects
-)
+[Terrain Layer Blending into Objects](../../../Materials/Terrain%20Layer%20Blending%20into%20Objects.md)
 
 page.
  |
@@ -258,9 +256,7 @@ Ignore Decal Blend
  |
 Controls blending with decals. For more information about Decals, please refer to the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869871](
-Decal
-)
+[Decal](Misc%20Objects/Decal%20Entity.md)
 
 page.
  |
@@ -278,12 +274,6 @@ Reloads or saves the Brush entity as a
 
  |
 
-[#search-bar](
-Search Bar
-)
-[#object-preview](
-Object Preview
-)
-[#properties](
-Properties
-)
+[Search Bar](#search-bar)
+[Object Preview](#object-preview)
+[Properties](#properties)

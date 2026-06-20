@@ -7,17 +7,13 @@
 
 ## Child Pages
 
-- [Tutorial - Game Optimization](Organization and Optimization Tutorials/Tutorial - Game Optimization.md)
-- [Tutorial - Understanding debug view modes](Organization and Optimization Tutorials/Tutorial - Understanding debug view modes.md)
+- [Tutorial - Game Optimization](Organization%20and%20Optimization%20Tutorials/Tutorial%20-%20Game%20Optimization.md)
+- [Tutorial - Understanding debug view modes](Organization%20and%20Optimization%20Tutorials/Tutorial%20-%20Understanding%20debug%20view%20modes.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656818](
-Tutorial - Game Optimization
-)
+[Tutorial - Game Optimization](Organization%20and%20Optimization%20Tutorials/Tutorial%20-%20Game%20Optimization.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56657810](
-Tutorial - Understanding debug view modes
-)
+[Tutorial - Understanding debug view modes](Organization%20and%20Optimization%20Tutorials/Tutorial%20-%20Understanding%20debug%20view%20modes.md)

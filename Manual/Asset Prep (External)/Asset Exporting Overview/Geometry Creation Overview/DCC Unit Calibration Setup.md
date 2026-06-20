@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934007]
+![Image](https://www.cryengine.com/docs/static/attachments/29934007)
 
 ##
 Overview
@@ -19,21 +19,11 @@ The reference measurements referred to in this article were originally created f
 
 1 meter = 1 Unit in CRYENGINE
 
-[#sections](
-Sections
-)
-[#3ds-max-unit-setup](
-3ds Max Unit Setup
-)
-[#maya-unit-setup](
-Maya Unit Setup
-)
-[#centimeters-or-meters](
-Centimeters or Meters
-)
-[#size-references](
-Size References
-)
+[Sections](#sections)
+[3ds Max Unit Setup](#3ds-max-unit-setup)
+[Maya Unit Setup](#maya-unit-setup)
+[Centimeters or Meters](#centimeters-or-meters)
+[Size References](#size-references)
 
 ##
 3ds Max Unit Setup
@@ -61,8 +51,8 @@ Pic1: Exporting the Designer object
 
 **
 *
-[Image: /docs/static/attachments/25497006]
-[Image: /docs/static/attachments/25497007]
+![Image](https://www.cryengine.com/docs/static/attachments/25497006)
+![Image](https://www.cryengine.com/docs/static/attachments/25497007)
 
 Import this *.obj/*.fbx into the 3ds Max scene and use it as a size reference to configure the grid and unit scale. Adjust the grid accordingly to match your 1x1x1m cube. Re-export to test that the setting are correct.
 
@@ -83,10 +73,10 @@ Customize
 Pic2: Changing units to metric system
 *
 
-[Image: /docs/static/attachments/23996554]
+![Image](https://www.cryengine.com/docs/static/attachments/23996554)
 
 **
-[Image: /docs/static/attachments/25506757]
+![Image](https://www.cryengine.com/docs/static/attachments/25506757)
 **
 
 What's important here is that you are using the
@@ -108,7 +98,7 @@ Home Grid
 Pic3: Grid and Snap Settings
 *
 
-[Image: /docs/static/attachments/23996548]
+![Image](https://www.cryengine.com/docs/static/attachments/23996548)
 
 In this example, a grid spacing of 0.5m, with a major line every 5 units and a grid extension (view distance) of 10.
 
@@ -121,7 +111,7 @@ To confirm the size of the object you created, in the utilities section, you can
 Pic4: Using the measurement tool in 3dsMax (4 x 0.25m grid spacing = 1m)
 *
 
-[Image: /docs/static/attachments/25506765]
+![Image](https://www.cryengine.com/docs/static/attachments/25506765)
 
 ##
 Maya Unit Setup
@@ -152,7 +142,7 @@ Level menu -> Export Selected Objects
 Pic5: Exporting selected Objects
 *
 
-[Image: /docs/static/attachments/25507093]
+![Image](https://www.cryengine.com/docs/static/attachments/25507093)
 
 Import the created solid to your 3D scene and use it as a reference.
 
@@ -166,7 +156,7 @@ Window -> Settings/Preferences -> Preferences
 Pic6: Preferences location in Maya
 *
 
-[Image: /docs/static/attachments/23996549]
+![Image](https://www.cryengine.com/docs/static/attachments/23996549)
 
 Then click on
 **
@@ -184,7 +174,7 @@ Meter increments can be used but must be shifted back if you wish to have a warn
 Pic7: Changing units to metric in Maya
 *
 
-[Image: /docs/static/attachments/23996550]
+![Image](https://www.cryengine.com/docs/static/attachments/23996550)
 
 ##
 Centimeters or Meters

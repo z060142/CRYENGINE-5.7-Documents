@@ -36,9 +36,7 @@ cryasset
 data files
 **
 . An asset of type Mesh, for example, might reference a data file of type cgf that stores the actual geometry. The data file types are specific to CryENGINE (click
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310732](
-here
-)
+[here](/docs/static/engines/cryengine-3/categories/1114113/pages/1310732)
  for an overview of these types). An asset created in some DCC tool needs to be converted to one of CRYENGINE's data file formats before it can be used in the engine.
 
 The job of an
@@ -265,7 +263,7 @@ CAssetImporter::Import(),
 `
  that implements the governing logic of importing assets in a two-phase process. First, it gets a list of potentially imported asset names and processes it. Then, a subset of that list is actually imported.
 
-[Image: /docs/static/attachments/26952242]
+![Image](https://www.cryengine.com/docs/static/attachments/26952242)
 
 `
 GetAssetNames
@@ -534,7 +532,5 @@ CAssetImporterImage
 ) creates texture assets from image formats like png, jpg, or bmp. It first converts an image to TIF, and then invokes the RC to create a CryTif. After this, the CryTif is converted to dds, as usual.
 
 For TIFconversion, we use a third-party application called
-[https://www.imagemagick.org/script/index.php](
-ImageMagick
-)
+[ImageMagick](https://www.imagemagick.org/script/index.php)
  (IM), which we ship with the engine (Tools/third_party/imagemagick). IM is called as a separate process, in the same way, we call the RC. IM comes with a lot of coders that support a lot of formats, but most of them make some assumptions about the environment. Therefore, we only support a known white-list of formats for texture importing that includes the most commonly used image interchange formats.

@@ -51,7 +51,7 @@ Another way is to place a "linked video" object into your Flash file, load the .
 
 To add a video object to your Flash asset, right-click on the library and choose "New Video..." from the context menu.
 
-[Image: /docs/static/attachments/23461323]
+![Image](https://www.cryengine.com/docs/static/attachments/23461323)
 
 Place the video object onto the stage and set the instance name, e.g. "MyVideo". Then add following
 **

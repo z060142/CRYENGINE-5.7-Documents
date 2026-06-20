@@ -221,217 +221,133 @@ math.pi
 Vector Functions
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-IsNullVector](
-#IsNullVector
-)
+[#IsNullVector](Math%20Lua.md#MathLua-IsNullVector)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-IsNotNullVector](
-#IsNotNullVector
-)
+[#IsNotNullVector](Math%20Lua.md#MathLua-IsNotNullVector)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-LengthSqVector](
-#LengthSqVector
-)
+[#LengthSqVector](Math%20Lua.md#MathLua-LengthSqVector)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-LengthVector](
-#LengthVector
-)
+[#LengthVector](Math%20Lua.md#MathLua-LengthVector)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-DistanceSqVectors](
-#DistanceSqVectors
-)
+[#DistanceSqVectors](Math%20Lua.md#MathLua-DistanceSqVectors)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-DistanceSqVectors2d](
-#DistanceSqVectors2d
-)
+[#DistanceSqVectors2d](Math%20Lua.md#MathLua-DistanceSqVectors2d)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-DistanceVectors](
-#DistanceVectors
-)
+[#DistanceVectors](Math%20Lua.md#MathLua-DistanceVectors)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-dotproduct3d](
-#dotproduct3d
-)
+[#dotproduct3d](Math%20Lua.md#MathLua-dotproduct3d)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-dotproduct2d](
-#dotproduct2d
-)
+[#dotproduct2d](Math%20Lua.md#MathLua-dotproduct2d)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-LogVec](
-#LogVec
-)
+[#LogVec](Math%20Lua.md#MathLua-LogVec)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-ZeroVector](
-#ZeroVector
-)
+[#ZeroVector](Math%20Lua.md#MathLua-ZeroVector)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-CopyVector](
-#CopyVector
-)
+[#CopyVector](Math%20Lua.md#MathLua-CopyVector)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-SumVectors](
-#SumVectors
-)
+[#SumVectors](Math%20Lua.md#MathLua-SumVectors)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-NegVector](
-#NegVector
-)
+[#NegVector](Math%20Lua.md#MathLua-NegVector)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-SubVectors](
-#SubVectors
-)
+[#SubVectors](Math%20Lua.md#MathLua-SubVectors)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-FastSumVectors](
-#FastSumVectors
-)
+[#FastSumVectors](Math%20Lua.md#MathLua-FastSumVectors)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-DifferenceVectors](
-#DifferenceVectors
-)
+[#DifferenceVectors](Math%20Lua.md#MathLua-DifferenceVectors)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-FastDifferenceVectors](
-#FastDifferenceVectors
-)
+[#FastDifferenceVectors](Math%20Lua.md#MathLua-FastDifferenceVectors)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-ProductVectors](
-#ProductVectors
-)
+[#ProductVectors](Math%20Lua.md#MathLua-ProductVectors)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-FastProductVectors](
-#FastProductVectors
-)
+[#FastProductVectors](Math%20Lua.md#MathLua-FastProductVectors)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-ScaleVector](
-#ScaleVector
-)
+[#ScaleVector](Math%20Lua.md#MathLua-ScaleVector)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-ScaleVectorInPlace](
-#ScaleVectorInPlace
-)
+[#ScaleVectorInPlace](Math%20Lua.md#MathLua-ScaleVectorInPlace)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-NormalizeVector](
-#NormalizeVector
-)
+[#NormalizeVector](Math%20Lua.md#MathLua-NormalizeVector)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-FastScaleVector](
-#FastScaleVector
-)
+[#FastScaleVector](Math%20Lua.md#MathLua-FastScaleVector)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-VecRotate90_Z](
-VecRotate90_Z
-)
+[VecRotate90_Z](Math%20Lua.md#MathLua-VecRotate90_Z)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-VecRotateMinus90_Z](
-VecRotateMinus90_Z
-)
+[VecRotateMinus90_Z](Math%20Lua.md#MathLua-VecRotateMinus90_Z)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-crossproduct3d](
-#crossproduct3d
-)
+[#crossproduct3d](Math%20Lua.md#MathLua-crossproduct3d)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-RotateVectorAroundR](
-#RotateVectorAroundR
-)
+[#RotateVectorAroundR](Math%20Lua.md#MathLua-RotateVectorAroundR)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-ProjectVector](
-#ProjectVector
-)
+[#ProjectVector](Math%20Lua.md#MathLua-ProjectVector)
 
 ##
 Utility Functions
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-LerpColors](
-#LerpColors
-)
+[#LerpColors](Math%20Lua.md#MathLua-LerpColors)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-Lerp](
-#Lerp
-)
+[#Lerp](Math%20Lua.md#MathLua-Lerp)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-__max](
-__max
-)
+[__max](Math%20Lua.md#MathLua-__max)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-__min](
-__min
-)
+[__min](Math%20Lua.md#MathLua-__min)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-clamp](
-#clamp
-)
+[#clamp](Math%20Lua.md#MathLua-clamp)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-Interpolate](
-#Interpolate
-)
+[#Interpolate](Math%20Lua.md#MathLua-Interpolate)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-sgn](
-#sgn
-)
+[#sgn](Math%20Lua.md#MathLua-sgn)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-sgnnz](
-#sgnnz
-)
+[#sgnnz](Math%20Lua.md#MathLua-sgnnz)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-sqr](
-#sqr
-)
+[#sqr](Math%20Lua.md#MathLua-sqr)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-randomF](
-#randomF
-)
+[#randomF](Math%20Lua.md#MathLua-randomF)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-iff](
-#iff
-)
+[#iff](Math%20Lua.md#MathLua-iff)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-DistanceLineAndPoint](
-#DistanceLineAndPoint
-)
+[#DistanceLineAndPoint](Math%20Lua.md#MathLua-DistanceLineAndPoint)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629#MathLua-random](
-#random
-)
+[#random](Math%20Lua.md#MathLua-random)
 
 ##
 IsNullVector( a )

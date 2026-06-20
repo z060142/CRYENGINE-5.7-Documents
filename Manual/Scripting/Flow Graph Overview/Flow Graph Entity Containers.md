@@ -9,7 +9,7 @@
 
 Entity Containers are a system to manage and operate on sets of entities within the FlowGraph logic.
 
-[Image: /docs/static/attachments/44971126]
+![Image](https://www.cryengine.com/docs/static/attachments/44971126)
 
 ##
 Overview
@@ -28,11 +28,9 @@ Add an entity of type Entity Container to a level
 
 -
 Set its initial contents by
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866230](
-linking entities
-)
+[linking entities](../../Editor%20Tools/Level%20Editor%20Tab/Level%20Explorer/Object%20Linking.md)
  in the Properties tab.
-[Image: /docs/static/attachments/44971127]
+![Image](https://www.cryengine.com/docs/static/attachments/44971127)
 
 ##
 Using Entity Containers
@@ -43,7 +41,7 @@ GameEntity:Containers
 **
 . A container can be identified by its Entity ID.
 
-[Image: /docs/static/attachments/35395043]
+![Image](https://www.cryengine.com/docs/static/attachments/35395043)
 
 The available nodes allow:
 
@@ -64,13 +62,7 @@ listening for events of the entities in the container.
 
 -
 applying an action to all entities of a container by iterating with a combination of "QueryContainerSize" and "QueryEntityByIndex" or with the "Actions" node by running a
-[/docs](
-Flow Graph Module
-)
+[Flow Graph Module](/docs)
  on each entity.
-[#setting-up-an-entity-container](
-Setting up an Entity Container
-)
-[#using-entity-containers](
-Using Entity Containers
-)
+[Setting up an Entity Container](#setting-up-an-entity-container)
+[Using Entity Containers](#using-entity-containers)

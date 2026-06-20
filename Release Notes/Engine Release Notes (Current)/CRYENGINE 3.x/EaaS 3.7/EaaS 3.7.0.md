@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [EaaS 3.7.0 Texture Format Changes](EaaS 3.7.0/EaaS 3.7.0 Texture Format Changes.md)
+- [EaaS 3.7.0 Texture Format Changes](EaaS%203.7.0/EaaS%203.7.0%20Texture%20Format%20Changes.md)
 
 ## Content
 
@@ -29,9 +29,7 @@ Release Highlights
 Cross-Platform Build System
 
 CRYENGINE 3.7 features a new cross-platform build system based on WAF. For detailed information see
-[/docs/static/engines/cryengine-3/categories/1638401/pages/19380746](
-WAF Build System
-)
+[WAF Build System](/docs/static/engines/cryengine-3/categories/1638401/pages/19380746)
 .
 
 *
@@ -43,7 +41,7 @@ Lighting on Transparent Objects
 
 When tiled forward shading is enabled, glass will now receive direct lighting (including shadows) and probe-based ambient, making it look a lot more consistent with standard opaque objects.
 
-[Image: /docs/static/attachments/44962967]
+![Image](https://www.cryengine.com/docs/static/attachments/44962967)
 
 ##
 SSDO Color Bleeding
@@ -52,7 +50,7 @@ SSDO color bleeding is a simple and very efficient light scattering approximatio
 
 The feature can be toggled with r_ssdoColorBleeding 0/1 and requires tiled deferred shading to be enabled.
 
-[Image: /docs/static/attachments/44962991]
+![Image](https://www.cryengine.com/docs/static/attachments/44962991)
 
 ##
 Improved LOD System
@@ -61,7 +59,7 @@ The LOD system now takes into account the average triangle size for deciding whe
 
 Use e_lodFaceArea 0/1 to switch between the previous and the new system.
 
-[Image: /docs/static/attachments/44962952]
+![Image](https://www.cryengine.com/docs/static/attachments/44962952)
 
 *
 Shown above is e_debugdraw -3, the minus value still color codes assets but removes the text information overlay
@@ -74,20 +72,18 @@ Our improved Temporal AA technique that shipped with Ryse PC is available now in
 
 Set r_AntialiasingMode 3 to enable.
 
-[Image: /docs/static/attachments/44962993]
+![Image](https://www.cryengine.com/docs/static/attachments/44962993)
 
 ##
 Clip Volumes
 
 The new
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19379670](
-Clip Volumes
-)
+[Clip Volumes](/docs/static/engines/cryengine-3/categories/1114113/pages/19379670)
  greatly simplify the workflow for setting up interior lighting by solving previous light leaking problems.
 
 The volumes provide pixel-accurate clipping of light sources and probes and work with tiled deferred shading and forward-shaded objects like hair. Clip volumes can be setup in Sandbox using Designer or imported from a static mesh.
 
-[Image: /docs/static/attachments/44962964]
+![Image](https://www.cryengine.com/docs/static/attachments/44962964)
 
 *
 Arbitrary clip volume shape containing 3 colored point lights and 1 additional blue light which only affects outside.
@@ -100,12 +96,10 @@ Character Tool
 
 This new tool u
 nifies the Character Editor, the Animation Importer, the Animation Compression Editor and the DBA Editor in one tool with a completely reworked UI (for more information see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19380982](
-Character Tool
-)
+[Character Tool](/docs/static/engines/cryengine-3/categories/1114113/pages/19380982)
 ).
 
-[Image: /docs/static/attachments/44962950]
+![Image](https://www.cryengine.com/docs/static/attachments/44962950)
 
 ##
 Audio Translation Layer
@@ -113,18 +107,14 @@ Audio Translation Layer
 This brand new and industry's first system servers as an abstraction layer between CRYENGINE and an audio middle-ware. Due to full audio source code availability and detailed interface documentation it is possible to hook any audio middle-ware into CRYENGINE's ATL.
 
 Current implementations include Wwise for a professional and SDL_mixer for a simple and cost free audio solution. It has never been easier implementing audio into CRYENGINE using its as well brand new
-[/docs/static/engines/cryengine-3/categories/1114113/pages/17826178](
-Audio Controls Browser
-)
+[Audio Controls Browser](/docs/static/engines/cryengine-3/categories/1114113/pages/17826178)
 .
 
 This release fully substitutes and replaces the former FMOD based audio solution. For more details see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048650](
-ATL Docs
-)
+[ATL Docs](/docs/static/engines/cryengine-3/categories/1114113/pages/1048650)
 .
 
-[Image: /docs/static/attachments/44962969]
+![Image](https://www.cryengine.com/docs/static/attachments/44962969)
 
 ##
 Sample Content
@@ -135,22 +125,22 @@ Other features include several trackview examples, geomcache, a showcase area wh
 
 We've retired the old faithful Forest level so we can fully concentrate on the new showcase content of much higher quality.
 
-[Image: /docs/static/attachments/44963001]
+![Image](https://www.cryengine.com/docs/static/attachments/44963001)
 
-[Image: /docs/static/attachments/44962999]
+![Image](https://www.cryengine.com/docs/static/attachments/44962999)
 
-[Image: /docs/static/attachments/44962997]
+![Image](https://www.cryengine.com/docs/static/attachments/44962997)
 
-[Image: /docs/static/attachments/44962996]
+![Image](https://www.cryengine.com/docs/static/attachments/44962996)
 
-[Image: /docs/static/attachments/44962995]
+![Image](https://www.cryengine.com/docs/static/attachments/44962995)
 
-[Image: /docs/static/attachments/44962994]
+![Image](https://www.cryengine.com/docs/static/attachments/44962994)
 
 ##
 Editor
 
-[Image: /docs/static/attachments/44962968]
+![Image](https://www.cryengine.com/docs/static/attachments/44962968)
 
 *
 The latest CRYENGINE 3.7 Sandbox interface
@@ -671,9 +661,7 @@ Optimized
 Optimized
 **
 : Remove LightShapes. Replaced by
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19379670](
-Clip Volumes
-)
+[Clip Volumes](/docs/static/engines/cryengine-3/categories/1114113/pages/19379670)
 .
 
 -
@@ -691,7 +679,7 @@ Optimized
 ##
 CryDesigner
 
-[Image: /docs/static/attachments/44962953]
+![Image](https://www.cryengine.com/docs/static/attachments/44962953)
 
 *
 Designer object using new Subdivision technique.
@@ -699,7 +687,7 @@ Designer object using new Subdivision technique.
 
 *
 *
-[Image: /docs/static/attachments/44962990]
+![Image](https://www.cryengine.com/docs/static/attachments/44962990)
 
 Subdivision Tool With Semi Sharp Creases.
 
@@ -707,7 +695,7 @@ Subdivision Tool With Semi Sharp Creases.
 *
 
 *
-[Image: /docs/static/attachments/44962978]
+![Image](https://www.cryengine.com/docs/static/attachments/44962978)
 
 Cube Editor
 *
@@ -716,9 +704,7 @@ Cube Editor
 *
 *
 If you want see more pictures click this link
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19381622](
-Gallery [Zen Garden]
-)
+[Gallery [Zen Garden]](/docs/static/engines/cryengine-3/categories/1114113/pages/19381622)
 *
 *
 *
@@ -728,18 +714,14 @@ Gallery [Zen Garden]
 New
 **
 : Added the Subdivision Tool with Semi Sharp Crease and Treatment of Boundaries. -
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19379888](
-Subdivision Manual
-)
+[Subdivision Manual](/docs/static/engines/cryengine-3/categories/1114113/pages/19379888)
 
 -
 **
 New
 **
 : Developed the Cube Editor with Axis Placement function. -
-[/docs/static/engines/cryengine-3/categories/1114113/pages/18383153](
-Cube Editor Manual
-)
+[Cube Editor Manual](/docs/static/engines/cryengine-3/categories/1114113/pages/18383153)
 
 -
 **
@@ -1026,7 +1008,7 @@ Optimized
 ##
 Renderer
 
-[Image: /docs/static/attachments/44962967]
+![Image](https://www.cryengine.com/docs/static/attachments/44962967)
 
 *
 Tiled-Shading for Glass brings physically accurate point-light interaction, ambient lighting and shadows to glass objects.
@@ -1605,9 +1587,9 @@ Optimized
 ##
 3dEngine
 
-[Image: /docs/static/attachments/44962964]
+![Image](https://www.cryengine.com/docs/static/attachments/44962964)
 
-[Image: /docs/static/attachments/44962963]
+![Image](https://www.cryengine.com/docs/static/attachments/44962963)
 
 *
 ClipVolumes support arbitrary shape creation with the power of Designer to give full control over light clipping.
@@ -1618,9 +1600,7 @@ ClipVolumes support arbitrary shape creation with the power of Designer to give 
 New
 **
 :
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19379670](
-Clip Volume
-)
+[Clip Volume](/docs/static/engines/cryengine-3/categories/1114113/pages/19379670)
  supports arbitrary shape creation for light culling. Can also load CGFs for mimicking the shape of existing meshes.
 
 -
@@ -2240,9 +2220,7 @@ RC/Tools
 New
 **
 : Introduced
-[/docs/static/engines/cryengine-3/categories/1638401/pages/19380746](
-WAF build system
-)
+[WAF build system](/docs/static/engines/cryengine-3/categories/1638401/pages/19380746)
 .
 
 -
@@ -2596,13 +2574,13 @@ Optimized
 ##
 Audio
 
-[Image: /docs/static/attachments/44962970]
+![Image](https://www.cryengine.com/docs/static/attachments/44962970)
 *
 
 ACB UI when running with the Wwise implementation
 *
 
-[Image: /docs/static/attachments/44962949]
+![Image](https://www.cryengine.com/docs/static/attachments/44962949)
 *
 
 ACB UI when running with the SDL Mixer implementation
@@ -2752,7 +2730,7 @@ Animation
 ##
 Animation System
 
-[Image: /docs/static/attachments/44963002]
+![Image](https://www.cryengine.com/docs/static/attachments/44963002)
 
 *
 Secondary Animation showing Lozenges in action for character attachments.
@@ -2818,18 +2796,18 @@ The dysfunctional #ParseSubFolders directive from CHRPARAMS is now ignored (to p
 Animation Pipeline (Editor, RC, ...)
 
 *
-[Image: /docs/static/attachments/44962971]
+![Image](https://www.cryengine.com/docs/static/attachments/44962971)
 
 Streamlined animation event editing with user defined presets.
 *
 
-[Image: /docs/static/attachments/44962972]
+![Image](https://www.cryengine.com/docs/static/attachments/44962972)
 
 *
 ChrParams editing; here for example we add a prefix to the animation names of all .comb files
 *
 
-[Image: /docs/static/attachments/44962974]
+![Image](https://www.cryengine.com/docs/static/attachments/44962974)
 
 *
 Rule-based compression presets; for example apply settings based on animation tags as in this example
@@ -2837,9 +2815,7 @@ Rule-based compression presets; for example apply settings based on animation ta
 
 -
 Introduction of Character Tool (for more information see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19380982](
-Character Tool
-)
+[Character Tool](/docs/static/engines/cryengine-3/categories/1114113/pages/19380982)
 ).
 
 -
@@ -2884,9 +2860,7 @@ New way to define DBA files. Use of dbatable.xml is deprecated and replaced by D
 users are advised to manually convert DBATable.xml
 **
 (see below:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962947#EaaS3.7.0-DBATableConversion](
-DBATable Conversion
-)
+[DBATable Conversion](EaaS%203.7.0.md#EaaS3.7.0-DBATableConversion)
 ).
 
 -
@@ -3057,9 +3031,9 @@ Exposed skeleton animation layer count as ISkeletonAnim::LayerCount. Removed all
 ##
 Mannequin
 
-[Image: /docs/static/attachments/44962965]
+![Image](https://www.cryengine.com/docs/static/attachments/44962965)
 
-[Image: /docs/static/attachments/44962959]
+![Image](https://www.cryengine.com/docs/static/attachments/44962959)
 
 -
 New procedural clip format:
@@ -3082,9 +3056,7 @@ Conversion is done automatically using the
 In case you have custom made procedural clips you will need to edit the ProcClipConversion file for them to be automatically converted too.
 **
  More details here:
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19381016](
-Procedural Clip Parameters using Serialization Framework
-)
+[Procedural Clip Parameters using Serialization Framework](/docs/static/engines/cryengine-3/categories/1114113/pages/19381016)
 .
 
 -
@@ -3095,16 +3067,12 @@ Various usability tweaks and fixes (tab navigation, browsing using arrow keys, c
 
 -
 Right-clicking on an animation clip, the user can edit the source asset, be it a blend-space or Maya file. (see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15012282](
-Mannequin Animation Clip Properties
-)
+[Mannequin Animation Clip Properties](/docs/static/engines/cryengine-3/categories/1114113/pages/15012282)
 )
 
 -
 Right-clicking on an animation clip, the user can find all transitions referring to the same clip. (see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15012282](
-Mannequin Animation Clip Properties
-)
+[Mannequin Animation Clip Properties](/docs/static/engines/cryengine-3/categories/1114113/pages/15012282)
 )
 
 -
@@ -3118,16 +3086,12 @@ Showing time in frames by default.
 
 -
 Scopes or individual layers can be 'muted'. In other words they can be temporarily disabled. (see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19381800](
-Mannequin Track Properties
-)
+[Mannequin Track Properties](/docs/static/engines/cryengine-3/categories/1114113/pages/19381800)
 )
 
 -
 Addition of a
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19381020](
-List Used Animations
-)
+[List Used Animations](/docs/static/engines/cryengine-3/categories/1114113/pages/19381020)
  tool.
 
 -
@@ -3142,9 +3106,7 @@ Fixed previewing of additive animations on upper layers if there's no base anima
 
 -
 Fragment Browser: Support for copy pasting of sets of fragments, as well as addition of special paste feature to change tags while pasting (Ctrl+Shift+V). (see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011340](
-Mannequin Fragment Browser
-)
+[Mannequin Fragment Browser](/docs/static/engines/cryengine-3/categories/1114113/pages/15011340)
 )
 
 -
@@ -3155,9 +3117,7 @@ Flow nodes:
 
 -
 Moved Mannequin nodes from GameSDK to CryAction. (see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15733635](
-Mannequin Flowgraph
-)
+[Mannequin Flowgraph](/docs/static/engines/cryengine-3/categories/1114113/pages/15733635)
 )
 
 -
@@ -3165,9 +3125,7 @@ Added a flow node to listen for events triggered by a dedicated procedural clip.
 
 -
 Procedural clip changes: (see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011327](
-List of Procedural Clip Types
-)
+[List of Procedural Clip Types](/docs/static/engines/cryengine-3/categories/1114113/pages/15011327)
 )
 
 -
@@ -3202,9 +3160,7 @@ Experimental: Added a new OnActionFinished virtual method in IAction to let the 
 
 -
 IAction::ComparePriority (see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011601](
-Mannequin Actions
-)
+[Mannequin Actions](/docs/static/engines/cryengine-3/categories/1114113/pages/15011601)
 ) )is now also called during CActionController::PushOntoQueue() to make it consistent with CActionController::TryInstalling(). If you override IAction::ComparePriority() in an action, make sure the order is well defined (a.ComparePriority(b) should return the opposite of b.ComparePriority(a)). If you previously simply returned "Higher", and you push multiple equal priority actions within the same frame, you can use something like the following to make sure the queue still behaves as a FIFO:
 
 ```
@@ -3273,12 +3229,10 @@ An example of such conversion is provided below based on SDK assets.
 
 Similar setup with a new system will look as following:
 
-[Image: /docs/static/attachments/44962961]
+![Image](https://www.cryengine.com/docs/static/attachments/44962961)
 
 You may refer to
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19380982](
-Character Tool
-)
+[Character Tool](/docs/static/engines/cryengine-3/categories/1114113/pages/19380982)
  documentation to see how to define animation filter in details.
 
 In case you would like to perform automated conversion yourself, files saved by the Character Tool will look as follows:
@@ -3311,12 +3265,12 @@ What if you need some more complex logic in animation selection?
 
 For example, here we are excluding /poses/ folder from locomotion.dba, as well as all animations that have word "kick" in their name:
 
-[Image: /docs/static/attachments/44962960]
+![Image](https://www.cryengine.com/docs/static/attachments/44962960)
 
 ##
 AI System
 
-[Image: /docs/static/attachments/44962966]
+![Image](https://www.cryengine.com/docs/static/attachments/44962966)
 
 *
 Multi-threaded NavMesh processing can significantly speed up time to process MNM areas.
@@ -3946,13 +3900,13 @@ Optimized
 ##
 Assets
 
-[Image: /docs/static/attachments/44962957]
+![Image](https://www.cryengine.com/docs/static/attachments/44962957)
 
-[Image: /docs/static/attachments/44962956]
+![Image](https://www.cryengine.com/docs/static/attachments/44962956)
 
-[Image: /docs/static/attachments/44962955]
+![Image](https://www.cryengine.com/docs/static/attachments/44962955)
 
-[Image: /docs/static/attachments/44962954]
+![Image](https://www.cryengine.com/docs/static/attachments/44962954)
 
 -
 **
@@ -4247,39 +4201,15 @@ Optimized
 Optimized
 **
 : Guardhouse: Removed double proxy setup. Removed unused submats. Tweaked material.
-[#release-highlights](
-Release Highlights
-)
-[#editor](
-Editor
-)
-[#crydesigner](
-CryDesigner
-)
-[#renderer](
-Renderer
-)
-[#3dengine](
-3dEngine
-)
-[#particles](
-Particles
-)
-[#rctools](
-RC/Tools
-)
-[#audio](
-Audio
-)
-[#animation](
-Animation
-)
-[#ai-system](
-AI System
-)
-[#game](
-Game
-)
-[#assets](
-Assets
-)
+[Release Highlights](#release-highlights)
+[Editor](#editor)
+[CryDesigner](#crydesigner)
+[Renderer](#renderer)
+[3dEngine](#3dengine)
+[Particles](#particles)
+[RC/Tools](#rctools)
+[Audio](#audio)
+[Animation](#animation)
+[AI System](#ai-system)
+[Game](#game)
+[Assets](#assets)

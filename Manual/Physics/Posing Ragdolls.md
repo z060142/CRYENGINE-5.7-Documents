@@ -30,23 +30,21 @@ Default mode
 
 Measures the effects of each rotation angle on each body's velocity using vector sums, which makes it a precise estimate.
 
-[Image: /docs/static/attachments/36849733]
+![Image](https://www.cryengine.com/docs/static/attachments/36849733)
 
 ##
 Stiff mode
 
 In Stiff mode, each rotation is weighted assuming that its children are immovable, so it tends to preserve the pose more.
 
-[Image: /docs/static/attachments/36849734]
+![Image](https://www.cryengine.com/docs/static/attachments/36849734)
 
 There is a command that can be added to toolbars for the Stiff mode called
 **
 Use Stiff IK Mode
 **
 . For more information about how to customize toolbars, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870764](
-Customizing ToolBars
-)
+[Customizing ToolBars](../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Customizing%20CRYENGINE%20Sandbox/Customizing%20ToolBars.md)
 .
 
 ##
@@ -63,9 +61,7 @@ Create Object -> Legacy Entities -> Physics -> DeadBody
 
 -
 Turn on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24283805](
-Physics tool mode
-)
+[Physics tool mode](../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface/Toolbars/Physics%20Tool.md)
 
 This toolbar is not displayed by default
 
@@ -162,7 +158,7 @@ LMB
 **
  will create a constraint instead of entering drag mode). This can be useful if you want the ragdoll just touching something without trying to accommodate for the collision by pushing its bones back/aside, etc.
 
-[Image: /docs/static/attachments/36849735]
+![Image](https://www.cryengine.com/docs/static/attachments/36849735)
 
 *
 Constraints
@@ -204,15 +200,7 @@ The precision (i.e. allowed error) with which the constraints are resolved (this
 In meters. It is recommended that this value be kept small, somewhere between 0.001 and 0.01.
  |
 
-[#modes](
-Modes
-)
-[#usage](
-Usage
-)
-[#collisions-and-constraints](
-Collisions and Constraints
-)
-[#cvars](
-CVars
-)
+[Modes](#modes)
+[Usage](#usage)
+[Collisions and Constraints](#collisions-and-constraints)
+[CVars](#cvars)

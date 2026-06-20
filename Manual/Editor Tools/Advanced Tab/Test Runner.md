@@ -15,9 +15,7 @@ The Test Runner is the tool dedicated to testing certain features of the engine,
 The default tests that have been provided in the Test Runner tool can only be used to test the Engine-specific features. If a different feature needs to be tested, a related test should be introduced to the Engine first.
 
 For more information about introducing new tests to Test Runner, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/44957702](
-Test Runner
-)
+[Test Runner](../../../API%20Reference/CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/Feature%20Tests/Custom%20Tests%20in%20the%20Test%20Runner.md)
  programming page.
 
 The Test Runner tool can be used to run all the tests that are available under a category, or to run a test individually.
@@ -28,7 +26,7 @@ Tools → Advanced → Test Runner
 **
 and it is comprised of the following sections:
 
-[Image: /docs/static/attachments/44957853]
+![Image](https://www.cryengine.com/docs/static/attachments/44957853)
 
 ##
 1. Menu
@@ -219,12 +217,6 @@ The test results will be archived in
 .xml
 **
 file.
-[#1-menu](
-1. Menu
-)
-[#2-tests-panel](
-2. Tests Panel
-)
-[#3-output-panel](
-3. Output Panel
-)
+[1. Menu](#1-menu)
+[2. Tests Panel](#2-tests-panel)
+[3. Output Panel](#3-output-panel)

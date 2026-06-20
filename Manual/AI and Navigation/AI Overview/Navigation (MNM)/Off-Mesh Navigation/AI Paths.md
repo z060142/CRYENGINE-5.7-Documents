@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933213]
+![Image](https://www.cryengine.com/docs/static/attachments/29933213)
 
 ##
 Overview
@@ -19,15 +19,9 @@ An AI path is an object which can be used to guide your AI along a specific rout
 
 AI paths can be used to affect all kinds of AI, including air and ground based vehicles.
 
-[#sections](
-Sections
-)
-[#aipath](
-AIPath
-)
-[#aipath-properties](
-AIPath Properties
-)
+[Sections](#sections)
+[AIPath](#aipath)
+[AIPath Properties](#aipath-properties)
 
 ##
 AIPath

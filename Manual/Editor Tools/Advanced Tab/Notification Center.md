@@ -9,7 +9,7 @@
 
 The notification center is a combination of pop-up messages that are not modal and don't require user input, and is a place where a list of tasks, errors and warnings can be seen. These messages show notifications, warnings and errors and background tasks.
 
-[Image: /docs/static/attachments/44967735]
+![Image](https://www.cryengine.com/docs/static/attachments/44967735)
 
 In this corner, by default, pop-up messages will appear. These messages:
 
@@ -49,13 +49,13 @@ Tools → Advanced → Notification Center
 **
 .
 
-[Image: /docs/static/attachments/44967734]
+![Image](https://www.cryengine.com/docs/static/attachments/44967734)
 
 ##
 Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44967739]
+![Image](https://www.cryengine.com/docs/static/attachments/44967739)
  icon on the top-right corner of the panel. When clicked, it reveals the
 
 **
@@ -89,7 +89,7 @@ All notification can be hidden by clicking the
 Clear All
 **
 (
-[Image: /docs/static/attachments/44967731]
+![Image](https://www.cryengine.com/docs/static/attachments/44967731)
 ) button on the top-left
 
 ##
@@ -102,34 +102,34 @@ Button
 Description
  |
 
-[Image: /docs/static/attachments/44967730]
+![Image](https://www.cryengine.com/docs/static/attachments/44967730)
  |
 Clears the list of messages.
  |
 
-[Image: /docs/static/attachments/25510452]
+![Image](https://www.cryengine.com/docs/static/attachments/25510452)
  |
 Shows the complete history of messages.
  |
 
-[Image: /docs/static/attachments/44967729]
+![Image](https://www.cryengine.com/docs/static/attachments/44967729)
  |
 Copies the history to the clipboard.
  |
 
-[Image: /docs/static/attachments/44967736]
+![Image](https://www.cryengine.com/docs/static/attachments/44967736)
 
  |
 Shows/hides info messages.
  |
 
-[Image: /docs/static/attachments/44967737]
+![Image](https://www.cryengine.com/docs/static/attachments/44967737)
 
  |
 Shows/hides warnings.
  |
 
-[Image: /docs/static/attachments/44967738]
+![Image](https://www.cryengine.com/docs/static/attachments/44967738)
 
  |
 Shows/hides errors.
@@ -182,15 +182,7 @@ Notification Max Count
 Maximum number of notifications displayed before they are combined into a single notification in the notification list.
  |
 
-[#menu](
-Menu
-)
-[#current](
-Current
-)
-[#history](
-History
-)
-[#preferences](
-Preferences
-)
+[Menu](#menu)
+[Current](#current)
+[History](#history)
+[Preferences](#preferences)

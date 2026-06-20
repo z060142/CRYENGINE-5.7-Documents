@@ -30,18 +30,16 @@ To setup the Time of Day in FMOD Studio, add a parameter called
 time_of_day
 to the sound event that should be affected by the time. The range should be 0 to 24 so that it matches the same range as the Time of Day inside CRYENGINE.
 
-[Image: /docs/static/attachments/44968260]
+![Image](https://www.cryengine.com/docs/static/attachments/44968260)
 
 ##
 Connecting the Time of Day in FMOD Studio and CRYENGINE
 
 With the parameter created, you can now open the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
  in CRYENGINE and connect the FMOD Studio Control with an audio system Control.
 
-[Image: /docs/static/attachments/44968261]
+![Image](https://www.cryengine.com/docs/static/attachments/44968261)
 
 ##
 Create a Dynamic Ambience in FMOD Studio
@@ -52,23 +50,13 @@ time_of_day
 
 The image below shows an example setup where the birds and insects are audible only during the day using volume automation.
 
-[Image: /docs/static/attachments/44968262]
+![Image](https://www.cryengine.com/docs/static/attachments/44968262)
 
 After you have successfully created your Ambient setup in FMOD Studio make sure to regenerate your Soundbanks as explained
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964944](
-here
-)
+[here](FMOD%20Initial%20Setup.md)
 .
 
-[#setting-up-time-of-day-in-fmod-studio-and-cryengine](
-Setting up Time of Day in FMOD Studio and CRYENGINE
-)
-[#setting-up-the-time-of-day-in-fmod-studio](
-Setting up the Time of Day in FMOD Studio
-)
-[#connecting-the-time-of-day-in-fmod-studio-and-cryengine](
-Connecting the Time of Day in FMOD Studio and CRYENGINE
-)
-[#create-a-dynamic-ambience-in-fmod-studio](
-Create a Dynamic Ambience in FMOD Studio
-)
+[Setting up Time of Day in FMOD Studio and CRYENGINE](#setting-up-time-of-day-in-fmod-studio-and-cryengine)
+[Setting up the Time of Day in FMOD Studio](#setting-up-the-time-of-day-in-fmod-studio)
+[Connecting the Time of Day in FMOD Studio and CRYENGINE](#connecting-the-time-of-day-in-fmod-studio-and-cryengine)
+[Create a Dynamic Ambience in FMOD Studio](#create-a-dynamic-ambience-in-fmod-studio)

@@ -30,15 +30,9 @@ Chapters:
 
 Related Pages:
 
-[#one-time-setup](
-One-time setup
-)
-[#creating-a-release-build](
-Creating a Release build
-)
-[#troubleshooting](
-Troubleshooting
-)
+[One-time setup](#one-time-setup)
+[Creating a Release build](#creating-a-release-build)
+[Troubleshooting](#troubleshooting)
 
 ##
 One-time setup
@@ -164,9 +158,7 @@ After a release build, all assets must be inside a signed or encrypted PAK files
 The first test to see if your PAK files are alright would be to run the non-release game after deleting all non-PAK files.
 
 See also
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306345](
-Compiling Assets for Multiple Platforms
-)
+[Compiling Assets for Multiple Platforms](Compiling%20Assets%20for%20Multiple%20Platforms.md)
  and the RCJob_Build_SDK.xml that has been shipped to you.
 
 ##
@@ -562,10 +554,7 @@ The PAK file containing the asset is signed or encrypted with the correct key.
 I get a lot of warnings about "Non binary XML found"
 
 This is not a fatal error, however you can convert your XML files to binary XML using RC, see also
-[/docs/static/engines/cryengine-3/categories/1114113/pages/13205851](
-Binary XML conversion
-
-)
+[Binary XML conversion](/docs/static/engines/cryengine-3/categories/1114113/pages/13205851)
 The conversion is recommended for an end-user distribution
 
 ##

@@ -22,7 +22,7 @@ Item Properties
 
 The properties of Item Entities are all the same.
 
-[Image: /docs/static/attachments/56000545]
+![Image](https://www.cryengine.com/docs/static/attachments/56000545)
 
 **
 Property
@@ -171,9 +171,7 @@ AmmoCrate
 The Ammo Crate entity can be used to refill ammo of particular categories. It has additional functionality for limited number of uses and whether to give grenades.
 
 There is a multiplayer specific version of this entity here:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796939](
-AmmoCrateMP
-)
+[AmmoCrateMP](Multiplayer%20Entities.md)
 
 **
 Property
@@ -220,9 +218,7 @@ Usable
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -233,9 +229,7 @@ UseMessage
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -252,9 +246,7 @@ AmmoCategory
 
  |
 Each
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1933328#WeaponScripts-Ammo](
-ammunition script
-)
+[ammunition script](/docs/static/engines/cryengine-3/categories/1638401/pages/1933328#WeaponScripts-Ammo)
  should define the "ammo_category" that it should be part of. The most commonly used is "Regular".
 
 You can use this category type to define which ammo types are given upon use of this entity.
@@ -270,9 +262,5 @@ How many frag grenades to give on use.
 
  |
 
-[#item-properties](
-Item Properties
-)
-[#ammocrate](
-AmmoCrate
-)
+[Item Properties](#item-properties)
+[AmmoCrate](#ammocrate)

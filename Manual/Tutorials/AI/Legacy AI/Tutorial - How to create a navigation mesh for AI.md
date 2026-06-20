@@ -8,3 +8,5 @@
 ## Content
 
 How to draw an AI navigation mesh, use exclusion areas, debug and visualize the mesh.
+
+[Embed: http://youtube.com/watch?v=NN6u_PZZOuw]

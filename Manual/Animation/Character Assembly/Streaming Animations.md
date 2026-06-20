@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933227]
+![Image](https://www.cryengine.com/docs/static/attachments/29933227)
 
 ##
 Overview
@@ -40,31 +40,21 @@ Animations that only need to be accessed once, on demand, like trackview (cinema
 -
 Animations that need to be individually loaded and unloaded. A real world example was the hit death reaction system in Crysis 2. Because of memory constraints we kept only a very limited amount of these in memory and we used a 'round robin' technique to keep replacing the variations.
 For more technical information on what is stored in DBA files, how to use them from code, and how to keep them in memory, see
-[/docs/static/engines/cryengine-3/categories/1638401/pages/15012010](
-Animation Streaming
-)
+[Animation Streaming](/docs/static/engines/cryengine-3/categories/1638401/pages/15012010)
 .
 
 When two animations in the same DBA have exactly the same animation for a joint, the data for that animation will only be stored once. This can give huge memory savings if used well.
 
-[#sections](
-Sections
-)
-[#dbatablejson](
-DBATable.json
-)
-[#chrparams-changes](
-CHRPARAMS Changes
-)
+[Sections](#sections)
+[DBATable.json](#dbatablejson)
+[CHRPARAMS Changes](#chrparams-changes)
 
 ##
 DBATable.json
 
 DBA files are created by the Resource Compiler after compressing the individual animations (CAFs).
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959586](
-Resource Compiler
-)
+[Resource Compiler](../../System%20Utilities/System%20Utilities%20Overview/Resource%20Compiler.md)
  for more details on the process that creates DBA files.
 
 The resource compiler uses the rules in
@@ -72,9 +62,7 @@ The resource compiler uses the rules in
 Animations\DBATable.json
 `
  to find out which animations to put in which DBAs. You can edit the rules in the Character Tool, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450423](
-Animation Compression - Character Tool
-)
+[Animation Compression - Character Tool](../../Editor%20Tools/Animation%20Tab/Character%20Tool/Animation%20Compression%20-%20Character%20Tool.md)
 .
 
 In CRYENGINE 3.5 and 3.6 the resource compiler used
@@ -175,7 +163,5 @@ If you want a DBA to be loaded automatically when a character gets loaded, and i
 ```
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307999](
-Character Parameters File (chrparams)
-)
+[Character Parameters File (chrparams)](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)
  for more details.

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933295]
+![Image](https://www.cryengine.com/docs/static/attachments/29933295)
 
 ##
 Overview
@@ -21,18 +21,10 @@ Typically brushes are static objects placed in the world. They are one of the ch
 
 A large percentage of the visual structures in your worlds will probably be constructed using brushes.
 
-[#sections](
-Sections
-)
-[#object-browser-and-preview](
-Object Browser and Preview
-)
-[#brush-params](
-Brush Params
-)
-[#debugging](
-Debugging
-)
+[Sections](#sections)
+[Object Browser and Preview](#object-browser-and-preview)
+[Brush Params](#brush-params)
+[Debugging](#debugging)
 
 ##
 Object Browser and Preview
@@ -101,9 +93,7 @@ CollisionFiltering Type
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306413](
-Collision Classes
-)
+[Collision Classes](../../../API%20Reference/CRYENGINE%20Engine%20Code/Engine%20Modules/CryPhysics/Collision%20Classes.md)
  for more information.
 
  |
@@ -112,9 +102,7 @@ CollisionFiltering Ignore
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306413](
-Collision Classes
-)
+[Collision Classes](../../../API%20Reference/CRYENGINE%20Engine%20Code/Engine%20Modules/CryPhysics/Collision%20Classes.md)
  for more information.
 
  |
@@ -185,9 +173,7 @@ NotTriangulate
 
  |
 Deprecated, Pre-
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534274](
-MNM
-)
+[MNM](../../AI%20and%20Navigation/AI%20Overview/Navigation%20(MNM).md)
  - When this option is set, this object will not be considered part of the AI triangulation system.
 
  |
@@ -196,9 +182,7 @@ AIRadius
 
  |
 Deprecated, Pre-
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534274](
-MNM
-)
+[MNM](../../AI%20and%20Navigation/AI%20Overview/Navigation%20(MNM).md)
  - This option specifies the radius that will be used for the object by the AI triangulation system.
 
  |

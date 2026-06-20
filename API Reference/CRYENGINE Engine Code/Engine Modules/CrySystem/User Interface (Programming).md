@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Scaleform GFx and CRYENGINE](User Interface (Programming)/Scaleform GFx and CRYENGINE.md)
-- [Using FlashUI from C++](User Interface (Programming)/Using FlashUI from C++.md)
-- [Enabling IME in code](User Interface (Programming)/Enabling IME in code.md)
+- [Scaleform GFx and CRYENGINE](User%20Interface%20(Programming)/Scaleform%20GFx%20and%20CRYENGINE.md)
+- [Using FlashUI from C++](User%20Interface%20(Programming)/Using%20FlashUI%20from%20C%2B%2B.md)
+- [Enabling IME in code](User%20Interface%20(Programming)/Enabling%20IME%20in%20code.md)
 
 ## Content
 
@@ -17,16 +17,10 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306536](
-Scaleform GFx and CRYENGINE
-)
+[Scaleform GFx and CRYENGINE](User%20Interface%20(Programming)/Scaleform%20GFx%20and%20CRYENGINE.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306534](
-Using FlashUI from C++
-)
+[Using FlashUI from C++](User%20Interface%20(Programming)/Using%20FlashUI%20from%20C%2B%2B.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23309145](
-Enabling IME in code
-)
+[Enabling IME in code](User%20Interface%20(Programming)/Enabling%20IME%20in%20code.md)

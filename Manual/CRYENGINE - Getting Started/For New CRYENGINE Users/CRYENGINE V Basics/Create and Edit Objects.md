@@ -44,9 +44,7 @@ Angle Snapping
  to refine your placement.
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44960236](
-Click here
-)
+[Click here](Snap%20%26%20Alignment.md)
 **
  for more information on snapping.
 
@@ -140,7 +138,7 @@ Properties
 **
  tool you can find the Operators section:
 
-[Image: /docs/static/attachments/24151105]
+![Image](https://www.cryengine.com/docs/static/attachments/24151105)
 
 -
 Click the
@@ -155,11 +153,11 @@ Targets
 
 -
 Once the option has appeared, click inside the input field and it will ask you to Pick an Entity.
-[Image: /docs/static/attachments/24151106]
+![Image](https://www.cryengine.com/docs/static/attachments/24151106)
 
 -
 Select the entity in the 3D Viewport to create the link to the shape.
-[Image: /docs/static/attachments/24151107]
+![Image](https://www.cryengine.com/docs/static/attachments/24151107)
 
 -
 Now the Trigger Entity called
@@ -228,12 +226,6 @@ Ctrl+Z
 **
 .
 
-[#creating-objects](
-Creating Objects
-)
-[#duplicating-objects](
-Duplicating Objects
-)
-[#deleting-objects](
-Deleting Objects
-)
+[Creating Objects](#creating-objects)
+[Duplicating Objects](#duplicating-objects)
+[Deleting Objects](#deleting-objects)

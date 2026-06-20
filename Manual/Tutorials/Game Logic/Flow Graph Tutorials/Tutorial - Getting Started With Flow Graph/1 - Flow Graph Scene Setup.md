@@ -7,15 +7,9 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26877242](
-[Image: /docs/static/attachments/52593262]
-Tutorial - Getting Started With Flow Graph
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593262) Tutorial - Getting Started With Flow Graph](/docs/static/engines/cryengine-5/categories/23756816/pages/26877242)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591903](
-[Image: /docs/static/attachments/52593264]
-2 - Spawning your Player
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593264) 2 - Spawning your Player](/docs/static/engines/cryengine-5/categories/23756816/pages/27591903)
 
 ##
 Scripting Overview
@@ -54,24 +48,21 @@ Lastly, we will focus initially on highlighting the menu (1), the nodes (2) and 
 ##
 Step 1
 
-[Image: /docs/static/attachments/36309385]
+![Image](https://www.cryengine.com/docs/static/attachments/36309385)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/36309386]
+![Image](https://www.cryengine.com/docs/static/attachments/36309386)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/36309387]
+![Image](https://www.cryengine.com/docs/static/attachments/36309387)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/36309388]
+![Image](https://www.cryengine.com/docs/static/attachments/36309388)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591903](
-[Image: /docs/static/attachments/52593264]
-2 - Spawning your Player
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593264) 2 - Spawning your Player](/docs/static/engines/cryengine-5/categories/23756816/pages/27591903)

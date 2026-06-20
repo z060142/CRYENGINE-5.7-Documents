@@ -9,14 +9,14 @@
 
 - [Solid](Area/Solid.md)
 - [Box](Area/Box.md)
-- [Clip Volume](Area/Clip Volume.md)
+- [Clip Volume](Area/Clip%20Volume.md)
 - [Occluder](Area/Occluder.md)
-- [Occluder Plane](Area/Occluder Plane.md)
+- [Occluder Plane](Area/Occluder%20Plane.md)
 - [Portal](Area/Portal.md)
 - [Shape](Area/Shape.md)
 - [Sphere](Area/Sphere.md)
-- [Vis Area](Area/Vis Area.md)
-- [Water Volume](Area/Water Volume.md)
+- [Vis Area](Area/Vis%20Area.md)
+- [Water Volume](Area/Water%20Volume.md)
 
 ## Content
 
@@ -34,51 +34,31 @@ Ctrl + Shift + LMB
 This is true for all Area objects, except Occluders.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869889](
-Box
-)
+[Box](Area/Box.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869891](
-Clip Volume
-)
+[Clip Volume](Area/Clip%20Volume.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869894](
-Occluder
-)
+[Occluder](Area/Occluder.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869898](
-Occluder Plane
-)
+[Occluder Plane](Area/Occluder%20Plane.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869900](
-Portal
-)
+[Portal](Area/Portal.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869902](
-Shape
-)
+[Shape](Area/Shape.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869905](
-Solid
-)
+[Solid](Area/Solid.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869908](
-Sphere
-)
+[Sphere](Area/Sphere.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Area
-)
+[Vis Area](Area/Vis%20Area.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869912](
-Water Volume
-)
+[Water Volume](Area/Water%20Volume.md)

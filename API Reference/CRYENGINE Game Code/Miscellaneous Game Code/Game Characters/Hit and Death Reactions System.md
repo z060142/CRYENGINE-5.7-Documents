@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Implementing Hit Reaction](Hit and Death Reactions System/Implementing Hit Reaction.md)
-- [Reactions XML Format Description](Hit and Death Reactions System/Reactions XML Format Description.md)
+- [Implementing Hit Reaction](Hit%20and%20Death%20Reactions%20System/Implementing%20Hit%20Reaction.md)
+- [Reactions XML Format Description](Hit%20and%20Death%20Reactions%20System/Reactions%20XML%20Format%20Description.md)
 
 ## Content
 
@@ -41,17 +41,13 @@ The reactions are contained on a LUA table that is parsed from an XML data file 
 fileHitDeathReactionsParamsDataFile
 **
 property, so it can be customized per archetype. This could change in the future so it uses PropertyInstances to be able to customize the filepath per actor instance on the level (see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306580#HitandDeathReactionsSystem-futurePlans](
-Future Plans section
-)
+[Future Plans section](Hit%20and%20Death%20Reactions%20System.md#HitandDeathReactionsSystem-futurePlans)
 ) and whose format is described in the definition file
 `
 Scripts/GameRules/HitDeathReactions_Defs.xml"
 `
  (see the
-[/docs](
-XML Loader
-)
+[XML Loader](/docs)
  documentation to understand how the code parses the data file and why we need a separate definition file).
 
 Each reaction provides:
@@ -86,9 +82,7 @@ Some other properties that will be used for the validation and/or execution step
 Validation/s
 
 The system goes through the list of reactions in the order they are defined in the data file and evaluates them. A reaction is OK to go if any of its validations is successful. Each validation can choose which validation code is run to know if it's valid. That validation code may use properties inside that validation. By default the validations use some LUA and C++ code that executes a default validation code, but if there is an specific case that needs additional/different checks there's also the possibility of specifying a customized LUA or C++ validation function to do it. More details about how to write reaction validations in
-[#this%20chapter%20of%20the%20Reactions%20XML%20Format%20Description%20page-Validation](
-this chapter of the Reactions XML Format Description page
-)
+[this chapter of the Reactions XML Format Description page](#this%20chapter%20of%20the%20Reactions%20XML%20Format%20Description%20page-Validation)
 .
 
 ##
@@ -321,7 +315,7 @@ Debugging
 
 You can see debugging information about the entities using and forcing reaction anims in memory with a sub-menu on the perfHUD menu for that use. Access perfHUD (Console Variable: sys_perfHUD 1) and go to Game->HitDeathReaction Streaming. Click on that entry and you'll see the following:
 
-[Image: /docs/static/attachments/23461413]
+![Image](https://www.cryengine.com/docs/static/attachments/23461413)
 
 (switch to perfHUD "view" mode to make the table translucent and be able to see the background)
 
@@ -658,33 +652,13 @@ Example data file
 
 ```
 
-[#some-rules](
-Some rules
-)
-[#reactions](
-Reactions
-)
-[#network](
-Network
-)
-[#streaming](
-Streaming
-)
-[#related-cvars](
-Related CVars
-)
-[#related-files](
-Related Files
-)
-[#hints-for-using-the-system](
-Hints for using the system
-)
-[#reactions-xml-format-description](
-Reactions XML Format Description
-)
-[#system-related-animation-events](
-System-related animation events
-)
-[#example-data-file](
-Example data file
-)
+[Some rules](#some-rules)
+[Reactions](#reactions)
+[Network](#network)
+[Streaming](#streaming)
+[Related CVars](#related-cvars)
+[Related Files](#related-files)
+[Hints for using the system](#hints-for-using-the-system)
+[Reactions XML Format Description](#reactions-xml-format-description)
+[System-related animation events](#system-related-animation-events)
+[Example data file](#example-data-file)

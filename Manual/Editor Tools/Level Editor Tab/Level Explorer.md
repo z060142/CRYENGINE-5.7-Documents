@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Object Linking](Level Explorer/Object Linking.md)
+- [Object Linking](Level%20Explorer/Object%20Linking.md)
 
 ## Content
 
@@ -20,7 +20,7 @@ Level Explorer
 **
  lists every object that has been added to a level, allowing users to browse through them without affecting their states. It also allows users to hide, freeze and search for objects within the Viewport.
 
-[Image: /docs/static/attachments/44958428]
+![Image](https://www.cryengine.com/docs/static/attachments/44958428)
 
 *
 Level Explorer Overview
@@ -46,7 +46,7 @@ Tools → Level Editor → Level Explorer.
 Menu
 
 The Level Explorer's Main Menu can be found under the
-[Image: /docs/static/attachments/36838198]
+![Image](https://www.cryengine.com/docs/static/attachments/36838198)
  icon in the top-right corner and contains the following options:
 
 ##
@@ -178,13 +178,11 @@ Locked
 **
  |
 Locks the current object/folder/layer, preventing it from being edited. A locked object/folder/layer is indicated by the
-[Image: /docs/static/attachments/44960484]
+![Image](https://www.cryengine.com/docs/static/attachments/44960484)
  icon in the Level Explorer.
 
 Learn more about locking and unlocking in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541#LevelExplorer-lock](
-Locking Layers/Folders/Objects
-)
+[Locking Layers/Folders/Objects](Level%20Explorer.md#LevelExplorer-lock)
 section below.
  |
 
@@ -283,7 +281,7 @@ The
 Show Full Hierarchy
 **
  option can also be toggled by clicking the
-[Image: /docs/static/attachments/36842404]
+![Image](https://www.cryengine.com/docs/static/attachments/36842404)
  button on the Level Explorer's View toolbar.
 
  |
@@ -296,7 +294,7 @@ Show Layers
 Lists all created layers and folders without displaying the objects they contain.
 
 Alternatively toggled by clicking the
-[Image: /docs/static/attachments/36842405]
+![Image](https://www.cryengine.com/docs/static/attachments/36842405)
  button on the Level Explorer's View toolbar.
 
  |
@@ -309,7 +307,7 @@ Show All Objects
 Lists all existing objects within the Level Explorer, without displaying the layers/folders these objects belong to.
 
 Also toggled by clicking the
-[Image: /docs/static/attachments/36842406]
+![Image](https://www.cryengine.com/docs/static/attachments/36842406)
  button on the Level Explorer's View toolbar.
 
  |
@@ -326,7 +324,7 @@ An Active Layer is the primary layer within which all inserted objects are place
 Show Active Layer Contents
 **
  can also be toggled by clicking the
-[Image: /docs/static/attachments/36842407]
+![Image](https://www.cryengine.com/docs/static/attachments/36842407)
  button on the Level Explorer's View toolbar.
 
  |
@@ -359,7 +357,7 @@ When enabled, the Viewport camera will focus on an object when that object is se
 Sync Selection
 **
 may also be enabled/disabled by clicking the
-[Image: /docs/static/attachments/36842408]
+![Image](https://www.cryengine.com/docs/static/attachments/36842408)
  button on the Level Explorer's Sync Selection toolbar.
 
  |
@@ -382,9 +380,7 @@ Apply Filter
 sub-menu.
 
 Refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541#LevelExplorer-LEAnchor](
-Filter
-)
+[Filter](Level%20Explorer.md#LevelExplorer-LEAnchor)
 section on this page for more information on creating and using filters.
 
  |
@@ -480,7 +476,7 @@ Lists all default and custom toolbars created for the Level Explorer, allowing u
 Sync Selection
 **
  |
-[Image: /docs/static/attachments/36842408]
+![Image](https://www.cryengine.com/docs/static/attachments/36842408)
  |
 When enabled, the Viewport camera will focus on an object when that object is selected in the Level Explorer, and vice versa.
  |
@@ -491,22 +487,22 @@ When enabled, the Viewport camera will focus on an object when that object is se
 View
 **
  |
-[Image: /docs/static/attachments/36842404]
+![Image](https://www.cryengine.com/docs/static/attachments/36842404)
  |
 Lists all existing layers and folders in the Level Explorer; these layers/folders can also be expanded to reveal the objects they contain.
  |
 
-[Image: /docs/static/attachments/36842405]
+![Image](https://www.cryengine.com/docs/static/attachments/36842405)
  |
 Lists all created layers and folders without displaying the objects they contain.
  |
 
-[Image: /docs/static/attachments/36842406]
+![Image](https://www.cryengine.com/docs/static/attachments/36842406)
  |
 Lists all existing objects within the Level Explorer, without displaying the layers/folders these objects belong to.
  |
 
-[Image: /docs/static/attachments/36842407]
+![Image](https://www.cryengine.com/docs/static/attachments/36842407)
  |
 Lists the contents of the Active Layer in the Level Explorer.
  |
@@ -547,9 +543,7 @@ Lock Read-Only Layers
  |
 Locks all layers that have been set to Read-Only mode on disk. This is particularly useful when using
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848808](
-version control
-)
+[version control](../Version%20Control%20System.md)
 , allowing only those layers that have been marked for editing to be modified.
  |
 
@@ -647,7 +641,7 @@ The List View
 
 Clicking on the titles of any of the columns within the Level Explorer's list of objects, layers and folders, automatically sorts the contents of that column in ascending/descending alphabetical order. You may further choose to display/hide specific columns via the context menu generated by right-clicking a column title.
 
-[Image: /docs/static/attachments/44960477]
+![Image](https://www.cryengine.com/docs/static/attachments/44960477)
 
 *
 Right-clicking a column title
@@ -675,7 +669,7 @@ Color
 **
  option from the context menu. Both preset and custom colors may be assigned.
 
-[Image: /docs/static/attachments/36842410]
+![Image](https://www.cryengine.com/docs/static/attachments/36842410)
 
 *
 Color option
@@ -689,9 +683,9 @@ Visible
 
  |
 When enabled, visible/invisible objects, layers and folders are indicated by the
-[Image: /docs/static/attachments/44960483]
+![Image](https://www.cryengine.com/docs/static/attachments/44960483)
 /
-[Image: /docs/static/attachments/44960487]
+![Image](https://www.cryengine.com/docs/static/attachments/44960487)
  icon in the Level Explorer.
 
  |
@@ -702,9 +696,9 @@ Frozen
 
  |
 Locked/unlocked objects, layers and folders are indicated by the
-[Image: /docs/static/attachments/44958434]
+![Image](https://www.cryengine.com/docs/static/attachments/44958434)
 /
-[Image: /docs/static/attachments/44960484]
+![Image](https://www.cryengine.com/docs/static/attachments/44960484)
  icon
 in the Level Explorer, when this option is enabled.
 
@@ -755,9 +749,7 @@ Object Type
 
  |
 Indicates the general
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869846](
-type
-)
+[type](Create%20Object.md)
  of an object.
 
  |
@@ -805,9 +797,7 @@ Breakable
 
  |
 Indicates whether a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308020](
-breakable object
-)
+[breakable object](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Interactive%20Geometry/Breakable%20Objects.md)
  is Jointed Breakable, Destroyable or Jointed Destructable.
 
  |
@@ -818,9 +808,7 @@ Smart Object
 
  |
 Names the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594510](
- Smart Object
-)
+[Smart Object](../Deprecated%20Tab/Smart%20Objects%20Editor.md)
  rule that associates an object with another. Smart Objects are those which have been set up to interact with other objects within a game.
 
  |
@@ -831,9 +819,7 @@ Flow Graph
 
  |
 Displays the names of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../Flow%20Graph.md)
  containers where the selected Entity is referenced.
 
  |
@@ -866,9 +852,7 @@ LOD count
 
  |
 Indicates the number of
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215356](
-Level of Detail
-)
+[Level of Detail](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/LODs.md)
  objects (LOD's) associated with an object, where applicable.
 
  |
@@ -907,9 +891,7 @@ Linked to
  column of the Entity will display the name of the bone it is linked to.
 
 Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866230](
-Object Linking
-)
+[Object Linking](Level%20Explorer/Object%20Linking.md)
  page for more information on creating links between Entity-type objects.
 
  |
@@ -1095,9 +1077,7 @@ Filter
 The Filter button meanwhile allows users to describe specific criteria by which the Level Explorer must list objects.
 
 This criteria is based on the values of various object and layer properties, which can be displayed in columns using the context menu described in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541#LevelExplorer-Lview](
-The List View
-)
+[The List View](Level%20Explorer.md#LevelExplorer-Lview)
 section above.
 
 Clicking the Filter button adjacent to the Search Bar reveals options to
@@ -1116,7 +1096,7 @@ Add Criterion
 **
  button presents a drop down menu from which object properties may be picked to specify search criteria; the field adjacent to this drop-down helps specify the property value by which the Level Explorer must filter the list of objects.
 
-[Image: /docs/static/attachments/36836740]
+![Image](https://www.cryengine.com/docs/static/attachments/36836740)
 
 *
 Add, Clear, Save/Load Criteria
@@ -1133,7 +1113,7 @@ Custom Material
 , may need to be selected from a separate drop-down or entered manually.
 
 Clicking the
-[Image: /docs/static/attachments/36836741]
+![Image](https://www.cryengine.com/docs/static/attachments/36836741)
  icon, where property values need to selected from a drop-down or entered manually, inverts the specified search criteria;
 **
 Clear Criteria
@@ -1156,7 +1136,7 @@ Delete
 **
  these; a search bar at the top of this pop-up allows filtering through the listed filters.
 
-[Image: /docs/static/attachments/44960607]
+![Image](https://www.cryengine.com/docs/static/attachments/44960607)
 
 *
 Save/Load Filter
@@ -1257,9 +1237,7 @@ Lock Read-Only Layers
  |
 Locks all layers that have been set to Read-Only mode on disk. This is particularly useful when using
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848808](
-version control
-)
+[version control](../Version%20Control%20System.md)
 , allowing only those layers that have been marked for editing to be modified.
  |
 
@@ -1424,13 +1402,11 @@ Locked
 **
  |
 Locks the current object/folder/layer, preventing it from being edited. A locked object/folder/layer is indicated by the
-[Image: /docs/static/attachments/44960484]
+![Image](https://www.cryengine.com/docs/static/attachments/44960484)
  icon in the Level Explorer.
 
 Learn more about locking and unlocking in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541#LevelExplorer-lock](
-Locking Layers/Folders/Objects
-)
+[Locking Layers/Folders/Objects](Level%20Explorer.md#LevelExplorer-lock)
  section below.
  |
 
@@ -1465,9 +1441,7 @@ Lock Read-Only Layers
  |
 Locks all layers that have been set to Read-Only mode on disk. This is particularly useful when using
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848808](
-version control
-)
+[version control](../Version%20Control%20System.md)
 , allowing only those layers that have been marked for editing to be modified.
  |
 
@@ -1545,14 +1519,14 @@ Refresh
 Manually updates the status of the selected version controlled layers.
 
 The statuses of all version controlled layers are indicated under the
-[Image: /docs/static/attachments/44960693]
+![Image](https://www.cryengine.com/docs/static/attachments/44960693)
  column of the Level Explorer. Note that a layer is tracked by the implemented Version Control System only once the corresponding level has been saved and the layer itself, written to disk as a
 **
 .lyr
 **
  file.
 
-[Image: /docs/static/attachments/44960695]
+![Image](https://www.cryengine.com/docs/static/attachments/44960695)
 
 *
 Level Explorer version control
@@ -1609,7 +1583,7 @@ Submit...
 **
  option displays a separate window that lists within it all locally modified assets, work files and layers, and allows users to tick which changes they'd like to commit (including deletions made, if any).
 
-[Image: /docs/static/attachments/44960696]
+![Image](https://www.cryengine.com/docs/static/attachments/44960696)
 
 *
 Submit window
@@ -1650,9 +1624,7 @@ Edit
 **
  |
 When an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869850](
-Area
-)
+[Area](Create%20Object/Area.md)
 Shape or other poly-line based object (Clip Volume, Game Volume, Occluder etc.) is selected, clicking the
 **
 Edit
@@ -1664,17 +1636,13 @@ Edit Shape
 operator in the Properties Tool, allowing users to change the object's shape by selecting, moving, adding or removing vertices.
 
 When a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869859](
-Designer
-)
+[Designer](Create%20Object/Designer%20Tool.md)
  object is selected, the
 **
 Edit
 **
  option opens the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534693](
-Designer Tool
-)
+[Designer Tool](../Designer%20Tool%20Tab.md)
  so that the object can be edited.
 
  |
@@ -1724,9 +1692,7 @@ Create Group
 
  |
 Creates a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866230](
-Group
-)
+[Group](Level%20Explorer/Object%20Linking.md)
  with the currently selected object, to which multiple other objects may be added by dragging and dropping.
 
  |
@@ -1737,9 +1703,7 @@ Create Prefab
 
  |
 Creates a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866251](
-Prefab
-)
+[Prefab](../../Entities%20and%20Tools/Entities%20Overview/Prefabs.md)
  of a user defined name with the currently selected object. Multiple other objects may be added to this prefab by dragging and dropping.
 
  |
@@ -1784,15 +1748,11 @@ Link To...
 
  |
 Adds the selected object to an existing
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866230](
-link
-)
+[link](Level%20Explorer/Object%20Linking.md)
 .
 
 Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866230](
-Object Linking
-)
+[Object Linking](Level%20Explorer/Object%20Linking.md)
  page for more information on creating links between Entity-type objects.
 
  |
@@ -1851,9 +1811,7 @@ Convert to Brush
 
  |
 Converts an object into a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869855](
-Brush
-)
+[Brush](Create%20Object/Brush%20Objects.md)
 .
 
  |
@@ -1864,9 +1822,7 @@ Convert to Designer
 
  |
 Converts non-Designer type object into one that can be edited by the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869859](
- Designer
-)
+[Designer](Create%20Object/Designer%20Tool.md)
  tool.
 
  |
@@ -1896,9 +1852,7 @@ Find in Flow Graph
 
  |
 Opens the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../Flow%20Graph.md)
 tool to locate references to the selected object within any existing/created flow graphs.
 
  |
@@ -1955,22 +1909,22 @@ Assets → Levels
 Hiding Objects, Layers and Folders
 
 The visibility of objects, layers and folders within a level is indicated by the
-[Image: /docs/static/attachments/35400842]
+![Image](https://www.cryengine.com/docs/static/attachments/35400842)
  column of the Level Explorer, as shown in the image below.
 
-[Image: /docs/static/attachments/44960837]
+![Image](https://www.cryengine.com/docs/static/attachments/44960837)
 
 *
 Visibility column
 *
 
 The
-[Image: /docs/static/attachments/44960483]
+![Image](https://www.cryengine.com/docs/static/attachments/44960483)
  icon indicates that an object is visible within the Viewport, while
-[Image: /docs/static/attachments/44960487]
+![Image](https://www.cryengine.com/docs/static/attachments/44960487)
  indicates that an object is hidden. Clicking either icon will toggle the visibility of that object.
 
-[Image: /docs/static/attachments/44960839]
+![Image](https://www.cryengine.com/docs/static/attachments/44960839)
 
 *
 Toggling visibility
@@ -1985,7 +1939,7 @@ Holding
  CTRL
 **
  while clicking upon the
-[Image: /docs/static/attachments/35400842]
+![Image](https://www.cryengine.com/docs/static/attachments/35400842)
  icon of an object, layer, or folder in the Level Explorer, hides all items from the level except the currently selected one. Doing the same again reverses this effect.
 
 -
@@ -1994,28 +1948,28 @@ Holding
 ALT
 **
  while clicking upon the
-[Image: /docs/static/attachments/35400842]
+![Image](https://www.cryengine.com/docs/static/attachments/35400842)
  or
-[Image: /docs/static/attachments/44960487]
+![Image](https://www.cryengine.com/docs/static/attachments/44960487)
  icon of a layer or folder will also make visible all the layers and objects they contain.
 
 ##
 Locking Objects, Layers and Folders
 
 When an object is 'locked', it cannot be edited. The
-[Image: /docs/static/attachments/44960842]
+![Image](https://www.cryengine.com/docs/static/attachments/44960842)
  column indicates if an object, layer or folder has been locked, as shown in the image below.
 
-[Image: /docs/static/attachments/44960843]
+![Image](https://www.cryengine.com/docs/static/attachments/44960843)
 
 *
 Lock column
 *
 
 A locked object is indicated by the
-[Image: /docs/static/attachments/44960484]
+![Image](https://www.cryengine.com/docs/static/attachments/44960484)
  icon, while
-[Image: /docs/static/attachments/44958434]
+![Image](https://www.cryengine.com/docs/static/attachments/44958434)
  indicates an unlocked object. Clicking either icon will unlock/lock the corresponding object.
 
 -
@@ -2027,7 +1981,7 @@ Holding
 Ctrl
 **
  while clicking upon the
-[Image: /docs/static/attachments/44958434]
+![Image](https://www.cryengine.com/docs/static/attachments/44958434)
  icon of an object, layer or folder in the Level Explorer locks all items in the level except the currently selected one. Doing the same again reverses this effect.
 
 -
@@ -2045,9 +1999,7 @@ Ctrl
 Shift
 **
  while clicking on the target object. For more information on object snapping and alignment, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44960236](
-Snap & Alignment
-)
+[Snap & Alignment](../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Snap%20%26%20Alignment.md)
  documentation.
 
 ##
@@ -2057,12 +2009,10 @@ Objects can be moved to an existing group or layer by dragging and dropping them
 
 Dragging an object onto another object however causes both objects to be linked; if both the dragged and target objects are Entity objects such that the former has bones however, a menu is displayed to allow for linking to a specific bone of the target object. More on linking objects can be found
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866230](
-here
-)
+[here](Level%20Explorer/Object%20Linking.md)
 .
 
-[Image: /docs/static/attachments/36842411]
+![Image](https://www.cryengine.com/docs/static/attachments/36842411)
 
 Alternatively, objects may be moved between layers by selecting them in the Level Explorer and pressing
 **
@@ -2074,31 +2024,15 @@ L
 **
 ; this brings up a separate Select Layer window, allowing users to search for and select the object's destination layer.
 
-[Image: /docs/static/attachments/36838550]
+![Image](https://www.cryengine.com/docs/static/attachments/36838550)
 
 Note that for the Select Layer window to appear, at least one other layer must exist besides the Main layer.
 
-[#menu](
-Menu
-)
-[#the-list-view](
-The List View
-)
-[#search-bar](
-Search Bar
-)
-[#filter](
-Filter
-)
-[#object-and-layer-context-menus](
-Object and Layer Context Menus
-)
-[#hiding-objects-layers-and-folders](
-Hiding Objects, Layers and Folders
-)
-[#locking-objects-layers-and-folders](
-Locking Objects, Layers and Folders
-)
-[#object-linking-in-the-level-explorer](
-Object Linking in the Level Explorer
-)
+[Menu](#menu)
+[The List View](#the-list-view)
+[Search Bar](#search-bar)
+[Filter](#filter)
+[Object and Layer Context Menus](#object-and-layer-context-menus)
+[Hiding Objects, Layers and Folders](#hiding-objects-layers-and-folders)
+[Locking Objects, Layers and Folders](#locking-objects-layers-and-folders)
+[Object Linking in the Level Explorer](#object-linking-in-the-level-explorer)

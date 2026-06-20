@@ -279,9 +279,7 @@ Shader Generation Parameters
 .
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450125](
-Parallax Occlusion Mapping
-)
+[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -296,9 +294,9 @@ Indirect Bounce Color
  |
 Modulates the bounced light from Global Illumination.
 
-[Image: /docs/static/attachments/28898559]
+![Image](https://www.cryengine.com/docs/static/attachments/28898559)
 
-[Image: /docs/static/attachments/28898558]
+![Image](https://www.cryengine.com/docs/static/attachments/28898558)
 
 Left: Default 136,136,136 setting. Right: 0,255,0 setting. Both exaggerated.
 
@@ -347,9 +345,7 @@ Shader Generation Parameters
 .
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450125](
-Parallax Occlusion Mapping
-)
+[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -373,9 +369,7 @@ Shader Generation Parameters
 **
 .
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450125](
-Parallax Occlusion Mapping
-)
+[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -400,9 +394,9 @@ Skin
 **
 . 3-4 are reserved for future use.
 
-[Image: /docs/static/attachments/28898550]
+![Image](https://www.cryengine.com/docs/static/attachments/28898550)
 
-[Image: /docs/static/attachments/28898549]
+![Image](https://www.cryengine.com/docs/static/attachments/28898549)
 
 Left: SSS disabled value of 0. Right: SSS value at 0.99 to simulate Marble scattering.
 
@@ -429,9 +423,7 @@ Detail mapping
 Add micro and macro details to the material surface.
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449936](
-Detail Mapping - Shader Generation Params
-)
+[Detail Mapping - Shader Generation Params](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -476,9 +468,7 @@ Decal
 By activating a decal, you can avoid typical problems like flickering and z-fighting when faces are close to each other.
 
 The decal position will be adjusted and the render priority changed. For more information please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869871](
-Decals
-)
+[Decals](../../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Misc%20Objects/Decal%20Entity.md)
 .
 
  |
@@ -498,9 +488,7 @@ Texture Maps
 **
  heading.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450125](
-Parallax Occlusion Mapping
-)
+[Parallax Occlusion Mapping](../Shader%20Features%20(Shader%20Generation%20Params)/Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -576,9 +564,5 @@ Texture Maps
 
  |
 
-[#shader-parameters](
-Shader Parameters
-)
-[#shader-generation-parameters](
-Shader Generation Parameters
-)
+[Shader Parameters](#shader-parameters)
+[Shader Generation Parameters](#shader-generation-parameters)

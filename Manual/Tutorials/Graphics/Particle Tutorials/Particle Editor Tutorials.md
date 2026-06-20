@@ -7,17 +7,13 @@
 
 ## Child Pages
 
-- [Tutorial - Particle Editor Part 1 - Introduction to Particle Effects](Particle Editor Tutorials/Tutorial - Particle Editor Part 1 - Introduction to Particle Effects.md)
-- [Tutorial - Particle Editor Part 2 - Domains and Basic Modifiers](Particle Editor Tutorials/Tutorial - Particle Editor Part 2 - Domains and Basic Modifiers.md)
+- [Tutorial - Particle Editor Part 1 - Introduction to Particle Effects](Particle%20Editor%20Tutorials/Tutorial%20-%20Particle%20Editor%20Part%201%20-%20Introduction%20to%20Particle%20Effects.md)
+- [Tutorial - Particle Editor Part 2 - Domains and Basic Modifiers](Particle%20Editor%20Tutorials/Tutorial%20-%20Particle%20Editor%20Part%202%20-%20Domains%20and%20Basic%20Modifiers.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/65437722](
-Tutorial - Particle Editor Part 1 - Introduction to Particle Effects
-)
+[Tutorial - Particle Editor Part 1 - Introduction to Particle Effects](Particle%20Editor%20Tutorials/Tutorial%20-%20Particle%20Editor%20Part%201%20-%20Introduction%20to%20Particle%20Effects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/65437724](
-Tutorial - Particle Editor Part 2 - Domains and Basic Modifiers
-)
+[Tutorial - Particle Editor Part 2 - Domains and Basic Modifiers](Particle%20Editor%20Tutorials/Tutorial%20-%20Particle%20Editor%20Part%202%20-%20Domains%20and%20Basic%20Modifiers.md)

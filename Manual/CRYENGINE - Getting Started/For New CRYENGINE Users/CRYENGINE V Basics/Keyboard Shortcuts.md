@@ -25,7 +25,7 @@ Edit -> Keyboard Shortcuts
 **
 from the Menu Bar of the main Sandbox Editor interface.
 
-[Image: /docs/static/attachments/44965613]
+![Image](https://www.cryengine.com/docs/static/attachments/44965613)
 
 Categories within CRYENGINE such as Designer, Edit Mode, Editor, General and Level, are displayed in the Keyboard Shortcuts window. The Actions, Commands and Shortcuts that apply to each category can
 be made visible/invisible through expandable/collapsible menus - this follows a conventional right pointing arrow to indicate a collapsed set of Actions and a downward pointing arrow to indicate that the Actions are in an expanded state.
@@ -127,7 +127,7 @@ Reset All
 
 -
 When you have made your selection(s) click on the Terrain Painter title - this will save your change (see screenshot below).
-[Image: /docs/static/attachments/44965612]
+![Image](https://www.cryengine.com/docs/static/attachments/44965612)
 
 10. Your new customized shortcut is saved to your
 **
@@ -145,9 +145,7 @@ Appdata
 **
  folder is a hidden folder. See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308628](
-Restoring Default Settings
-)
+[Restoring Default Settings](Customizing%20CRYENGINE%20Sandbox/Restoring%20Default%20Settings.md)
 **
  to learn how to make this folder visible.
 
@@ -194,7 +192,7 @@ Export
  button to
 save the file in the folder that you selected in step 2.
 
-[Image: /docs/static/attachments/44965611]
+![Image](https://www.cryengine.com/docs/static/attachments/44965611)
 
 ##
 Importing
@@ -231,7 +229,7 @@ Import
 Appdata
 **
  folder
-[Image: /docs/static/attachments/44965610]
+![Image](https://www.cryengine.com/docs/static/attachments/44965610)
 
 ##
 General Notes on Customizing and Saving Files
@@ -355,24 +353,10 @@ Clicking on the notification that pops up when you take the screenshot will open
 
  |
 
-[#keyboard-shortcuts-window](
-Keyboard Shortcuts Window
-)
-[#customization](
-Customization
-)
-[#customizing-a-keyboard-shortcut](
-Customizing a Keyboard Shortcut
-)
-[#exporting](
-Exporting
-)
-[#importing](
-Importing
-)
-[#general-notes-on-customizing-and-saving-files](
-General Notes on Customizing and Saving Files
-)
-[#f-keys](
-F-keys
-)
+[Keyboard Shortcuts Window](#keyboard-shortcuts-window)
+[Customization](#customization)
+[Customizing a Keyboard Shortcut](#customizing-a-keyboard-shortcut)
+[Exporting](#exporting)
+[Importing](#importing)
+[General Notes on Customizing and Saving Files](#general-notes-on-customizing-and-saving-files)
+[F-keys](#f-keys)

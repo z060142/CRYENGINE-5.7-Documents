@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Character Authoring in 3ds Max](DCC Setup (animated)/Character Authoring in 3ds Max.md)
-- [Character Authoring in Maya](DCC Setup (animated)/Character Authoring in Maya.md)
+- [Character Authoring in 3ds Max](DCC%20Setup%20(animated)/Character%20Authoring%20in%203ds%20Max.md)
+- [Character Authoring in Maya](DCC%20Setup%20(animated)/Character%20Authoring%20in%20Maya.md)
 
 ## Content
 
@@ -21,33 +21,23 @@ By following these tutorials, users will learn how to create a character designe
 Example Files
 
 Before continuing, you will want to download the
-[/docs/static/attachments/23994400](
-Agent.rar
-)
+[Agent.rar](/docs/static/attachments/23994400)
 . This file contains everything the topics below will discuss.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307994](
-Character Authoring in 3ds Max
-)
+[Character Authoring in 3ds Max](DCC%20Setup%20(animated)/Character%20Authoring%20in%203ds%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307995](
-Character Authoring in Maya
-)
+[Character Authoring in Maya](DCC%20Setup%20(animated)/Character%20Authoring%20in%20Maya.md)
 
 ##
 File Layout
 
 Naming of bipedal hierarchies does not need to match the 3ds Max organizational method. This is only necessary if you want to make use of the existing animations. There are a few other things already preset with the Bip naming conventions but they can be changed in the file in which you define the parameters for IK, the .chrparams file. There are some hard coded joints as well which go into detail here:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308004](
-Leg and Foot Ground Alignment
-)
+[Leg and Foot Ground Alignment](Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams)/Leg%20and%20Foot%20Ground%20Alignment.md)
 
 For the most part, a .chr is the main CRYENGINE character file format. There is also .skin which is used for skinned meshes. Whatever skinned attachments you have will be attached to the .chr in the Character Editor and from there a .cdf file will be saved which will be used as the main character file. For a complete overview of the file formats used in CRYENGINE, see:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959591](
-Art Asset File Types Reference
-)
+[Art Asset File Types Reference](../../../Art%20Asset%20File%20Types.md)
 .
 
 The following is a brief explanation of the main terminology which will be used when creating characters. These terms consist of render meshes (.skin attachments), a general animated skeleton (.chr files), and the physics skeleton (included in the .chr file).
@@ -59,7 +49,7 @@ These are the mapped character geometries that you see in the game which will be
 
 -
 These are the assets which can have LODs (Level of Detail) meshes with a lower polygonal resolution that automatically fade in based on your distance from the character in the game world.
-[Image: /docs/static/attachments/23994402]
+![Image](https://www.cryengine.com/docs/static/attachments/23994402)
 
 Things to keep in mind before you skin the render mesh to a rig:
 
@@ -92,7 +82,7 @@ The geometry of this skeleton is used for hit detection and physics in the live 
 
 -
 The materials applied to the geometry are used for hit detection, to tell the engine which part of the character you have hit.
-[Image: /docs/static/attachments/23994412]
+![Image](https://www.cryengine.com/docs/static/attachments/23994412)
 
 Here are some general tips to follow when setting up your rig:
 
@@ -147,9 +137,7 @@ Here are some general tips to keep in mind while preparing this skeleton:
 
 -
 Each node in this skeleton also stores physical properties for it's corresponding bone in the deforming hierarchy; this is stored in the phys bone's IK properties. Regardless of the program you are working in to export it this skeleton is crucial for an effective and clean ragdoll simulation. For more information on ParentFrames see:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307978](
-IK, Rotation, Dampening, and ParentFrames
-)
+[IK, Rotation, Dampening, and ParentFrames](../Basics%20(animated)/Physics%20(animated)/Ragdoll.md)
 
 -
 Since the live skeleton already contains physical geometry; this skeleton will be most likely be a duplicate of those shapes.
@@ -167,21 +155,9 @@ This is the skeleton that deforms the render meshes in the event of ragdoll simu
 
 Each node in this skeleton also stores physical properties for its corresponding bone in the deforming hierarchy, this is stored in the phys bone's IK properties.
 
-[#example-files](
-Example Files
-)
-[#file-layout](
-File Layout
-)
-[#the-render-mesh-skin-files](
-The Render Mesh (.skin files)
-)
-[#live-deforming-skeleton-chr-files](
-Live Deforming Skeleton (.chr files)
-)
-[#phys-skeleton](
-Phys Skeleton
-)
-[#for-pre-35-builds](
-For Pre-3.5 Builds
-)
+[Example Files](#example-files)
+[File Layout](#file-layout)
+[The Render Mesh (.skin files)](#the-render-mesh-skin-files)
+[Live Deforming Skeleton (.chr files)](#live-deforming-skeleton-chr-files)
+[Phys Skeleton](#phys-skeleton)
+[For Pre-3.5 Builds](#for-pre-35-builds)

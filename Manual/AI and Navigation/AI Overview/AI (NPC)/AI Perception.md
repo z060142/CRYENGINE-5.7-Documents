@@ -7,15 +7,13 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933200]
+![Image](https://www.cryengine.com/docs/static/attachments/29933200)
 
 ##
 Overview
 
 In this tutorial we're going to take a look at how to setup custom AI perceptions with some basic level markup and
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048897](
-Flow Graph
-)
+[Flow Graph](/docs/static/engines/cryengine-3/categories/1114113/pages/1048897)
 .
 
 Before we begin, it's worth clarifying that CRYENGINE's AI system has two main perceptions: Audio, being what the AI can hear and Visual, being what the AI can see.
@@ -25,15 +23,9 @@ There are additional auxiliary systems such as 'bullet rain' which is the percep
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#flow-graph](
-Flow Graph
-)
-[#ai-anchors](
-AI Anchors
-)
+[Sections](#sections)
+[Flow Graph](#flow-graph)
+[AI Anchors](#ai-anchors)
 
 ##
 Flow Graph
@@ -51,9 +43,7 @@ AI:AIGlobalPerceptionScale
 , which can also be filtered down by Factions.
 
 For now we'll stick with the first node as we're just going to deal with one AI character. Go ahead and
-[/docs/static/engines/cryengine-3/categories/1114113/pages/11239886](
-setup your level ready for AI
-)
+[setup your level ready for AI](/docs/static/engines/cryengine-3/categories/1114113/pages/11239886)
  and drop an AI character into the level.
 
 Add your AI as the node input and add a basic input key trigger as follows:
@@ -91,9 +81,7 @@ Depending on your scene, you'd probably need to Logic:Gate some of those conditi
 AI Anchors
 
 Another method of controlling AI perception is by the use of
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048823](
-AI Anchors
-)
+[AI Anchors](/docs/static/engines/cryengine-3/categories/1114113/pages/1048823)
 . Unlike the above Flow Graph method which relies on logic, this method relies on object placement and level markup.
 
 Add an AI Anchor into your level via

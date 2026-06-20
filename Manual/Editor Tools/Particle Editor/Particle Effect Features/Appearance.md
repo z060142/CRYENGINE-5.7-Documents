@@ -47,9 +47,7 @@ Emissive (kcd/m2)
 Specifies the amount of light that a particle can emit. This value is measured in kcd/m
 2
  (kilo-candela per square meter) or knits (kilo-nits). This setting only affects apparent brightness on the surface and does not actually cast light onto the scene. This feature can be paired with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868283](
-Light
-)
+[Light](Light.md)
  for the full effect.
  |
 
@@ -646,21 +644,9 @@ Appearance
 **
  category are shared and supported by both.
 
-[#lighting](
-Lighting
-)
-[#material](
-Material
-)
-[#opacity](
-Opacity
-)
-[#texture-tiling](
-Texture Tiling
-)
-[#visibility](
-Visibility
-)
-[#gpu-support](
-GPU Support
-)
+[Lighting](#lighting)
+[Material](#material)
+[Opacity](#opacity)
+[Texture Tiling](#texture-tiling)
+[Visibility](#visibility)
+[GPU Support](#gpu-support)

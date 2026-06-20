@@ -22,7 +22,7 @@ Tools → Level Editor → Level Settings
 **
 . It consists of two different tabs:
 
-[Image: /docs/static/attachments/44967826]
+![Image](https://www.cryengine.com/docs/static/attachments/44967826)
 
 *
 Level Settings
@@ -33,7 +33,7 @@ Menu
 
 Can be accessed via
 the
-[Image: /docs/static/attachments/44107797]
+![Image](https://www.cryengine.com/docs/static/attachments/44107797)
  icon
  on the top right corner of the Level Settings panel. When clicked, it would reveal the dropdown menu with the following options:
 
@@ -232,9 +232,7 @@ Height Map AO
 Provides an extremely efficient, yet highly approximate large-scale ambient occlusion solution for outdoor environments.
 
 For details, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215324](
-Height Map Based Ambient Occlusion
-)
+[Height Map Based Ambient Occlusion](../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Height%20Map%20Based%20Ambient%20Occlusion.md)
 .
 
  |
@@ -328,9 +326,7 @@ Offline Procedural
 Offline Procedural
 **
  option, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865590](
-Vegetation Editor
-)
+[Vegetation Editor](../Vegetation%20Editor.md)
  page.
 
  |
@@ -425,9 +421,7 @@ in Flow Graph Nodes list.
 Vol Fog Shadows
 
 Volumetric Fog values can be tweaked in the Environment Editor. For more information about Volumetric Fog, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215326](
-Volumetric Fog
-)
+[Volumetric Fog](../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Volumetric%20Fog.md)
  section
 .
 
@@ -759,7 +753,7 @@ Allows per-level override for the size of shared render target for Flash materia
 ##
 Environment Presets Tab
 
-[Image: /docs/static/attachments/36848896]
+![Image](https://www.cryengine.com/docs/static/attachments/36848896)
 
 The Environment Presets tab is used to manage the list of environment assets that have been introduced to a level. Setting an environment asset as default, by either dragging and dropping it into the Viewport from the Asset browser or choosing the
 **
@@ -826,12 +820,6 @@ Remove All
 **
 on the Presets Dropdown Menu.
 
-[#menu](
-Menu
-)
-[#settings-tab](
-Settings Tab
-)
-[#environment-presets-tab](
-Environment Presets Tab
-)
+[Menu](#menu)
+[Settings Tab](#settings-tab)
+[Environment Presets Tab](#environment-presets-tab)

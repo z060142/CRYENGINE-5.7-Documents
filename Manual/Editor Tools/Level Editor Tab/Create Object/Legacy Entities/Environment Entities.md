@@ -151,9 +151,7 @@ Congratulations, you've just saved half the memory!
 LightningArc
 
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048728](
-Lightning Arc
-)
+[Lightning Arc](/docs/static/engines/cryengine-3/categories/1114113/pages/1048728)
  for more information.
 
 ##
@@ -429,9 +427,7 @@ MistAmount = 1000 (background rocks)
 Rain Particle Effects
 
 Drag and drop the ParticleEffect entity into your level from the Particle tab of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869094](
-DataBase View
-)
+[DataBase View](../../../DataBase%20View.md)
 :
 **
 weather.Rain.space_loop
@@ -508,9 +504,7 @@ Faction
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796924](
-AI Entities
-)
+[AI Entities](AI%20Entities.md)
  for more information.
  |
 
@@ -680,9 +674,7 @@ The tornadoes moving speed can be specified here.
  |
 
 It is also possible to setup a Flow Graph where you can control the path of the tornado using tag points and the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450618](
-MoveEntityTo
-)
+[MoveEntityTo](../../../Flow%20Graph/Flow%20Graph%20Node%20Reference/Movement%20Nodes.md)
  node.
 
 ##
@@ -979,47 +971,21 @@ RandomOffsetY
 
 In this example the WaterRipplesGenerator is used to enhance the sprinkler particle effects in the room:
 
+[Embed: https://www.youtube.com/watch?v=pHFHkg1HVGY]
 For comparison: The same room again with only the particles and without the WaterRipplesGenerator entity:
 
-[#door-panel-supply](
-Door Panel / Supply
-)
-[#parameters](
-Parameters
-)
-[#setup](
-Setup
-)
-[#lightningarc](
-LightningArc
-)
-[#minefield](
-MineField
-)
-[#rain](
-Rain
-)
-[#rain-entity](
-Rain Entity
-)
-[#rain-particle-effects](
-Rain Particle Effects
-)
-[#shake](
-Shake
-)
-[#smartmine](
-SmartMine
-)
-[#tornado](
-Tornado
-)
-[#vicinitydependentobjectmover](
-VicinityDependentObjectMover
-)
-[#waterripplesgenerator](
-WaterRipplesGenerator
-)
-[#examples](
-Examples
-)
+[Embed: https://www.youtube.com/watch?v=o2oGfxL8pMo]
+[Door Panel / Supply](#door-panel-supply)
+[Parameters](#parameters)
+[Setup](#setup)
+[LightningArc](#lightningarc)
+[MineField](#minefield)
+[Rain](#rain)
+[Rain Entity](#rain-entity)
+[Rain Particle Effects](#rain-particle-effects)
+[Shake](#shake)
+[SmartMine](#smartmine)
+[Tornado](#tornado)
+[VicinityDependentObjectMover](#vicinitydependentobjectmover)
+[WaterRipplesGenerator](#waterripplesgenerator)
+[Examples](#examples)

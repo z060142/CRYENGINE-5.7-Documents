@@ -7,15 +7,9 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27593405](
-[Image: /docs/static/attachments/44971011]
-1 - Gameplay Setup
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971011) 1 - Gameplay Setup](/docs/static/engines/cryengine-5/categories/23756816/pages/27593405)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450268](
-[Image: /docs/static/attachments/44971013]
-3 - Creating our Token
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971013) 3 - Creating our Token](/docs/static/engines/cryengine-5/categories/23756816/pages/29450268)
 
 ##
 What is a GameToken?
@@ -65,12 +59,6 @@ GraphToken
 **
  variables directly to the same dropdown as the game tokens for selection. The benefit of Game Tokens is that you can save these out to an external XML to be read and not risk your data being lost for reference. However, in most cases you won't need to set up GameTokens outside of a level.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27593405](
-[Image: /docs/static/attachments/44971011]
-1 - Gameplay Setup
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971011) 1 - Gameplay Setup](/docs/static/engines/cryengine-5/categories/23756816/pages/27593405)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450268](
-[Image: /docs/static/attachments/44971013]
-3 - Creating our Token
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971013) 3 - Creating our Token](/docs/static/engines/cryengine-5/categories/23756816/pages/29450268)

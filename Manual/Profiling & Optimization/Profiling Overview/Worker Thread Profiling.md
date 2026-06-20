@@ -26,9 +26,7 @@ Profile 5
 -
 For a more detailed overview used the
 **
-[/docs/static/engines/cryengine-3/categories/1638401/pages/9220332](
-Statoscope
-)
+[Statoscope](/docs/static/engines/cryengine-3/categories/1638401/pages/9220332)
 **
  tool which can be found in the
 *
@@ -47,9 +45,7 @@ Profile5
 
 The feature should be used to get a rough overview. For a more detailed per frame analysis of data please refer to using the
 **
-[/docs/static/engines/cryengine-3/categories/1638401/pages/9220332](
-Statoscope
-)
+[Statoscope](/docs/static/engines/cryengine-3/categories/1638401/pages/9220332)
 **
  tool.
 
@@ -176,9 +172,7 @@ Statoscope
  offers live as well as offline analysis of data on a per frame basis.
 
 Link to the
-[/docs/static/engines/cryengine-3/categories/1638401/pages/9220332](
-Statoscope Guide
-)
+[Statoscope Guide](/docs/static/engines/cryengine-3/categories/1638401/pages/9220332)
  where more information about the tool can be found.
 
 ##
@@ -358,24 +352,10 @@ Total number of jobs executed.
  |
  |
 
-[#profile-5](
-Profile 5
-)
-[#how-to-use](
-How to use:
-)
-[#features](
-Features:
-)
-[#limitations](
-Limitations
-)
-[#statoscope](
-Statoscope
-)
-[#how-to-use](
-How to use:
-)
-[#features](
-Features:
-)
+[Profile 5](#profile-5)
+[How to use:](#how-to-use)
+[Features:](#features)
+[Limitations](#limitations)
+[Statoscope](#statoscope)
+[How to use:](#how-to-use)
+[Features:](#features)

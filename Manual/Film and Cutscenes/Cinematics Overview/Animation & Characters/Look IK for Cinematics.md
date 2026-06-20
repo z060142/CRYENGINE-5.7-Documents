@@ -24,9 +24,7 @@ Flowgraph
 Trackview
 
 To use the LookIK feature in Trackview, you have to add the track "LookAt" to the Character you want to use the LookIK at. Then, choose your target Entity from the dropdown. To look at the player choose the currently active camera in camera controlled scenes, otherwise use _LocalPlayer. "Target Smooth Time" is the time the character interpolates to and between LookAt keys (good values for eyes are 0.1-0.2, for head 0.3-0.5, fullbody 0.7-0.9). Last option to set is the "Look Pose" which defines what part of the body the character aligns to the target. The type of look poses available is defined in the character used. To learn more about the process of creating look poses see Asset Creation Doc, chapter
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310769](
-Look IK
-)
+[Look IK](/docs/static/engines/cryengine-3/categories/1114113/pages/1310769)
 .
 
 You may create as many LookAt keys as you want. As soon as the Timeline hits one key the character will align himself to the new setup. If you want to reset LookIK altogether just place an empty key.
@@ -42,9 +40,5 @@ Animations:LookAt
 
 You probably want to use a ProximityTrigger to make a character looking at the player when he is close, but every other logic is also perfectly possible of course!
 
-[#trackview](
-Trackview
-)
-[#flowgraph](
-Flowgraph
-)
+[Trackview](#trackview)
+[Flowgraph](#flowgraph)

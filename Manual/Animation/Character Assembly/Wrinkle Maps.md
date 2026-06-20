@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933229]
+![Image](https://www.cryengine.com/docs/static/attachments/29933229)
 
 ##
 Wrinkle Map Setup in CRYENGINE
@@ -40,27 +40,27 @@ You may have to save all, exit and restart the Sandbox Editor and then re-open y
 -
 Wrinkle Map effect is not yet supported in the Viewport of the Character Tool (CRYENIGINE 3.8.4). Hence, you will need to create a new demo level or use an existing demo level in the Sandbox Editor:
 
-[Image: /docs/static/attachments/23998834]
+![Image](https://www.cryengine.com/docs/static/attachments/23998834)
 
 -
 You will need to place an "Anim Entity" into the scene. Drag and click the "AnimObject" from the "RollupBar" into the scene:
 
-[Image: /docs/static/attachments/23998835]
+![Image](https://www.cryengine.com/docs/static/attachments/23998835)
 
 -
 Replace the windsock.cga in "Model" with the "sdk_wrinkle_tutorial.cdf":
 
-[Image: /docs/static/attachments/23998836]
+![Image](https://www.cryengine.com/docs/static/attachments/23998836)
 
 -
 Inside the "AnimObject" properties, scroll down to "Rendering" and tick the checkbox for "WrinkleMap". Also, check that "Animation" is set to "default" and the "Loop" checkbox is checked (green areas in the screenshot below). Finally, when you have exported the name of your animation as "default", this will save you from typing in the right name:
 
-[Image: /docs/static/attachments/23998837]
+![Image](https://www.cryengine.com/docs/static/attachments/23998837)
 
 -
 Finally, you now have to create the wrinkle map material. Go to the Material Editor and set up the material you have exported for the character ("sdk_wrinkle.skin"). Some options will open up first, if you have already set the "Humanskin" shader and added the "Wrinkle Normal Map" and the "Wrinkle Mask Texture" in the two "Custom" slots of the "Texture Maps" section!:
 
-[Image: /docs/static/attachments/23998838]
+![Image](https://www.cryengine.com/docs/static/attachments/23998838)
 
 -
 You might want to tweak the "Specular" (map) settings and "Smoothness" if you want to augment the bumps.
@@ -70,9 +70,9 @@ This is not a tutorial to the "Humanskin" Shader. Please look for this very spec
 -
 In addition, you should add some light. Add a CRYENGINE "EnvironmentProbe" and change the "Time Of Day" to better visualize the wrinkle map effect, otherwise the character head mesh might be badly lit:
 
-[Image: /docs/static/attachments/23998840]
+![Image](https://www.cryengine.com/docs/static/attachments/23998840)
  |
-[Image: /docs/static/attachments/23998841]
+![Image](https://www.cryengine.com/docs/static/attachments/23998841)
  |
 
 **

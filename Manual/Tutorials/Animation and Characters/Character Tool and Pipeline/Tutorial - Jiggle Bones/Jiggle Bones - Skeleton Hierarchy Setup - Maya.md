@@ -16,9 +16,7 @@ Tutorial Files
 If you want some files for reference
 , please download and unzip the tutorial files as described on
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959301](
-this page
-)
+[this page](../Tutorial%20-%20Jiggle%20Bones.md)
 **
 .
 
@@ -30,24 +28,16 @@ Before you continue with this tutorial, make sure to have read and understood th
 -
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963469](
-How to Install CryMaxTools
-)
+[How to Install CryMaxTools](../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-The Basic CRYENGINE 3dsMax Workflow
-)
+[The Basic CRYENGINE 3dsMax Workflow](../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-3dsMax Unit Scale to Match up With CRYENGINE Unit System
-)
+[3dsMax Unit Scale to Match up With CRYENGINE Unit System](../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Setting Up the Maya Scene
@@ -149,7 +139,7 @@ File: ponytail_skeleton_start.ma
 *
 )
 
-[Image: /docs/static/attachments/25501476]
+![Image](https://www.cryengine.com/docs/static/attachments/25501476)
 
 *
 Pic1: A clean named joint hierarchy with all local axis correctly orientated
@@ -158,7 +148,7 @@ Pic1: A clean named joint hierarchy with all local axis correctly orientated
 -
 Make sure your "Joint Orient" attribute is all zero'd out, except the very first joint. That one has a -90 deg value in its Z-Axis.
 
-[Image: /docs/static/attachments/25501477]
+![Image](https://www.cryengine.com/docs/static/attachments/25501477)
 
 *
 Pic2: Image showing the parent joint of the pony tail hierarchy and its "Joint Orient" attribute
@@ -177,7 +167,7 @@ File: ponytail_skeleton_step01.ma
 *
 )
 
-[Image: /docs/static/attachments/25501478]
+![Image](https://www.cryengine.com/docs/static/attachments/25501478)
 
 *
 Pic3: Shown are the creation parameters for the dummy pony tail geometry. Nothing to show off your amazing modeling skills ;-) !
@@ -200,7 +190,7 @@ File: ponytail_skeleton_step02.ma
 -
 As mentioned before with the pony tail joint hierarchy, you should rename the joints and check them for a proper local axis rotation. Display the joints Local Rotation Axis and use the "Orient Joint" tool.
 
-[Image: /docs/static/attachments/25501479]
+![Image](https://www.cryengine.com/docs/static/attachments/25501479)
 
 *
 Pic4: Image showing the orientation of the primary skeleton root joint and the attachment joint of the pony tail
@@ -216,7 +206,7 @@ File:  ponytail_skeleton_step03.ma
 )
 
 *
-[Image: /docs/static/attachments/25501480]
+![Image](https://www.cryengine.com/docs/static/attachments/25501480)
 
 Pic5: Primary skeleton and its to be bound geometry, a dummy triangle
 
@@ -237,7 +227,7 @@ File: ponytail_skeleton_step04.ma
 *
 )
 
-[Image: /docs/static/attachments/25501481]
+![Image](https://www.cryengine.com/docs/static/attachments/25501481)
 
 *
 Pic6: Smooth bind the pony tail geometry
@@ -267,7 +257,7 @@ What joints to include in your extending/secondary skeleton
 
 Or you just include the complete base/primary skeleton hierarchy you want to extend.
 
-[Image: /docs/static/attachments/25501482]
+![Image](https://www.cryengine.com/docs/static/attachments/25501482)
 
 *
 Pic7: Duplicate the primary skeleton for parenting the pony tail skeleton to it
@@ -280,7 +270,7 @@ Pic7: Duplicate the primary skeleton for parenting the pony tail skeleton to it
 -
 Parent the pony tail skeleton to the last joint of the duplicated hierarchy.
 
-[Image: /docs/static/attachments/25501483]
+![Image](https://www.cryengine.com/docs/static/attachments/25501483)
 
 *
 Pic8: Include the primary/base skeleton into the (secondary) skeleton of the pony tail
@@ -289,7 +279,7 @@ Pic8: Include the primary/base skeleton into the (secondary) skeleton of the pon
 -
 This is how the two joint hierarchies have to look like for export:
 
-[Image: /docs/static/attachments/25501484]
+![Image](https://www.cryengine.com/docs/static/attachments/25501484)
 
 *
 Pic9: Remember that we have duplicate names issue for root joints of the primary and secondary skeleton. We must swap their names each time we export or put the them in two Maya scene files and export from there:
@@ -298,7 +288,7 @@ Pic9: Remember that we have duplicate names issue for root joints of the primary
 -
 Before we go to the export steps, we still have to finish the base *.chr skeleton. The primary skeleton needs to be bound to the first deforming joint of the hierarchy: here it is the second joint in hierarchy, the pelvis joint. Select the triangle dummy mesh and the pelvis joint and use Maya's "Bind Skin" tool.
 
-[Image: /docs/static/attachments/25501485]
+![Image](https://www.cryengine.com/docs/static/attachments/25501485)
 
 *
 Pic10: Bind triangle dummy to target primary/base skeleton, the CHR skeleton:
@@ -320,7 +310,7 @@ File: ponytail_skeleton_step06.ma
 )
 
 *
-[Image: /docs/static/attachments/25501486]
+![Image](https://www.cryengine.com/docs/static/attachments/25501486)
 
 Pic11:
 *
@@ -339,7 +329,7 @@ File: ponytail_skeleton_final.ma
 *
 )
 
-[Image: /docs/static/attachments/25501487]
+![Image](https://www.cryengine.com/docs/static/attachments/25501487)
 
 *
 Pic12: This is what the final hierarchy looks like
@@ -357,7 +347,7 @@ cryExportNodes
 **
  by using the "Tools" icon from the installed Crytek shelf.
 
-[Image: /docs/static/attachments/25501488]
+![Image](https://www.cryengine.com/docs/static/attachments/25501488)
 
 *
 Pic13: Set up the cryExportNode of the base character, in our case called "ponytail_SKEL"
@@ -366,7 +356,7 @@ Pic13: Set up the cryExportNode of the base character, in our case called "ponyt
 -
 For the the pony tail geometry, the poly cylinder, we will export it as *.SKIN attachment to CRYENGINE's Character Tool. Add the cryExportNode according to the image below:
 
-[Image: /docs/static/attachments/25501489]
+![Image](https://www.cryengine.com/docs/static/attachments/25501489)
 
 *
 Pic14: Set up the cryExportNode of the extending pony tail mesh, we name it "ponytail_MSH":
@@ -377,7 +367,7 @@ Material setup for CRYENGINE in Maya
 
 Use the standard workflow to create a Material Group (a Maya Set) with sub shaders parented to it. We will define some random colors to a standard Blinn shader and add it to a CRYENGINE Material group. Don't forget to export the material to a *.mtl file in your project folder.
 
-[Image: /docs/static/attachments/25501490]
+![Image](https://www.cryengine.com/docs/static/attachments/25501490)
 
 *
 Pic15: Overview of a standard Blinn material applied to a scene ready for CRYENGINE export
@@ -388,7 +378,7 @@ Split the CHR and SKIN cryExportNode into Two Maya Scene Files
 
 We still have the name clashing issue for the root joint of the primary base skeleton (character CHR file) and the secondary extending skeleton (pony tail SKIN file).
 
-[Image: /docs/static/attachments/25501491]
+![Image](https://www.cryengine.com/docs/static/attachments/25501491)
 
 *
 Pic16: When we try to give both nodes the same name, Maya automatically renames one of them, because of clashing names.
@@ -410,7 +400,7 @@ Crytek shelf -> Export
  button to export your *.CHR file.
 
 *
-[Image: /docs/static/attachments/25501492]
+![Image](https://www.cryengine.com/docs/static/attachments/25501492)
 
 Pic17: cryExportNode hierarchy of the animated primary skeleton CHR
 *
@@ -432,7 +422,7 @@ to export your *.SKIN file.
 
 *
 *
-[Image: /docs/static/attachments/25501494]
+![Image](https://www.cryengine.com/docs/static/attachments/25501494)
 
 Pic18: CryExportNode hierarchy for the SKIN attachment
 *
@@ -443,19 +433,9 @@ Pic18: CryExportNode hierarchy for the SKIN attachment
 
 This concludes the Maya section. In the next section we will start CRYENGINE's Character Tool to set up the pony tail.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959430](
-[Image: /docs/static/attachments/24151097]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/24151097)](/docs/static/engines/cryengine-5/categories/23756816/pages/44959430)
 
-[#tutorial-files](
-Tutorial Files
-)
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#setting-up-the-maya-scene](
-Setting Up the Maya Scene
-)
-[#prepare-the-maya-scene-to-export-to-cryengine](
-Prepare the Maya Scene to export to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Setting Up the Maya Scene](#setting-up-the-maya-scene)
+[Prepare the Maya Scene to export to CRYENGINE](#prepare-the-maya-scene-to-export-to-cryengine)

@@ -7,10 +7,10 @@
 
 ## Child Pages
 
-- [System Setup for PBS](Physically Based Shading (PBS)/System Setup for PBS.md)
-- [Texture and Material Setup for PBS](Physically Based Shading (PBS)/Texture and Material Setup for PBS.md)
-- [Physically Based Shading - Debugging](Physically Based Shading (PBS)/Physically Based Shading - Debugging.md)
-- [Creating Textures for Physically Based Shading](Physically Based Shading (PBS)/Creating Textures for Physically Based Shading.md)
+- [System Setup for PBS](Physically%20Based%20Shading%20(PBS)/System%20Setup%20for%20PBS.md)
+- [Texture and Material Setup for PBS](Physically%20Based%20Shading%20(PBS)/Texture%20and%20Material%20Setup%20for%20PBS.md)
+- [Physically Based Shading - Debugging](Physically%20Based%20Shading%20(PBS)/Physically%20Based%20Shading%20-%20Debugging.md)
+- [Creating Textures for Physically Based Shading](Physically%20Based%20Shading%20(PBS)/Creating%20Textures%20for%20Physically%20Based%20Shading.md)
 
 ## Content
 
@@ -65,21 +65,13 @@ Non-metal surfaces have diffuse reflection, with the specular reflection being a
 Related Topics
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959242](
-System Setup for PBS
-)
+[System Setup for PBS](Physically%20Based%20Shading%20(PBS)/System%20Setup%20for%20PBS.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959244](
-Texture and Material Setup for PBS
-)
+[Texture and Material Setup for PBS](Physically%20Based%20Shading%20(PBS)/Texture%20and%20Material%20Setup%20for%20PBS.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959240](
-Physically Based Shading - Debugging
-)
+[Physically Based Shading - Debugging](Physically%20Based%20Shading%20(PBS)/Physically%20Based%20Shading%20-%20Debugging.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307956](
-Lighting Levels Using PBS
-)
+[Lighting Levels Using PBS](../Lighting/Lighting%20Overview/Lighting%20Levels%20Using%20PBS.md)

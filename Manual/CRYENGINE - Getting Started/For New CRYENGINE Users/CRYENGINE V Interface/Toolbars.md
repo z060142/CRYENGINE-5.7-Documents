@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [View Modes ToolBar](Toolbars/View Modes ToolBar.md)
-- [Physics Tool](Toolbars/Physics Tool.md)
+- [View Modes ToolBar](Toolbars/View%20Modes%20ToolBar.md)
+- [Physics Tool](Toolbars/Physics%20Tool.md)
 
 ## Content
 
@@ -19,7 +19,7 @@ The Toolbar menu allows users to quickly and easily access many features of the 
 
 While the majority of the toolbars are self-explanatory some require a more detailed explanation in their use. For those particular toolbars, then sub pages (child) pages of this main Toolbars page have been created.
 
-[Image: /docs/static/attachments/35955270]
+![Image](https://www.cryengine.com/docs/static/attachments/35955270)
 
 The toolbar icon size can also be customized:
 **
@@ -32,7 +32,7 @@ Accessing the Toolbar Context Menu
 
 Right-click on the toolbar (to the right of the last displayed toolbar icon), this will display the Toolbar Context menu. Selecting a toolbar (left-click) will add it to main toolbar. Each toolbar can be moved and can be positioned horizontally at the top of the Editor, vertically on the sides or can be completely un-docked from the Sandbox Editor, for example placed on another monitor.
 
-[Image: /docs/static/attachments/35955268]
+![Image](https://www.cryengine.com/docs/static/attachments/35955268)
 
 ##
 Audio Toolbar
@@ -43,14 +43,14 @@ playing of sounds in the Viewport while editing
 Mute Audio,
 Stop All Sounds, and Refresh Audio.
 
-[Image: /docs/static/attachments/35955267]
+![Image](https://www.cryengine.com/docs/static/attachments/35955267)
 
 ##
 Constraints Toolbar
 
 The Constraints Toolbar contains buttons to constrain movement, rotation and scaling of objects to certain axes: X, Y, Z and XY.
 
-[Image: /docs/static/attachments/35955266]
+![Image](https://www.cryengine.com/docs/static/attachments/35955266)
 
 ##
 Coordinates Toolbar
@@ -62,34 +62,32 @@ View, Parent.
 
 Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308619](
-this page
-)
+[this page](../CRYENGINE%20V%20Basics/Coordinate%20Systems.md)
 **
  for more information about the Coordinate System.
 
-[Image: /docs/static/attachments/35955265]
+![Image](https://www.cryengine.com/docs/static/attachments/35955265)
 
 ##
 Edit Modes Toolbar
 
 The Edit Modes Toolbar contains the standard buttons used for manipulating objects: Select, Move, Rotate and Scale.
 
-[Image: /docs/static/attachments/35955264]
+![Image](https://www.cryengine.com/docs/static/attachments/35955264)
 
 ##
 Game Toolbar
 
 The Game Toolbar contains tools that help you test your level: Switch to Game, Enable Physics/AI, Toggle single-step mode in physics and Do a single step.
 
-[Image: /docs/static/attachments/35955263]
+![Image](https://www.cryengine.com/docs/static/attachments/35955263)
 
 ##
 Layouts Toolbar
 
 The Layouts Toolbr contains buttons to activate different preset layouts: Default Layout, Animation Layout, Cinematic Layout, Level Design Layout and Flow Graph Layout.
 
-[Image: /docs/static/attachments/35955262]
+![Image](https://www.cryengine.com/docs/static/attachments/35955262)
 
 ##
 Physics Toolbar
@@ -102,9 +100,7 @@ Physics Tool
 
 Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24283805](
-this page
-)
+[this page](Toolbars/Physics%20Tool.md)
 **
  for more information about the new
 **
@@ -112,43 +108,39 @@ Physics Tool
 **
 .
 
-[Image: /docs/static/attachments/35955261]
+![Image](https://www.cryengine.com/docs/static/attachments/35955261)
 
 ##
 Selection Toolbar
 
 The Selection Toolbar contains buttons to use when selecting items: Go to Selection, Find, Group, Ungroup, Link, Unlink, Create Prefab, Freeze Selection and Unfreeze All Objects.
 
-[Image: /docs/static/attachments/35955260]
+![Image](https://www.cryengine.com/docs/static/attachments/35955260)
 
 ##
 Standard Toolbar
 
 The standard toolbar contains the standard Save, Open, Export to Engine, and Undo and Redo options.
 
-[Image: /docs/static/attachments/35955259]
+![Image](https://www.cryengine.com/docs/static/attachments/35955259)
 
 ##
 ViewModes Toolbar
 
 For more detailed information about this page, please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308636](
-this page
-)
+[this page](Toolbars/View%20Modes%20ToolBar.md)
 **
 .
 
-[Image: /docs/static/attachments/35955258]
+![Image](https://www.cryengine.com/docs/static/attachments/35955258)
 
 ##
 Customizing Toolbars
 
 CRYENGINE lets you create and customize the toolbars to your heart's content. For more information on how to do this,
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870764](
-click here
-)
+[click here](../CRYENGINE%20V%20Basics/Customizing%20CRYENGINE%20Sandbox/Customizing%20ToolBars.md)
 **
 .
 
@@ -188,7 +180,7 @@ AppData
 Now the custom toolbar can be checked in to source control along with the rest of the project data so that they appear for the rest of the team as well, next to any toolbars they have created for themselves.
 
 *
-[Image: /docs/static/attachments/35955317]
+![Image](https://www.cryengine.com/docs/static/attachments/35955317)
 
 Activating local and project toolbar
 *
@@ -197,20 +189,10 @@ Activating local and project toolbar
 Tool-Specific Toolbars
 
 A number of tools have their own tool-specific toolbars which have buttons specific to that tool. These can be customized in the same way as the main toolbar mentioned above, meaning that
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870764](
-Customizing ToolBars
-)
+[Customizing ToolBars](../CRYENGINE%20V%20Basics/Customizing%20CRYENGINE%20Sandbox/Customizing%20ToolBars.md)
  also applies to them.
 
-[#accessing-the-toolbar-context-menu](
-Accessing the Toolbar Context Menu
-)
-[#customizing-toolbars](
-Customizing Toolbars
-)
-[#project-toolbars](
-Project Toolbars
-)
-[#tool-specific-toolbars](
-Tool-Specific Toolbars
-)
+[Accessing the Toolbar Context Menu](#accessing-the-toolbar-context-menu)
+[Customizing Toolbars](#customizing-toolbars)
+[Project Toolbars](#project-toolbars)
+[Tool-Specific Toolbars](#tool-specific-toolbars)

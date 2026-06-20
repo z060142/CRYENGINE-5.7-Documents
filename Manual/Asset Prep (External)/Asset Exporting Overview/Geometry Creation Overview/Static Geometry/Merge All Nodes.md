@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933582]
+![Image](https://www.cryengine.com/docs/static/attachments/29933582)
 
 ##
 Overview
@@ -29,7 +29,7 @@ However, the CGF file may still contain more than one node, but each of them can
 *
 Pic1: Geometry Export window in 3ds Max.
 
-[Image: /docs/static/attachments/44972235]
+![Image](https://www.cryengine.com/docs/static/attachments/44972235)
 
 *
 
@@ -37,19 +37,13 @@ Pic1: Geometry Export window in 3ds Max.
 More Information
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter in 3dsMax
-)
+[CRYENGINE Exporter in 3dsMax](../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-Basic Asset Setup and Export - 3ds Max
-)
+[Basic Asset Setup and Export - 3ds Max](../../Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294](
-FBX Import Tools
-)
+[FBX Import Tools](../../../../Editor%20Tools/FBX%20Import%20Tools.md)
 
 ##
 Process for merging all nodes
@@ -73,7 +67,7 @@ Consider the following scene in 3ds Max:
 Pic2: An example of LOD meshes in 3ds Max.
 *
 
-[Image: /docs/static/attachments/44972236]
+![Image](https://www.cryengine.com/docs/static/attachments/44972236)
 
 As you can see in the above image, the outliner window is on the left hand side. This scene contains two objects Object1 and Object2, and each object has its own LOD meshes and physics proxy.
 
@@ -85,7 +79,7 @@ Merge all nodes
 Pic3: Hierarchy of the objects when Merge all Nodes disabled.
 
 *
-[Image: /docs/static/attachments/44972237]
+![Image](https://www.cryengine.com/docs/static/attachments/44972237)
 
 When the option Merge all nodes is enabled, the following CGF hierarchy is produced:
 
@@ -94,4 +88,4 @@ Pic4:
 Hierarchy of the objects with Merge all Nodes enabled.
 *
 
-[Image: /docs/static/attachments/44972238]
+![Image](https://www.cryengine.com/docs/static/attachments/44972238)

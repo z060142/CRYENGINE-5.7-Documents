@@ -17,9 +17,7 @@ Overview
 The dirt layer allows you to blend another texture onto your base material in the same draw call without the need to place an extra decal. The blended texture itself supports an alpha channel, and the amount of blending is controlled through the vertex alpha in your mesh and a shader attribute. Additionally, you can specify the tiling and the alpha for your dirt texture. Since the dirt texture uses the same UVs as the base diffuse texture, you can counteract unwanted tiling with the tiling parameter.
 
 For more information please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449070](
-Illum Shader
-)
+[Illum Shader](../Shader%20Reference/Illum%20Shader.md)
  for more information.
 
 ##
@@ -42,7 +40,7 @@ Vertex Selection Mode
 **
 .
 
-[Image: /docs/static/attachments/35397190]
+![Image](https://www.cryengine.com/docs/static/attachments/35397190)
 
 To only see the vertex alpha in the viewport,
 **
@@ -58,7 +56,7 @@ Vertex Alpha
 **
 .
 
-[Image: /docs/static/attachments/35397188]
+![Image](https://www.cryengine.com/docs/static/attachments/35397188)
 
 ##
 Setup in XSI
@@ -141,7 +139,7 @@ Set up dirt layer materials in CRYENGINE.
 ##
 Usage in CRYENGINE
 
-[Image: /docs/static/attachments/35397191]
+![Image](https://www.cryengine.com/docs/static/attachments/35397191)
 
 The dirt layer currently only works with the Illum shader.
 
@@ -192,14 +190,14 @@ Here is a 256x256 tileable concrete texture as a base. The Dirt texture itself i
 
 By using white as a base color, you can easily tint the Dirt texture through the tint attribute in the shader. By adding edges and modifying the vertex alpha, you can specify where you want your texture to be blended in.
 
-[Image: /docs/static/attachments/28898741]
+![Image](https://www.cryengine.com/docs/static/attachments/28898741)
 
 ##
 Walls and Other Objects
 
 Here you can see how you can use the same dirt mask to dirty up different kind of materials.
 
-[Image: /docs/static/attachments/28898742]
+![Image](https://www.cryengine.com/docs/static/attachments/28898742)
 
 ##
 Adding Variation to Essential Objects
@@ -210,14 +208,14 @@ For example, in the following examples there are a lot of metal planks that are 
 
 In order to make the most of the textures, make sure that they use the available UV Space to the fullest extent. After creating the mask, specify which planks will be colored (and in what way) and build the objects with the predefined pieces.
 
-[Image: /docs/static/attachments/35397192]
+![Image](https://www.cryengine.com/docs/static/attachments/35397192)
 
 ##
 Making the Most of the Dirt Layer
 
 Use a tiling base texture to start with. Create an interesting dirt texture in order to add variance to the base texture. Use vertex colors to add subtle color variation and basic ambient occlusion. Make sure to use all of these three elements whenever possible.
 
-[Image: /docs/static/attachments/35397193]
+![Image](https://www.cryengine.com/docs/static/attachments/35397193)
 
 ##
 Reusing the Dirt Textures
@@ -226,17 +224,9 @@ If you have a good base texture with a strong normalmap, it is worth trying to r
 
 Often you can achieve the desired effect with already existing textures and the tinting functionality in the shader. This saves texture memory and time.
 
-[Image: /docs/static/attachments/35397194]
+![Image](https://www.cryengine.com/docs/static/attachments/35397194)
 
-[#setup-in-3ds-max](
-Setup in 3ds Max
-)
-[#setup-in-xsi](
-Setup in XSI
-)
-[#usage-in-cryengine](
-Usage in CRYENGINE
-)
-[#using-the-dirt-layer](
-Using the Dirt Layer
-)
+[Setup in 3ds Max](#setup-in-3ds-max)
+[Setup in XSI](#setup-in-xsi)
+[Usage in CRYENGINE](#usage-in-cryengine)
+[Using the Dirt Layer](#using-the-dirt-layer)

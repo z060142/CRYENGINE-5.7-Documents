@@ -7,15 +7,9 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591067](
-[Image: /docs/static/attachments/52593269]
-1 - Flow Graph Scene Setup
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593269) 1 - Flow Graph Scene Setup](/docs/static/engines/cryengine-5/categories/23756816/pages/27591067)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591905](
-[Image: /docs/static/attachments/52593270]
-3 - Clock Counting Down
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593270) 3 - Clock Counting Down](/docs/static/engines/cryengine-5/categories/23756816/pages/27591905)
 
 The easiest and most useful way to learn Flow Graph is by using a Spawnpoint Entity and then hooking this up to spawn the player at that point on game start. To do this we will be using the prior made Flow Graph but adding an entity to it and then executing functionality through a
 **
@@ -68,24 +62,18 @@ Ctrl+G
 ##
 Step 1
 
-[Image: /docs/static/attachments/36309389]
+![Image](https://www.cryengine.com/docs/static/attachments/36309389)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/36309390]
+![Image](https://www.cryengine.com/docs/static/attachments/36309390)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/36309391]
+![Image](https://www.cryengine.com/docs/static/attachments/36309391)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591067](
-[Image: /docs/static/attachments/52593269]
-1 - Flow Graph Scene Setup
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593269) 1 - Flow Graph Scene Setup](/docs/static/engines/cryengine-5/categories/23756816/pages/27591067)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591905](
-[Image: /docs/static/attachments/52593270]
-3 - Clock Counting Down
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593270) 3 - Clock Counting Down](/docs/static/engines/cryengine-5/categories/23756816/pages/27591905)

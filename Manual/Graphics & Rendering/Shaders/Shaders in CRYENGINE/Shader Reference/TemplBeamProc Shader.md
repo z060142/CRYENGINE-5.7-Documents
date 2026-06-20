@@ -18,12 +18,12 @@ How To Create a Cheap Fog Light Beam
 -
 Create a 3D object with a back plane and 4 intersecting planes like this:
 
-[Image: /docs/static/attachments/28898590]
+![Image](https://www.cryengine.com/docs/static/attachments/28898590)
 
 -
 Create a texture (all faces share UVs) with the following contents:
 
-[Image: /docs/static/attachments/28898587]
+![Image](https://www.cryengine.com/docs/static/attachments/28898587)
 This texture is only gray scale and has no alpha.
 
 The TemplBeamProc Shader can handle fading out rendering faces, that are at a certain angle to the camera. It's best to use sub-materials for the different parts because you can control the angle of visibility, so the back plane gets 1 sub-material and the other planes get 1 sub-material.
@@ -189,20 +189,10 @@ Option to be used for muzzle flash.
 ##
 Examples
 
-[Image: /docs/static/attachments/28898589]
+![Image](https://www.cryengine.com/docs/static/attachments/28898589)
 
-[#how-to-create-a-cheap-fog-light-beam](
-How To Create a Cheap Fog Light Beam
-)
-[#tips](
-Tips
-)
-[#shader-params](
-Shader Params
-)
-[#shader-generation-params](
-Shader Generation Params
-)
-[#examples](
-Examples
-)
+[How To Create a Cheap Fog Light Beam](#how-to-create-a-cheap-fog-light-beam)
+[Tips](#tips)
+[Shader Params](#shader-params)
+[Shader Generation Params](#shader-generation-params)
+[Examples](#examples)

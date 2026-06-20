@@ -7,26 +7,22 @@
 
 ## Child Pages
 
-- [1 - Setting Up the Environment](Tutorial - Getting started with programming/1 - Setting Up the Environment.md)
-- [2 - Generating a Solution](Tutorial - Getting started with programming/2 - Generating a Solution.md)
-- [3 - Plug-in Entry Point](Tutorial - Getting started with programming/3 - Plug-in Entry Point.md)
-- [4 - Generating our GUID](Tutorial - Getting started with programming/4 - Generating our GUID.md)
-- [5 - Receiving Updates](Tutorial - Getting started with programming/5 - Receiving Updates.md)
-- [6 - Adding Source Files](Tutorial - Getting started with programming/6 - Adding Source Files.md)
-- [7 - Next Steps](Tutorial - Getting started with programming/7 - Next Steps.md)
+- [1 - Setting Up the Environment](Tutorial%20-%20Getting%20started%20with%20programming/1%20-%20Setting%20Up%20the%20Environment.md)
+- [2 - Generating a Solution](Tutorial%20-%20Getting%20started%20with%20programming/2%20-%20Generating%20a%20Solution.md)
+- [3 - Plug-in Entry Point](Tutorial%20-%20Getting%20started%20with%20programming/3%20-%20Plug-in%20Entry%20Point.md)
+- [4 - Generating our GUID](Tutorial%20-%20Getting%20started%20with%20programming/4%20-%20Generating%20our%20GUID.md)
+- [5 - Receiving Updates](Tutorial%20-%20Getting%20started%20with%20programming/5%20-%20Receiving%20Updates.md)
+- [6 - Adding Source Files](Tutorial%20-%20Getting%20started%20with%20programming/6%20-%20Adding%20Source%20Files.md)
+- [7 - Next Steps](Tutorial%20-%20Getting%20started%20with%20programming/7%20-%20Next%20Steps.md)
 
 ## Content
 
 Prerequisites
 For more in-depth information about programming in CRYENGINE, see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306343](
-CRYENGINE Programming
-)
+[CRYENGINE Programming](/docs/static/engines/cryengine-5/categories/23756813/pages/23306343)
 .
 
-[/docs/static/engines/cryengine-5/categories/23756816](
-[Image: /docs/static/attachments/28897349]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/28897349)](/docs/static/engines/cryengine-5/categories/23756816)
 
 ##
 Goals

@@ -103,7 +103,7 @@ m
 **
  to display information about the number of active queries, time taken to process those queries, the number of active volumes in the worlds and the number of stray (i.e. out of bounds) volumes.
 
-[Image: /docs/static/attachments/26526169]
+![Image](https://www.cryengine.com/docs/static/attachments/26526169)
 
 *
  Pic1: Sample output of information displayed
@@ -115,7 +115,7 @@ v
 **
  to draw all volumes within range. Volumes that are not monitored will appear orange, volumes that are monitored but not colliding will appear red and volumes that are monitored and colliding will appear green.
 
-[Image: /docs/static/attachments/26526170]
+![Image](https://www.cryengine.com/docs/static/attachments/26526170)
 
 *
 Pic2: Sample output of all volumes drawn within range
@@ -131,7 +131,7 @@ t
 **
  to draw volume entities and tags respectively.
 
-[Image: /docs/static/attachments/26526171]
+![Image](https://www.cryengine.com/docs/static/attachments/26526171)
 
 *
 Pic3: Sample output of all volumes entities and tags drawn
@@ -143,7 +143,7 @@ o
 **
  to draw links from all volumes within range to their containing octree cells. These links will appear yellow and the world bounds will appear blue.
 
-[Image: /docs/static/attachments/26526173]
+![Image](https://www.cryengine.com/docs/static/attachments/26526173)
 
 *
 Pic4: Sample output of links drawn from all volumes within range
@@ -155,7 +155,7 @@ s
 **
  to draw all stray volumes i.e. volumes located outside the world bounds and therefore not taken into consideration when performing collisions queries. Stray volumes will appear purple.
 
-[Image: /docs/static/attachments/26526174]
+![Image](https://www.cryengine.com/docs/static/attachments/26526174)
 
 *
 Pic5: Sample output of all stray volumes drawn
@@ -167,18 +167,12 @@ i
 **
  to test sensor queries using a sphere projected from the camera. If the sphere in front of the camera appears green it means no collisions have been detected. If it appears red then it is colliding with something and you should see links to the volumes it's colliding with.
 
-[Image: /docs/static/attachments/26526175]
+![Image](https://www.cryengine.com/docs/static/attachments/26526175)
 
 *
 Pic6: Sample output of sensor queries tested using a sphere
 *
 
-[#background](
-Background
-)
-[#how-does-it-work](
-How Does it Work?
-)
-[#cvars](
-CVars
-)
+[Background](#background)
+[How Does it Work?](#how-does-it-work)
+[CVars](#cvars)

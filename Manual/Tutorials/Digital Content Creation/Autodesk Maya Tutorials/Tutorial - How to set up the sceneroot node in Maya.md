@@ -8,3 +8,5 @@
 ## Content
 
 Learn how to use the sceneroot node to adapt the Y-up world of Maya to the Z-up orientation of CRYENGINE.
+
+[Embed: https://www.youtube.com/watch?v=dQIKY-u4o6g&list=PLpCgy91Y5vMtWDdz1L0UnFo7lwi4LDBUq&index=15]

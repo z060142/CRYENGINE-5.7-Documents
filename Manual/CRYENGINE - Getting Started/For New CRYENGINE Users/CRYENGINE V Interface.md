@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [Toolbars](CRYENGINE V Interface/Toolbars.md)
-- [Viewport Window](CRYENGINE V Interface/Viewport Window.md)
-- [Menu Bar](CRYENGINE V Interface/Menu Bar.md)
-- [Update 5.2 - UI Improvements](CRYENGINE V Interface/Update 5.2 - UI Improvements.md)
-- [Update 5.3 - UI Improvements](CRYENGINE V Interface/Update 5.3 - UI Improvements.md)
+- [Toolbars](CRYENGINE%20V%20Interface/Toolbars.md)
+- [Viewport Window](CRYENGINE%20V%20Interface/Viewport%20Window.md)
+- [Menu Bar](CRYENGINE%20V%20Interface/Menu%20Bar.md)
+- [Update 5.2 - UI Improvements](CRYENGINE%20V%20Interface/Update%205.2%20-%20UI%20Improvements.md)
+- [Update 5.3 - UI Improvements](CRYENGINE%20V%20Interface/Update%205.3%20-%20UI%20Improvements.md)
 
 ## Content
 
@@ -23,43 +23,29 @@ These pages, including the subpages, provide an overview of the CRYENGINE Sandbo
 The interface can be heavily customized, elements detached and placed on a second monitor for instance or windows can be combined together to enable quick access once they are required.
 
 You should familiarize yourself with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308616](
-Viewport Navigation
-)
+[Viewport Navigation](CRYENGINE%20V%20Basics/Viewport%20Navigation.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865952](
-Customizing the Sandbox Layout
-)
+[Customizing the Sandbox Layout](CRYENGINE%20V%20Basics/Customizing%20CRYENGINE%20Sandbox/Customizing%20Sandbox%20Layout.md)
  to ensure an effective workflow.
 
 When you start CRYENGINE the interface will look like this:
 
-[Image: /docs/static/attachments/27566950]
+![Image](https://www.cryengine.com/docs/static/attachments/27566950)
 
 This interface is made up of the following elements:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848624](
-Menu Bar
-)
+[Menu Bar](CRYENGINE%20V%20Interface/Menu%20Bar.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848748](
-Toolbars
-)
+[Toolbars](CRYENGINE%20V%20Interface/Toolbars.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848603](
-Viewport Window
-)
+[Viewport Window](CRYENGINE%20V%20Interface/Viewport%20Window.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25533211](
-Update 5.2 - UI Improvements
-)
+[Update 5.2 - UI Improvements](CRYENGINE%20V%20Interface/Update%205.2%20-%20UI%20Improvements.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26216501](
-Update 5.3 - UI Improvements
-)
+[Update 5.3 - UI Improvements](CRYENGINE%20V%20Interface/Update%205.3%20-%20UI%20Improvements.md)
 Click on the links above for more information.

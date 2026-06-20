@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Substance - CRYENGINE Shader](Substance/Substance - CRYENGINE Shader.md)
+- [Substance - CRYENGINE Shader](Substance/Substance%20-%20CRYENGINE%20Shader.md)
 
 ## Content
 
@@ -94,17 +94,17 @@ File -> Open
 
 Substance Archive files have this icon:
 
-[Image: /docs/static/attachments/44968563]
+![Image](https://www.cryengine.com/docs/static/attachments/44968563)
 
 The Substance Archive Graph Editor looks like this:
 
-[Image: /docs/static/attachments/44968562]
+![Image](https://www.cryengine.com/docs/static/attachments/44968562)
 
 ##
 1. Menu
 
 Accessed via the
-[Image: /docs/static/attachments/44968569]
+![Image](https://www.cryengine.com/docs/static/attachments/44968569)
  icon situated at the top-right corner of the tool, the Menu contains the following options:
 
 ##
@@ -268,7 +268,7 @@ Create Substance Graph Preset Window
 
 In this graph view you can edit Substance Graph outputs to Texture Outputs through the connection of the nodes. All red colored nodes represent output from a Substance Graph (identified by name) and all green colored nodes represent Texture Output:
 
-[Image: /docs/static/attachments/44968567]
+![Image](https://www.cryengine.com/docs/static/attachments/44968567)
 
 ##
 1. Graph
@@ -407,7 +407,7 @@ Substance Graph Default Mapping Editor
 
 The following Graph Editor will open:
 
-[Image: /docs/static/attachments/44968568]
+![Image](https://www.cryengine.com/docs/static/attachments/44968568)
 
 Here you can
 edit Substance Graph outputs to Texture Outputs through the connection of nodes. All red colored nodes represent output from Substance Graph (identified by name) and all green colored nodes represent Texture Output.
@@ -416,7 +416,7 @@ edit Substance Graph outputs to Texture Outputs through the connection of nodes.
 1. Menu
 
 Accessed via the
-[Image: /docs/static/attachments/44968569]
+![Image](https://www.cryengine.com/docs/static/attachments/44968569)
  icon situated at the top-right corner of the tool, the Menu contains the following options:
 
 ##
@@ -623,13 +623,13 @@ Tools -> Substance -> Substance Instance Editor
 
 Substance Instance have the same output configuration capabilities as mentioned previously, but this time the modification will only affect a particular instance. Also, in the Substance Instance Editor you are able to modify Substance Inputs exposed to the users via the Substance Designer.
 
-[Image: /docs/static/attachments/44968577]
+![Image](https://www.cryengine.com/docs/static/attachments/44968577)
 
 ##
 Menu
 
 Accessed via the
-[Image: /docs/static/attachments/44968569]
+![Image](https://www.cryengine.com/docs/static/attachments/44968569)
  icon situated at the top-right corner of the tool, the Menu contains the following options:
 
 ##
@@ -775,9 +775,7 @@ Parent
  option, visible when right-clicking a Substance texture.
 
 See also the section on the Asset Context Menu on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-Asset Browser
-)
+[Asset Browser](Asset%20Browser.md)
 .
 
 ##
@@ -801,11 +799,11 @@ Create Instance
 **
 .
 
-[Image: /docs/static/attachments/44968576]
+![Image](https://www.cryengine.com/docs/static/attachments/44968576)
 
 The Instance creator dialog will open:
 
-[Image: /docs/static/attachments/44968578]
+![Image](https://www.cryengine.com/docs/static/attachments/44968578)
 
 In this dialog you can choose the location of the newly created instance, and again modify the instance resolution and outputs if needed for this particular instance.
 
@@ -849,11 +847,11 @@ Asset Browser
 **
  will open the Editor for editing the Substances:
 
-[Image: /docs/static/attachments/44968577]
+![Image](https://www.cryengine.com/docs/static/attachments/44968577)
 
 Substance Instance files have this icon:
 
-[Image: /docs/static/attachments/44968580]
+![Image](https://www.cryengine.com/docs/static/attachments/44968580)
 
 Apart from editing outputs, you can also modify input parameters exposed from the Substance Graph to modify the resulting texture appearance.
 
@@ -967,24 +965,11 @@ Video Tutorial
 
 For a video tutorial on how the Substance Integration tool works, see below.
 
-[#dictionary](
-Dictionary
-)
-[#substance-archive-graph-editor](
-Substance Archive Graph Editor
-)
-[#substance-graph-default-mapping-editor](
-Substance Graph Default Mapping Editor
-)
-[#substance-instance-editor](
-Substance Instance Editor
-)
-[#working-with-substances](
-Working with Substances
-)
-[#substance-context-menus-in-asset-browser](
-Substance Context Menus in Asset Browser
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=DrXodxvSog8]
+[Dictionary](#dictionary)
+[Substance Archive Graph Editor](#substance-archive-graph-editor)
+[Substance Graph Default Mapping Editor](#substance-graph-default-mapping-editor)
+[Substance Instance Editor](#substance-instance-editor)
+[Working with Substances](#working-with-substances)
+[Substance Context Menus in Asset Browser](#substance-context-menus-in-asset-browser)
+[Video Tutorial](#video-tutorial)

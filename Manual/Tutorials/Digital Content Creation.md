@@ -7,63 +7,45 @@
 
 ## Child Pages
 
-- [Autodesk 3DS Max Tutorials](Digital Content Creation/Autodesk 3DS Max Tutorials.md)
-- [Autodesk Maya Tutorials](Digital Content Creation/Autodesk Maya Tutorials.md)
-- [Blender Tutorials](Digital Content Creation/Blender Tutorials.md)
-- [Adobe Photoshop tutorials](Digital Content Creation/Adobe Photoshop tutorials.md)
-- [Asset Creation and Importing Tutorials](Digital Content Creation/Asset Creation and Importing Tutorials.md)
-- [Designer Tool Tutorials](Digital Content Creation/Designer Tool Tutorials.md)
-- [FBX pipeline Tutorials](Digital Content Creation/FBX pipeline Tutorials.md)
-- [Tutorial - Texturing](Digital Content Creation/Tutorial - Texturing.md)
-- [Tutorial - Wrinkle Map Setup](Digital Content Creation/Tutorial - Wrinkle Map Setup.md)
+- [Autodesk 3DS Max Tutorials](Digital%20Content%20Creation/Autodesk%203DS%20Max%20Tutorials.md)
+- [Autodesk Maya Tutorials](Digital%20Content%20Creation/Autodesk%20Maya%20Tutorials.md)
+- [Blender Tutorials](Digital%20Content%20Creation/Blender%20Tutorials.md)
+- [Adobe Photoshop tutorials](Digital%20Content%20Creation/Adobe%20Photoshop%20tutorials.md)
+- [Asset Creation and Importing Tutorials](Digital%20Content%20Creation/Asset%20Creation%20and%20Importing%20Tutorials.md)
+- [Designer Tool Tutorials](Digital%20Content%20Creation/Designer%20Tool%20Tutorials.md)
+- [FBX pipeline Tutorials](Digital%20Content%20Creation/FBX%20pipeline%20Tutorials.md)
+- [Tutorial - Texturing](Digital%20Content%20Creation/Tutorial%20-%20Texturing.md)
+- [Tutorial - Wrinkle Map Setup](Digital%20Content%20Creation/Tutorial%20-%20Wrinkle%20Map%20Setup.md)
 
 ## Content
 
-[Image: /docs/static/attachments/106627345]
+![Image](https://www.cryengine.com/docs/static/attachments/106627345)
 
 Creating assets (meshes, materials, characters, etc.) for use in CRYENGINE.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656767](
-Autodesk 3DS Max Tutorials
-)
+[Autodesk 3DS Max Tutorials](Digital%20Content%20Creation/Autodesk%203DS%20Max%20Tutorials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656770](
-Autodesk Maya Tutorials
-)
+[Autodesk Maya Tutorials](Digital%20Content%20Creation/Autodesk%20Maya%20Tutorials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/60522651](
-Blender Tutorials
-)
+[Blender Tutorials](Digital%20Content%20Creation/Blender%20Tutorials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56657008](
-Adobe Photoshop tutorials
-)
+[Adobe Photoshop tutorials](Digital%20Content%20Creation/Adobe%20Photoshop%20tutorials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656779](
-Asset Creation and Importing Tutorials
-)
+[Asset Creation and Importing Tutorials](Digital%20Content%20Creation/Asset%20Creation%20and%20Importing%20Tutorials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656758](
-Designer Tool Tutorials
-)
+[Designer Tool Tutorials](Digital%20Content%20Creation/Designer%20Tool%20Tutorials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656760](
-FBX pipeline Tutorials
-)
+[FBX pipeline Tutorials](Digital%20Content%20Creation/FBX%20pipeline%20Tutorials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308595](
-Tutorial - Texturing
-)
+[Tutorial - Texturing](Digital%20Content%20Creation/Tutorial%20-%20Texturing.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959598](
-Tutorial - Wrinkle Map Setup
-)
+[Tutorial - Wrinkle Map Setup](Digital%20Content%20Creation/Tutorial%20-%20Wrinkle%20Map%20Setup.md)

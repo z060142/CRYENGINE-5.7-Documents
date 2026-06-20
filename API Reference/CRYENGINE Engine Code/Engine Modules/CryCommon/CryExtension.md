@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [CryExtension Samples](CryExtension/CryExtension Samples.md)
+- [CryExtension Samples](CryExtension/CryExtension%20Samples.md)
 
 ## Content
 
@@ -27,17 +27,11 @@ IClassFactory
 . The interfaces serve as a base to instantiate extensions, allow interface type casting, as well as query and expose functionality.
 
 The framework utilizes the concept of shared pointers and is implemented in a way to enforce their consistent usage which should help reducing the chance of resource leaks. Moreover, a set of C++ templates wrapped in a few macros is provided for convenience and to encourage engine refactoring into extensions. This
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-glue_code](
-glue code
-)
+[glue code](CryExtension.md#CryExtension-glue_code)
  efficiently implements all base services and registers extensions within the engine. Additionally, a few helper functions implement type safe casting of interface pointers, querying the IDs of extension interfaces, and convenient instantiation of extension classes. Hence, writing tedious boilerplate code over and over again is unnecessary and the potential for introducing bugs is greatly reduced. An example is provided
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-use_macros](
-here
-)
+[here](CryExtension.md#CryExtension-use_macros)
 . Should the provided glue code not be applicable, then the interfaces and base services need to be
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-no_macros](
-implemented manually
-)
+[implemented manually](CryExtension.md#CryExtension-no_macros)
 .
 
 Clients access extensions via a system wide factory registry. It allows searching for specific extension classes by either name or ID and iterating extensions using an given interface ID as key.
@@ -113,9 +107,7 @@ End Module
 ICryUnknown
 
 ICryUnknown provides the base interface for all extensions. In cases where making it top of the class hierarchy is either not possible or desired (e.g. third party code), an additional level of indirection can be applied to still be able to expose such code via the extension framework. An example how to do this can be found
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-ICryUnknown_nobase](
-here
-)
+[here](CryExtension.md#CryExtension-ICryUnknown_nobase)
 .
 
 ICryUnknown is declared as follows...
@@ -145,16 +137,12 @@ GetFactory() returns the factory the given extension object was instantiated wit
 
 -
 QueryInterface() returns a void pointer to the requested interface if the extension implements it or NULL otherwise. This function was deliberately declared as protected to enforce usage of type safe interface
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-casting](
-casting semantics
-)
+[casting semantics](CryExtension.md#CryExtension-casting)
 . Using the provided glue code this function has a (worst case) run time linear in the number of supported interfaces. Due to glue code implementation details no additional internal function calls are needed though. A generic code generator produces a series of instructions comparing interfaces IDs and returning a properly cast pointer.
 
 -
 QueryComposite() returns a void pointer to the queried composite if the extension exposes it or NULL otherwise. As with QueryInterface() this function was deliberately declared as protected to enforce type
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-querying](
-querying
-)
+[querying](CryExtension.md#CryExtension-querying)
 . The function has a (worst case) run time linear in the number of exposed composites.
 
 -
@@ -281,9 +269,7 @@ if (pMyExtension)
 ```
 
 Interface casting works on raw interface pointers, too. Please consider the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-shared_ptr](
-guidelines
-)
+[guidelines](CryExtension.md#CryExtension-shared_ptr)
  regarding raw interface pointers.
 
 Declared in the following framework header file:
@@ -394,9 +380,7 @@ else
 ```
 
 As with interface casting composite, queries work on raw interface pointers, too. Please consider the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-shared_ptr](
-guidelines
-)
+[guidelines](CryExtension.md#CryExtension-shared_ptr)
  regarding raw interface pointers.
 
 Declared in the following framework header file:
@@ -637,9 +621,7 @@ low is the lower 64-bit part of the GUID
  |
 
 Concrete examples showing how all of these macros play together are given
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-use_macros](
-here
-)
+[here](CryExtension.md#CryExtension-use_macros)
 .
 
 Declared in the following framework header files:
@@ -984,13 +966,9 @@ void CMyExtensionCustomized::Bar()
 Without using glue code
 
 If for any reason using the glue code is neither desired nor applicable, extensions can be implemented as follows. It is recommended to implement ICryUnknown and ICryFactory such that their run time cost is equal to the one provided by glue code (as documented
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-ICryUnknown](
-here
-)
+[here](CryExtension.md#CryExtension-ICryUnknown)
  and
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-ICryFactory](
-here
-)
+[here](CryExtension.md#CryExtension-ICryFactory)
 ).
 
 ```
@@ -1415,62 +1393,24 @@ CRYREGISTER_CLASS(CMyExtension)
 ```
 
 The possibility to remove extensions from the build requires clients to write their code in way not to take availability of an extension for granted (
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448#CryExtension-work_with_extension](
-see here
-)
+[see here](CryExtension.md#CryExtension-work_with_extension)
 ).
 
-[#guids](
-GUIDs
-)
-[#icryunknown](
-ICryUnknown
-)
-[#icryfactory](
-ICryFactory
-)
-[#icryfactoryregistry](
-ICryFactoryRegistry
-)
-[#interface-casting-semantics](
-Interface casting semantics
-)
-[#querying-interface-identifiers](
-Querying interface identifiers
-)
-[#checking-if-pointers-to-different-interfaces-belong-to-the-same-class-instance](
-Checking if pointers to different interfaces belong to the same class instance
-)
-[#querying-composites](
-Querying composites
-)
-[#glue-code](
-Glue code
-)
-[#shared-and-raw-interface-pointers](
-Shared and raw interface pointers
-)
-[#working-with-a-specific-extension-class](
-Working with a specific extension class
-)
-[#finding-extension-classes-supporting-a-specific-interface](
-Finding extension classes supporting a specific interface
-)
-[#recommended-layout-to-include-framework-header-files](
-Recommended layout to include framework header files
-)
-[#using-glue-code](
-Using glue code
-)
-[#without-using-glue-code](
-Without using glue code
-)
-[#exposing-composites](
-Exposing composites
-)
-[#if-icryunknown-cannot-be-base-of-the-extension-class](
-If ICryUnknown cannot be base of the extension class
-)
-[#custom-inclusion-and-exclusion-of-extensions](
-Custom inclusion and exclusion of extensions
-)
+[GUIDs](#guids)
+[ICryUnknown](#icryunknown)
+[ICryFactory](#icryfactory)
+[ICryFactoryRegistry](#icryfactoryregistry)
+[Interface casting semantics](#interface-casting-semantics)
+[Querying interface identifiers](#querying-interface-identifiers)
+[Checking if pointers to different interfaces belong to the same class instance](#checking-if-pointers-to-different-interfaces-belong-to-the-same-class-instance)
+[Querying composites](#querying-composites)
+[Glue code](#glue-code)
+[Shared and raw interface pointers](#shared-and-raw-interface-pointers)
+[Working with a specific extension class](#working-with-a-specific-extension-class)
+[Finding extension classes supporting a specific interface](#finding-extension-classes-supporting-a-specific-interface)
+[Recommended layout to include framework header files](#recommended-layout-to-include-framework-header-files)
+[Using glue code](#using-glue-code)
+[Without using glue code](#without-using-glue-code)
+[Exposing composites](#exposing-composites)
+[If ICryUnknown cannot be base of the extension class](#if-icryunknown-cannot-be-base-of-the-extension-class)
+[Custom inclusion and exclusion of extensions](#custom-inclusion-and-exclusion-of-extensions)

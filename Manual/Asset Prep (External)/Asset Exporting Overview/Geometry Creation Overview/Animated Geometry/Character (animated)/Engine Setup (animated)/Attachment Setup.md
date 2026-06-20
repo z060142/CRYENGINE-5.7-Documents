@@ -8,9 +8,7 @@
 ## Content
 
 Since CRYENGINE 3.8 this document has been superseded by
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450433](
-Attachment System Tutorial - Character Tool
-)
+[Attachment System Tutorial - Character Tool](../../../../../../Editor%20Tools/Animation%20Tab/Character%20Tool/Attachment%20System%20Tutorial%20-%20Character%20Tool.md)
 .
 
 ##
@@ -22,16 +20,14 @@ These are autonomous object that that can be replace or detached at run-time by 
 
 Download and extract the file
 **
-[/docs/static/attachments/23994511](
-Attachment_exampleFiles.rar
-)
+[Attachment_exampleFiles.rar](/docs/static/attachments/23994511)
 **
  in your Objects directory. Example:
 `
 <root>\GameSDK\Objects\Attachment_exampleFiles\Bone_attachment_simulateSocket
 `
 
-[Image: /docs/static/attachments/23994512]
+![Image](https://www.cryengine.com/docs/static/attachments/23994512)
 
 ##
 Bone attachment
@@ -130,7 +126,7 @@ A pendulum is defined as a bob connected to a non-elastic rod, which experiences
 
 -
 A spring is defined as a bob connected to an elastic rod. Unlike a typical helical spring, this spring can stretch in any direction, but the movement of the spring bob can be constrained to a sphere, ellipsoid, half-sphere, flat plane or a simple line.
-[Image: /docs/static/attachments/23994523]
+![Image](https://www.cryengine.com/docs/static/attachments/23994523)
 
 **
 Option
@@ -393,7 +389,7 @@ The last one (ellipsoid) constraints the movement of a spring. The ellipsoid is 
 
 Now you have a physicalized socket which reacts to the movements of the character. You can visualize it with "Draw Setup".
 
-[Image: /docs/static/attachments/23994524]
+![Image](https://www.cryengine.com/docs/static/attachments/23994524)
 
 Once you have the basic-setup, you can play around with the physics parameters (mass, gravity, dampening, stiffness). You can edit all these parameters while the character animations are playing and see the effects immediately.
 
@@ -409,7 +405,7 @@ Example file:
 Objects\Attachment_exampleFiles\Bone_attachment_triangleCollision\leggun.cdf
 `
 
-[Image: /docs/static/attachments/23994527]
+![Image](https://www.cryengine.com/docs/static/attachments/23994527)
 
 Load the exported or downloaded LegGun.chr file and start adding a new empty socket. There we will attach a gun this time to simulate a “thigh” with a attached gun.
 
@@ -427,13 +423,13 @@ Objects\Attachment_exampleFiles\Bone_attachment_triangleCollision\leggun.cdf
 `
  file in a text editor.
 
-[Image: /docs/static/attachments/23994519]
+![Image](https://www.cryengine.com/docs/static/attachments/23994519)
 
 Adding PA_Align0="bonename01" PA_Align1="bonename02" PA_Align2="bonename03" to an attachment will allow to draw the collision triangle.
 
 The collision triangle will be created counterclockwise, that is why we start in the leggun.cdf with the bone triangle3 – triangle1.
 
-[Image: /docs/static/attachments/23994526]
+![Image](https://www.cryengine.com/docs/static/attachments/23994526)
 
 The setup works only if you see a colored triangle in the area of the 3 bones. To test the asset you can simple drag in the cdf as a geomEntity in the level and move it with the gizmo around.
 
@@ -481,9 +477,9 @@ Objects\Attachment_exampleFiles\JiggleJoint\jiggleJoint.max
 
 Simple character setup with bones and a skinned geometry
 
-[Image: /docs/static/attachments/23994518]
+![Image](https://www.cryengine.com/docs/static/attachments/23994518)
 
-[Image: /docs/static/attachments/23994517]
+![Image](https://www.cryengine.com/docs/static/attachments/23994517)
 
 Load the exported or downloaded example file JellySpoon.chr in the character editor, add one bone attachment and rename it to jelly1 like the name of the bone which you want to influence.
 
@@ -516,11 +512,11 @@ The naming convention isn't important at this stage that is the beauty of this s
 
 By default, the system uses the Y direction to simulate the pendulum therefore we have to make sure that the Y-axis is pointing in the direction of the simulation axis. But in the attachment panel you can set any axis as simulation axis.
 
-[Image: /docs/static/attachments/23994513]
+![Image](https://www.cryengine.com/docs/static/attachments/23994513)
 
-[Image: /docs/static/attachments/23994520]
+![Image](https://www.cryengine.com/docs/static/attachments/23994520)
 
-[Image: /docs/static/attachments/23994525]
+![Image](https://www.cryengine.com/docs/static/attachments/23994525)
 
 Load the exported or downloaded example file
 `
@@ -534,7 +530,7 @@ It is also really important to write all the names in lower-case otherwise the s
 
 Next, you have to align the socket with simulated joint by clicking on the “Align with bone” button. Now we will enable the simulation by assigning a simulation primitive in the “simulate socket” menu.
 
-[Image: /docs/static/attachments/23994514]
+![Image](https://www.cryengine.com/docs/static/attachments/23994514)
 
 Now you can play around with the physics parameters (mass, gravity, dampening, stiffness). You can edit all those parameters while the animations are playing and see the effects immediately.
 
@@ -549,7 +545,7 @@ To turn on dangling for a particular attachment, one has to specify 2 planes tha
 
 For the most typical attachment orientation, natural plane selection would be positive y, positive z (+y,+z).
 
-[Image: /docs/static/attachments/23994515]
+![Image](https://www.cryengine.com/docs/static/attachments/23994515)
 
 Default attachment orientation corresponds to joint angle 0. The maximum rotation angle is specified as the "limit" property. Use the "damping" property to prevent the "pendulum effect" (values up to 10 are reasonable, but can go even higher when needed).
 
@@ -566,29 +562,13 @@ The axis of the local coordinate system can be seen as normals on planes with th
 
 In the example above, the +y and +z planes were chosen. The hinge axis is created between them.
 
-[Image: /docs/static/attachments/23994516]
+![Image](https://www.cryengine.com/docs/static/attachments/23994516)
 
-[#bone-attachment](
-Bone attachment
-)
-[#face-attachment](
-Face attachment
-)
-[#skin-attachment](
-Skin attachment
-)
-[#part-1-setup-of-attachment-sockets](
-Part 1: Setup of attachment-sockets
-)
-[#part-2-using-sockets-for-secondary-animations](
-Part 2: Using Sockets for Secondary Animations
-)
-[#a-add-simulation-to-the-socket](
-A) Add Simulation to the Socket
-)
-[#b-transfer-the-socket-simulation-to-a-joint](
-B) Transfer the Socket Simulation to a Joint
-)
-[#dcc-setup-3ds-max](
-DCC setup (3ds max)
-)
+[Bone attachment](#bone-attachment)
+[Face attachment](#face-attachment)
+[Skin attachment](#skin-attachment)
+[Part 1: Setup of attachment-sockets](#part-1-setup-of-attachment-sockets)
+[Part 2: Using Sockets for Secondary Animations](#part-2-using-sockets-for-secondary-animations)
+[A) Add Simulation to the Socket](#a-add-simulation-to-the-socket)
+[B) Transfer the Socket Simulation to a Joint](#b-transfer-the-socket-simulation-to-a-joint)
+[DCC setup (3ds max)](#dcc-setup-3ds-max)

@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Setting Up Plugin Definitions for Platform Services](GamePlatform Services/Setting Up Plugin Definitions for Platform Services.md)
-- [Setting Up Discord Platform Services](GamePlatform Services/Setting Up Discord Platform Services.md)
-- [Setting Up Steam Platform Services](GamePlatform Services/Setting Up Steam Platform Services.md)
+- [Setting Up Plugin Definitions for Platform Services](GamePlatform%20Services/Setting%20Up%20Plugin%20Definitions%20for%20Platform%20Services.md)
+- [Setting Up Discord Platform Services](GamePlatform%20Services/Setting%20Up%20Discord%20Platform%20Services.md)
+- [Setting Up Steam Platform Services](GamePlatform%20Services/Setting%20Up%20Steam%20Platform%20Services.md)
 
 ## Content
 
@@ -50,25 +50,13 @@ Discord
 Setup
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448650](
-Setting Up Plugin Definitions for Platform Services
-)
+[Setting Up Plugin Definitions for Platform Services](GamePlatform%20Services/Setting%20Up%20Plugin%20Definitions%20for%20Platform%20Services.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448678](
-Setting Up Discord Platform Services
-)
+[Setting Up Discord Platform Services](GamePlatform%20Services/Setting%20Up%20Discord%20Platform%20Services.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448685](
-Setting Up Steam Platform Services
-)
-[#the-main-service](
-The Main Service
-)
-[#optional-services](
-Optional Services
-)
-[#setup](
-Setup
-)
+[Setting Up Steam Platform Services](GamePlatform%20Services/Setting%20Up%20Steam%20Platform%20Services.md)
+[The Main Service](#the-main-service)
+[Optional Services](#optional-services)
+[Setup](#setup)

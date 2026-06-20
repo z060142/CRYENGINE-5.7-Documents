@@ -37,7 +37,7 @@ Export Format
 **
  which allows the user to select the type of file to be exported. There are some other options in the Geometry Export panel.
 
-[Image: /docs/static/attachments/25498031]
+![Image](https://www.cryengine.com/docs/static/attachments/25498031)
 
 Option
 
@@ -146,9 +146,7 @@ Compiles all the geometry from the different nodes into a single node which impr
 only
 for non-skinned geometry. For more information on Merge All Nodes, please refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29799063](
-here
-)
+[here](../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Static%20Geometry/Merge%20All%20Nodes.md)
 **
 .
 
@@ -213,7 +211,7 @@ Normally, when a node is added to the node list, its skeleton root bone is added
 
 The other options in this panel are the parameters for exporting animations. The following image displays the Bone Export panel.
 
-[Image: /docs/static/attachments/25497761]
+![Image](https://www.cryengine.com/docs/static/attachments/25497761)
 
 Option
 
@@ -247,7 +245,7 @@ Miscellaneous Settings and Tools
 
 The following images display the available miscellaneous settings and tools.
 
-[Image: /docs/static/attachments/25497762]
+![Image](https://www.cryengine.com/docs/static/attachments/25497762)
 
 Option
 
@@ -274,7 +272,7 @@ Creates an MTL file with settings that match those used in the 3ds Max material.
 
  |
 
-[Image: /docs/static/attachments/25497763]
+![Image](https://www.cryengine.com/docs/static/attachments/25497763)
 
 Option
  |
@@ -328,9 +326,7 @@ These panes control various other aspects of the export process. Usually, they c
 
 You will also want to refer to
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308297](
-Phys Proxy Tool
-)
+[Phys Proxy Tool](CryMaxTools%20-%20Phys%20Proxy%20Tool.md)
 **
  which is an additional tool available to 3ds Max users.
 
@@ -362,19 +358,17 @@ Configure Button Sets
 Configuring CRYENGINE Exporter
 *
 
-[Image: /docs/static/attachments/25506741]
+![Image](https://www.cryengine.com/docs/static/attachments/25506741)
 
 When you have installed the Exporter
 (
 using the
 **
-[/docs/static/engines/cryengine-3/categories/1114113/pages/17826148](
-CryToolsInstaller
-)
+[CryToolsInstaller](/docs/static/engines/cryengine-3/categories/1114113/pages/17826148)
 **
 ), the CRYENGINE exporter should appear at the bottom of the list.
 
-[Image: /docs/static/attachments/25506743]
+![Image](https://www.cryengine.com/docs/static/attachments/25506743)
 
 Simply drag it from the list on the left and add into the
 **
@@ -388,15 +382,7 @@ Total Buttons
 **
  may need to be increased if you're already reached the maximum number of buttons allowed.
 
-[#geometry-export](
-Geometry Export
-)
-[#animation-export](
-Animation Export
-)
-[#miscellaneous-settings-and-tools](
-Miscellaneous Settings and Tools
-)
-[#showing-the-cryengine-exporter](
-Showing the CRYENGINE Exporter
-)
+[Geometry Export](#geometry-export)
+[Animation Export](#animation-export)
+[Miscellaneous Settings and Tools](#miscellaneous-settings-and-tools)
+[Showing the CRYENGINE Exporter](#showing-the-cryengine-exporter)

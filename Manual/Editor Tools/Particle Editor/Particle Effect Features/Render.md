@@ -11,15 +11,11 @@
 Overview
 
 In order to visualize the particles, a Render feature needs to be assigned to a particle component. Without it, particles will still simulate but will not be rendered. This can be a useful technique for the  parent particles that only need to drive visible child particles. Render features will read the properties defined on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868247](
-Appearance
-)
+[Appearance](Appearance.md)
  feature and render particles accordingly.
 
 For more information on parent child relationships, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-SecondGen
-)
+[SecondGen](SecondGen.md)
 .
 
 The following options are available under the Render category:
@@ -67,9 +63,7 @@ to
 Free
 **
 , it is possible to visualize where decals are and to determine the potential reason why they might not be visible in a particular setup. For more information, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868306#Render-sprites](
-Render: Sprites
-)
+[Render: Sprites](Render.md#Render-sprites)
 .
 
 ##
@@ -121,7 +115,7 @@ Scale -
 **
  Particle's size acts as a scale to the size of the mesh instead. Using the example above, the cube would be rendered with 1 meter per size since one meter is half of 2 meters.
 
-[Image: /docs/static/attachments/44107832]
+![Image](https://www.cryengine.com/docs/static/attachments/44107832)
 
 *
 A sample effect using different values
@@ -181,9 +175,7 @@ Pieces Placement
 
  |
 Allows feature's Meshes to act as
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867977](
-Location
-)
+[Location](Location.md)
  features. When paired with Pieces Mode and set to the All Pieces option, it allows the creation of object destruction effects. Under Pieces Placement, the following options are available:
 
 -
@@ -237,9 +229,7 @@ true
 Ribbon
 
 This feature connects the particles together in a single line and with no gaps between them. For components without parents, it creates a single ribbon connecting all its particles whereas for components with parents, this feature ensures that each parent creates a separate ribbon. For more information about parent-child relationships, refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-SecondGen
-)
+[SecondGen](SecondGen.md)
 .
 
 All ribbons in a component are rendered together as a single primitive entity.
@@ -422,9 +412,7 @@ If Appearance: Blending is to be used with the mode Additive, set this property 
 None
 **
 . Additive particles do not need sorting. Please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868247](
-Appearance
-)
+[Appearance](Appearance.md)
  for more details
  |
 
@@ -434,9 +422,7 @@ Facing Mode
 
  |
 Specifies which way the particles should be facing. This method also considers rotated particles from the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868243](
-Angles
-)
+[Angles](Angles.md)
  feature.
 
 -
@@ -548,15 +534,7 @@ above or below 1
 
  |
 
-[#decals](
-Decals
-)
-[#meshes](
-Meshes
-)
-[#ribbon](
-Ribbon
-)
-[#sprites](
-Sprites
-)
+[Decals](#decals)
+[Meshes](#meshes)
+[Ribbon](#ribbon)
+[Sprites](#sprites)

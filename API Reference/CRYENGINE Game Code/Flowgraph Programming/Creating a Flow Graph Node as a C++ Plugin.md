@@ -11,9 +11,7 @@
 Overview
 
 In CRYENGINE, it is possible to create a custom Flow Graph node by using C++ to generate a .dll file that can be introduced to CRYENGINE as a plugin. This technique offers another solution for the users who prefer creating a custom node without having to create it from scratch. For more information about creating a Flow Graph node, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306551](
-Creating a New Flow Node
-)
+[Creating a New Flow Node](Creating%20a%20New%20Flow%20Node.md)
  section.
 
 In this example, a SubString function is used as the first and most basic example to create a custom Flow Graph node.
@@ -36,9 +34,7 @@ Notes
 
  |
 
-[https://www.visualstudio.com/downloads/](
-Visual Studio
-)
+[Visual Studio](https://www.visualstudio.com/downloads/)
  |
 2015 (All Editions), vc140 compiler
  |
@@ -47,9 +43,7 @@ Visual Studio
 
  |
 
-[https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk](
-Windows SDK
-)
+[Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk)
  |
 10.0.15063.0
  |
@@ -63,9 +57,7 @@ Please note that you have to restart your computer after installing the Windows 
 
  |
 
-[https://cmake.org/download/](
-CMake
-)
+[CMake](https://cmake.org/download/)
  |
 3.6
  |
@@ -85,9 +77,7 @@ Plugin CPP
  project and open the project folder.
 
 For more information about creating a project, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870288](
-Creating, Importing & Upgrading Projects
-)
+[Creating, Importing & Upgrading Projects](/docs/static/engines/cryengine-5/categories/23756816/pages/36870288)
  page.
 
 The project files are stored separately from the engine. A
@@ -112,7 +102,7 @@ Generate solution
 **
 ;
 
-[Image: /docs/static/attachments/44958449]
+![Image](https://www.cryengine.com/docs/static/attachments/44958449)
 
 Go to the solution file that has been generated and open the
 **
@@ -352,6 +342,6 @@ GameSDK.cryproject
 **
  file in the Sandbox editor. Then proceed to Flow Graph to use the new node;
 
-[Image: /docs/static/attachments/44958450]
+![Image](https://www.cryengine.com/docs/static/attachments/44958450)
 
 You may also want to use visual panels to communicate related information, tips or things users need to be aware of.

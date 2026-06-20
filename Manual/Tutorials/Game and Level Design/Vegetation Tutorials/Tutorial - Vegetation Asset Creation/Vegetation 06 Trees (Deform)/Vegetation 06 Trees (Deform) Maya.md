@@ -28,7 +28,7 @@ cloth entities
 This method works great for hanging vegetation like swamp moss or willow tree leaves. But we can also imagine other purposes, like poles (static) with flags (deformable) or laundry (deformable) hanging between two poles (static).
 
 *
-[Image: /docs/static/attachments/25495412]
+![Image](https://www.cryengine.com/docs/static/attachments/25495412)
 
 Pic1: Merged Mesh Deform in action with a non-zero wind vector
 *
@@ -39,9 +39,7 @@ Tutorial Files
 Source Maya scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/26512562](
-GameSDK_vegtut06_files.zip
-)
+[GameSDK_vegtut06_files.zip](/docs/static/attachments/26512562)
 **
 
 ##
@@ -50,24 +48,16 @@ Pre-requisites for this Tutorial
 Before we continue with this tutorial, make sure to have read and understood the following:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963475](
-How to Install CryMayaTools
-)
+[How to Install CryMayaTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308292](
-The Basic CRYENGINE Maya Workflow
-)
+[The Basic CRYENGINE Maya Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205569](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools/CRYENGINE%20User%20Interface%20in%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-Maya Unit Scale to Match up With CRYENGINE Unit System
-)
+[Maya Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Preliminary Information
@@ -75,7 +65,7 @@ Preliminary Information
 -
 Contrary to the 3ds Max tutorial part, we need to create a special export hierarchy with groups, such as empty transform nodes. It is the most challenging part of this Maya tutorial.
 
-[Image: /docs/static/attachments/26512529]
+![Image](https://www.cryengine.com/docs/static/attachments/26512529)
 
 *
 Pic2: Partly collapsed hierarchy tree of the Maya scene
@@ -133,9 +123,9 @@ black
 
 *
 *
-[Image: /docs/static/attachments/26512531]
+![Image](https://www.cryengine.com/docs/static/attachments/26512531)
 
-[Image: /docs/static/attachments/26512528]
+![Image](https://www.cryengine.com/docs/static/attachments/26512528)
 
 *
 Pic3: Screen capture of the start and finished Maya scene
@@ -146,7 +136,7 @@ Pic3: Screen capture of the start and finished Maya scene
 
 *
 *
-[Image: /docs/static/attachments/26512530]
+![Image](https://www.cryengine.com/docs/static/attachments/26512530)
 
 *
 Pic3: Overview of the finished exportable
@@ -207,7 +197,7 @@ MAT.ED
 crytek
 **
  shelf:
-[Image: /docs/static/attachments/26512532]
+![Image](https://www.cryengine.com/docs/static/attachments/26512532)
 
 -
 Create a new Material Group called
@@ -261,7 +251,7 @@ shader to the recently created Material Group
 tutorial_merged_mesh_deform_MAT.
 **
 
-[Image: /docs/static/attachments/26512533]
+![Image](https://www.cryengine.com/docs/static/attachments/26512533)
 
 *
 Pic4: Overview of the finished almost CRYENGINE Material Group creation
@@ -310,7 +300,7 @@ Extra Attribute
 
 Repeat the above step for the other three sub-materials/shaders.
 
-[Image: /docs/static/attachments/26512534]
+![Image](https://www.cryengine.com/docs/static/attachments/26512534)
 
 *
 Pic5: "Add Attribute" to add Physicalize extra attribute to the shaders
@@ -369,7 +359,7 @@ None
 **
 .
 
-[Image: /docs/static/attachments/26512535]
+![Image](https://www.cryengine.com/docs/static/attachments/26512535)
 
 *
 Pic6: Physicalize attribute of
@@ -423,7 +413,7 @@ None
 **
 .
 
-[Image: /docs/static/attachments/26512536]
+![Image](https://www.cryengine.com/docs/static/attachments/26512536)
 
 *
 Pic7: Physicalize attribute of
@@ -456,7 +446,7 @@ ProxyNoDraw
 **
 .
 
-[Image: /docs/static/attachments/26512537]
+![Image](https://www.cryengine.com/docs/static/attachments/26512537)
 
 *
 Pic8: Physicalize attribute of
@@ -511,7 +501,7 @@ tutorial_merged_mesh_deform_MAT.mtl
 `
 
 *
-[Image: /docs/static/attachments/26512542]
+![Image](https://www.cryengine.com/docs/static/attachments/26512542)
 
 *
 Pic9: material export from Maya
@@ -606,7 +596,7 @@ Follow the lower
 Pic10
 *
 screenshot to create the group nodes for the trunk and proxy.
-[Image: /docs/static/attachments/26512547]
+![Image](https://www.cryengine.com/docs/static/attachments/26512547)
 
 *
 Pic10: Geometry of the trunk and its proxy already set into the export hierarchy.
@@ -637,7 +627,7 @@ bendable00_group
 **
  and parent the leaves under this group. You can add more bendable groups later.
 *
-[Image: /docs/static/attachments/26512549]
+![Image](https://www.cryengine.com/docs/static/attachments/26512549)
 
 *
 Pic11: Geometry of all three tree leaf patches under the
@@ -647,7 +637,7 @@ bendalbe00_group
 *
 *
 
-[Image: /docs/static/attachments/26512548]
+![Image](https://www.cryengine.com/docs/static/attachments/26512548)
 
 *
 Pic12: UV layout of the leaves in Maya's UV Editor.
@@ -689,7 +679,7 @@ B
 Remember: Maya's Paint Tool only activates if you have paintable geometry selected.
 
 *
-[Image: /docs/static/attachments/26512550]
+![Image](https://www.cryengine.com/docs/static/attachments/26512550)
 
 *
 Pic13: Adding vertex color to the leaves
@@ -733,14 +723,14 @@ map1
 **
  UV sets cannot be deleted since it is the default UV set for the object.
 
-[Image: /docs/static/attachments/26512551]
+![Image](https://www.cryengine.com/docs/static/attachments/26512551)
 
 *
 Pic14: Verifying the multiple UV sets.
 *
 
 *
-[Image: /docs/static/attachments/26512555]
+![Image](https://www.cryengine.com/docs/static/attachments/26512555)
 
 Pic14a: UV Set Editor
 *
@@ -763,7 +753,7 @@ Open the Maya's UV Editor (if you haven't already) by going to the Maya menu:
 Windows->UV Editor.
 **
 
-[Image: /docs/static/attachments/26512552]
+![Image](https://www.cryengine.com/docs/static/attachments/26512552)
 
 *
 Pic15: Maya's UV Editor
@@ -809,7 +799,7 @@ b: If yes, you will see a UV Layout and select the UVs in UV Editor. Right-click
 -
 Click and drag a rectangle to select all UVs.
 
-[Image: /docs/static/attachments/26512553]
+![Image](https://www.cryengine.com/docs/static/attachments/26512553)
 
 *
 Pic16: UV selection mode
@@ -831,7 +821,7 @@ map1
  UV set.
 
 *
-[Image: /docs/static/attachments/26512556]
+![Image](https://www.cryengine.com/docs/static/attachments/26512556)
 
 Pic17: Copy and Paste UVs
 
@@ -868,7 +858,7 @@ Crytek
  shelf.
 
 *
-[Image: /docs/static/attachments/26512554]
+![Image](https://www.cryengine.com/docs/static/attachments/26512554)
 
 Pic18: UDP window for activating mergedmesh_deform
 *
@@ -989,7 +979,7 @@ bendable00_group
 . The other bendable group nodes are combined mesh pieces. But don't go overboard with using bendables group nodes. Maximum of ten should suffice and you will not get a performance drop by SPU bottleneck.
 
 *
-[Image: /docs/static/attachments/25495423]
+![Image](https://www.cryengine.com/docs/static/attachments/25495423)
 
 Pic19: Merged leaf patches together with trunk
 *
@@ -1008,9 +998,9 @@ merged_mesh_deform_finish.ma
 *
 **
 
-[Image: /docs/static/attachments/26512529]
+![Image](https://www.cryengine.com/docs/static/attachments/26512529)
 *
-[Image: /docs/static/attachments/26512530]
+![Image](https://www.cryengine.com/docs/static/attachments/26512530)
 
 *
 Pic20: Final exportable hierarchy
@@ -1067,7 +1057,7 @@ Generate Material Files
 **
  button if you haven't done it in the Material setup section above.
 *
-[Image: /docs/static/attachments/26512557]
+![Image](https://www.cryengine.com/docs/static/attachments/26512557)
 
 *
 Pic21: Ready to export the geometry files.
@@ -1135,32 +1125,14 @@ merged mesh deform
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285908](
-Vegetation 06 Trees (Deform) CRYENGINE
-)
+[Vegetation 06 Trees (Deform) CRYENGINE](Vegetation%2006%20Trees%20(Deform)%20CRYENGINE.md)
 **
 
-[#tutorial-files](
-Tutorial Files
-)
-[#pre-requisites-for-this-tutorial](
-Pre-requisites for this Tutorial
-)
-[#preliminary-information](
-Preliminary Information
-)
-[#initial-maya-setup](
-Initial Maya setup
-)
-[#material-creation](
-Material Creation
-)
-[#geometry](
-Geometry
-)
-[#further-pitfalls](
-Further Pitfalls
-)
-[#continue-to-cryengine](
-Continue to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Pre-requisites for this Tutorial](#pre-requisites-for-this-tutorial)
+[Preliminary Information](#preliminary-information)
+[Initial Maya setup](#initial-maya-setup)
+[Material Creation](#material-creation)
+[Geometry](#geometry)
+[Further Pitfalls](#further-pitfalls)
+[Continue to CRYENGINE](#continue-to-cryengine)

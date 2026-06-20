@@ -7,25 +7,19 @@
 
 ## Child Pages
 
-- [Cloth](Character Attachments/Cloth.md)
-- [Jiggle Bones](Character Attachments/Jiggle Bones.md)
+- [Cloth](Character%20Attachments/Cloth.md)
+- [Jiggle Bones](Character%20Attachments/Jiggle%20Bones.md)
 
 ## Content
 
-[Image: /docs/static/attachments/29933221]
+![Image](https://www.cryengine.com/docs/static/attachments/29933221)
 
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/51347603]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/51347603)](https://www.cryengine.com/support)
 
-[Image: /docs/static/attachments/51347604]
+![Image](https://www.cryengine.com/docs/static/attachments/51347604)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535602](
-Cloth
-)
+[Cloth](Character%20Attachments/Cloth.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959411](
-Jiggle Bones
-)
+[Jiggle Bones](Character%20Attachments/Jiggle%20Bones.md)

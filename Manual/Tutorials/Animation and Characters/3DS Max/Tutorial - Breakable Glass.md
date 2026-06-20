@@ -15,7 +15,7 @@ In this tutorial we will go over the process of setting up breakable glass panel
 *
 
 *
-[Image: /docs/static/attachments/24003491]
+![Image](https://www.cryengine.com/docs/static/attachments/24003491)
 
 *
 Pic1: In-game shot of the broken glass panes achieved using the Breakable Glass technology
@@ -30,30 +30,22 @@ Before you continue with this tutorial, make sure to have read and understood th
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963469](
-Installing the 3ds Max Tools
-)
+[Installing the 3ds Max Tools](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-Basic Asset Setup and Export - 3ds Max
-)
+[Basic Asset Setup and Export - 3ds Max](../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter in 3ds Max
-)
+[CRYENGINE Exporter in 3ds Max](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-Measurement Reference - (DCC Unit Setup)
-)
+[Measurement Reference - (DCC Unit Setup)](../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 **
 
 ##
@@ -83,7 +75,7 @@ Do not assign the glass material ID's to any other part of your asset that is no
 
 *
 *
-[Image: /docs/static/attachments/24003492]
+![Image](https://www.cryengine.com/docs/static/attachments/24003492)
 
 Pic2: Wireframe of the glass panels inside 3ds Max
 *
@@ -129,7 +121,7 @@ For this asset, we have 8 SubIDs detailing the different parts of the asset.
 
 The multiple glass SubIDs are required because we need to define different surface types to each of these glass panels. And since you can only assign one surface type per SubID, this is why we split them up.
 
-[Image: /docs/static/attachments/24152039]
+![Image](https://www.cryengine.com/docs/static/attachments/24152039)
 
 *
 Pic3: The full material setup for the bus stop asset with 8 SubIDs
@@ -167,7 +159,7 @@ Physical Proxy (NoDraw)
 -
 For this material you can also change the diffuse color to bright red and bring the opacity down to 50 so it's easier to visualize your proxy mesh.
 
-[Image: /docs/static/attachments/24151998]
+![Image](https://www.cryengine.com/docs/static/attachments/24151998)
 
 *
 Pic4: Proxy ID Setup in 3ds Max
@@ -215,7 +207,7 @@ Here is the important step that controls the breakable glass.
 We are not creating a separate proxy for the breakable glass, w
 e are Physicalizing the visible mesh as we need the exact 1 to 1 link between the visible mesh & the physics system.
 
-[Image: /docs/static/attachments/24151999]
+![Image](https://www.cryengine.com/docs/static/attachments/24151999)
 
 *
 Pic5: 1st Breakable Glass ID (advertisements) Setup in 3ds Max
@@ -257,7 +249,7 @@ From the second drop-down menu select
 Default
 **
 
-[Image: /docs/static/attachments/24152044]
+![Image](https://www.cryengine.com/docs/static/attachments/24152044)
 
 *
 Pic6: 2nd breakable glass material ID (main panels) in 3ds Max
@@ -280,7 +272,7 @@ ID6 - Scrolling advertisement billboard
 -
 ID7 - Metal (the main structure of the bus-stop)
 
-[Image: /docs/static/attachments/24152048]
+![Image](https://www.cryengine.com/docs/static/attachments/24152048)
 
 *
 Pic7: Material setup for ID 4,5,6,7 (non-physicalized SubIDs)
@@ -324,7 +316,7 @@ Make sure the material name in 3ds Max is the same as the *.mtl file you create.
 
 *
 *
-[Image: /docs/static/attachments/24003497]
+![Image](https://www.cryengine.com/docs/static/attachments/24003497)
 
 Pic8: Material selected at the top level, ready for export
 *
@@ -361,7 +353,7 @@ Multi/Sub-object material is applied to our geometry, the correct ID's are assig
 
 *
 *
-[Image: /docs/static/attachments/24003498]
+![Image](https://www.cryengine.com/docs/static/attachments/24003498)
 
 Pic9: Hierarchy setup
 *
@@ -459,7 +451,7 @@ Illum
 Pic10: Screenshot of the individual Glass material sub-ID's inside CRYENGINE
 
 *
-[Image: /docs/static/attachments/26512845]
+![Image](https://www.cryengine.com/docs/static/attachments/26512845)
 
 The second setting that needs to be changed is the Surface type. This will enable the glass to break as well as the application of adequate decals when bullets hit the surface and also the particles created by the impact.
 
@@ -544,7 +536,7 @@ Glass_breakable_safetyglass_small
  Glass_unbreakable
 **
 .
-[Image: /docs/static/attachments/26512846]
+![Image](https://www.cryengine.com/docs/static/attachments/26512846)
 
 *
 Pic11: Screenshot of the Glass material set up with the right shader and surface type
@@ -552,21 +544,9 @@ Pic11: Screenshot of the Glass material set up with the right shader and surface
 
 If you have properly set up your Shader and Surface Type you should now have fully breakable glass panels in your scene.
 
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-3ds-max-setup](
-Initial 3ds Max Setup
-)
-[#material](
-Material
-)
-[#export-the-material](
-Export the Material
-)
-[#object-setup](
-Object Setup
-)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Helpful Information](#helpful-information)
+[Initial 3ds Max Setup](#initial-3ds-max-setup)
+[Material](#material)
+[Export the Material](#export-the-material)
+[Object Setup](#object-setup)

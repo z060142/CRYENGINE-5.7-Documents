@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934053]
+![Image](https://www.cryengine.com/docs/static/attachments/29934053)
 
 ##
 Overview
@@ -18,23 +18,13 @@ Sections
 Boids are flocks of characters that play a few animations. These characters are usually birds, fish, insects, etc.
 
 You can find out more about setting up Boids in Sandbox here:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796926](
-Boids Entities
-)
+[Boids Entities](../../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Legacy%20Entities/Boids%20Entities.md)
 .
 
-[#sections](
-Sections
-)
-[#rigging-the-characters](
-Rigging the Characters
-)
-[#animation](
-Animation
-)
-[#entity-properties](
-Entity Properties
-)
+[Sections](#sections)
+[Rigging the Characters](#rigging-the-characters)
+[Animation](#animation)
+[Entity Properties](#entity-properties)
 
 ##
 Rigging the Characters
@@ -50,9 +40,7 @@ CRYENGINE 3.5 - LOD's in CHR's
 The skin with LOD's needs to be re-exported from DCC tools as a .skin. LOD's in CHR's are not supported any more.
 
 Animations also need to be re-exported/imported through the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450423](
-Animation Compression Editor
-)
+[Animation Compression Editor](../../../../Editor%20Tools/Animation%20Tab/Character%20Tool/Animation%20Compression%20-%20Character%20Tool.md)
  and Animation Importer tool as well.
 
 Simple boids like insects or fish can have one single bone and point to null animations.

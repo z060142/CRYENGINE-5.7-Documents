@@ -24,9 +24,7 @@ Matchmaking Service Functions
 AddLobbyQueryFilterString
 
 Adds a lobby query filter that will be used on the next
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584#Matchmaking&Lobbies-querylobbies](
- QueryLobbies
-)
+[QueryLobbies](Matchmaking%20%26%20Lobbies.md#Matchmaking%26Lobbies-querylobbies)
 call.
 
 Platform(s)
@@ -81,13 +79,9 @@ Lobby
 GetQueriedLobbyIdByIndex
 
 Returns the lobby at the specified index from the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584#Matchmaking&Lobbies-querylobbies](
- QueryLobbies
-)
+[QueryLobbies](Matchmaking%20%26%20Lobbies.md#Matchmaking%26Lobbies-querylobbies)
 result (after the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584#Matchmaking&Lobbies-lobbyquerycomplet](
-OnLobbyQueryComplete
-)
+[OnLobbyQueryComplete](Matchmaking%20%26%20Lobbies.md#Matchmaking%26Lobbies-lobbyquerycomplet)
 event).
 
 Platform(s)
@@ -175,9 +169,7 @@ QueryLobbies
 Queries the backend for lobbies that match any and all filters added since the last QueryLobbies call.
 
 Listen for the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584#Matchmaking&Lobbies-lobbyquerycomplete](
- OnLobbyQueryComplete
-)
+[OnLobbyQueryComplete](Matchmaking%20%26%20Lobbies.md#Matchmaking%26Lobbies-lobbyquerycomplete)
 event after querying the backend.
 
 Platform(s)
@@ -932,18 +924,8 @@ Function::Components::PlatformSignalReceiver::StartStopRemoteFileListener
 
 If the local user leaves a lobby, you technically do not need to call StartStopLobbyListener as all listeners to that lobby will be unregistered when you leave the lobby
 
-[#matchmaking-service-functions](
-Matchmaking Service Functions
-)
-[#matchmaking-service-events](
-Matchmaking Service Events
-)
-[#lobby-functions](
-Lobby Functions
-)
-[#lobby-events](
-Lobby Events
-)
-[#event-registration-functions](
-Event Registration Functions
-)
+[Matchmaking Service Functions](#matchmaking-service-functions)
+[Matchmaking Service Events](#matchmaking-service-events)
+[Lobby Functions](#lobby-functions)
+[Lobby Events](#lobby-events)
+[Event Registration Functions](#event-registration-functions)

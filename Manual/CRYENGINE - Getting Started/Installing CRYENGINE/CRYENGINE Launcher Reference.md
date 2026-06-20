@@ -7,14 +7,14 @@
 
 ## Child Pages
 
-- [Managing Projects](CRYENGINE Launcher Reference/Managing Projects.md)
-- [Downloading and Installing Assets](CRYENGINE Launcher Reference/Downloading and Installing Assets.md)
-- [Contributing to the Asset Database](CRYENGINE Launcher Reference/Contributing to the Asset Database.md)
-- [Launcher Troubleshooting](CRYENGINE Launcher Reference/Launcher Troubleshooting.md)
+- [Managing Projects](CRYENGINE%20Launcher%20Reference/Managing%20Projects.md)
+- [Downloading and Installing Assets](CRYENGINE%20Launcher%20Reference/Downloading%20and%20Installing%20Assets.md)
+- [Contributing to the Asset Database](CRYENGINE%20Launcher%20Reference/Contributing%20to%20the%20Asset%20Database.md)
+- [Launcher Troubleshooting](CRYENGINE%20Launcher%20Reference/Launcher%20Troubleshooting.md)
 
 ## Content
 
-[Image: /docs/static/attachments/109543453]
+![Image](https://www.cryengine.com/docs/static/attachments/109543453)
 
 *
 The CRYENGINE Launcher interface
@@ -41,9 +41,7 @@ User Dashboard
 **
  |
 Opens your user account dashboard on the
-[https://cryengine.com](
-CRYENGINE website
-)
+[CRYENGINE website](https://cryengine.com)
 , allowing you to configure your account details.
  |
 
@@ -52,15 +50,11 @@ Contributor Account
 **
  |
 Lets you set up and configure your Contributor account details on the
-[https://cryengine.com](
-CRYENGINE website
-)
+[CRYENGINE website](https://cryengine.com)
 .
 
 A Contributor account is only required if you intend to submit assets to the CRYENGINE Asset Database (Asset DB). See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468288](
-Contributing to the Asset Database
-)
+[Contributing to the Asset Database](CRYENGINE%20Launcher%20Reference/Contributing%20to%20the%20Asset%20Database.md)
  for more information.
 
  |
@@ -118,9 +112,7 @@ Asset Directory
 Specifies the folder to which all assets will be downloaded.
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468323](
-Downloading and Installing Assets
-)
+[Downloading and Installing Assets](CRYENGINE%20Launcher%20Reference/Downloading%20and%20Installing%20Assets.md)
  for more information.
 
  |
@@ -237,7 +229,7 @@ Opens a tab that displays all active downloads and uploads, if any. The icon wil
 ##
 2. Launcher Home
 
-[Image: /docs/static/attachments/76449709]
+![Image](https://www.cryengine.com/docs/static/attachments/76449709)
 
 *
 Launcher Home
@@ -248,7 +240,7 @@ Launch Sandbox
 **
 
 **
-[Image: /docs/static/attachments/69468391]
+![Image](https://www.cryengine.com/docs/static/attachments/69468391)
 
 **
 *
@@ -256,9 +248,7 @@ The Launch Sandbox button
 *
 
 Clicking this button opens the CRYENGINE version you've
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-set_default_engine](
-set as your default
-)
+[set as your default](CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-set_default_engine)
  in the Engines library.
 
 The dropdown beside this button provides the following options:
@@ -280,9 +270,7 @@ Manage Engines
 **
  |
 Redirects you to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-engines](
-Engines
-)
+[Engines](CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-engines)
  library in the CRYENGINE Launcher.
  |
 
@@ -311,16 +299,14 @@ Select Engine Version
 **
  prompt appears, allowing you to select the Engine version your project should use.
 
-[Image: /docs/static/attachments/69468241]
+![Image](https://www.cryengine.com/docs/static/attachments/69468241)
 
 *
 Select Engine Version
 *
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468348](
-Creating, Importing & Upgrading Projects
-)
+[Creating, Importing & Upgrading Projects](CRYENGINE%20Launcher%20Reference/Managing%20Projects.md)
  for more information.
 
  |
@@ -337,9 +323,7 @@ Download Assets
 **
  |
 Redirects you to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-assetlibrary](
-Asset Library
-)
+[Asset Library](CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-assetlibrary)
  tab.
  |
 
@@ -348,15 +332,11 @@ Submit New Asset
 **
  |
 Redirects you to the asset creation page in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-vendorassets](
-Contributor Assets
-)
+[Contributor Assets](CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-vendorassets)
  tab.
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468288](
-Contributing to the Asset Database
-)
+[Contributing to the Asset Database](CRYENGINE%20Launcher%20Reference/Contributing%20to%20the%20Asset%20Database.md)
  for more information.
 
  |
@@ -366,9 +346,7 @@ Latest News
 **
 
 Lists the most recent news items from the
-[https://www.cryengine.com/news](
-CRYENGINE Blog
-)
+[CRYENGINE Blog](https://www.cryengine.com/news)
 .
 
 **
@@ -376,9 +354,7 @@ Asset Database
 **
 
 Lists the latest and most popular assets from the
-[https://www.cryengine.com/asset-db](
-CRYENGINE Asset Database
-)
+[CRYENGINE Asset Database](https://www.cryengine.com/asset-db)
 .
 
 ##
@@ -387,7 +363,7 @@ CRYENGINE Asset Database
 ##
 Projects
 
-[Image: /docs/static/attachments/69468237]
+![Image](https://www.cryengine.com/docs/static/attachments/69468237)
 
 *
 Projects tab
@@ -395,9 +371,7 @@ Projects tab
 
 Opens the Projects library, where you can see
 all the CRYENGINE projects that are stored in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-projects_directory](
-projects directory
-)
+[projects directory](CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-projects_directory)
  specified in the Launcher Settings.
 
 ##
@@ -423,15 +397,13 @@ Lets you create a new project. When clicked, the Select Engine Version prompt ap
 will
 use.
 
-[Image: /docs/static/attachments/69468241]
+![Image](https://www.cryengine.com/docs/static/attachments/69468241)
 *
 Select Engine Version
 *
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468348](
-Creating, Importing & Upgrading Projects
-)
+[Creating, Importing & Upgrading Projects](CRYENGINE%20Launcher%20Reference/Managing%20Projects.md)
  for more information.
 
  |
@@ -440,7 +412,7 @@ Creating, Importing & Upgrading Projects
 Project Options
 
 Clicking the
-[Image: /docs/static/attachments/69468245]
+![Image](https://www.cryengine.com/docs/static/attachments/69468245)
  icon in a project listing provides the following options:
 
 Options
@@ -460,9 +432,7 @@ Launch Game Executable
 **
  |
 Opens the project in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535321](
- Game Executable Launcher
-)
+[Game Executable Launcher](../../Packaging%20and%20Deployment/Game%20Executable%20Launcher.md)
 .
  |
 
@@ -474,9 +444,7 @@ Open in Visual Studio
 Opens the code solution of the selected project in MS Visual Studio.
 
 This is only available for projects that have a code solution, which can be generated using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963103#ProjectTools-generatesolution](
-Generate Solution
-)
+[Generate Solution](Project%20Tools.md#ProjectTools-generatesolution)
  option in the .cryproject context menu.
 
  |
@@ -488,7 +456,7 @@ Edit Project Details
 Takes you to the Edit Project dashboard, where you can
  assign a custom thumbnail to your project as well as change its name, Engine version, and even create a backup.
 
-[Image: /docs/static/attachments/69468252]
+![Image](https://www.cryengine.com/docs/static/attachments/69468252)
 
 *
 Edit Project
@@ -507,9 +475,7 @@ You can use the
 Engine Version
 **
  field in the Edit Project window to upgrade projects created in older CRYENGINE versions to a newer version; see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468348](
-Creating, Importing & Upgrading Projects
-)
+[Creating, Importing & Upgrading Projects](CRYENGINE%20Launcher%20Reference/Managing%20Projects.md)
  for more information.
  |
 
@@ -551,7 +517,7 @@ Completely deletes the selected project, both from the Launcher and the user's h
 ##
 Engines
 
-[Image: /docs/static/attachments/69468243]
+![Image](https://www.cryengine.com/docs/static/attachments/69468243)
 
 *
 Engines tab
@@ -588,7 +554,7 @@ Select Engine Version
  prompt appears, allowing you to select an Engine version to download.
 
 *
-[Image: /docs/static/attachments/94502919]
+![Image](https://www.cryengine.com/docs/static/attachments/94502919)
 
 Select Engine Version
 *
@@ -598,9 +564,7 @@ As of the 5.7.1 Launcher update, only CRYENGINE versions 5.7 and onwards may be 
 
  |
 Opens CRYENGINE's
-[https://github.com/CRYTEK/CRYENGINE](
-GitHub repository
-)
+[GitHub repository](https://github.com/CRYTEK/CRYENGINE)
  from where you can download its source code.
  |
 
@@ -673,9 +637,7 @@ Creating a new project in earlier versions of the Engine
 *
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468348](
-Creating, Importing & Upgrading Projects
-)
+[Creating, Importing & Upgrading Projects](CRYENGINE%20Launcher%20Reference/Managing%20Projects.md)
 
 for more information.
 
@@ -715,9 +677,7 @@ Launch Sandbox
 **
  button in the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-launcherhome](
-Launcher Home
-)
+[Launcher Home](CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-launcherhome)
 .
 
 *
@@ -809,9 +769,7 @@ Tools and Plugins
 **
  |
 Allows you install third-party tools and plugins via the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963458](
-CryToolsInstaller
-)
+[CryToolsInstaller](CRYENGINE%20Plugins%20and%20Tools/CryToolsInstaller.md)
 ; an application required to support the export/import processes from Maya®, 3ds Max, Adobe Photoshop, etc.
  |
 
@@ -837,12 +795,10 @@ Completely deletes the selected Engine version's storage directory.
 Asset Library
 
 Lists all assets that have been downloaded from the
-[https://cryengine.com/asset-db](
-CRYENGINE Asset Database
-)
+[CRYENGINE Asset Database](https://cryengine.com/asset-db)
 .
 
-[Image: /docs/static/attachments/69468270]
+![Image](https://www.cryengine.com/docs/static/attachments/69468270)
 
 *
 The Asset Library
@@ -850,7 +806,7 @@ The Asset Library
 
 If you have recently upgraded to a new Launcher version and have yet to migrate your assets, there will be a reminder in your Asset Library to do so, as shown here:
 
-[Image: /docs/static/attachments/69468460]
+![Image](https://www.cryengine.com/docs/static/attachments/69468460)
 
 *
 Migration reminder
@@ -861,9 +817,7 @@ Clicking
 Migrate Asset Now
 **
  will bring up the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468348#ManagingProjects-Migrate_assets](
-Migrate Assets
-)
+[Migrate Assets](CRYENGINE%20Launcher%20Reference/Managing%20Projects.md#ManagingProjects-Migrate_assets)
  prompt.
 
 If you haven't downloaded any assets from the CRYENGINE Asset Database yet, you will see the
@@ -872,22 +826,18 @@ Visit Asset Database
 **
  hyperlink in the Asset Library as shown:
 
-[Image: /docs/static/attachments/109543457]
+![Image](https://www.cryengine.com/docs/static/attachments/109543457)
 
 *
 Empty Asset Library
 *
 
 Clicking this hyperlink opens the
-[https://cryengine.com/asset-db](
-CRYENGINE Asset Database
-)
+[CRYENGINE Asset Database](https://cryengine.com/asset-db)
  in the web browser, where you can acquire free assets uploaded by other developers. Once an asset has been ordered, it will be available for download within the Launcher.
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468323](
-Downloading and Installing Assets
-)
+[Downloading and Installing Assets](CRYENGINE%20Launcher%20Reference/Downloading%20and%20Installing%20Assets.md)
  for more information.
 
 ##
@@ -900,13 +850,13 @@ Button
 Description
  |
 
-[Image: /docs/static/attachments/69468238]
+![Image](https://www.cryengine.com/docs/static/attachments/69468238)
 
  |
 Allows you to search, by name, for an asset listed in the Launcher.
  |
 
-[Image: /docs/static/attachments/69468264]
+![Image](https://www.cryengine.com/docs/static/attachments/69468264)
 
  |
 Sorts assets according to one of the following criteria:
@@ -946,7 +896,7 @@ Assets are sorted in reverse alphabetical order.
 
  |
 
-[Image: /docs/static/attachments/69468263]
+![Image](https://www.cryengine.com/docs/static/attachments/69468263)
 
  |
 Filters displayed according to the following criteria:
@@ -979,15 +929,15 @@ Assets that have pending updates.
 
  |
 
-[Image: /docs/static/attachments/69468246]
+![Image](https://www.cryengine.com/docs/static/attachments/69468246)
  or
-[Image: /docs/static/attachments/69468262]
+![Image](https://www.cryengine.com/docs/static/attachments/69468262)
 
  |
 Toggles the display of installed assets to list or thumbnail view.
  |
 
-[Image: /docs/static/attachments/69468245]
+![Image](https://www.cryengine.com/docs/static/attachments/69468245)
 
  |
 Option
@@ -1015,7 +965,7 @@ Checks if any downloaded assets have pending updates.
 Asset Options
 
 Clicking the
-[Image: /docs/static/attachments/69468245]
+![Image](https://www.cryengine.com/docs/static/attachments/69468245)
  icon in an asset listing reveals the following options:
 
 Option
@@ -1028,9 +978,7 @@ Download
 **
  |
 This option is only visible for assets that have been ordered in the Asset Database but not yet downloaded to disk; see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468323](
-Downloading and Installing Assets
-)
+[Downloading and Installing Assets](CRYENGINE%20Launcher%20Reference/Downloading%20and%20Installing%20Assets.md)
  for more information.
 
 Downloads the listed asset.
@@ -1042,9 +990,9 @@ Verify Integrity
 **
  |
 Checks if the selected asset's storage directory has been modified (files deleted, moved, etc.). After the integrity check, a "modified" asset download is indicated by the
-[Image: /docs/static/attachments/69468256]
+![Image](https://www.cryengine.com/docs/static/attachments/69468256)
  icon in place of
-[Image: /docs/static/attachments/69468404]
+![Image](https://www.cryengine.com/docs/static/attachments/69468404)
 .
 
  |
@@ -1054,7 +1002,7 @@ Redownload
 **
  |
 This option is only visible for asset downloads that have had their storage directories modified; a modified asset download is indicated by the
-[Image: /docs/static/attachments/69468256]
+![Image](https://www.cryengine.com/docs/static/attachments/69468256)
  icon (see
 **
 Verify Integrity
@@ -1091,7 +1039,7 @@ Contributor Assets
 
 Opens the Contributor Assets library, where you can submit free assets that you'd like published on the Asset Database, as well as check the status of their review process.
 
-[Image: /docs/static/attachments/109543459]
+![Image](https://www.cryengine.com/docs/static/attachments/109543459)
 
 *
 Contributor Assets library
@@ -1106,7 +1054,7 @@ Contributor Assets
 **
  tab:
 
-[Image: /docs/static/attachments/109543460]
+![Image](https://www.cryengine.com/docs/static/attachments/109543460)
 
 *
 Become a contributor
@@ -1116,16 +1064,14 @@ Once your Contributor account has been successfully created, the Contributor Ass
 this
 :
 
-[Image: /docs/static/attachments/109543461]
+![Image](https://www.cryengine.com/docs/static/attachments/109543461)
 
 *
 No assets found in the Contributor Assets library
 *
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468288](
-Contributing to the Asset Database
-)
+[Contributing to the Asset Database](CRYENGINE%20Launcher%20Reference/Contributing%20to%20the%20Asset%20Database.md)
  for more information on creating a Contributor account and publishing assets.
 
 ##
@@ -1138,13 +1084,13 @@ Button/Option
 Description
  |
 
-[Image: /docs/static/attachments/69468238]
+![Image](https://www.cryengine.com/docs/static/attachments/69468238)
 
  |
 Allows you to search, by name, for the assets you've submitted to the Asset Database.
  |
 
-[Image: /docs/static/attachments/69468263]
+![Image](https://www.cryengine.com/docs/static/attachments/69468263)
 
  |
 Allows you to filter assets listed in the Contributor Assets library by one or a combination of the following criteria:
@@ -1165,7 +1111,7 @@ Mature Content (Any, Yes, No)
 
 **
 **
-[Image: /docs/static/attachments/69468282]
+![Image](https://www.cryengine.com/docs/static/attachments/69468282)
 
 **
 *
@@ -1173,22 +1119,20 @@ Filter criteria
 *
 
 Click
-[Image: /docs/static/attachments/69468279]
+![Image](https://www.cryengine.com/docs/static/attachments/69468279)
 to apply your choice of filter criteria, and
-[Image: /docs/static/attachments/69468280]
+![Image](https://www.cryengine.com/docs/static/attachments/69468280)
  to remove any previously applied filters.
 
  |
 
-[Image: /docs/static/attachments/69468277]
+![Image](https://www.cryengine.com/docs/static/attachments/69468277)
 
  |
 Begins the asset submission process by opening a form for you to enter your submission details.
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468288](
-Contributing to the Asset Database
-)
+[Contributing to the Asset Database](CRYENGINE%20Launcher%20Reference/Contributing%20to%20the%20Asset%20Database.md)
  for more information.
 
  |
@@ -1285,9 +1229,7 @@ Edit
 Allows you to edit and check the status of your asset submission.
 
 For more information, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468288](
-Contributing to the Asset Database
-)
+[Contributing to the Asset Database](CRYENGINE%20Launcher%20Reference/Contributing%20to%20the%20Asset%20Database.md)
 .
 
  |
@@ -1325,23 +1267,11 @@ Deletes the selected asset submission.
 Related Information
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468180](
-Installing CRYENGINE
-)
+[Installing CRYENGINE](../Installing%20CRYENGINE.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468348](
-Creating, Importing and Upgrading Projects
-)
-[#1-quick-access](
-1. Quick Access
-)
-[#2-launcher-home](
-2. Launcher Home
-)
-[#3-tabs](
-3. Tabs
-)
-[#related-information](
-Related Information
-)
+[Creating, Importing and Upgrading Projects](CRYENGINE%20Launcher%20Reference/Managing%20Projects.md)
+[1. Quick Access](#1-quick-access)
+[2. Launcher Home](#2-launcher-home)
+[3. Tabs](#3-tabs)
+[Related Information](#related-information)

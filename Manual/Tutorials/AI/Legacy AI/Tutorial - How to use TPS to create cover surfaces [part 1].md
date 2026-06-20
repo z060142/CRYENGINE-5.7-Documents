@@ -8,3 +8,5 @@
 ## Content
 
 In this lesson we add on to the SDK Grunt queries and create a TPS query that allows the AI to query the environment and choose the best cover surface nearby to engage its target. This is the first in a 3 part series.
+
+[Embed: https://www.youtube.com/watch?v=rlNgpjQwygU&list=PLpCgy91Y5vMuwKSCe-iOJ-OyAMXkMvb4I&index=5]

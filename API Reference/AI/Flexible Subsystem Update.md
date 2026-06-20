@@ -130,9 +130,5 @@ void Game::Update(const CTimeValue frameStartTime, const float deltaTime)
 
 ```
 
-[#setting-override-update-flags](
-Setting Override Update Flags
-)
-[#manually-updating-the-subsystem](
-Manually Updating the Subsystem
-)
+[Setting Override Update Flags](#setting-override-update-flags)
+[Manually Updating the Subsystem](#manually-updating-the-subsystem)

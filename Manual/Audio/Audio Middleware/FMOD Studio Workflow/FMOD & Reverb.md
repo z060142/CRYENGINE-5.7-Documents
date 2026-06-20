@@ -13,9 +13,7 @@ Overview
 This section describes how to setup Reverbs in levels using FMOD Studio.
 
 To learn more about audio system Environments in CRYENGINE please have a look in the chapter
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964924](
-Audio & Reverbs*
-)
+[Audio & Reverbs*](../../Audio%20Overview/Audio%20%26%20Reverbs.md)
 .
 
 ##
@@ -35,14 +33,14 @@ Now select your Return Track in the Fader View, and add a Reverb Effect before t
 Selecting the Return Fader and adding Reverb Effect
 *
 
-[Image: /docs/static/attachments/44968269]
+![Image](https://www.cryengine.com/docs/static/attachments/44968269)
 
 *
 
 *
 Adding a Reverb Effect in the Return Track
 
-[Image: /docs/static/attachments/44968270]
+![Image](https://www.cryengine.com/docs/static/attachments/44968270)
 
 *
 *
@@ -54,14 +52,12 @@ To control which SoundEvent gets affected and also allow fading, each SoundEvent
 Therefore you select the SoundEvent, inside the Master track, and add a Send Fader before the 3D Panner or respectively at the beginning of your effect chain.
 
 *
-[Image: /docs/static/attachments/44968271]
+![Image](https://www.cryengine.com/docs/static/attachments/44968271)
 
 *
 
 Once the audio system Environment is assigned in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
 , the reverb will automatically fade in based on the
 *
 EnvironmentDistance
@@ -76,7 +72,7 @@ AudioAreaEntity.
 
 Connecting the Audio System Environmments with the Reverb Return
 
-[Image: /docs/static/attachments/44968272]
+![Image](https://www.cryengine.com/docs/static/attachments/44968272)
 
 *
 

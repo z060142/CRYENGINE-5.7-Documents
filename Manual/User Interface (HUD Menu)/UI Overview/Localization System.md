@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934091]
+![Image](https://www.cryengine.com/docs/static/attachments/29934091)
 
 ##
 Overview
@@ -47,18 +47,10 @@ CSystem::OpenLanguagePak()
 *
  function.
 
-[#sections](
-Sections
-)
-[#usage](
-Usage
-)
-[#pakfolder-structure](
-PAK/Folder structure
-)
-[#texture-localization](
-Texture Localization
-)
+[Sections](#sections)
+[Usage](#usage)
+[PAK/Folder structure](#pakfolder-structure)
+[Texture Localization](#texture-localization)
 
 ##
 Usage
@@ -323,7 +315,5 @@ Localization/<language
 Texture Localization
 
 For detailed information on localizing textures, refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535435](
-Texture Localization
-)
+[Texture Localization](Texture%20Localization.md)
  article.

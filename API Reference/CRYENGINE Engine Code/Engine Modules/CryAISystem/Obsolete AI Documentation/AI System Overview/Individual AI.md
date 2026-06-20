@@ -18,7 +18,7 @@ Dynamic covers, generated offline and adjusted during run time
 ##
 Example: CoverSurface and HMMWV
 
-[Image: /docs/static/attachments/23461217]
+![Image](https://www.cryengine.com/docs/static/attachments/23461217)
 
 (Here
 **
@@ -106,7 +106,7 @@ local Behavior = CreateAIBehavior("CivilianIdle",
 
 -
 Grunt's properties:
-[Image: /docs/static/attachments/23461218]
+![Image](https://www.cryengine.com/docs/static/attachments/23461218)
 
 -
 Useful AI debug draw:
@@ -230,7 +230,7 @@ local Behavior = CreateAIBehavior("CivilianAlerted", "CivilianIdle",
 
 -
 Civilian's properties:
-[Image: /docs/static/attachments/23461219]
+![Image](https://www.cryengine.com/docs/static/attachments/23461219)
 
 -
 Useful AI debug draw:
@@ -248,12 +248,6 @@ AI Debugger
 
 -
 Behavior Selection Tree Editor
-[#dynamic-covers-generated-offline-and-adjusted-during-run-time](
-Dynamic covers, generated offline and adjusted during run time
-)
-[#dynamic-tactical-points](
-Dynamic tactical points
-)
-[#behavior-trees](
-Behavior trees
-)
+[Dynamic covers, generated offline and adjusted during run time](#dynamic-covers-generated-offline-and-adjusted-during-run-time)
+[Dynamic tactical points](#dynamic-tactical-points)
+[Behavior trees](#behavior-trees)

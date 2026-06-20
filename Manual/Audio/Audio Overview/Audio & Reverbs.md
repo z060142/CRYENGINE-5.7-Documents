@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/44964925]
+![Image](https://www.cryengine.com/docs/static/attachments/44964925)
 
 ##
 Overview
@@ -15,9 +15,7 @@ Overview
 This section describes how to setup Reverbs in levels. In CRYENGINE reverbs are called Environments.
 
 We are using the Environment audio system control which can be setup in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../Editor%20Tools/Audio%20Controls%20Editor.md)
 .
 
 ##
@@ -83,11 +81,11 @@ After a
 Shape
  has been selected click in the Perspective viewport to create points which will become the corners of your Shape. When you have chosen the position of your last point of your Shape, double-click to close and complete your created Shape.
 
-[Image: /docs/static/attachments/44970659]
+![Image](https://www.cryengine.com/docs/static/attachments/44970659)
 
 Now go to the properties of the Area Shape and give it a name and a height:
 
-[Image: /docs/static/attachments/44970660]
+![Image](https://www.cryengine.com/docs/static/attachments/44970660)
 
 ##
 Using the AudioAreaAmbience and AudioAreaEntity
@@ -118,18 +116,18 @@ AudioAreaAmbience
 *
  entity will now be linked to the Shape.
 
-[Image: /docs/static/attachments/44970661]
+![Image](https://www.cryengine.com/docs/static/attachments/44970661)
 
 For the Environment option select the audio system Environment for your Reverb Area.
 
-[Image: /docs/static/attachments/44970697]
+![Image](https://www.cryengine.com/docs/static/attachments/44970697)
 
 *
 AudioAreaAmbience Properties
 *
 
 *
-[Image: /docs/static/attachments/44970663]
+![Image](https://www.cryengine.com/docs/static/attachments/44970663)
 
 *
 *
@@ -141,9 +139,7 @@ For a full reference of the properties for the
 AudioAreaAmbience
 *
 Entity please refer to
-[/docs/static/engines/cryengine-5/categories/23756816](
-Audio Entities & Flow Graph Nodes
-)
+[Audio Entities & Flow Graph Nodes](/docs/static/engines/cryengine-5/categories/23756816)
 .
 
 If your character is moving towards the Area in a level, then the Reverb will be called as soon as the character enters into the maximum distance as defined by the
@@ -164,7 +160,7 @@ EnvironmentDistance
 *
  equals 1 and therefore your Reverb will play without attenuation.
 
-[Image: /docs/static/attachments/19348573]
+![Image](https://www.cryengine.com/docs/static/attachments/19348573)
 
 The distance the
 *
@@ -241,7 +237,7 @@ environment_sound
 
 When connected to the audio system Environments it will fade out the weapon tail when approaching the connected Reverb Area.
 
-[Image: /docs/static/attachments/44970667]
+![Image](https://www.cryengine.com/docs/static/attachments/44970667)
 
 This functionality gives you room for very creative use. Keep in mind that you are not restricted to the
 *

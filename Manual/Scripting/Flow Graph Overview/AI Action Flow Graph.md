@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933203]
+![Image](https://www.cryengine.com/docs/static/attachments/29933203)
 
 ##
 Overview
@@ -19,15 +19,9 @@ These flowgraphs are kind of flowgraph macro-nodes used for common actions like 
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#setup](
-Setup
-)
-[#example](
-Example
-)
+[Sections](#sections)
+[Setup](#setup)
+[Example](#example)
 
 ##
 Setup

@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Movement System (design details)](Movement System/Movement System (design details).md)
+- [Movement System (design details)](Movement%20System/Movement%20System%20(design%20details).md)
 
 ## Content
 
@@ -27,6 +27,4 @@ Following the path
 Additional documentation:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306464](
-Movement System (design details)
-)
+[Movement System (design details)](Movement%20System/Movement%20System%20(design%20details).md)

@@ -13,9 +13,7 @@ Overview
 This tutorial aims to explain the process of replacing a player character from the Isometric Pathfinding Template C++ template project with another animated model.
 
 Please be advised that GameSDK is NOT used for this tutorial. It is based on the templates that are provided with the Engine, so
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870288](
-create a new project
-)
+[create a new project](/docs/static/engines/cryengine-5/categories/23756816/pages/36870288)
  using the
 **
 Isometric Pathfinding
@@ -23,9 +21,7 @@ Isometric Pathfinding
  template.
 
 If you prefer to watch a video tutorial rather than read a written one, check out the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959416#Tutorial-ReplacingthePlayerCharacter-VidTutDeer1](
-video tutorial
-)
+[video tutorial](Tutorial%20-%20Replacing%20the%20Player%20Character.md#Tutorial-ReplacingthePlayerCharacter-VidTutDeer1)
  at the bottom of this page.
 
 This tutorial can be used as a base for other templates, but these don't work exactly the same as the Isometric Pathfinding template. Please be careful when attempting this.
@@ -41,9 +37,7 @@ Mannequin Editor
 
 -
 Microsoft Visual Studio® (a free
-[https://visualstudio.microsoft.com/vs/community/](
-Community version
-)
+[Community version](https://visualstudio.microsoft.com/vs/community/)
  is available)
 
 -
@@ -54,9 +48,7 @@ Files
 
 Download the following file and extract anywhere:
 
-[/docs/static/attachments/44959419](
-deer_tutorial.zip
-)
+[deer_tutorial.zip](/docs/static/attachments/44959419)
 
 This is just an example asset. It is of course possible to use other .fbx characters.
 
@@ -68,7 +60,7 @@ Open the Character Tool and drag & drop the
 deer.fbx
 file into its viewport:
 
-[Image: /docs/static/attachments/44959418]
+![Image](https://www.cryengine.com/docs/static/attachments/44959418)
 
 -
 Save it under
@@ -157,7 +149,7 @@ Frames
 **
 :
 
-[Image: /docs/static/attachments/44959426]
+![Image](https://www.cryengine.com/docs/static/attachments/44959426)
 
 *
 Changing seconds to frames
@@ -200,7 +192,7 @@ Drag & drop the
 
 In the panel on the left, the one long animation has now appeared:
 
-[Image: /docs/static/attachments/44959427]
+![Image](https://www.cryengine.com/docs/static/attachments/44959427)
 
 *
 Initial animation clip
@@ -275,9 +267,7 @@ CRYENGINE 5.6 or later
 **
 , your next step should be
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959416#Tutorial-ReplacingthePlayerCharacter-Changing3rdPersonModel](
-Changing the Third-Person Model to the Deer Model
-)
+[Changing the Third-Person Model to the Deer Model](Tutorial%20-%20Replacing%20the%20Player%20Character.md#Tutorial-ReplacingthePlayerCharacter-Changing3rdPersonModel)
 .
 *
 
@@ -297,7 +287,7 @@ Compression (Animations/)
 **
 .
 
-[Image: /docs/static/attachments/44959425]
+![Image](https://www.cryengine.com/docs/static/attachments/44959425)
 
 *
 Skeleton List location
@@ -325,7 +315,7 @@ Add
 **
 .
 
-[Image: /docs/static/attachments/44959424]
+![Image](https://www.cryengine.com/docs/static/attachments/44959424)
 
 *
 Adding a skeleton
@@ -422,7 +412,7 @@ player.cpp
 *
 and open it:
 
-[Image: /docs/static/attachments/44959423]
+![Image](https://www.cryengine.com/docs/static/attachments/44959423)
 
 *
 Looking for player.cpp
@@ -533,7 +523,7 @@ Option 1
 **
 :
 
-[Image: /docs/static/attachments/44959422]
+![Image](https://www.cryengine.com/docs/static/attachments/44959422)
 
 *
 Finding the Walk animation
@@ -546,7 +536,7 @@ ThirdPerson(Thirdperson): Walk
 **
 :
 
-[Image: /docs/static/attachments/44959421]
+![Image](https://www.cryengine.com/docs/static/attachments/44959421)
 
 *
 Walk animation in Fragment Editor
@@ -567,7 +557,7 @@ deer_walk
 **
  animation:
 
-[Image: /docs/static/attachments/44959417]
+![Image](https://www.cryengine.com/docs/static/attachments/44959417)
 
 *
 Changing animation clip
@@ -617,9 +607,7 @@ deer
 Example Level
 
 An example level can be found in the Asset Database that combines the results from this tutorial and the next one. You can find it on the
-[https://www.cryengine.com/marketplace](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace)
 .
 
 ##
@@ -628,165 +616,102 @@ Video Tutorial
 Topic index:
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=40s](
-00:40
-)
+[00:40](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=40s)
  Understanding Where the Default Player Is Defined
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=142s](
-01:17
-)
+[01:17](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=142s)
  Related tutorials to set up for this tutorial
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=98s](
-01:38
-)
+[01:38](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=98s)
  FBX vs Plug-In Workflow
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=142s](
-02:22
-)
+[02:22](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=142s)
  Creating the Project From a Template
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=164s](
-02:44
-)
+[02:44](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=164s)
  Setting Up the New Character Folder
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=190s](
-03:10
-)
+[03:10](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=190s)
  Importing and Setting Up an .FBX Animated Character
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=208s](
-03:28
-)
+[03:28](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=208s)
  Importing the FBX Into the Character Tool
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=264s](
-04:24
-)
+[04:24](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=264s)
  Examining Your Imported Character
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=293s](
-04:53
-)
+[04:53](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=293s)
  Display Options in the Character Tool
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=339s](
-05:39
-)
+[05:39](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=339s)
  Creating a Physics Proxy
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=371s](
-06:11
-)
+[06:11](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=371s)
  Editing the player.xml File
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=422s](
-07:02
-)
+[07:02](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=422s)
  Editing SkeletonList.xml
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=460s](
-07:40
-)
+[07:40](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=460s)
  Separating the animations
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=611s](
-10:11
-)
+[10:11](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=611s)
  Changing the Default Character in C++
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=642s](
-10:42
-)
+[10:42](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=642s)
  Generating a C++ Solution
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=686s](
-11:26
-)
+[11:26](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=686s)
  Configuring Build Method in Visual Studio
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=710s](
-11:50
-)
+[11:50](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=710s)
  Modifying the Player Character in Player.cpp
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=732s](
-12:12
-)
+[12:12](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=732s)
  Building and Testing Your Project From C++
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=783s](
-13:03
-)
+[13:03](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=783s)
  Assigning Animations in the Mannequin Editor
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=815s](
-13:35
-)
+[13:35](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=815s)
  Finding Help With Mannequin in the Documentation
 
 -
-[https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=858s](
-14:18
-)
+[14:18](https://www.youtube.com/watch?v=xP1NpW_iT_A&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&index=1&t=858s)
  Using Mannequin to Assign Animations
+[Embed: https://www.youtube.com/watch?v=xP1NpW_iT_A&index=2&list=PLpCgy91Y5vMtcsQg4ZnuALZgIICvj9THn&t=0s]
 
-[#tools-used](
-Tools Used
-)
-[#files](
-Files
-)
-[#importing-the-character-model](
-Importing the Character Model
-)
-[#importing-and-adjusting-animations](
-Importing and Adjusting Animations
-)
-[#adding-the-skeleton](
-Adding the Skeleton
-)
-[#changing-the-third-person-model-to-the-deer-model](
-Changing the Third-Person Model to the Deer Model
-)
-[#changing-the-animations](
-Changing the Animations
-)
-[#testing-the-character](
-Testing the Character
-)
-[#example-level](
-Example Level
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Tools Used](#tools-used)
+[Files](#files)
+[Importing the Character Model](#importing-the-character-model)
+[Importing and Adjusting Animations](#importing-and-adjusting-animations)
+[Adding the Skeleton](#adding-the-skeleton)
+[Changing the Third-Person Model to the Deer Model](#changing-the-third-person-model-to-the-deer-model)
+[Changing the Animations](#changing-the-animations)
+[Testing the Character](#testing-the-character)
+[Example Level](#example-level)
+[Video Tutorial](#video-tutorial)
 
 ##
 Related Pages
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868249](
-Tutorial - Adding an Animation in Mannequin
-)
+[Tutorial - Adding an Animation in Mannequin](Tutorial%20-%20Adding%20an%20Animation%20in%20Mannequin.md)

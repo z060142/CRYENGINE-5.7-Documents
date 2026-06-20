@@ -11,22 +11,16 @@
 Overview
 
 In the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-Particle Editor
-)
+[Particle Editor](../../../Editor%20Tools/Particle%20Editor.md)
 , the features
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867977](
-Location: Omni
-)
+[Location: Omni](../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Location.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867966](
-Motion: Collisions
-)
+[Motion: Collisions](../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Motion.md)
  work together to create an omnipresent colliding effect. By setting different parameters appropriately, an omnipresent environmental effect like rain or snow can be created, making sure that the particles are generated far from the viewer and collide with objects before coming into view.
 
 Modifying the  features mentioned below and setting them to specific values force a particle effect to stay out of certain areas. It makes sure that physical entities such as roofs, overhangs, walls etc. kill the particles on collision before they can penetrate the surface and enter indoors or other areas.
 
-[Image: /docs/static/attachments/36846994]
+![Image](https://www.cryengine.com/docs/static/attachments/36846994)
 
 *
 Rain outside, but not inside
@@ -35,15 +29,11 @@ Rain outside, but not inside
 When assigned to a newly created effect, the following features would create a basic effect and wouldn't include the necessary visual properties such as a texture. To achieve the best result, other Particle Effect features should be assigned.
 
 To learn how to create a new particle effect from scratch, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869022](
-Creating a Particle Effect
-)
+[Creating a Particle Effect](../../../Editor%20Tools/Particle%20Editor/Creating%20a%20Particle%20Effect.md)
 .
 
 For more information about functionalities of the Particle Effect Features, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-Particle Effect Features
-)
+[Particle Effect Features](../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features.md)
  page.
 
 Open the Particle Editor by choosing
@@ -100,9 +90,9 @@ Drag
 Local Effectors
 **
  to their appropriate values based on the desired result. For instance, to replicate an omnipresent weather effect,
-[Image: /docs/static/attachments/36846992]
+![Image](https://www.cryengine.com/docs/static/attachments/36846992)
  or
-[Image: /docs/static/attachments/36846993]
+![Image](https://www.cryengine.com/docs/static/attachments/36846993)
  values can be used.
 
 This will determine the characteristics of the particle effect based on the user preferences. You can use the images linked above as references.

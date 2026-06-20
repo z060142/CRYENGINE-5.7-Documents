@@ -7,11 +7,9 @@
 
 ## Child Pages
 
-- [Beginner's Guide](Fundamentals/Beginner's Guide.md)
+- [Beginner's Guide](Fundamentals/Beginner%27s%20Guide.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867736](
-Beginner's Guide
-)
+[Beginner's Guide](Fundamentals/Beginner%27s%20Guide.md)

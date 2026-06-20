@@ -7,23 +7,17 @@
 
 ## Child Pages
 
-- [Environment Editor Tutorials](Environment Tutorials/Environment Editor Tutorials.md)
-- [Tutorial - Adding a Sky Box to Your Level](Environment Tutorials/Tutorial - Adding a Sky Box to Your Level.md)
-- [Tutorial - How to use volumetric clouds](Environment Tutorials/Tutorial - How to use volumetric clouds.md)
+- [Environment Editor Tutorials](Environment%20Tutorials/Environment%20Editor%20Tutorials.md)
+- [Tutorial - Adding a Sky Box to Your Level](Environment%20Tutorials/Tutorial%20-%20Adding%20a%20Sky%20Box%20to%20Your%20Level.md)
+- [Tutorial - How to use volumetric clouds](Environment%20Tutorials/Tutorial%20-%20How%20to%20use%20volumetric%20clouds.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/65437726](
-Environment Editor Tutorials
-)
+[Environment Editor Tutorials](Environment%20Tutorials/Environment%20Editor%20Tutorials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656571](
-Tutorial - Adding a Sky Box to Your Level
-)
+[Tutorial - Adding a Sky Box to Your Level](Environment%20Tutorials/Tutorial%20-%20Adding%20a%20Sky%20Box%20to%20Your%20Level.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658146](
-Tutorial - How to use volumetric clouds
-)
+[Tutorial - How to use volumetric clouds](Environment%20Tutorials/Tutorial%20-%20How%20to%20use%20volumetric%20clouds.md)

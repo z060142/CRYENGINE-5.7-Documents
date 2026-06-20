@@ -18,9 +18,7 @@ Getting Started
 While it is possible to create a skybox using 3ds Max, this tutorial only describes the use of the SkyPaint tool for creating skyboxes.
 
 The first step is to install
-[http://www.skypaint.com](
-SkyPaint
-)
+[SkyPaint](http://www.skypaint.com)
  and its Photoshop plugin in the right directory.
 
 The Photoshop plugin is required, as SkyPaint itself is nothing more than a viewer/projector for the image files, which exports/exchanges everything with Photoshop.
@@ -29,7 +27,7 @@ SkyPaint will project planes properly onto a cube, stretching and distorting the
 
 To help you get an impression of how it works, look at the following picture:
 
-[Image: /docs/static/attachments/23999867]
+![Image](https://www.cryengine.com/docs/static/attachments/23999867)
 
 The upper two shots are the 2D planes/faces that get exported from SkyPaint. As you can easily see, they are distorted at the outer edges, especially near the corners.
 
@@ -56,7 +54,7 @@ SkyPaint now creates 6 different pictures for each side of a cube with a specifi
 
 Now open Photoshop and create a new image with a height of 1024 and a width of 2048. Fill this image up with red color. Now, extend the canvas to a height of 2048 and color the new part with black.
 
-[Image: /docs/static/attachments/23999868]
+![Image](https://www.cryengine.com/docs/static/attachments/23999868)
 
 You now have an image split into 2 equal parts. The line where both parts touch is the horizon and more or less the area where you should start to work on.
 
@@ -73,7 +71,7 @@ Using SkyPaint and Photoshop
 
 Start SkyPaint and open your saved file, and you will see the skybox.
 
-[Image: /docs/static/attachments/23999866]
+![Image](https://www.cryengine.com/docs/static/attachments/23999866)
 
 If you click and keep holding the left mouse button at the viewport window you can move around and change the view. The arrow buttons have the same functionality.
 
@@ -93,7 +91,5 @@ You will have to constantly switch between both programs, changing the view with
 Preparing for use in Sandbox
 
 In order for your skybox to properly be recognized in Sandbox you will need to save the files in a certain way, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816](
-Skybox Texture Setup
-)
+[Skybox Texture Setup](/docs/static/engines/cryengine-5/categories/23756816)
  for more information.

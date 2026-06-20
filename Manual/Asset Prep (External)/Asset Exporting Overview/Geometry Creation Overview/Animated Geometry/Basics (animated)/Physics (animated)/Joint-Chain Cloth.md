@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934087]
+![Image](https://www.cryengine.com/docs/static/attachments/29934087)
 
 ##
 Overview
@@ -19,35 +19,21 @@ CRYENGINE supports bone-chain cloth simulation. It is based on a bone set-up cre
 
 The spaces between the verts are converted into a triangular mesh that is generated automatically by the engine. This mesh serves as hit detection for bullets and generates force to pull the verts of the cloth around. The actual collision is only happening on the points generated from the bones exported. Enabling physics debugging in the character editor will display these points.
 
-[#sections](
-Sections
-)
-[#example-files](
-Example Files
-)
-[#general-setup](
-General Setup
-)
-[#properties](
-Properties
-)
-[#debugging](
-Debugging
-)
+[Sections](#sections)
+[Example Files](#example-files)
+[General Setup](#general-setup)
+[Properties](#properties)
+[Debugging](#debugging)
 
 ##
 Example Files
 
 -
-[/docs/static/attachments/23994263](
-chr_cloth.max
-)
+[chr_cloth.max](/docs/static/attachments/23994263)
 : 3ds Max example file.
 
 -
-[/docs/static/attachments/23994262](
-chr_cloth.ma
-)
+[chr_cloth.ma](/docs/static/attachments/23994262)
 : Maya example file.
 
 ##
@@ -67,7 +53,7 @@ The root node of the rope chain should be linked directly to a physicalized bone
 
 -
 The number of bones in a chain should be no more than 1 bone more or 1 bone less than the amount of bones in the next or previous strand.
-[Image: /docs/static/attachments/23994264]
+![Image](https://www.cryengine.com/docs/static/attachments/23994264)
 
 -
 Bone should be named as follows: "Rope<number> Seg<number>".
@@ -92,9 +78,9 @@ For the cloth to be in a loop (i.e. skirt) the first bone of the first strand sh
 
 -
 It is most important to note that a .cdf file must be made from the .chr file. This will allow in-depth customization of the simulation. Load the .chr file into the character editor and create a new bone attachment with the rope root set as the attachment then select the box in the bottom labeled "PhysPropsAlive..."
-[Image: /docs/static/attachments/23994266]
+![Image](https://www.cryengine.com/docs/static/attachments/23994266)
 
-[Image: /docs/static/attachments/23994265]
+![Image](https://www.cryengine.com/docs/static/attachments/23994265)
 
 ##
 Properties

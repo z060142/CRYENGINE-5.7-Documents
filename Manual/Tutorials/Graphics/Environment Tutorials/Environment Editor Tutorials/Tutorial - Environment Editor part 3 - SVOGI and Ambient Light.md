@@ -53,9 +53,7 @@ specular reflections
 **
  to your scene by adding at least one global environment probe (you'll probably end up adding many more, but it's advisable to build from the large to the small details).
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215363](
-Environment probes
-)
+[Environment probes](../../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Environment%20Probe.md)
  generate cube maps which are generated as .tiff files. A cube map consists of six still images taken from where the environment probe is located, as if looking perpendicular to the four sides of a cube as well as from above and below it. Those six images are then used to project specular reflections onto reflective surfaces. Since cube maps are static, specular reflections will
 **
 not
@@ -216,9 +214,7 @@ If you plan to change time of day in your level, consider organizing your probes
 layers
 **
  by time of day and use
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534433](
-layer streaming
-)
+[layer streaming](../../../../Profiling%20%26%20Optimization/Optimization%20Overview/Layer%20Streaming%20Optimization.md)
  to switch the entire layers on and
  off in game.
 
@@ -266,9 +262,9 @@ Maximum Attenuation Falloff
 = 1 (soft edges)
  |
 
-[Image: /docs/static/attachments/60523444]
+![Image](https://www.cryengine.com/docs/static/attachments/60523444)
  |
-[Image: /docs/static/attachments/60523445]
+![Image](https://www.cryengine.com/docs/static/attachments/60523445)
  |
 
 **
@@ -280,7 +276,7 @@ oxes overlapping to blend
 
  |
 
-[Image: /docs/static/attachments/60523446]
+![Image](https://www.cryengine.com/docs/static/attachments/60523446)
  |
 
  |
@@ -290,13 +286,9 @@ A common use for environment probes (with SVOGI off) in naturalistic lighting si
 
 -
 Use
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869891](
-clip volumes
-)
+[clip volumes](../../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Clip%20Volume.md)
  to prevent global and exterior environment probes from affecting interior spaces, and to limit the effect of environment probes placed indoors to only those interior spaces. For step by step instructions, see
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=722s](
-this tutorial
-)
+[this tutorial](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=722s)
 .
 
 ##
@@ -314,13 +306,13 @@ reflected
 
 While it's possible to supply ambient light solely through carefully placed environment probes, you'll see significant advantages by enabling global illumination. For example, you'll notice realistic soft gradients transitioning from light to shadow areas with SVOGI vs. cubemaps, as you can see in these images.
 
-[Image: /docs/static/attachments/21239779]
+![Image](https://www.cryengine.com/docs/static/attachments/21239779)
 
-[Image: /docs/static/attachments/19335754]
+![Image](https://www.cryengine.com/docs/static/attachments/19335754)
 
-[Image: /docs/static/attachments/20349274]
+![Image](https://www.cryengine.com/docs/static/attachments/20349274)
 
-[Image: /docs/static/attachments/21235585]
+![Image](https://www.cryengine.com/docs/static/attachments/21235585)
 
 While you'll see many settings for the GI (global illumination) system in the Environment Editor as well as console variables, the default values have been set to be suitable for most realistic use cases, and many of them needn't be changed. Let's review some of the key parameters that you will need to adjust to suit your needs.
 
@@ -480,9 +472,7 @@ Integration Mode
 Injection Multiplier
 **
 : Increases the intensity of the bounce light in the GI from direct light sources (sun, and any lights with GI enabled). Values around 1 are a good guideline for real-time performance, but for
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56660088#Tutorial-EnvironmentEditorpart3-SVOGIandAmbientLight-BeautyShots(Stills)](
-capturing still "beauty" shots
-)
+[capturing still "beauty" shots](Tutorial%20-%20Environment%20Editor%20part%203%20-%20SVOGI%20and%20Ambient%20Light.md#Tutorial-EnvironmentEditorpart3-SVOGIandAmbientLight-BeautyShots%28Stills))
 , you may want to temporarily increase this.
 
 -
@@ -629,33 +619,25 @@ SSDO (Screen Space Directional Occlusion) goes hand in hand with SVOGI. You'll w
 
 -
 **
-[/docs/static/engines/cryengine-3/categories/9895942/pages/9215962](
-r_ssdo
-)
+[r_ssdo](/docs/static/engines/cryengine-3/categories/9895942/pages/9215962)
 **
 : enable/disable SSDO.
 
 -
 **
-[/docs/static/engines/cryengine-3/categories/9895942/pages/9215962](
-r_ssdoAmountAmbient
-)
+[r_ssdoAmountAmbient](/docs/static/engines/cryengine-3/categories/9895942/pages/9215962)
 **
 : this will have a profound effect on probe irradiance, so be careful about over-doing it. This is very helpful with areas like contact shadows (soft shadows under and around the point where a mesh intersects the terrain in a shaded area, for example, as if cast by skylight), and to enhance the three dimensional appearance of geometry.
 
 -
 **
-[/docs/static/engines/cryengine-3/categories/9895942/pages/9215962](
-r_ssdoRadius
-)
+[r_ssdoRadius](/docs/static/engines/cryengine-3/categories/9895942/pages/9215962)
 **
 : radius of SSDO effect.
 
 -
 **
-[/docs/static/engines/cryengine-3/categories/9895942/pages/9215962](
-r_ssdoHalfRes
-)
+[r_ssdoHalfRes](/docs/static/engines/cryengine-3/categories/9895942/pages/9215962)
 **
 : on graphics cards whose system spec is set to Medium or lower, it might be necessary to set this to 0 to maintain performance. This might produce additional noise that you'll notice, for example, in grass.
 
@@ -722,7 +704,7 @@ block
 **
  all GI light.
 
-[Image: /docs/static/attachments/60522830]
+![Image](https://www.cryengine.com/docs/static/attachments/60522830)
 
 ##
 Mesh Component GI Settings
@@ -749,19 +731,19 @@ GI and Usage Mode = Disabled
 GI and Usage Mode = Static Voxelization
  |
 
-[Image: /docs/static/attachments/60522949]
+![Image](https://www.cryengine.com/docs/static/attachments/60522949)
  |
-[Image: /docs/static/attachments/60522948]
- |
-
-[Image: /docs/static/attachments/60522952]
- |
-[Image: /docs/static/attachments/60522953]
+![Image](https://www.cryengine.com/docs/static/attachments/60522948)
  |
 
-[Image: /docs/static/attachments/60522971]
+![Image](https://www.cryengine.com/docs/static/attachments/60522952)
  |
-[Image: /docs/static/attachments/60522972]
+![Image](https://www.cryengine.com/docs/static/attachments/60522953)
+ |
+
+![Image](https://www.cryengine.com/docs/static/attachments/60522971)
+ |
+![Image](https://www.cryengine.com/docs/static/attachments/60522972)
  |
 
 Even if GI and Usage Mode is left disabled (the default setting), the mesh still interacts with the GI system, receiving and bouncing GI light. You'll notice in the second row of images (with voxelization revealed through
@@ -784,9 +766,7 @@ recommended setting
  for meshes in a level where SVOGI is enabled.
 
 While additional options are offered for analytical occlusion, this should be regarded as still experimental. Read more about using analytical occluders
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798945](
-here
-)
+[here](../../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Analytical%20Occluders.md)
 .
 
 ##
@@ -829,7 +809,7 @@ r_ShowRenderTarget svo_fin
 See the actual light output of the GI system, as shown here. Skylight, whose color is typically set to blue through the
 Environment Editor
 's Fog → Color (top) and Color (top) multiplier, will show up as diffuse blue light, while bounce light will show up in this view in the color of the light source (sunlight as well as light components).
-[Image: /docs/static/attachments/60522801]
+![Image](https://www.cryengine.com/docs/static/attachments/60522801)
 
 -
 **
@@ -856,10 +836,10 @@ r_profiler 2
 : detailed rendering statistics
  |
 
-[Image: /docs/static/attachments/60522825]
+![Image](https://www.cryengine.com/docs/static/attachments/60522825)
 
  |
-[Image: /docs/static/attachments/60522826]
+![Image](https://www.cryengine.com/docs/static/attachments/60522826)
  |
 
 ##
@@ -907,9 +887,7 @@ If the camera is teleported to a completely new location it may take up to a few
 Supplementing Sunlight
 
 Even after getting your sunlight, skylight, fog, and SVOGI settings configured to your liking, you may still find that interiors, particularly during the day when there is no reason for electric lights to be on, are too dark. In these cases, the best approach is to supplement sunlight using projector lights through any windows. To avoid limitations with the number of simultaneous shadow casters, you can make projector lights look less obvious and hard-edged by adding projection textures in Properties → Projector Options → Projected Texture to break up the wash of light. Any subtle noise pattern will help. This is exactly the approach we took to light interiors on Hunt: Showdown, with projector lights mimicking sunlight in many cases. See the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966009](
-Creating Your Own Projection Textures
-)
+[Creating Your Own Projection Textures](../../../Game%20and%20Level%20Design/Entity%20Component%20Tutorials/Tutorial%20-%20Projector%20Light%20Component.md)
  section of the projector light component tutorial for details.
 
 ##
@@ -998,9 +976,9 @@ Shadows from heightmap OFF
 Shadows from heightmap ON
  |
 
-[Image: /docs/static/attachments/60523219]
+![Image](https://www.cryengine.com/docs/static/attachments/60523219)
  |
-[Image: /docs/static/attachments/60523218]
+![Image](https://www.cryengine.com/docs/static/attachments/60523218)
  |
 
 ##
@@ -1026,46 +1004,25 @@ Video Tutorial
 This tutorial is also available in video form on our YouTube channel:
 
 **
+[Embed: https://www.youtube.com/watch?v=BbzckhupBMo&feature=youtu.be]
 **
 
 ##
 Related Information
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658466#EnvironmentEditor-TotalIllumination](
-Global Illumination settings in Environment Editor
-)
+[Global Illumination settings in Environment Editor](../../../../Editor%20Tools/Environment%20Editor.md#EnvironmentEditor-TotalIllumination)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535599](
-Voxel-Based Global Illumination overview
-)
+[Voxel-Based Global Illumination overview](../../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Voxel-Based%20Global%20Illumination%20(SVOGI).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798945](
-Analytical Occluders
-)
-[#the-sky-and-ambient-light](
-The Sky and Ambient Light
-)
-[#svogi-global-illumination](
-SVOGI (Global Illumination)
-)
-[#svogi-tips](
-SVOGI Tips
-)
-[#supplementing-sunlight](
-Supplementing Sunlight
-)
-[#svogi-and-the-heightmap](
-SVOGI and the Heightmap
-)
-[#beauty-shots-stills](
-Beauty Shots (Stills)
-)
-[#video-tutorial](
-Video Tutorial
-)
-[#related-information](
-Related Information
-)
+[Analytical Occluders](../../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Analytical%20Occluders.md)
+[The Sky and Ambient Light](#the-sky-and-ambient-light)
+[SVOGI (Global Illumination)](#svogi-global-illumination)
+[SVOGI Tips](#svogi-tips)
+[Supplementing Sunlight](#supplementing-sunlight)
+[SVOGI and the Heightmap](#svogi-and-the-heightmap)
+[Beauty Shots (Stills)](#beauty-shots-stills)
+[Video Tutorial](#video-tutorial)
+[Related Information](#related-information)

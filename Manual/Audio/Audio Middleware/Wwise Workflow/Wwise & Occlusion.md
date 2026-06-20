@@ -7,25 +7,17 @@
 
 ## Content
 
-[Image: /docs/static/attachments/44964999]
+![Image](https://www.cryengine.com/docs/static/attachments/44964999)
 
 ##
 Overview
 
 This article explains how to make use of Obstruction/Occlusion settings in Wwise.
 
-[#setting-up-occlusion-in-wwise](
-Setting up Occlusion in Wwise
-)
-[#setup-examples-when-using-raycast-in-cryengine](
-Setup Examples When Using Raycast in CRYENGINE
-)
-[#optimize-performance-when-randomizing-oneshot-sounds](
-Optimize Performance when Randomizing OneShot Sounds
-)
-[#randomization-of-positioning](
-Randomization of Positioning
-)
+[Setting up Occlusion in Wwise](#setting-up-occlusion-in-wwise)
+[Setup Examples When Using Raycast in CRYENGINE](#setup-examples-when-using-raycast-in-cryengine)
+[Optimize Performance when Randomizing OneShot Sounds](#optimize-performance-when-randomizing-oneshot-sounds)
+[Randomization of Positioning](#randomization-of-positioning)
 
 ##
 Setting up Occlusion in Wwise
@@ -52,7 +44,7 @@ occluded
 *
  value in Wwise, which goes from 0 to 1.
 
-[Image: /docs/static/attachments/44968444]
+![Image](https://www.cryengine.com/docs/static/attachments/44968444)
 
 In Wwise, the
 *
@@ -115,7 +107,7 @@ Audio Trigger Spot
 *
 and not in Wwise. This will only add the Raycast whenever the actual event is being played and stops the Raycasting during the breaks in between when no active event is playing.
 
-[Image: /docs/static/attachments/44968445]
+![Image](https://www.cryengine.com/docs/static/attachments/44968445)
 
 ##
 Randomization of Positioning

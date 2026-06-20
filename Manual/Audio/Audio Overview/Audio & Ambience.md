@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/44964885]
+![Image](https://www.cryengine.com/docs/static/attachments/44964885)
 
 ##
 Overview
@@ -79,12 +79,12 @@ Shape
 
 When you have chosen the position of your last point of your Shape, double-click. This completes your created Shape.
 
-[Image: /docs/static/attachments/44971387]
+![Image](https://www.cryengine.com/docs/static/attachments/44971387)
 
 If you go to the properties of the Area Shape you can give it a name and a height:
 
 *
-[Image: /docs/static/attachments/44971388]
+![Image](https://www.cryengine.com/docs/static/attachments/44971388)
 
 *
 
@@ -117,12 +117,12 @@ AudioAreaAmbience
 *
  entity will now be linked to the Shape.
 
-[Image: /docs/static/attachments/44971392]
+![Image](https://www.cryengine.com/docs/static/attachments/44971392)
 
 For the PlayTrigger option select the audio system Trigger for your ambient sound. For the Rtpc option setup the audio system Parameter that is controlling the volume of the ambience.
 
 *
-[Image: /docs/static/attachments/44971394]
+![Image](https://www.cryengine.com/docs/static/attachments/44971394)
 
 *
 
@@ -131,9 +131,7 @@ For a full reference of the properties for the
 AudioAreaAmbience
 *
 Entity please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964896](
-Audio Entities and Flownodes - AudioAreaAmbience
-)
+[Audio Entities and Flownodes - AudioAreaAmbience](/docs/static/engines/cryengine-5/categories/23756816/pages/44964896)
 .
 
 You can choose/use any name you like for the audio system RTPC that is set as the RTPC in the Entity properties of the
@@ -175,32 +173,19 @@ Sphere
 Shape
 This value (specified in meters) determines how far an ambience sound can blend into the shape with higher priority.
 
-[Image: /docs/static/attachments/44971396]
+![Image](https://www.cryengine.com/docs/static/attachments/44971396)
 
 Previously, this value was determined based on the largest
 RTPC Distance
  value specified in the Audio entities such as
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964896](
-*
-Audio Area Ambience
-*
-)
+[Audio Area Ambience](/docs/static/engines/cryengine-5/categories/23756816/pages/44964896)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964896](
-*
-Audio Area Entity
-*
-)
+[Audio Area Entity](/docs/static/engines/cryengine-5/categories/23756816/pages/44964896)
 *
 
 *
 and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964896](
-A
-*
-udio Area Random
-*
-)
+[A udio Area Random](/docs/static/engines/cryengine-5/categories/23756816/pages/44964896)
 *
 
 *
@@ -214,7 +199,7 @@ RTPC distance
 Inner Fade Distance
  on the Area Solid, Area Box, Area Sphere, or Area Shape specifies the roll off to the inside.
 
-[Image: /docs/static/attachments/44971398]
+![Image](https://www.cryengine.com/docs/static/attachments/44971398)
 
 ##
 Using the AudioAreaEntity
@@ -247,7 +232,7 @@ but is named differently as it can be connected to any Object via Flow Graph and
 
 You will also notice that there are no Play and Stop Triggers in the Entity properties, this is because they are setup manually in Flow Graph - this is explained in the next step.
 
-[Image: /docs/static/attachments/44971399]
+![Image](https://www.cryengine.com/docs/static/attachments/44971399)
 
 For a full reference of the properties for the
 *
@@ -258,9 +243,7 @@ AudioAreaEntity
 
 *
 refer to
-[/docs/static/engines/cryengine-5/categories/23756816](
-Audio Entities and Flownodes
-)
+[Audio Entities and Flownodes](/docs/static/engines/cryengine-5/categories/23756816)
 .
 
 In order to setup an
@@ -277,7 +260,7 @@ AudioAreaAmbience
 Adding a Flownode for the selected entity
 *
 
-[Image: /docs/static/attachments/44971400]
+![Image](https://www.cryengine.com/docs/static/attachments/44971400)
 
 Best Practice
 It is useful to contain all audio functionality inside one Flow Graph. It's also good practice to place a Flow Graph Entity in your Audio Layer and create all Flow Graph specific audio inside of it.
@@ -343,7 +326,7 @@ Name
  input on the Rtpc node and select the area_fade_distance Rtpc:
 
 *
-[Image: /docs/static/attachments/44971402]
+![Image](https://www.cryengine.com/docs/static/attachments/44971402)
 
 *
 
@@ -360,7 +343,7 @@ Play_l_global_sfx_waterfall_large_loop
 After doing this, we'll just have to connect the nodes in the way shown below and the Flow Graph should work:
 
 *
-[Image: /docs/static/attachments/44971404]
+![Image](https://www.cryengine.com/docs/static/attachments/44971404)
 
 *
 
@@ -382,7 +365,7 @@ AudioAreaEntity
 *
  when not in-game you have to enable the AI/Physics button so that the Flow Graph is calculated.
 
-[Image: /docs/static/attachments/44971406]
+![Image](https://www.cryengine.com/docs/static/attachments/44971406)
 
 ##
 Working with Shape Priorities and Shape Nesting
@@ -391,7 +374,7 @@ When you are using multiple Shapes in a level you can setup GroupIds and Shape P
 
 You can set the GroupId and Priority per Shape in the properties:
 
-[Image: /docs/static/attachments/44971408]
+![Image](https://www.cryengine.com/docs/static/attachments/44971408)
 
 If the shapes share the same GroupId, the Shape with the higher priority will override the
 *
@@ -436,7 +419,7 @@ FadeDistance
 Example of shapes with same GroupId and different Priority and FadeDistance
 *
 
-[Image: /docs/static/attachments/44971409]
+![Image](https://www.cryengine.com/docs/static/attachments/44971409)
 
 -
 When the player approaches Shape A, then 10 m before the edge of the Shape the sound starts to fade in.
@@ -470,22 +453,12 @@ do
 *
  calculate ambience updates for that segment.
 
-[Image: /docs/static/attachments/44971410]
+![Image](https://www.cryengine.com/docs/static/attachments/44971410)
 
 This feature can be used to define doorways and windows as well as offering greater flexibility in complex shape in shape setups.
 
-[#ambient-sounds-in-levels](
-Ambient Sounds in levels
-)
-[#using-the-audioareaambience](
-Using the AudioAreaAmbience
-)
-[#using-the-audioareaentity](
-Using the AudioAreaEntity
-)
-[#working-with-shape-priorities-and-shape-nesting](
-Working with Shape Priorities and Shape Nesting
-)
-[#using-sound-obstruction-on-area-shapes](
-Using Sound Obstruction on Area Shapes
-)
+[Ambient Sounds in levels](#ambient-sounds-in-levels)
+[Using the AudioAreaAmbience](#using-the-audioareaambience)
+[Using the AudioAreaEntity](#using-the-audioareaentity)
+[Working with Shape Priorities and Shape Nesting](#working-with-shape-priorities-and-shape-nesting)
+[Using Sound Obstruction on Area Shapes](#using-sound-obstruction-on-area-shapes)

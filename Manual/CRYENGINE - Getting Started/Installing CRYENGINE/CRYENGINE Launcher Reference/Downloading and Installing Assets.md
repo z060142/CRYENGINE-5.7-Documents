@@ -21,9 +21,7 @@ Download the assets through the Launcher or Asset DB.
 -
 Import the downloaded assets into CRYENGINE.
 If you're more interested in sharing your own creations, you can move on to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468288](
-Contributing to the Asset Database
-)
+[Contributing to the Asset Database](Contributing%20to%20the%20Asset%20Database.md)
 .
 
 ##
@@ -31,9 +29,7 @@ Acquiring Assets
 
 -
 Open the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-assetlibrary](
-Asset Library
-)
+[Asset Library](../CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-assetlibrary)
  tab and click on
 **
 Visit the asset database
@@ -42,7 +38,7 @@ Visit the asset database
 Asset Database
 in your web browser.
 
-[Image: /docs/static/attachments/109543463]
+![Image](https://www.cryengine.com/docs/static/attachments/109543463)
 
 *
 Empty Asset Library in the Launcher
@@ -63,7 +59,7 @@ Log in to the CRYENGINE
 Asset Database
 website with your CRYENGINE account credentials. You will then be able to use the search bar or browse through specific categories to find the asset you're looking for.
 
-[Image: /docs/static/attachments/109543464]
+![Image](https://www.cryengine.com/docs/static/attachments/109543464)
 
 *
 The CRYENGINE
@@ -76,16 +72,12 @@ Select the asset you want to use and then click
 Add to Library
 **
 . Upon agreeing to the
-[https://cryengine.com/mp-terms](
-Assets ToS
-)
+[Assets ToS](https://cryengine.com/mp-terms)
 , the asset will be made available in the Launcher's
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-assetlibrary](
-Asset Library
-)
+[Asset Library](../CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-assetlibrary)
 .
 
-[Image: /docs/static/attachments/109543465]
+![Image](https://www.cryengine.com/docs/static/attachments/109543465)
 
 *
 Add to Library
@@ -115,13 +107,11 @@ There are two ways to download the assets you ordered;
 
 -
 Simply navigate to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-assetlibrary](
-Asset Library
-)
+[Asset Library](../CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-assetlibrary)
  tab and click the
  icon within the asset listing.
 
-[Image: /docs/static/attachments/69468339]
+![Image](https://www.cryengine.com/docs/static/attachments/69468339)
 *
 
 Asset Library
@@ -135,9 +125,7 @@ Asset Database
 
 -
 On the top-right corner of the
-[https://cryengine.com/marketplace](
-Asset Database website
-)
+[Asset Database website](https://cryengine.com/marketplace)
 , click the  icon and access your
 **
 Dashboard
@@ -145,7 +133,7 @@ Dashboard
 .
 **
 
-[Image: /docs/static/attachments/110198849]
+![Image](https://www.cryengine.com/docs/static/attachments/110198849)
 
 **
 *
@@ -157,7 +145,7 @@ Once there, head to the Asset Library
 
 tab, where you should see all the assets you own.
 
-[Image: /docs/static/attachments/109543508]
+![Image](https://www.cryengine.com/docs/static/attachments/109543508)
 *
 
 Owned assets
@@ -165,10 +153,10 @@ Owned assets
 
 -
 Navigate to the page of the asset you want to use in your project and click the
-[Image: /docs/static/attachments/69468454]
+![Image](https://www.cryengine.com/docs/static/attachments/69468454)
  button. The asset will then be downloaded to the Launcher.
 
-[Image: /docs/static/attachments/69468453]
+![Image](https://www.cryengine.com/docs/static/attachments/69468453)
 *
 
 Downloading an asset through the Asset Database
@@ -183,14 +171,14 @@ The last step in this process is to import the assets you downloaded into CRYENG
 
 -
 Locate the downloaded asset's files by clicking the
-[Image: /docs/static/attachments/69468342]
+![Image](https://www.cryengine.com/docs/static/attachments/69468342)
  icon beside its listing in the Launcher, and selecting the
 **
 Reveal in Explorer
 **
  option.
 
-[Image: /docs/static/attachments/109543467]
+![Image](https://www.cryengine.com/docs/static/attachments/109543467)
 
 *
 Opening the asset's folder in the file explorer
@@ -228,24 +216,16 @@ Reveal in Explorer
 **
  option. This opens the project's storage directory in the file explorer.
 
-[Image: /docs/static/attachments/69468345]
+![Image](https://www.cryengine.com/docs/static/attachments/69468345)
 
 *
 Reveal project in explorer
 *
 
 Once this is done, the imported projects will be visible in the Sandbox Editor's
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-Asset Browser
-)
+[Asset Browser](../../../Editor%20Tools/Asset%20Browser.md)
  and ready to use in your projects.
 
-[#acquiring-assets](
-Acquiring Assets
-)
-[#downloading-assets](
-Downloading Assets
-)
-[#importing-assets-into-cryengine](
-Importing Assets into CRYENGINE
-)
+[Acquiring Assets](#acquiring-assets)
+[Downloading Assets](#downloading-assets)
+[Importing Assets into CRYENGINE](#importing-assets-into-cryengine)

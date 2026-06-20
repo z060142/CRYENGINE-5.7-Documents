@@ -14,18 +14,10 @@ This article will explain how to setup the MemReplay tool. Depending on your CRY
 
 Chapters:
 
-[#requirements](
-Requirements
-)
-[#xbox-one](
-Xbox One
-)
-[#ps4](
-PS4
-)
-[#loading-and-analyzing-a-zmrl-file](
-Loading and Analyzing a ZMRL File
-)
+[Requirements](#requirements)
+[Xbox One](#xbox-one)
+[PS4](#ps4)
+[Loading and Analyzing a ZMRL File](#loading-and-analyzing-a-zmrl-file)
 
 ##
 Requirements
@@ -54,9 +46,7 @@ dbghelp.dll
 Xbox One
 
 In addition to the zmrl file, MemReplay requires a core dump file on this platform. Please refer to
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306658](
-Getting Started with MemReplay
-)
+[Getting Started with MemReplay](Getting%20Started%20with%20MemReplay.md)
 .
 
 ##
@@ -96,20 +86,18 @@ eplay
 l
 **
 og) file is a compressed stream which contains information about memory actions in CRYENGINE. Please read
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306658](
-Getting Started with MemReplay
-)
+[Getting Started with MemReplay](Getting%20Started%20with%20MemReplay.md)
  to find out how to create a zmrl file.
 
 Run MemReplay.exe either from Win32 or x64 and open the zmrl file. You will be asked to help MemReplay locating some files such as pdb files.
 
-[Image: /docs/static/attachments/26964593]
+![Image](https://www.cryengine.com/docs/static/attachments/26964593)
 
-[Image: /docs/static/attachments/26964594]
+![Image](https://www.cryengine.com/docs/static/attachments/26964594)
 
 MemReplay will start indexing and resolving symbols from the data given. It will take some time the first time it is run, but will be quicker on reloads as lots of information is cached.
 
-[Image: /docs/static/attachments/26964595]
+![Image](https://www.cryengine.com/docs/static/attachments/26964595)
 
 If MemReplay does not load the pdb file you have selected, then it is highly likely that the pdb file does not match the information inside the zmrl file.
 

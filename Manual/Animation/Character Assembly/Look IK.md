@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933226]
+![Image](https://www.cryengine.com/docs/static/attachments/29933226)
 
 ##
 Overview
@@ -21,22 +21,12 @@ The same techniques are used in half-interactive cut-scenes, to make sure the ac
 ##
 Chapters
 
-[#chapters](
-Chapters
-)
-[#chrparams-setup](
-CHRPARAMS Setup
-)
-[#creating-the-look-poses](
-Creating the Look Poses
-)
-[#testing-the-look-ik-in-the-character-editor](
-Testing the Look IK in the Character Editor
-)
-[#using-look-ik-on-a-character-in-trackview](
-Using Look IK on a character in TrackView
-)
-[Image: /docs/static/attachments/26952869]
+[Chapters](#chapters)
+[CHRPARAMS Setup](#chrparams-setup)
+[Creating the Look Poses](#creating-the-look-poses)
+[Testing the Look IK in the Character Editor](#testing-the-look-ik-in-the-character-editor)
+[Using Look IK on a character in TrackView](#using-look-ik-on-a-character-in-trackview)
+![Image](https://www.cryengine.com/docs/static/attachments/26952869)
 
 ##
 CHRPARAMS Setup
@@ -45,9 +35,7 @@ CHRPARAMS Setup
 Creating the Look Poses
 
 Once you have setup the definitions in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307999](
-.chrparams file
-)
+[.chrparams file](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)
 , you need to create the Look Poses asset in 3ds Max. You can use the AimPose Creator provided with CryMaxTools to create the Look Poses.
 
 Look poses work by setting up a pattern or range of aiming directions that the engine uses to blend between, in order to find the correct direction in which a character should be looking. CRYENGINE requires exactly
@@ -61,14 +49,10 @@ Look poses work by setting up a pattern or range of aiming directions that the e
  sequential frames to create this pattern.
 
 Here is a sample Look Poses Bip asset:
-[/docs/static/attachments/1442499](
-LookPoses_SDKFullBody.bip
-)
+[LookPoses_SDKFullBody.bip](/docs/static/attachments/1442499)
 
 You need to export the animation into a folder mapped for your character (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307999](
-.chrparams file
-)
+[.chrparams file](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)
 )
 
 The final exported CAF file cannot be part of a DBA file.
@@ -85,15 +69,13 @@ ca_DrawAimIKVEGrid 1
 **
 . Make sure the Look IK checkbox is on!
 
-[Image: /docs/static/attachments/23994489]
+![Image](https://www.cryengine.com/docs/static/attachments/23994489)
 
-[Image: /docs/static/attachments/23994485]
+![Image](https://www.cryengine.com/docs/static/attachments/23994485)
 
 ##
 Using Look IK on a character in TrackView
 
 For information on how to use the look IK system with Trackview refer to:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874180](
-Look IK for Cinematics
-)
+[Look IK for Cinematics](../../Film%20and%20Cutscenes/Cinematics%20Overview/Animation%20%26%20Characters/Look%20IK%20for%20Cinematics.md)
 .

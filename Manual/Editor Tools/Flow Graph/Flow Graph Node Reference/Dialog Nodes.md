@@ -12,7 +12,7 @@ PlayDialog
 
 Used to play a dialog.
 
-[Image: /docs/static/attachments/28901223]
+![Image](https://www.cryengine.com/docs/static/attachments/28901223)
 
 **
 Inputs
@@ -225,6 +225,4 @@ Integer
 Current line; triggered whenever a line starts
  |
 
-[#playdialog](
-PlayDialog
-)
+[PlayDialog](#playdialog)

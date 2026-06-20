@@ -21,7 +21,7 @@ Camera Settings for the Perspective Viewport
 
 You can find the Camera settings for the Perspective Viewport in the top-left corner of the Viewport window:
 
-[Image: /docs/static/attachments/44967974]
+![Image](https://www.cryengine.com/docs/static/attachments/44967974)
 
 Setting
  |
@@ -34,9 +34,7 @@ Speed
  |
 Changes the speed within that Viewport. (Can also be changed by scrolling the mouse wheel while moving around in the Viewport, see also
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308616](
-Viewport Navigation
-)
+[Viewport Navigation](../../CRYENGINE%20V%20Basics/Viewport%20Navigation.md)
 **
 .)
  |
@@ -172,6 +170,4 @@ Tools -> Viewport
  and choosing the Viewport you want to open.)
  |
 
-[#camera-settings-for-the-perspective-viewport](
-Camera Settings for the Perspective Viewport
-)
+[Camera Settings for the Perspective Viewport](#camera-settings-for-the-perspective-viewport)

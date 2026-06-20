@@ -20,9 +20,7 @@ A character with a skeleton, mesh and animations imported into CRYENGINE (see pr
 
 -
 Visual Studio (if you can't afford the full version, there is a free community version available
-[https://visualstudio.microsoft.com/downloads/](
-here
-)
+[here](https://visualstudio.microsoft.com/downloads/)
 .)
 
 ##
@@ -30,7 +28,7 @@ Generating a New Solution
 
 -
 In the CRYENGINE Launcher, click on the gear icon
-[Image: /docs/static/attachments/65437939]
+![Image](https://www.cryengine.com/docs/static/attachments/65437939)
  next to the project you want to add the character to (in our previous tutorials in this series, this was a 3rd-person project) and choose
 **
 Reveal in Explorer
@@ -88,9 +86,7 @@ You can also use the Search Solution Explorer bar at the top of the Solution Exp
 Importing your Animations
 
 If you haven't already, import your animations into CRYENGINE. This is part of the Export & Import workflow explained in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/65437850](
-previous tutorial
-)
+[previous tutorial](../../Animation%20and%20Characters/3DS%20Max/Tutorial%20-%20Character%20Pipeline%20-%20Export%20%26%20Import%20with%203ds%20Max%2C%20Maya%20and%20Blender.md)
 .
 
 ##
@@ -176,7 +172,7 @@ Player.xml
 -
 Just like you did in Visual Studio, change the path of the model to the path where your character resides. In the accompanying video tutorial series, a third-person game is made, so you'd have to change the ThirdPersonCharacter model:
 
-[Image: /docs/static/attachments/65437951]
+![Image](https://www.cryengine.com/docs/static/attachments/65437951)
 
 *
 Preview file
@@ -238,7 +234,7 @@ Option 1
 **
 :
 
-[Image: /docs/static/attachments/65437955]
+![Image](https://www.cryengine.com/docs/static/attachments/65437955)
 
 *
 Walk Option 1
@@ -258,7 +254,7 @@ Anim Clip Properties
  browse
 **
 button
-[Image: /docs/static/attachments/65437956]
+![Image](https://www.cryengine.com/docs/static/attachments/65437956)
  on the right and choose the walk animation for your character;
 
 -
@@ -338,27 +334,12 @@ To have proper rotations set up, you'll have to set up blend spaces. Follow the 
 ##
 Video Tutorial
 
-[#prerequisites](
-Prerequisites
-)
-[#generating-a-new-solution](
-Generating a New Solution
-)
-[#opening-the-game-solution](
-Opening the Game Solution
-)
-[#changing-code-in-visual-studio](
-Changing Code in Visual Studio
-)
-[#changing-the-preview-file](
-Changing the Preview File
-)
-[#checking-the-character-in-game](
-Checking the Character in Game
-)
-[#mannequin-setup](
-Mannequin Setup
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=VB-P7xtXoWY&feature=youtu.be]
+[Prerequisites](#prerequisites)
+[Generating a New Solution](#generating-a-new-solution)
+[Opening the Game Solution](#opening-the-game-solution)
+[Changing Code in Visual Studio](#changing-code-in-visual-studio)
+[Changing the Preview File](#changing-the-preview-file)
+[Checking the Character in Game](#checking-the-character-in-game)
+[Mannequin Setup](#mannequin-setup)
+[Video Tutorial](#video-tutorial)

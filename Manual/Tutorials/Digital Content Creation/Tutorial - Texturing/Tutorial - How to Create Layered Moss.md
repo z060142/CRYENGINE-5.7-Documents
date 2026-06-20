@@ -14,11 +14,11 @@ This tutorial will explain how the moss in Ryse was made 3D and having depth to 
 
 Contrary to beliefs there was no custom shader used, but in fact it was an old technique used to create the effect of a fluffy, 3D surface with depth. A very similar technique was used on The Shadow of Colossus for PS2.
 
-[Image: /docs/static/attachments/23999623]
+![Image](https://www.cryengine.com/docs/static/attachments/23999623)
 
 Breaking down the moss, one sees that it is made up of 4 polygon layers hovering one above the other. The UVs of those poly layers are in a different section of the moss texture.
 
-[Image: /docs/static/attachments/23999634]
+![Image](https://www.cryengine.com/docs/static/attachments/23999634)
 
 ##
 Preparing the Texture
@@ -35,11 +35,11 @@ Having this kind of setup allows us to look through the sparseness top layer ont
 
 The way the texture will be used is by putting the dark opaque part of the diffuse as the base polygon layer of the moss, and the brightest most transparent part for the top polygon layer, with in between in accordance to our values the other two sections.
 
-[Image: /docs/static/attachments/23999637]
+![Image](https://www.cryengine.com/docs/static/attachments/23999637)
 
-[Image: /docs/static/attachments/23999638]
+![Image](https://www.cryengine.com/docs/static/attachments/23999638)
 
-[Image: /docs/static/attachments/23999639]
+![Image](https://www.cryengine.com/docs/static/attachments/23999639)
 
 To get the best results we will achieve by creating a 2k moss texture, then editing it and tweaking it's brightness variation and alphas accordingly until having a good result.
 
@@ -47,7 +47,7 @@ By dividing the texture into four sections, every individual section has a final
 
 To see how the moss looks in engine, we have applied the texture to a simple plane.
 
-[Image: /docs/static/attachments/23999640]
+![Image](https://www.cryengine.com/docs/static/attachments/23999640)
 
 ##
 Preparing the Geometry
@@ -56,7 +56,7 @@ For display purposes we are using a simple rock mesh. The 3D moss should be used
 
 If a more flexible use is desired, moss chunks can be created as standalone assets as well, rather than being a custom part the asset.
 
-[Image: /docs/static/attachments/23999641]
+![Image](https://www.cryengine.com/docs/static/attachments/23999641)
 
 Looking at the rock we see that's it's been triangulated. We would be able to determine the location of our moss, but by duplicating those faces we would waste a lot of geometry.
 
@@ -68,9 +68,9 @@ This newly created polygon plane will serve as the base and most bottom layer of
 
 We should have a result looking like in the image below.
 
-[Image: /docs/static/attachments/23999642]
+![Image](https://www.cryengine.com/docs/static/attachments/23999642)
 
-[Image: /docs/static/attachments/23999643]
+![Image](https://www.cryengine.com/docs/static/attachments/23999643)
 
 To create the layering effect we are applying following modifiers to our polygon plane:
 
@@ -93,23 +93,23 @@ Now we need to apply the second "Push" modifier to the vertices. The border need
 The last "Edit Poly" that is applied, serves the purpose to alter all the poly planes at the same time in the end and make final adjustments to the overall shape.
 Please do not collapse the modifier stack!
 
-[Image: /docs/static/attachments/23999624]
+![Image](https://www.cryengine.com/docs/static/attachments/23999624)
 
 After being done with our base polygon plane we start repeating the same steps for the following three remaining planes.
 
 Here's a detail breakdown:
 
-[Image: /docs/static/attachments/23999625]
+![Image](https://www.cryengine.com/docs/static/attachments/23999625)
 
-[Image: /docs/static/attachments/23999626]
+![Image](https://www.cryengine.com/docs/static/attachments/23999626)
 
-[Image: /docs/static/attachments/23999627]
+![Image](https://www.cryengine.com/docs/static/attachments/23999627)
 
-[Image: /docs/static/attachments/23999628]
+![Image](https://www.cryengine.com/docs/static/attachments/23999628)
 
-[Image: /docs/static/attachments/23999630]
+![Image](https://www.cryengine.com/docs/static/attachments/23999630)
 
-[Image: /docs/static/attachments/23999629]
+![Image](https://www.cryengine.com/docs/static/attachments/23999629)
 
 In summary to create the polygon planes and layer them:
 
@@ -136,7 +136,7 @@ Adjusting the moss layers and using vertex paint to create a smooth transition
 
 After duplicating our polygon planes, moving the UVs and moving them, we export the rock into CRYENGINE. And our result looks currently like the image below
 
-[Image: /docs/static/attachments/23999631]
+![Image](https://www.cryengine.com/docs/static/attachments/23999631)
 
 Looking at the moss within CRYENGINE we can see the moss. But in reality moss seeps in and out of cracks and right now it looks to even. To fix that we use the last
 **
@@ -146,11 +146,11 @@ Looking at the moss within CRYENGINE we can see the moss. But in reality moss se
 
 Try to follow real world reference by raising some vertices and lowering others.
 
-[Image: /docs/static/attachments/23999632]
+![Image](https://www.cryengine.com/docs/static/attachments/23999632)
 
 After exporting the rock into CRYENGINE the result looks like in the image below:
 
-[Image: /docs/static/attachments/23999633]
+![Image](https://www.cryengine.com/docs/static/attachments/23999633)
 
 As we can see the transitions between the rock and moss are a bit harsh right now. To fix that we're going to apply some vertex blending to smooth out the transitions and give some detail to our rock.
 
@@ -158,6 +158,6 @@ Some things should be considered when using this technique. The layered moss tec
 
 To avoid a visible swapping, when the assets is lodding between LOD0 and LOD1, paint the blend of the moss on LOD1 where the original layered moss was in LOD0. That way the swap between LOD0 and LOD1 is almost unnoticeable.
 
-[Image: /docs/static/attachments/23999635]
+![Image](https://www.cryengine.com/docs/static/attachments/23999635)
 
-[Image: /docs/static/attachments/23999636]
+![Image](https://www.cryengine.com/docs/static/attachments/23999636)

@@ -137,12 +137,6 @@ As this is a Beta Feature and is still in development, then we would love to hea
 **
 !
 
-[#intended-benefits](
-Intended Benefits
-)
-[#changes](
-Changes
-)
-[#feedback](
-Feedback
-)
+[Intended Benefits](#intended-benefits)
+[Changes](#changes)
+[Feedback](#feedback)

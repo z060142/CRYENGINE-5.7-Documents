@@ -18,18 +18,10 @@ In the following, the steps to set up and configure the Remote Shader Compiler w
 
 Chapters:
 
-[#launching-the-remote-shader-compiler](
-Launching the Remote Shader Compiler
-)
-[#remote-shader-compiler-configuration](
-Remote Shader Compiler Configuration
-)
-[#shader-cache-lists](
-Shader Cache Lists
-)
-[#game-configuration](
-Game Configuration
-)
+[Launching the Remote Shader Compiler](#launching-the-remote-shader-compiler)
+[Remote Shader Compiler Configuration](#remote-shader-compiler-configuration)
+[Shader Cache Lists](#shader-cache-lists)
+[Game Configuration](#game-configuration)
 Related Pages:
 
 ##
@@ -117,8 +109,7 @@ You can always find all the information about the path used by the Remote Shader
 mfGetShaderCompileFlags
 **
 .
-[](
-)
+[]()
 As part of the engine package distributed to you, the appropriate shader-compilers are already included for your use, that match the code of that version. Just copy the entire RemoteShaderCompiler folder and run the provided binary.
 
 ##

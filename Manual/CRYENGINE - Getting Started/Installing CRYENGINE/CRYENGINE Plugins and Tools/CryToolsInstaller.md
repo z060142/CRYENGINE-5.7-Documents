@@ -23,23 +23,14 @@ Dependencies → Tools and Plugins → CryToolsInstaller
 .
 
 Before running the installer make sure that you have setup your build information via the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535313](
-**
-Settings Manager
-**
-
-)
+[Settings Manager](../../../System%20Utilities/System%20Utilities%20Overview/Settings%20Manager.md)
 tool.
 
 ##
 In this topic
 
-[#in-this-topic](
-In this topic
-)
-[#running-the-crytoolsinstaller](
-Running the CryToolsInstaller
-)
+[In this topic](#in-this-topic)
+[Running the CryToolsInstaller](#running-the-crytoolsinstaller)
 
 ##
 Running the CryToolsInstaller
@@ -60,7 +51,7 @@ Install
 **
  button (you can also run the application via the cog symbol (to reveal in Explorer)).
 
-[Image: /docs/static/attachments/44971577]
+![Image](https://www.cryengine.com/docs/static/attachments/44971577)
 
 This will open the application. Click the
 **
@@ -72,7 +63,7 @@ Next
 **
  button.
 
-[Image: /docs/static/attachments/44971579]
+![Image](https://www.cryengine.com/docs/static/attachments/44971579)
 
 Selecting Packages to Install
 
@@ -83,7 +74,7 @@ Next
 **
 button.
 
-[Image: /docs/static/attachments/44963460]
+![Image](https://www.cryengine.com/docs/static/attachments/44963460)
 
 You will then get a 'success' (or a 'fail' if something has gone wrong) on the installation of the required plugins. Finally, click on the
 **
@@ -91,4 +82,4 @@ Close
 **
  button to complete the install.
 
-[Image: /docs/static/attachments/44971581]
+![Image](https://www.cryengine.com/docs/static/attachments/44971581)

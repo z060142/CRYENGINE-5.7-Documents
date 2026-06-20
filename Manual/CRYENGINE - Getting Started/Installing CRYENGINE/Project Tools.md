@@ -14,7 +14,7 @@ In your project folder there will be a file of type Cryengine project - the file
 
 When you right-click (as seen below) on such a file you get a number of options where you can easily perform various actions regarding your project.
 
-[Image: /docs/static/attachments/44963217]
+![Image](https://www.cryengine.com/docs/static/attachments/44963217)
 
 You may not see the exact format (as shown above) of your Game.cryproject. The reason for this is that you have an older version of the CryVersionSelector installed. To remedy this you need to install the CryVersionSelector for the Engine version (5.4, 5.3, 5.2) that your project is using. For more information about the installation of CryVersionSelector then see the FAQ's at the bottom of this page.
 
@@ -85,9 +85,7 @@ Generates your code solution for C++ and C#. The solution will need to be regene
 For C++ projects this requires you to install Visual Studio and to create a C++ project in Visual Studio so that the C++ compiler is installed.
 
 For C# projects you need the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791112](
-Xamarin Studio with the CRYENGINE plugin
-)
+[Xamarin Studio with the CRYENGINE plugin](../../../API%20Reference/CRYENGINE%20Code%20Tutorials/C%23%20Programming.md)
  in order to be able to open the solution.
 
  |
@@ -113,7 +111,7 @@ If you have downloaded an Engine version from GitHub, you can select it here by 
 *
 Browse button
 
-[Image: /docs/static/attachments/44963218]
+![Image](https://www.cryengine.com/docs/static/attachments/44963218)
 
 *
 
@@ -232,9 +230,7 @@ cryselect.exe install
 Unable to generate the solution for the GameSDK
 
 Generating the solution for the GameSDK is not possible, because the GameSDK is compiled in the Engine. To adjust the code of the GameSDK you have to get the Engine source code from
-[https://github.com/CRYTEK/CRYENGINE](
-Github
-)
+[Github](https://github.com/CRYTEK/CRYENGINE)
 .
 
 ##
@@ -280,21 +276,9 @@ map
 **
  command in the console to make sure your game loads the right
 
-[#adding-console-variables-and-console-commands](
-Adding Console Variables and Console Commands
-)
-[#faq](
-FAQ
-)
-[#missing-or-incorrect-options-when-right-clicking-the-cryproject-file](
-Missing or incorrect options when right-clicking the *.cryproject file
-)
-[#unable-to-generate-the-solution-for-the-gamesdk](
-Unable to generate the solution for the GameSDK
-)
-[#the-game-looks-different-if-its-launched-in-the-gamelauncher-instead-of-the-sandbox-editor](
-The game looks different if it's launched in the GameLauncher instead of the Sandbox Editor
-)
-[#the-gamelauncher-is-only-showing-a-black-screen](
-The GameLauncher is only showing a black screen
-)
+[Adding Console Variables and Console Commands](#adding-console-variables-and-console-commands)
+[FAQ](#faq)
+[Missing or incorrect options when right-clicking the *.cryproject file](#missing-or-incorrect-options-when-right-clicking-the-cryproject-file)
+[Unable to generate the solution for the GameSDK](#unable-to-generate-the-solution-for-the-gamesdk)
+[The game looks different if it's launched in the GameLauncher instead of the Sandbox Editor](#the-game-looks-different-if-its-launched-in-the-gamelauncher-instead-of-the-sandbox-editor)
+[The GameLauncher is only showing a black screen](#the-gamelauncher-is-only-showing-a-black-screen)

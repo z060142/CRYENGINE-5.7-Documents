@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Blend Layer - Best Practices](Blend Layer - Shader Generation Params/Blend Layer - Best Practices.md)
+- [Blend Layer - Best Practices](Blend%20Layer%20-%20Shader%20Generation%20Params/Blend%20Layer%20-%20Best%20Practices.md)
 
 ## Content
 
@@ -25,19 +25,19 @@ A very useful feature of the blend layer is that a heightmap can be used as blen
 Example of the blend layer in an indoor environment
 
 *
-[Image: /docs/static/attachments/35395665]
+![Image](https://www.cryengine.com/docs/static/attachments/35395665)
 
 *
 Example of the blend layer on a brick wall with green moss
 
 *
-[Image: /docs/static/attachments/35395666]
+![Image](https://www.cryengine.com/docs/static/attachments/35395666)
 
 *
 In game asset with Illum shader and blend layer feature enabled
 
 *
-[Image: /docs/static/attachments/28898750]
+![Image](https://www.cryengine.com/docs/static/attachments/28898750)
 
 The blend layer feature does not combine two generic materials, it rather blends specific textures of a single material. This means that the basic material settings apply to both layers.
 
@@ -155,7 +155,7 @@ If the blend factor is increased, by changing the vertex alpha, blend map or str
 Example of Blend Layer setup in the Sandbox Material Editor
 
 *
-[Image: /docs/static/attachments/28898754]
+![Image](https://www.cryengine.com/docs/static/attachments/28898754)
 
 The falloff can be useful to simulate different material types. With a high falloff value, you can get a hard blend to simulate for example rust on a metal surface. A low value gives a much smoother transition, as you would have it for snow on the ground.
 
@@ -164,13 +164,7 @@ The blend factor should normally be set to 16. If you want to tweak the blending
 ##
 See Also
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450138](
-Blend Layer - Best Practices
-)
+[Blend Layer - Best Practices](Blend%20Layer%20-%20Shader%20Generation%20Params/Blend%20Layer%20-%20Best%20Practices.md)
 
-[#sandbox-material-setup](
-Sandbox Material Setup
-)
-[#see-also](
-See Also
-)
+[Sandbox Material Setup](#sandbox-material-setup)
+[See Also](#see-also)

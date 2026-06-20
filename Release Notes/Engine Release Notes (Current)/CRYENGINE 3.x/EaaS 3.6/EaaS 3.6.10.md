@@ -12,13 +12,9 @@ Released 31st October, 2014
 Remember to delete 'loose' SDK content if you've extracted pak files into your build! Otherwise that old loose content will override the new content inside the pak files.
 
 See:
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605746#DirectoryStructure-PakFiles](
-Directory Structure - PakFiles
-)
+[Directory Structure - PakFiles](/docs/static/engines/cryengine-3/categories/1638401/pages/1605746#DirectoryStructure-PakFiles)
  and
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605659#CryPak-Layering](
-CryPak - Layering
-)
+[CryPak - Layering](/docs/static/engines/cryengine-3/categories/1638401/pages/1605659#CryPak-Layering)
 
 An issue with texture streaming on objects with custom materials (manually assigned materials to objects) is present in 3.6.10. A workaround is to disable texture streaming via
 **

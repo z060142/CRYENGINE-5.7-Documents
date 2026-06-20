@@ -19,9 +19,7 @@ GameSDK/Scripts/FeatureTests
 The names shouldn't contain spaces or other daft characters because the files get read into the game using console variables and commands, and a lot of characters have special meanings on the command line, in .cfg files, when typing into the in-game console and so on.
 
 Stick to letters and numbers and you'll be fine. The files should have the extension .xml although you should leave that off when referring to the files when
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306422](
-loading and running the tests in the game
-)
+[loading and running the tests in the game](How%20to%20Run%20Feature%20Tests.md)
 .
 
 ##
@@ -415,9 +413,7 @@ FeatureTest
 FeatureTest
 
 Defines a feature test. Should include zero or more
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306423#CreateModifyandRemoveFeatureTests-Featuretestinstructions](
-instructions
-)
+[instructions](Create%20Modify%20and%20Remove%20Feature%20Tests.md#CreateModifyandRemoveFeatureTests-Featuretestinstructions)
 .
 
 ```
@@ -471,39 +467,15 @@ For example
 
 ```
 
-[#feature-test-instructions](
-Feature Test Instructions
-)
-[#setup-instructions](
-Setup Instructions
-)
-[#input-instructions](
-Input Instructions
-)
-[#code-coverage-checkpoint-instructions](
-Code Coverage Checkpoint Instructions
-)
-[#wait-instructions](
-Wait Instructions
-)
-[#miscellaneous-instructions](
-Miscellaneous Instructions
-)
-[#elements-of-a-feature-tester-xml-file](
-Elements of a Feature Tester XML file
-)
-[#featuretester](
-FeatureTester
-)
-[#settings](
-Settings
-)
-[#tests](
-Tests
-)
-[#featuretest](
-FeatureTest
-)
-[#for-example](
-For example
-)
+[Feature Test Instructions](#feature-test-instructions)
+[Setup Instructions](#setup-instructions)
+[Input Instructions](#input-instructions)
+[Code Coverage Checkpoint Instructions](#code-coverage-checkpoint-instructions)
+[Wait Instructions](#wait-instructions)
+[Miscellaneous Instructions](#miscellaneous-instructions)
+[Elements of a Feature Tester XML file](#elements-of-a-feature-tester-xml-file)
+[FeatureTester](#featuretester)
+[Settings](#settings)
+[Tests](#tests)
+[FeatureTest](#featuretest)
+[For example](#for-example)

@@ -33,19 +33,19 @@ Yet it always comprises of three primary panels - Audio System Controls, Propert
 
 These panels can be docked and undocked at any time, allowing users to alter the ACE's layout as per their preferences.
 
-[Image: /docs/static/attachments/51347493]
+![Image](https://www.cryengine.com/docs/static/attachments/51347493)
 
 The Audio Controls Editor uses icons such as
-[Image: /docs/static/attachments/51347489]
+![Image](https://www.cryengine.com/docs/static/attachments/51347489)
  and
-[Image: /docs/static/attachments/51347488]
+![Image](https://www.cryengine.com/docs/static/attachments/51347488)
  in its interface; these function as tooltips, indicating files that might be missing, localized, or that are not connected to any middleware controls. Hover over these icons within the tool for more information.
 
 ##
 1. Menu Bar
 
 Opened by the
-[Image: /docs/static/attachments/51347501]
+![Image](https://www.cryengine.com/docs/static/attachments/51347501)
  icon at the top-right corner of the ACE Tool window, the Menu Bar contains the following options:
 
 ##
@@ -177,9 +177,7 @@ General
 **
  |
 Refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-SRR](
-Save, Reload and Refresh Buttons
-)
+[Save, Reload and Refresh Buttons](Audio%20Controls%20Editor.md#AudioControlsEditor-SRR)
  section below.
  |
 
@@ -203,21 +201,13 @@ Panels
 
  |
 Contains the
-[/docs](
-Audio System Controls
-)
+[Audio System Controls](/docs)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-contextpanel](
-Contexts
-)
+[Contexts](Audio%20Controls%20Editor.md#AudioControlsEditor-contextpanel)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-WwiseControlsPanel](
-Middleware Data
-)
+[Middleware Data](Audio%20Controls%20Editor.md#AudioControlsEditor-WwiseControlsPanel)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-Propertiespanel](
-Properties
-)
+[Properties](Audio%20Controls%20Editor.md#AudioControlsEditor-Propertiespanel)
  options, allowing users to add these panels to the ACE in case these were not already included.
 
  |
@@ -261,7 +251,7 @@ Description
 
  |
 
-[Image: /docs/static/attachments/51347509]
+![Image](https://www.cryengine.com/docs/static/attachments/51347509)
  |
 **
 Save All Changes
@@ -272,7 +262,7 @@ Saves any and all changes made within the ACE.
 
  |
 
-[Image: /docs/static/attachments/51347508]
+![Image](https://www.cryengine.com/docs/static/attachments/51347508)
  |
 **
 Reload all ACE and middleware
@@ -286,7 +276,7 @@ Reloads the ACE and middleware files, undoing all unsaved changes made to the Au
 
  |
 
-[Image: /docs/static/attachments/51347507]
+![Image](https://www.cryengine.com/docs/static/attachments/51347507)
  |
 **
 Refresh Audio System
@@ -305,7 +295,7 @@ The Audio System Controls panel lists all controls included within the current C
 
 It also allows users to create, move and delete each of the different types of controls available . Controls can also be grouped into folders, which can be useful when organizing larger projects.
 
-[Image: /docs/static/attachments/51347506]
+![Image](https://www.cryengine.com/docs/static/attachments/51347506)
 
 *
 Audio System Controls panel
@@ -325,7 +315,7 @@ Description
 Triggers
 **
  |
-[Image: /docs/static/attachments/51347486]
+![Image](https://www.cryengine.com/docs/static/attachments/51347486)
 
  |
 Triggers are containers that execute the audio middleware events connected to them. A Trigger might have any number of Events connected to it.
@@ -335,7 +325,7 @@ Triggers are containers that execute the audio middleware events connected to th
 Parameters
 **
  |
-[Image: /docs/static/attachments/51347485]
+![Image](https://www.cryengine.com/docs/static/attachments/51347485)
  |
 Parameters in the Audio System Controls are floating point values that directly influence the values of connected parameters in middleware.
 
@@ -345,7 +335,7 @@ Parameters in the Audio System Controls are floating point values that directly 
 Switches
 **
  |
-[Image: /docs/static/attachments/51347484]
+![Image](https://www.cryengine.com/docs/static/attachments/51347484)
  |
 A Switch is a collection of States, each of which manipulates the connected parameters of a middleware in a certain way.
 
@@ -357,16 +347,14 @@ An example of a commonly used Switch would be that for character footsteps, that
 Environments
 **
  |
-[Image: /docs/static/attachments/51347483]
+![Image](https://www.cryengine.com/docs/static/attachments/51347483)
  |
 Environments are used to drive effects like reverbs and weapon reflections, in areas such as AreaBox, AreaShape, AreaSphere or AreaSolid that are found under the
 **
 Area
 **
  option of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869846](
-Create Object
-)
+[Create Object](Level%20Editor%20Tab/Create%20Object.md)
  tool.
  |
 
@@ -374,7 +362,7 @@ Create Object
 Preloads
 **
  |
-[Image: /docs/static/attachments/51347482]
+![Image](https://www.cryengine.com/docs/static/attachments/51347482)
  |
 Preloads are requests to load audio specific files (such as SoundBanks in the FMOD Studio implementation) into memory. Any number of files can be grouped into a single Preload request.
  |
@@ -383,7 +371,7 @@ Preloads are requests to load audio specific files (such as SoundBanks in the FM
 Settings
 **
  |
-[Image: /docs/static/attachments/51347490]
+![Image](https://www.cryengine.com/docs/static/attachments/51347490)
 
  |
 Settings are used to load or unload middleware specific settings (such as DSP Bus Settings in the ADX2 implementation).
@@ -396,7 +384,7 @@ In the ADX2 implementation, loading a Setting in the ACE applies the connected D
 Folders
 **
  |
-[Image: /docs/static/attachments/51347491]
+![Image](https://www.cryengine.com/docs/static/attachments/51347491)
  |
 Folders are only used for structuring the Audio System Controls in the ACE, and have no functionality associated with them.
  |
@@ -445,7 +433,7 @@ Allows searching within the Audio System Controls panel on the basis of a string
 Filters
 
 The
-[Image: /docs/static/attachments/51347500]
+![Image](https://www.cryengine.com/docs/static/attachments/51347500)
  button allows users to describe specific criteria by which the Audio System Controls panel must list created/available controls and folders. Clicking this Filter button yields options to
 **
 Add/Clear Criteria
@@ -462,14 +450,14 @@ Add Criterion
 **
  button presents a drop down menu containing the available criteria by which controls or folders may be listed within the Audio System Controls Panel panel; depending on the criteria selected, its value can be picked from a separate drop-down, set via a True/False checkbox or an empty value field.
 
-[Image: /docs/static/attachments/51347494]
+![Image](https://www.cryengine.com/docs/static/attachments/51347494)
 
 *
 Add Criterion
 *
 
 Clicking the
-[Image: /docs/static/attachments/36836741]
+![Image](https://www.cryengine.com/docs/static/attachments/36836741)
  icon inverts the specified search criteria, while
 **
 Clear Criteria
@@ -492,7 +480,7 @@ Delete
 **
  these; a search bar at the top of this pop-up allows filtering through the listed filters.
 
-[Image: /docs/static/attachments/36836753]
+![Image](https://www.cryengine.com/docs/static/attachments/36836753)
 
 Right-clicking the filter button also makes it possible to quickly choose a saved filter instead of having to use the
 **
@@ -678,9 +666,7 @@ This option executes the right-clicked Trigger to play the middleware control co
 Connections
 **
  section of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-Propertiespanel](
-Properties
-)
+[Properties](Audio%20Controls%20Editor.md#AudioControlsEditor-Propertiespanel)
  panel.
 
 A Trigger may also be executed by double clicking it or by pressing the space bar when highlighted.
@@ -728,7 +714,7 @@ It is not available to those that are saved in
 .pak
 **
  files within the project's asset directory, or to newly created Libraries that haven't been saved by clicking the
-[Image: /docs/static/attachments/51347509]
+![Image](https://www.cryengine.com/docs/static/attachments/51347509)
  icon at the top of the Audio System Controls panel.
 
  |
@@ -824,9 +810,7 @@ default_controls
  library.
 
 The Name, Descriptions and Context of audio controls listed within the Audio System Controls panel, as well as the properties of the middleware controls connected to these Audio System Controls, can be altered via the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-Propertiespanel](
-Properties
-)
+[Properties](Audio%20Controls%20Editor.md#AudioControlsEditor-Propertiespanel)
  panel.
 
 NOTE:
@@ -991,9 +975,7 @@ do_nothing
 
  |
 Overrides the automatic stopping of StartTrigger instances by being applied to the StopTrigger property. Not displayed in the ACE, only in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-Resource](
-Resource Selector
-)
+[Resource Selector](Audio%20Controls%20Editor.md#AudioControlsEditor-Resource)
 , because it should not be edited.
 
 Note that connecting any of the above Triggers in the ACE will override their default behavior.
@@ -1046,9 +1028,7 @@ Description
 
  |
 Here you can type a short description of the Audio System Control. This will also appear on mouse-over in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-Resource](
-Resource Selector.
-)
+[Resource Selector.](Audio%20Controls%20Editor.md#AudioControlsEditor-Resource)
 
  |
 
@@ -1062,9 +1042,7 @@ A dropdown menu containing all user-defined Contexts, allowing users to set the 
 global
 **
  or user-defined value. Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-contextpanel](
-Contexts Panel
-)
+[Contexts Panel](Audio%20Controls%20Editor.md#AudioControlsEditor-contextpanel)
  section for more information on managing Contexts.
 
 Since the Context of Default Controls are
@@ -2013,9 +1991,7 @@ Import Files
 **
  |
 Opens a file explorer, allowing users to locate and import audio files from disk into the project's SDL Mixer assets directory. Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-ImportFiles](
-Import Files
-)
+[Import Files](Audio%20Controls%20Editor.md#AudioControlsEditor-ImportFiles)
  section of this page for more information on importing.
  |
 
@@ -2054,9 +2030,7 @@ s_ImplName = CryAudioImplAdx2
 `
  for ADX2
 For more information about audio middleware implementations, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964933](
-this page
-)
+[this page](../Audio/Audio%20Middleware.md)
 .
 
 In the event of a typo while switching between middleware using the
@@ -2082,7 +2056,7 @@ Open
 **
  button on this file explorer opens the Audio File Importer window.
 
-[Image: /docs/static/attachments/51347498]
+![Image](https://www.cryengine.com/docs/static/attachments/51347498)
 
 *
 Audio File Importer
@@ -2095,14 +2069,14 @@ By default, all imported audio files are saved within the
 audio/sdlmixer/assets
 *
 folder of a project's asset directory. This target folder can be changed by clicking the
-[Image: /docs/static/attachments/51347497]
+![Image](https://www.cryengine.com/docs/static/attachments/51347497)
  icon beside the
 **
 Target Folder
 **
  field, which opens the Select Target Folder window.
 
-[Image: /docs/static/attachments/51347496]
+![Image](https://www.cryengine.com/docs/static/attachments/51347496)
 
 *
 Select Target Folder
@@ -2121,7 +2095,7 @@ Add Folder
 Localized
 **
  checkbox beside the
-[Image: /docs/static/attachments/51347497]
+![Image](https://www.cryengine.com/docs/static/attachments/51347497)
  icon indicates to the Audio System that the imported files are localized.
 
 Doing so automatically changes the target folder to the
@@ -2129,9 +2103,7 @@ Doing so automatically changes the target folder to the
 localization
 *
  folder of a project's directory. More information on importing localized audio files into CRYENGINE's SDL Mixer based audio implementation can be found on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964973](
-SDL Mixer & Localization
-)
+[SDL Mixer & Localization](../Audio/Audio%20Middleware/SDL%20Mixer%20Workflow/SDL%20Mixer%20%26%20Localization.md)
  page.
 
 The
@@ -2194,7 +2166,7 @@ Filters
 
 The
 
-[Image: /docs/static/attachments/51347500]
+![Image](https://www.cryengine.com/docs/static/attachments/51347500)
  button allows users to describe specific criteria by which the panel must list the current audio middleware's controls . Clicking this Filter button yields options to
 **
 Add/Clear Criteria
@@ -2273,7 +2245,7 @@ Localized
 Specifies if the middleware control audio file is localized or not.
 
 Localized audio files are identified by the
-[Image: /docs/static/attachments/51347487]
+![Image](https://www.cryengine.com/docs/static/attachments/51347487)
  icon besides their listings in the Middleware Data panel.
 
  |
@@ -2288,9 +2260,7 @@ Specifies the name given to a middleware control.
  |
 
 Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-filters](
-Filters
-)
+[Filters](Audio%20Controls%20Editor.md#AudioControlsEditor-filters)
  sub-section of the Audio System Controls panel above for an understanding of implementing and using filters.
 
 ##
@@ -2393,9 +2363,7 @@ Import Files
 
  |
 Opens a file explorer, allowing users to locate and import audio files from disk into the project's SDL Mixer assets directory. Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-ImportFiles](
-Import Files
-)
+[Import Files](Audio%20Controls%20Editor.md#AudioControlsEditor-ImportFiles)
  section of this page for more information on importing.
 
  |
@@ -2423,7 +2391,7 @@ user-defined
 *
 context however will exist only when that Context is activated. Contexts can be created, activated and deactivated via the Contexts panel.
 
-[Image: /docs/static/attachments/51347492]
+![Image](https://www.cryengine.com/docs/static/attachments/51347492)
 
 *
 Contexts
@@ -2469,13 +2437,11 @@ Activate
 Deactivate
 **
  option respectively. An active Context is identified by the
-[Image: /docs/static/attachments/51347495]
+![Image](https://www.cryengine.com/docs/static/attachments/51347495)
  icon against its listing.
 
 Activating and deactivating Contexts that do not share names with an existing level can also be done via
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797061](
-code
-)
+[code](/docs/static/engines/cryengine-5/categories/28704770/pages/29797061)
 .
 
 Multiple contexts can be activated at a time. These contexts are not tied to levels, and each level can have multiple contexts. For example, a level may use separate contexts to play specific sounds in different game modes (singleplayer, multiplayer deathmatch, capture the flag, etc.).
@@ -2485,7 +2451,7 @@ Resource Selectors
 
 When you click a resource selector that requires an Audio System Control, like when you add a Trigger component to an entity, a window opens in which you can select the Audio System Control of your preference:
 
-[Image: /docs/static/attachments/51347504]
+![Image](https://www.cryengine.com/docs/static/attachments/51347504)
 
 ##
 Search Bar
@@ -2611,7 +2577,7 @@ When upgrading from older CRYENGINE releases to version 5.6 and later, please no
 
 -
 That all libraries that were previously tied to a non-global Scope will be marked by an asterisk in the ACE, indicating unsaved changes. Click the
-[Image: /docs/static/attachments/51347509]
+![Image](https://www.cryengine.com/docs/static/attachments/51347509)
  icon to save the libraries in their respective Contexts.
 
 -
@@ -2745,30 +2711,12 @@ audio/<middleware>/ace
 `
  folder.
 
-[#1-menu-bar](
-1. Menu Bar
-)
-[#2-save-reload-and-refresh-buttons](
-2. Save, Reload and Refresh Buttons
-)
-[#3-audio-system-controls](
-3. Audio System Controls
-)
-[#4-properties-panel](
-4. Properties Panel
-)
-[#5-middleware-data-panel](
-5. Middleware Data Panel
-)
-[#6-contexts-panel](
-6. Contexts Panel
-)
-[#resource-selectors](
-Resource Selectors
-)
-[#advanced-users](
-Advanced Users
-)
-[#migration-guide](
-Migration Guide
-)
+[1. Menu Bar](#1-menu-bar)
+[2. Save, Reload and Refresh Buttons](#2-save-reload-and-refresh-buttons)
+[3. Audio System Controls](#3-audio-system-controls)
+[4. Properties Panel](#4-properties-panel)
+[5. Middleware Data Panel](#5-middleware-data-panel)
+[6. Contexts Panel](#6-contexts-panel)
+[Resource Selectors](#resource-selectors)
+[Advanced Users](#advanced-users)
+[Migration Guide](#migration-guide)

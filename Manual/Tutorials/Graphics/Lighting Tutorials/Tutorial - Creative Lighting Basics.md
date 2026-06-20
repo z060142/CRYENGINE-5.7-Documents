@@ -10,143 +10,96 @@
 This tutorial looks at how to approach lighting a scene, beginning from a utilitarian perspective - how to rig a simple, bright work light to make it easy to flesh out the scene - to creating a distinctive mood through fog and selective dynamic lighting that responds to game events. Topics covered:
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=96s](
-01:36
-)
+[01:36](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=96s)
  Creating a work light
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=121s](
-02:01
-)
+[02:01](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=121s)
  Falloff implementation
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=257s](
-04:17
-)
+[04:17](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=257s)
  Using attenuation bulb size
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=324s](
-05:24
-)
+[05:24](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=324s)
  Understanding the shadow spec setting
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=508s](
-08:28
-)
+[08:28](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=508s)
  Lighting the hangar - general practical lights
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=635s](
-10:35
-)
+[10:35](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=635s)
  Using projector lights
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=739s](
-12:19
-)
+[12:19](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=739s)
  Assigning textures to projector lights
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=807s](
-3:27
-)
+[3:27](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=807s)
  Considering color temperature
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=895s](
-14:55
-)
+[14:55](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=895s)
  Basic color theory and attracting the eye
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=941s](
-15:41
-)
+[15:41](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=941s)
  Using SVOGI
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1108s](
-18:28
-)
+[18:28](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1108s)
  Using environment probes
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1279s](
-21:19
-)
+[21:19](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1279s)
  Lighting the hangar from an architectural perspective
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1330s](
-22:10
-)
+[22:10](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1330s)
  Building fluorescent light fixtures
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1409s](
-23:29
-)
+[23:29](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1409s)
  Building a multi-material for a fluorescent light
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1545s](
-25:45
-)
+[25:45](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1545s)
  Adding a light component to the fluorescent light
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1710s](
-28:30
-)
+[28:30](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1710s)
  Converting the fluorescent light into a prefab
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1881s](
-31:21
-)
+[31:21](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1881s)
  Adding lights to lead the player's eye
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1932s](
-32:12
-)
+[32:12](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=1932s)
  Adding lights to clarify NPC roles
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2028s](
-33:48
-)
+[33:48](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2028s)
  Attaching a light component to an AI character
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2165s](
-36:05
-)
+[36:05](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2165s)
  Attaching a headlamp to the player using Flow Graph
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2396s](
-39:56
-)
+[39:56](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2396s)
  Using volumetric fog
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2490s](
-41:30
-)
+[41:30](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2490s)
  Looking at a fully lit level
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2635s](
-43:55
-)
+[43:55](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2635s)
  Final creative lighting touches: alarms, tracking searchlights
 
 -
-[https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2687s](
-44:47
-)
+[44:47](https://www.youtube.com/watch?v=ue0S3T7-u1E&t=2687s)
  Summary
+[Embed: https://www.youtube.com/watch?v=ue0S3T7-u1E]

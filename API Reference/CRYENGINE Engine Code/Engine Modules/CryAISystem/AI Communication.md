@@ -816,40 +816,18 @@ GameSDK/Scripts/AI/Communication/HumanCommunication.xml
 
 So, if your AI character uses this Modular Behavior Tree but does not have the "Human" communication config set, the above error would occur.
 
-[Image: /docs/static/attachments/23461258]
+![Image](https://www.cryengine.com/docs/static/attachments/23461258)
 
 You should also select a "Voice" to use for the communication. In this case, AI_02. This content is discussed earlier in this article here:
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306491#AICommunication-VoiceLibraries](
-VoiceLibraries
-)
+[VoiceLibraries](AI%20Communication.md#AICommunication-VoiceLibraries)
 
-[#example](
-Example
-)
-[#communication-channels](
-Communication Channels
-)
-[#communication-configurations](
-Communication Configurations
-)
-[#voice-libraries](
-Voice Libraries
-)
-[#flow-graph-node](
-Flow Graph Node
-)
-[#startup](
-Startup
-)
-[#turning-off-animation-andor-voice](
-Turning off animation and/or voice
-)
-[#debugging](
-Debugging
-)
-[#implementation](
-Implementation
-)
-[#troubleshooting](
-Troubleshooting
-)
+[Example](#example)
+[Communication Channels](#communication-channels)
+[Communication Configurations](#communication-configurations)
+[Voice Libraries](#voice-libraries)
+[Flow Graph Node](#flow-graph-node)
+[Startup](#startup)
+[Turning off animation and/or voice](#turning-off-animation-andor-voice)
+[Debugging](#debugging)
+[Implementation](#implementation)
+[Troubleshooting](#troubleshooting)

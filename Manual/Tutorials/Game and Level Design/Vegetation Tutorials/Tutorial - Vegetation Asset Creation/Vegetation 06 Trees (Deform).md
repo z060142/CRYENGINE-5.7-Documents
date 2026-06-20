@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Vegetation 06 Trees (Deform) 3dsMax](Vegetation 06 Trees (Deform)/Vegetation 06 Trees (Deform) 3dsMax.md)
-- [Vegetation 06 Trees (Deform) Maya](Vegetation 06 Trees (Deform)/Vegetation 06 Trees (Deform) Maya.md)
-- [Vegetation 06 Trees (Deform) CRYENGINE](Vegetation 06 Trees (Deform)/Vegetation 06 Trees (Deform) CRYENGINE.md)
+- [Vegetation 06 Trees (Deform) 3dsMax](Vegetation%2006%20Trees%20(Deform)/Vegetation%2006%20Trees%20(Deform)%203dsMax.md)
+- [Vegetation 06 Trees (Deform) Maya](Vegetation%2006%20Trees%20(Deform)/Vegetation%2006%20Trees%20(Deform)%20Maya.md)
+- [Vegetation 06 Trees (Deform) CRYENGINE](Vegetation%2006%20Trees%20(Deform)/Vegetation%2006%20Trees%20(Deform)%20CRYENGINE.md)
 
 ## Content
 
@@ -22,7 +22,7 @@ Splitting up your cloth nodes as much as possible will be more effective. The cl
 
 The following pages explains in detail about the setup and configuration for the 3dsMax and Maya pipelines, followed by the final CRYENGINE section where you get the object in-game.
 
-[Image: /docs/static/attachments/25504886]
+![Image](https://www.cryengine.com/docs/static/attachments/25504886)
 
 *
 Pic1: Merged Mesh Deform in action (with activated wind)
@@ -34,16 +34,10 @@ Tutorials
 Depending on the DCC tool used - the links below show you how to setup vegetation assets for Deformation.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285906](
-Vegetation 06 Trees (Deform) 3dsMax
-)
+[Vegetation 06 Trees (Deform) 3dsMax](Vegetation%2006%20Trees%20(Deform)/Vegetation%2006%20Trees%20(Deform)%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285907](
-Vegetation 06 Trees (Deform) Maya
-)
+[Vegetation 06 Trees (Deform) Maya](Vegetation%2006%20Trees%20(Deform)/Vegetation%2006%20Trees%20(Deform)%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285908](
-Vegetation 06 Trees (Deform) CRYENGINE
-)
+[Vegetation 06 Trees (Deform) CRYENGINE](Vegetation%2006%20Trees%20(Deform)/Vegetation%2006%20Trees%20(Deform)%20CRYENGINE.md)

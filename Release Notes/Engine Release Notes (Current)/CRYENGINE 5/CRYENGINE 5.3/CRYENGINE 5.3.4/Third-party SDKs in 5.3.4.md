@@ -9,6 +9,4 @@
 
 Third-party SDKs
 There were no changes to Third-party SDKs in release 5.3.4, so please see the 5.3.3 list
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962668](
-here.
-)
+[here.](../CRYENGINE%205.3.3/Third-party%20SDKs%20in%205.3.3.md)

@@ -28,17 +28,17 @@ Each message pushed inside the system can be displayed as:
 -
 Speech Bubble over the AI agent:
 
-[Image: /docs/static/attachments/23461247]
+![Image](https://www.cryengine.com/docs/static/attachments/23461247)
 
 -
 Message in the console:
 
-[Image: /docs/static/attachments/23461246]
+![Image](https://www.cryengine.com/docs/static/attachments/23461246)
 
 -
 Blocking windows popup with a set of information (agent name, agent position, ...) to allow the designer to understand something is wrong in the normal flow.
 
-[Image: /docs/static/attachments/23461245]
+![Image](https://www.cryengine.com/docs/static/attachments/23461245)
 You can specify the type of the message queued in the system when calling the AIQueueBubbleMessage.
 
 This function is defined as:

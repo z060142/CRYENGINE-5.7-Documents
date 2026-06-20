@@ -19,9 +19,7 @@ Accessing the 5.4.0 Preview 2 Release
 
 -
 Go to
-[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview2](
-https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview2
-)
+[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview2](https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview2)
 
 -
 Download CRYENGINE_preview_5.4.0.98_pc.zip
@@ -36,21 +34,15 @@ Double-click on “InstallEngine.bat"
 Code Interface Changes
 
 For more information, see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962727](
-Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)
-)
+[Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)](../Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes%20(5.4%20Preview%20Releases).md)
 **
 
 **
 article.
 
 If you are upgrading from CRYENGINE 5.3, please read this topic:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962700](
-Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)
-)
-[/docs](
-.
-)
+[Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)](../Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4%20(5.4%20Preview%20Releases).md)
+[.](/docs)
 
 ##
 Animation

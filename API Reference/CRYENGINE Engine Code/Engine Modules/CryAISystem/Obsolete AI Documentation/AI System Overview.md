@@ -7,10 +7,10 @@
 
 ## Child Pages
 
-- [Navigation](AI System Overview/Navigation.md)
-- [Individual AI](AI System Overview/Individual AI.md)
-- [Global AI](AI System Overview/Global AI.md)
-- [More](AI System Overview/More.md)
+- [Navigation](AI%20System%20Overview/Navigation.md)
+- [Individual AI](AI%20System%20Overview/Individual%20AI.md)
+- [Global AI](AI%20System%20Overview/Global%20AI.md)
+- [More](AI%20System%20Overview/More.md)
 
 ## Content
 
@@ -18,50 +18,36 @@
 Very quick overview
 
 (See
-[/docs/static/attachments/23461212](
-CryEngine_AI_flyer.doc
-)
+[CryEngine_AI_flyer.doc](/docs/static/attachments/23461212)
  in the attachments.)
 
 ##
 AI System in 30 Minutes
 
 (See also
-[/docs/static/attachments/23461211](
-CryEngine_AI _for_GDC_2012.doc
-)
+[CryEngine_AI _for_GDC_2012.doc](/docs/static/attachments/23461211)
  in the attachments.)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306461](
-Navigation
-)
+[Navigation](AI%20System%20Overview/Navigation.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306462](
-Individual AI
-)
+[Individual AI](AI%20System%20Overview/Individual%20AI.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306459](
-Global AI
-)
+[Global AI](AI%20System%20Overview/Global%20AI.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306463](
-More
-)
+[More](AI%20System%20Overview/More.md)
 
 ##
 Presentation
 
 The basic AI System presentation is attached:
 
-[/docs/static/attachments/23461214](
-AI_System_Overview.ppt
-)
+[AI_System_Overview.ppt](/docs/static/attachments/23461214)
 
 ##
 AI Object C++ Class Hierarchy
 
-[Image: /docs/static/attachments/23461213]
+![Image](https://www.cryengine.com/docs/static/attachments/23461213)

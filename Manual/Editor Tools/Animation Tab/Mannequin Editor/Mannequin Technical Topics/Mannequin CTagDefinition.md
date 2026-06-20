@@ -11,22 +11,16 @@
 Description
 
 The CTagDefinition class represents a set of of keywords (tags). The class is used to represent a couple of different sets-of-keywords in the mannequin system. This includes the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-Mannequin Tags & Tag Definitions
-)
+[Mannequin Tags & Tag Definitions](../Mannequin%20Concepts/Mannequin%20Tags%20%26%20Tag%20Definitions.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-FragmentID Definition File
-)
+[FragmentID Definition File](../Mannequin%20Files/FragmentID%20Definition%20File%20(xxxActions.xml).md)
 .
 
 ##
 Features
 
 Tags can have priorities associated to them. Tag priorities are used mainly for ranking
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-Mannequin Tagstates
-)
+[Mannequin Tagstates](../Mannequin%20Concepts/Mannequin%20TagState.md)
 .
 
 Tags can be assigned to a group. Tags that are grouped together will be mutually exclusive, so we will not be able to have a TagState indicating that both of them are active at the same time.
@@ -38,9 +32,7 @@ Tags can be referred to by lowercase-crc32 for efficiency if using the order-dep
 Tags can be assigned bit sequences so they can become part of a tagstates (combination of tags) for looking up fragments or transitions.
 
 Each tag can optionally have a Sub TagDefinition. This is mainly used by
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-FragmentID Definition Files
-)
+[FragmentID Definition Files](../Mannequin%20Files/FragmentID%20Definition%20File%20(xxxActions.xml).md)
  to specify what the Tag Definition is for their fragmentID-specific tags (aka Fragment Tags).
 
 ##

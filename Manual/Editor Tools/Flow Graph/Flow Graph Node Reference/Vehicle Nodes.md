@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Vehicle Nodes Use Cases](Vehicle Nodes/Vehicle Nodes Use Cases.md)
+- [Vehicle Nodes Use Cases](Vehicle%20Nodes/Vehicle%20Nodes%20Use%20Cases.md)
 
 ## Content
 
@@ -26,7 +26,7 @@ ChangeView
 
 Used to set vehicle view per seat.
 
-[Image: /docs/static/attachments/29688079]
+![Image](https://www.cryengine.com/docs/static/attachments/29688079)
 
 ##
 ChaseTarget
@@ -76,7 +76,7 @@ EnableCombatMode
 
 Used to alter the path the flight AI should follow so as to find the best position from which to engage the target.
 
-[Image: /docs/static/attachments/29688077]
+![Image](https://www.cryengine.com/docs/static/attachments/29688077)
 
 **
 Inputs
@@ -116,7 +116,7 @@ EnableCombatMode
 **
  node. If disabled, it just tactically positions itself to places from where it can see/hit the target. The default state is enabled.
 
-[Image: /docs/static/attachments/29688076]
+![Image](https://www.cryengine.com/docs/static/attachments/29688076)
 
 **
 Inputs
@@ -152,7 +152,7 @@ FollowPath
 
 Used to set the path that the flight AI should follow.  When not in combat mode it will follow as accurately as possible from start to end. When in combat mode it represents the path along where the AI is allowed to position itself/patrol.
 
-[Image: /docs/static/attachments/29688075]
+![Image](https://www.cryengine.com/docs/static/attachments/29688075)
 
 **
 Inputs
@@ -253,7 +253,7 @@ ForceFire
 
 Used to force the attention target of the flight AI to a specific entity.
 
-[Image: /docs/static/attachments/29688074]
+![Image](https://www.cryengine.com/docs/static/attachments/29688074)
 
 **
 Inputs
@@ -368,74 +368,28 @@ View
 
 Used to Enable/Disable Views per Seat.
 
-[Image: /docs/static/attachments/29688073]
+![Image](https://www.cryengine.com/docs/static/attachments/29688073)
 
-[#attachment](
-Attachment
-)
-[#changeseat](
-ChangeSeat
-)
-[#changeview](
-ChangeView
-)
-[#chasetarget](
-ChaseTarget
-)
-[#damage](
-Damage
-)
-[#destroy](
-Destroy
-)
-[#enter](
-Enter
-)
-[#followpath](
-FollowPath
-)
-[#getseathelper](
-GetSeatHelper
-)
-[#handbrake](
-Handbrake
-)
-[#honk](
-Honk
-)
-[#helicopter](
-Helicopter
-)
-[#lights](
-Lights
-)
-[#lock](
-Lock
-)
-[#moveactionmult](
-MoveActionMult
-)
-[#movement](
-Movement
-)
-[#movementparams](
-MovementParams
-)
-[#passenger](
-Passenger
-)
-[#seat](
-Seat
-)
-[#stickpath](
-StickPath
-)
-[#turret](
-Turret
-)
-[#unload](
-Unload
-)
-[#view](
-View
-)
+[Attachment](#attachment)
+[ChangeSeat](#changeseat)
+[ChangeView](#changeview)
+[ChaseTarget](#chasetarget)
+[Damage](#damage)
+[Destroy](#destroy)
+[Enter](#enter)
+[FollowPath](#followpath)
+[GetSeatHelper](#getseathelper)
+[Handbrake](#handbrake)
+[Honk](#honk)
+[Helicopter](#helicopter)
+[Lights](#lights)
+[Lock](#lock)
+[MoveActionMult](#moveactionmult)
+[Movement](#movement)
+[MovementParams](#movementparams)
+[Passenger](#passenger)
+[Seat](#seat)
+[StickPath](#stickpath)
+[Turret](#turret)
+[Unload](#unload)
+[View](#view)

@@ -21,9 +21,7 @@ Prerequisites
 
 -
 Install the
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-3ds-max-utilities-v2020](
-ceMaxUtils plugin
-)
+[ceMaxUtils plugin](https://www.cryengine.com/marketplace/product/crytek/cryengine-3ds-max-utilities-v2020)
  by downloading it from the Asset Database and dragging & dropping the file
 *
 ceMaxUtils.mzp
@@ -38,9 +36,7 @@ Install ceMaxutils
 Importing and Setting Up a T-Pose Character as an Origin File
 
 This needs to be done first, to make it easier to add multiple animations to your character and to make it possible to reorient multiple animations in batches (
-[/docs/static/engines/cryengine-5/categories/23756816/pages/60523457#ReorientingAnimationsin3dsMax-reorientanimbatches](
-see below
-)
+[see below](Reorienting%20Animations%20in%203ds%20Max.md#ReorientingAnimationsin3dsMax-reorientanimbatches)
 ).
 
 -
@@ -75,7 +71,7 @@ OK
 **
 to import your character and close the FBX Import window.
 
-[Image: /docs/static/attachments/60523565]
+![Image](https://www.cryengine.com/docs/static/attachments/60523565)
 
 *
 Animation selected
@@ -91,7 +87,7 @@ ceMaxUtils → Animation => → CAT Utilities
 -
 In the new menu that pops up, click on Anim:
 
-[Image: /docs/static/attachments/60523469]
+![Image](https://www.cryengine.com/docs/static/attachments/60523469)
 
 *
 Anim button
@@ -114,7 +110,7 @@ World Z rotate
 -
 If you select the character in the viewport, you'll see from the gizmo that it's facing in the negative Y-axis direction:
 
-[Image: /docs/static/attachments/60523471]
+![Image](https://www.cryengine.com/docs/static/attachments/60523471)
 
 *
 Negative Y-axis direction
@@ -128,7 +124,7 @@ Reorient skinned character mesh (parts)
 **
  button:
 
-[Image: /docs/static/attachments/60523472]
+![Image](https://www.cryengine.com/docs/static/attachments/60523472)
 
 *
 Reorient skinned character mesh (parts) button
@@ -139,7 +135,7 @@ This may take up to a few minutes.
 -
 We need a root bone, and a root bone is always created from the skin mesh. To create one, click on the body skin file in the Outliner:
 
-[Image: /docs/static/attachments/60523567]
+![Image](https://www.cryengine.com/docs/static/attachments/60523567)
 
 *
 Body skin file selected
@@ -156,7 +152,7 @@ ceMaxUtils → Animation
 **
  panel.
 
-[Image: /docs/static/attachments/60523670]
+![Image](https://www.cryengine.com/docs/static/attachments/60523670)
 
 *
 Add export Root to Character button
@@ -165,7 +161,7 @@ Add export Root to Character button
 -
 A new bone will appear underneath your character:
 
-[Image: /docs/static/attachments/60523671]
+![Image](https://www.cryengine.com/docs/static/attachments/60523671)
 
 *
 New bone under character
@@ -173,7 +169,7 @@ New bone under character
 
 And at the top of the hierarchy:
 
-[Image: /docs/static/attachments/60523672]
+![Image](https://www.cryengine.com/docs/static/attachments/60523672)
 
 *
 New bone at top of hierarchy
@@ -219,9 +215,7 @@ Open
 
 -
 The FBX Import window will open (
-[/docs/static/engines/cryengine-5/categories/23756816/pages/60523457#ReorientingAnimationsin3dsMax-fbximportwindow](
-see above
-)
+[see above](Reorienting%20Animations%20in%203ds%20Max.md#ReorientingAnimationsin3dsMax-fbximportwindow)
 ). This time,
 **
 Include → File content
@@ -242,7 +236,7 @@ If you play the animation with the slider at the bottom, it will become clear th
 -
 In the Outliner, click on the pelvis, which is the hipbone:
 
-[Image: /docs/static/attachments/60523693]
+![Image](https://www.cryengine.com/docs/static/attachments/60523693)
 
 *
 Hipbone selected
@@ -271,7 +265,7 @@ Global motion node
 **
 :
 
-[Image: /docs/static/attachments/60523696]
+![Image](https://www.cryengine.com/docs/static/attachments/60523696)
 
 *
 Assigning hipbone as Global motion node
@@ -323,7 +317,7 @@ root bone
 To:
 
 **
-[Image: /docs/static/attachments/60523702]
+![Image](https://www.cryengine.com/docs/static/attachments/60523702)
 
 *
 Extracting pelvis motion
@@ -489,18 +483,9 @@ Run Animation batching
 ##
 Video Tutorial
 
-[#prerequisites](
-Prerequisites
-)
-[#importing-and-setting-up-a-t-pose-character-as-an-origin-file](
-Importing and Setting Up a T-Pose Character as an Origin File
-)
-[#adding-animations-on-top-of-the-t-pose-character](
-Adding Animations on Top of the T-pose Character
-)
-[#reorienting-animation-batches](
-Reorienting Animation Batches
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=0qo9QVaDVos&feature=youtu.be]
+[Prerequisites](#prerequisites)
+[Importing and Setting Up a T-Pose Character as an Origin File](#importing-and-setting-up-a-t-pose-character-as-an-origin-file)
+[Adding Animations on Top of the T-pose Character](#adding-animations-on-top-of-the-t-pose-character)
+[Reorienting Animation Batches](#reorienting-animation-batches)
+[Video Tutorial](#video-tutorial)

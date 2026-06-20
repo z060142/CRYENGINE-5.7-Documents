@@ -55,9 +55,5 @@ Set As View Camera
 *
 
 *
-[#notes](
-Notes
-)
-[#tips](
-Tips
-)
+[Notes](#notes)
+[Tips](#tips)

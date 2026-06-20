@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933326]
+![Image](https://www.cryengine.com/docs/static/attachments/29933326)
 
 ##
 Overview
@@ -17,15 +17,9 @@ Sections
 
 This article explains how to setup a boat model for a usable vehicle in CRYENGINE.
 
-[#sections](
-Sections
-)
-[#proxies](
-Proxies
-)
-[#helpers](
-Helpers
-)
+[Sections](#sections)
+[Proxies](#proxies)
+[Helpers](#helpers)
 
 ##
 Proxies

@@ -18,7 +18,7 @@ Perforce Connection Settings
 In the top-right corner of the UI, you will see a new button:
 
 *
-[Image: /docs/static/attachments/26517050]
+![Image](https://www.cryengine.com/docs/static/attachments/26517050)
 *
 
 Clicking this button will show a new pop-up window in which you can view and change your Perforce connection settings.
@@ -46,7 +46,7 @@ Advanced Search Bar
 
 *
 
-[Image: /docs/static/attachments/26523929]
+![Image](https://www.cryengine.com/docs/static/attachments/26523929)
 *
 
 In future releases, this Advanced Search Bar will be implemented in other tools as well, but for now, only the
@@ -67,7 +67,7 @@ For more control over the search results, you can create any number of filters b
 Filters
 **
  button
-[Image: /docs/static/attachments/26523958]
+![Image](https://www.cryengine.com/docs/static/attachments/26523958)
  (next to the Smart Search Bar) and then clicking the
 **
 Add Filter
@@ -103,7 +103,7 @@ Any filters that have been added can be removed again by clicking the
 Remove this filter button
 **
 
-[Image: /docs/static/attachments/26523957]
+![Image](https://www.cryengine.com/docs/static/attachments/26523957)
 .
 
 ##
@@ -132,7 +132,7 @@ Individual filters can also be activated or deactivated without completely remov
 *
 Deactivated filter
 
-[Image: /docs/static/attachments/26523934]
+![Image](https://www.cryengine.com/docs/static/attachments/26523934)
 
 *
 
@@ -144,7 +144,7 @@ It is also possible to invert a filter, meaning that for example in the screensh
 Invert this filter button
 **
 
-[Image: /docs/static/attachments/26523931]
+![Image](https://www.cryengine.com/docs/static/attachments/26523931)
 . The other filters will of course still be active, so clicking this button next to Object Type in the screenshot above would show every
 *
 **
@@ -173,10 +173,10 @@ You can save or load a saved filter by clicking the
 Save/Load Filters button
 **
 
-[Image: /docs/static/attachments/26523932]
+![Image](https://www.cryengine.com/docs/static/attachments/26523932)
 . A new window will then open in which you can save, load or delete a filter:
 
-[Image: /docs/static/attachments/26523933]
+![Image](https://www.cryengine.com/docs/static/attachments/26523933)
 
 To
 *
@@ -256,7 +256,7 @@ If you have saved many filters, the Search bar at the top of this window will co
 ##
 Examples of Advanced Searches
 
-[Image: /docs/static/attachments/26523935]
+![Image](https://www.cryengine.com/docs/static/attachments/26523935)
  |
 This filter will show objects that:
 
@@ -272,7 +272,7 @@ You can see that at first a filter was added that would filtered it down to obje
 
  |
 
-[Image: /docs/static/attachments/26523936]
+![Image](https://www.cryengine.com/docs/static/attachments/26523936)
  |
 This filter will show objects that:
 
@@ -288,7 +288,7 @@ As you can see, no objects correspond to these filters, so nothing is shown in t
 
  |
 
-[Image: /docs/static/attachments/26523937]
+![Image](https://www.cryengine.com/docs/static/attachments/26523937)
  |
 This filter in the
 **
@@ -306,24 +306,10 @@ have not been modified (note the inverted filter)
 have "grass" in their name
  |
 
-[#perforce-connection-settings](
-Perforce Connection Settings
-)
-[#advanced-search-bar](
-Advanced Search Bar
-)
-[#creating-filters](
-Creating Filters
-)
-[#configuring-filters](
-Configuring Filters
-)
-[#inverting-filters](
-Inverting Filters
-)
-[#savingloading-filters](
-Saving/Loading Filters
-)
-[#examples-of-advanced-searches](
-Examples of Advanced Searches
-)
+[Perforce Connection Settings](#perforce-connection-settings)
+[Advanced Search Bar](#advanced-search-bar)
+[Creating Filters](#creating-filters)
+[Configuring Filters](#configuring-filters)
+[Inverting Filters](#inverting-filters)
+[Saving/Loading Filters](#savingloading-filters)
+[Examples of Advanced Searches](#examples-of-advanced-searches)

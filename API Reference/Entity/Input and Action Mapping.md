@@ -15,13 +15,9 @@ Input in the engine is managed by
 CryInput
 **
 , a system that collects and abstracts away platform-specific input data. Although it is possible to get device-specific data from the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797195](
-IInput
-)
+[IInput](/docs/static/engines/cryengine-5/categories/28704770/pages/29797195)
  interface directly, games typically use the action mapping system, exposed via
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797188](
-IActionMapManager
-)
+[IActionMapManager](/docs/static/engines/cryengine-5/categories/28704770/pages/29797188)
 .
 
 The purpose of the action mapping is to support getting input from multiple device types instead of the developer having to hard-code devices in game logic. For example, a “jump” action could be tied to the keyboard’s space key and a gamepad’s A button – regardless of which is pressed, the “jump” action would be sent to code, meaning no extra work is needed to handle different or new devices.
@@ -33,43 +29,27 @@ Cry::DefaultComponents::CInputComponent
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#low-level-input](
-Low-level input
-)
-[#action-maps](
-Action maps
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[Low-level input](#low-level-input)
+[Action maps](#action-maps)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797195](
-IInput
-)
+[IInput](/docs/static/engines/cryengine-5/categories/28704770/pages/29797195)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797188](
-IActionMapManager
-)
+[IActionMapManager](/docs/static/engines/cryengine-5/categories/28704770/pages/29797188)
 
 ##
 Low-level input
 
 The low-level
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797195](
-IInput
-)
+[IInput](/docs/static/engines/cryengine-5/categories/28704770/pages/29797195)
  interface abstracts platform and device-specific logic for receiving input events. This is achieved by the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797349](
-IInputDevice
-)
+[IInputDevice](/docs/static/engines/cryengine-5/categories/28704770/pages/29797349)
  interface, traditionally implemented in the
 CryInput m
 odule. Each input device is responsible for communicating with the device API (for example DirectX Input), and then call
@@ -77,42 +57,28 @@ IInput::PostInputEvent
  to report input from the user.
 
 Once an event is posted, input listeners (see
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797348](
-IInputEventListener
-)
+[IInputEventListener](/docs/static/engines/cryengine-5/categories/28704770/pages/29797348)
 ) are notified to handle the event. One example of this is the action map system - listening for raw input events and forwarding it to any gameplay actions that should respond.
 
 ##
 Action maps
 
 Represented by the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797189](
-IActionMap
-)
+[IActionMap](/docs/static/engines/cryengine-5/categories/28704770/pages/29797189)
  interface, an action map represents a group of actions (see
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797192](
-IActionMapAction
-)
+[IActionMapAction](/docs/static/engines/cryengine-5/categories/28704770/pages/29797192)
 ) that are individually triggered by raw input. The concept of grouping allows us to separate gameplay logic into modular parts, for example to toggle an "in air" and "on ground" state, and only allow certain actions to be triggered in a certain gameplay state.
 
 Game code can listen to action map events by implementing the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797186](
-IActionListener
-)
+[IActionListener](/docs/static/engines/cryengine-5/categories/28704770/pages/29797186)
  interface, receiving callbacks when actions from a specific action map are triggered, see the example below.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797186](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797186)
 
 Also see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24283649](
-ActionMapManager
-)
+[ActionMapManager](../CRYENGINE%20Engine%20Code/Engine%20Modules/CryAction/ActionMapManager.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306384](
-Setting Up Controls and Action Maps
-)
+[Setting Up Controls and Action Maps](../CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/Setting%20Up%20Controls%20and%20Action%20Maps.md)
 .
 
 Using the Input Component causes it to register its own action maps, and reset the Action Map manager; the Input Component and Action manager cannot be used at the same time.
@@ -129,14 +95,10 @@ Use the Action Map manager manually in code, and not use any Input Components (e
 Action rebinding
 
 It is common for games to implement a user interface for remapping inputs based on their preference. The action map system facilitates this by allowing the rebinding of actions, using the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797189](
-IActionMap::ReBindActionInput
-)
+[IActionMap::ReBindActionInput](/docs/static/engines/cryengine-5/categories/28704770/pages/29797189)
 function.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797189](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797189)
 
 ##
 Conclusion
@@ -144,26 +106,16 @@ Conclusion
 This concludes the article on Input and Action Mapping. You may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216224](
-Physics and Movement
-)
+[Physics and Movement](Physics%20and%20Movement.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216226](
-Characters and Animations
-)
+[Characters and Animations](Characters%20and%20Animations.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216232](
-Networking
-)
+[Networking](Networking.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26871538](
-Audio
-)
+[Audio](Audio.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/28184910](
-Execution Order and Lifecycle
-)
+[Execution Order and Lifecycle](Execution%20Order%20and%20Lifecycle.md)

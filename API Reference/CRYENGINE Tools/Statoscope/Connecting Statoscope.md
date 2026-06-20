@@ -16,21 +16,11 @@ The page will guide you though the necessary setup and some basics of the Statos
 
 Chapters:
 
-[#quick-start](
-Quick-Start
-)
-[#platforms](
-Platforms
-)
-[#opening-logs](
-Opening Logs
-)
-[#first-look](
-First look
-)
-[#viewport-controls](
-Viewport Controls
-)
+[Quick-Start](#quick-start)
+[Platforms](#platforms)
+[Opening Logs](#opening-logs)
+[First look](#first-look)
+[Viewport Controls](#viewport-controls)
 
 ##
 Quick-Start
@@ -95,7 +85,7 @@ Platforms
 
 Statoscope will connect to any console/platform that is connected directly to the PC or via an IP address specified in the connection dialog.
 
-[Image: /docs/static/attachments/26964653]
+![Image](https://www.cryengine.com/docs/static/attachments/26964653)
 
 ##
 Opening Logs
@@ -178,7 +168,7 @@ First look
 
 After loading a log or connecting to a running application you will typically see the following layout in Statoscope:
 
-[Image: /docs/static/attachments/26964654]
+![Image](https://www.cryengine.com/docs/static/attachments/26964654)
 
 This screen corresponds to the default view with all the options enabled and the entire log fitted to screen. From here, you can start turning off the data groups that you do not need and zooming in on the display in the areas of interest.
 

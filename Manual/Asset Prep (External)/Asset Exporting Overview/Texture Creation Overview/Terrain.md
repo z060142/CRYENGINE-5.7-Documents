@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933578]
+![Image](https://www.cryengine.com/docs/static/attachments/29933578)
 
 ##
 Overview
@@ -19,21 +19,11 @@ In this tutorial you'll learn how to work with terrain textures from start to fi
 
 You'll find out how to setup your texture, material and level settings to get the best results from recommended workflows.
 
-[#sections](
-Sections
-)
-[#texture-setup](
-Texture Setup
-)
-[#material-setup](
-Material Setup
-)
-[#sandbox-setup](
-Sandbox Setup
-)
-[#results](
-Results
-)
+[Sections](#sections)
+[Texture Setup](#texture-setup)
+[Material Setup](#material-setup)
+[Sandbox Setup](#sandbox-setup)
+[Results](#results)
 
 ##
 Texture Setup
@@ -41,9 +31,7 @@ Texture Setup
 First, we need a nice terrain texture to work with. We'll use this nice tiling texture of stones and grass for this example.
 
 As mentioned in the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048772](
-Terrain.Layer Shader
-)
+[Terrain.Layer Shader](/docs/static/engines/cryengine-3/categories/1114113/pages/1048772)
  article, all terrain textures should be high-passed in order to work with the terrain.layer shader correctly.
 
 Since CryEngine 5.4.0, it is no longer necessary to modify terrain textures to be high-passed before importing them into CryEngine. This process is now handled automatically within the engine.
@@ -86,9 +74,7 @@ Add New Item
 Now select an appropriate folder where you want to save the material file. In order to keep things consistent, lets save it alongside our existing terrain materials.
 
 By default, the location of these materials won't be visible in the file dialog because they're zipped up inside the
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605746](
-GameData.pak
-)
+[GameData.pak](/docs/static/engines/cryengine-3/categories/1638401/pages/1605746)
 . But we can manually create the path:
 `
 <root>/GameSDK/Materials/terrain/grass_with_stones.mtl
@@ -97,15 +83,11 @@ GameData.pak
 After you save the material, the Material Editor will automatically select your new material and apply default settings to it to get you started.
 
 Lets start customizing this new material by
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048667](
-adding the Diffuse texture
-)
+[adding the Diffuse texture](/docs/static/engines/cryengine-3/categories/1114113/pages/1048667)
  which we created earlier in the Texture Setup section.
 
 Now we want to select the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048772](
-Terrain.Layer Shader
-)
+[Terrain.Layer Shader](/docs/static/engines/cryengine-3/categories/1114113/pages/1048772)
  for our
 **
 Shader type
@@ -128,9 +110,7 @@ For now we'll leave the rest of the settings as-is. We'll come back and tweak th
 Sandbox Setup
 
 Open Sandbox and
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048859](
-create a new level
-)
+[create a new level](/docs/static/engines/cryengine-3/categories/1114113/pages/1048859)
 .
 
 As we've got a new, empty level, we're going to need some terrain to test our new material on.

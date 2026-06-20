@@ -6,23 +6,17 @@
 
 ## Child Pages
 
-- [ScriptBind Reference](CRYENGINE API Reference/ScriptBind Reference.md)
-- [C++ API Reference](CRYENGINE API Reference/C++ API Reference.md)
-- [C# API Reference](CRYENGINE API Reference/C# API Reference.md)
+- [ScriptBind Reference](CRYENGINE%20API%20Reference/ScriptBind%20Reference.md)
+- [C++ API Reference](CRYENGINE%20API%20Reference/C%2B%2B%20API%20Reference.md)
+- [C# API Reference](CRYENGINE%20API%20Reference/C%23%20API%20Reference.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23303318](
-C++ API Reference
-)
+[C++ API Reference](CRYENGINE%20API%20Reference/C%2B%2B%20API%20Reference.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306596](
-ScriptBind Reference
-)
+[ScriptBind Reference](CRYENGINE%20API%20Reference/ScriptBind%20Reference.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875052](
-C# API Reference
-)
+[C# API Reference](CRYENGINE%20API%20Reference/C%23%20API%20Reference.md)

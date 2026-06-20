@@ -17,7 +17,7 @@ Editor Console Help Menu:
 **
 Users will now see a "Help" menu in the Console plug-in with "Console Variables" and "Console Commands" menu items.
 
-[Image: /docs/static/attachments/44962614]
+![Image](https://www.cryengine.com/docs/static/attachments/44962614)
 
 **
 More Camera Movement Options in the Sandbox
@@ -54,7 +54,7 @@ Terrain Editor Cleanup:
 **
  Improvements to Terrain Tool usability. "View" has been removed from the Tools Menu - the top down view wasn’t working as expected. In the future this will be configured to work as a standard "Top" view. The “Copy” and “Move” buttons have been fixed and the UI has been changed - there is now a checkbox "Move objects" - this does exactly what you’d expect and an “Undo” operation has also been implemented.
 
-[Image: /docs/static/attachments/44962613]
+![Image](https://www.cryengine.com/docs/static/attachments/44962613)
 
 **
 Optimized Viewport Resolution Control:
@@ -65,7 +65,7 @@ Previously,
 **
 Viewports with custom resolutions could only have their contents stretched to the edges of the window to preserve aspect ratio. Now when setting a custom resolution for a Viewport widget some new options are available that allow users to position the contents of the game in the Viewport, but without stretching.
 
-[Image: /docs/static/attachments/44962612]
+![Image](https://www.cryengine.com/docs/static/attachments/44962612)
 
 ##
 Editor

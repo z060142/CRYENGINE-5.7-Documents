@@ -7,53 +7,37 @@
 
 ## Child Pages
 
-- [Basics (animated)](Animated Geometry/Basics (animated).md)
-- [Character (animated)](Animated Geometry/Character (animated).md)
-- [Geom Cache (Alembic)](Animated Geometry/Geom Cache (Alembic).md)
-- [Boids (animated)](Animated Geometry/Boids (animated).md)
-- [Rigid Body Animation (CGA)](Animated Geometry/Rigid Body Animation (CGA).md)
-- [Morphs/Blendshapes](Animated Geometry/Morphs Blendshapes.md)
-- [Vehicle Setup (CGA)](Animated Geometry/Vehicle Setup (CGA).md)
-- [Additive Animation](Animated Geometry/Additive Animation.md)
+- [Basics (animated)](Animated%20Geometry/Basics%20(animated).md)
+- [Character (animated)](Animated%20Geometry/Character%20(animated).md)
+- [Geom Cache (Alembic)](Animated%20Geometry/Geom%20Cache%20(Alembic).md)
+- [Boids (animated)](Animated%20Geometry/Boids%20(animated).md)
+- [Rigid Body Animation (CGA)](Animated%20Geometry/Rigid%20Body%20Animation%20(CGA).md)
+- [Morphs/Blendshapes](Animated%20Geometry/Morphs%20Blendshapes.md)
+- [Vehicle Setup (CGA)](Animated%20Geometry/Vehicle%20Setup%20(CGA).md)
+- [Additive Animation](Animated%20Geometry/Additive%20Animation.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307974](
-Basics (animated)
-)
+[Basics (animated)](Animated%20Geometry/Basics%20(animated).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308008](
-Boids (animated)
-)
+[Boids (animated)](Animated%20Geometry/Boids%20(animated).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307992](
-Character (animated)
-)
+[Character (animated)](Animated%20Geometry/Character%20(animated).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534121](
-Rigid Body Animation (CGA)
-)
+[Rigid Body Animation (CGA)](Animated%20Geometry/Rigid%20Body%20Animation%20(CGA).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872788](
-Morphs/Blendshapes
-)
+[Morphs/Blendshapes](Animated%20Geometry/Morphs%20Blendshapes.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534123](
-Geom Cache (Alembic)
-)
+[Geom Cache (Alembic)](Animated%20Geometry/Geom%20Cache%20(Alembic).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534127](
-Vehicle Setup (CGA)
-)
+[Vehicle Setup (CGA)](Animated%20Geometry/Vehicle%20Setup%20(CGA).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450849](
-Additive Animation
-)
+[Additive Animation](Animated%20Geometry/Additive%20Animation.md)

@@ -7,23 +7,21 @@
 
 ## Child Pages
 
-- [Accounts](GamePlatform Features (Discord Steam)/Accounts.md)
-- [Achievements](GamePlatform Features (Discord Steam)/Achievements.md)
-- [Catalog](GamePlatform Features (Discord Steam)/Catalog.md)
-- [General](GamePlatform Features (Discord Steam)/General.md)
-- [Leaderboard](GamePlatform Features (Discord Steam)/Leaderboard.md)
-- [Matchmaking & Lobbies](GamePlatform Features (Discord Steam)/Matchmaking & Lobbies.md)
-- [Networking*](GamePlatform Features (Discord Steam)/Networking.md)
-- [Overlays](GamePlatform Features (Discord Steam)/Overlays.md)
-- [Remote Storage](GamePlatform Features (Discord Steam)/Remote Storage.md)
-- [Rich Presence](GamePlatform Features (Discord Steam)/Rich Presence.md)
+- [Accounts](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
+- [Achievements](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
+- [Catalog](GamePlatform%20Features%20(Discord%20Steam)/Catalog.md)
+- [General](GamePlatform%20Features%20(Discord%20Steam)/General.md)
+- [Leaderboard](GamePlatform%20Features%20(Discord%20Steam)/Leaderboard.md)
+- [Matchmaking & Lobbies](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
+- [Networking*](GamePlatform%20Features%20(Discord%20Steam)/Networking.md)
+- [Overlays](GamePlatform%20Features%20(Discord%20Steam)/Overlays.md)
+- [Remote Storage](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
+- [Rich Presence](GamePlatform%20Features%20(Discord%20Steam)/Rich%20Presence.md)
 
 ## Content
 
 The following pages provide details on each GamePlatform plugin feature (matchmaking, rich presence, etc.) from an abstracted point of view. Certain implementations may have nuances involved that will require extra steps to achieve the same goal, while a few of them may not even be supported by a specific platform service (for example,
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-Remote Storage
-)
+[Remote Storage](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  only works on Steam). Not every service matches one-to-one with each other, and therefore some discrepancies will be noticed between different implementations.
 
 Each feature that the GamePlatform plugin abstracts is categorized in code, and in nodes provided by Flow Graph and Schematyc (Experimental). That said, there are variations between the code categorization, and the designer level nodes categorization.
@@ -48,52 +46,38 @@ Accounts
  |
 Functions
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430](
-IsFriendWith
-)
+[IsFriendWith](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
 
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430](
-GetAccountInfo
-)
+[GetAccountInfo](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430](
-GetAvatar
-)
+[GetAvatar](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430](
-GetBlockedAccounts
-)
+[GetBlockedAccounts](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430](
-GetFriendAccounts
-)
+[GetFriendAccounts](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430](
-GetLocalAccount
-)
+[GetLocalAccount](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430](
-RequestUserInformation
-)
+[RequestUserInformation](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
  |
 Steam
  |
@@ -101,30 +85,22 @@ Steam
 Events
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430](
-OnAccountAdded
-)
+[OnAccountAdded](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430](
-OnAccountRemoved
-)
+[OnAccountRemoved](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430](
-OnAvatarImageLoaded
-)
+[OnAvatarImageLoaded](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448430](
-OnPersonaStateChanged
-)
+[OnPersonaStateChanged](GamePlatform%20Features%20(Discord%20Steam)/Accounts.md)
  |
 Steam
  |
@@ -136,95 +112,69 @@ Achievements
 Service Functions
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-Download
-)
+[Download](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-Get
-)
+[Get](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-GetAchievement
-)
+[GetAchievement](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-ResetAchievements
-)
+[ResetAchievements](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-ResetStatistics
-)
+[ResetStatistics](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-Set
-)
+[Set](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-Upload
-)
+[Upload](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
 Specific Functions
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-Achieve
-)
+[Achieve](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-GetName
-)
+[GetName](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-GetProgress
-)
+[GetProgress](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-Iscompleted
-)
+[Iscompleted](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-Reset
-)
+[Reset](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-SetProgress
-)
+[SetProgress](GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
  |
 Steam
  |
@@ -236,16 +186,12 @@ Catalog
 Service Functions
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448503](
-BrowseCatalog
-)
+[BrowseCatalog](GamePlatform%20Features%20(Discord%20Steam)/Catalog.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448503](
-GetLicenses
-)
+[GetLicenses](GamePlatform%20Features%20(Discord%20Steam)/Catalog.md)
  |
 Steam
  |
@@ -253,16 +199,12 @@ Steam
 Service Events
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448503](
-OnCatalogReceived
-)
+[OnCatalogReceived](GamePlatform%20Features%20(Discord%20Steam)/Catalog.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448503](
-OnMicroTransactionAuthorizationResponse
-)
+[OnMicroTransactionAuthorizationResponse](GamePlatform%20Features%20(Discord%20Steam)/Catalog.md)
  |
 Steam
  |
@@ -274,44 +216,32 @@ General
 Service Functions
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448507](
-GetApplicationId
-)
+[GetApplicationId](GamePlatform%20Features%20(Discord%20Steam)/General.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448507](
-GetBuildId
-)
+[GetBuildId](GamePlatform%20Features%20(Discord%20Steam)/General.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448507](
-GetEnvironmentValue
-)
+[GetEnvironmentValue](GamePlatform%20Features%20(Discord%20Steam)/General.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448507](
-GetService
-)
+[GetService](GamePlatform%20Features%20(Discord%20Steam)/General.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448507](
-MarkContentCorrupt
-)
+[MarkContentCorrupt](GamePlatform%20Features%20(Discord%20Steam)/General.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448507](
-OwnsApplication
-)
+[OwnsApplication](GamePlatform%20Features%20(Discord%20Steam)/General.md)
  |
 Steam
  |
@@ -319,23 +249,17 @@ Steam
 Service Events
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448507](
-OnEnvironmentVariableChanged
-)
+[OnEnvironmentVariableChanged](GamePlatform%20Features%20(Discord%20Steam)/General.md)
  |
 Discord, Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448507](
-OnOverlayActivated
-)
+[OnOverlayActivated](GamePlatform%20Features%20(Discord%20Steam)/General.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448507](
-OnShutdown
-)
+[OnShutdown](GamePlatform%20Features%20(Discord%20Steam)/General.md)
  |
 Discord, Steam
  |
@@ -346,25 +270,19 @@ Leaderboard
  |
 Service Functions
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448580](
-GetLeaderboardData
-)
+[GetLeaderboardData](GamePlatform%20Features%20(Discord%20Steam)/Leaderboard.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448580](
-UpdateLeaderboardScore
-)
+[UpdateLeaderboardScore](GamePlatform%20Features%20(Discord%20Steam)/Leaderboard.md)
  |
 Steam
  |
 
 Service Events
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448580](
-OnLeaderboardEntryDownloaded
-)
+[OnLeaderboardEntryDownloaded](GamePlatform%20Features%20(Discord%20Steam)/Leaderboard.md)
  |
 Steam
  |
@@ -375,44 +293,32 @@ Matchmaking & Lobbies
  |
 Matchmaking Service Functions
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-AddLobbyQueryFilterString
-)
+[AddLobbyQueryFilterString](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-CreateLobby
-)
+[CreateLobby](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-GetQueriedLobbyIdByIndex
-)
+[GetQueriedLobbyIdByIndex](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-GetUserLobby
-)
+[GetUserLobby](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-JoinLobby
-)
+[JoinLobby](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-QueryLobbies
-)
+[QueryLobbies](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
@@ -420,37 +326,27 @@ Steam
 Matchmaking Service Events
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnCreatedLobby
-)
+[OnCreatedLobby](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnJoinedLobby
-)
+[OnJoinedLobby](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnLobbyJoinFailed
-)
+[OnLobbyJoinFailed](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnLobbyQueryComplete
-)
+[OnLobbyQueryComplete](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnPreJoinLobby
-)
+[OnPreJoinLobby](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
@@ -458,79 +354,57 @@ Steam
 Lobby Functions
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-GetData
-)
+[GetData](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-GetMemberAtIndex
-)
+[GetMemberAtIndex](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-GetMemberData
-)
+[GetMemberData](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-GetMemberLimit
-)
+[GetMemberLimit](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-GetNumMembers
-)
+[GetNumMembers](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-GetOwnerId
-)
+[GetOwnerId](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-Leave
-)
+[Leave](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-SendChatMessage
-)
+[SendChatMessage](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-SetData
-)
+[SetData](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-SetMemberData
-)
+[SetMemberData](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-ShowInviteDialog
-)
+[ShowInviteDialog](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
@@ -538,74 +412,54 @@ Steam
 Lobby Events
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnChatMessage
-)
+[OnChatMessage](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnLeave
-)
+[OnLeave](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnLobbyDataUpdate
-)
+[OnLobbyDataUpdate](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnPlayerBanned
-)
+[OnPlayerBanned](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnPlayerDisconnected
-)
+[OnPlayerDisconnected](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnPlayerEntered
-)
+[OnPlayerEntered](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnPlayerKicked
-)
+[OnPlayerKicked](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnPlayerLeft
-)
+[OnPlayerLeft](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-OnUserDataUpdate
-)
+[OnUserDataUpdate](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
 
 Event Registration Functions
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448584](
-StartStopLobbyListener
-)
+[StartStopLobbyListener](GamePlatform%20Features%20(Discord%20Steam)/Matchmaking%20%26%20Lobbies.md)
  |
 Steam
  |
@@ -616,51 +470,37 @@ Networking
  |
 Service Functions
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448622](
-CloseSession
-)
+[CloseSession](GamePlatform%20Features%20(Discord%20Steam)/Networking.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448622](
-FilterText
-)
+[FilterText](GamePlatform%20Features%20(Discord%20Steam)/Networking.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448622](
-GetAuthToken
-)
+[GetAuthToken](GamePlatform%20Features%20(Discord%20Steam)/Networking.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448622](
-IsLoggedIn
-)
+[IsLoggedIn](GamePlatform%20Features%20(Discord%20Steam)/Networking.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448622](
-IsPacketAvailable
-)
+[IsPacketAvailable](GamePlatform%20Features%20(Discord%20Steam)/Networking.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448622](
-ReadPacket
-)
+[ReadPacket](GamePlatform%20Features%20(Discord%20Steam)/Networking.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448622](
-SendPacket
-)
+[SendPacket](GamePlatform%20Features%20(Discord%20Steam)/Networking.md)
  |
 Steam
  |
@@ -668,16 +508,12 @@ Steam
 Service Events
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448622](
-OnCheckMultiplayerAccess
-)
+[OnCheckMultiplayerAccess](GamePlatform%20Features%20(Discord%20Steam)/Networking.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448622](
-OnGetSteamAuthTicketResponse
-)
+[OnGetSteamAuthTicketResponse](GamePlatform%20Features%20(Discord%20Steam)/Networking.md)
  |
 Steam
  |
@@ -689,30 +525,22 @@ Overlays
 Service Functions
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448627](
-OpenBrowser
-)
+[OpenBrowser](GamePlatform%20Features%20(Discord%20Steam)/Overlays.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448627](
-OpenDialog
-)
+[OpenDialog](GamePlatform%20Features%20(Discord%20Steam)/Overlays.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448627](
-OpenDialogWithTargetUser
-)
+[OpenDialogWithTargetUser](GamePlatform%20Features%20(Discord%20Steam)/Overlays.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448627](
-OpenPurchaseOverlay
-)
+[OpenPurchaseOverlay](GamePlatform%20Features%20(Discord%20Steam)/Overlays.md)
  |
 Steam
  |
@@ -724,23 +552,17 @@ Remote Storage
 Service Functions
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-IsEnabled
-)
+[IsEnabled](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-GetFile
-)
+[GetFile](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-GetSharedFile
-)
+[GetSharedFile](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
@@ -748,16 +570,12 @@ Steam
 Service Events
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-OnDownloadedSharedFile
-)
+[OnDownloadedSharedFile](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-OnFileShared
-)
+[OnFileShared](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
@@ -765,123 +583,89 @@ Steam
 Remote File Functions
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-Delete
-)
+[Delete](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-Download
-)
+[Download](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-Exists
-)
+[Exists](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-GetCacheList
-)
+[GetCacheList](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-GetFileSize
-)
+[GetFileSize](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-GetIdentifier
-)
+[GetIdentifier](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-GetSharedFileSize
-)
+[GetSharedFileSize](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-Read
-)
+[Read](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-ReadDataToFile
-)
+[ReadDataToFile](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-ReadSharedData
-)
+[ReadSharedData](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-ReadSharedDataToFile
-)
+[ReadSharedDataToFile](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-ReleaseRemoteFile
-)
+[ReleaseRemoteFile](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-ReleaseSharedfile
-)
+[ReleaseSharedfile](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-ShareRemoteFile
-)
+[ShareRemoteFile](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-WriteFromFile
-)
+[WriteFromFile](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-WriteData
-)
+[WriteData](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
 
 User Generated Content Service Functions
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629](
-CreateContent
-)
+[CreateContent](GamePlatform%20Features%20(Discord%20Steam)/Remote%20Storage.md)
  |
 Steam
  |
@@ -893,57 +677,29 @@ Rich Presence
 Service Functions
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448635](
-GetRichPresence
-)
+[GetRichPresence](GamePlatform%20Features%20(Discord%20Steam)/Rich%20Presence.md)
  |
 Discord
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448635](
-SetRichPresence
-)
+[SetRichPresence](GamePlatform%20Features%20(Discord%20Steam)/Rich%20Presence.md)
  |
 Discord
  |
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448635](
-SetStatus
-)
+[SetStatus](GamePlatform%20Features%20(Discord%20Steam)/Rich%20Presence.md)
  |
 Discord, Steam
  |
 
-[#in-this-section](
-In This Section
-)
-[#accounts](
-Accounts
-)
-[#achievements](
-Achievements
-)
-[#catalog](
-Catalog
-)
-[#general](
-General
-)
-[#leaderboard](
-Leaderboard
-)
-[#matchmaking-and-lobbies](
-Matchmaking & Lobbies
-)
-[#networking](
-Networking
-)
-[#overlays](
-Overlays
-)
-[#remote-storage](
-Remote Storage
-)
-[#rich-presence](
-Rich Presence
-)
+[In This Section](#in-this-section)
+[Accounts](#accounts)
+[Achievements](#achievements)
+[Catalog](#catalog)
+[General](#general)
+[Leaderboard](#leaderboard)
+[Matchmaking & Lobbies](#matchmaking-and-lobbies)
+[Networking](#networking)
+[Overlays](#overlays)
+[Remote Storage](#remote-storage)
+[Rich Presence](#rich-presence)

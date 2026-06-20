@@ -306,9 +306,7 @@ Logs a message in the behavior tree log.
 
 Use the Behavior Tree Editor's
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869459](
-Debug
-)
+[Debug](../Behavior%20Tree%20Editor%20Window.md)
 
 **
 options for a visualization of log messages and the tree's sequence of execution.
@@ -388,15 +386,7 @@ None.
 
  |
 
-[#debug-nodes](
-Debug Nodes
-)
-[#check-timestamp](
-Check Timestamp
-)
-[#halt](
-Halt
-)
-[#log-message](
-Log Message
-)
+[Debug Nodes](#debug-nodes)
+[Check Timestamp](#check-timestamp)
+[Halt](#halt)
+[Log Message](#log-message)

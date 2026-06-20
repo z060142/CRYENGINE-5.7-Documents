@@ -12,7 +12,7 @@ Overview
 
 This functionality exports a list of used animations to a text file you can subsequently open as a spreadsheet. This includes used blendspaces (bspace, comb) and the animations referred by those.
 
-[Image: /docs/static/attachments/23998340]
+![Image](https://www.cryengine.com/docs/static/attachments/23998340)
 
 You can find it in the Tools menu in the Mannequin Editor.
 
@@ -36,7 +36,7 @@ After you exported the file, you can simply open it (a CSV file) in Excel by dou
 
 Which results in a table looking like this:
 
-[Image: /docs/static/attachments/23998341]
+![Image](https://www.cryengine.com/docs/static/attachments/23998341)
 
 ##
 Exported Data
@@ -170,7 +170,7 @@ Animations/Mannequin/Preview/alligator.xml
 
 To explain why there can be many references to the same file through different paths, this is a simplified diagram showing how mannequin refers to files:
 
-[Image: /docs/static/attachments/23998342]
+![Image](https://www.cryengine.com/docs/static/attachments/23998342)
 
 Some examples:
 

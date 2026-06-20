@@ -107,24 +107,24 @@ Water Density
 ##
 Step 1
 
-[Image: /docs/static/attachments/29928962]
+![Image](https://www.cryengine.com/docs/static/attachments/29928962)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/29928963]
+![Image](https://www.cryengine.com/docs/static/attachments/29928963)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/29928964]
+![Image](https://www.cryengine.com/docs/static/attachments/29928964)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/29928965]
+![Image](https://www.cryengine.com/docs/static/attachments/29928965)
 
 ##
 Step 5
 
-[Image: /docs/static/attachments/29928966]
+![Image](https://www.cryengine.com/docs/static/attachments/29928966)

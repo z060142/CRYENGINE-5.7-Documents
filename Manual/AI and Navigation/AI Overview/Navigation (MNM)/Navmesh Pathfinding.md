@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933210]
+![Image](https://www.cryengine.com/docs/static/attachments/29933210)
 
 ##
 Overview
@@ -21,9 +21,7 @@ Also note:
 
 -
 To pathfind, the AI character must be of an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961796](
-agent type
-)
+[agent type](Navigation%20Configuration.md)
  supported by the navigation mesh.
 
 -
@@ -32,15 +30,9 @@ The AI character should always stay within the navigation mesh. Otherwise, it ma
 -
 It is, however, possible for an AI character to get slightly out of the mesh (or try to pathfind to a location slightly out of the mesh). It will then try to find the closest triangle within a certain range.
 
-[#sections](
-Sections
-)
-[#time-slicing](
-Time-slicing
-)
-[#testing](
-Testing
-)
+[Sections](#sections)
+[Time-slicing](#time-slicing)
+[Testing](#testing)
 
 ##
 Time-slicing
@@ -123,7 +115,5 @@ ai_DrawPathFollower
 Click the middle mouse button on the desired destination.
 
 Other debugging tools are described at this
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798769](
-LINK
-)
+[LINK](Navmesh%20Debugging.md)
 .

@@ -61,7 +61,7 @@ Material Editor
 .
 
 *
-[Image: /docs/static/attachments/25495536]
+![Image](https://www.cryengine.com/docs/static/attachments/25495536)
 
 Pic15: Initial Material Editor overview
 *
@@ -86,7 +86,7 @@ wood
  option from the drop down list.
 
 *
-[Image: /docs/static/attachments/25495542]
+![Image](https://www.cryengine.com/docs/static/attachments/25495542)
 
 Pic16: Material settings
 *
@@ -121,7 +121,7 @@ Smoothness
 **
  slider to 255 max because we are controlling this value through the normalmap's alpha channel (ddna).
 *
-[Image: /docs/static/attachments/25495540]
+![Image](https://www.cryengine.com/docs/static/attachments/25495540)
 
 Pic17: Lighting Settings
 *
@@ -132,7 +132,7 @@ Texture Maps
 The Texture Maps section should already have been filled out with our "Diffuse" (*.diff) and our "Normalmap" (*.ddna).
 
 *
-[Image: /docs/static/attachments/25495548]
+![Image](https://www.cryengine.com/docs/static/attachments/25495548)
 
 Pic18: Texture maps
 *
@@ -159,7 +159,7 @@ Detail mapping
 **
  param. This allows the usage for the detail map in the texture map slot .
 
-[Image: /docs/static/attachments/25495539]
+![Image](https://www.cryengine.com/docs/static/attachments/25495539)
 
 *
 Pic19: Adding the detail map to the material
@@ -189,7 +189,7 @@ Shader Params
 **
  section. It should now look like this.
 
-[Image: /docs/static/attachments/25495545]
+![Image](https://www.cryengine.com/docs/static/attachments/25495545)
 
 *
 Pic20: Shader Params
@@ -263,7 +263,7 @@ Vegetation
 . Select both from the drop down lists.
 
 *
-[Image: /docs/static/attachments/25495543]
+![Image](https://www.cryengine.com/docs/static/attachments/25495543)
 
 Pic21: Material settings
 
@@ -300,7 +300,7 @@ Smoothness
  slider to 255 max because we are controlling this value through the normalmap's alpha channel (ddna).
 *
 *
-[Image: /docs/static/attachments/25495541]
+![Image](https://www.cryengine.com/docs/static/attachments/25495541)
 
 Pic22: Lighting Settings
 *
@@ -314,7 +314,7 @@ The Texture Maps section should already have been filled out with our "Diffuse" 
 *
 *
 *
-[Image: /docs/static/attachments/25495549]
+![Image](https://www.cryengine.com/docs/static/attachments/25495549)
 
 Pic23: Texture maps
 *
@@ -343,7 +343,7 @@ Leaves
 *
 *
 *
-[Image: /docs/static/attachments/25495537]
+![Image](https://www.cryengine.com/docs/static/attachments/25495537)
 
 Pic24: Shader Generation Params
 *
@@ -433,7 +433,7 @@ Shader Params
 **
  section. It should now look like this.
 
-[Image: /docs/static/attachments/25495546]
+![Image](https://www.cryengine.com/docs/static/attachments/25495546)
 
 *
 Pic25: Shader Params
@@ -450,9 +450,7 @@ Bending branch amplitude
  |
 Detail bending control. Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this
-)
+[this](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 
 **
 page for information on detail bending
@@ -465,9 +463,7 @@ Bending edges amplitude
  |
 Detail bending control. Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this
-)
+[this](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 
 **
 page for information on detail bending
@@ -488,9 +484,7 @@ Detail bending frequency
  |
 Detail bending control.  Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this
-)
+[this](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 
 **
 page for information on detail bending
@@ -574,7 +568,7 @@ objects\tutorial\vegetation\06\tree\tutorial_merged_mesh_deform\tutorial_merged_
 
 *
 *
-[Image: /docs/static/attachments/25495547]
+![Image](https://www.cryengine.com/docs/static/attachments/25495547)
 
 Pic26: Adding the SSS map to the material
 *
@@ -614,7 +608,7 @@ Save
 **
  icon.
 
-[Image: /docs/static/attachments/25495594]
+![Image](https://www.cryengine.com/docs/static/attachments/25495594)
 
 *
 Pic27: Saving the material changes
@@ -624,12 +618,7 @@ Pic27: Saving the material changes
 Vegetation Editor
 
 We will not go into an in-depth tutorial of the Vegetation Editor here. For more information of the usage of the Vegetation Editor, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865590](
-**
-HERE
-**
-.
-)
+[HERE .](../../../../../Editor%20Tools/Vegetation%20Editor.md)
 
 Go to the
 **
@@ -644,7 +633,7 @@ Vegetation Editor.
 *
 *
 *
-[Image: /docs/static/attachments/25495605]
+![Image](https://www.cryengine.com/docs/static/attachments/25495605)
 
 Pic28: Selecting the Vegetation Editor.
 *
@@ -662,7 +651,7 @@ Add Group
 *
 *
 *
-[Image: /docs/static/attachments/25495606]
+![Image](https://www.cryengine.com/docs/static/attachments/25495606)
 
 Pic29: Adding a Vegetation group
 *
@@ -680,7 +669,7 @@ Add Object
 *
 *
 *
-[Image: /docs/static/attachments/25495607]
+![Image](https://www.cryengine.com/docs/static/attachments/25495607)
 
 Pic30: Adding a vegetation object to the group.
 *
@@ -723,7 +712,7 @@ Jump In-Game (CTRL+G) to Test
 *
 *
 *
-[Image: /docs/static/attachments/25495604]
+![Image](https://www.cryengine.com/docs/static/attachments/25495604)
 
 Pic31: Level Woodland, with our willow tree added at the start and the player interacting with the bendable parts
 
@@ -745,15 +734,7 @@ Note
 *
 *
 
-[#initial-cryengine-setup](
-Initial CRYENGINE Setup
-)
-[#material](
-Material
-)
-[#vegetation-editor](
-Vegetation Editor
-)
-[#jump-in-game-ctrl-g-to-test](
-Jump In-Game (CTRL+G) to Test
-)
+[Initial CRYENGINE Setup](#initial-cryengine-setup)
+[Material](#material)
+[Vegetation Editor](#vegetation-editor)
+[Jump In-Game (CTRL+G) to Test](#jump-in-game-ctrl-g-to-test)

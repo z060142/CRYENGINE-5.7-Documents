@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933291]
+![Image](https://www.cryengine.com/docs/static/attachments/29933291)
 
 ##
 Overview
@@ -16,9 +16,7 @@ Overview
 Topics
 
 CRYENGINE can make use of the ForceFeedback (FFB) system. A simple series of numbers are looped to implement the generated effects. An effect is a combination of pattern to play and envelope to control the patterns effect over a period of time on the controller's motor. For more information on Forcefeedback nodes, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450591](
-Game Nodes
-)
+[Game Nodes](../../Editor%20Tools/Flow%20Graph/Flow%20Graph%20Node%20Reference/Game%20Nodes.md)
 .
 
 The file that contains the configuration information of the effects is located at:
@@ -40,27 +38,13 @@ Envelopes
 -
 Effects
 
-[#topics](
-Topics
-)
-[#patterns](
-Patterns
-)
-[#envelopes](
-Envelopes
-)
-[#effects](
-Effects
-)
-[#bad-combinations-of-patterns-and-envelopes](
-Bad combinations of Patterns and Envelopes
-)
-[#debugging-forcefeedback](
-Debugging ForceFeedback
-)
-[#flow-graph](
-Flow Graph
-)
+[Topics](#topics)
+[Patterns](#patterns)
+[Envelopes](#envelopes)
+[Effects](#effects)
+[Bad combinations of Patterns and Envelopes](#bad-combinations-of-patterns-and-envelopes)
+[Debugging ForceFeedback](#debugging-forcefeedback)
+[Flow Graph](#flow-graph)
 
 ##
 Patterns
@@ -112,7 +96,7 @@ This pattern is called
 Pic1: Full power (samples = 1)
 *
 
-[Image: /docs/static/attachments/35401845]
+![Image](https://www.cryengine.com/docs/static/attachments/35401845)
 
 ##
 Example 2
@@ -131,7 +115,7 @@ square
 Pic2: Approx Full power, then none (samples = 1,0)
 *
 
-[Image: /docs/static/attachments/35401846]
+![Image](https://www.cryengine.com/docs/static/attachments/35401846)
 
 This pattern could also be represented by a sample series of
 **
@@ -156,7 +140,7 @@ This pattern is called
 Pic3: 50% power (samples = 0.5)
 *
 
-[Image: /docs/static/attachments/35401847]
+![Image](https://www.cryengine.com/docs/static/attachments/35401847)
 
 ##
 Example 4
@@ -181,7 +165,7 @@ the first 8 samples grows from 0 -> 1 and the last 8 decreases from 1 -> 0. This
 Pic4: Approx representation of the triangle wave
 *
 
-[Image: /docs/static/attachments/35401848]
+![Image](https://www.cryengine.com/docs/static/attachments/35401848)
 
 This describes the concept of patterns for the power that will be delivered to the controller's motors. The range of the power runs from 0 -> 1 and the maximum variation that you can add to the samples is 16.
 
@@ -245,7 +229,7 @@ Let us consider the pattern above called "
 Pic5: Envelope with a pattern 0.5
 *
 
-[Image: /docs/static/attachments/35401849]
+![Image](https://www.cryengine.com/docs/static/attachments/35401849)
 
 Now the representation of the envelope for "
 **
@@ -257,7 +241,7 @@ linearDecrease
 Pic6: Linear decrease envelope (note the 1 - 8 max samples)
 *
 
-[Image: /docs/static/attachments/35401850]
+![Image](https://www.cryengine.com/docs/static/attachments/35401850)
 
 ##
 Result
@@ -272,7 +256,7 @@ pattern 0.5 + l
 *
 inear decrease envelope
 
-[Image: /docs/static/attachments/35401851]
+![Image](https://www.cryengine.com/docs/static/attachments/35401851)
 
 *
 *
@@ -286,7 +270,7 @@ The previous example was quite simple and this time we will show a more complex 
 Pic8: A saw-tooth pattern
 *
 
-[Image: /docs/static/attachments/35401852]
+![Image](https://www.cryengine.com/docs/static/attachments/35401852)
 
 *
 Pic9: Linear decrease envelope
@@ -294,7 +278,7 @@ Pic9: Linear decrease envelope
 (note the 1 - 8 max samples)
 *
 
-[Image: /docs/static/attachments/35401853]
+![Image](https://www.cryengine.com/docs/static/attachments/35401853)
 
 *
 
@@ -307,7 +291,7 @@ Now when we apply the linear decrease envelope on top of the saw-tooth pattern, 
 Pic10: Saw-tooth with Linear decrease applied
 *
 
-[Image: /docs/static/attachments/35401854]
+![Image](https://www.cryengine.com/docs/static/attachments/35401854)
 
 This shows you how to combine an effect to create
 **
@@ -528,7 +512,7 @@ Stop all the active ForceFeedback effects.
 Pic11: Debug visual output from the ffs_debug CVar
 *
 
-[Image: /docs/static/attachments/35401855]
+![Image](https://www.cryengine.com/docs/static/attachments/35401855)
 
 ##
 Flow Graph
@@ -539,4 +523,4 @@ The ForceFeedback system is provided with dedicated Flow Graph nodes. These allo
 Pic12: FlowGraph nodes for the ForceFeedback system.
 *
 
-[Image: /docs/static/attachments/35401856]
+![Image](https://www.cryengine.com/docs/static/attachments/35401856)

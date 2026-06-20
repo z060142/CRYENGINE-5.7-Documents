@@ -42,6 +42,4 @@ Note
 : IME support is never available in the Sandbox, it can only be used in the game launcher.
 
 Related information:
-[/docs/static/engines/cryengine-3/categories/1638401/pages/21891645](
-IME
-)
+[IME](/docs/static/engines/cryengine-3/categories/1638401/pages/21891645)

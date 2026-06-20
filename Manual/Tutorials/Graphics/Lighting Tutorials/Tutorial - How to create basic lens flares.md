@@ -8,3 +8,5 @@
 ## Content
 
 This tutorial covers lens flares using legacy light entities, but the properties are also applicable to the modern entity light components.
+
+[Embed: http://youtube.com/watch?v=6t356IkkUmk]

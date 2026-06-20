@@ -15,12 +15,8 @@ This tutorial explains how to set up Ambient sounds with the SDL-Mixer and CRYEN
 ##
 In This Topic
 
-[#in-this-topic](
-In This Topic
-)
-[#setting-up-ambiences-in-sdl-mixer](
-Setting up Ambiences in SDL-Mixer
-)
+[In This Topic](#in-this-topic)
+[Setting up Ambiences in SDL-Mixer](#setting-up-ambiences-in-sdl-mixer)
 
 ##
 Setting up Ambiences in SDL-Mixer
@@ -40,7 +36,7 @@ Enable Panning
 -
 Enable Distance Attenuation
  checkbox should be enabled and will attenuate the volume of the sound (Depending on the distance values used).
-[Image: /docs/static/attachments/44968283]
+![Image](https://www.cryengine.com/docs/static/attachments/44968283)
 
 Important
 The Max Distance value in the SDL-Mixer properties must be equal to or lower than the
@@ -51,28 +47,20 @@ Audio Area Ambience e
 *
 ntity, if not then the sound begins to play and does not fade gradually.
 
-[Image: /docs/static/attachments/44970763]
+![Image](https://www.cryengine.com/docs/static/attachments/44970763)
 
 In order to learn how to setup your audio system Trigger inside CRYENGINE, please refer to the tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964884](
-Audio & Ambience
-)
+[Audio & Ambience](../../Audio%20Overview/Audio%20%26%20Ambience.md)
 .
 
 Please note that there are certain differences in the implementation approach for Ambiences in a level. This is due to feature based limitations of the SDL-Mixer.
 
 You do not need to specify a RTPC or an Environment in the entity properties as the SDL-Mixer does not support these advanced functionalities. If you need more control over the audio content of your project and want to make use of advanced features, it is recommended to use a professional audio middleware such as the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964984](
-Wwise
-)
+[Wwise](../Wwise%20Workflow.md)
  or
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964938](
-FMOD Studio
-)
+[FMOD Studio](../FMOD%20Studio%20Workflow.md)
  implementations in CRYENGINE.
 Learn more about the SDL Mixer Console Commands within CRYENGINE in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964964](
-SDL Mixer Console Commands
-)
+[SDL Mixer Console Commands](SDL%20Mixer%20Console%20Commands.md)
 .

@@ -19,15 +19,9 @@ This tool can be useful when used with dynamic lighting as well; it just require
 
 With the introduction of Physically Based Shading, cubemaps control many things in the engine. Everything from shadow colors, ambient diffuse values, particle diffuse, and reflections. They act as bounce lighting by taking the colors from the surroundings and applying them directly into the diffuse of materials inside their radius.
 
-[#topics](
-Topics
-)
-[#setup](
-Setup
-)
-[#tweaking-environment-probes](
-Tweaking Environment Probes
-)
+[Topics](#topics)
+[Setup](#setup)
+[Tweaking Environment Probes](#tweaking-environment-probes)
 
 ##
 Setup
@@ -118,12 +112,10 @@ Ignore VisAreas
 true
 **
 .
-[Image: /docs/static/attachments/52593429]
+![Image](https://www.cryengine.com/docs/static/attachments/52593429)
 
 For more information about Environment Probe options, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966059](
-Light Components
-)
+[Light Components](../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6)/Light%20Components.md)
  documentation .
 
 ##
@@ -162,11 +154,7 @@ SSR with spherical Environment Probe
 For more information about Environment Probes and how to use them efficiently in your level, please refer to the following tutorials:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656827](
-Tutorial - Creative Lighting Basics
-)
+[Tutorial - Creative Lighting Basics](../../../Tutorials/Graphics/Lighting%20Tutorials/Tutorial%20-%20Creative%20Lighting%20Basics.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56660088](
-Tutorial - Environment Editor part 3 - SVOGI and Ambient Light
-)
+[Tutorial - Environment Editor part 3 - SVOGI and Ambient Light](../../../Tutorials/Graphics/Environment%20Tutorials/Environment%20Editor%20Tutorials/Tutorial%20-%20Environment%20Editor%20part%203%20-%20SVOGI%20and%20Ambient%20Light.md)

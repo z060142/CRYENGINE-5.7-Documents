@@ -170,18 +170,8 @@ if (UQS::Core::IHub* pHub = UQS::Core::IHubPlugin::GetHubPtr())
 
 ```
 
-[#the-easy-way](
-The Easy Way
-)
-[#the-explicit-way](
-The Explicit Way
-)
-[#starting-a-query](
-Starting a Query
-)
-[#callback](
-Callback
-)
-[#canceling-optional](
-Canceling (Optional)
-)
+[The Easy Way](#the-easy-way)
+[The Explicit Way](#the-explicit-way)
+[Starting a Query](#starting-a-query)
+[Callback](#callback)
+[Canceling (Optional)](#canceling-optional)

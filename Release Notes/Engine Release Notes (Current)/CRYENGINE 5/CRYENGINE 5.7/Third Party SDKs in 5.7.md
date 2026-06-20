@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Copyright Notices](Third Party SDKs in 5.7/Copyright Notices.md)
+- [Copyright Notices](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices.md)
 
 ## Content
 
@@ -36,9 +36,7 @@ adx2
 Code/SDKs/Audio/adx2
 *
  |
-[https://www.criware.com/](
-Proprietary
-)
+[Proprietary](https://www.criware.com/)
  |
 
 ##
@@ -51,9 +49,7 @@ Alembic
 Code/SDKs/Alembic
 *
  |
-[/docs](
-MIT-Style
-)
+[MIT-Style](/docs)
  |
 
 ##
@@ -67,9 +63,7 @@ Code/SDKs/AMD/AGS
 *
  Lib
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884394](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/AMD%20AGS.md)
  |
 
 ##
@@ -82,9 +76,7 @@ AMD Extensions
 Code/SDKs/AMD/AMD_Extensions
 *
  |
-[http://www.amd.com/](
-Proprietary
-)
+[Proprietary](http://www.amd.com/)
  |
 
 ##
@@ -97,9 +89,7 @@ a1b3a96
 Code/SDKs/astc-encoder
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884093](
-Proprietary
-)
+[Proprietary](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/astc-encoder.md)
  |
 
 ##
@@ -112,9 +102,7 @@ Custom
 Code/SDKs/BigDigits
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884096](
-Proprietary
-)
+[Proprietary](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/BigDigits.md)
  |
 
 ##
@@ -127,9 +115,7 @@ Boost
 Code/SDKs/boost
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884099](
-Boost
-)
+[Boost](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Boost.md)
  |
 
 ##
@@ -142,9 +128,7 @@ Custom
 Code/SDKs/Brofiler
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884103](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Brofiler.md)
  |
 
 ##
@@ -157,9 +141,7 @@ CrashRpt
 Code/SDKs/CrashRpt/1403
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884105](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/CrashRpt.md)
  |
 
 ##
@@ -172,9 +154,7 @@ curl
 Code/SDKs/curl
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884120](
-MIT/X derivate license
-)
+[MIT/X derivate license](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/curl.md)
  |
 
 ##
@@ -187,9 +167,7 @@ Detours
 Code/SDKs/Detours/4.0.1
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884122](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Detours.md)
  |
 
 ##
@@ -202,9 +180,7 @@ DirectX Shader Compiler
 Code/SDKs/DXC
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884127](
-LLVM Release License
-)
+[LLVM Release License](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/DirectX%20Shader%20Compiler.md)
  |
 
 ##
@@ -217,9 +193,7 @@ Discord Game SDK
 Code/SDKs/discord-game-sdk
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884129](
-Proprietary
-)
+[Proprietary](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Discord%20Game%20SDK.md)
  |
 
 ##
@@ -232,9 +206,7 @@ expat
 Code/SDKs/expat-2.1.0
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884134](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/expat.md)
  |
 
 ##
@@ -247,9 +219,7 @@ FBX SDK
 Code/SDKs/FbxSdk
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884139](
-Proprietary
-)
+[Proprietary](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/FBX%20SDK.md)
  |
 
 ##
@@ -262,9 +232,7 @@ fmod
 Code/SDKs/Audio/fmod
 *
  |
-[https://www.fmod.com/](
-Proprietary
-)
+[Proprietary](https://www.fmod.com/)
  |
 
 ##
@@ -277,9 +245,7 @@ FreeType
 Code/SDKs/freetype
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884145](
-FreeType license
-)
+[FreeType license](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/FreeType.md)
  |
 
 ##
@@ -292,9 +258,7 @@ GLEW
 Code/SDKs/GLEW
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884152](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/GLEW.md)
  |
 
 ##
@@ -307,9 +271,7 @@ Custom
 Code/SDKs/googletest_CE_Support
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884154](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Google%20Test.md)
  |
 
 ##
@@ -322,9 +284,7 @@ hdf5
 Code/SDKs/hdf5
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884233](
-HDF Group
-)
+[HDF Group](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/hdf5.md)
  |
 
 ##
@@ -337,9 +297,7 @@ ilmbase
 Code/SDKs/ilmbase
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884156](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/ilmbase.md)
  |
 
 ##
@@ -352,9 +310,7 @@ Intel Laptop Gaming TDK
 Code/SDKs/IntelLaptop
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884161](
-Proprietary
-)
+[Proprietary](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Intel%20Laptop%20Gaming%20TDK.md)
  |
 
 ##
@@ -367,9 +323,7 @@ jansson
 Code/SDKs/jansson-2.1
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884163](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/jansson.md)
  |
 
 ##
@@ -382,9 +336,7 @@ jpeg
 Code/SDKs/jpeg
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884165](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/jpeg.md)
  |
 
 ##
@@ -397,9 +349,7 @@ d1c85c5
 Code/SDKs/jsmn
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884167](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/jsmn.md)
  |
 
 ##
@@ -412,9 +362,7 @@ KinectSDK
 Code/SDKs/KinectSDK
 *
  |
-[https://github.com/microsoft/Azure-Kinect-Sensor-SDK](
-Proprietary
-)
+[Proprietary](https://github.com/microsoft/Azure-Kinect-Sensor-SDK)
  |
 
 ##
@@ -427,9 +375,7 @@ libHttpClient
 Code/SDKs/libHttpClient
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884170](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/libHttpClient.md)
  |
 
 ##
@@ -442,9 +388,7 @@ libsndfile
 Code/SDKs/Audio/libsndfile
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884176](
-LGPL v2.1
-)
+[LGPL v2.1](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/libsndfile.md)
  |
 
 ##
@@ -457,9 +401,7 @@ libstrophe
 Code/SDKs/libstrophe
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884178](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/libstrophe.md)
  |
 
 ##
@@ -472,9 +414,7 @@ LibTomCrypt
 Code/SDKs/LibTomCrypt
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884180](
-Public Domain
-)
+[Public Domain](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/LibTomCrypt.md)
  |
 
 ##
@@ -487,9 +427,7 @@ LibTomMath
 Code/SDKs/LibTomCrypt
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884182](
-Unlicense
-)
+[Unlicense](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/LibTomMath.md)
  |
 
 ##
@@ -502,9 +440,7 @@ LiquidVR
 Code/SDKs/LiquidVR
 *
  |
-[https://gpuopen.com/liquidvr/](
-Proprietary
-)
+[Proprietary](https://gpuopen.com/liquidvr/)
  |
 
 ##
@@ -517,9 +453,7 @@ Lua
 Code/SDKs/Lua
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884189](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Lua.md)
  |
 
 ##
@@ -532,9 +466,7 @@ r128
 Code/SDKs/lz4
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884191](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/lz4.md)
  |
 
 ##
@@ -547,9 +479,7 @@ lzma
 Code/SDKs/lzma
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884194](
-Public Domain
-)
+[Public Domain](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/lzma.md)
  |
 
 ##
@@ -562,9 +492,7 @@ lzss
 Code/SDKs/lzss
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884196](
-Public Domain
-)
+[Public Domain](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/lzss.md)
  |
 
 ##
@@ -577,9 +505,7 @@ md5
 Code/SDKs/md5
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884198](
-Public Domain
-)
+[Public Domain](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/md5.md)
  |
 
 ##
@@ -592,9 +518,7 @@ MongoDB
 Code/SDKs/mongodb
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884201](
-Apache 2.0
-)
+[Apache 2.0](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/mongodb.md)
  |
 
 ##
@@ -607,9 +531,7 @@ Mono
 Code/SDKs/Mono
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884204](
-MIT & Various
-)
+[MIT & Various](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Mono.md)
  |
 
 ##
@@ -622,9 +544,7 @@ ncurses
 Code/SDKs/ncurses
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884212](
-X11-Style
-)
+[X11-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/ncurses.md)
  |
 
 ##
@@ -637,9 +557,7 @@ netgen
 Code/SDKs/netgen
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884214](
-LGPL v2.1
-)
+[LGPL v2.1](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/netgen.md)
  |
 
 ##
@@ -652,9 +570,7 @@ nodejs
 Code/SDKs/nodejs-7.6.0
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884216](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/nodejs.md)
  |
 
 ##
@@ -667,9 +583,7 @@ nunit
 Code/SDKs/nunit
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884218](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/nunit.md)
  |
 
 ##
@@ -682,9 +596,7 @@ r386
 Code/SDKs/NVIDIA/NVAPI_r386
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884220](
-Proprietary
-)
+[Proprietary](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/NVAPI.md)
  |
 
 ##
@@ -697,9 +609,7 @@ NVIDIA Multiprojection
 Code/SDKs/NVIDIA/multiprojection_dx_2.0
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884224](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/NVIDIA%20Multiprojection.md)
  |
 
 ##
@@ -712,9 +622,7 @@ NVIDIA PhysX
 Code/SDKs/PhysX/SDK
 *
  |
-[http://developer.nvidia.com/](
-Proprietary
-)
+[Proprietary](http://developer.nvidia.com/)
  |
 
 ##
@@ -727,9 +635,7 @@ NVIDIA PxShared
 Code/SDKs/PhysX/Shared
 *
  |
-[http://developer.nvidia.com/](
-Proprietary
-)
+[Proprietary](http://developer.nvidia.com/)
  |
 
 ##
@@ -742,9 +648,7 @@ Oculus SDK
 Code/SDKs/OculusSDK
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884226](
-Oculus SDK
-)
+[Oculus SDK](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Oculus%20SDK.md)
  |
 
 ##
@@ -757,9 +661,7 @@ OpenSSL
 Code/SDKs/openssl
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884235](
-OpenSSL/SSLeay
-)
+[OpenSSL/SSLeay](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/OpenSSL.md)
  |
 
 ##
@@ -772,9 +674,7 @@ OpenVR
 Code/SDKs/OpenVR
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884237](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/OpenVR.md)
  |
 
 ##
@@ -787,9 +687,7 @@ OSVR
 Code/SDKs/OSVR
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884244](
-Apache 2.0
-)
+[Apache 2.0](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/OSVR.md)
  |
 
 ##
@@ -802,9 +700,7 @@ p4api
 Code/SDKs/p4api/2015.1
 *
  |
-[https://www.perforce.com/](
-Proprietary
-)
+[Proprietary](https://www.perforce.com/)
  |
 
 ##
@@ -817,9 +713,7 @@ p4api
 Code/SDKs/p4api/2016.2.1612602
 *
  |
-[https://www.perforce.com/](
-Proprietary
-)
+[Proprietary](https://www.perforce.com/)
  |
 
 ##
@@ -832,9 +726,7 @@ pdcurses
 Code/SDKs/pdcurses
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884249](
-Public Domain
-)
+[Public Domain](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/pdcurses.md)
  |
 
 ##
@@ -847,9 +739,7 @@ png16
 Code/SDKs/png16
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884251](
-LibPNG
-)
+[LibPNG](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/png16.md)
  |
 
 ##
@@ -862,9 +752,7 @@ v19_20140130
 Code/SDKs/Audio/portaudio
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884253](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/portaudio.md)
  |
 
 ##
@@ -877,9 +765,7 @@ protobuf
 Code/SDKs/protobuf-3.1.0
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884255](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/protobuf.md)
  |
 
 ##
@@ -892,9 +778,7 @@ PVRTexLib
 Code/SDKs/POWERVR/PVRTexLib
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884258](
-Proprietary
-)
+[Proprietary](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/PVRTexLib.md)
  |
 
 ##
@@ -907,9 +791,7 @@ Python
 Code/SDKs/Python
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884260](
-PSF
-)
+[PSF](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Python.md)
  |
 
 ##
@@ -922,9 +804,7 @@ qpOASES
 Code/SDKs/qpOASES
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884262](
-LGPL v2.1
-)
+[LGPL v2.1](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/qpOASES.md)
  |
 
 ##
@@ -937,9 +817,7 @@ Qt + PySide2
 Code/SDKs/Qt/5.12.3_python_37
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884264](
-LGPL v3
-)
+[LGPL v3](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Qt%20%2B%20PySide2.md)
  |
 
 ##
@@ -952,9 +830,7 @@ Scaleform3
 Code/SDKs/Scaleform
 *
  |
-[https://www.autodesk.com/products/scaleform/features/all](
-Proprietary
-)
+[Proprietary](https://www.autodesk.com/products/scaleform/features/all)
  |
 
 ##
@@ -967,9 +843,7 @@ Scaleform4
 Code/SDKs/Scaleform4
 *
  |
-[https://www.autodesk.com/products/scaleform/features/all](
-Proprietary
-)
+[Proprietary](https://www.autodesk.com/products/scaleform/features/all)
  |
 
 ##
@@ -982,9 +856,7 @@ SDL Mixer
 Code/SDKs/SDL_mixer
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884270](
-zlib-Style
-)
+[zlib-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/SDL%20Mixer.md)
  |
 
 ##
@@ -997,9 +869,7 @@ SDL2
 Code/SDKs/SDL2
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884268](
-zlib-Style
-)
+[zlib-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/SDL2.md)
  |
 
 ##
@@ -1012,9 +882,7 @@ speex
 Code/SDKs/speex-1.0.5
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884272](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/speex.md)
  |
 
 ##
@@ -1027,9 +895,7 @@ spirv-cross
 Code/SDKs/spirv-cross
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884274](
-Apache 2.0
-)
+[Apache 2.0](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/spirv-cross.md)
  |
 
 ##
@@ -1042,9 +908,7 @@ squash-ccr
 Code/SDKs/squash-ccr
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884276](
-MPL 2.0
-)
+[MPL 2.0](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/squash-ccr.md)
  |
 
 ##
@@ -1057,9 +921,7 @@ squish-ccr
 Code/SDKs/squish-ccr
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884284](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/squish-ccr.md)
  |
 
 ##
@@ -1072,9 +934,7 @@ Steamworks
 Code/SDKs/Steamworks
 *
  |
-[https://partner.steamgames.com/](
-Proprietary
-)
+[Proprietary](https://partner.steamgames.com/)
  |
 
 ##
@@ -1087,9 +947,7 @@ Substance Engine
 Code/SDKs/SubstanceEngines
 *
  |
-[https://www.substance3d.com/](
-Commercial
-)
+[Commercial](https://www.substance3d.com/)
  |
 
 ##
@@ -1102,9 +960,7 @@ swagger-codegen
 Code/SDKs/swagger-codegen
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884286](
-Apache 2.0
-)
+[Apache 2.0](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/swagger-codegen.md)
  |
 
 ##
@@ -1117,9 +973,7 @@ SWIG
 Code/SDKs/swig
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884289](
-GPLv3
-)
+[GPLv3](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/SWIG.md)
  |
 
 ##
@@ -1132,9 +986,7 @@ TangentBasisComputation
 Code/SDKs/TangentBasisComputation
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884291](
-zlib-Style
-)
+[zlib-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/TangentBasisComputation.md)
  |
 
 ##
@@ -1147,9 +999,7 @@ tiff
 Code/SDKs/tiff-4.0.4
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884293](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/tiff.md)
  |
 
 ##
@@ -1162,9 +1012,7 @@ Tobii
 Code/SDKs/Tobii/SDK
 *
  |
-[https://developer.tobii.com/](
-Proprietary
-)
+[Proprietary](https://developer.tobii.com/)
  |
 
 ##
@@ -1177,9 +1025,7 @@ Vulkan
 Code/SDKs/VulkanSDK
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884295](
-Apache 2.0
-)
+[Apache 2.0](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Vulkan.md)
  |
 
 ##
@@ -1193,9 +1039,7 @@ Code/SDKs/Microsoft
 *
  Windows SDK/10
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884302](
-MS License
-)
+[MS License](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/Windows%20SDK.md)
  |
 
 ##
@@ -1208,9 +1052,7 @@ winpixeventruntime
 Code/SDKs/winpixeventruntime
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884312](
-MSL/PIX
-)
+[MSL/PIX](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/winpixeventruntime.md)
  |
 
 ##
@@ -1223,9 +1065,7 @@ Wwise
 Code/SDKs/Audio/wwise
 *
  |
-[https://www.audiokinetic.com/](
-Proprietary
-)
+[Proprietary](https://www.audiokinetic.com/)
  |
 
 ##
@@ -1238,9 +1078,7 @@ xNormal
 Code/SDKs/xNormal/sdk_3_17_16
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884320](
-Custom zlib
-)
+[Custom zlib](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/xNormal.md)
  |
 
 ##
@@ -1253,9 +1091,7 @@ xNormal
 Code/SDKs/xNormal/sdk_3_18_2
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884320](
-Custom zlib
-)
+[Custom zlib](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/xNormal.md)
  |
 
 ##
@@ -1268,9 +1104,7 @@ Xtreme Toolkit Pro
 Code/SDKs/XT_13_4
 *
  |
-[https://codejock.com/products/toolkitpro/](
-Proprietary
-)
+[Proprietary](https://codejock.com/products/toolkitpro/)
  |
 
 ##
@@ -1283,9 +1117,7 @@ zlib
 Code/SDKs/zlib-1.2.11
 *
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884322](
-zlib
-)
+[zlib](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/zlib.md)
  |
 
 ##
@@ -1300,114 +1132,84 @@ License
 flac
 
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884142](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/flac.md)
  |
 
 ##
 functor
 
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884147](
-Custom
-)
+[Custom](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/functor.md)
  |
 
 ##
 libmodplug
 
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884172](
-Public Domain
-)
+[Public Domain](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/libmodplug.md)
  |
 
 ##
 libogg
 
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884174](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/libogg.md)
  |
 
 ##
 libvorbis
 
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884184](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/libvorbis.md)
  |
 
 ##
 libvorbisidec
 
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884187](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/libvorbisidec.md)
  |
 
 ##
 mpg123
 
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884855](
-LGPL v2.1
-)
+[LGPL v2.1](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/mpg123.md)
  |
 
 ##
 mtrand
 
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884210](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/mtrand.md)
  |
 
 ##
 opus
 
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884239](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/opus.md)
  |
 
 ##
 opusfile
 
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884241](
-BSD-Style
-)
+[BSD-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/opusfile.md)
  |
 
 ##
 XSVG
 
  |
-[/docs/static/engines/cryengine-5/categories/47316993/pages/89456643](
-MIT-Style
-)
+[MIT-Style](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices/XSVG.md)
  |
 
 ##
 Related Information
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884110](
-Copyright Notices
-)
-[#sdks](
-SDKs
-)
-[#additional-attribution](
-Additional Attribution
-)
-[#related-information](
-Related Information
-)
+[Copyright Notices](Third%20Party%20SDKs%20in%205.7/Copyright%20Notices.md)
+[SDKs](#sdks)
+[Additional Attribution](#additional-attribution)
+[Related Information](#related-information)

@@ -7,53 +7,37 @@
 
 ## Child Pages
 
-- [Tutorial - How to write to XML files using Flow Graph](Legacy UI tutorials/Tutorial - How to write to XML files using Flow Graph.md)
-- [Tutorial - How to create coins and powerups using FlowGraph](Legacy UI tutorials/Tutorial - How to create coins and powerups using FlowGraph.md)
-- [Tutorial - How to remove the GameSDK HUD and inventory](Legacy UI tutorials/Tutorial - How to remove the GameSDK HUD and inventory.md)
-- [Tutorial - How to create a kill counter in Flow Graph using XML](Legacy UI tutorials/Tutorial - How to create a kill counter in Flow Graph using XML.md)
-- [Tutorial - How to create a countdown timer using Flow Graph](Legacy UI tutorials/Tutorial - How to create a countdown timer using Flow Graph.md)
-- [Tutorial - How to create a game session timer using Flow Graph](Legacy UI tutorials/Tutorial - How to create a game session timer using Flow Graph.md)
-- [Tutorial - How to create a real time clock using Flow Graph](Legacy UI tutorials/Tutorial - How to create a real time clock using Flow Graph.md)
-- [Tutorial - How to display the current time using Flow Graph](Legacy UI tutorials/Tutorial - How to display the current time using Flow Graph.md)
+- [Tutorial - How to write to XML files using Flow Graph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20write%20to%20XML%20files%20using%20Flow%20Graph.md)
+- [Tutorial - How to create coins and powerups using FlowGraph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20create%20coins%20and%20powerups%20using%20FlowGraph.md)
+- [Tutorial - How to remove the GameSDK HUD and inventory](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20remove%20the%20GameSDK%20HUD%20and%20inventory.md)
+- [Tutorial - How to create a kill counter in Flow Graph using XML](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20create%20a%20kill%20counter%20in%20Flow%20Graph%20using%20XML.md)
+- [Tutorial - How to create a countdown timer using Flow Graph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20create%20a%20countdown%20timer%20using%20Flow%20Graph.md)
+- [Tutorial - How to create a game session timer using Flow Graph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20create%20a%20game%20session%20timer%20using%20Flow%20Graph.md)
+- [Tutorial - How to create a real time clock using Flow Graph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20create%20a%20real%20time%20clock%20using%20Flow%20Graph.md)
+- [Tutorial - How to display the current time using Flow Graph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20display%20the%20current%20time%20using%20Flow%20Graph.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658124](
-Tutorial - How to write to XML files using Flow Graph
-)
+[Tutorial - How to write to XML files using Flow Graph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20write%20to%20XML%20files%20using%20Flow%20Graph.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658109](
-Tutorial - How to create coins and powerups using FlowGraph
-)
+[Tutorial - How to create coins and powerups using FlowGraph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20create%20coins%20and%20powerups%20using%20FlowGraph.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658111](
-Tutorial - How to remove the GameSDK HUD and inventory
-)
+[Tutorial - How to remove the GameSDK HUD and inventory](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20remove%20the%20GameSDK%20HUD%20and%20inventory.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658122](
-Tutorial - How to create a kill counter in Flow Graph using XML
-)
+[Tutorial - How to create a kill counter in Flow Graph using XML](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20create%20a%20kill%20counter%20in%20Flow%20Graph%20using%20XML.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658130](
-Tutorial - How to create a countdown timer using Flow Graph
-)
+[Tutorial - How to create a countdown timer using Flow Graph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20create%20a%20countdown%20timer%20using%20Flow%20Graph.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658132](
-Tutorial - How to create a game session timer using Flow Graph
-)
+[Tutorial - How to create a game session timer using Flow Graph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20create%20a%20game%20session%20timer%20using%20Flow%20Graph.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658134](
-Tutorial - How to create a real time clock using Flow Graph
-)
+[Tutorial - How to create a real time clock using Flow Graph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20create%20a%20real%20time%20clock%20using%20Flow%20Graph.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658137](
-Tutorial - How to display the current time using Flow Graph
-)
+[Tutorial - How to display the current time using Flow Graph](Legacy%20UI%20tutorials/Tutorial%20-%20How%20to%20display%20the%20current%20time%20using%20Flow%20Graph.md)

@@ -32,14 +32,10 @@ Game/Scripts/main.lua
 Functions
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306628#PhysicsLua-RegisterExplosionShape](
-#RegisterExplosionShape
-)
+[#RegisterExplosionShape](Physics%20Lua.md#PhysicsLua-RegisterExplosionShape)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306628#PhysicsLua-RegisterExplosionCrack](
-#RegisterExplosionCrack
-)
+[#RegisterExplosionCrack](Physics%20Lua.md#PhysicsLua-RegisterExplosionCrack)
 
 ##
 Physics.RegisterExplosionShape( sGeometryFile, fSize, BreakId, fProbability, sSplintersfile, fSplintersOffset, sSplintersCloudEffect )

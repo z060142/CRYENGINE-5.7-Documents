@@ -10,7 +10,7 @@
 -
 Create a Box as an AreaSolid object.
 
-[Image: /docs/static/attachments/44966496]
+![Image](https://www.cryengine.com/docs/static/attachments/44966496)
 
 -
 Now place an "AudioAreaAmbience" entity from the "Audio" group under the Create Object tab, and place the ambience sound entity near the AreaSolid Object.
@@ -18,7 +18,7 @@ Now place an "AudioAreaAmbience" entity from the "Audio" group under the Create 
 -
 Select the ambience sound entity. Then, AudioAreaAmbience Properties can be displayed on the right panel as shown in the image below. Now fill the PlayTrigger and RtpcDistance properties.
 
-[Image: /docs/static/attachments/44968805]
+![Image](https://www.cryengine.com/docs/static/attachments/44968805)
 
 -
 Select the AreaSolid entity in the level, and then under the
@@ -52,14 +52,8 @@ Every time the AreaSolid object is modified with the Designer Object, polygons c
 ##
 Useful pages about Sound system
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867762](
-Audio CVars & Console Commands (5.6)
-)
+[Audio CVars & Console Commands (5.6)](../../../../../Audio/Audio%20Overview/Audio%20CVars%20%26%20Console%20Commands.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964864](
-Audio Overview
-)
+[Audio Overview](../../../../../Audio/Audio%20Overview.md)
 
-[#useful-pages-about-sound-system](
-Useful pages about Sound system
-)
+[Useful pages about Sound system](#useful-pages-about-sound-system)

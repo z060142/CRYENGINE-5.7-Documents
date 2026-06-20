@@ -57,7 +57,7 @@ New Loop Region
 Timeline
 .
 
-[Image: /docs/static/attachments/44968253]
+![Image](https://www.cryengine.com/docs/static/attachments/44968253)
 
 Now, select
 Add Parameter
@@ -67,7 +67,7 @@ area_fade_distance
 *
  with a range from 0 to 1 (Initial value should be 1).
 
-[Image: /docs/static/attachments/44968254]
+![Image](https://www.cryengine.com/docs/static/attachments/44968254)
 
 You can enter a desired name for the parameter, and you can set the connected audio system Control with Real-Time-Parameter-Controls (RTPC) to be used on each entity.
 
@@ -82,9 +82,7 @@ This parameter will be used later on in CRYENGINE to attenuate or increase the s
 area_fade_distance
 *
  parameter to a global audio system RTPC within the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
 .
 
 When you set the parameter
@@ -107,21 +105,15 @@ You can turn-off the Distance Attenuation in the Deck area. Additionally the 3D 
 
 After this your setup should look like the one displayed in the screenshot below:
 
-[Image: /docs/static/attachments/44968255]
+![Image](https://www.cryengine.com/docs/static/attachments/44968255)
 
 It is recommended to do the automation on the Master Track and attenuate it up to 0 db. Then adjust the volume within the audio track of the sound.
 
 Now assign the sound to a bank, regenerate your Soundbanks, and then connect the FMOD Studio Event and the RTPC in the Audio Controls Editor as explained
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-here
-)
+[here](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
 .
 
 For more information on how to setup your created FMOD Studio Event inside CRYENGINE, please refer the following tutorial:
-[/docs/static/engines/cryengine-5/categories/23756816](
-
-)
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964884](
-Audio & Ambience
-)
+[/docs/static/engines/cryengine-5/categories/23756816](/docs/static/engines/cryengine-5/categories/23756816)
+[Audio & Ambience](../../Audio%20Overview/Audio%20%26%20Ambience.md)
 .

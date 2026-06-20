@@ -15,75 +15,47 @@ The engine includes an XML parsing and saving library by default in order to eas
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#loading](
-Loading
-)
-[#saving](
-Saving
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[Loading](#loading)
+[Saving](#saving)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797037](
-IXmlNode
-)
+[IXmlNode](/docs/static/engines/cryengine-5/categories/28704770/pages/29797037)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797434](
-IXmlUtils
-)
+[IXmlUtils](/docs/static/engines/cryengine-5/categories/28704770/pages/29797434)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797038](
-XmlNodeRef
-)
+[XmlNodeRef](/docs/static/engines/cryengine-5/categories/28704770/pages/29797038)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797039](
-XmlString
-)
+[XmlString](/docs/static/engines/cryengine-5/categories/28704770/pages/29797039)
 
 ##
 Loading
 
 To load an XML from buffer, see
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797143](
-ISystem::LoadXmlFromBuffer
-)
+[ISystem::LoadXmlFromBuffer](/docs/static/engines/cryengine-5/categories/28704770/pages/29797143)
  - this allows for parsing from a string into an
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797038](
-XmlNodeRef
-)
+[XmlNodeRef](/docs/static/engines/cryengine-5/categories/28704770/pages/29797038)
 object that can be programatically parsed.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797143](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797143)
 
 ##
 Saving
 
 Saving an XML node can be done using
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797037](
-IXmlNode::saveToFile
-)
+[IXmlNode::saveToFile](/docs/static/engines/cryengine-5/categories/28704770/pages/29797037)
 . We can either use an existing XML node loaded from a buffer or file (see above) - or create a new XML node from scratch using the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797143](
-ISystem::CreateXmlNode
-)
+[ISystem::CreateXmlNode](/docs/static/engines/cryengine-5/categories/28704770/pages/29797143)
  function.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797143](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797143)
 
 ##
 Conclusion

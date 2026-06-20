@@ -7,23 +7,17 @@
 
 ## Child Pages
 
-- [Qt Programming in Sandbox](Qt Programming/Qt Programming in Sandbox.md)
-- [UI Programming Patterns](Qt Programming/UI Programming Patterns.md)
-- [ItemModels and ItemViews](Qt Programming/ItemModels and ItemViews.md)
+- [Qt Programming in Sandbox](Qt%20Programming/Qt%20Programming%20in%20Sandbox.md)
+- [UI Programming Patterns](Qt%20Programming/UI%20Programming%20Patterns.md)
+- [ItemModels and ItemViews](Qt%20Programming/ItemModels%20and%20ItemViews.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873088](
-Qt Programming in Sandbox
-)
+[Qt Programming in Sandbox](Qt%20Programming/Qt%20Programming%20in%20Sandbox.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873090](
-UI Programming Patterns
-)
+[UI Programming Patterns](Qt%20Programming/UI%20Programming%20Patterns.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873086](
-ItemModels and ItemViews
-)
+[ItemModels and ItemViews](Qt%20Programming/ItemModels%20and%20ItemViews.md)

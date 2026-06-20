@@ -49,10 +49,10 @@ Customize
 **
 . Also don't forget to adjust the System Unit scale through the button at the top in the Units Setup window:
 
-[Image: /docs/static/attachments/23996554]
+![Image](https://www.cryengine.com/docs/static/attachments/23996554)
 
 **
-[Image: /docs/static/attachments/25506757]
+![Image](https://www.cryengine.com/docs/static/attachments/25506757)
 **
 
 What's important here is that you are using the
@@ -70,7 +70,7 @@ Home Grid
 **
  tab to adjust your grid size. The size and spacing of the grid that you're setting up is only relevant to the size of the object your making. Adjust accordingly to have a comfortable grid that's appropriate to the size of the model your creating. Creating a coin model vs a 2 story house model requires a vastly different grid setup!
 
-[Image: /docs/static/attachments/23996548]
+![Image](https://www.cryengine.com/docs/static/attachments/23996548)
 
 In this example, a grid spacing of 0.5m, with a major line every 5 units and a grid extension (view distance) of 10.
 
@@ -83,7 +83,7 @@ To confirm the size of the object you created, in the utilities section, you can
 Using the measurement tool in 3dsMax (4 x 0.25m grid spacing = 1m)
 *
 
-[Image: /docs/static/attachments/25506765]
+![Image](https://www.cryengine.com/docs/static/attachments/25506765)
 
 ##
 Maya Unit Setup
@@ -119,7 +119,7 @@ Window -> Settings/Preferences -> Preferences
 **
 :
 
-[Image: /docs/static/attachments/23996549]
+![Image](https://www.cryengine.com/docs/static/attachments/23996549)
 
 Then click on
 **
@@ -135,7 +135,7 @@ or the exporter will post a warning on export.
 
 Meter increments can be used but must be shifted back if you wish to have a warning and error free export process.
 
-[Image: /docs/static/attachments/23996550]
+![Image](https://www.cryengine.com/docs/static/attachments/23996550)
 
 ##
 Centimeters or Meters
@@ -188,15 +188,7 @@ Jump over Objects (running jumps) = 50 - 100cm high.
 
 -
 Jump over Objects (sideways, with using hand) = 120 - 150cm high.
-[#3ds-max-unit-setup](
-3ds Max Unit Setup
-)
-[#maya-unit-setup](
-Maya Unit Setup
-)
-[#centimeters-or-meters](
-Centimeters or Meters
-)
-[#size-references](
-Size References
-)
+[3ds Max Unit Setup](#3ds-max-unit-setup)
+[Maya Unit Setup](#maya-unit-setup)
+[Centimeters or Meters](#centimeters-or-meters)
+[Size References](#size-references)

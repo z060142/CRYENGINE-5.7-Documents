@@ -13,40 +13,26 @@ Overview
 In CRYENGINE, each player is represented by an entity instance - created by game code when clients connect to the server.
 
 Custom code can listen for client connection events by implementing
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797329](
-INetworkedClientListener
-)
+[INetworkedClientListener](/docs/static/engines/cryengine-5/categories/28704770/pages/29797329)
 .
  This allows the creation of entities from the game side whenever a client connects, starting gameplay after the player finishes connecting, and finally exposes a disconnection event to allow removal of any entities spawned for a particular client.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797329](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797329)
 
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#local-player](
-Local Player
-)
-[#channel-identifiers](
-Channel Identifiers
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[Local Player](#local-player)
+[Channel Identifiers](#channel-identifiers)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797329](
-INetworkedClientListener
-)
+[INetworkedClientListener](/docs/static/engines/cryengine-5/categories/28704770/pages/29797329)
 
 ##
 Local Player
@@ -61,9 +47,7 @@ ENTITY_FLAG_LOCAL_PLAYER
 Channel Identifiers
 
 The client connection events are primarily only sent to the server, and identify each player by channel identifiers. For more information, see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216232#Networking-Channels](
-Networking
-)
+[Networking](Networking.md#Networking-Channels)
 .
 
 ##
@@ -72,26 +56,16 @@ Conclusion
 This concludes the article on Players and Client Connections, you may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216232](
-Networking
-)
+[Networking](Networking.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216224](
-Physics and Movement
-)
+[Physics and Movement](Physics%20and%20Movement.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29428286](
-Input and Action Mapping
-)
+[Input and Action Mapping](Input%20and%20Action%20Mapping.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/28184910](
-Execution Order and Lifecycle
-)
+[Execution Order and Lifecycle](Execution%20Order%20and%20Lifecycle.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216226](
-Characters and Animations
-)
+[Characters and Animations](Characters%20and%20Animations.md)

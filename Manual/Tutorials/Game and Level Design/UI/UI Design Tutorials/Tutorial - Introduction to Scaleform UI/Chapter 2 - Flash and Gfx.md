@@ -35,7 +35,7 @@ Start by first saving your Flash file in the UI folder of your project, for exam
 *
 .
 
-[Image: /docs/static/attachments/89456846]
+![Image](https://www.cryengine.com/docs/static/attachments/89456846)
 
 *
 libs/UI
@@ -45,7 +45,7 @@ libs/UI
 -
 Be sure that you have an SWF file from your FLA source by using the Publish procedure in the Adobe Flash Editor.
 
-[Image: /docs/static/attachments/90833523]
+![Image](https://www.cryengine.com/docs/static/attachments/90833523)
 
 *
 Publishing an SWF file from your FLA source
@@ -67,7 +67,7 @@ Target Path
 **
  (after the last quotation mark).
 
-[Image: /docs/static/attachments/89456848]
+![Image](https://www.cryengine.com/docs/static/attachments/89456848)
 
 *
 Add -i DDS to end of the shortcut target path
@@ -77,7 +77,7 @@ Add -i DDS to end of the shortcut target path
 -
 You then need to drag and drop your SWF file over the new shortcut to generate the GFx file and any necessary images.
 
-[Image: /docs/static/attachments/89456849]
+![Image](https://www.cryengine.com/docs/static/attachments/89456849)
 
 *
 Drag and drop your SWF file over the new shortcut
@@ -99,7 +99,7 @@ Start by saving your Flash file in the UI folder of your project, for example,
 *
 <root>/Assets/Libs/UI.
 
-[Image: /docs/static/attachments/89456846]
+![Image](https://www.cryengine.com/docs/static/attachments/89456846)
 
 libs/UI
 
@@ -108,7 +108,7 @@ libs/UI
 -
 Be sure that you have an SWF file from your FLA source by using the Publish procedure in the Adobe Animate editor.
 
-[Image: /docs/static/attachments/90833135]
+![Image](https://www.cryengine.com/docs/static/attachments/90833135)
 
 *
 Publish in Adobe Animate
@@ -126,7 +126,7 @@ GFxExport1.exe
 `
  to the end of the new shortcut's Target Path (after the last quotation mark).
 
-[Image: /docs/static/attachments/90833136]
+![Image](https://www.cryengine.com/docs/static/attachments/90833136)
 
 *
 Target Path
@@ -136,7 +136,7 @@ Target Path
 -
 You then need to drag and drop your SWF file over the new shortcut to generate the GFx file and any images necessary.
 
-[Image: /docs/static/attachments/90833137]
+![Image](https://www.cryengine.com/docs/static/attachments/90833137)
 
 *
 Drag-drop your SWF file over the new shortcut
@@ -148,15 +148,7 @@ The GFx Export tool for Scaleform 4 can be found at
 <root>\Tools\GFxExport\Scaleform4\GFxExport1.exe.
 *
 
-[#gfx-compiling](
-GFx Compiling
-)
-[#steps-for-saving-and-compiling-the-gfx](
-Steps for Saving and Compiling the GFx
-)
-[#scaleform-3](
-Scaleform 3
-)
-[#scaleform-4](
-Scaleform 4
-)
+[GFx Compiling](#gfx-compiling)
+[Steps for Saving and Compiling the GFx](#steps-for-saving-and-compiling-the-gfx)
+[Scaleform 3](#scaleform-3)
+[Scaleform 4](#scaleform-4)

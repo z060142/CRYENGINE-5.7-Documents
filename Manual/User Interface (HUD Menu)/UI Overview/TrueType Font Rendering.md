@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934089]
+![Image](https://www.cryengine.com/docs/static/attachments/29934089)
 
 ##
 Overview

@@ -14,9 +14,7 @@ Overview
 UQS CryPlugin
 
 The Universal Query System (UQS) is implemented as a CryPlugin. Please refer to the official Plugin System documentation for any further information (this is not part of the UQS documentation):
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591236](
-Plugin System
-)
+[Plugin System](../../Beta%20Features/Plugin%20System.md)
 
 ##
 Startup and Update
@@ -168,9 +166,5 @@ void CMyGame::Update()
 
 ```
 
-[#uqs-cryplugin](
-UQS CryPlugin
-)
-[#startup-and-update](
-Startup and Update
-)
+[UQS CryPlugin](#uqs-cryplugin)
+[Startup and Update](#startup-and-update)

@@ -21,11 +21,11 @@ File -> New FG Module -> Global/Level
 **
 .
 
-[Image: /docs/static/attachments/44971095]
+![Image](https://www.cryengine.com/docs/static/attachments/44971095)
 
 You can also create a new Module by right-clicking on the FG Modules entry.
 
-[Image: /docs/static/attachments/44971094]
+![Image](https://www.cryengine.com/docs/static/attachments/44971094)
 
 Existing logic can be converted to a module by selecting and copying the desired nodes, and then right-click to select
 **
@@ -68,7 +68,7 @@ Tools -> Edit Module
 **
  when the module's graph is open in the main view:
 
-[Image: /docs/static/attachments/44971092]
+![Image](https://www.cryengine.com/docs/static/attachments/44971092)
 
 The Module Ports dialog can also be accessed by right-clicking on the module in the graphs list or by right-clicking its related nodes.
 
@@ -83,7 +83,7 @@ Module:Call_<Module Name>
 *
 .
 
-[Image: /docs/static/attachments/44971097]
+![Image](https://www.cryengine.com/docs/static/attachments/44971097)
 
 Modules can be called independently by distinct Call Nodes and from different graphs. Every call to the module will generate a separate
 Instance
@@ -125,7 +125,7 @@ GameEntity:Containers:Actions
 *
 :
 
-[Image: /docs/static/attachments/35395036]
+![Image](https://www.cryengine.com/docs/static/attachments/35395036)
 
 This node runs a module on all entities of an entity container where all instances will automatically have the correct Entity ID.
 
@@ -210,14 +210,14 @@ Module:Utils:UserIDToModuleID
 ##
 Module:Utils:InstanceCountListener
 
-[Image: /docs/static/attachments/44971099]
+![Image](https://www.cryengine.com/docs/static/attachments/44971099)
 
 Based on the name (or partial name) of a module, displays the module's Instances that are running.
 
 ##
 Module:Utils:UserIDToModuleID
 
-[Image: /docs/static/attachments/44971100]
+![Image](https://www.cryengine.com/docs/static/attachments/44971100)
 
 This node is used to make a registry of Instance IDs of a module. Instance IDs for a Module can be stored (
 `
@@ -246,7 +246,7 @@ fg_debugmodules
 **
 .
 
-[Image: /docs/static/attachments/44971101]
+![Image](https://www.cryengine.com/docs/static/attachments/44971101)
 
 -
 fg_debugmodules
@@ -301,24 +301,10 @@ If there is an entity ID specified, the IID will refer within that entity, meani
 
 -
 An IID -1 with a specified entity ID will not generate new IID ('-1' is the instance ID).
-[#making-a-new-module](
-Making a New Module
-)
-[#module-types](
-Module Types
-)
-[#adding-custom-inputoutput-ports](
-Adding Custom Input/Output Ports
-)
-[#using-modules](
-Using Modules
-)
-[#module-utility-nodes](
-Module Utility Nodes
-)
-[#debugging-modules](
-Debugging Modules
-)
-[#advanced](
-Advanced
-)
+[Making a New Module](#making-a-new-module)
+[Module Types](#module-types)
+[Adding Custom Input/Output Ports](#adding-custom-inputoutput-ports)
+[Using Modules](#using-modules)
+[Module Utility Nodes](#module-utility-nodes)
+[Debugging Modules](#debugging-modules)
+[Advanced](#advanced)

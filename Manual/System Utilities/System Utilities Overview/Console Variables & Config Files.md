@@ -38,7 +38,7 @@ From the game launcher or from within the game mode in Sandbox, the console can 
 **
  on German keyboards). In Sandbox, a separate console window is available when the user is not in game mode, usually located at the bottom of the screen.
 
-[Image: /docs/static/attachments/35401682]
+![Image](https://www.cryengine.com/docs/static/attachments/35401682)
 
 *
 In-game console
@@ -215,9 +215,7 @@ index.html
 The console window in Sandbox has an input box where the commands can be entered. Double-clicking on it will bring up a dialog which lists all registered console variables. It is even possible to directly change the values there.
 
 Finally, for convenience, a pre-generated
-[/docs/static/engines/cryengine-3/categories/9895942/pages/9215968](
-list of console variables and commands
-)
+[list of console variables and commands](/docs/static/engines/cryengine-3/categories/9895942/pages/9215968)
  is available in the documentation.
 
 ##
@@ -467,7 +465,7 @@ Launcher
 **
  is already opened:
 
-[Image: /docs/static/attachments/35401683]
+![Image](https://www.cryengine.com/docs/static/attachments/35401683)
 
 However in some situations, like multiplayer debugging, it might be necessary to open more than one instance of the
 **
@@ -493,18 +491,8 @@ ignoreTooManyAppsMessage=1
 
 ```
 
-[#console-variables-and-commands](
-Console Variables and Commands
-)
-[#basic-console-usage](
-Basic Console Usage
-)
-[#available-console-variables](
-Available Console Variables
-)
-[#configuration-files](
-Configuration Files
-)
-[#console-variable-groups](
-Console Variable Groups
-)
+[Console Variables and Commands](#console-variables-and-commands)
+[Basic Console Usage](#basic-console-usage)
+[Available Console Variables](#available-console-variables)
+[Configuration Files](#configuration-files)
+[Console Variable Groups](#console-variable-groups)

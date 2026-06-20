@@ -12,7 +12,7 @@ Overview
 
 In the following documentation you'll find how to set up a mesh with a the correct shader in 3ds Max and how to export this asset. Once you're working in the engine, this document will explain how to assign the materials, textures and what to look out for. This document will also include a link for how to use the Physically Based Shaders correctly. Please read this carefully since the whole game and look will be based upon this concept.
 
-[Image: /docs/static/attachments/25499852]
+![Image](https://www.cryengine.com/docs/static/attachments/25499852)
 
 ##
 Tutorial Files
@@ -20,9 +20,7 @@ Tutorial Files
 Source 3ds Max scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25501533](
-material_sphere_max.zip
-)
+[material_sphere_max.zip](/docs/static/attachments/25501533)
 **
 
 ##
@@ -106,7 +104,7 @@ proxy
 *
 Simple layer structure in 3ds Max scene
 
-[Image: /docs/static/attachments/25499853]
+![Image](https://www.cryengine.com/docs/static/attachments/25499853)
 *
 
 Additionally we should have more layers for each LOD step (if available) to keep the scene clean
@@ -141,11 +139,11 @@ Physics Proxy
 Overview of the nodes that make up a CRYENGINE asset
 *
 
-[Image: /docs/static/attachments/25499854]
+![Image](https://www.cryengine.com/docs/static/attachments/25499854)
 
 In the final scene all meshes should have the same pivot point all all sitting at (0,0,0) overlayed on top of each other:
 
-[Image: /docs/static/attachments/25499865]
+![Image](https://www.cryengine.com/docs/static/attachments/25499865)
 
 It's possible to export an asset without this advanced setup, but this is not recommended. We will go over this in the Export to CRYENGINE section in this tutorial later on.
 
@@ -191,14 +189,14 @@ F10
  to enable the physics debug mode.
 Below you can see the Simplified Physics geometry (red) compared to the main visible mesh (note the underlying higher poly visible mesh blue/grey)
 
-[Image: /docs/static/attachments/25499865]
+![Image](https://www.cryengine.com/docs/static/attachments/25499865)
 
 ##
 Linking nodes in 3ds Max
 
 The next step is to link the nodes to the Root Mesh in this case the Material sphere mesh. Go to the schematic view in 3ds Max and select both LODs. Go to the link tool icon and link these two LODs to the main mesh (the material sphere mesh).
 
-[Image: /docs/static/attachments/25499866]
+![Image](https://www.cryengine.com/docs/static/attachments/25499866)
 
 The last thing we have to do is to link the physics proxy to the main mesh. Still in the schematic view, select the
 **
@@ -206,7 +204,7 @@ collision_mesh
 **
  node and link this to the root material sphere mesh as well.
 
-[Image: /docs/static/attachments/25499868]
+![Image](https://www.cryengine.com/docs/static/attachments/25499868)
 
 To link correctly, drag from the child nodes to the parent to set the hierarchy correctly.
 Now we are ready to set up our materials.
@@ -229,7 +227,7 @@ It's advisable to create all materials as Multi/Sub-Object materials, as this ma
 Material SubID setup
 *
 
-[Image: /docs/static/attachments/25499870]
+![Image](https://www.cryengine.com/docs/static/attachments/25499870)
 
 ##
 Configure the Multi/Sub-Object Material
@@ -242,7 +240,7 @@ Select a fresh material, click the Standard slot, and then change the material t
 Converting the material into a Multi/Sub-Object Material
 *
 
-[Image: /docs/static/attachments/25505554]
+![Image](https://www.cryengine.com/docs/static/attachments/25505554)
 
 The more sub-materials the object uses, the more drawcalls it will use, reducing performance. Therefore, it's best to find ways to keep the sub-material count as low as possible.
 Make sure that all materials'
@@ -274,7 +272,7 @@ Crytek Shader
 **
 . You should only use the Crytek Shader for the objects. The other shader types will not work correctly when exported.
 
-[Image: /docs/static/attachments/25499873]
+![Image](https://www.cryengine.com/docs/static/attachments/25499873)
 
 You'll notice a new drop-down list next to
 **
@@ -292,7 +290,7 @@ Physical Proxy (NoDraw)
 
 *
 
-[Image: /docs/static/attachments/25505556]
+![Image](https://www.cryengine.com/docs/static/attachments/25505556)
 *
 
 -
@@ -326,7 +324,7 @@ If this box is not checked, the object will not be physicalized and it will not 
 Physicalizing the proxy material SubID
 *
 
-[Image: /docs/static/attachments/25499876]
+![Image](https://www.cryengine.com/docs/static/attachments/25499876)
 
 A workflow tip is to color the proxy geometry red with an opacity of 50%. This helps identify the proxy geometry apart from the visible geometry. It's not required but helpful when working within a scene.
 
@@ -346,9 +344,7 @@ Make sure that each of these proxies have their pivot point matching that of the
 
 For more information on the physics setup for assets and engine debugging tools please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26870666](
-here
-)
+[here](../../../Physics.md)
 .
 **
 
@@ -371,7 +367,7 @@ Physicalize
 **
  here, as this option is for the collision proxy only.
 
-[Image: /docs/static/attachments/25499877]
+![Image](https://www.cryengine.com/docs/static/attachments/25499877)
 
 ##
 Exporting to Engine - Model
@@ -395,9 +391,7 @@ If you don´t have the
 CRYENGINE
 Exporter in your Utilities list, please read
 **
-[/docs/static/engines/cryengine-5/categories/23756816](
-here
-)
+[here](/docs/static/engines/cryengine-5/categories/23756816)
 **
  how to install the required CRYENGINE tools and exporters.
 
@@ -411,7 +405,7 @@ CRYENGINE Exporter
 **
  and it will add the asset to the export list.
 
-[Image: /docs/static/attachments/25499939]
+![Image](https://www.cryengine.com/docs/static/attachments/25499939)
 
 Please make sure that the checkbox
 **
@@ -455,7 +449,7 @@ If there isn't an instance of CRYENGINE Sandbox running, it will automatically l
 Exporting the selected material from 3ds Max
 *
 
-[Image: /docs/static/attachments/25499940]
+![Image](https://www.cryengine.com/docs/static/attachments/25499940)
 
 The Material Editor will open up along with a
 **
@@ -473,7 +467,7 @@ is exactly the same
 Saving the material file. Make sure to save it to the same location as the asset
 *
 
-[Image: /docs/static/attachments/25499941]
+![Image](https://www.cryengine.com/docs/static/attachments/25499941)
 
 ##
 Testing in CRYENGINE
@@ -488,7 +482,7 @@ Create Object -> Brush
 
 To find our asset we type the name that it was exported as in the Search field or you can navigate though the folders to the assets location.
 
-[Image: /docs/static/attachments/25499946]
+![Image](https://www.cryengine.com/docs/static/attachments/25499946)
 
 You will find your asset in the
 `
@@ -500,7 +494,7 @@ gamesdk\objects\material_sphere\
 
 Drag and drop the asset in the scene.
 
-[Image: /docs/static/attachments/25500570]
+![Image](https://www.cryengine.com/docs/static/attachments/25500570)
 
 If you still cannot find your asset in the game folder, please check the export log in the CRYENGINE Exporter inside 3ds Max for details of what could have possibly gone wrong during export.
 
@@ -508,7 +502,7 @@ If you still cannot find your asset in the game folder, please check the export 
 Show Log button in CRYENGINE Exporter
 *
 
-[Image: /docs/static/attachments/25499947]
+![Image](https://www.cryengine.com/docs/static/attachments/25499947)
 
 ##
 Most common export errors out of 3ds Max
@@ -516,9 +510,7 @@ Most common export errors out of 3ds Max
 There are a few common export errors that can be fixed. To see which they are and how to fix them see:
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308046](
-Common 3ds Max Export Errors
-)
+[Common 3ds Max Export Errors](../Troubleshooting%20and%20Debugging%20Assets/Common%203ds%20Max%20Export%20Errors.md)
 .
 **
 
@@ -565,42 +557,18 @@ Physically Based Shaders
 
 The following page give you more information on how to use Physically Based Shaders correctly:
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959238](
-Physically Based Shading (PBS)
-)
+[Physically Based Shading (PBS)](../../../Graphics%20%26%20Rendering/Shaders/Physically%20Based%20Shading%20(PBS).md)
 **
 .
 
-[#tutorial-files](
-Tutorial Files
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-setup](
-Initial Setup
-)
-[#mesh-setup-in-3ds-max](
-Mesh setup in 3ds Max
-)
-[#material-setup-in-3ds-max](
-Material setup in 3ds Max
-)
-[#exporting-to-engine-model](
-Exporting to Engine - Model
-)
-[#exporting-to-engine-material](
-Exporting to Engine - Material
-)
-[#testing-in-cryengine](
-Testing in CRYENGINE
-)
-[#most-common-export-errors-out-of-3ds-max](
-Most common export errors out of 3ds Max
-)
-[#syncing-materials-back-to-3ds-max](
-Syncing Materials back to 3ds Max
-)
-[#physically-based-shaders](
-Physically Based Shaders
-)
+[Tutorial Files](#tutorial-files)
+[Helpful Information](#helpful-information)
+[Initial Setup](#initial-setup)
+[Mesh setup in 3ds Max](#mesh-setup-in-3ds-max)
+[Material setup in 3ds Max](#material-setup-in-3ds-max)
+[Exporting to Engine - Model](#exporting-to-engine-model)
+[Exporting to Engine - Material](#exporting-to-engine-material)
+[Testing in CRYENGINE](#testing-in-cryengine)
+[Most common export errors out of 3ds Max](#most-common-export-errors-out-of-3ds-max)
+[Syncing Materials back to 3ds Max](#syncing-materials-back-to-3ds-max)
+[Physically Based Shaders](#physically-based-shaders)

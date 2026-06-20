@@ -16,17 +16,17 @@ In other words, the object is colored by the given diffuse texture in such a way
 
 For example, consider the following image:
 
-[Image: /docs/static/attachments/28898582]
+![Image](https://www.cryengine.com/docs/static/attachments/28898582)
 
 If the image is placed inside the editor (a box was used in this example) and rendered with the Illum shader, an incorrect output will occur due to post-processing effects such as tone mapping and fog.
 
 Notice the bluish tint and the distorted brightness levels:
 
-[Image: /docs/static/attachments/35400520]
+![Image](https://www.cryengine.com/docs/static/attachments/35400520)
 
 On the other hand, the Reference Image shader avoids those problems and reproduces accurate results:
 
-[Image: /docs/static/attachments/35400521]
+![Image](https://www.cryengine.com/docs/static/attachments/35400521)
 
 ##
 sRGB
@@ -64,9 +64,5 @@ ForceDrawLast
 *
  are specified in the shader script.
 
-[#srgb](
-sRGB
-)
-[#details](
-Details
-)
+[sRGB](#srgb)
+[Details](#details)

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934008]
+![Image](https://www.cryengine.com/docs/static/attachments/29934008)
 
 ##
 Overview
@@ -17,18 +17,10 @@ Sections
 
 Detail mapping is a simple technique to add surface detail (micro and macro) at relatively low cost, memory and performance wise.
 
-[#sections](
-Sections
-)
-[#texture-creation](
-Texture Creation
-)
-[#example](
-Example
-)
-[#crytif-export](
-CryTif Export
-)
+[Sections](#sections)
+[Texture Creation](#texture-creation)
+[Example](#example)
+[CryTif Export](#crytif-export)
 
 ##
 Texture Creation

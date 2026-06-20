@@ -11,9 +11,7 @@
 Overview
 
 In order to play a map in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535321](
-Game Executable Launcher
-)
+[Game Executable Launcher](Game%20Executable%20Launcher.md)
  using the game launcher application, the level needs to be prepared by generating and exporting some data.
 
 ##

@@ -8,9 +8,7 @@
 ## Content
 
 When testing the game if one of your responses does not work the way you planned it, you probably want to find out why. The signal history can help you with debugging the issue. This information is already partly covered in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44958098](
-Tutorial - Setting Up the Dynamic Response System
-)
+[Tutorial - Setting Up the Dynamic Response System](../Tutorial%20-%20Setting%20Up%20the%20Dynamic%20Response%20System.md)
  page, but let's look into it in detail.
 
 The signal history can be found under the
@@ -21,7 +19,7 @@ Responses
 
 tab in the Dynamic Response System (DRS) widget:
 
-[Image: /docs/static/attachments/52593193]
+![Image](https://www.cryengine.com/docs/static/attachments/52593193)
 
 The
 
@@ -39,11 +37,11 @@ Update
 
 button.
 
-[Image: /docs/static/attachments/52593194]
+![Image](https://www.cryengine.com/docs/static/attachments/52593194)
 
 After you update the list, you should be able to find your misbehaving response, and select it.
 
-[Image: /docs/static/attachments/52593195]
+![Image](https://www.cryengine.com/docs/static/attachments/52593195)
 
 You can view the current setup for the response in the
 middle of the widget, and
@@ -56,7 +54,7 @@ Send signal
 
 But for now, the focus point should be the Execution Info which is on the right side of the tool by default.
 
-[Image: /docs/static/attachments/52593196]
+![Image](https://www.cryengine.com/docs/static/attachments/52593196)
 
 This panel displays the history for the selected signal(s). You can use multi select to show more than one signal at a time.
 
@@ -77,7 +75,7 @@ Execution Info
 **
  panel:
 
-[Image: /docs/static/attachments/52593197]
+![Image](https://www.cryengine.com/docs/static/attachments/52593197)
 
 Execution Info panel is very useful when the user wants to debug the response that has been created.
 

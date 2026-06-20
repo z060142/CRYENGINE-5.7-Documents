@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Game Object Extensions](Game Objects/Game Object Extensions.md)
+- [Game Object Extensions](Game%20Objects/Game%20Object%20Extensions.md)
 
 ## Content
 
@@ -16,9 +16,7 @@ Overview
 
 Game Objects are effectively an extension to the standard
 **
-[/docs/static/engines/cryengine-3/categories/17399809/pages/17074747](
-IEntity
-)
+[IEntity](/docs/static/engines/cryengine-3/categories/17399809/pages/17074747)
 **
 implementation, allowing more complex logic and custom user code contained in modules other than CryEntitySystem and CryAction to be applied to entities.
 
@@ -28,15 +26,11 @@ The primary use cases for game objects are:
 Binding an entity to the network, done by calling IGameObject::BindToNetwork.
 Network bound entities can trigger
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306395](
-Remote Method Invocations
-)
+[Remote Method Invocations](../CRYENGINE%20Engine%20Code/Engine%20Modules/CryNetwork/RMI%20Functions.md)
 **
 , or
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306392](
-serialize
-)
+[serialize](/docs/static/engines/cryengine-5/categories/23756813/pages/23306392)
 
 **
 bits of data to a remote version of the same entity.
@@ -44,15 +38,11 @@ bits of data to a remote version of the same entity.
 -
 Creating extensions for more complex entities, noteworthy examples being actors (
 **
-[/docs/static/engines/cryengine-3/categories/17399809/pages/17074661](
-IActor
-)
+[IActor](/docs/static/engines/cryengine-3/categories/17399809/pages/17074661)
 **
 ) and the animated character helper (
 **
-[/docs/static/engines/cryengine-3/categories/17399809/pages/17074683](
-IAnimatedCharacter
-)
+[IAnimatedCharacter](/docs/static/engines/cryengine-3/categories/17399809/pages/17074683)
 **
 ).
 Keep in mind that while every Game Object must have a parent Entity, every entity does not necessarily need to have a Game Object assigned to it.
@@ -66,9 +56,7 @@ CGameObject
 *
  (known as
 **
-[/docs/static/engines/cryengine-3/categories/17399809/pages/17074810](
-IGameObject
-)
+[IGameObject](/docs/static/engines/cryengine-3/categories/17399809/pages/17074810)
 **
  to projects other than CryAction) class is implemented as an Entity Proxy, residing in the
 *
@@ -92,9 +80,7 @@ Spawning a New Entity with a Game Object
 
 The game object system supports registering new game object extensions with the intent of automatically creating a game object with a pre-activated instance of the game object extension in question. This is done by calling
 **
-[/docs/static/engines/cryengine-3/categories/17399809/pages/17074815](
-IGameObjectSystem::RegisterExtension
-)
+[IGameObjectSystem::RegisterExtension](/docs/static/engines/cryengine-3/categories/17399809/pages/17074815)
 **
 *
 
@@ -125,9 +111,7 @@ Creating a New Game Object Instance for an Already Spawned Entity
 In some cases it might not be desired behavior to have every instance of a specific entity class automatically create a game object (for example if spawning an entity with the standard
 **
 
-[/docs/static/engines/cryengine-3/categories/17399809/pages/17074752](
-IEntityClass
-)
+[IEntityClass](/docs/static/engines/cryengine-3/categories/17399809/pages/17074752)
 **
 implementation). In this case we can create one per entity:
 
@@ -157,12 +141,6 @@ IGameObjectExtension
 *
  interface, and denote the extension of a game object (and indirectly the entity it is linked to) with custom (usually game-specific) code.
 
-[#implementation-details](
-Implementation Details
-)
-[#methods-of-creating-a-game-object](
-Methods of creating a Game Object
-)
-[#game-object-extensions](
-Game Object Extensions
-)
+[Implementation Details](#implementation-details)
+[Methods of creating a Game Object](#methods-of-creating-a-game-object)
+[Game Object Extensions](#game-object-extensions)

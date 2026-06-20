@@ -48,6 +48,4 @@ FirstPersonShooter.cryproject
 
 ```
 
-[#example](
-Example
-)
+[Example](#example)

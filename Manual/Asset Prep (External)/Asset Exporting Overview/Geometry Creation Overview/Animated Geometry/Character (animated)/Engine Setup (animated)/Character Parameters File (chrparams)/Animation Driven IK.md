@@ -56,7 +56,7 @@ Bip01 Chin_IKBlend
 *
  and they will be used to redirect the character's hand to his chin.
 
-[Image: /docs/static/attachments/23994455]
+![Image](https://www.cryengine.com/docs/static/attachments/23994455)
 
 Both bones need to be children of the bone that is closest to the final IK Target. This is done so that the target automatically inherits all of the parent's transformations as the character is being animated, ending up in the right re-targeting location.
 
@@ -64,9 +64,9 @@ For re-targeting the left hand to the weapon for example, you might make the bon
 
 Since for this example the hand shall be lead to the chin, the two bones should be children of the head bone. Open the Schematic View and link the two new bones to the head bone.
 
-[Image: /docs/static/attachments/23994459]
+![Image](https://www.cryengine.com/docs/static/attachments/23994459)
 
-[Image: /docs/static/attachments/23994460]
+![Image](https://www.cryengine.com/docs/static/attachments/23994460)
 
 ##
 Positioning the bones
@@ -81,15 +81,15 @@ Bip01 Head
 *
  as a target and align the position and all axes.
 
-[Image: /docs/static/attachments/23994452]
+![Image](https://www.cryengine.com/docs/static/attachments/23994452)
 
 The IK-Target bone should be placed somewhere close to the chin - it will represent where the left hand is going to be later.
 
 Note that the rotation of the bone will also be taken into account and applied to the hand bone - rotate the bone as well (you can use the align tool on the character's left hand to get a preview of what the hand orientation would look like).
 
-[Image: /docs/static/attachments/23994464]
+![Image](https://www.cryengine.com/docs/static/attachments/23994464)
 
-[Image: /docs/static/attachments/23994465]
+![Image](https://www.cryengine.com/docs/static/attachments/23994465)
 
 ##
 Set up the blend weight Slider
@@ -106,11 +106,11 @@ Bip01 Chin_IKBlend
 
 Add the Modifier "Attribute Holder" to the stack:
 
-[Image: /docs/static/attachments/23994451]
+![Image](https://www.cryengine.com/docs/static/attachments/23994451)
 
 To add a slide to the modifier, select the menu "Animation" and choose "Parameter Editor".
 
-[Image: /docs/static/attachments/23994461]
+![Image](https://www.cryengine.com/docs/static/attachments/23994461)
 
 In the dialog that opens, choose
 **
@@ -126,7 +126,7 @@ Add
 
 Below is a picture of the Parameter Editor with all the values set up. Make sure the Range goes from 0 to 100.0 (as 100 cm is the maximum blend weight).
 
-[Image: /docs/static/attachments/23994462]
+![Image](https://www.cryengine.com/docs/static/attachments/23994462)
 
 To link the slider to the x position of the IK-Blend-bone, go to the
 **
@@ -140,7 +140,7 @@ Wire Parameters
 **
  from the menu:
 
-[Image: /docs/static/attachments/23994470]
+![Image](https://www.cryengine.com/docs/static/attachments/23994470)
 
 This will open a popup menu letting you choose the source of the parameter wiring.
 
@@ -150,7 +150,7 @@ Modified Object -> Attribute Holder -> Custom Attributes -> IK Blend Weight
 **
 . This will select the sliders value as the data source.
 
-[Image: /docs/static/attachments/23994471]
+![Image](https://www.cryengine.com/docs/static/attachments/23994471)
 
 Press "H" to open the Selection dialog to choose a target for the Parameter Wiring.
 
@@ -164,7 +164,7 @@ Pick
 **
 :
 
-[Image: /docs/static/attachments/23994472]
+![Image](https://www.cryengine.com/docs/static/attachments/23994472)
 
 Another popup dialog will open, allowing to choose the target of the wiring.
 
@@ -174,7 +174,7 @@ Transform -> Position -> X Position
 **
  to link to the bone's x translation:
 
-[Image: /docs/static/attachments/23994473]
+![Image](https://www.cryengine.com/docs/static/attachments/23994473)
 
 Finally the Parameter Wiring dialog will open and present the source and the target of the wiring.
 
@@ -186,7 +186,7 @@ Connect
 **
  to make the final connection and close the Editor:
 
-[Image: /docs/static/attachments/23994474]
+![Image](https://www.cryengine.com/docs/static/attachments/23994474)
 
 To test the setup, use the slider and move it.
 
@@ -194,7 +194,7 @@ You should see the blend bone coming out of the character's head along with the 
 
 Note that in the picture the movement axis looks like it is set to the z-axis, but that is only because the transform gizmo's coordinate system is not set to local)
 
-[Image: /docs/static/attachments/23994469]
+![Image](https://www.cryengine.com/docs/static/attachments/23994469)
 
 Export your character's skeleton again so it contains the new bones.
 
@@ -224,7 +224,7 @@ LimbIK_Definition
 *
  section just above, and it links a solver (which corresponds to code) and a bone chain.
 
-[Image: /docs/static/attachments/23994458]
+![Image](https://www.cryengine.com/docs/static/attachments/23994458)
 
 *
 This is an excerpt of the SDK character's .chrparams File with the new bones already set up.
@@ -248,7 +248,7 @@ relaxed_idle
 
 If you do not like the result you can animate the IK Target bone. Another option would be to move the hand to where you want it to be and then align the IK Target Bone to the hand bone instead.
 
-[Image: /docs/static/attachments/23994454]
+![Image](https://www.cryengine.com/docs/static/attachments/23994454)
 
 To activate the retargeting, select the blend bone
 *
@@ -258,7 +258,7 @@ Bip01 Chin_IKBlend
 
 Use the IK Blend Weight Slider to create Keyframes for the Bone with the Blend Weight faded out to 0 at the start and end of the animation and faded in 100% during the time where the hand is at the chin.
 
-[Image: /docs/static/attachments/23994453]
+![Image](https://www.cryengine.com/docs/static/attachments/23994453)
 
 Export the animation and map it in the .chrparams file for your character.
 
@@ -289,38 +289,30 @@ Start CRYENGINE, open the Character Editor, load your character and play the ani
 
 The IK Blend Bone should rise above the head during the course of the animation and come back down at the start and end of it.
 
-[Image: /docs/static/attachments/23994468]
+![Image](https://www.cryengine.com/docs/static/attachments/23994468)
 
-[Image: /docs/static/attachments/23994467]
+![Image](https://www.cryengine.com/docs/static/attachments/23994467)
 
 ##
 Test the retargeting
 
 To test the retargeting, play the IK Animation in the base layer. The character will touch his chin exactly as authored since no other animation is playing on the skeleton at the same time.
 
-[Image: /docs/static/attachments/23994466]
+![Image](https://www.cryengine.com/docs/static/attachments/23994466)
 
 On the right side, in the "Advanced Animation Settings" choose a higher layer. This will cause all selected animations to be started in this layer instead.
 
-[Image: /docs/static/attachments/23994456]
+![Image](https://www.cryengine.com/docs/static/attachments/23994456)
 
 Select an upper-body animation that will move the head noticeably, for example an additive that makes the character look around.
 
-[Image: /docs/static/attachments/23994463]
+![Image](https://www.cryengine.com/docs/static/attachments/23994463)
 
 The character will continue to touch and release his chin, but follow the additive head motion. The hand will reach and stay at the chin regardless of the direction that the head is looking at.
 
-[Image: /docs/static/attachments/23994457]
+![Image](https://www.cryengine.com/docs/static/attachments/23994457)
 
-[#what-the-system-is-for](
-What the system is for
-)
-[#how-the-ik-is-applied](
-How the IK is applied
-)
-[#creating-the-bone-setup-in-max](
-Creating the Bone Setup (in Max)
-)
-[#creating-a-sample-ik-animation](
-Creating a Sample IK Animation
-)
+[What the system is for](#what-the-system-is-for)
+[How the IK is applied](#how-the-ik-is-applied)
+[Creating the Bone Setup (in Max)](#creating-the-bone-setup-in-max)
+[Creating a Sample IK Animation](#creating-a-sample-ik-animation)

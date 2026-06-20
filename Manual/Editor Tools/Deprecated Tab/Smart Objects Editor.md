@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Setting Up a New Smart Objects Behavior***](Smart Objects Editor/Setting Up a New Smart Objects Behavior.md)
+- [Setting Up a New Smart Objects Behavior***](Smart%20Objects%20Editor/Setting%20Up%20a%20New%20Smart%20Objects%20Behavior.md)
 
 ## Content
 
@@ -54,11 +54,11 @@ The Smart Objects Editor
 
 The Smart Objects Editor is integrated into Sandbox and can be opened from the "View/Open View Pane" menu. This is the tool that is used to create and edit all rules.
 
-[Image: /docs/static/attachments/27570805]
+![Image](https://www.cryengine.com/docs/static/attachments/27570805)
 
 The UI of the Editor is split into four parts:
 
-[Image: /docs/static/attachments/27570804]
+![Image](https://www.cryengine.com/docs/static/attachments/27570804)
 
 ##
 1. Rules Tree
@@ -442,7 +442,7 @@ Game/Libs/SmartObjects.xml
 ##
 Adding_Helpers_to_a_SmartObject
 
-[Image: /docs/static/attachments/27570803]
+![Image](https://www.cryengine.com/docs/static/attachments/27570803)
 
 To add a new helper to a SmartObject:
 
@@ -497,7 +497,7 @@ Almost all entities in the game can have a Smart Objects class. Setting a Smart 
 
 Whether an entity can be assigned a Smart Objects class or not can be seen in the properties window of the entity.
 
-[Image: /docs/static/attachments/27570806]
+![Image](https://www.cryengine.com/docs/static/attachments/27570806)
 
 *
 SmartObject class property
@@ -507,7 +507,7 @@ The SmartObject class of an entity can be set by clicking in the edit field of t
 
 If an entity has more than one SmartObject class, every rule which is assigned to this class will be applied to this entity.
 
-[Image: /docs/static/attachments/27570807]
+![Image](https://www.cryengine.com/docs/static/attachments/27570807)
 
 *
 SmartObject class selection window
@@ -527,7 +527,7 @@ Whenever a new AIAction is created two nodes will be added to the graph automati
 
 ActionStart and !ActionEnd. These nodes are used to start and end the AIAction.
 
-[Image: /docs/static/attachments/27570812]
+![Image](https://www.cryengine.com/docs/static/attachments/27570812)
 
 *
 Default AIAction graph
@@ -542,13 +542,13 @@ User and Object IDs
 
 There are two ways of selecting the target entity for a node in a action graph: Connecting the ActionStart output ports to the according ID input port, or selecting the target entity from the context menu of the entity.
 
-[Image: /docs/static/attachments/27570810]
+![Image](https://www.cryengine.com/docs/static/attachments/27570810)
 
 *
 Using the context menu to select the target entity.
 *
 
-[Image: /docs/static/attachments/27570811]
+![Image](https://www.cryengine.com/docs/static/attachments/27570811)
 
 *
 Assigning the target entity externally.
@@ -572,7 +572,7 @@ A state pattern consists of a set of sub patterns which each contain two sets of
 
 If the 'Include' set contains three different states, all these states have to be set for the pattern match to be successful. All states that are added to the 'Exclude' set must not be be set for a positive pattern match.
 
-[Image: /docs/static/attachments/27570809]
+![Image](https://www.cryengine.com/docs/static/attachments/27570809)
 
 *
 A state pattern consists of an 'Include' and an 'Exclude' set

@@ -17,9 +17,7 @@ Animation Events
  for Footsteps and Foley which allows the sound to alter on the basis of the character or surface-type while using the same animation.
 
 The article
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964888](
-Audio & Character Tool
-)
+[Audio & Character Tool](Audio%20%26%20Character%20Tool.md)
  is prerequisite knowledge for the following tutorial.
 
 By making use of the
@@ -141,7 +139,7 @@ The MaterialEffects files are within the gamedata.pak.
 MaterialEffects.xml opened in Excel
 *
 
-[Image: /docs/static/attachments/44971413]
+![Image](https://www.cryengine.com/docs/static/attachments/44971413)
 
 The corresponding effect (depending on the material) defines the actual audio system Trigger to play. This is done in the
 Effect Library
@@ -191,7 +189,7 @@ animations\human\male\events.animevents
 `
 .
 
-[Image: /docs/static/attachments/44971414]
+![Image](https://www.cryengine.com/docs/static/attachments/44971414)
 
 By double-clicking on the Timeline it is possible to create a new
 *
@@ -211,7 +209,7 @@ Animation Event
 *
  can also be mapped to a specific bone. By clicking on the bone icon a dropdown menu with a selectionlist can be opened:
 
-[Image: /docs/static/attachments/44971415]
+![Image](https://www.cryengine.com/docs/static/attachments/44971415)
 
 For Footsteps it is particularly important to map any bones correctly. This is because particles can also be triggered via the FXLibs.
 
@@ -243,7 +241,7 @@ In the screenshot example below, the field on the far right is used to define wh
 crouch_off
 ) should be played.
 
-[Image: /docs/static/attachments/44971417]
+![Image](https://www.cryengine.com/docs/static/attachments/44971417)
 
 Using the Foley FXLibs can be useful if/when you are using multiple characters, as it allows the sound to be altered on the basis of the character and while using the same animation.
 

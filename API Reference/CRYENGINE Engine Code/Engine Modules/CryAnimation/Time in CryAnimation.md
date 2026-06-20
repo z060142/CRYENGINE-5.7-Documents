@@ -531,27 +531,11 @@ Use GlobalAnimationHeaderCAF::NTime2KTime( ) to convert from animation normalize
 All animation controllers in the runtime use Keytime
 Animation assets can also have a StartTime other than 0.0s - this complicates matters a little, but only for the controllers. Typically, everywhere but the controllers, time is taken relative to this StartTime.
 
-[#time-in-cryanimation](
-Time in CryAnimation
-)
-[#basic-concepts](
-Basic Concepts
-)
-[#segmentation](
-Segmentation
-)
-[#playback-speed](
-Playback Speed
-)
-[#segmented-parametric-animation](
-Segmented Parametric Animation
-)
-[#animation-with-only-one-key](
-Animation with Only One Key
-)
-[#direction-of-time](
-Direction of Time
-)
-[#time-within-controllers](
-Time within Controllers
-)
+[Time in CryAnimation](#time-in-cryanimation)
+[Basic Concepts](#basic-concepts)
+[Segmentation](#segmentation)
+[Playback Speed](#playback-speed)
+[Segmented Parametric Animation](#segmented-parametric-animation)
+[Animation with Only One Key](#animation-with-only-one-key)
+[Direction of Time](#direction-of-time)
+[Time within Controllers](#time-within-controllers)

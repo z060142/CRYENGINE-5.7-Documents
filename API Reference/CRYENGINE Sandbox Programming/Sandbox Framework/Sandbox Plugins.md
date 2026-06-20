@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Sandbox C++ plugins](Sandbox Plugins/Sandbox C++ plugins.md)
-- [Sandbox Python Plugins](Sandbox Plugins/Sandbox Python Plugins.md)
+- [Sandbox C++ plugins](Sandbox%20Plugins/Sandbox%20C%2B%2B%20plugins.md)
+- [Sandbox Python Plugins](Sandbox%20Plugins/Sandbox%20Python%20Plugins.md)
 
 ## Content
 
@@ -17,11 +17,7 @@ CryEngine Sandbox can be extended through plugins, in this section we will go in
 Currently, only C++ and Python plugins are available. C# plugins for the editor are being investigated.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873092](
-Sandbox C++ plugins
-)
+[Sandbox C++ plugins](Sandbox%20Plugins/Sandbox%20C%2B%2B%20plugins.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873118](
-Sandbox Python Plugins
-)
+[Sandbox Python Plugins](Sandbox%20Plugins/Sandbox%20Python%20Plugins.md)

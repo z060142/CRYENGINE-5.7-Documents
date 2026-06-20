@@ -44,9 +44,7 @@ exposure
 
 While this written tutorial doesn't elaborate on the details of how the human visual perceptual system works, if you're interested in understanding it better and how it creates unconscious expectations in your players by which they will evaluate your lighting, please see the
 
-[https://youtu.be/3uxRhD53rig](
-video tutorial
-)
+[video tutorial](https://youtu.be/3uxRhD53rig)
 
 that corresponds to this page.
 
@@ -85,7 +83,7 @@ without
 **
 it:
 
-[Image: /docs/static/attachments/65437871]
+![Image](https://www.cryengine.com/docs/static/attachments/65437871)
 
 *
 Scene with HDR and ambient light disabled
@@ -112,7 +110,7 @@ both
 **
  situations. Either you'd have to overexpose the exterior in order to make the interior bright enough to see, or you'd have to expose for the exterior and let the interior remain too dark to navigate.
 
-[Image: /docs/static/attachments/65437872]
+![Image](https://www.cryengine.com/docs/static/attachments/65437872)
 
 *
 Inside without HDR or supplemental lighting
@@ -126,7 +124,7 @@ out
 **
 of gamut, pure black. (Without skylight, bounce light, or light components, shadows remain black.)
 
-[Image: /docs/static/attachments/65437873]
+![Image](https://www.cryengine.com/docs/static/attachments/65437873)
 
 *
 Sun coming through windows
@@ -150,10 +148,10 @@ used to seeing
 **
 , in which the sun is always far brighter than interior lights. We expect a difference in interior and exterior light levels.
 
-[Image: /docs/static/attachments/65437874]
+![Image](https://www.cryengine.com/docs/static/attachments/65437874)
 
  |
-[Image: /docs/static/attachments/65437875]
+![Image](https://www.cryengine.com/docs/static/attachments/65437875)
 
  |
 
@@ -187,12 +185,10 @@ stylistic choice
 not seeing
 **
 is dangerous. But it's a great way to build intriguing images, as long as the player feels it's fair and can still navigate. This example employs dramatic silhouettes, emissive fog, and no light sources whatsoever, neither sunlight, diffuse light, nor light components. You can download this environment preset from the
-[https://www.cryengine.com/marketplace/product/crytek/environment-preset-pack](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/environment-preset-pack)
 .
 
-[Image: /docs/static/attachments/65437773]
+![Image](https://www.cryengine.com/docs/static/attachments/65437773)
 
 *
 High-contrast, non-realistic imaging style
@@ -453,7 +449,7 @@ brighter than it actually is.
 
 Just compare the same scene below with exactly the same luminosity, with just a change in hue in the Color Balance setting. Any perceived difference in brightness is due the eccentricities of human vision, not any actual difference in luminance.
 
-[Image: /docs/static/attachments/65437774]
+![Image](https://www.cryengine.com/docs/static/attachments/65437774)
 
 *
 The same scene alternatively tinted yellow and blue
@@ -549,7 +545,7 @@ overexpose
 **
 your image for those nuclear bomb detonation moments:
 
-[Image: /docs/static/attachments/65437877]
+![Image](https://www.cryengine.com/docs/static/attachments/65437877)
 
 *
 EV Auto Compensation maxed out
@@ -561,7 +557,7 @@ Seeing HDR at Default Settings
 The image below demonstrates HDR exposure adaptation in action at the default values.
 When the camera is indoors, exposure brightens. Turning around to look back outside, as the camera moves from indoors to outdoors, the bright tones outside dominate more and more of the frame and the exposure gets progressively darker until eventually it's adjusted for outdoor lighting levels again.
 
-[Image: /docs/static/attachments/65437776]
+![Image](https://www.cryengine.com/docs/static/attachments/65437776)
 
 *
 HDR adjusting
@@ -777,7 +773,7 @@ r_HDRdebug 1
  (candela per square meter), lux, and EV. You can watch the EV of the scene change as the camera moves, and the auto-exposure system adjusting to the lighting conditions.
 
 *
-[Image: /docs/static/attachments/65437777]
+![Image](https://www.cryengine.com/docs/static/attachments/65437777)
 *
 
 *
@@ -818,7 +814,7 @@ high contrast
  situations. It
 overexposes highlights where dark scenes dominate:
 
-[Image: /docs/static/attachments/65437879]
+![Image](https://www.cryengine.com/docs/static/attachments/65437879)
 
 *
 Highlights overexposed
@@ -826,7 +822,7 @@ Highlights overexposed
 
 and underexposes shadows where bright scenes dominate:
 
-[Image: /docs/static/attachments/65437880]
+![Image](https://www.cryengine.com/docs/static/attachments/65437880)
 
 *
 Shadows underexposed
@@ -847,7 +843,7 @@ normal
  exposure levels. The section of the hangar in the image below has no direct sunlight, just bounce and diffuse light, and is actually one of darkest scenes in this little level. True to its design, the default HDR settings (in the left image) have adjusted it to normal light levels for an EV 4.5 scene - not looking like a particularly dark scene, in this case. The image on the right has had the HDR EV Min and Max settings adjusted to preserve the dark quality of the scene more faithfully while still allowing the player to see. Note that your visual perception of images depends on context, so you will need to click on each of these images to hide the bright white background of this page in order for your eyes to adjust to the dark tones and see the images correctly.
 
 **
-[Image: /docs/static/attachments/65437881]
+![Image](https://www.cryengine.com/docs/static/attachments/65437881)
 **
 
 *
@@ -855,7 +851,7 @@ HDR at default values (EV Min 4.5, EV Max 17)
 *
 
  |
-[Image: /docs/static/attachments/65437882]
+![Image](https://www.cryengine.com/docs/static/attachments/65437882)
 
 *
 HDR values adjusted to keep dark areas dark (EV min 9.4, EV max 12)
@@ -879,7 +875,7 @@ darkened
 **
  more than is appropriate. While you could choose to do this deliberately to create a stylized high-contrast look, a different set of values are needed to balance dark and light areas in a more naturalistic way. In this photograph, outside the car is clearly brighter than inside the car, as expected, but the inside isn't so dark that you can't see details. Interior and exterior are balanced.
 
-[Image: /docs/static/attachments/65437883]
+![Image](https://www.cryengine.com/docs/static/attachments/65437883)
 
 *
 Interior and exterior balanced
@@ -929,7 +925,7 @@ The Human Visual Experience in High-Contrast Situations
 
 During daylight hours, if you stand in the relative darkness inside a building and look outside through a window without getting too close to it, your eye will remain adapted for the dark interior, and the exterior will look "too bright" - physically painful, in fact. In imaging terms, it looks overexposed, as in the image below.
 
-[Image: /docs/static/attachments/65437884]
+![Image](https://www.cryengine.com/docs/static/attachments/65437884)
 
 *
 When standing indoors looking outside, outside looks bright
@@ -941,7 +937,7 @@ authentic
 **
 to your players. The same goes for trying to peer indoors when you're standing outside at a distance from the window. The interior will look dark unless you shield your eyes from all outdoor lighting levels.
 
-[Image: /docs/static/attachments/65437885]
+![Image](https://www.cryengine.com/docs/static/attachments/65437885)
 
 *
 When standing outdoors looking inside, inside looks dark
@@ -1029,7 +1025,7 @@ to overexposure than to underexposure; it "bothers" the eye more - another reaso
 ##
 Balancing Interior and Exterior Light Levels With EV Min and EV Max
 
-[Image: /docs/static/attachments/65437868]
+![Image](https://www.cryengine.com/docs/static/attachments/65437868)
 
 *
 HDR parameters
@@ -1037,14 +1033,14 @@ HDR parameters
 
 Here are four views views of the same scene with Sun intensity (lux) set to 50,000 lux and HDR values as shown above:
 
-[Image: /docs/static/attachments/65437886]
+![Image](https://www.cryengine.com/docs/static/attachments/65437886)
 
 *
 Light levels better balanced - 1
 *
 
  |
-[Image: /docs/static/attachments/65437887]
+![Image](https://www.cryengine.com/docs/static/attachments/65437887)
 
 *
 Light levels better balanced - 2
@@ -1052,14 +1048,14 @@ Light levels better balanced - 2
 
  |
 
-[Image: /docs/static/attachments/65437888]
+![Image](https://www.cryengine.com/docs/static/attachments/65437888)
 
 *
 Light levels better balanced - 3
 *
 
  |
-[Image: /docs/static/attachments/65437889]
+![Image](https://www.cryengine.com/docs/static/attachments/65437889)
 
 *
 Light levels better balanced - 4
@@ -1160,7 +1156,7 @@ points
 **
 : (1) at bottom left, how black the blacks are, and at the top right (2), how white the whites are.
 
-[Image: /docs/static/attachments/65437791]
+![Image](https://www.cryengine.com/docs/static/attachments/65437791)
 
 *
 Photoshop Curve Editor tool
@@ -1256,7 +1252,7 @@ up
  to lighten them. You'll also notice that we've finally produced a curve instead of a straight line:
 
 *
-[Image: /docs/static/attachments/65437797]
+![Image](https://www.cryengine.com/docs/static/attachments/65437797)
 *
 
 *
@@ -1282,7 +1278,7 @@ darkest
 This is roughly the equivalent of using Photoshop's Curves tool to add a control point in the shadows, brightening them up as we approach black in this example:
 
 *
-[Image: /docs/static/attachments/65437799]
+![Image](https://www.cryengine.com/docs/static/attachments/65437799)
 *
 
 *
@@ -1302,7 +1298,7 @@ adding
 **
 contrast to the scene. Highlights are brighter and shadows are darker.
 
-[Image: /docs/static/attachments/65437800]
+![Image](https://www.cryengine.com/docs/static/attachments/65437800)
 
 *
 Contrast added to scene
@@ -1316,7 +1312,7 @@ Film Curve Midtones Scale Adjustments
 Finally, Film Curve Midtones Scale is roughly the equivalent of adjusting a point in the middle of the tonal scale, while not touching highlights and shadows.
 
 In general, tread lightly here. Be especially careful about making radical changes to the midtones setting; it's unusual that you would move it from the default, and because there's an abrupt end to the tonal range it affects, it's easy to radically degrade and posterize the image, as in this example.
-[Image: /docs/static/attachments/65437803]
+![Image](https://www.cryengine.com/docs/static/attachments/65437803)
 
 *
 Image degraded by strong change in Midtones Scale
@@ -1336,7 +1332,7 @@ spreading
 into the shadows when it breaks around dark geometry edges.
 
 *
-[Image: /docs/static/attachments/65437802]
+![Image](https://www.cryengine.com/docs/static/attachments/65437802)
 *
 
 *
@@ -1364,7 +1360,7 @@ Grain
 Grain is noise that digitally imitates (monochrome) physical film grain or digital noise.
 
 *
-[Image: /docs/static/attachments/65437804]
+![Image](https://www.cryengine.com/docs/static/attachments/65437804)
 *
 
 *
@@ -1412,35 +1408,16 @@ Video Tutorial
 This tutorial is also available in video form on our YouTube channel:
 
 **
+[Embed: https://www.youtube.com/watch?v=3uxRhD53rig]
 **
 
-[#hdr-defined](
-HDR Defined
-)
-[#hdr-settings](
-HDR Settings
-)
-[#ev-min-and-ev-max](
-EV Min and EV Max
-)
-[#hdr-and-diffuse-light](
-HDR and Diffuse Light
-)
-[#best-uses-of-hdr](
-Best Uses of HDR
-)
-[#hdr-and-the-rendering-pipeline](
-HDR and the Rendering Pipeline
-)
-[#disabling-hdr](
-Disabling HDR
-)
-[#tone-mapping-settings](
-Tone Mapping Settings
-)
-[#bloom-amount](
-Bloom amount
-)
-[#filters](
-Filters
-)
+[HDR Defined](#hdr-defined)
+[HDR Settings](#hdr-settings)
+[EV Min and EV Max](#ev-min-and-ev-max)
+[HDR and Diffuse Light](#hdr-and-diffuse-light)
+[Best Uses of HDR](#best-uses-of-hdr)
+[HDR and the Rendering Pipeline](#hdr-and-the-rendering-pipeline)
+[Disabling HDR](#disabling-hdr)
+[Tone Mapping Settings](#tone-mapping-settings)
+[Bloom amount](#bloom-amount)
+[Filters](#filters)

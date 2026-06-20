@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Behavior Tree Nodes](Behavior Tree Editor/Behavior Tree Nodes.md)
-- [Behavior Tree Editor Window](Behavior Tree Editor/Behavior Tree Editor Window.md)
+- [Behavior Tree Nodes](Behavior%20Tree%20Editor/Behavior%20Tree%20Nodes.md)
+- [Behavior Tree Editor Window](Behavior%20Tree%20Editor/Behavior%20Tree%20Editor%20Window.md)
 
 ## Content
 
@@ -34,20 +34,14 @@ Programming
 The biggest benefit of the Behavior Tree Editor is that of being able to craft complex behavior trees via an intuitive user interface, without having to do so from scratch in code or XML.
 
 For a more technical understanding of how behavior trees work on CRYENGINE however, or to learn how to develop custom action, composite and decorator nodes in C++, please refer to our
-[/docs/static/engines/cryengine-5/categories/23756813/pages/36870704](
-technical documentation
-)
+[technical documentation](../../API%20Reference/AI/Behavior%20Trees.md)
  on behavior trees.
 
 ##
 In This Section
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869459](
-Behavior Tree Editor Window
-)
+[Behavior Tree Editor Window](Behavior%20Tree%20Editor/Behavior%20Tree%20Editor%20Window.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869462](
-Behavior Tree Nodes
-)
+[Behavior Tree Nodes](Behavior%20Tree%20Editor/Behavior%20Tree%20Nodes.md)

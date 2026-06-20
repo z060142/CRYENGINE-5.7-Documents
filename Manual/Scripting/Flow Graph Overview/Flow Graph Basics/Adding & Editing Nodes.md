@@ -31,7 +31,7 @@ Add Selected Entity
 Pic1: Selecting an entity in the Flow Graph editor.
 *
 
-[Image: /docs/static/attachments/52593326]
+![Image](https://www.cryengine.com/docs/static/attachments/52593326)
 
 This procedure works only if an entity has been selected in the Perspective viewport. The context menu option,
 **
@@ -98,7 +98,7 @@ EntityPos
 Pic2: Adding a component node using the context menu.
 *
 
-[Image: /docs/static/attachments/52593327]
+![Image](https://www.cryengine.com/docs/static/attachments/52593327)
 
 A new
 **
@@ -147,7 +147,7 @@ Esc
 Pic3: Performing search function using the QuickSearchNode.
 *
 
-[Image: /docs/static/attachments/52593328]
+![Image](https://www.cryengine.com/docs/static/attachments/52593328)
 
 ##
 Deleting Nodes
@@ -245,7 +245,7 @@ Pic4
 Pic4: Editing the node parameters using the Inputs tab.
 *
 
-[Image: /docs/static/attachments/52593329]
+![Image](https://www.cryengine.com/docs/static/attachments/52593329)
 
 -
 Double-clicking the parameters under the Node, which allows you to change any of the user-variable properties directly at the Node location (
@@ -259,23 +259,11 @@ Make sure you zoom-in on the particular node before you edit using the double-cl
 Pic5: Editing the parameters directly on the nodes.
 *
 
-[Image: /docs/static/attachments/52593330]
+![Image](https://www.cryengine.com/docs/static/attachments/52593330)
 
-[#entity-nodes](
-Entity Nodes
-)
-[#component-nodes](
-Component Nodes
-)
-[#deleting-nodes](
-Deleting Nodes
-)
-[#moving-and-arranging-nodes](
-Moving and Arranging Nodes
-)
-[#copying-nodes](
-Copying Nodes
-)
-[#editing-nodes](
-Editing Nodes
-)
+[Entity Nodes](#entity-nodes)
+[Component Nodes](#component-nodes)
+[Deleting Nodes](#deleting-nodes)
+[Moving and Arranging Nodes](#moving-and-arranging-nodes)
+[Copying Nodes](#copying-nodes)
+[Editing Nodes](#editing-nodes)

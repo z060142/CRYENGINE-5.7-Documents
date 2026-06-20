@@ -12,11 +12,11 @@ Overview
 
 The Components panel contains all of the available Components that can be applied to an Entity. This article details the individual settings for each of the Components.
 
-[Image: /docs/static/attachments/28893262]
+![Image](https://www.cryengine.com/docs/static/attachments/28893262)
 
 When these Entity Components have been applied to an Entity, a new subsection appears in the Properties of that Entity:
 
-[Image: /docs/static/attachments/28893297]
+![Image](https://www.cryengine.com/docs/static/attachments/28893297)
 
 It can be removed from the entity by clicking the button in the top-right corner and choosing
 **
@@ -62,11 +62,7 @@ General
 SensorVolume
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28181813](
-**
-this page
-**
-)
+[this page](../../Tutorials/Game%20and%20Level%20Design/Entity%20Component%20Tutorials/Tutorial%20-%20SensorVolume%20Component.md)
  for more information.
 
 Setting
@@ -693,9 +689,7 @@ Stops the PlayTrigger if no StopTrigger assigned - otherwise executes the StopTr
 
 For more information about Play/Stop behavior, see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964879](
-this page
-)
+[this page](../../Audio/Audio%20Overview/Play%20Stop%20Behavior.md)
 **
 .
 
@@ -1682,9 +1676,7 @@ Note:
 Alembic Mesh
 
 The Alembic Mesh Component let's you add
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534123](
-Geom Caches
-)
+[Geom Caches](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Geom%20Cache%20(Alembic).md)
  to the entity.
 
 Setting
@@ -3636,39 +3628,15 @@ Ignore Collision With
 Whether or not the spawned entity should ignore collisions with the entity.
  |
 
-[#transformation](
-Transformation
-)
-[#general](
-General
-)
-[#ai](
-AI
-)
-[#audio](
-Audio
-)
-[#cameras](
-Cameras
-)
-[#debug](
-Debug
-)
-[#effects](
-Effects
-)
-[#geometry](
-Geometry
-)
-[#lights](
-Lights
-)
-[#physics](
-Physics
-)
-[#physics-constraint](
-Physics Constraint
-)
-[#utilities](
-Utilities
-)
+[Transformation](#transformation)
+[General](#general)
+[AI](#ai)
+[Audio](#audio)
+[Cameras](#cameras)
+[Debug](#debug)
+[Effects](#effects)
+[Geometry](#geometry)
+[Lights](#lights)
+[Physics](#physics)
+[Physics Constraint](#physics-constraint)
+[Utilities](#utilities)

@@ -46,13 +46,13 @@ Phong
 ##
 Displacement
 
-[Image: /docs/static/attachments/28898718]
+![Image](https://www.cryengine.com/docs/static/attachments/28898718)
 
  |
-[Image: /docs/static/attachments/28898709]
+![Image](https://www.cryengine.com/docs/static/attachments/28898709)
 
  |
-[Image: /docs/static/attachments/28898711]
+![Image](https://www.cryengine.com/docs/static/attachments/28898711)
 
  |
 
@@ -66,10 +66,10 @@ Tessellation Factor 3
 ##
 PN Triangles
 
-[Image: /docs/static/attachments/28898717]
+![Image](https://www.cryengine.com/docs/static/attachments/28898717)
 
  |
-[Image: /docs/static/attachments/28898716]
+![Image](https://www.cryengine.com/docs/static/attachments/28898716)
 
  |
 
@@ -85,12 +85,12 @@ Phong
 Phong Tessellation Scheme
 
 *
-[Image: /docs/static/attachments/28898712]
+![Image](https://www.cryengine.com/docs/static/attachments/28898712)
 
 ##
 Tessellation / Displacement Shader Parameters
 
-[Image: /docs/static/attachments/35397330]
+![Image](https://www.cryengine.com/docs/static/attachments/35397330)
 
 Shader Gen Param
 
@@ -134,7 +134,7 @@ Can be combined with displacement map.
 
  |
 
-[Image: /docs/static/attachments/35397330]
+![Image](https://www.cryengine.com/docs/static/attachments/35397330)
 
 Shader Param
 
@@ -295,15 +295,7 @@ To enable tessellated shadows for tessellated Geom Entities, use
 e_ShadowsTessellateCascades=1
 **
 , but keep in mind this comes at a performance cost.
-[#supported-tessellation-schemes](
-Supported Tessellation Schemes
-)
-[#tessellation-displacement-shader-parameters](
-Tessellation / Displacement Shader Parameters
-)
-[#seamscrack-fixing](
-Seams/Crack Fixing
-)
-[#troubleshooting](
-Troubleshooting
-)
+[Supported Tessellation Schemes](#supported-tessellation-schemes)
+[Tessellation / Displacement Shader Parameters](#tessellation-displacement-shader-parameters)
+[Seams/Crack Fixing](#seamscrack-fixing)
+[Troubleshooting](#troubleshooting)

@@ -8,3 +8,5 @@
 ## Content
 
 How to keep track of a player's session time in the game.
+
+[Embed: http://youtube.com/watch?v=vUZqBRcW4S8]

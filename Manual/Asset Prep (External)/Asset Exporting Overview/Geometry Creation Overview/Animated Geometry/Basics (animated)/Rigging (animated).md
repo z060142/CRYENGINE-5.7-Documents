@@ -7,14 +7,14 @@
 
 ## Child Pages
 
-- [Biped Rigging](Rigging (animated)/Biped Rigging.md)
-- [Character Rigging Guidelines](Rigging (animated)/Character Rigging Guidelines.md)
-- [Locomotion Locator](Rigging (animated)/Locomotion Locator.md)
-- [Reset Transformations](Rigging (animated)/Reset Transformations.md)
+- [Biped Rigging](Rigging%20(animated)/Biped%20Rigging.md)
+- [Character Rigging Guidelines](Rigging%20(animated)/Character%20Rigging%20Guidelines.md)
+- [Locomotion Locator](Rigging%20(animated)/Locomotion%20Locator.md)
+- [Reset Transformations](Rigging%20(animated)/Reset%20Transformations.md)
 
 ## Content
 
-[Image: /docs/static/attachments/29934059]
+![Image](https://www.cryengine.com/docs/static/attachments/29934059)
 
 ##
 Overview
@@ -25,21 +25,13 @@ In this section you will learn about the various rigging tools, guidelines, and 
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307988](
-Biped Rigging
-)
+[Biped Rigging](Rigging%20(animated)/Biped%20Rigging.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307986](
-Character Rigging Guidelines
-)
+[Character Rigging Guidelines](Rigging%20(animated)/Character%20Rigging%20Guidelines.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307989](
-Locomotion Locator
-)
+[Locomotion Locator](Rigging%20(animated)/Locomotion%20Locator.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307987](
-Reset Transformations
-)
+[Reset Transformations](Rigging%20(animated)/Reset%20Transformations.md)

@@ -39,32 +39,32 @@ Docking in the Entire Screen
 
 To dock the selected window to the side, top or bottom of the entire screen, select the title bar of the window that should move and drag it. A docking helper will appear in the middle and the edges of the screen. Drag the title bar of the window over one of the outer helpers:
 
-[Image: /docs/static/attachments/36839216]
+![Image](https://www.cryengine.com/docs/static/attachments/36839216)
 
 A blue preview of where the window will end up in the screen will appear:
 
-[Image: /docs/static/attachments/36839215]
+![Image](https://www.cryengine.com/docs/static/attachments/36839215)
 
 Let go once this preview is visible and the window will be docked in the specified location:
 
-[Image: /docs/static/attachments/36839214]
+![Image](https://www.cryengine.com/docs/static/attachments/36839214)
 
 ##
 Docking Within Another Window
 
 To dock the selected window to the side, top or bottom of another window, drag the window by its title bar and move it over to the window it needs to be docked into. The docking helpers will appear in the middle of that window instead of in the middle of the entire screen. Now drag the title bar of the selected window over the inner docking helpers:
 
-[Image: /docs/static/attachments/36839213]
+![Image](https://www.cryengine.com/docs/static/attachments/36839213)
 
 Once again, a blue preview of where the window will end up will appear:
 
-[Image: /docs/static/attachments/36839212]
+![Image](https://www.cryengine.com/docs/static/attachments/36839212)
 
 Let go of the mouse button and the window will be docked.
 
 This can also be done within other windows next to the Viewport:
 
-[Image: /docs/static/attachments/36839211]
+![Image](https://www.cryengine.com/docs/static/attachments/36839211)
 
 ##
 Docking a Window as a Tab
@@ -78,13 +78,13 @@ Using the Docking Helper
 
 Drag the title bar of the window that needs to be docked onto the central docking helper:
 
-[Image: /docs/static/attachments/36839210]
+![Image](https://www.cryengine.com/docs/static/attachments/36839210)
 
 The whole window that it will be docked into as a tab will turn blue:
 
 Now let go and another tab will have appeared in the window:
 
-[Image: /docs/static/attachments/36839209]
+![Image](https://www.cryengine.com/docs/static/attachments/36839209)
 
 Now it is possible to switch between the windows in that section by clicking on the appropriate tab.
 
@@ -93,14 +93,14 @@ Dropping Inside the Tab Area
 
 The title bar of the selected window cab also be dragged into the tab area of the target window. It will then be placed to the right of the tab that turns blue:
 
-[Image: /docs/static/attachments/36839208]
+![Image](https://www.cryengine.com/docs/static/attachments/36839208)
 
 ##
 Changing Tab Order
 
 The order of tabs within a window can be changed by dragging a tab and dropping it:
 
-[Image: /docs/static/attachments/36839207]
+![Image](https://www.cryengine.com/docs/static/attachments/36839207)
 
 ##
 Undocking Windows
@@ -112,21 +112,21 @@ Undocking More Than One Tab
 
 It is also possible to undock (and re-dock) more than one tab at a time. To do this, click and drag the empty space next to the tabs in a pane:
 
-[Image: /docs/static/attachments/36839316]
+![Image](https://www.cryengine.com/docs/static/attachments/36839316)
 
 ##
 Closing Tabs
 
 Tabs do not have a cross in the top-right corner to close them, as you may expect. Instead, they require a right click to display an option to close them:
 
-[Image: /docs/static/attachments/36839206]
+![Image](https://www.cryengine.com/docs/static/attachments/36839206)
 
 ##
 More Tabs than Fit the Screen
 
 When there are more tabs in a panel than fit the screen, a dropdown menu will appear for easy access to all the tabs:
 
-[Image: /docs/static/attachments/36839205]
+![Image](https://www.cryengine.com/docs/static/attachments/36839205)
 
 ##
 Resetting the Sandbox Layout
@@ -159,31 +159,15 @@ folder in your game folder. The latter folder may need to be created as it doesn
 Now the custom layout can be checked into source control along with the rest of the project data so they appear for the rest of the team as well, next to any layouts they have created for themselves.
 
 *
-[Image: /docs/static/attachments/36839282]
+![Image](https://www.cryengine.com/docs/static/attachments/36839282)
 
 *
 
-[#scaling-and-moving-tools](
-Scaling and Moving Tools
-)
-[#docking-windows](
-Docking Windows
-)
-[#changing-tab-order](
-Changing Tab Order
-)
-[#undocking-windows](
-Undocking Windows
-)
-[#closing-tabs](
-Closing Tabs
-)
-[#more-tabs-than-fit-the-screen](
-More Tabs than Fit the Screen
-)
-[#resetting-the-sandbox-layout](
-Resetting the Sandbox Layout
-)
-[#project-layouts](
-Project Layouts
-)
+[Scaling and Moving Tools](#scaling-and-moving-tools)
+[Docking Windows](#docking-windows)
+[Changing Tab Order](#changing-tab-order)
+[Undocking Windows](#undocking-windows)
+[Closing Tabs](#closing-tabs)
+[More Tabs than Fit the Screen](#more-tabs-than-fit-the-screen)
+[Resetting the Sandbox Layout](#resetting-the-sandbox-layout)
+[Project Layouts](#project-layouts)

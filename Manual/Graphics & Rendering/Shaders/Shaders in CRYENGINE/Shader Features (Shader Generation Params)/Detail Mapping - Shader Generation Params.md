@@ -17,17 +17,17 @@ Detail Map Off
 Detail Map On
  |
 
-[Image: /docs/static/attachments/28898676]
+![Image](https://www.cryengine.com/docs/static/attachments/28898676)
  |
-[Image: /docs/static/attachments/28898675]
+![Image](https://www.cryengine.com/docs/static/attachments/28898675)
  |
 
 Simple Grey Diffuse with High Gloss
  |
 
-[Image: /docs/static/attachments/28898669]
+![Image](https://www.cryengine.com/docs/static/attachments/28898669)
  |
-[Image: /docs/static/attachments/28898668]
+![Image](https://www.cryengine.com/docs/static/attachments/28898668)
  |
 
 Full Texture Set: Diffuse, Normals, Glossmap
@@ -67,7 +67,7 @@ Alpha
 : Normal Green
 If you're converting an existing Normal map into a Detail map, you can take the existing Red/Green channels and place them in the Green/Alpha channels respectively.
 
-[Image: /docs/static/attachments/35397172]
+![Image](https://www.cryengine.com/docs/static/attachments/35397172)
 
 ##
 Example
@@ -78,13 +78,13 @@ To showcase how to create a Merged Detail Map, we're going to take an existing R
 From Left to Right: RGB channels, Red channel, Green channel, Blue channel
 *
 
-[Image: /docs/static/attachments/35397173]
+![Image](https://www.cryengine.com/docs/static/attachments/35397173)
 
-[Image: /docs/static/attachments/35397174]
+![Image](https://www.cryengine.com/docs/static/attachments/35397174)
 
-[Image: /docs/static/attachments/35397175]
+![Image](https://www.cryengine.com/docs/static/attachments/35397175)
 
-[Image: /docs/static/attachments/35397176]
+![Image](https://www.cryengine.com/docs/static/attachments/35397176)
 
 -
 Create an
@@ -110,7 +110,7 @@ Green
 
 The texture should now look something like this:
 
-[Image: /docs/static/attachments/28898667]
+![Image](https://www.cryengine.com/docs/static/attachments/28898667)
 
 Now, for the
 Red
@@ -143,9 +143,9 @@ Gloss
 Blue
 **
  channel.
-[Image: /docs/static/attachments/35397187]
+![Image](https://www.cryengine.com/docs/static/attachments/35397187)
 
-[Image: /docs/static/attachments/28898664]
+![Image](https://www.cryengine.com/docs/static/attachments/28898664)
 
 *
 Left: Greyscale Diffuse, Right: Greyscale Glossmap
@@ -157,16 +157,16 @@ The texture should now look something like this (depending on the luminosity of 
 From Left to Right: RGB channels, Red channel, Green cahnnel, Blue channel, Alpha channel
 
 *
-[Image: /docs/static/attachments/28898672]
+![Image](https://www.cryengine.com/docs/static/attachments/28898672)
 
-[Image: /docs/static/attachments/28898663]
+![Image](https://www.cryengine.com/docs/static/attachments/28898663)
 
-[Image: /docs/static/attachments/28898674]
+![Image](https://www.cryengine.com/docs/static/attachments/28898674)
 
-[Image: /docs/static/attachments/28898664]
+![Image](https://www.cryengine.com/docs/static/attachments/28898664)
 
 *
-[Image: /docs/static/attachments/28898673]
+![Image](https://www.cryengine.com/docs/static/attachments/28898673)
 *
 
 ##
@@ -186,23 +186,17 @@ Note that the Lossless format should be used with care as file size will be 4x l
 
 Detail Maps are most often tiled fairly heavily, this means you can use smaller resolutions with no noticeable loss in quality as texel density will be high due to the tiling.
 
-[Image: /docs/static/attachments/35397185]
+![Image](https://www.cryengine.com/docs/static/attachments/35397185)
 
 ##
 Material Setup
 
 To use a Detail map, your Material should be using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449070](
-Illum Shader
-)
+[Illum Shader](../Shader%20Reference/Illum%20Shader.md)
 .
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449035](
-HumanSkin
-)
+[HumanSkin](../Shader%20Reference/HumanSkin%20Shader.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449280](
-Terrain.Layer
-)
+[Terrain.Layer](../Shader%20Reference/Terrain.Layer%20Shader.md)
  shaders also use Detail maps but not Merged Detail maps, rather, the older Normal map style Detail maps.
 
 -
@@ -212,7 +206,7 @@ Detail
 **
  texture slot.
 
-[Image: /docs/static/attachments/35397186]
+![Image](https://www.cryengine.com/docs/static/attachments/35397186)
 
 As you can see from the above screenshot, the Detail map
 tiling
@@ -265,15 +259,7 @@ If you have a 0,0,0 Diffuse Color then you will not be able to see the Detail di
 
 This control over independent channel output gives a large amount of flexibility and re-usability with Detail Maps so experiment with a variety of settings to suit your assets!
 
-[#texture-creation](
-Texture Creation
-)
-[#example](
-Example
-)
-[#crytif-export](
-CryTif Export
-)
-[#material-setup](
-Material Setup
-)
+[Texture Creation](#texture-creation)
+[Example](#example)
+[CryTif Export](#crytif-export)
+[Material Setup](#material-setup)

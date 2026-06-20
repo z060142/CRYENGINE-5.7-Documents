@@ -53,45 +53,37 @@ Decoupling animation and game logic, while still allowing for direct programmer 
 Quick Overview of the Main Concepts
 
 Refer to the following screenshot to see where the following concepts show up in the editor (specifically while using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-FragmentEditor](
-Mannequin Fragment Editor
-)
+[Mannequin Fragment Editor](../Mannequin%20Editor.md#MannequinEditor-FragmentEditor)
 ).
 
-[Image: /docs/static/attachments/23998276]
+![Image](https://www.cryengine.com/docs/static/attachments/23998276)
 
 ##
 The Basic Building Block - Fragments
 
 Instead of starting a specific animation directly you will first have to wrap it into what we call a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-Fragment
-)
+[Fragment](Mannequin%20Concepts/Mannequin%20Fragments.md)
 . Fragments are created through the editor and are layered animation sequences. Below you see an example of this: 3 animations combined into one fragment.
 
 We have a base layer containing a sequence of 2 animation clips ("stand_tac_melee_rifle_3p_01" and "stand_tac_melee_rifle_3p_02") and a second layer which contains an additive animation clip ("stand_tac_melee_scar_add_3p_01"). If you want you can make the sequence a lot longer or add many more layers. You can also transition from one clip to another, speed up clips, or loop or cut them up. All of this is very similar to other nonlinear animation tools you might be familiar with.
 
-[Image: /docs/static/attachments/25507942]
+![Image](https://www.cryengine.com/docs/static/attachments/25507942)
 
 Fragments aren't limited to
 *
 animation clips
 *
  though: you can also insert
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450878](
-procedural clips
-)
+[procedural clips](Mannequin%20Concepts/Mannequin%20Procedural%20Clips.md)
  which can be anything from clips that drive IK (aiming, looking, etc) to attaching objects, to playing sound effects. Below we extend the example with a procedural clip playing a sound effect and another procedural clip that executes entity alignment code.
 
-[Image: /docs/static/attachments/25507943]
+![Image](https://www.cryengine.com/docs/static/attachments/25507943)
 
 ##
 How the Game Refers to Animation - FragmentIDs
 
 The game doesn't request fragments directly though. Every fragment gets categorized under a specific name we call a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-FragmentID
-)
+[FragmentID](Mannequin%20Concepts/FragmentIDs.md)
 . The FragmentID represents an animation state like "Moving", "Idling", "Reloading", "Firing", etc. The game requests fragments by specifying this category, this FragmentID. Contrary to what the name 'FragmentID' might suggest there are typically many fragments that fall under the same FragmentID. For example you can have many different "Moving" fragments: they represent either random variations or context-specific variations (moving while crouched, moving while standing, etc).
 
 Typically a programmer defines a FragmentID for every basic animation state and then animators can create fragments for those FragmentIDs. This is where the name CryMannequin comes from: after a programmer sets up the basic structure of FragmentIDs, animators and technical animators can start to 'dress up' the animation.
@@ -100,9 +92,7 @@ Typically a programmer defines a FragmentID for every basic animation state and 
 Adding Variation - Tags and Options
 
 We can assign the same FragmentID to multiple fragments. They will now become variations for that FragmentID. To guide the selection process each fragment is labeled with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-Tags
-)
+[Tags](Mannequin%20Concepts/Mannequin%20Tags%20%26%20Tag%20Definitions.md)
 .
 
 The tags, for example "crouched" or "machineGun" or "scared", provide a simple way to specify a context under which you want specific fragments to be selected.
@@ -118,31 +108,26 @@ Fragments like the above are sequenced together to form your game's animation.
 
 Say you've got a fragment with FragmentID "Moving":
 
-[Image: /docs/static/attachments/25507944]
+![Image](https://www.cryengine.com/docs/static/attachments/25507944)
 
 The top of the image shows what the game requests, the bottom shows which animation(s) CryMannequin translates this into. In this case the fragment that is selected contains only one animation, "stand_tac_move_rifle_3p_01".
 
 And say you have another fragment with FragmentID "Idling":
 
-[Image: /docs/static/attachments/25507945]
+![Image](https://www.cryengine.com/docs/static/attachments/25507945)
 
 Again, the top of the image shows what the game requests, and the bottom shows which animation this is translated into.
  And in this case there is also only one animation in the fragment, "stand_tac_idle_rifle_3p_01".
 
 What happens if the game requests these FragmentIDs one after the other? The animations will be sequenced together automatically with a standard blend in between them, just like the basic animation system would do, but with Mannequin the animator can specify the default transition duration when starting the Moving fragment (represented by the little purple block in the middle)
 
-[Image: /docs/static/attachments/25507946]
+![Image](https://www.cryengine.com/docs/static/attachments/25507946)
 
 Now we can define a more complicated
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450872](
-mannequin transition
-*
-
-*
-)
+[mannequin transition](Mannequin%20Concepts/Mannequin%20Transitions.md)
 in between them. The system gives you the possibility to specify exactly how the individual layers within these fragments get sequenced during the transition and gives you the ability to add new clips in between the clips. In the example below a transition is created where an 'idle2move' animation is placed in between the idle and move animation.
 
-[Image: /docs/static/attachments/25507947]
+![Image](https://www.cryengine.com/docs/static/attachments/25507947)
 
 Note that the game still requests exactly the same thing: "Idling" followed by "Moving". But there is now an orange area (called a
 *
@@ -154,9 +139,7 @@ Transition
 Scopes
 
 Typically different parts of the same character are in different animation states. For example you might be playing a basic idle animation on the main skeleton, and use an independent override animation to add some random looking around. Or you might want to play another independent idle animation on the weapon the character is carrying. Sometimes you like to synchronize those different parts, and sometimes you don't. CryMannequin has tools to help you set this up. The different independently controllable 'parts' are called
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-Scopes
-)
+[Scopes](Mannequin%20Concepts/Mannequin%20Scopes.md)
 .
 
 Each of these scopes can have at most one fragment playing at any time (or it can be transitioning from one fragment to another as shown before).
@@ -257,20 +240,16 @@ Plays fragments on the 'enslaved' character when doing a stealth kill or other s
 Playing Fragments on Scopes - Using Actions
 
 Typically fragments will be played by code, through objects called
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308467](
-Actions
-)
+[Actions](Mannequin%20Technical%20Topics/Mannequin%20Actions.md)
 . When an action is 'installed' it controls one or more scopes, which means the action is then the only one able to request fragments on those scopes.
 
 For example here is a little scenario. The columns in the table represent the scopes Base, Torso and Weapon. The rows represent stages in time. We start out moving around, then jump, then reload while jumping and finally perform a special 'stamp' move while we are falling. For this we use
 actions called Locomotion, Idle, Jump, Reload and Stamp.
 Locomotion and Jump only control the base of the character - they play animations that are designed to be combined with other animations to control the upper body (
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28186271](
-additive
-)
+[additive](Mannequin%20Additive%20Animations.md)
 , partial-body, procedural, ..). Those extra animations are played by actions like 'Idle' and 'Reload'. The 'Reload' action also controls animations on the weapon, which might be a separate character from the main character. Stamp takes control of all scopes.
 
-[Image: /docs/static/attachments/23998275]
+![Image](https://www.cryengine.com/docs/static/attachments/23998275)
 
 Examples from the SDK are:Typically, as a designer or animator, you won't be using Actions directly. They are a programming concept, wrapped inside systems like flow nodes or game code. So if you want to play a fragment, you will need to use any of these systems.
 
@@ -279,9 +258,7 @@ Flownodes: PlayMannequinFragment (sometimes in combination with the flownode Ens
 
 -
 AI Flownodes: The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28186279](
-AI Sequence
-)
+[AI Sequence](Mannequin%20AI%20Sequence.md)
  flownodes that play simple scripted sequences.
 
 -
@@ -292,9 +269,7 @@ Player:
 
 -
 Player Movement Action: Picks between the fragmentIDs MotionIdle, MotionTurn, MotionMovement and MotionInAir based on the player's movement. In this implementation, MotionMove must contain a movement
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28186170](
-blend space
-)
+[blend space](../Character%20Tool/Blend%20Spaces%20-%20Character%20Tool.md)
 .
 
 -
@@ -302,9 +277,7 @@ AI:
 
 -
 AI Movement Action (CAnimActionAIMovement): Picks between the fragmentIDs Motion_Idle, Motion_Move, Motion_Air, Motion_IdleTurn and Motion_IdleTurnBig based on the AI's movement. In this implementation, Motion_Move must contain a movement
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28186170](
-blend space
-)
+[blend space](../Character%20Tool/Blend%20Spaces%20-%20Character%20Tool.md)
 .
 
 -
@@ -312,9 +285,7 @@ AI Detail: Picks random fragments from the fragmentIDs MotionDetail_Idle, Motion
 
 -
 Looking, Aiming, LookPose, AimPose actions. These rely on the existance of fragmentIDs with the same name. For more information on how to control this, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308487](
-Tutorial - Controlling Looking (and Aiming) for AI in Mannequin
-)
+[Tutorial - Controlling Looking (and Aiming) for AI in Mannequin](../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Controlling%20Looking%20(and%20Aiming)%20for%20AI%20in%20Mannequin.md)
 .
 
 -
@@ -330,21 +301,13 @@ Vehicle System
 Related Pages
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308482](
-Mannequin Editor Tutorials
-)
+[Mannequin Editor Tutorials](/docs/static/engines/cryengine-5/categories/23756816/pages/23308482)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308428](
-Mannequin Concepts
-)
+[Mannequin Concepts](Mannequin%20Concepts.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308464](
-Technical Topics
-)
+[Technical Topics](Mannequin%20Technical%20Topics.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798746](
-Mannequin Debugging
-)
+[Mannequin Debugging](Mannequin%20Debugging.md)

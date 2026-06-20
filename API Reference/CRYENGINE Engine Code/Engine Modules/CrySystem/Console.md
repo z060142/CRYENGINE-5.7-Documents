@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [CVar Tutorial](Console/CVar Tutorial.md)
+- [CVar Tutorial](Console/CVar%20Tutorial.md)
 
 ## Content
 
@@ -87,9 +87,7 @@ Console Variables
 Console variables provide a convenient way to expose variables which can be modified easily by the user either by being entered in the console during runtime or by passing it as command-line argument before launching the application.
 
 More information on how to use command-line arguments can be found in the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/12746775](
-Command Line Arguments
-)
+[Command Line Arguments](/docs/static/engines/cryengine-3/categories/1114113/pages/12746775)
  article.
 
 Console variables are commonly referred to as
@@ -460,30 +458,12 @@ Code\CryEngine\CryCommon\CryCore\Project)
 **
  and recompile the engine.
 
-[#color-coding](
-Color coding
-)
-[#dumping-all-console-commands-and-variables](
-Dumping all console commands and variables
-)
-[#registering-new-console-variables](
-Registering new console variables
-)
-[#accessing-console-variables-from-c](
-Accessing console variables from C++
-)
-[#registering-a-new-variable-group](
-Registering a new variable group
-)
-[#console-variable-group-documentation](
-Console variable group documentation
-)
-[#checking-if-a-console-variable-group-value-represents-the-state-of-the-variables-it-controls](
-Checking if a console variable group value represents the state of the variables it controls
-)
-[#example](
-Example
-)
-[#details](
-Details
-)
+[Color coding](#color-coding)
+[Dumping all console commands and variables](#dumping-all-console-commands-and-variables)
+[Registering new console variables](#registering-new-console-variables)
+[Accessing console variables from C++](#accessing-console-variables-from-c)
+[Registering a new variable group](#registering-a-new-variable-group)
+[Console variable group documentation](#console-variable-group-documentation)
+[Checking if a console variable group value represents the state of the variables it controls](#checking-if-a-console-variable-group-value-represents-the-state-of-the-variables-it-controls)
+[Example](#example)
+[Details](#details)

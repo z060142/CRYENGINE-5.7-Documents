@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933579]
+![Image](https://www.cryengine.com/docs/static/attachments/29933579)
 
 ##
 Overview
@@ -17,17 +17,11 @@ Sections
 
 The HumanSkin shader is a specialized shader for rendering skin surfaces as skin shading cannot be accurately reproduced using regular lighting models.
 
-[Image: /docs/static/attachments/28898533]
+![Image](https://www.cryengine.com/docs/static/attachments/28898533)
 
-[#sections](
-Sections
-)
-[#shader-params](
-Shader Params
-)
-[#using-the-humanskin-shader](
-Using the HumanSkin shader
-)
+[Sections](#sections)
+[Shader Params](#shader-params)
+[Using the HumanSkin shader](#using-the-humanskin-shader)
 
 ##
 Shader Params
@@ -60,9 +54,7 @@ Displacement bias
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048776](
-Tessellation and Displacement
-)
+[Tessellation and Displacement](/docs/static/engines/cryengine-3/categories/1114113/pages/1048776)
  for more information.
 
  |
@@ -76,9 +68,7 @@ Displacement height scale
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048776](
-Tessellation and Displacement
-)
+[Tessellation and Displacement](/docs/static/engines/cryengine-3/categories/1114113/pages/1048776)
  for more information.
 
  |
@@ -92,9 +82,7 @@ Indirect bounce color
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048911](
-Illum Shader
-)
+[Illum Shader](/docs/static/engines/cryengine-3/categories/1114113/pages/1048911)
  for more information.
 
  |
@@ -132,9 +120,7 @@ Tessellation face cull
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048776](
-Tessellation and Displacement
-)
+[Tessellation and Displacement](/docs/static/engines/cryengine-3/categories/1114113/pages/1048776)
  for more information.
 
  |
@@ -148,9 +134,7 @@ Tessellation factor
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048776](
-Tessellation and Displacement
-)
+[Tessellation and Displacement](/docs/static/engines/cryengine-3/categories/1114113/pages/1048776)
  for more information.
 
  |
@@ -164,9 +148,7 @@ Tessellation factor max
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048776](
-Tessellation and Displacement
-)
+[Tessellation and Displacement](/docs/static/engines/cryengine-3/categories/1114113/pages/1048776)
  for more information.
 
  |
@@ -180,9 +162,7 @@ Tessellation factor min
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048776](
-Tessellation and Displacement
-)
+[Tessellation and Displacement](/docs/static/engines/cryengine-3/categories/1114113/pages/1048776)
  for more information.
 
  |
@@ -239,14 +219,14 @@ Gloss (Normalmap Alpha)
 
 On the large scale, the gloss map should capture how oily/shiny certain areas of e.g. a face are. This  Adding high contrast details will help to break up specular highlights and improve the look.
 
-[Image: /docs/static/attachments/28898535]
+![Image](https://www.cryengine.com/docs/static/attachments/28898535)
 
 ##
 Detail
 
 The selected map will be overlayed with the base normalmap – an easy way to add very high-frequency detail to a model and further break up specular highlights. Tiling can be controlled in the tiling subsection of the texture slot.
 
-[Image: /docs/static/attachments/28898534]
+![Image](https://www.cryengine.com/docs/static/attachments/28898534)
 
 Detail
 Detail normal map must be turned on in ‘Shader Generation Params’
@@ -256,14 +236,14 @@ Opacity Map (SubSurfaceScattering)
 
 The SSS map should represent thin areas of skin that can readily be penetrated by light (e.g. ears, nostrils, etc.). SSS maps can be either manually authored or baked with an appropriate tool (e.g. with version 3.18.6, xNormal introduced a feature to bake translucency maps)
 
-[Image: /docs/static/attachments/28898536]
+![Image](https://www.cryengine.com/docs/static/attachments/28898536)
 
 ##
 Decal
 
 Will overlay a secondary diffuse map (requires an alpha channel). This is useful to create variation of existing textures, e.g. add tattoos, warpaint or dirt.
 
-[Image: /docs/static/attachments/28898533]
+![Image](https://www.cryengine.com/docs/static/attachments/28898533)
 
 Decal
 Decal Map must be turned on in ‘Shader Generation Params’

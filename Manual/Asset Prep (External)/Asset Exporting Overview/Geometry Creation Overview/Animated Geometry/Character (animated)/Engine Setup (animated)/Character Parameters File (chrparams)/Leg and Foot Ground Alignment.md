@@ -14,7 +14,7 @@ CRYENGINE can automatically adjust the character's legs and feet to match the su
 
 This includes the foot aligning to the direct of the slope in addition to the leg adjusting to different heights.
 
-[Image: /docs/static/attachments/23994477]
+![Image](https://www.cryengine.com/docs/static/attachments/23994477)
 
 ##
 Setup in CRYENGINE 3.0.x-3.4.x
@@ -22,9 +22,7 @@ Setup in CRYENGINE 3.0.x-3.4.x
 Animated Character must be used for ground alignment and foot / leg IK to function. This means that simple entities like the animobj entity and others will not use this function. The character must be a live animated character, which can be accomplished by using the default player class or default AI classes such as human.
 
 The character's skeleton needs to have certain bones and names in order to make the groundAlignment work. This setup needs to be done in the character's
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307999](
-.chrparams
-)
+[.chrparams](../Character%20Parameters%20File%20(chrparams).md)
  file. Setups for both legs must be added to the file:
 
 ```
@@ -93,9 +91,7 @@ Bip01 planeWeightRight
 **
 2. Define the joints that will be affected in the .chrparams
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307999](
-
-)
+[/docs/static/engines/cryengine-5/categories/23756816/pages/23307999](../Character%20Parameters%20File%20(chrparams).md)
 **
 file.
 **
@@ -130,19 +126,19 @@ Bip01 planeWeightRight (This bone needs to be a child of the foot and sharing th
 
 -
 Bip01 planeTargetRight (This bone needs to be the same on the X and Y, but aligned to 0 on the Z, also a child to the Foot)
-[Image: /docs/static/attachments/23994481]
+![Image](https://www.cryengine.com/docs/static/attachments/23994481)
 
 *
 Plane Target Node in Center of Foot
 *
 
-[Image: /docs/static/attachments/23994480]
+![Image](https://www.cryengine.com/docs/static/attachments/23994480)
 
 *
 Plane Weight Node Aligned to Pelvis on Z , Zero on Y and Over the foot on X.
 *
 
-[Image: /docs/static/attachments/23994479]
+![Image](https://www.cryengine.com/docs/static/attachments/23994479)
 
 *
 Hierarchy setup display
@@ -171,7 +167,7 @@ a_poseAlignerDebugDraw = 1
 a_poseAlignerForceWeightOne = 1
 **
  Forces weight to 1 which causes the limb to always adjust
-[Image: /docs/static/attachments/23994482]
+![Image](https://www.cryengine.com/docs/static/attachments/23994482)
 
 ##
 Using GroundAlignment (3.0.x-3.4.x)
@@ -195,7 +191,7 @@ Animations::GroundAlignment
 
 This gives designers control over turning ground alignment on/off for individual characters at run-time.
 
-[Image: /docs/static/attachments/23994476]
+![Image](https://www.cryengine.com/docs/static/attachments/23994476)
 
 ##
 Code
@@ -225,12 +221,6 @@ GetEntity()->GetCharacter(0)->GetISkeletonPose()->EnableFootGroundAlignment(true
 
 ```
 
-[#setup-in-cryengine-30x-34x](
-Setup in CRYENGINE 3.0.x-3.4.x
-)
-[#setup-in-35x](
-Setup in 3.5.x
-)
-[#using-groundalignment-30x-34x](
-Using GroundAlignment (3.0.x-3.4.x)
-)
+[Setup in CRYENGINE 3.0.x-3.4.x](#setup-in-cryengine-30x-34x)
+[Setup in 3.5.x](#setup-in-35x)
+[Using GroundAlignment (3.0.x-3.4.x)](#using-groundalignment-30x-34x)

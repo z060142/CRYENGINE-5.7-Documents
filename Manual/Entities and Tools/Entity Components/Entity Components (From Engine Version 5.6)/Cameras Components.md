@@ -115,9 +115,5 @@ Far Plane
 Determines the maximum distance that the engine will start rendering from. (Example: 1 means the engine will render up to 1 m from the camera, so after 1m you will not see anything)
  |
 
-[#camera](
-Camera
-)
-[#roomscale-vr-camera](
-Roomscale VR Camera
-)
+[Camera](#camera)
+[Roomscale VR Camera](#roomscale-vr-camera)

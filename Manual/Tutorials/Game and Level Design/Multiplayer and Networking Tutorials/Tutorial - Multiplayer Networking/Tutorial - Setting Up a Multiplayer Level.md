@@ -17,9 +17,7 @@ Spawn Points
 
 Drag several
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796941](
-SpawnPoint
-)
+[SpawnPoint](../../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Legacy%20Entities/Others.md)
 **
  entities into your level and rotate them so that when players spawn they will have a clear view of their surroundings.
 
@@ -32,7 +30,7 @@ Entity\Others\SpawnPoint
 Pic1: SpawnPoint placed
 *
 
-[Image: /docs/static/attachments/44970998]
+![Image](https://www.cryengine.com/docs/static/attachments/44970998)
 
 ##
 Pickups
@@ -53,7 +51,7 @@ Create Object
 Pic2: Weapon added
 *
 
-[Image: /docs/static/attachments/44970999]
+![Image](https://www.cryengine.com/docs/static/attachments/44970999)
 
 For Weapons and AmmoPickups entities, in the
 **
@@ -114,7 +112,7 @@ After dragging the entity into the Perspective view, link the SpawnGroup to as m
 Pic3: Linking the SpawnGroup to SpawnPoints
 *
 
-[Image: /docs/static/attachments/44971000]
+![Image](https://www.cryengine.com/docs/static/attachments/44971000)
 
 Next, it is important to rename the link as "Spawn" or "SpawnGroup".
 
@@ -122,7 +120,7 @@ Next, it is important to rename the link as "Spawn" or "SpawnGroup".
 Pic4: Providing a link name
 *
 
-[Image: /docs/static/attachments/44971001]
+![Image](https://www.cryengine.com/docs/static/attachments/44971001)
 
 Now set up a second SpawnGroup for the other group of SpawnPoints.
 
@@ -135,7 +133,7 @@ Drag and drop the spectator point entity from the multiplayer entities to import
 Pic5: Placing a Spectator points.
 *
 
-[Image: /docs/static/attachments/44971002]
+![Image](https://www.cryengine.com/docs/static/attachments/44971002)
 
 When players connect to a server their cameras will travel to the spectator point. Spectator Points can be found in the Entity section in the Multiplayer directory.
 
@@ -158,45 +156,25 @@ material to the designer objects so it's only rendered in the editor and not in 
 MiniMap
 
 Please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534556](
-Terrain Minimaps
-)
+[Terrain Minimaps](../../../../Editor%20Tools/Terrain%20Editor/Terrain%20Minimaps.md)
  section for help creating a Mini Map. Setting up a multiplayer specific UI, however, is beyond the scope of this tutorial.
 
 ##
 Multiplayer Map Game Setup
 
 Export the level to the game engine, so you can to see your level in its most up to date version in real game mode. For help exporting a level, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535306](
-Exporting a Level for Playing
-)
+[Exporting a Level for Playing](../../../../Packaging%20and%20Deployment/Exporting%20a%20Level%20for%20Playing.md)
  tutorial.
 
 Please see
 
-[/docs/static/engines/cryengine-3/categories/1638401/pages/8323113](
-Level XML setup
-)
+[Level XML setup](/docs/static/engines/cryengine-3/categories/1638401/pages/8323113)
  for more information on setting up the level .XML file.
 
-[#spawn-points](
-Spawn Points
-)
-[#pickups](
-Pickups
-)
-[#placing-spawngroups](
-Placing SpawnGroups
-)
-[#placing-spectatorpoints](
-Placing SpectatorPoints
-)
-[#blocking-players-from-leaving-the-game-area](
-Blocking Players from Leaving the Game Area
-)
-[#minimap](
-MiniMap
-)
-[#multiplayer-map-game-setup](
-Multiplayer Map Game Setup
-)
+[Spawn Points](#spawn-points)
+[Pickups](#pickups)
+[Placing SpawnGroups](#placing-spawngroups)
+[Placing SpectatorPoints](#placing-spectatorpoints)
+[Blocking Players from Leaving the Game Area](#blocking-players-from-leaving-the-game-area)
+[MiniMap](#minimap)
+[Multiplayer Map Game Setup](#multiplayer-map-game-setup)

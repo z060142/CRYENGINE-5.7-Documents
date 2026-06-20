@@ -7,17 +7,15 @@
 
 ## Child Pages
 
-- [Important CRYENGINE 5.4 Data and Code Changes](CRYENGINE 5.4.0/Important CRYENGINE 5.4 Data and Code Changes.md)
-- [Migrating from CRYENGINE 5.3 to CRYENGINE 5.4](CRYENGINE 5.4.0/Migrating from CRYENGINE 5.3 to CRYENGINE 5.4.md)
-- [Third Party SDKs in 5.4.0](CRYENGINE 5.4.0/Third Party SDKs in 5.4.0.md)
+- [Important CRYENGINE 5.4 Data and Code Changes](CRYENGINE%205.4.0/Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes.md)
+- [Migrating from CRYENGINE 5.3 to CRYENGINE 5.4](CRYENGINE%205.4.0/Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4.md)
+- [Third Party SDKs in 5.4.0](CRYENGINE%205.4.0/Third%20Party%20SDKs%20in%205.4.0.md)
 
 ## Content
 
-[Image: /docs/static/attachments/44962689]
+![Image](https://www.cryengine.com/docs/static/attachments/44962689)
 
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/44962678]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44962678)](https://www.cryengine.com/support)
 
 ##
 5.4 Overview
@@ -31,9 +29,7 @@ new Vulkan API support and an Entity Components feature (including some Use Case
 
 Carrying on we have also introduced a Pull Request facility through GitHub which allows our fantastic CRYENGINE Community to collaborate with us on improving CRYENGINE. Finally, we have also introduced a Substance Viewport Shader, a Photoshop Ultimate Texture Saver, over 30 new Particle Presets, several new Anti-Aliasing techniques, Object Linking through the Level Explorer and last but not least some updated documentation for the Project Launcher Tools. So we are sure that you cannot wait to get started - so go and get CRYENGINE 5.4 on Github
 **
-[https://github.com/CRYTEK/CRYENGINE](
- HERE!
-)
+[HERE!](https://github.com/CRYTEK/CRYENGINE)
 **
 
 ##
@@ -62,65 +58,31 @@ ochounos
 ##
 Sections
 
-[#54-overview](
-5.4 Overview
-)
-[#contributors](
-Contributors
-)
-[#sections](
-Sections
-)
-[#code-interface-changes](
-Code Interface Changes
-)
-[#release-highlights](
-Release Highlights
-)
-[#animation](
-Animation
-)
-[#ai](
-AI
-)
-[#audio](
-Audio
-)
-[#coresystem](
-Core/System
-)
-[#graphics-and-rendering](
-Graphics and Rendering
-)
-[#physics](
-Physics
-)
-[#project-system](
-Project System
-)
-[#sandbox](
-Sandbox
-)
-[#tools](
-Tools
-)
+[5.4 Overview](#54-overview)
+[Contributors](#contributors)
+[Sections](#sections)
+[Code Interface Changes](#code-interface-changes)
+[Release Highlights](#release-highlights)
+[Animation](#animation)
+[AI](#ai)
+[Audio](#audio)
+[Core/System](#coresystem)
+[Graphics and Rendering](#graphics-and-rendering)
+[Physics](#physics)
+[Project System](#project-system)
+[Sandbox](#sandbox)
+[Tools](#tools)
 
 ##
 Code Interface Changes
 
 For more information, see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962696](
-Important CRYENGINE 5.4 Data and Code Changes
-)
+[Important CRYENGINE 5.4 Data and Code Changes](CRYENGINE%205.4.0/Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes.md)
 article.
 
 If you are upgrading from CRYENGINE 5.3, please read this topic:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962697](
-Migrating from CRYENGINE 5.3 to CRYENGINE 5.4
-)
-[/docs](
-.
-)
+[Migrating from CRYENGINE 5.3 to CRYENGINE 5.4](CRYENGINE%205.4.0/Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4.md)
+[.](/docs)
 
 ##
 Release Highlights
@@ -133,9 +95,7 @@ Both internally and externally we have seen the industry embrace the concept of 
 With this integration we are using Substance Archive files (*.sbsar) to create Substance Graph instances and generate textures out of them. The important thing to keep in mind is that CRYENGINE implementation doesn't directly output graph outputs from a substance graph, but rather pre-configured texture outputs that are using substance graph outputs as inputs. It is also important to keep in mind that the archive still needs to be built inside of the Substance Designer where the properties are then exposed to the Sandbox Editor through the archive for the modular end result.
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44968527](
-Allegorithmic Substance Documentation
-)
+[Allegorithmic Substance Documentation](../../../../Manual/Editor%20Tools/Substance.md)
 **
 
 ##
@@ -153,15 +113,11 @@ Additionally, we have enabled in-shader auto high-pass in release 5.4 - this eli
 You can even extend this further by using the new "Use Original Diffuse Map" material flag which allows you to completely match the look of terrain materials and object materials.
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849146](
-Terrain Editor
-)
+[Terrain Editor](../../../../Manual/Editor%20Tools/Terrain%20Editor.md)
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29799251](
-Terrain Object Blending
-)
+[Terrain Object Blending](../../../../Manual/Editor%20Tools/Terrain%20Editor/Terrain%20Object%20Blending.md)
 **
 
 ##
@@ -179,12 +135,10 @@ into your system.cfg or add
 “name”: “r_driver”, “value”: “vk” to the “console_variables” part of the .cryproject file. Do k
 eep in mind that you must also run the remote shader compiler locally as the renderer is dependent on this step.
 
-[Image: /docs/static/attachments/44962677]
+![Image](https://www.cryengine.com/docs/static/attachments/44962677)
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594203](
-Vulkan Support in CRYENGINE Documentation
-)
+[Vulkan Support in CRYENGINE Documentation](../../../../Manual/Beta%20Features/Vulkan%20Support%20in%20CRYENGINE.md)
 **
 
 ##
@@ -196,24 +150,18 @@ The interaction model (within the Sandbox Editor) allows Developers the ability 
 
 To help the community get to grips with the newly introduced Entity Components feature our Developers have written some Entity Component Use Case documentation. CRYENGINE users may be particularly interested in the two Combining Components Use Cases 1 RigidBody and Particles & 2 Collectibles and PowerUps that show how different Components can be combined to create some great effects. The documentation will be expanded on over the coming months, so keep your eyes peeled for further updates.
 
-[Image: /docs/static/attachments/44962695]
+![Image](https://www.cryengine.com/docs/static/attachments/44962695)
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28181705](
-Entity Component Use Case Documentation
-)
-**
-
-**
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28181839](
-1: RigidBody and Particles Documentation
-)
+[Entity Component Use Case Documentation](../../../../Manual/Tutorials/Game%20and%20Level%20Design/Entity%20Component%20Tutorials.md)
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28182054](
-2: Collectibles and PowerUps Documentation
-)
+[1: RigidBody and Particles Documentation](../../../../Manual/Tutorials/Game%20and%20Level%20Design/Entity%20Component%20Tutorials/Tutorial%20-%20Combining%20Components%201%20-%20RigidBody%20and%20Particles.md)
+**
+
+**
+[2: Collectibles and PowerUps Documentation](../../../../Manual/Tutorials/Game%20and%20Level%20Design/Entity%20Component%20Tutorials/Tutorial%20-%20Combining%20Components%202%20-%20Collectibles%20and%20PowerUps.md)
 **
 
 ##
@@ -227,12 +175,10 @@ Robinson: The Journey
 
 This feature provides Artists with much more control over detail bending of their tree branches. For example, this new bending feature allows not only small micro movement of leaves, but also whole branches of trees or chunks of grass. So for example Artists can now have one large clump of grass with phased animations, this allows movement to look much more natural. Aiding in the variations we also apply a world-space mapped noise texture to simulate random breeze for even greater variation in movement.
 
-[Image: /docs/static/attachments/44962694]
+![Image](https://www.cryengine.com/docs/static/attachments/44962694)
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449329](
-Vegetation Shader Documentation
-)
+[Vegetation Shader Documentation](../../../../Manual/Graphics%20%26%20Rendering/Shaders/Shaders%20in%20CRYENGINE/Shader%20Reference/Vegetation%20Shader.md)
 **
 
 ##
@@ -249,12 +195,10 @@ Carrying on with our Launcher improvements, we have also expanded our selection 
 
 We expect to add more templates to CRYENGINE in future releases, this will not only demo the beginning part of making a game, but also show finalized examples that guide you through each phase of game development.
 
-[Image: /docs/static/attachments/44962693]
+![Image](https://www.cryengine.com/docs/static/attachments/44962693)
 
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26874562](
-C# Game Templates Documentation
-)
+[C# Game Templates Documentation](../../../../API%20Reference/CRYENGINE%20Code%20Tutorials/C%23%20Programming/C%23%20Game%20Templates.md)
 **
 
 ##
@@ -266,12 +210,10 @@ In release 5.4 we have also introduced an all-new Dependency Graph to aid in the
 
 We have also exposed dynamic CGF switching functionality, this has the added benefit of not only having a direct thumbnail view (to preview an asset), but also the ability to select the asset that best suits your needs. This development also allows you to step down the list of assets and thus helps in finding best asset for your given scenario.
 
-[Image: /docs/static/attachments/44962692]
+![Image](https://www.cryengine.com/docs/static/attachments/44962692)
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-Asset System Documentation
-)
+[Asset System Documentation](../../../../Manual/Editor%20Tools/Asset%20Browser.md)
 **
 
 ##
@@ -286,24 +228,18 @@ We have also written some CRYENGINE documentation to assist the CRYENGINE commun
 
 We also want to take this opportunity to say a massive thank you to all of our CRYENGINE Community members for their contributions in helping us to develop the Engine. Please keep your feedback coming, (but through the normal channels).
 
-[Image: /docs/static/attachments/44962687]
+![Image](https://www.cryengine.com/docs/static/attachments/44962687)
 
 **
-[https://www.cryengine.com/news/cryengine-github-pull-requests-are-go-here-s-what-you-need-to-know](
-CRYENGINE Pull Requests
-)
-**
-
-**
-[https://help.github.com/articles/creating-a-pull-request/](
-GitHub Pull Request Documentation
-)
+[CRYENGINE Pull Requests](https://www.cryengine.com/news/cryengine-github-pull-requests-are-go-here-s-what-you-need-to-know)
 **
 
 **
-[/docs](
-CRYENGINE Pull Request Submission Documentation
-)
+[GitHub Pull Request Documentation](https://help.github.com/articles/creating-a-pull-request/)
+**
+
+**
+[CRYENGINE Pull Request Submission Documentation](/docs)
 **
 
 **
@@ -315,12 +251,10 @@ Substance Viewport Shader
 
 Also in release 5.4 we bring you a custom Substance Shader that has been designed to match the viewport shading of Allegorithmic's Substance Designer and Painter software. To download the tool and for more general information follow the link underneath the image on the right.
 
-[Image: /docs/static/attachments/44962686]
+![Image](https://www.cryengine.com/docs/static/attachments/44962686)
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450470](
-Substance - CRYENGINE Shader Documentation
-)
+[Substance - CRYENGINE Shader Documentation](../../../../Manual/Editor%20Tools/Substance/Substance%20-%20CRYENGINE%20Shader.md)
 **
 
 **
@@ -336,13 +270,11 @@ link on the right
 . We hope you can enjoy the luxury of handling seamlessly all your texture maps under one Photoshop file.
 
 **
-[Image: /docs/static/attachments/44962688]
+![Image](https://www.cryengine.com/docs/static/attachments/44962688)
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29799056](
-Photoshop - Ultimate Texture Saver Documentation
-)
+[Photoshop - Ultimate Texture Saver Documentation](../../../../Manual/Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Texture%20Creation%20Overview/Ultimate%20Texture%20Saver.md)
 **
 
 **
@@ -357,14 +289,12 @@ Also in release 5.4 we bring you the Particle Editor Presets Library. This new f
 For more detailed information on the Particle Editor Presets Library follow the link on the right.
 
 **
-[Image: /docs/static/attachments/44962685]
+![Image](https://www.cryengine.com/docs/static/attachments/44962685)
 
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869024](
-Particle Presets Library Documentation
-)
+[Particle Presets Library Documentation](../../../../Manual/Editor%20Tools/Particle%20Editor/Particle%20Presets%20Library.md)
 **
 
 **
@@ -393,14 +323,12 @@ Supersampling
 For more information on Anti-Aliasing follow the link on the right.
 
 **
-[Image: /docs/static/attachments/44962682]
+![Image](https://www.cryengine.com/docs/static/attachments/44962682)
 
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872518](
-Anti-Aliasing Documentation
-)
+[Anti-Aliasing Documentation](../../../../Manual/Post-processing/Anti-Aliasing.md)
 
 **
 
@@ -411,14 +339,12 @@ Also added you can now add
 objects to a group and link them through the Level Explorer, for more information watch the GIF or follow the link on the right.
 
 **
-[Image: /docs/static/attachments/44962684]
+![Image](https://www.cryengine.com/docs/static/attachments/44962684)
 
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866230](
-Object Linking in the Level Explorer
-)
+[Object Linking in the Level Explorer](../../../../Manual/Editor%20Tools/Level%20Editor%20Tab/Level%20Explorer/Object%20Linking.md)
 **
 
 **
@@ -431,14 +357,12 @@ Project Launcher Tools Updated Documentation
 Finally, in release 5.4 we bring you some updated documentation for the Project Launcher Tools. We have focused in particular on the Package Build command that now allows you to redistribute your files quicker without having to wonder what to add and remove in your final build. For more information follow the link on the right.
 
 **
-[Image: /docs/static/attachments/44962683]
+![Image](https://www.cryengine.com/docs/static/attachments/44962683)
 
 **
 
 **
-[/docs](
-Project Launcher Tools Documentation
-)
+[Project Launcher Tools Documentation](/docs)
 **
 
 **

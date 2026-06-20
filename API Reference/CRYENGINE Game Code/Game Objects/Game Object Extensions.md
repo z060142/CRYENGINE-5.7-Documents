@@ -33,9 +33,7 @@ class CNewGameObjectExt
 A third CGameObjectExtensionHelper parameter is available, and denotes the maximum number of
 **
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306395](
-RMIs
-)
+[RMIs](../../CRYENGINE%20Engine%20Code/Engine%20Modules/CryNetwork/RMI%20Functions.md)
 **
 supported by this game object.
 

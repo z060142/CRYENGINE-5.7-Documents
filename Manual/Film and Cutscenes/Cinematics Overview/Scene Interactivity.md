@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Cinematic Force Feedback](Scene Interactivity/Cinematic Force Feedback.md)
-- [Controlled Event Blending](Scene Interactivity/Controlled Event Blending.md)
-- [Track Events](Scene Interactivity/Track Events.md)
+- [Cinematic Force Feedback](Scene%20Interactivity/Cinematic%20Force%20Feedback.md)
+- [Controlled Event Blending](Scene%20Interactivity/Controlled%20Event%20Blending.md)
+- [Track Events](Scene%20Interactivity/Track%20Events.md)
 
 ## Content
 
@@ -17,16 +17,10 @@
 In This Section
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874136](
-Cinematic Force Feedback
-)
+[Cinematic Force Feedback](Scene%20Interactivity/Cinematic%20Force%20Feedback.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874176](
-Controlled Event Blending
-)
+[Controlled Event Blending](Scene%20Interactivity/Controlled%20Event%20Blending.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535447](
-Track Events
-)
+[Track Events](Scene%20Interactivity/Track%20Events.md)

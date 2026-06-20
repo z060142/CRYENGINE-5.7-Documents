@@ -33,7 +33,7 @@ Separate water fog passes have been merged into water surface rendering for opti
 
 -
 One final small step forward was unifying water rendering, this means ocean, water volumes and rivers can go through same final rendering path - which will be easier for artists/designers to use since both are setup in the same way.
-[Image: /docs/static/attachments/35402168]
+![Image](https://www.cryengine.com/docs/static/attachments/35402168)
 
  |
 
@@ -41,7 +41,7 @@ Water rendering in action for high spec. Vertex displacement gives an extra visu
 
  |
 
-[Image: /docs/static/attachments/35402169]
+![Image](https://www.cryengine.com/docs/static/attachments/35402169)
 
  |
 
@@ -49,7 +49,7 @@ Water rendering in action for consoles specs, using parallax approximation
 
  |
 
-[Image: /docs/static/attachments/35402170]
+![Image](https://www.cryengine.com/docs/static/attachments/35402170)
 
  |
 
@@ -64,10 +64,10 @@ Notice where does main water color/look comes from: It's all coming from reflect
 
 This means never try to achieve water color/look just with reflection, it's a sum of both.
 
-[Image: /docs/static/attachments/35402171]
+![Image](https://www.cryengine.com/docs/static/attachments/35402171)
 
  |
-[Image: /docs/static/attachments/35402172]
+![Image](https://www.cryengine.com/docs/static/attachments/35402172)
 
  |
 
@@ -238,9 +238,7 @@ Fresnel Gloss
  |
 The gloss of the Fresnel effect.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449070](
-Illum Shader
-)
+[Illum Shader](Illum%20Shader.md)
  for more information. For water, a good value is 0.05 (default value).
 
  |
@@ -429,13 +427,13 @@ Every parameter is straightforward to use, and what the name says is basically w
 
 Some examples of look:
 
-[Image: /docs/static/attachments/35402175]
+![Image](https://www.cryengine.com/docs/static/attachments/35402175)
 
  |
-[Image: /docs/static/attachments/35402176]
+![Image](https://www.cryengine.com/docs/static/attachments/35402176)
 
  |
-[Image: /docs/static/attachments/35402177]
+![Image](https://www.cryengine.com/docs/static/attachments/35402177)
 
  |
 
@@ -458,13 +456,13 @@ Tiling
 
  |
 
-[Image: /docs/static/attachments/35402179]
+![Image](https://www.cryengine.com/docs/static/attachments/35402179)
 
  |
-[Image: /docs/static/attachments/35402180]
+![Image](https://www.cryengine.com/docs/static/attachments/35402180)
 
  |
-[Image: /docs/static/attachments/35402181]
+![Image](https://www.cryengine.com/docs/static/attachments/35402181)
 
  |
 
@@ -493,13 +491,13 @@ Too little, kills look
 
  |
 
-[Image: /docs/static/attachments/35402182]
+![Image](https://www.cryengine.com/docs/static/attachments/35402182)
 
  |
-[Image: /docs/static/attachments/35402184]
+![Image](https://www.cryengine.com/docs/static/attachments/35402184)
 
  |
-[Image: /docs/static/attachments/35402185]
+![Image](https://www.cryengine.com/docs/static/attachments/35402185)
 
  |
 

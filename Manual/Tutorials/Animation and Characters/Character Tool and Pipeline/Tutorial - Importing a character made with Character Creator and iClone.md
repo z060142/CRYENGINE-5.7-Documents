@@ -26,7 +26,7 @@ File → Export → Export FBX
 **
 . You'll see this window appear:
 
-[Image: /docs/static/attachments/56656587]
+![Image](https://www.cryengine.com/docs/static/attachments/56656587)
 
 *
 Export FBX window
@@ -110,7 +110,7 @@ You don't need to open a level first to do this.
 This may take a while.
 You will see that this has created several assets; a .cdf file (which is the main tool for the character), a material file, a skeleton, a .cgf file, several skin files and the animations:
 
-[Image: /docs/static/attachments/56656589]
+![Image](https://www.cryengine.com/docs/static/attachments/56656589)
 
 *
 Character asset files
@@ -140,7 +140,7 @@ Characters → objects → character
 
 The character will probably be in a T-pose, and you'll see that all the skin attachments are already attached to your character:
 
-[Image: /docs/static/attachments/56656592]
+![Image](https://www.cryengine.com/docs/static/attachments/56656592)
 
 *
 Skin attachments attached
@@ -154,7 +154,7 @@ Asset panel → Animations (objects/character/)
 , you'll see that the facial animations aren't quite right. That's because the skin weights haven't been converted to a different skinning method yet.
 You'll see this when you check under Scene Parameters → Blend Shapes:
 
-[Image: /docs/static/attachments/56656593]
+![Image](https://www.cryengine.com/docs/static/attachments/56656593)
 
 *
 Skin weights not converted
@@ -241,7 +241,7 @@ Materials List
 **
 :
 
-[Image: /docs/static/attachments/56656595]
+![Image](https://www.cryengine.com/docs/static/attachments/56656595)
 
 *
 Eyelashes in Materials List
@@ -258,7 +258,7 @@ Launch Texture
 **
 :
 
-[Image: /docs/static/attachments/56656596]
+![Image](https://www.cryengine.com/docs/static/attachments/56656596)
 
 *
 Launch Texture
@@ -277,7 +277,7 @@ CTRL + C
 **
 ) and switch back to the already opened diffuse texture at the top:
 
-[Image: /docs/static/attachments/56656598]
+![Image](https://www.cryengine.com/docs/static/attachments/56656598)
 
 *
 Switching to diffuse texture
@@ -286,7 +286,7 @@ Switching to diffuse texture
 -
 Go into Channels and create a new Alpha channel:
 
-[Image: /docs/static/attachments/56656599]
+![Image](https://www.cryengine.com/docs/static/attachments/56656599)
 
 *
 Create new Alpha channel
@@ -326,7 +326,7 @@ Std_Skin_Head
 *
 ):
 
-[Image: /docs/static/attachments/56656600]
+![Image](https://www.cryengine.com/docs/static/attachments/56656600)
 
 *
 Head in Materials List
@@ -407,9 +407,7 @@ Alpha Test
  until it looks the way you want.
 
 Under
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448981#HairShader-HairShaderParams](
-Shader Params
-)
+[Shader Params](../../../Graphics%20%26%20Rendering/Shaders/Shaders%20in%20CRYENGINE/Shader%20Reference/Hair%20Shader.md#HairShader-HairShaderParams)
 , there are more properties you can use to adjust the look of the eyelashes.
 For the eyelashes, it is a good idea to enable
 **
@@ -462,138 +460,91 @@ Video Tutorial
 Topic index:
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=0s](
-0:00
-)
+[0:00](https://www.youtube.com/watch?v=15n6VfXVcMY&t=0s)
  Introduction
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=147s](
-2:27
-)
+[2:27](https://www.youtube.com/watch?v=15n6VfXVcMY&t=147s)
  Creating a character and adjusting some morphs
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=204s](
-3:24
-)
+[3:24](https://www.youtube.com/watch?v=15n6VfXVcMY&t=204s)
 
 Changing cloth
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=245s](
-4:05
-)
+[4:05](https://www.youtube.com/watch?v=15n6VfXVcMY&t=245s)
  Edit mesh of clipping cloth parts
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=340s](
-5:40
-)
+[5:40](https://www.youtube.com/watch?v=15n6VfXVcMY&t=340s)
 
 Smoothing meshes of the character
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=360s](
-6:00
-)
+[6:00](https://www.youtube.com/watch?v=15n6VfXVcMY&t=360s)
 
 Setting up a pose to check for additional clipping issues
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=449s](
-7:29
-)
+[7:29](https://www.youtube.com/watch?v=15n6VfXVcMY&t=449s)
 
 Introduction to the appearance editor
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=497s](
-8:17
-)
+[8:17](https://www.youtube.com/watch?v=15n6VfXVcMY&t=497s)
 
 Introduction to the material editor in CC3
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=559s](
-9:19
-)
+[9:19](https://www.youtube.com/watch?v=15n6VfXVcMY&t=559s)
 
 Introduction to iClone
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=590s](
-9:50
-)
+[9:50](https://www.youtube.com/watch?v=15n6VfXVcMY&t=590s)
 
 Assign a base animation
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=640s](
-10:40
-)
+[10:40](https://www.youtube.com/watch?v=15n6VfXVcMY&t=640s)
 
 Creating facial animations
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=695s](
-11:35
-)
+[11:35](https://www.youtube.com/watch?v=15n6VfXVcMY&t=695s)
  Export and Import as FBX to CRYENGINE
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=825s](
-13:45
-)
+[13:45](https://www.youtube.com/watch?v=15n6VfXVcMY&t=825s)
  Character Tool, playing the animations with blendshapes
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=895s](
-14:55
-)
+[14:55](https://www.youtube.com/watch?v=15n6VfXVcMY&t=895s)
  Play the character with animations in the editor
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=931s](
-15:31
-)
+[15:31](https://www.youtube.com/watch?v=15n6VfXVcMY&t=931s)
  Adjusting proper settings on some materials and textures
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=960s](
-16:00
-)
+[16:00](https://www.youtube.com/watch?v=15n6VfXVcMY&t=960s)
  Deleting textures we don’t need in our engine directory
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=998s](
-16:38
-)
+[16:38](https://www.youtube.com/watch?v=15n6VfXVcMY&t=998s)
  Going through the alpha channel workflow for albedo maps with opacity
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=1085s](
-18:05
-)
+[18:05](https://www.youtube.com/watch?v=15n6VfXVcMY&t=1085s)
  Creating a glossmap within an alpha channel of a normal map
 
 -
-[https://www.youtube.com/watch?v=15n6VfXVcMY&t=1140s](
-19:00
-)
+[19:00](https://www.youtube.com/watch?v=15n6VfXVcMY&t=1140s)
  Setting up the correct shader types for hair and skin
-[#exporting-the-character-from-iclone](
-Exporting the Character from iClone
-)
-[#importing-the-character-to-cryengine](
-Importing the Character to CRYENGINE
-)
-[#setting-your-character-up-correctly](
-Setting Your Character Up Correctly
-)
-[#tweaking-the-eyelashes-and-hair-materials-in-cryengine](
-Tweaking the Eyelashes and Hair Materials in CRYENGINE
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=15n6VfXVcMY&feature=youtu.be]
+[Exporting the Character from iClone](#exporting-the-character-from-iclone)
+[Importing the Character to CRYENGINE](#importing-the-character-to-cryengine)
+[Setting Your Character Up Correctly](#setting-your-character-up-correctly)
+[Tweaking the Eyelashes and Hair Materials in CRYENGINE](#tweaking-the-eyelashes-and-hair-materials-in-cryengine)
+[Video Tutorial](#video-tutorial)

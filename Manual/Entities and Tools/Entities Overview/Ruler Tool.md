@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934095]
+![Image](https://www.cryengine.com/docs/static/attachments/29934095)
 
 ##
 Overview
@@ -17,12 +17,10 @@ Sections
 
 The Ruler Tool allows to measure the length of segmented objects like roads, rivers, and paths. Measuring of a segment is done by following the shape of each point. Visually the measured path is shown with a grey line and then has two grey dots for the beginning and end segments.
 
-[#sections](
-Sections
-)
-[#sandbox-use](
-Sandbox Use
-)
+[Embed: https://vimeo.com/280326479]
+
+[Sections](#sections)
+[Sandbox Use](#sandbox-use)
 
 ##
 Sandbox Use
@@ -54,6 +52,6 @@ Level -> Ruler
 **
 :
 
-[Image: /docs/static/attachments/35412577]
+![Image](https://www.cryengine.com/docs/static/attachments/35412577)
 
-[Image: /docs/static/attachments/35412579]
+![Image](https://www.cryengine.com/docs/static/attachments/35412579)

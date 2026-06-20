@@ -17,13 +17,9 @@ This article is aimed at easing migration of projects from CRYENGINE 5.1 to CRYE
 CRYENGINE 5.0:
 
 Although CRYENGINE 5.0 development focused on new features, it also refined some existing features to ease client interaction with CRYENGINE. Examples of which are the data driven thread manager; unifying all existing thread managers and changes to the way windows.h is included as well as a cleanup of outdated defines. For a full list of changes please see:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962650](
-Important CRYENGINE 5.2 Data and Code Changes
-)
+[Important CRYENGINE 5.2 Data and Code Changes](Important%20CRYENGINE%205.2%20Data%20and%20Code%20Changes.md)
 .
-[/docs](
-
-)
+[/docs](/docs)
 
 CRYENGINE 5.2:
 

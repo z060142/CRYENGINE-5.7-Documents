@@ -12,12 +12,12 @@ Overview
 
 The Components panel contains all of the available Components that can be applied to an Entity. This article details the individual settings for each of the Components.
 
-[Image: /docs/static/attachments/28248338]
+![Image](https://www.cryengine.com/docs/static/attachments/28248338)
 
 ##
 Transformation
 
-[Image: /docs/static/attachments/28248339]
+![Image](https://www.cryengine.com/docs/static/attachments/28248339)
 
 Many of the components have a Transform setting. This allows their position and orientation to be offset from the entity they are attached to, while still following it.
 
@@ -50,7 +50,7 @@ The scale offset in relation to the entity. The linking symbol locks the scaling
 ##
 AI - Pathfinder
 
-[Image: /docs/static/attachments/28248340]
+![Image](https://www.cryengine.com/docs/static/attachments/28248340)
 
 Setting
  |
@@ -67,7 +67,7 @@ Maximum possible physical acceleration that the AI entity can move at.
 ##
 Audio - Listener
 
-[Image: /docs/static/attachments/28248341]
+![Image](https://www.cryengine.com/docs/static/attachments/28248341)
 
 Setting
  |
@@ -98,7 +98,7 @@ The scale offset in relation to the entity. The linking symbol locks the scaling
 ##
 Audio - Trigger
 
-[Image: /docs/static/attachments/28248342]
+![Image](https://www.cryengine.com/docs/static/attachments/28248342)
 
 **
 Setting
@@ -140,7 +140,7 @@ Stops the PlayTrigger if no StopTrigger assigned - otherwise executes the StopTr
 ##
 Cameras - Camera
 
-[Image: /docs/static/attachments/28248343]
+![Image](https://www.cryengine.com/docs/static/attachments/28248343)
 
 Setting
  |
@@ -192,7 +192,7 @@ The scale offset in relation to the entity. The linking symbol locks the scaling
 ##
 Debug - Debug Draw
 
-[Image: /docs/static/attachments/28248344]
+![Image](https://www.cryengine.com/docs/static/attachments/28248344)
 
 Setting
  |
@@ -238,7 +238,7 @@ The font size of the persistent text.
 Effects - Fog Volume
 
 *
-[Image: /docs/static/attachments/28248345]
+![Image](https://www.cryengine.com/docs/static/attachments/28248345)
 
 *
 
@@ -342,7 +342,7 @@ Scales the density distribution along the fall off direction. Higher values will
 Effects - Decal
 
 *
-[Image: /docs/static/attachments/28248346]
+![Image](https://www.cryengine.com/docs/static/attachments/28248346)
 
 *
 
@@ -397,7 +397,7 @@ Sorting priority - used to resolve depth issues with other decals.
 Effects - Particle Emitter
 
 *
-[Image: /docs/static/attachments/28248347]
+![Image](https://www.cryengine.com/docs/static/attachments/28248347)
 
 *
 
@@ -466,7 +466,7 @@ Advances emitter age to its equilibrium state.
 General - SensorVolume
 
 *
-[Image: /docs/static/attachments/28248348]
+![Image](https://www.cryengine.com/docs/static/attachments/28248348)
 
 *
 
@@ -507,7 +507,7 @@ Determines to which attribute we want to listen. You will only receive signals f
 Geometry - Animated Mesh
 
 *
-[Image: /docs/static/attachments/28248349]
+![Image](https://www.cryengine.com/docs/static/attachments/28248349)
 
 *
 
@@ -601,7 +601,7 @@ Density of the object
 Geometry - Advanced Animations
 
 *
-[Image: /docs/static/attachments/28248350]
+![Image](https://www.cryengine.com/docs/static/attachments/28248350)
 
 *
 
@@ -723,7 +723,7 @@ Note: Density cannot be set at the same time as mass.
 Geometry - Alembic Mesh
 
 *
-[Image: /docs/static/attachments/28248351]
+![Image](https://www.cryengine.com/docs/static/attachments/28248351)
 
 *
 
@@ -743,7 +743,7 @@ The geom cache file (.abc or .cbc) to load.
 Mesh
 
 *
-[Image: /docs/static/attachments/28248352]
+![Image](https://www.cryengine.com/docs/static/attachments/28248352)
 
 *
 
@@ -824,7 +824,7 @@ cannot be set at the same time as mass.
 Lights - Environment Probe
 
 *
-[Image: /docs/static/attachments/28248353]
+![Image](https://www.cryengine.com/docs/static/attachments/28248353)
 
 *
 
@@ -957,7 +957,7 @@ Generates a cube map with the specified resolution (Editor only).
 Lights - Point Light
 
 *
-[Image: /docs/static/attachments/28248354]
+![Image](https://www.cryengine.com/docs/static/attachments/28248354)
 
 *
 
@@ -1095,7 +1095,7 @@ Lights - Projector Light
 *
 *
 *
-[Image: /docs/static/attachments/28248355]
+![Image](https://www.cryengine.com/docs/static/attachments/28248355)
 
 *
 *
@@ -1262,7 +1262,7 @@ The animation speed of the light.
 Physics - Box Collider
 
 *
-[Image: /docs/static/attachments/28248356]
+![Image](https://www.cryengine.com/docs/static/attachments/28248356)
 *
 *
 
@@ -1312,7 +1312,7 @@ Surface type assigned to this object - determines its physical properties.
 Physics - Character Controller
 
 *
-[Image: /docs/static/attachments/28248358]
+![Image](https://www.cryengine.com/docs/static/attachments/28248358)
 
 *
 
@@ -1430,7 +1430,7 @@ Maximum velocity of the surface the character is on before they are considered a
 Physics - Cylinder Collider
 
 *
-[Image: /docs/static/attachments/28248359]
+![Image](https://www.cryengine.com/docs/static/attachments/28248359)
 
 *
 
@@ -1483,7 +1483,7 @@ Physics - Capsule Collider
 
 *
 *
-[Image: /docs/static/attachments/28248360]
+![Image](https://www.cryengine.com/docs/static/attachments/28248360)
 
 *
 *
@@ -1538,7 +1538,7 @@ Physics - RigidBody
 *
 *
 *
-[Image: /docs/static/attachments/28248361]
+![Image](https://www.cryengine.com/docs/static/attachments/28248361)
 
 *
 *
@@ -1584,7 +1584,7 @@ Physics - Sphere Collider
 *
 *
 *
-[Image: /docs/static/attachments/28248362]
+![Image](https://www.cryengine.com/docs/static/attachments/28248362)
 
 *
 *
@@ -1635,7 +1635,7 @@ Physics Constraint - Point Constraint
 *
 *
 *
-[Image: /docs/static/attachments/28248363]
+![Image](https://www.cryengine.com/docs/static/attachments/28248363)
 
 *
 *
@@ -1703,7 +1703,7 @@ Physics Constraint - Line Constraint
 *
 *
 *
-[Image: /docs/static/attachments/28248364]
+![Image](https://www.cryengine.com/docs/static/attachments/28248364)
 
 *
 *
@@ -1764,7 +1764,7 @@ Physics Constraint - Plane Constraint
 *
 *
 *
-[Image: /docs/static/attachments/28248365]
+![Image](https://www.cryengine.com/docs/static/attachments/28248365)
 
 *
 *
@@ -1829,81 +1829,29 @@ Determines how much the object loses momentum (as it moves) while the constraint
 
 *
 
-[#transformation](
-Transformation
-)
-[#ai-pathfinder](
-AI - Pathfinder
-)
-[#audio-listener](
-Audio - Listener
-)
-[#audio-trigger](
-Audio - Trigger
-)
-[#cameras-camera](
-Cameras - Camera
-)
-[#debug-debug-draw](
-Debug - Debug Draw
-)
-[#effects-fog-volume](
-Effects - Fog Volume
-)
-[#effects-decal](
-Effects - Decal
-)
-[#effects-particle-emitter](
-Effects - Particle Emitter
-)
-[#general-sensorvolume](
-General - SensorVolume
-)
-[#geometry-animated-mesh](
-Geometry - Animated Mesh
-)
-[#geometry-advanced-animations](
-Geometry - Advanced Animations
-)
-[#geometry-alembic-mesh](
-Geometry - Alembic Mesh
-)
-[#mesh](
-Mesh
-)
-[#lights-environment-probe](
-Lights - Environment Probe
-)
-[#lights-point-light](
-Lights - Point Light
-)
-[#lights-projector-light](
-Lights - Projector Light
-)
-[#physics-box-collider](
-Physics - Box Collider
-)
-[#physics-character-controller](
-Physics - Character Controller
-)
-[#physics-cylinder-collider](
-Physics - Cylinder Collider
-)
-[#physics-capsule-collider](
-Physics - Capsule Collider
-)
-[#physics-rigidbody](
-Physics - RigidBody
-)
-[#physics-sphere-collider](
-Physics - Sphere Collider
-)
-[#physics-constraint-point-constraint](
-Physics Constraint - Point Constraint
-)
-[#physics-constraint-line-constraint](
-Physics Constraint - Line Constraint
-)
-[#physics-constraint-plane-constraint](
-Physics Constraint - Plane Constraint
-)
+[Transformation](#transformation)
+[AI - Pathfinder](#ai-pathfinder)
+[Audio - Listener](#audio-listener)
+[Audio - Trigger](#audio-trigger)
+[Cameras - Camera](#cameras-camera)
+[Debug - Debug Draw](#debug-debug-draw)
+[Effects - Fog Volume](#effects-fog-volume)
+[Effects - Decal](#effects-decal)
+[Effects - Particle Emitter](#effects-particle-emitter)
+[General - SensorVolume](#general-sensorvolume)
+[Geometry - Animated Mesh](#geometry-animated-mesh)
+[Geometry - Advanced Animations](#geometry-advanced-animations)
+[Geometry - Alembic Mesh](#geometry-alembic-mesh)
+[Mesh](#mesh)
+[Lights - Environment Probe](#lights-environment-probe)
+[Lights - Point Light](#lights-point-light)
+[Lights - Projector Light](#lights-projector-light)
+[Physics - Box Collider](#physics-box-collider)
+[Physics - Character Controller](#physics-character-controller)
+[Physics - Cylinder Collider](#physics-cylinder-collider)
+[Physics - Capsule Collider](#physics-capsule-collider)
+[Physics - RigidBody](#physics-rigidbody)
+[Physics - Sphere Collider](#physics-sphere-collider)
+[Physics Constraint - Point Constraint](#physics-constraint-point-constraint)
+[Physics Constraint - Line Constraint](#physics-constraint-line-constraint)
+[Physics Constraint - Plane Constraint](#physics-constraint-plane-constraint)

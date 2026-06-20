@@ -103,10 +103,10 @@ This is the plane that is the picture through which the stereo image is seen (li
 
 In this example, the shoulder is in violation because it is in front of the stereo window, but touching the edge of frame:
 
-[Image: /docs/static/attachments/53542927]
+![Image](https://www.cryengine.com/docs/static/attachments/53542927)
 
  |
-[Image: /docs/static/attachments/53542928]
+![Image](https://www.cryengine.com/docs/static/attachments/53542928)
 
  |
 
@@ -126,11 +126,9 @@ In the examples below, the Stereo Window is blue, the convergence point red, and
 
 As mentioned before, when something is negative, but also touching the sides of the frame, this is a Window Violation. The current CryEngine3 s3D implementation is parallel and not toe-in.
 
-[Image: /docs/static/attachments/53542925]
+![Image](https://www.cryengine.com/docs/static/attachments/53542925)
 
 ##
 Further Reading
 
-[http://science.jrank.org/pages/2013/Depth-Perception.html](
-http://science.jrank.org/pages/2013/Depth-Perception.html
-)
+[http://science.jrank.org/pages/2013/Depth-Perception.html](http://science.jrank.org/pages/2013/Depth-Perception.html)

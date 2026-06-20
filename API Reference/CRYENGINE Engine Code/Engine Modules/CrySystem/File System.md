@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [CryPak](File System/CryPak.md)
-- [Tracking File Access](File System/Tracking File Access.md)
+- [CryPak](File%20System/CryPak.md)
+- [Tracking File Access](File%20System/Tracking%20File%20Access.md)
 
 ## Content
 
@@ -16,11 +16,7 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306406](
-CryPak
-)
+[CryPak](File%20System/CryPak.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306408](
-Tracking File Access
-)
+[Tracking File Access](File%20System/Tracking%20File%20Access.md)

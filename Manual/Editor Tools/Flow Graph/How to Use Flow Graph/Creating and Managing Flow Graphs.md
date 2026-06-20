@@ -60,7 +60,7 @@ Right-click
 Create Flow Graph
 **
 .
-[Image: /docs/static/attachments/35394498]
+![Image](https://www.cryengine.com/docs/static/attachments/35394498)
 
 If this is the first Flow Graph in a level, a new dialog box will be displayed (
 *
@@ -68,7 +68,7 @@ see below
 *
 ), asking you to enter a new group for the Flow Graph.
 
-[Image: /docs/static/attachments/44971086]
+![Image](https://www.cryengine.com/docs/static/attachments/44971086)
 
 Enter a name and click
 **
@@ -78,7 +78,7 @@ OK
 
 If a Flow Graph group is already present, you will see the following dialog box:
 
-[Image: /docs/static/attachments/44971087]
+![Image](https://www.cryengine.com/docs/static/attachments/44971087)
 
 Click
 **
@@ -121,9 +121,9 @@ right-click
 Delete Graph
 **
 .
-[Image: /docs/static/attachments/44971088]
+![Image](https://www.cryengine.com/docs/static/attachments/44971088)
 
-[Image: /docs/static/attachments/35395024]
+![Image](https://www.cryengine.com/docs/static/attachments/35395024)
 
 ##
 Renaming and Re-Grouping Graphs
@@ -187,6 +187,6 @@ Enable All
 **
  to enable all the graphs within the group.
 
-[Image: /docs/static/attachments/44971090]
+![Image](https://www.cryengine.com/docs/static/attachments/44971090)
 
 When a level is exported with some graphs in the disabled mode, these graphs will remain in the disabled state in the game.

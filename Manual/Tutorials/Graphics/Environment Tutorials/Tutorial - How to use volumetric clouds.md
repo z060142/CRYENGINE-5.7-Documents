@@ -8,3 +8,5 @@
 ## Content
 
 How to activate and configure the volumetric procedural clouds.
+
+[Embed: http://youtube.com/watch?v=v4cu349VTlw]

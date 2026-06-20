@@ -7,35 +7,25 @@
 
 ## Child Pages
 
-- [EaaS 3.6](CRYENGINE 3.x/EaaS 3.6.md)
-- [EaaS 3.7](CRYENGINE 3.x/EaaS 3.7.md)
-- [EaaS 3.8](CRYENGINE 3.x/EaaS 3.8.md)
-- [FreeSDK Archive](CRYENGINE 3.x/FreeSDK Archive.md)
-- [Sample Assets Package](CRYENGINE 3.x/Sample Assets Package.md)
+- [EaaS 3.6](CRYENGINE%203.x/EaaS%203.6.md)
+- [EaaS 3.7](CRYENGINE%203.x/EaaS%203.7.md)
+- [EaaS 3.8](CRYENGINE%203.x/EaaS%203.8.md)
+- [FreeSDK Archive](CRYENGINE%203.x/FreeSDK%20Archive.md)
+- [Sample Assets Package](CRYENGINE%203.x/Sample%20Assets%20Package.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44963004](
-EaaS 3.6
-)
+[EaaS 3.6](CRYENGINE%203.x/EaaS%203.6.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962946](
-EaaS 3.7
-)
+[EaaS 3.7](CRYENGINE%203.x/EaaS%203.7.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962881](
-EaaS 3.8
-)
+[EaaS 3.8](CRYENGINE%203.x/EaaS%203.8.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44963024](
-FreeSDK Archive
-)
+[FreeSDK Archive](CRYENGINE%203.x/FreeSDK%20Archive.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44963037](
-Sample Assets Package
-)
+[Sample Assets Package](CRYENGINE%203.x/Sample%20Assets%20Package.md)

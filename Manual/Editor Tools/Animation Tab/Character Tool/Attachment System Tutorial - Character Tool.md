@@ -44,9 +44,7 @@ Face attachments provide a socket in which you can optionally place a model, a l
 **
 
 To deal with collision detection and response on living characters, then a special geometric object called a
-[/docs/static/attachments/28900328](
-V80-Lozenge.wmv
-)
+[V80-Lozenge.wmv](/docs/static/attachments/28900328)
  is used. Lozenges are normal attachments that are linked to the joints and move with the skeleton. A lozenge is represented by 4 numbers, and with these 4 numbers points, spheres, capsules, line-segments, rectangles, boxes, 2D-lozenges and 3D-lozenges can be created. That’s 8 different shapes (and everything in-between) that can be used to approximate the shape of arms, legs and the torso of a human body.
 
 ##
@@ -64,7 +62,7 @@ Save
 **
  it will create an empty CDF in the specified folder, but without a skeleton or an attachment. The property panel for CDF’s will show the following warning:
 
-[Image: /docs/static/attachments/28900322]
+![Image](https://www.cryengine.com/docs/static/attachments/28900322)
 
 Next, double-click on the
 **
@@ -94,7 +92,7 @@ Joints
 
 *
 **
-[Image: /docs/static/attachments/28900321]
+![Image](https://www.cryengine.com/docs/static/attachments/28900321)
 **
 *
 
@@ -113,7 +111,7 @@ Insert
 **
 . This creates an unnamed empty socket. Enter an arbitrary name for the socket, for example "fullbodymesh".
 
-[Image: /docs/static/attachments/28900320]
+![Image](https://www.cryengine.com/docs/static/attachments/28900320)
 
 **
 Step 2: Setting the Type of Socket
@@ -179,7 +177,7 @@ You should see the following image in the viewport. In this case all the joints 
 **
 *
 **
-[Image: /docs/static/attachments/28900319]
+![Image](https://www.cryengine.com/docs/static/attachments/28900319)
 **
 *
 **
@@ -209,7 +207,7 @@ The warning above only appears in Character Tool and can be ignored. It's there 
 Glottskull attached:
 
 **
-[Image: /docs/static/attachments/28900277]
+![Image](https://www.cryengine.com/docs/static/attachments/28900277)
 **
 
 From a user perspective a skeleton-extension is identical to a normal skin attachment (no additional parameters are required). So in the case where a different head skeleton is required (but using the same body) then other elements such as cloth pieces i.e. capes and skirts, helmets and hair styles can all be attached and at the same time - this can be seen the file
@@ -220,7 +218,7 @@ attachment_03 (skin).cdf
 
 **
 **
-[Image: /docs/static/attachments/28900318]
+![Image](https://www.cryengine.com/docs/static/attachments/28900318)
 **
 **
 
@@ -241,7 +239,7 @@ attachment_04 (skin).cdf
 
 **
 **
-[Image: /docs/static/attachments/28900317]
+![Image](https://www.cryengine.com/docs/static/attachments/28900317)
 **
 **
 
@@ -268,7 +266,7 @@ Joint
 **
  and click on the button next to it:
 
-[Image: /docs/static/attachments/28900316]
+![Image](https://www.cryengine.com/docs/static/attachments/28900316)
 
 This opens a window showing all the joints in the hierarchy. Finally, select the joint name
 **
@@ -291,7 +289,7 @@ weapon_bone
 joint
 . This is because all weapons are modeled in such a way that allows them to be attached automatically to the weapon_bone - this alleviates extra work. The character with the rifle should look like the character in the screen shot below.
 
-[Image: /docs/static/attachments/28900315]
+![Image](https://www.cryengine.com/docs/static/attachments/28900315)
 
 However, not all attached objects are perfectly aligned with the joint, as we shall see in the next example.
 
@@ -322,7 +320,7 @@ Move
 **
  button:
 
-[Image: /docs/static/attachments/28900314]
+![Image](https://www.cryengine.com/docs/static/attachments/28900314)
 
 Then drag the gizmo to move it slightly to the right. However, the scope has a horizontal orientation, so click on the
 **
@@ -332,7 +330,7 @@ Rotate
 
 **
 **
-[Image: /docs/static/attachments/28900313]
+![Image](https://www.cryengine.com/docs/static/attachments/28900313)
 **
 **
 
@@ -342,7 +340,7 @@ Properties
 **
  of the attachment:
 
-[Image: /docs/static/attachments/28900312]
+![Image](https://www.cryengine.com/docs/static/attachments/28900312)
 
 Joint attachments are stored relative to a joint and move with that joint when the skeleton is animated. There are actually two ways to store this relative location in the CDF file: you can store it
 **
@@ -361,7 +359,7 @@ Relative to Character
 **
 **
 *
-[Image: /docs/static/attachments/28900311]
+![Image](https://www.cryengine.com/docs/static/attachments/28900311)
 *
 **
 **
@@ -407,7 +405,7 @@ Bind Pose
 **
  in the Scene Parameter panel:
 
-[Image: /docs/static/attachments/28900310]
+![Image](https://www.cryengine.com/docs/static/attachments/28900310)
 
 When you move the socket with the gizmo in character space it will connect automatically to the closest triangle it can find on the mesh. With
 **
@@ -415,7 +413,7 @@ ca_DrawAttachmentProjection=1
 **
  the closest triangle on the mesh is highlighted with a white wire-frame - you can also see a line-segment from the socket to the center of the triangle.
 
-[Image: /docs/static/attachments/28900309]
+![Image](https://www.cryengine.com/docs/static/attachments/28900309)
 
 Face attachments are perfect for quick experimental set-ups, because in practice it’s much easier to place an attachment directly on the surface of the mesh. A typical problem with joint attachments are that some need a dedicated "helper joint" in the model and adding these joints takes extra time and can only be done in the tool in which the original skeleton was created. Face attachments however, can be created by everyone in the Character Tool.
 
@@ -503,7 +501,7 @@ tool and move the pumpkin 1m in front of the character - this gives better visua
 **
 *
 **
-[Image: /docs/static/attachments/28900308]
+![Image](https://www.cryengine.com/docs/static/attachments/28900308)
 
 **
 *
@@ -553,7 +551,7 @@ Spring_Ellipsoid
 **
 *
 **
-[Image: /docs/static/attachments/28900307]
+![Image](https://www.cryengine.com/docs/static/attachments/28900307)
 **
 *
 **
@@ -590,7 +588,7 @@ Spring_Ellipsoid
 **
 *
 **
-[Image: /docs/static/attachments/28900306]
+![Image](https://www.cryengine.com/docs/static/attachments/28900306)
 **
 *
 **
@@ -614,7 +612,7 @@ The status of this check box is not saved in the CDF.
 **
 *
 **
-[Image: /docs/static/attachments/28900305]
+![Image](https://www.cryengine.com/docs/static/attachments/28900305)
 **
 *
 **
@@ -777,7 +775,7 @@ Note:
 independently from the socket, while the rotate tool rotates 3 things at the same time; the socket, geometry and the bounding volume.
 Here are some examples for different shapes that you can create with a single bounding volume:
 
-[Image: /docs/static/attachments/28900325]
+![Image](https://www.cryengine.com/docs/static/attachments/28900325)
 
 *
 In clockwise order: egg, flat disc in 3D-space,
@@ -823,7 +821,7 @@ Redirect to Joint
 **
  check box to see what happens to the head. Instead of the pumpkin the head is now bouncing around in the range of the bounding volume. In this case the location of the socket doesn’t really matter for the neck translation, because we only apply the relative distance from the socket to the simulated spring to the neck joint (although the simulation still takes place at the socket location).
 
-[Image: /docs/static/attachments/28900304]
+![Image](https://www.cryengine.com/docs/static/attachments/28900304)
 
 **
 Spring_Simulation_07.cdf:
@@ -851,7 +849,7 @@ Note:
 **
 *
 **
-[Image: /docs/static/attachments/28900303]
+![Image](https://www.cryengine.com/docs/static/attachments/28900303)
 **
 *
 **
@@ -890,17 +888,17 @@ Debug Setup
 **
  you should see the following picture (screen shot below).
 
-[Image: /docs/static/attachments/28900279]
+![Image](https://www.cryengine.com/docs/static/attachments/28900279)
 
-[Image: /docs/static/attachments/28900302]
+![Image](https://www.cryengine.com/docs/static/attachments/28900302)
 
-[Image: /docs/static/attachments/28900291]
+![Image](https://www.cryengine.com/docs/static/attachments/28900291)
 
-[Image: /docs/static/attachments/28900290]
+![Image](https://www.cryengine.com/docs/static/attachments/28900290)
 
-[Image: /docs/static/attachments/28900281]
+![Image](https://www.cryengine.com/docs/static/attachments/28900281)
 
-[Image: /docs/static/attachments/28900280]
+![Image](https://www.cryengine.com/docs/static/attachments/28900280)
 
 That's all you need to do to get a physicalized socket with a pendulum simulator for the scope, which is loosely connected to the right leg and can dangle around. If you play an animation, then you can see that it actually reacts to movement.
 
@@ -1032,7 +1030,7 @@ Pendulum_Simulation_01.cdf:
  This CDF shows a loose hanging scope which is only constrained by a cone with an angle of 45-degrees. The main issue with this set-up is that the scope sometimes clips the characters right leg.
 
 **
-[Image: /docs/static/attachments/28900301]
+![Image](https://www.cryengine.com/docs/static/attachments/28900301)
 **
 
 **
@@ -1050,7 +1048,7 @@ plane
 
 **
 **
-[Image: /docs/static/attachments/28900300]
+![Image](https://www.cryengine.com/docs/static/attachments/28900300)
 **
 **
 
@@ -1062,14 +1060,14 @@ Pendulum_Simulation_03.cdf:
 **
 A better method is to use a half-cone, where one side is completely flat. If the flat side is oriented towards the body, then the scope cannot intersect with the characters leg. This is a simple and efficient solution to attach loose hanging objects to a body and where you don't want to use "more expensive" collisions.
 
-[Image: /docs/static/attachments/28900299]
+![Image](https://www.cryengine.com/docs/static/attachments/28900299)
 
 **
 Pendulum_Simulation_04.cdf:
 **
  A better (and more realistic looking) solution is to use real collisions. In this case we can approximate the scope and the right upper leg with a capsule, and in many cases this creates a much more realistic look than can be obtained with the hinge-plane or a half-cone. In the screen shot below the motion is firstly constrained by the capsule on the upper leg and then by the pendulum cone. We will explain the set-up of collision proxies later.
 
-[Image: /docs/static/attachments/28900293]
+![Image](https://www.cryengine.com/docs/static/attachments/28900293)
 
 ##
 Redirect to Joint
@@ -1089,14 +1087,14 @@ joint spring
 **
  will partially reactivate the original arm animation.
 
-[Image: /docs/static/attachments/28900298]
+![Image](https://www.cryengine.com/docs/static/attachments/28900298)
 
 **
 Pendulum_ZombieArm2.cdf:
 **
 In this example both arms are paralyzed and lifeless and an "inverted pendulum" has been applied to the spine joint to make the whole upper body react to the motion. This kind of set-up will make any animation look like a Zombie motion.
 
-[Image: /docs/static/attachments/28900297]
+![Image](https://www.cryengine.com/docs/static/attachments/28900297)
 
 ##
 Pivot Offset
@@ -1107,7 +1105,7 @@ pendulum_ScareCrow.cdf
 **
  this feature was used to move both shoulder joints 30cm away from the body. The gizmo, the socket and the pendulum half-cone remain at the original location and only the joint gets a translation.
 
-[Image: /docs/static/attachments/28900296]
+![Image](https://www.cryengine.com/docs/static/attachments/28900296)
 
 ##
 Simulating a Chain of Linked Joints
@@ -1125,7 +1123,7 @@ ChainOfJoints1 (braids).cdf
 **
  we have a model with three braids linked to a skull. The two front braids have 4 joints, the back braid 5 joints and where the range of motion for each link on a braid is limited by a cone. The obvious problem with this set-up is that the braids go straight through the body when playing certain motions - this is particularly obvious for the front braids. We will show you later how to avoid this with proper use of collision detection.
 
-[Image: /docs/static/attachments/28900295]
+![Image](https://www.cryengine.com/docs/static/attachments/28900295)
 
 ##
 Simulating Leather Straps
@@ -1136,7 +1134,7 @@ In
 **
  we have a belt with 10 leather straps, where each leather strap has 3 joints and the range of motion for each link on a strap is limited by a hinge-plane. The obvious problem with this set-up is that the leather straps at the front clip through the character’s legs when playing an animation. Notice that this issue only occurs to the front straps, for the rear straps it was possible to prevent such clipping with the set-up of the hinge-plane.
 
-[Image: /docs/static/attachments/28900294]
+![Image](https://www.cryengine.com/docs/static/attachments/28900294)
 
 That kind of rope set-up is called a "pseudo rope" or "pendula rope", but such a set-up does not behave like a real rope; the parent joints can only transfer the motion to the child joints, but the child joints have no impact on the motion of the parent (with real ropes the moment transfer travels in both directions). Overall this is a simple and fast method to add a simulation to linked joints and with the right combination of parameters it can be visually very close to the behavior of real ropes. We can also mix springs into the same chain and define the constraints for each link individually. The major problem with this set-up is that the braids and the leather straps always clip through the body. Finding a solution for this is the topic of the next section.
 
@@ -1151,7 +1149,7 @@ lozenge
 **
 which is represented by 4 numbers. Using these 4 numbers we can create points, spheres, capsules, line-segments, rectangles, boxes, 2D-lozenges and 3D-lozenges. That’s 8 different shapes (and everything in-between) that are all managed by the same algorithm and internally represented by just 4 numbers.
 
-[Image: /docs/static/attachments/28900352]
+![Image](https://www.cryengine.com/docs/static/attachments/28900352)
 
 To deal with collision detection and response on living characters we use 2 types of proxies which are displayed using 2 colors:
 
@@ -1191,7 +1189,7 @@ Auxiliary Proxies
 **
  (the pink ones):
 
-[Image: /docs/static/attachments/28900292]
+![Image](https://www.cryengine.com/docs/static/attachments/28900292)
 
 To set-up the pink proxies (=lozenges) on a character just create a new socket, give it a name and set the type to
 **
@@ -1270,7 +1268,7 @@ hairstrand01_chain01
 Note:
 **
  Collisions are tested in the order that the proxies appear in the list, and the fewer checks that are needed then the faster the system will run.
-[Image: /docs/static/attachments/28900289]
+![Image](https://www.cryengine.com/docs/static/attachments/28900289)
 
 ##
 Collision Response
@@ -1361,7 +1359,7 @@ ChainOfJoints4 (collisions).cdf
 **
 . This of course means that we must find strategies to avoid such invalid states.
 
-[Image: /docs/static/attachments/28900288]
+![Image](https://www.cryengine.com/docs/static/attachments/28900288)
 
 ##
 Translational Projections
@@ -1404,7 +1402,7 @@ Translational Projection
 **
 . This is a special type that is always aligned with the joints that it is attached too. It is also not possible to move or rotate them with the gizmo because it can only operate on joints and it is automatically redirected to the joint that it is attached to.
 
-[Image: /docs/static/attachments/28900287]
+![Image](https://www.cryengine.com/docs/static/attachments/28900287)
 
 This opens a new panel which allows you to choose two methods for translational projections.
 
@@ -1420,7 +1418,7 @@ shortest vector
 **
  to the surface. This type of translation is the easiest, but it's not without its issues. For example, let’s say you have a set-up with 2 lozenges, then it’s possible that the first shortvec translation moves the capsule out of the first lozenge and directly into the second lozenge. You then test against the second lozenge, which translates the capsule back into the first lozenge. These issues are very likely with complex set-ups, and where many lozenges are close together and even overlap (as in the case of our example torso set-up). It can also happen that it projects out in the wrong direction and produces undesired "tunneling" effects. Therefore, it is recommended to use shortvec translations only for set-ups with just a few lozenges and where the results are predictable.
 
-[Image: /docs/static/attachments/28900286]
+![Image](https://www.cryengine.com/docs/static/attachments/28900286)
 
 **
 Directed
@@ -1438,9 +1436,9 @@ Note:
 
 Both cases allow you to specify a capsule in the direction of the translation axis, however the capsule will always be projected out in the predefined direction, even if the capsule is 'behind' the lozenge which makes "tunneling" very unlikely.
 
-[Image: /docs/static/attachments/28900285]
+![Image](https://www.cryengine.com/docs/static/attachments/28900285)
  |
-[Image: /docs/static/attachments/28900284]
+![Image](https://www.cryengine.com/docs/static/attachments/28900284)
  |
 
 When using collision proxies, the system performs two consecutive constraint checks. First, it projects the capsule/sphere out of the lozenge, and second it clamps the spring particle or the pendulum rod to the shape of the bounding volume.
@@ -1505,7 +1503,7 @@ Basic Setup
 
 Pendula cloth operates on joints and this particular joint configuration needs to be arranged in a grid and with special naming convention. The screen shot below shows this type of set-up being used for a cape with 13*11=143 pendula. Each pendulum is connected to a joint and where the vertical pendula strains are identical to the joint chains used for hair. In the case of joint grids each pendulum is also horizontally connected to its neighbor (this is shown by a red line) and this ensures that the ropes do not move too far away from each other or too close together.
 
-[Image: /docs/static/attachments/28900283]
+![Image](https://www.cryengine.com/docs/static/attachments/28900283)
 
 There are two requirements for the set-up of the joints.
 
@@ -1546,7 +1544,7 @@ GridOfJoints_01_(cape).cdf
 . The character with the cape and the shoulder plates should look like the character in the screen shot below. The cape is completely rigid; this is because there is no simulation on it.
 
 **
-[Image: /docs/static/attachments/28900282]
+![Image](https://www.cryengine.com/docs/static/attachments/28900282)
 **
 
 **
@@ -1605,7 +1603,7 @@ PRow Attachment
 **
  is a row of pendula, which means that (with a few exceptions) the physical parameters are similar to a pendulum. If we change one value in the panel, then it will apply that value to all pendula in the row.
 
-[Image: /docs/static/attachments/28900278]
+![Image](https://www.cryengine.com/docs/static/attachments/28900278)
 
 -
 **
@@ -1763,7 +1761,7 @@ pink
  proxies. The
 pink
 proxies always push the blue proxies away.
-[Image: /docs/static/attachments/28900347]
+![Image](https://www.cryengine.com/docs/static/attachments/28900347)
 
 **
 Capsule
@@ -1805,27 +1803,11 @@ Enabling Collision Detection
 **
 .
 
-[#attachment-system-in-character-tool](
-Attachment System in Character Tool
-)
-[#creating-a-character-definition-file-cdf](
-Creating a Character Definition File (CDF)
-)
-[#setup-of-attachment-sockets](
-Setup of Attachment Sockets
-)
-[#other-attachment-properties](
-Other Attachment Properties
-)
-[#using-sockets-for-secondary-animations](
-Using Sockets for Secondary Animations
-)
-[#simulating-a-chain-of-linked-joints](
-Simulating a Chain of Linked Joints
-)
-[#using-collision-detection-and-response](
-Using Collision Detection and Response
-)
-[#simulating-a-grid-of-linked-joints](
-Simulating a Grid of Linked Joints
-)
+[Attachment System in Character Tool](#attachment-system-in-character-tool)
+[Creating a Character Definition File (CDF)](#creating-a-character-definition-file-cdf)
+[Setup of Attachment Sockets](#setup-of-attachment-sockets)
+[Other Attachment Properties](#other-attachment-properties)
+[Using Sockets for Secondary Animations](#using-sockets-for-secondary-animations)
+[Simulating a Chain of Linked Joints](#simulating-a-chain-of-linked-joints)
+[Using Collision Detection and Response](#using-collision-detection-and-response)
+[Simulating a Grid of Linked Joints](#simulating-a-grid-of-linked-joints)

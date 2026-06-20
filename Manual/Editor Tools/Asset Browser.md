@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Asset System](Asset Browser/Asset System.md)
+- [Asset System](Asset%20Browser/Asset%20System.md)
 
 ## Content
 
@@ -15,20 +15,16 @@
 Overview
 
 CRYENGINE's Asset Browser provides an overview of your project by allowing you to browse its contents, search for particular assets, as well as import new assets in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294](
-FBX
-)
+[FBX](FBX%20Import%20Tools.md)
  format.
 
 The goal is to provide users with the freedom to interact with their project's contents on disk solely through the Editor, to the point where a regular File Explorer should no longer be necessary when working on a CRYENGINE project. In the future all asset management functionality will be added to the Asset Browser.
 
 More on the engine's Asset System can be found on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29447695](
-Asset System - Generating Metadata
-)
+[Asset System - Generating Metadata](Asset%20Browser/Asset%20System.md)
 .
 
-[Image: /docs/static/attachments/44958919]
+![Image](https://www.cryengine.com/docs/static/attachments/44958919)
 
 *
 Asset Browser Overview
@@ -74,9 +70,7 @@ To be able to use and view the contents of an existing project within the Asset 
 .cryasset
 **
  files will need to be generated as explained in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29447695](
-Asset System - Generating Metadata
-)
+[Asset System - Generating Metadata](Asset%20Browser/Asset%20System.md)
  documentation.
 
 The Asset Browser can be accessed via
@@ -88,7 +82,7 @@ The Asset Browser can be accessed via
 1. Menu
 
 Accessed via the
-[Image: /docs/static/attachments/36838191]
+![Image](https://www.cryengine.com/docs/static/attachments/36838191)
  icon situated at the top-right corner of the Asset Browser, the Menu contains the following options:
 
 ##
@@ -117,9 +111,7 @@ New Asset
 C# Script -
 **
 Creates a new C# asset before opening Visual Studio or a similar text editor as specified in your Sandbox
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848616](
-Preferences
-)
+[Preferences](../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Customizing%20CRYENGINE%20Sandbox/Changing%20Sandbox%20Preferences.md)
 . A corresponding C# Output window will also be generated if the Sandbox doesn't start up with one by default.
 
 Since the names of C# classes cannot begin with a number, any created C# Script asset of the name '01Class' or similar will result in a compile error. This can be quickly fixed via the text editor interface that opens on creating a C# asset; your choice of text editor needs to specified in the
@@ -135,9 +127,7 @@ Environment
 **
  -
 Creates a new Environment asset that specifies the environmental settings of the current level, such as fog, volumetric clouds and the positioning of the sun over a 24-hour period, via the
-[/docs/static/engines/cryengine-5/categories/23756816](
-Environment Editor (Old as of 26/2)
-)
+[Environment Editor (Old as of 26/2)](/docs/static/engines/cryengine-5/categories/23756816)
 .
 
 **
@@ -168,18 +158,14 @@ Particles
 Prefab
 **
  - A
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866251](
-Prefab
-)
+[Prefab](../Entities%20and%20Tools/Entities%20Overview/Prefabs.md)
  is an asset type that contains one or more objects along with their properties, of which multiple instances can be created such that each instance is an exact replica of the other. To create a new Prefab, one or more objects from the Level Explorer that are to comprise it must first be selected/highlighted via the Level Explorer.
 
 **
 Schematyc Entity
 **
  - Creates a new
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868211](
-Schematyc
-)
+[Schematyc](Deprecated%20Tab/Schematyc%20Editor%20(Experimental).md)
  Entity containing graphs, variables, signals and state machines to be placed within a level. An Entity can use an existing Schematyc Entity as a base, and creating a new Entity automatically opens the Schematyc Editor.
 
 **
@@ -250,9 +236,7 @@ Generates
 .cryasset
 **
  files for an existing project in order to be able to view and use its contents in the Asset Browser, Please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29447695](
-Asset System - Generating Metadata
-)
+[Asset System - Generating Metadata](Asset%20Browser/Asset%20System.md)
  for more information.
 
 This option does not work for assets located in
@@ -377,9 +361,7 @@ Work Files ->
 Manage Work Files...
 **
 option, which also lists previously linked work files. Please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066#AssetBrowser-AssociatingWorkFiles](
-Associating Work Files to Assets
-)
+[Associating Work Files to Assets](Asset%20Browser.md#AssetBrowser-AssociatingWorkFiles)
  in the Functionality section for more information.
 
  |
@@ -411,7 +393,7 @@ Displays multiple asset properties in columns within the Search Results pane.
 Shows Details
 **
 may alternatively be toggled using the
-[Image: /docs/static/attachments/36838194]
+![Image](https://www.cryengine.com/docs/static/attachments/36838194)
  button in the Asset Browser's View Type toolbar.
 
  |
@@ -422,7 +404,7 @@ Shows Thumbnails
 
  |
 Displays asset thumbnails instead of column-listed details in the Search Results pane, alternatively toggled by the
-[Image: /docs/static/attachments/36838195]
+![Image](https://www.cryengine.com/docs/static/attachments/36838195)
  button in the Asset Browser's View Type toolbar.
 
 Choose between four different sizes of thumbnails by h
@@ -445,7 +427,7 @@ Split Horizontally
 Displays asset properties in columns and asset thumbnails, across two horizontal divisions of the Search Results pane. Selecting an asset in column view will also highlight it on the thumbnail pane, and vice versa.
 
 Also corresponds to the
-[Image: /docs/static/attachments/36838197]
+![Image](https://www.cryengine.com/docs/static/attachments/36838197)
  icon of the Asset Browser's View Type toolbar.
 
  |
@@ -459,7 +441,7 @@ Displays asset properties in columns and asset thumbnails, across two vertical d
  Selecting an asset in column view will also highlight it on the thumbnail pane, and vice versa.
 
 Corresponds to the
-[Image: /docs/static/attachments/36838196]
+![Image](https://www.cryengine.com/docs/static/attachments/36838196)
  button of the Asset Browser's View Type toolbar.
 
  |
@@ -475,7 +457,7 @@ Hides/reveals the Folder Tree pane.
 Show Folder Tree
 **
  can also be toggled via the
-[Image: /docs/static/attachments/36838184]
+![Image](https://www.cryengine.com/docs/static/attachments/36838184)
  icon of the Asset Browser's View Type toolbar.
 
  |
@@ -488,7 +470,7 @@ Recursive View
 With Recursive View active, assets included within both the selected folder of the Folder Tree and its sub-folders are displayed in the Search Results pane. Deactivating Recursive View on the other hand displays only files included within the selected folder.
 
 Alternatively toggled by the
-[Image: /docs/static/attachments/36838185]
+![Image](https://www.cryengine.com/docs/static/attachments/36838185)
  button of the Asset Browser's View toolbar.
 
  |
@@ -601,7 +583,7 @@ Lists all default and custom toolbars created for the Asset Browser, allowing us
 File
 **
  |
-[Image: /docs/static/attachments/44964639]
+![Image](https://www.cryengine.com/docs/static/attachments/44964639)
 
 **
 Import
@@ -610,7 +592,7 @@ Import
 Opens your system's file explorer to locate and import assets of appropriate file types.
  |
 
-[Image: /docs/static/attachments/44964640]
+![Image](https://www.cryengine.com/docs/static/attachments/44964640)
 
 **
 Save All
@@ -625,7 +607,7 @@ Saves unsaved changes made to all modified assets.
 View
 **
  |
-[Image: /docs/static/attachments/36838185]
+![Image](https://www.cryengine.com/docs/static/attachments/36838185)
 **
 Recursive View
 **
@@ -637,7 +619,7 @@ Disabling this button on the other hand displays only files included within the 
 
  |
 
-[Image: /docs/static/attachments/44959744]
+![Image](https://www.cryengine.com/docs/static/attachments/44959744)
 
 **
 Hide Irrelevant Folders
@@ -656,7 +638,7 @@ View → Shows Details/Shows Thumbnails
 View Type
 **
  |
-[Image: /docs/static/attachments/36838184]
+![Image](https://www.cryengine.com/docs/static/attachments/36838184)
 
 **
 Show Folder Tree
@@ -665,7 +647,7 @@ Show Folder Tree
 Hides/reveals the Folder Tree pane of the Asset Browser.
  |
 
-[Image: /docs/static/attachments/36838197]
+![Image](https://www.cryengine.com/docs/static/attachments/36838197)
 
 **
 Split Horizontally
@@ -674,7 +656,7 @@ Split Horizontally
 Displays asset properties in columns and asset thumbnails, across two horizontal divisions of the Search Results pane.
  |
 
-[Image: /docs/static/attachments/36838196]
+![Image](https://www.cryengine.com/docs/static/attachments/36838196)
 
 **
 Split Vertically
@@ -683,7 +665,7 @@ Split Vertically
 Displays asset properties in columns and asset thumbnails, across two vertical divisions of the Search Results pane.
  |
 
-[Image: /docs/static/attachments/36838194]
+![Image](https://www.cryengine.com/docs/static/attachments/36838194)
 
 **
 Shows Details
@@ -692,7 +674,7 @@ Shows Details
 Displays multiple asset properties in columns within the Search Results pane.
  |
 
-[Image: /docs/static/attachments/36838195]
+![Image](https://www.cryengine.com/docs/static/attachments/36838195)
 
 **
 Shows Thumbnails
@@ -802,7 +784,7 @@ View → Shows Thumbnails/Split Horizontally/Split Vertically
 **
  is active as seen in the image below.
 
-[Image: /docs/static/attachments/36842638]
+![Image](https://www.cryengine.com/docs/static/attachments/36842638)
 
 *
 Thumbnails
@@ -820,7 +802,7 @@ File Extension
 
  |
 
-[Image: /docs/static/attachments/36842640]
+![Image](https://www.cryengine.com/docs/static/attachments/36842640)
 
  |
 Audio
@@ -831,7 +813,7 @@ Audio
 **
  |
 
-[Image: /docs/static/attachments/36848672]
+![Image](https://www.cryengine.com/docs/static/attachments/36848672)
 
  |
 Environment
@@ -842,7 +824,7 @@ Environment
 **
  |
 
-[Image: /docs/static/attachments/36842641]
+![Image](https://www.cryengine.com/docs/static/attachments/36842641)
 
  |
 Level
@@ -853,7 +835,7 @@ Level
 **
  |
 
-[Image: /docs/static/attachments/36842642]
+![Image](https://www.cryengine.com/docs/static/attachments/36842642)
 
  |
 Material
@@ -864,7 +846,7 @@ Material
 **
  |
 
-[Image: /docs/static/attachments/36842643]
+![Image](https://www.cryengine.com/docs/static/attachments/36842643)
 
  |
 Mesh
@@ -875,7 +857,7 @@ Mesh
 **
  |
 
-[Image: /docs/static/attachments/36842644]
+![Image](https://www.cryengine.com/docs/static/attachments/36842644)
 
  |
 Particle
@@ -887,7 +869,7 @@ Particle
 
  |
 
-[Image: /docs/static/attachments/36842645]
+![Image](https://www.cryengine.com/docs/static/attachments/36842645)
 
  |
 Prefab
@@ -899,7 +881,7 @@ Prefab
 
  |
 
-[Image: /docs/static/attachments/36842639]
+![Image](https://www.cryengine.com/docs/static/attachments/36842639)
 
  |
 Skeletal Animation
@@ -910,7 +892,7 @@ Skeletal Animation
 **
  |
 
-[Image: /docs/static/attachments/36842646]
+![Image](https://www.cryengine.com/docs/static/attachments/36842646)
 
  |
 SchematycEntity
@@ -922,7 +904,7 @@ SchematycEntity
 
  |
 
-[Image: /docs/static/attachments/36842647]
+![Image](https://www.cryengine.com/docs/static/attachments/36842647)
 
  |
 
@@ -935,7 +917,7 @@ Script
 
  |
 
-[Image: /docs/static/attachments/36842648]
+![Image](https://www.cryengine.com/docs/static/attachments/36842648)
 
  |
 Texture
@@ -999,9 +981,7 @@ Creates new C# Script, Environment, Level, Material, Prefab, Particles, Schematy
 File -> New Asset
 **
  option of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066#AssetBrowser-Menu](
-Menu Bar
-)
+[Menu Bar](Asset%20Browser.md#AssetBrowser-Menu)
  described above.
 
  |
@@ -1058,7 +1038,7 @@ Manually generates thumbnails for all assets included within the currently selec
 
  |
 
-[Image: /docs/static/attachments/36838185]
+![Image](https://www.cryengine.com/docs/static/attachments/36838185)
 
 **
 Recursive View
@@ -1068,7 +1048,7 @@ Recursive View
 When enabled, assets included within both the selected folder of the Folder Tree and its sub-folders are displayed in the Search Results pane. Disabling this button on the other hand displays only files included within the selected folder.
  |
 
-[Image: /docs/static/attachments/36838194]
+![Image](https://www.cryengine.com/docs/static/attachments/36838194)
 
 **
 Shows Details
@@ -1078,7 +1058,7 @@ Shows Details
 Displays multiple asset properties in columns within the Search Results pane.
  |
 
-[Image: /docs/static/attachments/36838195]
+![Image](https://www.cryengine.com/docs/static/attachments/36838195)
 
 **
 Shows Thumbnails
@@ -1089,7 +1069,7 @@ Displays asset thumbnails instead of column-listed details in the Search Results
  |
 
 **
-[Image: /docs/static/attachments/36838197]
+![Image](https://www.cryengine.com/docs/static/attachments/36838197)
  Split Horizontally
 **
 
@@ -1099,7 +1079,7 @@ Displays asset properties in columns and asset thumbnails, across two horizontal
  |
 
 **
-[Image: /docs/static/attachments/36838196]
+![Image](https://www.cryengine.com/docs/static/attachments/36838196)
 
 Split Vertically
 **
@@ -1110,7 +1090,7 @@ Displays asset properties in columns and asset thumbnails, across two vertical d
 
  |
 
-[Image: /docs/static/attachments/36838184]
+![Image](https://www.cryengine.com/docs/static/attachments/36838184)
 
 **
 Show Folder Tree
@@ -1264,9 +1244,7 @@ This option is only available to Environment assets.
 The environmental settings specified by an Environment asset can also be made the Viewport's default by dragging the asset from the Asset Browser into the Viewport.
 
 This also adds the asset to the level's list of Environment Presets in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848989](
-Level Settings
-)
+[Level Settings](Level%20Editor%20Tab/Level%20Settings.md)
  tool.
 
  |
@@ -1293,9 +1271,7 @@ Create Substance Graph Preset
  window that allows users to specify the location, resolution and outputs for the desired Substance Instance.
 
 This option is only available to Substance Archives; please refer to the documentation on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44968527](
-Substance
-)
+[Substance](Substance.md)
  tool for more information on Substance Archives and Instances.
 
  |
@@ -1308,9 +1284,7 @@ Rebuild All Instances
 Regenerates all Substance Instances and texture files created from the currently selected Substance Archive.
 
 This option is only available to Substance Archives; please refer to the documentation on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44968527](
-Substance
-)
+[Substance](Substance.md)
  tool for more information on Substance Archives and Instances.
 
  |
@@ -1323,9 +1297,7 @@ Rebuild Instance
 Regenerates the currently selected Substance Instance.
 
 This option is only available to Substance Instances; please refer to the documentation on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44968527](
-Substance
-)
+[Substance](Substance.md)
  tool for more information on Substance Instances.
 
  |
@@ -1348,9 +1320,7 @@ Open
 **
 : Opens the Substance Instance Editor tool, allowing users to edit the parent Substance Instance of the currently selected Substance-based texture.
 This option is only available to Substance-based textures created from Substance Instances; please refer to the documentation on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44968527](
-Substance
-)
+[Substance](Substance.md)
  tool for more information on Substance Archives and Instances.
 
  |
@@ -1392,9 +1362,7 @@ Work Files →
 Manage Work Files...
 **
 option, which also lists previously linked work files. Please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066#AssetBrowser-AssociatingWorkFiles](
-Associating Work Files to Assets
-)
+[Associating Work Files to Assets](Asset%20Browser.md#AssetBrowser-AssociatingWorkFiles)
  in the Functionality section for more information.
 
  |
@@ -1449,16 +1417,12 @@ Show Dependency Graph:
 
 **
 Depicts relationships between the currently selected asset and other assets of your project in a separate
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868203](
-Dependency Graph
-)
+[Dependency Graph](Dependency%20Graph.md)
  tool window.
  |
 
 Assets contained in the
-[https://www.cryengine.com/asset-db/product/crytek/cryengine-gamesdk-sample-project](
-GameSDK
-)
+[GameSDK](https://www.cryengine.com/asset-db/product/crytek/cryengine-gamesdk-sample-project)
 Sample Project are compressed and stored within
 **
 .pak
@@ -1479,9 +1443,7 @@ Open in File Explorer
 Version Control Context Menu
 
 With a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848808](
-Version Control System
-)
+[Version Control System](Version%20Control%20System.md)
  setup, the Folder Tree, Search Result Pane and Asset Context Menus might include additional options:
 
 Option
@@ -1506,13 +1468,11 @@ Version Control status
 **
  column also serves to reflect the status of all version controlled assets. This column can further be used with search filters described in the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066#AssetBrowser-search](
-Smart & Advanced Search
-)
+[Smart & Advanced Search](Asset%20Browser.md#AssetBrowser-search)
 **
  section below to make search queries specific to the status of these assets.
 
-[Image: /docs/static/attachments/44959825]
+![Image](https://www.cryengine.com/docs/static/attachments/44959825)
 
 *
 Version Control Status
@@ -1524,7 +1484,7 @@ View -> Thumbnails/Split Horizontally/Split Vertically
 **
  is active.
 
-[Image: /docs/static/attachments/44959826]
+![Image](https://www.cryengine.com/docs/static/attachments/44959826)
 
 *
 Version Controlled Assets
@@ -1583,7 +1543,7 @@ Submit...
 
 The submission process can only be completed after a description of changes performed have been entered in the text box provided within the Submit window.
 
-[Image: /docs/static/attachments/44959827]
+![Image](https://www.cryengine.com/docs/static/attachments/44959827)
 
 *
 Submit window
@@ -1607,7 +1567,7 @@ Submit...
 **
  functions on the selected asset's work files as shown below.
 
-[Image: /docs/static/attachments/44960117]
+![Image](https://www.cryengine.com/docs/static/attachments/44960117)
 
 *
 Work Files VCS
@@ -1624,9 +1584,7 @@ Remove local files
  which deletes copies of a version controlled asset's work files from the user's system, without deleting them from the repository. Since work files could be large in size, this option is especially useful in freeing up memory space.
 
 Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066#AssetBrowser-AssociatingWorkFiles](
-Associating Work Files to Assets
-)
+[Associating Work Files to Assets](Asset%20Browser.md#AssetBrowser-AssociatingWorkFiles)
  section on this page for more information about adding work files to assets.
 
 ##
@@ -1659,13 +1617,13 @@ Work Files → Manage Work Files...
  option from the context menu. This opens the Manage Work Files window through which work files located within a project's asset directory can be linked to the selected asset.
 
 *
-[Image: /docs/static/attachments/36844716]
+![Image](https://www.cryengine.com/docs/static/attachments/36844716)
 
 Manage Work Files
 *
 
 *
-[Image: /docs/static/attachments/36844717]
+![Image](https://www.cryengine.com/docs/static/attachments/36844717)
 
 Manage Work Files window
 *
@@ -1728,7 +1686,7 @@ Work Files.
 
 **
 
-[Image: /docs/static/attachments/36844906]
+![Image](https://www.cryengine.com/docs/static/attachments/36844906)
 
 *
 Work Files
@@ -1748,7 +1706,7 @@ Manage Work Files...
  option to open the Manage Work Files window.
 
 Hover over the desired work file with the mouse icon to reveal the
-[Image: /docs/static/attachments/36844910]
+![Image](https://www.cryengine.com/docs/static/attachments/36844910)
  icon against its listing, and click the icon to cancel the association between the file and the currently selected asset.
 
 While files of virtually any file type may be associated with an asset as its work files, these files must be located within the current project's
@@ -1840,7 +1798,7 @@ View → Shows Details/Split Horizontally/Split Vertically
 **
  is active.
 
-[Image: /docs/static/attachments/44968007]
+![Image](https://www.cryengine.com/docs/static/attachments/44968007)
 
 *
 Star Icons of Assets
@@ -1859,7 +1817,7 @@ Shows Thumbnails/Split Horizontally/Split Vertically
 **
  is active as illustrated here.
 
-[Image: /docs/static/attachments/36838722]
+![Image](https://www.cryengine.com/docs/static/attachments/36838722)
 
 *
 Star Icons of Asset Thumbnails
@@ -1867,7 +1825,7 @@ Star Icons of Asset Thumbnails
 
 Either way, an exclusive list of Favorites may be accessed by clicking the star button situated on the left of the Search Assets bar.
 
-[Image: /docs/static/attachments/44968008]
+![Image](https://www.cryengine.com/docs/static/attachments/44968008)
 
 *
 List of Favorites
@@ -1934,7 +1892,7 @@ View -> Recursive View
 Filter
 
 The Filter button
-[Image: /docs/static/attachments/36845071]
+![Image](https://www.cryengine.com/docs/static/attachments/36845071)
  situated to the right of the Search bar enables users to describe specific criteria by which the Search Results pane must list a project's various assets. Clicking the button yields
 options to
 **
@@ -1953,7 +1911,7 @@ Add Criterion
 **
  button presents a dropdown menu from which asset properties may be picked to specify your search criteria; the field adjacent to this dropdown helps specify the property value by which the Asset Browser must filter the list of objects.
 
-[Image: /docs/static/attachments/36838228]
+![Image](https://www.cryengine.com/docs/static/attachments/36838228)
 
 *
 Search Assets Filter
@@ -1972,7 +1930,7 @@ View → Recursive View
  option however, allows filtering to yield results from all sub - folders included within the current folder.
 
 Clicking the
-[Image: /docs/static/attachments/44960003]
+![Image](https://www.cryengine.com/docs/static/attachments/44960003)
  icon inverts the specified search criteria, while
 **
 Clear Criteria
@@ -1995,7 +1953,7 @@ Delete
 **
  these; a search bar at the top of this pop-up allows filtering through the listed filters.
 
-[Image: /docs/static/attachments/44960018]
+![Image](https://www.cryengine.com/docs/static/attachments/44960018)
 
 *
 Save/Load/Delete Filter
@@ -2054,9 +2012,7 @@ On the other hand, double-clicking a texture (
 .dds
 **
 ) that has a TIFF source file opens the Texture compiler settings
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308299](
-dialog
-)
+[dialog](../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20CryTIF%20Plugin%20for%20Photoshop/Export%20Textures%20with%20CryTIF%20-%20Photoshop.md)
 , where settings such as the compression scheme, Mip map generation parameters and normal/alpha map combinations of the TIFF file can be configured.
 
 Please note that an imported asset can be edited by this method only if its source files are available.
@@ -2091,12 +2047,10 @@ cga
 **
 ) types however may only be edited when imported via the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294](
-FBX
-)
+[FBX](FBX%20Import%20Tools.md)
  importer. Eventual engine releases will gradually allow for all kinds of assets to be edited by double-clicking.
 
-[Image: /docs/static/attachments/36838723]
+![Image](https://www.cryengine.com/docs/static/attachments/36838723)
 
 Assets with unsaved changes are marked by an asterisk icon at the bottom-right of their thumbnails and names.
 
@@ -2120,7 +2074,7 @@ File -> Import
  option of the Asset Browser, which automatically triggers the following dialog to choose between the asset's various elements that need importing.
 
 **
-[Image: /docs/static/attachments/36847133]
+![Image](https://www.cryengine.com/docs/static/attachments/36847133)
 
 **
 *
@@ -2202,7 +2156,7 @@ abc
 **
 ) files, after the following Resource Compiler runs its course.
 
-[Image: /docs/static/attachments/35959029]
+![Image](https://www.cryengine.com/docs/static/attachments/35959029)
 
 *
 Resource Compiler
@@ -2303,14 +2257,14 @@ These tool-specific Asset Browsers can be added to the windows of the Environmen
 Window → Panels → Asset Browser
 **
  option from their
-[Image: /docs/static/attachments/36838191]
+![Image](https://www.cryengine.com/docs/static/attachments/36838191)
  menu. Once opened, the tool-specific Asset Browser can be docked within the tool window as desired.
 
 Only assets that are relevant to the tool can be created within the tool-specific Asset Browser. Moreover, while the functionality of these tool-specific Asset Browsers is the same as the standalone Asset Browser, they have an additional Sync Selection feature which can be activated by clicking the
-[Image: /docs/static/attachments/44964589]
+![Image](https://www.cryengine.com/docs/static/attachments/44964589)
  icon.
 
-[Image: /docs/static/attachments/44964592]
+![Image](https://www.cryengine.com/docs/static/attachments/44964592)
 
 *
 Sync Selection in the Material Editor's Asset Browser
@@ -2326,7 +2280,7 @@ When an object within a level is selected from the Level Explorer or the Viewpor
 
 Certain options within this Properties tool allow for custom files (such as that of Mesh, Material or Animation types) to be selected in relation with the asset; this is done by clicking upon the Asset Resource Selector which appears as a folder button against option fields as demonstrated below.
 
-[Image: /docs/static/attachments/44959912]
+![Image](https://www.cryengine.com/docs/static/attachments/44959912)
 
 *
 Live Updates
@@ -2339,13 +2293,9 @@ The Asset Browser styled dialog can alternatively be replaced by a standard Open
 ed_enableAssetPickers
 **
 , a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535264](
-console variable
-)
+[console variable](../System%20Utilities/System%20Utilities%20Overview/Console%20Variables%20%26%20Config%20Files.md)
  to 0 via the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44967641](
-Console
-)
+[Console](Advanced%20Tab/Console.md)
 .
 
 ##
@@ -2353,7 +2303,7 @@ Texture Tool-tips
 
 Given a texture asset's listing within the Search Results pane, hovering the mouse over the texture generates an overview of its basic properties as illustrated below.
 
-[Image: /docs/static/attachments/44968011]
+![Image](https://www.cryengine.com/docs/static/attachments/44968011)
 
 *
 Texture Tooltip
@@ -2365,54 +2315,24 @@ CTRL
 **
  during a mouse hover provides a larger image preview of the texture asset.
 
-[Image: /docs/static/attachments/44968012]
+![Image](https://www.cryengine.com/docs/static/attachments/44968012)
 
 *
 Texture Tooltip (Large)
 *
 
-[#opening-the-asset-browser](
-Opening the Asset Browser
-)
-[#1-menu](
-1. Menu
-)
-[#2-navigation-bar](
-2. Navigation Bar
-)
-[#3-folder-tree](
-3. Folder Tree
-)
-[#4-search-results-pane](
-4. Search Results Pane
-)
-[#functionality](
-Functionality
-)
-[#associating-work-files-to-assets](
-Associating Work Files to Assets
-)
-[#copying-and-duplicating](
-Copying and Duplicating
-)
-[#favorites](
-Favorites
-)
-[#smart-and-advanced-search](
-Smart and Advanced Search
-)
-[#filter](
-Filter
-)
-[#manipulating-assets](
-Manipulating Assets
-)
-[#tool-specific-asset-browsers-and-instant-editing](
-Tool-specific Asset Browsers and Instant Editing
-)
-[#live-updates-for-asset-resource-selectors](
-Live Updates for Asset Resource Selectors
-)
-[#texture-tool-tips](
-Texture Tool-tips
-)
+[Opening the Asset Browser](#opening-the-asset-browser)
+[1. Menu](#1-menu)
+[2. Navigation Bar](#2-navigation-bar)
+[3. Folder Tree](#3-folder-tree)
+[4. Search Results Pane](#4-search-results-pane)
+[Functionality](#functionality)
+[Associating Work Files to Assets](#associating-work-files-to-assets)
+[Copying and Duplicating](#copying-and-duplicating)
+[Favorites](#favorites)
+[Smart and Advanced Search](#smart-and-advanced-search)
+[Filter](#filter)
+[Manipulating Assets](#manipulating-assets)
+[Tool-specific Asset Browsers and Instant Editing](#tool-specific-asset-browsers-and-instant-editing)
+[Live Updates for Asset Resource Selectors](#live-updates-for-asset-resource-selectors)
+[Texture Tool-tips](#texture-tool-tips)

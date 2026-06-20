@@ -8,3 +8,5 @@
 ## Content
 
 This tutorial uses the legacy GameSDK sample project and entities to create targets with which the player can interact to trigger points or rewards using Flow Graph scripting.
+
+[Embed: http://youtube.com/watch?v=h7IjQ0zQ-ys]

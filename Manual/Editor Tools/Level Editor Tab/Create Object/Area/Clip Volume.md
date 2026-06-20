@@ -18,7 +18,7 @@ water tight
 **
 . Note that in the following the term 'light' is used for both, lights and cube maps.
 
-[Image: /docs/static/attachments/36849673]
+![Image](https://www.cryengine.com/docs/static/attachments/36849673)
 
 *
 Left: clip volume, right: Red light clipped by the volume
@@ -42,9 +42,7 @@ e_ClipVolumes
 e_clipvolumes
 **
  to either of 0 or 1 via the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44967641](
-Console
-)
+[Console](../../../Advanced%20Tab/Console.md)
 .
 
 ##
@@ -104,7 +102,7 @@ Once a Clip Volume has been defined via
 Area -> Clip Volume
 **
 , be sure to close the tool from the top of the Viewport to prevent additional vertices from being added to the geometry.
-[Image: /docs/static/attachments/44967986]
+![Image](https://www.cryengine.com/docs/static/attachments/44967986)
 
 Clip Volumes need to be water tight and cannot overlap.
 
@@ -127,10 +125,10 @@ Affects This Area Only
 **
  then the Clip Volume will occlude the ambient lighting:
 
-[Image: /docs/static/attachments/44967989]
+![Image](https://www.cryengine.com/docs/static/attachments/44967989)
 
  |
-[Image: /docs/static/attachments/44967990]
+![Image](https://www.cryengine.com/docs/static/attachments/44967990)
 
  |
 
@@ -165,15 +163,7 @@ Clip Volumes must not overlap.
 
 -
 For performance reasons, forward rendered objects perform the 'inside' test based on their pivot only.
-[#properties](
-Properties
-)
-[#clip-volume-editing](
-Clip Volume Editing
-)
-[#restricting-lights-to-clip-volumes](
-Restricting Lights to Clip Volumes
-)
-[#restrictions](
-Restrictions
-)
+[Properties](#properties)
+[Clip Volume Editing](#clip-volume-editing)
+[Restricting Lights to Clip Volumes](#restricting-lights-to-clip-volumes)
+[Restrictions](#restrictions)

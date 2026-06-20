@@ -13,9 +13,7 @@ Overview
 Breakable glass is the most common used type of breakability and allows you to create glass the player can destroy.
 
 Download an example max file with different glass setups
-[/docs/static/attachments/23994713](
-glass_example.rar
-)
+[glass_example.rar](/docs/static/attachments/23994713)
 . Extract to:
 `
 GameSDK\Objects\props\glass_example
@@ -52,9 +50,9 @@ Create a Multi/Sub-Object Material for the complete object and create a unique M
 must
 **
  have this mat ID assigned to work properly.
-[Image: /docs/static/attachments/23994707]
+![Image](https://www.cryengine.com/docs/static/attachments/23994707)
 
-[Image: /docs/static/attachments/23994706]
+![Image](https://www.cryengine.com/docs/static/attachments/23994706)
 
 -
 Link your breakable glass node directly to the Export Node.
@@ -75,7 +73,7 @@ Default
 
 -
 Do not assign this Mat ID to any other part of your mesh than your breakable glass node!
-[Image: /docs/static/attachments/23994711]
+![Image](https://www.cryengine.com/docs/static/attachments/23994711)
 
 -
 Do not create LOD's or collision geometry for your breakable Glass Node.
@@ -105,7 +103,7 @@ mat_glass_unbreakable_roosevelt
 
 -
 mat_glass_unbreakable_spiderweb
-[Image: /docs/static/attachments/23994708]
+![Image](https://www.cryengine.com/docs/static/attachments/23994708)
 
 -
 The surface will change procedurally to another type. There is no need to create a second "_broken" material.
@@ -138,6 +136,8 @@ mat_glass_breakable_safetyglass_large
 
 Use for windows that the player can destroy and walk through, like glass windows on the ground levels of interiors, car windows, etc. Will disappear completely when shot.
 
+[Embed: https://www.youtube.com/watch?v=7U6kPGgGe1s]
+
 ##
 Breakable glass with material switch
 
@@ -149,6 +149,8 @@ mat_glass_unbreakable_roosevelt
 -
 mat_glass_unbreakable_spiderweb
 Use for windows on large building facades that should never completely disappear when shot.
+
+[Embed: https://www.youtube.com/watch?v=S2p5597bU7M]
 
 ##
 Non breakable glass with no special behavior when shot
@@ -163,6 +165,7 @@ Surface types which support this functionality:
 
 -
 mat_glass_unbreakable
+[Embed: https://www.youtube.com/watch?v=eQXCHfmsHQA]
 
 ##
 Restrictions
@@ -263,12 +266,6 @@ A: Make sure you haven't set the physics proxy to use the "Glass" surface type.
 
 The physics proxy should only be created for a non-glass render mesh, such as the frame. It should never use the Glass (breakable) surface type.
 
-[#general-setup-guidelines](
-General Setup Guidelines
-)
-[#fully-breakable-glass](
-Fully breakable glass
-)
-[#troubleshootingfaqs](
-Troubleshooting/FAQs
-)
+[General Setup Guidelines](#general-setup-guidelines)
+[Fully breakable glass](#fully-breakable-glass)
+[Troubleshooting/FAQs](#troubleshootingfaqs)

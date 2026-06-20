@@ -15,55 +15,33 @@ CRYENGINE uses the Yasli serialization library to support serializing from/to JS
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#the-archive-host](
-The Archive Host
-)
-[#control-characters](
-Control Characters
-)
-[#decorators](
-Decorators
-)
-[#serialization-contexts](
-Serialization Contexts
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[The Archive Host](#the-archive-host)
+[Control Characters](#control-characters)
+[Decorators](#decorators)
+[Serialization Contexts](#serialization-contexts)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797435](
-Serialization::IArchiveHost
-)
+[Serialization::IArchiveHost](/docs/static/engines/cryengine-5/categories/28704770/pages/29797435)
 
 ##
 The Archive Host
 
 Serialization is wrapped through the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797435](
-Serialization::IArchiveHost
-)
+[Serialization::IArchiveHost](/docs/static/engines/cryengine-5/categories/28704770/pages/29797435)
  interface, and wraps the ability to load/save from various formats with relative ease. This serialization approach always assumes that a native representation of the object we want to serialize is available. This is achieved by assuming that a Serialize (Serialization::IArchive&) function exists in each object we want to serialize, and will otherwise throw a compiler error.
 
 For an example of how to load JSON from a buffer, see
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797435](
-Serialization::IArchiveHost::LoadJsonBuffer
-)
+[Serialization::IArchiveHost::LoadJsonBuffer](/docs/static/engines/cryengine-5/categories/28704770/pages/29797435)
 . Similarly, we can also save to disk with almost identical code by calling
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797435](
-Serialization::IArchiveHost::SaveJsonFile
-)
+[Serialization::IArchiveHost::SaveJsonFile](/docs/static/engines/cryengine-5/categories/28704770/pages/29797435)
 .
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797143](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797143)
 
 ##
 Control Characters
@@ -324,9 +302,7 @@ Callback
 Provides per-property callback function
 
 See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29796853#SerializingJSON&XML-AddingCallbackstoPropertyTree](
-Adding Callbacks to PropertyTree
-)
+[Adding Callbacks to PropertyTree](Serializing%20JSON%20%26%20XML.md#SerializingJSON%26XML-AddingCallbackstoPropertyTree)
  |
 All types apart from compound ones (structs and containers)
  |
@@ -396,11 +372,7 @@ Conclusion
 This concludes the article on Yasli-based Serialization to/from JSON and XML. You may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29793409](
-Reading & Writing XML
-)
+[Reading & Writing XML](Reading%20%26%20Writing%20XML.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26874870](
-Projects and Plugins
-)
+[Projects and Plugins](../Projects%20and%20Plug-ins.md)

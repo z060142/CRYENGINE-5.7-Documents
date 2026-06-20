@@ -29,9 +29,7 @@ ADX2 builds localized CueSheet Binaries into a subfolder of the primary CueSheet
 
 Since this sub-folder cannot be manually specified in AtomCraft, it is necessary to move the Binaries after they're generated. The CRYENGINE SDK contains post-process scripts that can be used to automate the process of moving CueSheet Binaries to the correct folder; these scripts have been attached below.
 
-[/docs/static/attachments/44967888](
-crytek_audio_scripts.zip
-)
+[crytek_audio_scripts.zip](/docs/static/attachments/44967888)
 
 The above scripts only work when the ADX2 project is stored under the
 *
@@ -96,7 +94,7 @@ Output File Path
 Option
 **
  fields empty. You can use the following picture for reference.
-[Image: /docs/static/attachments/44967891]
+![Image](https://www.cryengine.com/docs/static/attachments/44967891)
 
 *
 Build Atom CueSheet Binary window
@@ -118,7 +116,7 @@ OK
 **
  button in this window.
 
-[Image: /docs/static/attachments/44967906]
+![Image](https://www.cryengine.com/docs/static/attachments/44967906)
 
 *
 Complete Building

@@ -7,17 +7,17 @@
 
 ## Child Pages
 
-- [Off-Mesh Navigation](Navigation (MNM)/Off-Mesh Navigation.md)
-- [Navigation Areas](Navigation (MNM)/Navigation Areas.md)
-- [Navigation Configuration](Navigation (MNM)/Navigation Configuration.md)
-- [Navmesh Debugging](Navigation (MNM)/Navmesh Debugging.md)
-- [Navmesh Pathfinding](Navigation (MNM)/Navmesh Pathfinding.md)
-- [Accessibility and Seed Points](Navigation (MNM)/Accessibility and Seed Points.md)
-- [Run-Time MNM Regeneration](Navigation (MNM)/Run-Time MNM Regeneration.md)
+- [Off-Mesh Navigation](Navigation%20(MNM)/Off-Mesh%20Navigation.md)
+- [Navigation Areas](Navigation%20(MNM)/Navigation%20Areas.md)
+- [Navigation Configuration](Navigation%20(MNM)/Navigation%20Configuration.md)
+- [Navmesh Debugging](Navigation%20(MNM)/Navmesh%20Debugging.md)
+- [Navmesh Pathfinding](Navigation%20(MNM)/Navmesh%20Pathfinding.md)
+- [Accessibility and Seed Points](Navigation%20(MNM)/Accessibility%20and%20Seed%20Points.md)
+- [Run-Time MNM Regeneration](Navigation%20(MNM)/Run-Time%20MNM%20Regeneration.md)
 
 ## Content
 
-[Image: /docs/static/attachments/29933216]
+![Image](https://www.cryengine.com/docs/static/attachments/29933216)
 
 ##
 Overview
@@ -30,36 +30,22 @@ The Multi-layer Navigation is a new powerful and easy-to-use navigation system. 
 These meshes are created automatically when Navigation Areas are added to maps in the Editor. During this process, the following map geometry objects are taken into account: terrain, voxels, static objects, and rigid bodies with zero mass.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961882](
-Navigation Areas
-)
+[Navigation Areas](Navigation%20(MNM)/Navigation%20Areas.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961796](
-Navigation Configuration
-)
+[Navigation Configuration](Navigation%20(MNM)/Navigation%20Configuration.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798769](
-Navmesh Debugging
-)
+[Navmesh Debugging](Navigation%20(MNM)/Navmesh%20Debugging.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534842](
-Navmesh Pathfinding
-)
+[Navmesh Pathfinding](Navigation%20(MNM)/Navmesh%20Pathfinding.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534290](
-Off-Mesh Navigation
-)
+[Off-Mesh Navigation](Navigation%20(MNM)/Off-Mesh%20Navigation.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36340564](
-Accessibility and Seed Points
-)
+[Accessibility and Seed Points](Navigation%20(MNM)/Accessibility%20and%20Seed%20Points.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535422](
-Run-Time MNM Regeneration
-)
+[Run-Time MNM Regeneration](Navigation%20(MNM)/Run-Time%20MNM%20Regeneration.md)

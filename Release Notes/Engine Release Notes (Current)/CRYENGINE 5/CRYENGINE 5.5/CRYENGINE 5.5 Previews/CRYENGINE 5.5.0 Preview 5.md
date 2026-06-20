@@ -13,9 +13,7 @@ Overview - CRYENGINE 5.5.0 Preview 5
 We are very pleased to bring you the 5.5.0 Preview 5 release. Our Dev Team have been busy improving on the earlier previews that were released on 20 March 2018, 03 May 2018, 24 May 2018 and 07 June 2018.
 
 As always we really do welcome further feedback and comments from the CRYENGINE Community, but please can these come through our normal channels i.e. the
-[https://github.com/CRYTEK/CRYENGINE/issues](
-Github Issue Reporter
-)
+[Github Issue Reporter](https://github.com/CRYTEK/CRYENGINE/issues)
  and the .
 
 ##
@@ -41,10 +39,7 @@ Preview Engine versions are also available from Github, however Sandbox Editor s
 -
 Go to:
 
-[https://github.com/CRYTEK/CRYENGINE/releases/5.5.0_preview5](
-https://github.com/CRYTEK/CRYENGINE
-/releases/5.5.0_preview5
-)
+[https://github.com/CRYTEK/CRYENGINE /releases/5.5.0_preview5](https://github.com/CRYTEK/CRYENGINE/releases/5.5.0_preview5)
 
 -
 Download CRYENGINE_preview_5.5.0.298_pc.zip
@@ -59,18 +54,12 @@ Double click on InstallEngine.bat
 Code Interface Changes
 
 For more information. see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962762](
-Important CRYENGINE 5.5 Data and Code Changes
-)
+[Important CRYENGINE 5.5 Data and Code Changes](../CRYENGINE%205.5.0/Important%20CRYENGINE%205.5%20Data%20and%20Code%20Changes.md)
 .
 
 If you are updating from CRYENGINE 5.4, please read this topic:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962763](
-Migrating from CRYENGINE 5.4 to CRYENGINE 5.5
-)
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29445533](
-.
-)
+[Migrating from CRYENGINE 5.4 to CRYENGINE 5.5](../CRYENGINE%205.5.0/Migrating%20from%20CRYENGINE%205.4%20to%20CRYENGINE%205.5.md)
+[.](/docs/static/engines/cryengine-5/categories/23756816/pages/29445533)
 
 ##
 Known Issues
@@ -105,9 +94,7 @@ Workaround:
 -
 C#:
 Using the CRYENGINE C# extension for Visual Studio 2017 to start the GameLauncher, Sandbox Editor or Server can cause an error when used in the latest version of Visual Studio 2017. More information and a fix for this issue can be found
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791112](
-here
-)
+[here](../../../../../API%20Reference/CRYENGINE%20Code%20Tutorials/C%23%20Programming.md)
 .
 
 ##
@@ -1477,9 +1464,7 @@ New:
 Refactored:
 **
  ParticleDataType is now type-templated - provides more type-safety and easier interface with Container Streams; now supports Vec3 etc. directly rather than float
-[/docs/static/engines/cryengine-5/categories/23756816](
-3
-)
+[3](/docs/static/engines/cryengine-5/categories/23756816)
 . Streams now have [] operators. Vec3 and Quat streams are template specializations. Moving from specialized stream names to generic TIStreams and TIOStreams. Simplified ParamMod Init and Update functions.
 
 -

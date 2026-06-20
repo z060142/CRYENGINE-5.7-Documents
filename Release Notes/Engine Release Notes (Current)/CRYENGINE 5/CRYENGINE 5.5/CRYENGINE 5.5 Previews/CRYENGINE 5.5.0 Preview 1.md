@@ -7,11 +7,9 @@
 
 ## Content
 
-[Image: /docs/static/attachments/44962788]
+![Image](https://www.cryengine.com/docs/static/attachments/44962788)
 
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/44962785]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44962785)](https://www.cryengine.com/support)
 
 ##
 5.5 Overview
@@ -51,74 +49,34 @@ uniflare
 ##
 Sections
 
-[#55-overview](
-5.5 Overview
-)
-[#contributors](
-Contributors
-)
-[#sections](
-Sections
-)
-[#code-interface-changes](
-Code Interface Changes
-)
-[#release-highlights](
-Release Highlights
-)
-[#known-issues](
-Known Issues
-)
-[#animation](
-Animation
-)
-[#ai](
-AI
-)
-[#audio](
-Audio
-)
-[#coresystem](
-Core/System
-)
-[#graphics-and-rendering](
-Graphics and Rendering
-)
-[#c](
-C#
-)
-[#physics](
-Physics
-)
-[#network](
-Network
-)
-[#project-system](
-Project System
-)
-[#sandbox](
-Sandbox
-)
-[#tools](
-Tools
-)
+[5.5 Overview](#55-overview)
+[Contributors](#contributors)
+[Sections](#sections)
+[Code Interface Changes](#code-interface-changes)
+[Release Highlights](#release-highlights)
+[Known Issues](#known-issues)
+[Animation](#animation)
+[AI](#ai)
+[Audio](#audio)
+[Core/System](#coresystem)
+[Graphics and Rendering](#graphics-and-rendering)
+[C#](#c)
+[Physics](#physics)
+[Network](#network)
+[Project System](#project-system)
+[Sandbox](#sandbox)
+[Tools](#tools)
 
 ##
 Code Interface Changes
 
 For more information. see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962762](
-Important CRYENGINE 5.5 Data and Code Changes
-)
+[Important CRYENGINE 5.5 Data and Code Changes](../CRYENGINE%205.5.0/Important%20CRYENGINE%205.5%20Data%20and%20Code%20Changes.md)
 .
 
 If you are updating from CRYENGINE 5.4, please read this topic:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962763](
-Migrating from CRYENGINE 5.4 to CRYENGINE 5.5
-)
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29445533](
-.
-)
+[Migrating from CRYENGINE 5.4 to CRYENGINE 5.5](../CRYENGINE%205.5.0/Migrating%20from%20CRYENGINE%205.4%20to%20CRYENGINE%205.5.md)
+[.](/docs/static/engines/cryengine-5/categories/23756816/pages/29445533)
 
 ##
 Release Highlights
@@ -129,14 +87,12 @@ Preview Through Launcher and Editor Source Code
 We really do want to make CRYENGINE users lives much easier - so to that end you can now get CRYENGINE Preview versions through the CRYENGINE Launcher.
 
 On top of this we have also exposed the full Sandbox Editor source code to the Github repository for users to clone and begin customizing their Sandbox Editor experience. Go to the Crytek/CRYENGINE
-[https://github.com/CRYTEK/CRYENGINE](
-Github
-)
+[Github](https://github.com/CRYTEK/CRYENGINE)
  repository to begin creating plugins or submitting pull requests to the CE branch.
 
 We really look forward to seeing other user names appear on the Contributors list above - what better way to showcase your newest plugins and products using CRYENGINE.
 
-[Image: /docs/static/attachments/44962782]
+![Image](https://www.cryengine.com/docs/static/attachments/44962782)
 
 ##
 New Sandbox Level File Format
@@ -147,7 +103,7 @@ Another aspect of this integration is the ability to place level files anywhere 
 
 Finally, the terrain is now visible as an object inside of the Level Editor and on all projects inside of 5.5 and it can be added or removed just like any other item, allowing for more modularity to the workflow.
 
-[Image: /docs/static/attachments/44962781]
+![Image](https://www.cryengine.com/docs/static/attachments/44962781)
 
 ##
 Unity Migration Guide
@@ -160,11 +116,9 @@ For 5.5 we have added a Unity Migration Guide to our CRYENGINE V documentation. 
 
  After reading this guide the CRYENGINE team are confident that you will be able to feel comfortable in the Sandbox Editor interface while creating your next development.
 
-[Image: /docs/static/attachments/44962780]
+![Image](https://www.cryengine.com/docs/static/attachments/44962780)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26876254](
-Unity Migration Guide Documentation
-)
+[Unity Migration Guide Documentation](../../../../../Manual/CRYENGINE%20-%20Getting%20Started/Migration%20Guides/CRYENGINE%20From%20Unity.md)
 
 ##
 Flappy Boid
@@ -175,11 +129,9 @@ Topics include; scripting game mechanics using Flow Graph, removing and modifyin
 
 We really like Flappy Boid and we are sure that the CRYENGINE community will feel exactly the same about it and will go turn it into their own great games!
 
-[Image: /docs/static/attachments/44962783]
+![Image](https://www.cryengine.com/docs/static/attachments/44962783)
 
-[https://www.cryengine.com/asset-db/product/crytek/flappy-boid](
-CRYENGINE Marketplace Flappy Boid
-)
+[CRYENGINE Marketplace Flappy Boid](https://www.cryengine.com/asset-db/product/crytek/flappy-boid)
 
 ##
 Documentation Overhaul
@@ -193,23 +145,15 @@ completely overhauled the C++ documentation to include numerous code snippets an
 
 To the right are links to the Sandbox Programming, the C++ documentation and a link to the API reference within Confluence.
 
-[Image: /docs/static/attachments/44962778]
+![Image](https://www.cryengine.com/docs/static/attachments/44962778)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26869929](
-CRYENGINE V Manual (BETA WIP)
-)
+[CRYENGINE V Manual (BETA WIP)](/docs/static/engines/cryengine-5/categories/23756816/pages/26869929)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873010](
-CRYENGINE Sandbox Programming
-)
+[CRYENGINE Sandbox Programming](../../../../../API%20Reference/CRYENGINE%20Sandbox%20Programming.md)
 
-[/docs/static/engines/cryengine-5/categories/23756813](
-Technical Documentation 5.7 LTS
-)
+[Technical Documentation 5.7 LTS](/docs/static/engines/cryengine-5/categories/23756813)
 
-[/docs/static/engines/cryengine-5/categories/28704770](
-C++ API Reference
-)
+[C++ API Reference](/docs/static/engines/cryengine-5/categories/28704770)
 
 ##
 Sandbox UI/UX Changes
@@ -224,7 +168,7 @@ Lastly, we have provided the ability to CTRL click the visibility icon to hide a
 
 So with these changes and several more we hope you find the development experience in the Sandbox Editor getting easier!
 
-[Image: /docs/static/attachments/44962777]
+![Image](https://www.cryengine.com/docs/static/attachments/44962777)
 
 ##
 Updated Entity Components
@@ -237,7 +181,7 @@ In what will be a trend for many future releases, we bring several new and legac
 
  We are sure that users will find these new Components to be a nice addition to the library and we very much look forward to pushing out more Components in future releases.
 
-[Image: /docs/static/attachments/44962776]
+![Image](https://www.cryengine.com/docs/static/attachments/44962776)
 
 ##
 Automated Packaging and Backing up
@@ -248,7 +192,7 @@ We know that for non-coders the notion of sharing your CRYENGINE content and pac
 
 We are sure that these new additions to Cryselect will really help alleviate some of the previous pain points that Developers have had during migration and delivery of their games.
 
-[Image: /docs/static/attachments/44962775]
+![Image](https://www.cryengine.com/docs/static/attachments/44962775)
 
 ##
 C# Upgrades
@@ -259,7 +203,7 @@ Within the C# implementation we have most noticeably expanded how you create C# 
 
  Finally, you will notice that inside of the C# implementation you are now able to expose both Signals and Functions to Schematyc for use inside of your Entity Components when developing. Oh boy, C# you are growing so fast!
 
-[Image: /docs/static/attachments/44962774]
+![Image](https://www.cryengine.com/docs/static/attachments/44962774)
 
 ##
 Character Proxy Creation
@@ -268,11 +212,9 @@ For a long time now the entire process behind creating a character has been seen
 
  In previous versions of CRYENGINE we have seen the FBX animation import feature introduced and most recently we allowed for the tweaking of ragdolls and their joint limits directly in the Character Tool. With this new feature we have now extended that flexibility to allow for the physics proxy creation to be allowed directly in the Character Tool viewport and be interchangeable in a production environment. There are no dependencies placed on the proxy creation and it simply sits alongside your Character Definition File to allow for seamless editing and versioning.
 
-[Image: /docs/static/attachments/44962773]
+![Image](https://www.cryengine.com/docs/static/attachments/44962773)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450429](
-Proxy Generation Documentation
-)
+[Proxy Generation Documentation](/docs/static/engines/cryengine-5/categories/23756816/pages/29450429)
 
 ##
 Terrain System Improvements
@@ -283,7 +225,7 @@ The Terrain System just keeps on getting better and better. In our 5.5 release w
 
  Last but not least, are the improvements in detailing of your Heightmaps. In 5.5 we bring you a new displacement option in the Terrain Sculpting Tools. This can be viewed as a stamp option that allows users to import preset shapes that could have been defined elsewhere or directly through heightmap data that comes from online resources.
 
-[Image: /docs/static/attachments/44962772]
+![Image](https://www.cryengine.com/docs/static/attachments/44962772)
 
 ##
 SVOGI Improvements
@@ -305,7 +247,7 @@ No additional large allocations of shadow maps on the GPU
 Soft penumbra with little performance loss
 We are sure that you will find these features really useful in your current development work and that your scenes will have the proper ambient tonality as would be seen in real life.
 
-[Image: /docs/static/attachments/44962771]
+![Image](https://www.cryengine.com/docs/static/attachments/44962771)
 
 ##
 Game Platform Plugins
@@ -316,7 +258,7 @@ For 5.5 we have a brand new Game Platform plugin, this allows for easy access to
 
 The other integration concerns HTTP and the new libCURL integration that exposes a client-side URL transfer library. For any backend work, then keep this integration in mind as it provides numerous features such as being thread-safe, IPv6 compatible and is extremely fast.
 
-[Image: /docs/static/attachments/44962770]
+![Image](https://www.cryengine.com/docs/static/attachments/44962770)
 
 ##
 Known Issues
@@ -7715,17 +7657,11 @@ New:
 New:
 **
  Update to Mono 5.10, adding support for
-[https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7](
-C# 7
-)
+[C# 7](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7)
  (also brings functionality from
-[https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7-1](
-C# 7.1
-)
+[C# 7.1](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7-1)
  and
-[https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7-2](
-C# 7.2)
-)
+[C# 7.2)](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7-2)
 , .NET 4.7.1 and portable PDB files powered by the new Roslyn compiler.
 
 -

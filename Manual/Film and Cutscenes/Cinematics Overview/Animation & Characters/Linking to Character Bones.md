@@ -97,24 +97,12 @@ Caveat
 
 Since it's based on the entity link, it can only connect two entities. If you want to link a non-entity to a bone of an entity, you should use a dummy entity and a normal parent-child link additionally.
 
-[#step-by-step](
-Step-by-step
-)
-[#bone-link-transformation-control-by-a-trackview-sequence](
-Bone link transformation control by a TrackView sequence
-)
-[#caveat](
-Caveat
-)
-[#step-by-step](
-Step-by-step
-)
-[#bone-link-transformation-control-by-a-trackview-sequence](
-Bone link transformation control by a TrackView sequence
-)
-[#caveat](
-Caveat
-)
+[Step-by-step](#step-by-step)
+[Bone link transformation control by a TrackView sequence](#bone-link-transformation-control-by-a-trackview-sequence)
+[Caveat](#caveat)
+[Step-by-step](#step-by-step)
+[Bone link transformation control by a TrackView sequence](#bone-link-transformation-control-by-a-trackview-sequence)
+[Caveat](#caveat)
 
 ##
 Overview

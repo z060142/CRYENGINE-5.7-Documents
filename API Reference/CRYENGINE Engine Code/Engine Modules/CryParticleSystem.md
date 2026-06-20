@@ -14,39 +14,17 @@ This is the module responsible for the simulation of particle effects in CryEngi
 
 Chapters:
 
-[#particle-system-overview](
-Particle System Overview
-)
-[#concepts](
-Concepts
-)
-[#particle-system](
-Particle System
-)
-[#particle-effect](
-Particle Effect
-)
-[#component](
-Component
-)
-[#feature](
-Feature
-)
-[#modifiers-and-effectors](
-Modifiers and Effectors
-)
-[#secondgen-second-generation](
-SecondGen (Second Generation)
-)
-[#attributes](
-Attributes
-)
-[#particle-emitter](
-Particle Emitter
-)
-[#runtime](
-Runtime
-)
+[Particle System Overview](#particle-system-overview)
+[Concepts](#concepts)
+[Particle System](#particle-system)
+[Particle Effect](#particle-effect)
+[Component](#component)
+[Feature](#feature)
+[Modifiers and Effectors](#modifiers-and-effectors)
+[SecondGen (Second Generation)](#secondgen-second-generation)
+[Attributes](#attributes)
+[Particle Emitter](#particle-emitter)
+[Runtime](#runtime)
 
 ##
 Concepts

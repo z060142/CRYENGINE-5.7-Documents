@@ -22,9 +22,7 @@ Look IK Setup
 Skeleton Setup
 
 Refer to Skeleton Setup section in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308006](
-Aim IK (aimposes)
-)
+[Aim IK (aimposes)](Aim%20IK%20(aimposes).md)
 .
 
 ##
@@ -32,26 +30,18 @@ Setting up the Character in 3ds Max
 
 Your character needs a Look IK bone as shown in the picture below.
 
-[Image: /docs/static/attachments/23994486]
+![Image](https://www.cryengine.com/docs/static/attachments/23994486)
 
 The Look IK bone is a child of the Head bone. Make sure your eye bones are also properly named and children of the Head bone.
 
-[Image: /docs/static/attachments/23994487]
+![Image](https://www.cryengine.com/docs/static/attachments/23994487)
 
 If you are switching from the older Look IK system, you have to re-export all your chrs after adding the Look IK bone.
 
 ##
 CHRPARAMS Setup
 
-[#look-ik-setup](
-Look IK Setup
-)
-[#skeleton-setup](
-Skeleton Setup
-)
-[#setting-up-the-character-in-3ds-max](
-Setting up the Character in 3ds Max
-)
-[#chrparams-setup](
-CHRPARAMS Setup
-)
+[Look IK Setup](#look-ik-setup)
+[Skeleton Setup](#skeleton-setup)
+[Setting up the Character in 3ds Max](#setting-up-the-character-in-3ds-max)
+[CHRPARAMS Setup](#chrparams-setup)

@@ -27,7 +27,7 @@ vehicles.Common.Ground.Light.Mud
 vehicles.Common.Ground.New.NewMud
 . It now looks something like this:
 
-[Image: /docs/static/attachments/35402303]
+![Image](https://www.cryengine.com/docs/static/attachments/35402303)
 
 *
 It's a good idea to create your PFX against an easy-to-distinguish background, like a Designer object.
@@ -45,7 +45,7 @@ Using Excel, open the file located in:
 
 If you scroll down a bit you will find the following block of information:
 
-[Image: /docs/static/attachments/35402304]
+![Image](https://www.cryengine.com/docs/static/attachments/35402304)
 
 *
 Disregard the inclusion of the "SCAR" row for this tutorial.
@@ -61,7 +61,7 @@ Also add a new column called
 mat_mud
  (typically you would arrange these better, in groups).
 
-[Image: /docs/static/attachments/35402305]
+![Image](https://www.cryengine.com/docs/static/attachments/35402305)
 
 So, three new main pieces of content we've added here are:
 
@@ -100,7 +100,7 @@ Add in a new entry as follows (copied mat_soil but lowered the friction value to
 
 ```
 
-[Image: /docs/static/attachments/35402306]
+![Image](https://www.cryengine.com/docs/static/attachments/35402306)
 
 Now you can assign the "Mud" surface type in your material that you're going to be driving on.
 
@@ -138,7 +138,7 @@ We're going to make a new section, based off the last entry in the "Light" secti
 
 ```
 
-[Image: /docs/static/attachments/35402307]
+![Image](https://www.cryengine.com/docs/static/attachments/35402307)
 
 Here we reference the Particle Effect we want to use as well as the Sound it should use (we'll use the existing "Soil" entry as it's close enough).
 
@@ -156,7 +156,7 @@ Open up the HMMWV vehicle script here:
 
 Scroll down towards the bottom and you'll see a "Particles" block which looks something like this:
 
-[Image: /docs/static/attachments/35402308]
+![Image](https://www.cryengine.com/docs/static/attachments/35402308)
 
 Now it all starts to come together! To recap the chain of events that will happen:
 
@@ -176,9 +176,9 @@ If your Surface Type doesn't seem to be working, try creating a copy of the mate
 ##
 Testing
 
-[Image: /docs/static/attachments/35402309]
+![Image](https://www.cryengine.com/docs/static/attachments/35402309)
  |
-[Image: /docs/static/attachments/35402310]
+![Image](https://www.cryengine.com/docs/static/attachments/35402310)
  |
 
 New Mud Effect
@@ -186,9 +186,9 @@ New Mud Effect
 No Grass Setup for the vfx_NewCar row!
  |
 
-[Image: /docs/static/attachments/35402311]
+![Image](https://www.cryengine.com/docs/static/attachments/35402311)
  |
-[Image: /docs/static/attachments/35402312]
+![Image](https://www.cryengine.com/docs/static/attachments/35402312)
  |
 
 Testing New Surface Types

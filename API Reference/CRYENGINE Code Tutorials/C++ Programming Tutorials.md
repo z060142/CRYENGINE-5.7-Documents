@@ -7,11 +7,9 @@
 
 ## Child Pages
 
-- [C++ Game Programming Tutorials](C++ Programming Tutorials/C++ Game Programming Tutorials.md)
+- [C++ Game Programming Tutorials](C%2B%2B%20Programming%20Tutorials/C%2B%2B%20Game%20Programming%20Tutorials.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23308775](
-C++ Game Programming Tutorials
-)
+[C++ Game Programming Tutorials](C%2B%2B%20Programming%20Tutorials/C%2B%2B%20Game%20Programming%20Tutorials.md)

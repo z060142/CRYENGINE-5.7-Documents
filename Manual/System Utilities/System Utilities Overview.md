@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [Batch Processing and Job XML](System Utilities Overview/Batch Processing and Job XML.md)
-- [Binary XML Conversion](System Utilities Overview/Binary XML Conversion.md)
-- [Console Variables & Config Files](System Utilities Overview/Console Variables & Config Files.md)
-- [Resource Compiler](System Utilities Overview/Resource Compiler.md)
-- [Settings Manager](System Utilities Overview/Settings Manager.md)
+- [Batch Processing and Job XML](System%20Utilities%20Overview/Batch%20Processing%20and%20Job%20XML.md)
+- [Binary XML Conversion](System%20Utilities%20Overview/Binary%20XML%20Conversion.md)
+- [Console Variables & Config Files](System%20Utilities%20Overview/Console%20Variables%20%26%20Config%20Files.md)
+- [Resource Compiler](System%20Utilities%20Overview/Resource%20Compiler.md)
+- [Settings Manager](System%20Utilities%20Overview/Settings%20Manager.md)
 
 ## Content
 
@@ -24,26 +24,16 @@ This section explains the different components that make up the UI implementatio
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308213](
-Batch Processing and Job XML
-)
+[Batch Processing and Job XML](System%20Utilities%20Overview/Batch%20Processing%20and%20Job%20XML.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308214](
-Binary XML Conversion
-)
+[Binary XML Conversion](System%20Utilities%20Overview/Binary%20XML%20Conversion.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535264](
-Console Variables & Config Files
-)
+[Console Variables & Config Files](System%20Utilities%20Overview/Console%20Variables%20%26%20Config%20Files.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959586](
-Resource Compiler
-)
+[Resource Compiler](System%20Utilities%20Overview/Resource%20Compiler.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535313](
-Settings Manager
-)
+[Settings Manager](System%20Utilities%20Overview/Settings%20Manager.md)

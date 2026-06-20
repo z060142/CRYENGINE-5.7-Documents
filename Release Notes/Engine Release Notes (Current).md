@@ -6,16 +6,14 @@
 
 ## Child Pages
 
-- [CRYENGINE 5](Engine Release Notes (Current)/CRYENGINE 5.md)
-- [CRYENGINE 3.x](Engine Release Notes (Current)/CRYENGINE 3.x.md)
+- [CRYENGINE 5](Engine%20Release%20Notes%20(Current)/CRYENGINE%205.md)
+- [CRYENGINE 3.x](Engine%20Release%20Notes%20(Current)/CRYENGINE%203.x.md)
 
 ## Content
 
-[Image: /docs/static/attachments/89456861]
+![Image](https://www.cryengine.com/docs/static/attachments/89456861)
 
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/89456945]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/89456945)](https://www.cryengine.com/support)
 
 ##
 5.7 Overview
@@ -24,30 +22,14 @@ This CRYENGINE 5.7 Long Term Support (LTS) release is aimed at improving the wor
 
 Besides fixing several bugs reported both internally and by the community, it also features updates such as the GamePlatform Plugin (with Flow Graph and Schematyc nodes added for your convenience), as well Scaleform 4 support.
 
-[#57-overview](
-5.7 Overview
-)
-[#highlights](
-Highlights
-)
-[#release-notes](
-Release Notes
-)
-[#network](
-Network
-)
-[#sandbox](
-Sandbox
-)
-[#tools](
-Tools
-)
-[#plugins-and-projects](
-Plugins and Projects
-)
-[#mobile-and-consoles](
-Mobile & Consoles
-)
+[5.7 Overview](#57-overview)
+[Highlights](#highlights)
+[Release Notes](#release-notes)
+[Network](#network)
+[Sandbox](#sandbox)
+[Tools](#tools)
+[Plugins and Projects](#plugins-and-projects)
+[Mobile & Consoles](#mobile-and-consoles)
 
 ##
 Highlights
@@ -59,7 +41,7 @@ An improvement over Scaleform 3, the Scaleform 4 integration features customized
 
 It is backwards compatible with ActionScript 2.0, providing you with the performance benefits of Scaleform 4 without having to remake your Flash projects in ActionScript 3.0, while also supporting ActionScript 3.0 which in turn allows the use of Adobe Animate. Scaleform 3 however is still available, in case the upgrade to Scaleform 4 causes unforeseen bugs to block your projects.
 
-[Image: /docs/static/attachments/89456929]
+![Image](https://www.cryengine.com/docs/static/attachments/89456929)
 
 ##
 Scaleform Schematyc
@@ -68,7 +50,7 @@ The Scaleform Schematyc plugin has been provided to emulate the necessary functi
 
 It supports both Scaleform 3 and 4.
 
-[Image: /docs/static/attachments/89456931]
+![Image](https://www.cryengine.com/docs/static/attachments/89456931)
 
 ##
 GamePlatform Plugin
@@ -78,12 +60,10 @@ The GamePlatform plugin is an update to the plugin that was shipped with CRYENGI
 Expanded features include support for various platforms such as Steam, PlayStation and Xbox. Additionally, it includes an optional new plugin which provides visual scripting nodes for Flow Graph and Schematyc. The deprecated Discord Rich Presence SDK has also been updated to the Discord Game SDK.
 
 New documentation for the GamePlatform Plugin can be found
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448420](
-here
-)
+[here](../API%20Reference/Projects%20and%20Plug-ins/GamePlatform%20Plugin.md)
 .
 
-[Image: /docs/static/attachments/89456932]
+![Image](https://www.cryengine.com/docs/static/attachments/89456932)
 
 ##
 Visual Studio 2017 - 2022 Support
@@ -92,7 +72,7 @@ Engine code and CMake has been updated to support Visual Studio versions 2017, 2
 
 Along with this upgrade, support for the C++17 standard implementation has been added while Windows SDK has been updated to 10.0.20348.0.
 
-[Image: /docs/static/attachments/89457247]
+![Image](https://www.cryengine.com/docs/static/attachments/89457247)
 
 ##
 Release Notes

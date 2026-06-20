@@ -79,7 +79,7 @@ Character Tool
 Pic1: Note the filename difference between the actual filename in the .pak file vs. what is seen in the Character Tool
 
 *
-[Image: /docs/static/attachments/23434655]
+![Image](https://www.cryengine.com/docs/static/attachments/23434655)
 
 ##
 Tutorials
@@ -88,16 +88,12 @@ Depending on the DCC tool used - the links below show you how to setup *.cga's.
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23299331](
-Tutorial For 3dsMax
-)
+[Tutorial For 3dsMax](../3DS%20Max/Tutorial%20-%20Animated%20Objects%20(cga)%203dsMax.md)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23299333](
-Tutorial For Maya
-)
+[Tutorial For Maya](../Maya/Tutorial%20-%20Animated%20Objects%20(cga)%20Maya.md)
 **
 
 ##
@@ -133,12 +129,6 @@ Exporting multiple animations is straightforward using "Anim Manager".
 Current *.cga export for Max is a bit awkward with the CRYENGINE Export utility when it comes to generating multiple *.anm files.
  |
 
-[#rules-for-cgas-and-exporting-animations](
-Rules for CGA's & Exporting Animations
-)
-[#tutorials](
-Tutorials
-)
-[#distinction-between-a-maya-cga-export-and-max-cga-export](
-Distinction between a Maya CGA export and Max CGA export
-)
+[Rules for CGA's & Exporting Animations](#rules-for-cgas-and-exporting-animations)
+[Tutorials](#tutorials)
+[Distinction between a Maya CGA export and Max CGA export](#distinction-between-a-maya-cga-export-and-max-cga-export)

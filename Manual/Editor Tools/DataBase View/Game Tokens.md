@@ -14,7 +14,7 @@ Overview
 
 A Game Token is a script object or variable that is used for storing values. These tokens can be used for performing simple logic manipulations, and checking a value in the game scripting language.
 
-[Image: /docs/static/attachments/36849023]
+![Image](https://www.cryengine.com/docs/static/attachments/36849023)
 
 Possible token functions include states (squad mate = dead or alive), characters, information (research tool results), sequential logic (an event has taken place, in if/then sequences), or objects (for example, weapons, vehicles).
 
@@ -26,9 +26,7 @@ In the database, all the defined values are stored in libraries. By loading or n
 Toolbar
 
 Game Tokens tab uses the default DataBase View toolbar set. For all the toolbar options and their functionalities, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869094](
-DataBase View
-)
+[DataBase View](../DataBase%20View.md)
  page.
 
 ##
@@ -197,15 +195,7 @@ gt_showPosY
 -
 **
  Defines the starting row in screen for game tokens debug info.
-[#toolbar](
-Toolbar
-)
-[#creating-tokens](
-Creating Tokens
-)
-[#saving-tokens-across-levels](
-Saving Tokens across Levels
-)
-[#debugging](
-Debugging
-)
+[Toolbar](#toolbar)
+[Creating Tokens](#creating-tokens)
+[Saving Tokens across Levels](#saving-tokens-across-levels)
+[Debugging](#debugging)

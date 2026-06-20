@@ -14,9 +14,7 @@ The main key concepts that are used in CRYENGINE's particle system are listed be
 
 For more information on Particles reference, please refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-here
-)
+[here](../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features.md)
 **
 .
 
@@ -24,62 +22,32 @@ here
 More Information
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25526352](
-GPU Support
-)
+[GPU Support](GPU%20Support.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-Particle Effect Features
-)
+[Particle Effect Features](../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-Particle Editor
-)
+[Particle Editor](../../Editor%20Tools/Particle%20Editor.md)
 
-[#more-information](
-More Information
-)
-[#particle-editor](
-Particle Editor
-)
-[#particle-effect](
-Particle Effect
-)
-[#component](
-Component
-)
-[#feature](
-Feature
-)
-[#modifiers-and-effectors](
-Modifiers and Effectors
-)
-[#secondgen-second-generation](
-SecondGen (Second Generation)
-)
-[#attributes](
-Attributes
-)
-[#particle-emitter](
-Particle Emitter
-)
-[#runtime](
-Runtime
-)
-[#emitter-targets](
-Emitter Targets
-)
+[More Information](#more-information)
+[Particle Editor](#particle-editor)
+[Particle Effect](#particle-effect)
+[Component](#component)
+[Feature](#feature)
+[Modifiers and Effectors](#modifiers-and-effectors)
+[SecondGen (Second Generation)](#secondgen-second-generation)
+[Attributes](#attributes)
+[Particle Emitter](#particle-emitter)
+[Runtime](#runtime)
+[Emitter Targets](#emitter-targets)
 
 ##
 Particle Editor
 
 It is a particle editing tool in CRYENGINE which gives you access to an advanced particle system. It is used to create realistic effects such as explosions, fire, smoke effects and much more. For more information on particle system, refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-here
-)
+[here](../../Editor%20Tools/Particle%20Editor.md)
 **
 .
 
@@ -93,9 +61,7 @@ Component
 
 Effects are composed of multiple components. Each component represents a particular aspect of the effect. For example, a firework effect might be composed out of rockets, glitter, flash bangs, colorful willows, and etc. For more information on adding an effect to a component, please refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868260](
-here
-)
+[here](../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Component.md)
 **
 .
 
@@ -109,9 +75,7 @@ Modifiers and Effectors
 
 It allows some features behaviors to be further manipulated over each particle life time or other aspects. By combining different features along with modifiers and effectors together, you can create stunningly complex behaviors. Multiple modifiers can be added to a feature. For more information on adding a Modifier to a feature, please refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-here
-)
+[here](../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Modifiers.md)
 **
 .
 
@@ -120,9 +84,7 @@ SecondGen (Second Generation)
 
 One of the key highlights of CRYENGINE's particle system is SecondGen feature. This allows to connect multiple components together as parent-children relationships. This enables parent particles to spawn multiple child particles, and the child particles will inherit data/fields from its parent particle. For more information on SecondGen feature, please refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-here
-)
+[here](../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/SecondGen.md)
 **
 .
 

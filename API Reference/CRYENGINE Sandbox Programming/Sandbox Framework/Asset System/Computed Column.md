@@ -32,7 +32,7 @@ CAssetManager* const pAssetManager = GetIEditor()->GetAssetManager();
 
 Once added the column is fully functional as an ordinary column. For example assets can be ordered or/and filtered by the column values.
 
-[Image: /docs/static/attachments/35395350]
+![Image](https://www.cryengine.com/docs/static/attachments/35395350)
 
 ##
 Table of Contents

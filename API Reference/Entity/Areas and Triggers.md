@@ -13,14 +13,10 @@ Overview
 The entity system is capable of creating tracking area shapes, as well as entities that may enter them. This exposes the ability to receive callbacks when an entity enters an area in the world, usually used to trigger gameplay logic in specific sections of a level.
 
 Access to the internal proximity grid is made possible by adding an instance of the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797287](
-IEntityTriggerComponent
-)
+[IEntityTriggerComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797287)
  component to an entity, see the example below.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797287](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797287)
 Once the trigger has been created on an entity, the
 ENTITY_EVENT_ENTERAREA
  and
@@ -32,20 +28,14 @@ ENTITY_FLAG_NO_PROXIMITY
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797287](
-IEntityTriggerComponent
-)
+[IEntityTriggerComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797287)
 
 ##
 Conclusion
@@ -53,11 +43,7 @@ Conclusion
 This concludes the article on areas and triggers, you may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26871538](
-Audio
-)
+[Audio](Audio.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/28184910](
-Execution Order and Lifecycle
-)
+[Execution Order and Lifecycle](Execution%20Order%20and%20Lifecycle.md)

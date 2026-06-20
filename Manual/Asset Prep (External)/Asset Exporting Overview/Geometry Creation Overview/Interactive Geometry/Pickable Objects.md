@@ -47,21 +47,19 @@ In the one-handed pickup animation, the "item_attachment"-bone position is in th
 
 Use the "Local" coordinate system when adjusting the rotation of the grab-helper.
 
-[Image: /docs/static/attachments/23994776]
+![Image](https://www.cryengine.com/docs/static/attachments/23994776)
 
 ##
 One-Handed Pickable Objects
 
 -
 Example file:
-[/docs/static/attachments/23994785](
-pickable_onehanded.max
-)
+[pickable_onehanded.max](/docs/static/attachments/23994785)
 
 -
 Example hierarchy:
 
-[Image: /docs/static/attachments/23994775]
+![Image](https://www.cryengine.com/docs/static/attachments/23994775)
 **
 Setting up the Helper:
 **
@@ -85,14 +83,12 @@ Two-Handed Pickable Objects
 
 -
 Example file:
-[/docs/static/attachments/23994787](
-pickable_twohanded.max
-)
+[pickable_twohanded.max](/docs/static/attachments/23994787)
 
 -
 Example hierarchy:
 
-[Image: /docs/static/attachments/23994789]
+![Image](https://www.cryengine.com/docs/static/attachments/23994789)
 **
 Setting Up the Helper:
 **
@@ -118,14 +114,12 @@ remain_grab_twohanded_01
 
 -
 Example file:
-[/docs/static/attachments/23994784](
-pickable_destroyable.max
-)
+[pickable_destroyable.max](/docs/static/attachments/23994784)
 
 -
 Example Hierarchy:
 
-[Image: /docs/static/attachments/23994781]
+![Image](https://www.cryengine.com/docs/static/attachments/23994781)
 **
 Basic Setup in 3ds Max:
 **
@@ -165,9 +159,7 @@ During Crysis development, Crytek developed an advanced technique to align one-h
 The key about this technique is to rotate the whole arms-template including the grab-helper, until the result looks as desired in the first person camera. The disadvantage of this technique is that the scene might become complex, especially if more than one template is merged into the scene. Efficient layer usage will become helpful for this.
 
 Pickable helper template file:
-[/docs/static/attachments/23994786](
-pickable_template.max
-)
+[pickable_template.max](/docs/static/attachments/23994786)
 
 **
 3ds Max Setup:
@@ -186,7 +178,7 @@ Adjust the position and rotation of the "pickable_template"-helper until you are
 Proceed with export.
 Example of a well-aligned pickable helper template:
 
-[Image: /docs/static/attachments/23994788]
+![Image](https://www.cryengine.com/docs/static/attachments/23994788)
 
 ##
 Export
@@ -215,7 +207,7 @@ Maya One-Handed Pickable Objects
 -
 Example hierarchy:
 
-[Image: /docs/static/attachments/23994783]
+![Image](https://www.cryengine.com/docs/static/attachments/23994783)
 **
 Setting up the Helper:
 **
@@ -238,7 +230,7 @@ Maya Two-Handed Pickable Objects
 -
 Example hierarchy:
 
-[Image: /docs/static/attachments/23994790]
+![Image](https://www.cryengine.com/docs/static/attachments/23994790)
 **
 Setting Up the Helper:
 **
@@ -279,7 +271,7 @@ Ragdoll objects containing a grab-helper (e.g. Dead bodies).
 
 -
 Procedural Vegetation with "Pickable" flag set to true.
-[Image: /docs/static/attachments/23994782]
+![Image](https://www.cryengine.com/docs/static/attachments/23994782)
 
 ##
 Picking of Animated Non-AI Characters
@@ -320,17 +312,17 @@ In order to remove the object that was used as the helper for the alignment, ope
 During the alignment:
 **
 
-[Image: /docs/static/attachments/23994780]
+![Image](https://www.cryengine.com/docs/static/attachments/23994780)
 
-[Image: /docs/static/attachments/23994779]
+![Image](https://www.cryengine.com/docs/static/attachments/23994779)
 
 **
 After removing the object path in Notepad:
 **
 
-[Image: /docs/static/attachments/23994777]
+![Image](https://www.cryengine.com/docs/static/attachments/23994777)
 
-[Image: /docs/static/attachments/23994778]
+![Image](https://www.cryengine.com/docs/static/attachments/23994778)
 
 ##
 Notes
@@ -373,24 +365,10 @@ Draw helpers with information for each object (same number negative hides the te
 
 ```
 
-[#requirements](
-Requirements
-)
-[#basic-setup-in-3ds-max](
-Basic Setup In 3ds Max
-)
-[#basic-setup-in-maya](
-Basic Setup In Maya
-)
-[#setup-in-sandbox](
-Setup In Sandbox
-)
-[#picking-of-animated-non-ai-characters](
-Picking of Animated Non-AI Characters
-)
-[#notes](
-Notes
-)
-[#debugging](
-Debugging
-)
+[Requirements](#requirements)
+[Basic Setup In 3ds Max](#basic-setup-in-3ds-max)
+[Basic Setup In Maya](#basic-setup-in-maya)
+[Setup In Sandbox](#setup-in-sandbox)
+[Picking of Animated Non-AI Characters](#picking-of-animated-non-ai-characters)
+[Notes](#notes)
+[Debugging](#debugging)

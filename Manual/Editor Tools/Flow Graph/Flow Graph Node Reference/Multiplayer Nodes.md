@@ -60,54 +60,28 @@ Checks various Multiplayer states and conditions.
 ##
 MsgSender
 
-[Image: /docs/static/attachments/29687962]
+![Image](https://www.cryengine.com/docs/static/attachments/29687962)
 
 ##
 MsgListener
 
-[Image: /docs/static/attachments/29687961]
+![Image](https://www.cryengine.com/docs/static/attachments/29687961)
 
 ##
 RequestPlaySequence
 
 Requests a track view sequence to be started by the server.
 
-[#attachtopath](
-AttachToPath
-)
-[#checkcvar](
-CheckCVar
-)
-[#environmentalweaponlistener](
-EnvironmentalWeaponListener
-)
-[#gamestate](
-GameState
-)
-[#gametype](
-GameType
-)
-[#getclientteamid](
-GetClientTeamId
-)
-[#highlightentity](
-HighlightEntity
-)
-[#ismultiplayer](
-IsMultiplayer
-)
-[#isserver](
-IsServer
-)
-[#mp](
-MP
-)
-[#msgsender](
-MsgSender
-)
-[#msglistener](
-MsgListener
-)
-[#requestplaysequence](
-RequestPlaySequence
-)
+[AttachToPath](#attachtopath)
+[CheckCVar](#checkcvar)
+[EnvironmentalWeaponListener](#environmentalweaponlistener)
+[GameState](#gamestate)
+[GameType](#gametype)
+[GetClientTeamId](#getclientteamid)
+[HighlightEntity](#highlightentity)
+[IsMultiplayer](#ismultiplayer)
+[IsServer](#isserver)
+[MP](#mp)
+[MsgSender](#msgsender)
+[MsgListener](#msglistener)
+[RequestPlaySequence](#requestplaysequence)

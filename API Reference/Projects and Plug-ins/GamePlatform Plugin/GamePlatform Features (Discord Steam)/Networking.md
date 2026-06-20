@@ -21,9 +21,7 @@ Networking Service Functions
 CloseSession
 
 Closes a network session opened with
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448622#Networking*-sendpacket](
- SendPacket
-)
+[SendPacket](Networking.md#Networking%2A-sendpacket)
 between the local user and the specified account.
 
 Platforms
@@ -171,9 +169,7 @@ ReadPacket
 Tries to read the next packet payload. The output of this function would be the Source Account Identifier, the data that was read (can be a string or binary buffer, depending on if C++ API/Flow Graph or Schematyc is used), and the number of bytes that was read from the packet.
 
 The whole packet might have to be read multiple times until the total number of bytes read is equal to the size of the packet (obtained via
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448622#Networking*-ispacketavailable](
-IsPacketAvailable
-)
+[IsPacketAvailable](Networking.md#Networking%2A-ispacketavailable)
 ).
 
 Platforms
@@ -288,36 +284,14 @@ Schematyc Nodes
 Signal::Receive::[EntityName]::Accounts::PlatformSignalReceiver::Networking::OnGetSteamAuthTicketResponse
  |
 
-[#networking-service-functions](
-Networking Service Functions
-)
-[#closesession](
-CloseSession
-)
-[#filtertext](
-FilterText
-)
-[#getauthtoken](
-GetAuthToken
-)
-[#isloggedin](
-IsLoggedIn
-)
-[#ispacketavailable](
-IsPacketAvailable
-)
-[#readpacket](
-ReadPacket
-)
-[#sendpacket](
-SendPacket
-)
-[#networking-service-events](
-Networking Service Events
-)
-[#oncheckmultiplayeraccess](
-OnCheckMultiplayerAccess
-)
-[#ongetsteamauthticketresponse](
-OnGetSteamAuthTicketResponse
-)
+[Networking Service Functions](#networking-service-functions)
+[CloseSession](#closesession)
+[FilterText](#filtertext)
+[GetAuthToken](#getauthtoken)
+[IsLoggedIn](#isloggedin)
+[IsPacketAvailable](#ispacketavailable)
+[ReadPacket](#readpacket)
+[SendPacket](#sendpacket)
+[Networking Service Events](#networking-service-events)
+[OnCheckMultiplayerAccess](#oncheckmultiplayeraccess)
+[OnGetSteamAuthTicketResponse](#ongetsteamauthticketresponse)

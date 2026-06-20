@@ -24,12 +24,8 @@ CStatoscope::RegisterDataGroup()
 
 Chapters:
 
-[#basic-example](
-Basic Example
-)
-[#profilers-data-group-example](
-Profilers Data Group Example
-)
+[Basic Example](#basic-example)
+[Profilers Data Group Example](#profilers-data-group-example)
 
 ##
 Basic Example
@@ -69,9 +65,7 @@ When adding a new data group, be sure to choose a letter that is not already in 
 Statoscope.cpp
 *
  and
-[/docs/static/engines/cryengine-3/categories/1638401/pages/9220402](
-Statoscope - Data Groups
-)
+[Statoscope - Data Groups](/docs/static/engines/cryengine-3/categories/1638401/pages/9220402)
 .
 
 ##

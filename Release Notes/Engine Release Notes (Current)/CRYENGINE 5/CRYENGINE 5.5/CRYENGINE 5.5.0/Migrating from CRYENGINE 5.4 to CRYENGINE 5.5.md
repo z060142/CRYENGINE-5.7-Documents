@@ -27,9 +27,7 @@ If a symbol cannot be found, even if the header containing the declaration is in
 -
 If the compiler complains about finding a member of a template class, try removing the empty class body of the template class base
 For more details, see the VS blog post
-[https://blogs.msdn.microsoft.com/visualstudio/2018/08/14/visual-studio-2017-version-15-8/](
-https://blogs.msdn.microsoft.com/visualstudio/2018/08/14/visual-studio-2017-version-15-8/
-)
+[https://blogs.msdn.microsoft.com/visualstudio/2018/08/14/visual-studio-2017-version-15-8/](https://blogs.msdn.microsoft.com/visualstudio/2018/08/14/visual-studio-2017-version-15-8/)
 
 ##
 Creating a Backup of Your Project
@@ -108,9 +106,7 @@ Upgrading a Template Project (Assets and Game Code)
 
 **
 Updating your game code is only necessary if you have made edits to the source code of your game. In this case, you should refer your assigned programmer to the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962762](
-Important CRYENGINE 5.5 Data and Code Changes
-)
+[Important CRYENGINE 5.5 Data and Code Changes](Important%20CRYENGINE%205.5%20Data%20and%20Code%20Changes.md)
 .
 **
 
@@ -181,13 +177,9 @@ Upgrading the GameSDK project (Assets and Game Code)
 
 **
 Updating your game code is only necessary if you have made edits to the source code of your game. In this case, you should refer your assigned programmer to the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962762](
-Important CRYENGINE 5.5 Data and Code Changes
-)
+[Important CRYENGINE 5.5 Data and Code Changes](Important%20CRYENGINE%205.5%20Data%20and%20Code%20Changes.md)
 . Since the GameSDK code is only contained within the Engine source code, building the Engine is outside the scope of this guide, but details can be found on our documentation pages
-[/docs](
-here
-)
+[here](/docs)
 .
 **
 
@@ -303,27 +295,11 @@ If the project contains preload requests, a dialog will appear that asks for rel
 Yes
 **
 .
-[#migration-notes-cryengine-54-to-cryengine-55](
-Migration Notes CRYENGINE 5.4 to CRYENGINE 5.5
-)
-[#vs2017-158](
-VS2017 15.8
-)
-[#creating-a-backup-of-your-project](
-Creating a Backup of Your Project
-)
-[#upgrading-a-template-project-assets-only](
-Upgrading a Template Project (Assets only)
-)
-[#upgrading-a-template-project-assets-and-game-code](
-Upgrading a Template Project (Assets and Game Code)
-)
-[#upgrading-the-gamesdk-project-assets-only](
-Upgrading the GameSDK Project (Assets only)
-)
-[#upgrading-the-gamesdk-project-assets-and-game-code](
-Upgrading the GameSDK project (Assets and Game Code)
-)
-[#migrating-your-audio-controls-editor-ace-files](
-Migrating Your Audio Controls Editor (ACE) Files
-)
+[Migration Notes CRYENGINE 5.4 to CRYENGINE 5.5](#migration-notes-cryengine-54-to-cryengine-55)
+[VS2017 15.8](#vs2017-158)
+[Creating a Backup of Your Project](#creating-a-backup-of-your-project)
+[Upgrading a Template Project (Assets only)](#upgrading-a-template-project-assets-only)
+[Upgrading a Template Project (Assets and Game Code)](#upgrading-a-template-project-assets-and-game-code)
+[Upgrading the GameSDK Project (Assets only)](#upgrading-the-gamesdk-project-assets-only)
+[Upgrading the GameSDK project (Assets and Game Code)](#upgrading-the-gamesdk-project-assets-and-game-code)
+[Migrating Your Audio Controls Editor (ACE) Files](#migrating-your-audio-controls-editor-ace-files)

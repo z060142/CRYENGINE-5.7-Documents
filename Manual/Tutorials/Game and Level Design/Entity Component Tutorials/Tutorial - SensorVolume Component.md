@@ -43,7 +43,7 @@ SensorVolume
 **
  option.
 
-[Image: /docs/static/attachments/28254511]
+![Image](https://www.cryengine.com/docs/static/attachments/28254511)
 
 -
 Now, you can see the Entity component has a shape assigned to it. This shape will act as a trigger area for that component. You can switch between a box or a sphere by clicking on the
@@ -52,9 +52,9 @@ Shape
 **
  attribute and then select the desired shape. You can also modify the size or radius of the shape using the Size attribute box.
 
-[Image: /docs/static/attachments/28254512]
+![Image](https://www.cryengine.com/docs/static/attachments/28254512)
  |
-[Image: /docs/static/attachments/28254513]
+![Image](https://www.cryengine.com/docs/static/attachments/28254513)
  |
 
 -
@@ -79,9 +79,9 @@ Add
 **
  in the context menu. After that, you should be able to see a new attribute field. Now, you can select a predefined tag that needs to be assigned to this sensor volume. You can have as many tags as you desire.
 
-[Image: /docs/static/attachments/28254514]
+![Image](https://www.cryengine.com/docs/static/attachments/28254514)
  |
-[Image: /docs/static/attachments/28254515]
+![Image](https://www.cryengine.com/docs/static/attachments/28254515)
  |
 
 The Tags works similar to a

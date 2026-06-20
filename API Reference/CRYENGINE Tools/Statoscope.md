@@ -7,13 +7,13 @@
 
 ## Child Pages
 
-- [Connecting Statoscope](Statoscope/Connecting Statoscope.md)
-- [Logging Data in Statoscope](Statoscope/Logging Data in Statoscope.md)
-- [Using the Main Graph Window](Statoscope/Using the Main Graph Window.md)
-- [Usage and Features](Statoscope/Usage and Features.md)
+- [Connecting Statoscope](Statoscope/Connecting%20Statoscope.md)
+- [Logging Data in Statoscope](Statoscope/Logging%20Data%20in%20Statoscope.md)
+- [Using the Main Graph Window](Statoscope/Using%20the%20Main%20Graph%20Window.md)
+- [Usage and Features](Statoscope/Usage%20and%20Features.md)
 - [Comparoscope](Statoscope/Comparoscope.md)
-- [Data Groups](Statoscope/Data Groups.md)
-- [Creating new Data Groups](Statoscope/Creating new Data Groups.md)
+- [Data Groups](Statoscope/Data%20Groups.md)
+- [Creating new Data Groups](Statoscope/Creating%20new%20Data%20Groups.md)
 
 ## Content
 
@@ -29,39 +29,25 @@ Chapters:
 The viewer (shown below) aims to present the recorded data in
 useful ways, such as visually in a plot that supports filtering and zooming, basic processing (averaging, local max), stats (min/max/average, buckets), comparison with other logs or with target lines and display of in-game screenshots and user markers for gameplay reference.
 
-[Image: /docs/static/attachments/26964652]
+![Image](https://www.cryengine.com/docs/static/attachments/26964652)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306650](
-Connecting Statoscope
-)
+[Connecting Statoscope](Statoscope/Connecting%20Statoscope.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306649](
-Logging Data in Statoscope
-)
+[Logging Data in Statoscope](Statoscope/Logging%20Data%20in%20Statoscope.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306651](
-Using the Main Graph Window
-)
+[Using the Main Graph Window](Statoscope/Using%20the%20Main%20Graph%20Window.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306652](
-Usage and Features
-)
+[Usage and Features](Statoscope/Usage%20and%20Features.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306653](
-Comparoscope
-)
+[Comparoscope](Statoscope/Comparoscope.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306654](
-Data Groups
-)
+[Data Groups](Statoscope/Data%20Groups.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306655](
-Creating new Data Groups
-)
+[Creating new Data Groups](Statoscope/Creating%20new%20Data%20Groups.md)

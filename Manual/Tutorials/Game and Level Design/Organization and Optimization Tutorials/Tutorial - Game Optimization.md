@@ -8,3 +8,5 @@
 ## Content
 
 Lead Systems Programmer Nico Moss and Engine Programmer Michael Madsen show you how to optimize your game using the Statoscope and MemReplay tools. Also features a community Q&A section.
+
+[Embed: https://www.youtube.com/watch?v=tEXSKfEGlec&list=PLpCgy91Y5vMseqbcMTFRd7hfvT_1GyWKO&index=6&t=7s]

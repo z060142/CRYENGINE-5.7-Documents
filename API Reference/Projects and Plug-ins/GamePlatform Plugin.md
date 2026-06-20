@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [GamePlatform Features (Discord/Steam)](GamePlatform Plugin/GamePlatform Features (Discord Steam).md)
-- [GamePlatform Services](GamePlatform Plugin/GamePlatform Services.md)
-- [GamePlatform Usage Tips](GamePlatform Plugin/GamePlatform Usage Tips.md)
+- [GamePlatform Features (Discord/Steam)](GamePlatform%20Plugin/GamePlatform%20Features%20(Discord%20Steam).md)
+- [GamePlatform Services](GamePlatform%20Plugin/GamePlatform%20Services.md)
+- [GamePlatform Usage Tips](GamePlatform%20Plugin/GamePlatform%20Usage%20Tips.md)
 
 ## Content
 
@@ -25,16 +25,10 @@ This does not include details on how to setup your game on an external platform 
 In This Section
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448424](
-GamePlatform Features (Discord/Steam)
-)
+[GamePlatform Features (Discord/Steam)](GamePlatform%20Plugin/GamePlatform%20Features%20(Discord%20Steam).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448647](
-GamePlatform Services
-)
+[GamePlatform Services](GamePlatform%20Plugin/GamePlatform%20Services.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448695](
-GamePlatform Usage Tips
-)
+[GamePlatform Usage Tips](GamePlatform%20Plugin/GamePlatform%20Usage%20Tips.md)

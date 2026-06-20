@@ -15,9 +15,7 @@ The functioning of
 Conditions
 **
 nodes is based on the value of Variables previously defined in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869459](
-Data Definitions
-)
+[Data Definitions](../Behavior%20Tree%20Editor%20Window.md)
 block of the Behavior Tree Editor.
 
 ##
@@ -230,12 +228,6 @@ None.
 
  |
 
-[#conditions-nodes](
-Conditions Nodes
-)
-[#condition-gate](
-Condition gate
-)
-[#check-condition](
-Check Condition
-)
+[Conditions Nodes](#conditions-nodes)
+[Condition gate](#condition-gate)
+[Check Condition](#check-condition)

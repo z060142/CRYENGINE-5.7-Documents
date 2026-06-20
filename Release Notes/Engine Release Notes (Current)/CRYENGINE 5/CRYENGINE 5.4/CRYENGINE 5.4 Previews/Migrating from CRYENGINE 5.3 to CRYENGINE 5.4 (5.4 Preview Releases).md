@@ -198,9 +198,7 @@ When an error occurs in CMake while generating the solution, make sure that Visu
 The user can now open the solution. For C++ projects,  the solution can be opened in Visual Studio. For C# projects, it can be opened with Xamarin Studio if it has the CRYENGINE add-in installed.
 
 For more information, see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791112](
-http://docs.cryengine.com/display/CEPROG/C%23+Programming
-)
+[http://docs.cryengine.com/display/CEPROG/C%23+Programming](../../../../../API%20Reference/CRYENGINE%20Code%20Tutorials/C%23%20Programming.md)
 .
 
 -

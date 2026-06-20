@@ -14,6 +14,7 @@ CRYENGINE is well-known to have a very versatile physics implementation that spa
 
 In this Quick Start we will be examining how we can interact with several physics entities that are provided and look at adjusting global settings that can permanently alter the speed and interaction within your game. To start out we will begin with creating a basic RigidBodyEx entity and then we will be looking at the basic parameters any users will need to know in order to quickly interact properly with the entity.
 
+[Embed: https://vimeo.com/272152219]
 Some of the most important parameters are defined here:
 
 -
@@ -74,14 +75,14 @@ Use Message
 ##
 Step 1
 
-[Image: /docs/static/attachments/52592997]
+![Image](https://www.cryengine.com/docs/static/attachments/52592997)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/29928968]
+![Image](https://www.cryengine.com/docs/static/attachments/29928968)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/52592999]
+![Image](https://www.cryengine.com/docs/static/attachments/52592999)

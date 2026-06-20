@@ -47,9 +47,7 @@ Fixed
 Fixed
 **
 : Layer dialog doesn't set new layer (
-[http://steamcommunity.com/games/220980/announcements/detail/1531536305658403230](
-hotfix 2674
-)
+[hotfix 2674](http://steamcommunity.com/games/220980/announcements/detail/1531536305658403230)
 ).
 
 -
@@ -57,9 +55,7 @@ hotfix 2674
 Fixed
 **
 : UI Layout not remembered (CE-3684) (
-[http://steamcommunity.com/games/220980/announcements/detail/1534914552418872868](
-hotfix 2685
-)
+[hotfix 2685](http://steamcommunity.com/games/220980/announcements/detail/1534914552418872868)
 ).
 
 -
@@ -73,9 +69,7 @@ Fixed
 Fixed
 **
 : Mark Editor as not DPI-aware in manifest (CE-3729) to prevent crash on non-100% (default) Windows font size (
-[http://steamcommunity.com/games/220980/announcements/detail/1534914552418872868](
-hotfix 2685
-)
+[hotfix 2685](http://steamcommunity.com/games/220980/announcements/detail/1534914552418872868)
 ).
 
 -
@@ -151,9 +145,7 @@ Optimized
 Optimized
 **
 : Moved the Stop All Sounds Button from the InfoBar to the Sound Menu (
-[http://steamcommunity.com/games/220980/announcements/detail/1531536305658403230](
-hotfix 2674
-)
+[hotfix 2674](http://steamcommunity.com/games/220980/announcements/detail/1531536305658403230)
 ).
 
 -
@@ -212,9 +204,7 @@ Fixed
 Fixed
 **
 : Changing the game folder broke audio (
-[http://steamcommunity.com/games/220980/announcements/detail/1534914552418872868](
-hotfix 2685
-)
+[hotfix 2685](http://steamcommunity.com/games/220980/announcements/detail/1534914552418872868)
 ).
 
 -
@@ -234,9 +224,7 @@ Fixed
 Fixed
 **
 : OnFarToNear not triggering on AudioAreaEntity FG node when spawning inside the area (
-[http://steamcommunity.com/games/220980/announcements/detail/1531536305658403230](
-hotfix 2674
-)
+[hotfix 2674](http://steamcommunity.com/games/220980/announcements/detail/1531536305658403230)
 ).
 
 -
@@ -265,9 +253,7 @@ New
 Fixed
 **
 : Geom cache decoder was still using an SSE4.1 instruction on PC (crash on older AMD CPUs) (
-[http://steamcommunity.com/games/220980/announcements/detail/1531536305658403230](
-hotfix 2674
-)
+[hotfix 2674](http://steamcommunity.com/games/220980/announcements/detail/1531536305658403230)
 ).
 
 -

@@ -11,9 +11,7 @@
 Overview
 
 Universal Debug Recordings (UDR) refers to a standalone system (API) on CRYENGINE, created to assist programmers with visual debugging. Visualization of Render Primitives, saving and loading them via XML files is achieved through the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959189](
-UDR Visualizer
-)
+[UDR Visualizer](../../Manual/Editor%20Tools/Advanced%20Tab/Universal%20Debug%20Recordings%20(UDR)%20Visualizer.md)
 .
 
 To demonstrate how UDR code can be created and utilized for debugging, this section contains code that was used to debug the movements of the Spider boss in the game HUNT: Showdown. Two code routines were used to debug the Spider's path:
@@ -67,7 +65,7 @@ void C3DPathFollower::CPath::RecordPath()
 
 ```
 
-[Image: /docs/static/attachments/44959414]
+![Image](https://www.cryengine.com/docs/static/attachments/44959414)
 
 *
 'Path0'
@@ -84,7 +82,7 @@ d in the UDR Visualizer
 *
 
 *
-[Image: /docs/static/attachments/44959415]
+![Image](https://www.cryengine.com/docs/static/attachments/44959415)
 
 Visualization of 'Path0' followed by the Spider in the Viewport. Render primitives were added through the above code.
 *
@@ -138,7 +136,7 @@ void C3DPathFollower::RecordPathFollowingDetails()
 
 ```
 
-[Image: /docs/static/attachments/44959463]
+![Image](https://www.cryengine.com/docs/static/attachments/44959463)
 
 *
 'PathFollowing Detail1'
@@ -149,14 +147,10 @@ is selected in the UDR Visualizer
 *
 
 *
-[Image: /docs/static/attachments/44959464]
+![Image](https://www.cryengine.com/docs/static/attachments/44959464)
 
 Visualization of 'PathFollowing Details1' followed by the Spider. Render primitives were added through the above code.
 *
 
-[#path-debugging-routine-high-level](
-Path Debugging Routine (High-level)
-)
-[#path-debugging-routine-low-level](
-Path Debugging Routine (Low-level)
-)
+[Path Debugging Routine (High-level)](#path-debugging-routine-high-level)
+[Path Debugging Routine (Low-level)](#path-debugging-routine-low-level)

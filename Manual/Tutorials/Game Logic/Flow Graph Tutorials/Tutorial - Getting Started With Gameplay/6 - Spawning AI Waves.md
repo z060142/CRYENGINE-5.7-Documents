@@ -7,15 +7,9 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793753](
-[Image: /docs/static/attachments/44971032]
-5 - Teleportation
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971032) 5 - Teleportation](/docs/static/engines/cryengine-5/categories/23756816/pages/29793753)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450272](
-[Image: /docs/static/attachments/44971033]
-7 - Counting Kills
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971033) 7 - Counting Kills](/docs/static/engines/cryengine-5/categories/23756816/pages/29450272)
 
 ##
 Where do I use spawning?
@@ -23,6 +17,8 @@ Where do I use spawning?
 Inside of games you have specific genres that will require the endless spawning of AI so that the player can get a high score or they could be the minions inside of a boss battle that only depend on the health of the boss to keep spawning. Being able to understand how to utilize these Archetypes to spawn classes of AI and make them a dynamic part of the elevated gameplay is a valuable piece of knowledge to know.
 
 In this lesson we will focus on creating an AI Tag Point and then using that position to spawn an AI every three seconds using a Timer.
+
+[Embed: https://vimeo.com/271653787]
 
 ##
 How To Spawn AI Waves
@@ -132,39 +128,33 @@ Logic:Any
 ##
 Step 1 and 2
 
-[Image: /docs/static/attachments/29929352]
+![Image](https://www.cryengine.com/docs/static/attachments/29929352)
 
 ##
 Step 3-1
 
-[Image: /docs/static/attachments/29929353]
+![Image](https://www.cryengine.com/docs/static/attachments/29929353)
 
 ##
 Step 3-2
 
-[Image: /docs/static/attachments/29929354]
+![Image](https://www.cryengine.com/docs/static/attachments/29929354)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/29929355]
+![Image](https://www.cryengine.com/docs/static/attachments/29929355)
 
 ##
 Step 5
 
-[Image: /docs/static/attachments/29929356]
+![Image](https://www.cryengine.com/docs/static/attachments/29929356)
 
 ##
 Final Result
 
-[Image: /docs/static/attachments/29929357]
+![Image](https://www.cryengine.com/docs/static/attachments/29929357)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793753](
-[Image: /docs/static/attachments/44971032]
-5 - Teleportation
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971032) 5 - Teleportation](/docs/static/engines/cryengine-5/categories/23756816/pages/29793753)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450272](
-[Image: /docs/static/attachments/44971033]
-7 - Counting Kills
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971033) 7 - Counting Kills](/docs/static/engines/cryengine-5/categories/23756816/pages/29450272)

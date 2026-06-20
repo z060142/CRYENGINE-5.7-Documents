@@ -297,18 +297,8 @@ Any modifications to the OCM such as adding in new geometry or taking it away wi
 
 -
 Adding new geometry or taking it away requires a restart of the Editor to reflect the changes in the debug Viewport (limitation in the debug window)
-[#cvars](
-CVars
-)
-[#brief-history](
-Brief History
-)
-[#how-to-create-and-export-the-level-occlusion-mesh-ocm](
-How to Create & Export the Level Occlusion Mesh (OCM)
-)
-[#optimizing-the-level-occlusion-mesh-ocm](
-Optimizing the Level Occlusion Mesh (OCM)
-)
-[#notes](
-Notes
-)
+[CVars](#cvars)
+[Brief History](#brief-history)
+[How to Create & Export the Level Occlusion Mesh (OCM)](#how-to-create-and-export-the-level-occlusion-mesh-ocm)
+[Optimizing the Level Occlusion Mesh (OCM)](#optimizing-the-level-occlusion-mesh-ocm)
+[Notes](#notes)

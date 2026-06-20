@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933225]
+![Image](https://www.cryengine.com/docs/static/attachments/29933225)
 
 ##
 Overview
@@ -21,16 +21,10 @@ As with previous versions of the engine, animated character classes must be used
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#required-scripts](
-Required Scripts
-)
-[#debugging](
-Debugging
-)
-[Image: /docs/static/attachments/23994477]
+[Sections](#sections)
+[Required Scripts](#required-scripts)
+[Debugging](#debugging)
+![Image](https://www.cryengine.com/docs/static/attachments/23994477)
 
 ##
 Required Scripts
@@ -109,4 +103,4 @@ a_poseAlignerForceWeightOne = 1
 Forces weight to 1 which causes the limb to always adjust
  |
 
-[Image: /docs/static/attachments/23994482]
+![Image](https://www.cryengine.com/docs/static/attachments/23994482)

@@ -11,27 +11,17 @@
 Overview
 
 Cameras in CRYENGINE are represented by the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29796988](
-CCamera
-)
+[CCamera](/docs/static/engines/cryengine-5/categories/28704770/pages/29796988)
  structure, and represent a view into the world. The main camera needs to be set by calling
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797143](
-ISystem::SetViewCamera
-)
+[ISystem::SetViewCamera](/docs/static/engines/cryengine-5/categories/28704770/pages/29797143)
  at any point before
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797056](
-UpdateBeforeFinalizeCamera
-)
+[UpdateBeforeFinalizeCamera](/docs/static/engines/cryengine-5/categories/28704770/pages/29797056)
 ,
 
 A camera is commonly initialized with
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29796988](
-CCamera::SetFrustum
-)
+[CCamera::SetFrustum](/docs/static/engines/cryengine-5/categories/28704770/pages/29796988)
 , specifying resolution, field of view, near plane and the far plane, in addition to
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29796988](
-CCamera::SetMatrix
-)
+[CCamera::SetMatrix](/docs/static/engines/cryengine-5/categories/28704770/pages/29796988)
  being used to set the world transformation of the specified camera.
 
 Note that camera handling is automated by the Camera Component in the default components plug-in, see
@@ -41,39 +31,25 @@ Cry::DefaultComponents::CCameraComponent
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#audio-listeners](
-Audio Listeners
-)
-[#asynchronous-camera-injection-vr](
-Asynchronous Camera Injection (VR)
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[Audio Listeners](#audio-listeners)
+[Asynchronous Camera Injection (VR)](#asynchronous-camera-injection-vr)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29796988](
-CCamera
-)
+[CCamera](/docs/static/engines/cryengine-5/categories/28704770/pages/29796988)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797056](
-UpdateBeforeFinalizeCamera
-)
+[UpdateBeforeFinalizeCamera](/docs/static/engines/cryengine-5/categories/28704770/pages/29797056)
 
 ##
 Audio Listeners
 
 Cameras will need to maintain an audio listener in order for audio to be played at the camera origin. Keep in mind that this is automated in the Camera Component mentioned above. For more information, see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26871538#Audio-Listeners](
-Audio Listeners
-)
+[Audio Listeners](Audio.md#Audio-Listeners)
 .
 
 ##
@@ -82,14 +58,10 @@ Asynchronous Camera Injection (VR)
 A big problem in Virtual Reality is the latency between the user moving the tracked headset, and the rendered picture on screen. Besides rendering as fast as possible, CRYENGINE uses late-stage camera injection in order to update the camera pose as late as possible in order to avoid a mismatch between the rendered frame and the new location of the headset.
 
 This is achieved using
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797340](
-IHmdDevice::IAsyncCameraCallback
-)
+[IHmdDevice::IAsyncCameraCallback](/docs/static/engines/cryengine-5/categories/28704770/pages/29797340)
 . Note that this is handled by default in the Camera Component mentioned in the Overview above, in addition to the Room Scale Camera Component.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797340](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797340)
 
 ##
 Conclusion
@@ -97,11 +69,7 @@ Conclusion
 This concludes the article on Cameras, you may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/28184910](
-Execution Order and Lifecycle
-)
+[Execution Order and Lifecycle](Execution%20Order%20and%20Lifecycle.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29428286](
-Input and Action Mapping
-)
+[Input and Action Mapping](Input%20and%20Action%20Mapping.md)

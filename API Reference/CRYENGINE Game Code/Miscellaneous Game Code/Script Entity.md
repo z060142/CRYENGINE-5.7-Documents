@@ -7,35 +7,25 @@
 
 ## Child Pages
 
-- [Structure of a Script Entity](Script Entity/Structure of a Script Entity.md)
-- [Using Entity State](Script Entity/Using Entity State.md)
-- [Using the Entity Slots](Script Entity/Using the Entity Slots.md)
-- [Linking Entities](Script Entity/Linking Entities.md)
-- [Exposing an Entity to the Network](Script Entity/Exposing an Entity to the Network.md)
+- [Structure of a Script Entity](Script%20Entity/Structure%20of%20a%20Script%20Entity.md)
+- [Using Entity State](Script%20Entity/Using%20Entity%20State.md)
+- [Using the Entity Slots](Script%20Entity/Using%20the%20Entity%20Slots.md)
+- [Linking Entities](Script%20Entity/Linking%20Entities.md)
+- [Exposing an Entity to the Network](Script%20Entity/Exposing%20an%20Entity%20to%20the%20Network.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306594](
-Structure of a Script Entity
-)
+[Structure of a Script Entity](Script%20Entity/Structure%20of%20a%20Script%20Entity.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306591](
-Using Entity State
-)
+[Using Entity State](Script%20Entity/Using%20Entity%20State.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306595](
-Using the Entity Slots
-)
+[Using the Entity Slots](Script%20Entity/Using%20the%20Entity%20Slots.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306592](
-Linking Entities
-)
+[Linking Entities](Script%20Entity/Linking%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306593](
-Exposing an Entity to the Network
-)
+[Exposing an Entity to the Network](Script%20Entity/Exposing%20an%20Entity%20to%20the%20Network.md)

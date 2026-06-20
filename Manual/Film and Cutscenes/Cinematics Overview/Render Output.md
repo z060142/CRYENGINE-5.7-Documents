@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Capturing Video & Audio](Render Output/Capturing Video & Audio.md)
-- [Recording Time Demos](Render Output/Recording Time Demos.md)
+- [Capturing Video & Audio](Render%20Output/Capturing%20Video%20%26%20Audio.md)
+- [Recording Time Demos](Render%20Output/Recording%20Time%20Demos.md)
 
 ## Content
 
@@ -16,11 +16,7 @@
 In This Section
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535453](
-Capturing Video & Audio
-)
+[Capturing Video & Audio](Render%20Output/Capturing%20Video%20%26%20Audio.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535455](
-Recording Time Demos
-)
+[Recording Time Demos](Render%20Output/Recording%20Time%20Demos.md)

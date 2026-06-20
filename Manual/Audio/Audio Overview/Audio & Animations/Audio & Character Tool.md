@@ -27,22 +27,20 @@ Tools -> Animation -> Character Tool
  Animation Layout
  button in the main toolbar:
 
-[Image: /docs/static/attachments/51871760]
+![Image](https://www.cryengine.com/docs/static/attachments/51871760)
 
 For an overview of the Interface in the Character Tool please refer to
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961853](
-Character Tool
-)
+[Character Tool](../../../Editor%20Tools/Animation%20Tab/Character%20Tool.md)
 .
 
 In order to setup an audio system Trigger in the Character Tool, you first have to load a character. This can be done through the Assets Pane located on the left side of the tool:
 
-[Image: /docs/static/attachments/51871761]
+![Image](https://www.cryengine.com/docs/static/attachments/51871761)
 
 Next, in the lower half of the Asset Pane all the animations used by the character can be seen, to load one just double-click on it:
 
-[Image: /docs/static/attachments/51871762]
+![Image](https://www.cryengine.com/docs/static/attachments/51871762)
 
 With the respective Animation loaded we can set our
 *
@@ -105,18 +103,14 @@ You can specify
 Animation Events
 *
  to use special Footstep or Foley events, this is further described in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964889](
-Audio & Foley/Footsteps
-)
+[Audio & Foley/Footsteps](Audio%20%26%20Foley%20Footsteps.md)
 .
 Further details about the Setup of
 *
 Animation Events
 *
  can be found in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961853](
-Character Tool
-)
+[Character Tool](../../../Editor%20Tools/Animation%20Tab/Character%20Tool.md)
 .
 
 Once you have setup your
@@ -136,7 +130,7 @@ Animation Event
 The precise position of the sound can be achieved by attaching the sound to a particular bone in the object. Click in the
 Bone
  column in the Animation Events list - a pop-up window will open where it is possible to select a bone.
-[Image: /docs/static/attachments/51871763]
+![Image](https://www.cryengine.com/docs/static/attachments/51871763)
 
 If you are having problems with audio playing from audio_trigger Animation Events, try setting the CVar
 `
@@ -163,7 +157,5 @@ Results
 You now have learned how to setup Audio in the Character Tool. Using this method sounds can be placed on humans, moving parts, prefabs, or weapon reloads.
 
 In order to setup character and material based Footsteps and Foleys please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964889](
-Audio & Foley/Footsteps
-)
+[Audio & Foley/Footsteps](Audio%20%26%20Foley%20Footsteps.md)
 .

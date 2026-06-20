@@ -14,24 +14,14 @@ This tutorial explains on how to setup assets, and export them from Maya into th
 Crytools
  that are available. Before getting started, you should familiarize yourself with the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963475](
-Installing the Maya Tools
-)
+[Installing the Maya Tools](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools.md)
 
 **
 and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205569](
-**
-CRYENGINE UI
-**
-
-**
-in Maya
-**
-)
+[CRYENGINE UI in Maya](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools/CRYENGINE%20User%20Interface%20in%20Maya.md)
  articles.
 
-[Image: /docs/static/attachments/25501310]
+![Image](https://www.cryengine.com/docs/static/attachments/25501310)
 
 ##
 Tutorial Files
@@ -39,9 +29,7 @@ Tutorial Files
 Source Maya scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25501319](
-basic_export_maya.zip
-)
+[basic_export_maya.zip](/docs/static/attachments/25501319)
 **
 
 ##
@@ -53,23 +41,17 @@ Before you continue with this tutorial, make sure to have read and understood th
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963475](
-How to Install CryMayaTools
-)
+[How to Install CryMayaTools](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools.md)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205569](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools/CRYENGINE%20User%20Interface%20in%20Maya.md)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-Maya Unit Scale to Match up With CRYENGINE Unit System
-)
+[Maya Unit Scale to Match up With CRYENGINE Unit System](../../Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 **
 
 ##
@@ -150,7 +132,7 @@ The below image shows a shaderball example geometry (LOD0 or render mesh) with t
 *
 A sample shaderball geometry with LOD and proxy distinguished
 
-[Image: /docs/static/attachments/25500557]
+![Image](https://www.cryengine.com/docs/static/attachments/25500557)
 
 *
 
@@ -167,7 +149,7 @@ cryExportNode
 *
 Pic3: An example of naming convention for polygonal geometry.
 
-[Image: /docs/static/attachments/25500558]
+![Image](https://www.cryengine.com/docs/static/attachments/25500558)
 
 *
 
@@ -198,7 +180,7 @@ window
 *
 Selecting the LOD0 / render mesh of the shaderball and starting the Tools option from Crytek shelf
 
-[Image: /docs/static/attachments/25500562]
+![Image](https://www.cryengine.com/docs/static/attachments/25500562)
 
 *
 
@@ -238,7 +220,7 @@ Create CryExportNode
 **
  button will create an empty transform node and an empty group with the suffix of the name of the selected object.
 
-[Image: /docs/static/attachments/25500565]
+![Image](https://www.cryengine.com/docs/static/attachments/25500565)
 
 By default, it will also create the next subgroup which prefixes with shaderball geometry name string. The CRYENGINE default export format is a
 **
@@ -246,7 +228,7 @@ By default, it will also create the next subgroup which prefixes with shaderball
 **
  file, a geometry format.
 
-[Image: /docs/static/attachments/25500567]
+![Image](https://www.cryengine.com/docs/static/attachments/25500567)
 
 If we look in the
 **
@@ -270,7 +252,7 @@ has been created
 **
 select the asset and move it (by using Middle-Mouse-Button and dragging) into the group that is parented under the "cryExportNode" if you forgot to have the geometry selected in the first place.
 
-[Image: /docs/static/attachments/25500569]
+![Image](https://www.cryengine.com/docs/static/attachments/25500569)
 
 ##
 Extending the Basic Export Hierarchy with a Collision Proxy
@@ -309,12 +291,12 @@ Outliner
 **
  since our main geometry is parented.
 
-[Image: /docs/static/attachments/25500571]
+![Image](https://www.cryengine.com/docs/static/attachments/25500571)
 
 *
 cryExportNode hierarchy including a proxy mesh.
 
-[Image: /docs/static/attachments/25500572]
+![Image](https://www.cryengine.com/docs/static/attachments/25500572)
 
 *
 
@@ -356,14 +338,14 @@ The CRYENGINE Exporter translates only the setups with shader assignments to you
 *
 Using red transparent proxy shader for better distinction in Maya
 
-[Image: /docs/static/attachments/25500574]
+![Image](https://www.cryengine.com/docs/static/attachments/25500574)
 
 *
 
 *
 Assigning a material to a geometry selection (individual faces or the whole geometry object)
 
-[Image: /docs/static/attachments/25500576]
+![Image](https://www.cryengine.com/docs/static/attachments/25500576)
 
 *
 
@@ -437,12 +419,12 @@ Physicalize
  ProxyNoDraw
 **
 . Now our proxy material is tagged for CRYENGINE.
-[Image: /docs/static/attachments/25498208]
+![Image](https://www.cryengine.com/docs/static/attachments/25498208)
 
 *
 Using Attribute Editor tab to tag the proxy material
 
-[Image: /docs/static/attachments/25500579]
+![Image](https://www.cryengine.com/docs/static/attachments/25500579)
 
 *
 
@@ -476,9 +458,11 @@ Now, click on
 Save
 **
 and close the window. Now our Proxy geometry has been defined as a Proxy collision primitive and will be displayed and used as such.
-[Image: /docs/static/attachments/25500573]
+![Image](https://www.cryengine.com/docs/static/attachments/25500573)
 
 Below is a video showing you how to set up collision proxies in Maya:
+
+[Embed: https://www.youtube.com/watch?v=ucKEV4JKZwA]
 
 ##
 Set up the Material Groups
@@ -549,13 +533,13 @@ Shaders
 **
 Move Shaders Up/Move Shaders Down.
 **
-[Image: /docs/static/attachments/25500580]
+![Image](https://www.cryengine.com/docs/static/attachments/25500580)
 
 *
 Final view of the newly created material group.
 
 *
-[Image: /docs/static/attachments/25500581]
+![Image](https://www.cryengine.com/docs/static/attachments/25500581)
 
 ##
 Creating the LOD groups
@@ -592,19 +576,19 @@ Once we have our LOD groups, parent the LOD geometry under their respective grou
 Placing empty LOD1 and LOD2 parent groups under world space
 
 *
-[Image: /docs/static/attachments/25500818]
+![Image](https://www.cryengine.com/docs/static/attachments/25500818)
 
 *
 Selecting LOD1 and LOD2 groups and the parented LOD mesh nodes under them
 
 *
-[Image: /docs/static/attachments/25500819]
+![Image](https://www.cryengine.com/docs/static/attachments/25500819)
 
 *
 Placing the LOD groups under the cryExportNode Sub-Group
 
 *
-[Image: /docs/static/attachments/25500820]
+![Image](https://www.cryengine.com/docs/static/attachments/25500820)
 
 ##
 Exporting the Asset from Maya
@@ -637,7 +621,7 @@ button
 *
 Exporting the shaderball cryExportNode to a *.CGF file.
 
-[Image: /docs/static/attachments/25501031]
+![Image](https://www.cryengine.com/docs/static/attachments/25501031)
 
 *
 
@@ -666,7 +650,7 @@ Exporting the shaderball material to a
 **
  file.
 
-[Image: /docs/static/attachments/25501039]
+![Image](https://www.cryengine.com/docs/static/attachments/25501039)
 
 *
 
@@ -712,7 +696,7 @@ Level Editor
 Create Object
 **
 .
-[Image: /docs/static/attachments/25501311]
+![Image](https://www.cryengine.com/docs/static/attachments/25501311)
 
 *
 Viewing the
@@ -721,7 +705,7 @@ exported shaderball asset
 
 *
 *
-[Image: /docs/static/attachments/25501314]
+![Image](https://www.cryengine.com/docs/static/attachments/25501314)
 
 ##
 Material Editor
@@ -737,7 +721,7 @@ You won't see the material since it was set to noDraw so it's invisible. Select 
 .
 **
 
-[Image: /docs/static/attachments/25501317]
+![Image](https://www.cryengine.com/docs/static/attachments/25501317)
 
 ##
 Proxy Display Option
@@ -748,36 +732,18 @@ True CRYENGINE proxy primitives are displayed in gray shading with no triangulat
 *
 Displaying the collision proxies in the viewport
 
-[Image: /docs/static/attachments/25501315]
+![Image](https://www.cryengine.com/docs/static/attachments/25501315)
 
 *
 
 Proxy geometry are usually shaded in grey. However, if you see the proxies slowly blinking between red and grey, you are advised to reduce the polycount or rebuild your proxy geometry (made of several elements) into one continuous piece. Although this is not mandatory, you might encounter some cases where Physics events do not behave correctly.
 
-[#tutorial-files](
-Tutorial Files
-)
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#getting-started](
-Getting Started
-)
-[#building-a-basic-export-hierarchy-with-a-cryexportnode](
-Building a Basic Export Hierarchy with a CryExportNode
-)
-[#extending-the-basic-export-hierarchy-with-a-collision-proxy](
-Extending the Basic Export Hierarchy with a Collision Proxy
-)
-[#set-up-the-material-groups](
-Set up the Material Groups
-)
-[#creating-the-lod-groups](
-Creating the LOD groups
-)
-[#exporting-the-asset-from-maya](
-Exporting the Asset from Maya
-)
-[#loading-and-checking-the-asset-in-cryengine](
-Loading and checking the Asset in CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Getting Started](#getting-started)
+[Building a Basic Export Hierarchy with a CryExportNode](#building-a-basic-export-hierarchy-with-a-cryexportnode)
+[Extending the Basic Export Hierarchy with a Collision Proxy](#extending-the-basic-export-hierarchy-with-a-collision-proxy)
+[Set up the Material Groups](#set-up-the-material-groups)
+[Creating the LOD groups](#creating-the-lod-groups)
+[Exporting the Asset from Maya](#exporting-the-asset-from-maya)
+[Loading and checking the Asset in CRYENGINE](#loading-and-checking-the-asset-in-cryengine)

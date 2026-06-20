@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/44964993]
+![Image](https://www.cryengine.com/docs/static/attachments/44964993)
 
 ##
 Overview
@@ -24,20 +24,12 @@ CRYENGINE automatically sends the
 time_of_day
 and needs to be connected to an Wwise Game Parameter.
 
-[Image: /docs/static/attachments/44968373]
+![Image](https://www.cryengine.com/docs/static/attachments/44968373)
 
-[#sections](
-Sections
-)
-[#setting-up-the-time-of-day-in-wwise](
-Setting up the Time of Day in Wwise
-)
-[#connecting-the-time-of-day-in-wwise-and-cryengine](
-Connecting the Time of Day in Wwise and CRYENGINE
-)
-[#creating-a-dynamic-ambience-in-wwise-using-the-blend-container](
-Creating a Dynamic Ambience in Wwise using the Blend Container
-)
+[Sections](#sections)
+[Setting up the Time of Day in Wwise](#setting-up-the-time-of-day-in-wwise)
+[Connecting the Time of Day in Wwise and CRYENGINE](#connecting-the-time-of-day-in-wwise-and-cryengine)
+[Creating a Dynamic Ambience in Wwise using the Blend Container](#creating-a-dynamic-ambience-in-wwise-using-the-blend-container)
 
 ##
 Setting up the Time of Day in Wwise
@@ -48,22 +40,20 @@ Game Syncs
 time_of_day
  in Wwise.
 
-[Image: /docs/static/attachments/44968378]
+![Image](https://www.cryengine.com/docs/static/attachments/44968378)
 
 Now, you must edit the Game Parameter properties in Wwise to ensure that it uses the same range as the Time of Day in CRYENGINE.
 
-[Image: /docs/static/attachments/44968380]
+![Image](https://www.cryengine.com/docs/static/attachments/44968380)
 
 ##
 Connecting the Time of Day in Wwise and CRYENGINE
 
 With the Game Parameter created, you can now open the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
  in CRYENGINE and connect the Wwise Control with an audio system Control.
 
-[Image: /docs/static/attachments/44968382]
+![Image](https://www.cryengine.com/docs/static/attachments/44968382)
 
 ##
 Creating a Dynamic Ambience in Wwise using the Blend Container
@@ -74,7 +64,7 @@ time_of_day
 Blend Container
  and move your files to it.
 
-[Image: /docs/static/attachments/44968391]
+![Image](https://www.cryengine.com/docs/static/attachments/44968391)
 
 You need to press
 Shift
@@ -99,7 +89,7 @@ New Blend Track
  button in order to create a new Blend Track setup within the Blend Track Editor.
 
 *
-[Image: /docs/static/attachments/44968393]
+![Image](https://www.cryengine.com/docs/static/attachments/44968393)
 
 *
 
@@ -109,20 +99,18 @@ Crossfade
 time_of_day
 Game Parameter on your newly created Blend Track.
 
-[Image: /docs/static/attachments/44968397]
+![Image](https://www.cryengine.com/docs/static/attachments/44968397)
 
 To setup your sound objects on the Blend Track, go to the
 Contents Editor
  and drag the objects into the Blend Track field based on the order on which they need to appear in the Blend Track (From left to right).
 
-[Image: /docs/static/attachments/44968399]
+![Image](https://www.cryengine.com/docs/static/attachments/44968399)
 
 Open the Blend Track Editor again and move your files accordingly. You can also setup Crossfades to have a smooth transition over time from your day to night ambience.
 
-[Image: /docs/static/attachments/52592686]
+![Image](https://www.cryengine.com/docs/static/attachments/52592686)
 
 After you have successfully created your Ambient setup in Wwise make sure to regenerate your SoundBanks in Wwise as explained
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964989](
-here
-)
+[here](Wwise%20Initial%20Setup.md)
 .

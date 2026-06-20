@@ -22,38 +22,24 @@ Sample Files
 -
 Sample .max file:
 **
-[/docs/static/attachments/23999527](
-bushes.max
-)
+[bushes.max](/docs/static/attachments/23999527)
 **
 
 -
 Sample *.mtl file:
 **
-[/docs/static/attachments/23999526](
-bush_small_leaf.mtl
-)
+[bush_small_leaf.mtl](/docs/static/attachments/23999526)
 **
 
 -
 Sample .cgf file:
 **
-[/docs/static/attachments/23999525](
-bush_small_leaf.cgf
-)
+[bush_small_leaf.cgf](/docs/static/attachments/23999525)
 **
-[#sample-files](
-Sample Files
-)
-[#setup-in-3ds-max](
-Setup in 3ds Max
-)
-[#setup-in-maya](
-Setup in Maya
-)
-[#setup-in-cryengine](
-Setup in CRYENGINE
-)
+[Sample Files](#sample-files)
+[Setup in 3ds Max](#setup-in-3ds-max)
+[Setup in Maya](#setup-in-maya)
+[Setup in CRYENGINE](#setup-in-cryengine)
 
 ##
 Setup in 3ds Max
@@ -64,7 +50,7 @@ To create the *.mtl file press this button in your export dialog while your mate
 Pic1: Create Material button
 
 *
-[Image: /docs/static/attachments/23999537]
+![Image](https://www.cryengine.com/docs/static/attachments/23999537)
 
 This will open the
 **
@@ -76,14 +62,14 @@ Material Editor
 Pic2: Starting Sandbox
 *
 
-[Image: /docs/static/attachments/23999540]
+![Image](https://www.cryengine.com/docs/static/attachments/23999540)
 
 It will also open a file dialog which will allow you to name your material file and place it in an appropriate folder.
 
 Two important considerations here are that the material should be created in the same folder as the *.cgf model (unless the material is
 **
 
-[Image: /docs/static/attachments/23999530]
+![Image](https://www.cryengine.com/docs/static/attachments/23999530)
 **
  in which case it will always be read from that location) and the name of the material file should match the name in the DCC tool's Material editor.
 
@@ -93,7 +79,7 @@ It's very important that the name of the *.mtl file is the same as the name of t
 Pic3: Name of material file matching name in DCC tool
 *
 
-[Image: /docs/static/attachments/23999531]
+![Image](https://www.cryengine.com/docs/static/attachments/23999531)
 
 ##
 Setup in Maya
@@ -104,7 +90,7 @@ Maya handles materials in a slightly different way than 3ds Max, which is why yo
 Pic4: Materials in Maya
 *
 
-[Image: /docs/static/attachments/26512233]
+![Image](https://www.cryengine.com/docs/static/attachments/26512233)
 
 ##
 Introduction
@@ -138,7 +124,7 @@ It is recommended that if objects will be sharing materials then they should be 
 Pic5: Objects sharing materials in same scene
 *
 
-[Image: /docs/static/attachments/26512234]
+![Image](https://www.cryengine.com/docs/static/attachments/26512234)
 
 ##
 Material Setup
@@ -158,13 +144,13 @@ Mat.Ed
 Pic6: Crytek panel
 *
 
-[Image: /docs/static/attachments/26512199]
+![Image](https://www.cryengine.com/docs/static/attachments/26512199)
 
 *
 Pic7: Material Groups editor
 *
 
-[Image: /docs/static/attachments/23999532]
+![Image](https://www.cryengine.com/docs/static/attachments/23999532)
 
 -
 In this window, click
@@ -188,7 +174,7 @@ Generate Material Files
 Pic8: Generate Material Files button
 *
 
-[Image: /docs/static/attachments/25523495]
+![Image](https://www.cryengine.com/docs/static/attachments/25523495)
 
 ##
 Setup in CRYENGINE
@@ -220,7 +206,7 @@ Pic9: Add New Item in Material
 Editor
 *
 
-[Image: /docs/static/attachments/23999524]
+![Image](https://www.cryengine.com/docs/static/attachments/23999524)
 
 This will open a file dialog where you can select the folder where you want to create the material and the name of the material.
 

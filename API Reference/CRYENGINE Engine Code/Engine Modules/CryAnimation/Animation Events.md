@@ -21,23 +21,17 @@ The events for animations are stored in an xml-based file which is loaded upon c
 
 -
 Specific Information about the AnimEvents Database:
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310772](
-Animation Events (animevents)
-)
+[Animation Events (animevents)](/docs/static/engines/cryengine-3/categories/1114113/pages/1310772)
 .
 
 -
 General ChrParams File Information:
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310814](
-ChrParams File Reference
-)
+[ChrParams File Reference](/docs/static/engines/cryengine-3/categories/1114113/pages/1310814)
 .
 
 -
 Markup specifically for blending with matching events:
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310780](
-Footstep Markup
-)
+[Footstep Markup](/docs/static/engines/cryengine-3/categories/1114113/pages/1310780)
 .
 
 ##

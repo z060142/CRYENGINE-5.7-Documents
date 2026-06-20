@@ -23,9 +23,7 @@ This CVar has 9 modes that cover the specifics of the PBS render to ensure that 
 An overview of the PBS material setup can be found
 **
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959244](
-HERE
-)
+[HERE](Texture%20and%20Material%20Setup%20for%20PBS.md)
 **
  for reference.
 
@@ -36,7 +34,7 @@ r_DebugGBuffer = 0
 Off, normal view mode.
 **
 
-[Image: /docs/static/attachments/52593404]
+![Image](https://www.cryengine.com/docs/static/attachments/52593404)
 
 ##
 r_DebugGBuffer = 1
@@ -47,7 +45,7 @@ Normals
 
 Shows the world space normals of all assets in the scene.
 
-[Image: /docs/static/attachments/52593405]
+![Image](https://www.cryengine.com/docs/static/attachments/52593405)
 
 ##
 r_DebugGBuffer = 2
@@ -61,7 +59,7 @@ This debug view shows how rough or glossy surfaces are. Note how the reflective 
 White = glossy, Black = rough
 
 **
-[Image: /docs/static/attachments/52593406]
+![Image](https://www.cryengine.com/docs/static/attachments/52593406)
 
 **
 
@@ -75,7 +73,7 @@ Reflectance
 This represents the Specular color of the material.
 
 **
-[Image: /docs/static/attachments/52593407]
+![Image](https://www.cryengine.com/docs/static/attachments/52593407)
 
 **
 
@@ -91,7 +89,7 @@ Albedo
 
 This shows the albedo of surfaces which was previously known as diffuse map.
 
-[Image: /docs/static/attachments/52593408]
+![Image](https://www.cryengine.com/docs/static/attachments/52593408)
 
 ##
 r_DebugGBuffer = 5
@@ -105,7 +103,7 @@ Grey - Standard, Yellow - Transmittance, Blue - POM Self shadowing
 The Vegetation & HumanSkin shaders have the
 Transmittance properties active by default.
 
-[Image: /docs/static/attachments/52593409]
+![Image](https://www.cryengine.com/docs/static/attachments/52593409)
 
 ##
 r_DebugGBuffer = 6
@@ -118,7 +116,7 @@ Shows the translucency values set on assets in the scene. (Black = none).
 
 This is controlled through the Transmittance color set in the materials shader params.
 
-[Image: /docs/static/attachments/52593410]
+![Image](https://www.cryengine.com/docs/static/attachments/52593410)
 
 ##
 r_DebugGBuffer = 7
@@ -129,7 +127,7 @@ Sun Self Shadowing
 
 Displays the self-shadowing of material that use Offset Bump mapping or Parallax Occlusion Mapping
 
-[Image: /docs/static/attachments/52593411]
+![Image](https://www.cryengine.com/docs/static/attachments/52593411)
 
 ##
 r_DebugGBuffer = 8
@@ -142,7 +140,7 @@ Displays in red and yellow, any asset that uses SSS. The brighter the color, the
 
 The SSS index can be set in Illum and the HumanSkin shader.
 
-[Image: /docs/static/attachments/52593412]
+![Image](https://www.cryengine.com/docs/static/attachments/52593412)
 
 ##
 r_DebugGBuffer = 9
@@ -162,38 +160,16 @@ your specular color is too high for an dielectric surface but not yet in the met
 
 -
 Pink reveals colored specular which is not yet in the metal range. This is only valid for oxidized (rusted) metals.
-[Image: /docs/static/attachments/52593413]
+![Image](https://www.cryengine.com/docs/static/attachments/52593413)
 
-[#introduction](
-Introduction
-)
-[#rdebuggbuffer-0](
-r_DebugGBuffer = 0
-)
-[#rdebuggbuffer-1](
-r_DebugGBuffer = 1
-)
-[#rdebuggbuffer-2](
-r_DebugGBuffer = 2
-)
-[#rdebuggbuffer-3](
-r_DebugGBuffer = 3
-)
-[#rdebuggbuffer-4](
-r_DebugGBuffer = 4
-)
-[#rdebuggbuffer-5](
-r_DebugGBuffer = 5
-)
-[#rdebuggbuffer-6](
-r_DebugGBuffer = 6
-)
-[#rdebuggbuffer-7](
-r_DebugGBuffer = 7
-)
-[#rdebuggbuffer-8](
-r_DebugGBuffer = 8
-)
-[#rdebuggbuffer-9](
-r_DebugGBuffer = 9
-)
+[Introduction](#introduction)
+[r_DebugGBuffer = 0](#rdebuggbuffer-0)
+[r_DebugGBuffer = 1](#rdebuggbuffer-1)
+[r_DebugGBuffer = 2](#rdebuggbuffer-2)
+[r_DebugGBuffer = 3](#rdebuggbuffer-3)
+[r_DebugGBuffer = 4](#rdebuggbuffer-4)
+[r_DebugGBuffer = 5](#rdebuggbuffer-5)
+[r_DebugGBuffer = 6](#rdebuggbuffer-6)
+[r_DebugGBuffer = 7](#rdebuggbuffer-7)
+[r_DebugGBuffer = 8](#rdebuggbuffer-8)
+[r_DebugGBuffer = 9](#rdebuggbuffer-9)

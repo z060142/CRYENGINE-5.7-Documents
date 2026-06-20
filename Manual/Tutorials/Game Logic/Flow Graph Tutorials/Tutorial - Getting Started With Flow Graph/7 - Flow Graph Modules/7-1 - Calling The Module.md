@@ -7,18 +7,13 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591916](
-[Image: /docs/static/attachments/52593314]
-7 - Flow Graph Modules
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593314) 7 - Flow Graph Modules](/docs/static/engines/cryengine-5/categories/23756816/pages/27591916)
 
 ##
 How do I expose the Module functionality to other graphs?
 
 In the previous chapter
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591916](
-7 - Flow Graph Modules
-)
+[7 - Flow Graph Modules](../7%20-%20Flow%20Graph%20Modules.md)
  we created a module that allowed us to plug in a string into the input ports of the Module. In this chapter we will see how easy it is to set up the String port that we are given and have it print to the screen so we know it is functioning off the modular graph.
 
 ##
@@ -83,32 +78,32 @@ displayText
 ##
 Step 1
 
-[Image: /docs/static/attachments/36310051]
+![Image](https://www.cryengine.com/docs/static/attachments/36310051)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/36310052]
+![Image](https://www.cryengine.com/docs/static/attachments/36310052)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/36310053]
+![Image](https://www.cryengine.com/docs/static/attachments/36310053)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/36310054]
+![Image](https://www.cryengine.com/docs/static/attachments/36310054)
 
 ##
 Step 5.1
 
-[Image: /docs/static/attachments/36310056]
+![Image](https://www.cryengine.com/docs/static/attachments/36310056)
 
 ##
 Step 5.2
 
-[Image: /docs/static/attachments/36310057]
+![Image](https://www.cryengine.com/docs/static/attachments/36310057)
 
 ##
 Conclusion
@@ -116,12 +111,7 @@ Conclusion
 Although this tutorial has concluded, feel free to venture out on your own development path based on what we've covered in the previous chapters.
 For information on the topics covered in this tutorial and more
 , please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307414](
-CRYENGINE V Manual
-)
+[CRYENGINE V Manual](/docs/static/engines/cryengine-5/categories/23756816/pages/23307414)
 .
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591916](
-[Image: /docs/static/attachments/52593314]
-7 - Flow Graph Modules
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593314) 7 - Flow Graph Modules](/docs/static/engines/cryengine-5/categories/23756816/pages/27591916)

@@ -116,12 +116,6 @@ this->SetTimer
 KillTimer
 .
 
-[#components](
-Components
-)
-[#core-system](
-Core System
-)
-[#entity-system](
-Entity System
-)
+[Components](#components)
+[Core System](#core-system)
+[Entity System](#entity-system)

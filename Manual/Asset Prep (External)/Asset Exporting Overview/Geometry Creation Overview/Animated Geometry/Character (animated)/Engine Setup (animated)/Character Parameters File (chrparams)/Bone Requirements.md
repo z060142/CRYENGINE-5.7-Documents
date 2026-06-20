@@ -78,21 +78,9 @@ Bip01 R Toe0Nub
 **
  – This bone is placed as a terminator to the toe bone (standard CS Biped includes this by default).
 
-[#look-ik](
-Look IK
-)
-[#left-eye](
-Left Eye
-)
-[#right-eye](
-Right Eye
-)
-[#footsteps](
-Footsteps
-)
-[#left-leg](
-Left Leg
-)
-[#right-leg](
-Right Leg
-)
+[Look IK](#look-ik)
+[Left Eye](#left-eye)
+[Right Eye](#right-eye)
+[Footsteps](#footsteps)
+[Left Leg](#left-leg)
+[Right Leg](#right-leg)

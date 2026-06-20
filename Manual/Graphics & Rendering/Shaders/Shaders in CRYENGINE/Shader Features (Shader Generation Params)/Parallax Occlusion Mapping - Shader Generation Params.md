@@ -13,17 +13,13 @@ Overview
 Parallax Occlusion Mapping (POM) and Offset Bump Mapping (OBM) are similar to how Tessellation and Displacement is set up but not quite as expensive.
 
 As a result it can be considered for use more often but due to the way in which it works POM will not always be suitable for every situation (exampled
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450125#ParallaxOcclusionMapping-ShaderGenerationParams-SilhouetteArtifacts](
-below
-)
+[below](Parallax%20Occlusion%20Mapping%20-%20Shader%20Generation%20Params.md#ParallaxOcclusionMapping-ShaderGenerationParams-SilhouetteArtifacts)
 ).
 
 Generally, POM is used on flat ground surfaces like concrete roads since the silhouette does not change, cylindrical objects also look good in some cases.
 
 However, if you want to have an obvious silhouette change and the object will be noticeable to the player then one of the Tessellation schemes or
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450143](
-Silhouette POM - Shader Generation Params
-)
+[Silhouette POM - Shader Generation Params](Silhouette%20POM%20-%20Shader%20Generation%20Params.md)
  would be a better option.
 
 ##
@@ -39,9 +35,7 @@ The engine will automatically fall back to OBM on configs that cannot run POM.
 Shader Parameters
 
 The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44967563](
-Material Editor Legacy
-)
+[Material Editor Legacy](../../../../Editor%20Tools/Material%20Editor%20Legacy.md)
  has a
 **
 Heightmap
@@ -56,7 +50,7 @@ Bumpmap
 
 Here's an example of an asset successfully using textures from 4 different folders:
 
-[Image: /docs/static/attachments/28898690]
+![Image](https://www.cryengine.com/docs/static/attachments/28898690)
 
 Once
 **
@@ -111,13 +105,13 @@ Allows you to change the strength of the self shadowing. The higher the value, t
 ##
 POM Displacement
 
-[Image: /docs/static/attachments/28898705]
+![Image](https://www.cryengine.com/docs/static/attachments/28898705)
 
  |
-[Image: /docs/static/attachments/28898706]
+![Image](https://www.cryengine.com/docs/static/attachments/28898706)
 
  |
-[Image: /docs/static/attachments/28898707]
+![Image](https://www.cryengine.com/docs/static/attachments/28898707)
 
  |
 
@@ -131,13 +125,13 @@ POM Displacement 0.05
 ##
 Self Shadow Strength
 
-[Image: /docs/static/attachments/28898686]
+![Image](https://www.cryengine.com/docs/static/attachments/28898686)
 
  |
-[Image: /docs/static/attachments/28898687]
+![Image](https://www.cryengine.com/docs/static/attachments/28898687)
 
  |
-[Image: /docs/static/attachments/28898688]
+![Image](https://www.cryengine.com/docs/static/attachments/28898688)
 
  |
 
@@ -167,7 +161,7 @@ Texture Maps
 **
  section will now have the following options:
 
-[Image: /docs/static/attachments/35398286]
+![Image](https://www.cryengine.com/docs/static/attachments/35398286)
 
 For use with a second Blend Layer, your
 blend Height Map goes into
@@ -231,16 +225,16 @@ Silhouette Artifacts
 
 While the upside of POM is that it's relatively cheap on performance, it does have a downside of artifacts being presented when visualized on certain angles. This was the main factor behind Silhouette POM's (Pixel Accurate Displacement Mapping) creation.
 
-[Image: /docs/static/attachments/28898702]
+![Image](https://www.cryengine.com/docs/static/attachments/28898702)
 
  |
-[Image: /docs/static/attachments/28898703]
+![Image](https://www.cryengine.com/docs/static/attachments/28898703)
 
  |
-[Image: /docs/static/attachments/28898691]
+![Image](https://www.cryengine.com/docs/static/attachments/28898691)
 
  |
-[Image: /docs/static/attachments/28898692]
+![Image](https://www.cryengine.com/docs/static/attachments/28898692)
 
  |
 
@@ -253,16 +247,16 @@ Front: POM Displacement 0.03
 Front: POM Displacement 0.05
  |
 
-[Image: /docs/static/attachments/28898694]
+![Image](https://www.cryengine.com/docs/static/attachments/28898694)
 
  |
-[Image: /docs/static/attachments/28898695]
+![Image](https://www.cryengine.com/docs/static/attachments/28898695)
 
  |
-[Image: /docs/static/attachments/28898696]
+![Image](https://www.cryengine.com/docs/static/attachments/28898696)
 
  |
-[Image: /docs/static/attachments/28898684]
+![Image](https://www.cryengine.com/docs/static/attachments/28898684)
 
  |
 
@@ -290,17 +284,9 @@ height bias
 **
  in the material's shader parameter section.
 
-[Image: /docs/static/attachments/28898693]
+![Image](https://www.cryengine.com/docs/static/attachments/28898693)
 
-[#parallax-occlusion-mapping-vs-offset-bump-mapping](
-Parallax Occlusion Mapping vs Offset Bump Mapping
-)
-[#pom-displacement](
-POM Displacement
-)
-[#self-shadow-strength](
-Self Shadow Strength
-)
-[#graphical-artifacts](
-Graphical Artifacts
-)
+[Parallax Occlusion Mapping vs Offset Bump Mapping](#parallax-occlusion-mapping-vs-offset-bump-mapping)
+[POM Displacement](#pom-displacement)
+[Self Shadow Strength](#self-shadow-strength)
+[Graphical Artifacts](#graphical-artifacts)

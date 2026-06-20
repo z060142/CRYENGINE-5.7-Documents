@@ -32,7 +32,7 @@ Particles
 **
  on the Create Particle panel the Asset Browser.
 *
-[Image: /docs/static/attachments/53543073]
+![Image](https://www.cryengine.com/docs/static/attachments/53543073)
 *
 
 In this example, the new particle is named as
@@ -61,13 +61,11 @@ OK
 **
 to access its components and features:
 
-[Image: /docs/static/attachments/44961632]
+![Image](https://www.cryengine.com/docs/static/attachments/44961632)
 
 -
 New particle effects appear with a basic component which can we displayed on Graph Editor. Users can work on this default component or they can choose a pre-made component to start modifying the effect. Preset components can be accessed by right clicking on an empty space in Effect Graph to bring up the preset libraries. For more information about the Preset Library, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869024](
-Particle Presets Library
-)
+[Particle Presets Library](Particle%20Presets%20Library.md)
 .
 
 In this example,
@@ -80,9 +78,9 @@ Advanced
 **
  section is used and the default component is removed from the Effect Graph panel:
 
-[Image: /docs/static/attachments/53543075]
+![Image](https://www.cryengine.com/docs/static/attachments/53543075)
 
-[Image: /docs/static/attachments/44961635]
+![Image](https://www.cryengine.com/docs/static/attachments/44961635)
 
 -
 After the
@@ -105,7 +103,7 @@ explosion_fire
 *
  particle effect emits a basic white cloud:
 
-[Image: /docs/static/attachments/44106060]
+![Image](https://www.cryengine.com/docs/static/attachments/44106060)
 
 -
 Once the particle effect is introduced to the level, its properties can be modified on the
@@ -115,7 +113,5 @@ Particle Editor
 to create a more sophisticated effect such as fireworks, explosions, and omnipresent effects like rain or snow.
 
 For more information about the particle effect components and features, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-Particle Effect Features
-)
+[Particle Effect Features](Particle%20Effect%20Features.md)
 .

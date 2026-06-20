@@ -8,3 +8,5 @@
 ## Content
 
 How to use Flow Graph to read data into a script from XML files
+
+[Embed: http://youtube.com/watch?v=a3q1QSjIZ1Y]

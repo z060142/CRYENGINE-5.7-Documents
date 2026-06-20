@@ -128,27 +128,19 @@ Remember the Sandbox code is still undergoing heavy changes and should be consid
 What You Can Do with a Plugin
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873098](
-Add new tools and dockable windows
-)
+[Add new tools and dockable windows](../Creating%20a%20new%20editor%20window.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873100](
-Add commands
-)
+[Add commands](/docs/static/engines/cryengine-5/categories/23756813/pages/26873100)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873108](
-Add preference pages
-)
+[Add preference pages](../Preferences%20and%20Settings.md)
 
 -
 Add tray widgets
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873096](
-Register new asset types
-)
+[Register new asset types](../Asset%20System.md)
 
 -
 Register new object types to be placed in a level

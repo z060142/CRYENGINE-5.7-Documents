@@ -16,7 +16,7 @@ When manipulating objects directly with the Axis Gizmo, you can change the coord
 
 You can change the coordinate system directly from the Coordinates toolbar:
 
-[Image: /docs/static/attachments/36311820]
+![Image](https://www.cryengine.com/docs/static/attachments/36311820)
 
 #
 
@@ -92,16 +92,16 @@ Uses the selected object's original pivot orientation for translation/rotation/s
 
 In the picture below, only the cube has been rotated. Note how the axes are aligned to the cube.
 
-[Image: /docs/static/attachments/24152177]
+![Image](https://www.cryengine.com/docs/static/attachments/24152177)
 
 ##
 View Coordinates
 
 Relevant for Orthographic views. In Perspective view equal to World Coordinate System.
 
-[Image: /docs/static/attachments/24152173]
+![Image](https://www.cryengine.com/docs/static/attachments/24152173)
 
-[Image: /docs/static/attachments/24152174]
+![Image](https://www.cryengine.com/docs/static/attachments/24152174)
 
 ##
 Parent Coordinates
@@ -110,15 +110,7 @@ In parent mode, the order of the selection of objects determines the coordinates
 
 This is a moving object concept, so it cannot be explained with a still picture.
 
-[#world-coordinates](
-World Coordinates
-)
-[#local-coordinates](
-Local Coordinates
-)
-[#view-coordinates](
-View Coordinates
-)
-[#parent-coordinates](
-Parent Coordinates
-)
+[World Coordinates](#world-coordinates)
+[Local Coordinates](#local-coordinates)
+[View Coordinates](#view-coordinates)
+[Parent Coordinates](#parent-coordinates)

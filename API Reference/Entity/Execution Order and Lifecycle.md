@@ -15,15 +15,9 @@ This article aims to give an understanding of the order in which entities are up
 ##
 Table of Contents
 
-[#update-and-execution-order](
-Update and Execution Order
-)
-[#lifecycle](
-Lifecycle
-)
-[#conclusion](
-Conclusion
-)
+[Update and Execution Order](#update-and-execution-order)
+[Lifecycle](#lifecycle)
+[Conclusion](#conclusion)
 
 ##
 Update and Execution Order
@@ -64,23 +58,15 @@ The order in which these are received is visualized below:
 Lifecycle
 
 On the lowest level, an entity is created with
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797278](
-IEntitySystem::SpawnEntity
-)
+[IEntitySystem::SpawnEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797278)
 , initialized with
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797278](
-IEntitySystem::InitEntity
-)
+[IEntitySystem::InitEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797278)
  (automatically done by SpawnEntity if not otherwise specified) and persists in the game world until it is removed by calling
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797278](
-IEntitySystem::RemoveEntity
-)
+[IEntitySystem::RemoveEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797278)
 .
 
 However, if an entity is not removed during the time a level is loaded - it will automatically be removed when the entity system unloads (see
-[http://docs.cryengine.com/pages/viewpage.action?pageId=29449832](
-IEntitySystem::Unload
-)
+[IEntitySystem::Unload](http://docs.cryengine.com/pages/viewpage.action?pageId=29449832)
 ), in the typical scenario whenever the level itself is unloaded.
 
 The whole existence flow of an entity has been visualized below, and is combined with a series of events being fired as the level is loaded and the player is able to play:
@@ -91,16 +77,10 @@ Conclusion
 This concludes this article on the Execution Order of Entities. You may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216232](
-Networking
-)
+[Networking](Networking.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29428286](
-Input and Action Mapping
-)
+[Input and Action Mapping](Input%20and%20Action%20Mapping.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216224](
-Physics and Movement
-)
+[Physics and Movement](Physics%20and%20Movement.md)

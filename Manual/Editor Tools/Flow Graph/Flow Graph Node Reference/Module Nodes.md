@@ -15,14 +15,14 @@ InstanceCounterListner
 
 Outputs in real-time the number of running instances of a given module.
 
-[Image: /docs/static/attachments/29687955]
+![Image](https://www.cryengine.com/docs/static/attachments/29687955)
 
 ##
 UserIDToModuleID
 
 Used to map a user ID to a module instance ID.
 
-[Image: /docs/static/attachments/29687954]
+![Image](https://www.cryengine.com/docs/static/attachments/29687954)
 
 **
 Inputs
@@ -100,12 +100,6 @@ Integer
 Instance ID for the user ID
  |
 
-[#utils](
-Utils
-)
-[#instancecounterlistner](
-InstanceCounterListner
-)
-[#useridtomoduleid](
-UserIDToModuleID
-)
+[Utils](#utils)
+[InstanceCounterListner](#instancecounterlistner)
+[UserIDToModuleID](#useridtomoduleid)

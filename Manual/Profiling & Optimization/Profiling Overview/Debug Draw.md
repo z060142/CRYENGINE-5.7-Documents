@@ -30,7 +30,7 @@ E_DebugDraw 1
 
 Displays the bounding box, cgf object name, its Polycount, Number of LODs, Current LOD the object is in.
 
-[Image: /docs/static/attachments/23999057]
+![Image](https://www.cryengine.com/docs/static/attachments/23999057)
 
 ##
 E_DebugDraw 2
@@ -54,7 +54,7 @@ Blue=1250+
 
 -
 Everything under 1250 will be shaded as normal
-[Image: /docs/static/attachments/23999061]
+![Image](https://www.cryengine.com/docs/static/attachments/23999061)
 
 ##
 E_DebugDraw 3
@@ -69,9 +69,7 @@ Eg:
 **
  [
 **
-[/docs/static/engines/cryengine-5/categories/23756816](
-0;4
-)
+[0;4](/docs/static/engines/cryengine-5/categories/23756816)
 ] (100/156.3)
 **
 
@@ -173,49 +171,49 @@ Always
 **
  try to use LODs for your assets, also try to reduce material IDs for your LODs.
 
-[Image: /docs/static/attachments/23999072]
+![Image](https://www.cryengine.com/docs/static/attachments/23999072)
 
 There is also another mode to this debug view.
 **
 e_DebugDraw -3
 **
 . This removes the text from the display & just shows the color information per objects. (Very handy on busy scenes with multiple objects).
-[Image: /docs/static/attachments/23999070]
+![Image](https://www.cryengine.com/docs/static/attachments/23999070)
 
 ##
 E_DebugDraw 4
 
 Displays the object texture memory usage. (In kb)
 
-[Image: /docs/static/attachments/23999066]
+![Image](https://www.cryengine.com/docs/static/attachments/23999066)
 
 ##
 E_DebugDraw 5
 
 Displays the number of rendered materials per object.
 
-[Image: /docs/static/attachments/23999067]
+![Image](https://www.cryengine.com/docs/static/attachments/23999067)
 
 ##
 E_DebugDraw 6
 
 Displays the Ambient color (R,G,B,A)
 
-[Image: /docs/static/attachments/23999068]
+![Image](https://www.cryengine.com/docs/static/attachments/23999068)
 
 ##
 E_DebugDraw 7
 
 Displays a combination of Triangle count, no. of materials & texture memory.
 
-[Image: /docs/static/attachments/23999069]
+![Image](https://www.cryengine.com/docs/static/attachments/23999069)
 
 ##
 E_DebugDraw 15
 
 This debug draw shows all exported helpers linked to the geometry in 3ds Max, like grab helper, touch bending helper, etc.
 
-[Image: /docs/static/attachments/23999071]
+![Image](https://www.cryengine.com/docs/static/attachments/23999071)
 
 ##
 E_DebugDraw 16
@@ -266,7 +264,7 @@ Number of materials
 
 -
 Mesh Type
-[Image: /docs/static/attachments/23999058]
+![Image](https://www.cryengine.com/docs/static/attachments/23999058)
 
 ##
 E_DebugDraw 17
@@ -298,14 +296,14 @@ This makes it easy to track down visually where you are spending too much in cer
 
 In this picture, the stats are set to texture = 256mb, geometry = 32mb
 
-[Image: /docs/static/attachments/23999059]
+![Image](https://www.cryengine.com/docs/static/attachments/23999059)
 
 ##
 E_DebugDraw 19
 
 This displays the physics proxies triangle count per object.
 
-[Image: /docs/static/attachments/23999060]
+![Image](https://www.cryengine.com/docs/static/attachments/23999060)
 
 ##
 E_debugdraw 20
@@ -314,7 +312,7 @@ Displays the object instance texture memory (in kb)
 
 Objects in this picture are the boids.
 
-[Image: /docs/static/attachments/23999062]
+![Image](https://www.cryengine.com/docs/static/attachments/23999062)
 
 ##
 E_debugdraw 21
@@ -323,7 +321,7 @@ Displays the
 distance to the camera of
 animated objects.
 
-[Image: /docs/static/attachments/23999063]
+![Image](https://www.cryengine.com/docs/static/attachments/23999063)
 
 ##
 E_debugdraw 22
@@ -332,7 +330,7 @@ Displays the
 vertex count of the
 current LOD step that the object is in.
 
-[Image: /docs/static/attachments/23999064]
+![Image](https://www.cryengine.com/docs/static/attachments/23999064)
 
 ##
 E_debugdraw 23
@@ -355,48 +353,18 @@ So the more complex the shadow setup of the objects material, the coloring will 
 
 Green -> Yellow -> Red
 
-[#edebugdraw-1](
-E_DebugDraw 1
-)
-[#edebugdraw-2](
-E_DebugDraw 2
-)
-[#edebugdraw-3](
-E_DebugDraw 3
-)
-[#edebugdraw-4](
-E_DebugDraw 4
-)
-[#edebugdraw-5](
-E_DebugDraw 5
-)
-[#edebugdraw-6](
-E_DebugDraw 6
-)
-[#edebugdraw-7](
-E_DebugDraw 7
-)
-[#edebugdraw-15](
-E_DebugDraw 15
-)
-[#edebugdraw-16](
-E_DebugDraw 16
-)
-[#edebugdraw-17](
-E_DebugDraw 17
-)
-[#edebugdraw-19](
-E_DebugDraw 19
-)
-[#edebugdraw-20](
-E_debugdraw 20
-)
-[#edebugdraw-21](
-E_debugdraw 21
-)
-[#edebugdraw-22](
-E_debugdraw 22
-)
-[#edebugdraw-23](
-E_debugdraw 23
-)
+[E_DebugDraw 1](#edebugdraw-1)
+[E_DebugDraw 2](#edebugdraw-2)
+[E_DebugDraw 3](#edebugdraw-3)
+[E_DebugDraw 4](#edebugdraw-4)
+[E_DebugDraw 5](#edebugdraw-5)
+[E_DebugDraw 6](#edebugdraw-6)
+[E_DebugDraw 7](#edebugdraw-7)
+[E_DebugDraw 15](#edebugdraw-15)
+[E_DebugDraw 16](#edebugdraw-16)
+[E_DebugDraw 17](#edebugdraw-17)
+[E_DebugDraw 19](#edebugdraw-19)
+[E_debugdraw 20](#edebugdraw-20)
+[E_debugdraw 21](#edebugdraw-21)
+[E_debugdraw 22](#edebugdraw-22)
+[E_debugdraw 23](#edebugdraw-23)

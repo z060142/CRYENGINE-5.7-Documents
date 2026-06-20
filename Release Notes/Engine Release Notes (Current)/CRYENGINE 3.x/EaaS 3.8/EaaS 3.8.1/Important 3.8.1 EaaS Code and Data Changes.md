@@ -107,9 +107,7 @@ Because UTF-8 strings can be stored in strings consisting of bytes, this change 
 You may encounter compilation errors (in non-vanilla code) when calling previously-existing wide string APIs, and you will have to port to UTF-8 as part of this version upgrade.
 
 For implementation details please consult the
-[/docs/static/engines/cryengine-3/categories/1638401/pages/19380649](
-Text Localization & Unicode Support
-)
+[Text Localization & Unicode Support](/docs/static/engines/cryengine-3/categories/1638401/pages/19380649)
  page.
 
 ##
@@ -253,27 +251,11 @@ NormalsWithGlossInAlpha_highQ
 *
 ) are automatically converted to the new distribution when processed by the RC.
 
-[#c-11](
-C++11
-)
-[#random-numbers-generators](
-Random numbers generators
-)
-[#devirtualizer-macros](
-Devirtualizer macros
-)
-[#unicodeutf-8-support](
-Unicode/UTF-8 support
-)
-[#c-ctrings](
-C ctrings
-)
-[#crc-32](
-CRC-32
-)
-[#cryextension](
-CryExtension
-)
-[#changes-in-rc](
-Changes in RC
-)
+[C++11](#c-11)
+[Random numbers generators](#random-numbers-generators)
+[Devirtualizer macros](#devirtualizer-macros)
+[Unicode/UTF-8 support](#unicodeutf-8-support)
+[C ctrings](#c-ctrings)
+[CRC-32](#crc-32)
+[CryExtension](#cryextension)
+[Changes in RC](#changes-in-rc)

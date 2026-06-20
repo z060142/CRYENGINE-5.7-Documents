@@ -14,9 +14,7 @@ Using Qt in Sandbox comes with a few guidelines and restrictions
 
 -
 Do not include Qt in places that don't need it, separate code using our
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873090](
-UI Programming Patterns
-)
+[UI Programming Patterns](UI%20Programming%20Patterns.md)
 .
 
 -
@@ -87,9 +85,7 @@ Use our replacement classes for some Qt classes
 Use ItemModels effectively:
 **
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873086](
-ItemModels and ItemViews
-)
+[ItemModels and ItemViews](ItemModels%20and%20ItemViews.md)
 .
 
 -
@@ -140,9 +136,7 @@ QIcon
 CryIcon
  |
 Unified styling, icon color tinting etc. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873114](
-Theme, Styling, and Colors
-)
+[Theme, Styling, and Colors](../Sandbox%20Framework/Theme%2C%20Styling%20and%20Colors.md)
 
 Once constructed a CryIcon may safely be stored in a QIcon variable, so this is fine: QIcon foo = CryIcon("bar");
 
@@ -167,9 +161,7 @@ QPalette
 QSS Stylesheet
  |
 QPalette is deprecated as we use style sheets. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873114](
-Theme, Styling, and Colors
-)
+[Theme, Styling, and Colors](../Sandbox%20Framework/Theme%2C%20Styling%20and%20Colors.md)
  |
 
 QLineEdit
@@ -222,9 +214,7 @@ EditorCommon
 package. Take a look at the source code to discover more useful classes!
 
 Another set of extensions to Qt is the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873086](
-ItemModel Framework which is described in a dedicated page
-)
+[ItemModel Framework which is described in a dedicated page](ItemModels%20and%20ItemViews.md)
 .
 
 Component
@@ -282,18 +272,8 @@ QPopupWidget
 Creates a resizable popup window that can embed any widget. Useful for popup tools, such as the notification center and other tray area widgets.
  |
 
-[#guidelines](
-Guidelines
-)
-[#reusable-classes](
-Reusable classes
-)
-[#must-use](
-Must Use
-)
-[#recommended-use](
-Recommended use
-)
-[#other-reusable-ui-components](
-Other reusable UI components
-)
+[Guidelines](#guidelines)
+[Reusable classes](#reusable-classes)
+[Must Use](#must-use)
+[Recommended use](#recommended-use)
+[Other reusable UI components](#other-reusable-ui-components)

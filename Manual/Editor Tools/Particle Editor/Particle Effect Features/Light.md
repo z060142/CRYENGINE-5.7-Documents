@@ -20,9 +20,7 @@ This feature allows users to enable particles as light sources.
 This feature should be used carefully. Even though the Particle Effect System is efficient in simulating thousands of small particles and CRYENGINE V has a very efficient light engine, light sources are much more complex than simple flat particles.
 
 This feature is best used with either invisible particles or with those particles that have 0% albedo and only use Emissive; more information can be found on the Lighting option in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868247](
-Appearance
-)
+[Appearance](Appearance.md)
 . Different setups are possible and we strongly recommend experimentation; however, they also may not look right.
 
 Properties
@@ -56,9 +54,7 @@ Affects Fog
 
  |
 Only valid when Volumetric Fog is enabled. For more information, see Volumetric Fog under the
-[/docs/static/engines/cryengine-5/categories/23756816](
-Environment Editor (Old as of 26/2)
-)
+[Environment Editor (Old as of 26/2)](/docs/static/engines/cryengine-5/categories/23756816)
 :
 
 -
@@ -89,9 +85,7 @@ Only
 
  |
 When turned on, particle light sources only affect the VisArea where the emitter is located. When placed in interior type scenes this helps to prevent light leaking through walls. For more information on how VisAreas work, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Area
-)
+[Vis Area](../../Level%20Editor%20Tab/Create%20Object/Area/Vis%20Area.md)
 .
 
  |
@@ -112,9 +106,5 @@ GPU Support
 
 This feature is not supported in the GPU Pipeline.
 
-[#light](
-Light
-)
-[#gpu-support](
-GPU Support
-)
+[Light](#light)
+[GPU Support](#gpu-support)

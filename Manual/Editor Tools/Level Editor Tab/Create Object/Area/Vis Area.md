@@ -140,7 +140,7 @@ Try to stay on the grid by enabling "Snap To Grid".
 
 -
 Keep the shape of the Vis Area as simple as possible.
-[Image: /docs/static/attachments/36849691]
+![Image](https://www.cryengine.com/docs/static/attachments/36849691)
 
 ##
 Transitioning from Indoor to Outdoor Areas
@@ -150,21 +150,15 @@ If the player leaves the Vis Area (indoor), everything behind the player will di
 
 -
 A wall inside the Vis Area and a wall outside the Vis Area are needed.
-[Image: /docs/static/attachments/36849690]
+![Image](https://www.cryengine.com/docs/static/attachments/36849690)
 
 -
 Transitions from indoor to indoor are handled the same way; two walls are needed, one in room 1 and one in room 2.
 
 -
 Also for better lighting separate Vis Areas should be added to each room.
-[Image: /docs/static/attachments/36849687]
+![Image](https://www.cryengine.com/docs/static/attachments/36849687)
 
-[#vis-area-properties](
-Vis Area Properties
-)
-[#setting-up-a-vis-area](
-Setting Up a Vis Area
-)
-[#transitioning-from-indoor-to-outdoor-areas](
-Transitioning from Indoor to Outdoor Areas
-)
+[Vis Area Properties](#vis-area-properties)
+[Setting Up a Vis Area](#setting-up-a-vis-area)
+[Transitioning from Indoor to Outdoor Areas](#transitioning-from-indoor-to-outdoor-areas)

@@ -14,18 +14,10 @@ This article describes how MemReplay is hooked into the CRYENGINE code and how i
 
 Chapters:
 
-[#tracking-allocations](
-Tracking Allocations
-)
-[#contexts](
-Contexts
-)
-[#defines](
-#defines
-)
-[#locations](
-Locations
-)
+[Tracking Allocations](#tracking-allocations)
+[Contexts](#contexts)
+[#defines](#defines)
+[Locations](#locations)
 
 ##
 Tracking Allocations

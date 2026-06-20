@@ -18,12 +18,8 @@ Online Recording
 
 Chapters:
 
-[#online-recording-of-memory-information](
-Online Recording of Memory Information
-)
-[#online-recording-on-xbox-one](
-Online Recording on Xbox One
-)
+[Online Recording of Memory Information](#online-recording-of-memory-information)
+[Online Recording on Xbox One](#online-recording-on-xbox-one)
 
 ##
 Online Recording of Memory Information
@@ -31,9 +27,7 @@ Online Recording of Memory Information
 Make sure you are using a Profile build. Debug builds don't always redefine new/malloc.
 
 Please make sure to have setup the MemReplay tool as described in
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306659](
-Setup and Loading data with MemReplay Tool
-)
+[Setup and Loading data with MemReplay Tool](../../CRYENGINE%20Tools/MemReplay/Setup%20and%20Loading%20data%20with%20MemReplay%20Tool.md)
  before you continue. In addition to capturing logs to disk, MemReplay also supports capturing the data over the network. This can save a lot of time due to the less copying of logs, and by parallelizing indexing and symbol resolution as the log is captured.
 
 To set this up, first find your ip address by running
@@ -68,9 +62,7 @@ memReplayStop
 Online Recording on Xbox One
 
 Xbox One does not yet support call stack information for Online Recording. However,
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306658](
-Getting Started with MemReplay
-)
+[Getting Started with MemReplay](../../CRYENGINE%20Tools/MemReplay/Getting%20Started%20with%20MemReplay.md)
  describes how symbols can be dumped for Xbox One. This .
 **
 dmp

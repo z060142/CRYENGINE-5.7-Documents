@@ -13,7 +13,7 @@ Overview
 This page will cover the 3dsMax pipeline for getting vegetation assets with Boolean Destruction into CRYENGINE.
 
 *
-[Image: /docs/static/attachments/25036000]
+![Image](https://www.cryengine.com/docs/static/attachments/25036000)
 
 Pic1: Boolean Destruction in action (with physics debug info displayed: F10 or p_draw_helper=1)
 
@@ -25,9 +25,7 @@ Tutorial Files
 Source 3dsMax scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25523841](
-GameSDK_vegtut05_files.zip
-)
+[GameSDK_vegtut05_files.zip](/docs/static/attachments/25523841)
 **
 
 ##
@@ -36,24 +34,16 @@ Prerequisites for this Tutorial
 Before you continue with this tutorial, make sure to have read and understood the following;
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963469](
-How to Install CryMaxTools
-)
+[How to Install CryMaxTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-The Basic CRYENGINE 3dsMax Workflow
-)
+[The Basic CRYENGINE 3dsMax Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-3dsMax Unit Scale to Match up With CRYENGINE Unit System
-)
+[3dsMax Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Helpful Information
@@ -116,7 +106,7 @@ We will continue with the assumption that you have already created the basics of
 
 *
 *
-[Image: /docs/static/attachments/24157194]
+![Image](https://www.cryengine.com/docs/static/attachments/24157194)
 
 Pic2: 3dsMax overview of the finished model including the visible and no-collide mesh
 *
@@ -217,7 +207,7 @@ _ddna.tif
 >
 `
 *
-[Image: /docs/static/attachments/24157191]
+![Image](https://www.cryengine.com/docs/static/attachments/24157191)
 
 Pic3: Leaves SubId1 "Shader Basic Parameters"
 *
@@ -330,7 +320,7 @@ _ddna.tif
 >
 `
 *
-[Image: /docs/static/attachments/24157198]
+![Image](https://www.cryengine.com/docs/static/attachments/24157198)
 
 Pic4: Trunk SubId2 "Shader Basic Parameters"
 *
@@ -387,16 +377,11 @@ tb_proxy
 
 This sub-material material is used for the Touch Bending setup on the leaves.
 For more information on the Touch Bending setup, please go
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285897](
-**
-HERE
-**
-
-)
+[HERE](../Vegetation%2004%20Bushes%20(Touch%20Bending).md)
 for a full explanation.
 
 *
-[Image: /docs/static/attachments/24157195]
+![Image](https://www.cryengine.com/docs/static/attachments/24157195)
 
 Pic5: tb_proxy SubId3 "Shader Basic Parameters"
 *
@@ -455,7 +440,7 @@ If you break the tree trunk and you find the upper part if falling too slowly, t
 -
 If you break the tree trunk and you find the upper part if falling too fast, increase the size of the obstruct volume.
 *
-[Image: /docs/static/attachments/24157192]
+![Image](https://www.cryengine.com/docs/static/attachments/24157192)
 
 Pic6: obstruct SubId4 "Shader Basic Parameters"
 *
@@ -532,7 +517,7 @@ tutorial_boolean_destruction.mtl
 **
 `
 
-[Image: /docs/static/attachments/24157190]
+![Image](https://www.cryengine.com/docs/static/attachments/24157190)
 
 *
 Pic7: Selecting the correct material for the texture export
@@ -563,7 +548,7 @@ This section of our geometry will be the destructible part. Make sure to avoid h
 The default boolean cut shape has a predefined width so keep the trunk radius on a reasonable value in order to get clean cuts through the whole mesh. The trunk will only break when this operation cuts completely through it.
 
 *
-[Image: /docs/static/attachments/24157197]
+![Image](https://www.cryengine.com/docs/static/attachments/24157197)
 
 Pic8: Geometry of the palm tree trunk
 *
@@ -592,16 +577,11 @@ Adding Touch Bending
 For this example the tree crown will use two sets of bendable leaves. This will add more believability to the breaking process. With Touch Bending the leaves will be get physicalized as soon as they fall to the ground when the tree gets destroyed. First copy your leaf and move the UV shell of your copy to another leaf texture. Now create two touch bending setups for both leaves.
 
 For more information on the Touch Bending setup, please go
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285897](
-**
-HERE
-**
-
-)
+[HERE](../Vegetation%2004%20Bushes%20(Touch%20Bending).md)
 for a full explanation.
 Don't copy your leaves or add a Touch Bending proxy yet until we are start with the next step.
 
-[Image: /docs/static/attachments/24157196]
+![Image](https://www.cryengine.com/docs/static/attachments/24157196)
 
 *
 Pic9: Both leaves with Touch Bending dummies
@@ -615,19 +595,14 @@ Detail Bending
  system. This will allow us to add varied movements to the leaves.
 
 For more information on the Detail Bending setup, please go
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-**
-HERE
-**
-
-)
+[HERE](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 for a full explanation.
 
 Throughout this process you can f
 inish your leaf crown geometry and add a proper Touch Bending proxy to it at the end.
 
 *
-[Image: /docs/static/attachments/24157188]
+![Image](https://www.cryengine.com/docs/static/attachments/24157188)
 
 Pic10: Geometry of the palm tree crown using a Touch Bending and Detail Bending setup
 *
@@ -638,7 +613,7 @@ Adding Air Resistance Geometry (obstruct)
 For this functionality you need to set up a single piece of geometry to define proper air resistance. The bigger its volume the slower the top piece will fall down after you shoot the tree. This helps the tree to fall down in a more believable way . Create a simple low poly sphere with a radius of roughly 1m and put it right in the middle of the leaf crown.
 
 *
-[Image: /docs/static/attachments/24157193]
+![Image](https://www.cryengine.com/docs/static/attachments/24157193)
 
 Pic11: Additional obstruct geometry within the leaf crown
 *
@@ -677,7 +652,7 @@ Export Nodes
 **
  button.
 *
-[Image: /docs/static/attachments/24157189]
+![Image](https://www.cryengine.com/docs/static/attachments/24157189)
 
 Pic12: Adding the asset to the exporter
 *
@@ -688,27 +663,11 @@ Continue to CRYENGINE
 We have now finished the setup for the 3dsMax portion of the tutorial. To continue move to the next page where we configure the material and use the Vegetation Tool to place down some of these Touch Bending assets.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285904](
-Vegetation 05 Trees (Breakable) CRYENGINE
-)
-[#tutorial-files](
-Tutorial Files
-)
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-3dsmax-setup](
-Initial 3dsMax setup
-)
-[#material](
-Material
-)
-[#geometry](
-Geometry
-)
-[#continue-to-cryengine](
-Continue to CRYENGINE
-)
+[Vegetation 05 Trees (Breakable) CRYENGINE](Vegetation%2005%20Trees%20(Breakable)%20CRYENGINE.md)
+[Tutorial Files](#tutorial-files)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Helpful Information](#helpful-information)
+[Initial 3dsMax setup](#initial-3dsmax-setup)
+[Material](#material)
+[Geometry](#geometry)
+[Continue to CRYENGINE](#continue-to-cryengine)

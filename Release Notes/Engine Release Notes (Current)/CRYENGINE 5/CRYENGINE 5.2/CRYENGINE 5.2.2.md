@@ -33,9 +33,7 @@ WAF
 Tweaked:
 **
  Note that redistribution of mfc140.dll from Windows/system32 is okay (
-[https://msdn.microsoft.com/en-us/library/ms235264.aspx](
-https://msdn.microsoft.com/en-us/library/ms235264.aspx
-)
+[https://msdn.microsoft.com/en-us/library/ms235264.aspx](https://msdn.microsoft.com/en-us/library/ms235264.aspx)
 ).
 
 ##
@@ -190,7 +188,5 @@ Known Issues
 
 -
 The Visual C++ 11.0 x86 and x64 redistributable packages must be installed. They are available at
-[https://support.microsoft.com/en-us/kb/2977003](
-https://support.microsoft.com/en-us/kb/2977003
-)
+[https://support.microsoft.com/en-us/kb/2977003](https://support.microsoft.com/en-us/kb/2977003)
 .

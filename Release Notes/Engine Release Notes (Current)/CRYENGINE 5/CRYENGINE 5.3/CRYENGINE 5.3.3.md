@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Third-party SDKs in 5.3.3](CRYENGINE 5.3.3/Third-party SDKs in 5.3.3.md)
+- [Third-party SDKs in 5.3.3](CRYENGINE%205.3.3/Third-party%20SDKs%20in%205.3.3.md)
 
 ## Content
 
@@ -17,15 +17,11 @@ Release Highlights
 CRYENGINE 5.3.3 includes various fixes and marks the launch of a new C# Rolling Ball template. We’re also removing the Sydewinder project and making it available as a standalone download from CRYENGINE Marketplace.
 
 The
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791343](
-C# Rolling Ball template
-)
+[C# Rolling Ball template](../../../../API%20Reference/CRYENGINE%20Code%20Tutorials/C%23%20Programming/C%23%20Game%20Templates/C%23%20Rolling%20Ball%20Template.md)
  is a simple game which is ideal for people who are unfamiliar with using C# in CRYENGINE. This template demonstrates how you can use the Entity Component to modify the behavior of entities in your game, use physics to move entities around a level, and receive input from the player. It’s a great way to get up and running quickly with C# and CRYENGINE.
 
 The
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24283087](
-Sydewinder tutorial
-)
+[Sydewinder tutorial](/docs/static/engines/cryengine-5/categories/23756813/pages/24283087)
 is now available as a standalone download from the CRYENGINE Marketplace. Sydewinder focuses on programming-driven game development and presents an endless side-scrolling game with a high score counter. This tutorial guides you through all the necessary steps in order to get started from scratch using the CE# Framework, as well as direct interaction with CryEngine.Common.
 
 ##
@@ -42,9 +38,7 @@ New:
 Refactored:
 **
 Removed the Sydewinder application - this will be maintained as a separate project and is available as a download from the
-[https://www.cryengine.com/marketplace](
-CRYENGINE Marketplace.
-)
+[CRYENGINE Marketplace.](https://www.cryengine.com/marketplace)
 
 ##
 Audio

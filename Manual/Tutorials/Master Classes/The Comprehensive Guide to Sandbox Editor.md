@@ -7,4 +7,5 @@
 
 ## Content
 
+[Embed: https://www.youtube.com/watch?v=XnZ_Wvpkwv4]
 The Sandbox Editor is the heart of CRYENGINE video game development. This presentation provides you with an essential overview of the interface's core features. You'll also receive advice on how to organize and manage your work with the Sandbox Editor, so you can develop an effective workflow, whether you are developing alone or as part of a team.

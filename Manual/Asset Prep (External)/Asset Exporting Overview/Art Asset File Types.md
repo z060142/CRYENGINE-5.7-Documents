@@ -15,7 +15,7 @@ There are several file types that are relevant for CRYENGINE artists and animato
 ##
 Geometry Assets
 
-[Image: /docs/static/attachments/44959595]
+![Image](https://www.cryengine.com/docs/static/attachments/44959595)
 
 **
 .cgf (Crytek Geometry Format)
@@ -94,7 +94,7 @@ This file is the processed Alembic file which the Resource Compiler compresses i
 ##
 Textures and Materials
 
-[Image: /docs/static/attachments/44959594]
+![Image](https://www.cryengine.com/docs/static/attachments/44959594)
 
 **
 .tif (Tagged Image File Format)
@@ -150,9 +150,7 @@ The .anm file is created in the 3D application and contains animation data for .
 **
 
 For a (skeletal) character in the game, there are certain definitions that have to be made in a single unified XML file-structure called a .chrparams file. The .chrparams file has the same name as the character file to which it refers. Please see The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535608](
-Animation Events
-)
+[Animation Events](../../Animation/Character%20Assembly/Animation%20Events.md)
  document for more information.
 
 **
@@ -160,9 +158,7 @@ Animation Events
 **
 
 The intermediate character animation file contains the animated bone data for a specific character. The .i_caf files can be exchanged between characters with similar bone structures. The intermediate character animation file stores animation in an uncompressed format and is used in production. Such files are created with DCC plugins, see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310796](
-Exporting Animations
-)
+[Exporting Animations](/docs/static/engines/cryengine-3/categories/1114113/pages/1310796)
  for details.
 
 **
@@ -170,9 +166,7 @@ Exporting Animations
 **
 
 The animation settings file contains per-animation compression settings. This is a sidecar file that is stored next to an .i_caf file and describes how it should be compiled by the Resource Compiler. Animation Settings are created by the Animation Import tool in Sandbox, see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310796](
-Exporting Animations
-)
+[Exporting Animations](/docs/static/engines/cryengine-3/categories/1114113/pages/1310796)
 .
 
 **
@@ -186,9 +180,7 @@ Compressed representation of the i_caf format. This format uses lossy compressio
 **
 
 Blend space defines how multiple animation assets are blended together. Blend spaces are parametrized at run-time with locomotion parameters such as movement speed, movement direction, turning angle or slope. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28186170](
-Blend Spaces - Character Tool
-)
+[Blend Spaces - Character Tool](../../Editor%20Tools/Animation%20Tab/Character%20Tool/Blend%20Spaces%20-%20Character%20Tool.md)
 .
 
 **
@@ -238,12 +230,10 @@ Contains a Mannequin animation database. The .adb file is a container specifying
 ##
 Facial Editor
 
-[Image: /docs/static/attachments/44959593]
+![Image](https://www.cryengine.com/docs/static/attachments/44959593)
 
 Please see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310899](
-Facial Animation Asset Files
-)
+[Facial Animation Asset Files](/docs/static/engines/cryengine-3/categories/1114113/pages/1310899)
  for more information.
 
 **
@@ -324,12 +314,10 @@ The FMOD build process creates several other files. All of these files are not c
 ##
 Flash Assets
 
-[Image: /docs/static/attachments/44959592]
+![Image](https://www.cryengine.com/docs/static/attachments/44959592)
 
 Please see
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605718](
-Flash UI System
-)
+[Flash UI System](/docs/static/engines/cryengine-3/categories/1638401/pages/1605718)
  for more information.
 
 **
@@ -350,21 +338,9 @@ Animation created by Adobe Flash (formerly Macromedia Flash). The .swf file can 
 
 Scaleform GFx is a lightweight, fast, image and vector graphics animation rendering engine, which is designed to take full advantage of modern 3D graphics hardware, yet be compatible with a wide range of systems. To complement the core rendering engine, Scaleform GFx contains a clean-room Flash player implementation, allowing game developers to create user interfaces with the award winning Adobe Flash Studio.
 
-[#geometry-assets](
-Geometry Assets
-)
-[#textures-and-materials](
-Textures and Materials
-)
-[#animations](
-Animations
-)
-[#facial-editor](
-Facial Editor
-)
-[#audio-assets](
-Audio Assets
-)
-[#flash-assets](
-Flash Assets
-)
+[Geometry Assets](#geometry-assets)
+[Textures and Materials](#textures-and-materials)
+[Animations](#animations)
+[Facial Editor](#facial-editor)
+[Audio Assets](#audio-assets)
+[Flash Assets](#flash-assets)

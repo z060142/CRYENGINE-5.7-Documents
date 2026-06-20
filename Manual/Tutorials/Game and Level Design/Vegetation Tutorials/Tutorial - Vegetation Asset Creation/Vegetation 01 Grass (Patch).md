@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Vegetation 01 Grass (Patch) 3dsMax](Vegetation 01 Grass (Patch)/Vegetation 01 Grass (Patch) 3dsMax.md)
-- [Vegetation 01 Grass (Patch) Maya](Vegetation 01 Grass (Patch)/Vegetation 01 Grass (Patch) Maya.md)
-- [Vegetation 01 Grass (Patch) CRYENGINE](Vegetation 01 Grass (Patch)/Vegetation 01 Grass (Patch) CRYENGINE.md)
+- [Vegetation 01 Grass (Patch) 3dsMax](Vegetation%2001%20Grass%20(Patch)/Vegetation%2001%20Grass%20(Patch)%203dsMax.md)
+- [Vegetation 01 Grass (Patch) Maya](Vegetation%2001%20Grass%20(Patch)/Vegetation%2001%20Grass%20(Patch)%20Maya.md)
+- [Vegetation 01 Grass (Patch) CRYENGINE](Vegetation%2001%20Grass%20(Patch)/Vegetation%2001%20Grass%20(Patch)%20CRYENGINE.md)
 
 ## Content
 
@@ -20,18 +20,16 @@ To begin with, we shall start off with a basic grass patch asset. When we declar
 
 For more information about using the Vegetation Editor in CRYENGINE, please go
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865590](
-HERE.
-)
+[HERE.](../../../../Editor%20Tools/Vegetation%20Editor.md)
 **
 
-[Image: /docs/static/attachments/24156983]
+![Image](https://www.cryengine.com/docs/static/attachments/24156983)
 
 *
 Pic 1: Example of 3 grass patch models, a dense, medium and light variation.
 *
 
-[Image: /docs/static/attachments/24156984]
+![Image](https://www.cryengine.com/docs/static/attachments/24156984)
 
 *
 Pic 2: Example using the grass patches to fill an area with vegetation.
@@ -81,7 +79,7 @@ limitation
 *
 ), the grass is shown growing at an extreme angle (an unrealistic condition) which demonstrates the limitation of the grass patch. In this case, use the Merged Mesh Grass due to its smaller footprint.
 
-[Image: /docs/static/attachments/24156985]
+![Image](https://www.cryengine.com/docs/static/attachments/24156985)
 
 *
 Pic 3:
@@ -102,25 +100,13 @@ Tutorials
 The following topics below explains the pipeline depending on the DCC tool you use, followed by the final CRYENGINE setup.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285886](
-Vegetation 01 Grass (Patch) 3dsMax
-)
+[Vegetation 01 Grass (Patch) 3dsMax](Vegetation%2001%20Grass%20(Patch)/Vegetation%2001%20Grass%20(Patch)%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285887](
-Vegetation 01 Grass (Patch) Maya
-)
+[Vegetation 01 Grass (Patch) Maya](Vegetation%2001%20Grass%20(Patch)/Vegetation%2001%20Grass%20(Patch)%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285888](
-Vegetation 01 Grass (Patch) CRYENGINE
-)
-[#helpful-information](
-Helpful Information
-)
-[#limitations-of-grass-patches](
-Limitations of Grass Patches
-)
-[#tutorials](
-Tutorials
-)
+[Vegetation 01 Grass (Patch) CRYENGINE](Vegetation%2001%20Grass%20(Patch)/Vegetation%2001%20Grass%20(Patch)%20CRYENGINE.md)
+[Helpful Information](#helpful-information)
+[Limitations of Grass Patches](#limitations-of-grass-patches)
+[Tutorials](#tutorials)

@@ -12,9 +12,7 @@ The function
 SimulateExplosion
 `
  is used to simulate explosions in the physical world. The main effect of explosions inside the physics system are impulses that are added to the affected objects (as a consequence, explosions can also cause
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282347](
-physical breakage
-)
+[physical breakage](Physical%20Breakage%20Systems.md)
 ). Explosion's impulse is calculated by integrating impulsive pressure over the affected geometries/entity parts. Impulsive pressure has a falloff proportional to
 *
 1/distance

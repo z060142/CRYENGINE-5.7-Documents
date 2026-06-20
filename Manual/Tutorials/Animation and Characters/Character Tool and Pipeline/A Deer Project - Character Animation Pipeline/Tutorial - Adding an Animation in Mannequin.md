@@ -18,21 +18,15 @@ The Mannequin Editor will be used to loop and fine-tune the transitions between 
 In this tutorial, a third person game will be made, but these same techniques can also be applied to a first person game design.
 
 This tutorial follows the previous tutorial,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959416](
-Tutorial - Replacing the Player Character
-)
+[Tutorial - Replacing the Player Character](Tutorial%20-%20Replacing%20the%20Player%20Character.md)
 . For instructions on how to import a character and make it the player character, please read that tutorial.
 
 If you prefer to watch a video tutorial rather than read a written one, check out the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868249#Tutorial-AddinganAnimationinMannequin-VidTutDeer2](
-video tutorial
-)
+[video tutorial](Tutorial%20-%20Adding%20an%20Animation%20in%20Mannequin.md#Tutorial-AddinganAnimationinMannequin-VidTutDeer2)
  at the bottom of this page.
 
 Please be advised that GameSDK is NOT used for this tutorial. It is based on the templates that are provided with the Engine, so
-[/docs/static/engines/cryengine-5/categories/23756816](
-create a new project
-)
+[create a new project](/docs/static/engines/cryengine-5/categories/23756816)
  using the
 **
 Third (or First) Person Shooter
@@ -49,9 +43,7 @@ Mannequin Editor
 
 -
 Microsoft Visual Studio® (a free
-[https://visualstudio.microsoft.com/vs/community/](
-Community version
-)
+[Community version](https://visualstudio.microsoft.com/vs/community/)
  is available)
 
 -
@@ -62,9 +54,7 @@ Files
 
 Download the following file and extract into your project folder:
 
-[/docs/static/attachments/36847640](
-deer_tutorial_part2.zip
-)
+[deer_tutorial_part2.zip](/docs/static/attachments/36847640)
 
 To see where the project folder is, hover over your project in the Launcher, click the
 **
@@ -87,18 +77,14 @@ If a character definition file (.cdf) was already created in another project, th
 assets\objects\characters
 *
  folder. Otherwise, follow the steps outlined in the previous
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959416](
-tutorial
-)
+[tutorial](Tutorial%20-%20Replacing%20the%20Player%20Character.md)
  on importing a character and animations using the Character Tool first.
 
 ##
 Generating and Opening a Solution
 
 Like in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959416](
-previous tutorial
-)
+[previous tutorial](Tutorial%20-%20Replacing%20the%20Player%20Character.md)
 , a C++ solution needs to be generated before it is possible to change the code. Of course, when following directly from the previous tutorial, this is not necessary as long as the first- or third-person template was used.
 
 -
@@ -465,7 +451,7 @@ Option 1
 **
  and be put into what looks like a yellow folder called <default>:
 
-[Image: /docs/static/attachments/36847291]
+![Image](https://www.cryengine.com/docs/static/attachments/36847291)
 
 *
 Creating a new FragmentID
@@ -511,7 +497,7 @@ AnimLayer
 **
 :
 
-[Image: /docs/static/attachments/36847292]
+![Image](https://www.cryengine.com/docs/static/attachments/36847292)
 
 *
 Adding an Animation Layer
@@ -535,7 +521,7 @@ Idle
 **
  animation that you imported using the Character Tool:
 
-[Image: /docs/static/attachments/36847293]
+![Image](https://www.cryengine.com/docs/static/attachments/36847293)
 
 -
 Enable
@@ -603,7 +589,7 @@ FragmentID
 **
 . Tell it to keep my tag definitions in the PlayerTags.xml file, and limit the scope of this to third person for now:
 
-[Image: /docs/static/attachments/36847294]
+![Image](https://www.cryengine.com/docs/static/attachments/36847294)
 
 *
 New Jump FragmentID
@@ -641,7 +627,7 @@ slanted line
 *
  at the beginning or end of an animation clip:
 
-[Image: /docs/static/attachments/36847295]
+![Image](https://www.cryengine.com/docs/static/attachments/36847295)
 
 *
 Blend Transition
@@ -661,7 +647,7 @@ Blend
 **
  property in the Anim Clip Properties:
 
-[Image: /docs/static/attachments/36847296]
+![Image](https://www.cryengine.com/docs/static/attachments/36847296)
 
 *
 Adjusting Blend Transition
@@ -710,7 +696,7 @@ Escape
 **
 :
 
-[Image: /docs/static/attachments/36847297]
+![Image](https://www.cryengine.com/docs/static/attachments/36847297)
 
 *
 Delaying Jump Animation
@@ -740,14 +726,14 @@ Drag the animation back to start at frame
 **
  seconds:
 
-[Image: /docs/static/attachments/36847304]
+![Image](https://www.cryengine.com/docs/static/attachments/36847304)
 
 Go into game, and when jumping, the body will be coiling from idle into the jump position over that half second interval.
 This completes the introduction to setting up a new animation FragmentID and the basic use of Mannequin.
 
 Combined with the assets from the previous tutorial, the level could now look similar to this:
 
-[Image: /docs/static/attachments/36847305]
+![Image](https://www.cryengine.com/docs/static/attachments/36847305)
 
 In the next tutorial, more animations will be added and tags will be used to create contexts to select animations based on game state and the character’s current position.
 
@@ -755,9 +741,7 @@ In the next tutorial, more animations will be added and tags will be used to cre
 Example Level
 
 An example level can be found in the Asset Database that combines the results from the previous tutorial and this one. You can find it on the
-[https://www.cryengine.com/marketplace/product/crytek/a-deer-project-tutorial-showcase](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/a-deer-project-tutorial-showcase)
 .
 
 In this example level, it is possible to switch between the deer and the hazmat character by pressing
@@ -772,119 +756,74 @@ Video Tutorial
 To see this tutorial in video format, and to get a bit more background information, see the video below. Topics covered:
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=0s](
-0:00
-)
+[0:00](https://www.youtube.com/watch?v=kqZubpCYdAM&t=0s)
  Introduction
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=50s](
-0:50
-)
+[0:50](https://www.youtube.com/watch?v=kqZubpCYdAM&t=50s)
  Defining the Mannequin system
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=105s](
-1:45
-)
+[1:45](https://www.youtube.com/watch?v=kqZubpCYdAM&t=105s)
  Intro to Mannequin terms through a finished Mannequin player setup
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=270s](
-4:30
-)
+[4:30](https://www.youtube.com/watch?v=kqZubpCYdAM&t=270s)
  Creating a new project and generating a C++ solution
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=345s](
-5:45
-)
+[5:45](https://www.youtube.com/watch?v=kqZubpCYdAM&t=345s)
  Setting up a jump animation fragment in player.h
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=450s](
-7:30
-)
+[7:30](https://www.youtube.com/watch?v=kqZubpCYdAM&t=450s)
  Setting up a jump animation fragment in player.cpp
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=940s](
-15:40
-)
+[15:40](https://www.youtube.com/watch?v=kqZubpCYdAM&t=940s)
  Editing scope in Mannequin's player.xml
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=1050s](
-17:30
-)
+[17:30](https://www.youtube.com/watch?v=kqZubpCYdAM&t=1050s)
  Using Mannequin Editor to define a jump fragment ID
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=1135s](
-18:55
-)
+[18:55](https://www.youtube.com/watch?v=kqZubpCYdAM&t=1135s)
  Adding animation fragments and tags in Mannequin Editor
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=1170s](
-19:30
-)
+[19:30](https://www.youtube.com/watch?v=kqZubpCYdAM&t=1170s)
  Adding an animation layer in Mannequin Editor
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=1250s](
-20:50
-)
+[20:50](https://www.youtube.com/watch?v=kqZubpCYdAM&t=1250s)
  Previewing animation timelines in Mannequin Editor
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=1275s](
-21:15
-)
+[21:15](https://www.youtube.com/watch?v=kqZubpCYdAM&t=1275s)
  Adjusting blend transitions in Mannequin Editor
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=1440s](
-24:00
-)
+[24:00](https://www.youtube.com/watch?v=kqZubpCYdAM&t=1440s)
  Viewing and editing Mannequin's XML files directly
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=1510s](
-25:10
-)
+[25:10](https://www.youtube.com/watch?v=kqZubpCYdAM&t=1510s)
  Testing the animations in a level
 
 -
-[https://www.youtube.com/watch?v=kqZubpCYdAM&t=1560s](
-26:00
-)
+[26:00](https://www.youtube.com/watch?v=kqZubpCYdAM&t=1560s)
  Experimenting with animation layer settings
-[#tools-used](
-Tools Used
-)
-[#files](
-Files
-)
-[#generating-and-opening-a-solution](
-Generating and Opening a Solution
-)
-[#in-visual-studio](
-In Visual Studio
-)
-[#in-mannequin](
-In Mannequin
-)
-[#example-level](
-Example Level
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=kqZubpCYdAM&feature=youtu.be]
+[Tools Used](#tools-used)
+[Files](#files)
+[Generating and Opening a Solution](#generating-and-opening-a-solution)
+[In Visual Studio](#in-visual-studio)
+[In Mannequin](#in-mannequin)
+[Example Level](#example-level)
+[Video Tutorial](#video-tutorial)
 
 ##
 Related Pages
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959416](
-Tutorial - Replacing the Player Character
-)
+[Tutorial - Replacing the Player Character](Tutorial%20-%20Replacing%20the%20Player%20Character.md)

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933695]
+![Image](https://www.cryengine.com/docs/static/attachments/29933695)
 true
 This is a Beta Feature
 This feature is still in beta and subject to constant change.  We encourage you to use it in test projects and provide your feedback to us.
@@ -67,7 +67,7 @@ CryPhysX.dll.
 *
 
 *
-[Image: /docs/static/attachments/44967779]
+![Image](https://www.cryengine.com/docs/static/attachments/44967779)
 
 *
 
@@ -261,15 +261,7 @@ As this is a Beta Feature, it is still in development and we would love to hear 
 ##
 Sections
 
-[#installing-and-enabling-physx-in-cryengine](
-Installing and Enabling PhysX in CRYENGINE
-)
-[#cvar](
-CVar
-)
-[#limitations](
-Limitations
-)
-[#feedback](
-Feedback
-)
+[Installing and Enabling PhysX in CRYENGINE](#installing-and-enabling-physx-in-cryengine)
+[CVar](#cvar)
+[Limitations](#limitations)
+[Feedback](#feedback)

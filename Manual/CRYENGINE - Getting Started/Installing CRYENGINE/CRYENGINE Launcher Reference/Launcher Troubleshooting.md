@@ -10,9 +10,7 @@
 Below is a collection of tips and tricks to help remedy common issues faced when downloading/installing the CRYENGINE Launcher.
 
 For issues not covered in the sections below, please reach out to the CRYENGINE team through its  or
-[https://www.cryengine.com/support](
-Support
-)
+[Support](https://www.cryengine.com/support)
  channels with a complete description of the problems faced.
 
 Before troubleshooting, please ensure that all installation instructions have been followed correctly.
@@ -331,9 +329,7 @@ For more information on re-configuring network settings to use
 Google's Public DNS
 **
 , please refer to Google's article
-[https://developers.google.com/speed/public-dns/docs/using](
-here
-)
+[here](https://developers.google.com/speed/public-dns/docs/using)
 .
 
 -
@@ -342,9 +338,7 @@ For more information on
 Cisco's OpenDNS
 **
 , please refer to Cisco's guide
-[https://www.opendns.com/setupguide/](
-here
-)
+[here](https://www.opendns.com/setupguide/)
 .
 
 -
@@ -353,10 +347,6 @@ For more information on
 Cloudflare's DNS
 **
 , please refer to the Cloudflare documentation
-[https://developers.cloudflare.com/1.1.1.1/setup/windows/](
-here
-)
+[here](https://developers.cloudflare.com/1.1.1.1/setup/windows/)
 .
-[#slow-download-speeds](
-Slow Download Speeds
-)
+[Slow Download Speeds](#slow-download-speeds)

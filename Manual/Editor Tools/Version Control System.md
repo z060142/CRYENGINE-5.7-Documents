@@ -13,18 +13,14 @@ Overview
 CRYENGINE's Sandbox has been integrated with a Version Control System (VCS) to make it easier for artists and developers working on the same assets to collaborate with each other.
 
 This VCS works in conjunction with the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-Asset Browser
-)
+[Asset Browser](Asset%20Browser.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541](
-Level Explorer
-)
+[Level Explorer](Level%20Editor%20Tab/Level%20Explorer.md)
  to allow modified assets, work files and levels from a project to be uploaded/downloaded from a repository, checked for previously made changes, and so on.
 
 Currently Perforce is the only VCS supported, although other version control solutions are likely to be added in the future.
 
-[Image: /docs/static/attachments/44960029]
+![Image](https://www.cryengine.com/docs/static/attachments/44960029)
 
 *
 Version Control System Overview
@@ -42,9 +38,7 @@ Users can select their Version Control solution either via
 Tools -> Version Control System -> Settings
 **
 from the Editor's
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848624](
-main menu
-)
+[main menu](../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface/Menu%20Bar.md)
 ,
  via
 **
@@ -55,10 +49,10 @@ Edit -> Preferences -> Version Control ->
 General
 **
  where names of the Perforce server, workspace, user and password need to be entered, or via the
-[Image: /docs/static/attachments/36849324]
+![Image](https://www.cryengine.com/docs/static/attachments/36849324)
  icon at the top-right corner of the Editor.
 
-[Image: /docs/static/attachments/35956544]
+![Image](https://www.cryengine.com/docs/static/attachments/35956544)
 
 *
 Version Control System Tool Window
@@ -112,7 +106,7 @@ Assets and Layers
 
 With version control setup, the current status of every asset in the Asset Browser is indicated by a colored icon on their thumbnails as shown below.
 
-[Image: /docs/static/attachments/35956504]
+![Image](https://www.cryengine.com/docs/static/attachments/35956504)
 
 *
 Version control in the Asset Browser
@@ -132,13 +126,13 @@ Thumbnails/Split
 **
  is activated from the
 **
-[Image: /docs/static/attachments/44960165]
+![Image](https://www.cryengine.com/docs/static/attachments/44960165)
 **
  menu of the Asset Browser.
 
 Similarly, the current status of every layer in the Level Explorer is indicated by a colored icon against their listings.
 
-[Image: /docs/static/attachments/36849323]
+![Image](https://www.cryengine.com/docs/static/attachments/36849323)
 
 *
 Level Explorer version control
@@ -151,50 +145,50 @@ Description
 
  |
 
-[Image: /docs/static/attachments/35956505]
+![Image](https://www.cryengine.com/docs/static/attachments/35956505)
  |
 New asset/layer.
 
  |
 
-[Image: /docs/static/attachments/35956506]
+![Image](https://www.cryengine.com/docs/static/attachments/35956506)
  |
 Asset/layer has been checked out locally.
 
  |
 
-[Image: /docs/static/attachments/35956507]
+![Image](https://www.cryengine.com/docs/static/attachments/35956507)
 
  |
 Asset/layer has been checked out and modified locally.
 
  |
 
-[Image: /docs/static/attachments/35956508]
+![Image](https://www.cryengine.com/docs/static/attachments/35956508)
  |
 Asset/layer has been checked out remotely (by someone else).
 
  |
 
-[Image: /docs/static/attachments/36849326]
+![Image](https://www.cryengine.com/docs/static/attachments/36849326)
  |
 Asset/layer is up to date.
 
  |
 
-[Image: /docs/static/attachments/36849327]
+![Image](https://www.cryengine.com/docs/static/attachments/36849327)
  |
 Local version of asset/layer is out of date.
 
  |
 
-[Image: /docs/static/attachments/36849328]
+![Image](https://www.cryengine.com/docs/static/attachments/36849328)
  |
 Asset/layer is marked for deletion.
 
  |
 
-[Image: /docs/static/attachments/36849329]
+![Image](https://www.cryengine.com/docs/static/attachments/36849329)
  |
 Asset/layer isn't tracked by VCS yet.
 
@@ -202,7 +196,7 @@ Asset/layer isn't tracked by VCS yet.
 
 Version control functions can be performed on an asset or layer by right-clicking their listings in the Asset Browser or Level Explorer, respectively. Doing so on either tool, opens a context menu with the same set of options.
 
-[Image: /docs/static/attachments/44960034]
+![Image](https://www.cryengine.com/docs/static/attachments/44960034)
 
 *
 VCS Asset Browser context menu
@@ -236,12 +230,10 @@ Show Details/Split Horizontally/Split Vertically
  column also serves to reflect the status of all version controlled assets.
 
 This column can further be used with search filters described in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066#AssetBrowser-search](
-Smart & Advanced Search
-)
+[Smart & Advanced Search](Asset%20Browser.md#AssetBrowser-search)
 section of the Asset Browser document to make search queries specific to the status of these assets.
 
-[Image: /docs/static/attachments/36849322]
+![Image](https://www.cryengine.com/docs/static/attachments/36849322)
 
 *
 VC Status Column
@@ -249,7 +241,7 @@ VC Status Column
 
 Level Explorer Tip
 The statuses of all version controlled layers are indicated under the
-[Image: /docs/static/attachments/36849324]
+![Image](https://www.cryengine.com/docs/static/attachments/36849324)
  column of the Level Explorer.
 
 Note that a layer is tracked by the Version Control System only once the corresponding level has been saved and the layer itself, written to disk as a
@@ -311,7 +303,7 @@ Submit...
 
 The submission process can only be completed after a description of changes performed have been entered in the text box provided within the Submit window.
 
-[Image: /docs/static/attachments/44960037]
+![Image](https://www.cryengine.com/docs/static/attachments/44960037)
 
 *
 Submit window
@@ -340,7 +332,7 @@ Submit...
 **
  functions on the selected asset's work files as shown below.
 
-[Image: /docs/static/attachments/44960038]
+![Image](https://www.cryengine.com/docs/static/attachments/44960038)
 
 *
 Work files VCS
@@ -367,24 +359,14 @@ Submit...
 In a similar fashion, when an association between an asset and work file is deleted, that work file will be permanently deleted from the repository only if no association exists between the work file and any other asset within the project
 .
 Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066#AssetBrowser-AssociatingWorkFiles](
-Associating Work Files to Assets
-)
+[Associating Work Files to Assets](Asset%20Browser.md#AssetBrowser-AssociatingWorkFiles)
  section of the Asset Browser's Reference page for more information about adding work files to assets.
 
 *
 
 *
 
-[#tool-window](
-Tool Window
-)
-[#functionality](
-Functionality
-)
-[#assets-and-layers](
-Assets and Layers
-)
-[#work-files](
-Work Files
-)
+[Tool Window](#tool-window)
+[Functionality](#functionality)
+[Assets and Layers](#assets-and-layers)
+[Work Files](#work-files)

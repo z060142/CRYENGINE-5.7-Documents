@@ -13,9 +13,7 @@ Overview
 The integration of Scaleform 4 is optional and separate to Scaleform 3.
 
 The following shows you how to choose between Scaleform 3 and Scaleform 4 in an Engine build obtained via the CRYENGINE Launcher, as well as copy the required binaries to a custom Engine build (i.e. built using source code obtained from
-[/docs/static/engines/cryengine-5/categories/23756813/pages/89457345](
-GitHub
-)
+[GitHub](../../../CRYENGINE%20Build%20System/Accessing%20CE%20Source%20Code%20via%20GitHub.md)
 ) to enable Scaleform on them.
 
 Additionally, this page also explains how to include the new Scaleform Schematyc (Experimental) nodes and Generated Components for either Scaleform 3 or 4 in your project.
@@ -33,7 +31,7 @@ To include the Scaleform Schematyc (Experimental) nodes and Generated Components
 
 ```
 
-[Image: /docs/static/attachments/90833078]
+![Image](https://www.cryengine.com/docs/static/attachments/90833078)
 *
 Adding Scaleform Schematyc to your project
 *
@@ -107,7 +105,7 @@ Then in your
 
 ```
 
-[Image: /docs/static/attachments/90833080]
+![Image](https://www.cryengine.com/docs/static/attachments/90833080)
 *
 Loading Scaleform 4
 *
@@ -149,7 +147,7 @@ bin/win_x64
 *
 folder of your project.
 
-[Image: /docs/static/attachments/90833081]
+![Image](https://www.cryengine.com/docs/static/attachments/90833081)
 
 *
 Dlls to copy to custom Engine binary directory
@@ -158,19 +156,9 @@ Dlls to copy to custom Engine binary directory
 ##
 Related Information
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/89456793](
-Tutorial - Introduction to Scaleform UI
-)
+[Tutorial - Introduction to Scaleform UI](../../../../Manual/Tutorials/Game%20and%20Level%20Design/UI/UI%20Design%20Tutorials/Tutorial%20-%20Introduction%20to%20Scaleform%20UI.md)
 
-[#adding-scaleform-schematyc-to-your-project](
-Adding Scaleform Schematyc to Your Project
-)
-[#selecting-scaleform-3-or-4](
-Selecting Scaleform 3 or 4
-)
-[#using-scaleform-with-a-custom-engine-build](
-Using Scaleform with a Custom Engine Build
-)
-[#related-information](
-Related Information
-)
+[Adding Scaleform Schematyc to Your Project](#adding-scaleform-schematyc-to-your-project)
+[Selecting Scaleform 3 or 4](#selecting-scaleform-3-or-4)
+[Using Scaleform with a Custom Engine Build](#using-scaleform-with-a-custom-engine-build)
+[Related Information](#related-information)

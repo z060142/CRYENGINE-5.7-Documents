@@ -7,17 +7,13 @@
 
 ## Child Pages
 
-- [Tutorial - Vegetation Asset Creation](Vegetation Tutorials/Tutorial - Vegetation Asset Creation.md)
-- [Tutorial - How to create bending vegetation](Vegetation Tutorials/Tutorial - How to create bending vegetation.md)
+- [Tutorial - Vegetation Asset Creation](Vegetation%20Tutorials/Tutorial%20-%20Vegetation%20Asset%20Creation.md)
+- [Tutorial - How to create bending vegetation](Vegetation%20Tutorials/Tutorial%20-%20How%20to%20create%20bending%20vegetation.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656889](
-Tutorial - How to create bending vegetation
-)
+[Tutorial - How to create bending vegetation](Vegetation%20Tutorials/Tutorial%20-%20How%20to%20create%20bending%20vegetation.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285884](
-Tutorial - Vegetation Asset Creation
-)
+[Tutorial - Vegetation Asset Creation](Vegetation%20Tutorials/Tutorial%20-%20Vegetation%20Asset%20Creation.md)

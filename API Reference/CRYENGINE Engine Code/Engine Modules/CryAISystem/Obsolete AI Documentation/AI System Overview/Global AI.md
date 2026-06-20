@@ -13,7 +13,7 @@ Flowgraph editor allows non-programmers build global AI logic visually
 ##
 Example: Two AIs meet in a helicopter and fly away
 
-[Image: /docs/static/attachments/23461215]
+![Image](https://www.cryengine.com/docs/static/attachments/23461215)
 
 Experiment with the flowgraph debugger features, e.g. signal propagation highlighting and breakpoints.
 

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934048]
+![Image](https://www.cryengine.com/docs/static/attachments/29934048)
 
 ##
 Overview
@@ -18,23 +18,13 @@ Sections
 This tutorial shows you how to create additive animations in 3ds Max using a Biped, and how you can make the most out of additive animations.
 
 Before proceeding, please have a look at the documentation on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535365](
-Additive Animations
-)
+[Additive Animations](../../../../Animation/Character%20Assembly/Additive%20Animations.md)
 .
 
-[#sections](
-Sections
-)
-[#sample-assets](
-Sample Assets
-)
-[#creating-assets-in-3ds-max](
-Creating Assets in 3ds Max
-)
-[#testing-additives-in-the-character-editor](
-Testing Additives in the Character Editor
-)
+[Sections](#sections)
+[Sample Assets](#sample-assets)
+[Creating Assets in 3ds Max](#creating-assets-in-3ds-max)
+[Testing Additives in the Character Editor](#testing-additives-in-the-character-editor)
 
 ##
 Sample Assets
@@ -42,21 +32,15 @@ Sample Assets
 Please download the sample 3ds Max 2010 assets required for this tutorial:
 
 -
-[/docs/static/attachments/1442493](
-additive_layer_animation.max
-)
+[additive_layer_animation.max](/docs/static/attachments/1442493)
 .
 
 -
-[/docs/static/attachments/1442492](
-additive_animation_final.max
-)
+[additive_animation_final.max](/docs/static/attachments/1442492)
 .
 
 -
-[/docs/static/attachments/1442482](
-relaxed_run_nw_forward_fast_01.bip
-)
+[relaxed_run_nw_forward_fast_01.bip](/docs/static/attachments/1442482)
 .
 
 ##

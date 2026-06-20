@@ -363,13 +363,13 @@ Most features are "moving" features aren't can't effectively be showcased throug
 ##
 Specular and Glossiness
 
-[Image: /docs/static/attachments/35402195]
+![Image](https://www.cryengine.com/docs/static/attachments/35402195)
  |
-[Image: /docs/static/attachments/35402197]
+![Image](https://www.cryengine.com/docs/static/attachments/35402197)
  |
-[Image: /docs/static/attachments/35402198]
+![Image](https://www.cryengine.com/docs/static/attachments/35402198)
  |
-[Image: /docs/static/attachments/35402199]
+![Image](https://www.cryengine.com/docs/static/attachments/35402199)
  |
 
 Specular 0
@@ -384,13 +384,13 @@ Specular 255 / Gloss 255
 ##
 Environment Map Reflection and Projection
 
-[Image: /docs/static/attachments/35402200]
+![Image](https://www.cryengine.com/docs/static/attachments/35402200)
  |
-[Image: /docs/static/attachments/35402201]
+![Image](https://www.cryengine.com/docs/static/attachments/35402201)
  |
-[Image: /docs/static/attachments/35402202]
+![Image](https://www.cryengine.com/docs/static/attachments/35402202)
  |
-[Image: /docs/static/attachments/35402204]
+![Image](https://www.cryengine.com/docs/static/attachments/35402204)
  |
 
 Env reflection amount 2
@@ -405,13 +405,13 @@ Env projection scale 0
 ##
 Normals
 
-[Image: /docs/static/attachments/35402205]
+![Image](https://www.cryengine.com/docs/static/attachments/35402205)
  |
-[Image: /docs/static/attachments/35402206]
+![Image](https://www.cryengine.com/docs/static/attachments/35402206)
  |
-[Image: /docs/static/attachments/35402207]
+![Image](https://www.cryengine.com/docs/static/attachments/35402207)
  |
-[Image: /docs/static/attachments/35402208]
+![Image](https://www.cryengine.com/docs/static/attachments/35402208)
  |
 
 Normals scale 0.1
@@ -426,13 +426,13 @@ Normals scale 4
 ##
 Realtime Reflections
 
-[Image: /docs/static/attachments/35402209]
+![Image](https://www.cryengine.com/docs/static/attachments/35402209)
  |
-[Image: /docs/static/attachments/35402210]
+![Image](https://www.cryengine.com/docs/static/attachments/35402210)
  |
-[Image: /docs/static/attachments/35402211]
+![Image](https://www.cryengine.com/docs/static/attachments/35402211)
  |
-[Image: /docs/static/attachments/35402212]
+![Image](https://www.cryengine.com/docs/static/attachments/35402212)
  |
 
 Realtime Reflection Off
@@ -447,13 +447,13 @@ Realtime reflection amount 16
 ##
 Foam
 
-[Image: /docs/static/attachments/35402213]
+![Image](https://www.cryengine.com/docs/static/attachments/35402213)
  |
-[Image: /docs/static/attachments/35402214]
+![Image](https://www.cryengine.com/docs/static/attachments/35402214)
  |
-[Image: /docs/static/attachments/35402215]
+![Image](https://www.cryengine.com/docs/static/attachments/35402215)
  |
-[Image: /docs/static/attachments/35402216]
+![Image](https://www.cryengine.com/docs/static/attachments/35402216)
  |
 
 Foam tiling 2 / Foam amount 8
@@ -473,13 +473,13 @@ For the below example, a new material was created:
 GameSDK\Materials\water\watervolumes\water_algae_surface.mtl
 `
 
-[Image: /docs/static/attachments/35402221]
+![Image](https://www.cryengine.com/docs/static/attachments/35402221)
  |
-[Image: /docs/static/attachments/35402222]
+![Image](https://www.cryengine.com/docs/static/attachments/35402222)
  |
-[Image: /docs/static/attachments/35402220]
+![Image](https://www.cryengine.com/docs/static/attachments/35402220)
  |
-[Image: /docs/static/attachments/35402223]
+![Image](https://www.cryengine.com/docs/static/attachments/35402223)
  |
 
 Decal Strength 0 - High

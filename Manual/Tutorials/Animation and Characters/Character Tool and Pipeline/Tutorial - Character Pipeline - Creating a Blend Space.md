@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Tutorial - Character Pipeline - Using a Blend Space File](Tutorial - Character Pipeline - Creating a Blend Space/Tutorial - Character Pipeline - Using a Blend Space File.md)
+- [Tutorial - Character Pipeline - Using a Blend Space File](Tutorial%20-%20Character%20Pipeline%20-%20Creating%20a%20Blend%20Space/Tutorial%20-%20Character%20Pipeline%20-%20Using%20a%20Blend%20Space%20File.md)
 
 ## Content
 
@@ -80,7 +80,7 @@ Blend Space Preview
 
 You'll see that a number of options appeared in the Properties on the right side:
 
-[Image: /docs/static/attachments/65437993]
+![Image](https://www.cryengine.com/docs/static/attachments/65437993)
 
 *
 Blend space properties
@@ -90,14 +90,14 @@ To understand what these do, you'll need to open the Blend Space Preview under
 **
 menu
 **
-[Image: /docs/static/attachments/65437994]
+![Image](https://www.cryengine.com/docs/static/attachments/65437994)
  (top right)
 **
 → View → Blend Space Preview
 **
 . A new panel will open in the Character Tool:
 
-[Image: /docs/static/attachments/65437995]
+![Image](https://www.cryengine.com/docs/static/attachments/65437995)
 
 *
 Blend Space Preview panel
@@ -128,7 +128,7 @@ Properties
 dropdown button
 **
 
-[Image: /docs/static/attachments/65437996]
+![Image](https://www.cryengine.com/docs/static/attachments/65437996)
  next to Dimensions and choose
 **
 Add
@@ -203,7 +203,7 @@ Next, you need to add Examples. In the Properties Panel, click the
 dropdown button
 **
 
-[Image: /docs/static/attachments/65437996]
+![Image](https://www.cryengine.com/docs/static/attachments/65437996)
  next to
 **
 Examples
@@ -266,7 +266,7 @@ In the Properties Panel, click the
 dropdown button
 **
 
-[Image: /docs/static/attachments/65437996]
+![Image](https://www.cryengine.com/docs/static/attachments/65437996)
  next to
 **
 Annotations
@@ -283,7 +283,7 @@ In the
 dropdown button
 **
 
-[Image: /docs/static/attachments/65437996]
+![Image](https://www.cryengine.com/docs/static/attachments/65437996)
  next to
 **
 0.
@@ -347,9 +347,7 @@ Assets
 Walk
 *
 folder and assign the blend space you created as the walk animation (for instructions on how to do this, read the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/65437937#Tutorial-MakingYourCharacteraPlayableCharacter-AssignAnim](
-previous tutorial
-)
+[previous tutorial](../../Game%20Logic/Programming%20Tutorials/Tutorial%20-%20Making%20Your%20Character%20a%20Playable%20Character.md#Tutorial-MakingYourCharacteraPlayableCharacter-AssignAnim)
 );
 
 -
@@ -358,24 +356,11 @@ You're done!
 ##
 Video Tutorial
 
-[#prerequisites](
-Prerequisites
-)
-[#creating-and-opening-a-blend-space-file](
-Creating and Opening a Blend Space File
-)
-[#blend-space-preview](
-Blend Space Preview
-)
-[#adding-dimensions](
-Adding Dimensions
-)
-[#annotations](
-Annotations
-)
-[#assigning-the-blend-space-to-the-character](
-Assigning the Blend Space to the Character
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=FIMV_wLv63A]
+[Prerequisites](#prerequisites)
+[Creating and Opening a Blend Space File](#creating-and-opening-a-blend-space-file)
+[Blend Space Preview](#blend-space-preview)
+[Adding Dimensions](#adding-dimensions)
+[Annotations](#annotations)
+[Assigning the Blend Space to the Character](#assigning-the-blend-space-to-the-character)
+[Video Tutorial](#video-tutorial)

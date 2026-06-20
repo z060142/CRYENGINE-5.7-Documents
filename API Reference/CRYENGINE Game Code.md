@@ -6,47 +6,33 @@
 
 ## Child Pages
 
-- [Getting Started with Game Code](CRYENGINE Game Code/Getting Started with Game Code.md)
-- [Flowgraph Programming](CRYENGINE Game Code/Flowgraph Programming.md)
-- [Game Objects](CRYENGINE Game Code/Game Objects.md)
-- [Miscellaneous Game Code](CRYENGINE Game Code/Miscellaneous Game Code.md)
-- [GameZero Programming](CRYENGINE Game Code/GameZero Programming.md)
-- [Weapon System](CRYENGINE Game Code/Weapon System.md)
-- [Game Rules Script Callbacks](CRYENGINE Game Code/Game Rules Script Callbacks.md)
+- [Getting Started with Game Code](CRYENGINE%20Game%20Code/Getting%20Started%20with%20Game%20Code.md)
+- [Flowgraph Programming](CRYENGINE%20Game%20Code/Flowgraph%20Programming.md)
+- [Game Objects](CRYENGINE%20Game%20Code/Game%20Objects.md)
+- [Miscellaneous Game Code](CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code.md)
+- [GameZero Programming](CRYENGINE%20Game%20Code/GameZero%20Programming.md)
+- [Weapon System](CRYENGINE%20Game%20Code/Weapon%20System.md)
+- [Game Rules Script Callbacks](CRYENGINE%20Game%20Code/Game%20Rules%20Script%20Callbacks.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306497](
-Getting Started with Game Code
-)
+[Getting Started with Game Code](CRYENGINE%20Game%20Code/Getting%20Started%20with%20Game%20Code.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23308994](
-Flowgraph Programming
-)
+[Flowgraph Programming](CRYENGINE%20Game%20Code/Flowgraph%20Programming.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23309014](
-GameZero Programming
-)
+[GameZero Programming](CRYENGINE%20Game%20Code/GameZero%20Programming.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306555](
-Game Objects
-)
+[Game Objects](CRYENGINE%20Game%20Code/Game%20Objects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306526](
-Weapon System
-)
+[Weapon System](CRYENGINE%20Game%20Code/Weapon%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635](
-Game Rules Script Callbacks
-)
+[Game Rules Script Callbacks](CRYENGINE%20Game%20Code/Game%20Rules%20Script%20Callbacks.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23308998](
-Miscellaneous Game Code
-)
+[Miscellaneous Game Code](CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code.md)

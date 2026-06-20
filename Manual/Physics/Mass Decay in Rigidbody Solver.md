@@ -18,7 +18,7 @@ more
 *
  stable than they should be. To some extent this can be fixed by increasing the amount of undecayed passes.
 
-[Image: /docs/static/attachments/36848965]
+![Image](https://www.cryengine.com/docs/static/attachments/36848965)
 
 *
 Mass decay in action
@@ -130,9 +130,5 @@ Default value = 20.
 
  |
 
-[#usage](
-Usage
-)
-[#cvars](
-CVars
-)
+[Usage](#usage)
+[CVars](#cvars)

@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Hit and Death Reactions System](Game Characters/Hit and Death Reactions System.md)
-- [Body Damage and Destruction](Game Characters/Body Damage and Destruction.md)
+- [Hit and Death Reactions System](Game%20Characters/Hit%20and%20Death%20Reactions%20System.md)
+- [Body Damage and Destruction](Game%20Characters/Body%20Damage%20and%20Destruction.md)
 
 ## Content
 
@@ -21,11 +21,7 @@ This section hosts various information on Characters/Players for your game, and 
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306580](
-Hit and Death Reactions System
-)
+[Hit and Death Reactions System](Game%20Characters/Hit%20and%20Death%20Reactions%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306583](
-Body Damage and Destruction
-)
+[Body Damage and Destruction](Game%20Characters/Body%20Damage%20and%20Destruction.md)

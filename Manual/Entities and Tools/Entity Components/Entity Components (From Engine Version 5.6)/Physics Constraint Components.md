@@ -444,15 +444,7 @@ Target Link Name and Helper Link Name are needed to give the component a referen
 
  |
 
-[#internal-breakable-joint](
-Internal Breakable Joint
-)
-[#line-constraint](
-Line Constraint
-)
-[#plane-constraint](
-Plane Constraint
-)
-[#point-constraint](
-Point Constraint
-)
+[Internal Breakable Joint](#internal-breakable-joint)
+[Line Constraint](#line-constraint)
+[Plane Constraint](#plane-constraint)
+[Point Constraint](#point-constraint)

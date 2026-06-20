@@ -83,9 +83,7 @@ Fixed
 Fixed
 **
 : Issue with a geometry cache file open/compile dialog not opening correctly (
-[http://steamcommunity.com/games/220980/announcements/detail/1532660850808039477](
-hotfix 2639
-)
+[hotfix 2639](http://steamcommunity.com/games/220980/announcements/detail/1532660850808039477)
 ).
 
 -

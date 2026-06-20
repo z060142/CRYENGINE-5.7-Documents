@@ -7,41 +7,29 @@
 
 ## Child Pages
 
-- [Common Lua Functions](Lua Scripting/Common Lua Functions.md)
-- [Integrations Between Lua and C++](Lua Scripting/Integrations Between Lua and C++.md)
-- [Learning the Lua language](Lua Scripting/Learning the Lua language.md)
-- [Script Usage](Lua Scripting/Script Usage.md)
-- [Using the Lua Debugger](Lua Scripting/Using the Lua Debugger.md)
-- [Using the Lua XML Loader](Lua Scripting/Using the Lua XML Loader.md)
+- [Common Lua Functions](Lua%20Scripting/Common%20Lua%20Functions.md)
+- [Integrations Between Lua and C++](Lua%20Scripting/Integrations%20Between%20Lua%20and%20C%2B%2B.md)
+- [Learning the Lua language](Lua%20Scripting/Learning%20the%20Lua%20language.md)
+- [Script Usage](Lua%20Scripting/Script%20Usage.md)
+- [Using the Lua Debugger](Lua%20Scripting/Using%20the%20Lua%20Debugger.md)
+- [Using the Lua XML Loader](Lua%20Scripting/Using%20the%20Lua%20XML%20Loader.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306625](
-Common Lua Functions
-)
+[Common Lua Functions](Lua%20Scripting/Common%20Lua%20Functions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306630](
-Integrations Between Lua and C++
-)
+[Integrations Between Lua and C++](Lua%20Scripting/Integrations%20Between%20Lua%20and%20C%2B%2B.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306633](
-Learning the Lua language
-)
+[Learning the Lua language](Lua%20Scripting/Learning%20the%20Lua%20language.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306632](
-Script Usage
-)
+[Script Usage](Lua%20Scripting/Script%20Usage.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306631](
-Using the Lua Debugger
-)
+[Using the Lua Debugger](Lua%20Scripting/Using%20the%20Lua%20Debugger.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306624](
-Using the Lua XML Loader
-)
+[Using the Lua XML Loader](Lua%20Scripting/Using%20the%20Lua%20XML%20Loader.md)

@@ -12,7 +12,7 @@ Color
 
 Interpol nodes can be used to linearly calculate from an initial value to an end value within a given time frame.
 
-[Image: /docs/static/attachments/29687833]
+![Image](https://www.cryengine.com/docs/static/attachments/29687833)
 
 **
 Inputs
@@ -113,14 +113,14 @@ Easing
 
 This node applies a transition-function to its input and returns its result.
 
-[Image: /docs/static/attachments/29687832]
+![Image](https://www.cryengine.com/docs/static/attachments/29687832)
 
 ##
 Float
 
 Interpol nodes can be used to linearly calculate from an initial value to an end value within a given time frame.
 
-[Image: /docs/static/attachments/29687831]
+![Image](https://www.cryengine.com/docs/static/attachments/29687831)
 
 **
 Inputs
@@ -221,7 +221,7 @@ Int
 
 Interpol nodes can be used to linearly calculate from an initial value to an end value within a given time frame.
 
-[Image: /docs/static/attachments/29687830]
+![Image](https://www.cryengine.com/docs/static/attachments/29687830)
 
 **
 Input
@@ -324,7 +324,7 @@ Smooth nodes can be used to calculate an initial value to an end value within a 
 
 See SmoothCD in Cry_Math.h for more in-depth description on how the calculation is dampened.
 
-[Image: /docs/static/attachments/29687829]
+![Image](https://www.cryengine.com/docs/static/attachments/29687829)
 
 **
 Inputs
@@ -398,7 +398,7 @@ SmoothFloat
 
 Smooth nodes can be used to calculate an initial value to an end value within a given time frame. The calculation will slow as it reaches the end value.
 
-[Image: /docs/static/attachments/29687828]
+![Image](https://www.cryengine.com/docs/static/attachments/29687828)
 
 **
 Inputs
@@ -472,7 +472,7 @@ SmoothInt
 
 Smooth nodes can be used to calculate an initial value to an end value within a given time frame. Calculation will slow as it reaches the end value.
 
-[Image: /docs/static/attachments/29687827]
+![Image](https://www.cryengine.com/docs/static/attachments/29687827)
 
 **
 Inputs
@@ -546,7 +546,7 @@ SmoothVec3
 
 Smooth nodes can be used to calculate an initial value to an end value within a given time frame. Calculation will slow as it reaches the end value.
 
-[Image: /docs/static/attachments/29687826]
+![Image](https://www.cryengine.com/docs/static/attachments/29687826)
 
 **
 Inputs
@@ -620,7 +620,7 @@ Vec3
 
 Interpol nodes can be used to linearly calculate from an initial value to an end value within a given time frame.
 
-[Image: /docs/static/attachments/29687825]
+![Image](https://www.cryengine.com/docs/static/attachments/29687825)
 
 **
 Inputs
@@ -716,30 +716,12 @@ Any
 Triggered when finished
  |
 
-[#color](
-Color
-)
-[#easing](
-Easing
-)
-[#float](
-Float
-)
-[#int](
-Int
-)
-[#smoothcolor](
-SmoothColor
-)
-[#smoothfloat](
-SmoothFloat
-)
-[#smoothint](
-SmoothInt
-)
-[#smoothvec3](
-SmoothVec3
-)
-[#vec3](
-Vec3
-)
+[Color](#color)
+[Easing](#easing)
+[Float](#float)
+[Int](#int)
+[SmoothColor](#smoothcolor)
+[SmoothFloat](#smoothfloat)
+[SmoothInt](#smoothint)
+[SmoothVec3](#smoothvec3)
+[Vec3](#vec3)

@@ -50,7 +50,7 @@ Dependencies
 
 **
 
-[Image: /docs/static/attachments/44962855]
+![Image](https://www.cryengine.com/docs/static/attachments/44962855)
 
 ##
 Sketchfab Support
@@ -63,4 +63,4 @@ Videos & Images
 **
  step of asset submission. The Sketchfab viewer will then be embedded on the Marketplace page related to your asset.
 
-[Image: /docs/static/attachments/44962853]
+![Image](https://www.cryengine.com/docs/static/attachments/44962853)

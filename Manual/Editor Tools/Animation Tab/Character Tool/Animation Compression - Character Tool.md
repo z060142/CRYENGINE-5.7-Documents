@@ -43,7 +43,7 @@ Note for Perforce users: *.i_caf and
 *
 .animsettings files should be synced and checked out locally. If they are not, use a perforce client to do so first.
 
-[Image: /docs/static/attachments/28900233]
+![Image](https://www.cryengine.com/docs/static/attachments/28900233)
 
 -
 You can adjust compression settings and instantly see the resulting animation and its size;
@@ -59,7 +59,7 @@ Side by Side
 **
  to compare original animation with a compressed version;
 *
-[Image: /docs/static/attachments/28900232]
+![Image](https://www.cryengine.com/docs/static/attachments/28900232)
 
 *
 
@@ -69,7 +69,7 @@ You can remove specific
 per-joint
 **
  compression settings via the context menu:
-[Image: /docs/static/attachments/28900231]
+![Image](https://www.cryengine.com/docs/static/attachments/28900231)
 
 -
 Click the
@@ -206,7 +206,7 @@ Add
 **
  in popup menu:
 
-[Image: /docs/static/attachments/28900230]
+![Image](https://www.cryengine.com/docs/static/attachments/28900230)
 
 Then click on an empty string to enter its name.
 
@@ -216,7 +216,7 @@ RMB
 **
  on the tag name):
 
-[Image: /docs/static/attachments/28900229]
+![Image](https://www.cryengine.com/docs/static/attachments/28900229)
 
 For curious readers: tags are case insensitive. I.e. the tag "CINEMATIC" will be treated the same way as "cinematic".
 
@@ -264,7 +264,7 @@ Compression -> DBA Table
 **
 .
 
-[Image: /docs/static/attachments/28900227]
+![Image](https://www.cryengine.com/docs/static/attachments/28900227)
 
 Some of them are condition nodes that can be used to group other nodes, like "And" and "Or", the rest are used to check some of the criteria of the animation.
 

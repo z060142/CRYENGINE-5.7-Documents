@@ -259,9 +259,7 @@ Each Flash asset that is defined in the xml can be accessed by the
 IFlashUI
 **
  interface. See also
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306537](
-UI Element
-)
+[UI Element](../../../../CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/User%20Interface/UI%20Element.md)
 .
 
 ```
@@ -468,9 +466,7 @@ OnUIEvent
 found
 **
  in the
-[/docs/static/engines/cryengine-3/categories/1638401/pages/15011348](
-UI Element
-)
+[UI Element](/docs/static/engines/cryengine-3/categories/1638401/pages/15011348)
  XML file.
 
 -
@@ -478,9 +474,7 @@ UI Element
 OnUIEventEx
 **
 - This is called, if an event is triggered from flash and it is not found in the
-[/docs/static/engines/cryengine-3/categories/1638401/pages/15011348](
-UI Element
-)
+[UI Element](/docs/static/engines/cryengine-3/categories/1638401/pages/15011348)
  XML file.
 
 -
@@ -488,9 +482,7 @@ UI Element
 OnInit -
 **
 This is called, when a new Flash
-[/docs/static/engines/cryengine-3/categories/1638401/pages/15011348](
-UI Element
-)
+[UI Element](/docs/static/engines/cryengine-3/categories/1638401/pages/15011348)
  has been initialized.
 
 -
@@ -498,9 +490,7 @@ UI Element
 OnSetVisible -
 **
 This is called, when an
-[/docs/static/engines/cryengine-3/categories/1638401/pages/15011348](
-UI Element
-)
+[UI Element](/docs/static/engines/cryengine-3/categories/1638401/pages/15011348)
  changes visibility.
 
 -
@@ -512,9 +502,7 @@ OnInstanceCreated -
 instance
 **
  of an
-[/docs/static/engines/cryengine-3/categories/1638401/pages/15011348](
-UI Element
-)
+[UI Element](/docs/static/engines/cryengine-3/categories/1638401/pages/15011348)
  has been created. A instance has an instance ID greater than zero ( the base instance of each element is 0).
 
 -
@@ -526,9 +514,7 @@ This is called, when an
 instance
 **
  of an
-[/docs/static/engines/cryengine-3/categories/1638401/pages/15011348](
-UI Element
-)
+[UI Element](/docs/static/engines/cryengine-3/categories/1638401/pages/15011348)
  has been destroyed.
 
 ```
@@ -690,9 +676,7 @@ Release
 IUIElement
 **
 . Since unloading can be done through code or
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306550](
-Flowgraph (MANUAL)
-)
+[Flowgraph (MANUAL)](/docs/static/engines/cryengine-5/categories/23756813/pages/23306550)
 , you should implement the
 **
 IUIElementEventListener
@@ -707,13 +691,9 @@ OnUnload()
 UIActions
 
 Each
-[/docs/static/engines/cryengine-3/categories/1638401/pages/15011350](
-UIAction
-)
+[UIAction](/docs/static/engines/cryengine-3/categories/1638401/pages/15011350)
  (
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605670](
-Flowgraph
-)
+[Flowgraph](/docs/static/engines/cryengine-3/categories/1638401/pages/1605670)
 ) can be accessed and executed via code. To start an action you have to use the
 **
 IUIActionManager.
@@ -787,15 +767,7 @@ if ( gEnv->pFlashUI )
 
 ```
 
-[#access-iflashui-interface](
-Access IFlashUI Interface
-)
-[#uiarguments-and-uidata](
-UIArguments and UIData
-)
-[#uielements](
-UIElements
-)
-[#uiactions](
-UIActions
-)
+[Access IFlashUI Interface](#access-iflashui-interface)
+[UIArguments and UIData](#uiarguments-and-uidata)
+[UIElements](#uielements)
+[UIActions](#uiactions)

@@ -16,18 +16,14 @@ We are very pleased to bring you the 5.4.0 Preview 7 release. Great progress has
 Entity Components
 
 To help the community get to grips with the newly introduced Entity Components feature our Developers have written some
-[/docs](
-Entity Component Use Case
-)
+[Entity Component Use Case](/docs)
  documentation. CRYENGINE users may be particularly interested in the two Advanced Use Cases that show how different Components can be combined to create some great effects. This documentation will be expanded on over the coming months, so keep your eyes peeled for further updates.
 
 ##
 Project Launcher Tools
 
 Also in this Preview Release, we bring you updated documentation for the
-[/docs](
-Project Launcher Tools
-)
+[Project Launcher Tools](/docs)
 .
 
 ##
@@ -35,9 +31,7 @@ Accessing the 5.4.0 Preview 7 Release
 
 -
 Go to
-[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview7](
-https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview7
-)
+[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview7](https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview7)
 .
 
 -
@@ -50,21 +44,15 @@ Unzip it the downloaded package in your system, and then open the directory “C
 Double-click on “InstallEngine.bat".
 Code Interface Changes
 For more information, see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962727](
-Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)
-)
+[Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)](../Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes%20(5.4%20Preview%20Releases).md)
 **
 
 **
 article.
 
 If you are upgrading from CRYENGINE 5.3, please read this topic:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962700](
-Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)
-)
-[/docs](
-.
-)
+[Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)](../Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4%20(5.4%20Preview%20Releases).md)
+[.](/docs)
 
 ##
 Mannequin

@@ -34,7 +34,7 @@ Game
 **
  toolbar active so you can enable AI/Physics mode.
 
-[Image: /docs/static/attachments/28881126]
+![Image](https://www.cryengine.com/docs/static/attachments/28881126)
 
 ##
 How to use
@@ -254,18 +254,8 @@ ed_PhysToolHitExplPress1
 Hit explosion maximal pressure
  |
 
-[#location](
-Location
-)
-[#how-to-use](
-How to use
-)
-[#controls](
-Controls
-)
-[#usage](
-Usage
-)
-[#technical-information](
-Technical information
-)
+[Location](#location)
+[How to use](#how-to-use)
+[Controls](#controls)
+[Usage](#usage)
+[Technical information](#technical-information)

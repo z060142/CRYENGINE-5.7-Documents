@@ -16,25 +16,17 @@ Mannequin Preview Setup
 *
  to configure itself. It is basically an XML file that tells
 the editor which
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition File (xxxControllerDefs.xml)
-)
+[Controller Definition File (xxxControllerDefs.xml)](Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
  to load and which characters and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743](
-Animation Database File (ADB)
-)
+[Animation Database File (ADB)](Animation%20Database%20(ADB).md)
  files to use.
 
 These preview setup files are only used by the editor, they are not used in the game. You can have as many of these setups as you want.
 
 Do not confuse this file with the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308476](
-sequences
-)
+[sequences](Sequence%20File%20(xml).md)
  which you edit in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-previewer](
-Mannequin Previewer
-)
+[Mannequin Previewer](../../Mannequin%20Editor.md#MannequinEditor-previewer)
 .
 
 ##
@@ -54,9 +46,7 @@ Creating a Preview Setup
 
 To create a mannequin preview setup, you need to create the text file by hand
 . See the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308475#PreviewSetupFile(xxxPreview.xml)-FileFormat](
-FileFormat
-)
+[FileFormat](Preview%20Setup%20File%20(xxxPreview.xml).md#PreviewSetupFile%28xxxPreview.xml)-FileFormat)
  section below for an example.
 
 All Preview Setup files must be stored in the folder Animations/Mannequin/Preview/.  They typically use a name ending with "Preview.xml", but this is not required.
@@ -65,9 +55,7 @@ All Preview Setup files must be stored in the folder Animations/Mannequin/Previe
 Editing a Preview Setup
 
 To edit a preview setup, you use the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308457](
-Mannequin Context Editor
-)
+[Mannequin Context Editor](../Mannequin%20Context%20Editor.md)
 .
 
 ##
@@ -99,9 +87,7 @@ The
 controllerDef
 *
 defines which
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition File (xxxControllerDefs.xml)
-)
+[Controller Definition File (xxxControllerDefs.xml)](Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
  to use.
 
 The
@@ -109,13 +95,9 @@ The
 contexts
 *
  section defines how to fill the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450870](
-Scope Contexts
-)
+[Scope Contexts](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
  in the editor. You can use the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308457](
-Mannequin Context Editor
-)
+[Mannequin Context Editor](../Mannequin%20Context%20Editor.md)
  to change this section.
 
 The
@@ -123,11 +105,7 @@ The
 history
 *
  section defines the default fragmentIDs to layer on in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-FragmentEditor](
-Mannequin Fragment Editor
-)
+[Mannequin Fragment Editor](../../Mannequin%20Editor.md#MannequinEditor-FragmentEditor)
 . This is useful for example when editing fragments playing on secondary scopes that rely on another fragment playing on the first scope; you can define which fragments to sequence on the first scope here. It uses the same format as the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308476](
-Sequence File (xml)
-)
+[Sequence File (xml)](Sequence%20File%20(xml).md)
 .

@@ -8,3 +8,5 @@
 ## Content
 
 Modeling and texturing complex entities with the Designer and Material Editor tools
+
+[Embed: https://www.youtube.com/watch?v=aPN5i8kiJIE]

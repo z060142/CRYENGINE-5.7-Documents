@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933276]
+![Image](https://www.cryengine.com/docs/static/attachments/29933276)
 
 ##
 Overview
@@ -17,18 +17,10 @@ Sections
 
 In this tutorial you'll learn how decals are created from a texture perspective, how to setup materials for decals and how to place them in Sandbox.
 
-[#sections](
-Sections
-)
-[#texture-setup](
-Texture Setup
-)
-[#material-setup](
-Material Setup
-)
-[#sandbox-setup](
-Sandbox Setup
-)
+[Sections](#sections)
+[Texture Setup](#texture-setup)
+[Material Setup](#material-setup)
+[Sandbox Setup](#sandbox-setup)
 
 ##
 Texture Setup
@@ -82,9 +74,7 @@ Add New Item
 Now select an appropriate folder where you want to save the material file. In order to keep things consistent, lets save it alongside our existing decal materials.
 
 By default, the location of these materials won't be visible in the file dialog because they're zipped up inside the
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605746](
-GameData.pak
-)
+[GameData.pak](/docs/static/engines/cryengine-3/categories/1638401/pages/1605746)
 . But we can manually create the path:
 `
 <root>/GameSDK/Materials/decals/concrete/concrete_crack_new.mtl
@@ -93,15 +83,11 @@ GameData.pak
 After you save the material, the Material Editor will automatically select your new material and apply default settings to it to get you started.
 
 Lets start customizing this new material by
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048667](
-adding the Diffuse texture
-)
+[adding the Diffuse texture](/docs/static/engines/cryengine-3/categories/1114113/pages/1048667)
  which we created earlier in the Texture Setup section.
 
 We've already got the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048911](
-Illum Shader
-)
+[Illum Shader](/docs/static/engines/cryengine-3/categories/1114113/pages/1048911)
  selected by default and you don't need to specify surface types for decals, as they're purely a visual projection with no surface logic behind them.
 
 In the Shader Gen Parameters, just enable the
@@ -109,9 +95,7 @@ In the Shader Gen Parameters, just enable the
 Decal
 **
  checkbox so that the engine understands this material is to be used by the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048871](
-Decal entity
-)
+[Decal entity](/docs/static/engines/cryengine-3/categories/1114113/pages/1048871)
 .
 
 As of CRYENGINE 3.6, a few additional parameters have been added to Decals to control Alpha Multiplier/Falloff as well as Opacity.
@@ -150,9 +134,7 @@ We can leave all other settings default for now as we'll tweak those further onc
 Sandbox Setup
 
 Lets start with a small, basic level. See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048859](
-Creating a New Level
-)
+[Creating a New Level](/docs/static/engines/cryengine-3/categories/1114113/pages/1048859)
  for more information.
 
 Place a few concrete objects in and have them all use the same, tiling concrete texture for an extreme example.
@@ -165,9 +147,7 @@ RollupBar -> Objects -> Misc -> Decal
 You should see the decal object with its default "Replace Me" material applied.
 
 Check you've enabled "
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048827#ManipulatingObjects-PlacingandModifyingObjects-AdvancedObjectManipulation](
-Follow Terrain and Snap to Objects
-)
+[Follow Terrain and Snap to Objects](/docs/static/engines/cryengine-3/categories/1114113/pages/1048827#ManipulatingObjects-PlacingandModifyingObjects-AdvancedObjectManipulation)
 " before you bring it into the level to help with navigation.
 Now, with the Decal still selected, click on the Material button in the RollupBar to open the Material Editor.
 

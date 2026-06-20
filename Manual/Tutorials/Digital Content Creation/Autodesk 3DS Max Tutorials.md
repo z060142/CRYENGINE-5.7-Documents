@@ -7,29 +7,21 @@
 
 ## Child Pages
 
-- [Tutorial - Setting up a CAT Rig for CRYENGINE in 3ds Max](Autodesk 3DS Max Tutorials/Tutorial - Setting up a CAT Rig for CRYENGINE in 3ds Max.md)
-- [Tutorial - Complex Asset Import with 3DS Max featuring KitBash 3D](Autodesk 3DS Max Tutorials/Tutorial - Complex Asset Import with 3DS Max featuring KitBash 3D.md)
-- [Tutorial - Autodesk 3DS Max Character Autorig and Export](Autodesk 3DS Max Tutorials/Tutorial - Autodesk 3DS Max Character Autorig and Export.md)
-- [Tutorial - Autodesk 3DS Max Utilities Demonstration](Autodesk 3DS Max Tutorials/Tutorial - Autodesk 3DS Max Utilities Demonstration.md)
+- [Tutorial - Setting up a CAT Rig for CRYENGINE in 3ds Max](Autodesk%203DS%20Max%20Tutorials/Tutorial%20-%20Setting%20up%20a%20CAT%20Rig%20for%20CRYENGINE%20in%203ds%20Max.md)
+- [Tutorial - Complex Asset Import with 3DS Max featuring KitBash 3D](Autodesk%203DS%20Max%20Tutorials/Tutorial%20-%20Complex%20Asset%20Import%20with%203DS%20Max%20featuring%20KitBash%203D.md)
+- [Tutorial - Autodesk 3DS Max Character Autorig and Export](Autodesk%203DS%20Max%20Tutorials/Tutorial%20-%20Autodesk%203DS%20Max%20Character%20Autorig%20and%20Export.md)
+- [Tutorial - Autodesk 3DS Max Utilities Demonstration](Autodesk%203DS%20Max%20Tutorials/Tutorial%20-%20Autodesk%203DS%20Max%20Utilities%20Demonstration.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656795](
-Tutorial - Complex Asset Import with 3DS Max featuring KitBash 3D
-)
+[Tutorial - Complex Asset Import with 3DS Max featuring KitBash 3D](Autodesk%203DS%20Max%20Tutorials/Tutorial%20-%20Complex%20Asset%20Import%20with%203DS%20Max%20featuring%20KitBash%203D.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656945](
-Tutorial - Autodesk 3DS Max Character Autorig and Export
-)
+[Tutorial - Autodesk 3DS Max Character Autorig and Export](Autodesk%203DS%20Max%20Tutorials/Tutorial%20-%20Autodesk%203DS%20Max%20Character%20Autorig%20and%20Export.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656943](
-Tutorial - Autodesk 3DS Max Utilities Demonstration
-)
+[Tutorial - Autodesk 3DS Max Utilities Demonstration](Autodesk%203DS%20Max%20Tutorials/Tutorial%20-%20Autodesk%203DS%20Max%20Utilities%20Demonstration.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26214941](
-Tutorial - Setting up a CAT Rig for CRYENGINE in 3ds Max
-)
+[Tutorial - Setting up a CAT Rig for CRYENGINE in 3ds Max](Autodesk%203DS%20Max%20Tutorials/Tutorial%20-%20Setting%20up%20a%20CAT%20Rig%20for%20CRYENGINE%20in%203ds%20Max.md)

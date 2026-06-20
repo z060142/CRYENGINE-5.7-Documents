@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934031]
+![Image](https://www.cryengine.com/docs/static/attachments/29934031)
 
 ##
 Overview
@@ -20,82 +20,48 @@ A
 Tag Definition
 *
  describes a collection of Tags. These tags are keywords used for labeling
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-fragments
-)
+[fragments](Mannequin%20Fragments.md)
  (and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450872](
-transitions
-)
+[transitions](Mannequin%20Transitions.md)
 ). To see how you assign tags to fragments and transitions, see the Mannequin Fragment Browser and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-TransitionBrowser](
-Mannequin Transition Browser
-)
+[Mannequin Transition Browser](../../Mannequin%20Editor.md#MannequinEditor-TransitionBrowser)
  respectively.
 
 Tags can have priorities associated with them. Tag priorities are used for ranking
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-TagStates
-)
+[TagStates](Mannequin%20TagState.md)
 .
 
 Tags can optionally be grouped together within Tag Groups, which are lists of tags that are mutually exclusive. For example you can have a group called  "Weapon" which contains "Rifle", "Pistol" and "NoWeapon" tags. In this example you can never have both "Rifle" and "Pistol" tags set at the same time, which makes sense if you can only use one weapon at a time in your game.
 
 Tag definition files can include other tag definition files hierarchically.
 
-[#sections](
-Sections
-)
-[#creating-tag-definitions](
-Creating Tag Definitions
-)
-[#editing-tag-definitions](
-Editing Tag Definitions
-)
-[#associated-file](
-Associated File
-)
-[#code](
-Code
-)
-[#tag-state](
-TAG STATE
-)
-[#description](
-Description
-)
-[#global-tagstate](
-Global TagState
-)
-[#fragment-tagstate](
-Fragment Tagstate
-)
-[#scope-tags](
-Scope Tags
-)
+[Sections](#sections)
+[Creating Tag Definitions](#creating-tag-definitions)
+[Editing Tag Definitions](#editing-tag-definitions)
+[Associated File](#associated-file)
+[Code](#code)
+[TAG STATE](#tag-state)
+[Description](#description)
+[Global TagState](#global-tagstate)
+[Fragment Tagstate](#fragment-tagstate)
+[Scope Tags](#scope-tags)
 
 ##
 Creating Tag Definitions
 
 You create Tag Definitions using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308456](
-Mannequin Tag Definition Editor
-)
+[Mannequin Tag Definition Editor](../Mannequin%20Tag%20Definition%20Editor.md)
 .
 
 ##
 Editing Tag Definitions
 
 You edit Tag Definitions using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308456](
-Mannequin Tag Definition Editor
-)
+[Mannequin Tag Definition Editor](../Mannequin%20Tag%20Definition%20Editor.md)
 .
 
 However, you cannot edit the hierarchical inclusion of other tag definition files in this editor. For this, you will need to manually edit the XML file. See the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-Tag Definition File (xxxTags.xml)
-)
+[Tag Definition File (xxxTags.xml)](../Mannequin%20Files/Tag%20Definition%20File%20(xxxTags.xml).md)
 .
 
 Each individual tag must have a unique name within a Tag Definition.
@@ -108,18 +74,14 @@ And even if tags are in different groups, they cannot be given the same name.
 Associated File
 
 Tag definitions are stored in a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-Tag Definition File (xxxTags.xml)
-)
+[Tag Definition File (xxxTags.xml)](../Mannequin%20Files/Tag%20Definition%20File%20(xxxTags.xml).md)
 .
 
 ##
 Code
 
 In code, Tag Definitions are represented by a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308477](
-Mannequin CTagDefinition
-)
+[Mannequin CTagDefinition](../Mannequin%20Technical%20Topics/Mannequin%20CTagDefinition.md)
 .
 
 ##
@@ -129,9 +91,7 @@ TAG STATE
 Description
 
 A tagstate is a combination of tags from a
-[/docs/static/engines/cryengine-5/categories/23756816](
-CRYENGINE V Manual
-)
+[CRYENGINE V Manual](/docs/static/engines/cryengine-5/categories/23756816)
 . Tagstates can be represented by a list of tags separated by "+" characters. For example "crouching+pistol" defines a tagstate combining the tags "crouching" and "pistol".
 
 There are many different places where sets of tags like this come up. Here are the most used ones and how they are typically called:
@@ -159,28 +119,20 @@ IActionController::GetContext()
 Fragment Tagstate
 
 Each fragment gets labeled with tags in the Mannequin Fragment Browser. Those can be either global tags or
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308434](
-FragmentID-specific Tags (fragtags)
-)
+[FragmentID-specific Tags (fragtags)](FragmentID-specific%20Tags%20(fragtags).md)
 .
 
 They are used to find fragments during
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308439](
-fragment selection
-)
+[fragment selection](Fragment%20Selection%20Process.md)
 .
 
 ##
 Scope Tags
 
 The tags associated with a scope, are configured in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition File (xxxControllerDefs.xml)
-)
+[Controller Definition File (xxxControllerDefs.xml)](../Mannequin%20Files/Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
 . All fragments that play on this scope require these tags to be set. Typically this contains only one tag. It is recommended to use a specific naming convention for scope tags as opposed to other tags, for example prefixing them with the word "Scope".
 
 See also
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308439](
-Fragment Selection Process
-)
+[Fragment Selection Process](Fragment%20Selection%20Process.md)
 .

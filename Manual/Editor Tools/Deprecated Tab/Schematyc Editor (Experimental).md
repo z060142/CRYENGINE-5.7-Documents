@@ -26,7 +26,7 @@ ives Designers the power to construct new and reusable objects from a set of bui
 
 Visual scripting tools let you script your own logic, while state machines help to break up and structure logic. Determinism and reduced latency make it possible to take new gameplay systems beyond the prototyping stage and without the need to rewrite them in C++.
 
-[Image: /docs/static/attachments/44968590]
+![Image](https://www.cryengine.com/docs/static/attachments/44968590)
 
 The Schematyc tool in CRYENGINE comprises of the following panels:
 
@@ -65,9 +65,7 @@ Preview
 Log
 **
 For more information on Schematyc's general concepts, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26875020](
-Schematyc
-)
+[Schematyc](../../Beta%20Features/Schematyc.md)
 .
 
 ##
@@ -251,9 +249,7 @@ General -
 
 **
 Toggles the default Schematyc toolbar. For more information about Schematyc toolbar options, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868211#SchematycEditor(Experimental)-toolbar](
-below
-)
+[below](Schematyc%20Editor%20(Experimental).md#SchematycEditor%28Experimental)-toolbar)
 .
  |
 
@@ -333,7 +329,7 @@ Description
 
  |
 
-[Image: /docs/static/attachments/44968592]
+![Image](https://www.cryengine.com/docs/static/attachments/44968592)
 
  |
 **
@@ -345,7 +341,7 @@ Lets you save any changes made.
 
  |
 
-[Image: /docs/static/attachments/36847162]
+![Image](https://www.cryengine.com/docs/static/attachments/36847162)
 
  |
 **
@@ -354,7 +350,7 @@ Lets you save any changes made.
 
  |
 
-[Image: /docs/static/attachments/36847161]
+![Image](https://www.cryengine.com/docs/static/attachments/36847161)
 
  |
 **
@@ -363,7 +359,7 @@ Show log settings in properties panel
 
  |
 
-[Image: /docs/static/attachments/36847160]
+![Image](https://www.cryengine.com/docs/static/attachments/36847160)
 
  |
 **
@@ -469,15 +465,13 @@ Search
 ##
 Asset Browser
 
-[Image: /docs/static/attachments/44968596]
+![Image](https://www.cryengine.com/docs/static/attachments/44968596)
 
 Tool-specific Asset Browser panels let users view and edit the assets within the tool that is currently being used. Unlike the stand-alone Asset Browser tool, the assets that are displayed on this panel are pre-filtered by default; meaning it only displays the assets that are relative to the tool itself.
 
 Menu options and their functionalities on both the stand-alone and the tool-specific Asset Browsers are the same and they can be used to achieve the same goal. For more information about the Asset Browser Menu options, please refer to the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-Asset Browser
-)
+[Asset Browser](../Asset%20Browser.md)
 
 page.
 
@@ -497,11 +491,11 @@ Constants:
 **
  String identifier
 
-[Image: /docs/static/attachments/36847169]
+![Image](https://www.cryengine.com/docs/static/attachments/36847169)
 
 Below you can see an example of how such an enumeration could look. This example defines different types of damage.
 
-[Image: /docs/static/attachments/36847159]
+![Image](https://www.cryengine.com/docs/static/attachments/36847159)
 
 ##
 Signal
@@ -570,15 +564,15 @@ ObjectID
 EntityID
 **
 : Unique entity identifier.
-[Image: /docs/static/attachments/36847151]
+![Image](https://www.cryengine.com/docs/static/attachments/36847151)
 
 Below you can see an example of how a signal could look. This signal, as mentioned earlier, will inform other entities that they were damaged. We specify the type of damage and the amount of damage. If another entity receives this signal it knows what type of damage, how much damage and can react to that information.
 
-[Image: /docs/static/attachments/36847154]
+![Image](https://www.cryengine.com/docs/static/attachments/36847154)
 
 Below, you can see how a send signal node would look like in the graph view. As you can see it has all inputs we defined in the properties.
 
-[Image: /docs/static/attachments/36847155]
+![Image](https://www.cryengine.com/docs/static/attachments/36847155)
 
 ##
 Function
@@ -595,30 +589,30 @@ Output(s)
 **
 : Data types the function returns after calling it.
 
-[Image: /docs/static/attachments/36847150]
+![Image](https://www.cryengine.com/docs/static/attachments/36847150)
 
 Below, you can see a simple example function definition. This function does nothing more than adding an integer and returning the result. As you can see the function takes two inputs, which are both integer values and returns the result as an integer as well.
 
-[Image: /docs/static/attachments/36847157]
+![Image](https://www.cryengine.com/docs/static/attachments/36847157)
 
 The Begin node defines the beginning of your function. This node contains all of your previously defined input data types, however the data of those data types will be set by the caller of your function. After you have performed your logic in the function, you can return/finish your function. Now you can return the result of your function or return nothing and just end the function.
 
-[Image: /docs/static/attachments/36847156]
+![Image](https://www.cryengine.com/docs/static/attachments/36847156)
 
 ##
 State Machine
 
 A state machine, as the name suggests, is a construct to manage and pass states. A state machine can be used to handle complex orders of logic, for example a Non Player Character (NPC) behavior could be achieved in a state machine. Therefore, a state machine contains different states which can be added by right clicking on the state machine.
 
-[Image: /docs/static/attachments/36847149]
+![Image](https://www.cryengine.com/docs/static/attachments/36847149)
 
 Every State has its own signal graph and gets the same default signal (start, update, end). When this State gets triggered, then the Start signal will be sent and as long as this state is active then the update signal will be called on every frame. Of course when the state ends, then the End signal will be sent.
 
-[Image: /docs/static/attachments/36847148]
+![Image](https://www.cryengine.com/docs/static/attachments/36847148)
 
 To setup the general order or behavior of the states you can click directly on the state machine. In this graph, you can add your states and logic to trigger the different states. In the example shown below you can see how a simple state machine could look. The Begin node will call the Idle state when the game starts. If the entity gets the "Entering" signal then it will go to the next state "Burn" and if/once the "BurnTimer" is over, it will go into the "Broken" state and will stay there for the rest of the game.
 
-[Image: /docs/static/attachments/36847146]
+![Image](https://www.cryengine.com/docs/static/attachments/36847146)
 
 ##
 Variable
@@ -663,15 +657,15 @@ The variable can now be used in the signal graph to describe a certain attribute
 
 Example of a variable definition.
 
-[Image: /docs/static/attachments/36847143]
+![Image](https://www.cryengine.com/docs/static/attachments/36847143)
 
 An example of how a variable can be used in the graph. The "DoDamage" function takes an int32 value and we get the variable we already have declared.
 
-[Image: /docs/static/attachments/36847144]
+![Image](https://www.cryengine.com/docs/static/attachments/36847144)
 
 If the public option is active, then you can edit the variables under the "Schematyc Variables" property.
 
-[Image: /docs/static/attachments/36847142]
+![Image](https://www.cryengine.com/docs/static/attachments/36847142)
 
 ##
 Timer
@@ -732,20 +726,18 @@ The Signal Receiver is just a new signal graph and this graph can do the same th
 Component
 
 Components are containers for a specific logic or functionality. The components that you can add here are the same as in the Sandbox Editor with the "Add Component" button. There are already some predefined components from CryEngine by default, for example, you can find the components for input, lighting, physics, geometry and more. You can also search for a component in the search line. If you have created your own components in C# or C++, they should be on the list and you can add them to your Schematyc entity and use the logic you exposed to Schematyc. For more information about components and what they can do, refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966029](
-Entity Components
-)
+[Entity Components](../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)
 .
 
-[Image: /docs/static/attachments/36847140]
+![Image](https://www.cryengine.com/docs/static/attachments/36847140)
 
 Once you have added a component you can see the component in the components list for your entity. All entity components will be on that list and can be removed or renamed here. A lot of those components have their own properties which can be edited in the properties panel after clicking on them.
 
-[Image: /docs/static/attachments/36847139]
+![Image](https://www.cryengine.com/docs/static/attachments/36847139)
 
 After adding your components you should also be able to use the functions they expose. Those functions should be in your function list and can be used in the signal graph. The component can also expose signals and other functionality in Schematyc.
 
-[Image: /docs/static/attachments/36847138]
+![Image](https://www.cryengine.com/docs/static/attachments/36847138)
 
 ##
 Graph View
@@ -753,7 +745,7 @@ Graph View
 Shows a graphical representation of the entities and lets you add nodes to a function. S
 chematyc introduces the concept of a transition graph. This is where we control how and when you switch from one state to another. Note: It is impossible to trigger transitions from anywhere else and while this may not seem quite as convenient as simply being able to link up a 'switch state' node, it does make it much easier to view the overall picture and track down issues when designs become more complex.
 
-[Image: /docs/static/attachments/36847166]
+![Image](https://www.cryengine.com/docs/static/attachments/36847166)
 
 ##
 Preview
@@ -763,7 +755,7 @@ Provides a preview for the newly created Schematyc entity.
 ##
 Preview Settings
 
-[Image: /docs/static/attachments/36847163]
+![Image](https://www.cryengine.com/docs/static/attachments/36847163)
 
 Options
 
@@ -1044,14 +1036,14 @@ Log
 
 Lets you view the logs within the Schematyc tool.
 
-[Image: /docs/static/attachments/36847165]
+![Image](https://www.cryengine.com/docs/static/attachments/36847165)
 
 ##
 Log Settings
 
 You can sort the log information based on the values assigned in the Log Settings.
 
-[Image: /docs/static/attachments/36847164]
+![Image](https://www.cryengine.com/docs/static/attachments/36847164)
 
 Options
 
@@ -1131,27 +1123,11 @@ If enabled, shows the name of the function from which the message originates.
 
 On This Page
 
-[#menu](
-Menu
-)
-[#toolbar](
-Toolbar
-)
-[#scripts-browser](
-Scripts Browser
-)
-[#asset-browser](
-Asset Browser
-)
-[#properties](
-Properties
-)
-[#graph-view](
-Graph View
-)
-[#preview](
-Preview
-)
-[#log](
-Log
-)
+[Menu](#menu)
+[Toolbar](#toolbar)
+[Scripts Browser](#scripts-browser)
+[Asset Browser](#asset-browser)
+[Properties](#properties)
+[Graph View](#graph-view)
+[Preview](#preview)
+[Log](#log)

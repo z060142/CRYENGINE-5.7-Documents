@@ -15,9 +15,7 @@ Since games are typically localized to various languages, there is a need to dea
 This document will provide some general information as well as CRYENGINE specific information aimed at programmers that will work with the source code.
 
 As such, for asset creation and design, please refer to
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19377178](
-Localization
-)
+[Localization](/docs/static/engines/cryengine-3/categories/1114113/pages/19377178)
  section for information on how to perform localization and create localized assets.
 
 Starting with CRYENGINE version 3.8.1 we have done significant work in this area. This document applies to this version and newer versions.
@@ -432,13 +430,9 @@ To guard against user-input or potentially broken input, consider using the Unic
 Further reading
 
 A good introduction can be found at
-[http://www.joelonsoftware.com/articles/Unicode.html](
-http://www.joelonsoftware.com/articles/Unicode.html
-)
+[http://www.joelonsoftware.com/articles/Unicode.html](http://www.joelonsoftware.com/articles/Unicode.html)
 .
 
 See
-[http://unicode.org/](
-http://unicode.org/
-)
+[http://unicode.org/](http://unicode.org/)
  for the official standard and more details on Unicode.

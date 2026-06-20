@@ -6,41 +6,29 @@
 
 ## Child Pages
 
-- [Installing CRYENGINE](CRYENGINE - Getting Started/Installing CRYENGINE.md)
-- [For New CRYENGINE Users](CRYENGINE - Getting Started/For New CRYENGINE Users.md)
-- [Sample Projects](CRYENGINE - Getting Started/Sample Projects.md)
-- [Migration Guides](CRYENGINE - Getting Started/Migration Guides.md)
-- [System Requirements](CRYENGINE - Getting Started/System Requirements.md)
-- [Glossary](CRYENGINE - Getting Started/Glossary.md)
+- [Installing CRYENGINE](CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE.md)
+- [For New CRYENGINE Users](CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users.md)
+- [Sample Projects](CRYENGINE%20-%20Getting%20Started/Sample%20Projects.md)
+- [Migration Guides](CRYENGINE%20-%20Getting%20Started/Migration%20Guides.md)
+- [System Requirements](CRYENGINE%20-%20Getting%20Started/System%20Requirements.md)
+- [Glossary](CRYENGINE%20-%20Getting%20Started/Glossary.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963076](
-System Requirements
-)
+[System Requirements](CRYENGINE%20-%20Getting%20Started/System%20Requirements.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468180](
-Installing CRYENGINE
-)
+[Installing CRYENGINE](CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308614](
-For New CRYENGINE Users
-)
+[For New CRYENGINE Users](CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29122332](
-Sample Projects
-)
+[Sample Projects](CRYENGINE%20-%20Getting%20Started/Sample%20Projects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591045](
-Glossary
-)
+[Glossary](CRYENGINE%20-%20Getting%20Started/Glossary.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872810](
-Migration Guides
-)
+[Migration Guides](CRYENGINE%20-%20Getting%20Started/Migration%20Guides.md)

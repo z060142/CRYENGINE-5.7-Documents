@@ -11,9 +11,7 @@
 Overview
 
 The following tutorial will guide you through the initial steps of getting your audio from CRIWARE ADX2 to work with CRYENGINE, using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor (ACE)
-)
+[Audio Controls Editor (ACE)](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
  and Audio System Controls.
 
 ##
@@ -69,16 +67,16 @@ To set a different path for your ADX2 project, select the
 Edit → Preferences
 **
 option in the Audio Controls Editor's
-[Image: /docs/static/attachments/44966233]
+![Image](https://www.cryengine.com/docs/static/attachments/44966233)
  menu to open the Audio System Preferences dialog. Set the desired path by typing it in the
 **
 Project Path
 **
  field, or by using the
-[Image: /docs/static/attachments/44966234]
+![Image](https://www.cryengine.com/docs/static/attachments/44966234)
  button.
 
-[Image: /docs/static/attachments/44966235]
+![Image](https://www.cryengine.com/docs/static/attachments/44966235)
 
 *
 Audio System Preferences
@@ -96,7 +94,7 @@ CRYENGINE is always updated to support the latest version of ADX2.
 
 To make sure that you're using the correct version of ADX2 with CRYENGINE, open the Audio Controls Editor. The ADX2 version supported by your Engine build is indicated in the header of the ACE window, as shown below.
 
-[Image: /docs/static/attachments/44966236]
+![Image](https://www.cryengine.com/docs/static/attachments/44966236)
 
 *
 ACE Editor Header
@@ -108,13 +106,9 @@ CRYENGINE 5.6 supports ADX2 version 2.19.00 and AtomCraft version 2.35.19.
 Creating an Audio Setup for CRYENGINE in ADX2
 
 If you are new to ADX2, we recommend that you read the ADX2
-[https://www.criware.com/en/products/adx2.html](
-user manual
-)
+[user manual](https://www.criware.com/en/products/adx2.html)
  or watch the official
-[https://www.youtube.com/playlist?list=PLx6UV6537TuiL42WUz9RkwRzhx47CZOIu](
-video tutorials
-)
+[video tutorials](https://www.youtube.com/playlist?list=PLx6UV6537TuiL42WUz9RkwRzhx47CZOIu)
  created by CRIWARE.
 
 ##
@@ -128,7 +122,7 @@ in the Materials Tree, before dragging and dropping it onto a CueSheet to create
 
 The FX/AISAC Window in Atom Craft allows you to adjust various settings for each Cue; this window is found below the Timeline window.
 
-[Image: /docs/static/attachments/44967811]
+![Image](https://www.cryengine.com/docs/static/attachments/44967811)
 
 *
 FX/AISAC window
@@ -173,7 +167,7 @@ CueSheets
 Build
 **
  at the bottom-right of the window.
-[Image: /docs/static/attachments/44966247]
+![Image](https://www.cryengine.com/docs/static/attachments/44966247)
 
 *
 Build Atom CueSheet Binary
@@ -202,9 +196,7 @@ Setting Post Process
 
 -
 Download
-[/docs/static/attachments/44967814](
-crytek_audio_scripts.zip
-)
+[crytek_audio_scripts.zip](/docs/static/attachments/44967814)
  and copy the custom script into a folder named
 *
 crytekscripts
@@ -259,7 +251,7 @@ Stream
 **
 in the Inspector window.
 
-[Image: /docs/static/attachments/44966253]
+![Image](https://www.cryengine.com/docs/static/attachments/44966253)
 
 *
 Streaming Type
@@ -274,7 +266,7 @@ Tools → Audio Controls Editor
 ##
 Connecting ADX2 Controls to Audio System Controls
 
-[Image: /docs/static/attachments/44966256]
+![Image](https://www.cryengine.com/docs/static/attachments/44966256)
 
 *
 ACE
@@ -306,9 +298,7 @@ Context
 Global
 **
 . More information on these properties can be found
-[/docs](
-here
-)
+[here](/docs)
 .
 
 ##
@@ -323,9 +313,7 @@ spacebar
  when it is selected.
 
 For each level, it is recommended that you create a dedicated layer in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541](
-Level Explorer
-)
+[Level Explorer](../../../Editor%20Tools/Level%20Editor%20Tab/Level%20Explorer.md)
  for all your audio data.
 
 -
@@ -341,11 +329,11 @@ Select the
 File → New Layer
 **
  option from the Level Explorer's
-[Image: /docs/static/attachments/52592719]
+![Image](https://www.cryengine.com/docs/static/attachments/52592719)
  menu to create a new layer. Double-click the layer to set it as the active.
 When a layer is set as the active layer (highlighted in blue), all Entities that you place within your level will automatically be included under this layer.
 
-[Image: /docs/static/attachments/44966337]
+![Image](https://www.cryengine.com/docs/static/attachments/44966337)
 
 *
 Active layer
@@ -361,7 +349,7 @@ Audio → Audio Trigger Spot
 **
  Entity. Place this Entity in your level.
 
-[Image: /docs/static/attachments/44966340]
+![Image](https://www.cryengine.com/docs/static/attachments/44966340)
 
 *
 Audio Trigger Spot
@@ -381,10 +369,10 @@ Once the Audio Trigger Spot Entity has been placed, navigate to the
 Play Trigger Name
 **
  field in the Editor's Properties panel.  Click the
-[Image: /docs/static/attachments/44966234]
+![Image](https://www.cryengine.com/docs/static/attachments/44966234)
  button next to this field and select your created Trigger from the Select Audio System Control window that opens; your created Trigger should now play as soon as the Audio Trigger Spot Entity is enabled.
 
-[Image: /docs/static/attachments/44966349]
+![Image](https://www.cryengine.com/docs/static/attachments/44966349)
 
 *
 Placed Audio Trigger Spot
@@ -435,7 +423,7 @@ Release
 Envelope
 **
  section to 2000; this should cause the sound to fade out over 2 seconds.
-[Image: /docs/static/attachments/44966363]
+![Image](https://www.cryengine.com/docs/static/attachments/44966363)
 
 *
 Release
@@ -465,7 +453,7 @@ Action
 Stop
 **
 .
-[Image: /docs/static/attachments/44967804]
+![Image](https://www.cryengine.com/docs/static/attachments/44967804)
 
 *
 Action
@@ -486,7 +474,7 @@ Right-click the created Action Track and select the
 New Object → Create Stop Action
 **
  option; drag and drop the Cue which needs to be stopped onto the Action Track.
-[Image: /docs/static/attachments/44967807]
+![Image](https://www.cryengine.com/docs/static/attachments/44967807)
 
 *
 Action Track
@@ -502,15 +490,7 @@ Stop_...)
 *
  a sound.
 
-[#initial-steps-with-adx2-in-cryengine](
-Initial Steps with ADX2 in CRYENGINE
-)
-[#creating-an-audio-setup-for-cryengine-in-adx2](
-Creating an Audio Setup for CRYENGINE in ADX2
-)
-[#connecting-adx2-controls-to-audio-system-controls](
-Connecting ADX2 Controls to Audio System Controls
-)
-[#placing-an-audio-trigger-in-the-game](
-Placing an Audio Trigger in the Game
-)
+[Initial Steps with ADX2 in CRYENGINE](#initial-steps-with-adx2-in-cryengine)
+[Creating an Audio Setup for CRYENGINE in ADX2](#creating-an-audio-setup-for-cryengine-in-adx2)
+[Connecting ADX2 Controls to Audio System Controls](#connecting-adx2-controls-to-audio-system-controls)
+[Placing an Audio Trigger in the Game](#placing-an-audio-trigger-in-the-game)

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934004]
+![Image](https://www.cryengine.com/docs/static/attachments/29934004)
 
 ##
 Overview
@@ -17,23 +17,13 @@ Sections
 
 Level of Detail objects are used to improve the rendering performance of objects located far away from the camera picture plane.
 
-[Image: /docs/static/attachments/35400699]
+![Image](https://www.cryengine.com/docs/static/attachments/35400699)
 
-[#sections](
-Sections
-)
-[#general-guidelines](
-General Guidelines
-)
-[#3ds-max-specific-setup](
-3DS Max Specific Setup
-)
-[#maya-specific-setup](
-Maya Specific Setup
-)
-[#setup-in-sandbox](
-Setup in Sandbox
-)
+[Sections](#sections)
+[General Guidelines](#general-guidelines)
+[3DS Max Specific Setup](#3ds-max-specific-setup)
+[Maya Specific Setup](#maya-specific-setup)
+[Setup in Sandbox](#setup-in-sandbox)
 
 ##
 General Guidelines
@@ -91,19 +81,17 @@ Link/parent each LOD to the parent render mesh.
 Export the base mesh with the CRYENGINE Exporter. The exporter will recognize the linked LOD's and will include them in the .cgf.
 Example for linked LOD's:
 
-[Image: /docs/static/attachments/35400700]
+![Image](https://www.cryengine.com/docs/static/attachments/35400700)
 
 Additionally, you can make the LOD names more specific by adding a space/underscore and a descriptive name after the "$lod1"; i.e. "$lod1 box", "lod2 box".
 
 Naming them specifically can help locating problematic assets which may be highlighted by the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959586](
-Resource Compiler
-)
+[Resource Compiler](../../../System%20Utilities/System%20Utilities%20Overview/Resource%20Compiler.md)
  during the build process. So long as the node begins with $lod<number>, the rest of the name shouldn't matter.
 
 In the Schematic View mode of 3ds Max it will look like:
 
-[Image: /docs/static/attachments/35400701]
+![Image](https://www.cryengine.com/docs/static/attachments/35400701)
 
 LOD's can also be created for and linked to sub-objects of complex assets, i.e. breakable objects, cars, tanks.
 
@@ -111,7 +99,7 @@ The engine will automatically detect the correct LOD step for the sub-objects ba
 
 Example of LOD's for sub-objects:
 
-[Image: /docs/static/attachments/35400702]
+![Image](https://www.cryengine.com/docs/static/attachments/35400702)
 
 ##
 Export
@@ -151,13 +139,13 @@ Maya Specific Setup
 
 1. Create a group called 'cryexportnode_@' replacing the '@' with the filename to export to.
 
-[Image: /docs/static/attachments/35400703]
+![Image](https://www.cryengine.com/docs/static/attachments/35400703)
 
 2. Group the highest detail mesh (lod0) under a new group named '#_group' replacing the '#' with the name of the model you are exporting.
 
 3. Group the '#_group' for LOD0 under the 'cryexportnode'.
 
-[Image: /docs/static/attachments/35400704]
+![Image](https://www.cryengine.com/docs/static/attachments/35400704)
 
 4. For each additional LOD level create a group using the naming convention in step 5.
 
@@ -169,7 +157,7 @@ lod#
 
 6. Group the geometry for each LOD under the nodes we created in step 4.
 
-[Image: /docs/static/attachments/35400705]
+![Image](https://www.cryengine.com/docs/static/attachments/35400705)
 
 7. Select the 'cryexportnode' group.
 
@@ -181,12 +169,10 @@ lod#
 
 11. Click the 'Export' button on the 'Crytek Export' dialog.
 
-[Image: /docs/static/attachments/35400706]
+![Image](https://www.cryengine.com/docs/static/attachments/35400706)
 
 An example Maya scene for setting up LODing geometry can be downloaded
-[https://docs.cryengine.com/download/attachments/1310765/lodtest.mb?version=1&modificationDate=1259664377000&api=v2](
-here
-)
+[here](https://docs.cryengine.com/download/attachments/1310765/lodtest.mb?version=1&modificationDate=1259664377000&api=v2)
 .
 
 ##

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933198]
+![Image](https://www.cryengine.com/docs/static/attachments/29933198)
 
 ##
 Overview
@@ -19,18 +19,10 @@ Entity -> AI -> Characters -> Human
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#human-entity-reference](
-Human Entity Reference
-)
-[#entity-properties2](
-Entity Properties2
-)
-[#entity-properties](
-Entity Properties
-)
+[Sections](#sections)
+[Human Entity Reference](#human-entity-reference)
+[Entity Properties2](#entity-properties2)
+[Entity Properties](#entity-properties)
 
 ##
 Human Entity Reference
@@ -249,9 +241,7 @@ CommConfig
 
  |
 Name of communication configuration (see
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1933379](
-AI Communication
-)
+[AI Communication](/docs/static/engines/cryengine-3/categories/1638401/pages/1933379)
 ).
 
  |
@@ -274,9 +264,7 @@ Faction
 
  |
 Specify the
-[/docs/static/engines/cryengine-3/categories/1638401/pages/13205553](
-Faction
-)
+[Faction](/docs/static/engines/cryengine-3/categories/1638401/pages/13205553)
  which the AI belongs to.
 
  |
@@ -292,9 +280,7 @@ FmodCharacterTypeParam
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/11240792](
-Character Type Filter Parameter
-)
+[Character Type Filter Parameter](/docs/static/engines/cryengine-3/categories/1114113/pages/11240792)
  for more information.
 
  |
@@ -338,9 +324,7 @@ NavigationType
 
  |
 Select a suitable size of the entity, for use with
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048689](
-MNM
-)
+[MNM](/docs/static/engines/cryengine-3/categories/1114113/pages/1048689)
 .
 
  |
@@ -692,9 +676,7 @@ IsAffectedByLight
 
  |
 Indicates if the AI's detection of danger is based on Light Level. Meaning a target would be harder to detect if it is in a dark place, and vice-versa. See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/17829009](
-AI Perception
-)
+[AI Perception](/docs/static/engines/cryengine-3/categories/1114113/pages/17829009)
 .
 
  |
@@ -866,8 +848,6 @@ WrinkleMap
 
  |
 See:
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310791](
-Wrinkle Map Setup
-)
+[Wrinkle Map Setup](/docs/static/engines/cryengine-3/categories/1114113/pages/1310791)
 
  |

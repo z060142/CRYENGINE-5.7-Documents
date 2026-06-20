@@ -27,7 +27,7 @@ PreEntityShadows
 
 Used to enable and specify per entity shadows.
 
-[Image: /docs/static/attachments/28901285]
+![Image](https://www.cryengine.com/docs/static/attachments/28901285)
 
 **
 Inputs
@@ -115,14 +115,14 @@ PresetSwitch
 
 Used to Switch environment preset.
 
-[Image: /docs/static/attachments/28901284]
+![Image](https://www.cryengine.com/docs/static/attachments/28901284)
 
 ##
 RecomputeStaticShadows
 
 Cached shadow cascades are centered around the rendering camera by default, and automatically recenter and update once the camera gets close to the cascade border. Use this node to override this automated placement.
 
-[Image: /docs/static/attachments/28901283]
+![Image](https://www.cryengine.com/docs/static/attachments/28901283)
 
 **
 Input
@@ -168,14 +168,14 @@ RefreshStaticShadows
 
 Used as a Static shadow helper.
 
-[Image: /docs/static/attachments/28901282]
+![Image](https://www.cryengine.com/docs/static/attachments/28901282)
 
 ##
 SetOceanMaterial
 
 Used to set the ocean material.
 
-[Image: /docs/static/attachments/28901281]
+![Image](https://www.cryengine.com/docs/static/attachments/28901281)
 
 **
 Inputs
@@ -240,7 +240,7 @@ SkyMaterialSwitch
 
 Used to enable sky material switching.
 
-[Image: /docs/static/attachments/28901280]
+![Image](https://www.cryengine.com/docs/static/attachments/28901280)
 
 **
 Inputs
@@ -296,14 +296,14 @@ VolumetricCloudSwtich
 
 Used to set the volumetric cloud texture.
 
-[Image: /docs/static/attachments/28901278]
+![Image](https://www.cryengine.com/docs/static/attachments/28901278)
 
 ##
 Wind
 
 Used to get and output the wind direction vector.
 
-[Image: /docs/static/attachments/28901279]
+![Image](https://www.cryengine.com/docs/static/attachments/28901279)
 
 **
 Inputs
@@ -350,45 +350,17 @@ MaterialParam
 -
 MaterialParamSerialize
 
-[#computelighting](
-ComputeLighting
-)
-[#moondirection](
-MoonDirection
-)
-[#oceanswitch](
-OceanSwitch
-)
-[#preentityshadows](
-PreEntityShadows
-)
-[#presetswitch](
-PresetSwitch
-)
-[#recomputestaticshadows](
-RecomputeStaticShadows
-)
-[#refreshstaticshadows](
-RefreshStaticShadows
-)
-[#setoceanmaterial](
-SetOceanMaterial
-)
-[#skymaterialswitch](
-SkyMaterialSwitch
-)
-[#skyboxswitch](
-SkyboxSwitch
-)
-[#sun](
-Sun
-)
-[#volumetriccloudswtich](
-VolumetricCloudSwtich
-)
-[#wind](
-Wind
-)
-[#deprecated-nodes](
-Deprecated Nodes
-)
+[ComputeLighting](#computelighting)
+[MoonDirection](#moondirection)
+[OceanSwitch](#oceanswitch)
+[PreEntityShadows](#preentityshadows)
+[PresetSwitch](#presetswitch)
+[RecomputeStaticShadows](#recomputestaticshadows)
+[RefreshStaticShadows](#refreshstaticshadows)
+[SetOceanMaterial](#setoceanmaterial)
+[SkyMaterialSwitch](#skymaterialswitch)
+[SkyboxSwitch](#skyboxswitch)
+[Sun](#sun)
+[VolumetricCloudSwtich](#volumetriccloudswtich)
+[Wind](#wind)
+[Deprecated Nodes](#deprecated-nodes)

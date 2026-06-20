@@ -111,7 +111,7 @@ Only a static property can be declared as a Console Variable with attributes.
 
 You should be able to see the following option in the Sandbox Editor if the creation is successful ("Help->"Console Variables").
 
-[Image: /docs/static/attachments/26956642]
+![Image](https://www.cryengine.com/docs/static/attachments/26956642)
 
 ##
 Manual Initialization and Deinitialization

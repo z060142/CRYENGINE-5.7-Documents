@@ -167,17 +167,9 @@ Not all audio middleware implementations support this; it currently works for Ww
  |
 
 For more information about Play/Stop behavior, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964879](
-Play/Stop Behavior
-)
+[Play/Stop Behavior](../../../Audio/Audio%20Overview/Play%20Stop%20Behavior.md)
  page.
 
-[#environment](
-Environment
-)
-[#listener](
-Listener
-)
-[#trigger](
-Trigger
-)
+[Environment](#environment)
+[Listener](#listener)
+[Trigger](#trigger)

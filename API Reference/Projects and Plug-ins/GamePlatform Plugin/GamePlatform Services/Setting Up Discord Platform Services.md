@@ -109,17 +109,9 @@ Here is an example of the CVar and Application Identifier declared in a First Sh
 
 For more information on setting up your own Discord Application for use with your game, please see the
 
-[https://discord.com/developers/docs/game-sdk/sdk-starter-guide#get-set-up](
-Discord Developer Portal Documentation
-)
+[Discord Developer Portal Documentation](https://discord.com/developers/docs/game-sdk/sdk-starter-guide#get-set-up)
 .
 
-[#requirements](
-Requirements
-)
-[#configuration-setup](
-Configuration Setup
-)
-[#example](
-Example
-)
+[Requirements](#requirements)
+[Configuration Setup](#configuration-setup)
+[Example](#example)

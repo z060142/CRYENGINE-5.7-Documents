@@ -32,14 +32,8 @@ s_SDLMixerEventPoolSize [0/...]
 -
 Default: 256
 For more information on how to set up a simple effect inside the SDL Mixer, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964959](
-SDL Mixer Initial Setup
-)
+[SDL Mixer Initial Setup](SDL%20Mixer%20Initial%20Setup.md)
 .
 
-[#cvars](
-CVar's
-)
-[#ssdlmixereventpoolsize](
-s_SDLMixerEventPoolSize
-)
+[CVar's](#cvars)
+[s_SDLMixerEventPoolSize](#ssdlmixereventpoolsize)

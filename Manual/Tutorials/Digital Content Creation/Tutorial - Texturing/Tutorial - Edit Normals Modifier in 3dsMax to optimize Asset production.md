@@ -14,18 +14,18 @@ Custom normals are a good way to control the smoothing of your lowpoly and/or to
 
 In this example I want to use one smoothing group and still only have the chamfered edges of the cube to be smooth. The left cube uses standard normals, the right one custom normals.
 
-[Image: /docs/static/attachments/23999870]
+![Image](https://www.cryengine.com/docs/static/attachments/23999870)
 
 To adjust your normals simply use the "Edit Normals" modifier:
 
-[Image: /docs/static/attachments/23999871]
+![Image](https://www.cryengine.com/docs/static/attachments/23999871)
 
 The easiest way to get the result mentioned above is to select "Face" and then average all faces that don't belong to the chamfer. In this case that would be the 6 sides of the cube.
 
-[Image: /docs/static/attachments/23999869]
+![Image](https://www.cryengine.com/docs/static/attachments/23999869)
 
 Now there's no unwanted smoothing gradient along these faces since all their verts share the same normal. However the chamfer looks smooth.
 
 To export your asset with custom normals simply tick the according box in the exporter window:
 
-[Image: /docs/static/attachments/23999872]
+![Image](https://www.cryengine.com/docs/static/attachments/23999872)

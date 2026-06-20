@@ -18,17 +18,13 @@ everything
 
 If you only want to reset the keyboard shortcuts, check how to do this
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44965609](
-here
-)
+[here](../Keyboard%20Shortcuts.md)
 **
 .
 
 If you only want to reset the Sandbox layout,
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865952](
-click here
-)
+[click here](Customizing%20Sandbox%20Layout.md)
 **
 .
 

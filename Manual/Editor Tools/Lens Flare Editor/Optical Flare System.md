@@ -26,7 +26,7 @@ Common → Position
  |
 The position of the flare effect relative to the light. For example, a value of (1,1) means that the effect will always stick with the light. A value of (-1,-1) means that it should be symmetric with the light in about the center of the screen and (0,0) means that it will sit in the center of the screen and won't move.
 
-[Image: /docs/static/attachments/36848408]
+![Image](https://www.cryengine.com/docs/static/attachments/36848408)
 
  |
 
@@ -46,7 +46,7 @@ Common → Correct Aspect Ratio
  |
 When this is on, the object will always appear in its original shape regardless of the screen aspect ratio. i.e; a circle will not become an ellipse, a square will not look like a wide rectangle.
 
-[Image: /docs/static/attachments/36848426]
+![Image](https://www.cryengine.com/docs/static/attachments/36848426)
 
  |
 
@@ -80,7 +80,7 @@ Usable only when Lens Texture is enabled. This allows renderer to render a bump-
 
 Currently the red channel of lens texture is used as heightmap
 
-[Image: /docs/static/attachments/36848415]
+![Image](https://www.cryengine.com/docs/static/attachments/36848415)
 
  |
 
@@ -150,7 +150,7 @@ Basic Set
 ##
 Ghost
 
-[Image: /docs/static/attachments/36848411]
+![Image](https://www.cryengine.com/docs/static/attachments/36848411)
 
 The most common lens artifact in optical flare phenomenons category. It's normally created by internal reflections between different lens glasses.
 
@@ -159,7 +159,7 @@ In CRYENGINE, it's rendered as a textured quad. To save bandwidth, the quad's si
 ##
 Multi Ghost
 
-[Image: /docs/static/attachments/36848406]
+![Image](https://www.cryengine.com/docs/static/attachments/36848406)
 
 A collection of Ghosts. Its behavior can be controlled by the user via the parameters like
 **
@@ -178,7 +178,7 @@ Offset Range
 ##
 Glow
 
-[Image: /docs/static/attachments/36848412]
+![Image](https://www.cryengine.com/docs/static/attachments/36848412)
 
 This is actually not a single physical phenomenon. In the optical flare system, this can either be formed by lights scattering in participating media or the lens' internal de-focusing.
 
@@ -187,14 +187,14 @@ In the CRYENGINE optical flare system, it's rendered as a circular polygon with 
 ##
 Chromatic Ring
 
-[Image: /docs/static/attachments/36848420]
+![Image](https://www.cryengine.com/docs/static/attachments/36848420)
 
 Quite visible with cheap cameras. This phenomenon is the combination of light reflection, refraction and diffraction. CRYENGINE treats it as a hoop shaped aurora and corresponding set of spikes. A spectrum texture can be assigned to the element to mimic the chromatic aberration along the light's path.
 
 ##
 Iris Shafts
 
-[Image: /docs/static/attachments/36848414]
+![Image](https://www.cryengine.com/docs/static/attachments/36848414)
 
 The cause for this effect has some similarities to chromatic ring, as such, both involve diffraction. However, this phenomenon has more to do with the uneven lens surfaces and internal density variation.
 
@@ -203,7 +203,7 @@ CRYENGINE renders this as an array of textured spikes.
 ##
 Volumetric Shafts
 
-[Image: /docs/static/attachments/36848401]
+![Image](https://www.cryengine.com/docs/static/attachments/36848401)
 
 This is not a lens flare effect in a strict sense. Commonly seen on foggy days, volumetric shafts are the result of the light scattering the air.
 
@@ -212,7 +212,7 @@ This is approximated as a screen space effect. Off-screen volumetric shafts cann
 ##
 Camera Orbs
 
-[Image: /docs/static/attachments/36848407]
+![Image](https://www.cryengine.com/docs/static/attachments/36848407)
 
 This is a simple phenomenon from the Bokeh of on-lens dirt or scratches. This effect can be heavy on graphics performance due to potential overdraw areas.
 
@@ -232,37 +232,29 @@ Libs\Flares\sample_flares.xml
 
 Sometimes the streaks appear very thick unlike the images shown below. This is caused because of the perspective factor settings. Try to move away from the light to a proper distance; the thickness should be normal.
 
-[Image: /docs/static/attachments/36848418]
+![Image](https://www.cryengine.com/docs/static/attachments/36848418)
 
-[Image: /docs/static/attachments/36848419]
+![Image](https://www.cryengine.com/docs/static/attachments/36848419)
 
-[Image: /docs/static/attachments/36848423]
+![Image](https://www.cryengine.com/docs/static/attachments/36848423)
 
-[Image: /docs/static/attachments/36848421]
+![Image](https://www.cryengine.com/docs/static/attachments/36848421)
 
-[Image: /docs/static/attachments/36848400]
+![Image](https://www.cryengine.com/docs/static/attachments/36848400)
 
 ##
 Extra Variations
 
-[Image: /docs/static/attachments/36848424]
+![Image](https://www.cryengine.com/docs/static/attachments/36848424)
 
-[Image: /docs/static/attachments/36848425]
+![Image](https://www.cryengine.com/docs/static/attachments/36848425)
 
-[Image: /docs/static/attachments/36848410]
+![Image](https://www.cryengine.com/docs/static/attachments/36848410)
 
 Many different variations of lens flare effects can be achieved by using
  Lens Flare Editor elements and combining them.
 
-[#important-concepts](
-Important Concepts
-)
-[#basic-set](
-Basic Set
-)
-[#presets](
-Presets
-)
-[#extra-variations](
-Extra Variations
-)
+[Important Concepts](#important-concepts)
+[Basic Set](#basic-set)
+[Presets](#presets)
+[Extra Variations](#extra-variations)

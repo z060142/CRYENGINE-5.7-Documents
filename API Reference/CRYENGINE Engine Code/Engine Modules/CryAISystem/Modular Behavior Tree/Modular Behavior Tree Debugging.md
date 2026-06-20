@@ -38,7 +38,7 @@ The MBT's variables
 
 -
 Events that occurred recently
-[Image: /docs/static/attachments/24003988]
+![Image](https://www.cryengine.com/docs/static/attachments/24003988)
 
 The numbers next to the currently active branches are the according line numbers in the XML file.
 
@@ -85,4 +85,4 @@ mbt_human1_3.txt
 
 The content of each log file looks like this:
 
-[Image: /docs/static/attachments/24003993]
+![Image](https://www.cryengine.com/docs/static/attachments/24003993)

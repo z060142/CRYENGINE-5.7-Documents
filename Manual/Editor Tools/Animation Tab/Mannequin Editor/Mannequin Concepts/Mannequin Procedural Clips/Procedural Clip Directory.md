@@ -7,15 +7,13 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934029]
+![Image](https://www.cryengine.com/docs/static/attachments/29934029)
 
 ##
 Overview
 
 This is a list of types of
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450878](
-Procedural Clips
-)
+[Procedural Clips](../Mannequin%20Procedural%20Clips.md)
  present in the engine as well as in the GameSDK sample.
 
 ##
@@ -37,9 +35,7 @@ The name of the event to send.
 AimPose
 
 Low level procedural clip to start an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308006](
-aimpose
-)
+[aimpose](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams)/Aim%20IK%20(aimposes).md)
  asset. This is
 **
 *
@@ -48,9 +44,7 @@ NOT
 
 **
 related to the Aiming/Looking setup described in the tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308487](
-Tutorial - Controlling Looking (and Aiming) for AI in Mannequin
-)
+[Tutorial - Controlling Looking (and Aiming) for AI in Mannequin](../../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Controlling%20Looking%20(and%20Aiming)%20for%20AI%20in%20Mannequin.md)
 .
 
 **
@@ -84,9 +78,7 @@ This works differently than the layer parameter inside the AimPose procedural cl
  |
 
 Uses the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  called "AimTarget" as the target, if it exists. If not specified the target is 10m in front of the entity.
 
 ##
@@ -118,9 +110,7 @@ Param Name with EntityId
 **
  |
 The name of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  which stores the EntityID of the entity to attach
  |
 
@@ -355,9 +345,7 @@ LayerAnimSpeedParam
 **
  |
 The name of the floating point
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  which stores the speed value (0 by default)
  |
 
@@ -391,9 +379,7 @@ Param Name
 **
  |
 The name of the floating point
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  which stores the normalized time value (0 by default)
  |
 
@@ -421,9 +407,7 @@ Layer Weight Param
 **
  |
 The name of the floating point
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  which stores the weight to apply to the layer
  |
 
@@ -445,9 +429,7 @@ Check to use one minus the parameter value as weight.
 LookPose
 
 Low level procedural clip to start an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308005](
-lookpose
-)
+[lookpose](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams)/Look%20IK%20(lookposes).md)
  asset. This is
 **
 *
@@ -456,9 +438,7 @@ NOT
 
 **
 related to the Aiming/Looking setup described in the tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308487](
-Tutorial - Controlling Looking (and Aiming) for AI in Mannequin
-)
+[Tutorial - Controlling Looking (and Aiming) for AI in Mannequin](../../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Controlling%20Looking%20(and%20Aiming)%20for%20AI%20in%20Mannequin.md)
 .
 
 **
@@ -492,9 +472,7 @@ This works differently than the layer parameter inside the AimPose procedural cl
  |
 
 Uses the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  called "LookTarget" as target, if it exists. If not specified the target is 10m in front of the entity.
 
 ##
@@ -511,9 +489,7 @@ Param Name
 **
  |
 The name of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  of type SWeightData (4 weights, each a floating point number, next to each other) which stores the
 *
 segment
@@ -631,9 +607,7 @@ If "referenceBone" refers to an attachment interface, create a copy of the given
 PlaySound
 
 In CRYENGINE 3.7: See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798726#ProceduralClipDirectory-Audio](
-Audio
-)
+[Audio](Procedural%20Clip%20Directory.md#ProceduralClipDirectory-Audio)
 . (PlaySound is the same as Audio)
 
 CRYENGINE 3.6 PlaySound
@@ -675,9 +649,7 @@ Stops the sound when the animation finishes or another sound clip (can be empty)
  |
 
 The procedural clip will also take care of setting Sound Parameters. Programmers simply need to set a standard
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  with the same name of a sound parameter, its value will get passed along to the sound system.
 
 ##
@@ -686,9 +658,7 @@ PositionAdjust
 Procedurally move the entity towards a target position over time.
 
 The target position/rotation is taken from the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
 
 called "TargetPos". This parameter has to be set for the clip to work.
 
@@ -734,9 +704,7 @@ origin
 If the animation contains movement this clip might not behave as expected (as the 'delta' is only calculated at the start of the animation) and you should use PositionAdjustAnimPosContinuously.
 
 The target position/rotation is taken from the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  specified using Param Name.
 
 **
@@ -777,9 +745,7 @@ origin
  location in the content creation tool where the animation comes from.
 
 The target position/rotation is taken from the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  called "TargetPos". This parameter has to be set for the clip to work.
 
 **
@@ -826,9 +792,7 @@ Not used
 RandomAimAround
 
 Low level procedural clip to start an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308006](
-aimpose
-)
+[aimpose](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams)/Aim%20IK%20(aimposes).md)
  asset and randomly aim around. This is
 **
 *
@@ -837,9 +801,7 @@ NOT
 
 **
 related to the Aiming/Looking setup described in the tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308487](
-Tutorial - Controlling Looking (and Aiming) for AI in Mannequin
-)
+[Tutorial - Controlling Looking (and Aiming) for AI in Mannequin](../../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Controlling%20Looking%20(and%20Aiming)%20for%20AI%20in%20Mannequin.md)
 .
 
 **
@@ -895,9 +857,7 @@ Time Min, Time Max
 RandomLookAround
 
 Low level procedural clip to start a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308005](
-lookpose
-)
+[lookpose](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams)/Look%20IK%20(lookposes).md)
  asset and randomly aim around. This is
 **
 *
@@ -906,9 +866,7 @@ NOT
 
 **
 related to the Aiming/Looking setup described in the tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308487](
-Tutorial - Controlling Looking (and Aiming) for AI in Mannequin
-)
+[Tutorial - Controlling Looking (and Aiming) for AI in Mannequin](../../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Controlling%20Looking%20(and%20Aiming)%20for%20AI%20in%20Mannequin.md)
 .
 
 **
@@ -972,9 +930,7 @@ Param Name
 **
  |
 The name of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  |
 
 **
@@ -1045,9 +1001,7 @@ Param Name
 **
  |
 The name of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameter
-)
+[parameter](../Mannequin%20Parameters%20Conditions.md)
  of type SWeightData (4 weights, each a floating point number, next to each other) which stores the weights
 *
 
@@ -1080,9 +1034,7 @@ GameSDK Sample
 Aiming
 
 Relies on Aimpose/Aiming scope setup as in the standard GameDLL example for a human AI and described in the tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308487](
-Tutorial - Controlling Looking (and Aiming) for AI in Mannequin
-)
+[Tutorial - Controlling Looking (and Aiming) for AI in Mannequin](../../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Controlling%20Looking%20(and%20Aiming)%20for%20AI%20in%20Mannequin.md)
 .
 
 Request the aimpose to be enabled.
@@ -1098,9 +1050,7 @@ Fade-in duration for the aimpose
 AimSmoothing
 
 Relies on Aimpose/Aiming scope setup as in the standard GameDLL example for a human AI and described in the tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308487](
-Tutorial - Controlling Looking (and Aiming) for AI in Mannequin
-)
+[Tutorial - Controlling Looking (and Aiming) for AI in Mannequin](../../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Controlling%20Looking%20(and%20Aiming)%20for%20AI%20in%20Mannequin.md)
 .
 
 Controls smoothing parameters for the polar coordinates while moving towards a target (or following a target).
@@ -1232,9 +1182,7 @@ Whether or not to loop the sequence.
 Looking
 
 Relies on Lookpose/Looking scope setup as in the standard GameDLL example for a human AI and described in the tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308487](
-Tutorial - Controlling Looking (and Aiming) for AI in Mannequin
-)
+[Tutorial - Controlling Looking (and Aiming) for AI in Mannequin](../../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Controlling%20Looking%20(and%20Aiming)%20for%20AI%20in%20Mannequin.md)
 
 Request the lookpose to be enabled. Blend-in time is used as fade-in time for the lookpose.
 
@@ -1393,9 +1341,7 @@ NOT
 
 **
 related to the Aiming/Looking setup described in the tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308487](
-Tutorial - Controlling Looking (and Aiming) for AI in Mannequin
-)
+[Tutorial - Controlling Looking (and Aiming) for AI in Mannequin](../../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Controlling%20Looking%20(and%20Aiming)%20for%20AI%20in%20Mannequin.md)
 .
 
 **
@@ -1663,132 +1609,46 @@ intensity
 Shake intensity
  |
 
-[#engine-cryaction](
-Engine (CryAction)
-)
-[#actionevent](
-ActionEvent
-)
-[#aimpose](
-AimPose
-)
-[#aisignal](
-AISignal
-)
-[#attachentity](
-AttachEntity
-)
-[#attachprop](
-AttachProp
-)
-[#audio](
-Audio
-)
-[#forcefeedback](
-ForceFeedback
-)
-[#flowgraphevent](
-FlowGraphEvent
-)
-[#hideattachment](
-HideAttachment
-)
-[#iklayerweight](
-IKLayerWeight
-)
-[#jointadjust](
-JointAdjust
-)
-[#layeranimspeed](
-LayerAnimSpeed
-)
-[#layermanualupdate](
-LayerManualUpdate
-)
-[#layerweight](
-LayerWeight
-)
-[#lookpose](
-LookPose
-)
-[#manualupdatelist](
-ManualUpdateList
-)
-[#particleeffect](
-ParticleEffect
-)
-[#playsound](
-PlaySound
-)
-[#positionadjust](
-PositionAdjust
-)
-[#positionadjustanimpos](
-PositionAdjustAnimPos
-)
-[#positionadjustanimposcontinuously](
-PositionAdjustAnimPosContinuously
-)
-[#positionadjusttargetlocator](
-PositionAdjustTargetLocator
-)
-[#randomaimaround](
-RandomAimAround
-)
-[#randomlookaround](
-RandomLookAround
-)
-[#setparam](
-SetParam
-)
-[#swapattachment](
-SwapAttachment
-)
-[#weightedlist](
-WeightedList
-)
-[#gamesdk-sample](
-GameSDK Sample
-)
-[#aiming](
-Aiming
-)
-[#aimsmoothing](
-AimSmoothing
-)
-[#attachpnt](
-AttachPnt
-)
-[#collidermode](
-ColliderMode
-)
-[#compromisecover](
-CompromiseCover
-)
-[#copynormalizedtime](
-CopyNormalizedTime
-)
-[#facialsequence](
-FacialSequence
-)
-[#looking](
-Looking
-)
-[#movementcontrolmethod](
-MovementControlMethod
-)
-[#ragdoll](
-Ragdoll
-)
-[#setstance](
-SetStance
-)
-[#swaphand](
-SwapHand
-)
-[#turretaimpose](
-TurretAimPose
-)
-[#weaponbump](
-WeaponBump
-)
+[Engine (CryAction)](#engine-cryaction)
+[ActionEvent](#actionevent)
+[AimPose](#aimpose)
+[AISignal](#aisignal)
+[AttachEntity](#attachentity)
+[AttachProp](#attachprop)
+[Audio](#audio)
+[ForceFeedback](#forcefeedback)
+[FlowGraphEvent](#flowgraphevent)
+[HideAttachment](#hideattachment)
+[IKLayerWeight](#iklayerweight)
+[JointAdjust](#jointadjust)
+[LayerAnimSpeed](#layeranimspeed)
+[LayerManualUpdate](#layermanualupdate)
+[LayerWeight](#layerweight)
+[LookPose](#lookpose)
+[ManualUpdateList](#manualupdatelist)
+[ParticleEffect](#particleeffect)
+[PlaySound](#playsound)
+[PositionAdjust](#positionadjust)
+[PositionAdjustAnimPos](#positionadjustanimpos)
+[PositionAdjustAnimPosContinuously](#positionadjustanimposcontinuously)
+[PositionAdjustTargetLocator](#positionadjusttargetlocator)
+[RandomAimAround](#randomaimaround)
+[RandomLookAround](#randomlookaround)
+[SetParam](#setparam)
+[SwapAttachment](#swapattachment)
+[WeightedList](#weightedlist)
+[GameSDK Sample](#gamesdk-sample)
+[Aiming](#aiming)
+[AimSmoothing](#aimsmoothing)
+[AttachPnt](#attachpnt)
+[ColliderMode](#collidermode)
+[CompromiseCover](#compromisecover)
+[CopyNormalizedTime](#copynormalizedtime)
+[FacialSequence](#facialsequence)
+[Looking](#looking)
+[MovementControlMethod](#movementcontrolmethod)
+[Ragdoll](#ragdoll)
+[SetStance](#setstance)
+[SwapHand](#swaphand)
+[TurretAimPose](#turretaimpose)
+[WeaponBump](#weaponbump)

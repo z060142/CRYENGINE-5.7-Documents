@@ -8,3 +8,5 @@
 ## Content
 
 How to manipulate objects in the sandbox editor: moving, rotating, and scaling using the gizmo tools.
+
+[Embed: http://youtube.com/watch?v=6WQEMPiGP1U]

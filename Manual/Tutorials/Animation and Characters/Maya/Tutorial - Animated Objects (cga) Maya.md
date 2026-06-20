@@ -16,17 +16,13 @@ Throughout this tutorial you will notice differences between a *.cga export from
 
 This tutorial may rely on the GameSDK Sample Project. We recommend that you download this from the
 **
-[https://www.cryengine.com/marketplace](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace)
 **
 , import it into your Launcher, start it from there and then create a new level.
 
 See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870288](
-this page
-)
+[this page](/docs/static/engines/cryengine-5/categories/23756816/pages/36870288)
 **
  to find out how to import a project to your Launcher. (The default folder for the GameSDK Sample Project when downloaded is
 `
@@ -42,9 +38,7 @@ Tutorial Files
 Source Maya ASCII scenes with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25523857](
-tutorial_cga_maya.zip
-)
+[tutorial_cga_maya.zip](/docs/static/attachments/25523857)
 **
 
 Please extract this zip file to
@@ -94,7 +88,7 @@ Inside the Character Tool, when previewing the *.cga's animation(s) only the ani
 Pic1: Note the filename difference between the actual filename in the *.pak file vs. what's seen in the Character Tool
 *
 
-[Image: /docs/static/attachments/23434655]
+![Image](https://www.cryengine.com/docs/static/attachments/23434655)
 
 Do not use the name
 **
@@ -124,24 +118,16 @@ Before you continue with this tutorial, make sure to have read and understood th
 -
 
 -
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310902](
-How to Install CryMayaTools
-)
+[How to Install CryMayaTools](/docs/static/engines/cryengine-3/categories/1114113/pages/1310902)
 
 -
-[/docs/static/engines/cryengine-3/categories/1114113/pages/17826030](
-The Basic CRYENGINE Maya Workflow
-)
+[The Basic CRYENGINE Maya Workflow](/docs/static/engines/cryengine-3/categories/1114113/pages/17826030)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205569](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools/CRYENGINE%20User%20Interface%20in%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-Maya Unit Scale to Match up With CRYENGINE Unit System
-)
+[Maya Unit Scale to Match up With CRYENGINE Unit System](../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Setup for a Single Animation CGA
@@ -192,7 +178,7 @@ With the poly sphere selected it will create the typical CRYENGINE export hierar
 Pic2: Maya initial setup
 *
 
-[Image: /docs/static/attachments/23455270]
+![Image](https://www.cryengine.com/docs/static/attachments/23455270)
 
 After you have created the export hierarchy the result is shown in Maya's
 **
@@ -224,7 +210,7 @@ Pic3: Export hierarchy without physics/collision proxy
 
 *
 *
-[Image: /docs/static/attachments/23455271]
+![Image](https://www.cryengine.com/docs/static/attachments/23455271)
 *
 
 There is an important difference between Maya and 3dsMax
@@ -271,7 +257,7 @@ Pic3a: Export hierarchy with an extra "*_helper" group sitting between the "cryE
 
 *
 *
-[Image: /docs/static/attachments/23455430]
+![Image](https://www.cryengine.com/docs/static/attachments/23455430)
 *
 
 To create a collision/physics proxy, duplicate the poly sphere and the input history. Reduce the complexity of the collision/physics proxy mesh. (You can also add a User Defined Property (UDP) called "sphere" to automatically generate an efficient CRYENGINE collision mesh). Give this collision proxy mesh a proper name, for example "ballProxy_MSH". Check the size of your collision mesh - it should encompass the render mesh geometry. Finally, increase the radius of the input history node if you wish.
@@ -283,7 +269,7 @@ Pic4: Collision/proxy mesh on top of the current render mesh
 
 *
 *
-[Image: /docs/static/attachments/23455272]
+![Image](https://www.cryengine.com/docs/static/attachments/23455272)
 *
 
 Place the collision/proxy mesh under the "ballmesh_group" node (the order does not matter). CRYENGINE will recognize the collision/proxy mesh by its material assignment and the group node under which it resides.
@@ -291,7 +277,7 @@ Place the collision/proxy mesh under the "ballmesh_group" node (the order does n
 *
 Pic4a: Collision proxy hierarchy
 
-[Image: /docs/static/attachments/23455273]
+![Image](https://www.cryengine.com/docs/static/attachments/23455273)
 
 *
 
@@ -306,7 +292,7 @@ Create two "Blinn" shaders - the first named "proxy_SUB". the second "render_SUB
 Pic5: Create two Maya shaders before adding to the CRYENGINE Material Group Editor
 *
 
-[Image: /docs/static/attachments/23455274]
+![Image](https://www.cryengine.com/docs/static/attachments/23455274)
 
 The two Maya shaders have to be added to a new CRYENGINE Maya Exporter "Material Group":
 
@@ -316,7 +302,7 @@ Go to the "Crytek" shelf and click on the "MAT.ED" shelf button. The CRYENGINE "
 Pic6: Create a new "Material Group"
 *
 
-[Image: /docs/static/attachments/23455280]
+![Image](https://www.cryengine.com/docs/static/attachments/23455280)
 
 Next add the two blinn shaders to your new Material Group "ballMAT".
 
@@ -329,7 +315,7 @@ NOTE:
 Pic7: Add Maya shaders to the CRYENGINE Material Group
 *
 
-[Image: /docs/static/attachments/23455281]
+![Image](https://www.cryengine.com/docs/static/attachments/23455281)
 
 ##
 Physicalise Maya Shaders Used for Collision/Proxy Meshes
@@ -383,7 +369,7 @@ NOTE:
 
 *
 
-[Image: /docs/static/attachments/23455286]
+![Image](https://www.cryengine.com/docs/static/attachments/23455286)
 
 *
 Pic8: Add "Physicalise" extra attribute to the proxy shader
@@ -423,7 +409,7 @@ Pic9
 *
  below).
 
-[Image: /docs/static/attachments/23455287]
+![Image](https://www.cryengine.com/docs/static/attachments/23455287)
 
 *
 Pic9: Validate the added extra attribute "Physicalise: ProxyNoDraw"!
@@ -474,7 +460,7 @@ ballProxy_MSH
 **
  nodes! These animations won't be exported.
 
-[Image: /docs/static/attachments/23455441]
+![Image](https://www.cryengine.com/docs/static/attachments/23455441)
 
 *
 Pic10: Only animate the "group" transform node! Pay attention as to where the group node pivot is located - any children mesh objects will be animated around it!
@@ -521,7 +507,7 @@ Anim Manager
 Pic11:
 *
 
-[Image: /docs/static/attachments/23455459]
+![Image](https://www.cryengine.com/docs/static/attachments/23455459)
 
 *
 Pic11: Add a Default animation for export
@@ -537,8 +523,8 @@ Export *.anm's with *.cga's
 **
 !
 
-[Image: /docs/static/attachments/23455462]
-[Image: /docs/static/attachments/23455461]
+![Image](https://www.cryengine.com/docs/static/attachments/23455462)
+![Image](https://www.cryengine.com/docs/static/attachments/23455461)
 
 *
 Pic12 & 13: Last settings to check before export
@@ -584,7 +570,7 @@ AnimObject
 *
 
 *
-[Image: /docs/static/attachments/25034783]
+![Image](https://www.cryengine.com/docs/static/attachments/25034783)
 
 *
 Pic14a: Adding an AnimObject to the Level
@@ -615,7 +601,7 @@ Animation
 
 It could be that the windsock model is fluttering in your Level, if so then this is because it is playing its default animation. Once you swap out the source model of the Entity to be your new model, it should automatically play the bouncing ball loop.
 
-[Image: /docs/static/attachments/25034784]
+![Image](https://www.cryengine.com/docs/static/attachments/25034784)
 
 *
 Pic14b: AnimObjects - model & animation path
@@ -624,7 +610,7 @@ Pic14b: AnimObjects - model & animation path
 ##
 Final Results
 
-[Image: /docs/static/attachments/25034785]
+![Image](https://www.cryengine.com/docs/static/attachments/25034785)
 
 *
 Pic14c: AnimObject using the newly exported *.cga
@@ -708,7 +694,7 @@ Flow Graph
 *
 
 *
-[Image: /docs/static/attachments/23434885]
+![Image](https://www.cryengine.com/docs/static/attachments/23434885)
 
 *
 Pic14d: Flow Graph used to trigger an animation on an AnimObject
@@ -791,7 +777,7 @@ Export All
 **
  button.
 
-[Image: /docs/static/attachments/23455465]
+![Image](https://www.cryengine.com/docs/static/attachments/23455465)
 
 *
 Pic15: Shown is the stack of animations to be exported
@@ -815,21 +801,13 @@ The following screenshot shows the
 Character Tool
 **
  is open, the asset (*.cga) is selected and the available animations are on display.
-[Image: /docs/static/attachments/23455479]
+![Image](https://www.cryengine.com/docs/static/attachments/23455479)
 
 *
 Pic16: "Character Tool" showing the selected *.cga and the created animations that are associated with it
 *
 
-[#tutorial-files](
-Tutorial Files
-)
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#setup-for-a-single-animation-cga](
-Setup for a Single Animation CGA
-)
-[#setup-for-multiple-animations-on-a-single-cga](
-Setup for Multiple Animations on a Single CGA
-)
+[Tutorial Files](#tutorial-files)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Setup for a Single Animation CGA](#setup-for-a-single-animation-cga)
+[Setup for Multiple Animations on a Single CGA](#setup-for-multiple-animations-on-a-single-cga)

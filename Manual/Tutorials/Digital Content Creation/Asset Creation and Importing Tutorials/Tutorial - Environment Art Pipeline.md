@@ -8,3 +8,5 @@
 ## Content
 
 Using 3DS Max, Photoshop, and Material Editor to bring an asset into CRYENGINE
+
+[Embed: https://www.youtube.com/watch?v=MhBZns3az-M&list=PLpCgy91Y5vMtWDdz1L0UnFo7lwi4LDBUq&index=7]

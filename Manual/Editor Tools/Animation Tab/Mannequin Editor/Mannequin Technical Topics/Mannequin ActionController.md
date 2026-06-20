@@ -11,37 +11,21 @@
 Overview
 
 The ActionController (IActionController) is the root object controlling mannequin for a character. It is configured using a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-controller definition
-)
+[controller definition](../Mannequin%20Files/Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
  (defining the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-fragmentIDs
-)
+[fragmentIDs](../Mannequin%20Concepts/FragmentIDs.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-scopes
-)
+[scopes](../Mannequin%20Concepts/Mannequin%20Scopes.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450870](
-scope contexts
-)
+[scope contexts](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
 , etc). It schedules
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308467](
-actions
-)
+[actions](Mannequin%20Actions.md)
  onto
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-scopes
-)
+[scopes](../Mannequin%20Concepts/Mannequin%20Scopes.md)
  and holds the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-global tagstate
-)
+[global tagstate](../Mannequin%20Concepts/Mannequin%20TagState.md)
 .
 
 For more technical information on how to create and use an actioncontroller see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308465](
-Entity Setup From Scratch
-)
+[Entity Setup From Scratch](Entity%20Setup%20From%20Scratch.md)
 .

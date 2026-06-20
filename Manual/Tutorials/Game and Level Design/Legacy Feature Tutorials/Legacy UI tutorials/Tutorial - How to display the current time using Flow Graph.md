@@ -8,3 +8,5 @@
 ## Content
 
 Concatenating string values to display a real-time clock onscreen.
+
+[Embed: http://youtube.com/watch?v=ChgX1bRWWGc]

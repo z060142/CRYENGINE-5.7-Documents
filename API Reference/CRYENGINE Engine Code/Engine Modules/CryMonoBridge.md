@@ -71,11 +71,7 @@ OnGameStart
 Related Content:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875052](
-C# API Reference
-)
+[C# API Reference](../../CRYENGINE%20API%20Reference/C%23%20API%20Reference.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791112](
-C# Programming
-)
+[C# Programming](../../CRYENGINE%20Code%20Tutorials/C%23%20Programming.md)

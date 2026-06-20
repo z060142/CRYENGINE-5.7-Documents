@@ -7,18 +7,15 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450274](
-[Image: /docs/static/attachments/44971061]
-8 - Writing to XML
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971061) 8 - Writing to XML](/docs/static/engines/cryengine-5/categories/23756816/pages/29450274)
 
 Now that we have explored how we can write our data to disk, we'll take a look at how to read the data that we just wrote in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450274](
-8 - Writing to XML
-)
+[8 - Writing to XML](8%20-%20Writing%20to%20XML.md)
 . The logic for this is quite easy to understand through how we will open the document and then subsequently get the the child once again and the score located within it.
 
 In order to finish of the lesson we will use a concatenation node of a string that prefixes the score attribute and prints to the screen through a display message on the viewport.
+
+[Embed: https://vimeo.com/271654415]
 
 ##
 How To Read XML
@@ -118,37 +115,37 @@ Ctrl+G
 ##
 Step 1
 
-[Image: /docs/static/attachments/29931640]
+![Image](https://www.cryengine.com/docs/static/attachments/29931640)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/29931641]
+![Image](https://www.cryengine.com/docs/static/attachments/29931641)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/29931642]
+![Image](https://www.cryengine.com/docs/static/attachments/29931642)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/29931643]
+![Image](https://www.cryengine.com/docs/static/attachments/29931643)
 
 ##
 Step 5-1
 
-[Image: /docs/static/attachments/29931644]
+![Image](https://www.cryengine.com/docs/static/attachments/29931644)
 
 ##
 Step 5-2
 
-[Image: /docs/static/attachments/29931645]
+![Image](https://www.cryengine.com/docs/static/attachments/29931645)
 
 ##
 Final Result
 
-[Image: /docs/static/attachments/29931646]
+![Image](https://www.cryengine.com/docs/static/attachments/29931646)
 
 ##
 Conclusion
@@ -156,12 +153,7 @@ Conclusion
 Although this tutorial has concluded, feel free to venture out on your own development path based on what we've covered in the previous chapters.
 For information on the topics covered in this tutorial and more
 , please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307414](
-CRYENGINE V Manual
-)
+[CRYENGINE V Manual](/docs/static/engines/cryengine-5/categories/23756816/pages/23307414)
 .
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450274](
-[Image: /docs/static/attachments/44971061]
-8 - Writing to XML
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971061) 8 - Writing to XML](/docs/static/engines/cryengine-5/categories/23756816/pages/29450274)

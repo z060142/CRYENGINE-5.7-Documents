@@ -11,12 +11,10 @@
 Overview
 
 After introducing the concept of a
-[/docs/static/engines/cryengine-3/categories/1638401/pages/15011348](
-UI Element
-)
+[UI Element](/docs/static/engines/cryengine-3/categories/1638401/pages/15011348)
  in CRYENGINE, the next step is to review what we can actually do with these elements. Let us now introduce you to the concept of a UI Action.
 
-[Image: /docs/static/attachments/53543169]
+![Image](https://www.cryengine.com/docs/static/attachments/53543169)
 
 ##
 UI Actions
@@ -77,7 +75,7 @@ and
 **
  UI:Action:Control.
 **
-[Image: /docs/static/attachments/53543168]
+![Image](https://www.cryengine.com/docs/static/attachments/53543168)
 
 ##
 UI:Action:Start
@@ -238,9 +236,7 @@ port.
 Prototyping UI in Flowgraph
 
 One way to use the functionality of the UI elements is to directly use the exposed functions / events in your level
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605670](
-Flowgraph
-)
+[Flowgraph](/docs/static/engines/cryengine-3/categories/1638401/pages/1605670)
 . This isn't an optimal approach for development. It maybe good for prototyping and quick testing of features, but it has some downsides:
 
 -
@@ -260,15 +256,7 @@ UI Actions.
 Examples
 
 -
-[/docs/static/engines/cryengine-3/categories/1638401/pages/15011703](
-UI Action playing videos
-)
-[#ui-actions](
-UI Actions
-)
-[#prototyping-ui-in-flowgraph](
-Prototyping UI in Flowgraph
-)
-[#examples](
-Examples
-)
+[UI Action playing videos](/docs/static/engines/cryengine-3/categories/1638401/pages/15011703)
+[UI Actions](#ui-actions)
+[Prototyping UI in Flowgraph](#prototyping-ui-in-flowgraph)
+[Examples](#examples)

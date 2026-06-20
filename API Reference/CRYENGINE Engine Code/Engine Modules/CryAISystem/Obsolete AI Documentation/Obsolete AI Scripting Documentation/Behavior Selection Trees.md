@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Create A Simple AI Behavior](Behavior Selection Trees/Create A Simple AI Behavior.md)
+- [Create A Simple AI Behavior](Behavior%20Selection%20Trees/Create%20A%20Simple%20AI%20Behavior.md)
 
 ## Content
 

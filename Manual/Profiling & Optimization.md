@@ -6,85 +6,59 @@
 
 ## Child Pages
 
-- [Profiling Overview](Profiling & Optimization/Profiling Overview.md)
-- [Optimization Overview](Profiling & Optimization/Optimization Overview.md)
+- [Profiling Overview](Profiling%20%26%20Optimization/Profiling%20Overview.md)
+- [Optimization Overview](Profiling%20%26%20Optimization/Optimization%20Overview.md)
 
 ## Content
 
-[Image: /docs/static/attachments/26957080]
+![Image](https://www.cryengine.com/docs/static/attachments/26957080)
 
-[Image: /docs/static/attachments/26955379]
+![Image](https://www.cryengine.com/docs/static/attachments/26955379)
 
-[Image: /docs/static/attachments/51347884]
+![Image](https://www.cryengine.com/docs/static/attachments/51347884)
 
 **
 Profiling Overview
 **
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260143](
-Profiling Quick Guide
-)
+[Profiling Quick Guide](Profiling%20%26%20Optimization/Profiling%20Overview/Profiling%20Quick%20Guide.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308528](
-Debug Draw
-)
+[Debug Draw](Profiling%20%26%20Optimization/Profiling%20Overview/Debug%20Draw.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308523](
-Debug Views
-)
+[Debug Views](Profiling%20%26%20Optimization/Profiling%20Overview/Debug%20Views.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868666](
-Debugging and Profiling Tools
-)
+[Debugging and Profiling Tools](Profiling%20%26%20Optimization/Profiling%20Overview/Debugging%20and%20Profiling%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535464](
-Job Profiling
-)
+[Job Profiling](Profiling%20%26%20Optimization/Profiling%20Overview/Job%20Profiling.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26876703](
-Physics Profiling
-)
+[Physics Profiling](Profiling%20%26%20Optimization/Profiling%20Overview/Physics%20Profiling.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215385](
-Render Stats
-)
+[Render Stats](Profiling%20%26%20Optimization/Profiling%20Overview/Render%20Stats.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535461](
-Worker Thread Profiling
-)
+[Worker Thread Profiling](Profiling%20%26%20Optimization/Profiling%20Overview/Worker%20Thread%20Profiling.md)
 
 ##
 Optimization Overview
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215322](
-Cached Shadows
-)
+[Cached Shadows](Profiling%20%26%20Optimization/Optimization%20Overview/Cached%20Shadows.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534433](
-Layer Streaming Optimization
-)
+[Layer Streaming Optimization](Profiling%20%26%20Optimization/Optimization%20Overview/Layer%20Streaming%20Optimization.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534435](
-Occlusion Mesh (OCM) Optimization
-)
+[Occlusion Mesh (OCM) Optimization](Profiling%20%26%20Optimization/Optimization%20Overview/Occlusion%20Mesh%20(OCM)%20Optimization.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535458](
-Texels Per Meter Optimization
-)
+[Texels Per Meter Optimization](Profiling%20%26%20Optimization/Optimization%20Overview/Texels%20Per%20Meter%20Optimization.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215443](
-Vis Area and Portals
-)
+[Vis Area and Portals](Profiling%20%26%20Optimization/Optimization%20Overview/Vis%20Area%20and%20Portals.md)

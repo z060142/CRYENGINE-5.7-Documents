@@ -10,9 +10,7 @@
 This tutorial builds on the Environment Editor tutorial series, which explains the techniques used here in depth. The first part simply walks you through the steps to create one example look using only the Environment Editor settings.
 
 The second part of this tutorial provides screenshots of how these free environment presets look in sample levels.  You can download these presets from the
-[https://www.cryengine.com/marketplace/product/crytek/environment-preset-pack](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/environment-preset-pack)
 , study their settings, freely modify and use them in your own levels.
 
 Since terrain and ocean heights are an important factor, the Asset Database bundle also provides the heightmaps used so you can download and import them into your own levels. Make sure the size of your heightmaps matches the sample you wish to import.
@@ -65,7 +63,7 @@ Variables → Sun → Sun Intensity (lux)
 **
 ).
 
-[Image: /docs/static/attachments/60523588]
+![Image](https://www.cryengine.com/docs/static/attachments/60523588)
 
  |
 **
@@ -98,7 +96,7 @@ is greater than
 , so the sun's orb is visible, smaller than the moon texture and positioned on top of it - not a very useful setup.
  |
 
-[Image: /docs/static/attachments/60523587]
+![Image](https://www.cryengine.com/docs/static/attachments/60523587)
 
  |
 Here
@@ -108,7 +106,7 @@ Constants → Sun → Latitude
  has simply been changed to position it next to the moon, its orb is still visible.
  |
 
-[Image: /docs/static/attachments/60523586]
+![Image](https://www.cryengine.com/docs/static/attachments/60523586)
 
  |
 **
@@ -187,9 +185,7 @@ engine\engine.pak\EngineAssets\Textures\Skys\Night\half_moon.dds
 Albedo with transparency
 **
  mode in the Photoshop CryTif exporter if you like. (See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/60523568#EnvironmentEditorUseCases-nwcmt](
-Night with Custom Moon Texture
-)
+[Night with Custom Moon Texture](Environment%20Editor%20Use%20Cases.md#EnvironmentEditorUseCases-nwcmt)
  below for an example.)
 
 ##
@@ -292,7 +288,7 @@ slightly blue
 
 Your level will look something like this:
 
-[Image: /docs/static/attachments/60523611]
+![Image](https://www.cryengine.com/docs/static/attachments/60523611)
 
 ##
 Light Scattering Around the Moon (Moon Glow)
@@ -313,7 +309,7 @@ black
 **
  will remove all moon glow scattering around the moon texture, like this:
 
-[Image: /docs/static/attachments/60523612]
+![Image](https://www.cryengine.com/docs/static/attachments/60523612)
 
 Not very realistic, is it? Make it just slightly brighter, and use
 **
@@ -329,7 +325,7 @@ Fog → Radial
 **
  lobe will tweak its further spread over the terrain. Your fog density and color will also interact with this.
 
-[Image: /docs/static/attachments/60523613]
+![Image](https://www.cryengine.com/docs/static/attachments/60523613)
 
 2 -
 **
@@ -390,7 +386,7 @@ so the glow appears to emanate from the entire moon (not a bright spot smaller t
 **
 :
 
-[Image: /docs/static/attachments/60523614]
+![Image](https://www.cryengine.com/docs/static/attachments/60523614)
 
 3 -
 **
@@ -430,7 +426,7 @@ Color (Top)
 **
  slightly to create this look:
 
-[Image: /docs/static/attachments/60523615]
+![Image](https://www.cryengine.com/docs/static/attachments/60523615)
 
 4 -
 **
@@ -487,7 +483,7 @@ Diffuse Multiplier
 **
 :
 
-[Image: /docs/static/attachments/60523616]
+![Image](https://www.cryengine.com/docs/static/attachments/60523616)
 
 Optionally, you can also enable SVOGI to provide ambient light, although its contribution in dark night scenes may not be worth the performance cost.
 
@@ -573,27 +569,21 @@ Environment Preset Examples
 ##
 Foggy Night with Clear Skies
 
-[Image: /docs/static/attachments/60523618]
+![Image](https://www.cryengine.com/docs/static/attachments/60523618)
 
 Above is the environment preset you just created and implemented in a mountainous level. Here, three volumetric fog volumes are used (river, valley, lighthouse).
 
 Additional light components: projectors (headlamps on AIs and vehicle) and point light (lighthouse, radar dish, area light (without shadows) supplementing moonlight appearance on lighthouse and vehicle). No volumetric clouds.
 
 To download the Foggy Night with Clear Skies environment preset, please click
-[/docs/static/attachments/56660064](
-env_demo_01-night.env
-)
+[env_demo_01-night.env](/docs/static/attachments/56660064)
 .
 Since these environment presets are tailored to the terrain heightmaps and ocean height, you can also download the heightmaps used in all examples (except where otherwise noted)
-[/docs/static/attachments/60523590](
-mountains_and_river.raw
-)
+[mountains_and_river.raw](/docs/static/attachments/60523590)
 .
 
 In the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849146](
-Terrain Editor
-)
+[Terrain Editor](../../../../Editor%20Tools/Terrain%20Editor.md)
 , change
 **
  Edit → Set Terrain Max Height
@@ -636,16 +626,14 @@ TOD
 . SVOGI on, moon and stars are dimmed to balance to brightening sky.. Enable volumetric clouds and volumetric fog to see as shown. One global environment probe used in this example image.
 
 To download the Dawn environment preset, please click
-[/docs/static/attachments/60523589](
-env_demo_02-dawn.env
-)
+[env_demo_02-dawn.env](/docs/static/attachments/60523589)
 .
  |
 
-[Image: /docs/static/attachments/60523571]
+![Image](https://www.cryengine.com/docs/static/attachments/60523571)
 
  |
-[Image: /docs/static/attachments/60523570]
+![Image](https://www.cryengine.com/docs/static/attachments/60523570)
 
  |
 
@@ -663,18 +651,16 @@ TOD
 . SVOGI on. Enable volumetric fog and clouds; strong wind influence set on clouds. Global and local environment probes are used in detailed areas in this screen shot.
 
 To download the Sunny, Windy Midday environment preset, please click
-[/docs/static/attachments/60523719](
-env_demo_03-midday.env
-)
+[env_demo_03-midday.env](/docs/static/attachments/60523719)
 **
 .
 **
  |
 
-[Image: /docs/static/attachments/60523718]
+![Image](https://www.cryengine.com/docs/static/attachments/60523718)
 
  |
-[Image: /docs/static/attachments/60523717]
+![Image](https://www.cryengine.com/docs/static/attachments/60523717)
 
  |
 
@@ -682,81 +668,77 @@ env_demo_03-midday.env
 24 Hour Day - Night Cycle
 
 SVOGI on. Enable volumetric fog and clouds. In these screen shots, one global environment probe and 200m probes are used around key areas. Fog volumes are deactivated at certain times of day. Separate set of environment probes are toggled on only for each specific hour of the day. Environment probes can be blended by making each pair of adjacent times visible and using visual scripting to fade their diffuse and specular multiplier values up and down to effectively crossfade them. See the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285386](
-Creating a 24 Hour Cycle
-)
+[Creating a 24 Hour Cycle](../../Lighting%20Tutorials/Tutorial%20-%20Lighting%20-%20Creating%20a%2024%20hour%20cycle.md)
  tutorial for additional information.
 
 To download the 24 hour Day - Night Cycle environment preset, please click
-[/docs/static/attachments/60523697](
-day_night_cycle_2.env
-)
+[day_night_cycle_2.env](/docs/static/attachments/60523697)
 **
 .
 **
  |
 
-[Image: /docs/static/attachments/60523704]
+![Image](https://www.cryengine.com/docs/static/attachments/60523704)
 **
 4:00 AM
 **
 
  |
-[Image: /docs/static/attachments/60523700]
+![Image](https://www.cryengine.com/docs/static/attachments/60523700)
 **
 5:00 AM
 **
 
  |
 
-[Image: /docs/static/attachments/60523662]
+![Image](https://www.cryengine.com/docs/static/attachments/60523662)
 **
 5:45 AM
 **
 
  |
-[Image: /docs/static/attachments/60523663]
+![Image](https://www.cryengine.com/docs/static/attachments/60523663)
 **
 6:00 AM
 **
 
  |
 
-[Image: /docs/static/attachments/60523669]
+![Image](https://www.cryengine.com/docs/static/attachments/60523669)
 
 **
 8:00 AM
 **
 
  |
-[Image: /docs/static/attachments/60523668]
+![Image](https://www.cryengine.com/docs/static/attachments/60523668)
 **
 12:00 PM
 **
 
  |
 
-[Image: /docs/static/attachments/60523667]
+![Image](https://www.cryengine.com/docs/static/attachments/60523667)
 
 **
 4:00 PM
 **
 
  |
-[Image: /docs/static/attachments/60523666]
+![Image](https://www.cryengine.com/docs/static/attachments/60523666)
 **
 4:30 PM
 **
 
  |
 
-[Image: /docs/static/attachments/60523691]
+![Image](https://www.cryengine.com/docs/static/attachments/60523691)
 **
 8:00 PM
 **
 
  |
-[Image: /docs/static/attachments/60523708]
+![Image](https://www.cryengine.com/docs/static/attachments/60523708)
 **
 4:00 AM
 **
@@ -777,16 +759,14 @@ TOD
  for correct settings. While volumetric clouds are not used here, you could enable them and configure them to match the sky dome to have some more realistic cloud movement.
 
 To download the Late Afternoon, Partly Cloudy environment preset, please click
-[/docs/static/attachments/60523592](
-desert_gold_magic_hour.env
-)
+[desert_gold_magic_hour.env](/docs/static/attachments/60523592)
 .
  |
 
-[Image: /docs/static/attachments/60523593]
+![Image](https://www.cryengine.com/docs/static/attachments/60523593)
 
  |
-[Image: /docs/static/attachments/60523591]
+![Image](https://www.cryengine.com/docs/static/attachments/60523591)
 
  |
 
@@ -848,16 +828,14 @@ Diffuse Multiplier
  is used in these screenshots.
 
 To download the Night with Dense Fog environment preset, please click
-[/docs/static/attachments/60523597](
-foggy_dense.env
-)
+[foggy_dense.env](/docs/static/attachments/60523597)
 .
  |
 
-[Image: /docs/static/attachments/60523599]
+![Image](https://www.cryengine.com/docs/static/attachments/60523599)
 
  |
-[Image: /docs/static/attachments/60523598]
+![Image](https://www.cryengine.com/docs/static/attachments/60523598)
 
  |
 
@@ -890,16 +868,14 @@ Sun Intensity (lux)
 .
 
 To download the Dark Clear Night environment preset, please click
-[/docs/static/attachments/60523595](
-night_dark_clear.env
-)
+[night_dark_clear.env](/docs/static/attachments/60523595)
 .
  |
 
-[Image: /docs/static/attachments/60523596]
+![Image](https://www.cryengine.com/docs/static/attachments/60523596)
 
  |
-[Image: /docs/static/attachments/60523594]
+![Image](https://www.cryengine.com/docs/static/attachments/60523594)
 
  |
 
@@ -917,16 +893,14 @@ TOD
 . Color is desaturated, HDR is used to tint everything green. Grain effect and depth of field blur are used.
 
 To download the Night Vision environment preset, please click
-[/docs/static/attachments/60523573](
-nightvision.env
-)
+[nightvision.env](/docs/static/attachments/60523573)
 .
  |
 
-[Image: /docs/static/attachments/60523582]
+![Image](https://www.cryengine.com/docs/static/attachments/60523582)
 
  |
-[Image: /docs/static/attachments/60523580]
+![Image](https://www.cryengine.com/docs/static/attachments/60523580)
 
  |
 
@@ -942,9 +916,7 @@ TOD
 12:00
 **
 . Download the 4K terrain heightmap
-[/docs/static/attachments/60523574](
-magic_hour_low_clouds_4K.raw
-)
+[magic_hour_low_clouds_4K.raw](/docs/static/attachments/60523574)
 . Create a 4K level and set
 **
 Terrain Max Height
@@ -954,9 +926,7 @@ Terrain Max Height
 500m
 **
  before importing the heightmap. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849146](
-Terrain Editor
-)
+[Terrain Editor](../../../../Editor%20Tools/Terrain%20Editor.md)
  for more information.
 
 SVOGI on. Enable volumetric fog and volumetric clouds. Volumetric clouds are placed
@@ -965,9 +935,7 @@ below
 **
  the terrain to mimic fog volumes, strongly affected by wind.
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848989](
-Level Settings
-)
+[Level Settings](../../../../Editor%20Tools/Level%20Editor%20Tab/Level%20Settings.md)
 
 **
 must have the following options enabled:
@@ -997,16 +965,14 @@ TOD
 in the Environment Editor.
 
 To download the Magic Hour, Low Clouds environment preset, please click
-[/docs/static/attachments/60523572](
-magic_hour_low_clouds.env
-)
+[magic_hour_low_clouds.env](/docs/static/attachments/60523572)
 .
  |
 
-[Image: /docs/static/attachments/60523578]
+![Image](https://www.cryengine.com/docs/static/attachments/60523578)
 
  |
-[Image: /docs/static/attachments/60523575]
+![Image](https://www.cryengine.com/docs/static/attachments/60523575)
 
  |
 
@@ -1030,9 +996,7 @@ Variables → Sun → Sun Intensity (Lux)
 800 lux
 **
 , this level is lit mostly by
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966059#LightComponents-pointlight](
-Point Light
-)
+[Point Light](../../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6)/Light%20Components.md#LightComponents-pointlight)
  entity components set to emit flickering light to simulating light coming from the very large emissive fog volumes to which they're attached, each using various noise settings to create animated patterns. SVOGI on. Enable volumetric fog. In these example images, a full grid of environment probes with box sizes of
 **
 200m
@@ -1044,27 +1008,25 @@ Point Light
  cover the entire heightmap as well as a global probe (see the respective image below).
 
 To download the Magic Hour, Low Clouds environment preset, please click
-[/docs/static/attachments/60523641](
-night_elephant_moon.env
-)
+[night_elephant_moon.env](/docs/static/attachments/60523641)
 .
  |
 
-[Image: /docs/static/attachments/60523637]
+![Image](https://www.cryengine.com/docs/static/attachments/60523637)
 
  |
-[Image: /docs/static/attachments/60523634]
-
- |
-
-[Image: /docs/static/attachments/60523638]
-
- |
-[Image: /docs/static/attachments/60523631]
+![Image](https://www.cryengine.com/docs/static/attachments/60523634)
 
  |
 
-[Image: /docs/static/attachments/60523644]
+![Image](https://www.cryengine.com/docs/static/attachments/60523638)
+
+ |
+![Image](https://www.cryengine.com/docs/static/attachments/60523631)
+
+ |
+
+![Image](https://www.cryengine.com/docs/static/attachments/60523644)
 
 Partial environment probe grid that covers the entire heightmap is shown in this image.
 
@@ -1086,26 +1048,24 @@ to
 . The look of this environment preset depends wholly on the use of a large (effectively global) emissive fog volume. The first row of images show how the environment preset looks without the fog volume. To the right, you can see some key settings, including the settings for the global fog volume that's currently disabled. You can also see in the environment preset that there is no sunlight and only the slightest brightness in the sky. Effectively, there is no light on the terrain or meshes except from the light components and environment probes, and the lightening effect of the emissive fog between the camera and the meshes (even though emissive fog does not actually emanate light except onto itself).
 
 To download the Foggy Night and Day environment preset, please click
-[/docs/static/attachments/60523783](
-overcast.env
-)
+[overcast.env](/docs/static/attachments/60523783)
 .
  |
 
-[Image: /docs/static/attachments/60523865]
+![Image](https://www.cryengine.com/docs/static/attachments/60523865)
 
  |
-[Image: /docs/static/attachments/60523867]
+![Image](https://www.cryengine.com/docs/static/attachments/60523867)
 
  |
 
 This row of images below shows how this environment preset was intended to be used for a foggy night look. Global and a few local environment probes were used. The fog provides a significant lightening atmospheric effect (combined with environment probes).
  |
 
-[Image: /docs/static/attachments/60523863]
+![Image](https://www.cryengine.com/docs/static/attachments/60523863)
 
  |
-[Image: /docs/static/attachments/60523781]
+![Image](https://www.cryengine.com/docs/static/attachments/60523781)
 
  |
 
@@ -1148,27 +1108,27 @@ Variables → Sun → Sun Intensity
  removes the hard shadows that it would produce, leaving only soft contact shadows that are consistent with overcast/foggy conditions.
  |
 
-[Image: /docs/static/attachments/60523778]
+![Image](https://www.cryengine.com/docs/static/attachments/60523778)
 
  |
-[Image: /docs/static/attachments/60523779]
+![Image](https://www.cryengine.com/docs/static/attachments/60523779)
 
  |
 
 Here's the same daytime version of this environment preset used in a different level. A sky dome was used for clouds. The first two examples use a snow texture; the second two do not.
  |
 
-[Image: /docs/static/attachments/60523650]
+![Image](https://www.cryengine.com/docs/static/attachments/60523650)
 
  |
-[Image: /docs/static/attachments/60523651]
+![Image](https://www.cryengine.com/docs/static/attachments/60523651)
 
  |
 
-[Image: /docs/static/attachments/60523722]
+![Image](https://www.cryengine.com/docs/static/attachments/60523722)
 
  |
-[Image: /docs/static/attachments/60523721]
+![Image](https://www.cryengine.com/docs/static/attachments/60523721)
 
  |
 
@@ -1181,26 +1141,12 @@ Variables → Night Sky → Moon Color
 **
 , the color of the sunlight is set to a similar color to cast red light on the terrain, and just for extra fun, set the fog color to dark green. SVOGI and volumetric fog were both disabled.
 
-[Image: /docs/static/attachments/60523622]
+![Image](https://www.cryengine.com/docs/static/attachments/60523622)
 
-[#creating-a-foggy-night-look](
-Creating a Foggy Night Look
-)
-[#moon-appearance](
-Moon Appearance
-)
-[#creating-moonlight](
-Creating Moonlight
-)
-[#setting-fog-for-night](
-Setting Fog for Night
-)
-[#light-scattering-around-the-moon-moon-glow](
-Light Scattering Around the Moon (Moon Glow)
-)
-[#setting-up-a-night-sky](
-Setting Up a Night Sky
-)
-[#environment-preset-examples](
-Environment Preset Examples
-)
+[Creating a Foggy Night Look](#creating-a-foggy-night-look)
+[Moon Appearance](#moon-appearance)
+[Creating Moonlight](#creating-moonlight)
+[Setting Fog for Night](#setting-fog-for-night)
+[Light Scattering Around the Moon (Moon Glow)](#light-scattering-around-the-moon-moon-glow)
+[Setting Up a Night Sky](#setting-up-a-night-sky)
+[Environment Preset Examples](#environment-preset-examples)

@@ -7,15 +7,9 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793935](
-[Image: /docs/static/attachments/52593304]
-5 - Breakpoints
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593304) 5 - Breakpoints](/docs/static/engines/cryengine-5/categories/23756816/pages/29793935)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591916](
-[Image: /docs/static/attachments/52593305]
-7 - Flow Graph Modules
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593305) 7 - Flow Graph Modules](/docs/static/engines/cryengine-5/categories/23756816/pages/27591916)
 
 We already explored the idea of using Flow Graph to spawn a player into the scene. We will now look at connecting two entities together to trigger a light to be turned on or off depending on whether the player is located within the bounds of an entity or not. For this we will be using a Proximity Trigger and then also we will be using a traditional light entity to be able to turn it on or off.
 
@@ -121,34 +115,28 @@ Proximity Trigger
 ##
 Step 1
 
-[Image: /docs/static/attachments/36309992]
+![Image](https://www.cryengine.com/docs/static/attachments/36309992)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/36309993]
+![Image](https://www.cryengine.com/docs/static/attachments/36309993)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/36310042]
+![Image](https://www.cryengine.com/docs/static/attachments/36310042)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/36310043]
+![Image](https://www.cryengine.com/docs/static/attachments/36310043)
 
 ##
 Step 5
 
-[Image: /docs/static/attachments/36310044]
+![Image](https://www.cryengine.com/docs/static/attachments/36310044)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793935](
-[Image: /docs/static/attachments/52593304]
-5 - Breakpoints
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593304) 5 - Breakpoints](/docs/static/engines/cryengine-5/categories/23756816/pages/29793935)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591916](
-[Image: /docs/static/attachments/52593305]
-7 - Flow Graph Modules
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593305) 7 - Flow Graph Modules](/docs/static/engines/cryengine-5/categories/23756816/pages/27591916)

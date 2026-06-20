@@ -15,37 +15,23 @@ A
 Tag Definition File
 *
  contains a tag definition, which is a collection of Tags. These tags are keywords used for labeling
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-Fragments
-)
+[Fragments](../Mannequin%20Concepts/Mannequin%20Fragments.md)
  (and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450872](
-Mannequin Transitions
-)
+[Mannequin Transitions](../Mannequin%20Concepts/Mannequin%20Transitions.md)
 ).
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-Mannequin Tags & Tag Definitions
-)
+[Mannequin Tags & Tag Definitions](../Mannequin%20Concepts/Mannequin%20Tags%20%26%20Tag%20Definitions.md)
  for more information on this concept.
 
 Tag definition files are referenced by the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition File (xxxControllerDefs.xml)
-)
+[Controller Definition File (xxxControllerDefs.xml)](Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
 , any
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743](
-Animation Database File (ADB)
-)
+[Animation Database File (ADB)](Animation%20Database%20(ADB).md)
 , and (optionally) by
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-FragmentID Definition Files
-)
+[FragmentID Definition Files](FragmentID%20Definition%20File%20(xxxActions.xml).md)
 . See the overview picture on the page about
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308470](
-Mannequin Files
-)
+[Mannequin Files](../Mannequin%20Files.md)
 .
 
 Tag definition files can include other tag definition files hierarchically.
@@ -54,9 +40,7 @@ Tag definition files can include other tag definition files hierarchically.
 Creating a Tag Definition File
 
 Tag Definition files can be created in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308456](
-Mannequin Tag Definition Editor
-)
+[Mannequin Tag Definition Editor](../Mannequin%20Tag%20Definition%20Editor.md)
 .
 
 Tag Definition files are stored in the
@@ -64,9 +48,7 @@ Tag Definition files are stored in the
 Animations/Mannequin/ADB/
 *
  folder. This is not an absolute requirement for the engine, but the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308456](
-Mannequin Tag Definition Editor
-)
+[Mannequin Tag Definition Editor](../Mannequin%20Tag%20Definition%20Editor.md)
  only looks for tag definition files in this folder currently.
 
 The filename typically ends with
@@ -80,15 +62,11 @@ Editing a Tag Definition File
 
 Tag Definition files are edited in the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308456](
-Mannequin Tag Definition Editor
-)
+[Mannequin Tag Definition Editor](../Mannequin%20Tag%20Definition%20Editor.md)
 .
 
 However, you cannot edit the hierarchical inclusion of tag definition files in this editor. To use this advanced feature see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473#TagDefinitionFile(xxxTags.xml)-FileFormat](
-FileFormat
-)
+[FileFormat](Tag%20Definition%20File%20(xxxTags.xml).md#TagDefinitionFile%28xxxTags.xml)-FileFormat)
  section.
 
 ##
@@ -149,11 +127,7 @@ individual
  tag can get a priority. The default priority is 0.
 
 The Tag Definition file uses a similar format as the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-FragmentID Definition File (xxxActions.xml)
-)
+[FragmentID Definition File (xxxActions.xml)](FragmentID%20Definition%20File%20(xxxActions.xml).md)
 , as it uses the same underlying code, the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308477](
-Mannequin CTagDefinition
-)
+[Mannequin CTagDefinition](../Mannequin%20Technical%20Topics/Mannequin%20CTagDefinition.md)
 .

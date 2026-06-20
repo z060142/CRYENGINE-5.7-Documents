@@ -7,20 +7,16 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450268](
-[Image: /docs/static/attachments/44971023]
-3 - Creating our Token
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971023) 3 - Creating our Token](/docs/static/engines/cryengine-5/categories/23756816/pages/29450268)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793753](
-[Image: /docs/static/attachments/44971026]
-5 - Teleportation
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971026) 5 - Teleportation](/docs/static/engines/cryengine-5/categories/23756816/pages/29793753)
 
 ##
 How do I set up switches and communicate?
 
 To do the most basic form of testing we will be setting up the scenario of having to open a door within our game, alongside this we will also have to be checking as to whether the player has permission to enter through the door at all. We will also be printing to the screen the fact that the Door is locked and be adding a String Concatenate node that will allow us to combine words and values dynamically to print to the screen.
+
+[Embed: https://vimeo.com/271698719]
 
 ##
 How to Open a Locked Door
@@ -168,54 +164,48 @@ Debug DisplayMessage
 ##
 Step 1-1
 
-[Image: /docs/static/attachments/29929295]
+![Image](https://www.cryengine.com/docs/static/attachments/29929295)
 
 ##
 Step 1-2
 
-[Image: /docs/static/attachments/29929296]
+![Image](https://www.cryengine.com/docs/static/attachments/29929296)
 
 ##
 Step 2-1
 
-[Image: /docs/static/attachments/29929297]
+![Image](https://www.cryengine.com/docs/static/attachments/29929297)
 
 ##
 Step 2-2
 
-[Image: /docs/static/attachments/29929298]
+![Image](https://www.cryengine.com/docs/static/attachments/29929298)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/29929299]
+![Image](https://www.cryengine.com/docs/static/attachments/29929299)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/29929302]
+![Image](https://www.cryengine.com/docs/static/attachments/29929302)
 
 ##
 Step 5
 
-[Image: /docs/static/attachments/29929300]
+![Image](https://www.cryengine.com/docs/static/attachments/29929300)
 
 ##
 Step 6
 
-[Image: /docs/static/attachments/29929301]
+![Image](https://www.cryengine.com/docs/static/attachments/29929301)
 
 ##
 Step 7
 
-[Image: /docs/static/attachments/29929303]
+![Image](https://www.cryengine.com/docs/static/attachments/29929303)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450268](
-[Image: /docs/static/attachments/44971023]
-3 - Creating our Token
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971023) 3 - Creating our Token](/docs/static/engines/cryengine-5/categories/23756816/pages/29450268)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793753](
-[Image: /docs/static/attachments/44971026]
-5 - Teleportation
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971026) 5 - Teleportation](/docs/static/engines/cryengine-5/categories/23756816/pages/29793753)

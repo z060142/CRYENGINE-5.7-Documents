@@ -78,9 +78,7 @@ Velocity -
 Parent -
 **
  Forces the selected axis to align itself with the parent particle or emitter. For more information about parent child relationships, please check the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-SecondGen
-)
+[SecondGen](SecondGen.md)
  section.
 
 -
@@ -228,15 +226,7 @@ GPU Support
 
 As GPU particles do not currently store a rotation angle, this feature is not supported on the GPU.
 
-[#align](
-Align
-)
-[#rotate2d](
-Rotate2D
-)
-[#rotate3d](
-Rotate3D
-)
-[#gpu-support](
-GPU Support
-)
+[Align](#align)
+[Rotate2D](#rotate2d)
+[Rotate3D](#rotate3d)
+[GPU Support](#gpu-support)

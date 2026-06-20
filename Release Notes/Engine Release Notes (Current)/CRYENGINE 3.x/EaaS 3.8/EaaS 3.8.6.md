@@ -13,7 +13,7 @@ Release Highlights
 ##
 NoMaps
 
-[Image: /docs/static/attachments/44962945]
+![Image](https://www.cryengine.com/docs/static/attachments/44962945)
 
 NoMaps is a standalone tool created by Crytek to achieve high quality tangent-space normal maps for CRYENGINE. In the past when people tried to create tangent-space normal maps for our ENGINE they had to use software which assumed how our renderer accomplished tangent-space. The problem was that no software would know how exactly CRYENGINE rendered tangent-space, hence normal maps were never guaranteed to be completely accurate - or stay compatible between ENGINE revisions/versions. Now with NoMaps Crytek offers a standalone tool which produces tangent-space normal maps directly for CRYENGINE. This software takes the object and its matching object-space normal map and then converts it into a tangent-space normal map that fits its mesh perfectly. In this way NoMaps helps in achieving high quality assets for CRYENGINE, while simplifying previous workflows (only an object-space normal map is required).
 
@@ -21,9 +21,7 @@ NoMaps is a standalone tool created by Crytek to achieve high quality tangent-sp
 Oculus 0.8 SDK + Touch Controllers support
 
 CRYENGINE 3.8.6 comes with support for Oculus 0.8.0.0-beta SDK and Oculus Touch Controllers. However, in order to make use of these features you will need to install the
-[https://developer.oculus.com/downloads/pc/0.8.0.0-beta/Oculus_Runtime_for_Windows/](
-Oculus 0.8.0.0-beta Runtime for Windows
-)
+[Oculus 0.8.0.0-beta Runtime for Windows](https://developer.oculus.com/downloads/pc/0.8.0.0-beta/Oculus_Runtime_for_Windows/)
  and install the GPU drivers that are recommended by Oculus.
 
 ##

@@ -14,9 +14,7 @@ This tutorial will show you how to create a terrain heightmap and colormap in Wo
 
 We will use the Free version of
 **
-[http://www.world-machine.com/](
-World Machine
-)
+[World Machine](http://www.world-machine.com/)
 **
  (WM) to create the content and allow for a wider audience to take part. The free version is limited to export out a max 512x512 image, so we will stick with these dimensions.
 
@@ -24,17 +22,13 @@ This will not show you how to make fantastic landscapes in WM, but instead is mo
 
 This tutorial may rely on the GameSDK Sample Project. We recommend that you download this from the
 **
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
 **
 , import it into your Launcher, start it from there and then create a new level.
 
 See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870288](
-this page
-)
+[this page](/docs/static/engines/cryengine-5/categories/23756816/pages/36870288)
 **
  to find out how to import a project to your Launcher. (The default folder for the GameSDK Sample Project when downloaded is
 `
@@ -48,9 +42,7 @@ C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\gamesdk_<XXX>\GameSDK
 Tutorial Files
 
 **
-[/docs/static/attachments/23997162](
-wm_to_ce_tutorial.rar
-)
+[wm_to_ce_tutorial.rar](/docs/static/attachments/23997162)
 **
 
 ##
@@ -68,7 +60,7 @@ Because CRYENGINE supports the standard power of 2 resolution sizes (256, 512, 1
 Pic1: Setting the map size to 512x512 in World Machine
 *
 
-[Image: /docs/static/attachments/25523523]
+![Image](https://www.cryengine.com/docs/static/attachments/25523523)
 
 With it now displaying 512 x 512 resolution, click
 **
@@ -89,16 +81,14 @@ CRYENGINE supports 4 of the different file types that you can directly export ou
 
 Always use the 16bit variations as they give a much better terrain quality, as the 8bit BMP suffers from a lot from "
 **
-[http://en.wikipedia.org/wiki/Terrace_%28agriculture%29](
-terracing
-)
+[terracing](http://en.wikipedia.org/wiki/Terrace_%28agriculture%29)
 **
 ".
 *
 Pic2: Supported file types
 *
 
-[Image: /docs/static/attachments/25523524]
+![Image](https://www.cryengine.com/docs/static/attachments/25523524)
 
 We will use the
 **
@@ -168,7 +158,7 @@ Connect them up as shown below, with the logic coming out of the back of the Ter
 Pic3: Node connections
 *
 
-[Image: /docs/static/attachments/25523525]
+![Image](https://www.cryengine.com/docs/static/attachments/25523525)
 
 ##
 Colorizer Node
@@ -181,7 +171,7 @@ from the drop-down list to get you started. This is enough for now to apply some
 Pic4: Picking preset in colorizer node
 *
 
-[Image: /docs/static/attachments/25523526]
+![Image](https://www.cryengine.com/docs/static/attachments/25523526)
 
 ##
 Bitmap Output Node
@@ -206,7 +196,7 @@ button to create the file then click OK.
 Pic5: Bitmap Output properties
 *
 
-[Image: /docs/static/attachments/25523529]
+![Image](https://www.cryengine.com/docs/static/attachments/25523529)
 
 ##
 Overlay Node
@@ -272,7 +262,7 @@ Meters Per Unit
 Pic6: Creating a new level
 *
 
-[Image: /docs/static/attachments/26512231]
+![Image](https://www.cryengine.com/docs/static/attachments/26512231)
 
 Heightmap size
 
@@ -396,7 +386,7 @@ Now you probably can't see it, you will have to fly out to see more of the level
 Pic7: Imported heightmap
 *
 
-[Image: /docs/static/attachments/25523531]
+![Image](https://www.cryengine.com/docs/static/attachments/25523531)
 
 The terrain above is the heightmap included in the sample files; the one you made in WM earlier will most likely look different.
 
@@ -429,7 +419,7 @@ Now re-import the heightmap again and notice how we have lost the huge cliff fac
 Pic8: Re-imported heightmap
 *
 
-[Image: /docs/static/attachments/25523533]
+![Image](https://www.cryengine.com/docs/static/attachments/25523533)
 
 Jump in game and try it out (
 **
@@ -477,7 +467,7 @@ File -> Export/Import Terrain Texture
 Pic9: Importing Terrain Texture
 
 *
-[Image: /docs/static/attachments/26512232]
+![Image](https://www.cryengine.com/docs/static/attachments/26512232)
 
 -
 Click on the image (with 256 in the middle). This is one terrain texture tile, currently set to
@@ -517,7 +507,7 @@ Now your terrain should look something like this:
 Pic10: Colormap imported
 *
 
-[Image: /docs/static/attachments/25523535]
+![Image](https://www.cryengine.com/docs/static/attachments/25523535)
 
 You may notice the current output is too bright. To darken, simply adjust the Colorizer node settings in WM.
 
@@ -533,7 +523,7 @@ Paint button
 *
 *
 
-[Image: /docs/static/attachments/25497055]
+![Image](https://www.cryengine.com/docs/static/attachments/25497055)
 
 This is where you set and assign the different grasses, rocks, earth textures to be seen up close by the player.
 
@@ -572,7 +562,7 @@ Material
 Pic12: Material folder button
 *
 
-[Image: /docs/static/attachments/25497057]
+![Image](https://www.cryengine.com/docs/static/attachments/25497057)
 
 -
 This will let you select a material for your layer. Browse under the
@@ -653,7 +643,7 @@ In the lower half of the Terrain Editor, you can click the Paint button to activ
 Pic13: Terrain Paint button
 *
 
-[Image: /docs/static/attachments/25497058]
+![Image](https://www.cryengine.com/docs/static/attachments/25497058)
 
 In the top of the panel, you can see a list of the terrain layers, "Grass" and "Rock". As you click between the two layers, you will notice the Slope Rules change between the different layers (what we just set up):
 
@@ -661,7 +651,7 @@ In the top of the panel, you can see a list of the terrain layers, "Grass" and "
 Pic14: Layer painter
 *
 
-[Image: /docs/static/attachments/25523536]
+![Image](https://www.cryengine.com/docs/static/attachments/25523536)
 
 By default, the Layer Painter will paint both the High and Low terrain textures at once. Since we created our low detail texture in WM we do not want this to happen.
 
@@ -772,9 +762,9 @@ File -> Generate Terrain Texture
 Pic15: Generating the terrain texture
 *
 
-[Image: /docs/static/attachments/25523538]
+![Image](https://www.cryengine.com/docs/static/attachments/25523538)
 
-[Image: /docs/static/attachments/25523539]
+![Image](https://www.cryengine.com/docs/static/attachments/25523539)
 
 Accept the defaults. Click
 **
@@ -805,30 +795,14 @@ Now with some quick vegetation distribution, some Environment Editor tweaks, add
 Pic17: End result
 *
 
-[Image: /docs/static/attachments/25523543]
+![Image](https://www.cryengine.com/docs/static/attachments/25523543)
 
 The aforementioned grass material was switched out for a more 'dry/dirt' material to suit the brown colormap.
-[#tutorial-files](
-Tutorial Files
-)
-[#setting-up-world-machine](
-Setting Up World Machine
-)
-[#creating-the-heightmap](
-Creating the Heightmap
-)
-[#creating-the-colormap](
-Creating the Colormap
-)
-[#setting-up-the-level-in-cryengine](
-Setting Up the Level in CRYENGINE
-)
-[#importing-the-heightmap](
-Importing the Heightmap
-)
-[#importing-the-colormap](
-Importing the Colormap
-)
-[#finishing-off](
-Finishing Off
-)
+[Tutorial Files](#tutorial-files)
+[Setting Up World Machine](#setting-up-world-machine)
+[Creating the Heightmap](#creating-the-heightmap)
+[Creating the Colormap](#creating-the-colormap)
+[Setting Up the Level in CRYENGINE](#setting-up-the-level-in-cryengine)
+[Importing the Heightmap](#importing-the-heightmap)
+[Importing the Colormap](#importing-the-colormap)
+[Finishing Off](#finishing-off)

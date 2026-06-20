@@ -7,54 +7,36 @@
 
 ## Child Pages
 
-- [Tutorial - Environment Art Pipeline](Asset Creation and Importing Tutorials/Tutorial - Environment Art Pipeline.md)
-- [Tutorial - Creating a desert scene using Quixel Suite 2 & Megascans assets](Asset Creation and Importing Tutorials/Tutorial - Creating a desert scene using Quixel Suite 2 & Megascans assets.md)
-- [Tutorial - Creating a forest using Quixel Megascans assets](Asset Creation and Importing Tutorials/Tutorial - Creating a forest using Quixel Megascans assets.md)
-- [Tutorial - How to batch process assets in Resource Compiler](Asset Creation and Importing Tutorials/Tutorial - How to batch process assets in Resource Compiler.md)
-- [Tutorial - How to use Resource Compiler presets](Asset Creation and Importing Tutorials/Tutorial - How to use Resource Compiler presets.md)
+- [Tutorial - Environment Art Pipeline](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Environment%20Art%20Pipeline.md)
+- [Tutorial - Creating a desert scene using Quixel Suite 2 & Megascans assets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Creating%20a%20desert%20scene%20using%20Quixel%20Suite%202%20%26%20Megascans%20assets.md)
+- [Tutorial - Creating a forest using Quixel Megascans assets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Creating%20a%20forest%20using%20Quixel%20Megascans%20assets.md)
+- [Tutorial - How to batch process assets in Resource Compiler](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20How%20to%20batch%20process%20assets%20in%20Resource%20Compiler.md)
+- [Tutorial - How to use Resource Compiler presets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20How%20to%20use%20Resource%20Compiler%20presets.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656781](
-Tutorial - Environment Art Pipeline
-)
+[Tutorial - Environment Art Pipeline](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Environment%20Art%20Pipeline.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656784](
-Tutorial - Creating a desert scene using Quixel Suite 2 & Megascans assets
-)
+[Tutorial - Creating a desert scene using Quixel Suite 2 & Megascans assets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Creating%20a%20desert%20scene%20using%20Quixel%20Suite%202%20%26%20Megascans%20assets.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656786](
-Tutorial - Creating a forest using Quixel Megascans assets
-)
+[Tutorial - Creating a forest using Quixel Megascans assets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20Creating%20a%20forest%20using%20Quixel%20Megascans%20assets.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656791](
-Tutorial - How to batch process assets in Resource Compiler
-)
+[Tutorial - How to batch process assets in Resource Compiler](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20How%20to%20batch%20process%20assets%20in%20Resource%20Compiler.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656793](
-Tutorial - How to use Resource Compiler presets
-)
+[Tutorial - How to use Resource Compiler presets](Asset%20Creation%20and%20Importing%20Tutorials/Tutorial%20-%20How%20to%20use%20Resource%20Compiler%20presets.md)
 
 ##
 Related topics:
 
-[/docs](
-Character Tool tutorials
-)
+[Character Tool tutorials](/docs)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656767](
-3DS Max tutorials
-)
+[3DS Max tutorials](Autodesk%203DS%20Max%20Tutorials.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656770](
-Autodesk Maya tutorials
-)
+[Autodesk Maya tutorials](Autodesk%20Maya%20Tutorials.md)
 
-[/docs](
-Photoshop tutorials
-)
+[Photoshop tutorials](/docs)

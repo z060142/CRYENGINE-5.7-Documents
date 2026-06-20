@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Jiggle Bones - Skeleton Hierarchy Setup - 3dsMax](Tutorial - Jiggle Bones/Jiggle Bones - Skeleton Hierarchy Setup - 3dsMax.md)
-- [Jiggle Bones - Skeleton Hierarchy Setup - Maya](Tutorial - Jiggle Bones/Jiggle Bones - Skeleton Hierarchy Setup - Maya.md)
-- [Jiggle Bones - CRYENGINE](Tutorial - Jiggle Bones/Jiggle Bones - CRYENGINE.md)
+- [Jiggle Bones - Skeleton Hierarchy Setup - 3dsMax](Tutorial%20-%20Jiggle%20Bones/Jiggle%20Bones%20-%20Skeleton%20Hierarchy%20Setup%20-%203dsMax.md)
+- [Jiggle Bones - Skeleton Hierarchy Setup - Maya](Tutorial%20-%20Jiggle%20Bones/Jiggle%20Bones%20-%20Skeleton%20Hierarchy%20Setup%20-%20Maya.md)
+- [Jiggle Bones - CRYENGINE](Tutorial%20-%20Jiggle%20Bones/Jiggle%20Bones%20-%20CRYENGINE.md)
 
 ## Content
 
@@ -49,17 +49,13 @@ Tutorial Files
 
 This tutorial may rely on the GameSDK Sample Project. We recommend that you download this from the
 **
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
 **
 , import it into your Launcher, start it from there and then create a new level.
 
 See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870288](
-this page
-)
+[this page](/docs/static/engines/cryengine-5/categories/23756816/pages/36870288)
 **
  to find out how to import a project to your Launcher. (The default folder for the GameSDK Sample Project when downloaded is
 `
@@ -72,9 +68,7 @@ C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\gamesdk_<XXX>\GameSDK
 Source 3ds Max / Maya scenes with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/44959302](
-GameSDK.zip
-)
+[GameSDK.zip](/docs/static/attachments/44959302)
 
 **
 (this zip file should be extracted under
@@ -89,9 +83,7 @@ GameSDK\Assets
 .)
 
 **
-[/docs/static/attachments/44959304](
-skeletonlist.zip
-)
+[skeletonlist.zip](/docs/static/attachments/44959304)
 
 **
 (This should be extracted to
@@ -113,19 +105,13 @@ If you want to open the provided tutorial CDF in Character Tool immediately, you
 For the rest of the tutorial, please continue on the following pages:
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23310611](
-Jiggle Bones - Skeleton Hierarchy Setup - 3dsMax
-)
+[Jiggle Bones - Skeleton Hierarchy Setup - 3dsMax](Tutorial%20-%20Jiggle%20Bones/Jiggle%20Bones%20-%20Skeleton%20Hierarchy%20Setup%20-%203dsMax.md)
 **
 
 or
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23310603](
-Jiggle Bones - Skeleton Hierarchy Setup - Maya
-)
+[Jiggle Bones - Skeleton Hierarchy Setup - Maya](Tutorial%20-%20Jiggle%20Bones/Jiggle%20Bones%20-%20Skeleton%20Hierarchy%20Setup%20-%20Maya.md)
 **
 
-[#tutorial-files](
-Tutorial Files
-)
+[Tutorial Files](#tutorial-files)

@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [FBX camera import to 3dsMax](Tutorial - Export Camera Animation to FBX/FBX camera import to 3dsMax.md)
-- [FBX camera import to Maya](Tutorial - Export Camera Animation to FBX/FBX camera import to Maya.md)
+- [FBX camera import to 3dsMax](Tutorial%20-%20Export%20Camera%20Animation%20to%20FBX/FBX%20camera%20import%20to%203dsMax.md)
+- [FBX camera import to Maya](Tutorial%20-%20Export%20Camera%20Animation%20to%20FBX/FBX%20camera%20import%20to%20Maya.md)
 
 ## Content
 
@@ -27,17 +27,13 @@ Tutorial Files
 CRYENGINE camera export level files:
 
 **
-[/docs/static/attachments/26516375](
-cam_export_level.zip
-)
+[cam_export_level.zip](/docs/static/attachments/26516375)
 **
 
 Exported FBX and finished 3dsMax and Maya output scene files:
 
 **
-[/docs/static/attachments/26516376](
-cam_export_DCC.zip
-)
+[cam_export_DCC.zip](/docs/static/attachments/26516376)
 **
 
 ##
@@ -69,7 +65,7 @@ Entity
 (img01: Accessing the Create Object panel)
 *
 
-[Image: /docs/static/attachments/26516350]
+![Image](https://www.cryengine.com/docs/static/attachments/26516350)
 
 -
 We created an "Abrams" tank and a "SWAT_Van" from the
@@ -82,7 +78,7 @@ Vehicles
 (img02: Place some objects to look at for your camera)
 *
 
-[Image: /docs/static/attachments/26516351]
+![Image](https://www.cryengine.com/docs/static/attachments/26516351)
 
 -
 You can create a user defined camera in several ways:
@@ -114,7 +110,7 @@ Don't mistake the camera entity with the other entities from Entity -> Others ->
 (img03: How to create a camera in Sanbox Editor)
 *
 
-[Image: /docs/static/attachments/26516352]
+![Image](https://www.cryengine.com/docs/static/attachments/26516352)
 
 -
 Press the "1" and "2" key to translate/rotate the camera you created to aim its frustum at the objects you placed onto the level (your point of interest).
@@ -125,7 +121,7 @@ Press the "Q" key to have terrain collision activated and also you may want to a
 (img05: In the Perspective viewport you can tweak your initial camera position and aiming point)
 *
 
-[Image: /docs/static/attachments/26516354]
+![Image](https://www.cryengine.com/docs/static/attachments/26516354)
 
 -
 If you check your point of interest by looking through your camera, you may need to "Unlock Camera Movement" from your current "Camera" viewport pane.
@@ -134,7 +130,7 @@ If you check your point of interest by looking through your camera, you may need
 (img04: If have chosen the "Camera1" as your current camera entity nstead of the Perspective camera, to move the camera you need to unlock it first.)
 *
 
-[Image: /docs/static/attachments/26516353]
+![Image](https://www.cryengine.com/docs/static/attachments/26516353)
 
 ##
 Create a sequence and animate the camera in Track View
@@ -175,7 +171,7 @@ and give it a name, we chose "cam_anim":
 (img07: Create a new camera sequence)
 *
 
-[Image: /docs/static/attachments/26516357]
+![Image](https://www.cryengine.com/docs/static/attachments/26516357)
 
 -
 Make sure you drag the width of the
@@ -196,7 +192,7 @@ img06
 (img06: A Director node and the animated camera "Camera1" has already been added)
 *
 
-[Image: /docs/static/attachments/26516355]
+![Image](https://www.cryengine.com/docs/static/attachments/26516355)
 
 Usually, the
 **
@@ -245,7 +241,7 @@ Have your "Camera1" selected and click on the "Add Selected Entities" icon. You 
 (img08: custom Camera added to a track, so it becomes animatble)
 *
 
-[Image: /docs/static/attachments/26516366]
+![Image](https://www.cryengine.com/docs/static/attachments/26516366)
 
 -
 Now It's time to set up the camera viewport to the desired output resolution, the FOV etc. These information must also be translated to the camera of your DCC when you rebuild the exported camera. Use the Camera menu of the viewport pane
@@ -263,7 +259,7 @@ FPS: 30
 (img09: A new "Perspective" viewport was created, changed it to use "Camera1" and have both views stacked on top)
 *
 
-[Image: /docs/static/attachments/26516367]
+![Image](https://www.cryengine.com/docs/static/attachments/26516367)
 
 -
 We can animate the camera by making positional and rotational changes when you have the "Record" button activated. To navigate in Track View you may need to know these keyboard shortcuts:
@@ -301,7 +297,7 @@ Otherwise, in the next DCC tutorial section, where you import the FBX data, you 
 (img10a: Your animated result should be looking like this)
 *
 
-[Image: /docs/static/attachments/26516370]
+![Image](https://www.cryengine.com/docs/static/attachments/26516370)
 
 -
 Finally, we can export to FBX. But, we have export the animated camera from Track View, while the other scene object using "Export Selected Objects" from Sandbox main menu bar.
@@ -331,7 +327,7 @@ You may leave out the "cam_anim" sequence node. Leave everything default, except
 (img10b: Export any scene objects which may be important for the camera animation)
 *
 
-[Image: /docs/static/attachments/26516371]
+![Image](https://www.cryengine.com/docs/static/attachments/26516371)
 
 -
  the camera animation itself
@@ -342,12 +338,12 @@ Go to Track View and under File -> willLeave the FBX export option as it is
 (img10c: Export FBX camera animation from Track View)
 *
 
-[Image: /docs/static/attachments/26516372]
+![Image](https://www.cryengine.com/docs/static/attachments/26516372)
 
 -
 Before we switch to 3dsMax and Maya, check you have two exported FBX files from the step 9:
 
-[Image: /docs/static/attachments/26516374]
+![Image](https://www.cryengine.com/docs/static/attachments/26516374)
 
 ##
 Import FBX camera data to target 3D program
@@ -358,23 +354,11 @@ Basically, the scene objects should orientated correctly by using the FBX Import
 
 Lets advance to the DCC camera tutorials for re-aligning and matching the camera setting, so we get the same output as shown in CRYENGINE camera
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215937](
-3dsMax
-)
+[3dsMax](Tutorial%20-%20Export%20Camera%20Animation%20to%20FBX/FBX%20camera%20import%20to%203dsMax.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215982](
-Maya
-)
+[Maya](Tutorial%20-%20Export%20Camera%20Animation%20to%20FBX/FBX%20camera%20import%20to%20Maya.md)
 
-[#tutorial-files](
-Tutorial Files
-)
-[#create-a-cryengine-camera](
-Create a CRYENGINE Camera
-)
-[#create-a-sequence-and-animate-the-camera-in-track-view](
-Create a sequence and animate the camera in Track View
-)
-[#import-fbx-camera-data-to-target-3d-program](
-Import FBX camera data to target 3D program
-)
+[Tutorial Files](#tutorial-files)
+[Create a CRYENGINE Camera](#create-a-cryengine-camera)
+[Create a sequence and animate the camera in Track View](#create-a-sequence-and-animate-the-camera-in-track-view)
+[Import FBX camera data to target 3D program](#import-fbx-camera-data-to-target-3d-program)

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934088]
+![Image](https://www.cryengine.com/docs/static/attachments/29934088)
 
 ##
 Overview
@@ -15,15 +15,9 @@ Overview
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#material-setup](
-Material Setup
-)
-[#interaction-on-dynamic-textures](
-Interaction on Dynamic Textures
-)
+[Sections](#sections)
+[Material Setup](#material-setup)
+[Interaction on Dynamic Textures](#interaction-on-dynamic-textures)
 
 ##
 Material Setup

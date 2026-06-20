@@ -23,9 +23,7 @@ Exposing C++ based variables and functions to the scripts.
 -
 Creating script tables stored in the virtual machine memory.
 CryScriptSystem is based on Lua 5. More information on the Lua language can be found at
-[http://www.lua.org](
-http://www.lua.org
-)
+[http://www.lua.org](http://www.lua.org)
 .
 
 ##

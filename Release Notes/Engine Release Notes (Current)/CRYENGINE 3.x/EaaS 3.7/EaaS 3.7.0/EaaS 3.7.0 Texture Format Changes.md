@@ -31,11 +31,7 @@ Launch the Sandbox Editor & open a level. RC will being to process & generate al
 This will take some time depending on the amount and type of texture content you have, as well as available processing power.
 
 As with every update, make sure to use the correct matching RC version for the build, and remember to update your
-[/docs](
-plugins
-)
+[plugins](/docs)
  and use the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/12124943](
-Settings Manager
-)
+[Settings Manager](/docs/static/engines/cryengine-3/categories/1114113/pages/12124943)
  to point CRYENGINE to the correct build.

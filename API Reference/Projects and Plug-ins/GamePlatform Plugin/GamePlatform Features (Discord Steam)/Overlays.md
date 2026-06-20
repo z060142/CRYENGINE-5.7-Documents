@@ -125,18 +125,8 @@ Overlay
 ::OpenPurchaseOverlay
  |
 
-[#overlay-service-functions](
-Overlay Service Functions
-)
-[#openbrowser](
-OpenBrowser
-)
-[#opendialog](
-OpenDialog
-)
-[#opendialogwithtargetuser](
-OpenDialogWithTargetUser
-)
-[#openpurchaseoverlay](
-OpenPurchaseOverlay
-)
+[Overlay Service Functions](#overlay-service-functions)
+[OpenBrowser](#openbrowser)
+[OpenDialog](#opendialog)
+[OpenDialogWithTargetUser](#opendialogwithtargetuser)
+[OpenPurchaseOverlay](#openpurchaseoverlay)

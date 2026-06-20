@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933199]
+![Image](https://www.cryengine.com/docs/static/attachments/29933199)
 
 ##
 Overview
@@ -41,18 +41,10 @@ ai_AgentStatsDist
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#setup](
-Setup
-)
-[#more-ai-debug-draw](
-More AI Debug Draw
-)
-[#network-ai-debug-draw](
-Network AI Debug Draw
-)
+[Sections](#sections)
+[Setup](#setup)
+[More AI Debug Draw](#more-ai-debug-draw)
+[Network AI Debug Draw](#network-ai-debug-draw)
 
 ##
 Setup
@@ -188,9 +180,7 @@ K) Aim information and Fire mode.
 More AI Debug Draw
 
 More information on AI Debug Draw can be found
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868666](
-here
-)
+[here](../../../Profiling%20%26%20Optimization/Profiling%20Overview/Debugging%20and%20Profiling%20Tools.md)
 .
 
 ##

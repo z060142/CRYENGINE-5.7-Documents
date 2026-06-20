@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933224]
+![Image](https://www.cryengine.com/docs/static/attachments/29933224)
 
 ##
 Overview
@@ -26,35 +26,21 @@ for each joint
 
 To compress animations for characters we use the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959586](
-Resource Compiler
-)
+[Resource Compiler](../../System%20Utilities/System%20Utilities%20Overview/Resource%20Compiler.md)
 **
  tool (RC).
 
-[Image: /docs/static/attachments/26952870]
+![Image](https://www.cryengine.com/docs/static/attachments/26952870)
 
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#compression-of-existing-animations](
-Compression of Existing Animations
-)
-[#setting-the-compression-settings](
-Setting the Compression Settings
-)
-[#per-joint-setup](
-Per-Joint Setup
-)
-[#define-animation-tags](
-Define Animation Tags
-)
-[#batch-compression](
-Batch-compression
-)
+[Sections](#sections)
+[Compression of Existing Animations](#compression-of-existing-animations)
+[Setting the Compression Settings](#setting-the-compression-settings)
+[Per-Joint Setup](#per-joint-setup)
+[Define Animation Tags](#define-animation-tags)
+[Batch-compression](#batch-compression)
 
 ##
 Compression of Existing Animations
@@ -72,7 +58,7 @@ Note for Perforce users: *.i_caf and *.animsettings files should be synced and c
 ##
 Compression settings
 
-[Image: /docs/static/attachments/51347671]
+![Image](https://www.cryengine.com/docs/static/attachments/51347671)
 
 -
 You can adjust compression settings and instantly see the resulting animation and its size...
@@ -92,7 +78,7 @@ Side by Side
 Compression Side by Side
 
 *
-[Image: /docs/static/attachments/51347672]
+![Image](https://www.cryengine.com/docs/static/attachments/51347672)
 *
 You can remove specific
 **
@@ -103,7 +89,7 @@ per-joint
 ##
 Per Joint Compression Settings
 
-[Image: /docs/static/attachments/51347673]
+![Image](https://www.cryengine.com/docs/static/attachments/51347673)
 
 Click the
 **
@@ -241,7 +227,7 @@ Add
 
 Pic4: Adding a tag
 
-[Image: /docs/static/attachments/51347674]
+![Image](https://www.cryengine.com/docs/static/attachments/51347674)
 
 Then click on an empty string to enter its name.
 
@@ -255,7 +241,7 @@ RMB
 Pic5: Removing a tag
 *
 
-[Image: /docs/static/attachments/51347675]
+![Image](https://www.cryengine.com/docs/static/attachments/51347675)
 
 For curious readers: tags are case insensitive. I.e. the tag "CINEMATIC" will be treated the same way as "cinematic".
 

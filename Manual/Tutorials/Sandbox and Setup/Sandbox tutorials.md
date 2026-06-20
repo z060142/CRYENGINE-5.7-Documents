@@ -7,31 +7,23 @@
 
 ## Child Pages
 
-- [Tutorial - Moving, rotating, and scaling](Sandbox tutorials/Tutorial - Moving, rotating, and scaling.md)
-- [Tutorial - Precise movement using snapping](Sandbox tutorials/Tutorial - Precise movement using snapping.md)
-- [Tutorial - Entity linking, grouping, freezing, and hiding entities](Sandbox tutorials/Tutorial - Entity linking, grouping, freezing, and hiding entities.md)
-- [Tutorial - Layers in Level Explorer](Sandbox tutorials/Tutorial - Layers in Level Explorer.md)
+- [Tutorial - Moving, rotating, and scaling](Sandbox%20tutorials/Tutorial%20-%20Moving%2C%20rotating%2C%20and%20scaling.md)
+- [Tutorial - Precise movement using snapping](Sandbox%20tutorials/Tutorial%20-%20Precise%20movement%20using%20snapping.md)
+- [Tutorial - Entity linking, grouping, freezing, and hiding entities](Sandbox%20tutorials/Tutorial%20-%20Entity%20linking%2C%20grouping%2C%20freezing%2C%20and%20hiding%20entities.md)
+- [Tutorial - Layers in Level Explorer](Sandbox%20tutorials/Tutorial%20-%20Layers%20in%20Level%20Explorer.md)
 
 ## Content
 
 Understanding the sandbox editor and interface
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56657975](
-Tutorial - Moving, rotating, and scaling
-)
+[Tutorial - Moving, rotating, and scaling](Sandbox%20tutorials/Tutorial%20-%20Moving%2C%20rotating%2C%20and%20scaling.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56657977](
-Tutorial - Precise movement using snapping
-)
+[Tutorial - Precise movement using snapping](Sandbox%20tutorials/Tutorial%20-%20Precise%20movement%20using%20snapping.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/64290936](
-Tutorial - Entity linking, grouping, freezing, and hiding entities
-)
+[Tutorial - Entity linking, grouping, freezing, and hiding entities](Sandbox%20tutorials/Tutorial%20-%20Entity%20linking%2C%20grouping%2C%20freezing%2C%20and%20hiding%20entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56657979](
-Tutorial - Layers in Level Explorer
-)
+[Tutorial - Layers in Level Explorer](Sandbox%20tutorials/Tutorial%20-%20Layers%20in%20Level%20Explorer.md)

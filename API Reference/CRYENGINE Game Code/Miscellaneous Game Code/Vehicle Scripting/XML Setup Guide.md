@@ -332,9 +332,7 @@ grip2
 gripRecoverSpeed
 **
  - See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306524#XMLSetupGuide-WheelSlip](
-WheelSlip
-)
+[WheelSlip](XML%20Setup%20Guide.md#XMLSetupGuide-WheelSlip)
  section.
 
 -
@@ -557,7 +555,7 @@ The grip is exponential with an exponential constant of gripRecoverSpeed, as sho
 
 The result is the grip oscillates between high and low. At constant speed the slip speed naturally reduces to a small value. The larger the value of gripRecoverSpeed, more the wheel slip before recovering grip
 
-[Image: /docs/static/attachments/23461301]
+![Image](https://www.cryengine.com/docs/static/attachments/23461301)
 
 ##
  Handling Guide
@@ -568,7 +566,7 @@ The difference is the tank doesn't turn the front wheels and has different wheel
 
 In order to make the tank turn on the spot a trick is used. The wheels are artificially pulled towards each other in code. This means that lateral friction isn't stopping the tank from turning.
 
-[Image: /docs/static/attachments/23461302]
+![Image](https://www.cryengine.com/docs/static/attachments/23461302)
 
 ```
 

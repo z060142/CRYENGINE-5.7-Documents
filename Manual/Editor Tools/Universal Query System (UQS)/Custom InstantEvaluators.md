@@ -138,9 +138,7 @@ DoRun()
  method, which will be called through a base class's method by applying the
 
 **
-[https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern](
-https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
-)
+[https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern](https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern)
 **
 
 ##
@@ -179,15 +177,7 @@ UQS::Client::CFactoryRegistrationHelper::RegisterAllFactoryInstancesInHub()
 
 This is the same process as is already done when exposing item factories to the UQS core.
 
-[#tester-vs-scorer](
-Tester vs. Scorer
-)
-[#cheap-vs-expensive](
-Cheap vs. Expensive
-)
-[#example-instantevaluator-scoredistance](
-Example InstantEvaluator: ScoreDistance
-)
-[#registering-instantevaluators](
-Registering InstantEvaluators
-)
+[Tester vs. Scorer](#tester-vs-scorer)
+[Cheap vs. Expensive](#cheap-vs-expensive)
+[Example InstantEvaluator: ScoreDistance](#example-instantevaluator-scoredistance)
+[Registering InstantEvaluators](#registering-instantevaluators)

@@ -91,37 +91,19 @@ Getting Qt Source Code
 Having the source code is obviously useful to dig into the depths of Qt and see what goes wrong.
 
 Bear in mind that Qt is not perfect, that there are bugs, and we have often had to find workarounds by providing our alternative classes to Qt when their behavior was not matching our expectations. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873088](
-Qt Programming in Sandbox
-)
+[Qt Programming in Sandbox](Qt%20Programming/Qt%20Programming%20in%20Sandbox.md)
 
 Do not be afraid to investigate if a bug is within Qt and not in our code.
 
 Links from the official Qt documentation :
 
-[https://wiki.qt.io/Get_the_Source](
-https://wiki.qt.io/Get_the_Source
-)
+[https://wiki.qt.io/Get_the_Source](https://wiki.qt.io/Get_the_Source)
 
-[https://doc.qt.io/qt-5/windows-support.html](
-https://doc.qt.io/qt-5/windows-support.html
-)
+[https://doc.qt.io/qt-5/windows-support.html](https://doc.qt.io/qt-5/windows-support.html)
 
-[#developer-tools](
-Developer Tools
-)
-[#command-line-options](
-Command Line Options
-)
-[#playground-dockable](
-Playground Dockable
-)
-[#qt-debugging](
-Qt Debugging
-)
-[#visual-studio-plugin](
-Visual Studio Plugin
-)
-[#getting-qt-source-code](
-Getting Qt Source Code
-)
+[Developer Tools](#developer-tools)
+[Command Line Options](#command-line-options)
+[Playground Dockable](#playground-dockable)
+[Qt Debugging](#qt-debugging)
+[Visual Studio Plugin](#visual-studio-plugin)
+[Getting Qt Source Code](#getting-qt-source-code)

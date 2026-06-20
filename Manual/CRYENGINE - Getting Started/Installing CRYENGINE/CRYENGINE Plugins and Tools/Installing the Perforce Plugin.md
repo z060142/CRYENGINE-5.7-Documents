@@ -46,7 +46,7 @@ Enable Source Control
 **
 checkbox is checked. This integrates Perforce with the Sandbox Editor.
 
-[Image: /docs/static/attachments/44963516]
+![Image](https://www.cryengine.com/docs/static/attachments/44963516)
 
 If the checkbox is enabled but without a proper Perforce server setup, then users can experience slowdowns in the Material Editor or in other Tools that take advantage of source control. In this case just uncheck the checkbox to return to normal non-source control operation.
 
@@ -60,13 +60,9 @@ Check Out
 **
 boxes.
 
-[Image: /docs/static/attachments/44963521]
+![Image](https://www.cryengine.com/docs/static/attachments/44963521)
 
 Once the *.cry file has been checked out or overwritten using the Sandbox Editor, then the Perforce client should be used to prepare to submit the files.
 
-[#installation-and-setup](
-Installation and Setup
-)
-[#sandbox-settings](
-Sandbox Settings
-)
+[Installation and Setup](#installation-and-setup)
+[Sandbox Settings](#sandbox-settings)

@@ -11,9 +11,7 @@
 Overview
 
 In
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../../../Editor%20Tools/Flow%20Graph.md)
 , you can communicate directly to and from a prefab instance just like an entity by using prefab events. Just create an event inside a prefab, give it a name and then reference the prefab instance as you normally do an entity.
 
 ##
@@ -29,17 +27,17 @@ Prefab:EventSource
 -
 Assign a name to the event
 
-[Image: /docs/static/attachments/51347842]
+![Image](https://www.cryengine.com/docs/static/attachments/51347842)
 
 -
 Outside the prefab's flowgraph, in any entity's flowgraph, select a prefab instance you want to send/receive events from and click "Add Selected Entity":
 
-[Image: /docs/static/attachments/51347843]
+![Image](https://www.cryengine.com/docs/static/attachments/51347843)
 
 -
 Connect logic to the prefab instance events
 
-[Image: /docs/static/attachments/51347844]
+![Image](https://www.cryengine.com/docs/static/attachments/51347844)
 
 ##
 Important notes

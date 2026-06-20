@@ -6,29 +6,21 @@
 
 ## Child Pages
 
-- [Behavior Trees*](AI/Behavior Trees.md)
-- [NavMesh Queries](AI/NavMesh Queries.md)
-- [Universal Debug Recordings (UDR)](AI/Universal Debug Recordings (UDR).md)
-- [Flexible Subsystem Update](AI/Flexible Subsystem Update.md)
+- [Behavior Trees*](AI/Behavior%20Trees.md)
+- [NavMesh Queries](AI/NavMesh%20Queries.md)
+- [Universal Debug Recordings (UDR)](AI/Universal%20Debug%20Recordings%20(UDR).md)
+- [Flexible Subsystem Update](AI/Flexible%20Subsystem%20Update.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/36870704](
-Behavior Trees*
-)
+[Behavior Trees*](AI/Behavior%20Trees.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/44964078](
-NavMesh Queries
-)
+[NavMesh Queries](AI/NavMesh%20Queries.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/44959297](
-Universal Debug Recordings (UDR)
-)
+[Universal Debug Recordings (UDR)](AI/Universal%20Debug%20Recordings%20(UDR).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/44964565](
-Flexible Subsystem Update
-)
+[Flexible Subsystem Update](AI/Flexible%20Subsystem%20Update.md)

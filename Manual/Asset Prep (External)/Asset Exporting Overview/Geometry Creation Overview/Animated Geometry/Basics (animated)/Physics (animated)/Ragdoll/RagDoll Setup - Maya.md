@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934085]
+![Image](https://www.cryengine.com/docs/static/attachments/29934085)
 
 ##
 Overview
@@ -16,22 +16,14 @@ Overview
 Sections
 
 Before we begin, grab the Maya file here:
-[/docs/static/attachments/23994252](
-proxy_man.zip
-)
+[proxy_man.zip](/docs/static/attachments/23994252)
  This file is Y up, but Z up also works, though you must check 'export as Z up' in the exporter.
 
-[Image: /docs/static/attachments/23994253]
+![Image](https://www.cryengine.com/docs/static/attachments/23994253)
 
-[#sections](
-Sections
-)
-[#physics-proxy-setup](
-Physics Proxy Setup
-)
-[#joint-ragdoll-limit-attributes](
-Joint Ragdoll Limit Attributes
-)
+[Sections](#sections)
+[Physics Proxy Setup](#physics-proxy-setup)
+[Joint Ragdoll Limit Attributes](#joint-ragdoll-limit-attributes)
 
 ##
 Physics Proxy Setup
@@ -44,11 +36,11 @@ The phys meshes need to be called '
 **
 '.
 
-[Image: /docs/static/attachments/23994248]
+![Image](https://www.cryengine.com/docs/static/attachments/23994248)
 
 If you're feeling adventurous, or would like to explicitly set the in engine proxy type, you can do so using the UDP button shown in the shelf below. This will allow you to set 'User Defined Properties' for your joint.
 
-[Image: /docs/static/attachments/23994250]
+![Image](https://www.cryengine.com/docs/static/attachments/23994250)
 
 This adds a custom attribute with your UDP info on the joint. The flags you can set are as follows:
 
@@ -82,16 +74,16 @@ Joint Ragdoll Limit Attributes
 
 Let's take a look at the Crytek Maya shelf:
 
-[Image: /docs/static/attachments/23994255]
+![Image](https://www.cryengine.com/docs/static/attachments/23994255)
 
-[Image: /docs/static/attachments/23994247]
+![Image](https://www.cryengine.com/docs/static/attachments/23994247)
 
 If you click 'EXPORT', then select your joints that are parents of the phys geom and click 'Add Attributes', you will now see the following attributes stamped on them:
 
-[Image: /docs/static/attachments/23994251]
+![Image](https://www.cryengine.com/docs/static/attachments/23994251)
 
 The Max value must always be larger than the min value.
 
 Here's a pile of our ragdolls in the SDK build, place them as 'dead body' entities, then disable 'resting' and turn on simulation:
 
-[Image: /docs/static/attachments/23994254]
+![Image](https://www.cryengine.com/docs/static/attachments/23994254)

@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Draw](Debug Nodes/Draw.md)
+- [Draw](Debug%20Nodes/Draw.md)
 
 ## Content
 
@@ -65,33 +65,13 @@ Memory
 
 Used to display video memory data.
 
-[#csvdumper](
-CSVDumper
-)
-[#consolevariable](
-ConsoleVariable
-)
-[#displaymessage](
-DisplayMessage
-)
-[#executestring](
-ExecuteString
-)
-[#floattostring](
-FloatToString
-)
-[#frame](
-Frame
-)
-[#frameextended](
-FrameExtended
-)
-[#inputkey](
-InputKey
-)
-[#log](
-Log
-)
-[#memory](
-Memory
-)
+[CSVDumper](#csvdumper)
+[ConsoleVariable](#consolevariable)
+[DisplayMessage](#displaymessage)
+[ExecuteString](#executestring)
+[FloatToString](#floattostring)
+[Frame](#frame)
+[FrameExtended](#frameextended)
+[InputKey](#inputkey)
+[Log](#log)
+[Memory](#memory)

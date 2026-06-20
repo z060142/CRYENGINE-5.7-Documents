@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934057]
+![Image](https://www.cryengine.com/docs/static/attachments/29934057)
 
 ##
 Overview
@@ -17,18 +17,10 @@ Sections
 
 In order to assist users with determining the optimal polygon counts and texture resolutions of  characters when working on CRYENGINE projects, listed below are the typical budgets used by the video game HUNT: Showdown.
 
-[#sections](
-Sections
-)
-[#triangle-counts](
-Triangle Counts
-)
-[#texture-resolutions](
-Texture Resolutions
-)
-[#drawcallslods](
-Drawcalls/Lods
-)
+[Sections](#sections)
+[Triangle Counts](#triangle-counts)
+[Texture Resolutions](#texture-resolutions)
+[Drawcalls/Lods](#drawcallslods)
 
 ##
 Triangle Counts
@@ -364,7 +356,5 @@ To keep drawcalls to a minimum for the sake of performance efficiency, it's best
 
 -
 It would also be helpful to check out
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310836](
-Asset Performance Guidelines
-)
+[Asset Performance Guidelines](/docs/static/engines/cryengine-3/categories/1114113/pages/1310836)
  as it features more information on what causes drawcalls.

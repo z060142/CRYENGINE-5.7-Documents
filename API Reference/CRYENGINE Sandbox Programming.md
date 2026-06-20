@@ -6,35 +6,25 @@
 
 ## Child Pages
 
-- [Qt Programming](CRYENGINE Sandbox Programming/Qt Programming.md)
-- [Sandbox Framework](CRYENGINE Sandbox Programming/Sandbox Framework.md)
-- [Getting Started with Sandbox Editor Programming](CRYENGINE Sandbox Programming/Getting Started with Sandbox Editor Programming.md)
-- [User Experience Guidelines](CRYENGINE Sandbox Programming/User Experience Guidelines.md)
-- [Developer Tools and Debugging](CRYENGINE Sandbox Programming/Developer Tools and Debugging.md)
+- [Qt Programming](CRYENGINE%20Sandbox%20Programming/Qt%20Programming.md)
+- [Sandbox Framework](CRYENGINE%20Sandbox%20Programming/Sandbox%20Framework.md)
+- [Getting Started with Sandbox Editor Programming](CRYENGINE%20Sandbox%20Programming/Getting%20Started%20with%20Sandbox%20Editor%20Programming.md)
+- [User Experience Guidelines](CRYENGINE%20Sandbox%20Programming/User%20Experience%20Guidelines.md)
+- [Developer Tools and Debugging](CRYENGINE%20Sandbox%20Programming/Developer%20Tools%20and%20Debugging.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875248](
-Getting Started with Sandbox Editor Programming
-)
+[Getting Started with Sandbox Editor Programming](CRYENGINE%20Sandbox%20Programming/Getting%20Started%20with%20Sandbox%20Editor%20Programming.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873248](
-User Experience Guidelines
-)
+[User Experience Guidelines](CRYENGINE%20Sandbox%20Programming/User%20Experience%20Guidelines.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873084](
-Qt Programming
-)
+[Qt Programming](CRYENGINE%20Sandbox%20Programming/Qt%20Programming.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873094](
-Sandbox Framework
-)
+[Sandbox Framework](CRYENGINE%20Sandbox%20Programming/Sandbox%20Framework.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873082](
-Developer Tools and Debugging
-)
+[Developer Tools and Debugging](CRYENGINE%20Sandbox%20Programming/Developer%20Tools%20and%20Debugging.md)

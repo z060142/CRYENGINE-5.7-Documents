@@ -37,7 +37,7 @@ File Types: Specific Options
 **
 :
 
-[Image: /docs/static/attachments/65437907]
+![Image](https://www.cryengine.com/docs/static/attachments/65437907)
 
 *
 *
@@ -120,7 +120,7 @@ Save
 -
 The FBX Export window will now pop up:
 
-[Image: /docs/static/attachments/65437909]
+![Image](https://www.cryengine.com/docs/static/attachments/65437909)
 
 *
 *
@@ -197,7 +197,7 @@ File → Export → Fbx (.fbx)
 -
 The Blender File View window will pop up where you can define what to include in your export:
 
-[Image: /docs/static/attachments/65437910]
+![Image](https://www.cryengine.com/docs/static/attachments/65437910)
 
 *
 Blender File View
@@ -260,13 +260,13 @@ Drag and drop your .fbx file into the CRYENGINE Asset Browser:
 
 By holding Ctrl while dragging and dropping, a window will pop up letting you choose which parts of your character you import:
 
-[Image: /docs/static/attachments/65437914]
+![Image](https://www.cryengine.com/docs/static/attachments/65437914)
 
 *
 Choose parts of character to import
 *
 
-[Image: /docs/static/attachments/65437913]
+![Image](https://www.cryengine.com/docs/static/attachments/65437913)
 
 *
 Dragging and dropping your .fbx file into the Asset Browser
@@ -278,21 +278,10 @@ Wait for the import process to finish and you're done.
 ##
 Video Tutorial
 
-[#prerequisites](
-Prerequisites
-)
-[#export-process-in-maya](
-Export Process in Maya
-)
-[#export-process-in-3ds-max](
-Export Process in 3ds Max
-)
-[#export-process-in-blender](
-Export Process in Blender
-)
-[#import-process-in-cryengine](
-Import Process in CRYENGINE
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=SYfr_MnFecA]
+[Prerequisites](#prerequisites)
+[Export Process in Maya](#export-process-in-maya)
+[Export Process in 3ds Max](#export-process-in-3ds-max)
+[Export Process in Blender](#export-process-in-blender)
+[Import Process in CRYENGINE](#import-process-in-cryengine)
+[Video Tutorial](#video-tutorial)

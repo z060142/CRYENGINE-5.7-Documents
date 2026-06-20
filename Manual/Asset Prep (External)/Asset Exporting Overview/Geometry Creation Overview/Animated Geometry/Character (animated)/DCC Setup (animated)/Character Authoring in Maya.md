@@ -16,9 +16,7 @@ This section covers how to create characters and export from Maya.
 Required Files
 
 Before you read further, be sure that you have downloaded the compressed file at the top of
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307993](
-DCC Setup (animated)
-)
+[DCC Setup (animated)](../DCC%20Setup%20(animated).md)
  for reference.
 
 For the most part,
@@ -30,9 +28,7 @@ CHR
 CGA
 **
 , which will be mentioned later. For a complete overview of the file formats used in CRYENGINE, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959591](
-Art Asset File Types
-)
+[Art Asset File Types](../../../../Art%20Asset%20File%20Types.md)
 .
 
 In addition to dealing with the SDK example files, this tutorial also has notes for those creating their own characters from scratch.
@@ -53,7 +49,7 @@ Important note to Maya 2011+ users
 
 Changes were made to the weight painting tool so now you have to make sure you have no weights with values over 1, if you do you will likely receive a error upon export. This can be fixed by changing the weight normalization methods.
 
-[Image: /docs/static/attachments/23994437]
+![Image](https://www.cryengine.com/docs/static/attachments/23994437)
 
 The joint orientations should be aligned as described:
 
@@ -240,9 +236,9 @@ shoe
 
 -
 Don't forget to build your physicalized skeleton and parent it to your joints. Naming should have _phys at the end of the mesh-skeleton and a physicalized material should be applied (this is how the engine recognizes your physical proxy). The names are used for the phys mesh separate from the skeleton with its appropriate parent frames. The exporter recognizes the names and matches upon export
-[Image: /docs/static/attachments/23994443]
+![Image](https://www.cryengine.com/docs/static/attachments/23994443)
 
-[Image: /docs/static/attachments/23994444]
+![Image](https://www.cryengine.com/docs/static/attachments/23994444)
 
 -
 Ensure that each LOD's skin geometry is bound to the skeleton correctly and animating the skeleton animated each LOD's skin.
@@ -255,7 +251,7 @@ Click the export button on the 'Crytek' toolbar to open the 'Crytek Export' dial
 
 -
 Click the 'Add Attributes' button. After doing so you will notice that attributes will appear on your joints as so:
-[Image: /docs/static/attachments/23994438]
+![Image](https://www.cryengine.com/docs/static/attachments/23994438)
 
 *
  These can be used to modify the way your Ragdoll skeleton reacts in-game.
@@ -269,7 +265,7 @@ Ensure the 'Do Not Merge' option is checked
 
 -
 Click the 'Export' button on the 'Crytek Export' dialog.
-[Image: /docs/static/attachments/23994435]
+![Image](https://www.cryengine.com/docs/static/attachments/23994435)
 
 ##
 Y-up/Z-Up, SceneRoot node, root bone
@@ -354,18 +350,8 @@ Root bone's Y axis: same as SceneRoot's Y axis
 
  |
 
-[#required-files](
-Required Files
-)
-[#file-layout](
-File Layout
-)
-[#deforming-and-phys-skeletons](
-Deforming and Phys Skeletons
-)
-[#basic-setup](
-Basic Setup
-)
-[#y-upz-up-sceneroot-node-root-bone](
-Y-up/Z-Up, SceneRoot node, root bone
-)
+[Required Files](#required-files)
+[File Layout](#file-layout)
+[Deforming and Phys Skeletons](#deforming-and-phys-skeletons)
+[Basic Setup](#basic-setup)
+[Y-up/Z-Up, SceneRoot node, root bone](#y-upz-up-sceneroot-node-root-bone)

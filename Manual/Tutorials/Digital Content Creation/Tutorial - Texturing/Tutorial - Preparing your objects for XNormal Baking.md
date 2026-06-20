@@ -17,7 +17,7 @@ Broken Normal Map Seams
 
 Many times after rendering out a normal map in Xnormal, applying it to the low res mesh and looking it in Cryengine you have normal map seams like in the picture below. In this tutorial we will explain what they are, why they happen and what to do to avoid them.
 
-[Image: /docs/static/attachments/23999598]
+![Image](https://www.cryengine.com/docs/static/attachments/23999598)
 
 As common logic the low poly mesh that is being used to render the high poly box is exactly the same size as the high poly mesh, but xNormal uses the low poly mesh as its rendering cage and there lies the reason why these errors occur.
 
@@ -29,11 +29,11 @@ As you can see the pink lines represent the low poly faces while the green lines
 
 The yellow arrows represent the rays coming from the low poly mesh during rendering in xNormal.
 
-[Image: /docs/static/attachments/23999606]
+![Image](https://www.cryengine.com/docs/static/attachments/23999606)
 
 In the image below you we displayed what actually got captured in the normal map and how it looks on the model.
 
-[Image: /docs/static/attachments/23999607]
+![Image](https://www.cryengine.com/docs/static/attachments/23999607)
 
 There multiple options to solve this, you should choose which one is the most effective for the particular situation.
 
@@ -50,21 +50,21 @@ For more complex assets you should use the "Push" modifier in 3dsMax.
 
 With the push modifier you can specify a more exact setting which works best in most cases plus it can be easily undone or modified.
 
-[Image: /docs/static/attachments/23999608]
+![Image](https://www.cryengine.com/docs/static/attachments/23999608)
 
-[Image: /docs/static/attachments/23999609]
+![Image](https://www.cryengine.com/docs/static/attachments/23999609)
 
-[Image: /docs/static/attachments/23999605]
+![Image](https://www.cryengine.com/docs/static/attachments/23999605)
 
-[Image: /docs/static/attachments/23999610]
+![Image](https://www.cryengine.com/docs/static/attachments/23999610)
 
 The second way to fix that is by adding a bit more of geometry by adding bevels to your low res asset where it's beveled on your high res asset. It will be more costly geometry wise, but it will give you a smoother and better silhouette.
 
 This will also speed up the process compared to the option below, since the rays are being caught correctly due to the bevel offering extra geometry.
 
-[Image: /docs/static/attachments/23999611]
+![Image](https://www.cryengine.com/docs/static/attachments/23999611)
 
-[Image: /docs/static/attachments/23999610]
+![Image](https://www.cryengine.com/docs/static/attachments/23999610)
 
 ##
 How to lay out UVs based on smoothing groups to get a clean normal map using xNormal
@@ -81,30 +81,24 @@ The downside is that by splitting it to it's own UV island leads more expensive 
 
 As a rule of thumb and to compensate for speed it's best to have one UV island per smoothing group.
 
-[Image: /docs/static/attachments/23999612]
+![Image](https://www.cryengine.com/docs/static/attachments/23999612)
 
-[Image: /docs/static/attachments/23999613]
+![Image](https://www.cryengine.com/docs/static/attachments/23999613)
 
-[Image: /docs/static/attachments/23999600]
+![Image](https://www.cryengine.com/docs/static/attachments/23999600)
 
-[Image: /docs/static/attachments/23999599]
+![Image](https://www.cryengine.com/docs/static/attachments/23999599)
 
 Here are the results after assigning multiple smoothing groups and splitting up the UV islands according to it.
 
-[Image: /docs/static/attachments/23999601]
+![Image](https://www.cryengine.com/docs/static/attachments/23999601)
 
-[Image: /docs/static/attachments/23999602]
+![Image](https://www.cryengine.com/docs/static/attachments/23999602)
 
-[Image: /docs/static/attachments/23999603]
+![Image](https://www.cryengine.com/docs/static/attachments/23999603)
 
-[Image: /docs/static/attachments/23999604]
+![Image](https://www.cryengine.com/docs/static/attachments/23999604)
 
-[#broken-normal-map-seams](
-Broken Normal Map Seams
-)
-[#using-a-custom-render-cage-in-xnormal](
-Using a custom render cage in xNormal
-)
-[#how-to-lay-out-uvs-based-on-smoothing-groups-to-get-a-clean-normal-map-using-xnormal](
-How to lay out UVs based on smoothing groups to get a clean normal map using xNormal
-)
+[Broken Normal Map Seams](#broken-normal-map-seams)
+[Using a custom render cage in xNormal](#using-a-custom-render-cage-in-xnormal)
+[How to lay out UVs based on smoothing groups to get a clean normal map using xNormal](#how-to-lay-out-uvs-based-on-smoothing-groups-to-get-a-clean-normal-map-using-xnormal)

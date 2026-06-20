@@ -31,9 +31,7 @@ Sequence files are created either:
 
 -
 by saving a sequence using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-previewer](
-Mannequin Previewer
-)
+[Mannequin Previewer](../../Mannequin%20Editor.md#MannequinEditor-previewer)
 .
 
 -
@@ -42,18 +40,14 @@ by recording gameplay using the
 mn_dump
 *
  console command. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798746](
-Mannequin Debugging
-)
+[Mannequin Debugging](../Mannequin%20Debugging.md)
 .
 
 ##
 Editing Sequence Files
 
 Sequence files are edited in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-previewer](
-Mannequin Previewer
-)
+[Mannequin Previewer](../../Mannequin%20Editor.md#MannequinEditor-previewer)
 .
 
 ##
@@ -115,9 +109,7 @@ FragmentID
 ScopeMask
 *
 attribute: The scopemask requested from mannequin. This typically can be left empty. Scopes are assigned to the fragmentID by the definitions in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition File (xxxControllerDefs.xml)
-)
+[Controller Definition File (xxxControllerDefs.xml)](Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
 .
 
 -
@@ -131,9 +123,7 @@ OptionIdx
 TagState
 *
  attribute: (optional) The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308434](
-FragmentID-specific Tags (fragtags)
-)
+[FragmentID-specific Tags (fragtags)](../Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)
  used during the request.
 
 -
@@ -141,15 +131,11 @@ FragmentID-specific Tags (fragtags)
 Trump
 *
  attribute: (optional) Set to 1 to enable
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450863](
-Mannequin Trumping
-)
+[Mannequin Trumping](../Mannequin%20Concepts/Mannequin%20Trumping.md)
 .
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-Global TagState
-)
+[Global TagState](../Mannequin%20Concepts/Mannequin%20TagState.md)
  changes:
 
 -
@@ -166,9 +152,7 @@ Parameter changes:
 ParamName
 *
  attribute: Contains the name of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-Mannequin Parameter
-)
+[Mannequin Parameter](../Mannequin%20Concepts/Mannequin%20Parameters%20Conditions.md)
 .
 
 -

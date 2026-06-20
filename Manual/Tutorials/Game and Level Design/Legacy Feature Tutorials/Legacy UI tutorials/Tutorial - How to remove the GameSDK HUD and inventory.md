@@ -8,6 +8,6 @@
 ## Content
 
 How to remove the default HUD that ships with the legacy GameSDK sample project as well as the player's weapon. These topics are also covered more recently in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656609](
-Flappy Boid beginner's course.
-)
+[Flappy Boid beginner's course.](../../../Build-A-Game%20Courses/Tutorial%20Series%20-%20Flappy%20Boid%20Beginner%27s%20Course.md)
+
+[Embed: http://youtube.com/watch?v=SlxXYyLexgY]

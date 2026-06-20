@@ -42,7 +42,7 @@ Startup
 
 When you run the Launcher you will be greeted with a screen that looks like the following:
 
-[Image: /docs/static/attachments/44971653]
+![Image](https://www.cryengine.com/docs/static/attachments/44971653)
 
 This is the sample main menu shipped with the SDK which gives you a number of options to adjust. If you'd like to create your own custom menu, we leave it up to you, the developer, to create a menu for your game.
 
@@ -51,14 +51,14 @@ Loading a level
 
 To load a level click on either Singleplayer or Multiplayer, depending on which game mode you wish to play.
 
-[Image: /docs/static/attachments/44971655]
+![Image](https://www.cryengine.com/docs/static/attachments/44971655)
 
 ##
 Hosting/Joining Multiplayer
 
 You can also Host or Join a multiplayer game via the Multiplayer menu.
 
-[Image: /docs/static/attachments/44971654]
+![Image](https://www.cryengine.com/docs/static/attachments/44971654)
 
 ##
 Handy CVars

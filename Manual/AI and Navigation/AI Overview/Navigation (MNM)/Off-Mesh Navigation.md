@@ -7,12 +7,12 @@
 
 ## Child Pages
 
-- [Smart Objects System](Off-Mesh Navigation/Smart Objects System.md)
-- [AI Paths](Off-Mesh Navigation/AI Paths.md)
+- [Smart Objects System](Off-Mesh%20Navigation/Smart%20Objects%20System.md)
+- [AI Paths](Off-Mesh%20Navigation/AI%20Paths.md)
 
 ## Content
 
-[Image: /docs/static/attachments/29933211]
+![Image](https://www.cryengine.com/docs/static/attachments/29933211)
 
 ##
 Overview
@@ -21,13 +21,9 @@ Overview
 Sections
 
 Off-Mesh Navigation implies AI traversing inside the game world which is not using the Multilayer Navigation Mesh system. There are two main methods of this,
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048823#AIControlObjects-SmartObject](
-Smart Objects
-)
+[Smart Objects](/docs/static/engines/cryengine-3/categories/1114113/pages/1048823#AIControlObjects-SmartObject)
  and
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048823#AIControlObjects-AIPath](
-AI Paths
-)
+[AI Paths](/docs/static/engines/cryengine-3/categories/1114113/pages/1048823#AIControlObjects-AIPath)
 .
 
 Navigational
@@ -44,15 +40,9 @@ Stalker
 
 AI Paths are simpler to setup and don't require any additional animations, but both options have their pros and cons.
 
-[#sections](
-Sections
-)
-[#smart-objects](
-Smart Objects
-)
-[#ai-paths](
-AI Paths
-)
+[Sections](#sections)
+[Smart Objects](#smart-objects)
+[AI Paths](#ai-paths)
 
 ##
 Smart Objects
@@ -60,9 +50,7 @@ Smart Objects
 When adding a Smart Object, make sure its entry and exit points are within the navigation mesh area. An incorrectly placed Smart Object will flash red.
 
 For an AI character to be able to use the Smart Object, its
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048689](
-agent type
-)
+[agent type](/docs/static/engines/cryengine-3/categories/1114113/pages/1048689)
  definition should list one or more
 *
 Smart Object User Classes
@@ -130,9 +118,7 @@ red
 AI Paths
 
 It is also possible to use
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048823#AIControlObjects-AIPath](
-AI Paths
-)
+[AI Paths](/docs/static/engines/cryengine-3/categories/1114113/pages/1048823#AIControlObjects-AIPath)
  for off-mesh navigation. This can be useful for intersecting multiple separate MNM areas, if AI need to traverse between them.
 
 Care should be taken when using AI Paths in this manner however. If an AI manages to get into combat during the AI Path travels, they can become stuck as they have no freedom of movement like they would inside an MNM area.

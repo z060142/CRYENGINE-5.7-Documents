@@ -38,9 +38,5 @@ Ignore Collision With
 Whether or not the spawned entity should ignore collisions with the entity.
  |
 
-[#child-entity](
-Child Entity
-)
-[#on-this-page](
-On This Page.
-)
+[Child Entity](#child-entity)
+[On This Page.](#on-this-page)

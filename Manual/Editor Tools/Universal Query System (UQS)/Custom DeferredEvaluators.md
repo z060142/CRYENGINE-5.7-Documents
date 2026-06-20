@@ -162,12 +162,6 @@ UQS::Client::CFactoryRegistrationHelper::RegisterAllFactoryInstancesInHub()
 
 This is the same process as is already done when exposing item factories to the UQS core.
 
-[#evaluation-modality-and-cost-category](
-Evaluation Modality and Cost Category
-)
-[#example-deferredevaluator-testraycast](
-Example DeferredEvaluator: TestRaycast
-)
-[#registering-deferredevaluators](
-Registering DeferredEvaluators
-)
+[Evaluation Modality and Cost Category](#evaluation-modality-and-cost-category)
+[Example DeferredEvaluator: TestRaycast](#example-deferredevaluator-testraycast)
+[Registering DeferredEvaluators](#registering-deferredevaluators)

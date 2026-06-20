@@ -12,9 +12,7 @@ Overview
 
 This tutorial covers how to fine tune the tones and colors in the final rendered image of your level using the
 
-[https://web.archive.org/web/20201001224516/https://docs.cryengine.com/display/CEMANUAL/Environment+Editor](
-Environment Editor
-)
+[Environment Editor](https://web.archive.org/web/20201001224516/https://docs.cryengine.com/display/CEMANUAL/Environment+Editor)
  and Photoshop to provide a custom lookup table.
 
 The procedure is to use Photoshop to modify the standard color chart below while consulting reference images of your game, to export the modified color chart as a CryTIFF file, and finally to activate the color grade in the Engine.
@@ -29,9 +27,7 @@ last step
 
 in the configuration of your environment preset. Please see the
 
-[https://web.archive.org/web/20201001224516/https://docs.cryengine.com/display/CEMANUAL/Tutorial+-+Environment+Editor+Part+5+-+Color+Grading#Tutorial-EnvironmentEditorPart5-ColorGrading-practices](
-Photoshop Best Practices
-)
+[Photoshop Best Practices](https://web.archive.org/web/20201001224516/https://docs.cryengine.com/display/CEMANUAL/Tutorial+-+Environment+Editor+Part+5+-+Color+Grading#Tutorial-EnvironmentEditorPart5-ColorGrading-practices)
 
 section below for more information.
 
@@ -40,7 +36,7 @@ Standard Color Chart
 
 The entire basis for this workflow is the color chart image below, which you need to download by right-clicking on and saving it.
 
-[Image: /docs/static/attachments/65437778]
+![Image](https://www.cryengine.com/docs/static/attachments/65437778)
 
 Do not modify this image! You'll use this to create a lookup table in a Photoshop document, detailed in the following steps.
 
@@ -74,13 +70,13 @@ sRGB color profile
 **
 
 to your file to insure consistent color throughout the workflow.
-[Image: /docs/static/attachments/65437974]
+![Image](https://www.cryengine.com/docs/static/attachments/65437974)
 
 *
 Photoshop - New document
 *
 
-[Image: /docs/static/attachments/65437975]
+![Image](https://www.cryengine.com/docs/static/attachments/65437975)
 
  |
 
@@ -171,9 +167,7 @@ _cch.tif
 
 to the filename so the
 
-[https://web.archive.org/web/20201001224516/https://docs.cryengine.com/display/CEMANUAL/Resource+Compiler](
-Resource Compiler
-)
+[Resource Compiler](https://web.archive.org/web/20201001224516/https://docs.cryengine.com/display/CEMANUAL/Resource+Compiler)
 
 will automatically choose the correct shader. Set the path as follows in your project folder:
 
@@ -210,7 +204,7 @@ Generate Output
 **
 
 (not the OK button) to export your file.
-[Image: /docs/static/attachments/65437801]
+![Image](https://www.cryengine.com/docs/static/attachments/65437801)
 
 *
 Resource Compiler
@@ -262,13 +256,11 @@ r_ColorGrading 2
 
 There are several ways to activate your custom color grade:
 
-[Image: /docs/static/attachments/65437806]
+![Image](https://www.cryengine.com/docs/static/attachments/65437806)
 
  |
 Add it to an environment preset in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658466](
-Environment Editor
-)
+[Environment Editor](../../../../Editor%20Tools/Environment%20Editor.md)
 , under
 
 **
@@ -305,7 +297,7 @@ Color Grading → Use Static Texture
 property on/off.
  |
 
-[Image: /docs/static/attachments/65437808]
+![Image](https://www.cryengine.com/docs/static/attachments/65437808)
 
  |
 Type
@@ -332,7 +324,7 @@ files or
 file. Just be aware that with this method, there is no guarantee that the correct environment preset on which your color grade is based is currently loaded.
  |
 
-[Image: /docs/static/attachments/65437811]
+![Image](https://www.cryengine.com/docs/static/attachments/65437811)
 
  |
 Use Flow Graph's
@@ -395,9 +387,7 @@ split tone an image with cool shadows and warm highlights;
 or create a color grade to desaturate all colors and change all shadows and highlights past a threshold you choose to a colorful overlay; this helps identifying clipping or extreme tones that you might want to adjust lighting before beginning the actual color grade process.
 You can see examples of these debugging color grades in the free
 
-[https://web.archive.org/web/20201001224516/https://www.cryengine.com/marketplace/product/CRYENGINE%20GameSDK%20Sample%20Project](
-GameSDK
-)
+[GameSDK](https://web.archive.org/web/20201001224516/https://www.cryengine.com/marketplace/product/CRYENGINE%20GameSDK%20Sample%20Project)
 's
 
 **
@@ -489,7 +479,7 @@ not
 **
 
 to use layer masks in your Photoshop adjustment layers, as your color grade will be applied globally, not locally.
-[Image: /docs/static/attachments/65437795]
+![Image](https://www.cryengine.com/docs/static/attachments/65437795)
 
  |
 You can standardize on a system of using Photoshop's layer colors to tag adjustments with colors whose meaning your studio has agreed upon: deprecated, not used, in progress, alternative, etc.
@@ -544,7 +534,7 @@ Alt
 key
 :
 
-[Image: /docs/static/attachments/65437976]
+![Image](https://www.cryengine.com/docs/static/attachments/65437976)
 
 - you'll be prompted to choose a
 
@@ -564,9 +554,9 @@ layer opacity
 **
 :
 
-[Image: /docs/static/attachments/65437977]
+![Image](https://www.cryengine.com/docs/static/attachments/65437977)
 
-[Image: /docs/static/attachments/65437788]
+![Image](https://www.cryengine.com/docs/static/attachments/65437788)
 
  |
 Photoshop's blending modes provide independent control over hue, saturation, and tonal changes. For example, adding contrast in a
@@ -670,27 +660,12 @@ Video Tutorial
 
 This tutorial is also available in video form on our YouTube channel here:
 
-[#standard-color-chart](
-Standard Color Chart
-)
-[#steps](
-Steps
-)
-[#exporting-the-new-lookup-table](
-Exporting the New Lookup Table
-)
-[#loading-the-lookup-table-in-cryengine](
-Loading the Lookup Table in CRYENGINE
-)
-[#important-facts](
-Important Facts
-)
-[#best-practices](
-Best Practices
-)
-[#troubleshooting](
-Troubleshooting
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=FeUMMplNcuo&feature=emb_logo]
+[Standard Color Chart](#standard-color-chart)
+[Steps](#steps)
+[Exporting the New Lookup Table](#exporting-the-new-lookup-table)
+[Loading the Lookup Table in CRYENGINE](#loading-the-lookup-table-in-cryengine)
+[Important Facts](#important-facts)
+[Best Practices](#best-practices)
+[Troubleshooting](#troubleshooting)
+[Video Tutorial](#video-tutorial)

@@ -365,7 +365,7 @@ Vec3
 *
  as shown.
 
-[Image: /docs/static/attachments/44958393]
+![Image](https://www.cryengine.com/docs/static/attachments/44958393)
 
 *
 Blackboard entries
@@ -393,18 +393,8 @@ Shared variables:
 Limited debug system
 **
 : Only Blackboard entries of a specific subset of types are shown when debugging.
-[#blackboard-interface](
-Blackboard Interface
-)
-[#get-the-blackboard](
-Get The Blackboard
-)
-[#example](
-Example
-)
-[#debug](
-Debug
-)
-[#limitations](
-Limitations
-)
+[Blackboard Interface](#blackboard-interface)
+[Get The Blackboard](#get-the-blackboard)
+[Example](#example)
+[Debug](#debug)
+[Limitations](#limitations)

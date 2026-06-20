@@ -7,17 +7,17 @@
 
 ## Child Pages
 
-- [Modular Behavior Tree](CryAISystem/Modular Behavior Tree.md)
-- [Multi-Layer Navigation Mesh (MNM)](CryAISystem/Multi-Layer Navigation Mesh (MNM).md)
-- [Movement System](CryAISystem/Movement System.md)
+- [Modular Behavior Tree](CryAISystem/Modular%20Behavior%20Tree.md)
+- [Multi-Layer Navigation Mesh (MNM)](CryAISystem/Multi-Layer%20Navigation%20Mesh%20(MNM).md)
+- [Movement System](CryAISystem/Movement%20System.md)
 - [Signals](CryAISystem/Signals.md)
-- [Obsolete AI Documentation](CryAISystem/Obsolete AI Documentation.md)
-- [AI Bubbles System](CryAISystem/AI Bubbles System.md)
-- [Tactical Point System](CryAISystem/Tactical Point System.md)
-- [AI Communication](CryAISystem/AI Communication.md)
+- [Obsolete AI Documentation](CryAISystem/Obsolete%20AI%20Documentation.md)
+- [AI Bubbles System](CryAISystem/AI%20Bubbles%20System.md)
+- [Tactical Point System](CryAISystem/Tactical%20Point%20System.md)
+- [AI Communication](CryAISystem/AI%20Communication.md)
 - [Auto-disable](CryAISystem/Auto-disable.md)
 - [Factions](CryAISystem/Factions.md)
-- [Cluster Detector](CryAISystem/Cluster Detector.md)
+- [Cluster Detector](CryAISystem/Cluster%20Detector.md)
 
 ## Content
 
@@ -29,80 +29,48 @@ The AI system in CRYENGINE is composed of several internal subsystems that build
 ##
 Highlights
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306488](
-Modular Behavior Tree
-)
+[Modular Behavior Tree](CryAISystem/Modular%20Behavior%20Tree.md)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24281120](
-Multi-Layer Navigation Mesh (MNM)
-)
+[Multi-Layer Navigation Mesh (MNM)](CryAISystem/Multi-Layer%20Navigation%20Mesh%20(MNM).md)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23310535](
-Movement System
-)
+[Movement System](CryAISystem/Movement%20System.md)
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306474](
-Tactical Point System
-)
+[Tactical Point System](CryAISystem/Tactical%20Point%20System.md)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306472](
-AI Bubbles System
-)
+[AI Bubbles System](CryAISystem/AI%20Bubbles%20System.md)
 
  |
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306488](
-Modular Behavior Tree
-)
+[Modular Behavior Tree](CryAISystem/Modular%20Behavior%20Tree.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24281120](
-Multi-Layer Navigation Mesh (MNM)
-)
+[Multi-Layer Navigation Mesh (MNM)](CryAISystem/Multi-Layer%20Navigation%20Mesh%20(MNM).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23310535](
-Movement System
-)
+[Movement System](CryAISystem/Movement%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306472](
-AI Bubbles System
-)
+[AI Bubbles System](CryAISystem/AI%20Bubbles%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306474](
-Tactical Point System
-)
+[Tactical Point System](CryAISystem/Tactical%20Point%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306491](
-AI Communication
-)
+[AI Communication](CryAISystem/AI%20Communication.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306465](
-Auto-disable
-)
+[Auto-disable](CryAISystem/Auto-disable.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306494](
-Factions
-)
+[Factions](CryAISystem/Factions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306492](
-Signals
-)
+[Signals](CryAISystem/Signals.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306460](
-Cluster Detector
-)
+[Cluster Detector](CryAISystem/Cluster%20Detector.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306466](
-Obsolete AI Documentation
-)
+[Obsolete AI Documentation](CryAISystem/Obsolete%20AI%20Documentation.md)

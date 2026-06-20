@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933204]
+![Image](https://www.cryengine.com/docs/static/attachments/29933204)
 
 ##
 Overview
@@ -21,54 +21,22 @@ The AI control objects are mostly used with the flow graph scripting feature to 
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#aianchor](
-AIAnchor
-)
-[#aihorizontalocclusionplane](
-AIHorizontalOcclusionPlane
-)
-[#ainavigationmodifier-obsolete](
-AINavigationModifier (Obsolete)
-)
-[#aipath](
-AIPath
-)
-[#aiperceptionmodifier](
-AIPerceptionModifier
-)
-[#aipoint-obsolete](
-AIPoint (Obsolete)
-)
-[#aireinforcementspot](
-AIReinforcementSpot
-)
-[#aishape](
-AIShape
-)
-[#coversurface](
-CoverSurface
-)
-[#navigationarea](
-NavigationArea
-)
-[#navigationseedpoint](
-NavigationSeedPoint
-)
-[#smartobject](
-SmartObject
-)
-[#tagpoint](
-Tagpoint
-)
-[#forbidden-area-obsolete](
-Forbidden Area (Obsolete)
-)
-[#forbidden-boundary-obsolete](
-Forbidden Boundary (Obsolete)
-)
+[Sections](#sections)
+[AIAnchor](#aianchor)
+[AIHorizontalOcclusionPlane](#aihorizontalocclusionplane)
+[AINavigationModifier (Obsolete)](#ainavigationmodifier-obsolete)
+[AIPath](#aipath)
+[AIPerceptionModifier](#aiperceptionmodifier)
+[AIPoint (Obsolete)](#aipoint-obsolete)
+[AIReinforcementSpot](#aireinforcementspot)
+[AIShape](#aishape)
+[CoverSurface](#coversurface)
+[NavigationArea](#navigationarea)
+[NavigationSeedPoint](#navigationseedpoint)
+[SmartObject](#smartobject)
+[Tagpoint](#tagpoint)
+[Forbidden Area (Obsolete)](#forbidden-area-obsolete)
+[Forbidden Boundary (Obsolete)](#forbidden-boundary-obsolete)
 
 ##
 AIAnchor
@@ -263,9 +231,7 @@ AINavigationModifier (Obsolete)
 
 Obsolete
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048583](
-Multi-Layer Navigation Areas
-)
+[Multi-Layer Navigation Areas](/docs/static/engines/cryengine-3/categories/1114113/pages/1048583)
  for more information.
 The AINavigationModifier is used to alter the navigation setup of a level for special navigational setup, such as internal areas, flight navigation, and water navigation.
 
@@ -671,9 +637,7 @@ AIPoint (Obsolete)
 
 Obsolete
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048583](
-Multi-Layer Navigation Areas
-)
+[Multi-Layer Navigation Areas](/docs/static/engines/cryengine-3/categories/1114113/pages/1048583)
  for more information.
 An AI Point is an object used within a Navigation Modifier, which is to generate points for the AI to navigate between.
 
@@ -1180,18 +1144,14 @@ Limit Height = 1.6
 NavigationArea
 
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048583](
-Multi-Layer Navigation Areas
-)
+[Multi-Layer Navigation Areas](/docs/static/engines/cryengine-3/categories/1114113/pages/1048583)
  for more information.
 
 ##
 NavigationSeedPoint
 
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048583](
-Multi-Layer Navigation Areas
-)
+[Multi-Layer Navigation Areas](/docs/static/engines/cryengine-3/categories/1114113/pages/1048583)
  for more information.
 
 ##
@@ -1241,9 +1201,7 @@ Forbidden Area (Obsolete)
 
 Obsolete
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048583](
-Multi-Layer Navigation Areas
-)
+[Multi-Layer Navigation Areas](/docs/static/engines/cryengine-3/categories/1114113/pages/1048583)
  for more information.
 A forbidden area a shape type object, which is projected onto the terrain, defining areas in the level in which AI will not go into and will try and avoid.
 
@@ -1332,9 +1290,7 @@ Forbidden Boundary (Obsolete)
 
 Obsolete
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048583](
-Multi-Layer Navigation Areas
-)
+[Multi-Layer Navigation Areas](/docs/static/engines/cryengine-3/categories/1114113/pages/1048583)
  for more information.
 A forbidden boundary is a shape type object, which can be used to define borders in your level which AI will not cross over. Unlike a Forbidden Area, an AI character will not try and leave the area inside a forbidden boundary.
 

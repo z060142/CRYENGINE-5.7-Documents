@@ -6,11 +6,11 @@
 
 ## Child Pages
 
-- ["GI Without Voxels" Mode](Beta Features/GI Without Voxels Mode.md)
-- [Schematyc](Beta Features/Schematyc.md)
-- [Sensor System (Plugin)](Beta Features/Sensor System (Plugin).md)
-- [Plugin System](Beta Features/Plugin System.md)
-- [Vulkan Support in CRYENGINE](Beta Features/Vulkan Support in CRYENGINE.md)
+- ["GI Without Voxels" Mode](Beta%20Features/GI%20Without%20Voxels%20Mode.md)
+- [Schematyc](Beta%20Features/Schematyc.md)
+- [Sensor System (Plugin)](Beta%20Features/Sensor%20System%20(Plugin).md)
+- [Plugin System](Beta%20Features/Plugin%20System.md)
+- [Vulkan Support in CRYENGINE](Beta%20Features/Vulkan%20Support%20in%20CRYENGINE.md)
 
 ## Content
 
@@ -31,29 +31,19 @@ We really would like to hear what you think about our Beta Features so please ad
 **
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25536008](
-"GI Without Voxels" Mode
-)
+["GI Without Voxels" Mode](Beta%20Features/GI%20Without%20Voxels%20Mode.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26875020](
-Schematyc
-)
+[Schematyc](Beta%20Features/Schematyc.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26217401](
-Sensor System (Plugin)
-)
+[Sensor System (Plugin)](Beta%20Features/Sensor%20System%20(Plugin).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591236](
-Plugin System
-)
+[Plugin System](Beta%20Features/Plugin%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594203](
-Vulkan Support in CRYENGINE
-)
+[Vulkan Support in CRYENGINE](Beta%20Features/Vulkan%20Support%20in%20CRYENGINE.md)
 **
 
 **

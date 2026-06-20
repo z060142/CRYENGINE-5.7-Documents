@@ -14,9 +14,7 @@ Released October 17th, 2011.
 
 -
 Added ability to save levels to Projects for use with
-[http://www.crydev.net/project_db.php?action=teams](
-CryDev Projects Database
-)
+[CryDev Projects Database](http://www.crydev.net/project_db.php?action=teams)
 
 -
 Added redundancy for logoff to prevent “Account Locked” errors

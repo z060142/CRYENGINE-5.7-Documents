@@ -18,7 +18,7 @@ Effect Graph
 **
 .
 
-[Image: /docs/static/attachments/44107807]
+![Image](https://www.cryengine.com/docs/static/attachments/44107807)
 
 ##
 Particle Preset Options
@@ -367,20 +367,10 @@ Default Component
 The most basic component node. The component that is automatically created when a new effect is introduced to the editor.
 
 For more information on the Particle Editor's node references, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-Particle Effect Features
-)
+[Particle Effect Features](Particle%20Effect%20Features.md)
 .
 
-[#particle-preset-options](
-Particle Preset Options
-)
-[#advanced-folder](
-Advanced Folder
-)
-[#default-folder](
-Default Folder
-)
-[#default-component](
-Default Component
-)
+[Particle Preset Options](#particle-preset-options)
+[Advanced Folder](#advanced-folder)
+[Default Folder](#default-folder)
+[Default Component](#default-component)

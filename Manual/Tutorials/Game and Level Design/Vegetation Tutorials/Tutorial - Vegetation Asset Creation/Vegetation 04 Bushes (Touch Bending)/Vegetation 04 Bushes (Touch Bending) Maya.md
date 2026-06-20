@@ -14,7 +14,7 @@ This page will cover the Maya pipeline for getting vegetation assets with touch 
 
 The touch bending system is used to simulate deforming vegetation. It is required that your geometry should have clean UVs laid out. Touch bending physics relies on simulated joint chains or branches which are marked by locators snapped onto the vertices (and its UVs) of the vegetation geometry, e.g. the leaves. Whenever the leaf geometry (along with its Uvs) is duplicated, the topology has not changed. So, each duplicated leaf can use the same deforming joint chain/branch. This saves you a lot of effort in the rigging process of the leaves/branches.
 
-[Image: /docs/static/attachments/26510091]
+![Image](https://www.cryengine.com/docs/static/attachments/26510091)
 
 *
 Pic1: Touch Bending in action (with physics debug info displayed: F10 or p_draw_helper=1)
@@ -26,9 +26,7 @@ Tutorial Files
 Source Maya scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25523840](
-GameSDK_vegtut04_files.zip
-)
+[GameSDK_vegtut04_files.zip](/docs/static/attachments/25523840)
 **
 
 ##
@@ -37,24 +35,16 @@ Prerequisites for this Tutorial
 Before you continue with this tutorial, make sure to have read and understood the following:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963475](
-How to Install CryMayaTools
-)
+[How to Install CryMayaTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308292](
-The Basic CRYENGINE Maya Workflow
-)
+[The Basic CRYENGINE Maya Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205569](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools/CRYENGINE%20User%20Interface%20in%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-Maya Unit Scale to Match up With CRYENGINE Unit System
-)
+[Maya Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Helpful Information
@@ -176,7 +166,7 @@ Material Group
 **
  and have Maya shaders assigned to it. We need two shaders this time, one for the vegetation and one for the activation proxy mesh. Provide the Material Group and its shader some appropriate names, so you can locate them later using that name. You may want to reduce the opacity of your proxy shader to easily spot it.
 
-[Image: /docs/static/attachments/24157172]
+![Image](https://www.cryengine.com/docs/static/attachments/24157172)
 
 *
 Pic2: Material Setup
@@ -280,7 +270,7 @@ ID 02
 Extra Attribute -> Physicalize: NoCollide
 **
 .
-[Image: /docs/static/attachments/24157173]
+![Image](https://www.cryengine.com/docs/static/attachments/24157173)
 
 *
 Pic3: Proxy shader setup to activate touch bending
@@ -310,7 +300,7 @@ Generate Material Files
  file.
 
 *
-[Image: /docs/static/attachments/24157174]
+![Image](https://www.cryengine.com/docs/static/attachments/24157174)
 
 Pic4: Export Material to CRYENGINE
 
@@ -410,7 +400,7 @@ branch1_#
 **
  child locators for the reference leaf only once.
 *
-[Image: /docs/static/attachments/24157176]
+![Image](https://www.cryengine.com/docs/static/attachments/24157176)
 
 Pic5: One example of a final exportable hierarchy in Maya
 
@@ -421,7 +411,7 @@ Add the reference leaf mesh object and create UVs
 
 Using the provided fern diffuse texture and/or the leaf mesh from the previous vegetation tutorial (detail bending), you can easily model the geometry and layout the fern leaf UVs correctly.
 
-[Image: /docs/static/attachments/24157177]
+![Image](https://www.cryengine.com/docs/static/attachments/24157177)
 
 *
 Pic6: A simple leaf mesh
@@ -460,7 +450,7 @@ branch
 **
  spline/bone chain generation. Adding more Locators will improve the deformation, but in most cases, three locators will suffice.
 
-[Image: /docs/static/attachments/24157179]
+![Image](https://www.cryengine.com/docs/static/attachments/24157179)
 
 *
 Pic7: vertex snap locators to the mesh vertices and use the "branch#_#" naming convention
@@ -475,7 +465,7 @@ Deformers
 **
  (Non-Linear deformers, Wire, Lattice, Soft Modification) on the duplicated leaves. In our case, we have only used the three standard transforms.
 
-[Image: /docs/static/attachments/24157178]
+![Image](https://www.cryengine.com/docs/static/attachments/24157178)
 
 *
 Pic8: duplicated leaf meshes including their child locators
@@ -532,14 +522,14 @@ Adding/Removing/Collapsing new vertices/edges/faces, so that the UVs of the leaf
 Below we will show you some useful examples how you can add more variety to your touch bending vegetation.
 
 *
-[Image: /docs/static/attachments/24157180]
+![Image](https://www.cryengine.com/docs/static/attachments/24157180)
 
 Pic9: Example of non-destructive modifications to instancing: deleting faces
 *
 
 *
 *
-[Image: /docs/static/attachments/24157181]
+![Image](https://www.cryengine.com/docs/static/attachments/24157181)
 
 Pic10: Example of non-destructive modifications to instancing: standard transforms (transloate/rotate/scale)
 *
@@ -549,7 +539,7 @@ Pic10: Example of non-destructive modifications to instancing: standard transfor
 *
 *
 *
-[Image: /docs/static/attachments/24157182]
+![Image](https://www.cryengine.com/docs/static/attachments/24157182)
 
 Pic11: Example of non-destructive modifications to instancing: Bend deformer & standard transforms (transloate/rotate/scale)
 *
@@ -570,7 +560,7 @@ branch#_#
  child locators and parent them under the new reference leaf mesh node. Otherwise, these leaves will not get any touch bending.
 
 *
-[Image: /docs/static/attachments/24157183]
+![Image](https://www.cryengine.com/docs/static/attachments/24157183)
 
 Pic12: Example of modifications where you lose instancing: adding more "branch#_#" locators and/or moving UVs
 
@@ -602,7 +592,7 @@ Group the proxy geometry under the
 Pic5.
 *
 *
-[Image: /docs/static/attachments/24157184]
+![Image](https://www.cryengine.com/docs/static/attachments/24157184)
 
 Pic12: Proxy geometry to trigger touch bending physics
 *
@@ -625,7 +615,7 @@ Adjusting the vegetation geometry location
 To help the bush fit into the scene when we move the vegetation object to a level, it is recommended to move the vegetation up slightly, so that the base of the plant actually sits underneath the terrain. This avoids the possibility of seeing the bottom of the bush hovering in the air.
 
 *
-[Image: /docs/static/attachments/24157187]
+![Image](https://www.cryengine.com/docs/static/attachments/24157187)
 
 Pic13:
  Placing the asset into the scene
@@ -646,7 +636,7 @@ branch#_#
 
 Try to keep the non-physicalized leaves closer to the ground so their non-interactivity is hidden under the physicalized ones. This way it is less noticeable and looks more realistic.
 *
-[Image: /docs/static/attachments/24157185]
+![Image](https://www.cryengine.com/docs/static/attachments/24157185)
 
 Pic14: No touch bending because of different UV coordinates and no branch locators
 
@@ -689,7 +679,7 @@ We have also included the detail bending feature from the last vegetation tutori
 
 Here is an example of how your final asset may look like.
 
-[Image: /docs/static/attachments/24157186]
+![Image](https://www.cryengine.com/docs/static/attachments/24157186)
 
 *
 Pic15: Final asset
@@ -702,28 +692,12 @@ We have now finished the setup for the 3dsMax portion of the tutorial. To contin
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285900](
-Vegetation 04 Bushes (Touch Bending) CRYENGINE
-)
+[Vegetation 04 Bushes (Touch Bending) CRYENGINE](Vegetation%2004%20Bushes%20(Touch%20Bending)%20CRYENGINE.md)
 **
-[#tutorial-files](
-Tutorial Files
-)
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-maya-setup](
-Initial Maya setup
-)
-[#material](
-Material
-)
-[#geometry](
-Geometry
-)
-[#continue-to-cryengine](
-Continue to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Helpful Information](#helpful-information)
+[Initial Maya setup](#initial-maya-setup)
+[Material](#material)
+[Geometry](#geometry)
+[Continue to CRYENGINE](#continue-to-cryengine)

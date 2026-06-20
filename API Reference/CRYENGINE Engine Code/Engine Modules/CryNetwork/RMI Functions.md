@@ -145,7 +145,7 @@ POSTATTACH
 NOATTACH
 **
  can fall either side of the below, but never inbetween.
-[Image: /docs/static/attachments/23461154]
+![Image](https://www.cryengine.com/docs/static/attachments/23461154)
 
 ##
 Invoking a RMI function

@@ -12,31 +12,23 @@ Overview
 
 After completing this tutorial, you will be able to set up an objective for use within a game level. This tutorial assumes that the reader has a basic knowledge of the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../../../../Editor%20Tools/Flow%20Graph.md)
 **
  and
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308620](
-Object Placement
-)
+[Object Placement](../../../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Transforming%20Objects.md)
 **
 .
 
 This tutorial may rely on the GameSDK Sample Project. We recommend that you download this from the
 **
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
 **
 , import it into your Launcher, start it from there and then create a new level.
 
 See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870288](
-this page
-)
+[this page](/docs/static/engines/cryengine-5/categories/23756816/pages/36870288)
 **
  to find out how to import a project to your Launcher. (The default folder for the GameSDK Sample Project when downloaded is
 `
@@ -189,9 +181,7 @@ An example is shown below:
 
 Please refer to the
 **
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605694](
-UI Localization Documentation
-)
+[UI Localization Documentation](/docs/static/engines/cryengine-3/categories/1638401/pages/1605694)
 **
  for more information on the localization system.
 
@@ -264,7 +254,7 @@ Sometimes, depending on the amount of levels you want to ship with your game, th
 
 For example: the Woodland level shipped with the GameSDK Sample Project contains its own dedicated objectives.xml file save within the woodland\leveldata folder.
 
-[Image: /docs/static/attachments/25506207]
+![Image](https://www.cryengine.com/docs/static/attachments/25506207)
 
 *
 Pic1: Objectives.xml in GameSDK Sample Project
@@ -296,21 +286,13 @@ Mission Objectives Browser
 **
  button, shown in the image below. In the MissionID field, click the button to open the browser to select the missionID you want to assign to this objective entity.
 
-[Image: /docs/static/attachments/25507135]
+![Image](https://www.cryengine.com/docs/static/attachments/25507135)
 
 *
 Pic2: Mission Objective browser button
 *
 
-[#how-to-create-a-custom-objective-text-for-a-level](
-How to Create a Custom Objective Text for a Level
-)
-[#example](
-Example
-)
-[#level-specific-objectivexml](
-Level-Specific Objective.xml
-)
-[#mission-objective-entity](
-Mission Objective Entity
-)
+[How to Create a Custom Objective Text for a Level](#how-to-create-a-custom-objective-text-for-a-level)
+[Example](#example)
+[Level-Specific Objective.xml](#level-specific-objectivexml)
+[Mission Objective Entity](#mission-objective-entity)

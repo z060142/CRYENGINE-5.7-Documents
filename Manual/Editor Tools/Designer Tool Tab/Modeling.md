@@ -10,7 +10,7 @@
 - [Advanced](Modeling/Advanced.md)
 - [Shapes](Modeling/Shapes.md)
 - [Selection](Modeling/Selection.md)
-- [General Properties](Modeling/General Properties.md)
+- [General Properties](Modeling/General%20Properties.md)
 
 ## Content
 
@@ -48,7 +48,7 @@ Properties
 **
  tool:
 
-[Image: /docs/static/attachments/44967927]
+![Image](https://www.cryengine.com/docs/static/attachments/44967927)
 By default all buttons in the DesignerTool are inactive unless a Designer type object is selected in the viewport. The exception here are the tools in the
 **
 Shapes
@@ -62,7 +62,7 @@ Shapes
 The Modeling tool has plenty of options to make and edit solid shapes:
 
 *
-[Image: /docs/static/attachments/28248533]
+![Image](https://www.cryengine.com/docs/static/attachments/28248533)
 
 *
 
@@ -83,21 +83,13 @@ Advanced
 We'll discuss all of these separately on their own subpages, except for the tool-specific properties, as they change depending on which tool is selected.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447](
-Shapes
-)
+[Shapes](Modeling/Shapes.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450449](
-Selection
-)
+[Selection](Modeling/Selection.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450451](
-Advanced
-)
+[Advanced](Modeling/Advanced.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450461](
-General Properties
-)
+[General Properties](Modeling/General%20Properties.md)

@@ -20,7 +20,7 @@ Selection
 section of the Designer tool lets you edit the basic shapes that you made with the tools in the Shapes section.
 
 *
-[Image: /docs/static/attachments/28900539]
+![Image](https://www.cryengine.com/docs/static/attachments/28900539)
 
 *
 
@@ -134,9 +134,7 @@ World
 Custom
 **
  coordinates. For more information on the Coordinate System, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308619](
-this page
-)
+[this page](../../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Coordinate%20Systems.md)
 .
 
 Holding
@@ -149,24 +147,24 @@ Move
 **
  mode - moves the elements:
 
-[Image: /docs/static/attachments/28900586]
-[Image: /docs/static/attachments/28900585]
+![Image](https://www.cryengine.com/docs/static/attachments/28900586)
+![Image](https://www.cryengine.com/docs/static/attachments/28900585)
 
 **
 Rotate
 **
  mode - rotates the elements:
 
-[Image: /docs/static/attachments/28900584]
-[Image: /docs/static/attachments/28900583]
+![Image](https://www.cryengine.com/docs/static/attachments/28900584)
+![Image](https://www.cryengine.com/docs/static/attachments/28900583)
 
 **
 Scale
 **
  mode - scales the elements:
 
-[Image: /docs/static/attachments/28900582]
-[Image: /docs/static/attachments/28900581]
+![Image](https://www.cryengine.com/docs/static/attachments/28900582)
+![Image](https://www.cryengine.com/docs/static/attachments/28900581)
 
 ##
 Pivot
@@ -178,25 +176,25 @@ How it Works
 
 First, choose if you want the pivot to be positioned on a vertex of the bound box or the mesh. You do this in the Pivot properties:
 
-[Image: /docs/static/attachments/28900580]
+![Image](https://www.cryengine.com/docs/static/attachments/28900580)
 
 ##
 BoundBox
 
 You can select a pivot among 27 vertices consisting of the bound box:
 
-[Image: /docs/static/attachments/28900579]
+![Image](https://www.cryengine.com/docs/static/attachments/28900579)
 
 ##
 Mesh
 
 This mode allows you to select a pivot among all vertices of the designer object:
 
-[Image: /docs/static/attachments/28900578]
+![Image](https://www.cryengine.com/docs/static/attachments/28900578)
 
 You can then click on any of the points shown to move the pivot point:
 
-[Image: /docs/static/attachments/28900577]
+![Image](https://www.cryengine.com/docs/static/attachments/28900577)
 
 ##
 AllNone
@@ -219,9 +217,9 @@ Vertex mode
 No vs. all vertices selected
 *
 
-[Image: /docs/static/attachments/28900576]
+![Image](https://www.cryengine.com/docs/static/attachments/28900576)
 
-[Image: /docs/static/attachments/28900575]
+![Image](https://www.cryengine.com/docs/static/attachments/28900575)
 
 ##
 Edge mode
@@ -230,9 +228,9 @@ Edge mode
 No vs. all edges selected
 
 *
-[Image: /docs/static/attachments/28900574]
+![Image](https://www.cryengine.com/docs/static/attachments/28900574)
 
-[Image: /docs/static/attachments/28900573]
+![Image](https://www.cryengine.com/docs/static/attachments/28900573)
 
 ##
 Polygon mode
@@ -241,9 +239,9 @@ Polygon mode
 No vs. all polygons selected
 
 *
-[Image: /docs/static/attachments/28900572]
+![Image](https://www.cryengine.com/docs/static/attachments/28900572)
 
-[Image: /docs/static/attachments/28900571]
+![Image](https://www.cryengine.com/docs/static/attachments/28900571)
 
 When not all elements are selected, all the selected elements will be deselected when clicking the
 **
@@ -261,7 +259,7 @@ How it Works
 
 The sphere and the other shape in the following image is in one designer object but they are not connected with each other.
 
-[Image: /docs/static/attachments/28900570]
+![Image](https://www.cryengine.com/docs/static/attachments/28900570)
 
 With a polygon of the sphere selected, if you press the
 **
@@ -269,9 +267,9 @@ Connected
 **
  button, all the polygons of the sphere will be selected, but the polygons in the other shape won't be, because the other shape isn't connected to the sphere with any edges:
 
-[Image: /docs/static/attachments/28900569]
+![Image](https://www.cryengine.com/docs/static/attachments/28900569)
 
-[Image: /docs/static/attachments/28900568]
+![Image](https://www.cryengine.com/docs/static/attachments/28900568)
 
 ##
 Grow
@@ -287,11 +285,11 @@ Grow
 **
  button. Every time you click the button, the adjacent polygons will be selected as well as the already selected ones:
 
-[Image: /docs/static/attachments/28900567]
+![Image](https://www.cryengine.com/docs/static/attachments/28900567)
 
-[Image: /docs/static/attachments/28900566]
+![Image](https://www.cryengine.com/docs/static/attachments/28900566)
 
-[Image: /docs/static/attachments/28900565]
+![Image](https://www.cryengine.com/docs/static/attachments/28900565)
 
 ##
 Loop
@@ -320,15 +318,15 @@ Loop
 **
  button:
 
-[Image: /docs/static/attachments/28900564]
+![Image](https://www.cryengine.com/docs/static/attachments/28900564)
 
-[Image: /docs/static/attachments/28900563]
+![Image](https://www.cryengine.com/docs/static/attachments/28900563)
 
 Of course, this does not only work for horizontal edges, but also for vertical ones:
 
-[Image: /docs/static/attachments/28900562]
+![Image](https://www.cryengine.com/docs/static/attachments/28900562)
 
-[Image: /docs/static/attachments/28900561]
+![Image](https://www.cryengine.com/docs/static/attachments/28900561)
 
 You can even select different horizontal and vertical edges and it will loop around the shape when you click the
 **
@@ -336,9 +334,9 @@ Loop
 **
  button:
 
-[Image: /docs/static/attachments/28900560]
+![Image](https://www.cryengine.com/docs/static/attachments/28900560)
 
-[Image: /docs/static/attachments/28900559]
+![Image](https://www.cryengine.com/docs/static/attachments/28900559)
 
 ##
 Polygon Loop Selection
@@ -349,15 +347,15 @@ Ctrl
 **
  while selecting two polygons) before clicking the Loop button to determine the direction of the loop:
 
-[Image: /docs/static/attachments/28900558]
+![Image](https://www.cryengine.com/docs/static/attachments/28900558)
 
-[Image: /docs/static/attachments/28900557]
+![Image](https://www.cryengine.com/docs/static/attachments/28900557)
 
 As with Edge loops, this also works vertically:
 
-[Image: /docs/static/attachments/28900556]
+![Image](https://www.cryengine.com/docs/static/attachments/28900556)
 
-[Image: /docs/static/attachments/28900555]
+![Image](https://www.cryengine.com/docs/static/attachments/28900555)
 
 ##
 Ring
@@ -380,15 +378,15 @@ Ring
 **
  button:
 
-[Image: /docs/static/attachments/28900554]
+![Image](https://www.cryengine.com/docs/static/attachments/28900554)
 
-[Image: /docs/static/attachments/28900553]
+![Image](https://www.cryengine.com/docs/static/attachments/28900553)
 
 As before, this also works with vertical edges:
 
-[Image: /docs/static/attachments/28900551]
+![Image](https://www.cryengine.com/docs/static/attachments/28900551)
 
-[Image: /docs/static/attachments/28900552]
+![Image](https://www.cryengine.com/docs/static/attachments/28900552)
 
 And you can also select multiple edges and create several rings by clicking the
 **
@@ -396,9 +394,9 @@ Ring
 **
  button:
 
-[Image: /docs/static/attachments/28900544]
+![Image](https://www.cryengine.com/docs/static/attachments/28900544)
 
-[Image: /docs/static/attachments/28900543]
+![Image](https://www.cryengine.com/docs/static/attachments/28900543)
 
 ##
 Polygon Ring Selection
@@ -425,15 +423,15 @@ Loop
 **
  tool:
 
-[Image: /docs/static/attachments/28900548]
+![Image](https://www.cryengine.com/docs/static/attachments/28900548)
 
-[Image: /docs/static/attachments/28900547]
+![Image](https://www.cryengine.com/docs/static/attachments/28900547)
 
 And again, you can make more than one ring:
 
-[Image: /docs/static/attachments/28900546]
+![Image](https://www.cryengine.com/docs/static/attachments/28900546)
 
-[Image: /docs/static/attachments/28900545]
+![Image](https://www.cryengine.com/docs/static/attachments/28900545)
 
 ##
 Invert
@@ -451,34 +449,16 @@ Invert
 **
  button:
 
-[Image: /docs/static/attachments/28900542]
+![Image](https://www.cryengine.com/docs/static/attachments/28900542)
 
-[Image: /docs/static/attachments/28900541]
+![Image](https://www.cryengine.com/docs/static/attachments/28900541)
 
-[#vertexedgepolygon](
-Vertex/Edge/Polygon
-)
-[#pivot](
-Pivot
-)
-[#allnone](
-AllNone
-)
-[#connected](
-Connected
-)
-[#grow](
-Grow
-)
-[#loop](
-Loop
-)
-[#ring](
-Ring
-)
-[#invert](
-Invert
-)
-[#how-it-works](
-How it Works
-)
+[Vertex/Edge/Polygon](#vertexedgepolygon)
+[Pivot](#pivot)
+[AllNone](#allnone)
+[Connected](#connected)
+[Grow](#grow)
+[Loop](#loop)
+[Ring](#ring)
+[Invert](#invert)
+[How it Works](#how-it-works)

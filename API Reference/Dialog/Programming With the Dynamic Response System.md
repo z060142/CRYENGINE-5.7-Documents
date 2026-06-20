@@ -11,9 +11,7 @@
 *
 Note: You should read the “
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870832](
-DRS Concept
-)
+[DRS Concept](../../Manual/Editor%20Tools/Dynamic%20Response%20System/Dynamic%20Response%20System%20Concept.md)
 **
 "
 **
@@ -278,7 +276,7 @@ Result:
 Your new custom action can be used just like any other action.
 
 **
-[Image: /docs/static/attachments/52593199]
+![Image](https://www.cryengine.com/docs/static/attachments/52593199)
 
 **
 
@@ -301,9 +299,7 @@ To check signals, go to the Responses tab in the DRS widget. In the
 Recent
 **
  tab, you can find a list with all the signals that were recently sent. For more information about this widget, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25526924](
-Tutorial - Debugging Dynamic Response System Responses
-)
+[Tutorial - Debugging Dynamic Response System Responses](../../Manual/Tutorials/Audio%20and%20Music/Tutorial%20-%20Setting%20Up%20the%20Dynamic%20Response%20System/Tutorial%20-%20Debugging%20Dynamic%20Response%20System%20Responses.md)
 .
 
 For viewing the variables, you can simply go to the
@@ -312,4 +308,4 @@ Variables
 **
  tab:
 
-[Image: /docs/static/attachments/52593200]
+![Image](https://www.cryengine.com/docs/static/attachments/52593200)

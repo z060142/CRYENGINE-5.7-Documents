@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Dynamic Response System Concept](Dynamic Response System/Dynamic Response System Concept.md)
-- [Response Tree Features](Dynamic Response System/Response Tree Features.md)
+- [Dynamic Response System Concept](Dynamic%20Response%20System/Dynamic%20Response%20System%20Concept.md)
+- [Response Tree Features](Dynamic%20Response%20System/Response%20Tree%20Features.md)
 
 ## Content
 
@@ -34,17 +34,15 @@ Tools → Dynamic Response System
 .
 
 For more information about the Dynamic Response System logic and related terminology, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870832](
-Dynamic Response System Concept
-)
+[Dynamic Response System Concept](Dynamic%20Response%20System/Dynamic%20Response%20System%20Concept.md)
  page.
-[Image: /docs/static/attachments/38600714]
+![Image](https://www.cryengine.com/docs/static/attachments/38600714)
 
 ##
 Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44966608]
+![Image](https://www.cryengine.com/docs/static/attachments/44966608)
  icon on the top-right corner of the panel. When clicked, it reveals the
 
 **
@@ -67,7 +65,7 @@ Variables
 **
  tab to view the variables that are specified in a signal. A variable can be a name or a value that describes the state of the game. It can be created or updated by the game logic and by the DRS. These variables then can be used in conditions to find the best fitting dialog to an event.
 
-[Image: /docs/static/attachments/44107975]
+![Image](https://www.cryengine.com/docs/static/attachments/44107975)
 
 The Variables Tab is comprised of two different panels namely
 **
@@ -196,7 +194,7 @@ Responses
 This section lets you modify a response signal.
 
 A response can contain several conditions and actions; based on the conditions and/or actions that have been previously executed.
-[Image: /docs/static/attachments/44107980]
+![Image](https://www.cryengine.com/docs/static/attachments/44107980)
 
 *
 Responses Tab
@@ -229,7 +227,7 @@ Create New
 **
  button next to the newly created response name.
 
-[Image: /docs/static/attachments/44107976]
+![Image](https://www.cryengine.com/docs/static/attachments/44107976)
 
 The
 **
@@ -243,7 +241,7 @@ Recent
 **
  tab are as follows:
 
-[Image: /docs/static/attachments/44107977]
+![Image](https://www.cryengine.com/docs/static/attachments/44107977)
 
 Option
 
@@ -341,7 +339,7 @@ Response
 **
  panel.
 
-[Image: /docs/static/attachments/44109377]
+![Image](https://www.cryengine.com/docs/static/attachments/44109377)
 
 ##
 1. Toolbar
@@ -565,9 +563,7 @@ Actions
 Follow up Responses
 **
 More information about these options can be found on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/38928391](
-Response Tree Features
-)
+[Response Tree Features](Dynamic%20Response%20System/Response%20Tree%20Features.md)
 .
 
 ##
@@ -583,7 +579,7 @@ Execution Info
 **
  panel displays the history of the selected signal.
 
-[Image: /docs/static/attachments/44107986]
+![Image](https://www.cryengine.com/docs/static/attachments/44107986)
 
 The above image shows the Execution Info of a typical signal for which a
 **
@@ -661,7 +657,7 @@ Shows for which signal(s) the history is currently displayed. Normally, it's the
 
  |
 
-[Image: /docs/static/attachments/44107987]
+![Image](https://www.cryengine.com/docs/static/attachments/44107987)
 
  |
 Indicates the signal for which the listed history corresponds to, along with a count of the times the signal has been executed so far.
@@ -686,14 +682,14 @@ Names the signal for which the listed history corresponds to.
 
  |
 
-[Image: /docs/static/attachments/52593077]
+![Image](https://www.cryengine.com/docs/static/attachments/52593077)
 
  |
 Specifies if the signal is still running, finished, or if no response was made. The number situated next to it indicates the responses that have been executed during the processing of the signal.
 
  |
 
-[Image: /docs/static/attachments/44107989]
+![Image](https://www.cryengine.com/docs/static/attachments/44107989)
 
  |
 Specifies the actor that received the signal.
@@ -739,7 +735,7 @@ Dialog Line History
 
 The Dialog Line History lets you view the signals that have been processed through the DRS. You can use this information to debug a response signal when it fails to appear in game mode.
 
-[Image: /docs/static/attachments/36850362]
+![Image](https://www.cryengine.com/docs/static/attachments/36850362)
 
 The following options are displayed when the Dialog Line History tab is selected:
 
@@ -839,7 +835,7 @@ Dialog Line Database
 
 The database holds all information related to a dialog line such as subtitles, audio assets, and animations. This is especially helpful to group the actual data together, instead of splitting it into several actions.
 
-[Image: /docs/static/attachments/44107992]
+![Image](https://www.cryengine.com/docs/static/attachments/44107992)
 
 ##
 Dialog Line Editor
@@ -1091,9 +1087,7 @@ There are different properties that you can define for each line, for example yo
 Subtitle
 **
 . For more information, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44958098#Tutorial-SettingUptheDynamicResponseSystem-dialogline](
-Add a Dialog Line to the Dialog Line Database
-)
+[Add a Dialog Line to the Dialog Line Database](../Tutorials/Audio%20and%20Music/Tutorial%20-%20Setting%20Up%20the%20Dynamic%20Response%20System.md#Tutorial-SettingUptheDynamicResponseSystem-dialogline)
 .
 
 There is one more interesting option in the menu which is called
@@ -1103,7 +1097,7 @@ Run Script
 ;
 
 *
-[Image: /docs/static/attachments/44107994]
+![Image](https://www.cryengine.com/docs/static/attachments/44107994)
 
 *
 This will execute a batch file on each selected dialog line. This can for example be used to automatically generate text-to-speech placeholders for all of your dialog lines. The batch file must be located in your game folder and must be called
@@ -1141,18 +1135,8 @@ SUBTITLE variable
 **
 .
 
-[#menu](
-Menu
-)
-[#variables](
-Variables
-)
-[#responses](
-Responses
-)
-[#dialog-line-history](
-Dialog Line History
-)
-[#dialog-line-database](
-Dialog Line Database
-)
+[Menu](#menu)
+[Variables](#variables)
+[Responses](#responses)
+[Dialog Line History](#dialog-line-history)
+[Dialog Line Database](#dialog-line-database)

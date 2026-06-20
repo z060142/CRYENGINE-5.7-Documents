@@ -12,7 +12,7 @@ Overview
 
 The Tools section shows the following tools:
 
-[Image: /docs/static/attachments/28900727]
+![Image](https://www.cryengine.com/docs/static/attachments/28900727)
 
 ##
 LoopCut
@@ -25,7 +25,7 @@ How it Works
 -
 Choose a loop or ring that you want to 'cut' by moving the mouse cursor over it. You'll see a purple line appear:
 
-[Image: /docs/static/attachments/28900721]
+![Image](https://www.cryengine.com/docs/static/attachments/28900721)
 
 -
 You can then hold
@@ -34,7 +34,7 @@ Ctrl
 **
  and scroll the mouse wheel to increase and decrease the number of cuts:
 
-[Image: /docs/static/attachments/28900720]
+![Image](https://www.cryengine.com/docs/static/attachments/28900720)
 
 -
 Press
@@ -43,23 +43,23 @@ LMB
 **
  and the cuts will turn orange, meaning that you can move them around if you want to:
 
-[Image: /docs/static/attachments/28900726]
+![Image](https://www.cryengine.com/docs/static/attachments/28900726)
 
 -
 Polygons crossed by loop edges will be cut as follows:
 
-[Image: /docs/static/attachments/28900725]
+![Image](https://www.cryengine.com/docs/static/attachments/28900725)
 
 ##
 On Boxes
 
 Of course, this is also possible on boxes as they also have quad-shaped polygons:
 
-[Image: /docs/static/attachments/28900724]
+![Image](https://www.cryengine.com/docs/static/attachments/28900724)
 
-[Image: /docs/static/attachments/28900723]
+![Image](https://www.cryengine.com/docs/static/attachments/28900723)
 
-[Image: /docs/static/attachments/28900722]
+![Image](https://www.cryengine.com/docs/static/attachments/28900722)
 
 ##
 Bevel
@@ -68,9 +68,9 @@ A bevel tool is to smooth edges of a shape. Most shapes in reality have not shar
 
 *
 
-[Image: /docs/static/attachments/28900719]
+![Image](https://www.cryengine.com/docs/static/attachments/28900719)
 
-[Image: /docs/static/attachments/28900718]
+![Image](https://www.cryengine.com/docs/static/attachments/28900718)
 *
 
 ##
@@ -113,11 +113,11 @@ After determining the width, you move the mouse up and down to determine the num
 LMB
 **
  to confirm.
-[Image: /docs/static/attachments/28900717]
+![Image](https://www.cryengine.com/docs/static/attachments/28900717)
 
-[Image: /docs/static/attachments/28900716]
+![Image](https://www.cryengine.com/docs/static/attachments/28900716)
 
-[Image: /docs/static/attachments/28900715]
+![Image](https://www.cryengine.com/docs/static/attachments/28900715)
 
 ##
 Polygons
@@ -141,7 +141,7 @@ Subdivision
 Click the Subdivision button and the following options will appear in the Subdivision options:
 
 *
-[Image: /docs/static/attachments/28900687]
+![Image](https://www.cryengine.com/docs/static/attachments/28900687)
 *
 
 The buttons shown above do the following:
@@ -227,13 +227,13 @@ How It Works
 -
 Make a Designer object with plenty of edges
 
-[Image: /docs/static/attachments/28900686]
+![Image](https://www.cryengine.com/docs/static/attachments/28900686)
 
 -
 Select it and move the slider to get the desired subdivision level.
 
 *
-[Image: /docs/static/attachments/28900685]
+![Image](https://www.cryengine.com/docs/static/attachments/28900685)
 *
 
 You'll see that there are still boxes around the object that corresponds to the original boxes of the Designer object.
@@ -247,9 +247,7 @@ Smoothing Surface
 .
 
 This is similar to the way
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450457#Advanced-Groups/UV-SmoothingGroup](
-Smoothing Groups
-)
+[Smoothing Groups](Advanced%20-%20Groups%20UV.md#Advanced-Groups%2FUV-SmoothingGroup)
  work.
 
 *
@@ -260,7 +258,7 @@ Smoothing Groups
 If you're satisfied with the subdivision level, you can click Freeze to confirm your choice:
 
 *
-[Image: /docs/static/attachments/28900684]
+![Image](https://www.cryengine.com/docs/static/attachments/28900684)
 *
 
 ##
@@ -277,7 +275,7 @@ Boolean
 **
  button and the following options will appear in the Boolean properties:
 
-[Image: /docs/static/attachments/28900714]
+![Image](https://www.cryengine.com/docs/static/attachments/28900714)
 
 These three options have different effects.
 
@@ -286,9 +284,9 @@ Union
 
 The Union option merges together the Designer objects you have selected, resulting in them behaving as one object (with one Pivot etc.) Most importantly, union tool also merges the geometry surface/volume so both objects have a continuous surface. Any internal geometry is removed - you can see that if you delete some of the geometry of the new object.
 
-[Image: /docs/static/attachments/28900713]
+![Image](https://www.cryengine.com/docs/static/attachments/28900713)
 
-[Image: /docs/static/attachments/28900712]
+![Image](https://www.cryengine.com/docs/static/attachments/28900712)
 
 ##
 Subtract
@@ -311,18 +309,18 @@ first
 **
 :
 
-[Image: /docs/static/attachments/28900711]
+![Image](https://www.cryengine.com/docs/static/attachments/28900711)
 
-[Image: /docs/static/attachments/28900710]
+![Image](https://www.cryengine.com/docs/static/attachments/28900710)
 
 ##
 Intersection
 
 The Intersection option only leaves the area where the objects overlap intact and removes the rest:
 
-[Image: /docs/static/attachments/28900709]
+![Image](https://www.cryengine.com/docs/static/attachments/28900709)
 
-[Image: /docs/static/attachments/28900708]
+![Image](https://www.cryengine.com/docs/static/attachments/28900708)
 
 ##
 Slice
@@ -347,12 +345,12 @@ Back
 
 Before/Front/Back
 
-[Image: /docs/static/attachments/28900669]
+![Image](https://www.cryengine.com/docs/static/attachments/28900669)
 
 **
-[Image: /docs/static/attachments/28900668]
+![Image](https://www.cryengine.com/docs/static/attachments/28900668)
 
-[Image: /docs/static/attachments/28900667]
+![Image](https://www.cryengine.com/docs/static/attachments/28900667)
 **
 
 ##
@@ -393,7 +391,7 @@ With this tool, you can mirror a mesh along an arbitrary plane as well as its lo
 
 When you click on the Mirror button, the following buttons appear underneath:
 
-[Image: /docs/static/attachments/28900679]
+![Image](https://www.cryengine.com/docs/static/attachments/28900679)
 
 Button
  |
@@ -449,7 +447,7 @@ How it Works
 -
 Create a Designer object
 
-[Image: /docs/static/attachments/28900683]
+![Image](https://www.cryengine.com/docs/static/attachments/28900683)
 
 -
 Select it and go to
@@ -464,7 +462,7 @@ Mirror
 
 When you mouse over the object in the viewport, you'll now see a gizmo and two green lines. These lines determine the lines along which your actions are mirrored:
 
-[Image: /docs/static/attachments/28900682]
+![Image](https://www.cryengine.com/docs/static/attachments/28900682)
 
 -
 With the
@@ -481,9 +479,9 @@ When the lines are in the right place, click Apply to make sure the Mirror tool 
 
 Modify the object to your heart's content and you'll see that your changes will be mirrored on the opposite side of the line. Below, you can see that the mirror plane is in the middle of the box and when the rectangle is extruded to the right, the same happens on the left side of the box:
 
-[Image: /docs/static/attachments/28900681]
+![Image](https://www.cryengine.com/docs/static/attachments/28900681)
 
-[Image: /docs/static/attachments/28900680]
+![Image](https://www.cryengine.com/docs/static/attachments/28900680)
 
 ##
 Lathe
@@ -525,7 +523,7 @@ Advanced
 **
  section:
 
-[Image: /docs/static/attachments/28900707]
+![Image](https://www.cryengine.com/docs/static/attachments/28900707)
 
 The profile polygon and the path polygon need to be in the same designer object.
 
@@ -536,7 +534,7 @@ Lathe
 **
  button and select the polygon you want to use as the profile polygon. When you mouse over it, it will show blue and green points on the polygon:
 
-[Image: /docs/static/attachments/28900706]
+![Image](https://www.cryengine.com/docs/static/attachments/28900706)
 
 The blue points mark the vertices of the profile polygon and the green points mark the polygon's bound vertices and the center of the polygon's edges.
 
@@ -548,14 +546,14 @@ After you selected this vertex, you need to determine which direction is up comp
 
 You'll see that the vertex you selected first, the pivot vertex, will turn orange and a blue line will appear. Drag this line to another vertex to determine the up direction:
 
-[Image: /docs/static/attachments/28900705]
+![Image](https://www.cryengine.com/docs/static/attachments/28900705)
 
 You can make the profile polygon tilt by selecting a vertex in this step that is not directly opposite, like for example the green vertex in the top-left of the profile polygon.
 
 -
 Now, move the mouse cursor to one of the vertices of the path polygon. You'll see the profile polygon snap to this point:
 
-[Image: /docs/static/attachments/28900704]
+![Image](https://www.cryengine.com/docs/static/attachments/28900704)
 
 -
 Now press
@@ -564,7 +562,7 @@ LMB
 **
  to confirm and your profile polygon will be drawn all along the path:
 
-[Image: /docs/static/attachments/28900703]
+![Image](https://www.cryengine.com/docs/static/attachments/28900703)
 
 ##
 Examples
@@ -573,23 +571,23 @@ Some more examples to show what you can achieve with this tool:
 
 1.
 
-[Image: /docs/static/attachments/28900702]
+![Image](https://www.cryengine.com/docs/static/attachments/28900702)
 
-[Image: /docs/static/attachments/28900701]
+![Image](https://www.cryengine.com/docs/static/attachments/28900701)
 
-[Image: /docs/static/attachments/28900700]
+![Image](https://www.cryengine.com/docs/static/attachments/28900700)
 
 2.
 
-[Image: /docs/static/attachments/28900699]
+![Image](https://www.cryengine.com/docs/static/attachments/28900699)
 
-[Image: /docs/static/attachments/28900698]
+![Image](https://www.cryengine.com/docs/static/attachments/28900698)
 
 3.
 
-[Image: /docs/static/attachments/28900697]
+![Image](https://www.cryengine.com/docs/static/attachments/28900697)
 
-[Image: /docs/static/attachments/28900696]
+![Image](https://www.cryengine.com/docs/static/attachments/28900696)
 
 ##
 Circle Clone
@@ -606,19 +604,19 @@ How it Works
 -
 Place a Designer object and modify it if you want:
 
-[Image: /docs/static/attachments/28900695]
+![Image](https://www.cryengine.com/docs/static/attachments/28900695)
 
 -
 Choose how many clones you want to make in the Circle Clone properties:
 
-[Image: /docs/static/attachments/28900694]
+![Image](https://www.cryengine.com/docs/static/attachments/28900694)
 
 You can change the Clone Count up until step 4 if you decide there are not enough or too many.
 
 -
 Click and drag on the object you created to create the clones and determine the radius of the circle in which they are created:
 
-[Image: /docs/static/attachments/28900693]
+![Image](https://www.cryengine.com/docs/static/attachments/28900693)
 ]
 
 -
@@ -639,12 +637,12 @@ How it Works
 -
 Place a Designer object and modify it if you want:
 
-[Image: /docs/static/attachments/28900692]
+![Image](https://www.cryengine.com/docs/static/attachments/28900692)
 
 -
 Choose how many clones you want to make in the Array Clone properties:
 
-[Image: /docs/static/attachments/28900691]
+![Image](https://www.cryengine.com/docs/static/attachments/28900691)
 
 -
 Choose the
@@ -653,7 +651,7 @@ Placement Type
 **
 . You have two options here:
 
-[Image: /docs/static/attachments/28900688]
+![Image](https://www.cryengine.com/docs/static/attachments/28900688)
 
 **
 Divide:
@@ -672,42 +670,24 @@ Creates the first clone at the mouse cursor and takes the distance between the o
 ##
 Divide
 
-[Image: /docs/static/attachments/28900690]
+![Image](https://www.cryengine.com/docs/static/attachments/28900690)
 
 ##
 Multiply
 
-[Image: /docs/static/attachments/28900689]
+![Image](https://www.cryengine.com/docs/static/attachments/28900689)
 Finally, click the
 **
 Confirm
 **
  button in the Array Clone properties to confirm the position of your cloned objects.
 
-[#loopcut](
-LoopCut
-)
-[#bevel](
-Bevel
-)
-[#subdivision](
-Subdivision
-)
-[#boolean](
-Boolean
-)
-[#slice](
-Slice
-)
-[#mirror](
-Mirror
-)
-[#lathe](
-Lathe
-)
-[#circle-clone](
-Circle Clone
-)
-[#array-clone](
-Array Clone
-)
+[LoopCut](#loopcut)
+[Bevel](#bevel)
+[Subdivision](#subdivision)
+[Boolean](#boolean)
+[Slice](#slice)
+[Mirror](#mirror)
+[Lathe](#lathe)
+[Circle Clone](#circle-clone)
+[Array Clone](#array-clone)

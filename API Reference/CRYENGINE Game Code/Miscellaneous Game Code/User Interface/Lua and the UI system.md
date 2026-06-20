@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Flash UI Lua functions](Lua and the UI system/Flash UI Lua functions.md)
+- [Flash UI Lua functions](Lua%20and%20the%20UI%20system/Flash%20UI%20Lua%20functions.md)
 
 ## Content
 
@@ -15,9 +15,7 @@
 Overview
 
 It is possible to control the UI System via Lua scripts. See also:
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306548](
-List of Lua functions
-)
+[List of Lua functions](Lua%20and%20the%20UI%20system/Flash%20UI%20Lua%20functions.md)
 .
 
 ##

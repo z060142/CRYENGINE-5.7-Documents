@@ -408,12 +408,6 @@ add_subdirectory ("${CRYENGINE_DIR}/Code/MyModule" "${CMAKE_BINARY_DIR}/MyModule
 
 ```
 
-[#important-differences](
-Important Differences
-)
-[#specifying-source-files](
-Specifying Source Files
-)
-[#converting-projects](
-Converting projects
-)
+[Important Differences](#important-differences)
+[Specifying Source Files](#specifying-source-files)
+[Converting projects](#converting-projects)

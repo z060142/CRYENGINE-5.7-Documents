@@ -8,15 +8,11 @@
 ## Content
 
 There is more information in the Sandbox Manual on how to use the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048897](
-Flow Graph Editor
-)
+[Flow Graph Editor](/docs/static/engines/cryengine-3/categories/1114113/pages/1048897)
 .
 
 It's also possible to add Flowgraph functionality to any Lua entity by
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306552](
-Adding Lua Flownode Inputs and Outputs
-)
+[Adding Lua Flownode Inputs and Outputs](../Miscellaneous%20Game%20Code/Flowgraph%20Scripting/Adding%20Lua%20Flownode%20Inputs%20and%20Outputs.md)
 .
 
 ##
@@ -327,7 +323,7 @@ _UICONFIG("v_min=0, v_max=10")
 
 This will limit the widget's arrows and ramp as well as clamp manually inserted values as seen in the picture.
 
-[Image: /docs/static/attachments/23461412]
+![Image](https://www.cryengine.com/docs/static/attachments/23461412)
 
 -
 **
@@ -345,7 +341,7 @@ _UICONFIG("enum_int:Relaxed=0,Alert=1,Combat=2,Crouch=3")
 There are several types of enums that can be used to display a dropdown list of readable strings which map to a value that is actually used by the node (and persisted when the graph is saved).
 Enums can be of type int or float as in the example above and shown in the picture.
 
-[Image: /docs/static/attachments/23461409]
+![Image](https://www.cryengine.com/docs/static/attachments/23461409)
 
 An enum can also be of type string with or without mapping to another value:
 
@@ -391,7 +387,7 @@ A dedicated property editor can be indicated with the keyword 'dt', followed by 
 
 There is a set of available editors which name can be consulted in the table below. The following picture illustrates the color picker.
 
-[Image: /docs/static/attachments/23461411]
+![Image](https://www.cryengine.com/docs/static/attachments/23461411)
 
 Full engine licensees can add new editors. For that, see the file Sandbox/Editor/HyperGraph/FlowGraphVariables.cpp.
 
@@ -875,18 +871,8 @@ To be removed again from this list call the same function with false as the seco
 
 Frequency: you will get 1 ProcessEvent(eFE_Updated) call per Game update call.
 
-[#basic-code](
-Basic Code
-)
-[#adding-output-ports](
-Adding Output Ports
-)
-[#adding-input-ports](
-Adding Input Ports
-)
-[#trigger-ports](
-Trigger Ports
-)
-[#update-event](
-Update event
-)
+[Basic Code](#basic-code)
+[Adding Output Ports](#adding-output-ports)
+[Adding Input Ports](#adding-input-ports)
+[Trigger Ports](#trigger-ports)
+[Update event](#update-event)

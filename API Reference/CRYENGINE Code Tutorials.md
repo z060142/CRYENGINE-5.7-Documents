@@ -6,23 +6,17 @@
 
 ## Child Pages
 
-- [C# Programming](CRYENGINE Code Tutorials/C# Programming.md)
-- [C++ Programming Tutorials](CRYENGINE Code Tutorials/C++ Programming Tutorials.md)
-- [Miscellaneous Tutorials](CRYENGINE Code Tutorials/Miscellaneous Tutorials.md)
+- [C# Programming](CRYENGINE%20Code%20Tutorials/C%23%20Programming.md)
+- [C++ Programming Tutorials](CRYENGINE%20Code%20Tutorials/C%2B%2B%20Programming%20Tutorials.md)
+- [Miscellaneous Tutorials](CRYENGINE%20Code%20Tutorials/Miscellaneous%20Tutorials.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791112](
-C# Programming
-)
+[C# Programming](CRYENGINE%20Code%20Tutorials/C%23%20Programming.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23298338](
-C++ Programming Tutorials
-)
+[C++ Programming Tutorials](CRYENGINE%20Code%20Tutorials/C%2B%2B%20Programming%20Tutorials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23309038](
-Miscellaneous Tutorials
-)
+[Miscellaneous Tutorials](CRYENGINE%20Code%20Tutorials/Miscellaneous%20Tutorials.md)

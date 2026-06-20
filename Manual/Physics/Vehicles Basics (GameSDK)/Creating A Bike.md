@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933325]
+![Image](https://www.cryengine.com/docs/static/attachments/29933325)
 
 ##
 Overview
@@ -16,48 +16,26 @@ Overview
 Sections
 
 The
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310855](
-Vehicle Section
-)
+[Vehicle Section](/docs/static/engines/cryengine-3/categories/1114113/pages/1310855)
  provides most of the information required for four wheel vehicle (4WD) setup. This section re-emphasizes the wheels, breakable windows, shootable tires, and the speedometer and tachometer setup options.
 
-[#sections](
-Sections
-)
-[#sample-files](
-Sample Files
-)
-[#working-suspension-parts](
-Working Suspension Parts
-)
-[#breakable-windows](
-Breakable Windows
-)
-[#shootable-tires](
-Shootable Tires
-)
-[#tachometer-and-speedometer](
-Tachometer and Speedometer
-)
-[#lights-and-exhaust-smoke](
-Lights and Exhaust smoke
-)
-[#in-sandbox](
-In Sandbox
-)
+[Sections](#sections)
+[Sample Files](#sample-files)
+[Working Suspension Parts](#working-suspension-parts)
+[Breakable Windows](#breakable-windows)
+[Shootable Tires](#shootable-tires)
+[Tachometer and Speedometer](#tachometer-and-speedometer)
+[Lights and Exhaust smoke](#lights-and-exhaust-smoke)
+[In Sandbox](#in-sandbox)
 
 ##
 Sample Files
 
 -
-[/docs/static/attachments/1443378](
-car.max
-)
+[car.max](/docs/static/attachments/1443378)
 
 -
-[/docs/static/attachments/11406266](
-suspension_example.rar
-)
+[suspension_example.rar](/docs/static/attachments/11406266)
 
 ##
 Working Suspension Parts
@@ -171,7 +149,5 @@ It is still required to make a particle effect for the exhaust smoke and other e
 In Sandbox
 
 Please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26214869](
-this
-)
+[this](../../Editor%20Tools/Deprecated%20Tab/Vehicle%20Editor.md)
  section for information on the vehicle editor.

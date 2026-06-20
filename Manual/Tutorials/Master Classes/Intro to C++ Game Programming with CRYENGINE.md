@@ -8,3 +8,5 @@
 ## Content
 
 Our latest Master Class provides an introduction to CRYENGINE for C++ programmers and game designers.
+
+[Embed: https://www.youtube.com/watch?v=g7yv5VOsM5A]

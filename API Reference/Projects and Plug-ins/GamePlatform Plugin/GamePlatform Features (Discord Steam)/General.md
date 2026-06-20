@@ -268,36 +268,14 @@ Schematyc Nodes
 Signal::Receive::[EntityName]::Accounts::PlatformSignalReceiver::Service::OnShutdown
  |
 
-[#general-service-functions](
-General Service Functions
-)
-[#getapplicationid](
-GetApplicationId
-)
-[#getbuildid](
-GetBuildId
-)
-[#getenvironmentvalue](
-GetEnvironmentValue
-)
-[#getservice](
-GetService
-)
-[#markcontentcorrupt](
-MarkContentCorrupt
-)
-[#ownsapplication](
-OwnsApplication
-)
-[#general-service-events](
-General Service Events
-)
-[#onenvironmentvariablechanged](
-OnEnvironmentVariableChanged
-)
-[#onoverlayactivated](
-OnOverlayActivated
-)
-[#onshutdown](
-OnShutdown
-)
+[General Service Functions](#general-service-functions)
+[GetApplicationId](#getapplicationid)
+[GetBuildId](#getbuildid)
+[GetEnvironmentValue](#getenvironmentvalue)
+[GetService](#getservice)
+[MarkContentCorrupt](#markcontentcorrupt)
+[OwnsApplication](#ownsapplication)
+[General Service Events](#general-service-events)
+[OnEnvironmentVariableChanged](#onenvironmentvariablechanged)
+[OnOverlayActivated](#onoverlayactivated)
+[OnShutdown](#onshutdown)

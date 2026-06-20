@@ -11,9 +11,7 @@
 Overview
 
 This section describes how to setup Reverbs in levels. In CRYENGINE reverbs are called Environments. To learn more about audio system Environments in CRYENGINE, please have a look in the chapter
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964924](
-Audio & Reverbs*
-)
+[Audio & Reverbs*](../../Audio%20Overview/Audio%20%26%20Reverbs.md)
 .
 
 ##
@@ -21,12 +19,10 @@ Setting up Reverbs in Wwise
 
 You can create an Auxiliary Bus in Wwise and assign an effect to that bus, which in our case will be a Reverb.
 
-[Image: /docs/static/attachments/52592659]
+![Image](https://www.cryengine.com/docs/static/attachments/52592659)
 
 After the project has been saved, use the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
 
 to connect the Wwise Auxiliary Bus to an audio system Environment. You can use an
 *
@@ -41,13 +37,11 @@ Audio Area Entity
 Audio Area Ambience
 *
 entities as described in the chapter
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964884](
-Audio & Ambience
-)
+[Audio & Ambience](../../Audio%20Overview/Audio%20%26%20Ambience.md)
 .
 
 *
-[Image: /docs/static/attachments/52592660]
+![Image](https://www.cryengine.com/docs/static/attachments/52592660)
 *
 
 In the
@@ -162,7 +156,7 @@ send volume
 *
  for each sound in Wwise.
 
-[Image: /docs/static/attachments/52592661]
+![Image](https://www.cryengine.com/docs/static/attachments/52592661)
 
 The game-defined auxiliaries can be found in the general settings of the
 Sound Property Editor

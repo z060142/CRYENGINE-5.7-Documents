@@ -12,7 +12,7 @@ Overview
 
 When clicking the Groups/UV button in the Advanced section, new options appear underneath:
 
-[Image: /docs/static/attachments/28900731]
+![Image](https://www.cryengine.com/docs/static/attachments/28900731)
 
 Button
  |
@@ -51,7 +51,7 @@ UV Mapping
 
 When clicking the UV Mapping button in the screen above, the following options will appear underneath:
 
-[Image: /docs/static/attachments/28900733]
+![Image](https://www.cryengine.com/docs/static/attachments/28900733)
 
 Please note that you need to have a polygon selected, otherwise these options will not have any effect.
 
@@ -225,9 +225,7 @@ Assign
 
 **
 To find out how the UV Mapping Editor works, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450463](
-this page
-)
+[this page](../../UV%20Mapping.md)
 .
 
 ##
@@ -239,7 +237,7 @@ The shape of the object will stay the same; only the shading will change so that
 
 When you select the tool, you get a panel with various buttons to manage smoothing groups.
 
-[Image: /docs/static/attachments/28900732]
+![Image](https://www.cryengine.com/docs/static/attachments/28900732)
 
 Option
  |
@@ -306,7 +304,7 @@ Ctrl
  to select more than one polygon:
 
 *
-[Image: /docs/static/attachments/28900728]
+![Image](https://www.cryengine.com/docs/static/attachments/28900728)
 
 *
 
@@ -320,6 +318,6 @@ Add SG
 Before/after
 *
 
-[Image: /docs/static/attachments/28900730]
+![Image](https://www.cryengine.com/docs/static/attachments/28900730)
 
-[Image: /docs/static/attachments/28900729]
+![Image](https://www.cryengine.com/docs/static/attachments/28900729)

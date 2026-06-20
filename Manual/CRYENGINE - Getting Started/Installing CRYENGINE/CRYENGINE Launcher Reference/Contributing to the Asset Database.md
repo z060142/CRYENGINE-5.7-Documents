@@ -23,7 +23,7 @@ Contributor Account
 **
 hyperlink in the center of the Contributor Assets library.
 
-[Image: /docs/static/attachments/109543485]
+![Image](https://www.cryengine.com/docs/static/attachments/109543485)
 
 *
 Empty Contributor Assets library
@@ -35,33 +35,27 @@ prior to becoming a Contributor
 -
 This will redirect you to the Contributor account page in your user dashboard on the
 
-[http://cryengine.com/](
-CRYENGINE website
-)
+[CRYENGINE website](http://cryengine.com/)
 ; if you haven't done so already, log in using your CRYENGINE account credentials and read the
 
-[https://www.cryengine.com/support/view/marketplace-vendor](
-Contributor Guide
-)
+[Contributor Guide](https://www.cryengine.com/support/view/marketplace-vendor)
 
 before setting up your customer support information
 .
 
-[Image: /docs/static/attachments/109543486]
+![Image](https://www.cryengine.com/docs/static/attachments/109543486)
 
-[Image: /docs/static/attachments/109543487]
+![Image](https://www.cryengine.com/docs/static/attachments/109543487)
 *
 Setting up a Contributor account
 *
 
 -
 Once you've set up your Contributor account, the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-vendorassets](
-Contributor Assets
-)
+[Contributor Assets](../CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-vendorassets)
  tab in the CRYENGINE Launcher should look like this upon refreshing:
 
-[Image: /docs/static/attachments/109543488]
+![Image](https://www.cryengine.com/docs/static/attachments/109543488)
 
 *
 Empty
@@ -80,7 +74,7 @@ Submitting an Asset
 -
 In the Contributor Assets library, click the  button to begin the asset submission process. Doing so will bring up the following form:
 
-[Image: /docs/static/attachments/69468294]
+![Image](https://www.cryengine.com/docs/static/attachments/69468294)
 
 *
 Asset submission form
@@ -89,7 +83,7 @@ Asset submission form
 
 -
 Enter your asset's basic details (name, type, age restriction details) and click
-[Image: /docs/static/attachments/69468295]
+![Image](https://www.cryengine.com/docs/static/attachments/69468295)
  to proceed.
 
 The
@@ -119,12 +113,10 @@ Assets Details
 
 Please also refer to the
 
-[https://cryengine.com/support/view/asset-submission](
-Asset Submission Guide
-)
+[Asset Submission Guide](https://cryengine.com/support/view/asset-submission)
  for best practices and an overview of the asset submission process.
 
-[Image: /docs/static/attachments/69468296]
+![Image](https://www.cryengine.com/docs/static/attachments/69468296)
 
 *
 Assets details
@@ -136,7 +128,7 @@ Once the
 Assets Details
 **
 section has been completed, the
-[Image: /docs/static/attachments/69468297]
+![Image](https://www.cryengine.com/docs/static/attachments/69468297)
  button should appear in the
 **
 Versions
@@ -158,7 +150,7 @@ Submit
 **
  to proceed.
 
-[Image: /docs/static/attachments/69468299]
+![Image](https://www.cryengine.com/docs/static/attachments/69468299)
 
 *
 New asset version
@@ -181,12 +173,10 @@ Upload Asset
 
 -
 A confirmation message should appear if successful, and the asset should be listed in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-vendorassets](
- Contributor Assets
-)
+[Contributor Assets](../CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-vendorassets)
  library.
 
-[Image: /docs/static/attachments/109543490]
+![Image](https://www.cryengine.com/docs/static/attachments/109543490)
 *
 
 Asset submission listed in the Contributor Assets library
@@ -203,14 +193,14 @@ Open the Launcher's
  Contributor Assets
 **
 tab, click the
-[Image: /docs/static/attachments/69468315]
+![Image](https://www.cryengine.com/docs/static/attachments/69468315)
  icon next to your asset listing, and select the
 **
 Edit
 **
  option.
 
-[Image: /docs/static/attachments/109543491]
+![Image](https://www.cryengine.com/docs/static/attachments/109543491)
 
 *
 Configuring a submitted asset
@@ -223,7 +213,7 @@ Versions
 **
  section as shown:
 
-[Image: /docs/static/attachments/69468318]
+![Image](https://www.cryengine.com/docs/static/attachments/69468318)
 
 *
 Asset status
@@ -248,9 +238,7 @@ Uploading
 **
  |
 Upload pending; if you abandoned the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468288#ContributingtotheAssetDatabase-upload](
-Upload Asset dashboard
-)
+[Upload Asset dashboard](Contributing%20to%20the%20Asset%20Database.md#ContributingtotheAssetDatabase-upload)
 , closed the Launcher window, or lost connection, you will need to restart the upload process.
 
  |
@@ -355,12 +343,6 @@ Cancel Submission
 
  |
 
-[#setting-up-a-contributor-account](
-Setting up a Contributor Account
-)
-[#submitting-an-asset](
-Submitting an Asset
-)
-[#checking-the-status-of-submitted-assets](
-Checking the Status of Submitted Assets
-)
+[Setting up a Contributor Account](#setting-up-a-contributor-account)
+[Submitting an Asset](#submitting-an-asset)
+[Checking the Status of Submitted Assets](#checking-the-status-of-submitted-assets)

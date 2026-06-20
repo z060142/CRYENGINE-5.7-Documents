@@ -28,7 +28,7 @@ Road Tool
 
 Continue clicking to place a series of points that will make up the road. The more points that are placed, the greater the degree of control over the general direction, curvature, and height of the road.
 
-[Image: /docs/static/attachments/44966525]
+![Image](https://www.cryengine.com/docs/static/attachments/44966525)
 
 *
 Road in progress
@@ -36,7 +36,7 @@ Road in progress
 
 For now, simply make sure to place points at varying heights and don't worry about empty or missing terrain underneath the path of the road.
 
-[Image: /docs/static/attachments/44966526]
+![Image](https://www.cryengine.com/docs/static/attachments/44966526)
 
 *
 Road completed
@@ -57,26 +57,24 @@ Material Settings for Roads
 Roads are basically decals placed along a spline, so the material setup is fairly similar, with a few additions.
 
 The material must use the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449070](
-Illum Shader
-)
+[Illum Shader](../../../../../Graphics%20%26%20Rendering/Shaders/Shaders%20in%20CRYENGINE/Shader%20Reference/Illum%20Shader.md)
 . It should also use the
 Decal
  and
 Vertex Colors
  check-boxes in the Shader Generation Params:
 
-[Image: /docs/static/attachments/44966527]
+![Image](https://www.cryengine.com/docs/static/attachments/44966527)
 
 *
 Vertex Colors and Decal selected
 *
 
-[Image: /docs/static/attachments/44966528]
+![Image](https://www.cryengine.com/docs/static/attachments/44966528)
  |
-[Image: /docs/static/attachments/44966529]
+![Image](https://www.cryengine.com/docs/static/attachments/44966529)
  |
-[Image: /docs/static/attachments/44966530]
+![Image](https://www.cryengine.com/docs/static/attachments/44966530)
  |
 
 Decal + Vertex Colors Enabled
@@ -112,7 +110,7 @@ General
 **
  section.
 
-[Image: /docs/static/attachments/44966531]
+![Image](https://www.cryengine.com/docs/static/attachments/44966531)
 
 *
 Material field
@@ -132,7 +130,7 @@ Assign To Selected Objects
 **
 ).
 
-[Image: /docs/static/attachments/44966532]
+![Image](https://www.cryengine.com/docs/static/attachments/44966532)
 
 *
 Assigning the material
@@ -235,7 +233,7 @@ under
 **
  of the road.
 
-[Image: /docs/static/attachments/44966533]
+![Image](https://www.cryengine.com/docs/static/attachments/44966533)
 
 *
 Edit Spline button
@@ -251,7 +249,7 @@ Ctrl + Shift + LMB
 
 The X, Y, or Z positions can be changed separately, X and Y together, or the key point can be moved on top of the terrain. For this, choose one of the axis lock modes in the toolbar.
 
-[Image: /docs/static/attachments/44966534]
+![Image](https://www.cryengine.com/docs/static/attachments/44966534)
 
 *
 Z Constraint button
@@ -263,7 +261,7 @@ Lock on Z Axis
 **
  mode makes it possible change the height of this key point to manually smooth the road, if the particular section is too steep.
 
-[Image: /docs/static/attachments/44966535]
+![Image](https://www.cryengine.com/docs/static/attachments/44966535)
 
 *
 Drawing a road
@@ -275,7 +273,7 @@ With
 **
  and by modifying the key points, the road can be placed exactly where it needs to be.
 
-[Image: /docs/static/attachments/44966536]
+![Image](https://www.cryengine.com/docs/static/attachments/44966536)
 
 *
 Height map aligned
@@ -310,7 +308,7 @@ Split
 **
 function in the road tool's properties.
 
-[Image: /docs/static/attachments/44966537]
+![Image](https://www.cryengine.com/docs/static/attachments/44966537)
 
 *
 Road edit mode
@@ -324,7 +322,7 @@ Edit
 
 With the split function activated, select one of the keys nearest to where the road needs to be split.
 
-[Image: /docs/static/attachments/44966538]
+![Image](https://www.cryengine.com/docs/static/attachments/44966538)
 
 *
 Road split
@@ -340,18 +338,12 @@ Edit
 **
  mode on the newly created road and drag the final spline key over the top of the other road to blend them nicely together.
 
-[Image: /docs/static/attachments/44966539]
+![Image](https://www.cryengine.com/docs/static/attachments/44966539)
 
 *
 Two roads combined
 *
 
-[#creating-a-road](
-Creating a Road
-)
-[#material-setup](
-Material Setup
-)
-[#modifying-a-road](
-Modifying a Road
-)
+[Creating a Road](#creating-a-road)
+[Material Setup](#material-setup)
+[Modifying a Road](#modifying-a-road)

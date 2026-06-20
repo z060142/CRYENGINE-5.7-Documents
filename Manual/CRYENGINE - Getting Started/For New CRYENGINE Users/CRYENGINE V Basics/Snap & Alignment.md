@@ -41,7 +41,7 @@ Grid Snapping
 
 It is also possible to right-click to see the grid sizes.
 
-[Image: /docs/static/attachments/44960241]
+![Image](https://www.cryengine.com/docs/static/attachments/44960241)
 
 The default grids are based on the default unit inside CRYENGINE Sandbox, with 1 = 1m, 0.5 = 50 cm, etc.
 
@@ -75,7 +75,7 @@ L
 
 It is also possible to right-click to see the angle snapping increments.
 
-[Image: /docs/static/attachments/44960242]
+![Image](https://www.cryengine.com/docs/static/attachments/44960242)
 
 ##
 Scale Snapping
@@ -92,7 +92,7 @@ K
 When objects are scaled, they are scaled in increments of the number you have selected. The higher the number, the more the object grows bigger/smaller with every step.
 
 *
-[Image: /docs/static/attachments/44960240]
+![Image](https://www.cryengine.com/docs/static/attachments/44960240)
 
 *
 
@@ -109,7 +109,7 @@ Pivot Snapping
 **
  button:
 
-[Image: /docs/static/attachments/44960239]
+![Image](https://www.cryengine.com/docs/static/attachments/44960239)
 
 This enables you to place the pivot of one object on top of the pivot of another object. This can be useful if for example you have an open box and you want to place an object into it quickly. You can toggle this snapping option by pressing
 **
@@ -136,21 +136,21 @@ V
 **
 .
 
-[Image: /docs/static/attachments/44960238]
+![Image](https://www.cryengine.com/docs/static/attachments/44960238)
 
 After turning on Vertex Snapping, small blue cubes are displayed to represent vertices in the selected object.
 
 Select the first vertex or a pivot point. (The blue cubes are vertices and a red sphere is the pivot point.)
 
-[Image: /docs/static/attachments/44960268]
+![Image](https://www.cryengine.com/docs/static/attachments/44960268)
 
 Then drag the selected vertex to the target vertex of another object:
 
-[Image: /docs/static/attachments/44960270]
+![Image](https://www.cryengine.com/docs/static/attachments/44960270)
 
 The objects are now aligned:
 
-[Image: /docs/static/attachments/44960269]
+![Image](https://www.cryengine.com/docs/static/attachments/44960269)
 
 If you are having trouble selecting the required vertex, adjust the camera position to get a better view.
 
@@ -179,14 +179,14 @@ And normally the vertices of objects around a mouse cursor are drawn.
 
 Vertices Close to Camera:
 
-[Image: /docs/static/attachments/44960272]
+![Image](https://www.cryengine.com/docs/static/attachments/44960272)
 
 ##
 Snap to Terrain / Snap to Geometry
 
 It is also possible to make an object snap to the terrain or all of the geometry. This can be done using the last of the snapping buttons.
 
-[Image: /docs/static/attachments/44960237]
+![Image](https://www.cryengine.com/docs/static/attachments/44960237)
 
 With
 **
@@ -240,9 +240,7 @@ Ctrl+Shift
  and click to snap the object's pivot point to a position on the terrain or to another object under the mouse cursor. This works even if the target object is locked, or if it belongs to a locked layer.
 
 For more information on locking objects and layers, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541#LevelExplorer-lock](
- Level Explorer
-)
+[Level Explorer](../../../Editor%20Tools/Level%20Editor%20Tab/Level%20Explorer.md#LevelExplorer-lock)
 documentation.
 
 When using
@@ -275,21 +273,9 @@ General -> Snapping
 **
 .
 
-[#grid-snapping](
-Grid Snapping
-)
-[#angle-snapping](
-Angle Snapping
-)
-[#scale-snapping](
-Scale Snapping
-)
-[#pivot-snapping](
-Pivot Snapping
-)
-[#vertex-snapping](
-Vertex Snapping
-)
-[#snap-to-terrain-snap-to-geometry](
-Snap to Terrain / Snap to Geometry
-)
+[Grid Snapping](#grid-snapping)
+[Angle Snapping](#angle-snapping)
+[Scale Snapping](#scale-snapping)
+[Pivot Snapping](#pivot-snapping)
+[Vertex Snapping](#vertex-snapping)
+[Snap to Terrain / Snap to Geometry](#snap-to-terrain-snap-to-geometry)

@@ -8,3 +8,5 @@
 ## Content
 
 How to use Flow Graph to spawn AIs and track kills
+
+[Embed: http://youtube.com/watch?v=UdsrvgMuegA]

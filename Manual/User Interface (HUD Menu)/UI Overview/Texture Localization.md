@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934090]
+![Image](https://www.cryengine.com/docs/static/attachments/29934090)
 
 ##
 Overview
@@ -17,15 +17,9 @@ Sections
 
 CRYENGINE handles localization by using separate folders for each language, each of which has the exact same structure. The game automatically chooses the folder and textures based on the language setting in the configuration.
 
-[#sections](
-Sections
-)
-[#general-setup](
-General Setup
-)
-[#test-localization-settings](
-Test Localization Settings
-)
+[Sections](#sections)
+[General Setup](#general-setup)
+[Test Localization Settings](#test-localization-settings)
 
 ##
 General Setup

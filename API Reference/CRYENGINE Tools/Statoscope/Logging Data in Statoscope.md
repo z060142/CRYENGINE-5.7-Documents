@@ -22,21 +22,11 @@ Only select the data groups that you want to display, this reduces the impact of
 
 Chapters:
 
-[#estatoscopelogdestination](
-e_StatoscopeLogDestination
-)
-[#estatoscopedatagroups](
-e_StatoscopeDataGroups
-)
-[#usage](
-Usage
-)
-[#data-groups](
-Data Groups
-)
-[#function-profiling](
-Function Profiling
-)
+[e_StatoscopeLogDestination](#estatoscopelogdestination)
+[e_StatoscopeDataGroups](#estatoscopedatagroups)
+[Usage](#usage)
+[Data Groups](#data-groups)
+[Function Profiling](#function-profiling)
 Two CVar's need to be set in the Launcher or Editor to enable logging:
 **
  e_StatoscopeLogDestination
@@ -86,9 +76,7 @@ e_StatoscopeDataGroups A-
 **
 
 For a list of available data groups see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306654](
-Statoscope - Data Groups
-)
+[Statoscope - Data Groups](Data%20Groups.md)
  or search in Visual Studio for '
 **
 `
@@ -118,9 +106,7 @@ IStatoscopeDataGroup
  class.
 
 See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306655](
-Creating new data groups
-)
+[Creating new data groups](Creating%20new%20Data%20Groups.md)
  for more details on how data groups work in code.
 
 ##

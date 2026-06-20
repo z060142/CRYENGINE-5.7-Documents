@@ -163,7 +163,7 @@ Night sounds for global ambience.
 
 We begin by defining a global area box, before creating area shapes for each of the required layers.
 
-[Image: /docs/static/attachments/44105760]
+![Image](https://www.cryengine.com/docs/static/attachments/44105760)
 
 *
 Dynamic ambience overview
@@ -173,6 +173,8 @@ Dynamic ambience overview
 FMOD Video Tutorial
 
 The FMOD workflow of this chapter is also covered in the following video:
+
+[Embed: https://www.youtube.com/watch?v=5wgAJTuHtNw]
 
 ##
 Defining a Global Area Box
@@ -199,7 +201,7 @@ Area → Box
 **
  option within it to begin creating our Area Box. At this point, you should be able to see the Area Box's properties listed within the Properties panel situated on the right of your Editor window.
 
-[Image: /docs/static/attachments/44105768]
+![Image](https://www.cryengine.com/docs/static/attachments/44105768)
 
 *
 Area box properties
@@ -292,7 +294,7 @@ Play_l_cg_amb_global
 .
 This Event requires two more audio tracks, for day and night variations of the global ambience.
 
-[Image: /docs/static/attachments/56000778]
+![Image](https://www.cryengine.com/docs/static/attachments/56000778)
 
 *
 FMOD global ambience
@@ -340,9 +342,7 @@ Once the three multi-instruments have been created, add a loop region for the en
 Play_l_cg_amb_global
 *
 Event, as described in the
-[/docs](
-previous chapter
-)
+[previous chapter](/docs)
 . Also,
 
 -
@@ -351,7 +351,7 @@ Activate the
 Async
 **
  and Loop Playlist
-[Image: /docs/static/attachments/56000777]
+![Image](https://www.cryengine.com/docs/static/attachments/56000777)
  options for each multi-instrument,
 
 -
@@ -469,7 +469,7 @@ Blend Container
 Random Container
 **
  as shown.
-[Image: /docs/static/attachments/56000768]
+![Image](https://www.cryengine.com/docs/static/attachments/56000768)
 
 *
 Import audio files
@@ -507,9 +507,7 @@ l_cg_amb_global_base, l_cg_amb_global_day
 l_cg_amb_global_night
 *
  Random Containers to loop, as we did to the fire particle in the
-[/docs](
-previous chapter
-)
+[previous chapter](/docs)
 , and set their Transition
 **
 Type
@@ -520,7 +518,7 @@ Xfade (power).
 **
 Use the GIF below for reference.
 
-[Image: /docs/static/attachments/56000767]
+![Image](https://www.cryengine.com/docs/static/attachments/56000767)
 
 *
 Transition Type
@@ -790,7 +788,7 @@ symbol besides the Event's Timeline tab, above its timeline, and add the
 area_fade_distance
 *
 tab.
-[Image: /docs/static/attachments/56000776]
+![Image](https://www.cryengine.com/docs/static/attachments/56000776)
 
 *
 Area fade distance
@@ -846,7 +844,7 @@ area_fade_distance
 Rtpc
 **
  property field by clicking the
-[Image: /docs/static/attachments/56000756]
+![Image](https://www.cryengine.com/docs/static/attachments/56000756)
  icon against it.
 
 -
@@ -906,7 +904,7 @@ Default Work Unit
 Game Parameters
 *
 , and then click the
-[Image: /docs/static/attachments/56000766]
+![Image](https://www.cryengine.com/docs/static/attachments/56000766)
  symbol at the top of the panel.
 
 -
@@ -943,7 +941,7 @@ and
 Default
 **
  corresponds to the value assigned to the parameter when no value is sent by the game Engine, for example, while previewing an audio trigger in the ACE.
-[Image: /docs/static/attachments/56000765]
+![Image](https://www.cryengine.com/docs/static/attachments/56000765)
 
 *
 area_fade_distance
@@ -972,7 +970,7 @@ In the Property Editor, open the
 RTPC
 **
  tab, click on the
-[Image: /docs/static/attachments/56000764]
+![Image](https://www.cryengine.com/docs/static/attachments/56000764)
  symbol, and select the
 **
 Voice Volume
@@ -985,7 +983,7 @@ Blend Container to the y-axis.
 
 -
 Now, click the
-[Image: /docs/static/attachments/56000764]
+![Image](https://www.cryengine.com/docs/static/attachments/56000764)
  symbol under the
 **
 X axis
@@ -1002,7 +1000,7 @@ option which adds the value of the
 area_fade_distance
 *
  to the x-axis.
-[Image: /docs/static/attachments/56000763]
+![Image](https://www.cryengine.com/docs/static/attachments/56000763)
 
 *
 l_cg_amb_global Property Editor
@@ -1061,7 +1059,7 @@ area_fade_distance
 Rtpc
 **
  property field by clicking the
-[Image: /docs/static/attachments/56000756]
+![Image](https://www.cryengine.com/docs/static/attachments/56000756)
  icon against it.
 
 -
@@ -1081,7 +1079,7 @@ Setting Up The Remaining Ambience Layers
 
 Now that we have our global ambience working, it's time to add the remaining layers of ambience for the forest, marketplace area and water bodies as shown in the following image.
 
-[Image: /docs/static/attachments/56000757]
+![Image](https://www.cryengine.com/docs/static/attachments/56000757)
 
 *
 Showcase Audio Ambience
@@ -1198,7 +1196,7 @@ Make sure to activate the
 Async
 **
  and Loop Playlist
-[Image: /docs/static/attachments/56000777]
+![Image](https://www.cryengine.com/docs/static/attachments/56000777)
  options for each of the above multi-instruments that you create. Also create a loop region for each of them, and add  the
 *
 area_fade_distance
@@ -1280,7 +1278,7 @@ Transition Type
 Xfade (power)
 **
 ; these changes will automatically apply to all selected Containers.
-[Image: /docs/static/attachments/56000762]
+![Image](https://www.cryengine.com/docs/static/attachments/56000762)
 
 *
 Multi-editor
@@ -1321,7 +1319,7 @@ l_cg_amb_water_a
 l_cg_amb_water_b
 *
  Random Containers.
-[Image: /docs/static/attachments/56000761]
+![Image](https://www.cryengine.com/docs/static/attachments/56000761)
 *
 Copying area_fade_distance
 *
@@ -1442,9 +1440,7 @@ Shape,
 *
 double-click while placing a point; finally, name the created Shape according to the
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56000755#AudioShowcaseTutorialChapter4:DynamicAmbience-a](
-Showcase_Audio ambience
-)
+[Showcase_Audio ambience](Audio%20Showcase%20Tutorial%20Chapter%204%20Dynamic%20Ambience.md#AudioShowcaseTutorialChapter4%3ADynamicAmbience-a)
 
 *
 image above
@@ -1517,7 +1513,7 @@ To move a created
 Area Shape
 *
 , use the
-[Image: /docs/static/attachments/56000774]
+![Image](https://www.cryengine.com/docs/static/attachments/56000774)
  button from the upper left corner of the Editor.
 
 -
@@ -2221,9 +2217,7 @@ Create a new Attenuation Share-Set on the
 Oneshots
 *
 Actor-Mixer similar to the one used on the
-[/docs](
-campfire particle audio
-)
+[campfire particle audio](/docs)
 . However since we'd like to hear the bird calls across the entire level, set the
 **
 Max distance
@@ -2324,7 +2318,7 @@ RandomizationArea
 **
  of an area box a high depth value, such that sounds will appear high in volume when they're triggered close to the player, and lower in volume when triggered farther away.
 
-[Image: /docs/static/attachments/56000773]
+![Image](https://www.cryengine.com/docs/static/attachments/56000773)
 
 *
 Bird call area boxes
@@ -2423,7 +2417,7 @@ l_cg_amb_forest_oneshot_crack_01 - 05.wav
  into the Scatterer Instrument's playlist as shown in the GIF below.
 A Scatterer Instrument allows the trigger rate and positioning of a sound to be randomized, which is ideal for the forest one shots we'd like to add.
 
-[Image: /docs/static/attachments/56000772]
+![Image](https://www.cryengine.com/docs/static/attachments/56000772)
 
 *
 Scatterer Instrument playlist
@@ -2542,7 +2536,7 @@ Set the
 Duration
 **
  value to 4.5 seconds and double-click the
-[Image: /docs/static/attachments/56000760]
+![Image](https://www.cryengine.com/docs/static/attachments/56000760)
  icon to open the Randomizer window; tick the
 **
 Enabled
@@ -2611,7 +2605,7 @@ Pick new Path when sound starts
 **
  toggle to force a new automation path to be used every time the sound is triggered.
 
-[Image: /docs/static/attachments/56000759]
+![Image](https://www.cryengine.com/docs/static/attachments/56000759)
 
 *
 l_cg_amb_forest_oneshot_crack automation
@@ -2736,7 +2730,7 @@ Add Automation
 
 -
 Add points of automation to the Volume curves of both tracks by clicking on the dotted line; the day ambience should be audible between 10 a.m - 6 p.m, fading in/out over 4 hours. The night ambience meanwhile should be audible during the remaining hours. The curves should resemble those in the image below.
-[Image: /docs/static/attachments/56000771]
+![Image](https://www.cryengine.com/docs/static/attachments/56000771)
 
 *
 Volume automation
@@ -2782,7 +2776,7 @@ In the Blend Track Editor that opens, activate the
 Crossfade
 **
  toggle and click the
-[Image: /docs/static/attachments/56000764]
+![Image](https://www.cryengine.com/docs/static/attachments/56000764)
  icon to add the
 *
 time_of_day
@@ -2876,7 +2870,7 @@ time_of_day
 *
 cursor over the Blend Track in the Blend Track Editor.
 
-[Image: /docs/static/attachments/56000758]
+![Image](https://www.cryengine.com/docs/static/attachments/56000758)
 
 *
 time_of_day Blend Track
@@ -2919,7 +2913,7 @@ First, create a new Environment preset by selecting the
 New
 **
  option from the Environment Editor's
-[Image: /docs/static/attachments/56000770]
+![Image](https://www.cryengine.com/docs/static/attachments/56000770)
  menu.
 
 -
@@ -2931,7 +2925,7 @@ Speed
 
 -
 Jump into Game Mode to try out your changes.
-[Image: /docs/static/attachments/56000769]
+![Image](https://www.cryengine.com/docs/static/attachments/56000769)
 
 *
 Environment Editor
@@ -2961,39 +2955,15 @@ Pay attention to the naming of Tracks, Parameters, Events, Banks, Folders etc. A
 
 -
 If for some reason you can't hear an Event in FMOD/Wwise, make sure that no Parameter is set to a value that makes the Event inaudible.
-[#fmod-video-tutorial](
-FMOD Video Tutorial
-)
-[#defining-a-global-area-box](
-Defining a Global Area Box
-)
-[#creating-the-global-ambience](
-Creating the Global Ambience
-)
-[#connecting-the-global-ambience-to-the-area-box](
-Connecting The Global Ambience To The Area Box
-)
-[#fading-the-global-ambience](
-Fading The Global Ambience
-)
-[#setting-up-the-remaining-ambience-layers](
-Setting Up The Remaining Ambience Layers
-)
-[#adding-area-shapes-to-the-level](
-Adding Area Shapes To The Level
-)
-[#creating-aaa-entities-for-all-area-shapes](
-Creating AAA Entities for all Area Shapes
-)
-[#one-shots-for-bird-calls](
-One Shots For Bird Calls
-)
-[#forest-one-shots](
-Forest One Shots
-)
-[#changing-the-global-ambience-with-time-of-day](
-Changing the Global Ambience With Time of Day
-)
-[#conclusion](
-Conclusion
-)
+[FMOD Video Tutorial](#fmod-video-tutorial)
+[Defining a Global Area Box](#defining-a-global-area-box)
+[Creating the Global Ambience](#creating-the-global-ambience)
+[Connecting The Global Ambience To The Area Box](#connecting-the-global-ambience-to-the-area-box)
+[Fading The Global Ambience](#fading-the-global-ambience)
+[Setting Up The Remaining Ambience Layers](#setting-up-the-remaining-ambience-layers)
+[Adding Area Shapes To The Level](#adding-area-shapes-to-the-level)
+[Creating AAA Entities for all Area Shapes](#creating-aaa-entities-for-all-area-shapes)
+[One Shots For Bird Calls](#one-shots-for-bird-calls)
+[Forest One Shots](#forest-one-shots)
+[Changing the Global Ambience With Time of Day](#changing-the-global-ambience-with-time-of-day)
+[Conclusion](#conclusion)

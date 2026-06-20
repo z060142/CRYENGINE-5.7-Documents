@@ -7,11 +7,9 @@
 
 ## Child Pages
 
-- [Tutorial - Building a Trampoline](Physics Tutorials/Tutorial - Building a Trampoline.md)
+- [Tutorial - Building a Trampoline](Physics%20Tutorials/Tutorial%20-%20Building%20a%20Trampoline.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56657487](
-Tutorial - Building a Trampoline
-)
+[Tutorial - Building a Trampoline](Physics%20Tutorials/Tutorial%20-%20Building%20a%20Trampoline.md)

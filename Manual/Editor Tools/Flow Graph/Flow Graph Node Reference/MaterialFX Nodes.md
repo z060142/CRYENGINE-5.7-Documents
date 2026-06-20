@@ -12,28 +12,28 @@ FlashGoTOAndPlayOnObject
 
 Handles Material Flash GotoAndPlay.
 
-[Image: /docs/static/attachments/29687863]
+![Image](https://www.cryengine.com/docs/static/attachments/29687863)
 
 ##
 FlashHandleFSCommand
 
 Handles flash FS command.
 
-[Image: /docs/static/attachments/29687862]
+![Image](https://www.cryengine.com/docs/static/attachments/29687862)
 
 ##
 FlashInvokeOnObject
 
 Used for Material Flash Invoke.
 
-[Image: /docs/static/attachments/29687861]
+![Image](https://www.cryengine.com/docs/static/attachments/29687861)
 
 ##
 HUDEndFX
 
 The MaterialFX end node for an HUD.
 
-[Image: /docs/static/attachments/29687860]
+![Image](https://www.cryengine.com/docs/static/attachments/29687860)
 
 **
 Inputs
@@ -60,7 +60,7 @@ HUDStartFX
 
 The MaterialFX start node for an HUD.
 
-[Image: /docs/static/attachments/29687859]
+![Image](https://www.cryengine.com/docs/static/attachments/29687859)
 
 **
 Inputs
@@ -147,18 +147,8 @@ Float
 Outputs the material effect blend out time in seconds
  |
 
-[#flashgotoandplayonobject](
-FlashGoTOAndPlayOnObject
-)
-[#flashhandlefscommand](
-FlashHandleFSCommand
-)
-[#flashinvokeonobject](
-FlashInvokeOnObject
-)
-[#hudendfx](
-HUDEndFX
-)
-[#hudstartfx](
-HUDStartFX
-)
+[FlashGoTOAndPlayOnObject](#flashgotoandplayonobject)
+[FlashHandleFSCommand](#flashhandlefscommand)
+[FlashInvokeOnObject](#flashinvokeonobject)
+[HUDEndFX](#hudendfx)
+[HUDStartFX](#hudstartfx)

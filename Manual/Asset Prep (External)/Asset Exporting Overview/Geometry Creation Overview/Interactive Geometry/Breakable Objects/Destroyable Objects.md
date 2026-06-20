@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Maya Destroyable Object Tutorial](Destroyable Objects/Maya Destroyable Object Tutorial.md)
+- [Maya Destroyable Object Tutorial](Destroyable%20Objects/Maya%20Destroyable%20Object%20Tutorial.md)
 
 ## Content
 
@@ -15,6 +15,4 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308025](
-Maya Destroyable Object Tutorial
-)
+[Maya Destroyable Object Tutorial](Destroyable%20Objects/Maya%20Destroyable%20Object%20Tutorial.md)

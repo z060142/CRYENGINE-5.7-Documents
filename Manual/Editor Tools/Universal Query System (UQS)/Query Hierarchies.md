@@ -46,7 +46,7 @@ leafs
 *
  in the tree).
 
-[Image: /docs/static/attachments/28900925]
+![Image](https://www.cryengine.com/docs/static/attachments/28900925)
 
 ##
 Regular Query (CQuery_Regular)
@@ -91,12 +91,6 @@ Sequence
 **
 node in the tree.
 
-[#regular-query-cqueryregular](
-Regular Query (CQuery_Regular)
-)
-[#fallbacks-query-cqueryfallbacks](
-Fallbacks Query (CQuery_Fallbacks)
-)
-[#chained-query-cquerychained](
-Chained Query (CQuery_Chained)
-)
+[Regular Query (CQuery_Regular)](#regular-query-cqueryregular)
+[Fallbacks Query (CQuery_Fallbacks)](#fallbacks-query-cqueryfallbacks)
+[Chained Query (CQuery_Chained)](#chained-query-cquerychained)

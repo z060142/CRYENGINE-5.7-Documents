@@ -28,7 +28,7 @@ Description
 
  |
 
-[Image: /docs/static/attachments/44966390]
+![Image](https://www.cryengine.com/docs/static/attachments/44966390)
 
  |
 Low Memory Usage
@@ -46,7 +46,7 @@ x86: <800MB
 x64: <3GB
  |
 
-[Image: /docs/static/attachments/44966391]
+![Image](https://www.cryengine.com/docs/static/attachments/44966391)
 
  |
 Average Memory Usage
@@ -64,7 +64,7 @@ x86: 800 - 1200MB
 x64: 3GB - 6GB
  |
 
-[Image: /docs/static/attachments/44966392]
+![Image](https://www.cryengine.com/docs/static/attachments/44966392)
 
  |
 High Memory Usage
@@ -92,14 +92,14 @@ Description
 
  |
 
-[Image: /docs/static/attachments/44966387]
+![Image](https://www.cryengine.com/docs/static/attachments/44966387)
 
  |
 Engine is streaming objects or textures.
 
  |
 
-[Image: /docs/static/attachments/44966385]
+![Image](https://www.cryengine.com/docs/static/attachments/44966385)
 
  |
 Engine is streaming terrain.
@@ -116,21 +116,21 @@ Description
 
  |
 
-[Image: /docs/static/attachments/44966386]
+![Image](https://www.cryengine.com/docs/static/attachments/44966386)
 
  |
 Engine compiling shader from cache.
 
  |
 
-[Image: /docs/static/attachments/44966389]
+![Image](https://www.cryengine.com/docs/static/attachments/44966389)
 
  |
 Engine compiling shader not found in cache.
 
  |
 
-[Image: /docs/static/attachments/44966388]
+![Image](https://www.cryengine.com/docs/static/attachments/44966388)
 
  |
 Engine is processing AI navigation mesh.

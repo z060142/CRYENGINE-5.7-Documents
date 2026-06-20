@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933205]
+![Image](https://www.cryengine.com/docs/static/attachments/29933205)
 
 ##
 Overview
@@ -21,27 +21,13 @@ Over time it is intended that the UQS will supersede the Tactical Point System (
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#features](
-Features
-)
-[#core-parts-of-a-query](
-Core Parts of a Query
-)
-[#scoring-of-items](
-Scoring of Items
-)
-[#technical-information](
-Technical Information
-)
-[#new-features-in-cryengine-54](
-New Features in CRYENGINE 5.4
-)
-[#breaking-changes-in-54](
-Breaking Changes in 5.4
-)
+[Sections](#sections)
+[Features](#features)
+[Core Parts of a Query](#core-parts-of-a-query)
+[Scoring of Items](#scoring-of-items)
+[Technical Information](#technical-information)
+[New Features in CRYENGINE 5.4](#new-features-in-cryengine-54)
+[Breaking Changes in 5.4](#breaking-changes-in-54)
 
 ##
 Features

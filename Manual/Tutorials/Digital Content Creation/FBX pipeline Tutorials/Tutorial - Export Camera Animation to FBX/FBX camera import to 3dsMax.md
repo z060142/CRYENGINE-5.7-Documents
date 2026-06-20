@@ -36,7 +36,7 @@ Import
 . Browse to the FBX file with the (non-animated) scene objects and hit open in the File Browse Dialog.
 
 *
-[Image: /docs/static/attachments/26516377]
+![Image](https://www.cryengine.com/docs/static/attachments/26516377)
 
 (img01: FBX scene objects imported to 3dsMax)
 *
@@ -70,7 +70,7 @@ Free
 **
  camera (the one without the Target node) and align and link it to the "Camera1" transformation.
 
-[Image: /docs/static/attachments/26516378]
+![Image](https://www.cryengine.com/docs/static/attachments/26516378)
 
 *
 (img02: FBX scene objects with imported camera whose orientation does not match the CRYENGINE camera.)
@@ -84,7 +84,7 @@ Perspective and an orthogonal viewport. Feel free to arrange any viewport that s
 In the screenshot below, we also added a ground plane to the scene which matches roughly the height as was in CRYNEGINE.
 
 *
-[Image: /docs/static/attachments/26516379]
+![Image](https://www.cryengine.com/docs/static/attachments/26516379)
 
 (img03: New viewport layout with a MasterCamera viewport and a new ground plane)
 *
@@ -108,7 +108,7 @@ Select the camera named "MasteraCamera".
 -
 Replace its default "Euler_XYZ" rotation controller by a "Rotation_List" controller. But don't delete the old "Euler XYZ" which get automatically included into the "Rotation List". It holds the imported FBX camera animation.
 
-[Image: /docs/static/attachments/26516391]
+![Image](https://www.cryengine.com/docs/static/attachments/26516391)
 
 *
 (img04: Replace the standard Euler XYZ by a more versatile "Rotation List" controller)
@@ -117,7 +117,7 @@ Replace its default "Euler_XYZ" rotation controller by a "Rotation_List" control
 -
 Add a new "Euler_XYZ" to the "Available" sub-controller of the "Rotation_List".
 
-[Image: /docs/static/attachments/26516392]
+![Image](https://www.cryengine.com/docs/static/attachments/26516392)
 
 *
 (img05: Add a new "Euler XYZ" to "Rotation List")
@@ -126,7 +126,7 @@ Add a new "Euler_XYZ" to the "Available" sub-controller of the "Rotation_List".
 -
 We renamed the stacked rotation sub-controllers, to give you a better impression, what controller is for:
 
-[Image: /docs/static/attachments/26516393]
+![Image](https://www.cryengine.com/docs/static/attachments/26516393)
 
 *
 (img06: Finished "Rotation List" controller setup before we add the corrective rotation)
@@ -136,7 +136,7 @@ We renamed the stacked rotation sub-controllers, to give you a better impression
 Before we offset the camera rotation, make sure your active rotation controller is the "Offset_Rot" controller.
 
 *
-[Image: /docs/static/attachments/26516394]
+![Image](https://www.cryengine.com/docs/static/attachments/26516394)
 
 (img07: Set "Offset_Rot" as active rotation controller)
 
@@ -182,7 +182,7 @@ Click
 **
  in your perspective viewport and choose "Local":
 
-[Image: /docs/static/attachments/26516395]
+![Image](https://www.cryengine.com/docs/static/attachments/26516395)
 
 Pay attention to be in
 LOCAL
@@ -192,7 +192,7 @@ LOCAL
 Now we rotate our "MasterCamera" in 90° angles to re-orient until we get a camera perspective that only need a correction in FOV/lens and render resolution. We had to rotate the local X and Y in +/- 90° steps.
 
 *
-[Image: /docs/static/attachments/26516398]
+![Image](https://www.cryengine.com/docs/static/attachments/26516398)
 
 (img09: Camera orientation fixed)
 *
@@ -233,7 +233,7 @@ Apply offset rotation directly onto the original animation data -> Did not make 
 -
 Only the first frame of your camera animation is fixed: Scrub the time slider to the last frame and check by eyeballing the results! See iii.
 
-[Image: /docs/static/attachments/26516400]
+![Image](https://www.cryengine.com/docs/static/attachments/26516400)
 
 ##
 Matching the 3dsMax camera settings to CRYENGINE camera
@@ -243,7 +243,7 @@ Now it's time for us to set up the "MasterCamera" in 3dsMax to match the CRYENGI
 -
 You should have both the CRYENGINE scene and 3dsMax scene opened. This makes a lot easier to see what changes are doing what.
 
-[Image: /docs/static/attachments/26516401]
+![Image](https://www.cryengine.com/docs/static/attachments/26516401)
 
 *
 (img10: Prepare CRYENGINE and 3dsMax to be on two monitors. Below we can see the finished and matched cameras)
@@ -259,7 +259,7 @@ vertically
 **
 *
 . Keep in mind, you should also know the camera output resolution or at least the aspect ratio to get a correct camera match in both CRYENGINE and your target 3D application (Maya, 3dsMax, Cinema4d, Blender, etc)
-[Image: /docs/static/attachments/26516402]
+![Image](https://www.cryengine.com/docs/static/attachments/26516402)
 
 *
 (img11: Change these 3dsMax camera settings)
@@ -268,7 +268,7 @@ vertically
 -
 We also need to change the camera output resolution to what you set back in CRYENGINE: in our case, it's 640 x 480
 
-[Image: /docs/static/attachments/26516403]
+![Image](https://www.cryengine.com/docs/static/attachments/26516403)
 
 *
 (img12: render output of the 3dsMax camera)
@@ -280,7 +280,7 @@ You should also check that 3dsMax is in 30 fps, since our animation in CRYENGINE
 whenever you have a real camera involved, you really want to see the camera frames to match:
 
 *
-[Image: /docs/static/attachments/26516404]
+![Image](https://www.cryengine.com/docs/static/attachments/26516404)
 
 (img13: Safe Frame turned on)
 
@@ -290,7 +290,7 @@ whenever you have a real camera involved, you really want to see the camera fram
 With these camera settings, your output here should match what you created in CRYENGINE.
 
 *
-[Image: /docs/static/attachments/26516405]
+![Image](https://www.cryengine.com/docs/static/attachments/26516405)
 
 (img14: Finished and matched cameras in 3dsMax & CRYENGINE)
 
@@ -365,15 +365,7 @@ ceFn_convertFOV 640 480 60
 
 ```
 
-[#import-fbx-scene-objects-and-camera](
-Import FBX scene objects and camera
-)
-[#re-align-the-imported-cryengine-camera](
-Re-Align the imported CRYENGINE camera
-)
-[#matching-the-3dsmax-camera-settings-to-cryengine-camera](
-Matching the 3dsMax camera settings to CRYENGINE camera
-)
-[#maxscript-function-for-fov-conversion](
-MAXScript function for FOV conversion
-)
+[Import FBX scene objects and camera](#import-fbx-scene-objects-and-camera)
+[Re-Align the imported CRYENGINE camera](#re-align-the-imported-cryengine-camera)
+[Matching the 3dsMax camera settings to CRYENGINE camera](#matching-the-3dsmax-camera-settings-to-cryengine-camera)
+[MAXScript function for FOV conversion](#maxscript-function-for-fov-conversion)

@@ -7,16 +7,16 @@
 
 ## Child Pages
 
-- [River Tool](Misc Objects/River Tool.md)
-- [Road Tool](Misc Objects/Road Tool.md)
-- [Camera Object](Misc Objects/Camera Object.md)
-- [Comment Tool](Misc Objects/Comment Tool.md)
-- [Decal Entity](Misc Objects/Decal Entity.md)
-- [Distance Cloud](Misc Objects/Distance Cloud.md)
-- [Environment Probe Entity](Misc Objects/Environment Probe Entity.md)
-- [Reference Picture](Misc Objects/Reference Picture.md)
-- [Rope Tool](Misc Objects/Rope Tool.md)
-- [Spline Distributor](Misc Objects/Spline Distributor.md)
+- [River Tool](Misc%20Objects/River%20Tool.md)
+- [Road Tool](Misc%20Objects/Road%20Tool.md)
+- [Camera Object](Misc%20Objects/Camera%20Object.md)
+- [Comment Tool](Misc%20Objects/Comment%20Tool.md)
+- [Decal Entity](Misc%20Objects/Decal%20Entity.md)
+- [Distance Cloud](Misc%20Objects/Distance%20Cloud.md)
+- [Environment Probe Entity](Misc%20Objects/Environment%20Probe%20Entity.md)
+- [Reference Picture](Misc%20Objects/Reference%20Picture.md)
+- [Rope Tool](Misc%20Objects/Rope%20Tool.md)
+- [Spline Distributor](Misc%20Objects/Spline%20Distributor.md)
 
 ## Content
 
@@ -31,9 +31,7 @@ Camera
 A camera object is used to define custom views of your level. They can be triggered via the Flow Graph and Track View, and are heavily used within animated sequences.
 
 For more Information, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869867](
-Camera
-)
+[Camera](Misc%20Objects/Camera%20Object.md)
 .
 
 ##
@@ -44,9 +42,7 @@ The comment tool allows the adding of comments anywhere inside a level.
 For more Information, please
 see
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869869](
-Comment
-)
+[Comment](Misc%20Objects/Comment%20Tool.md)
 .
 
 ##
@@ -61,9 +57,7 @@ Shader Generation Parameters
 
 For more Information, please
 see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869871](
-Decal
-)
+[Decal](Misc%20Objects/Decal%20Entity.md)
 .
 
 ##
@@ -74,9 +68,7 @@ Distance Clouds are basically horizontal planes placed into the sky. Unlike othe
 For more Information, please
 see
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869873](
-DistanceCloud
-)
+[DistanceCloud](Misc%20Objects/Distance%20Cloud.md)
 .
 
 ##
@@ -91,9 +83,7 @@ With the introduction of Physically Based Shading in CRYENGINE 3.6 cubemaps cont
 For more information, please
 see
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869875](
-Environment Probe
-)
+[Environment Probe](Misc%20Objects/Environment%20Probe%20Entity.md)
 **
 .
 **
@@ -106,9 +96,7 @@ The main purpose of the Reference Picture setup is that the ReferenceImage shade
 For more information, please
 see
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869877](
-Reference Picture
-)
+[Reference Picture](Misc%20Objects/Reference%20Picture.md)
 **
 .
 **
@@ -118,14 +106,12 @@ River
 
 The River Tool functions similarly to the Road Tool, but is preferable for setting up rivers as it contains several more, and very important, parameters needed for creating realistic looking rivers.
 
-[Image: /docs/static/attachments/16220240]
+![Image](https://www.cryengine.com/docs/static/attachments/16220240)
 
 For more information, please
 see
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867737](
-The River Tool
-)
+[The River Tool](Misc%20Objects/River%20Tool.md)
 **
 .
 **
@@ -139,14 +125,12 @@ After the road is placed, the points in the road can be edited, and the terrain 
 
 Depending on the purpose of the road, it may be useful to first place a vehicle in the level so that you can test the width, curvature, and slope of the road.
 
-[Image: /docs/static/attachments/1212787]
+![Image](https://www.cryengine.com/docs/static/attachments/1212787)
 
 For more Information, please
 see
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867810](
-The Road Tool
-)
+[The Road Tool](Misc%20Objects/Road%20Tool.md)
 **
 .
 **
@@ -165,9 +149,7 @@ Not Attached
  |
 
 Please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867658](
-Rope Tool
-)
+[Rope Tool](Misc%20Objects/Rope%20Tool.md)
  tutorial.
 
 ##
@@ -177,38 +159,16 @@ You can make precise changes to the geometry by adjusting the spline points and 
 
 For more information, please
 see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869879](
-Spline Distributor
-)
+[Spline Distributor](Misc%20Objects/Spline%20Distributor.md)
 .
 
-[#camera](
-Camera
-)
-[#comment](
-Comment
-)
-[#decal](
-Decal
-)
-[#distancecloud](
-DistanceCloud
-)
-[#environment-probe](
-Environment Probe
-)
-[#reference-picture](
-Reference Picture
-)
-[#river](
-River
-)
-[#road](
-Road
-)
-[#rope](
-Rope
-)
-[#spline-distributor](
-Spline Distributor
-)
+[Camera](#camera)
+[Comment](#comment)
+[Decal](#decal)
+[DistanceCloud](#distancecloud)
+[Environment Probe](#environment-probe)
+[Reference Picture](#reference-picture)
+[River](#river)
+[Road](#road)
+[Rope](#rope)
+[Spline Distributor](#spline-distributor)

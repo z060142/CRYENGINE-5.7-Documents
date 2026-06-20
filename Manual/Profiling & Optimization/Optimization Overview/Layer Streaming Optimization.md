@@ -28,9 +28,7 @@ For quick debugging and WYSIWYG implementation it is fine but we highly recommen
 Setup
 
 Layer Streaming is set up and scripted using
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450509](
-Flow Graph
-)
+[Flow Graph](../../Editor%20Tools/Flow%20Graph/How%20to%20Use%20Flow%20Graph.md)
 . It is 100% designer controlled so each level's designer has full control over what is shown and when. There are a couple of steps you need to follow in order to have your level be ready for Layer Streaming.
 
 ##
@@ -38,18 +36,16 @@ Step 1: Enable Layer Streaming
 
 Layer Streaming is disabled by default; it must be enabled per level in the environment properties for it to work. In the Rollup Bar, switch to the "Terrain" tab, then select "Environment" and set "UseLayersActivation" to true (which is in the "EnvState" section).
 
-[Image: /docs/static/attachments/44970825]
+![Image](https://www.cryengine.com/docs/static/attachments/44970825)
 
 It is recommended that the first visible layer(s) in your level do have the "Default loaded" flag which you can toggle in the layer settings.
 
 This will load these layers (and all objects etc in them) when the level is loaded so you will not have any lag or object popping when the layers are unhidden at game start.
 
-[Image: /docs/static/attachments/44970826]
+![Image](https://www.cryengine.com/docs/static/attachments/44970826)
 
 Please note that you will still take the default loaded layers in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450509](
-Flow Graph
-)
+[Flow Graph](../../Editor%20Tools/Flow%20Graph/How%20to%20Use%20Flow%20Graph.md)
  and unhide them there at game start; they will not be unhidden automatically due to the default loaded flag.
 
 ##
@@ -60,7 +56,7 @@ You will need the layer switch FG node, it can be found by
 Add Node -> Engine -> LayerSwitch
 **
 
-[Image: /docs/static/attachments/44970829]
+![Image](https://www.cryengine.com/docs/static/attachments/44970829)
 
 Properties of LayerSwitch flow node explained:
 
@@ -145,13 +141,13 @@ The logic for Layer Streaming needs to be setup via flowgraph. The logic itself 
 
 Here is an example setup showing basic switching logic:
 
-[Image: /docs/static/attachments/44970830]
+![Image](https://www.cryengine.com/docs/static/attachments/44970830)
 
 If you have layers that should never be hidden just have an extra section in your layer streaming Flow Graph where they are unhidden at the start.
 
 Here is an example of how this looked in Crysis 2:
 
-[Image: /docs/static/attachments/44970831]
+![Image](https://www.cryengine.com/docs/static/attachments/44970831)
 
 The most important bit is to take proper care of your layers and this brings us to the following...
 
@@ -162,7 +158,7 @@ Your level must be broken down into layers, usually separated into action bubble
 
 Here's an example shot of a Crysis 2 levels layer layout:
 
-[Image: /docs/static/attachments/44970832]
+![Image](https://www.cryengine.com/docs/static/attachments/44970832)
 
 Please note that children layers will not be affected when you test this in Editor game mode (see note above). In pure game mode all children layers will be affected when you hide/unhide a parent layer!
 
@@ -171,11 +167,11 @@ Step 4: Level Layout
 
 The bigger and more complex levels and so their layers get the more noticeable Layer Streaming might become. This makes it important to find good places for the switch to take place. Following is an example shot of a classic bottleneck setup in a level:
 
-[Image: /docs/static/attachments/44970833]
+![Image](https://www.cryengine.com/docs/static/attachments/44970833)
 
 To give you an idea of how this would look like in a level have another example shot:
 
-[Image: /docs/static/attachments/44970834]
+![Image](https://www.cryengine.com/docs/static/attachments/44970834)
 
 ##
 Tips
@@ -222,18 +218,10 @@ Example Level
 Here is a very simple example level for you to check out and see how the basics work. Notice the difference when you use it in Editor and pure game mode (launcher)!
 
 Download:
-[/docs/static/attachments/23999077](
-Layer_Streaming_Example.rar
-)
+[Layer_Streaming_Example.rar](/docs/static/attachments/23999077)
 
-[Image: /docs/static/attachments/44970835]
+![Image](https://www.cryengine.com/docs/static/attachments/44970835)
 
-[#setup](
-Setup
-)
-[#tips](
-Tips
-)
-[#example-level](
-Example Level
-)
+[Setup](#setup)
+[Tips](#tips)
+[Example Level](#example-level)

@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [Physics (animated)](Basics (animated)/Physics (animated).md)
-- [Rigging (animated)](Basics (animated)/Rigging (animated).md)
-- [Character Budgets](Basics (animated)/Character Budgets.md)
-- [Character Debugging](Basics (animated)/Character Debugging.md)
-- [Modeling (animated)](Basics (animated)/Modeling (animated).md)
+- [Physics (animated)](Basics%20(animated)/Physics%20(animated).md)
+- [Rigging (animated)](Basics%20(animated)/Rigging%20(animated).md)
+- [Character Budgets](Basics%20(animated)/Character%20Budgets.md)
+- [Character Debugging](Basics%20(animated)/Character%20Debugging.md)
+- [Modeling (animated)](Basics%20(animated)/Modeling%20(animated).md)
 
 ## Content
 
@@ -24,26 +24,16 @@ This section will describe the basics on the modeling, rigging and debugging of 
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307976](
-Character Budgets
-)
+[Character Budgets](Basics%20(animated)/Character%20Budgets.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307991](
-Character Debugging
-)
+[Character Debugging](Basics%20(animated)/Character%20Debugging.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307975](
-Modeling (animated)
-)
+[Modeling (animated)](Basics%20(animated)/Modeling%20(animated).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307977](
-Physics (animated)
-)
+[Physics (animated)](Basics%20(animated)/Physics%20(animated).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307985](
-Rigging (animated)
-)
+[Rigging (animated)](Basics%20(animated)/Rigging%20(animated).md)

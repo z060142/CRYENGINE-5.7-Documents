@@ -12,7 +12,7 @@ Overview
 
 An Occluder Plane can be used to occlude objects behind the plane. This typically isn't required because occlusion is done automatically through the assets.
 
-[Image: /docs/static/attachments/44965469]
+![Image](https://www.cryengine.com/docs/static/attachments/44965469)
 
 This object can be used as a fallback method.
 

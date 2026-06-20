@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Shader Features (Shader Generation Params)](Shaders in CRYENGINE/Shader Features (Shader Generation Params).md)
-- [Shader Reference](Shaders in CRYENGINE/Shader Reference.md)
+- [Shader Features (Shader Generation Params)](Shaders%20in%20CRYENGINE/Shader%20Features%20(Shader%20Generation%20Params).md)
+- [Shader Reference](Shaders%20in%20CRYENGINE/Shader%20Reference.md)
 
 ## Content
 
@@ -24,70 +24,54 @@ Description
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448860](
-DistanceClouds Shader
-)
+[DistanceClouds Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/DistanceClouds%20Shader.md)
 
  |
 Used by Environment Artists to create 2D DistanceClouds.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448900](
-Eye Shader
-)
+[Eye Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/Eye%20Shader.md)
 
  |
 Used by Character Artists to create the eyes of characters. Can also control the amount of dynamic pupil dilation.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448946](
-Glass Shader
-)
+[Glass Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/Glass%20Shader.md)
 
  |
 Used by Artists to create glass. Comes with specific features that are tailored for glass use and also specific breakability functionality.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448981](
-Hair Shader
-)
+[Hair Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/Hair%20Shader.md)
 
  |
 Used by Character Artists to create hair. Gives wide control over coloring and physicalization options.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449035](
-HumanSkin Shader
-)
+[HumanSkin Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/HumanSkin%20Shader.md)
 
  |
 Used by Character Artists and offers a wide variety of options to achieve realistic looking skin.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449070](
-Illum Shader
-)
+[Illum Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/Illum%20Shader.md)
 
  |
 The most commonly used shader, can be used to create an extremely wide variety of effects. If there is no specific shader for the type of effect you are trying to achieve, use the Illum Shader.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959873](
-Multilayeredmaterials Shader
-)
+[Multilayeredmaterials Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/Multilayeredmaterials%20Shader.md)
  |
 A shader tha can be used to combine different layers of materials to achieve unique and realistic surfaces.
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449083](
-NoDraw Shader
-)
+[NoDraw Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/NoDraw%20Shader.md)
 
  |
 Used for physics proxy. The NoDraw Shader forces the Engine to not render the geometry on which the shader is applied. There are no specific Shader Params.
@@ -100,90 +84,70 @@ Materials/special/collision_proxy_entitiesonly
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449085](
-ParticleImposter Shader
-)
+[ParticleImposter Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/ParticleImposter%20Shader.md)
 
  |
 The ParticleImposter shader is used to create particle effects that are not affected by light and hence do not cast shadows or cause reflections.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449087](
-Particles Shader
-)
+[Particles Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/Particles%20Shader.md)
 
  |
 Used by Artists who require particle effects.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449090](
-ReferenceImage Shader
-)
+[ReferenceImage Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/ReferenceImage%20Shader.md)
 
  |
 Forces the Engine to render the object without any shading or post-processing effects.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449106](
-Sky Shader
-)
+[Sky Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/Sky%20Shader.md)
 
  |
 Is only used for creating the sky box. The Sky Shader has no parameters, and the materials can only be applied through the Material settings via the Material Editor.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449154](
-SkyHDR Shader
-)
+[SkyHDR Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/SkyHDR%20Shader.md)
 
  |
 Is the same as the Sky Shader, with the exception, that if you want to use a dynamically changing sky through the Time Of Day settings, then you always have to use the SkyHDR Shader.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449224](
-TemplBeamProc Shader
-)
+[TemplBeamProc Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/TemplBeamProc%20Shader.md)
 
  |
 The TempleBeamProc Shader can be used to create very cheap fog light beam effects.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449280](
-Terrain.Layer Shader
-)
+[Terrain.Layer Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/Terrain.Layer%20Shader.md)
 
  |
 Used for all the terrain materials for painting terrain texture layers.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449329](
-Vegetation Shader
-)
+[Vegetation Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/Vegetation%20Shader.md)
 
  |
 Used for all vegetation.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449362](
-Water Shader
-)
+[Water Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/Water%20Shader.md)
 
  |
 Used for the ocean.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449415](
-WaterVolume Shader
-)
+[WaterVolume Shader](Shaders%20in%20CRYENGINE/Shader%20Reference/WaterVolume%20Shader.md)
 
  |
 Used for water volumes and rivers.
@@ -194,11 +158,7 @@ Used for water volumes and rivers.
  In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449533](
-Shader Features (Shader Generation Params)
-)
+[Shader Features (Shader Generation Params)](Shaders%20in%20CRYENGINE/Shader%20Features%20(Shader%20Generation%20Params).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448786](
-Shader Reference
-)
+[Shader Reference](Shaders%20in%20CRYENGINE/Shader%20Reference.md)

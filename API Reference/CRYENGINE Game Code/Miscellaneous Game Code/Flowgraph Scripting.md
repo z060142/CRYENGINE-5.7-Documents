@@ -7,17 +7,13 @@
 
 ## Child Pages
 
-- [Adding Lua Flownode Inputs and Outputs](Flowgraph Scripting/Adding Lua Flownode Inputs and Outputs.md)
-- [FlowNode Substitutions](Flowgraph Scripting/FlowNode Substitutions.md)
+- [Adding Lua Flownode Inputs and Outputs](Flowgraph%20Scripting/Adding%20Lua%20Flownode%20Inputs%20and%20Outputs.md)
+- [FlowNode Substitutions](Flowgraph%20Scripting/FlowNode%20Substitutions.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306552](
-Adding Lua Flownode Inputs and Outputs
-)
+[Adding Lua Flownode Inputs and Outputs](Flowgraph%20Scripting/Adding%20Lua%20Flownode%20Inputs%20and%20Outputs.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306553](
-FlowNode Substitutions
-)
+[FlowNode Substitutions](Flowgraph%20Scripting/FlowNode%20Substitutions.md)

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933230]
+![Image](https://www.cryengine.com/docs/static/attachments/29933230)
 
 ##
 1D-Blend Spaces Overview
@@ -23,45 +23,19 @@ We will explain all the concepts and parameters while we build different types o
 ##
 Chapters:
 
-[#1d-blend-spaces-overview](
-1D-Blend Spaces Overview
-)
-[#chapters](
-Chapters:
-)
-[#1d-bspacedummypara1bspace](
-1D-bspace_DummyPara1.bspace
-)
-[#1d-bspacedummypara2bspace](
-1D-bspace_DummyPara2.bspace
-)
-[#1d-bspacedummypara3bspace](
-1D-bspace_DummyPara3.bspace
-)
-[#1d-bspacemove1bspace](
-1D-bspace_Move1.bspace
-)
-[#1d-bspacemove2bspace](
-1D-bspace_Move2.bspace
-)
-[#1d-bspacemove3bspace](
-1D-bspace_Move3.bspace
-)
-[#1d-bspaceturnbspace](
-1D-BSpace_Turn.bspace
-)
-[#1d-bspaceslopebspace](
-1D-BSpace_Slope.bspace
-)
-[#1d-bspacestrafemove8clipsbspace](
-1D-BSpace_StrafeMove_8clips.bspace
-)
-[#1d-bspacesteprotbspace](
-1D-BSpace_StepRot.bspace
-)
-[#1d-bspacei2mleftbspace](
-1D-BSpace_I2M_left.bspace
-)
+[1D-Blend Spaces Overview](#1d-blend-spaces-overview)
+[Chapters:](#chapters)
+[1D-bspace_DummyPara1.bspace](#1d-bspacedummypara1bspace)
+[1D-bspace_DummyPara2.bspace](#1d-bspacedummypara2bspace)
+[1D-bspace_DummyPara3.bspace](#1d-bspacedummypara3bspace)
+[1D-bspace_Move1.bspace](#1d-bspacemove1bspace)
+[1D-bspace_Move2.bspace](#1d-bspacemove2bspace)
+[1D-bspace_Move3.bspace](#1d-bspacemove3bspace)
+[1D-BSpace_Turn.bspace](#1d-bspaceturnbspace)
+[1D-BSpace_Slope.bspace](#1d-bspaceslopebspace)
+[1D-BSpace_StrafeMove_8clips.bspace](#1d-bspacestrafemove8clipsbspace)
+[1D-BSpace_StepRot.bspace](#1d-bspacesteprotbspace)
+[1D-BSpace_I2M_left.bspace](#1d-bspacei2mleftbspace)
 
 ##
 1D-bspace_DummyPara1.bspace
@@ -87,7 +61,7 @@ Chapters:
 
 This is the simplest blend-space you can build, without any advanced features. The only purpose is to lerp two animations.
 
-[Image: /docs/static/attachments/35400777]
+![Image](https://www.cryengine.com/docs/static/attachments/35400777)
 
 You can start this in CharEdit and move the
 **
@@ -153,7 +127,7 @@ Example 3
 
 Now we can build a generalized one-dimensional blend-space by placing an arbitrary number of clips along a linear scale. This blend-node is doing a lerp between 2 clips adjacent to the input-value.
 
-[Image: /docs/static/attachments/35400778]
+![Image](https://www.cryengine.com/docs/static/attachments/35400778)
 
 ```
 
@@ -293,7 +267,7 @@ extract the parameters
 *
  directly out of the motions. The parameter "MoveSpeed" tells the system to extract the move-speed out of the root-motion and inserts it into automatically into the blend-space. The result is a blend-space where all assets have a different positions on the x-axis. These positions are what we call the "natural" motion parameters, because they are coming from the motion directly. In this case, the blend-space represents the real motion parameter, which is not the case when you use "SetPara0="?"" as we did before.
 
-[Image: /docs/static/attachments/35400779]
+![Image](https://www.cryengine.com/docs/static/attachments/35400779)
 
 ```
 
@@ -366,7 +340,7 @@ pseudo assets
 **
  by extrapolating two existing assets. The pseudo assets are rendered with a red cube. These are basically procedurally generated assets.
 
-[Image: /docs/static/attachments/35400780]
+![Image](https://www.cryengine.com/docs/static/attachments/35400780)
 
 ```
 
@@ -501,7 +475,7 @@ pseudo assets
 **
  by scaling the playback rate of existing assets. The pseudo assets are rendered with a green cube. These is yet another method to create procedurally generated assets.
 
-[Image: /docs/static/attachments/35400781]
+![Image](https://www.cryengine.com/docs/static/attachments/35400781)
 
 ```
 
@@ -557,7 +531,7 @@ run-turn-left
 *
 . The curved yellow locator indicates a turning animation. In all cases the character always moves in the direction his body points.
 
-[Image: /docs/static/attachments/35400782]
+![Image](https://www.cryengine.com/docs/static/attachments/35400782)
 
 ```
 
@@ -612,7 +586,7 @@ walk-down
 *
 . The yellow locator indicates a slope-angle. In all cases the character always moves in the direction his body points.
 
-[Image: /docs/static/attachments/35400783]
+![Image](https://www.cryengine.com/docs/static/attachments/35400783)
 
 ```
 
@@ -657,7 +631,7 @@ strafing movement
 *
 , but wants to move with his legs forward, sideways or backwards. A simple way to do this with blend-spaces is to take four, six or eight assets which cover all move-directions we need, and represent each direction by a radiant. Moving forward is always a value of 0.0. All values between 0.0 and -3.147 are movements to the right. All values between 0.0 and +3.147 are movements to the left. The values +3.147 and -3.147 both represent a perfect backwards motion. To cover a full circle we need a blend-space that ranges from -3.147 to +3.147. Or 2pi, if you want.
 
-[Image: /docs/static/attachments/35400784]
+![Image](https://www.cryengine.com/docs/static/attachments/35400784)
 
 ```
 
@@ -733,7 +707,7 @@ IdleStep-Rotations
 **
  where a character is turning on the spot.
 
-[Image: /docs/static/attachments/35400785]
+![Image](https://www.cryengine.com/docs/static/attachments/35400785)
 
 ```
 

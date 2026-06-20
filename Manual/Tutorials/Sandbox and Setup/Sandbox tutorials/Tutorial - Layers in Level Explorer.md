@@ -8,3 +8,5 @@
 ## Content
 
 Using layers in Level Explorer, including hiding, freezing, nesting in folders, and sharing with colleagues.
+
+[Embed: http://youtube.com/watch?v=ogj1pQkB94w]

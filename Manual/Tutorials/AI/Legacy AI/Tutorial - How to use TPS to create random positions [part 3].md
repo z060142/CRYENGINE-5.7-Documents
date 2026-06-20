@@ -8,3 +8,5 @@
 ## Content
 
 For this final part, we draw out the cover surfaces and switch on a few console variables to see the points drawn out dynamically.
+
+[Embed: https://www.youtube.com/watch?v=ll14eJOSzpY&list=PLpCgy91Y5vMuwKSCe-iOJ-OyAMXkMvb4I&index=2]

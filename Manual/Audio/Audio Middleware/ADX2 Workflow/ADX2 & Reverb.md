@@ -13,9 +13,7 @@ Overview
 The following describes how to set up reverbs in levels using ADX2.
 
 Refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964924](
-Audio & Reverbs*
-)
+[Audio & Reverbs*](../../Audio%20Overview/Audio%20%26%20Reverbs.md)
  for more information on audio Environments.
 
 ##
@@ -36,13 +34,13 @@ Select the created DSP Bus and add a reverb effect to its
 Effects
 **
  section in the DSP Bus Setting Info. window by clicking the
-[Image: /docs/static/attachments/44967880]
+![Image](https://www.cryengine.com/docs/static/attachments/44967880)
  icon and selecting
 **
 Atom Sound Renderer (ASR) → Reverb
 **
 . Similarly, click the
-[Image: /docs/static/attachments/44967880]
+![Image](https://www.cryengine.com/docs/static/attachments/44967880)
  icon in the DSP Bus'
 **
 Sends
@@ -52,14 +50,14 @@ Sends
 MasterOut.
 **
 
-[Image: /docs/static/attachments/44967876]
+![Image](https://www.cryengine.com/docs/static/attachments/44967876)
 
 *
 Reverb effect
 *
 
 *
-[Image: /docs/static/attachments/44967877]
+![Image](https://www.cryengine.com/docs/static/attachments/44967877)
 *
 
 *
@@ -78,7 +76,7 @@ FX/AISAC
 **
  window, and add a BusSend as shown in the image below.
 
-[Image: /docs/static/attachments/44967884]
+![Image](https://www.cryengine.com/docs/static/attachments/44967884)
 
 *
 Adding a BusSend called 'ReverbChurch'

@@ -10,22 +10,16 @@
 ##
 Overview
 
-[Image: /docs/static/attachments/23998311]
+![Image](https://www.cryengine.com/docs/static/attachments/23998311)
 
 The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-FragmentID
-)
+[FragmentID](Mannequin%20Concepts/FragmentIDs.md)
 editor is used to edit a fragmentID's name as well as the fragment definition properties that are stored in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition File (xxxControllerDefs.xml)
-)
+[Controller Definition File (xxxControllerDefs.xml)](Mannequin%20Files/Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
 .
 
 For a very simple example of its use see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308483](
-Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving
-)
+[Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving](../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md)
 .
 
 ##
@@ -42,9 +36,7 @@ Fragment ID Name
 Tags Definition
 *
 : The tag definition file containing the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308434](
-FragmentID-specific Tags (fragtags)
-)
+[FragmentID-specific Tags (fragtags)](Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)
  for this fragmentID.
 
 -
@@ -52,9 +44,7 @@ FragmentID-specific Tags (fragtags)
 Edit
 *
 : Edit the selected tag definition file in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308456](
-Mannequin Tag Definition Editor
-)
+[Mannequin Tag Definition Editor](Mannequin%20Tag%20Definition%20Editor.md)
 .
 
 -
@@ -80,9 +70,7 @@ Persistent
 Auto Update
 *
 : When this fragmentID is installed in the game, it constantly checks whether there is a fragment available that matches the current
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-Mannequin TagState
-)
+[Mannequin TagState](Mannequin%20Concepts/Mannequin%20TagState.md)
  better than the current one. If so, the system will push the new, better matching fragment for you. Useful for basic 'idling' actions. Typically used together with the "Persistent" flag.
 
 -
@@ -90,9 +78,7 @@ Mannequin TagState
 Default Scopes
 *
 : The default
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450861](
-scopemask
-)
+[scopemask](Mannequin%20Concepts/Mannequin%20Scopemasks.md)
 assigned to this fragmentID. (it is called 'default' as it can be overridden by the programmer)
 
 -

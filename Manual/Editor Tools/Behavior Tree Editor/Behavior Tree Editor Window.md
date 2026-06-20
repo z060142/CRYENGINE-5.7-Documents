@@ -10,7 +10,7 @@
 ##
 The Editor
 
-[Image: /docs/static/attachments/36849222]
+![Image](https://www.cryengine.com/docs/static/attachments/36849222)
 
 *
 Editor window
@@ -47,9 +47,7 @@ Scripts/AI/BehaviorTrees
  .
 
 Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870017](
-Connecting Behavior Trees
-)
+[Connecting Behavior Trees](../../Tutorials/AI/Tutorial%20-%20Getting%20Started%20With%20The%20Behavior%20Tree%20Editor/Implementing%20The%20Behavior%20Tree%20in%20The%20Behavior%20Tree%20Editor.md)
  section of the Getting Started With The Behavior Tree Editor tutorial for an example.
 
  |
@@ -147,9 +145,7 @@ Events
 **
  section of the Data Definitions block (number 2 in the
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869459#BehaviorTreeEditorWindow-ed_window](
-Editor Window
-)
+[Editor Window](Behavior%20Tree%20Editor%20Window.md#BehaviorTreeEditorWindow-ed_window)
 *
  image above) is made to include a list of events from that category. These events can be used in the tree by selecting them from the dropdown menus of nodes that require events to be specified.
 
@@ -316,7 +312,7 @@ Show Tree
 ai_ModularBehaviorTreeDebugTree.
 **
 
-[Image: /docs/static/attachments/36849221]
+![Image](https://www.cryengine.com/docs/static/attachments/36849221)
 
 *
 Show Tree
@@ -344,7 +340,7 @@ ai_ModularBehaviorTreeDebugVariables
 **
 CVar.
 
-[Image: /docs/static/attachments/36849220]
+![Image](https://www.cryengine.com/docs/static/attachments/36849220)
 *
 Show Variables
 *
@@ -364,7 +360,7 @@ ai_ModularBehaviorTreeDebugTimestamps
 **
  CVar.
 
-[Image: /docs/static/attachments/36849219]
+![Image](https://www.cryengine.com/docs/static/attachments/36849219)
 
 *
 Show Timestamps
@@ -386,7 +382,7 @@ ai_ModularBehaviorTreeDebugEvents
 
 CVar.
 
-[Image: /docs/static/attachments/36849546]
+![Image](https://www.cryengine.com/docs/static/attachments/36849546)
 *
 Show Events
 *
@@ -407,9 +403,7 @@ ai_ModularBehaviorTreeDebugLog
  CVar.
 
 For more information on writing messages to the Debug log, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/36870709](
-Use Debug Log
-)
+[Use Debug Log](../../../API%20Reference/AI/Behavior%20Trees/Custom%20Nodes%20in%20C%2B%2B.md)
 Technical Documentation.
 
  |
@@ -420,7 +414,7 @@ Show Blackboard
  |
 Displays the contents of the behavior tree's Blackboard during execution.
 
-[Image: /docs/static/attachments/44958972]
+![Image](https://www.cryengine.com/docs/static/attachments/44958972)
 
 *
 Show Blackboard
@@ -429,9 +423,7 @@ Show Blackboard
 The Blackboard is a data structure maintained by a behavior tree, containing variables and values relevant to an AI agent.
 
 Please refer to our
-[/docs/static/engines/cryengine-5/categories/23756813/pages/44958325](
-technical documentation
-)
+[technical documentation](../../../API%20Reference/AI/Behavior%20Trees/Behavior%20Tree%20Blackboard.md)
  for more information.
 
  |
@@ -494,7 +486,7 @@ Variables
 
 Variables are boolean in nature, the values of which are read/written during the execution and decision making process of a behavior tree.
 
-[Image: /docs/static/attachments/36849217]
+![Image](https://www.cryengine.com/docs/static/attachments/36849217)
 
 *
 List of custom variables
@@ -535,7 +527,7 @@ As mentioned previously, the Behavior Tree Editor already includes a number of b
 
 Although these events define circumstances most common and relevant to the AI in an FPS game, users may also define custom events.
 
-[Image: /docs/static/attachments/36849213]
+![Image](https://www.cryengine.com/docs/static/attachments/36849213)
 
 *
 Events
@@ -610,7 +602,7 @@ and to perform other behavior when
 False.
 *
 
-[Image: /docs/static/attachments/36849215]
+![Image](https://www.cryengine.com/docs/static/attachments/36849215)
 
 *
 Event handles
@@ -707,7 +699,7 @@ Timestamps are useful in tracking the occurrence of events, such as when a chara
 
 Users can define one or more Timestamps to be set when a particular Event is triggered, and these Timestamps can also be designed to be exclusive to each other.
 
-[Image: /docs/static/attachments/36849214]
+![Image](https://www.cryengine.com/docs/static/attachments/36849214)
 
 *
 Timestamps
@@ -800,29 +792,17 @@ Tree Root
 The behavior of the tree is then defined by combining different types of nodes.
 
 Based on their functionality/purpose, these nodes have been categorized into six different categories namely,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869467](
-Flow
-)
+[Flow](Behavior%20Tree%20Nodes/%5BNode%5D%20Flow.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869469](
-Conditions
-)
+[Conditions](Behavior%20Tree%20Nodes/%5BNode%5D%20Conditions.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869473](
-Time
-)
+[Time](Behavior%20Tree%20Nodes/%5BNode%5D%20Time.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869477](
-Core
-)
+[Core](Behavior%20Tree%20Nodes/%5BNode%5D%20Core.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869479](
-Debug
-)
+[Debug](Behavior%20Tree%20Nodes/%5BNode%5D%20Debug.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869482](
-GameSDK
-)
+[GameSDK](Behavior%20Tree%20Nodes/%5BNode%5D%20GameSDK.md)
 ; the general characteristics of these categories and the nodes they contain are explained in their respective sections.
 
 To begin creating a Behavior Tree, define its first node from the
@@ -832,9 +812,7 @@ Tree Root
  dropdown in the Behavior Tree block
 (number 3 in the
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869459#BehaviorTreeEditorWindow-ed_window](
-Editor Window
-)
+[Editor Window](Behavior%20Tree%20Editor%20Window.md#BehaviorTreeEditorWindow-ed_window)
 *
  image above).
 
@@ -1106,18 +1084,8 @@ Displays Behavior Tree elements according to the type (boolean, string, etc.) of
 
  |
 
-[#the-editor](
-The Editor
-)
-[#1-menu](
-1. Menu
-)
-[#2-data-definitions](
-2. Data Definitions
-)
-[#3-behavior-tree](
-3. Behavior Tree
-)
-[#context-menus](
-Context Menus
-)
+[The Editor](#the-editor)
+[1. Menu](#1-menu)
+[2. Data Definitions](#2-data-definitions)
+[3. Behavior Tree](#3-behavior-tree)
+[Context Menus](#context-menus)

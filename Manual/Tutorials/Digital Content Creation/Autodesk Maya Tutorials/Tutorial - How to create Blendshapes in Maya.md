@@ -8,3 +8,5 @@
 ## Content
 
 How to utilize math nodes to combine joint displacement at the root of your character to influence and morph geometry of a character. This is a feature that can be used alone or in conjunction with a joint-based rig for more dynamic reactions.
+
+[Embed: https://www.youtube.com/watch?v=LSrcnuLf-kk&list=PLpCgy91Y5vMtWDdz1L0UnFo7lwi4LDBUq&index=25]

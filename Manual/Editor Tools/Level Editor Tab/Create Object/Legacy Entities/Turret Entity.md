@@ -771,6 +771,4 @@ RadarVerticalOffset
  |
  |
 
-[#parameters](
-Parameters
-)
+[Parameters](#parameters)

@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Structuring The Behavior Tree](Tutorial - Getting Started With The Behavior Tree Editor/Structuring The Behavior Tree.md)
-- [Implementing The Behavior Tree in The Behavior Tree Editor](Tutorial - Getting Started With The Behavior Tree Editor/Implementing The Behavior Tree in The Behavior Tree Editor.md)
+- [Structuring The Behavior Tree](Tutorial%20-%20Getting%20Started%20With%20The%20Behavior%20Tree%20Editor/Structuring%20The%20Behavior%20Tree.md)
+- [Implementing The Behavior Tree in The Behavior Tree Editor](Tutorial%20-%20Getting%20Started%20With%20The%20Behavior%20Tree%20Editor/Implementing%20The%20Behavior%20Tree%20in%20The%20Behavior%20Tree%20Editor.md)
 
 ## Content
 
@@ -27,7 +27,7 @@ Use the Behavior Tree Editor to create events and nodes,
 
 -
 Associate behavior trees to AI characters, test and debug.
-[Image: /docs/static/attachments/36849736]
+![Image](https://www.cryengine.com/docs/static/attachments/36849736)
 
 *
 Salute!
@@ -35,19 +35,13 @@ Salute!
 
 Since the following tutorial uses assets and Behavior Tree from the GameSDK sample project, it is recommended to
 
-[https://www.cryengine.com/asset-db/product/crytek/cryengine-gamesdk-sample-project](
-download GameSDK
-)
+[download GameSDK](https://www.cryengine.com/asset-db/product/crytek/cryengine-gamesdk-sample-project)
  from the CRYENGINE
-[https://www.cryengine.com/marketplace](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace)
 .
 
 It is also assumed that users have at least a basic understanding of behavior tree concepts, the elements of the Behavior Tree Editor and all its nodes as described in its
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869208](
-user documentation
-)
+[user documentation](../../Editor%20Tools/Behavior%20Tree%20Editor.md)
 .
  Please note that the GameSDK Behavior Tree nodes are not for use in the development of your game projects. These have been included simply for understanding and testing the Behavior Tree Editor.
 
@@ -55,11 +49,7 @@ user documentation
 In This Section
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870015](
-Structuring The Behavior Tree
-)
+[Structuring The Behavior Tree](Tutorial%20-%20Getting%20Started%20With%20The%20Behavior%20Tree%20Editor/Structuring%20The%20Behavior%20Tree.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870017](
-Implementing The Behavior Tree in The Behavior Tree Editor
-)
+[Implementing The Behavior Tree in The Behavior Tree Editor](Tutorial%20-%20Getting%20Started%20With%20The%20Behavior%20Tree%20Editor/Implementing%20The%20Behavior%20Tree%20in%20The%20Behavior%20Tree%20Editor.md)

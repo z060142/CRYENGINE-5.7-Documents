@@ -96,9 +96,7 @@ If an error occurs in CMake while generating the solution, then make sure that V
 
 -
 The solution can now be opened. For C++ projects the solution can be opened in Visual Studio. For C# projects, then it can be opened with Xamarin Studio if it has the CRYENGINE add-in installed. For more information see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791112](
-C# Programming
-)
+[C# Programming](../../../../../API%20Reference/CRYENGINE%20Code%20Tutorials/C%23%20Programming.md)
 .
 
 -
@@ -106,9 +104,7 @@ Next build the solution by pressing Build/Build solution in Visual Studio, or Bu
 
 -
 The API has changed between CRYENGINE 5.3 and 5.4, so it’s possible that errors will be encountered during the build process - these errors need to be fixed manually. More information about the code changes can be found in the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962696](
-Important CRYENGINE 5.4 Data and Code Changes
-)
+[Important CRYENGINE 5.4 Data and Code Changes](Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes.md)
 .
 
 -

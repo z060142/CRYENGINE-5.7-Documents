@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Important 3.8.1 EaaS Code and Data Changes](EaaS 3.8.1/Important 3.8.1 EaaS Code and Data Changes.md)
-- [VR_Demo Level](EaaS 3.8.1/VR_Demo Level.md)
+- [Important 3.8.1 EaaS Code and Data Changes](EaaS%203.8.1/Important%203.8.1%20EaaS%20Code%20and%20Data%20Changes.md)
+- [VR_Demo Level](EaaS%203.8.1/VR_Demo%20Level.md)
 
 ## Content
 
@@ -20,13 +20,9 @@ Overview
 CRYENGINE 3.8.1 is here and it is packed with features that we know many of you have been extremely eager to get your hands on for quite some time. A culmination of all the work we've been doing since the CRYENGINE 3.7.0 release, this is one of our biggest releases yet.
 
 You'll find the top level features highlighted below, including our brand new OpenGL renderer which we use on Linux and Android platforms. We've added support for Oculus VR which has been a joint effort between the CRYENGINE team and the VR team working on our newly announced
-[http://robinsonthegame.com/](
-Robinson: The Journey game
-)
+[Robinson: The Journey game](http://robinsonthegame.com/)
 , and you can expect much more to come in this area over the next few releases! We've got Voxel-based rendering updates including Volumetric Fog with support for point lights, shadows, probes and more. GameZero is our brand new, stripped down, lean & mean GameCode sample package which makes creating a game on CRYENGINE much cleaner and simpler without all of the additional Crysis-related game code which you may not need for your title. This and a ton of other great improvements are
-[http://store.steampowered.com/app/220980/](
-available for download
-)
+[available for download](http://store.steampowered.com/app/220980/)
  right now!
 
 ##
@@ -37,51 +33,45 @@ OpenGL Renderer
 
 Our brand new OpenGL Renderer running on Linux:
 
-[Image: /docs/static/attachments/44962905]
+![Image](https://www.cryengine.com/docs/static/attachments/44962905)
 
-[Image: /docs/static/attachments/44962904]
+![Image](https://www.cryengine.com/docs/static/attachments/44962904)
 
 ##
 VR Support
 
 Support for
-[/docs/static/engines/cryengine-3/categories/1638401/pages/21267378](
-Oculus Rift
-)
+[Oculus Rift](/docs/static/engines/cryengine-3/categories/1638401/pages/21267378)
  has been integrated and we're rapidly adding more features and functions to help you get the most out of your Virtual worlds. We've included a small demonstration level, aptly titled the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962915](
-"VR_Demo"
-)
+["VR_Demo"](EaaS%203.8.1/VR_Demo%20Level.md)
  level. This showcases some information on how you can approach setting up your levels for VR, some of the implications and the immersive benefits of using VR.
 
-[Image: /docs/static/attachments/44962911]
+![Image](https://www.cryengine.com/docs/static/attachments/44962911)
 
 ##
 Voxel Based Volumetric Fog
 
 With CRYENGINE 3.8 we introduce an all new
-[/docs/static/engines/cryengine-3/categories/1114113](
-voxel-based volumetric fog
-)
+[voxel-based volumetric fog](/docs/static/engines/cryengine-3/categories/1114113)
  system. The system supports illumination from deferred lights, respects clip volume boundaries and
 works consistently with transparent objects including particles
 . It is also possible to inject particles directly into the fog volume to simulate some turbulence.
 
-[Image: /docs/static/attachments/44962902]
+![Image](https://www.cryengine.com/docs/static/attachments/44962902)
 
 *
 Correct ordering / sorting of transparent objects, particles & lights all within the Volumetric Fog Volume
 *
 
-[Image: /docs/static/attachments/44962901]
+![Image](https://www.cryengine.com/docs/static/attachments/44962901)
 
 *
 Shadows Casting Lights within a Volumetric Fog Volume
 *
 
-[Image: /docs/static/attachments/44962900]
+![Image](https://www.cryengine.com/docs/static/attachments/44962900)
 
-[Image: /docs/static/attachments/44962899]
+![Image](https://www.cryengine.com/docs/static/attachments/44962899)
 
 *
 Comparison of Light Entities, contributing into the Volumetric fog On / Off
@@ -90,21 +80,19 @@ Comparison of Light Entities, contributing into the Volumetric fog On / Off
 ##
 Cascaded Shadow Cache
 
-[/docs/static/engines/cryengine-3/categories/1114113/pages/21267738](
-Cached shadows
-)
+[Cached shadows](/docs/static/engines/cryengine-3/categories/1114113/pages/21267738)
  (formerly: static shadow map) have been extended to multiple cascades, covering several kilometers view distance out of the box. Cache updates are now handled under the hood but can still be manually tweaked via flow graph.
 
-[Image: /docs/static/attachments/44962909]
+![Image](https://www.cryengine.com/docs/static/attachments/44962909)
 
 ##
 Reverse Depth for Increased Z-Buffer Precision
 
 CRYENGINE stores depth values in a reversed range now. In combination with a floating point depth buffer, this helps to greatly increase depth precision and allows users to put the near clipping plane a lot closer than before without running into z-fighting problems.
 
-[Image: /docs/static/attachments/44962913]
+![Image](https://www.cryengine.com/docs/static/attachments/44962913)
 
-[Image: /docs/static/attachments/44962912]
+![Image](https://www.cryengine.com/docs/static/attachments/44962912)
 
 *
 Left shows an exaggerated setup with near plane distance set to 0.1cm to showcase Z-fighting. Right is the exact same setup with Reverse Depth enabled.
@@ -115,9 +103,9 @@ Efficient POM Self-Shadowing
 
 POM self-shadowing is back now and working efficiently with deferred shading, allowing the sun to cast shadows from the heightmap used for POM.
 
-[Image: /docs/static/attachments/44962903]
+![Image](https://www.cryengine.com/docs/static/attachments/44962903)
 
-[Image: /docs/static/attachments/44962907]
+![Image](https://www.cryengine.com/docs/static/attachments/44962907)
 
 ##
 8-Weight GPU Vertex Skinning
@@ -128,9 +116,7 @@ Skinning of complex animated meshes that use more than 4 vertex weights (up to 8
 Voxel Based Global Illumination (Experimental)
 
 The latest Release adds the prototype of a
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19377157](
-voxel-based global illumination
-)
+[voxel-based global illumination](/docs/static/engines/cryengine-3/categories/1114113/pages/19377157)
  system that can be used to render large-scale ambient occlusion with an optional indirect light bounce. Please note, the feature is highly experimental and not ready for production, it is just provided for testing and early feedback at that point.
 
 ##
@@ -159,9 +145,9 @@ Smoothness is authored using a more perceptually linear distribution.
 
 -
 Normal-variance filtering produces cleaner results.
-[Image: /docs/static/attachments/44962908]
+![Image](https://www.cryengine.com/docs/static/attachments/44962908)
 
-[Image: /docs/static/attachments/44962914]
+![Image](https://www.cryengine.com/docs/static/attachments/44962914)
 
 ##
 3ds Max 2016, Maya 2016, MotionBuilder 2016
@@ -173,13 +159,11 @@ GameZero
 
 The GameSDK project is a full blown game example. It demonstrates how most of the CRYENGINE features can be utilized. Based on Crysis 3, its size and complexity can be overwhelming for first time users. Furthermore prototyping games other than first person shooters can be tedious as the game project would have to be simplified to its core functionality first.
 
-[/docs/static/engines/cryengine-3/categories/1638401/pages/21266931](
-GameZero
-)
+[GameZero](/docs/static/engines/cryengine-3/categories/1638401/pages/21266931)
 
 offers a minimalist approach to CRYENGINE. It allows first time users to get a quick overview of using the engine’s core functionality. It can be used as starting point for creating several types of games.
 
-[Image: /docs/static/attachments/44962910]
+![Image](https://www.cryengine.com/docs/static/attachments/44962910)
 
 ##
 Road Tool
@@ -196,9 +180,7 @@ SceneRoot in Maya
 Maya scripts for creating SceneRoot
 were added
 (the scripts are accessible through Maya's Crytek toolbar). See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310815](
-Character Authoring in Maya
-)
+[Character Authoring in Maya](/docs/static/engines/cryengine-3/categories/1114113/pages/1310815)
 ,
 
 "Y-up/Z-Up, SceneRoot node, root bone".
@@ -207,9 +189,7 @@ Character Authoring in Maya
 Important Code and Data Changes
 
 See the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962926](
-Important 3.8.1 EaaS Code and Data Changes
-)
+[Important 3.8.1 EaaS Code and Data Changes](EaaS%203.8.1/Important%203.8.1%20EaaS%20Code%20and%20Data%20Changes.md)
  article for more information.
 
 ##
@@ -1648,9 +1628,7 @@ New
 New
 **
 : Added voxel-based Volumetric Fog feature. Can be enabled with e_VolumetricFog=1. See
-[/docs/static/engines/cryengine-3/categories/1114113](
-Voxel-Based Volumetric Fog_old
-)
+[Voxel-Based Volumetric Fog_old](/docs/static/engines/cryengine-3/categories/1114113)
  for more information.
 
 -
@@ -2198,9 +2176,7 @@ Optimized
 Optimized
 **
 : Removed light clip box support from tiled shading (superseded by
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19379670](
-Clip Volumes
-)
+[Clip Volumes](/docs/static/engines/cryengine-3/categories/1114113/pages/19379670)
 ).
 
 ##
@@ -4097,9 +4073,7 @@ New
 New
 **
 : Blend Spaces: Added debugging for parametric blend spaces on layers other than 0. (part of regular debugging information, see
-[/docs/static/engines/cryengine-3/categories/1638401/pages/19377239](
-Animation Debugging
-)
+[Animation Debugging](/docs/static/engines/cryengine-3/categories/1638401/pages/19377239)
 )
 
 -
@@ -4193,9 +4167,7 @@ New
 **
 **
 : Character Tool now fully supports editing for secondary animation, and drastically improved attachment editing in general. See the new accompanying documentation:
-[/docs/static/engines/cryengine-3/categories/1114113/pages/21266709](
-Attachment System Tutorial - Character Tool
-)
+[Attachment System Tutorial - Character Tool](/docs/static/engines/cryengine-3/categories/1114113/pages/21266709)
 .
 
 -
@@ -4676,9 +4648,7 @@ New
 **
 :
 **
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011601](
-Mannequin Actions
-)
+[Mannequin Actions](/docs/static/engines/cryengine-3/categories/1114113/pages/15011601)
  documentation has been updated.
 
 -
@@ -4692,9 +4662,7 @@ New
 Fixed
 **
 : (CE-5148) Fixed CryAction and GameSDK so the ComparePriority implementation in custom mannequin actions behaves similar to before 3.7. This impacts AI, item animation, replay actors, turrets and playback in the mannequin editor. As explained in
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011601](
-Mannequin Actions
-)
+[Mannequin Actions](/docs/static/engines/cryengine-3/categories/1114113/pages/15011601)
 .
 
 -
@@ -5113,36 +5081,14 @@ Optimized
 Optimized
 **
 : Removed unused/obsolete Weapon Params: hint_loop_start, angular_impulse, back_impulse, spread_finalBreath_m, useLowAmmoWarning, lowAmmoWarningFraction, offset, stealthEnergyDrainMultiplier, hasEmptyReload, heavy_weapon, spin_down_time, hud_style, transitionAnimtation, recoilDamping, coverScale, coverScaleTime.
-[#release-highlights](
-Release Highlights
-)
-[#important-code-and-data-changes](
-Important Code and Data Changes
-)
-[#editor](
-Editor
-)
-[#renderer](
-Renderer
-)
-[#engine](
-Engine
-)
-[#particles](
-Particles
-)
-[#rctools](
-RC/Tools
-)
-[#audio](
-Audio
-)
-[#animation](
-Animation
-)
-[#ai-system](
-AI System
-)
-[#game](
-Game
-)
+[Release Highlights](#release-highlights)
+[Important Code and Data Changes](#important-code-and-data-changes)
+[Editor](#editor)
+[Renderer](#renderer)
+[Engine](#engine)
+[Particles](#particles)
+[RC/Tools](#rctools)
+[Audio](#audio)
+[Animation](#animation)
+[AI System](#ai-system)
+[Game](#game)

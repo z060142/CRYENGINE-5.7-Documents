@@ -141,9 +141,7 @@ private:
 Node Data
 
 As described on the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/36870704](
-previous page
-)
+[previous page](../Behavior%20Trees.md)
 , Behavior Trees maintain both Configuration and Runtime Data.
 
 -
@@ -342,9 +340,7 @@ BehaviorTree::LoadResult MyNewActionNode::LoadFromXml(const XmlNodeRef& xml, str
 ```
 
 Find more information on reading and writing XML with CRYNENGINE
-[http://docs.cryengine.com/x/gZzGAQ](
-here
-)
+[here](http://docs.cryengine.com/x/gZzGAQ)
 .
 
 ##
@@ -443,9 +439,7 @@ Serialize
 Behavior Tree nodes use the Yasli library for serialization, so they require a Serialize function to be implemented. Serializing of nodes works in the same way as it does in other modules.
 
 More information on CRYENGINE's
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29796853](
-Serialization Library
-)
+[Serialization Library](../../Filesystem_/Serializing%20JSON%20%26%20XML.md)
  can be found here.
 
 ```
@@ -560,9 +554,7 @@ SendTransitionSignal
  Action node.
 
 Real-time debugging is enabled via the Behavior Tree Editor's
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869459](
-Debug Menu
-)
+[Debug Menu](../../../Manual/Editor%20Tools/Behavior%20Tree%20Editor/Behavior%20Tree%20Editor%20Window.md)
 .
 
 ```
@@ -595,7 +587,7 @@ m_signalName,
 GoTo_Combat.
 *
 
-[Image: /docs/static/attachments/44965773]
+![Image](https://www.cryengine.com/docs/static/attachments/44965773)
 
 *
 debugText=m_signalName
@@ -611,7 +603,7 @@ SendTransitionSignal
 *
  node displays the custom debug text as shown.
 
-[Image: /docs/static/attachments/44965774]
+![Image](https://www.cryengine.com/docs/static/attachments/44965774)
 
 *
 debugText=Smile! I am taking a picture
@@ -633,9 +625,7 @@ OnInitialize, Update
 OnTerminate
 *
 ) described in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/36870709](
-Custom Nodes
-)
+[Custom Nodes](Custom%20Nodes%20in%20C%2B%2B.md)
  documentation. This will appear as folows:
 
 ```
@@ -667,7 +657,7 @@ Debug → Show Log
 **
 option has been enabled from the Behavior Tree Editor main menu.
 
-[Image: /docs/static/attachments/44958422]
+![Image](https://www.cryengine.com/docs/static/attachments/44958422)
 
 *
 Hello World
@@ -739,21 +729,9 @@ void RegisterBehaviorTreeNodes_Custom()
 ##
 Table of Contents
 
-[#the-base-class](
-The Base Class
-)
-[#the-interface](
-The Interface
-)
-[#node-data](
-Node Data
-)
-[#implementation](
-Implementation
-)
-[#use-debug-log](
-Use Debug Log
-)
-[#registering-nodes](
-Registering Nodes
-)
+[The Base Class](#the-base-class)
+[The Interface](#the-interface)
+[Node Data](#node-data)
+[Implementation](#implementation)
+[Use Debug Log](#use-debug-log)
+[Registering Nodes](#registering-nodes)

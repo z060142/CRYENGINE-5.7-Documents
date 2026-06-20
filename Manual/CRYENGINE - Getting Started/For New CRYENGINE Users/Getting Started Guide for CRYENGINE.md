@@ -12,9 +12,7 @@ Overview
 
 Welcome to the Getting Started Guide for CRYENGINE V.
 **
-[https://www.cryengine.com/](
-CRYENGINE
-)
+[CRYENGINE](https://www.cryengine.com/)
 **
  is one of the most powerful AAA game engines in the industry and allows creators across the globe to harness its immense power to create world-class entertainment experiences.
 
@@ -24,14 +22,10 @@ This
 **
  familiarizes you with the basics of CRYENGINE V. You'll be guided through the basic steps that describe the most commonly used tools and features in the Sandbox Editor. Click on the icon below to download the latest version of the Getting Started Guide.
 
-[/docs/static/attachments/26957874](
-Getting_Started_Guide_V1.0.3.pdf
-)
+[Getting_Started_Guide_V1.0.3.pdf](/docs/static/attachments/26957874)
 
 For more information about sample creation projects, please refer to the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308580](
-Tutorials
-)
+[Tutorials](../../Tutorials.md)
 **
  section of our documentation.

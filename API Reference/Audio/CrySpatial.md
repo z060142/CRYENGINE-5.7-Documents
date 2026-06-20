@@ -64,8 +64,7 @@ folder of your project. This path could also be changed to the path of your FMOD
 For The Audio Designer
 
 To be able to use CrySpatial in your middleware's authoring tool, the files listed in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/44967958#CrySpatial-Authoring](
-)
+[/docs/static/engines/cryengine-5/categories/23756813/pages/44967958#CrySpatial-Authoring](CrySpatial.md#CrySpatial-Authoring)
  section above need to be copied over to the plugin folder of your middleware.
 
 ##
@@ -123,7 +122,7 @@ Wwise
 
 CrySpatialWwise is used like a normal Mix plugin, by adding it to a mix bus and routing mono voices to it.
 
-[Image: /docs/static/attachments/44967996]
+![Image](https://www.cryengine.com/docs/static/attachments/44967996)
 
 *
 CrySpatialWwise
@@ -140,7 +139,7 @@ FMOD
 
 FMOD utilizes Mixing plugins on a per-voice basis. That means CrySpatial has to be added as a Plug-in Effect to voices that should be spatialized.
 
-[Image: /docs/static/attachments/44967999]
+![Image](https://www.cryengine.com/docs/static/attachments/44967999)
 
 *
 Plug-in Effect
@@ -150,21 +149,9 @@ CrySpatial only works for setups that provide a 1-Channel Mono input, producing 
 
 In order to have attenuation, the FMOD Attenuation Effect has to be added after CrySpatial has been added as a Plug-in Effect.
 
-[#for-the-coder](
-For The Coder
-)
-[#authoring](
-Authoring
-)
-[#engine](
-Engine
-)
-[#for-the-audio-designer](
-For The Audio Designer
-)
-[#setup](
-Setup
-)
-[#usage](
-Usage
-)
+[For The Coder](#for-the-coder)
+[Authoring](#authoring)
+[Engine](#engine)
+[For The Audio Designer](#for-the-audio-designer)
+[Setup](#setup)
+[Usage](#usage)

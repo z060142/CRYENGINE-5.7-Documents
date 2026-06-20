@@ -28,7 +28,7 @@ Select Engine Version
 **
  prompt, as shown:
 
-[Image: /docs/static/attachments/69468370]
+![Image](https://www.cryengine.com/docs/static/attachments/69468370)
 
 *
 Select Engine version
@@ -48,7 +48,7 @@ From CRYENGINE release 5.6 onwards
 
 Choosing to create your project through the Launcher with CRYENGINE 5.6 or later versions will bring up the following prompt:
 
-[Image: /docs/static/attachments/69468361]
+![Image](https://www.cryengine.com/docs/static/attachments/69468361)
 
 *
 Create new project - 5.6.x
@@ -64,7 +64,7 @@ Launch Sandbox
 
 *
 
-[Image: /docs/static/attachments/69468542]
+![Image](https://www.cryengine.com/docs/static/attachments/69468542)
 
 *
 New Project
@@ -89,7 +89,7 @@ CRYENGINE Versions Before 5.6
 -
 Choosing to create a project in CRYENGINE versions earlier than 5.6 will open the following dashboard in the Launcher:
 
-[Image: /docs/static/attachments/69468535]
+![Image](https://www.cryengine.com/docs/static/attachments/69468535)
 
 *
 Create new project dashboard
@@ -126,7 +126,7 @@ Projects
 
 -
 Locate your project and click the
-[Image: /docs/static/attachments/69468359]
+![Image](https://www.cryengine.com/docs/static/attachments/69468359)
  icon in its listing.
 
 -
@@ -136,7 +136,7 @@ Launch in Sandbox Editor
 **
  option from the menu that opens.
 
-[Image: /docs/static/attachments/69468368]
+![Image](https://www.cryengine.com/docs/static/attachments/69468368)
 
 *
 Launch in Sandbox Editor
@@ -156,7 +156,7 @@ Projects
 
 -
 In the top right corner of the Projects library, click
-[Image: /docs/static/attachments/69468372]
+![Image](https://www.cryengine.com/docs/static/attachments/69468372)
 ; this opens the file explorer, allowing you to search for an existing CRYENGINE project to import.
 The imported project will then be listed in the Projects library.
 
@@ -210,7 +210,7 @@ Edit Project Details
 **
  option from the menu
 
-[Image: /docs/static/attachments/69468377]
+![Image](https://www.cryengine.com/docs/static/attachments/69468377)
 *
 
 Edit project details
@@ -230,7 +230,7 @@ Save Changes
 **
  to proceed.
 
-[Image: /docs/static/attachments/69468378]
+![Image](https://www.cryengine.com/docs/static/attachments/69468378)
 
 *
 Engine Version
@@ -244,7 +244,7 @@ Switch Engine Version
 **
  to proceed.
 
-[Image: /docs/static/attachments/69468379]
+![Image](https://www.cryengine.com/docs/static/attachments/69468379)
 
 *
 Switch Engine Version confirmation
@@ -259,7 +259,7 @@ Create Backup
 
 When updating from an older version of the Launcher, some of your assets might need to be migrated in order to sync correctly with the updated Launcher version. When this is the case, you will receive the following prompt:
 
-[Image: /docs/static/attachments/69468539]
+![Image](https://www.cryengine.com/docs/static/attachments/69468539)
 
 -
 Clicking
@@ -275,7 +275,7 @@ Customize
 **
  allows you to choose which assets to migrate.
 
-[Image: /docs/static/attachments/69468538]
+![Image](https://www.cryengine.com/docs/static/attachments/69468538)
 
 -
 If you choose to
@@ -283,9 +283,7 @@ If you choose to
 Skip
 **
 this step, you will see a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-Migrationreminder](
-reminder
-)
+[reminder](../CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-Migrationreminder)
  to complete the migration process in the Asset Library.
 
 Errors might arise while upgrading projects, due to the differing interfaces of different Engine versions; this can be fixed manually. In the event of an unexpected error, an
@@ -317,17 +315,9 @@ Generate Solution
 **
  option from the context menu.
 If switching to a newer Engine version still fails, users may revert back to the previous CRYENGINE version by repeating the steps described in this section, and selecting the previous CRYENGINE version from the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468348#ManagingProjects-engine_version](
-Engine Version
-)
+[Engine Version](Managing%20Projects.md#ManagingProjects-engine_version)
  dropdown.
 
-[#creating-projects](
-Creating Projects
-)
-[#importing-projects](
-Importing Projects
-)
-[#upgrading-projects](
-Upgrading Projects
-)
+[Creating Projects](#creating-projects)
+[Importing Projects](#importing-projects)
+[Upgrading Projects](#upgrading-projects)

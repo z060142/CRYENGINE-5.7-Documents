@@ -13,9 +13,7 @@ Overview
 CRYENGINE has a huge list of different built-in debugging and profiling tools. Some of them are very specific to a certain subsystem and only useful for experts. Others however, are very useful for most engine users in their regular workflow.
 
 This document lists the profiling console variables and commands that each programmer, artist and level designer working with CRYENGINE should know. A more complete list including less common profiling/debugging CVars can be found in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868666](
-Debugging and Profiling Tools
-)
+[Debugging and Profiling Tools](Debugging%20and%20Profiling%20Tools.md)
 .
 
 ##
@@ -38,20 +36,20 @@ Via having/not having  r_displayInfo in Editor.cfg (found in the CRYENGINE root 
 
 (via Menu/Button interaction)                                                                           (via Console)
 
-[Image: /docs/static/attachments/35406863]
+![Image](https://www.cryengine.com/docs/static/attachments/35406863)
 
-[Image: /docs/static/attachments/35406864]
+![Image](https://www.cryengine.com/docs/static/attachments/35406864)
 
 (via Editor.cfg)
 
-[Image: /docs/static/attachments/35406865]
+![Image](https://www.cryengine.com/docs/static/attachments/35406865)
 
 ##
 r_DisplayInfo 1
 
 Shows basic performance stats like the current frame rate, the number of visible triangles, visible light sources and the number of drawcalls.
 
-[Image: /docs/static/attachments/35406812]
+![Image](https://www.cryengine.com/docs/static/attachments/35406812)
 
 ##
 1st row
@@ -329,7 +327,7 @@ r_DisplayInfo 2
 
 An enhanced version of r_DisplayInfo 1, giving more detailed information.
 
-[Image: /docs/static/attachments/35406811]
+![Image](https://www.cryengine.com/docs/static/attachments/35406811)
 
 ##
 1st row
@@ -745,35 +743,35 @@ r_DisplayInfo 3
 
 Simplified version displaying only FPS (Frames Per Second) and Frame Time in milliseconds.
 
-[Image: /docs/static/attachments/35406810]
+![Image](https://www.cryengine.com/docs/static/attachments/35406810)
 
 ##
 sys_enable_budgetmonitoring 1
 
 Displays the budget monitor which gives a visual indication on how much of the fixed budget for memory, drawcalls, triangle count, etc. is consumed by the current camera view.
 
-[Image: /docs/static/attachments/35406847]
+![Image](https://www.cryengine.com/docs/static/attachments/35406847)
 
 ##
 SaveLevelStats
 
 Creates and XML report with statistics for the currently loaded level. The report includes all assets that are loaded, their size, dependencies and the number of instances in the scene. The report can be viewed with Excel.
 
-[Image: /docs/static/attachments/35406845]
+![Image](https://www.cryengine.com/docs/static/attachments/35406845)
 
 ##
 MemInfo 1
 
 Displays individual memory statistics for each module of CRYENGINE.
 
-[Image: /docs/static/attachments/35406862]
+![Image](https://www.cryengine.com/docs/static/attachments/35406862)
 
 ##
 MemStats 2000
 
 Shows memory statistics for all modules, including sub-module specific information. The value 2000 specifies that the data is updated every two seconds.
 
-[Image: /docs/static/attachments/35406855]
+![Image](https://www.cryengine.com/docs/static/attachments/35406855)
 
 ##
 Profile
@@ -793,29 +791,29 @@ Scroll Lock
 ##
 profile 1
 
-[Image: /docs/static/attachments/56655928]
+![Image](https://www.cryengine.com/docs/static/attachments/56655928)
 
 ##
 profile 2
 
-[Image: /docs/static/attachments/56655929]
+![Image](https://www.cryengine.com/docs/static/attachments/56655929)
 
 ##
 profile 3
 
-[Image: /docs/static/attachments/56655930]
+![Image](https://www.cryengine.com/docs/static/attachments/56655930)
 
 ##
 profile 4
 
-[Image: /docs/static/attachments/56655931]
+![Image](https://www.cryengine.com/docs/static/attachments/56655931)
 
 ##
 profile 5
 
 Displays information on the worker thread utilization.
 
-[Image: /docs/static/attachments/56655932]
+![Image](https://www.cryengine.com/docs/static/attachments/56655932)
 
 ##
 profile 6
@@ -824,14 +822,14 @@ Shows the time in milliseconds and percentage of the overall frame time that eac
 
 This is the most artist / designer friendly profile mode.
 
-[Image: /docs/static/attachments/56655933]
+![Image](https://www.cryengine.com/docs/static/attachments/56655933)
 
 ##
 Profile 7
 
 This only shows the header.
 
-[Image: /docs/static/attachments/56655934]
+![Image](https://www.cryengine.com/docs/static/attachments/56655934)
 
 ##
 profile_allthreads 1
@@ -910,7 +908,7 @@ This is a new profiling tool (with CRYENGINE 5.6) that allows users to track the
 
 This is exposed by allowing designers to set es_profileComponentUpdates=3, enabling on-screen profiling of all entity events. For example:
 
-[Image: /docs/static/attachments/35406881]
+![Image](https://www.cryengine.com/docs/static/attachments/35406881)
 
 Profiling data is now tracked in the entity system, with a generic implementation for CEntity::SendEvent. Performance critical events that are handled by the entity system itself instead of individual entity instances additionally add to the same structure. This is then drawn to screen once per frame, with the most expensive entity for each event being highlighted.
 
@@ -945,14 +943,14 @@ Note that the
 Render
 **
 thread will always read 0% in Editor as that thread is disabled outside of pure-game.
-[Image: /docs/static/attachments/35406809]
+![Image](https://www.cryengine.com/docs/static/attachments/35406809)
 
 ##
 r_Profiler 2
 
 This tool is the same as the r_stats 17. To unify the profiling tools into one place we have moved it into the r_Profiler for consistency (& removed the r_stats variation). This tool is more specifically targeted towards programmers, where we give the full scene breakdown costs.
 
-[Image: /docs/static/attachments/35406808]
+![Image](https://www.cryengine.com/docs/static/attachments/35406808)
 
 ##
 r_DeferredShadingDebug 1
@@ -975,7 +973,7 @@ SceneSpecularAcc.
 **
 
 **
-[Image: /docs/static/attachments/35406842]
+![Image](https://www.cryengine.com/docs/static/attachments/35406842)
 
 **
 
@@ -984,21 +982,21 @@ r_DeferredShadingDebug 2
 
 Visualizes the light overdraw. Debug deferred lighting fillrate. Brighter colors mean that the lighting calculations are more expensive for the specific area.
 
-[Image: /docs/static/attachments/35406852]
+![Image](https://www.cryengine.com/docs/static/attachments/35406852)
 
 ##
 e_DebugDraw 16
 
 Enables the debug gun which shows various rendering related information for the scene object that is currently in focus.
 
-[Image: /docs/static/attachments/35406861]
+![Image](https://www.cryengine.com/docs/static/attachments/35406861)
 
 ##
 r_PostProcessEffects 2
 
 Lists all post-processing effects that are currently active.
 
-[Image: /docs/static/attachments/35406849]
+![Image](https://www.cryengine.com/docs/static/attachments/35406849)
 
 ##
 r_MeasureOverdraw
@@ -1010,14 +1008,14 @@ r_MeasureOverdraw 1
 
 Pixel shader
 
-[Image: /docs/static/attachments/35406850]
+![Image](https://www.cryengine.com/docs/static/attachments/35406850)
 
 ##
 r_MeasureOverdraw 2
 
 Pass count
 
-[Image: /docs/static/attachments/35406818]
+![Image](https://www.cryengine.com/docs/static/attachments/35406818)
 
 ##
 r_MeasureOverdraw 3
@@ -1041,7 +1039,7 @@ In the picture below, the same pfx is displayed, but due to the distance from th
 
 So the distant pfx is shaded blue in this debug view.
 
-[Image: /docs/static/attachments/35406817]
+![Image](https://www.cryengine.com/docs/static/attachments/35406817)
 
 ##
 r_ParticlesDebug 2
@@ -1056,7 +1054,7 @@ Red = Bad
 
 -
 Blue = Good
-[Image: /docs/static/attachments/35406816]
+![Image](https://www.cryengine.com/docs/static/attachments/35406816)
 
 ##
 e_ParticlesDebug 1
@@ -1141,14 +1139,14 @@ Index Buffer
 Fill Rate
 At the bottom, it also list the top 5 offenders in the Vertex/Index pool. To easily help track down problematic pfx.
 
-[Image: /docs/static/attachments/35406815]
+![Image](https://www.cryengine.com/docs/static/attachments/35406815)
 
 ##
 stats_Particles
 
 Details information in a table format about the current active particles in the scene.
 
-[Image: /docs/static/attachments/35406814]
+![Image](https://www.cryengine.com/docs/static/attachments/35406814)
 
 ##
 AI
@@ -1158,7 +1156,7 @@ ai_DebugDraw 1
 
 Gives a basic overview of all AI agents that are on the map.
 
-[Image: /docs/static/attachments/35406860]
+![Image](https://www.cryengine.com/docs/static/attachments/35406860)
 
 ##
 ai_DebugDrawNavigation 1
@@ -1169,14 +1167,14 @@ Blue is classed as navigable area where it is valid for the AI to move. Red area
 
 Other variations of the Cvar - 0 - off, 1 - triangles and contour, 2 - triangles, mesh and contours, 3 - triangles, mesh contours and external links.
 
-[Image: /docs/static/attachments/35406813]
+![Image](https://www.cryengine.com/docs/static/attachments/35406813)
 
 ##
 ai_StatsDisplayMode 1
 
 Displays information on the number of active AI agents, full AI updates per frame and the number of TPS queries that are processed each frame.
 
-[Image: /docs/static/attachments/35406858]
+![Image](https://www.cryengine.com/docs/static/attachments/35406858)
 
 ##
 Vegetation
@@ -1191,7 +1189,7 @@ e_MergedMeshesDebug 1
 
 This view provides statistics about the Global memory consumption of the vegetation objects placed in the level. Attached below the r_displayinfo
 
-[Image: /docs/static/attachments/35406840]
+![Image](https://www.cryengine.com/docs/static/attachments/35406840)
 
 ##
 e_MergedMeshesDebug 2
@@ -1202,26 +1200,12 @@ They are colour coded over distance, and what you want to be seeing is the red b
 
 Floating above each cell contains the information about the current LOD step & current memory consumption about the cell ( will update as you move closer /  further away).
 
-[Image: /docs/static/attachments/35406839]
+![Image](https://www.cryengine.com/docs/static/attachments/35406839)
 
-[#memory-consumption-and-general-performance](
-Memory Consumption and General Performance
-)
-[#profile](
-Profile
-)
-[#profiling-data-in-the-entity-system](
-Profiling Data in the Entity System
-)
-[#rendering-performance](
-Rendering Performance
-)
-[#particles](
-Particles
-)
-[#ai](
-AI
-)
-[#vegetation](
-Vegetation
-)
+[Memory Consumption and General Performance](#memory-consumption-and-general-performance)
+[Profile](#profile)
+[Profiling Data in the Entity System](#profiling-data-in-the-entity-system)
+[Rendering Performance](#rendering-performance)
+[Particles](#particles)
+[AI](#ai)
+[Vegetation](#vegetation)

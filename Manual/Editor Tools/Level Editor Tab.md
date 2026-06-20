@@ -7,29 +7,21 @@
 
 ## Child Pages
 
-- [Create Object](Level Editor Tab/Create Object.md)
-- [Level Explorer](Level Editor Tab/Level Explorer.md)
-- [Level Settings](Level Editor Tab/Level Settings.md)
-- [Properties](Level Editor Tab/Properties.md)
+- [Create Object](Level%20Editor%20Tab/Create%20Object.md)
+- [Level Explorer](Level%20Editor%20Tab/Level%20Explorer.md)
+- [Level Settings](Level%20Editor%20Tab/Level%20Settings.md)
+- [Properties](Level%20Editor%20Tab/Properties.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869846](
-Create Object
-)
+[Create Object](Level%20Editor%20Tab/Create%20Object.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541](
-Level Explorer
-)
+[Level Explorer](Level%20Editor%20Tab/Level%20Explorer.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848989](
-Level Settings
-)
+[Level Settings](Level%20Editor%20Tab/Level%20Settings.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866220](
-Properties
-)
+[Properties](Level%20Editor%20Tab/Properties.md)

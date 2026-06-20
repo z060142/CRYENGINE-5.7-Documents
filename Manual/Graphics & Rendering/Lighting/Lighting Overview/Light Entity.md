@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933284]
+![Image](https://www.cryengine.com/docs/static/attachments/29933284)
 
 ##
 Overview
@@ -25,24 +25,12 @@ Create Object → Legacy Entities → Lights → Light
 **
 .
 
-[#sections](
-Sections
-)
-[#light-properties](
-Light Properties
-)
-[#negative-lights-and-darkening-areas](
-Negative Lights and Darkening Areas
-)
-[#attenuation-and-falloff](
-Attenuation and Falloff
-)
-[#ambient-lights](
-Ambient Lights
-)
-[#destroyablelight](
-DestroyableLight
-)
+[Sections](#sections)
+[Light Properties](#light-properties)
+[Negative Lights and Darkening Areas](#negative-lights-and-darkening-areas)
+[Attenuation and Falloff](#attenuation-and-falloff)
+[Ambient Lights](#ambient-lights)
+[DestroyableLight](#destroyablelight)
 
 ##
 Light Properties
@@ -73,9 +61,7 @@ AttenuationBulbSize
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215193](
-Attentuation and Falloff
-)
+[Attentuation and Falloff](Light%20Entity.md)
  for more information. When using AmbientLights, setting this value to '0' reverts to the older, non-physical attenuation model.
 
  |
@@ -154,9 +140,7 @@ DeferredClipBounds
 
  |
 Specifies that the light is linked to a light box or light shape and to use the volume of the target area for clipping. See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048777](
- Light Boxes and Light Shapes
-)
+[Light Boxes and Light Shapes](/docs/static/engines/cryengine-3/categories/1114113/pages/1048777)
 .
 
  |
@@ -167,9 +151,7 @@ FakeLight
 
  |
 Disables light projection, useful for lights which you only want to have
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048577](
-Flare
-)
+[Flare](/docs/static/engines/cryengine-3/categories/1114113/pages/1048577)
  effects from.
 
  |
@@ -387,9 +369,7 @@ AttachToSun
 
  |
 When enabled, sets the Sun to use the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048577](
-Flare properties
-)
+[Flare properties](/docs/static/engines/cryengine-3/categories/1114113/pages/1048577)
  for this light.
 
  |
@@ -409,9 +389,7 @@ FlareEnable
 
  |
 Used by the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048577](
-Flare Editor
-)
+[Flare Editor](/docs/static/engines/cryengine-3/categories/1114113/pages/1048577)
  system.
 
  |

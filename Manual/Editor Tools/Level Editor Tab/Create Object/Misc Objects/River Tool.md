@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [River Tool How-To](River Tool/River Tool How-To.md)
+- [River Tool How-To](River%20Tool/River%20Tool%20How-To.md)
 
 ## Content
 
@@ -25,7 +25,7 @@ X
 
 For waterfalls, particle effects can be used, as well as a DCC tool to create a waterfall. To do this, a simple geometry that follows the terrain geometry is needed with a material that has the Illum shader assigned to it, set to be a decal, and with a texture map with alpha channel in the diffuse slot with oscillation animation on it.
 
-[Image: /docs/static/attachments/44970936]
+![Image](https://www.cryengine.com/docs/static/attachments/44970936)
 
 *
 River in level
@@ -269,9 +269,7 @@ Caustics
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872962](
-Water Caustics
-)
+[Water Caustics](../../../../Post-processing/Water%20Caustics.md)
  for more information.
 
  |
@@ -282,9 +280,7 @@ Caustic Intensity
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872962](
-Water Caustics
-)
+[Water Caustics](../../../../Post-processing/Water%20Caustics.md)
  for more information.
 
  |
@@ -295,9 +291,7 @@ Caustic Tiling
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872962](
-Water Caustics
-)
+[Water Caustics](../../../../Post-processing/Water%20Caustics.md)
  for more information.
 
  |
@@ -308,9 +302,7 @@ Caustic Height
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872962](
-Water Caustics
-)
+[Water Caustics](../../../../Post-processing/Water%20Caustics.md)
  for more information.
 
  |
@@ -341,18 +333,8 @@ Align Height Map
 
 Will modify the terrain geometry based on the shape of the river and its border width parameter.
 
-[#uses-for-the-river-tool](
-Uses for the River Tool
-)
-[#adjusting-the-rivers-parameters](
-Adjusting the River's Parameters
-)
-[#river-properties](
-River Properties
-)
-[#river-spline-properties](
-River Spline Properties
-)
-[#additional-settings](
-Additional settings
-)
+[Uses for the River Tool](#uses-for-the-river-tool)
+[Adjusting the River's Parameters](#adjusting-the-rivers-parameters)
+[River Properties](#river-properties)
+[River Spline Properties](#river-spline-properties)
+[Additional settings](#additional-settings)

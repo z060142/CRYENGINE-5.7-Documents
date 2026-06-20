@@ -520,12 +520,6 @@ Do not touch this value, use whatever the underlying API has set
 <ThreadDefault name="">
 Has the same characteristics as the <Thread> XML Node except that it is used for all threads where the name of the thread has not been defined by a <Thread> XML node.
 
-[#loading-a-threadconfig-file-at-runtime](
-Loading a .thread_config file at runtime
-)
-[#overwriting-thread-configurations](
-Overwriting thread configurations
-)
-[#creating-a-threadconfig-file](
-Creating a .thread_config file
-)
+[Loading a .thread_config file at runtime](#loading-a-threadconfig-file-at-runtime)
+[Overwriting thread configurations](#overwriting-thread-configurations)
+[Creating a .thread_config file](#creating-a-threadconfig-file)

@@ -340,7 +340,5 @@ CrySystem/ISystem.h
 `
 . See CrySystem documentation:
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306428](
-Console
-)
+[Console](../../CRYENGINE%20Engine%20Code/Engine%20Modules/CrySystem/Console.md)
 **

@@ -17,31 +17,17 @@ The creation of the ShaderCache.pak
 will not work
 **
  if you don't use the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306645](
-Remote Shader Compiler
-)
+[Remote Shader Compiler](Remote%20Shader%20Compiler.md)
  to compile the shaders.
 
 Chapters:
 
-[#shadercache-generation-process-description](
-ShaderCache Generation Process Description
-)
-[#step-1](
-Step 1
-)
-[#step-2](
-Step 2
-)
-[#step-3](
-Step 3
-)
-[#step-4](
-Step 4
-)
-[#step-5](
-Step 5
-)
+[ShaderCache Generation Process Description](#shadercache-generation-process-description)
+[Step 1](#step-1)
+[Step 2](#step-2)
+[Step 3](#step-3)
+[Step 4](#step-4)
+[Step 5](#step-5)
 Related Pages:
 
 ##

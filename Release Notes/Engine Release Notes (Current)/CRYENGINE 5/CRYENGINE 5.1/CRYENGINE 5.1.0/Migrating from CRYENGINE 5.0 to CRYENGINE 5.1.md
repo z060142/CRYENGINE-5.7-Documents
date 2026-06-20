@@ -17,9 +17,7 @@ This article is aimed at easing migration of projects from CRYENGINE 5.0 to CRYE
 CRYENGINE 5.0:
 
 Although CRYENGINE 5.0 development focused on new features, it also refined some existing features to ease client interaction with CRYENGINE. Examples of which are the data driven thread manager; unifying all existing thread managers and changes to the way windows.h is included as well as a cleanup of outdated defines. For a full list of changes please see:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962603](
-Important data and code changes (CRYENGINE 5.0)
-)
+[Important data and code changes (CRYENGINE 5.0)](../../CRYENGINE%205.0/Important%20CRYENGINE%20V%20Data%20and%20Code%20Changes.md)
 
 CRYENGINE 5.1:
 
@@ -37,9 +35,7 @@ CRYENGINE 5.0,
 
 -
  See
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962623](
-Upgrading to CRYENGINE 5.1 - Code Formatting
-)
+[Upgrading to CRYENGINE 5.1 - Code Formatting](Upgrading%20to%20CRYENGINE%205.1%20-%20Code%20Formatting.md)
  if you have made changes to CRYENGINE source code, to ease integration.
 
 -
@@ -59,7 +55,7 @@ Rather than hand editing every single file. WAF provides a quick solution to con
 4. WAF will now start the conversion process.
 
  |
-[Image: /docs/static/attachments/44962621]
+![Image](https://www.cryengine.com/docs/static/attachments/44962621)
  |
 
 **
@@ -96,18 +92,18 @@ Re-organised
 
  |
 
-[Image: /docs/static/attachments/44962620]
+![Image](https://www.cryengine.com/docs/static/attachments/44962620)
  |
 **
 =>
 **
 
  |
-[Image: /docs/static/attachments/44962619]
+![Image](https://www.cryengine.com/docs/static/attachments/44962619)
 
  |
 
-[Image: /docs/static/attachments/44962618]
+![Image](https://www.cryengine.com/docs/static/attachments/44962618)
  |
 
 Categorizing CryCommon files does come at a slight cost though as all current files that are #including a CryCommon file have to obey the new layout.

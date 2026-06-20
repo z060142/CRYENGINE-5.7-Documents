@@ -8,3 +8,5 @@
 ## Content
 
 How to use custom, re-usable Flow Graph modules with custom input and output ports.
+
+[Embed: http://youtube.com/watch?v=dk4xR3LnxVU]

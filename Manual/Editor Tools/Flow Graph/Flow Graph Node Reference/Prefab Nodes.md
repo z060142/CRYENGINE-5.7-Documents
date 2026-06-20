@@ -12,4 +12,4 @@ EventSource
 
 Event node that must be placed inside a prefab for it to be handled in an instance.
 
-[Image: /docs/static/attachments/29687995]
+![Image](https://www.cryengine.com/docs/static/attachments/29687995)

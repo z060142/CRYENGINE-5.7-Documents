@@ -18,9 +18,7 @@ Tutorial Files
 If you want some files for reference
 , please download and unzip the tutorial files as described on
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959301](
-this page
-)
+[this page](../Tutorial%20-%20Jiggle%20Bones.md)
 **
 .
 
@@ -89,7 +87,7 @@ Character Tool
 From engine version 5.6 onwards, the skeleton list is not used anymore, so y
 ou can ignore any references to it on this page.
 
-[Image: /docs/static/attachments/44959451]
+![Image](https://www.cryengine.com/docs/static/attachments/44959451)
 
 *
 Pic1: Add the exported *.CHR skeleton file to the "SkeletonList.xml"
@@ -99,7 +97,7 @@ Pic1: Add the exported *.CHR skeleton file to the "SkeletonList.xml"
 Your new entry should look like this, depending if you want to modify the skeleton's name and how many skeleton entries have been already added:
 
 *
-[Image: /docs/static/attachments/44959450]
+![Image](https://www.cryengine.com/docs/static/attachments/44959450)
 
 Pic2: New entry should look like this
 
@@ -108,7 +106,7 @@ Pic2: New entry should look like this
 -
 Don't forget to save the "SkeletonList.xml", otherwise you cannot find the skeleton after you made the CDF and try to point the CDF to the skeleton/CHR file!
 
-[Image: /docs/static/attachments/44959449]
+![Image](https://www.cryengine.com/docs/static/attachments/44959449)
 
 *
 Pic3: Save your "SkeletonList.xml"
@@ -124,7 +122,7 @@ YOUR_PROJECT_FOLDER\Assets
 \
 Objects\jigglebone_tutorial_maya) and give the CDF a proper name. In our case, we chose "attachment_ponytail.cdf".
 
-[Image: /docs/static/attachments/44959448]
+![Image](https://www.cryengine.com/docs/static/attachments/44959448)
 
 *
 Pic4: Add a new CDF (Charcater Definition File)
@@ -148,7 +146,7 @@ Save
 
 On the right pane the properties of the CDF is displayed, there browse for the *.chr you exported and added to the "SkeletonList.xml":
 
-[Image: /docs/static/attachments/44959447]
+![Image](https://www.cryengine.com/docs/static/attachments/44959447)
 
 *
 Pic5: Add the skeleton again to the CDF
@@ -157,7 +155,7 @@ Pic5: Add the skeleton again to the CDF
 -
 You can turn on the display of Joints and Joint Names to see you have your skeleton without any geometry skinned to it.
 
-[Image: /docs/static/attachments/44959446]
+![Image](https://www.cryengine.com/docs/static/attachments/44959446)
 
 *
 Pic6: Display of joints to verify you correctly exported your skeleton
@@ -180,7 +178,7 @@ Skin Attachment
 **
  and choose the "ponytail_MSH.skin" file.
 
-[Image: /docs/static/attachments/44959445]
+![Image](https://www.cryengine.com/docs/static/attachments/44959445)
 
 *
 Pic7: Add the pony tail skinned object as "Skin Attachment"
@@ -192,7 +190,7 @@ Get the Exported Animations Showing up by Adding a *.CHRPARAMS file to Your Skel
 -
 Click on the skeleton CHR file to get access to its chrparams. CRYENGINE will automatically create the *.chrparams file for you if it cannot find one. The next step is to tell the Character Tool where you exported the animations.
 
-[Image: /docs/static/attachments/44959444]
+![Image](https://www.cryengine.com/docs/static/attachments/44959444)
 
 *
 Pic8: Add *.CHRPARAMS file by clicking on the skeleton CHR entry in your CDF
@@ -201,7 +199,7 @@ Pic8: Add *.CHRPARAMS file by clicking on the skeleton CHR entry in your CDF
 -
 Browse to the folder where the Character Tool will find our animations.
 
-[Image: /docs/static/attachments/44959443]
+![Image](https://www.cryengine.com/docs/static/attachments/44959443)
 
 *
 Pic9: Set the animation folder
@@ -214,7 +212,7 @@ Pic9: Set the animation folder
 -
 After you finished and saved the *.chrparams file, you should see the animation we made and called "default" under the Animations drop-down list. Look at the left pane of the Character Tool window and find this animation:
 
-[Image: /docs/static/attachments/44959442]
+![Image](https://www.cryengine.com/docs/static/attachments/44959442)
 
 *
 Pic10: Animation set you exported
@@ -245,7 +243,7 @@ For each joint of the pony tail taking part in the simulation, we will add a "Jo
 
 - Choose the Simulation type: "Pendulum Cone" for each Joint Attachment
 
-[Image: /docs/static/attachments/44959441]
+![Image](https://www.cryengine.com/docs/static/attachments/44959441)
 
 *
 Pic11: How to activate the physics of the Attachment System
@@ -256,7 +254,7 @@ Make sure you have set these five areas correctly.
 -
 After you added a "Joint Attachment" for all pony tail simulation joints and set the five parameters shown in step 1, your basic setup is done.
 
-[Image: /docs/static/attachments/44959440]
+![Image](https://www.cryengine.com/docs/static/attachments/44959440)
 
 *
 Pic12: Resulting "Joint Attachments" added
@@ -271,7 +269,7 @@ Before we dig deeper into the simulation parameters, let's change the layout for
 ##
 Switch Layout for manipulating physics parameters across multiple Joint Attachments
 
-[Image: /docs/static/attachments/44959439]
+![Image](https://www.cryengine.com/docs/static/attachments/44959439)
 
 *
 Pic13: Split the right pane in the Properties section into two right and left halves
@@ -279,7 +277,7 @@ Pic13: Split the right pane in the Properties section into two right and left ha
 
 Try selecting multiple Joint Attachments on the left and make changes for the same parameter in the right. Cool, eh?
 
-[Image: /docs/static/attachments/44959438]
+![Image](https://www.cryengine.com/docs/static/attachments/44959438)
 
 *
 Pic14: Always use this layout for tweaking parameter across several attachments
@@ -288,7 +286,7 @@ Pic14: Always use this layout for tweaking parameter across several attachments
 In addition, you should turn on/off the debug view when you make changes to the simulation parameters:
 
 *
-[Image: /docs/static/attachments/44959437]
+![Image](https://www.cryengine.com/docs/static/attachments/44959437)
 
 Pic15: Debug View
 *
@@ -323,7 +321,7 @@ Blue
 **
  color.
 
-[Image: /docs/static/attachments/44959436]
+![Image](https://www.cryengine.com/docs/static/attachments/44959436)
 
 *
 Pic16: Take special care of these two parameters for each Joint Attachment in the attachment list
@@ -424,7 +422,7 @@ R
 **
 ) each joint in your pony tail skeleton by these two vectors:
 
-[Image: /docs/static/attachments/44959435]
+![Image](https://www.cryengine.com/docs/static/attachments/44959435)
 
 *
 Pic17: For the first joint we added a rotation offset to make the pony tail look like sticking out of the back head and then hanging down
@@ -625,7 +623,7 @@ defines the target position, into which the direction an additional force is app
 Pivot Offset
 **
 will move the initial position of the simulation. If you aligned the joints in your source 3D application scene correctly, you normally do not change this value.
-[Image: /docs/static/attachments/44959434]
+![Image](https://www.cryengine.com/docs/static/attachments/44959434)
 
 *
 Pic18: Example of a "Spring Ellipsoid" simulation setup (File: attachment_antenna.cdf)
@@ -736,7 +734,7 @@ Pendulum Cone
 **
  with initial rotation. This way, we could rotate the whole joint chain. Hence, you may have SEVERAL simulations running on ONE joint:
 
-[Image: /docs/static/attachments/44959433]
+![Image](https://www.cryengine.com/docs/static/attachments/44959433)
 
 *
 Pic19: Achieve a similar pendula simulation with springs
@@ -747,9 +745,9 @@ We used different setup to make a pony tail, but the difference between the CDF 
 With the springs, the whole joint chain is tilted as the "head joint" (the node that is animated) ends up tilted, while with the pendula, the whole joint chain rotates to point down, as gravity pulls it downwards.
 
 *
-[Image: /docs/static/attachments/44959432]
+![Image](https://www.cryengine.com/docs/static/attachments/44959432)
 
-[Image: /docs/static/attachments/44959431]
+![Image](https://www.cryengine.com/docs/static/attachments/44959431)
 
 Pic20a & b: Comparing the difference in setups with Springs & Pendula, while in a rest pose
 *
@@ -793,15 +791,7 @@ Set up physics simulation parameters for "Joint Attachment"
 
 -
 Learned the different use cases of CRYENGINE's "Joint Attachments"
-[#tutorial-files](
-Tutorial Files
-)
-[#setting-up-the-exported-assets-in-cryengines-character-tool](
-Setting Up the Exported Assets in CRYENGINE's Character Tool
-)
-[#joint-attachment-physics-in-character-tool](
-Joint Attachment Physics in Character Tool
-)
-[#summary](
-Summary
-)
+[Tutorial Files](#tutorial-files)
+[Setting Up the Exported Assets in CRYENGINE's Character Tool](#setting-up-the-exported-assets-in-cryengines-character-tool)
+[Joint Attachment Physics in Character Tool](#joint-attachment-physics-in-character-tool)
+[Summary](#summary)

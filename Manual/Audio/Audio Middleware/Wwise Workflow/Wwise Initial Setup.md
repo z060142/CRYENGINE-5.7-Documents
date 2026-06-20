@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/44964991]
+![Image](https://www.cryengine.com/docs/static/attachments/44964991)
 
 ##
 Overview
@@ -18,26 +18,14 @@ Sections
 This tutorial will guide you through the initial steps in getting your audio from Wwise to work in CRYENGINE using the audio
 system.
 
-[Image: /docs/static/attachments/44968308]
+![Image](https://www.cryengine.com/docs/static/attachments/44968308)
 
-[#sections](
-Sections
-)
-[#initial-steps-with-wwise-for-cryengine](
-Initial Steps with Wwise for CRYENGINE
-)
-[#setting-up-wwise-for-cryengine](
-Setting up Wwise for CRYENGINE
-)
-[#creating-an-audio-setup-for-cryengine-in-wwise](
-Creating an Audio Setup for CRYENGINE in Wwise
-)
-[#connecting-wwise-controls-to-the-audio-system](
-Connecting Wwise Controls to the Audio System
-)
-[#placing-an-audio-system-trigger-in-the-game](
-Placing an Audio System Trigger in the Game
-)
+[Sections](#sections)
+[Initial Steps with Wwise for CRYENGINE](#initial-steps-with-wwise-for-cryengine)
+[Setting up Wwise for CRYENGINE](#setting-up-wwise-for-cryengine)
+[Creating an Audio Setup for CRYENGINE in Wwise](#creating-an-audio-setup-for-cryengine-in-wwise)
+[Connecting Wwise Controls to the Audio System](#connecting-wwise-controls-to-the-audio-system)
+[Placing an Audio System Trigger in the Game](#placing-an-audio-system-trigger-in-the-game)
 
 ##
  Initial Steps with Wwise for CRYENGINE
@@ -111,21 +99,17 @@ You can select a different path for your Wwise project by going to
 Edit -> Preferences
 **
  in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
 . You can then type the desired path or browse for the folder with the
 **
 Browse
 **
  button:
 
-[Image: /docs/static/attachments/52592759]
+![Image](https://www.cryengine.com/docs/static/attachments/52592759)
 
 By default, CRYENGINE checks these folders to locate all the Wwise Controls and Soundbanks and displays those files in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
 .
 
 It is recommended that you maintain the default folder structure since
@@ -138,7 +122,7 @@ CrytekScripts
 *
  folder would need to get updated as well.
 
-[Image: /docs/static/attachments/44968310]
+![Image](https://www.cryengine.com/docs/static/attachments/44968310)
 
 Wwise Project and Soundbanks
 When you ship your game, make sure you include the Soundbanks in the game folder as they contain all data from the Wwise project.
@@ -157,12 +141,10 @@ s_DrawAudioDebug a
 *
 Now, you can see (in the top left hand corner) the current version of Wwise that is supported by the audio system in your CRYENGINE build.
 
-[Image: /docs/static/attachments/44968313]
+![Image](https://www.cryengine.com/docs/static/attachments/44968313)
 
 You can download all Wwise versions from
-[https://www.audiokinetic.com/downloads/](
-here
-)
+[here](https://www.audiokinetic.com/downloads/)
 .
 
 ##
@@ -170,14 +152,10 @@ Creating an Audio Setup for CRYENGINE in Wwise
 
 Learning Wwise
 If you are new to Wwise, it is recommend that you read Audiokinetics
-[http://www.audiokinetic.com/download/documents/Wwise_GetStartedGuide.pdf](
-Wwise Get Started Guide
-)
+[Wwise Get Started Guide](http://www.audiokinetic.com/download/documents/Wwise_GetStartedGuide.pdf)
 .
  This will help you to get familiar with the concepts of the Wwise software. You can also complete the basic Wwise 101 course that is available
-[https://www.audiokinetic.com/learn/certifications/](
-here
-)
+[here](https://www.audiokinetic.com/learn/certifications/)
 .
 
 ##
@@ -199,7 +177,7 @@ After you have imported an audio file in
 **
  format, Wwise will create a new sound object for it.
 
-[Image: /docs/static/attachments/44968316]
+![Image](https://www.cryengine.com/docs/static/attachments/44968316)
 
 For each sound object in Wwise, you can specify multiple parameters in the
 Property Editor
@@ -209,7 +187,7 @@ Designer Layout
 Layouts
  in the menu bar.
 
-[Image: /docs/static/attachments/44968319]
+![Image](https://www.cryengine.com/docs/static/attachments/44968319)
 
 In the
 Property Editor
@@ -226,13 +204,13 @@ To create an event for your sound object, right-click on the sound object in the
 New Event -> Play
 .
 
-[Image: /docs/static/attachments/44968325]
+![Image](https://www.cryengine.com/docs/static/attachments/44968325)
 
 If you now look in the
 Events
  tab of the Project Explorer window, you can see your newly created event.
 
-[Image: /docs/static/attachments/44968327]
+![Image](https://www.cryengine.com/docs/static/attachments/44968327)
 
 Best Practices
 It is recommended that you use prefixes for events as they can perform multiple actions. For example, when stopping a sound, events can be called as Stop_(...) and so on in order to enhance their readability in both Wwise and CRYENGINE.
@@ -250,7 +228,7 @@ If you add the Work Unit from the Events tab in the Project Explorer to the Soun
 
 Now all newly created events within the Work Unit will also be automatically included in your SoundBank whenever you generate it.
 
-[Image: /docs/static/attachments/52592767]
+![Image](https://www.cryengine.com/docs/static/attachments/52592767)
 
 Remember that the SoundBanks need to be located in
 *
@@ -267,9 +245,7 @@ Remember that the SoundBanks need to be located in
 *
 `
  in order to be visible to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
 .
 
 Best Practices
@@ -301,15 +277,13 @@ This will generate all Soundbanks in the location
 `
 .
 
-[Image: /docs/static/attachments/44968331]
+![Image](https://www.cryengine.com/docs/static/attachments/44968331)
 
 ##
 Connecting Wwise Controls to the Audio System
 
 Now that you have created your setup in Wwise, the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
  will be able to recognize the Wwise Controls and SoundBanks. You can open CRYENGINE and go to
 Tools ->
 Audio Controls Editor
@@ -329,7 +303,7 @@ Folder
 
 After you create a folder, drag and drop the Wwise Controls into the new folder on the audio system Controls side. CRYENGINE will automatically create the corresponding connected audio system Controls and name them after their Wwise counterparts.
 
-[Image: /docs/static/attachments/44968334]
+![Image](https://www.cryengine.com/docs/static/attachments/44968334)
 
 You may notice that two types of audio system Controls have been created, a Trigger and a Preload.
 
@@ -339,9 +313,7 @@ Wwise Soundbanks
 CRYENGINE requires the Wwise Soundbank containing your event data to be loaded in order to play the audio sound in your level. Therefore, make sure to connect your Wwise SoundBanks to Preloads and update them when you add new content in Wwise.
 
 For more information on creating Soundbanks in Wwise, please refer
-[https://www.youtube.com/watch?v=ldzQvQeWtno](
-here
-)
+[here](https://www.youtube.com/watch?v=ldzQvQeWtno)
 .
 
 In the audio system Preload, make sure that the
@@ -351,9 +323,7 @@ Context
  on
 Global
  for now. For more information on using Contexts in the Audio Controls Editor, please refer
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-here
-)
+[here](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
 .
 
 ##
@@ -365,7 +335,7 @@ Execute Trigger
 
 In order to play your sound in the game, you need to place an audio entity in the level which will be executing the Audio Trigger during the game play. For each level, it is recommended to create a dedicated Audio Layer which contains all your audio data. You need to add a new layer in the Level Explorer and name it Audio.
 
-[Image: /docs/static/attachments/52592771]
+![Image](https://www.cryengine.com/docs/static/attachments/52592771)
 
 As long as the Audio layer is active (double-click on it and you'll see a blue
 V
@@ -379,7 +349,7 @@ Audio Trigger Spot
 Audio
  tab and place the entity in the level.
 
-[Image: /docs/static/attachments/44968338]
+![Image](https://www.cryengine.com/docs/static/attachments/44968338)
 
 Best Practices
 It is recommended to name your audio entities with abbreviations to improve readability in large projects. For example, the
@@ -408,7 +378,7 @@ Audio Trigger Spot
 *
  entity is enabled.
 
-[Image: /docs/static/attachments/44968340]
+![Image](https://www.cryengine.com/docs/static/attachments/44968340)
 
 Using the StopTrigger
 In Wwise, you do not need to create a Stop Trigger when you want to end the sound while the
@@ -427,7 +397,5 @@ Audio Trigger Spot
 *
  in combination with Wwise, please refer
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44965001](
-here
-)
+[here](Wwise%20%26%20SpotFX.md)
 .

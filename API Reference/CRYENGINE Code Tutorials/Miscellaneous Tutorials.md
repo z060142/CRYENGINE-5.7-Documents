@@ -7,11 +7,9 @@
 
 ## Child Pages
 
-- [UI Examples](Miscellaneous Tutorials/UI Examples.md)
+- [UI Examples](Miscellaneous%20Tutorials/UI%20Examples.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306540](
-UI Examples
-)
+[UI Examples](Miscellaneous%20Tutorials/UI%20Examples.md)

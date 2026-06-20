@@ -6,11 +6,9 @@
 
 ## Child Pages
 
-- [Programming With the Dynamic Response System](Dialog/Programming With the Dynamic Response System.md)
+- [Programming With the Dynamic Response System](Dialog/Programming%20With%20the%20Dynamic%20Response%20System.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/44961609](
-Programming With the Dynamic Response System
-)
+[Programming With the Dynamic Response System](Dialog/Programming%20With%20the%20Dynamic%20Response%20System.md)

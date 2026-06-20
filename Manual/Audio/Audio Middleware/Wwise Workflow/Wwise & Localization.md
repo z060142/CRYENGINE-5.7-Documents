@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/44964997]
+![Image](https://www.cryengine.com/docs/static/attachments/44964997)
 
 ##
 Overview
@@ -25,21 +25,13 @@ localization/english/audio/wwise/
 . This allows having multiple languages (not only audio) completely separated from each other to swap them in runtime and also for easier distribution across different countries.
 
 Make sure you download the
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-wwise-project](
-CRYENGINE GameSDK Wwise Project
-)
+[CRYENGINE GameSDK Wwise Project](https://www.cryengine.com/marketplace/product/crytek/cryengine-wwise-project)
  from the Asset Database
  and copy it to the required location.
 
-[#sections](
-Sections
-)
-[#information-about-localized-soundbanks](
-Information About Localized Soundbanks
-)
-[#setting-up-localized-soundbanks-in-wwise](
-Setting Up Localized Soundbanks in Wwise
-)
+[Sections](#sections)
+[Information About Localized Soundbanks](#information-about-localized-soundbanks)
+[Setting Up Localized Soundbanks in Wwise](#setting-up-localized-soundbanks-in-wwise)
 
 ##
 Information About Localized Soundbanks
@@ -94,7 +86,7 @@ Post-Generation Step
 **
  section.
 
-[Image: /docs/static/attachments/44968418]
+![Image](https://www.cryengine.com/docs/static/attachments/44968418)
 
 In the
 **
@@ -105,7 +97,7 @@ In the
 "$(WwiseProjectPath)\CrytekScripts\language_location_pc.bat".
 *
 
-[Image: /docs/static/attachments/44968438]
+![Image](https://www.cryengine.com/docs/static/attachments/44968438)
 
 Similarly, you can perform the above step for all platforms in the project.
 
@@ -137,4 +129,4 @@ Ignore
 *
  (ID 33).
 
-[Image: /docs/static/attachments/44968439]
+![Image](https://www.cryengine.com/docs/static/attachments/44968439)

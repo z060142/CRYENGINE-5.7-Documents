@@ -24,6 +24,8 @@ p_gravity_z
 **
  - by default this range can change to -13 or physically accurate in a model of -9.81 and is a precise gravitational force cast over the entire level to mimic real world conditions. Lowering the negativity of this will cause the world to mimic the effects of other planets or large masses like the moon.
 
+[Embed: https://vimeo.com/272154365]
+
 ##
 Manipulating the Time and Gravity Console Variables
 
@@ -83,24 +85,24 @@ Editor restart required
 ##
 Step 1
 
-[Image: /docs/static/attachments/29928956]
+![Image](https://www.cryengine.com/docs/static/attachments/29928956)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/29928957]
+![Image](https://www.cryengine.com/docs/static/attachments/29928957)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/29928958]
+![Image](https://www.cryengine.com/docs/static/attachments/29928958)
 
 ##
 Step 4-1
 
-[Image: /docs/static/attachments/29928959]
+![Image](https://www.cryengine.com/docs/static/attachments/29928959)
 
 ##
 Step 4-2
 
-[Image: /docs/static/attachments/29928960]
+![Image](https://www.cryengine.com/docs/static/attachments/29928960)

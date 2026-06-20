@@ -10,37 +10,27 @@
 
 ## Content
 
-[Image: /docs/static/attachments/26955400]
+![Image](https://www.cryengine.com/docs/static/attachments/26955400)
 
-[http://www.cryengine.com/support](
-[Image: /docs/static/attachments/26955403]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/26955403)](http://www.cryengine.com/support)
 
-[Image: /docs/static/attachments/26955404]
+![Image](https://www.cryengine.com/docs/static/attachments/26955404)
 
 **
 Dialog Overview
 **
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26873675](
-Localization
-)
+[Localization](Dialog/Localization.md)
 **
 Dialog Reference
 **
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870832](
-Dynamic Response System Concept
-)
+[Dynamic Response System Concept](Editor%20Tools/Dynamic%20Response%20System/Dynamic%20Response%20System%20Concept.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870836](
-Dynamic Response System Tool Reference
-)
+[Dynamic Response System Tool Reference](Editor%20Tools/Dynamic%20Response%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450580](
-Dialog Flow Graph Nodes
-)
+[Dialog Flow Graph Nodes](Editor%20Tools/Flow%20Graph/Flow%20Graph%20Node%20Reference/Dialog%20Nodes.md)

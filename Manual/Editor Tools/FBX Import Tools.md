@@ -73,9 +73,7 @@ Import
 Even easier than using the FBX Import tools is to simply drag & drop your assets into the Asset Browser, which is the recommended workflow.
 
 For more information about importing assets through the Asset Browser, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-here
-)
+[here](Asset%20Browser.md)
 .
 
 ##
@@ -169,9 +167,7 @@ The
 Load a level for proper lighting.
 
 To import an entire asset including skin, animations and skeleton, you'll need to drag it onto the viewport of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961853](
-Character Tool
-)
+[Character Tool](Animation%20Tab/Character%20Tool.md)
 .
 
 ##
@@ -183,13 +179,13 @@ This will import the animations attached to the
 **
  file.
 
-[Image: /docs/static/attachments/44967745]
+![Image](https://www.cryengine.com/docs/static/attachments/44967745)
 
 ##
 1. Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44967749]
+![Image](https://www.cryengine.com/docs/static/attachments/44967749)
  icon on the top-right corner of the tool. When clicked, it reveals the following
 **
 
@@ -388,13 +384,13 @@ Button
 Description
  |
 
-[Image: /docs/static/attachments/44967746]
+![Image](https://www.cryengine.com/docs/static/attachments/44967746)
 
  |
 See above under File.
  |
 
-[Image: /docs/static/attachments/44967747]
+![Image](https://www.cryengine.com/docs/static/attachments/44967747)
 
  |
 See above under File.
@@ -434,9 +430,7 @@ In this view you can optionally select a single node. if a node is selected, it 
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307989](
-Setting up Locomotion Locator in 3ds Max
-)
+[Setting up Locomotion Locator in 3ds Max](../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Basics%20(animated)/Rigging%20(animated)/Locomotion%20Locator.md)
 .
 
 ##
@@ -736,24 +730,20 @@ This will import the skeleton attached to the
 **
  file.
 
-[Image: /docs/static/attachments/44968645]
+![Image](https://www.cryengine.com/docs/static/attachments/44968645)
 
 ##
 1. Menu
 
 For more information about the Menu options, please
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-FileMenu](
-see here
-)
+[see here](FBX%20Import%20Tools.md#FBXImportTools-FileMenu)
 .
 
 ##
 2. Toolbar
 
 For more information about the Toolbar buttons and their functionalities, please
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-FileMenu](
-see here
-)
+[see here](FBX%20Import%20Tools.md#FBXImportTools-FileMenu)
 .
 
 ##
@@ -777,44 +767,34 @@ Description
 Show all meshes
 **
  |
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-Viewport](
-See here.
-)
+[See here.](FBX%20Import%20Tools.md#FBXImportTools-Viewport)
  |
 
 **
 Show selected node
 **
  |
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-Viewport](
-See here.
-)
+[See here.](FBX%20Import%20Tools.md#FBXImportTools-Viewport)
  |
 
 **
 Show selected subtree
 **
  |
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-Viewport](
-See here.
-)
+[See here.](FBX%20Import%20Tools.md#FBXImportTools-Viewport)
  |
 
 ##
 5. Display Options
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-DisplayOptions](
-See here
-)
+[See here](FBX%20Import%20Tools.md#FBXImportTools-DisplayOptions)
  for more information about the Display Options.
 
 ##
 6. Properties
 
 For more information, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-Properties](
-Properties
-)
+[Properties](FBX%20Import%20Tools.md#FBXImportTools-Properties)
 section on this page.
 
 ##
@@ -849,29 +829,23 @@ meshes and skins
 .fbx
 **
  is the preferred format). In addition, the FBX Importer provides a graphical interface to change properties of the geometry that are specific to CRYENGINE, such as level of detail settings (LOD) and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308017](
-User-Defined Properties (UDP)
-)
+[User-Defined Properties (UDP)](../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Geometry%20Metadata%20(UDP).md)
 .
 
-[Image: /docs/static/attachments/44968182]
+![Image](https://www.cryengine.com/docs/static/attachments/44968182)
 
 ##
 1. Menu
 
 For more information about the Menu options, please
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-FileMenu](
-see here
-)
+[see here](FBX%20Import%20Tools.md#FBXImportTools-FileMenu)
 .
 
 ##
 2. Toolbar
 
 The Toolbar options provide a shortcut to the File options. For more information, please
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-FileMenu](
-see here
-)
+[see here](FBX%20Import%20Tools.md#FBXImportTools-FileMenu)
 .
 
 In the Settings view, you'll find general settings and settings related to the conversion of your scene.
@@ -1014,7 +988,7 @@ This panel can be changed between two different views, the Source view and the T
 ##
 Source View
 
-[Image: /docs/static/attachments/44966296]
+![Image](https://www.cryengine.com/docs/static/attachments/44966296)
 
 The Source view shows the node hierarchy, a list of materials in the source scene and a list of textures used. Essentially, it reflects the scene setup in the source file. Selecting any item displays its properties in the
 **
@@ -1095,9 +1069,7 @@ Auto Add Proxies
 **
  |
 Automatically adds proxies to your mesh.
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-AutoAddProxies](
-See here
-)
+[See here](FBX%20Import%20Tools.md#FBXImportTools-AutoAddProxies)
  for more information about this feature.
  |
 
@@ -1171,7 +1143,7 @@ Through the Import Mesh tool you can also import skins for your assets. However,
 
 The skins can be found in the Source tab:
 
-[Image: /docs/static/attachments/44968654]
+![Image](https://www.cryengine.com/docs/static/attachments/44968654)
 
 Simply tick the box in front of the skin you want to import and click the
 **
@@ -1198,7 +1170,7 @@ Merge all nodes
 **
  option.
 
-[Image: /docs/static/attachments/44966295]
+![Image](https://www.cryengine.com/docs/static/attachments/44966295)
 
 ##
 5. Viewport
@@ -1214,27 +1186,21 @@ Description
 Show all meshes
 **
  |
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-Viewport](
-See here.
-)
+[See here.](FBX%20Import%20Tools.md#FBXImportTools-Viewport)
  |
 
 **
 Show selected node
 **
  |
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-Viewport](
-See here.
-)
+[See here.](FBX%20Import%20Tools.md#FBXImportTools-Viewport)
  |
 
 **
 Show selected subtree
 **
  |
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-Viewport](
-See here.
-)
+[See here.](FBX%20Import%20Tools.md#FBXImportTools-Viewport)
  |
 
 ##
@@ -1321,9 +1287,7 @@ Only useful if the
  |
 
 For a description of the rest of the Display Options,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294#FBXImportTools-DisplayOptions](
-click here.
-)
+[click here.](FBX%20Import%20Tools.md#FBXImportTools-DisplayOptions)
 
 ##
 7. Properties/Material Panel
@@ -1335,7 +1299,7 @@ Properties Panel
 
 Depending on whether the whole scene, a sub-tree or a single node is selected in the Node List, the following options appear:
 
-[Image: /docs/static/attachments/44966309]
+![Image](https://www.cryengine.com/docs/static/attachments/44966309)
 
 Option
  |
@@ -1771,7 +1735,7 @@ Color
 .
 
 *
-[Image: /docs/static/attachments/44966308]
+![Image](https://www.cryengine.com/docs/static/attachments/44966308)
 
 *
 
@@ -1806,12 +1770,12 @@ Each CGF has a reference to a single material. With this material picker you set
 **
  |
 
-[Image: /docs/static/attachments/44966307]
+![Image](https://www.cryengine.com/docs/static/attachments/44966307)
  |
 Opens the Material Editor (only works if a material has been assigned)
  |
 
-[Image: /docs/static/attachments/44966306]
+![Image](https://www.cryengine.com/docs/static/attachments/44966306)
  |
 Assigns a material to the scene.
  |
@@ -1995,7 +1959,7 @@ Add Auto Proxies
 .
 
 *
-[Image: /docs/static/attachments/44966324]
+![Image](https://www.cryengine.com/docs/static/attachments/44966324)
 *
 
 When you've added these Auto Proxies, you'll see the render mesh that will be used to generate proxies from. If it has several components, you can select which ones you want to use by clicking on them (a component - also called an "island" - is a part of the mesh that's not connected to the rest; for scene proxies each node will be a separate component, but it's also possible for nodes to have sub-components based on mesh connectivity). If you remove some components from an auto-proxies node, you can add them to a new auto-proxies node by going to the parent's menu again and selecting "Add remaining proxies".
@@ -2012,7 +1976,7 @@ Source
 **
  tab, you'll see several buttons and tick boxes in the Properties panel:
 
-[Image: /docs/static/attachments/44966323]
+![Image](https://www.cryengine.com/docs/static/attachments/44966323)
 
 Button
  |
@@ -2180,9 +2144,9 @@ Deselecting Components
 
 Before you Generate your auto proxies, you can deselect any components you don't want to include in the proxy. To do this, you simply click on them in the viewport. They will then appear transparent, meaning that they will not be generated:
 
-[Image: /docs/static/attachments/44966326]
+![Image](https://www.cryengine.com/docs/static/attachments/44966326)
 
-[Image: /docs/static/attachments/44966325]
+![Image](https://www.cryengine.com/docs/static/attachments/44966325)
 
 If you have deselected some components, they can be re-added after generation by right clicking the
 **
@@ -2461,7 +2425,7 @@ Bone_phys
 *
 "), mesh nodes are automatically assigned to the bones.
 
-[Image: /docs/static/attachments/44966321]
+![Image](https://www.cryengine.com/docs/static/attachments/44966321)
 
 ##
 Setting Ragdoll Limits
@@ -2472,7 +2436,7 @@ The matrix contains four controls for each constraint. Besides a spinbox for the
 
 A bone can be posed with the controls above the IK limits. This pose is mostly used for previewing only. The typical workflow for setting IK constraints is by posing a bone in an extreme position and then copying that pose to a constraint.
 
-[Image: /docs/static/attachments/44966327]
+![Image](https://www.cryengine.com/docs/static/attachments/44966327)
 
 ##
 3. Settings View
@@ -2607,21 +2571,9 @@ Use 32bit precision
 If enabled, vertex coordinates are stored with 32bit precision. If not enabled, they will be stored with 16bit precision.
  |
 
-[#basic-workflow-of-all-tools](
-Basic Workflow of All Tools
-)
-[#animation](
-Animation
-)
-[#skeleton](
-Skeleton
-)
-[#mesh](
-Mesh
-)
-[#adding-auto-proxies](
-Adding Auto Proxies
-)
-[#setting-up-fbx-skeleton-proxies-and-ragdoll-limits](
-Setting up FBX Skeleton Proxies and Ragdoll Limits
-)
+[Basic Workflow of All Tools](#basic-workflow-of-all-tools)
+[Animation](#animation)
+[Skeleton](#skeleton)
+[Mesh](#mesh)
+[Adding Auto Proxies](#adding-auto-proxies)
+[Setting up FBX Skeleton Proxies and Ragdoll Limits](#setting-up-fbx-skeleton-proxies-and-ragdoll-limits)

@@ -47,7 +47,7 @@ Material Editor
 .
 
 *
-[Image: /docs/static/attachments/24157059]
+![Image](https://www.cryengine.com/docs/static/attachments/24157059)
 
 Pic1: Initial Material Editor overview
 *
@@ -78,7 +78,7 @@ Pic2
 .
 
 *
-[Image: /docs/static/attachments/24157060]
+![Image](https://www.cryengine.com/docs/static/attachments/24157060)
 
 Pic2: Material settings
 *
@@ -97,13 +97,13 @@ AlphaTest
  set to 40.
 
 *
-[Image: /docs/static/attachments/24157061]
+![Image](https://www.cryengine.com/docs/static/attachments/24157061)
 
 Pic3: Opacity
 *
 
 *
-[Image: /docs/static/attachments/24157062]
+![Image](https://www.cryengine.com/docs/static/attachments/24157062)
 
 Pic4: Re-cap of where this info came from in 3dsMax
 *
@@ -137,7 +137,7 @@ Set the
 Smoothness
 **
  slider to a low value such as 30.
-[Image: /docs/static/attachments/24157063]
+![Image](https://www.cryengine.com/docs/static/attachments/24157063)
 
 *
 Pic5: Lighting Settings
@@ -159,7 +159,7 @@ Texture Maps
 The Texture Maps section should already have been filled out with our diffuse map.
 
 *
-[Image: /docs/static/attachments/24157064]
+![Image](https://www.cryengine.com/docs/static/attachments/24157064)
 
 Pic6: Texture map
 *
@@ -183,7 +183,7 @@ Grass
 **
  parameter forces the material to be two-sided.
 
-[Image: /docs/static/attachments/24157065]
+![Image](https://www.cryengine.com/docs/static/attachments/24157065)
 
 *
 Pic7: Shader Generation Params
@@ -283,7 +283,7 @@ Pic8
 *
 ).
 
-[Image: /docs/static/attachments/24157066]
+![Image](https://www.cryengine.com/docs/static/attachments/24157066)
 
 *
 Pic8: Shader Params
@@ -302,9 +302,7 @@ amplitude
  |
 Detail bending control. Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this page
-)
+[this page](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 **
  for information on detail bending (not required for this tutorial).
  |
@@ -313,9 +311,7 @@ Bending edges amplitude
  |
 Detail bending control. Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this page
-)
+[this page](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 **
 
 for information on detail bending (not required for this tutorial).
@@ -325,12 +321,8 @@ Detail bending frequency
  |
 Detail bending control. Please see
 **
-[http://docs.cryengine.com/pages/viewpage.action?pageId=23298302](
-
-)
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this page
-)
+[http://docs.cryengine.com/pages/viewpage.action?pageId=23298302](http://docs.cryengine.com/pages/viewpage.action?pageId=23298302)
+[this page](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 **
  for information on detail bending (not required for this tutorial).
  |
@@ -394,7 +386,7 @@ Save
  icon.
 
 *
-[Image: /docs/static/attachments/24157067]
+![Image](https://www.cryengine.com/docs/static/attachments/24157067)
 
 Pic9: Saving the material changes
 *
@@ -406,9 +398,7 @@ Before we continue to configure the material params, it will help if we place so
 
 For more information of the usage of the Vegetation Editor, please refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865590](
-HERE
-)
+[HERE](../../../../../Editor%20Tools/Vegetation%20Editor.md)
 **
 .
 
@@ -429,7 +419,7 @@ Editor.
 **
 
 *
-[Image: /docs/static/attachments/25035990]
+![Image](https://www.cryengine.com/docs/static/attachments/25035990)
 
 Pic10: Selecting the Vegetation Editor
 *
@@ -441,7 +431,7 @@ grass
 ).
 
 *
-[Image: /docs/static/attachments/25035988]
+![Image](https://www.cryengine.com/docs/static/attachments/25035988)
 
 Pic11: Adding a Vegetation group
 *
@@ -453,7 +443,7 @@ Add Vegetation Object
 (first button) to add a vegetation object to this category.
 
 *
-[Image: /docs/static/attachments/25035989]
+![Image](https://www.cryengine.com/docs/static/attachments/25035989)
 
 Pic12: Adding a vegetation object to the category
 *
@@ -527,13 +517,13 @@ AutoMerged
 **
 . Your grass field should now be ready and activated to bend with the wind & breeze generation.
 
-[Image: /docs/static/attachments/24157075]
+![Image](https://www.cryengine.com/docs/static/attachments/24157075)
 
 *
 Pic13: Static grass field
 *
 
-[Image: /docs/static/attachments/24157071]
+![Image](https://www.cryengine.com/docs/static/attachments/24157071)
 
 *
 Pic14: Physicalized grass field
@@ -606,7 +596,7 @@ Breeze generation
 **
  section. Enable the check box to activate the Breeze generation system. Make sure to also have a vaule > 0 in any of the the wind vector inputs (XYZ).
 
-[Image: /docs/static/attachments/25035991]
+![Image](https://www.cryengine.com/docs/static/attachments/25035991)
 
 *
 Pic15: Breeze generation check-box activated, under the highlighted directional wind vector
@@ -733,7 +723,7 @@ breeze
  elements as simple cubes running across the terrain.
 
 *
-[Image: /docs/static/attachments/24157074]
+![Image](https://www.cryengine.com/docs/static/attachments/24157074)
 
 Pic16: P_draw_Helpers=1 (red boxes are the simulated breeze proxies)
 *
@@ -800,7 +790,7 @@ e_MergedMeshesDebug=1
 
 This offers a simple overview of the merged mesh system that gets appended to the r_displayinfo = 1 help text. The text displays information about how many active nodes (sectors) instances, spines and mesh data both in (kb) among other information.
 
-[Image: /docs/static/attachments/24157078]
+![Image](https://www.cryengine.com/docs/static/attachments/24157078)
 
 ##
 e_MergedMeshesDebug=2
@@ -812,12 +802,12 @@ e_MergedMeshesDebug=2)
 offers the most information as to how the system works from a user standpoint. The Red text down the left side of the screen lists the current states of all the merged mesh sectors.
 
 *
-[Image: /docs/static/attachments/24157072]
+![Image](https://www.cryengine.com/docs/static/attachments/24157072)
 
 Pic17: Custom level, with Merged Mesh grass assets added and e_MergedMeshesDebug=2 activated to see the clusters
 *
 
-[Image: /docs/static/attachments/24157079]
+![Image](https://www.cryengine.com/docs/static/attachments/24157079)
 
 *
 Pic18: Sector info for e_MergedMeshesDebug=2
@@ -876,7 +866,7 @@ If the sector is in view, this number will increase. If the sector is not on scr
 
 The next part covers the bounding boxes that are represented in this view. Here is a simplified view, where an empty level with lots of MM grass objects are placed down.
 
-[Image: /docs/static/attachments/24157081]
+![Image](https://www.cryengine.com/docs/static/attachments/24157081)
 
 *
 Pic19: Top down view with only the merged mesh grass in view.
@@ -913,7 +903,7 @@ Sector debug Information
 **
 : Now we are talking about the text that is associated with each sector. Each sector has this information of about itself. You should find this at the center of each sector.
 
-[Image: /docs/static/attachments/24157082]
+![Image](https://www.cryengine.com/docs/static/attachments/24157082)
 
 *
 Pic20: Sector debug info
@@ -971,7 +961,7 @@ ch
 **
  count will increase by one (same geometry, 2x materials). The same increase will happen if we add another different vegetation item, because that will also contain a different material.
 
-[Image: /docs/static/attachments/24157083]
+![Image](https://www.cryengine.com/docs/static/attachments/24157083)
 
 *
 Pic21: Simplified view of the sector with 2 instances of the same vegetation item.
@@ -980,7 +970,7 @@ Pic21: Simplified view of the sector with 2 instances of the same vegetation ite
 This is a way to keep track of what items you are merging together within the Merged Mesh system. You want to keep this number as low as possible, and the easiest way is to this is by using one large texture sheet with multiple plant textures on it.
 
 For reference, below we have a sample texture originally 2048 x 4096, with around 22 different plants all together. You can create an enormous variety of vegetation using merged meshes and one material, and keep performance as high as possible by sharing the same texture / material within a sector.
-[Image: /docs/static/attachments/24157077]
+![Image](https://www.cryengine.com/docs/static/attachments/24157077)
 
 *
 Pic22: Example texture for a grass group used in the above scene in Crysis 3
@@ -990,7 +980,7 @@ e_MergedMeshesDebug= 256
 
 With this debug view, we can inspect any entities that interact with the merged meshes. Note the collider spheres around the wheels on the vehicles and the AI character that interact with the merged mesh vegetation.
 
-[Image: /docs/static/attachments/24157080]
+![Image](https://www.cryengine.com/docs/static/attachments/24157080)
 
 *
 Pic23: Debug view to display the collider geometry within assets that interact with the mm system.
@@ -1003,7 +993,7 @@ This view mode allows you to view the rope's LOD state. The further away from th
 
 *
 *
-[Image: /docs/static/attachments/24157073]
+![Image](https://www.cryengine.com/docs/static/attachments/24157073)
 
 Pic24: e_MergedMeshesDebug=2080 activated to see the rope LOD state (red active, blue inactive)
 *
@@ -1044,18 +1034,8 @@ e_MergedMeshesViewDistRatio
 Merged Meshes view distance ratio.
  |
 
-[#asset-setup-in-cryengine](
-Asset Setup in CRYENGINE
-)
-[#material](
-Material
-)
-[#vegetation-editor](
-Vegetation Editor
-)
-[#breeze-generation](
-Breeze Generation
-)
-[#debug-information](
-Debug Information
-)
+[Asset Setup in CRYENGINE](#asset-setup-in-cryengine)
+[Material](#material)
+[Vegetation Editor](#vegetation-editor)
+[Breeze Generation](#breeze-generation)
+[Debug Information](#debug-information)

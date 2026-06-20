@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [Sample GameRules](GameRules/Sample GameRules.md)
+- [Sample GameRules](GameRules/Sample%20GameRules.md)
 - [Multiplayer](GameRules/Multiplayer.md)
-- [Creating a new GameRules](GameRules/Creating a new GameRules.md)
+- [Creating a new GameRules](GameRules/Creating%20a%20new%20GameRules.md)
 - [GameModes](GameRules/GameModes.md)
-- [GameRules Precache](GameRules/GameRules Precache.md)
+- [GameRules Precache](GameRules/GameRules%20Precache.md)
 
 ## Content
 
@@ -24,26 +24,16 @@ GameRules are scripts that define gameplay, be it Singleplayer or a Multiplayer 
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306571](
-Multiplayer
-)
+[Multiplayer](GameRules/Multiplayer.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306557](
-Creating a new GameRules
-)
+[Creating a new GameRules](GameRules/Creating%20a%20new%20GameRules.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306570](
-GameModes
-)
+[GameModes](GameRules/GameModes.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306558](
-Sample GameRules
-)
+[Sample GameRules](GameRules/Sample%20GameRules.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306578](
-GameRules Precache
-)
+[GameRules Precache](GameRules/GameRules%20Precache.md)

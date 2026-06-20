@@ -49,7 +49,7 @@ JoinFormation
 
 Join a formation by telling an AI character (Entity input) to join a formation leader (LeaderID input). See image below for a basic 3 man + 1 leader formation setup.
 
-[Image: /docs/static/attachments/28901080]
+![Image](https://www.cryengine.com/docs/static/attachments/28901080)
 
 ##
 Move
@@ -60,9 +60,7 @@ Commands the AI to move to a location.
 MoveAlongPath
 
 This node is used to force the AI movement along a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535410](
-path
-)
+[path](../../../AI%20and%20Navigation/AI%20Overview/AI%20(NPC)/AI%20Control%20Objects.md)
  created by level designer.
 
 ##
@@ -98,42 +96,16 @@ Wait
 
 Commands the AI to wait in place for a certain amount of time.
 
-[#animation](
-Animation
-)
-[#approachandentervehicle](
-ApproachAndEnterVehicle
-)
-[#bookmark](
-Bookmark
-)
-[#end](
-End
-)
-[#holdformation](
-HoldFormation
-)
-[#joinformation](
-JoinFormation
-)
-[#move](
-Move
-)
-[#movealongpath](
-MoveAlongPath
-)
-[#shoot](
-Shoot
-)
-[#stance](
-Stance
-)
-[#start](
-Start
-)
-[#vehiclerotateturret](
-VehicleRotateTurret
-)
-[#wait](
-Wait
-)
+[Animation](#animation)
+[ApproachAndEnterVehicle](#approachandentervehicle)
+[Bookmark](#bookmark)
+[End](#end)
+[HoldFormation](#holdformation)
+[JoinFormation](#joinformation)
+[Move](#move)
+[MoveAlongPath](#movealongpath)
+[Shoot](#shoot)
+[Stance](#stance)
+[Start](#start)
+[VehicleRotateTurret](#vehiclerotateturret)
+[Wait](#wait)

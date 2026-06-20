@@ -7,23 +7,17 @@
 
 ## Child Pages
 
-- [Animation Precaching](Animation & Characters/Animation Precaching.md)
-- [Linking to Character Bones](Animation & Characters/Linking to Character Bones.md)
-- [Look IK for Cinematics](Animation & Characters/Look IK for Cinematics.md)
+- [Animation Precaching](Animation%20%26%20Characters/Animation%20Precaching.md)
+- [Linking to Character Bones](Animation%20%26%20Characters/Linking%20to%20Character%20Bones.md)
+- [Look IK for Cinematics](Animation%20%26%20Characters/Look%20IK%20for%20Cinematics.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874182](
-Animation Precaching
-)
+[Animation Precaching](Animation%20%26%20Characters/Animation%20Precaching.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874184](
-Linking to Character Bones
-)
+[Linking to Character Bones](Animation%20%26%20Characters/Linking%20to%20Character%20Bones.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874180](
-Look IK for Cinematics
-)
+[Look IK for Cinematics](Animation%20%26%20Characters/Look%20IK%20for%20Cinematics.md)

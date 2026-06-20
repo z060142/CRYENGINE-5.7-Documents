@@ -23,9 +23,7 @@ Log into the CRYENGINE Launcher
 -
 Go to LIBRARY -> My Engines where your currently installed and available Engines are listed. From there Engines can be updated (installed).
 Sandbox Editor source code is only available via Github:
-[https://github.com/CRYTEK/CRYENGINE/releases/tag/5.5.1](
-https://github.com/CRYTEK/CRYENGINE
-)
+[https://github.com/CRYTEK/CRYENGINE](https://github.com/CRYTEK/CRYENGINE/releases/tag/5.5.1)
 
 ##
 Audio

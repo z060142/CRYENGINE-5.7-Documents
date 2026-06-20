@@ -13,7 +13,7 @@ Overview
 The Entity Components Properties panel permits general modifications to be made to an Entity. The panel is first exposed (in the right-hand main window pane) when the very first Components or Empty Entity is added to a scene/level. The Properties panel also includes the + Add Components button. For more information see the Entity Components - Components Panel documentation.
 
 *
-[Image: /docs/static/attachments/28248337]
+![Image](https://www.cryengine.com/docs/static/attachments/28248337)
 
 *
 

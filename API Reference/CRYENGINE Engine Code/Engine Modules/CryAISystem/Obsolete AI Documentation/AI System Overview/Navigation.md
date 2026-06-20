@@ -13,7 +13,7 @@ Multi-layered navigation
 ##
 Example: Navigation area.
 
-[Image: /docs/static/attachments/23461216]
+![Image](https://www.cryengine.com/docs/static/attachments/23461216)
 
 Note the difference between brush vehicles and real vehicles.
 

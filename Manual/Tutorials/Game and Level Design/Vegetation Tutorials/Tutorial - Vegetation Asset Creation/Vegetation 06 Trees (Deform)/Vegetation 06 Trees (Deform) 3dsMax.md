@@ -17,7 +17,7 @@ Merged Mesh Deform Cloth is an improved and optimized system over the cloth enti
 This method works great for hanging vegetation like swamp moss or willow tree leaves.
 
 *
-[Image: /docs/static/attachments/25495412]
+![Image](https://www.cryengine.com/docs/static/attachments/25495412)
 
 *
 Pic1: Merged Mesh Deform in action (with activated wind)
@@ -30,9 +30,7 @@ Tutorial Files
 Source 3dsMax scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25523843](
-GameSDK_vegtut06_files.zip
-)
+[GameSDK_vegtut06_files.zip](/docs/static/attachments/25523843)
 **
 
 ##
@@ -41,24 +39,16 @@ Pre-requisites for this Tutorial
 Before you continue with this tutorial, make sure to have read and understood the following topics;
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963469](
-How to Install CryMaxTools
-)
+[How to Install CryMaxTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-The Basic CRYENGINE 3dsMax Workflow
-)
+[The Basic CRYENGINE 3dsMax Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-3dsMax Unit Scale to Match up With CRYENGINE Unit System
-)
+[3dsMax Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Helpful Information
@@ -115,7 +105,7 @@ So to being with, save your 3dsMax scene to this location. All our exported asse
 We will continue with the assumption that you have already created the asset, since this isn't a 3dsMax modelling tutorial. We will begin with preparing the asset ready for CRYENGINE, assigning SubIds to the relevant polygons and configuring the material.
 
 *
-[Image: /docs/static/attachments/25495411]
+![Image](https://www.cryengine.com/docs/static/attachments/25495411)
 
 *
 Pic2: 3dsMax overview of the finished model
@@ -186,7 +176,7 @@ merged_mesh_deform_trunk_ddna.tif
 `
 *
 *
-[Image: /docs/static/attachments/25495413]
+![Image](https://www.cryengine.com/docs/static/attachments/25495413)
 
 Pic3: Trunk SubId1 shader parameters setup
 *
@@ -239,7 +229,7 @@ tutorial_merged_mesh_deform_leaves_ddna.tif
 >
 *
 *
-[Image: /docs/static/attachments/25495414]
+![Image](https://www.cryengine.com/docs/static/attachments/25495414)
 
 Pic4: Leaves SubId2 shader parameters setup
 *
@@ -290,7 +280,7 @@ Open the proxy sub-material (SubId3). This material will be used for the proxy v
 
 *
 *
-[Image: /docs/static/attachments/25495415]
+![Image](https://www.cryengine.com/docs/static/attachments/25495415)
 
 *
 Pic5: Proxy SubId3 shader parameters setup
@@ -368,7 +358,7 @@ tutorial_merged_mesh_deform.mtl
 
 *
 *
-[Image: /docs/static/attachments/25495424]
+![Image](https://www.cryengine.com/docs/static/attachments/25495424)
 
 Pic6: Selecting the correct material for the texture export
 *
@@ -404,7 +394,7 @@ proxy
 *
 *
 
-[Image: /docs/static/attachments/26512564]
+![Image](https://www.cryengine.com/docs/static/attachments/26512564)
 
 Pic6: Geometry of the trunk and its proxy
 
@@ -424,7 +414,7 @@ Unwrap UVW modifier
 
 *
 *
-[Image: /docs/static/attachments/25495422]
+![Image](https://www.cryengine.com/docs/static/attachments/25495422)
 
 Pic7: Geometry of all three tree leaf patches
 *
@@ -432,7 +422,7 @@ Pic7: Geometry of all three tree leaf patches
 
 *
 *
-[Image: /docs/static/attachments/25495436]
+![Image](https://www.cryengine.com/docs/static/attachments/25495436)
 
 Pic8: UV Layout of the leaves in 3dsMax. Note the leaf UVs matching the underlying texture
 *
@@ -446,7 +436,7 @@ Before we continue creating the rest of the tree by duplicating the leaves, we w
 *
 *
 *
-[Image: /docs/static/attachments/25495419]
+![Image](https://www.cryengine.com/docs/static/attachments/25495419)
 
 Pic9: Adding vertex color via the vertex paint modifier to the geometry
 *
@@ -479,7 +469,7 @@ Available User Defined Properties
 In order to activate the Cloth Merged Mesh Deform system for the engine, go into the UDPs for each leaf patch and type in "mergedmesh_deform".
 
 *
-[Image: /docs/static/attachments/25495417]
+![Image](https://www.cryengine.com/docs/static/attachments/25495417)
 
 Pic10: UDP dialog with mergedmesh_deform to enable the system
 *
@@ -571,7 +561,7 @@ Amount of simulation iterations, between 1 and 12, 3 is default, the higher the 
 Type in the following values to get a proper behavior for your leaf patches.
 
 *
-[Image: /docs/static/attachments/25495418]
+![Image](https://www.cryengine.com/docs/static/attachments/25495418)
 
 Pic11: UDP dialog with several values
 *
@@ -582,7 +572,7 @@ Duplicate the leaves
 For the next step, the leaves need to be scattered around the tree trunks branches. Afterwards you should start to merge some of the cloth patches together until there are ten or less leaf objects left. This will avoid big performance impacts on the SPU. Make sure to keep their naming convention correct.
 
 *
-[Image: /docs/static/attachments/25495423]
+![Image](https://www.cryengine.com/docs/static/attachments/25495423)
 
 Pic12: Merged leaf patches together with trunk
 *
@@ -617,7 +607,7 @@ tutorial_merged_mesh_deform
 .
 
 *
-[Image: /docs/static/attachments/25495421]
+![Image](https://www.cryengine.com/docs/static/attachments/25495421)
 
 *
 Pic13: Hierarchy shown in schematic view
@@ -653,7 +643,7 @@ Press the
 Export Nodes
 **
  button.
-[Image: /docs/static/attachments/25495420]
+![Image](https://www.cryengine.com/docs/static/attachments/25495420)
 
 *
 Pic14: Adding the asset to the exporter
@@ -666,26 +656,12 @@ We have now finished the setup for the 3dsMax portion of the tutorial. To contin
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285908](
-Vegetation 06 Trees (Deform) CRYENGINE
-)
+[Vegetation 06 Trees (Deform) CRYENGINE](Vegetation%2006%20Trees%20(Deform)%20CRYENGINE.md)
 **
 
-[#tutorial-files](
-Tutorial Files
-)
-[#pre-requisites-for-this-tutorial](
-Pre-requisites for this Tutorial
-)
-[#initial-3dsmax-setup](
-Initial 3dsMax setup
-)
-[#material](
-Material
-)
-[#geometry](
-Geometry
-)
-[#continue-to-cryengine](
-Continue to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Pre-requisites for this Tutorial](#pre-requisites-for-this-tutorial)
+[Initial 3dsMax setup](#initial-3dsmax-setup)
+[Material](#material)
+[Geometry](#geometry)
+[Continue to CRYENGINE](#continue-to-cryengine)

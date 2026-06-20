@@ -7,18 +7,18 @@
 
 ## Child Pages
 
-- [Mannequin Fragments](Mannequin Concepts/Mannequin Fragments.md)
-- [Mannequin Procedural Clips](Mannequin Concepts/Mannequin Procedural Clips.md)
-- [Mannequin Scopes](Mannequin Concepts/Mannequin Scopes.md)
-- [FragmentIDs](Mannequin Concepts/FragmentIDs.md)
-- [Mannequin TagState](Mannequin Concepts/Mannequin TagState.md)
-- [Fragment Selection Process](Mannequin Concepts/Fragment Selection Process.md)
-- [Mannequin Tags & Tag Definitions](Mannequin Concepts/Mannequin Tags & Tag Definitions.md)
-- [Mannequin Transitions](Mannequin Concepts/Mannequin Transitions.md)
-- [Mannequin Scopemasks](Mannequin Concepts/Mannequin Scopemasks.md)
-- [Mannequin Trumping](Mannequin Concepts/Mannequin Trumping.md)
-- [Mannequin Parameters/Conditions](Mannequin Concepts/Mannequin Parameters Conditions.md)
-- [FragmentID-specific Tags (fragtags)](Mannequin Concepts/FragmentID-specific Tags (fragtags).md)
+- [Mannequin Fragments](Mannequin%20Concepts/Mannequin%20Fragments.md)
+- [Mannequin Procedural Clips](Mannequin%20Concepts/Mannequin%20Procedural%20Clips.md)
+- [Mannequin Scopes](Mannequin%20Concepts/Mannequin%20Scopes.md)
+- [FragmentIDs](Mannequin%20Concepts/FragmentIDs.md)
+- [Mannequin TagState](Mannequin%20Concepts/Mannequin%20TagState.md)
+- [Fragment Selection Process](Mannequin%20Concepts/Fragment%20Selection%20Process.md)
+- [Mannequin Tags & Tag Definitions](Mannequin%20Concepts/Mannequin%20Tags%20%26%20Tag%20Definitions.md)
+- [Mannequin Transitions](Mannequin%20Concepts/Mannequin%20Transitions.md)
+- [Mannequin Scopemasks](Mannequin%20Concepts/Mannequin%20Scopemasks.md)
+- [Mannequin Trumping](Mannequin%20Concepts/Mannequin%20Trumping.md)
+- [Mannequin Parameters/Conditions](Mannequin%20Concepts/Mannequin%20Parameters%20Conditions.md)
+- [FragmentID-specific Tags (fragtags)](Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)
 
 ## Content
 
@@ -26,61 +26,37 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-FragmentIDs
-)
+[FragmentIDs](Mannequin%20Concepts/FragmentIDs.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-Mannequin TagState
-)
+[Mannequin TagState](Mannequin%20Concepts/Mannequin%20TagState.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308439](
-Fragment Selection Process
-)
+[Fragment Selection Process](Mannequin%20Concepts/Fragment%20Selection%20Process.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-Mannequin Fragments
-)
+[Mannequin Fragments](Mannequin%20Concepts/Mannequin%20Fragments.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450878](
-Mannequin Procedural Clips
-)
+[Mannequin Procedural Clips](Mannequin%20Concepts/Mannequin%20Procedural%20Clips.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-Mannequin Tags & Tag Definitions
-)
+[Mannequin Tags & Tag Definitions](Mannequin%20Concepts/Mannequin%20Tags%20%26%20Tag%20Definitions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450872](
-Mannequin Transitions
-)
+[Mannequin Transitions](Mannequin%20Concepts/Mannequin%20Transitions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-Mannequin Scopes
-)
+[Mannequin Scopes](Mannequin%20Concepts/Mannequin%20Scopes.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450861](
-Mannequin Scopemasks
-)
+[Mannequin Scopemasks](Mannequin%20Concepts/Mannequin%20Scopemasks.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450863](
-Mannequin Trumping
-)
+[Mannequin Trumping](Mannequin%20Concepts/Mannequin%20Trumping.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-Mannequin Parameters/Conditions
-)
+[Mannequin Parameters/Conditions](Mannequin%20Concepts/Mannequin%20Parameters%20Conditions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308434](
-FragmentID-specific Tags (fragtags)
-)
+[FragmentID-specific Tags (fragtags)](Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)

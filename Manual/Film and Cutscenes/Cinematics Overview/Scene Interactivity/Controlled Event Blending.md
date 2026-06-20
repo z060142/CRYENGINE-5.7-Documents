@@ -52,9 +52,5 @@ Actor:ActionFilter
 **
  node with the filter "cutscene_player_moving" and activate it on start of the sequence and disable it when done:
 
-[#when-going-into-a-camera-controlled-sequence](
-When going into a camera controlled sequence
-)
-[#blending-back-to-player-control](
-Blending back to player control
-)
+[When going into a camera controlled sequence](#when-going-into-a-camera-controlled-sequence)
+[Blending back to player control](#blending-back-to-player-control)

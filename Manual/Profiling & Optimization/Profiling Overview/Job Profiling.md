@@ -45,7 +45,7 @@ Statoscope
 **
  tool.
 
-[Image: /docs/static/attachments/53543183]
+![Image](https://www.cryengine.com/docs/static/attachments/53543183)
 
 *
 (Note: Do not worry about the frame timings in this picture. The screenshot was taken in windowed + out of focus mode on PC)
@@ -219,21 +219,21 @@ NumOfExecutions:
 *
 The total number of times this job was executed on one or several workers within a frame.
 *
-[Image: /docs/static/attachments/53543184]
+![Image](https://www.cryengine.com/docs/static/attachments/53543184)
 
  |
 **
 PS3 Example:
 **
 
-[Image: /docs/static/attachments/53543185]
+![Image](https://www.cryengine.com/docs/static/attachments/53543185)
 
  |
 **
 PC Example:
 **
 
-[Image: /docs/static/attachments/53543186]
+![Image](https://www.cryengine.com/docs/static/attachments/53543186)
 
  |
 
@@ -277,10 +277,10 @@ TotalNumberOfIndividualJobsExecuted:
 *
 Total number of individual jobs executed
 *
-[Image: /docs/static/attachments/53543187]
+![Image](https://www.cryengine.com/docs/static/attachments/53543187)
 
  |
-[Image: /docs/static/attachments/53543188]
+![Image](https://www.cryengine.com/docs/static/attachments/53543188)
 
  |
 
@@ -303,7 +303,7 @@ The Main Thread Update in the bottom left
 
 -
 Overview of the Jobs bottom middle, detailing the number of executions of the jobs, & time taken, waiting & average time in ms.
-[Image: /docs/static/attachments/53543189]
+![Image](https://www.cryengine.com/docs/static/attachments/53543189)
 
 As you will notice, the execution time of the jobs is very fast, so you can pause the display at anytime (when in-game) with the
 **
@@ -366,12 +366,6 @@ sys_job_system_dump_job_list
 
 Print to the console a list of the available "jobs"
 
-[#profile-1](
-Profile 1
-)
-[#statoscope](
-Statoscope
-)
-[#sysjobsystemprofiler](
-sys_job_system_profiler
-)
+[Profile 1](#profile-1)
+[Statoscope](#statoscope)
+[sys_job_system_profiler](#sysjobsystemprofiler)

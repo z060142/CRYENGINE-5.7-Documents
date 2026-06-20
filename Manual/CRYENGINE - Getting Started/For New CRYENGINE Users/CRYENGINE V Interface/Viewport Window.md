@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Camera Settings](Viewport Window/Camera Settings.md)
-- [Display Settings](Viewport Window/Display Settings.md)
+- [Camera Settings](Viewport%20Window/Camera%20Settings.md)
+- [Display Settings](Viewport%20Window/Display%20Settings.md)
 
 ## Content
 
@@ -35,14 +35,10 @@ You can even have more than one of the same Viewport open at the same time.
 On the subpages of this page you'll also find the reference information for the Camera and Display settings. These are not located in the Tools menu, but as they are part of the Viewport window (top-left and top-right corners), they have been included here.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966443](
-Camera Settings
-)
+[Camera Settings](Viewport%20Window/Camera%20Settings.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848606](
-Display Settings
-)
+[Display Settings](Viewport%20Window/Display%20Settings.md)
 
 ##
 Viewports
@@ -55,7 +51,7 @@ Perspective Viewport
 This Viewport shows a view of your level using the default camera perspective, displaying all level content:
 
 *
-[Image: /docs/static/attachments/35953426]
+![Image](https://www.cryengine.com/docs/static/attachments/35953426)
 *
 
 The Perspective Viewport has
@@ -68,22 +64,18 @@ Camera
 Display
  button in the top-right corner of every Viewport:
 
-[Image: /docs/static/attachments/35953395]
+![Image](https://www.cryengine.com/docs/static/attachments/35953395)
 
 You can find an overview of the options in the Camera and Display menus on the following pages:
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29445976](
-Camera Settings
-)
+[Camera Settings](/docs/static/engines/cryengine-5/categories/23756816/pages/29445976)
 **
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848606](
-Display Settings
-)
+[Display Settings](Viewport%20Window/Display%20Settings.md)
 **
 
 ##
@@ -97,13 +89,13 @@ Front Viewport
 This Viewport shows a front view of your level, consisting of bounding boxes and line-based helpers. Terrain Geometry will not be shown.
 
 Helpers must be shown for this Viewport to function properly.
-[Image: /docs/static/attachments/35953425]
+![Image](https://www.cryengine.com/docs/static/attachments/35953425)
 
 Left Viewport
 Shows a view of your level from the left side, consisting of bounding boxes and line-based helpers. Terrain Geometry will not be shown.
 
 Helpers must be shown for this Viewport to function properly.
-[Image: /docs/static/attachments/35953477]
+![Image](https://www.cryengine.com/docs/static/attachments/35953477)
 
 ##
 Map Viewport
@@ -113,7 +105,7 @@ Shows an overhead map of the level with helper, terrain, and texture information
 Helpers must be shown for this Viewport to function properly.
 *
 
-[Image: /docs/static/attachments/35953476]
+![Image](https://www.cryengine.com/docs/static/attachments/35953476)
 *
 
 ##
@@ -122,30 +114,26 @@ Top Viewport
 Shows a top-down view of your level, consisting of bounding boxes and line based helpers. Terrain Geometry will not be shown.
 
 Helpers must be shown for this Viewport to function properly.
-[Image: /docs/static/attachments/35953475]
+![Image](https://www.cryengine.com/docs/static/attachments/35953475)
 
 ##
 Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44966573]
+![Image](https://www.cryengine.com/docs/static/attachments/44966573)
  icon on the top-right corner of all Viewport panels. When clicked, it reveals some of the
 
 sub-menus that can also be found on the Sandbox Menu Bar.
 
 For more information about the Viewport Menu options, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848624](
-Menu Bar
-)
+[Menu Bar](Menu%20Bar.md)
  documentation.
 
 ##
 Snapping Buttons
 
 The options behind the Snapping buttons are already explained on different pages, so they won't be discussed here. Click the following link for more information:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44960236](
-Snap & Alignment
-)
+[Snap & Alignment](../CRYENGINE%20V%20Basics/Snap%20%26%20Alignment.md)
 .
 
 ##
@@ -155,7 +143,7 @@ Helpers display extra info about objects in the Viewport. This can range from ph
 
 There are two buttons in the top-right corner of the Viewport that are related to helpers; the first lets you choose which helpers you want to see, and the second toggles those chosen helpers on and off:
 
-[Image: /docs/static/attachments/35953478]
+![Image](https://www.cryengine.com/docs/static/attachments/35953478)
 
 You can also toggle helpers with
 **
@@ -178,7 +166,7 @@ Space Bar
 **
  will show helper labels to easily select objects:
 
-[Image: /docs/static/attachments/35953483]
+![Image](https://www.cryengine.com/docs/static/attachments/35953483)
 
 This will also work when helpers are not active.
 
@@ -195,18 +183,8 @@ Display → Toggle Fullscreen
 **
 .
 
-[#viewports](
-Viewports
-)
-[#menu](
-Menu
-)
-[#snapping-buttons](
-Snapping Buttons
-)
-[#helpers](
-Helpers
-)
-[#maximizing-the-viewport](
-Maximizing the Viewport
-)
+[Viewports](#viewports)
+[Menu](#menu)
+[Snapping Buttons](#snapping-buttons)
+[Helpers](#helpers)
+[Maximizing the Viewport](#maximizing-the-viewport)

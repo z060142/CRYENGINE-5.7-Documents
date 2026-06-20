@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Third-party SDKs in 5.3.1](CRYENGINE 5.3.1/Third-party SDKs in 5.3.1.md)
+- [Third-party SDKs in 5.3.1](CRYENGINE%205.3.1/Third-party%20SDKs%20in%205.3.1.md)
 
 ## Content
 
@@ -25,16 +25,14 @@ Dial Style
 Linear Style
  |
 
-[Image: /docs/static/attachments/44962662]
+![Image](https://www.cryengine.com/docs/static/attachments/44962662)
  |
-[Image: /docs/static/attachments/44962661]
+![Image](https://www.cryengine.com/docs/static/attachments/44962661)
  |
 
 For more information on these rotation styles, see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308620](
-Transforming Objects
-)
+[Transforming Objects](../../../../Manual/CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Transforming%20Objects.md)
 **
 .
 

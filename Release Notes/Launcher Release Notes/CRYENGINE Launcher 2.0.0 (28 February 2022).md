@@ -10,9 +10,7 @@
 The newest Launcher features a completely overhauled UI with a totally revamped back-end structure and technology stack.
 
 In addition, as
-[https://www.cryengine.com/news/view/changes-are-coming-to-the-cryengine-marketplace](
-mentioned earlier this year
-)
+[mentioned earlier this year](https://www.cryengine.com/news/view/changes-are-coming-to-the-cryengine-marketplace)
 , the CRYENGINE Marketplace has been refactored as a free asset trading platform called the Asset Database – where contributors can share assets from all disciplines of game development
 for free
  with their fellow CRYENGINE Developers.
@@ -46,9 +44,7 @@ New Packaging and Distribution Back-end
 The backend has been completely revamped with a new technology stack, allowing for more flexibility for future features.
 
 For more information on how to use the Launcher, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204](
-CRYENGINE Launcher Reference
-)
+[CRYENGINE Launcher Reference](../../Manual/CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Launcher%20Reference.md)
  documentation.
 
 ##
@@ -163,24 +159,10 @@ Issues when fetching the asset database.
 Fixed:
 **
 Users not being able to share tutorials on Pinterest.
-[#release-highlights](
-Release Highlights
-)
-[#new-launcher-application](
-New Launcher Application
-)
-[#asset-submission](
-Asset Submission
-)
-[#asset-editing](
-Asset Editing
-)
-[#asset-versioning](
-Asset Versioning
-)
-[#new-packaging-and-distribution-back-end](
-New Packaging and Distribution Back-end
-)
-[#fixed-known-issues](
-Fixed Known Issues
-)
+[Release Highlights](#release-highlights)
+[New Launcher Application](#new-launcher-application)
+[Asset Submission](#asset-submission)
+[Asset Editing](#asset-editing)
+[Asset Versioning](#asset-versioning)
+[New Packaging and Distribution Back-end](#new-packaging-and-distribution-back-end)
+[Fixed Known Issues](#fixed-known-issues)

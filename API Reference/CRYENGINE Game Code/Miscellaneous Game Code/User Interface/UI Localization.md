@@ -11,9 +11,7 @@
 Overview
 
 CRYENGINE comes with a localization system that allows text localization for the UI. The
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19377178](
-Localization
-)
+[Localization](/docs/static/engines/cryengine-3/categories/1114113/pages/19377178)
  System is documented within the Asset Creation Manual.
 
 Besides string localization it is also possible to use different font and glyph sets for each language.
@@ -111,7 +109,7 @@ For UI translation the tables must have a column
 **
 .
 
-[Image: /docs/static/attachments/23461316]
+![Image](https://www.cryengine.com/docs/static/attachments/23461316)
 
 ##
 Pass Localized String at Run-time
@@ -184,9 +182,7 @@ In the GameSDK sample project, we use the library
 HUD_Font_LocFont.gfx
 `
  file. The flash file used to generate this GFX in the SDK can be downloaded from here as a sample:
-[/docs/static/attachments/23461315](
-HUD_Font_LocFont.fla
-)
+[HUD_Font_LocFont.fla](/docs/static/attachments/23461315)
 .
 However, you can create your own if you prefer to create a font library from scratch.
 
@@ -202,7 +198,7 @@ Make sure to check both the export checkboxes, and set the Identifier to an uniq
 
 The sharing URL should be set to the name of the final GFX file (with .SWF extension)
 
-[Image: /docs/static/attachments/23461314]
+![Image](https://www.cryengine.com/docs/static/attachments/23461314)
 
 After you set up all the fonts you wish to use in the UI, you should create localized copies of the font library for each language you wish to support.
 
@@ -210,7 +206,7 @@ The most optimized and efficient way to do this is to select a sub-set of glyphs
 
 In the options dialog for the font, you can set the font groups to embed glyphs for. The glyphs will be processed from the given OS font and styles.
 
-[Image: /docs/static/attachments/23461313]
+![Image](https://www.cryengine.com/docs/static/attachments/23461313)
 
 After you finish setting up the fonts in the font library for a language, publish the flash file to .SWF
 
@@ -257,7 +253,7 @@ You need to set up a font in the flash file's library, and mark it for import as
 
 Enter the same Identifier for the font you exported in the font library GFX file, and set the import URL to the GFX file.
 
-[Image: /docs/static/attachments/23461318]
+![Image](https://www.cryengine.com/docs/static/attachments/23461318)
 
 While authoring the flash file, you can use the imported font symbol in the library instead of referring to an OS font.
 
@@ -278,22 +274,12 @@ To use the fonts on your textboxes just choose them in the font dropdown list.
 
 Note, the * on the font means that the font resides in the font library.
 
-[Image: /docs/static/attachments/23461317]
+![Image](https://www.cryengine.com/docs/static/attachments/23461317)
 
 If you use translation labels for static textboxes you have to make them dynamic! Otherwise the translation doesn't work.
 
-[#basic-folder-structure](
-Basic Folder Structure
-)
-[#string-localization](
-String Localization
-)
-[#translation-table](
-Translation table
-)
-[#pass-localized-string-at-run-time](
-Pass Localized String at Run-time
-)
-[#font-libraries-and-glyph-sets](
-Font libraries and glyph sets
-)
+[Basic Folder Structure](#basic-folder-structure)
+[String Localization](#string-localization)
+[Translation table](#translation-table)
+[Pass Localized String at Run-time](#pass-localized-string-at-run-time)
+[Font libraries and glyph sets](#font-libraries-and-glyph-sets)

@@ -11,9 +11,7 @@
 Overview
 
 In this tutorial, we'll learn how the major elements of sunlight-based lighting and the Environment Editor work by creating a variety of naturalistic and other-worldly looks. We'll be using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658466](
-Environment Editor
-)
+[Environment Editor](../../../../Editor%20Tools/Environment%20Editor.md)
  (
 **
 Tools → Environment Editor
@@ -61,9 +59,7 @@ specular reflections
  rely on pre-generated, static cube maps, achieving dynamic time of day involves greater complexity and scripting to blend between cube maps. For that reason, you may choose not to use dynamic time of day in your level. In that case, you can drag the time ruler in the Curve Editor to any position that gives you a look similar to what you plan to create, or simply leave it at the default 12:00 noon, and its panel closed and ignored thereafter. (For example, Hunt Showdown uses 12:00 noon as the time of day for all of its environment presets, which cover a wide range of day and night settings. This also has the added convenience of never having to worry about searching for the time of day where you set all your keyframes, as 12:00 is the default time for new presets.)
 
 To learn how to use dynamic time of day, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285386](
-Creating a 24 Hour Cycle
-)
+[Creating a 24 Hour Cycle](../../Lighting%20Tutorials/Tutorial%20-%20Lighting%20-%20Creating%20a%2024%20hour%20cycle.md)
 .
 
 However, when you are just starting to learn to use the Environment Editor, it can be quite useful to scroll along the time ruler in
@@ -94,7 +90,7 @@ Ctrl A
 **
  to select all four digits) on which your team wishes to standardize before you close the Curve Editor and start setting keyframes by changing Variable values. Dragging on the time ruler sets time of day using a much higher degree of precision than hours and minutes (five decimal places), requiring you to zoom all the way in to see the exact position of a keyframe.
 
-[Image: /docs/static/attachments/56660080]
+![Image](https://www.cryengine.com/docs/static/attachments/56660080)
 
 Typing a current time of day simplifies this: for example, typing "13:00" will set time of day to exactly 13:00, even though the additional precision isn't shown in the Start, Current, and End time of day fields.
 
@@ -218,9 +214,7 @@ TIP
 Variables → HDR → Color balance
 **
  is set to a yellow tint by default. Desaturating the color completely is advisable, as it is the last step in the imaging process that will affect every other environment setting. You can fine-tune the color palette of a scene much more precisely using
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872965](
-color grading
-)
+[color grading](../../../../Post-processing/Tutorial%20-%20Color%20Grading.md)
 .
 
 -
@@ -233,9 +227,7 @@ HDR eye adaptation
 r_HDREyeAdaptationMode 1
 **
  in the Console (and setting it permanently in your autoexec.cfg or other
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535264](
-config file
-)
+[config file](../../../../System%20Utilities/System%20Utilities%20Overview/Console%20Variables%20%26%20Config%20Files.md)
 ).
 
 ##
@@ -298,7 +290,7 @@ longitude
 **
  or less, as you like. Now the level looks something like this:
 
-[Image: /docs/static/attachments/56659268]
+![Image](https://www.cryengine.com/docs/static/attachments/56659268)
 
 Now let's switch off pieces one by one to see how they contribute. First, let's turn off the sun: Set
 **
@@ -318,7 +310,7 @@ Sun intensity (lux)
 **
 . Your level should look like this:
 
-[Image: /docs/static/attachments/56659279]
+![Image](https://www.cryengine.com/docs/static/attachments/56659279)
 
 You may be surprised that the difference is such a subtle change in the light on the terrain. The world hasn't gone dark, you can still see the sun's orb in the sky, and the sky (which is just the Earth's atmosphere scattering sunlight) is still just as bright. Unlike in nature, you have separate control over each of these elements in CRYENGINE.
 
@@ -341,7 +333,7 @@ Sun intensity multiplier
 **
 . The sky will go very dark, but you'll still see a small sun orb in the sky. Your level should look like this:
 
-[Image: /docs/static/attachments/56659281]
+![Image](https://www.cryengine.com/docs/static/attachments/56659281)
 
 Change the
 **
@@ -504,7 +496,7 @@ illuminating
 *
  their details. More specifically, the fog makes everything look increasingly fog-colored as you view it from farther away. If the fog was purple, everything would eventually look purple if there was enough fog between the camera and the entities or terrain.
 
-[Image: /docs/static/attachments/56659291]
+![Image](https://www.cryengine.com/docs/static/attachments/56659291)
 
 Let's turn off the fog at the top of its range: set
 **
@@ -520,7 +512,7 @@ Density (top)
 **
 . The tops of your mountains will be a bit darker:
 
-[Image: /docs/static/attachments/56659284]
+![Image](https://www.cryengine.com/docs/static/attachments/56659284)
 
 Finally, if you eliminate the fog at the top of the range by setting
 **
@@ -592,13 +584,9 @@ light
 sun orb
 **
  itself. Brightness is expressed using the
-[https://en.wikipedia.org/wiki/Lux](
-lux
-)
+[lux](https://en.wikipedia.org/wiki/Lux)
  scale of illuminance. The default brightness is much brighter than actual sunlight on planet Earth, and won't give you physically accurate luminance within our recommended PBS/PBR (Physically Based Shading/Rendering) workflow. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307956](
-this tutorial
-)
+[this tutorial](../../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Lighting%20Levels%20Using%20PBS.md)
  for detailed information about calculating realistic light levels.
 
 Also, while you are free to set the color of the sunlight as you like, keep in mind that if realism is your goal, its color should be affected relative to the position of the sun in the sky with respect to the camera. Why? Because light rays pass in a path between sun and camera (or your eyes), and the closer that path is to Earth's surface, the more dense the
@@ -897,7 +885,7 @@ green
 **
  color that wouldn't naturally occur from this perspective (unless someone had managed to turn the atmosphere very green).
 
-[Image: /docs/static/attachments/56659005]
+![Image](https://www.cryengine.com/docs/static/attachments/56659005)
 
 The examples below use
 **
@@ -913,26 +901,26 @@ skylight
 Sun intensity multiplier = 200, Rayleigh scattering = 6
 **
 
-[Image: /docs/static/attachments/56659001]
+![Image](https://www.cryengine.com/docs/static/attachments/56659001)
 2
 
 **
 Sun intensity multiplier = 200, Rayleigh scattering = 20
 **
 
-[Image: /docs/static/attachments/56659002]
+![Image](https://www.cryengine.com/docs/static/attachments/56659002)
 
 **
 Sun intensity multiplier = 1000, Rayleigh scattering = 310
 **
 
-[Image: /docs/static/attachments/56659003]
+![Image](https://www.cryengine.com/docs/static/attachments/56659003)
 
 **
 Sun intensity multiplier = 8, Rayleigh scattering = 1
 **
 
-[Image: /docs/static/attachments/56659004]
+![Image](https://www.cryengine.com/docs/static/attachments/56659004)
 
 ##
 The Sky Box Option
@@ -942,9 +930,7 @@ There is one very simple way to
 bypass
 **
  all of the variables that affect the sky: just use a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656571](
-SkyBox
-)
+[SkyBox](../Tutorial%20-%20Adding%20a%20Sky%20Box%20to%20Your%20Level.md)
  - a high resolution, seamless, static photograph of a real sky hemisphere. Assign a skybox material to Constants → Skybox and set the SkyBox → Opacity to 1 (100%), and it will
 **
 completely cover the actual sky
@@ -968,9 +954,7 @@ SkyBox → Filter
  property, as well as setting the opacity of the entire texture. This allows you to blend your SkyBox texture with the color of the sky.
 
 For detailed information on how to set up a sky box texture, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656571](
-this
-)
+[this](../Tutorial%20-%20Adding%20a%20Sky%20Box%20to%20Your%20Level.md)
  tutorial.
 
 Don’t leave a sky box material assigned to your environment preset if you’re not using it, because even with the opacity set to 0, it will still hide any sky settings you make under Variables → Sky Light.
@@ -981,27 +965,12 @@ Video Tutorial
 
 This tutorial is also available in video form on our YouTube channel:
 
-[#environment-editor-design](
-Environment Editor Design
-)
-[#dynamic-vs-static-time-of-day-and-curve-editor](
-Dynamic vs. Static Time of Day and Curve Editor
-)
-[#creating-and-assigning-a-new-environment-preset](
-Creating and Assigning a New Environment Preset
-)
-[#key-lighting-parameters-sun-sky-fog](
-Key Lighting Parameters: Sun, Sky, Fog
-)
-[#environmental-lighting-a-quick-tour](
-Environmental Lighting: A Quick Tour
-)
-[#sun-in-depth](
-Sun in Depth
-)
-[#sky-in-depth](
-Sky in Depth
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=tztIyT7MNP0]
+[Environment Editor Design](#environment-editor-design)
+[Dynamic vs. Static Time of Day and Curve Editor](#dynamic-vs-static-time-of-day-and-curve-editor)
+[Creating and Assigning a New Environment Preset](#creating-and-assigning-a-new-environment-preset)
+[Key Lighting Parameters: Sun, Sky, Fog](#key-lighting-parameters-sun-sky-fog)
+[Environmental Lighting: A Quick Tour](#environmental-lighting-a-quick-tour)
+[Sun in Depth](#sun-in-depth)
+[Sky in Depth](#sky-in-depth)
+[Video Tutorial](#video-tutorial)

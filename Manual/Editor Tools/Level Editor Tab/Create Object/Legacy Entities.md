@@ -7,91 +7,63 @@
 
 ## Child Pages
 
-- [BEGIN -- Common Entity Parameters](Legacy Entities/BEGIN -- Common Entity Parameters.md)
-- [AI Entities](Legacy Entities/AI Entities.md)
-- [Boids Entities](Legacy Entities/Boids Entities.md)
-- [Door Entities](Legacy Entities/Door Entities.md)
-- [Elevator Entities](Legacy Entities/Elevator Entities.md)
-- [Environment Entities](Legacy Entities/Environment Entities.md)
-- [Items Entities](Legacy Entities/Items Entities.md)
-- [Light Entities](Legacy Entities/Light Entities.md)
-- [Multiplayer Entities](Legacy Entities/Multiplayer Entities.md)
-- [Others](Legacy Entities/Others.md)
-- [Physics Entities](Legacy Entities/Physics Entities.md)
-- [Render Entities](Legacy Entities/Render Entities.md)
-- [Triggers Entities](Legacy Entities/Triggers Entities.md)
-- [Turret Entity](Legacy Entities/Turret Entity.md)
+- [BEGIN -- Common Entity Parameters](Legacy%20Entities/BEGIN%20--%20Common%20Entity%20Parameters.md)
+- [AI Entities](Legacy%20Entities/AI%20Entities.md)
+- [Boids Entities](Legacy%20Entities/Boids%20Entities.md)
+- [Door Entities](Legacy%20Entities/Door%20Entities.md)
+- [Elevator Entities](Legacy%20Entities/Elevator%20Entities.md)
+- [Environment Entities](Legacy%20Entities/Environment%20Entities.md)
+- [Items Entities](Legacy%20Entities/Items%20Entities.md)
+- [Light Entities](Legacy%20Entities/Light%20Entities.md)
+- [Multiplayer Entities](Legacy%20Entities/Multiplayer%20Entities.md)
+- [Others](Legacy%20Entities/Others.md)
+- [Physics Entities](Legacy%20Entities/Physics%20Entities.md)
+- [Render Entities](Legacy%20Entities/Render%20Entities.md)
+- [Triggers Entities](Legacy%20Entities/Triggers%20Entities.md)
+- [Turret Entity](Legacy%20Entities/Turret%20Entity.md)
 
 ## Content
 
 These entities are tied to GameSDK. Therefore, the following pages might have limited information.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-BEGIN -- Common Entity Parameters
-)
+[BEGIN -- Common Entity Parameters](Legacy%20Entities/BEGIN%20--%20Common%20Entity%20Parameters.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796924](
-AI Entities
-)
+[AI Entities](Legacy%20Entities/AI%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796926](
-Boids Entities
-)
+[Boids Entities](Legacy%20Entities/Boids%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796928](
-Door Entities
-)
+[Door Entities](Legacy%20Entities/Door%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796931](
-Elevator Entities
-)
+[Elevator Entities](Legacy%20Entities/Elevator%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796935](
-Environment Entities
-)
+[Environment Entities](Legacy%20Entities/Environment%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796933](
-Items Entities
-)
+[Items Entities](Legacy%20Entities/Items%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796937](
-Light Entities
-)
+[Light Entities](Legacy%20Entities/Light%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796939](
-Multiplayer Entities
-)
+[Multiplayer Entities](Legacy%20Entities/Multiplayer%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796941](
-Others
-)
+[Others](Legacy%20Entities/Others.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796943](
-Physics Entities
-)
+[Physics Entities](Legacy%20Entities/Physics%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796945](
-Render Entities
-)
+[Render Entities](Legacy%20Entities/Render%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796947](
-Triggers Entities
-)
+[Triggers Entities](Legacy%20Entities/Triggers%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796949](
-Turret Entity
-)
+[Turret Entity](Legacy%20Entities/Turret%20Entity.md)

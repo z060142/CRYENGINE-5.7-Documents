@@ -70,7 +70,7 @@ To use arrays of certain items, you will need to create a variable (of the eleme
 ##
 Usage example:
 
-[Image: /docs/static/attachments/76449172]
+![Image](https://www.cryengine.com/docs/static/attachments/76449172)
 
 *
 Retrieving a list of the local user's friends
@@ -80,15 +80,13 @@ Retrieving a list of the local user's friends
 Achievements and Statistics Functions
 
 The Achievements and Statistics functions take as input a pre-defined data type of an achievement or statistic; these functions are automatically generated via the system by parsing the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448466](
-Achievements configuration file
-)
+[Achievements configuration file](../GamePlatform%20Features%20(Discord%20Steam)/Achievements.md)
 .
 
 ##
 Usage example:
 
-[Image: /docs/static/attachments/76449173]
+![Image](https://www.cryengine.com/docs/static/attachments/76449173)
 
 *
 Retrieving the current progress value of the achievement using the GetAchievementProgress node
@@ -103,7 +101,7 @@ You can have multiple Platform Signal Receiver components on a single Schematyc 
 
 This means you can name your components accordingly if you wish, for example, to listen to multiple platforms on a single Schematyc Entity.
 
-[Image: /docs/static/attachments/76449176]
+![Image](https://www.cryengine.com/docs/static/attachments/76449176)
 
 *
 Platform Listener component options
@@ -119,21 +117,13 @@ For example, each lobby can trigger events when players enter or leave; special 
 ##
 Usage Example
 
-[Image: /docs/static/attachments/76449177]
+![Image](https://www.cryengine.com/docs/static/attachments/76449177)
 
 *
 Listening for any lobby that a local user might join or leave
 *
 
-[#gameplatform-data-types](
-GamePlatform Data Types
-)
-[#achievements-and-statistics-functions](
-Achievements and Statistics Functions
-)
-[#platform-signal-receiver-component-and-events](
-Platform Signal Receiver Component and Events
-)
-[#type-instance-events](
-Type Instance Events
-)
+[GamePlatform Data Types](#gameplatform-data-types)
+[Achievements and Statistics Functions](#achievements-and-statistics-functions)
+[Platform Signal Receiver Component and Events](#platform-signal-receiver-component-and-events)
+[Type Instance Events](#type-instance-events)

@@ -16,9 +16,7 @@ This section covers how to create characters and export from 3ds Max.
 Required Files
 
 Before you read further, be sure that you have downloaded the compressed file at the top of
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307993](
-DCC Setup (animated)
-)
+[DCC Setup (animated)](../DCC%20Setup%20(animated).md)
  for reference.
 
 For the most part,
@@ -30,9 +28,7 @@ CHR
 CGA
 **
 , which will be mentioned later. For a complete overview of the file formats used in CRYENGINE, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959591](
-Art Asset File Types Reference
-)
+[Art Asset File Types Reference](../../../../Art%20Asset%20File%20Types.md)
 .
 
 **
@@ -47,9 +43,7 @@ File Layout
 Important Note
 
 Naming of bipedal hierarchies does not need to match 3ds Max. This is only necessary if you want to make use of the automated IK for legs and even this can be changed in the file in which you define the parameters for IK, the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307999](
-.chrparams
-)
+[.chrparams](../Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)
  file.
 
 ##
@@ -246,7 +240,7 @@ The Render Mesh
 
 Load the character.max file; this is what it should look like when loaded:
 
-[Image: /docs/static/attachments/23994429]
+![Image](https://www.cryengine.com/docs/static/attachments/23994429)
 
 These are the render meshes; you are currently viewing all three (LOD0/2/3).
 
@@ -277,7 +271,7 @@ Use the CrySkin Modifier to preview Spherical Skinning in 3ds Max. If you are al
 -
 Max Exporter for CRYENGINE 3.8.4 and later has an option to support up to 8 influences per vertex instead of 4.  Make sure you set the "Bone Affect Limit" to 8 in your CrySkin/Skin Modifier. Please also activate the checkbox for "8 weights per vertex" in the CRYENGINE Exporter Utility:
 
-[Image: /docs/static/attachments/23994427]
+![Image](https://www.cryengine.com/docs/static/attachments/23994427)
 
 If you set the weight count to a higher value, the CRYENGINE Resource Compiler will use no more than 8 bones anyway, so you might not get consistent results from what you see in the 3ds Max viewport and in CE Sandbox.
 
@@ -313,11 +307,11 @@ Character Render Mesh
 **
  weighted to Ragdoll Deforming Skeleton, whose physical properties are stored in the Ragdoll Phys Skeleton.
 
-[Image: /docs/static/attachments/23994430]
+![Image](https://www.cryengine.com/docs/static/attachments/23994430)
 
 Open the Layer Manager and you will see that there is a layer called "bip" that is hidden; hide default and un-hide bip, you will then see this:
 
-[Image: /docs/static/attachments/23994431]
+![Image](https://www.cryengine.com/docs/static/attachments/23994431)
 
 These are the live deforming and live phys skeleton of the LOD0/2/3 file (character.max).
 
@@ -356,7 +350,7 @@ Hierarchy of nodes under and including $Bip01.
 -
 The Ragdoll Deforming Skeleton, located in the LOD1 asset file, is used for collision and hit detection in the ragdoll.
 The recommended number of physicalized bones in a humanoid biped ragdoll is 10-14.
-[Image: /docs/static/attachments/23994432]
+![Image](https://www.cryengine.com/docs/static/attachments/23994432)
 
 *
  The deforming skeleton 3ds Max material setup for a Crysis humanoid character.
@@ -368,7 +362,7 @@ Material Setup
 
 As you can see, the deforming skeleton has different sub-materials assigned to it. These are used for hit detection in the engine. In Crysis, the first 10 sub-materials were devoted to hit locations, and any after that were used for textures. This number will vary from project to project.
 
-[Image: /docs/static/attachments/23994433]
+![Image](https://www.cryengine.com/docs/static/attachments/23994433)
 
 The sub-materials in the engine correspond to surface types defined by code.
 
@@ -439,21 +433,13 @@ Make sure that all the models are NOT linked to anything. Having, for instance, 
 Ragdoll Deforming Skeleton (LOD1)
 **
 
-[Image: /docs/static/attachments/23994434]
+![Image](https://www.cryengine.com/docs/static/attachments/23994434)
 
 Above, you see the ragdoll deforming skeleton and ragdoll phys skeleton from the LOD1 file. The deforming skeleton in the LOD1 asset file is used for collision/hit detection in the ragdoll. This is called the ragdoll deforming mesh. It can be made from arbitrary geometry, like the live deforming skeleton, but it is better to make it from capsules, boxes, and spheres.
 
 Bipeds can be finicky. The best way to create your own custom ragdoll deforming skeleton is to align capsules and boxes to your existing skeleton, and then via editPoly, attach them to your node and delete the old geometry.
 
-[#required-files](
-Required Files
-)
-[#file-layout](
-File Layout
-)
-[#the-render-mesh](
-The Render Mesh
-)
-[#deforming-and-phys-skeletons](
-Deforming and Phys Skeletons
-)
+[Required Files](#required-files)
+[File Layout](#file-layout)
+[The Render Mesh](#the-render-mesh)
+[Deforming and Phys Skeletons](#deforming-and-phys-skeletons)

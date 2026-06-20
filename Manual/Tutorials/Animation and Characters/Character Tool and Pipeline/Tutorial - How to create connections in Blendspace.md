@@ -8,3 +8,5 @@
 ## Content
 
 2D blendspaces, connecting blendspaces using pseudo animations along with annotations. This allows us to transition between a three- or four-point surface and allow a buffer to maintain consistent animations outside a standard motion set.
+
+[Embed: https://www.youtube.com/watch?v=Kqn5Yy4Je1g&list=PLpCgy91Y5vMtWDdz1L0UnFo7lwi4LDBUq&index=28]

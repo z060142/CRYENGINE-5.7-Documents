@@ -11,9 +11,7 @@
 Overview
 
 This document explains the basic steps to setup and debug BSpaces in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961853](
-Character Tool
-)
+[Character Tool](../Character%20Tool.md)
 . It doesn't cover any game-code, AI or CryMannequin specific thing.
 
 ##
@@ -71,7 +69,7 @@ ShowLocator
 DebugOptions
 **
  in the Character Tool (right/down corner).
-[Image: /docs/static/attachments/28878091]
+![Image](https://www.cryengine.com/docs/static/attachments/28878091)
 
 ##
 Debug parameters of ca_DrawVEGInfo
@@ -114,7 +112,7 @@ If you use any value between
 **
 , you'll get the following information on screen:
 
-[Image: /docs/static/attachments/28878092]
+![Image](https://www.cryengine.com/docs/static/attachments/28878092)
 
 **
 a)
@@ -235,9 +233,9 @@ ca_DrawVEGInfo 1.5
 **
 ). For an 1D-BSpace it's a simple line segment. For an 2D-BSpace it's a plane. For an 3D-BSpace it's a cube.
 
-[Image: /docs/static/attachments/28878089]
-[Image: /docs/static/attachments/28878090]
-[Image: /docs/static/attachments/28878086]
+![Image](https://www.cryengine.com/docs/static/attachments/28878089)
+![Image](https://www.cryengine.com/docs/static/attachments/28878090)
+![Image](https://www.cryengine.com/docs/static/attachments/28878086)
 
 The scope of the blend-spaces (=the grid) is defined in the XML file. These values represent the maximum range of motion. In the case of "MoveSpeed" it means we can move between 0.2m/sec and 9.5m/sec.
 
@@ -263,7 +261,7 @@ virtual-examples
 **
 .
 
-[Image: /docs/static/attachments/28878087]
+![Image](https://www.cryengine.com/docs/static/attachments/28878087)
 
 These virtual examples are a runtime-optimization: At run-time we move a cursor through this space and for each new position of the cursor
 *
@@ -292,7 +290,7 @@ We will explain all the concepts and parameters while we build different types o
 ##
 Example1: 1d-bspace_DummyPara1.bspace
 
-[Image: /docs/static/attachments/28878088]
+![Image](https://www.cryengine.com/docs/static/attachments/28878088)
 
 This is the simplest blend-space you can build, without any advanced features. The only purpose is to lerp two animations.
 
@@ -401,7 +399,7 @@ Example2: 1d-bspace_DummyPara2.bspace
 
 Then we can build a generalized one-dimensional blend-space by placing an arbitrary number of clips along a linear scale. This blend-node is doing a lerp between 2 clips adjacent to the input-value.
 
-[Image: /docs/static/attachments/28878084]
+![Image](https://www.cryengine.com/docs/static/attachments/28878084)
 
 ```
 
@@ -541,7 +539,7 @@ extract the parameters
 *
  directly out of the motions. The parameter "MoveSpeed" tells the system to extract the move-speed out of the root-motion and inserts it into automatically into the blend-space. The result is a blend-space where all assets have a different positions on the x-axis. These positions are what we call the "natural" motion parameters, because they are coming from the motion directly. In this case, the blend-space represents these real motion parameter, which is not the case when you use SetPara0="?" as we did before.
 
-[Image: /docs/static/attachments/28878085]
+![Image](https://www.cryengine.com/docs/static/attachments/28878085)
 
 ```
 
@@ -614,7 +612,7 @@ pseudo assets
 **
  by extrapolating two existing assets. The pseudo assets are rendered with a red cube. These are basically procedurally generated assets.
 
-[Image: /docs/static/attachments/28878082]
+![Image](https://www.cryengine.com/docs/static/attachments/28878082)
 
 ```
 
@@ -749,7 +747,7 @@ pseudo assets
 **
  by scaling the playback-rate of existing assets. The pseudo assets are rendered with a green cube. These is yet another method to create procedurally generated assets.
 
-[Image: /docs/static/attachments/28878083]
+![Image](https://www.cryengine.com/docs/static/attachments/28878083)
 
 ```
 
@@ -814,7 +812,7 @@ one single asset
 . If the scale-value is extreme it might produce a sappy "Charlie Chaplin" motion or an unnatural slow motion.
 Is obvious that pseudo assets can never have the quality of real assets produced by an experienced animator, but it's a nice feature to avoid exponential assets explosions in current gen-game. The next example shows a blend-space with one single real asset (speed 4.5m/sec) and two scaled versions of the same asset to cover the full speed-range of 3m/sec - 8m/sec without foot-sliding. We used this trick A LOT in C3 to create "faked" 2D blend-spaces without making new assets. More about that that later when we cover 2D-Blend Spaces.
 
-[Image: /docs/static/attachments/28878079]
+![Image](https://www.cryengine.com/docs/static/attachments/28878079)
 
 ```
 
@@ -875,7 +873,7 @@ run-turn-left
 *
 . The curved yellow locator indicates a turning animation. In all cases the character always moves in the direction his body points.
 
-[Image: /docs/static/attachments/28878080]
+![Image](https://www.cryengine.com/docs/static/attachments/28878080)
 
 ```
 
@@ -930,7 +928,7 @@ walk-down
 *
 . The yellow locator indicates a slope-angle. In all cases the character always moves in the direction his body points.
 
-[Image: /docs/static/attachments/28878081]
+![Image](https://www.cryengine.com/docs/static/attachments/28878081)
 
 ```
 
@@ -975,7 +973,7 @@ strafing-movement
 *
 , but wants to move with his legs forward, sideways or backwards. A simple way to do this with blend-spaces is to take 4, 6 or 8 assets which cover all move-directions we need, and represent each direction by a radiant. Moving forward is always a value of 0.0. All values between 0.0 and -3.147 are movements to the right. All values between 0.0 and +3.147 are movements to the left. The values +3.147 and -3.147 both represent a perfect backwards motion. To cover a full circle we need a blend-space that ranges from -3.147 to +3.147. Or 2pi if you want.
 
-[Image: /docs/static/attachments/28878077]
+![Image](https://www.cryengine.com/docs/static/attachments/28878077)
 
 ```
 
@@ -1066,7 +1064,7 @@ IdleStep-Rotations
 **
  where a character is turning on the spot.
 
-[Image: /docs/static/attachments/28878078]
+![Image](https://www.cryengine.com/docs/static/attachments/28878078)
 
 ```
 
@@ -1251,7 +1249,7 @@ A classical example for a 2D blend space could be a character who moves at diffe
 *
  while he moves. When we change the speed, we don't want to change the turn-radius and when we change the turn-radius it should have no impact on the speed.
 
-[Image: /docs/static/attachments/28878075]
+![Image](https://www.cryengine.com/docs/static/attachments/28878075)
 
 ```
 
@@ -1412,7 +1410,7 @@ Idle2Moves
 **
  with different speeds. In the next example we can blend between walkStart and runStart when doing a transition into a walk or run. This XML also uses a combination of real examples and scaled example to cover the whole blend-space.
 
-[Image: /docs/static/attachments/28878076]
+![Image](https://www.cryengine.com/docs/static/attachments/28878076)
 
 ```
 
@@ -1491,7 +1489,7 @@ Another example for a 2D blend space is a character who moves at different speed
 *
  while he moves. When we change the speed, we don't want to change the move-direction and when we change the move-direction it should have no impact on the speed.
 
-[Image: /docs/static/attachments/28878073]
+![Image](https://www.cryengine.com/docs/static/attachments/28878073)
 
 ```
 
@@ -1572,7 +1570,7 @@ In the previous strafe example we had walk and run assets for different speeds. 
 **
  by scaling the speed of original assets.
 
-[Image: /docs/static/attachments/28878074]
+![Image](https://www.cryengine.com/docs/static/attachments/28878074)
 
 ```
 
@@ -1643,7 +1641,7 @@ a new dimension
 **
  in the Blend-Space. In 3D we can control uphill/downhill motion and we can combine this with all different speeds and turn-angles.
 
-[Image: /docs/static/attachments/28878071]
+![Image](https://www.cryengine.com/docs/static/attachments/28878071)
 
 ```
 
@@ -2060,24 +2058,10 @@ A blend-space can also contain additive or override animation, though you are no
 Before CryENGINE 3.7: Limitations
 In versions before CRYENGINE 3.7 BSpaces only work on layer 0, and additive or override animation is not supported.
 
-[#visualizing-bspaces](
-Visualizing BSpaces
-)
-[#debug-parameters-of-cadrawveginfo](
-Debug parameters of ca_DrawVEGInfo
-)
-[#building-blend-spaces](
-Building Blend Spaces
-)
-[#2d-blend-spaces](
-2D-Blend Spaces
-)
-[#3d-blend-spaces](
-3D-Blend Spaces
-)
-[#rules-of-annotations](
-Rules of Annotations
-)
-[#additive-and-override-animation](
-Additive and Override Animation
-)
+[Visualizing BSpaces](#visualizing-bspaces)
+[Debug parameters of ca_DrawVEGInfo](#debug-parameters-of-cadrawveginfo)
+[Building Blend Spaces](#building-blend-spaces)
+[2D-Blend Spaces](#2d-blend-spaces)
+[3D-Blend Spaces](#3d-blend-spaces)
+[Rules of Annotations](#rules-of-annotations)
+[Additive and Override Animation](#additive-and-override-animation)

@@ -23,12 +23,12 @@ Scaleform 3
 -
 Begin by creating a new Symbol in your Flash project library. We will call this Symbol "BasicButton" and change its type to a Button.
 
-[Image: /docs/static/attachments/90833176]
+![Image](https://www.cryengine.com/docs/static/attachments/90833176)
 
 *
 New Symbol
 
-[Image: /docs/static/attachments/90833562]
+![Image](https://www.cryengine.com/docs/static/attachments/90833562)
 
 Set Type to "Button"
 
@@ -41,7 +41,7 @@ Rectangle Tool (R)
 **
 .
 
-[Image: /docs/static/attachments/90833178]
+![Image](https://www.cryengine.com/docs/static/attachments/90833178)
 
 **
 *
@@ -55,7 +55,7 @@ Draw a simple rectangle
 -
 You can now return to your scene and from your Library, place an instance of your new BasicButton Symbol within the scene.
 
-[Image: /docs/static/attachments/90833564]
+![Image](https://www.cryengine.com/docs/static/attachments/90833564)
 
 *
 Place an instance of the BasicButton in your scene
@@ -65,7 +65,7 @@ Place an instance of the BasicButton in your scene
 -
 Name this instance of the BasicButton Symbol to "btnTest". This is how this button will be referenced via ActionScript.
 
-[Image: /docs/static/attachments/90833181]
+![Image](https://www.cryengine.com/docs/static/attachments/90833181)
 
 *
 Name the symbol to btnTest
@@ -89,7 +89,7 @@ btnTest.onPress = function () {
 
 ```
 
-[Image: /docs/static/attachments/90833566]
+![Image](https://www.cryengine.com/docs/static/attachments/90833566)
 
 *
 Add the code to Scene → Layer 1: Frame 1
@@ -97,9 +97,7 @@ Add the code to Scene → Layer 1: Frame 1
 
 -
 Now that you have defined your function, compile your GFx file through the exporter as shown in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/89456800](
-Chapter 2 - Flash and Gfx
-)
+[Chapter 2 - Flash and Gfx](Chapter%202%20-%20Flash%20and%20Gfx.md)
 , and then add the following adjustments to your UI Elements XML file to expose the event to visual scripting:
 
 ```
@@ -114,7 +112,7 @@ Chapter 2 - Flash and Gfx
 
 ```
 
-[Image: /docs/static/attachments/90833183]
+![Image](https://www.cryengine.com/docs/static/attachments/90833183)
 
 *
 Exposing the event to visual scripting
@@ -127,12 +125,12 @@ Scaleform 4
 -
 Begin by creating a new Symbol in your Flash project library. We will call this Symbol "BasicButton" and change its type to a Button.
 
-[Image: /docs/static/attachments/90833188]
+![Image](https://www.cryengine.com/docs/static/attachments/90833188)
 
 *
 New Symbol
 
-[Image: /docs/static/attachments/90833189]
+![Image](https://www.cryengine.com/docs/static/attachments/90833189)
 
 Set Type to "Button"
 
@@ -145,7 +143,7 @@ Rectangle Tool (R)
 **
 .
 
-[Image: /docs/static/attachments/90833190]
+![Image](https://www.cryengine.com/docs/static/attachments/90833190)
 
 **
 *
@@ -159,7 +157,7 @@ Draw a simple rectangle
 -
 You can now return to your scene and from your Library, place an instance of your new BasicButton Symbol within the scene.
 
-[Image: /docs/static/attachments/90833191]
+![Image](https://www.cryengine.com/docs/static/attachments/90833191)
 
 *
 Place an instance of the BasicButton in your scene
@@ -169,7 +167,7 @@ Place an instance of the BasicButton in your scene
 -
 Name this instance of the BasicButton Symbol to "btnTest". This is how this button will be referenced via ActionScript.
 
-[Image: /docs/static/attachments/90833193]
+![Image](https://www.cryengine.com/docs/static/attachments/90833193)
 
 *
 Name the symbol to btnTest
@@ -197,7 +195,7 @@ function onButtonPress(e:MouseEvent): void
 
 ```
 
-[Image: /docs/static/attachments/90833194]
+![Image](https://www.cryengine.com/docs/static/attachments/90833194)
 
 *
 Add the code to Scene → Layer 1: Frame 1
@@ -205,9 +203,7 @@ Add the code to Scene → Layer 1: Frame 1
 
 -
 Now that you have defined your function, compile your GFx file through the exporter as shown in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/89456800](
-Chapter 2 - Flash and Gfx
-)
+[Chapter 2 - Flash and Gfx](Chapter%202%20-%20Flash%20and%20Gfx.md)
 , and then add the following adjustments to your UI Elements XML file to expose the event to visual scripting:
 
 ```
@@ -222,22 +218,14 @@ Chapter 2 - Flash and Gfx
 
 ```
 
-[Image: /docs/static/attachments/90833183]
+![Image](https://www.cryengine.com/docs/static/attachments/90833183)
 
 *
 Exposing the event to visual scripting
 
 *
 
-[#how-ui-events-are-handled](
-How UI Events are Handled
-)
-[#exposing-an-event-from-flash](
-Exposing an Event from Flash
-)
-[#scaleform-3](
-Scaleform 3
-)
-[#scaleform-4](
-Scaleform 4
-)
+[How UI Events are Handled](#how-ui-events-are-handled)
+[Exposing an Event from Flash](#exposing-an-event-from-flash)
+[Scaleform 3](#scaleform-3)
+[Scaleform 4](#scaleform-4)

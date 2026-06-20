@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [Ragdoll](Physics (animated)/Ragdoll.md)
-- [Jiggle Bones Physics](Physics (animated)/Jiggle Bones Physics.md)
-- [Joint-Chain Cloth](Physics (animated)/Joint-Chain Cloth.md)
-- [Rope Setup](Physics (animated)/Rope Setup.md)
-- [VCloth Setup](Physics (animated)/VCloth Setup.md)
+- [Ragdoll](Physics%20(animated)/Ragdoll.md)
+- [Jiggle Bones Physics](Physics%20(animated)/Jiggle%20Bones%20Physics.md)
+- [Joint-Chain Cloth](Physics%20(animated)/Joint-Chain%20Cloth.md)
+- [Rope Setup](Physics%20(animated)/Rope%20Setup.md)
+- [VCloth Setup](Physics%20(animated)/VCloth%20Setup.md)
 
 ## Content
 
@@ -19,29 +19,19 @@
 Overview
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307982](
-Jiggle Bones Physics
-)
+[Jiggle Bones Physics](Physics%20(animated)/Jiggle%20Bones%20Physics.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307981](
-Joint-Chain Cloth
-)
+[Joint-Chain Cloth](Physics%20(animated)/Joint-Chain%20Cloth.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307978](
-Ragdoll
-)
+[Ragdoll](Physics%20(animated)/Ragdoll.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307980](
-Rope Setup
-)
+[Rope Setup](Physics%20(animated)/Rope%20Setup.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29799652](
-VCloth Setup
-)
+[VCloth Setup](Physics%20(animated)/VCloth%20Setup.md)
 
 ##
 Introduction to Character Rope
@@ -50,7 +40,7 @@ Character ropes can have multiple purposes, and can mainly be used for cloth and
 
 An example of a hierarchy; Rope3 is a physicalized rope.
 
-[Image: /docs/static/attachments/23994231]
+![Image](https://www.cryengine.com/docs/static/attachments/23994231)
 
 **
 Character Ropes
@@ -184,19 +174,15 @@ friction
 For more information on character ropes and cloth please refer to the following pages:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307980](
-Rope Setup
-)
+[Rope Setup](Physics%20(animated)/Rope%20Setup.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29799652](
-VCloth Setup
-)
+[VCloth Setup](Physics%20(animated)/VCloth%20Setup.md)
 
 ##
 Character Hinge Attachments
 
-[Image: /docs/static/attachments/23994230]
+![Image](https://www.cryengine.com/docs/static/attachments/23994230)
 
 When adding CGF bone attachments in the character editor, you can create hinge joints to give the rigid attachments a realistic, secondary motion. Select the bone attachment, then check Physicalized, select a hinge rotational axis, and specify some values. It takes some trial and error to get it right, but the results are great.
 
@@ -206,16 +192,8 @@ Introduction to Jiggle Bones
 The option exists to setup joints which simulate a jiggle, and this can be used to simulate various parts of a character. For information on how to set this up, please visit:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307982](
-Jiggle Bones Physics
-)
+[Jiggle Bones Physics](Physics%20(animated)/Jiggle%20Bones%20Physics.md)
 .
-[#introduction-to-character-rope](
-Introduction to Character Rope
-)
-[#character-hinge-attachments](
-Character Hinge Attachments
-)
-[#introduction-to-jiggle-bones](
-Introduction to Jiggle Bones
-)
+[Introduction to Character Rope](#introduction-to-character-rope)
+[Character Hinge Attachments](#character-hinge-attachments)
+[Introduction to Jiggle Bones](#introduction-to-jiggle-bones)

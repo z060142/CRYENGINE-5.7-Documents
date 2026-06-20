@@ -324,9 +324,7 @@ Localization/<language
 Translating Spoken Text
 
 As the XML files mentioned above contain all the text that is spoken in a game, they can be very large and are best viewed inside spreadsheet software, such as Excel. Inside the files, each line represents sentences spoken by a character. Sentences spoken by different characters can be composed to a dialog by the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959678](
-Dialog Editor*
-)
+[Dialog Editor*](../Editor%20Tools/Deprecated%20Tab/Dialog%20Editor.md)
  as an additional step, for further use in Track View scenes or Flow Graphs.
 
 The

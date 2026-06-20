@@ -13,9 +13,7 @@ Overview
 This tutorial shows you how to create additive animations in 3ds Max using a Biped, and how you can make the most out of additive animations.
 
 Before proceeding, please have a look at the documentation on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535365](
-Additive Animations
-)
+[Additive Animations](../../../Animation/Character%20Assembly/Additive%20Animations.md)
 .
 
 ##
@@ -24,30 +22,22 @@ Sample Assets
 Please download the sample 3ds Max 2010 assets required for this tutorial:
 
 -
-[/docs/static/attachments/28879281](
-additive_layer_animation.max
-)
+[additive_layer_animation.max](/docs/static/attachments/28879281)
 .
 
 -
-[/docs/static/attachments/28879282](
-additive_animation_final.max
-)
+[additive_animation_final.max](/docs/static/attachments/28879282)
 .
 
 -
-[/docs/static/attachments/28879280](
-relaxed_run_nw_forward_fast_01.bip
-)
+[relaxed_run_nw_forward_fast_01.bip](/docs/static/attachments/28879280)
 .
 
 ##
 Creating Assets in 3ds Max
 
 This is an intermediate tutorial which assumes that users understand the basics of 3ds Max such as the user interface and the creation of characters, using Bipeds and are familiar with the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961853](
-Character Tool
-)
+[Character Tool](../../../Editor%20Tools/Animation%20Tab/Character%20Tool.md)
 .
 
 This tutorial focuses only on the aspect of creating and previewing additive animations.
@@ -69,12 +59,12 @@ relaxed_run_nw_forward_fast_01
 Mixer.
 **
 
-[Image: /docs/static/attachments/28879297]
+![Image](https://www.cryengine.com/docs/static/attachments/28879297)
 
 Please make a 4 time loop of the run animation, compute mix-down, and load it into the scene.
 
 *
-[Image: /docs/static/attachments/28879294]
+![Image](https://www.cryengine.com/docs/static/attachments/28879294)
 
 *
 
@@ -82,7 +72,7 @@ We are going to use this looping animation as our base for creating the additive
 
 Now, add a layer for the Biped and start placing keys to create your additive animation.
 
-[Image: /docs/static/attachments/28879295]
+![Image](https://www.cryengine.com/docs/static/attachments/28879295)
 
 Take a look at the sample file
 **
@@ -92,23 +82,23 @@ additive_layer_animation.max
 
 The poses for the arm, when the character takes cover to stop the animation, are shown below:
 
-[Image: /docs/static/attachments/28879296]
+![Image](https://www.cryengine.com/docs/static/attachments/28879296)
 
 Once done, make sure that towards the end of the animation, the character returns back to his original animation.
 
 One of the method in Max is to Disable Layer 1:
 
-[Image: /docs/static/attachments/28879292]
+![Image](https://www.cryengine.com/docs/static/attachments/28879292)
 
 Copy Pose:
 
-[Image: /docs/static/attachments/28879293]
+![Image](https://www.cryengine.com/docs/static/attachments/28879293)
 
 and enable Layer 1 back and paste the pose so it matches the animation on Layer 0. For this tutorial, the pose was pasted on keyframe 68.
 
 Give a good amount of frames for the character to return back to the original animation. Otherwise, you will see him snap back. Fortunately, with this technique you can actually preview your additive animation in Max before you export it.
 
-[Image: /docs/static/attachments/28879284]
+![Image](https://www.cryengine.com/docs/static/attachments/28879284)
 
 Once you are pleased with your animation, you are ready to export it.
 
@@ -136,7 +126,7 @@ arms_coverFire_01.caf
 **
  is used here).
 
-[Image: /docs/static/attachments/28879289]
+![Image](https://www.cryengine.com/docs/static/attachments/28879289)
 
 Now, you are ready to export the additive animation.
 
@@ -144,7 +134,7 @@ Select the entire Biped rig, go to layer 0, and delete all the keys except the o
 
 You only needed the run animation earlier as the base to create the additive animation. Now, since you are done, you don't need it and can delete it below.
 
-[Image: /docs/static/attachments/28879290]
+![Image](https://www.cryengine.com/docs/static/attachments/28879290)
 
 Go back to Layer 1 and Collapse the layer.
 
@@ -207,7 +197,7 @@ sdk_character_male.cdf
 
 Check that your new animations shows up on the left side of the Character Editor. If you test the additive animation, don't be scared about any deforming that you see. As it is an additive animation, you are not supposed to play it on the Primary layer.
 
-[Image: /docs/static/attachments/28879291]
+![Image](https://www.cryengine.com/docs/static/attachments/28879291)
 
 Make sure the Layer is set to
 **
@@ -215,7 +205,7 @@ Primary
 **
 , Animation Driven is on, and all the IKs are off.
 
-[Image: /docs/static/attachments/28879287]
+![Image](https://www.cryengine.com/docs/static/attachments/28879287)
 
 Click on the
 **
@@ -229,7 +219,7 @@ Secondary .1
 **
 :
 
-[Image: /docs/static/attachments/28879288]
+![Image](https://www.cryengine.com/docs/static/attachments/28879288)
 
 Click the additive animation
 **
@@ -251,7 +241,7 @@ arms_coverFire_01
 
 You can now see how you get a new cower animation by using additives and upperbody animation. And the end result is what you were previewing in Max already.
 
-[Image: /docs/static/attachments/52592965]
+![Image](https://www.cryengine.com/docs/static/attachments/52592965)
 
 Keep a check on your mesh's deformation when creating additive animations.
 
@@ -261,17 +251,9 @@ Additive Anim Weights
 **
 . 1 is the default value.
 
-[Image: /docs/static/attachments/28879285]
+![Image](https://www.cryengine.com/docs/static/attachments/28879285)
 
-[#sample-assets](
-Sample Assets
-)
-[#creating-assets-in-3ds-max](
-Creating Assets in 3ds Max
-)
-[#exporting-the-animation](
-Exporting the Animation
-)
-[#testing-additives-in-the-character-editor](
-Testing Additives in the Character Editor
-)
+[Sample Assets](#sample-assets)
+[Creating Assets in 3ds Max](#creating-assets-in-3ds-max)
+[Exporting the Animation](#exporting-the-animation)
+[Testing Additives in the Character Editor](#testing-additives-in-the-character-editor)

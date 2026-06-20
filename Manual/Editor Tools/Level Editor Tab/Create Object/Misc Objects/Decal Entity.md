@@ -22,11 +22,11 @@ Material Editor
 Assign Material to Selection
  button.
 
-[Image: /docs/static/attachments/36849629]
+![Image](https://www.cryengine.com/docs/static/attachments/36849629)
 
 The Decal consists of the following parameter options in the Properties tab:
 
-[Image: /docs/static/attachments/36849628]
+![Image](https://www.cryengine.com/docs/static/attachments/36849628)
 
 Parameter
 
@@ -46,7 +46,7 @@ Decals have 4 different projection types, numbered 0 to 3. To change a decal's p
 Planar
 : The decal will be displayed in the exact same position in space as where you placed the center of the object. It is advised to only use this project type on flat surfaces, otherwise you may find the decal "floating" in the air. Planar projection offers the cheapest performance.
 
-[Image: /docs/static/attachments/36849627]
+![Image](https://www.cryengine.com/docs/static/attachments/36849627)
 
 -
 
@@ -54,19 +54,19 @@ ProjectOnStaticObjects
 : The decal will be projected onto the geometry of an object in the level. It will be projected along the opposite direction of the blue Z axis. This method is automatically done as a
 deferred
  pass.
-[Image: /docs/static/attachments/36849626]
+![Image](https://www.cryengine.com/docs/static/attachments/36849626)
 
 -
 ProjectOnTerrain:
  The decal will be projected directly on to the terrain of your level, ignoring any assets that might otherwise receive the projection.
-[Image: /docs/static/attachments/36849625]
+![Image](https://www.cryengine.com/docs/static/attachments/36849625)
 
 -
 ProjectOnTerrainAndStaticObjects:
  This projection type is a combination of type 2 and 3, and will be displayed on both the terrain and objects. This method is automatically performed as a
 deferred
  pass.
-[Image: /docs/static/attachments/36849624]
+![Image](https://www.cryengine.com/docs/static/attachments/36849624)
 
  |
 

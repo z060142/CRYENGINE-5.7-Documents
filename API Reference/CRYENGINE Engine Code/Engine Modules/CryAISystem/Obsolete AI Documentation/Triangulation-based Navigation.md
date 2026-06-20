@@ -8,9 +8,7 @@
 ## Content
 
 This documentation is obsolete and applies to the pre-
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048672](
-MNM
-)
+[MNM](/docs/static/engines/cryengine-3/categories/1114113/pages/1048672)
  navigation system AI used in CRYENGINE 3.3 and earlier.
 
 ##
@@ -43,9 +41,7 @@ When an empty level is created, its triangulation is non-existent. However, the 
 When a triangulation is initiated on a normal level (one with obstacles), the first step is to request from the physics subsystem ALL physical entities that collide with the player (e.g. obstacles). All the obstacles returned are taken as simple points (without volume). The point position taken for the triangulation is the origin point in the objects local space. Note that in this step the size of the actual obstacle or its shape is not relevant - so big buildings and small rocks are all handled in the same way - as a point.
 
 This set of points received from the previous step is put through a triangulation process that generates a triangulation of the points in 2D. This triangulation is something similar to a Delaunay triangulation, although it is not quite the same. The Delaunay triangulation has some more strict rules about the properties of the triangles that come out as a result of the triangulation. A demonstration of the process of the triangulation can be found in many places on the Internet (
-[http://cage.ugent.be/~dc/alhtml/Delaunay.html](
-http://cage.ugent.be/~dc/alhtml/Delaunay.html
-)
+[http://cage.ugent.be/~dc/alhtml/Delaunay.html](http://cage.ugent.be/~dc/alhtml/Delaunay.html)
 ). This is performed offline (as a pre-processing step) as it can be potentially very time consuming (depending on the amount of obstacles and their distribution).
 
 The triangulation generated in the previous step is used to create the navigational graph. Each triangle is translated into a node (its geometrical center is taken as the position of the node) and each triangle node is connected to the nodes of all its adjacent triangles. Basically, these are all the triangles (actually exactly 3) that share an edge with the node's triangle. The nodes also record properties of the triangles at this point that may or may not be used during pathfinding (does the triangle border a water area, the slope of the triangle etc). With this procedure an early version of the navigational graph is created with the following properties:
@@ -115,9 +111,7 @@ The final observation to be made is that the nodes of the graph correspond to tr
 Path finding
 
 The pathfinding algorithm uses a standard A* algorithm (
-[http://encyclopedia.thefreedictionary.com/A-star%20algorithm](
-http://encyclopedia.thefreedictionary.com/A-star%20algorithm
-)
+[http://encyclopedia.thefreedictionary.com/A-star%20algorithm](http://encyclopedia.thefreedictionary.com/A-star%20algorithm)
 ) implementation to generate the path. It works on top of the spatial representation described in the previous text.
 
 The procedure to generate a path from one point to another is simple: first, both points are located in the graph (read this note about point location search in the triangulation). What this means is that the nodes of the graph that correspond to the triangles which contain both points are selected. One of those nodes is marked as the start node and the other as the end node. Then the A* algorithm is executed on the graph having these nodes as end nodes. The A* can use different kinds of heuristic, but most commonly it uses a simple greedy distance heuristic. The algorithm will return the optimal path through the graph from one node to the other, or at the very least it will determine that a path is not possible.

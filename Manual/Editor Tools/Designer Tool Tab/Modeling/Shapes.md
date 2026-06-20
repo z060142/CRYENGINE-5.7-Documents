@@ -17,7 +17,7 @@ Shapes
  section of the Designer tool lets you create basic shapes that you can later edit in various ways.
 
 *
-[Image: /docs/static/attachments/28900537]
+![Image](https://www.cryengine.com/docs/static/attachments/28900537)
 
 *
 
@@ -45,9 +45,7 @@ Click one final time to confirm the shape.
 You can modify the the drawn box with various other tools in the
 
 Designer tool (e.g. Extrude, Offset, Move tools etc., see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450449](
-Selection
-)
+[Selection](Selection.md)
 ).
 
 ##
@@ -66,7 +64,7 @@ Enable Magnet
  |
 When enabled, the cursor will snap to vertices and edges on the shape, making it easier to align the shape you're drawing to the already existing shape. A small box will be displayed on the cursor, which will change color when it is snapped to a vertex or edge.
 
-[Image: /docs/static/attachments/35395289]
+![Image](https://www.cryengine.com/docs/static/attachments/35395289)
 
  |
 
@@ -106,7 +104,7 @@ Shift
 **
  while drawing, you will not be able to align it to another object.
 
-[Image: /docs/static/attachments/35395312]
+![Image](https://www.cryengine.com/docs/static/attachments/35395312)
 
  |
 
@@ -126,9 +124,7 @@ Click again to confirm the size.
 You can modify the the drawn sphere with various other tools in the
 
 Designer tool (e.g. Extrude, Offset, Move tools etc., see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450449](
-Selection
-)
+[Selection](Selection.md)
 ).
 
 ##
@@ -148,9 +144,7 @@ Enable Magnet
 When enabled, the cursor will snap to vertices and edges on the shape, making it easier to align the shape you're drawing to the already existing shape. A small box will be displayed on the cursor, which will change color when it is snapped to a vertex or edge.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-EnableMagnet](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-EnableMagnet)
 .
 
  |
@@ -179,7 +173,7 @@ Makes the corner of the object closest to the cursor snap to the Y or X axis, ca
 
 The profile will light up when the object has snapped to an axis this way.
 
-[Image: /docs/static/attachments/35395314]
+![Image](https://www.cryengine.com/docs/static/attachments/35395314)
 
  |
 
@@ -203,9 +197,7 @@ LMB
 Click one final time to confirm the shape.
 
 You can modify the the drawn cylinder with various other tools in the Designer tool (e.g. Extrude, Offset, Move tools etc., see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450449](
-Selection
-)
+[Selection](Selection.md)
 ).
 
 ##
@@ -225,9 +217,7 @@ Enable Magnet
 When enabled, the cursor will snap to vertices and edges on the shape, making it easier to align the shape you're drawing to the already existing shape. A small box will be displayed on the cursor, which will change color when it is snapped to a vertex or edge.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-EnableMagnet](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-EnableMagnet)
 .
 
  |
@@ -257,9 +247,7 @@ Makes the corner of the object closest to the cursor snap to the Y or X axis, ca
 The profile will light up when the object has snapped to an axis this way.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-90snap](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-90snap)
 .
 
  |
@@ -282,9 +270,7 @@ Shift
  while drawing, you will not be able to align it to another object.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-AlignToPolygon](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-AlignToPolygon)
 .
 
  |
@@ -311,9 +297,7 @@ Click one final time to confirm the shape.
 You can modify the the drawn cone with various other tools in the
 
 Designer tool (e.g. Extrude, Offset, Move tools etc., see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450449](
-Selection
-)
+[Selection](Selection.md)
 ).
 
 ##
@@ -333,9 +317,7 @@ Enable Magnet
 When enabled, the cursor will snap to vertices and edges on the shape, making it easier to align the shape you're drawing to the already existing shape. A small box will be displayed on the cursor, which will change color when it is snapped to a vertex or edge.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-EnableMagnet](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-EnableMagnet)
 .
 
  |
@@ -365,9 +347,7 @@ Makes the corner of the object closest to the cursor snap to the Y or X axis, ca
 The profile will light up when the object has snapped to an axis this way.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-90snap](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-90snap)
 .
 
  |
@@ -389,9 +369,7 @@ When still in drawing mode (when the object is transparent), aligns the top poly
 Only works in the same Designer object; if you create a separate object holding Shift while drawing, you will not be able to align it to another object.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-AlignToPolygon](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-AlignToPolygon)
 .
 
  |
@@ -410,30 +388,28 @@ LMB
 **
  to draw a rectangle.
 
-[Image: /docs/static/attachments/28900523]
+![Image](https://www.cryengine.com/docs/static/attachments/28900523)
 
 If the size of the rectangle isn't quite what you want yet, you can m
 odify width or depth by entering numbers in the Shape-specific properties. This modification is valid until you perform another action.
 
 You can also create a rectangle on a surface which is not included in the selected designer object:
 
-[Image: /docs/static/attachments/28900522]
+![Image](https://www.cryengine.com/docs/static/attachments/28900522)
 
-[Image: /docs/static/attachments/28900521]
+![Image](https://www.cryengine.com/docs/static/attachments/28900521)
 
 ##
 Tips
 
 If the new rectangle is drawn overlapping other polygons, the rectangle will be split along the edges in the polygons going across the rectangle:
 
-[Image: /docs/static/attachments/28900520]
+![Image](https://www.cryengine.com/docs/static/attachments/28900520)
 
 You can modify the the drawn rectangle with various other tools in the
 
 Designer tool (e.g. Extrude, Offset, Move tools etc., see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450449](
-Selection
-)
+[Selection](Selection.md)
 ).
 
 ##
@@ -453,9 +429,7 @@ Enable Magnet
 When enabled, the cursor will snap to vertices and edges on the shape, making it easier to align the shape you're drawing to the already existing shape. A small box will be displayed on the cursor, which will change color when it is snapped to a vertex or edge.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-EnableMagnet](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-EnableMagnet)
 .
 
  |
@@ -496,7 +470,7 @@ LMB
 **
  again to confirm.
 
-[Image: /docs/static/attachments/28900519]
+![Image](https://www.cryengine.com/docs/static/attachments/28900519)
 
 You can specify
 **
@@ -521,14 +495,12 @@ If the new disc is drawn overlapping other polygons, the disc will be split alon
 
  When you have confirmed the size of the disc, the overlapped polygons have been split along edges:
 
-[Image: /docs/static/attachments/28900518]
+![Image](https://www.cryengine.com/docs/static/attachments/28900518)
 
 You can modify the the drawn disc with various other tools in the
 
 Designer tool (e.g. Extrude, Offset, Move tools etc., see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450449](
-Selection
-)
+[Selection](Selection.md)
 ).
 
 ##
@@ -548,9 +520,7 @@ Enable Magnet
 When enabled, the cursor will snap to vertices and edges on the shape, making it easier to align the shape you're drawing to the already existing shape. A small box will be displayed on the cursor, which will change color when it is snapped to a vertex or edge.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-EnableMagnet](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-EnableMagnet)
 .
 
  |
@@ -580,9 +550,7 @@ Makes the corner of the object closest to the cursor snap to the Y or X axis, ca
 The profile will light up when the object has snapped to an axis this way.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-90snap](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-90snap)
 .
 
  |
@@ -601,7 +569,7 @@ LMB
 **
 :
 
-[Image: /docs/static/attachments/28900517]
+![Image](https://www.cryengine.com/docs/static/attachments/28900517)
 
 Move the mouse to another point and click
 **
@@ -609,12 +577,10 @@ LMB
 **
  again. Repeat this process until you've made the shape you want. Finish up by connecting it back to the starting point. The mouse will snap to this point when you get close to it:
 
-[Image: /docs/static/attachments/28900516]
+![Image](https://www.cryengine.com/docs/static/attachments/28900516)
 
 You can modify the the drawn polyline shape with various other tools in the Designer tool (e.g. Extrude, Offset, Move tools etc., see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450449](
-Selection
-)
+[Selection](Selection.md)
 ).
 
 ##
@@ -634,9 +600,7 @@ Enable Magnet
 When enabled, the cursor will snap to vertices and edges on the shape, making it easier to align the shape you're drawing to the already existing shape. A small box will be displayed on the cursor, which will change color when it is snapped to a vertex or edge.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-EnableMagnet](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-EnableMagnet)
 .
 
  |
@@ -654,7 +618,7 @@ Standard Curve
 
 Draw a line from one edge to the other:
 
-[Image: /docs/static/attachments/28900532]
+![Image](https://www.cryengine.com/docs/static/attachments/28900532)
 
 Now you can move the mouse to make a partial arc. When the arc gets the shape you want, press
 **
@@ -662,14 +626,12 @@ LMB
 **
 :
 
-[Image: /docs/static/attachments/28900531]
+![Image](https://www.cryengine.com/docs/static/attachments/28900531)
 
 You can modify the the drawn curve with various other tools in the
 
 Designer tool (e.g. Extrude, Offset, Move tools etc., see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450449](
-Selection
-)
+[Selection](Selection.md)
 ).
 
 ##
@@ -689,9 +651,7 @@ Enable Magnet
 When enabled, the cursor will snap to vertices and edges on the shape, making it easier to align the shape you're drawing to the already existing shape. A small box will be displayed on the cursor, which will change color when it is snapped to a vertex or edge.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-EnableMagnet](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-EnableMagnet)
 .
 
  |
@@ -722,13 +682,13 @@ LMB
 **
 :
 
-[Image: /docs/static/attachments/28900529]
+![Image](https://www.cryengine.com/docs/static/attachments/28900529)
 
 Raise to a desired height by moving the mouse up and down.
 
 The stairs will be created in the direction of the longer sides:
 
-[Image: /docs/static/attachments/28900528]
+![Image](https://www.cryengine.com/docs/static/attachments/28900528)
 
 If you want to create the stairs in the direction of the shorter sides, turn on the
 **
@@ -740,7 +700,7 @@ Stair properties
 **
 :
 
-[Image: /docs/static/attachments/28900527]
+![Image](https://www.cryengine.com/docs/static/attachments/28900527)
 
 If you turn on the
 **
@@ -752,7 +712,7 @@ Stair properties
 **
 , the stairs will be mirrored:
 
-[Image: /docs/static/attachments/28900526]
+![Image](https://www.cryengine.com/docs/static/attachments/28900526)
 
 Pressing
 **
@@ -766,9 +726,9 @@ Stair properties
 
 If you create stairs on the designer object, the stair will be glued to the object to be one as follows. See the triangulated faces.
 
-[Image: /docs/static/attachments/28900525]
+![Image](https://www.cryengine.com/docs/static/attachments/28900525)
 
-[Image: /docs/static/attachments/28900524]
+![Image](https://www.cryengine.com/docs/static/attachments/28900524)
 
 ##
 Stair-Specific Properties
@@ -811,9 +771,7 @@ Enable Magnet
 When enabled, the cursor will snap to vertices and edges on the shape, making it easier to align the shape you're drawing to the already existing shape. A small box will be displayed on the cursor, which will change color when it is snapped to a vertex or edge.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-EnableMagnet](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-EnableMagnet)
 .
 
  |
@@ -851,9 +809,7 @@ When still in drawing mode (when the object is transparent), aligns the top poly
 Only works in the same Designer object; if you create a separate object holding Shift while drawing, you will not be able to align it to another object.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-AlignToPolygon](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-AlignToPolygon)
 .
 
  |
@@ -872,18 +828,18 @@ How it Works
 
 1. Draw a line:
 
-[Image: /docs/static/attachments/28900515]
+![Image](https://www.cryengine.com/docs/static/attachments/28900515)
 
 2. Select the direction of the stair by moving the mouse up and down:
 
-[Image: /docs/static/attachments/28900514]
+![Image](https://www.cryengine.com/docs/static/attachments/28900514)
 
 3. Complete it by clicking
 **
 LMB:
 **
 
-[Image: /docs/static/attachments/28900513]
+![Image](https://www.cryengine.com/docs/static/attachments/28900513)
 
 4. Create stairs by pushing or pulling the profile with the
 **
@@ -891,7 +847,7 @@ Extrude
 **
  tool:
 
-[Image: /docs/static/attachments/28900512]
+![Image](https://www.cryengine.com/docs/static/attachments/28900512)
 
 ##
 Stair Profile-Specific Properties
@@ -910,9 +866,7 @@ Enable Magnet
 When enabled, the cursor will snap to vertices and edges on the shape, making it easier to align the shape you're drawing to the already existing shape. A small box will be displayed on the cursor, which will change color when it is snapped to a vertex or edge.
 
 For an example, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450447#Shapes-EnableMagnet](
-further up the page
-)
+[further up the page](Shapes.md#Shapes-EnableMagnet)
 .
 
  |
@@ -936,7 +890,7 @@ This will only be visible when the stair profile has been extruded to create a s
 *
 Closed vs. Open Profile
 
-[Image: /docs/static/attachments/35395316]
+![Image](https://www.cryengine.com/docs/static/attachments/35395316)
 *
 
  |
@@ -1007,18 +961,18 @@ any object, whether or not they were made with the Designer tool)
 .
 **
 
-[Image: /docs/static/attachments/28900511]
+![Image](https://www.cryengine.com/docs/static/attachments/28900511)
 
-[Image: /docs/static/attachments/28900510]
+![Image](https://www.cryengine.com/docs/static/attachments/28900510)
 
 ##
 Remove Mode
 
 Remove mode works similarly to the Add mode, except that it lets you remove cubes from an object. This works best with objects made with the Cube Editor tool:
 
-[Image: /docs/static/attachments/28900509]
+![Image](https://www.cryengine.com/docs/static/attachments/28900509)
 
-[Image: /docs/static/attachments/28900508]
+![Image](https://www.cryengine.com/docs/static/attachments/28900508)
 
 ##
 Paint Mode
@@ -1090,39 +1044,15 @@ Even after merging polygons, you can add, remove and paint cubes as you did befo
 ##
 Examples
 
-[#box](
-Box
-)
-[#sphere](
-Sphere
-)
-[#cylinder](
-Cylinder
-)
-[#cone](
-Cone
-)
-[#rectangle](
-Rectangle
-)
-[#disc](
-Disc
-)
-[#polyline](
-Polyline
-)
-[#curve](
-Curve
-)
-[#stair](
-Stair
-)
-[#stair-profile](
-Stair Profile
-)
-[#cube-editor](
-Cube Editor
-)
-[#examples](
-Examples
-)
+[Box](#box)
+[Sphere](#sphere)
+[Cylinder](#cylinder)
+[Cone](#cone)
+[Rectangle](#rectangle)
+[Disc](#disc)
+[Polyline](#polyline)
+[Curve](#curve)
+[Stair](#stair)
+[Stair Profile](#stair-profile)
+[Cube Editor](#cube-editor)
+[Examples](#examples)

@@ -484,18 +484,8 @@ Once you have specified all the job groups that you need, you can run them using
 ```
 
 Since the file is parsed top down, make sure your job groups are specified before the <Run> blocks that reference them.
-[#job-xml-format](
-Job XML Format
-)
-[#properties](
-Properties
-)
-[#asset-conversion-jobs](
-Asset Conversion Jobs
-)
-[#packing-jobs](
-Packing Jobs
-)
-[#running-jobs](
-Running Jobs
-)
+[Job XML Format](#job-xml-format)
+[Properties](#properties)
+[Asset Conversion Jobs](#asset-conversion-jobs)
+[Packing Jobs](#packing-jobs)
+[Running Jobs](#running-jobs)

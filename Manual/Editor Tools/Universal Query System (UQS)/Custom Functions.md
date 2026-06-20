@@ -111,9 +111,7 @@ DoExecute()
  method, which will be called through a base class's method by applying the
 
 **
-[https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern](
-https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
-)
+[https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern](https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern)
 **
 
 ##
@@ -152,15 +150,7 @@ UQS::Client::CFactoryRegistrationHelper::RegisterAllFactoryInstancesInHub();
 
 This is the same process as is already done when exposing item factories to the UQS core.
 
-[#function-hierarchies](
-Function Hierarchies
-)
-[#built-in-functions](
-Built-in Functions
-)
-[#example-function-vec3add](
-Example Function: Vec3Add()
-)
-[#registering-custom-functions](
-Registering Custom Functions
-)
+[Function Hierarchies](#function-hierarchies)
+[Built-in Functions](#built-in-functions)
+[Example Function: Vec3Add()](#example-function-vec3add)
+[Registering Custom Functions](#registering-custom-functions)

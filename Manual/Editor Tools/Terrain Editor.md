@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Terrain Block Import & Export](Terrain Editor/Terrain Block Import & Export.md)
-- [Terrain Minimaps](Terrain Editor/Terrain Minimaps.md)
-- [Terrain Object Blending](Terrain Editor/Terrain Object Blending.md)
+- [Terrain Block Import & Export](Terrain%20Editor/Terrain%20Block%20Import%20%26%20Export.md)
+- [Terrain Minimaps](Terrain%20Editor/Terrain%20Minimaps.md)
+- [Terrain Object Blending](Terrain%20Editor/Terrain%20Object%20Blending.md)
 
 ## Content
 
@@ -24,7 +24,7 @@ Tools → Terrain Editor
 **
 .
 
-[Image: /docs/static/attachments/44107954]
+![Image](https://www.cryengine.com/docs/static/attachments/44107954)
 
 There are currently three editing modes on the Terrain Editor namely;
 
@@ -50,7 +50,7 @@ The default Terrain Editor layout is comprised of the following main sections:
 1. Menu
 
 The menu is always the same regardless of which editing mode is active and it can be displayed by clicking the
-[Image: /docs/static/attachments/44109371]
+![Image](https://www.cryengine.com/docs/static/attachments/44109371)
  icon on the top-right corner of the Terrain Editor.
 
 ##
@@ -526,9 +526,7 @@ Alternatively, users can adjust the Sensitivity values by scrolling up or down w
 Alt + LMB
 **
  function which is explained in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849146#TerrainEditor-sculptbrush](
-Sculpt Mode → Brush
-)
+[Sculpt Mode → Brush](Terrain%20Editor.md#TerrainEditor-sculptbrush)
  section below.
  |
 
@@ -700,7 +698,7 @@ Sculpt Mode
 Sculpt mode is enabled by default when the Terrain Editor is opened.
 
 *
-[Image: /docs/static/attachments/36835898]
+![Image](https://www.cryengine.com/docs/static/attachments/36835898)
 
 *
 
@@ -715,7 +713,7 @@ Flatten
 **
  button is clicked, the following options appear:
 
-[Image: /docs/static/attachments/36835893]
+![Image](https://www.cryengine.com/docs/static/attachments/36835893)
 
 Section
 
@@ -763,9 +761,9 @@ Radius (inside)
 Changes the inside radius of the brush that is used to modify the terrain. If the inside radius is the same as the outside
 radius, a column will be created. If the inside radius is smaller, a dome effect will be created when the terrain is being modified.
 
-[Image: /docs/static/attachments/35959297]
+![Image](https://www.cryengine.com/docs/static/attachments/35959297)
  |
-[Image: /docs/static/attachments/35959296]
+![Image](https://www.cryengine.com/docs/static/attachments/35959296)
  |
 
 *
@@ -933,7 +931,7 @@ Pick
 **
  button:
 
-[Image: /docs/static/attachments/36835894]
+![Image](https://www.cryengine.com/docs/static/attachments/36835894)
 
 Section
  |
@@ -1104,7 +1102,7 @@ This mode lets users cut holes in the terrain. This is not the same as lowering 
 It can be used to create cave entrances or cliff overhangs which are built with meshes.
 
 **
-[Image: /docs/static/attachments/36835895]
+![Image](https://www.cryengine.com/docs/static/attachments/36835895)
 **
 
 In this mode, only
@@ -1154,11 +1152,11 @@ Smooth
 **
  mode lets users create smooth edges in the terrain, making the change in height more gradual.
 
-[Image: /docs/static/attachments/36835896]
+![Image](https://www.cryengine.com/docs/static/attachments/36835896)
 
-[Image: /docs/static/attachments/35959295]
+![Image](https://www.cryengine.com/docs/static/attachments/35959295)
 
-[Image: /docs/static/attachments/35959294]
+![Image](https://www.cryengine.com/docs/static/attachments/35959294)
 
 *
 Terrain before and after smoothing
@@ -1246,7 +1244,7 @@ Duplicate
 
 This mode allows the user to duplicate one area of the map to another based on Source and Target boxes.
 
-[Image: /docs/static/attachments/36835904]
+![Image](https://www.cryengine.com/docs/static/attachments/36835904)
 
 This mode has the following
 **
@@ -1362,7 +1360,7 @@ Fill Holes
 **
  is the opposite of Make Holes. The sole purpose of this mode is to close the holes that were made with the Make Holes mode.
 
-[Image: /docs/static/attachments/36835905]
+![Image](https://www.cryengine.com/docs/static/attachments/36835905)
 
 This mode has the same two options as the
 **
@@ -1412,7 +1410,7 @@ Paint mode lets users change the textures and materials of the terrain, making i
 **
  file.
 
-[Image: /docs/static/attachments/36835906]
+![Image](https://www.cryengine.com/docs/static/attachments/36835906)
 
 The Paint mode consists of three sections:
 
@@ -1810,12 +1808,6 @@ name, the value or the type of the selected parameter.
 
  |
 
-[#1-menu](
-1. Menu
-)
-[#2-modes](
-2. Modes
-)
-[#context-menu](
-Context Menu
-)
+[1. Menu](#1-menu)
+[2. Modes](#2-modes)
+[Context Menu](#context-menu)

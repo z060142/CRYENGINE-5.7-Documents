@@ -12,17 +12,13 @@ Overview
 
 Starting with 5.3,
 **
-[https://cmake.org/](
-CMake
-)
+[CMake](https://cmake.org/)
 **
  is now the default build system for CRYENGINE, replacing WAF. This page will describe the structure of the CMake scripts.
 
 If you are looking on information on the differences between CMake and WAF, please refer to the page
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26218339](
-Migrating from WAF to CMake
-)
+[Migrating from WAF to CMake](Migrating%20from%20WAF%20to%20CMake.md)
 **
 .
 
@@ -223,9 +219,7 @@ This is not a complete listing of macros and functions provided by that file, bu
 
 If you are migrating from an older version of CRYENGINE, based on WAF, please refer to the page
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26218339](
-Migrating from WAF to CMake
-)
+[Migrating from WAF to CMake](Migrating%20from%20WAF%20to%20CMake.md)
 
 **
 for a more detailed explanation of how
@@ -269,9 +263,7 @@ waf2cmake
 the
 
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26218339](
-Migrating from WAF to CMake
-)
+[Migrating from WAF to CMake](Migrating%20from%20WAF%20to%20CMake.md)
 **
  guide, but are also available for newly added CMake modules.
 
@@ -497,12 +489,6 @@ use_xt()
 If you write a Sandbox plugin using MFC, use this macro to link against the XT library.
  |
 
-[#bundled-cmake-binaries](
-Bundled CMake Binaries
-)
-[#cmake-options](
-CMake Options
-)
-[#adding-a-module](
-Adding a Module
-)
+[Bundled CMake Binaries](#bundled-cmake-binaries)
+[CMake Options](#cmake-options)
+[Adding a Module](#adding-a-module)

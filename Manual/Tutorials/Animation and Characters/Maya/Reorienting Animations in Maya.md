@@ -26,7 +26,7 @@ File → Import
 **
  option from its main menu.
 If not already docked, click the
-[Image: /docs/static/attachments/60523796]
+![Image](https://www.cryengine.com/docs/static/attachments/60523796)
  icon on the left side of Maya's interface to open the Outliner, which lists the different components of your scene.
 
 You need to add a root bone to your animation. To do so:
@@ -42,7 +42,7 @@ Rigging
 **
 shelf tab as shown in the image below.
 
-[Image: /docs/static/attachments/60523798]
+![Image](https://www.cryengine.com/docs/static/attachments/60523798)
 
 *
 Rigging
@@ -54,7 +54,7 @@ Rigging
 
 -
 Click the
-[Image: /docs/static/attachments/60523799]
+![Image](https://www.cryengine.com/docs/static/attachments/60523799)
  button, and then double click in the viewport to create a joint. The joint should be listed in the Outliner, while its attributes are displayed in the Channel Box.
 
 -
@@ -113,7 +113,7 @@ Make sure you click on the hip first, as the root bone needs to follow the hip.
 In the main menu (with the Rigging menu set enabled), select the
 **
 Constrain → Point →
-[Image: /docs/static/attachments/60523803]
+![Image](https://www.cryengine.com/docs/static/attachments/60523803)
 **
  option to bring up the Point Constraint Options dialog, which contains additional properties we can modify.
 
@@ -142,7 +142,7 @@ Apply
 **
 and then close the dialog.
 
-[Image: /docs/static/attachments/60523805]
+![Image](https://www.cryengine.com/docs/static/attachments/60523805)
 
 *
 Point Constraint Options dialog
@@ -192,7 +192,7 @@ option from the context menu.
 
 -
 Click the
-[Image: /docs/static/attachments/60523799]
+![Image](https://www.cryengine.com/docs/static/attachments/60523799)
  icon beside the root bone, and drag it to to the root bone.
 This deletes all translation movements from the hip, so that the root bone is the one driving the animation.
 
@@ -223,7 +223,7 @@ Files of type
 **
  dialog to export the animation in FBX format.
 
-[Image: /docs/static/attachments/60523815]
+![Image](https://www.cryengine.com/docs/static/attachments/60523815)
 
 *
 Export All dialog
@@ -248,7 +248,7 @@ Animation
 Bake Animation
 **
  under the Bake Animation panel.
-[Image: /docs/static/attachments/60523814]
+![Image](https://www.cryengine.com/docs/static/attachments/60523814)
 
 *
 Bake Animation
@@ -265,7 +265,7 @@ Export
 **
  in the Export All dialog to complete the process.
 
-[Image: /docs/static/attachments/60523817]
+![Image](https://www.cryengine.com/docs/static/attachments/60523817)
 
 *
 Constraints
@@ -309,7 +309,7 @@ Playback Options
 **
  tab of the Import dialog. This combines both the T-pose and jump animation in the exported output.
 
-[Image: /docs/static/attachments/60523827]
+![Image](https://www.cryengine.com/docs/static/attachments/60523827)
 
 *
 Combine to include source
@@ -318,22 +318,20 @@ Combine to include source
 -
 Download the following Python script.
 
-[/docs/static/attachments/60523794](
-transformAnim.py
-)
+[transformAnim.py](/docs/static/attachments/60523794)
 
 -
 Click the
-[Image: /docs/static/attachments/60523833]
+![Image](https://www.cryengine.com/docs/static/attachments/60523833)
  button at the bottom-right corner of your Maya interface to open the Script Editor, and drag/drop the script into the Python tab.
 
-[Image: /docs/static/attachments/60523834]
+![Image](https://www.cryengine.com/docs/static/attachments/60523834)
 
 *
 Drag/drop the script
 *
 6. Select the root and hip bones in the Outliner, before clicking the
-[Image: /docs/static/attachments/60523836]
+![Image](https://www.cryengine.com/docs/static/attachments/60523836)
  button in the Script Editor to play the script.
 
 7.
@@ -375,24 +373,11 @@ If the animation was correctly reoriented in Maya, you should now be able to see
 ##
 Video Tutorial
 
-[#prerequisites](
-Prerequisites
-)
-[#setting-up-a-root-bone](
-Setting Up a Root Bone
-)
-[#pairing-the-root-bone-with-the-hip-bone](
-Pairing the Root Bone with the Hip Bone
-)
-[#exporting-the-animation](
-Exporting the Animation
-)
-[#importing-animations-via-a-python-script](
-Importing Animations via a Python Script
-)
-[#importing-into-cryengine](
-Importing into CRYENGINE
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=mMYg0N8dKSg&feature=youtu.be]
+[Prerequisites](#prerequisites)
+[Setting Up a Root Bone](#setting-up-a-root-bone)
+[Pairing the Root Bone with the Hip Bone](#pairing-the-root-bone-with-the-hip-bone)
+[Exporting the Animation](#exporting-the-animation)
+[Importing Animations via a Python Script](#importing-animations-via-a-python-script)
+[Importing into CRYENGINE](#importing-into-cryengine)
+[Video Tutorial](#video-tutorial)

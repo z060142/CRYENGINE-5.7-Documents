@@ -283,9 +283,7 @@ EntityFlashTag
 The EntityFlashTag entity is currently used for the name display above characters heads in multiplayer.
 
 A flat plane .cgf model is used and a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535439](
-Flash material
-)
+[Flash material](../../../../User%20Interface%20(HUD%20Menu)/UI%20Overview/UI%20Dynamic%20Textures.md)
  is applied to the model which then is able to display the username of the player.
 
 Property
@@ -718,9 +716,7 @@ Pickable
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048651](
-Common Entity Parameters
-)
+[Common Entity Parameters](/docs/static/engines/cryengine-3/categories/1114113/pages/1048651)
 .
 
  |
@@ -749,9 +745,7 @@ Usable
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -762,9 +756,7 @@ UseMessage
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -1418,9 +1410,7 @@ Usable
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -1992,9 +1982,7 @@ e_PrecacheLevel
 Rigid Body
 
 DEPRECATED (Use
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796943#PhysicsEntities-RigidBodyEx](
-RigidBodyEx
-)
+[RigidBodyEx](Physics%20Entities.md#PhysicsEntities-RigidBodyEx)
  instead)
 
 A Rigid Body Entity is a solid object with additional associated physics simulation parameters.
@@ -2743,57 +2731,21 @@ Not used.
 
  |
 
-[#camerashake](
-CameraShake
-)
-[#camerasource](
-CameraSource
-)
-[#clonefactory](
-CloneFactory
-)
-[#decalplacer](
-DecalPlacer
-)
-[#entityflashtag](
-EntityFlashTag
-)
-[#fan](
-Fan
-)
-[#hazard](
-Hazard
-)
-[#interactiveentity](
-InteractiveEntity
-)
-[#ladder](
-Ladder
-)
-[#mine](
-Mine
-)
-[#missionobjective](
-MissionObjective
-)
-[#precachecamera](
-PrecacheCamera
-)
-[#rigid-body](
-Rigid Body
-)
-[#shooting-target](
-Shooting Target
-)
-[#sound-suppressor](
-Sound Suppressor
-)
-[#spawnpoint](
-SpawnPoint
-)
-[#switch](
-Switch
-)
-[#uientity](
-UIEntity
-)
+[CameraShake](#camerashake)
+[CameraSource](#camerasource)
+[CloneFactory](#clonefactory)
+[DecalPlacer](#decalplacer)
+[EntityFlashTag](#entityflashtag)
+[Fan](#fan)
+[Hazard](#hazard)
+[InteractiveEntity](#interactiveentity)
+[Ladder](#ladder)
+[Mine](#mine)
+[MissionObjective](#missionobjective)
+[PrecacheCamera](#precachecamera)
+[Rigid Body](#rigid-body)
+[Shooting Target](#shooting-target)
+[Sound Suppressor](#sound-suppressor)
+[SpawnPoint](#spawnpoint)
+[Switch](#switch)
+[UIEntity](#uientity)

@@ -7,24 +7,24 @@
 
 ## Child Pages
 
-- [Modifiers](Particle Effect Features/Modifiers.md)
-- [Angles](Particle Effect Features/Angles.md)
-- [Appearance](Particle Effect Features/Appearance.md)
-- [Audio Feature](Particle Effect Features/Audio Feature.md)
-- [Child](Particle Effect Features/Child.md)
-- [Component](Particle Effect Features/Component.md)
-- [Field](Particle Effect Features/Field.md)
-- [General](Particle Effect Features/General.md)
-- [GPU Particles](Particle Effect Features/GPU Particles.md)
-- [Life](Particle Effect Features/Life.md)
-- [Light](Particle Effect Features/Light.md)
-- [Location](Particle Effect Features/Location.md)
-- [Motion](Particle Effect Features/Motion.md)
-- [Project](Particle Effect Features/Project.md)
-- [Render](Particle Effect Features/Render.md)
-- [SecondGen](Particle Effect Features/SecondGen.md)
-- [Spawn](Particle Effect Features/Spawn.md)
-- [Velocity](Particle Effect Features/Velocity.md)
+- [Modifiers](Particle%20Effect%20Features/Modifiers.md)
+- [Angles](Particle%20Effect%20Features/Angles.md)
+- [Appearance](Particle%20Effect%20Features/Appearance.md)
+- [Audio Feature](Particle%20Effect%20Features/Audio%20Feature.md)
+- [Child](Particle%20Effect%20Features/Child.md)
+- [Component](Particle%20Effect%20Features/Component.md)
+- [Field](Particle%20Effect%20Features/Field.md)
+- [General](Particle%20Effect%20Features/General.md)
+- [GPU Particles](Particle%20Effect%20Features/GPU%20Particles.md)
+- [Life](Particle%20Effect%20Features/Life.md)
+- [Light](Particle%20Effect%20Features/Light.md)
+- [Location](Particle%20Effect%20Features/Location.md)
+- [Motion](Particle%20Effect%20Features/Motion.md)
+- [Project](Particle%20Effect%20Features/Project.md)
+- [Render](Particle%20Effect%20Features/Render.md)
+- [SecondGen](Particle%20Effect%20Features/SecondGen.md)
+- [Spawn](Particle%20Effect%20Features/Spawn.md)
+- [Velocity](Particle%20Effect%20Features/Velocity.md)
 
 ## Content
 
@@ -51,9 +51,7 @@ These features are strictly related to the
 Particle Editor
 **
  and they are not to be confused with the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868751](
-Particles Tab (Legacy Particle Editor)
-)
+[Particles Tab (Legacy Particle Editor)](../DataBase%20View/Particles%20Tab%20(Legacy%20Particle%20Editor).md)
  features.
 
 ##

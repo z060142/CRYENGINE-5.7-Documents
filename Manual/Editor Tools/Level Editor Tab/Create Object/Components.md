@@ -19,9 +19,7 @@ Search
  field to locate a specific component.
 
 For more information, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966029](
-Entity Components
-)
+[Entity Components](../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)
  page.
 
-[Image: /docs/static/attachments/44966503]
+![Image](https://www.cryengine.com/docs/static/attachments/44966503)

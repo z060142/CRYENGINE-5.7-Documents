@@ -45,9 +45,7 @@ Displacement bias
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450127](
-Displacement/Phong/PN Triangles Tesselation - Shader Generation Params
-)
+[Displacement/Phong/PN Triangles Tesselation - Shader Generation Params](../Shader%20Features%20(Shader%20Generation%20Params)/Displacement%20Phong%20PN%20Triangles%20Tesselation%20-%20Shader%20Generation%20Params.md)
  for more information.
 
 This parameter requires that
@@ -72,9 +70,7 @@ Displacement height scale
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450127](
-Displacement/Phong/PN Triangles Tesselation - Shader Generation Params
-)
+[Displacement/Phong/PN Triangles Tesselation - Shader Generation Params](../Shader%20Features%20(Shader%20Generation%20Params)/Displacement%20Phong%20PN%20Triangles%20Tesselation%20-%20Shader%20Generation%20Params.md)
 
  for more information.
 
@@ -138,9 +134,7 @@ Tessellation face cull
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450127](
-Displacement/Phong/PN Triangles Tesselation - Shader Generation Params
-)
+[Displacement/Phong/PN Triangles Tesselation - Shader Generation Params](../Shader%20Features%20(Shader%20Generation%20Params)/Displacement%20Phong%20PN%20Triangles%20Tesselation%20-%20Shader%20Generation%20Params.md)
 
  for more information.
 
@@ -167,9 +161,7 @@ Tessellation factor
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450127](
-Displacement/Phong/PN Triangles Tesselation - Shader Generation Params
-)
+[Displacement/Phong/PN Triangles Tesselation - Shader Generation Params](../Shader%20Features%20(Shader%20Generation%20Params)/Displacement%20Phong%20PN%20Triangles%20Tesselation%20-%20Shader%20Generation%20Params.md)
 
  for more information.
 
@@ -197,9 +189,7 @@ Tessellation factor max
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450127](
-Displacement/Phong/PN Triangles Tesselation - Shader Generation Params
-)
+[Displacement/Phong/PN Triangles Tesselation - Shader Generation Params](../Shader%20Features%20(Shader%20Generation%20Params)/Displacement%20Phong%20PN%20Triangles%20Tesselation%20-%20Shader%20Generation%20Params.md)
 
  for more information.
 
@@ -227,9 +217,7 @@ Tessellation factor min
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450127](
-Displacement/Phong/PN Triangles Tesselation - Shader Generation Params
-)
+[Displacement/Phong/PN Triangles Tesselation - Shader Generation Params](../Shader%20Features%20(Shader%20Generation%20Params)/Displacement%20Phong%20PN%20Triangles%20Tesselation%20-%20Shader%20Generation%20Params.md)
 
  for more information.
 
@@ -369,14 +357,14 @@ Gloss (Normal Map Alpha)
 
 On the large scale, the gloss map should capture how oily/shiny certain areas of e.g. a face. This adding high contrast details will help to break up specular highlights and improve the look.
 
-[Image: /docs/static/attachments/28898535]
+![Image](https://www.cryengine.com/docs/static/attachments/28898535)
 
 ##
 Detail
 
 The selected map will be overlayed with the base Normal Map – an easy way to add very high-frequency detail to a model and further break up specular highlights. Tiling can be controlled in the tiling subsection of the texture slot.
 
-[Image: /docs/static/attachments/28898534]
+![Image](https://www.cryengine.com/docs/static/attachments/28898534)
 
 Detail
 Detail Normal Map must be turned on in the
@@ -390,14 +378,14 @@ Opacity Map (SubSurfaceScattering)
 
 The SSS map should represent thin areas of skin that can readily be penetrated by light (e.g. ears, nostrils, etc.). SSS maps can be either manually authored or baked with an appropriate tool.
 
-[Image: /docs/static/attachments/28898536]
+![Image](https://www.cryengine.com/docs/static/attachments/28898536)
 
 ##
 Decal
 
 Will overlay a secondary diffuse map (requires an alpha channel). This is useful to create variation of existing textures, e.g. add tattoos, warpaint or dirt.
 
-[Image: /docs/static/attachments/28898533]
+![Image](https://www.cryengine.com/docs/static/attachments/28898533)
 
 Decal
 **
@@ -409,12 +397,6 @@ Shader Generation Params
 **
 .
 
-[#shader-params](
-Shader Params
-)
-[#shader-generation-params](
-Shader Generation Params
-)
-[#using-the-humanskin-shader](
-Using the HumanSkin Shader
-)
+[Shader Params](#shader-params)
+[Shader Generation Params](#shader-generation-params)
+[Using the HumanSkin Shader](#using-the-humanskin-shader)

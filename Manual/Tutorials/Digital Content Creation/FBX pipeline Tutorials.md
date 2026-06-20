@@ -7,29 +7,21 @@
 
 ## Child Pages
 
-- [Tutorial - Export Camera Animation to FBX](FBX pipeline Tutorials/Tutorial - Export Camera Animation to FBX.md)
-- [Tutorial - Character Pipeline - Export & Import](FBX pipeline Tutorials/Tutorial - Character Pipeline - Export & Import.md)
-- [Tutorial - How to import animations with FBX importer](FBX pipeline Tutorials/Tutorial - How to import animations with FBX importer.md)
-- [Tutorial - How to import static meshes with FBX importer](FBX pipeline Tutorials/Tutorial - How to import static meshes with FBX importer.md)
+- [Tutorial - Export Camera Animation to FBX](FBX%20pipeline%20Tutorials/Tutorial%20-%20Export%20Camera%20Animation%20to%20FBX.md)
+- [Tutorial - Character Pipeline - Export & Import](FBX%20pipeline%20Tutorials/Tutorial%20-%20Character%20Pipeline%20-%20Export%20%26%20Import.md)
+- [Tutorial - How to import animations with FBX importer](FBX%20pipeline%20Tutorials/Tutorial%20-%20How%20to%20import%20animations%20with%20FBX%20importer.md)
+- [Tutorial - How to import static meshes with FBX importer](FBX%20pipeline%20Tutorials/Tutorial%20-%20How%20to%20import%20static%20meshes%20with%20FBX%20importer.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/64290863](
-Tutorial - Character Pipeline - Export & Import
-)
+[Tutorial - Character Pipeline - Export & Import](FBX%20pipeline%20Tutorials/Tutorial%20-%20Character%20Pipeline%20-%20Export%20%26%20Import.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215060](
-Tutorial - Export Camera Animation to FBX
-)
+[Tutorial - Export Camera Animation to FBX](FBX%20pipeline%20Tutorials/Tutorial%20-%20Export%20Camera%20Animation%20to%20FBX.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656925](
-Tutorial - How to import animations with FBX importer
-)
+[Tutorial - How to import animations with FBX importer](FBX%20pipeline%20Tutorials/Tutorial%20-%20How%20to%20import%20animations%20with%20FBX%20importer.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656923](
-Tutorial - How to import static meshes with FBX importer
-)
+[Tutorial - How to import static meshes with FBX importer](FBX%20pipeline%20Tutorials/Tutorial%20-%20How%20to%20import%20static%20meshes%20with%20FBX%20importer.md)

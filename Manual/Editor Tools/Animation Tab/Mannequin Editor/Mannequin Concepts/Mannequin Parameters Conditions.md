@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934023]
+![Image](https://www.cryengine.com/docs/static/attachments/29934023)
 
 ##
 Overview
@@ -17,27 +17,17 @@ Sections
 
 The mannequin editor lets you edit two different types of parameters: 'real' mannequin parameters and motion parameters. Both are displayed as parameters in the mannequin editor but are quite different under the hood.
 
-[#sections](
-Sections
-)
-[#real-mannequin-parameters](
-'Real' Mannequin Parameters
-)
-[#motion-parameters](
-Motion Parameters
-)
+[Sections](#sections)
+['Real' Mannequin Parameters](#real-mannequin-parameters)
+[Motion Parameters](#motion-parameters)
 
 ##
 'Real' Mannequin Parameters
 
 These are the parameters the game code uses to provide extra information to playing
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308467](
-actions
-)
+[actions](../Mannequin%20Technical%20Topics/Mannequin%20Actions.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798726](
-procedural clips
-)
+[procedural clips](Mannequin%20Procedural%20Clips/Procedural%20Clip%20Directory.md)
 . Some examples are: a target position when aligning an entity in the world, a weight value when fading an animation in/out, or a sound parameter passed to the sound system.
 
 All parameters simply have a
@@ -55,24 +45,18 @@ Only a standard location with name "TargetPos" can be previewed in the editor th
 Params
 *
  track in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-previewer](
-Mannequin Previewer
-)
+[Mannequin Previewer](../../Mannequin%20Editor.md#MannequinEditor-previewer)
 .
 
 When a procedural clip relies on a specific parameter and specific parameter type it is documented along with the procedural clip, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798726](
-Procedural Clip Directory
-)
+[Procedural Clip Directory](Mannequin%20Procedural%20Clips/Procedural%20Clip%20Directory.md)
 .
 
 ##
 Motion Parameters
 
 Motion parameters are the parameters that get passed along to parametric animation, the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28186170](
-Blend Spaces
-)
+[Blend Spaces](../../Character%20Tool/Blend%20Spaces%20-%20Character%20Tool.md)
 .
 
 You can preview how these motion parameters will influence your animation
@@ -81,11 +65,7 @@ You can preview how these motion parameters will influence your animation
 Params
 *
  in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-previewer](
-Mannequin Previewer
-)
+[Mannequin Previewer](../../Mannequin%20Editor.md#MannequinEditor-previewer)
 . (see also
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308484](
-Mannequin Editor Tutorial 2 - Tags & Previewing
-)
+[Mannequin Editor Tutorial 2 - Tags & Previewing](../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%202%20-%20Tags%20%26%20Previewing.md)
 )

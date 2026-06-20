@@ -81,9 +81,7 @@ Sections of a reaction file
 Each reaction file has five main sections:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306581#ReactionsXMLFormatDescription-DocumentTypeDefinition](
-Document Type Definition (or DTD)
-)
+[Document Type Definition (or DTD)](Reactions%20XML%20Format%20Description.md#ReactionsXMLFormatDescription-DocumentTypeDefinition)
 
 -
 **
@@ -100,24 +98,16 @@ Root element.
 ), it contains the other four important sections:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306581#ReactionsXMLFormatDescription-HitDeathReactionsConfig](
-Hit Death Reactions Config
-)
+[Hit Death Reactions Config](Reactions%20XML%20Format%20Description.md#ReactionsXMLFormatDescription-HitDeathReactionsConfig)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306581#ReactionsXMLFormatDescription-HitReactions](
-Hit Reactions
-)
+[Hit Reactions](Reactions%20XML%20Format%20Description.md#ReactionsXMLFormatDescription-HitReactions)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306581#ReactionsXMLFormatDescription-DeathReactions](
-Death Reactions
-)
+[Death Reactions](Reactions%20XML%20Format%20Description.md#ReactionsXMLFormatDescription-DeathReactions)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306581#ReactionsXMLFormatDescription-CollisionswithEnvironmentReactions](
-Collisions with Environment Reactions
-)
+[Collisions with Environment Reactions](Reactions%20XML%20Format%20Description.md#ReactionsXMLFormatDescription-CollisionswithEnvironmentReactions)
 All sections are not mandatory (but of course, having an empty file won't do a lot, will it?). Below you will find more information about them.
 
 ##
@@ -213,9 +203,7 @@ maximumReactionTime
 collisionBone
 **
  - Name of the bone where the collision detection sphere will be centered on the horizontal (x-y) plane (see
-[/docs](
-Collisions with Environment Reactions
-)
+[Collisions with Environment Reactions](/docs)
 ). Default value: "Bip01 Spine1".
 
 -
@@ -223,9 +211,7 @@ Collisions with Environment Reactions
 collisionRadius
 **
 - Radius (in meters) of the collision detection sphere (see
-[/docs](
-Collisions with Environment Reactions
-)
+[Collisions with Environment Reactions](/docs)
 ). Default value: "0.6".
 
 -
@@ -233,9 +219,7 @@ Collisions with Environment Reactions
 collisionVerticalOffset
 **
  - Height (in meters) where the collision detection sphere will be (see
-[/docs](
-Collisions with Environment Reactions
-)
+[Collisions with Environment Reactions](/docs)
 ) from the character's location. Default value: "0.5".
 
 -
@@ -243,9 +227,7 @@ Collisions with Environment Reactions
 collMaxHorzAngle
 **
  - Sine of the maximum angle allowed for the collision normal respect the horizontal (x-y) plane (see
-[/docs](
-Collisions with Environment Reactions
-)
+[Collisions with Environment Reactions](/docs)
 ). Default value: "0.342" -> sin 20º.
 
 -
@@ -253,9 +235,7 @@ Collisions with Environment Reactions
 collMaxMovAngle
 **
  - Cosine of the maximum angle of the collision normal respect the movement direction (see
-[/docs](
-Collisions with Environment Reactions
-)
+[Collisions with Environment Reactions](/docs)
 ). Default value: "0.7071" -> cos 45º.
 
 -
@@ -263,9 +243,7 @@ Collisions with Environment Reactions
 collReactionStartDist
 **
  - Distance (in meters) from the collision point (and parallel to the normal) where the collision reaction starts (see
-[/docs](
-Collisions with Environment Reactions
-)
+[Collisions with Environment Reactions](/docs)
 ). Default value: "0.4".
 All properties are optional, if not specified they will take their default value.
 
@@ -316,9 +294,7 @@ This section is delimited by the tags
 When a hit is detected the system starts evaluating reaction by reaction, in the order the are defined on the XML file. If one reaction is validated, it's executed and the process finalizes.
 
 More details about their attributes and parameterization in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306581#ReactionsXMLFormatDescription-ReactionProperties](
-Reactions properties section
-)
+[Reactions properties section](Reactions%20XML%20Format%20Description.md#ReactionsXMLFormatDescription-ReactionProperties)
 
 ##
 Death Reactions
@@ -346,9 +322,7 @@ When a kill is detected the system starts evaluating reaction by reaction, in th
 The main difference between Death Reactions and Hit Reactions is that the execution of a Death Reaction always ends enabling the ragdoll in the character.
 
 More details about their attributes and parameterization in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306581#ReactionsXMLFormatDescription-ReactionProperties](
-Reactions properties section
-)
+[Reactions properties section](Reactions%20XML%20Format%20Description.md#ReactionsXMLFormatDescription-ReactionProperties)
 
 ##
 Collisions with Environment Reactions
@@ -394,9 +368,7 @@ ReactionOnCollision
 If a Collision Reaction is triggered from a Death Reaction it will always end enabling the ragdoll in the character.
 
 More details about their attributes and parameterization in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306581#ReactionsXMLFormatDescription-ReactionProperties](
-Reactions properties section
-)
+[Reactions properties section](Reactions%20XML%20Format%20Description.md#ReactionsXMLFormatDescription-ReactionProperties)
 .
 
 ##
@@ -1135,13 +1107,9 @@ reactionOnCollision
 [Attribute]
 *
  If used and greater than 0 it will make the system detect collisions with the environment during the reaction execution. The collision check works by using a sphere centered on the character with some parameterized attributes (see
-[/docs](
-Config Section
-)
+[Config Section](/docs)
  for more details). If a collision is detected the system will interrupt the ongoing reaction and play the
-[/docs](
-collisionReaction
-)
+[collisionReaction](/docs)
  which position matches the number used here (on death reactions, though, "1" will force the enabling of the ragdoll). Default value: "0". e.g.,
 
 ```
@@ -1346,9 +1314,7 @@ The system uses a reaction animation variations streaming logic that is very dep
 Always try to minimize the number of reactions
  by using
 `
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306581#ReactionsXMLFormatDescription-Validation](
-<validationsection>
-)
+[<validationsection>](Reactions%20XML%20Format%20Description.md#ReactionsXMLFormatDescription-Validation)
 `
  as much as possible.
 
@@ -1374,37 +1340,15 @@ I recommend using Ultra-Edit 32
 -
 Use XML Entities to avoid duplication
  on the XML files. When supported, use external entities (explained on the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306581#ReactionsXMLFormatDescription-DocumentTypeDefinition](
-Document Type Definition section
-)
+[Document Type Definition section](Reactions%20XML%20Format%20Description.md#ReactionsXMLFormatDescription-DocumentTypeDefinition)
 ) as much as makes sense.
-[#how-to-read-this-document](
-How To Read This Document
-)
-[#document-type-definition](
-Document Type Definition
-)
-[#hit-death-reactions-config](
-Hit Death Reactions Config
-)
-[#hit-reactions](
-Hit Reactions
-)
-[#death-reactions](
-Death Reactions
-)
-[#collisions-with-environment-reactions](
-Collisions with Environment Reactions
-)
-[#validation](
-Validation
-)
-[#execution](
-Execution
-)
-[#validation-related-properties](
-Validation-related properties
-)
-[#execution-related-properties](
-Execution-related properties
-)
+[How To Read This Document](#how-to-read-this-document)
+[Document Type Definition](#document-type-definition)
+[Hit Death Reactions Config](#hit-death-reactions-config)
+[Hit Reactions](#hit-reactions)
+[Death Reactions](#death-reactions)
+[Collisions with Environment Reactions](#collisions-with-environment-reactions)
+[Validation](#validation)
+[Execution](#execution)
+[Validation-related properties](#validation-related-properties)
+[Execution-related properties](#execution-related-properties)

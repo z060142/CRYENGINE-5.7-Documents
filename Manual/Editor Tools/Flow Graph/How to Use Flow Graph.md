@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Creating and Managing Flow Graphs](How to Use Flow Graph/Creating and Managing Flow Graphs.md)
+- [Creating and Managing Flow Graphs](How%20to%20Use%20Flow%20Graph/Creating%20and%20Managing%20Flow%20Graphs.md)
 
 ## Content
 
@@ -21,9 +21,7 @@ Simple and complex logic can be built with a few clicks and without requiring an
 In addition to being the main tool used for creating mission logic in single-player levels, the Flow Graph can also be used to create prototype gameplay, effects, and sound design. Levels can have multiple graphs that performs different tasks simultaneously.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450518](
-Creating and Managing Flow Graphs
-)
+[Creating and Managing Flow Graphs](How%20to%20Use%20Flow%20Graph/Creating%20and%20Managing%20Flow%20Graphs.md)
 
 ##
 Use Overview
@@ -86,7 +84,7 @@ There is a set of entity components (one per each entity class type) that expose
 
 The Flow Graph uses nodes to represent entities or behaviors that can be controlled by linking them to other nodes. Nodes can be interconnected by links:
 
-[Image: /docs/static/attachments/44971071]
+![Image](https://www.cryengine.com/docs/static/attachments/44971071)
 
 The Flow Graph logic is stored in the XML format and can be easily exported to be used in the other levels. Since a graph is always created and stored on a specific entity, the graph also gets exported along with the object. Layers are fully supported in the Flow Graph system.
 
@@ -125,13 +123,13 @@ A component node does not represent an actual entity from the level, but perform
 
 Component nodes can have a target entity set, on which they can operate (For example, Entity:EntityPos).
 
-[Image: /docs/static/attachments/44971072]
+![Image](https://www.cryengine.com/docs/static/attachments/44971072)
 
 Or
 
 They can exist without targeting a specific entity (For example, Logic:Any, Math:Add, or Interpol:Float).
 
-[Image: /docs/static/attachments/44971073]
+![Image](https://www.cryengine.com/docs/static/attachments/44971073)
 
  |
 

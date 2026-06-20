@@ -13,28 +13,24 @@ Overview
 This article gives an overview of the content within the Sample Assets package available with CRYENGINE 3.6.
 
 You can download this package for free via the DLC page on the
-[http://store.steampowered.com/app/220980/](
-CRYENGINE Store Page
-)
+[CRYENGINE Store Page](http://store.steampowered.com/app/220980/)
 . We will continue to update the package with additional sample assets to show how to work with the latest CRYENGINE tech!
 
 We welcome feedback on the content, what you'd like to see in future releases or if you find any major bugs, please let us know here: .
 
 For information on DCC (Digital Content Creation) Tools, check out:
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310734](
-Asset Creation - Getting Started
-)
+[Asset Creation - Getting Started](/docs/static/engines/cryengine-3/categories/1114113/pages/1310734)
 
 ##
 Contents
 
-[Image: /docs/static/attachments/44963042]
+![Image](https://www.cryengine.com/docs/static/attachments/44963042)
 
-[Image: /docs/static/attachments/44963040]
+![Image](https://www.cryengine.com/docs/static/attachments/44963040)
 
-[Image: /docs/static/attachments/44963039]
+![Image](https://www.cryengine.com/docs/static/attachments/44963039)
 
-[Image: /docs/static/attachments/44963038]
+![Image](https://www.cryengine.com/docs/static/attachments/44963038)
 
 ##
 Objects

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934014]
+![Image](https://www.cryengine.com/docs/static/attachments/29934014)
 
 ##
 Overview
@@ -16,69 +16,43 @@ Overview
 Sections
 
 An Animation Database file is an XML file that contains a set of
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-Fragments
-)
+[Fragments](../Mannequin%20Concepts/Mannequin%20Fragments.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450872](
-Mannequin Transitions
-)
+[Mannequin Transitions](../Mannequin%20Concepts/Mannequin%20Transitions.md)
 . You can have as many ADB files as you want in the game to split up your collection of fragments in manageable sets.
 
 ADB files have to refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-Tag Definition File (xxxTags.xml)
-)
+[Tag Definition File (xxxTags.xml)](Tag%20Definition%20File%20(xxxTags.xml).md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-FragmentID Definition File (xxxActions.xml)
-)
+[FragmentID Definition File (xxxActions.xml)](FragmentID%20Definition%20File%20(xxxActions.xml).md)
  used by this ADB. To see an overview picture showing how the mannequin files relate to each other, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308470](
-Mannequin Files
-)
+[Mannequin Files](../Mannequin%20Files.md)
 . ADB files can include other ADB files, and those are then called
 *
 sub-ADB
 *
 s. Sub-ADBs can be used to organize your fragment collections into different files that are used by different users.
 
-[#sections](
-Sections
-)
-[#creating-adb-files](
-Creating ADB Files
-)
-[#editing-adb-files](
-Editing ADB Files
-)
-[#file-format](
-File Format
-)
+[Sections](#sections)
+[Creating ADB Files](#creating-adb-files)
+[Editing ADB Files](#editing-adb-files)
+[File Format](#file-format)
 
 ##
 Creating ADB Files
 
 You can create a new ADB file manually in the Animations/Mannequin/ folder (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743#AnimationDatabase(ADB)-FileFormat](
-FileFormat
-)
+[FileFormat](Animation%20Database%20(ADB).md#AnimationDatabase%28ADB)-FileFormat)
 ).
 
 You can also create new ADB files automatically by clicking the '+' button while editing context data in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308457](
-Mannequin Context Editor
-)
+[Mannequin Context Editor](../Mannequin%20Context%20Editor.md)
 .  The editor will also prompt you to create an ADB file automatically when you refer to a non-existing one in a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308475](
-Preview Setup File (xxxPreview.xml)
-)
+[Preview Setup File (xxxPreview.xml)](Preview%20Setup%20File%20(xxxPreview.xml).md)
 .
 
 To create new sub-ADBs or edit which rules to use to move fragments into sub-ADBs you use the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308455](
-Mannequin Animation DB Editor
-)
+[Mannequin Animation DB Editor](../Mannequin%20Animation%20DB%20Editor.md)
 .
 
 Internally the system uses indices to refer to Tags and FragmentIDs. Those indices are local to each Tag or FragmentID definition file. It is therefore not safe for the client code to assume that the same FragmentID used in different contexts will have the same value everywhere. As an example, if two different ADBs indirectly refer to the same FragmentID definition file (through the
@@ -97,17 +71,11 @@ same
 Editing ADB Files
 
 You edit the fragments within ADB files by adding/removing
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-Fragments
-)
+[Fragments](../Mannequin%20Concepts/Mannequin%20Fragments.md)
  in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-Fragments](
-Mannequin Fragment Browser
-)
+[Mannequin Fragment Browser](../../Mannequin%20Editor.md#MannequinEditor-Fragments)
 . Which ADB file the fragment is in that you are editing is shown at the top of the fragment browser. This is controlled by which ADB is associated with the context you are currently editing (the drop down box at the top of the fragment browser), as well as the sub-ADB rules you set up in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308455](
-Mannequin Animation DB Editor
-)
+[Mannequin Animation DB Editor](../Mannequin%20Animation%20DB%20Editor.md)
  for that ADB.
 
 ##
@@ -165,13 +133,9 @@ The root element
 AnimDB
 *
  has to refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-FragmentID Definition File (xxxActions.xml)
-)
+[FragmentID Definition File (xxxActions.xml)](FragmentID%20Definition%20File%20(xxxActions.xml).md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-Tag Definition File (xxxTags.xml)
-)
+[Tag Definition File (xxxTags.xml)](Tag%20Definition%20File%20(xxxTags.xml).md)
  used in this ADB file.
 
 The

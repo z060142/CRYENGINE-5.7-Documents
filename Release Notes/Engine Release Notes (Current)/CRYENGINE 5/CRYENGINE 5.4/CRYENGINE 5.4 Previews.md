@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [CRYENGINE 5.4.0 Preview(s)](CRYENGINE 5.4 Previews/CRYENGINE 5.4.0 Preview(s).md)
-- [Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)](CRYENGINE 5.4 Previews/Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases).md)
-- [Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)](CRYENGINE 5.4 Previews/Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases).md)
+- [CRYENGINE 5.4.0 Preview(s)](CRYENGINE%205.4%20Previews/CRYENGINE%205.4.0%20Preview(s).md)
+- [Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)](CRYENGINE%205.4%20Previews/Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes%20(5.4%20Preview%20Releases).md)
+- [Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)](CRYENGINE%205.4%20Previews/Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4%20(5.4%20Preview%20Releases).md)
 
 ## Content
 
@@ -22,16 +22,10 @@ Release notes for the 5.4.x revisions of CRYENGINE.
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962702](
-CRYENGINE 5.4.0 Preview(s)
-)
+[CRYENGINE 5.4.0 Preview(s)](CRYENGINE%205.4%20Previews/CRYENGINE%205.4.0%20Preview(s).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962727](
-Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)
-)
+[Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)](CRYENGINE%205.4%20Previews/Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes%20(5.4%20Preview%20Releases).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962700](
-Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)
-)
+[Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)](CRYENGINE%205.4%20Previews/Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4%20(5.4%20Preview%20Releases).md)

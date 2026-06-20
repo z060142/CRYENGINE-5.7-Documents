@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [Fragment Selection Order](Mannequin Fragments/Fragment Selection Order.md)
+- [Fragment Selection Order](Mannequin%20Fragments/Fragment%20Selection%20Order.md)
 
 ## Content
 
-[Image: /docs/static/attachments/29934021]
+![Image](https://www.cryengine.com/docs/static/attachments/29934021)
 
 ##
 Overview
@@ -23,36 +23,26 @@ Sections
 Fragments
 *
  are the basic building block of interactive animation in CryMannequin. You play an animation by wrapping it in a fragment, and then play the fragment instead. More specifically fragments are layered sequences of animation clips &
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450878](
-Procedural Clips
-)
+[Procedural Clips](Mannequin%20Procedural%20Clips.md)
 . This means that you can lay out a couple of animation clips in a sequence, or layer them on top of each other, and treat them as
 *
 one
 *
 . Fragments are referred to by a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-FragmentID
-)
+[FragmentID](FragmentIDs.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-Tags
-)
+[Tags](Mannequin%20Tags%20%26%20Tag%20Definitions.md)
 . Multiple fragments can have the same fragmentID and tags, then we say that there are multiple
 *
 options.
 *
 
 Fragments play on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-Scopes
-)
+[Scopes](Mannequin%20Scopes.md)
 . (there can only be one fragment playing on a scope at a time)
 
 When going from one fragment to another,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450872](
-Transitions
-)
+[Transitions](Mannequin%20Transitions.md)
 
 are used.
 
@@ -63,86 +53,54 @@ are used.
 
 *
 
-[#sections](
-Sections
-)
-[#creating-and-editing-fragments](
-Creating and Editing Fragments
-)
-[#storage](
-Storage
-)
-[#fragment-id-description](
-Fragment ID Description
-)
-[#fragmentid-or-transition](
-FragmentID or Transition?
-)
-[#creating-and-editing-fragmentids](
-Creating & Editing FragmentIDs
-)
-[#storage](
-Storage
-)
+[Sections](#sections)
+[Creating and Editing Fragments](#creating-and-editing-fragments)
+[Storage](#storage)
+[Fragment ID Description](#fragment-id-description)
+[FragmentID or Transition?](#fragmentid-or-transition)
+[Creating & Editing FragmentIDs](#creating-and-editing-fragmentids)
+[Storage](#storage)
 
 ##
 Creating and Editing Fragments
 
 Fragments are created in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-FragmentBrowser](
-Mannequin Fragment Browser
-)
+[Mannequin Fragment Browser](../../Mannequin%20Editor.md#MannequinEditor-FragmentBrowser)
  and edited in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-FragmentEditor](
-Mannequin Fragment Editor
-)
+[Mannequin Fragment Editor](../../Mannequin%20Editor.md#MannequinEditor-FragmentEditor)
 .
 
 ##
 Storage
 
 Fragments are stored in an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743](
-Animation Database File (ADB)
-)
+[Animation Database File (ADB)](../Mannequin%20Files/Animation%20Database%20(ADB).md)
 .
 
 Which ADB file a fragment you edit ends up in is determined as follows:
 
 -
 First the system looks at the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-scope
-)
+[scope](Mannequin%20Scopes.md)
  you are editing a fragment on. (e.g. FullBody).
 
 -
 This scope has a certain
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450870](
-scope context
-)
+[scope context](Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
 . This is defined in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-controller definition
-)
+[controller definition](../Mannequin%20Files/Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
  (e.g. the FullBody scope might work on the MainCharacter scope context).
 
 -
 Then the system looks at which ADB file is assigned to this scope context in the current
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308475](
-preview setup
-)
+[preview setup](../Mannequin%20Files/Preview%20Setup%20File%20(xxxPreview.xml).md)
 , which is edited in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308457](
-context editor
-)
+[context editor](../Mannequin%20Context%20Editor.md)
  (e.g. the MainCharacter scope context has MainCharacterAnims.adb assigned to it).
 
 -
 The fragment will end up in this ADB file. It is possible for this ADB file to have optional rules that move the fragment into another ADB file, a sub-ADB. This is edited in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308455](
-animation DB editor
-)
+[animation DB editor](../Mannequin%20Animation%20DB%20Editor.md)
  (e.g. there might be a rule that moves fragments for the "hit" FragmentID into the sub-adb MainCharacterHitAnims.adb).
 
 ##
@@ -165,26 +123,24 @@ A good rule of thumb to define what should be a FragmentID: Reduce the states to
 
 For example this is how a Weapon Crafting feature could look like:
 
-[Image: /docs/static/attachments/23998278]
+![Image](https://www.cryengine.com/docs/static/attachments/23998278)
 
 If we need animations
 *
 between
 *
  FragmentIDs these are best handled as
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450872](
-Transitions
-)
+[Transitions](Mannequin%20Transitions.md)
 . This reduces code and makes the system easier to modify purely through data:
 
-[Image: /docs/static/attachments/23998279]
+![Image](https://www.cryengine.com/docs/static/attachments/23998279)
 
 A grey area is the customization step. The swapping of a part needs to sequence removing a specific old part and inserting the new (left of the picture).
 
 Or we could just request an alternate customize stance (change a tag specifying the stance and request a new fragment) and then let the transition system handle removing the old part and apply the new part.
 This would also let the animators drop in a single animation to do both steps if they wished.
 
-[Image: /docs/static/attachments/23998280]
+![Image](https://www.cryengine.com/docs/static/attachments/23998280)
 
 ##
 Creating & Editing FragmentIDs
@@ -192,20 +148,14 @@ Creating & Editing FragmentIDs
 FragmentIDs are created, renamed and deleted in the Mannequin Fragment Browser.
 
 You edit them in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308446](
-Mannequin FragmentID Editor
-)
+[Mannequin FragmentID Editor](../Mannequin%20FragmentID%20Editor.md)
 .
 
 ##
 Storage
 
 FragmentIDs are stored in a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-FragmentID Definition File (xxxActions.xml)
-)
+[FragmentID Definition File (xxxActions.xml)](../Mannequin%20Files/FragmentID%20Definition%20File%20(xxxActions.xml).md)
 , which is referred to from the main character setup, the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition File (xxxControllerDefs.xml)
-)
+[Controller Definition File (xxxControllerDefs.xml)](../Mannequin%20Files/Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
 .

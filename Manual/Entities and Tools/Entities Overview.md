@@ -7,41 +7,29 @@
 
 ## Child Pages
 
-- [Prefabs](Entities Overview/Prefabs.md)
-- [Area Objects](Entities Overview/Area Objects.md)
-- [Creating an Entity](Entities Overview/Creating an Entity.md)
-- [Archetypes](Entities Overview/Archetypes.md)
-- [Brushes](Entities Overview/Brushes.md)
-- [Ruler Tool](Entities Overview/Ruler Tool.md)
+- [Prefabs](Entities%20Overview/Prefabs.md)
+- [Area Objects](Entities%20Overview/Area%20Objects.md)
+- [Creating an Entity](Entities%20Overview/Creating%20an%20Entity.md)
+- [Archetypes](Entities%20Overview/Archetypes.md)
+- [Brushes](Entities%20Overview/Brushes.md)
+- [Ruler Tool](Entities%20Overview/Ruler%20Tool.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966282](
-Creating an Entity
-)
+[Creating an Entity](Entities%20Overview/Creating%20an%20Entity.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866251](
-Prefabs
-)
+[Prefabs](Entities%20Overview/Prefabs.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27593225](
-Archetypes
-)
+[Archetypes](Entities%20Overview/Archetypes.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27593384](
-Area Objects
-)
+[Area Objects](Entities%20Overview/Area%20Objects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27593400](
-Brushes
-)
+[Brushes](Entities%20Overview/Brushes.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874220](
-Ruler Tool
-)
+[Ruler Tool](Entities%20Overview/Ruler%20Tool.md)

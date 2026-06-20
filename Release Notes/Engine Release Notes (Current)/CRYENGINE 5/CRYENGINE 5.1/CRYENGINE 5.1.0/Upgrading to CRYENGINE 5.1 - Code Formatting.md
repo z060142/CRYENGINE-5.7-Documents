@@ -45,9 +45,7 @@ parameters
 Step 2: Download "Code Beautifier" Extension
 
 Download and install the "Code Beautifier" from the following page:
-[https://visualstudiogallery.msdn.microsoft.com/febc2d81-34bd-4324-aadb-0a942eb39d43](
-Code Beautifier extension for Visual Studio 2015.
-)
+[Code Beautifier extension for Visual Studio 2015.](https://visualstudiogallery.msdn.microsoft.com/febc2d81-34bd-4324-aadb-0a942eb39d43)
 
 ##
 Step 3: Open Code Beautifier Options

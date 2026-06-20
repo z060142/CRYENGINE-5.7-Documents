@@ -22,9 +22,7 @@ Graph Tokens in Action
 Graph Tokens in the
 Flow Graph Editor
 share many similarities with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869337](
-Game Tokens
-)
+[Game Tokens](../../Editor%20Tools/DataBase%20View/Game%20Tokens.md)
 . They can have the same types of variables set and even appear under the CVar
 **
 command gt_show=1
@@ -32,9 +30,7 @@ command gt_show=1
  along with the rest of the game tokens.
 
 It's important to understand that unlike
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869337](
-Game Tokens
-)
+[Game Tokens](../../Editor%20Tools/DataBase%20View/Game%20Tokens.md)
 , Flow Graph Tokens can only be used locally to a single flow graph.
 They are typically used to communicate different variables across a very large graph and to reduce the need for extra flow node connections.
 
@@ -62,7 +58,7 @@ New Token
 **
  to create a new Token. Enter a new name for the token and select the data type to use:
 
-[Image: /docs/static/attachments/35395040]
+![Image](https://www.cryengine.com/docs/static/attachments/35395040)
 
 -
 Use the
@@ -80,7 +76,7 @@ Double-click
 Token
 **
  port to enter the desired token. Make sure you zoom-in on the node before you double-click it.
-[Image: /docs/static/attachments/44971118]
+![Image](https://www.cryengine.com/docs/static/attachments/44971118)
 
 You can also use
 **
@@ -89,7 +85,7 @@ Browse
  button to selected the saved Token.
 
 *
-[Image: /docs/static/attachments/35395042]
+![Image](https://www.cryengine.com/docs/static/attachments/35395042)
 *
 
 It's checked on start (in the same frame) and the value is seen as 1 using the game token debug view gt_show=1.

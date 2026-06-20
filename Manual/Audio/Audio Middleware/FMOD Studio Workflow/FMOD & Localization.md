@@ -22,20 +22,12 @@ localization/english/audio/fmod/
 . This allows having multiple languages (not only audio) completely separated from each other to swap them in runtime and also for easier distribution across different countries.
 
 Make sure you download the
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-fmod-project](
-CRYENGINE GameSDK FMOD Project
-)
+[CRYENGINE GameSDK FMOD Project](https://www.cryengine.com/marketplace/product/crytek/cryengine-fmod-project)
  from the Asset Database and copy it to the required location.
 
-[#sections](
-Sections
-)
-[#information-about-localized-soundbanks](
-Information About Localized Soundbanks
-)
-[#setting-up-localized-soundbanks-in-fmod-studio](
-Setting Up Localized Soundbanks in FMOD Studio
-)
+[Sections](#sections)
+[Information About Localized Soundbanks](#information-about-localized-soundbanks)
+[Setting Up Localized Soundbanks in FMOD Studio](#setting-up-localized-soundbanks-in-fmod-studio)
 
 ##
 Information About Localized Soundbanks

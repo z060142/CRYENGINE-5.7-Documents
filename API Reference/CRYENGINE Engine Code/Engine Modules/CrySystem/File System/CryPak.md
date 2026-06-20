@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Accessing Files with CryPak](CryPak/Accessing Files with CryPak.md)
+- [Accessing Files with CryPak](CryPak/Accessing%20Files%20with%20CryPak.md)
 
 ## Content
 
@@ -106,9 +106,7 @@ The zip file format stores each file with a small header including its path and 
 Creating a pak file using 7za
 
 You can easily create a pak file using the
-[http://www.7-zip.org/](
-7-Zip
-)
+[7-Zip](http://www.7-zip.org/)
  tool using the command:
 
 ```
@@ -124,9 +122,7 @@ You can easily create a pak file using the
 Dealing with Large Pak Files
 
 The zip RFC specifies two types of zip files, indicated by zip format version 45. Old zips have a 4GB offset possibility, but in case legacy i/o functions are used it's only possible to seek +- 2GB. Therefore the practical limit is at 2GB. The 4GB offsets have nothing to do with native machine types (and certainly don't change size across platforms and compilers or configurations), the offsets for older version zips are in a machine independent uint32, the offsets for the new version zips are in uint64 appended to the old version structs. The version a zip file uses is in the header, and applications have the freedom to not support the newer version:
-[http://www.pkware.com/documents/casestudies/APPNOTE.TXT](
-http://www.pkware.com/documents/casestudies/APPNOTE.TXT
-)
+[http://www.pkware.com/documents/casestudies/APPNOTE.TXT](http://www.pkware.com/documents/casestudies/APPNOTE.TXT)
 
 You don't need to think of handling splits manually, the RC supports auto-splitting:
 
@@ -141,12 +137,8 @@ Splitting works in all cases, supports multi-threading, and incremental updates.
 Further Reading
 
 -
-[http://www.sxlist.com/techref/language/delphi/swag/ARCHIVES0022.html](
-Zip File Format Reference by Phil Katz
-)
+[Zip File Format Reference by Phil Katz](http://www.sxlist.com/techref/language/delphi/swag/ARCHIVES0022.html)
 .
 
 -
-[http://www.pkware.com/documents/casestudies/APPNOTE.TXT](
-http://www.pkware.com/documents/casestudies/APPNOTE.TXT
-)
+[http://www.pkware.com/documents/casestudies/APPNOTE.TXT](http://www.pkware.com/documents/casestudies/APPNOTE.TXT)

@@ -14,21 +14,13 @@ CRYENGINE contains the following Audio Entities
 :
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816](
-Audio Trigger Spot Entity
-)
+[Audio Trigger Spot Entity](/docs/static/engines/cryengine-5/categories/23756816)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816](
-Audio Area Entity
-)
+[Audio Area Entity](/docs/static/engines/cryengine-5/categories/23756816)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816](
-Audio Area Ambience Entity
-)
+[Audio Area Ambience Entity](/docs/static/engines/cryengine-5/categories/23756816)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816](
-Audio Area Random Entity
-)
+[Audio Area Random Entity](/docs/static/engines/cryengine-5/categories/23756816)

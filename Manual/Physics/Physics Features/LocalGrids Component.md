@@ -47,7 +47,7 @@ Setup
 
 Below is a visualization of how a LocalGrid can be set up:
 
-[Image: /docs/static/attachments/56656257]
+![Image](https://www.cryengine.com/docs/static/attachments/56656257)
 
 *
 Local Grid visualization

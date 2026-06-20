@@ -190,13 +190,13 @@ Enables the use of distance clouds with more accurate shading computations.
 ##
 Examples
 
-[Image: /docs/static/attachments/35397782]
+![Image](https://www.cryengine.com/docs/static/attachments/35397782)
 
  |
-[Image: /docs/static/attachments/35397783]
+![Image](https://www.cryengine.com/docs/static/attachments/35397783)
 
  |
-[Image: /docs/static/attachments/35397784]
+![Image](https://www.cryengine.com/docs/static/attachments/35397784)
 
  |
 
@@ -210,13 +210,13 @@ Alpha saturation 4
 
  |
 
-[Image: /docs/static/attachments/35397785]
+![Image](https://www.cryengine.com/docs/static/attachments/35397785)
 
  |
-[Image: /docs/static/attachments/35397786]
+![Image](https://www.cryengine.com/docs/static/attachments/35397786)
 
  |
-[Image: /docs/static/attachments/35397787]
+![Image](https://www.cryengine.com/docs/static/attachments/35397787)
 
  |
 
@@ -230,13 +230,13 @@ Attenuation 0.6
 
  |
 
-[Image: /docs/static/attachments/35397788]
+![Image](https://www.cryengine.com/docs/static/attachments/35397788)
 
  |
-[Image: /docs/static/attachments/35397789]
+![Image](https://www.cryengine.com/docs/static/attachments/35397789)
 
  |
-[Image: /docs/static/attachments/35397790]
+![Image](https://www.cryengine.com/docs/static/attachments/35397790)
 
  |
 
@@ -250,18 +250,8 @@ StepSize 0.01
 
  |
 
-[#shader-parameters](
-Shader Parameters
-)
-[#simple-distance-clouds](
-Simple Distance Clouds
-)
-[#advanced-distance-clouds](
-Advanced Distance Clouds
-)
-[#shader-generation-parameters](
-Shader Generation Parameters
-)
-[#examples](
-Examples
-)
+[Shader Parameters](#shader-parameters)
+[Simple Distance Clouds](#simple-distance-clouds)
+[Advanced Distance Clouds](#advanced-distance-clouds)
+[Shader Generation Parameters](#shader-generation-parameters)
+[Examples](#examples)

@@ -24,9 +24,7 @@ AI System changes
 The AI system has undergone numerous cleanups, fixes and refactorings. Legacy AI navigation (pre-MNM) has now been fully deprecated.
 
 This is a necessary step in better supporting the main
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048672](
-Multi-layer Navigation
-)
+[Multi-layer Navigation](/docs/static/engines/cryengine-3/categories/1114113/pages/1048672)
  system with more fixes, features and optimizations to come!
 
 ##

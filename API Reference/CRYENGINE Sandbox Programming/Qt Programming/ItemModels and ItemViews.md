@@ -8,39 +8,25 @@
 ## Content
 
 -
-[/docs](
-Introduction
-)
+[Introduction](/docs)
 
 -
-[/docs](
-How to write your model
-)
+[How to write your model](/docs)
 
 -
-[/docs](
-Combining models
-)
+[Combining models](/docs)
 
 -
-[/docs](
-Advanced Usage in CRYENGINE Sandbox
-)
+[Advanced Usage in CRYENGINE Sandbox](/docs)
 
 -
-[/docs](
-Advanced ItemModels
-)
+[Advanced ItemModels](/docs)
 
 -
-[/docs](
-Advanced ItemViews and UI components
-)
+[Advanced ItemViews and UI components](/docs)
 
 -
-[/docs](
-Attributes
-)
+[Attributes](/docs)
 
 ##
 Introduction
@@ -50,23 +36,17 @@ Item models are the single most useful and powerful feature of Qt. You will use 
 Qt documentation and tutorial:
 
 -
-[https://doc.qt.io/qt-5/model-view-programming.html](
-https://doc.qt.io/qt-5/model-view-programming.html
-)
+[https://doc.qt.io/qt-5/model-view-programming.html](https://doc.qt.io/qt-5/model-view-programming.html)
 
 -
-[https://doc.qt.io/qt-5/modelview.html](
-https://doc.qt.io/qt-5/modelview.html
-)
+[https://doc.qt.io/qt-5/modelview.html](https://doc.qt.io/qt-5/modelview.html)
 ItemModels follow a variant of MVC called
-[https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel](
-Model-View-ViewModel
-)
+[Model-View-ViewModel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
  where the ViewModel (the QItemModel) sits in the middle and negotiates all communication with the model (your system).
 
 The below image describes a realistic diagram of a typical usage of QItemModel:
 
-[Image: /docs/static/attachments/26952237]
+![Image](https://www.cryengine.com/docs/static/attachments/26952237)
 
 **
 Important things to note:
@@ -126,7 +106,7 @@ Combining models
 
 Models and views can be combined in very creative ways to achieve the desired results. Note that this means we can display the data of the System in very different ways without having to change System at all.
 
-[Image: /docs/static/attachments/26952238]
+![Image](https://www.cryengine.com/docs/static/attachments/26952238)
 
 In this diagram, the QListView sees a "flat" list of the model whereas the QTreeView sees a filtered hierarchy of the model.
 
@@ -156,7 +136,7 @@ MergingProxyModel
 -
 Concatenates several models into one.
 
-[Image: /docs/static/attachments/26952239]
+![Image](https://www.cryengine.com/docs/static/attachments/26952239)
 
 -
 **
@@ -171,7 +151,7 @@ Each model will be “mounted” as a child of an element of the main model.
 
 Example: LevelExplorer: Layer models that contain the objects inside the layer are mounted under the row representing the layer in the model that contains all the layer hierarchies.
 
-[Image: /docs/static/attachments/26952240]
+![Image](https://www.cryengine.com/docs/static/attachments/26952240)
 
 ##
 Advanced ItemViews and UI components

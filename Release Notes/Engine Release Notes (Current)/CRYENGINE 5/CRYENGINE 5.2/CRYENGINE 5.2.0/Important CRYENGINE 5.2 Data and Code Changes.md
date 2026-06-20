@@ -25,9 +25,7 @@ Flowgraph
 
 For sometime there has been the concept of having a Substitution.xml and a FlownodeBlacklist.xml. For more information see
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306553](
-here
-)
+[here](../../../../../API%20Reference/CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/Flowgraph%20Scripting/FlowNode%20Substitutions.md)
 **
 .
 
@@ -52,7 +50,7 @@ It's likely that you will recognize the following message after upgrading to CRY
 Pic1: Critical error warning message
 *
 
-[Image: /docs/static/attachments/44962654]
+![Image](https://www.cryengine.com/docs/static/attachments/44962654)
 
 To fix this, open Flowgraph and search for
 **
@@ -64,7 +62,7 @@ MISSING
 Pic2: Missing flow nodes
 *
 
-[Image: /docs/static/attachments/44962653]
+![Image](https://www.cryengine.com/docs/static/attachments/44962653)
 
 Replace any deprecated flow nodes with the latest versions. For e.g:
 
@@ -76,7 +74,7 @@ Before:
 Pic3: Flow nodes - before
 *
 
-[Image: /docs/static/attachments/44962652]
+![Image](https://www.cryengine.com/docs/static/attachments/44962652)
 
 **
 After:
@@ -87,6 +85,6 @@ Pic4: Flow nodes - after
 *
 **
 
-[Image: /docs/static/attachments/44962651]
+![Image](https://www.cryengine.com/docs/static/attachments/44962651)
 
 **

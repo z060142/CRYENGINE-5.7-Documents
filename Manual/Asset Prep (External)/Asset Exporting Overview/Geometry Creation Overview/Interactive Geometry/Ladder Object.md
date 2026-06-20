@@ -56,21 +56,13 @@ The position of the pivot point is the reference point for the animation so it i
 This is absolutely crucial in order to have correct interaction between characters and the ladder.
 This is the correct position for the rungs and the pivot (Top View):
 
-[Image: /docs/static/attachments/23994908]
+![Image](https://www.cryengine.com/docs/static/attachments/23994908)
 
 These are the correct distances for the rungs (Front/Side View):
 
-[Image: /docs/static/attachments/23994909]
+![Image](https://www.cryengine.com/docs/static/attachments/23994909)
 
-[#creating-ladders](
-Creating Ladders
-)
-[#ladder-measurements](
-Ladder Measurements
-)
-[#collisionproxys](
-Collision/Proxys
-)
-[#positioning-before-export](
-Positioning Before Export
-)
+[Creating Ladders](#creating-ladders)
+[Ladder Measurements](#ladder-measurements)
+[Collision/Proxys](#collisionproxys)
+[Positioning Before Export](#positioning-before-export)

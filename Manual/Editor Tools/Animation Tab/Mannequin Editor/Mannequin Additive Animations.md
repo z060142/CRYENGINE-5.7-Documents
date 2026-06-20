@@ -48,9 +48,7 @@ For users of
 3ds Max
 **
 , be sure to follow the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28186273](
-Creating Additive Animations
-)
+[Creating Additive Animations](../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Creating%20Additive%20Animations%20with%20Mannequin%20Editor.md)
  tutorial sub-page.
 
 ##

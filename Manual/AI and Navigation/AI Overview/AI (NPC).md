@@ -7,20 +7,20 @@
 
 ## Child Pages
 
-- [AI Actions](AI (NPC)/AI Actions.md)
-- [AI Behavior Tree](AI (NPC)/AI Behavior Tree.md)
-- [AI Boids](AI (NPC)/AI Boids.md)
-- [AI Control Objects](AI (NPC)/AI Control Objects.md)
-- [AI Debugging](AI (NPC)/AI Debugging.md)
-- [AI Environment Queries (UQS)](AI (NPC)/AI Environment Queries (UQS).md)
-- [AI Human](AI (NPC)/AI Human.md)
-- [AI Perception](AI (NPC)/AI Perception.md)
-- [AI Sequences](AI (NPC)/AI Sequences.md)
-- [AI Territories & Waves](AI (NPC)/AI Territories & Waves.md)
+- [AI Actions](AI%20(NPC)/AI%20Actions.md)
+- [AI Behavior Tree](AI%20(NPC)/AI%20Behavior%20Tree.md)
+- [AI Boids](AI%20(NPC)/AI%20Boids.md)
+- [AI Control Objects](AI%20(NPC)/AI%20Control%20Objects.md)
+- [AI Debugging](AI%20(NPC)/AI%20Debugging.md)
+- [AI Environment Queries (UQS)](AI%20(NPC)/AI%20Environment%20Queries%20(UQS).md)
+- [AI Human](AI%20(NPC)/AI%20Human.md)
+- [AI Perception](AI%20(NPC)/AI%20Perception.md)
+- [AI Sequences](AI%20(NPC)/AI%20Sequences.md)
+- [AI Territories & Waves](AI%20(NPC)/AI%20Territories%20%26%20Waves.md)
 
 ## Content
 
-[Image: /docs/static/attachments/29933217]
+![Image](https://www.cryengine.com/docs/static/attachments/29933217)
 
 ##
 Overview
@@ -32,54 +32,34 @@ The AI systems that ship with CRYENGINE allow for you to get up and running with
 
 You will find numerous times that you need to control the AI as well and for this reason we have provided developers with numerous control objects that shift the visual and auditory qualities of individual AI in your scene. We recommend looking over the AI section and then playing around with the GameSDK project to get a better understanding of just how flexible the AI system is.
 
-[Image: /docs/static/attachments/29935054]
+![Image](https://www.cryengine.com/docs/static/attachments/29935054)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798761](
-AI Actions
-)
+[AI Actions](AI%20(NPC)/AI%20Actions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535424](
-AI Behavior Tree
-)
+[AI Behavior Tree](AI%20(NPC)/AI%20Behavior%20Tree.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215390](
-AI Boids
-)
+[AI Boids](AI%20(NPC)/AI%20Boids.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535410](
-AI Control Objects
-)
+[AI Control Objects](AI%20(NPC)/AI%20Control%20Objects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798766](
-AI Debugging
-)
+[AI Debugging](AI%20(NPC)/AI%20Debugging.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798951](
-AI Environment Queries (UQS)
-)
+[AI Environment Queries (UQS)](AI%20(NPC)/AI%20Environment%20Queries%20(UQS).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215396](
-AI Human
-)
+[AI Human](AI%20(NPC)/AI%20Human.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798764](
-AI Perception
-)
+[AI Perception](AI%20(NPC)/AI%20Perception.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535408](
-AI Sequences
-)
+[AI Sequences](AI%20(NPC)/AI%20Sequences.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535416](
-AI Territories & Waves
-)
+[AI Territories & Waves](AI%20(NPC)/AI%20Territories%20%26%20Waves.md)

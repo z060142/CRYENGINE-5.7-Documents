@@ -7,59 +7,41 @@
 
 ## Child Pages
 
-- [Launcher installation](Setup and Installation/Launcher installation.md)
-- [Setting up a project in the Launcher](Setup and Installation/Setting up a project in the Launcher.md)
-- [Customizing the Sandbox UI](Setup and Installation/Customizing the Sandbox UI.md)
-- [Creating custom keyboard shortcuts and toolbar buttons](Setup and Installation/Creating custom keyboard shortcuts and toolbar buttons.md)
-- [Installing export tools for Maya](Setup and Installation/Installing export tools for Maya.md)
-- [Installing the CryTiff plugin for Photoshop](Setup and Installation/Installing the CryTiff plugin for Photoshop.md)
-- [Installing the CRYENGINE Motionbuilder exporter](Setup and Installation/Installing the CRYENGINE Motionbuilder exporter.md)
-- [Importing Asset Database assets and projects into the launcher](Setup and Installation/Importing Asset Database assets and projects into the launcher.md)
-- [Ryse free assets installation](Setup and Installation/Ryse free assets installation.md)
+- [Launcher installation](Setup%20and%20Installation/Launcher%20installation.md)
+- [Setting up a project in the Launcher](Setup%20and%20Installation/Setting%20up%20a%20project%20in%20the%20Launcher.md)
+- [Customizing the Sandbox UI](Setup%20and%20Installation/Customizing%20the%20Sandbox%20UI.md)
+- [Creating custom keyboard shortcuts and toolbar buttons](Setup%20and%20Installation/Creating%20custom%20keyboard%20shortcuts%20and%20toolbar%20buttons.md)
+- [Installing export tools for Maya](Setup%20and%20Installation/Installing%20export%20tools%20for%20Maya.md)
+- [Installing the CryTiff plugin for Photoshop](Setup%20and%20Installation/Installing%20the%20CryTiff%20plugin%20for%20Photoshop.md)
+- [Installing the CRYENGINE Motionbuilder exporter](Setup%20and%20Installation/Installing%20the%20CRYENGINE%20Motionbuilder%20exporter.md)
+- [Importing Asset Database assets and projects into the launcher](Setup%20and%20Installation/Importing%20Asset%20Database%20assets%20and%20projects%20into%20the%20launcher.md)
+- [Ryse free assets installation](Setup%20and%20Installation/Ryse%20free%20assets%20installation.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/64290893](
-Launcher installation
-)
+[Launcher installation](Setup%20and%20Installation/Launcher%20installation.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/64290895](
-Setting up a project in the Launcher
-)
+[Setting up a project in the Launcher](Setup%20and%20Installation/Setting%20up%20a%20project%20in%20the%20Launcher.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/64290898](
-Customizing the Sandbox UI
-)
+[Customizing the Sandbox UI](Setup%20and%20Installation/Customizing%20the%20Sandbox%20UI.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/64290928](
-Creating custom keyboard shortcuts and toolbar buttons
-)
+[Creating custom keyboard shortcuts and toolbar buttons](Setup%20and%20Installation/Creating%20custom%20keyboard%20shortcuts%20and%20toolbar%20buttons.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/64290921](
-Installing export tools for Maya
-)
+[Installing export tools for Maya](Setup%20and%20Installation/Installing%20export%20tools%20for%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656847](
-Installing the CryTiff plugin for Photoshop
-)
+[Installing the CryTiff plugin for Photoshop](Setup%20and%20Installation/Installing%20the%20CryTiff%20plugin%20for%20Photoshop.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656849](
-Installing the CRYENGINE Motionbuilder exporter
-)
+[Installing the CRYENGINE Motionbuilder exporter](Setup%20and%20Installation/Installing%20the%20CRYENGINE%20Motionbuilder%20exporter.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/64290900](
-Importing Asset Database assets and projects into the launcher
-)
+[Importing Asset Database assets and projects into the launcher](Setup%20and%20Installation/Importing%20Asset%20Database%20assets%20and%20projects%20into%20the%20launcher.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656840](
-Ryse free assets installation
-)
+[Ryse free assets installation](Setup%20and%20Installation/Ryse%20free%20assets%20installation.md)

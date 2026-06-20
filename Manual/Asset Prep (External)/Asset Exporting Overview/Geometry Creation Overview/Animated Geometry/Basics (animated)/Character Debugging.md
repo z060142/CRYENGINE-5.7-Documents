@@ -37,13 +37,13 @@ Model
 **
  property.
 
-[Image: /docs/static/attachments/23994393]
+![Image](https://www.cryengine.com/docs/static/attachments/23994393)
 
-[Image: /docs/static/attachments/23994394]
+![Image](https://www.cryengine.com/docs/static/attachments/23994394)
 
 When you reload the entity, you should see something like this:
 
-[Image: /docs/static/attachments/23994395]
+![Image](https://www.cryengine.com/docs/static/attachments/23994395)
 
 *
 Grunt Entity in engine with character.chr from the SDK loaded as Model under Entity Properties.
@@ -81,7 +81,7 @@ Enter
 **
 . You should see something like this:
 
-[Image: /docs/static/attachments/23994396]
+![Image](https://www.cryengine.com/docs/static/attachments/23994396)
 
 *
 Character.chr with
@@ -142,7 +142,7 @@ So now you can see the deforming skeleton, you can jump into the game and shoot/
 **
 , you will see that you have a weapon that tells you the material of any object you point at, and it will also give you even more information about that item if you shoot it. Here is what it looks like when pointing at the hit skeleton:
 
-[Image: /docs/static/attachments/23994397]
+![Image](https://www.cryengine.com/docs/static/attachments/23994397)
 
 Using this tool, you can debug all the parts of the skeleton, checking them to see that they are set up with the proper materials.
 
@@ -151,7 +151,7 @@ Ragdolls
 
 Testing ragdolls in the engine can be a lot of fun, especially for non-humanoids.
 
-[Image: /docs/static/attachments/23994398]
+![Image](https://www.cryengine.com/docs/static/attachments/23994398)
 
 There are three ways to test the ragdoll physics of a character, the two best are shown above: Either shoot at them, or right-click them and select
 **
@@ -159,7 +159,7 @@ Events>Kill
 **
 .
 
-[Image: /docs/static/attachments/23994399]
+![Image](https://www.cryengine.com/docs/static/attachments/23994399)
 
 You can also add the character as a
 **
@@ -170,12 +170,6 @@ DeadBody
 Special Note
 The ragdoll functionality was reduced for Crysis due to the strict ratings board in Germany, and consequently, once a ragdoll was at rest it ceased to be simulated. Licensees, however, received all CryENGINE features intact and could decide for themselves whether or not to implement ragdoll functionality.
 
-[#checking-the-phys-setup](
-Checking the Phys Setup
-)
-[#hit-detection-and-live-physics](
-Hit Detection and Live Physics
-)
-[#ragdolls](
-Ragdolls
-)
+[Checking the Phys Setup](#checking-the-phys-setup)
+[Hit Detection and Live Physics](#hit-detection-and-live-physics)
+[Ragdolls](#ragdolls)

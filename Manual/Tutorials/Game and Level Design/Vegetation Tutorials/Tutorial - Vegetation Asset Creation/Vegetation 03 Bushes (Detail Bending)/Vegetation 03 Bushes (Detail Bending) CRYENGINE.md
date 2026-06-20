@@ -50,7 +50,7 @@ DCC Tools has no concept of a surface type or shader type for example, so we can
 The rest is completed here in the CRYENGINE Material Editor.
 
 *
-[Image: /docs/static/attachments/24157127]
+![Image](https://www.cryengine.com/docs/static/attachments/24157127)
 
 Pic1: Initial Material Editor overview
 *
@@ -78,7 +78,7 @@ Vegetation
 
 *
 *
-[Image: /docs/static/attachments/24157121]
+![Image](https://www.cryengine.com/docs/static/attachments/24157121)
 
 Pic2: Material settings
 *
@@ -100,7 +100,7 @@ AlphaTest
 *
 *
 *
-[Image: /docs/static/attachments/24157125]
+![Image](https://www.cryengine.com/docs/static/attachments/24157125)
 
 Pic3: Opacity
 *
@@ -111,7 +111,7 @@ Pic3: Opacity
 *
 *
 *
-[Image: /docs/static/attachments/24157126]
+![Image](https://www.cryengine.com/docs/static/attachments/24157126)
 
 Pic4: Re-cap of where this info came from in 3dsMax
 *
@@ -155,7 +155,7 @@ Smoothness
 *
 *
 *
-[Image: /docs/static/attachments/24157124]
+![Image](https://www.cryengine.com/docs/static/attachments/24157124)
 
 Pic5: Lighting Settings
 *
@@ -165,12 +165,7 @@ Pic5: Lighting Settings
 *
 
 For more information on the PBS rendering setup please go
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959238](
-**
-HERE
-**
-
-)
+[HERE](../../../../../Graphics%20%26%20Rendering/Shaders/Physically%20Based%20Shading%20(PBS).md)
 for a full explanation.
 
 ##
@@ -187,7 +182,7 @@ Normalmap
  (*.ddna).
 
 *
-[Image: /docs/static/attachments/24157130]
+![Image](https://www.cryengine.com/docs/static/attachments/24157130)
 
 Pic6: Texture maps with the diffuse and normal map assigned
 *
@@ -216,7 +211,7 @@ Leaves
  parameter forces the material to be two-sided.
 
 *
-[Image: /docs/static/attachments/24157128]
+![Image](https://www.cryengine.com/docs/static/attachments/24157128)
 
 Pic7: Shader Generation Params with detail bending and leaves enabled
 *
@@ -247,7 +242,7 @@ Pic8
 ).
 
 *
-[Image: /docs/static/attachments/24157129]
+![Image](https://www.cryengine.com/docs/static/attachments/24157129)
 
 Pic8: Shader Params
 *
@@ -361,9 +356,7 @@ Before we continue to configure the material params, it will help if we place so
 
 For more information on Vegetation Editor, see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865590](
-HERE
-)
+[HERE](../../../../../Editor%20Tools/Vegetation%20Editor.md)
 **
 .
 
@@ -379,7 +372,7 @@ Vegetation
 Editor.
 **
 
-[Image: /docs/static/attachments/25035993]
+![Image](https://www.cryengine.com/docs/static/attachments/25035993)
 
 *
 Pic9: Selecting the "Vegetation" Editor
@@ -390,7 +383,7 @@ Add a new Category
 **
  and call it something appropriate (like "bush").
 
-[Image: /docs/static/attachments/25035994]
+![Image](https://www.cryengine.com/docs/static/attachments/25035994)
 
 *
 Pic10: Adding a Vegetation group
@@ -402,7 +395,7 @@ Add Vegetation Object
 **
 (first button) to add a vegetation object to this group.
 
-[Image: /docs/static/attachments/25035995]
+![Image](https://www.cryengine.com/docs/static/attachments/25035995)
 
 *
 Pic11: Adding a vegetation object to the group
@@ -449,7 +442,7 @@ Detail Bending
  to also work.
 
 *
-[Image: /docs/static/attachments/25035996]
+![Image](https://www.cryengine.com/docs/static/attachments/25035996)
 
 Pic12: Activated Bending
 *
@@ -464,17 +457,11 @@ Detail Bending
  values in your material to achieve proper results.
 
 *
-[Image: /docs/static/attachments/24157131]
+![Image](https://www.cryengine.com/docs/static/attachments/24157131)
 
 Pic13: Level Woodland, with Detail Bending bushes added at the start
 *
 
-[#material-setup-in-cryengine](
-Material Setup in CRYENGINE
-)
-[#vegetation-editor](
-Vegetation Editor
-)
-[#final-tweaking](
-Final tweaking
-)
+[Material Setup in CRYENGINE](#material-setup-in-cryengine)
+[Vegetation Editor](#vegetation-editor)
+[Final tweaking](#final-tweaking)

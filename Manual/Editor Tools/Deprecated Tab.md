@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [Smart Objects Editor***](Deprecated Tab/Smart Objects Editor.md)
-- [Dialog Editor*](Deprecated Tab/Dialog Editor.md)
-- [Equip Pack Editor](Deprecated Tab/Equip Pack Editor.md)
-- [Schematyc Editor (Experimental)](Deprecated Tab/Schematyc Editor (Experimental).md)
-- [Vehicle Editor*](Deprecated Tab/Vehicle Editor.md)
+- [Smart Objects Editor***](Deprecated%20Tab/Smart%20Objects%20Editor.md)
+- [Dialog Editor*](Deprecated%20Tab/Dialog%20Editor.md)
+- [Equip Pack Editor](Deprecated%20Tab/Equip%20Pack%20Editor.md)
+- [Schematyc Editor (Experimental)](Deprecated%20Tab/Schematyc%20Editor%20(Experimental).md)
+- [Vehicle Editor*](Deprecated%20Tab/Vehicle%20Editor.md)
 
 ## Content
 

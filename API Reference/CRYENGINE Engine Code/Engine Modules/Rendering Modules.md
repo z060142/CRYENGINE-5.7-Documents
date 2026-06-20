@@ -7,17 +7,13 @@
 
 ## Child Pages
 
-- [Shaders](Rendering Modules/Shaders.md)
-- [Generating Stars DAT File](Rendering Modules/Generating Stars DAT File.md)
+- [Shaders](Rendering%20Modules/Shaders.md)
+- [Generating Stars DAT File](Rendering%20Modules/Generating%20Stars%20DAT%20File.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306637](
-Shaders
-)
+[Shaders](Rendering%20Modules/Shaders.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306419](
-Generating Stars DAT File
-)
+[Generating Stars DAT File](Rendering%20Modules/Generating%20Stars%20DAT%20File.md)

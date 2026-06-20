@@ -15,19 +15,17 @@ Overview
 An Archetype Entity is based on a regular Entity and specifies individual parameter values for that Entity itself. If the value of an Archetype parameter is changed, all the instances of that Archetype in the scene will be updated automatically.
 
 Archetype Entities are organized in libraries which can be created in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869094](
-DataBase View
-)
+[DataBase View](../DataBase%20View.md)
 .
 
 This means that technical level designers can predefine variations of Entity classes as Archetype Entities that can be used throughout the whole game. For global changes affecting all instances, the Archetype Entity just needs to be changed once in the Database View.
 
-[Image: /docs/static/attachments/36849031]
+![Image](https://www.cryengine.com/docs/static/attachments/36849031)
 
 ##
 Toolbar
 
-[Image: /docs/static/attachments/36849032]
+![Image](https://www.cryengine.com/docs/static/attachments/36849032)
 
 **
 Action
@@ -102,7 +100,7 @@ Discards all the changes that has been made to the library and reloads the libra
 ##
 Item Toolbar
 
-[Image: /docs/static/attachments/44108011]
+![Image](https://www.cryengine.com/docs/static/attachments/44108011)
 
 **
 Action
@@ -172,7 +170,7 @@ Assigns the material from the currently selected item.
 ##
 Standard Toolbar
 
-[Image: /docs/static/attachments/44108012]
+![Image](https://www.cryengine.com/docs/static/attachments/44108012)
 
 **
 Action
@@ -275,18 +273,10 @@ Zooms the view.
 
  |
 
-[#toolbar](
-Toolbar
-)
-[#entity-library-layout](
-Entity Library Layout
-)
-[#toolbar](
-Toolbar
-)
-[#entity-library-layout](
-Entity Library Layout
-)
+[Toolbar](#toolbar)
+[Entity Library Layout](#entity-library-layout)
+[Toolbar](#toolbar)
+[Entity Library Layout](#entity-library-layout)
 Entity Library tab on DataBase View is no longer supported in CRYENGINE. It will be removed from the engine in the future and some features might not function as expected.
 
 ##
@@ -295,19 +285,17 @@ Overview
 An Archetype Entity is based on a regular Entity and specifies individual parameter values for that Entity itself. If the value of an Archetype parameter is changed, all the instances of that Archetype in the scene will be updated automatically.
 
 Archetype Entities are organized in libraries which can be created in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869094](
-DataBase View
-)
+[DataBase View](../DataBase%20View.md)
 .
 
 This means that technical level designers can predefine variations of Entity classes as Archetype Entities that can be used throughout the whole game. For global changes affecting all instances, the Archetype Entity just needs to be changed once in the Database View.
 
-[Image: /docs/static/attachments/36849031]
+![Image](https://www.cryengine.com/docs/static/attachments/36849031)
 
 ##
 Toolbar
 
-[Image: /docs/static/attachments/36849032]
+![Image](https://www.cryengine.com/docs/static/attachments/36849032)
 
 **
 Action
@@ -382,7 +370,7 @@ Discards all the changes that has been made to the library and reloads the libra
 ##
 Item Toolbar
 
-[Image: /docs/static/attachments/44108011]
+![Image](https://www.cryengine.com/docs/static/attachments/44108011)
 
 **
 Action
@@ -452,7 +440,7 @@ Assigns the material from the currently selected item.
 ##
 Standard Toolbar
 
-[Image: /docs/static/attachments/44108012]
+![Image](https://www.cryengine.com/docs/static/attachments/44108012)
 
 **
 Action

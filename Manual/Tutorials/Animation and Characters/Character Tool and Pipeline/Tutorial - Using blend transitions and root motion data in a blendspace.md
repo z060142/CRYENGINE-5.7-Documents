@@ -8,3 +8,5 @@
 ## Content
 
 In this lesson we connect several animation files together to create a transition between a walk and run. Using a simple blend weight, we begin to understand how through root motion data we can drive a procedural transition on the fly to create realistic running.
+
+[Embed: https://www.youtube.com/watch?v=_dmzt168M3Q&list=PLpCgy91Y5vMtWDdz1L0UnFo7lwi4LDBUq&index=29]

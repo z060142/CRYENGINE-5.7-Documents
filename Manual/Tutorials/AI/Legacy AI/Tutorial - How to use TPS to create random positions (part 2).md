@@ -8,3 +8,5 @@
 ## Content
 
 We draft a behavior tree from scratch and expose the looping of the TPS query within a root and sequence of our tree, showing how the logic replicates the same structure of the tag point sequence settings within Flow Graph.
+
+[Embed: https://www.youtube.com/watch?v=mmPMt7E3z6M&list=PLpCgy91Y5vMuwKSCe-iOJ-OyAMXkMvb4I&index=3]

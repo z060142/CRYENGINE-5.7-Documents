@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [CRYENGINE Launcher Reference](Installing CRYENGINE/CRYENGINE Launcher Reference.md)
-- [CRYENGINE Plugins and Tools](Installing CRYENGINE/CRYENGINE Plugins and Tools.md)
-- [Project Tools](Installing CRYENGINE/Project Tools.md)
+- [CRYENGINE Launcher Reference](Installing%20CRYENGINE/CRYENGINE%20Launcher%20Reference.md)
+- [CRYENGINE Plugins and Tools](Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools.md)
+- [Project Tools](Installing%20CRYENGINE/Project%20Tools.md)
 
 ## Content
 
@@ -20,34 +20,32 @@ Installing the Launcher
 
 -
 On the
-[https://www.cryengine.com/](
-CRYENGINE website
-)
+[CRYENGINE website](https://www.cryengine.com/)
  website, click the
-[Image: /docs/static/attachments/69468196]
+![Image](https://www.cryengine.com/docs/static/attachments/69468196)
  button to download the Launcher installer.
 
 -
 Simply follow the on-screen instructions to complete the installation process.
 The
-[Image: /docs/static/attachments/69468218]
+![Image](https://www.cryengine.com/docs/static/attachments/69468218)
  icon should then appear in your desktop.
 
 ##
 Creating a CRYENGINE Account
 
 Open the Launcher by double clicking the
-[Image: /docs/static/attachments/69468218]
+![Image](https://www.cryengine.com/docs/static/attachments/69468218)
  icon; you should see the following login screen:
 
-[Image: /docs/static/attachments/69468217]
+![Image](https://www.cryengine.com/docs/static/attachments/69468217)
 
 *
 Launcher Login screen
 *
 
 Using the Launcher in offline mode by clicking the
-[Image: /docs/static/attachments/69468221]
+![Image](https://www.cryengine.com/docs/static/attachments/69468221)
  button in the bottom-right corner of the login screen is only recommended if you already have another CRYENGINE version installed on your system.
 
 If you already have an account, enter your details in the fields provided and click
@@ -64,9 +62,7 @@ Click the
 Create an Account
 **
  hyperlink at the bottom of the Login window to be redirected to the
-[https://cryengine.com/user/registration](
-account registration page
-)
+[account registration page](https://cryengine.com/user/registration)
 .
 
 -
@@ -80,7 +76,7 @@ Sign Up.
 
 **
 
-[Image: /docs/static/attachments/69468192]
+![Image](https://www.cryengine.com/docs/static/attachments/69468192)
 
 *
 Registration details
@@ -88,9 +84,7 @@ Registration details
 
 Please make sure to read and agree to the
 
-[https://www.cryengine.com/ce-terms](
-License Agreement and Privacy Policy
-)
+[License Agreement and Privacy Policy](https://www.cryengine.com/ce-terms)
 .
 
 ##
@@ -98,11 +92,11 @@ Installing CRYENGINE
 
 Once you've logged in to the Launcher with your CRYENGINE account, you should see the following dashboard:
 
-[Image: /docs/static/attachments/109543451]
+![Image](https://www.cryengine.com/docs/static/attachments/109543451)
 
 If a new version of the Launcher is available, you should see the following pop-up when logging in:
 
-[Image: /docs/static/attachments/69468199]
+![Image](https://www.cryengine.com/docs/static/attachments/69468199)
 
 *
 Launcher update pop-up
@@ -127,7 +121,7 @@ Add
 
 button in the top-right corner of the library as shown below.
 
-[Image: /docs/static/attachments/69468201]
+![Image](https://www.cryengine.com/docs/static/attachments/69468201)
 
 *
 Engines library
@@ -147,7 +141,7 @@ Add Engine
 
 button.
 
-[Image: /docs/static/attachments/69468202]
+![Image](https://www.cryengine.com/docs/static/attachments/69468202)
 
 *
 Add Engine
@@ -156,7 +150,7 @@ Add Engine
 -
 The selected Engine version will then be added to your Engines library.
 
-[Image: /docs/static/attachments/69468206]
+![Image](https://www.cryengine.com/docs/static/attachments/69468206)
 
 *
 Download progress
@@ -171,7 +165,7 @@ Manage Engine Dependencies
 
 prompt, which gives you the option to install the various components that are required to work with game code, third party middleware, plugins etc.
 
-[Image: /docs/static/attachments/69468207]
+![Image](https://www.cryengine.com/docs/static/attachments/69468207)
 
 *
 Manage Engine Dependencies
@@ -186,9 +180,7 @@ Skip
 button to complete the Engine installation process.
 
 If you chose to skip this prompt, you can revisit the dependency options using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204#CRYENGINELauncherReference-manage_dependencies](
-Manage Dependencies
-)
+[Manage Dependencies](Installing%20CRYENGINE/CRYENGINE%20Launcher%20Reference.md#CRYENGINELauncherReference-manage_dependencies)
 
 option in the Engines library.
 
@@ -211,7 +203,7 @@ Plugins
 **
 tabs:
 
-[Image: /docs/static/attachments/69468210]
+![Image](https://www.cryengine.com/docs/static/attachments/69468210)
 
 *
 Add dependencies
@@ -221,31 +213,19 @@ Explore each of the tabs to see all available components and install the ones yo
 
 Once done, proceed to
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468348](
-Creating, Importing & Upgrading Projects
-)
+[Creating, Importing & Upgrading Projects](Installing%20CRYENGINE/CRYENGINE%20Launcher%20Reference/Managing%20Projects.md)
 
 to learn how to create a project in your installed Engine version.
 
 For more information about the different settings and libraries available in the Launcher, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204](
-CRYENGINE Launcher Reference
-)
+[CRYENGINE Launcher Reference](Installing%20CRYENGINE/CRYENGINE%20Launcher%20Reference.md)
 .
 
 ##
 Related Information
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204](
-Launcher Reference
-)
-[#installing-the-launcher](
-Installing the Launcher
-)
-[#installing-cryengine](
-Installing CRYENGINE
-)
-[#related-information](
-Related Information
-)
+[Launcher Reference](Installing%20CRYENGINE/CRYENGINE%20Launcher%20Reference.md)
+[Installing the Launcher](#installing-the-launcher)
+[Installing CRYENGINE](#installing-cryengine)
+[Related Information](#related-information)

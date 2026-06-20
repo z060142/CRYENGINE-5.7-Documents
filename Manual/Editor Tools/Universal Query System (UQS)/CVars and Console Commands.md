@@ -109,12 +109,6 @@ Query History Inspector
  Editor plugin.
  |
 
-[#cvars-and-console-commands](
-CVars and Console Commands
-)
-[#cvars](
-CVars
-)
-[#console-commands](
-Console Commands
-)
+[CVars and Console Commands](#cvars-and-console-commands)
+[CVars](#cvars)
+[Console Commands](#console-commands)

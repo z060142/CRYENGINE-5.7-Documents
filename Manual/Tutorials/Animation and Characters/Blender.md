@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Reorienting Animations in Blender](Blender/Reorienting Animations in Blender.md)
+- [Reorienting Animations in Blender](Blender/Reorienting%20Animations%20in%20Blender.md)
 
 ## Content
 

@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Road Tool How-To](Road Tool/Road Tool How-To.md)
-- [Road and Decal Sorting Priority](Road Tool/Road and Decal Sorting Priority.md)
+- [Road Tool How-To](Road%20Tool/Road%20Tool%20How-To.md)
+- [Road and Decal Sorting Priority](Road%20Tool/Road%20and%20Decal%20Sorting%20Priority.md)
 
 ## Content
 
@@ -22,9 +22,7 @@ After the road is placed, the points in the road can be edited, and the terrain 
 Depending on the purpose of the road, it may be useful to first place a vehicle in the level so that the width, curvature, and slope of the road can be tested.
 
 Be sure to also take a look at the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869885](
-Road and Decal Sorting Priority
-)
+[Road and Decal Sorting Priority](Road%20Tool/Road%20and%20Decal%20Sorting%20Priority.md)
  article as it contains helpful information for road setup.
 
 ##
@@ -178,9 +176,7 @@ Sort Priority
 
  |
 This setting can be used if a specific road should be drawn above another road. For more information, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869885](
-Road and Decal Sorting Priority
-)
+[Road and Decal Sorting Priority](Road%20Tool/Road%20and%20Decal%20Sorting%20Priority.md)
 .
 
  |
@@ -222,12 +218,6 @@ Erase Vegetation
  - Erases the terrain around the road according to the Erase Veg Width parameter.
  |
 
-[#modifying-the-roads-properties](
-Modifying the Road's Properties
-)
-[#road-properties](
-Road Properties
-)
-[#spline-properties](
-Spline Properties
-)
+[Modifying the Road's Properties](#modifying-the-roads-properties)
+[Road Properties](#road-properties)
+[Spline Properties](#spline-properties)

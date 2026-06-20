@@ -16,7 +16,7 @@ This tool is not supported at the moment, but for those users who still use it, 
 
 The image below shows an overview of the FE and its subwindows:
 
-[Image: /docs/static/attachments/44971068]
+![Image](https://www.cryengine.com/docs/static/attachments/44971068)
 
 The FE layout is user customizable; the Editor may be displayed differently for different users.
 
@@ -27,7 +27,7 @@ We'll discuss all these separately below.
 ##
 1. Menu Bar
 
-[Image: /docs/static/attachments/28900369]
+![Image](https://www.cryengine.com/docs/static/attachments/28900369)
 
 ##
 Project
@@ -419,7 +419,7 @@ Batch processes a directory of audio, into fsq files using the same name as the 
 ##
 2. Preview Pane
 
-[Image: /docs/static/attachments/28900384]
+![Image](https://www.cryengine.com/docs/static/attachments/28900384)
 
 The Preview window shows a character on which the selected expressions and animations can be previewed.
 
@@ -437,7 +437,7 @@ This pane is deprecated and has no functionality. It will be removed in the futu
 
 This pane provides options to control what is shown in the Preview Pane. Many of these options are the same as those provided in the Character Editor.
 
-[Image: /docs/static/attachments/28900383]
+![Image](https://www.cryengine.com/docs/static/attachments/28900383)
 
 Option
 
@@ -676,7 +676,7 @@ Sets the Field of View (can be used to zoom in)
 ##
 5. Effectors Slider Pane
 
-[Image: /docs/static/attachments/28900467]
+![Image](https://www.cryengine.com/docs/static/attachments/28900467)
 
 This pane shows a list of expressions in the current library and provides a slider control for each of them. Manipulating this slider control allows the expression to be previewed in the Preview pane. Multiple sliders can be simultaneously manipulated, and their effects will be cumulative.
 
@@ -701,7 +701,7 @@ Clear All
 ##
 Effectors Slider Pane Main Menu
 
-[Image: /docs/static/attachments/28900440]
+![Image](https://www.cryengine.com/docs/static/attachments/28900440)
 
 **
 Clear All
@@ -717,7 +717,7 @@ Morph Targets Tab
 
 Lists all available morph targets in the character. Weight sliders within this view allow the user to preview each morph by moving the slider to the left (negative values), or to the right (positive values). Balance allows asymmetrical preview of each shape or morph.
 
-[Image: /docs/static/attachments/28900441]
+![Image](https://www.cryengine.com/docs/static/attachments/28900441)
 
 **
 Effector
@@ -760,7 +760,7 @@ All Effectors Tab
 
 Similar to the previous tab, but lists all possible effectors from morphs to expressions.
 
-[Image: /docs/static/attachments/28900442]
+![Image](https://www.cryengine.com/docs/static/attachments/28900442)
 
 **
 Effector
@@ -803,7 +803,7 @@ Controls the balance factor or symmetry of the effector.
 
 This pane allows the user to browse the expressions in the current library and to edit them. Expressions can also be created or deleted in this way.
 
-[Image: /docs/static/attachments/28900468]
+![Image](https://www.cryengine.com/docs/static/attachments/28900468)
 
 There are two halves to the pane. The left half is the
 **
@@ -831,9 +831,9 @@ Expressions Tree View
 
 Lists expressions that have been assembled into an expression library. Within this view the user can define the existing morphs in the character and compose them into expressions using a right click menu interface (below).
 
-[Image: /docs/static/attachments/28900444]
+![Image](https://www.cryengine.com/docs/static/attachments/28900444)
 
-[Image: /docs/static/attachments/28900445]
+![Image](https://www.cryengine.com/docs/static/attachments/28900445)
 
 Expressions Tree View
 
@@ -931,38 +931,38 @@ Curves Tab
 
 Curves tab allows the user to control how multiple shapes will blend when the expression transitions from minimum amplitude to full amplitude.
 
-[Image: /docs/static/attachments/28900443]
+![Image](https://www.cryengine.com/docs/static/attachments/28900443)
 
-[Image: /docs/static/attachments/28900446]
+![Image](https://www.cryengine.com/docs/static/attachments/28900446)
 
 **
 Expression Value
 **
  Time value from -1.0 to 1.0.
 
-[Image: /docs/static/attachments/28900447]
+![Image](https://www.cryengine.com/docs/static/attachments/28900447)
 
 **
 Animate Expression Button
 **
  Plays the morph/expression sequence.
 
-[Image: /docs/static/attachments/28900448]
+![Image](https://www.cryengine.com/docs/static/attachments/28900448)
  Toggles play button to start at -1.0 (off) or from 0 only (on).
 
-[Image: /docs/static/attachments/28900431]
+![Image](https://www.cryengine.com/docs/static/attachments/28900431)
 
 Fixed Value Button
  Set slider position to -1.
 
-[Image: /docs/static/attachments/28900430]
+![Image](https://www.cryengine.com/docs/static/attachments/28900430)
 
 **
 Fixed Value Button
 **
  Set slider position to 0.
 
-[Image: /docs/static/attachments/28900432]
+![Image](https://www.cryengine.com/docs/static/attachments/28900432)
 
 **
 Fixed Value Button
@@ -974,14 +974,14 @@ Expression Preview Slider
 **
  Top slider sets expression from -1.0 to 1.0. I ONLY SEE 1 SLIDER, IS THAT CORRECT? IF NOT, WHERE CAN I FIND BOTH?
 
-[Image: /docs/static/attachments/28900433]
+![Image](https://www.cryengine.com/docs/static/attachments/28900433)
 
 **
 Expression Balance Slider
 **
  Lower slider sets balance from -1.0 to 1.0.
 
-[Image: /docs/static/attachments/28900434]
+![Image](https://www.cryengine.com/docs/static/attachments/28900434)
 
 **
 Spline Display
@@ -989,7 +989,7 @@ Spline Display
 
 Defines how morph shapes blend in over the time an expression (multiple morphs) transition from minimum amplitude to full amplitude.
 
-[Image: /docs/static/attachments/28900435]
+![Image](https://www.cryengine.com/docs/static/attachments/28900435)
 
 ##
 Preview Tab
@@ -999,23 +999,16 @@ Displays a preview of the currently loaded asset.
 ##
 7. Sequence Pane
 
-[Image: /docs/static/attachments/28900370]
+![Image](https://www.cryengine.com/docs/static/attachments/28900370)
 
 This pane is used to edit the sequence itself. It is divided into four main areas: the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450435#FacialEditor-SequenceTreeView](
-Sequence Tree View
-)
+[Sequence Tree View](Facial%20Editor.md#FacialEditor-SequenceTreeView)
 , the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450435#FacialEditor-CurveTrackView](
-Curve Track View
-)
+[Curve Track View](Facial%20Editor.md#FacialEditor-CurveTrackView)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450435#FacialEditor-AudioTrack](
-)
+[/docs/static/engines/cryengine-5/categories/23756816/pages/29450435#FacialEditor-AudioTrack](Facial%20Editor.md#FacialEditor-AudioTrack)
  and the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450435#FacialEditor-SequenceViewToolbars](
-Sequence View Toolbars
-)
+[Sequence View Toolbars](Facial%20Editor.md#FacialEditor-SequenceViewToolbars)
 .
 
 The
@@ -1029,9 +1022,9 @@ Sequence Tree View
 
 The left part is a tree view of the channels in the sequence. The channels are shown grouped into folders, which allow them to be logically organized. Allows the creation of a list of available expressions which can be directly animated within the sequence. These are assembled by adding shapes and expressions from the expression library into the tree view.
 
-[Image: /docs/static/attachments/28900437]
+![Image](https://www.cryengine.com/docs/static/attachments/28900437)
 
-[Image: /docs/static/attachments/28900438]
+![Image](https://www.cryengine.com/docs/static/attachments/28900438)
 
 Sequence View
 
@@ -1151,9 +1144,7 @@ Add Layer
 
  |
 Adds an editing layer onto the channel. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450435#FacialEditor-ChannelLayers](
-Channel Layers
-)
+[Channel Layers](Facial%20Editor.md#FacialEditor-ChannelLayers)
  for more information.
 
  |
@@ -1164,9 +1155,7 @@ Delete Layer
 
  |
 Deletes the editing layer of the channel. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450435#FacialEditor-ChannelLayers](
-Channel Layers
-)
+[Channel Layers](Facial%20Editor.md#FacialEditor-ChannelLayers)
  for more information.
 
  |
@@ -1177,9 +1166,7 @@ Collapse Layer
 
  |
 Commit changes made within a layer to base curves permanently. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450435#FacialEditor-ChannelLayers](
-Channel Layers
-)
+[Channel Layers](Facial%20Editor.md#FacialEditor-ChannelLayers)
  for more information.
 
  |
@@ -1200,7 +1187,7 @@ Curve Track
 
 Selecting a channel in the tree view causes its curves to be shown in the top part of the curve Track (selecting a folder is equivalent to selecting all of its children recursively). This control displays the splines, similarly to the sub-expression control in the Expressions Explorer Pane.
 
-[Image: /docs/static/attachments/28900421]
+![Image](https://www.cryengine.com/docs/static/attachments/28900421)
 
 ##
 Curve Track Functionality
@@ -1230,31 +1217,31 @@ Curve Track - Key Bar (highlighted in red below)
 
 The key bar displays any keys within the selected track which can be manipulated in the same way as in the main curve view, though locked to the horizontal axis. This is useful for scaling time of a group of keys without accidentally altering amplitude.
 
-[Image: /docs/static/attachments/28900422]
+![Image](https://www.cryengine.com/docs/static/attachments/28900422)
 
 ##
 Curve Track - Amplitude (highlighted in red below)
 
 Amplitude displays the entire range accessible for a particular expression or joystick control. Though depending on actual setup ranges below zero may not necessarily have any effect.
 
-[Image: /docs/static/attachments/28900423]
+![Image](https://www.cryengine.com/docs/static/attachments/28900423)
 
 ##
 Curve Track - Curve Display (highlighted in red below)
 
 The curve display shows both the curve of the selected track as well as the keys themselves.
 
-[Image: /docs/static/attachments/28900424]
+![Image](https://www.cryengine.com/docs/static/attachments/28900424)
 
 ##
 Audio Track
 
-[Image: /docs/static/attachments/28900425]
+![Image](https://www.cryengine.com/docs/static/attachments/28900425)
 
 ##
 Audio Track - Right Click Menu
 
-[Image: /docs/static/attachments/28900426]
+![Image](https://www.cryengine.com/docs/static/attachments/28900426)
 
 **
 Clear all Waveforms
@@ -1288,120 +1275,120 @@ Audio Track- Label Bar (highlighted in red below)
 
 Labels the wav and lip sync portions of the audio track.
 
-[Image: /docs/static/attachments/28900427]
+![Image](https://www.cryengine.com/docs/static/attachments/28900427)
 
 ##
 Audio Track - Lip Sync Bar (highlighted in red below)
 
 The lip sync bar displays the morphs which have been added through a referenced recording list, or through the "lip sync with text" option. The bar is split into 2 sections. The upper section stores the words that may have been entered to guide the lip synch extraction process and the lower half shows the phonemes that have been used to create the extracted lip synch.
 
-[Image: /docs/static/attachments/28900428]
+![Image](https://www.cryengine.com/docs/static/attachments/28900428)
 
 ##
 Audio Track - Wav Display (highlighted in red below)
 
 Displays wav files added to the sequence in graphical form as well as the file name and it's location on disk.
 
-[Image: /docs/static/attachments/28900429]
+![Image](https://www.cryengine.com/docs/static/attachments/28900429)
 
 ##
 Sequence View Toolbars
 
-[Image: /docs/static/attachments/28900412]
+![Image](https://www.cryengine.com/docs/static/attachments/28900412)
 
-[Image: /docs/static/attachments/28900413]
+![Image](https://www.cryengine.com/docs/static/attachments/28900413)
  Play Sequence – Plays the sequence
 
-[Image: /docs/static/attachments/28900414]
+![Image](https://www.cryengine.com/docs/static/attachments/28900414)
  Stop Sequence – Stops playback of the sequence
 
-[Image: /docs/static/attachments/28900415]
+![Image](https://www.cryengine.com/docs/static/attachments/28900415)
  Facial Sequence Properties – Displays start and end times of the sequence or enables
 
-[Image: /docs/static/attachments/28900416]
+![Image](https://www.cryengine.com/docs/static/attachments/28900416)
  Current Sequence Time – shows current sequence time.
 
-[Image: /docs/static/attachments/28900417]
+![Image](https://www.cryengine.com/docs/static/attachments/28900417)
  Current Frame No – Shows frame number at current time.
 
-[Image: /docs/static/attachments/28900418]
+![Image](https://www.cryengine.com/docs/static/attachments/28900418)
  Playback Speed – Shows current playback speed in percent.
 
-[Image: /docs/static/attachments/28900419]
+![Image](https://www.cryengine.com/docs/static/attachments/28900419)
  Animate Skeleton – Plays back selected animation on the character.
 
-[Image: /docs/static/attachments/28900420]
+![Image](https://www.cryengine.com/docs/static/attachments/28900420)
  Sequence Camera – Plays back camera animation loaded from a "sequence object" saved from a cinematic in trackview.
 
-[Image: /docs/static/attachments/28900404]
+![Image](https://www.cryengine.com/docs/static/attachments/28900404)
  Overlap Sounds – Allows sounds to overlap when they have been placed in an overlapping fashion. When it is off, sounds are trimmed when a new sound begins to play.
 
-[Image: /docs/static/attachments/28900398]
+![Image](https://www.cryengine.com/docs/static/attachments/28900398)
 
 The key tangent settings can be manipulated using the key settings toolbar buttons (see image above).
 
 There are seven buttons that affect tangents, each of which affects the currently selected keys:
 
-[Image: /docs/static/attachments/28900399]
+![Image](https://www.cryengine.com/docs/static/attachments/28900399)
  Clear all tangent settings for these keys - the key tangents will be automatically calculated.
 
-[Image: /docs/static/attachments/28900400]
+![Image](https://www.cryengine.com/docs/static/attachments/28900400)
  Set the incoming (from the left) tangent to 0.
 
-[Image: /docs/static/attachments/28900401]
+![Image](https://www.cryengine.com/docs/static/attachments/28900401)
  The spline stays at the value of the previous key until it gets to this key.
 
-[Image: /docs/static/attachments/28900402]
+![Image](https://www.cryengine.com/docs/static/attachments/28900402)
  The incoming (from the left) tangent will be linear to the previous key. If the previous key has a linear out tangent then the line between the two keys will be straight.
 
-[Image: /docs/static/attachments/28900403]
+![Image](https://www.cryengine.com/docs/static/attachments/28900403)
  Set the outgoing (to the right) tangent to 0.
 
-[Image: /docs/static/attachments/28900386]
+![Image](https://www.cryengine.com/docs/static/attachments/28900386)
  The outgoing (to the right) part of the curve will be a step - ie the spline will stay at the value of this key until it reaches the next key.
 
-[Image: /docs/static/attachments/28900387]
+![Image](https://www.cryengine.com/docs/static/attachments/28900387)
  The outgoing (to the right) tangent will be linear to the next key. If the next key has a linear in tangent then the line between the two keys will be straight.
 
-[Image: /docs/static/attachments/28900388]
+![Image](https://www.cryengine.com/docs/static/attachments/28900388)
  Zoom Extents horizontal
 
-[Image: /docs/static/attachments/28900389]
+![Image](https://www.cryengine.com/docs/static/attachments/28900389)
  Zoom Extents vertical
 
-[Image: /docs/static/attachments/28900390]
+![Image](https://www.cryengine.com/docs/static/attachments/28900390)
  Grid snap horizontal
 
-[Image: /docs/static/attachments/28900391]
+![Image](https://www.cryengine.com/docs/static/attachments/28900391)
  Grid snap vertical
 
-[Image: /docs/static/attachments/28900405]
+![Image](https://www.cryengine.com/docs/static/attachments/28900405)
 
-[Image: /docs/static/attachments/28900406]
+![Image](https://www.cryengine.com/docs/static/attachments/28900406)
  Key All – Creates key for every track selected in tree view.
 
-[Image: /docs/static/attachments/28900407]
+![Image](https://www.cryengine.com/docs/static/attachments/28900407)
  Zero All – Sets keys for selected tracks in tree view to 0 amplitude.
 
-[Image: /docs/static/attachments/28900408]
+![Image](https://www.cryengine.com/docs/static/attachments/28900408)
  Amplitude – Adjusts amplitude of curve for a selected range.
 
-[Image: /docs/static/attachments/28900409]
+![Image](https://www.cryengine.com/docs/static/attachments/28900409)
  Smooth – Smooths noise of selected keys. Useful for mocap.
 
-[Image: /docs/static/attachments/28900410]
+![Image](https://www.cryengine.com/docs/static/attachments/28900410)
  Smooth Value – Sets the value used for the smoothing operation.
 
-[Image: /docs/static/attachments/28900411]
+![Image](https://www.cryengine.com/docs/static/attachments/28900411)
  Cleanup Keys – Removes keys based on user defined threshold.
 
-[Image: /docs/static/attachments/28900395]
+![Image](https://www.cryengine.com/docs/static/attachments/28900395)
  Cleanup Keys Value – Sets value for cleanup operation.
 
-[Image: /docs/static/attachments/28900396]
+![Image](https://www.cryengine.com/docs/static/attachments/28900396)
  Remove Noise – Attempts to remove noise based on user defined threshold.
 
-[Image: /docs/static/attachments/28900397]
+![Image](https://www.cryengine.com/docs/static/attachments/28900397)
  Remove Noise Value – Sets value for remove noise operation.
 
 ##
@@ -1414,22 +1401,22 @@ A channel layer basically freezes all the keys in the curve and allows the anima
 ##
 8. Joysticks Pane
 
-[Image: /docs/static/attachments/28900392]
+![Image](https://www.cryengine.com/docs/static/attachments/28900392)
 
 Joysticks are user defined 2d controllers with a single manipulator that can be assigned to multiple morphs, expressions or other shapes in order to animate them in a graphical way – much like moving a physical joystick.
 
 The Joystick pane is where the user can start assembling joysticks and wire them up to morphs, expressions or visemes that have been made available in the sequence view.
 
-[Image: /docs/static/attachments/28900393]
+![Image](https://www.cryengine.com/docs/static/attachments/28900393)
  Toggle edit mode to resize or move joysticks in the view.
 
-[Image: /docs/static/attachments/28900394]
+![Image](https://www.cryengine.com/docs/static/attachments/28900394)
  Toggle create key mode, when a controller is moved a key is automatically created.
 
-[Image: /docs/static/attachments/28900377]
+![Image](https://www.cryengine.com/docs/static/attachments/28900377)
  Key all joystick tracks.
 
-[Image: /docs/static/attachments/28900378]
+![Image](https://www.cryengine.com/docs/static/attachments/28900378)
  Zero amplitude of all joysticks.
 
 ##
@@ -1447,7 +1434,7 @@ Creates a basic joystick without any active connections.
 ##
 Joystick Right Click (no expression selected in tree view)
 
-[Image: /docs/static/attachments/28900379]
+![Image](https://www.cryengine.com/docs/static/attachments/28900379)
 
 **
 Edit Joystick Name
@@ -1488,7 +1475,7 @@ Views properties page of joystick.
 ##
 Joystick Right Click (expression selected in tree view)
 
-[Image: /docs/static/attachments/28900380]
+![Image](https://www.cryengine.com/docs/static/attachments/28900380)
 
 **
 Edit Joystick Name
@@ -1565,7 +1552,7 @@ Views properties page of joystick.
 ##
 Joystick Properties
 
-[Image: /docs/static/attachments/28900381]
+![Image](https://www.cryengine.com/docs/static/attachments/28900381)
 
 ##
 Channels
@@ -1627,27 +1614,11 @@ Offsets X or Y component upon import.
 
  |
 
-[#1-menu-bar](
-1. Menu Bar
-)
-[#2-preview-pane](
-2. Preview Pane
-)
-[#3-video-frame-pane](
-3. Video Frame Pane
-)
-[#4-preview-options-pane](
-4. Preview Options Pane
-)
-[#5-effectors-slider-pane](
-5. Effectors Slider Pane
-)
-[#6-expressions-explorer-pane](
-6. Expressions Explorer Pane
-)
-[#7-sequence-pane](
-7. Sequence Pane
-)
-[#8-joysticks-pane](
-8. Joysticks Pane
-)
+[1. Menu Bar](#1-menu-bar)
+[2. Preview Pane](#2-preview-pane)
+[3. Video Frame Pane](#3-video-frame-pane)
+[4. Preview Options Pane](#4-preview-options-pane)
+[5. Effectors Slider Pane](#5-effectors-slider-pane)
+[6. Expressions Explorer Pane](#6-expressions-explorer-pane)
+[7. Sequence Pane](#7-sequence-pane)
+[8. Joysticks Pane](#8-joysticks-pane)

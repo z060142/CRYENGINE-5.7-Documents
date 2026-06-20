@@ -12,7 +12,7 @@ Spline Distributor
 
 You can make precise changes to the geometry by adjusting the spline points and parameters.
 
-[Image: /docs/static/attachments/44969527]
+![Image](https://www.cryengine.com/docs/static/attachments/44969527)
 
 ##
 Parameters
@@ -141,9 +141,5 @@ Used for the construction of a level occlusion mesh.
 
  |
 
-[#spline-distributor](
-Spline Distributor
-)
-[#parameters](
-Parameters
-)
+[Spline Distributor](#spline-distributor)
+[Parameters](#parameters)

@@ -7,23 +7,17 @@
 
 ## Child Pages
 
-- [Tutorial - Animating a camera around a parent entity in Trackview](Trackview Tutorials/Tutorial - Animating a camera around a parent entity in Trackview.md)
-- [Tutorial - How to create cinematic image sequences in Trackview](Trackview Tutorials/Tutorial - How to create cinematic image sequences in Trackview.md)
-- [Tutorial - How to use track events in Trackview](Trackview Tutorials/Tutorial - How to use track events in Trackview.md)
+- [Tutorial - Animating a camera around a parent entity in Trackview](Trackview%20Tutorials/Tutorial%20-%20Animating%20a%20camera%20around%20a%20parent%20entity%20in%20Trackview.md)
+- [Tutorial - How to create cinematic image sequences in Trackview](Trackview%20Tutorials/Tutorial%20-%20How%20to%20create%20cinematic%20image%20sequences%20in%20Trackview.md)
+- [Tutorial - How to use track events in Trackview](Trackview%20Tutorials/Tutorial%20-%20How%20to%20use%20track%20events%20in%20Trackview.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56657806](
-Tutorial - Animating a camera around a parent entity in Trackview
-)
+[Tutorial - Animating a camera around a parent entity in Trackview](Trackview%20Tutorials/Tutorial%20-%20Animating%20a%20camera%20around%20a%20parent%20entity%20in%20Trackview.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656891](
-Tutorial - How to create cinematic image sequences in Trackview
-)
+[Tutorial - How to create cinematic image sequences in Trackview](Trackview%20Tutorials/Tutorial%20-%20How%20to%20create%20cinematic%20image%20sequences%20in%20Trackview.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658114](
-Tutorial - How to use track events in Trackview
-)
+[Tutorial - How to use track events in Trackview](Trackview%20Tutorials/Tutorial%20-%20How%20to%20use%20track%20events%20in%20Trackview.md)

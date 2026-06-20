@@ -13,18 +13,14 @@ Overview
 This tutorial will guide you through the transition editing in the mannequin editor. It uses samples that are part of the SDK. Feel free to follow along with the step by step instructions.
 
 A prerequisite for this tutorial is that you know how to open the editor and a preview file, create & edit fragments, add tags and create preview sequences. See the previous tutorials:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308483](
-Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving
-)
+[Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving](Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308484](
-Mannequin Editor Tutorial 2 - Tags & Previewing
-)
+[Mannequin Editor Tutorial 2 - Tags & Previewing](Mannequin%20Editor%20Tutorial%202%20-%20Tags%20%26%20Previewing.md)
 .
 
 The tutorial will use a lot of pictures and a simple color code to distinguish areas to interact with and areas to look at:
 
-[Image: /docs/static/attachments/23998475]
+![Image](https://www.cryengine.com/docs/static/attachments/23998475)
 
 ##
 Transitions
@@ -34,29 +30,21 @@ Load up the preview file for the third tutorial, it is called
 "sdk_tutorial3preview.xml"
 **
 . See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308483](
-Loading the Preview File
-)
+[Loading the Preview File](Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md)
  (but this time the file is called "sdk_tutorial3preview.xml"). If the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308448](
-file manager
-)
+[file manager](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20File%20Manager.md)
  pops up you can press "Undo Changes to Selected Files" to ignore your previous changes.
 
 Tutorial3 picks up from the end of tutorial2: you will notice that a small number of fragments with tags are already created for you.
 
 We will now show how to set up a
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450872](
-Transition
-)
+[Transition](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Transitions.md)
 *
  between different fragments and where to find these transitions.
 
 At any time in the tutorial feel free to play the current sequence using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308483](
-playback controls
-)
+[playback controls](Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md)
 .
 
 ##
@@ -66,15 +54,7 @@ In this example we will create a special transition between the "Idle (standing)
 
 -
 Select the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450872](
-*
-Transitions
-*
-
-*
-panel
-*
-)
+[Transitions panel](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Transitions.md)
 *
 
 *
@@ -85,7 +65,7 @@ Notice that there are no transitions yet.
 
 -
 Press the "New..." button.
-[Image: /docs/static/attachments/23998491]
+![Image](https://www.cryengine.com/docs/static/attachments/23998491)
 
 Now we need to select the fragments & tags in between which we want to create a transition.
 
@@ -103,7 +83,7 @@ Select the "kneeling" tag for the 'to' stance field. Leave the tired tag uncheck
 
 -
 Press OK
-[Image: /docs/static/attachments/23998484]
+![Image](https://www.cryengine.com/docs/static/attachments/23998484)
 
 You can create a more general transition by leaving fields blank. For example say you'd like a transition from Idle (kneeling) to
 *
@@ -121,7 +101,7 @@ The currently opened transition is displayed in bold in the transition browser.
 
 -
 You can open another transition at any time by selecting it and either double clicking on it or pressing the Open button.
-[Image: /docs/static/attachments/23998492]
+![Image](https://www.cryengine.com/docs/static/attachments/23998492)
 
 In this simple example we created a specific transition, from a specific fragment to another specific fragment. In cases where a more general transition is set up (for example without specifying tags, or without a from/to fragmentID), the
 *
@@ -131,13 +111,11 @@ Transition Picker
 
 Using this window we need to tell the system which specific fragments we want to show as "From" and "To" fragments. This is because without specifying an example From or To fragment we cannot give a decent preview. The window looks very similar to the Edit Transition window:
 
-[Image: /docs/static/attachments/23998504]
+![Image](https://www.cryengine.com/docs/static/attachments/23998504)
 
 The transition we just created shows up in the
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502](
-Transition Editor
-)
+[Transition Editor](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor.md)
 *
  on the right.
 
@@ -149,19 +127,17 @@ A mini sequence is set up automatically that first starts the "Idle (standing)" 
 
 -
 An orange box appears on the FragmentId track that shows you the 'transition' region. By default it just uses the blend-in time we set up in the "Idle (kneeling)" fragment.
-[Image: /docs/static/attachments/23998493]
+![Image](https://www.cryengine.com/docs/static/attachments/23998493)
 
 ##
 Changing a Transition
 
 To get a better idea where this default transition time comes from let's open up the "Idle (kneeling)" fragment in the fragment editor by right-clicking on it to open up the context menu and then selecting "Edit Fragment".
 
-[Image: /docs/static/attachments/23998483]
+![Image](https://www.cryengine.com/docs/static/attachments/23998483)
 
 This automatically opens up the selected fragment inside the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011394](
-Mannequin Fragment Editor
-)
+[Mannequin Fragment Editor](/docs/static/engines/cryengine-3/categories/1114113/pages/15011394)
 .
 
 -
@@ -172,7 +148,7 @@ The default blend-in time is specified by this area.
 
 -
 Which is also specified here in the properties of this animation clip.
-[Image: /docs/static/attachments/23998482]
+![Image](https://www.cryengine.com/docs/static/attachments/23998482)
 
 Now by making a transition we can override this default, which is why we created this specific transition in the first place.
 
@@ -181,7 +157,7 @@ Let's go back to the Transition Editor.
 
 -
 Make the transition period bigger by dragging vertical divider to the right:
-[Image: /docs/static/attachments/23998485]
+![Image](https://www.cryengine.com/docs/static/attachments/23998485)
 
 What did we do now? By dragging this divider we override the default blend-in time which we saw above (if you flip to the Fragment Editor at this very moment you will see that the blend-in time in the actual fragment is still the small one we had before). So whenever the game requests this specific sequence of fragments the new blend-in time we just specified will be used instead.
 
@@ -189,11 +165,11 @@ Let's now try to use a specific transition animation instead of a pure blend. We
 
 Drag the second clip to the right:
 
-[Image: /docs/static/attachments/23998486]
+![Image](https://www.cryengine.com/docs/static/attachments/23998486)
 
 Double-click somewhere after the beginning of the orange Idle->Idle block to create a "None" animation clip:
 
-[Image: /docs/static/attachments/23998487]
+![Image](https://www.cryengine.com/docs/static/attachments/23998487)
 
 -
 Select the None clip
@@ -209,11 +185,11 @@ Open up the "stand" section.
 
 -
 Double-click on the stand_tac_to_kneel_01 animation to select it into the animation clip.
-[Image: /docs/static/attachments/23998488]
+![Image](https://www.cryengine.com/docs/static/attachments/23998488)
 
 Now move the second clip and its blend-in time around until you get something like this, where the blend-in of the second clip overlaps with the end of the transition clip.
 
-[Image: /docs/static/attachments/23998489]
+![Image](https://www.cryengine.com/docs/static/attachments/23998489)
 
 Congratulations, you set up your first transition!
 
@@ -221,9 +197,7 @@ Congratulations, you set up your first transition!
 Creating a New Transition (from the Previewer)
 
 There is another way to create transitions which is good to know about: you can create them directly from the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502](
-Previewer
-)
+[Previewer](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor.md)
 , you don't need to go to the Transition Picker.
 
 Let's use this other method to set up the transition to stand up again from kneeling pose.
@@ -239,7 +213,7 @@ Drag the "Idle (kneeling)" fragment onto the previewer
 
 -
 Then drag the "Idle (standing)" fragment after it the kneeling fragment
-[Image: /docs/static/attachments/23998477]
+![Image](https://www.cryengine.com/docs/static/attachments/23998477)
 
 Then:
 
@@ -248,7 +222,7 @@ Right-click on the "Idle (standing - 0)" key.
 
 -
 Select "Insert Transition".
-[Image: /docs/static/attachments/23998478]
+![Image](https://www.cryengine.com/docs/static/attachments/23998478)
 
 A
 *
@@ -256,15 +230,15 @@ Create Transition
 *
  window pops up. It will automatically fill in parameters to create a transition from the previous fragment to the currently selected one. In our case the automatically created settings are fine, so we just press the "Create" button:
 
-[Image: /docs/static/attachments/23998479]
+![Image](https://www.cryengine.com/docs/static/attachments/23998479)
 
 This creates and opens up the transition in the transition browser/editor:
 
-[Image: /docs/static/attachments/23998480]
+![Image](https://www.cryengine.com/docs/static/attachments/23998480)
 
 Using the same steps as before, go ahead and try to create the transition to go from kneeling to standing yourself:
 
-[Image: /docs/static/attachments/23998481]
+![Image](https://www.cryengine.com/docs/static/attachments/23998481)
 
 And there you go, second transition created!
 
@@ -273,7 +247,7 @@ Transition Picker Filters
 
 In the transition picker you can look for transitions by specifying part of the name of either the FragmentIDs or the tags involved:
 
-[Image: /docs/static/attachments/23998490]
+![Image](https://www.cryengine.com/docs/static/attachments/23998490)
 
 ##
 Transitions To and From Anything
@@ -293,7 +267,7 @@ A transition from Idle to anything.
 
 -
 That one shows up with "Idle to <Any>" (in this example we set up going from "Idle" to "Move").
-[Image: /docs/static/attachments/23998502]
+![Image](https://www.cryengine.com/docs/static/attachments/23998502)
 
 When you set up a sequence that has both a transition from the first and a transition to the second fragment in a sequence,
 *
@@ -301,15 +275,13 @@ both
 *
  will play. So if you set up a sequence with two Idle clips in the previous example, you get the following:
 
-[Image: /docs/static/attachments/23998503]
+![Image](https://www.cryengine.com/docs/static/attachments/23998503)
 
 ##
 Earliest Start Time - Delaying a Transition
 
 As we saw in the section on
-[/docs/static/engines/cryengine-5/categories/23756816](
-trumping
-)
+[trumping](/docs/static/engines/cryengine-5/categories/23756816)
 , sometimes a transition gets delayed to the end of the previous fragment. This is the default behavior if the previous fragment is not looping. Typically you want to start the new fragment a little bit before the previous one ended though. If we want to do this we need to create a CryMannequin transition and next move the "orange block" to the point where we want it to be. This changes what is called the
 *
 Earliest Start Time
@@ -333,25 +305,25 @@ Change it to be
 not
 *
  looping
-[Image: /docs/static/attachments/23998495]
+![Image](https://www.cryengine.com/docs/static/attachments/23998495)
 
 Let's now make a simple (contrived) example starting from a transition from this "Idle (standing)" to another "Idle (standing)". This also shows that you can make transitions where From & To are the same fragment.
 
 Make the transition:
 
-[Image: /docs/static/attachments/23998496]
+![Image](https://www.cryengine.com/docs/static/attachments/23998496)
 
 The transition should open automatically and it should look like this:
 
-[Image: /docs/static/attachments/23998497]
+![Image](https://www.cryengine.com/docs/static/attachments/23998497)
 
 It's not immediately apparent, but if you move the "Idle (standing)" fragmentId to the left you will see that the transition itself is delayed:
 
-[Image: /docs/static/attachments/23998498]
+![Image](https://www.cryengine.com/docs/static/attachments/23998498)
 
 This is the result:
 
-[Image: /docs/static/attachments/23998499]
+![Image](https://www.cryengine.com/docs/static/attachments/23998499)
 
 Notice how the second animation only starts after the first is finished, not immediately when we request it.
 
@@ -359,7 +331,7 @@ As before, this is because the default transition behavior when coming from a no
 
 Now we want to actually start the transition earlier, so we move the "earliest start time" key on the TransitionProperties track a bit back in time:
 
-[Image: /docs/static/attachments/23998500]
+![Image](https://www.cryengine.com/docs/static/attachments/23998500)
 
 And the result is that the transition starts earlier:
 
@@ -368,12 +340,10 @@ You can set it up so the blend-in time of the second clip ends before the end of
 
 -
 You can edit the earliest start time manually in the transition properties (to get to these properties, select any key on the TransitionProperties track).
-[Image: /docs/static/attachments/23998501]
+![Image](https://www.cryengine.com/docs/static/attachments/23998501)
 
 The Earliest Start Time is stored as a value relative to the end of the previous fragment, which is why it is -0.24 in the previous example. In the advanced section on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308485#MannequinEditorTutorial3-Transitions-CyclicTransition](
-Cyclic Transitions
-)
+[Cyclic Transitions](Mannequin%20Editor%20Tutorial%203%20-%20Transitions.md#MannequinEditorTutorial3-Transitions-CyclicTransition)
  we see an exception to this though.
 
 ##
@@ -394,7 +364,7 @@ The select time is also displayed in the transition properties.
 
 -
 If there are multiple transitions available, the other select times are displayed as triangles too. In this case there is a triangle at time 0.
-[Image: /docs/static/attachments/23998494]
+![Image](https://www.cryengine.com/docs/static/attachments/23998494)
 
 ##
 Advanced Transition Properties
@@ -416,26 +386,20 @@ We selected Cyclic Transition in the Transition Properties (as before, you acces
 
 -
 The select time is 0.5, and this translates into 50% along the cycle. The UI also displays the range of the select time, in this case it runs all the way to the end of the cycle. After that the other transition, the one with select time 0, will be selected. And so on.
-[Image: /docs/static/attachments/23998476]
+![Image](https://www.cryengine.com/docs/static/attachments/23998476)
 
 Cyclic transitions and start times
 Unless marked as locked (see next), cyclic transitions will always trump the previous fragment, regardless of action priority. The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308485#MannequinEditorTutorial3-Transitions-EarliestStartTime](
-Earliest Start Time
-)
+[Earliest Start Time](Mannequin%20Editor%20Tutorial%203%20-%20Transitions.md#MannequinEditorTutorial3-Transitions-EarliestStartTime)
  is thus effectively ignored. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450863](
-Mannequin Trumping
-)
+[Mannequin Trumping](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Trumping.md)
  for more details.
 
 ##
 Cyclic Locked Transition
 
 We saw that it is possible to delay transitions to a certain point in the animation in the section on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308485#MannequinEditorTutorial3-Transitions-EarliestStartTime](
-Earliest Start Time
-)
+[Earliest Start Time](Mannequin%20Editor%20Tutorial%203%20-%20Transitions.md#MannequinEditorTutorial3-Transitions-EarliestStartTime)
 . By default this 'earliest start time' is relative to the end of the previous fragment; but this doesn't work when the fragment you are coming from has no clear ending, for example when it ends with a looping clip. You might want to set up a transition that comes from a run cycle and you only want to trigger this transition when the preceding animation is in the second half of the run cycle. To make this work you need to check both the
 *
 Cyclic Transition
@@ -453,9 +417,7 @@ Deprecated feature
 Outro transitions are deprecated and will be removed in a future release of the engine. We instead recommend that you use a dedicated intermediate fragment in the situations where you might have used an outro transition.
 
 In many cases a transition to <Any> (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308485#MannequinEditorTutorial3-Transitions-TransitionsToAndFromAnything](
-Transitions To and From Anything
-)
+[Transitions To and From Anything](Mannequin%20Editor%20Tutorial%203%20-%20Transitions.md#MannequinEditorTutorial3-Transitions-TransitionsToAndFromAnything)
 ) in a certain sense 'belongs' to the source fragment. For example transition from "Look Around Using Binoculars" to anything might stow the binoculars and go back to a normal idling pose. To the game code it might be useful to treat the stowing of the binoculars as
 *
 part
@@ -464,33 +426,13 @@ part
 
 Outro transitions will be in a sense appended to the previous fragment. When they play the previous action will not be exited but IAction::OnTransitionOutStarted() will be called. Also, IAction::IsTransitioningOut() will return true while the Outro Transition is playing.
 
-[#transitions](
-Transitions
-)
-[#creating-a-new-transition-from-the-transition-picker](
-Creating a New Transition (from the Transition Picker)
-)
-[#opening-a-transition](
-Opening a Transition
-)
-[#changing-a-transition](
-Changing a Transition
-)
-[#creating-a-new-transition-from-the-previewer](
-Creating a New Transition (from the Previewer)
-)
-[#transition-picker-filters](
-Transition Picker Filters
-)
-[#transitions-to-and-from-anything](
-Transitions To and From Anything
-)
-[#earliest-start-time-delaying-a-transition](
-Earliest Start Time - Delaying a Transition
-)
-[#transition-select-time-picking-different-transitions-based-on-time](
-Transition Select Time - Picking Different Transitions Based on Time
-)
-[#advanced-transition-properties](
-Advanced Transition Properties
-)
+[Transitions](#transitions)
+[Creating a New Transition (from the Transition Picker)](#creating-a-new-transition-from-the-transition-picker)
+[Opening a Transition](#opening-a-transition)
+[Changing a Transition](#changing-a-transition)
+[Creating a New Transition (from the Previewer)](#creating-a-new-transition-from-the-previewer)
+[Transition Picker Filters](#transition-picker-filters)
+[Transitions To and From Anything](#transitions-to-and-from-anything)
+[Earliest Start Time - Delaying a Transition](#earliest-start-time-delaying-a-transition)
+[Transition Select Time - Picking Different Transitions Based on Time](#transition-select-time-picking-different-transitions-based-on-time)
+[Advanced Transition Properties](#advanced-transition-properties)

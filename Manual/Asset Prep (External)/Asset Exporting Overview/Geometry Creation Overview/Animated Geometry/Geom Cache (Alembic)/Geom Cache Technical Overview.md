@@ -14,9 +14,7 @@ Resource Compiler
 Links to other supporting documentation
 
 Link to asset creation documentation for GeomCaches can be found
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534123](
-here...
-)
+[here...](../Geom%20Cache%20(Alembic).md)
 
 Reads alembic file format (currently HDF5 based up to version 1.1) and outputs compiled frame data into FIFOs for the encoder. TODO: Alembic 1.5 introduced a new data format which should greatly benefit read speed.
 

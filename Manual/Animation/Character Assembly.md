@@ -7,86 +7,62 @@
 
 ## Child Pages
 
-- [Blendspaces](Character Assembly/Blendspaces.md)
-- [Character Attachments](Character Assembly/Character Attachments.md)
-- [Additive Animations](Character Assembly/Additive Animations.md)
-- [Animation Events](Character Assembly/Animation Events.md)
-- [Animation Transition Modes for Interpolation](Character Assembly/Animation Transition Modes for Interpolation.md)
-- [Blendshape/Morph](Character Assembly/Blendshape Morph.md)
-- [Compressing Animations](Character Assembly/Compressing Animations.md)
-- [Ground Alignment](Character Assembly/Ground Alignment.md)
-- [Look IK](Character Assembly/Look IK.md)
-- [Streaming Animations](Character Assembly/Streaming Animations.md)
-- [Weapon Aiming](Character Assembly/Weapon Aiming.md)
-- [Wrinkle Maps](Character Assembly/Wrinkle Maps.md)
+- [Blendspaces](Character%20Assembly/Blendspaces.md)
+- [Character Attachments](Character%20Assembly/Character%20Attachments.md)
+- [Additive Animations](Character%20Assembly/Additive%20Animations.md)
+- [Animation Events](Character%20Assembly/Animation%20Events.md)
+- [Animation Transition Modes for Interpolation](Character%20Assembly/Animation%20Transition%20Modes%20for%20Interpolation.md)
+- [Blendshape/Morph](Character%20Assembly/Blendshape%20Morph.md)
+- [Compressing Animations](Character%20Assembly/Compressing%20Animations.md)
+- [Ground Alignment](Character%20Assembly/Ground%20Alignment.md)
+- [Look IK](Character%20Assembly/Look%20IK.md)
+- [Streaming Animations](Character%20Assembly/Streaming%20Animations.md)
+- [Weapon Aiming](Character%20Assembly/Weapon%20Aiming.md)
+- [Wrinkle Maps](Character%20Assembly/Wrinkle%20Maps.md)
 
 ## Content
 
-[Image: /docs/static/attachments/26952516]
-[Image: /docs/static/attachments/26955149]
+![Image](https://www.cryengine.com/docs/static/attachments/26952516)
+![Image](https://www.cryengine.com/docs/static/attachments/26955149)
 
-[Image: /docs/static/attachments/26955150]
+![Image](https://www.cryengine.com/docs/static/attachments/26955150)
 
-[Image: /docs/static/attachments/26955151]
+![Image](https://www.cryengine.com/docs/static/attachments/26955151)
 
-[Image: /docs/static/attachments/51347563]
-
--
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535365](
-Additive Animations
-)
+![Image](https://www.cryengine.com/docs/static/attachments/51347563)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535608](
-Animation Events
-)
+[Additive Animations](Character%20Assembly/Additive%20Animations.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26216402](
-Animation Transition Modes for Interpolation
-)
+[Animation Events](Character%20Assembly/Animation%20Events.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535266](
-Blendshape/Morph
-)
+[Animation Transition Modes for Interpolation](Character%20Assembly/Animation%20Transition%20Modes%20for%20Interpolation.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26873837](
-Blendspaces
-)
+[Blendshape/Morph](Character%20Assembly/Blendshape%20Morph.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534885](
-Character Attachments
-)
+[Blendspaces](Character%20Assembly/Blendspaces.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534879](
-Compressing Animations
-)
+[Character Attachments](Character%20Assembly/Character%20Attachments.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26873908](
-Ground Alignment
-)
+[Compressing Animations](Character%20Assembly/Compressing%20Animations.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26873927](
-Look IK
-)
+[Ground Alignment](Character%20Assembly/Ground%20Alignment.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450891](
-Streaming Animations
-)
+[Look IK](Character%20Assembly/Look%20IK.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535363](
-Weapon Aiming
-)
+[Streaming Animations](Character%20Assembly/Streaming%20Animations.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535282](
-Wrinkle Maps
-)
+[Weapon Aiming](Character%20Assembly/Weapon%20Aiming.md)
+
+-
+[Wrinkle Maps](Character%20Assembly/Wrinkle%20Maps.md)

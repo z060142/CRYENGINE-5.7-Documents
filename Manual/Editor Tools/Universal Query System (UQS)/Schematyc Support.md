@@ -258,12 +258,6 @@ QueryID
 
 Unique ID of a live query.
 
-[#functions](
-Functions
-)
-[#signals](
-Signals
-)
-[#data-types](
-Data types
-)
+[Functions](#functions)
+[Signals](#signals)
+[Data types](#data-types)

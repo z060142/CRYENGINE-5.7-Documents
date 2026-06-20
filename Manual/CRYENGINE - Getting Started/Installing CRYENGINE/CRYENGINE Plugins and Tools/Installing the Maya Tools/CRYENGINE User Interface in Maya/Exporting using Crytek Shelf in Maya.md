@@ -38,7 +38,7 @@ and replace  the '
 *
 Pic1: Naming an object correctly
 
-[Image: /docs/static/attachments/25503330]
+![Image](https://www.cryengine.com/docs/static/attachments/25503330)
 *
 
 -
@@ -67,7 +67,7 @@ Now, group the meshes to the group that you just named '
 Pic2: Creating a group
 *
 
-[Image: /docs/static/attachments/25503331]
+![Image](https://www.cryengine.com/docs/static/attachments/25503331)
 
 -
 Click the
@@ -92,9 +92,9 @@ Add Attributes
 Pic3: Attributes added
 *
 
-[Image: /docs/static/attachments/13271328]
+![Image](https://www.cryengine.com/docs/static/attachments/13271328)
 
-[Image: /docs/static/attachments/13271329]
+![Image](https://www.cryengine.com/docs/static/attachments/13271329)
 
 -
 Select the 'cryexportnode' group.
@@ -120,7 +120,7 @@ cryexportnode_@
 Pic4: Export window
 *
 
-[Image: /docs/static/attachments/25506985]
+![Image](https://www.cryengine.com/docs/static/attachments/25506985)
 
 -
 Click the
@@ -139,9 +139,7 @@ Crytek Export
 
 An example Maya scene with the hierarchy setup for the static geometry exporting can be downloaded here:
 **
-[/docs/static/attachments/13271330](
-statictest.mb
-)
+[statictest.mb](/docs/static/attachments/13271330)
 **
 .
 
@@ -162,7 +160,7 @@ Given that Maya does not allow spaces in names you can use a double underscore (
 Pic5: Character model in Maya
 *
 
-[Image: /docs/static/attachments/13271331]
+![Image](https://www.cryengine.com/docs/static/attachments/13271331)
 
 -
 Create a group called '
@@ -223,7 +221,7 @@ skin
 Pic6: Skin geometry bound to skeleton
 
 *
-[Image: /docs/static/attachments/25503332]
+![Image](https://www.cryengine.com/docs/static/attachments/25503332)
 
 -
 Ensure you have bound the skin and the bones so that when you animate a joint the skin is animated relative to it.
@@ -284,9 +282,9 @@ Damping
 Pic7: ProxyNoDraw and other Extra Attributes
 
 *
-[Image: /docs/static/attachments/13271329]
+![Image](https://www.cryengine.com/docs/static/attachments/13271329)
 
-[Image: /docs/static/attachments/13271328]
+![Image](https://www.cryengine.com/docs/static/attachments/13271328)
 
 -
 Select the 'cryexportnode' group, and then select the
@@ -331,14 +329,12 @@ skeleton (*.chr) and its skinned meshes (*.skin)
 
 *
 *
-[Image: /docs/static/attachments/25503333]
+![Image](https://www.cryengine.com/docs/static/attachments/25503333)
 *
 
 For more information on the character pipeline, please refer to this section for more information:
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307995](
-Character Authoring in Maya
-)
+[Character Authoring in Maya](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/DCC%20Setup%20(animated)/Character%20Authoring%20in%20Maya.md)
 .
 **
 
@@ -368,9 +364,5 @@ Save
 **
 .
 
-[#maya-object-export](
-Maya Object Export
-)
-[#maya-bone-export](
-Maya Bone Export
-)
+[Maya Object Export](#maya-object-export)
+[Maya Bone Export](#maya-bone-export)

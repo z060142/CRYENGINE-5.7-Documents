@@ -12,7 +12,7 @@ Overview
 
 The main menu is where you can access everything from basic file operations and display options, to more advanced features such as terrain and level editing tools and AI settings.
 
-[Image: /docs/static/attachments/35953627]
+![Image](https://www.cryengine.com/docs/static/attachments/35953627)
 
 Some of these commands can also be executed in the ToolBar or by using keyboard shortcuts.
 
@@ -324,9 +324,7 @@ Coordinates
  |
 Changes the Coordinate System. For more information on Coordinate Systems,
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308619](
-click here
-)
+[click here](../CRYENGINE%20V%20Basics/Coordinate%20Systems.md)
 **
 .
 
@@ -1152,9 +1150,7 @@ Regenerates all Cover Surfaces placed in a level.
  |
 
 Please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534274](
-Navigation (MNM)
-)
+[Navigation (MNM)](../../../AI%20and%20Navigation/AI%20Overview/Navigation%20(MNM).md)
  documentation for more information on Navigation Areas, NavMeshes and Agent Types.
 
  |
@@ -1285,9 +1281,7 @@ The Tools Menu
 
 This menu contains all the different tools that exist within the CRYENGINE Sandbox Editor. These tools have their own pages explaining what they do, which you can find
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872552](
-here
-)
+[here](../../../Editor%20Tools.md)
 **
 .
 
@@ -1735,9 +1729,7 @@ Go to Documentation
  |
 Opens the
 **
-[/docs](
-http://docs.cryengine.com
-)
+[http://docs.cryengine.com](/docs)
 **
  website in your default browser.
 
@@ -1777,13 +1769,13 @@ Menu Search
 
 To make it easier for users to find the tool or action that they're looking for, there is a Menu Search option in the top-right corner of the interface:
 
-[Image: /docs/static/attachments/35953626]
+![Image](https://www.cryengine.com/docs/static/attachments/35953626)
 
 This search bar lets you look for anything that is located within the Menu Bar and shows you where it is. It works the same way as other search bars in the engine; simply type part of the tool or action you're looking for and it will filter out anything in the Menu Bar with the text that you typed.
 
 Say that you're looking for something with "selection". You type in part of the word and all the menu options with that text in it will be displayed:
 
-[Image: /docs/static/attachments/35953625]
+![Image](https://www.cryengine.com/docs/static/attachments/35953625)
 
 When you've found the menu option you're looking for, you can either click on it, or navigate through the list with the
 **
@@ -1803,33 +1795,13 @@ Enter
 **
 , to execute it.
 
-[#the-file-menu](
-The File Menu
-)
-[#the-edit-menu](
-The Edit Menu
-)
-[#the-level-menu](
-The Level Menu
-)
-[#the-display-menu](
-The Display Menu
-)
-[#the-game-menu](
-The Game Menu
-)
-[#the-debug-menu](
-The Debug Menu
-)
-[#the-tools-menu](
-The Tools Menu
-)
-[#the-layout-menu](
-The Layout Menu
-)
-[#the-help-menu](
-The Help Menu
-)
-[#menu-search](
-Menu Search
-)
+[The File Menu](#the-file-menu)
+[The Edit Menu](#the-edit-menu)
+[The Level Menu](#the-level-menu)
+[The Display Menu](#the-display-menu)
+[The Game Menu](#the-game-menu)
+[The Debug Menu](#the-debug-menu)
+[The Tools Menu](#the-tools-menu)
+[The Layout Menu](#the-layout-menu)
+[The Help Menu](#the-help-menu)
+[Menu Search](#menu-search)

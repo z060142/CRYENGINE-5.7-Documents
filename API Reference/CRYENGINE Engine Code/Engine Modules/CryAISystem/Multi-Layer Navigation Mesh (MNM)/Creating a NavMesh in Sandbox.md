@@ -12,11 +12,11 @@ Creating the NavMesh shape
 
 To create a NavMesh shape, go to the RollupBar in Sandbox, and choose "AI" and then "Navigation Area":
 
-[Image: /docs/static/attachments/24150057]
+![Image](https://www.cryengine.com/docs/static/attachments/24150057)
 
 You can then draw the shape of the NavMesh like any other shape in Sandbox:
 
-[Image: /docs/static/attachments/24150056]
+![Image](https://www.cryengine.com/docs/static/attachments/24150056)
 
 ##
 Agent types
@@ -27,7 +27,7 @@ Depending on your game, you might have to support characters of different sizes 
 `
  file. It's possible to have multiple agent types defined, each representing a separate "layer" in the MNM. This example comes with 2 agent types:
 
-[Image: /docs/static/attachments/24150067]
+![Image](https://www.cryengine.com/docs/static/attachments/24150067)
 
 Attribute
  |
@@ -123,8 +123,8 @@ Exclusion areas
 
 In order to explicitly carve out regions of an NavMesh where no navigable space is desired, place another smaller NavMesh in the world and ensure the "Exclusion [x]" property of that NavMesh is checked:
 
-[Image: /docs/static/attachments/24150064]
+![Image](https://www.cryengine.com/docs/static/attachments/24150064)
 
-[Image: /docs/static/attachments/24150065]
+![Image](https://www.cryengine.com/docs/static/attachments/24150065)
 
-[Image: /docs/static/attachments/24150066]
+![Image](https://www.cryengine.com/docs/static/attachments/24150066)

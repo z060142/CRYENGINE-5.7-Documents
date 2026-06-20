@@ -8,14 +8,10 @@
 ## Content
 
 Related:
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306382](
-Action Maps
-)
+[Action Maps](/docs/static/engines/cryengine-5/categories/23756813/pages/23306382)
 
 For information on controller mapping, head over to the documentation here:
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306384](
-Setting Up Controls and Action Maps
-)
+[Setting Up Controls and Action Maps](../../CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/Setting%20Up%20Controls%20and%20Action%20Maps.md)
 
 ##
 Input System Overview

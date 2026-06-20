@@ -11,15 +11,13 @@
 Overview
 
 In this tutorial, we will be adding the "sprinting" functionality to the player character that was built in the first part of this series (
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
 )
 .
 
 By the end of this tutorial, your player character will have two different travel speeds, walking and running, which you will be able to configure directly within CRYENGINE.
 
-[Image: /docs/static/attachments/105157481]
+![Image](https://www.cryengine.com/docs/static/attachments/105157481)
 
 You will be building upon the
 *
@@ -34,9 +32,7 @@ Player.h
 *
  files built
 in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
  tutorial
 .
 
@@ -64,7 +60,7 @@ Game.sln,
 *
 which can be found within the solution folder of your project's main directory:
 
-[Image: /docs/static/attachments/101679386]
+![Image](https://www.cryengine.com/docs/static/attachments/101679386)
 
 *
 The Game.sln file within the solutions folder
@@ -76,9 +72,7 @@ f you have not generated a solution, or are unsure about the location of the
 Game.sln
 *
  file, follow the first steps of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
  tutorial.
 
 -
@@ -102,7 +96,7 @@ Player.h
 Player.cpp:
 *
 *
-[Image: /docs/static/attachments/101679387]
+![Image](https://www.cryengine.com/docs/static/attachments/101679387)
 *
 
 *
@@ -126,7 +120,7 @@ namespace
 `
  for the Components, and beneath that type in their classes within curly brackets:
 
-[Image: /docs/static/attachments/101679388]
+![Image](https://www.cryengine.com/docs/static/attachments/101679388)
 
 *
 *
@@ -193,7 +187,7 @@ Sprinting
 
 ```
 
-[Image: /docs/static/attachments/101679390]
+![Image](https://www.cryengine.com/docs/static/attachments/101679390)
 
 *
 Finished EPlayerState enumerator
@@ -239,7 +233,7 @@ float m_runSpeed;
 
 ```
 
-[Image: /docs/static/attachments/101679391]
+![Image](https://www.cryengine.com/docs/static/attachments/101679391)
 
 *
 The private class with
@@ -284,7 +278,7 @@ desc.AddMember(&CPlayerComponent::m_walkSpeed, 'pws', "playerwalkspeed", "Player
 
 ```
 
-[Image: /docs/static/attachments/101679399]
+![Image](https://www.cryengine.com/docs/static/attachments/101679399)
 
 *
 Replaced m_movementSpeed line
@@ -321,7 +315,7 @@ desc.AddMember(&CPlayerComponent::m_runSpeed, 'prs', "playerrunspeed", "Player R
 
 ```
 
-[Image: /docs/static/attachments/101679400]
+![Image](https://www.cryengine.com/docs/static/attachments/101679400)
 
 *
 The completed
@@ -382,7 +376,7 @@ m_pInputComponent->BindAction("player", "sprint", eAID_KeyboardMouse, eKI_LShift
 
 ```
 
-[Image: /docs/static/attachments/101679401]
+![Image](https://www.cryengine.com/docs/static/attachments/101679401)
 
 *
 The name of the input has been changed to "sprint", and the
@@ -410,7 +404,7 @@ RegisterAction
 `
  line, and move the curly brackets below it:
 
-[Image: /docs/static/attachments/101679402]
+![Image](https://www.cryengine.com/docs/static/attachments/101679402)
 *
 
 What the restructured line should look like
@@ -445,7 +439,7 @@ eAAM_OnPress
 `
  (the input) is pressed, the player will sprint”.
 
-[Image: /docs/static/attachments/101679403]
+![Image](https://www.cryengine.com/docs/static/attachments/101679403)
 
 *
 Restructured line with the if statement
@@ -478,7 +472,7 @@ eAAM_OnPress
 `
  (the input) is not pressed, the player will walk”.
 
-[Image: /docs/static/attachments/101679404]
+![Image](https://www.cryengine.com/docs/static/attachments/101679404)
 
 *
 The completed
@@ -516,7 +510,7 @@ float playerMoveSpeed = m_currentPlayerState == EPlayerState::Sprinting ? m_runS
 
 ```
 
-[Image: /docs/static/attachments/101679410]
+![Image](https://www.cryengine.com/docs/static/attachments/101679410)
 
 *
 Adding sprint logic
@@ -563,7 +557,7 @@ to the name of the player state member variable "
 playerMoveSpeed":
 
 `
-[Image: /docs/static/attachments/101679411]
+![Image](https://www.cryengine.com/docs/static/attachments/101679411)
 *
 T
 he final
@@ -590,9 +584,7 @@ Once the solution is built, you can test your player character in the Sandbox Ed
 
 -
 Open the level you created in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
  tutorial
 , and select the previously placed
 Player Entity.
@@ -612,7 +604,7 @@ CPlayerComponent
 **
  properties, where you should be able to configure the character's walking and running speed.
 
-[Image: /docs/static/attachments/101679414]
+![Image](https://www.cryengine.com/docs/static/attachments/101679414)
 
 *
 CPlayerComponent Entity Component properties
@@ -652,13 +644,9 @@ Ctrl + G
 Conclusion
 
 This concludes Part 2 of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
  tutorial. To learn more about C++ in CRYENGINE and/or other topics, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307414](
-CRYENGINE V Manual
-)
+[CRYENGINE V Manual](/docs/static/engines/cryengine-5/categories/23756816/pages/23307414)
 .
 
 ##
@@ -666,35 +654,19 @@ Video Tutorial
 
 You can also follow this tutorial series in video form on our YouTube channel:
 
+[Embed: https://www.youtube.com/watch?v=xWExyPNIW30]
+
 ##
 Related Information
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Tutorial - Creating a Player using C++
-)
+[Tutorial - Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Tutorial - Coding in C++ - Creating a Player Controller - CRYENGINE Summer Academy
-)
+[Tutorial - Coding in C++ - Creating a Player Controller - CRYENGINE Summer Academy](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
 
-[#prerequisites](
-Prerequisites
-)
-[#getting-started](
-Getting Started
-)
-[#adding-sprinting](
-Adding Sprinting
-)
-[#testing-the-character](
-Testing the Character
-)
-[#conclusion](
-Conclusion
-)
-[#video-tutorial](
-Video Tutorial
-)
-[#related-information](
-Related Information
-)
+[Prerequisites](#prerequisites)
+[Getting Started](#getting-started)
+[Adding Sprinting](#adding-sprinting)
+[Testing the Character](#testing-the-character)
+[Conclusion](#conclusion)
+[Video Tutorial](#video-tutorial)
+[Related Information](#related-information)

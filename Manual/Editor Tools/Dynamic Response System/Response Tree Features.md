@@ -40,7 +40,7 @@ true
  negates the logic of each condition that has been assigned to the respective Conditions list.
 Users can assign the following conditions to a Response:
 
-[Image: /docs/static/attachments/44108002]
+![Image](https://www.cryengine.com/docs/static/attachments/44108002)
 
 *
 Conditions
@@ -537,7 +537,7 @@ VariableToVariable
 
  |
 **
-[Image: /docs/static/attachments/44970822]
+![Image](https://www.cryengine.com/docs/static/attachments/44970822)
 
 **
 *
@@ -683,9 +683,7 @@ equal to
 less
 **
  than this value, the action(s) and/or the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/38928391#ResponseTreeFeatures-followup](
-Follow up Responses
-)
+[Follow up Responses](Response%20Tree%20Features.md#ResponseTreeFeatures-followup)
  are triggered.
 
 -
@@ -719,7 +717,7 @@ Actions
 The following is a list of all available default actions that can be added to a response.
 
 *
-[Image: /docs/static/attachments/44108003]
+![Image](https://www.cryengine.com/docs/static/attachments/44108003)
 
 Actions
 *
@@ -1330,7 +1328,7 @@ Line Flags
 , you can choose several Line Flags:
 
 *
-[Image: /docs/static/attachments/44108006]
+![Image](https://www.cryengine.com/docs/static/attachments/44108006)
 *
 
 These Line Flags can be used to let the action fire new signals at specific events such as line started, line canceled, line skipped. This allows the actor to react with another response when a line was for example skipped.
@@ -1457,9 +1455,7 @@ Audio
 Triggers
 **
 , please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../Audio%20Controls%20Editor.md)
  page.
 
 -
@@ -1520,9 +1516,7 @@ and
 Switch States
 **
 , please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../Audio%20Controls%20Editor.md)
  page
 
 -
@@ -1561,9 +1555,7 @@ For more information about
 Parameters
 **
 , please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../Audio%20Controls%20Editor.md)
  page.
 
 -
@@ -1600,12 +1592,6 @@ Users can specify multiple Follow up responses for any given signal which will e
 
 The DRS always executes the Follow up response with the most conditions that have been met. When more than one Follow up response is available with the same number of conditions, the DRS picks a response randomly.
 
-[#conditions](
-Conditions
-)
-[#actions](
-Actions
-)
-[#follow-up-responses](
-Follow Up Responses
-)
+[Conditions](#conditions)
+[Actions](#actions)
+[Follow Up Responses](#follow-up-responses)

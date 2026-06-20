@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [EaaS 3.7.0](EaaS 3.7/EaaS 3.7.0.md)
+- [EaaS 3.7.0](EaaS%203.7/EaaS%203.7.0.md)
 
 ## Content
 
@@ -26,7 +26,7 @@ branch
  in which we're archiving previous releases, starting from 3.6.5.
 
 To do this, right click on "CRYENGINE" (not Sandbox) in your Steam library, click on Properties, click on "BETAS" tab and then you'll be presented with a
-[Image: /docs/static/attachments/44963005]
+![Image](https://www.cryengine.com/docs/static/attachments/44963005)
  where you can opt-into different engine revisions.
 
 In order to return to the "main"
@@ -41,6 +41,4 @@ You must opt in to the Beta on the CRYENGINE app, not the CRYENGINE Sandbox app.
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962947](
-EaaS 3.7.0
-)
+[EaaS 3.7.0](EaaS%203.7/EaaS%203.7.0.md)

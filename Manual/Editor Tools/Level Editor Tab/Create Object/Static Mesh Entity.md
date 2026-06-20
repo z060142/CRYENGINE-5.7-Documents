@@ -26,9 +26,7 @@ It is similar to a Basic Entity, but simpler, more efficient, and has fewer conf
 
 Navigate through the object library browser and drag the desired object to the scene.
 For more information, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966029](
-Entity Components
-)
+[Entity Components](../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)
 .
 
-[Image: /docs/static/attachments/53543131]
+![Image](https://www.cryengine.com/docs/static/attachments/53543131)

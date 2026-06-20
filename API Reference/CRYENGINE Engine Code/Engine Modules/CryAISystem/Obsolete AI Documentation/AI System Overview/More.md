@@ -28,4 +28,4 @@ Note who is hostile to who.
 ##
 Example 2: AI formations
 
-[Image: /docs/static/attachments/23461220]
+![Image](https://www.cryengine.com/docs/static/attachments/23461220)

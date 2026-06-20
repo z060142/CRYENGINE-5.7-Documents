@@ -380,21 +380,9 @@ foreach
 **
 .
 
-[#code-formatting](
-Code formatting
-)
-[#uncrustify-code-formatter](
-Uncrustify code formatter
-)
-[#common-rules](
-Common rules
-)
-[#naming-conventions](
-Naming conventions
-)
-[#files](
-Files
-)
-[#code-quality](
-Code quality
-)
+[Code formatting](#code-formatting)
+[Uncrustify code formatter](#uncrustify-code-formatter)
+[Common rules](#common-rules)
+[Naming conventions](#naming-conventions)
+[Files](#files)
+[Code quality](#code-quality)

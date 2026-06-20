@@ -14,7 +14,7 @@ In the Display Options you can find various options to tweak what is displayed i
 
 *
 
-[Image: /docs/static/attachments/44961836]
+![Image](https://www.cryengine.com/docs/static/attachments/44961836)
 *
 
 The Display Options are split up in several separate sections:
@@ -550,39 +550,15 @@ Bottom Color
 Change the bottom color of the gradient background.
  |
 
-[#options](
-Options
-)
-[#animation](
-Animation
-)
-[#rendering](
-Rendering
-)
-[#skeleton](
-Skeleton
-)
-[#camera](
-Camera
-)
-[#movement-smoothing](
-Movement Smoothing
-)
-[#follow-joint](
-Follow Joint
-)
-[#secondary-animation](
-Secondary Animation
-)
-[#physics](
-Physics
-)
-[#grid](
-Grid
-)
-[#lighting](
-Lighting
-)
-[#background](
-Background
-)
+[Options](#options)
+[Animation](#animation)
+[Rendering](#rendering)
+[Skeleton](#skeleton)
+[Camera](#camera)
+[Movement Smoothing](#movement-smoothing)
+[Follow Joint](#follow-joint)
+[Secondary Animation](#secondary-animation)
+[Physics](#physics)
+[Grid](#grid)
+[Lighting](#lighting)
+[Background](#background)

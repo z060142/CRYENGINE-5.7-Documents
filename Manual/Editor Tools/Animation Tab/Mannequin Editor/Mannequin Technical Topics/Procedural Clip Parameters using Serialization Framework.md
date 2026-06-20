@@ -15,15 +15,11 @@ The Procedural Clip (runtime structure) and Procedural Clip Parameter (static da
 The Procedural Clip Parameters in the old format consisted of a fixed number of strings and floats. With the new format, implementers of Procedural Clips have control on the types, names and the number of parameters that they require, and on how those are presented to the user in the UI. This is achieved by having each Procedural Clip define the specific structure that it requires for its parameters.
 
 Projects updating to this Mannequin version must update their code and data structures. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308480#ProceduralClipParametersusingSerializationFramework-OverviewConversion](
-Overview of Required Work for Conversion to New Structure
-)
+[Overview of Required Work for Conversion to New Structure](Procedural%20Clip%20Parameters%20using%20Serialization%20Framework.md#ProceduralClipParametersusingSerializationFramework-OverviewConversion)
  for more detailed information.
 
 The
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306451](
-Serialization Library
-)
+[Serialization Library](../../../../../API%20Reference/CRYENGINE%20Engine%20Code/Engine%20Modules/CryCommon/Serialization%20Library.md)
  is used to serialize Procedural Clip Parameters both to disk and to the UI. For this to work, we must write a Serialize function for the Procedural Clip Parameter structure.
 
 The ProcDefs.xml file is no longer needed.
@@ -33,9 +29,7 @@ The xml format for ADB files has changed. Some remarks:
 -
 It is possible to load old ADB files.
 For loading ADB files saved in the old xml format a conversion file is necessary (See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308480#ProceduralClipParametersusingSerializationFramework-DataConversion](
-Example of Data Conversion from Old Procedural Clips to New Procedural Clips
-)
+[Example of Data Conversion from Old Procedural Clips to New Procedural Clips](Procedural%20Clip%20Parameters%20using%20Serialization%20Framework.md#ProceduralClipParametersusingSerializationFramework-DataConversion)
  for more details)
 
 -
@@ -151,14 +145,10 @@ It is necessary to change the code to update Procedural Clips Parameters structu
 For more details see the following sections:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308480#ProceduralClipParametersusingSerializationFramework-ParameterStructureComparison](
-Comparison of Old Procedural Clip Parameter and New Procedural Clip Parameter Structure
-)
+[Comparison of Old Procedural Clip Parameter and New Procedural Clip Parameter Structure](Procedural%20Clip%20Parameters%20using%20Serialization%20Framework.md#ProceduralClipParametersusingSerializationFramework-ParameterStructureComparison)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308480#ProceduralClipParametersusingSerializationFramework-CodeConversion](
-Example of Code Conversion from Old Procedural Clips to New Procedural Clips
-)
+[Example of Code Conversion from Old Procedural Clips to New Procedural Clips](Procedural%20Clip%20Parameters%20using%20Serialization%20Framework.md#ProceduralClipParametersusingSerializationFramework-CodeConversion)
 
 ##
 Update animation databases
@@ -186,9 +176,7 @@ Once everything is converted "ProcClipConversion.xml" is not needed anymore.
 For more details see the following section:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308480#ProceduralClipParametersusingSerializationFramework-DataConversion](
-Example of Data Conversion from Old Procedural Clips to New Procedural Clips
-)
+[Example of Data Conversion from Old Procedural Clips to New Procedural Clips](Procedural%20Clip%20Parameters%20using%20Serialization%20Framework.md#ProceduralClipParametersusingSerializationFramework-DataConversion)
 
 ##
 Example of Code Conversion from Old Procedural Clips to New Procedural Clips
@@ -327,9 +315,7 @@ ar(Serialization::Decorators::Range<uint32>(layer, 0, 15), "AnimationLayer", "An
 ```
 
 You can find more information about the serialization function here:
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306451](
-Serialization Library
-)
+[Serialization Library](../../../../../API%20Reference/CRYENGINE%20Engine%20Code/Engine%20Modules/CryCommon/Serialization%20Library.md)
 .
 
 ##
@@ -452,15 +438,7 @@ It is ok to ignore the converter failing when encountering an old Procedural Cli
 
 ```
 
-[#comparison-of-old-procedural-clip-parameter-and-new-procedural-clip-parameter-structure](
-Comparison of Old Procedural Clip Parameter and New Procedural Clip Parameter Structure
-)
-[#overview-of-required-work-for-conversion-to-new-structure](
-Overview of Required Work for Conversion to New Structure
-)
-[#example-of-code-conversion-from-old-procedural-clips-to-new-procedural-clips](
-Example of Code Conversion from Old Procedural Clips to New Procedural Clips
-)
-[#example-of-data-conversion-from-old-procedural-clips-to-new-procedural-clips](
-Example of Data Conversion from Old Procedural Clips to New Procedural Clips
-)
+[Comparison of Old Procedural Clip Parameter and New Procedural Clip Parameter Structure](#comparison-of-old-procedural-clip-parameter-and-new-procedural-clip-parameter-structure)
+[Overview of Required Work for Conversion to New Structure](#overview-of-required-work-for-conversion-to-new-structure)
+[Example of Code Conversion from Old Procedural Clips to New Procedural Clips](#example-of-code-conversion-from-old-procedural-clips-to-new-procedural-clips)
+[Example of Data Conversion from Old Procedural Clips to New Procedural Clips](#example-of-data-conversion-from-old-procedural-clips-to-new-procedural-clips)

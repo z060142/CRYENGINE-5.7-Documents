@@ -91,7 +91,7 @@ Properties Table
 
 The Properties table needs to be placed inside the entity class table. It will be parsed by the Sandbox Editor and provides level editor a way to change entity class parameters through the user interface.
 
-[Image: /docs/static/attachments/23461422]
+![Image](https://www.cryengine.com/docs/static/attachments/23461422)
 
 In order to have the parameters listed in the table above, the following Properties table.
 
@@ -273,7 +273,7 @@ You can add special comments behind a variable which can be utilized by the engi
 
 For example:
 
-[Image: /docs/static/attachments/23461421]
+![Image](https://www.cryengine.com/docs/static/attachments/23461421)
 
 The comment...
 
@@ -300,26 +300,12 @@ In case of a decimal it will us a step of 0.01, this defines the fidelity of whi
 Functions
 
 The Script Entity can include several callback functions called by the engine or game system. Look at the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306634](
-Callback References
-)
+[Callback References](/docs/static/engines/cryengine-5/categories/23756813/pages/23306634)
  for more information.
 
-[#ent-file](
-Ent File
-)
-[#lua-script](
-Lua Script
-)
-[#properties-table](
-Properties Table
-)
-[#editor-table](
-Editor Table
-)
-[#special-comments](
-Special Comments
-)
-[#functions](
-Functions
-)
+[Ent File](#ent-file)
+[Lua Script](#lua-script)
+[Properties Table](#properties-table)
+[Editor Table](#editor-table)
+[Special Comments](#special-comments)
+[Functions](#functions)

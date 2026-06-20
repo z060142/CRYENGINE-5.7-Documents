@@ -12,7 +12,7 @@ AABB
 
 Used to draw an AABB bounding box.
 
-[Image: /docs/static/attachments/28276965]
+![Image](https://www.cryengine.com/docs/static/attachments/28276965)
 
 **
 Inputs
@@ -65,7 +65,7 @@ Cone
 
 Used to draw a cone for debugging purposes.
 
-[Image: /docs/static/attachments/28276966]
+![Image](https://www.cryengine.com/docs/static/attachments/28276966)
 
 **
 Inputs
@@ -132,7 +132,7 @@ Cylinder
 
 Used to draw a Cylinder for debugging purposes.
 
-[Image: /docs/static/attachments/28276967]
+![Image](https://www.cryengine.com/docs/static/attachments/28276967)
 
 **
 Inputs
@@ -199,7 +199,7 @@ Direction
 
 Used to draw an arrow for debugging purposes.
 
-[Image: /docs/static/attachments/28276963]
+![Image](https://www.cryengine.com/docs/static/attachments/28276963)
 
 **
 Inputs
@@ -257,15 +257,15 @@ Number of seconds the arrow will be visible for
 ##
 EntityTag
 
-[Image: /docs/static/attachments/28276968]
+![Image](https://www.cryengine.com/docs/static/attachments/28276968)
 
 Formerly "DisplayTag". You can use this node to debug entities within a level. When you setup an entity with the DisplayTag it will printout its EntityID above the object in the world.
 
-[Image: /docs/static/attachments/28869750]
+![Image](https://www.cryengine.com/docs/static/attachments/28869750)
 
 In the above example, we are displaying the EntityID of the Player and Human on game start.
 
-[Image: /docs/static/attachments/28869751]
+![Image](https://www.cryengine.com/docs/static/attachments/28869751)
 
 In this example, we are using the
 Draw:EntityTag
@@ -340,9 +340,9 @@ EntityTagAdvanced
 
 Formerly "DisplayTagAdv". This node is similar to the Draw:EntityTag node, but with more options for controlling the output of the message.
 
-[Image: /docs/static/attachments/28869752]
+![Image](https://www.cryengine.com/docs/static/attachments/28869752)
 
-[Image: /docs/static/attachments/28276964]
+![Image](https://www.cryengine.com/docs/static/attachments/28276964)
 
 In the above example like before we are outputting the health value of Human to the Draw:EntityTagAdvanced node.
 
@@ -427,7 +427,7 @@ Line
 
 Used to draw a line.
 
-[Image: /docs/static/attachments/28276969]
+![Image](https://www.cryengine.com/docs/static/attachments/28276969)
 
 **
 Inputs
@@ -494,7 +494,7 @@ PlanarDisc
 
 Used to draw a disc.
 
-[Image: /docs/static/attachments/28276970]
+![Image](https://www.cryengine.com/docs/static/attachments/28276970)
 
 **
 Inputs
@@ -554,7 +554,7 @@ Sphere
 
 Used to draw a sphere.
 
-[Image: /docs/static/attachments/28276971]
+![Image](https://www.cryengine.com/docs/static/attachments/28276971)
 
 **
 Inputs
@@ -602,30 +602,12 @@ Float
 Number of seconds the circle will be visible for
  |
 
-[#aabb](
-AABB
-)
-[#cone](
-Cone
-)
-[#cylinder](
-Cylinder
-)
-[#direction](
-Direction
-)
-[#entitytag](
-EntityTag
-)
-[#entitytagadvanced](
-EntityTagAdvanced
-)
-[#line](
-Line
-)
-[#planardisc](
-PlanarDisc
-)
-[#sphere](
-Sphere
-)
+[AABB](#aabb)
+[Cone](#cone)
+[Cylinder](#cylinder)
+[Direction](#direction)
+[EntityTag](#entitytag)
+[EntityTagAdvanced](#entitytagadvanced)
+[Line](#line)
+[PlanarDisc](#planardisc)
+[Sphere](#sphere)

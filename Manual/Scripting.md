@@ -6,20 +6,15 @@
 
 ## Child Pages
 
-- [Flow Graph Overview](Scripting/Flow Graph Overview.md)
+- [Flow Graph Overview](Scripting/Flow%20Graph%20Overview.md)
 
 ## Content
 
-[Image: /docs/static/attachments/26955948]
+![Image](https://www.cryengine.com/docs/static/attachments/26955948)
 
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/26955951]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/26955951)](https://www.cryengine.com/support)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26877242](
-[Image: /docs/static/attachments/29935061]
-Tutorial - Getting Started With Flow Graph
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/29935061) Tutorial - Getting Started With Flow Graph](/docs/static/engines/cryengine-5/categories/23756816/pages/26877242)
 
 ##
 Scripting Tutorial
@@ -28,55 +23,37 @@ In this Scripting tutorial we will learn how to display variables on the screen 
 ! After learning these steps and completing the task you can then go on to more difficult topics like writing to XML or creating your own Flow Graph nodes for extra game mechanics.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591067](
-1 - Flow Graph Scene Setup
-)
+[1 - Flow Graph Scene Setup](Tutorials/Game%20Logic/Flow%20Graph%20Tutorials/Tutorial%20-%20Getting%20Started%20With%20Flow%20Graph/1%20-%20Flow%20Graph%20Scene%20Setup.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591903](
-2 - Spawning your Player
-)
+[2 - Spawning your Player](Tutorials/Game%20Logic/Flow%20Graph%20Tutorials/Tutorial%20-%20Getting%20Started%20With%20Flow%20Graph/2%20-%20Spawning%20your%20Player.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591905](
-3 - Clock Counting Down
-)
+[3 - Clock Counting Down](Tutorials/Game%20Logic/Flow%20Graph%20Tutorials/Tutorial%20-%20Getting%20Started%20With%20Flow%20Graph/3%20-%20Clock%20Counting%20Down.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591908](
-4 - Debugging
-)
+[4 - Debugging](Tutorials/Game%20Logic/Flow%20Graph%20Tutorials/Tutorial%20-%20Getting%20Started%20With%20Flow%20Graph/4%20-%20Debugging.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793935](
-5 - Breakpoints
-)
+[5 - Breakpoints](Tutorials/Game%20Logic/Flow%20Graph%20Tutorials/Tutorial%20-%20Getting%20Started%20With%20Flow%20Graph/5%20-%20Breakpoints.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591911](
-6 - Entity Communication
-)
+[6 - Entity Communication](Tutorials/Game%20Logic/Flow%20Graph%20Tutorials/Tutorial%20-%20Getting%20Started%20With%20Flow%20Graph/6%20-%20Entity%20Communication.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591916](
-7 - Flow Graph Modules
-)
-[Image: /docs/static/attachments/52593245]
+[7 - Flow Graph Modules](Tutorials/Game%20Logic/Flow%20Graph%20Tutorials/Tutorial%20-%20Getting%20Started%20With%20Flow%20Graph/7%20-%20Flow%20Graph%20Modules.md)
+![Image](https://www.cryengine.com/docs/static/attachments/52593245)
 
 ##
 Scripting Reference
 
 There are two ways that you can visually script inside of CRYENGINE V, these include the Flow Graph Tool as well as the new experimental tool known as Schematyc for entity scripting. In this regard we have linked the reference documentation for both of these toolsets to guide you on your way and introduce you to both interfaces.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph Tool
-)
+[Flow Graph Tool](Editor%20Tools/Flow%20Graph.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868211](
-Schematyc Editor (Experimental)
-)
+[Schematyc Editor (Experimental)](Editor%20Tools/Deprecated%20Tab/Schematyc%20Editor%20(Experimental).md)
 
-[Image: /docs/static/attachments/27562044]
+![Image](https://www.cryengine.com/docs/static/attachments/27562044)
 
 *
 Pic: FG Nodes Listing
@@ -87,21 +64,17 @@ Scripting Tutorials
 
 Most of the tutorials contained in the video series are houed around simple logic that you can execute to have interaction or printed text within your scene. The video tutorials provided go over specifically the printing of game clocks and housing of data for retrieval.
 
-[https://www.youtube.com/c/cryengine/search?query=flow%20graph](
-Flow Graph Scripting Video Series
-)
+[Flow Graph Scripting Video Series](https://www.youtube.com/c/cryengine/search?query=flow%20graph)
 
-[Image: /docs/static/attachments/27562045]
+![Image](https://www.cryengine.com/docs/static/attachments/27562045)
 
 *
 Pic: Interactive Object Tutorial
 *
 
-[Image: /docs/static/attachments/52593240]
+![Image](https://www.cryengine.com/docs/static/attachments/52593240)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29122332](
-[Image: /docs/static/attachments/26956992]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/26956992)](/docs/static/engines/cryengine-5/categories/23756816/pages/29122332)
 
 ##
 LightenUp

@@ -88,18 +88,10 @@ While very powerful and easy to setup up it should be kept in mind that force fe
 
 Another thing to keep in mind is where to draw the line of what should have rumble and what should not. In general nothing that wouldn't produce rumble feedback in the game itself should do so in a cinematic and vice-versa to stay consistent and not throw the player out of his/her immersion. Good examples for rumble are simulating a heartbeat in a quiet life/death situation (e.g. drowning) and heavy impacts (e.g. falling off a cliff and landing on floor 3m below). Stuff like normal footsteps etc. should not produce force feedback unless the effect is explicitly desired.
 
-[#setup](
-Setup
-)
-[#comments](
-Comments
-)
-[#setup](
-Setup
-)
-[#comments](
-Comments
-)
+[Setup](#setup)
+[Comments](#comments)
+[Setup](#setup)
+[Comments](#comments)
 
 ##
 Overview

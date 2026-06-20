@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934006]
+![Image](https://www.cryengine.com/docs/static/attachments/29934006)
 
 ##
 Overview
@@ -19,15 +19,9 @@ A user-defined property (UDP) is a property that is defined when you construct a
 
 In CryENGINE, UDP's are used for affecting and changing the Physics Properties for static objects and especially breakable assets!
 
-[#sections](
-Sections
-)
-[#setup-in-dcc-tools](
-Setup in DCC Tools
-)
-[#physics-properties-for-object-propertiesudp](
-Physics Properties for Object properties/UDP
-)
+[Sections](#sections)
+[Setup in DCC Tools](#setup-in-dcc-tools)
+[Physics Properties for Object properties/UDP](#physics-properties-for-object-propertiesudp)
 
 ##
 Setup in DCC Tools
@@ -35,16 +29,16 @@ Setup in DCC Tools
 ##
 UDP Setup in 3d max
 
-[Image: /docs/static/attachments/23994602]
+![Image](https://www.cryengine.com/docs/static/attachments/23994602)
 
 ##
 UDP Setup in Maya
 
 Click on the icon labelled "UDP" to open up the menu.
 
-[Image: /docs/static/attachments/23994603]
+![Image](https://www.cryengine.com/docs/static/attachments/23994603)
 
-[Image: /docs/static/attachments/23994604]
+![Image](https://www.cryengine.com/docs/static/attachments/23994604)
 
 ##
 A few notes for Maya users:
@@ -126,7 +120,7 @@ The second group, name it "colltype_player_group". Add a dummy poly mesh as rend
 -
 Under both group, you would add the physics proxy meshes for collision. Add the material attribute Physicalised "ProxyNoDraw" to these proxies. The Maya hierarchy should be looking like this example here:
 
-[Image: /docs/static/attachments/23994601]
+![Image](https://www.cryengine.com/docs/static/attachments/23994601)
  |
 
 box

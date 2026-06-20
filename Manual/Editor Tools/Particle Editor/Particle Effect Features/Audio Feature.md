@@ -22,9 +22,7 @@ Real-Time-Parameter-Controls (RTPC)
 Contains the Real-Time-Parameter-Controls (RTPC) settings for CRYENGINE's Audio system.
 RTPC are audio attributes that can control certain aspects of sound such as pitch, volume, filter cutoffs, etc.
 For more information about RTPC's, please refer to CRYENGINE's
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964844](
-Audio documentation
-)
+[Audio documentation](../../../Audio.md)
 .
 
 Property
@@ -53,9 +51,7 @@ Value
 
  |
 Allows setting a value or curve in an advanced behavior. This value supports modifiers so that advance interactions can be had with the effect and the game scene. Please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
  for more details on how to create advanced effects.
 
  |
@@ -170,12 +166,6 @@ GPU Support
 
 Since there is no communication between GPU particles and the host, audio events are not supported for GPU particles.
 
-[#real-time-parameter-controls-rtpc](
-Real-Time-Parameter-Controls (RTPC)
-)
-[#trigger](
-Trigger
-)
-[#gpu-support](
-GPU Support
-)
+[Real-Time-Parameter-Controls (RTPC)](#real-time-parameter-controls-rtpc)
+[Trigger](#trigger)
+[GPU Support](#gpu-support)

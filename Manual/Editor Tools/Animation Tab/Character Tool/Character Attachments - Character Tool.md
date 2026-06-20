@@ -27,7 +27,7 @@ Make sure that you have have the character asset entry selected. You can either 
 
 Using the Assets panel:
 
-[Image: /docs/static/attachments/44960415]
+![Image](https://www.cryengine.com/docs/static/attachments/44960415)
 
 *
 Character in Assets panel
@@ -38,7 +38,7 @@ Attachment List and Properties
 
 Now you can observe the list of existing attachments (if any) in the Properties Panel:
 
-[Image: /docs/static/attachments/44960418]
+![Image](https://www.cryengine.com/docs/static/attachments/44960418)
 
 *
 Attachments list
@@ -46,7 +46,7 @@ Attachments list
 
 By clicking the arrow to the left, this expands the attachments properties.
 
-[Image: /docs/static/attachments/44960419]
+![Image](https://www.cryengine.com/docs/static/attachments/44960419)
 
 *
 Attachment expanded
@@ -78,7 +78,7 @@ Using
 Add
 **
 , appends the new attachment to the bottom of the list.
-[Image: /docs/static/attachments/44960420]
+![Image](https://www.cryengine.com/docs/static/attachments/44960420)
 
 *
 Insert Attachment
@@ -86,7 +86,7 @@ Insert Attachment
 
 Or ordered directly in the list via the right click context menu:
 
-[Image: /docs/static/attachments/44960421]
+![Image](https://www.cryengine.com/docs/static/attachments/44960421)
 
 *
 Insert through context menu
@@ -134,23 +134,19 @@ PRow
 Vcloth 2.0
 **
  - see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29799532](
-here
-)
+[here](../../../Physics/VCloth%202.0.md)
 .
 
 Example character with a fully configured attachment list:
 
-[Image: /docs/static/attachments/44960430]
+![Image](https://www.cryengine.com/docs/static/attachments/44960430)
 
 *
 Fully set up character
 *
 
 For more information please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450433](
-Attachment System Tutorial - Character Tool
-)
+[Attachment System Tutorial - Character Tool](Attachment%20System%20Tutorial%20-%20Character%20Tool.md)
 
 for how to setup and use these attachment correctly.
 
@@ -194,7 +190,7 @@ Click
 Create/Edit Main Character Proxies
 **
 
-[Image: /docs/static/attachments/36849211]
+![Image](https://www.cryengine.com/docs/static/attachments/36849211)
  at the top of the Character Tool window.
 
 This adds all existing proxies as editable attachments (named $ + joint name).
@@ -220,7 +216,7 @@ up to already physicalized ones
 *
 , and approximates it with a primitive. Therefore, proxies should be created from "leaves" to the root:
 
-[Image: /docs/static/attachments/44960433]
+![Image](https://www.cryengine.com/docs/static/attachments/44960433)
 
 *
 Proxy editing
@@ -273,7 +269,7 @@ Mesh.
 -
 The proxy will now look much more detailed:
 
-[Image: /docs/static/attachments/44960437]
+![Image](https://www.cryengine.com/docs/static/attachments/44960437)
 
 *
 Mesh proxies
@@ -282,7 +278,7 @@ Mesh proxies
 If you think the polygon count for this proxy is too high or not high enough, you can change it with the Mesh Simplification property:
 
 *
-[Image: /docs/static/attachments/44960438]
+![Image](https://www.cryengine.com/docs/static/attachments/44960438)
 
 Mesh Simplification 0, 2, and 5
 *
@@ -298,11 +294,9 @@ This is especially useful for performance reasons, because when a character is d
 Creating Ragdoll Proxies
 
 Click the Edit Ragdoll Proxies button
-[Image: /docs/static/attachments/36849212]
+![Image](https://www.cryengine.com/docs/static/attachments/36849212)
 . The process for creating Ragdoll Proxies is then the same as for creating Physics Proxies (
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869398#CharacterAttachments-CharacterTool-CreatingPhysProxies](
-see above
-)
+[see above](Character%20Attachments%20-%20Character%20Tool.md#CharacterAttachments-CharacterTool-CreatingPhysProxies)
 ).
 
 While it's possible to edit and switch between the two multiple times, only the currently selected proxy set will be saved to disk when saving the character (this way it's possible to discard saving ragdoll proxies if it turns out the character is fine with having a single set of proxies). Similarly, the
@@ -315,15 +309,7 @@ Keep in mind that if LoD 1 (ragdoll) proxies are requested and not present yet, 
 LoD
 0 (main) proxies.
 
-[#selecting-the-character](
-Selecting the Character
-)
-[#attachment-list-and-properties](
-Attachment List and Properties
-)
-[#adding-new-attachments](
-Adding New Attachments
-)
-[#attachment-types](
-Attachment Types
-)
+[Selecting the Character](#selecting-the-character)
+[Attachment List and Properties](#attachment-list-and-properties)
+[Adding New Attachments](#adding-new-attachments)
+[Attachment Types](#attachment-types)

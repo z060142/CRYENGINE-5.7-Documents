@@ -6,17 +6,15 @@
 
 ## Child Pages
 
-- [HTC Vive](Virtual Reality/HTC Vive.md)
-- [Oculus Rift](Virtual Reality/Oculus Rift.md)
-- [OSVR](Virtual Reality/OSVR.md)
+- [HTC Vive](Virtual%20Reality/HTC%20Vive.md)
+- [Oculus Rift](Virtual%20Reality/Oculus%20Rift.md)
+- [OSVR](Virtual%20Reality/OSVR.md)
 
 ## Content
 
-[Image: /docs/static/attachments/26955865]
+![Image](https://www.cryengine.com/docs/static/attachments/26955865)
 
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/44970950]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44970950)](https://www.cryengine.com/support)
 
 ##
 VR Overview
@@ -27,26 +25,18 @@ Within VR
  you will find that the VR interface is quite simple to tap into and usually is housed around certain configuration settings mixed with Flow Graph nodes to expose positional settings.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534185](
-HTC Vive
-)
+[HTC Vive](Virtual%20Reality/HTC%20Vive.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534187](
-Oculus Rift
-)
+[Oculus Rift](Virtual%20Reality/Oculus%20Rift.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534189](
-OSVR
-)
+[OSVR](Virtual%20Reality/OSVR.md)
 
-[Image: /docs/static/attachments/29935056]
+![Image](https://www.cryengine.com/docs/static/attachments/29935056)
 
 *
 Pic: VR first Logo (
-[https://www.vrfirst.com/](
-VR First Website
-)
+[VR First Website](https://www.vrfirst.com/)
 )
 *

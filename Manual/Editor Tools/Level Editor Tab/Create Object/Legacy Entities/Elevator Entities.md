@@ -18,7 +18,7 @@ Create Object →  Legacy Entities → Elevators
 **
  folder.
 
-[Image: /docs/static/attachments/56000537]
+![Image](https://www.cryengine.com/docs/static/attachments/56000537)
 
 The Elevator can work together with the ElevatorSwitch, which acts as a call/go button:
 
@@ -242,9 +242,5 @@ Specifies the sound to use when the object is pressed.
 
  |
 
-[#elevator-properties](
-Elevator Properties
-)
-[#elevatorswitch-properties](
-ElevatorSwitch Properties
-)
+[Elevator Properties](#elevator-properties)
+[ElevatorSwitch Properties](#elevatorswitch-properties)

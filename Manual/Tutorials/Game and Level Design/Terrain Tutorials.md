@@ -7,11 +7,9 @@
 
 ## Child Pages
 
-- [Tutorial - Importing a Level from World Machine](Terrain Tutorials/Tutorial - Importing a Level from World Machine.md)
+- [Tutorial - Importing a Level from World Machine](Terrain%20Tutorials/Tutorial%20-%20Importing%20a%20Level%20from%20World%20Machine.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308319](
-Tutorial - Importing a Level from World Machine
-)
+[Tutorial - Importing a Level from World Machine](Terrain%20Tutorials/Tutorial%20-%20Importing%20a%20Level%20from%20World%20Machine.md)

@@ -10,22 +10,16 @@
 ##
 Overview
 
-[Image: /docs/static/attachments/23998331]
+![Image](https://www.cryengine.com/docs/static/attachments/23998331)
 
 The context editor is used to edit the current
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308475](
-Preview Setup File (xxxPreview.xml)
-)
+[Preview Setup File (xxxPreview.xml)](Mannequin%20Files/Preview%20Setup%20File%20(xxxPreview.xml).md)
 .
 
 It tells the editor (among other things) which
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743](
-animation database files
-)
+[animation database files](Mannequin%20Files/Animation%20Database%20(ADB).md)
  and which character models to use in which
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450870](
-scope contexts
-)
+[scope contexts](Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
 .
 
 You open the Context Editor through the option in the
@@ -37,4 +31,4 @@ File
 ##
 Edit Context
 
-[Image: /docs/static/attachments/23998332]
+![Image](https://www.cryengine.com/docs/static/attachments/23998332)

@@ -86,7 +86,7 @@ Radius Change
  |
 Allows to change the rope's radius (or scaling of its segment meshes) along its length. For instance, -1 will reduce the size at the end to 0, creating a cone-shaped rope:
 
-[Image: /docs/static/attachments/36846997]
+![Image](https://www.cryengine.com/docs/static/attachments/36846997)
 
 This is only a visual effect; it doesn't affect the physical simulation.
 
@@ -502,9 +502,7 @@ In this case the
 Start Trigger
 **
  instance is not explicitly stopped. See
-[http://84.16.230.215:8090/display/C5/Defining+PlayTrigger+and+StopTrigger+Behavior](
-Defining PlayTrigger and StopTrigger Behavior
-)
+[Defining PlayTrigger and StopTrigger Behavior](http://84.16.230.215:8090/display/C5/Defining+PlayTrigger+and+StopTrigger+Behavior)
 .
  |
 
@@ -633,7 +631,7 @@ Edit Shape
 **
 mode, a point can be green or red. Green means the rope is validly attached, and red means the rope is not attached to anything:
 
-[Image: /docs/static/attachments/36844658]
+![Image](https://www.cryengine.com/docs/static/attachments/36844658)
 
 ##
 Dynamic Tessellation/Subdivide
@@ -771,17 +769,9 @@ Bendable
 **
 is on, the rope will use physical segments as bones and will redistribute mesh vertices among then. In this mode it's possible to skin the mesh to several (more than 2) bones.
 
-[Image: /docs/static/attachments/36847643]
+![Image](https://www.cryengine.com/docs/static/attachments/36847643)
 
-[#properties](
-Properties
-)
-[#rope-creation](
-Rope Creation
-)
-[#dynamic-tessellationsubdivide](
-Dynamic Tessellation/Subdivide
-)
-[#examples-for-bone-usage](
-Examples For Bone Usage
-)
+[Properties](#properties)
+[Rope Creation](#rope-creation)
+[Dynamic Tessellation/Subdivide](#dynamic-tessellationsubdivide)
+[Examples For Bone Usage](#examples-for-bone-usage)

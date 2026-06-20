@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Body Damage](Body Damage and Destruction/Body Damage.md)
-- [Body Destructibility](Body Damage and Destruction/Body Destructibility.md)
-- [Body Parts](Body Damage and Destruction/Body Parts.md)
+- [Body Damage](Body%20Damage%20and%20Destruction/Body%20Damage.md)
+- [Body Destructibility](Body%20Damage%20and%20Destruction/Body%20Destructibility.md)
+- [Body Parts](Body%20Damage%20and%20Destruction/Body%20Parts.md)
 
 ## Content
 
@@ -28,15 +28,11 @@ These damage multipliers will be used when the character is being hit by bullets
 The system is split into two main components:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306586](
-Body Parts
-)
+[Body Parts](Body%20Damage%20and%20Destruction/Body%20Parts.md)
  - defines the body parts - should be set up by a tech artist.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306584](
-Body Damage
-)
+[Body Damage](Body%20Damage%20and%20Destruction/Body%20Damage.md)
  - sets the damage multipliers - should be tweaked by a game designer.
 Debug console variables and commands related to the body damage can be found further below.
 
@@ -67,9 +63,7 @@ Some special features are available for death from Explosions and Microwave Gun.
 Note that the Body Destruction system will never alter the damage done to the character itself!
 
 The system is configured through the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306585](
-Body Destructibility
-)
+[Body Destructibility](Body%20Damage%20and%20Destruction/Body%20Destructibility.md)
  xml file.
 
 ##

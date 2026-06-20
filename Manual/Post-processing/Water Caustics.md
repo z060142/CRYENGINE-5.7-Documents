@@ -17,15 +17,9 @@ Watervolumes and rivers support a unified caustics approach. These caustics capt
 
 Make sure your Watervolume is at a world height of '1' or greater. If it's below '1' Z height in the level then the caustics will not display.
 
-[#sections](
-Sections
-)
-[#caustics-settings](
-Caustics Settings
-)
-[#console-variables](
-Console Variables
-)
+[Sections](#sections)
+[Caustics Settings](#caustics-settings)
+[Console Variables](#console-variables)
 
 ##
 Caustics Settings

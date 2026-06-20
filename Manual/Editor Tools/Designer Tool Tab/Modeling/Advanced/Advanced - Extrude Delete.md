@@ -13,7 +13,7 @@ Overview
 The Extrude/Delete section shows the following tools:
 
 *
-[Image: /docs/static/attachments/28900666]
+![Image](https://www.cryengine.com/docs/static/attachments/28900666)
 *
 
 *
@@ -30,7 +30,7 @@ How it Works
 
 Place a cursor on a polygon which you would like to push or pull:
 
-[Image: /docs/static/attachments/28900665]
+![Image](https://www.cryengine.com/docs/static/attachments/28900665)
 
 Drag the mouse holding
 **
@@ -38,9 +38,9 @@ LMB
 **
  in the direction of the  normal of the selected polygon:
 
-[Image: /docs/static/attachments/28900664]
+![Image](https://www.cryengine.com/docs/static/attachments/28900664)
 
-[Image: /docs/static/attachments/28900663]
+![Image](https://www.cryengine.com/docs/static/attachments/28900663)
 
 Release
 **
@@ -61,23 +61,23 @@ LMB
 **
 :
 
-[Image: /docs/static/attachments/28900662]
+![Image](https://www.cryengine.com/docs/static/attachments/28900662)
 
-[Image: /docs/static/attachments/28900661]
+![Image](https://www.cryengine.com/docs/static/attachments/28900661)
 
 -
 If you extrude a polygon up to the point where it meets another one, the extrusion will stop.
 
-[Image: /docs/static/attachments/28900659]
+![Image](https://www.cryengine.com/docs/static/attachments/28900659)
 
-[Image: /docs/static/attachments/28900660]
+![Image](https://www.cryengine.com/docs/static/attachments/28900660)
 
 -
 While the selected polygon is extruded and it reaches the edge of another polygon which is next to the selected one and has the same normal direction, the extrusion will be stopped:
 
-[Image: /docs/static/attachments/28900658]
+![Image](https://www.cryengine.com/docs/static/attachments/28900658)
 
-[Image: /docs/static/attachments/28900657]
+![Image](https://www.cryengine.com/docs/static/attachments/28900657)
 
 For both point 2 and 3, if you want to extrude the polygon beyond this point, simply let go of
 **
@@ -94,9 +94,9 @@ SHIFT
 **
  while extruding and moving the mouse cursor onto a polygon with the same normal direction as the selected polygon will make the polygon that's being extruded snap to the same height as the one under the mouse cursor:
 
-[Image: /docs/static/attachments/28900656]
+![Image](https://www.cryengine.com/docs/static/attachments/28900656)
 
-[Image: /docs/static/attachments/28900655]
+![Image](https://www.cryengine.com/docs/static/attachments/28900655)
 
 ##
 Resizing the selected face before starting an extrusion
@@ -104,11 +104,11 @@ Resizing the selected face before starting an extrusion
 Before starting on extrusion, you can resize the selected face holding SHIFT and moving a mouse and then push or pull it as follows:
 
 *
-[Image: /docs/static/attachments/28900605]
+![Image](https://www.cryengine.com/docs/static/attachments/28900605)
 
-[Image: /docs/static/attachments/28900604]
+![Image](https://www.cryengine.com/docs/static/attachments/28900604)
 
-[Image: /docs/static/attachments/28900603]
+![Image](https://www.cryengine.com/docs/static/attachments/28900603)
 *
 
 ##
@@ -120,9 +120,9 @@ Alt
 **
  and click a polygon, the previous push or pull behavior will be repeated:
 
-[Image: /docs/static/attachments/28900607]
+![Image](https://www.cryengine.com/docs/static/attachments/28900607)
 
-[Image: /docs/static/attachments/28900606]
+![Image](https://www.cryengine.com/docs/static/attachments/28900606)
 
 This first selected polygon was pulled by dragging the mouse. The second selected polygon was pulled by holding
 **
@@ -162,12 +162,12 @@ Extrude Multiple
 **
  button is selected.
 
-[Image: /docs/static/attachments/28900654]
+![Image](https://www.cryengine.com/docs/static/attachments/28900654)
 
 -
 Dragging the common normal line
 - not one of the polygons - as shown here:
-[Image: /docs/static/attachments/76447828]
+![Image](https://www.cryengine.com/docs/static/attachments/76447828)
 
 The common normal line can be either black or white. It should not be confused with the Designer tool's colored axis lines.
 
@@ -176,31 +176,31 @@ Extruding Multiple -  Average
 
 *
 
-[Image: /docs/static/attachments/76447822]
+![Image](https://www.cryengine.com/docs/static/attachments/76447822)
 
 *
 Extruding Multiple - Individual
 
-[Image: /docs/static/attachments/76447819]
+![Image](https://www.cryengine.com/docs/static/attachments/76447819)
 *
 
 *
 Extrude Multiple - X
 
-[Image: /docs/static/attachments/76447821]
+![Image](https://www.cryengine.com/docs/static/attachments/76447821)
 *
 
 *
 Extrude Multiple - Y
 
-[Image: /docs/static/attachments/76447820]
+![Image](https://www.cryengine.com/docs/static/attachments/76447820)
 *
 
 *
 *
 Extrude Multiple - Z
 
-[Image: /docs/static/attachments/76447825]
+![Image](https://www.cryengine.com/docs/static/attachments/76447825)
 *
 *
 
@@ -231,9 +231,9 @@ LMB
 Offset in the middle
 *
 
-[Image: /docs/static/attachments/28900649]
+![Image](https://www.cryengine.com/docs/static/attachments/28900649)
 
-[Image: /docs/static/attachments/28900648]
+![Image](https://www.cryengine.com/docs/static/attachments/28900648)
 
 You can also determine exactly where the offset will be placed. You do this by clicking the polygon on which you want to create the offset, and then clicking again and dragging
 **
@@ -245,9 +245,9 @@ LMB
 **
 .
 
-[Image: /docs/static/attachments/28900645]
+![Image](https://www.cryengine.com/docs/static/attachments/28900645)
 
-[Image: /docs/static/attachments/28900646]
+![Image](https://www.cryengine.com/docs/static/attachments/28900646)
 
 ##
 Bridge Edges
@@ -258,11 +258,11 @@ Bridge Edges
 **
  checked on the property panel, the vertex pairs between each vertex of the selected polygon and corresponding vertex of the offset polygon will be connected.
 
-[Image: /docs/static/attachments/28900643]
+![Image](https://www.cryengine.com/docs/static/attachments/28900643)
 
 When using this on the top polygon of the cylinder we used before, this will result in the following:
 
-[Image: /docs/static/attachments/28900644]
+![Image](https://www.cryengine.com/docs/static/attachments/28900644)
 
 ##
 Repeating the Previous Action
@@ -272,7 +272,7 @@ Alt+LMB
 **
  on a polygon will repeat the previous action. Continuing from the previous picture, the following would happen when doing this repeatedly:
 
-[Image: /docs/static/attachments/28900642]
+![Image](https://www.cryengine.com/docs/static/attachments/28900642)
 
 ##
 Multiple Offset
@@ -283,13 +283,13 @@ Multiple Offset
 **
 :
 
-[Image: /docs/static/attachments/28900641]
+![Image](https://www.cryengine.com/docs/static/attachments/28900641)
 
 Checking this box, the offset can be applied to multiple polygons by selecting the polygons you want to apply the offset to and then either clicking on one of them once (to create offsets in the middle of the selected polygons) or clicking and dragging on one of the polygons (to determine the exact position of the offsets):
 
-[Image: /docs/static/attachments/28900640]
+![Image](https://www.cryengine.com/docs/static/attachments/28900640)
 
-[Image: /docs/static/attachments/28900639]
+![Image](https://www.cryengine.com/docs/static/attachments/28900639)
 
 ##
 Weld
@@ -315,9 +315,9 @@ Weld
 **
  button. The vertex you selected first will then move to the second vertex:
 
-[Image: /docs/static/attachments/28900638]
+![Image](https://www.cryengine.com/docs/static/attachments/28900638)
 
-[Image: /docs/static/attachments/28900637]
+![Image](https://www.cryengine.com/docs/static/attachments/28900637)
 
 ##
 Collapse
@@ -341,15 +341,15 @@ Collapse
 **
  button:
 
-[Image: /docs/static/attachments/28900636]
+![Image](https://www.cryengine.com/docs/static/attachments/28900636)
 
-[Image: /docs/static/attachments/28900635]
+![Image](https://www.cryengine.com/docs/static/attachments/28900635)
 
 You can also select multiple edge groups as follows. Each edge group will be collapsed to the center of each group in this case.
 
-[Image: /docs/static/attachments/28900634]
+![Image](https://www.cryengine.com/docs/static/attachments/28900634)
 
-[Image: /docs/static/attachments/28900633]
+![Image](https://www.cryengine.com/docs/static/attachments/28900633)
 
 ##
 Fill
@@ -381,7 +381,7 @@ Selection
 **
  section:
 
-[Image: /docs/static/attachments/28900631]
+![Image](https://www.cryengine.com/docs/static/attachments/28900631)
 
 Then click the
 **
@@ -389,7 +389,7 @@ Fill
 **
  button and the space between the two edges will be filled:
 
-[Image: /docs/static/attachments/28900630]
+![Image](https://www.cryengine.com/docs/static/attachments/28900630)
 
 -
 More than two connected edges
@@ -414,9 +414,9 @@ Fill
 **
  button and the space will be filled:
 
-[Image: /docs/static/attachments/28900629]
+![Image](https://www.cryengine.com/docs/static/attachments/28900629)
 
-[Image: /docs/static/attachments/28900628]
+![Image](https://www.cryengine.com/docs/static/attachments/28900628)
 
 In order to fill a space looking like a polygon consisting of
 *
@@ -432,9 +432,9 @@ n
 *
  edges:
 
-[Image: /docs/static/attachments/28900627]
+![Image](https://www.cryengine.com/docs/static/attachments/28900627)
 
-[Image: /docs/static/attachments/28900626]
+![Image](https://www.cryengine.com/docs/static/attachments/28900626)
 
 ##
 From Selected Vertices
@@ -442,7 +442,7 @@ From Selected Vertices
 At least 3 vertices should be selected to fill a space.
 
 **
-[Image: /docs/static/attachments/28900625]
+![Image](https://www.cryengine.com/docs/static/attachments/28900625)
 **
 
 After selecting vertices, press the
@@ -451,7 +451,7 @@ Fill
 **
  button too then the space defining the vertices will be filled.
 
-[Image: /docs/static/attachments/28900624]
+![Image](https://www.cryengine.com/docs/static/attachments/28900624)
 
 ##
 By Selecting a hole
@@ -464,26 +464,26 @@ Fill
 
 When you mouse over a hole, the hole will be highlighted:
 
-[Image: /docs/static/attachments/28900623]
+![Image](https://www.cryengine.com/docs/static/attachments/28900623)
 
 You can then fill the highlighted hole by clicking
 **
 LMB:
 **
 
-[Image: /docs/static/attachments/28900622]
+![Image](https://www.cryengine.com/docs/static/attachments/28900622)
 
 Holes in the internal space of a polygon will not be found by the Fill tool.
 
-[Image: /docs/static/attachments/28900621]
+![Image](https://www.cryengine.com/docs/static/attachments/28900621)
 
 In this case you should select edges or vertices as follows to fill the space:
 
-[Image: /docs/static/attachments/28900620]
+![Image](https://www.cryengine.com/docs/static/attachments/28900620)
 
-[Image: /docs/static/attachments/28900619]
+![Image](https://www.cryengine.com/docs/static/attachments/28900619)
 
-[Image: /docs/static/attachments/28900618]
+![Image](https://www.cryengine.com/docs/static/attachments/28900618)
 
 And then click the
 **
@@ -491,7 +491,7 @@ Fill
 **
  button:
 
-[Image: /docs/static/attachments/28900617]
+![Image](https://www.cryengine.com/docs/static/attachments/28900617)
 
 ##
 Flip
@@ -515,13 +515,13 @@ Flip
 **
  button:
 
-[Image: /docs/static/attachments/28900615]
+![Image](https://www.cryengine.com/docs/static/attachments/28900615)
 
-[Image: /docs/static/attachments/28900616]
+![Image](https://www.cryengine.com/docs/static/attachments/28900616)
 
 If you look at the polygon from the other side, you'll see the texture:
 
-[Image: /docs/static/attachments/28900614]
+![Image](https://www.cryengine.com/docs/static/attachments/28900614)
 
 ##
 Merge
@@ -540,9 +540,9 @@ Merge
 **
  button:
 
-[Image: /docs/static/attachments/28900612]
+![Image](https://www.cryengine.com/docs/static/attachments/28900612)
 
-[Image: /docs/static/attachments/28900613]
+![Image](https://www.cryengine.com/docs/static/attachments/28900613)
 
 As you can see from the second picture, when the objects are merged, there will be a box around them.
 
@@ -569,9 +569,9 @@ How it Works
 
 First, select the polygons you want to separate (hold Ctrl and click LMB on those polygons). Then click the Separate button. You can now for example move these polygons around on their own as a new object:
 
-[Image: /docs/static/attachments/28900590]
+![Image](https://www.cryengine.com/docs/static/attachments/28900590)
 
-[Image: /docs/static/attachments/28900589]
+![Image](https://www.cryengine.com/docs/static/attachments/28900589)
 
 ##
 Remove
@@ -594,15 +594,15 @@ Ctrl
 **
  to select more than one Edge). Lastly, click the Remove button to remove the selected Edges:
 
-[Image: /docs/static/attachments/28900611]
+![Image](https://www.cryengine.com/docs/static/attachments/28900611)
 
-[Image: /docs/static/attachments/28900610]
+![Image](https://www.cryengine.com/docs/static/attachments/28900610)
 
-[Image: /docs/static/attachments/28900609]
+![Image](https://www.cryengine.com/docs/static/attachments/28900609)
 
 The Remove tool can be used to merge regions sharing an edge or remove unnecessary edges. After doing this, you can do whatever you want with your newly created polygon, like extrude it:
 
-[Image: /docs/static/attachments/28900608]
+![Image](https://www.cryengine.com/docs/static/attachments/28900608)
 
 ##
 Copy
@@ -619,9 +619,9 @@ Copy
  button. The copy will be right on top of the selected elements, so change to Move mode and move the copy away:
 
 **
-[Image: /docs/static/attachments/28900592]
+![Image](https://www.cryengine.com/docs/static/attachments/28900592)
 
-[Image: /docs/static/attachments/28900591]
+![Image](https://www.cryengine.com/docs/static/attachments/28900591)
 
 **
 
@@ -629,45 +629,19 @@ Copy
 Remove Doubles
 
 Similar to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450453#Advanced-Extrude/Delete-Merge](
-Merge
-)
+[Merge](Advanced%20-%20Extrude%20Delete.md#Advanced-Extrude%2FDelete-Merge)
 , but M
 erge works on selection, whereas Remove Doubles acts according to threshold and has its own selection.
 
-[#extrude](
-Extrude
-)
-[#extrude-multiple](
-Extrude Multiple
-)
-[#offset](
-Offset
-)
-[#weld](
-Weld
-)
-[#collapse](
-Collapse
-)
-[#fill](
-Fill
-)
-[#flip](
-Flip
-)
-[#merge](
-Merge
-)
-[#separate](
-Separate
-)
-[#remove](
-Remove
-)
-[#copy](
-Copy
-)
-[#remove-doubles](
-Remove Doubles
-)
+[Extrude](#extrude)
+[Extrude Multiple](#extrude-multiple)
+[Offset](#offset)
+[Weld](#weld)
+[Collapse](#collapse)
+[Fill](#fill)
+[Flip](#flip)
+[Merge](#merge)
+[Separate](#separate)
+[Remove](#remove)
+[Copy](#copy)
+[Remove Doubles](#remove-doubles)

@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [Tutorial - Character Pipeline - Export & Import with 3ds Max, Maya and Blender](3DS Max/Tutorial - Character Pipeline - Export & Import with 3ds Max, Maya and Blender.md)
-- [Reorienting Animations in 3ds Max](3DS Max/Reorienting Animations in 3ds Max.md)
-- [Tutorial - Animated Objects (cga) 3dsMax](3DS Max/Tutorial - Animated Objects (cga) 3dsMax.md)
-- [Tutorial - Animated Blendshapes - 3dsMax](3DS Max/Tutorial - Animated Blendshapes - 3dsMax.md)
-- [Tutorial - Breakable Glass](3DS Max/Tutorial - Breakable Glass.md)
+- [Tutorial - Character Pipeline - Export & Import with 3ds Max, Maya and Blender](3DS%20Max/Tutorial%20-%20Character%20Pipeline%20-%20Export%20%26%20Import%20with%203ds%20Max%2C%20Maya%20and%20Blender.md)
+- [Reorienting Animations in 3ds Max](3DS%20Max/Reorienting%20Animations%20in%203ds%20Max.md)
+- [Tutorial - Animated Objects (cga) 3dsMax](3DS%20Max/Tutorial%20-%20Animated%20Objects%20(cga)%203dsMax.md)
+- [Tutorial - Animated Blendshapes - 3dsMax](3DS%20Max/Tutorial%20-%20Animated%20Blendshapes%20-%203dsMax.md)
+- [Tutorial - Breakable Glass](3DS%20Max/Tutorial%20-%20Breakable%20Glass.md)
 
 ## Content
 

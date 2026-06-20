@@ -7,15 +7,15 @@
 
 ## Child Pages
 
-- [Customizing CRYENGINE Sandbox](CRYENGINE V Basics/Customizing CRYENGINE Sandbox.md)
-- [Viewport Navigation](CRYENGINE V Basics/Viewport Navigation.md)
-- [Create and Edit Objects](CRYENGINE V Basics/Create and Edit Objects.md)
-- [Selecting Objects](CRYENGINE V Basics/Selecting Objects.md)
-- [Transforming Objects](CRYENGINE V Basics/Transforming Objects.md)
-- [Snap & Alignment](CRYENGINE V Basics/Snap & Alignment.md)
-- [Coordinate Systems](CRYENGINE V Basics/Coordinate Systems.md)
-- [Asset Types](CRYENGINE V Basics/Asset Types.md)
-- [Keyboard Shortcuts](CRYENGINE V Basics/Keyboard Shortcuts.md)
+- [Customizing CRYENGINE Sandbox](CRYENGINE%20V%20Basics/Customizing%20CRYENGINE%20Sandbox.md)
+- [Viewport Navigation](CRYENGINE%20V%20Basics/Viewport%20Navigation.md)
+- [Create and Edit Objects](CRYENGINE%20V%20Basics/Create%20and%20Edit%20Objects.md)
+- [Selecting Objects](CRYENGINE%20V%20Basics/Selecting%20Objects.md)
+- [Transforming Objects](CRYENGINE%20V%20Basics/Transforming%20Objects.md)
+- [Snap & Alignment](CRYENGINE%20V%20Basics/Snap%20%26%20Alignment.md)
+- [Coordinate Systems](CRYENGINE%20V%20Basics/Coordinate%20Systems.md)
+- [Asset Types](CRYENGINE%20V%20Basics/Asset%20Types.md)
+- [Keyboard Shortcuts](CRYENGINE%20V%20Basics/Keyboard%20Shortcuts.md)
 
 ## Content
 
@@ -27,46 +27,28 @@ On the following pages you can learn all about the basics of using the CRYENGINE
 This is the place to start when you're using the Sandbox for the first time or simply need a reminder of its basic functionality.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308616](
-Viewport Navigation
-)
+[Viewport Navigation](CRYENGINE%20V%20Basics/Viewport%20Navigation.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308617](
-Create and Edit Objects
-)
+[Create and Edit Objects](CRYENGINE%20V%20Basics/Create%20and%20Edit%20Objects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308621](
-Selecting Objects
-)
+[Selecting Objects](CRYENGINE%20V%20Basics/Selecting%20Objects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308620](
-Transforming Objects
-)
+[Transforming Objects](CRYENGINE%20V%20Basics/Transforming%20Objects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44960236](
-Snap & Alignment
-)
+[Snap & Alignment](CRYENGINE%20V%20Basics/Snap%20%26%20Alignment.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308619](
-Coordinate Systems
-)
+[Coordinate Systems](CRYENGINE%20V%20Basics/Coordinate%20Systems.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959560](
-Asset Types
-)
+[Asset Types](CRYENGINE%20V%20Basics/Asset%20Types.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44965609](
-Keyboard Shortcuts
-)
+[Keyboard Shortcuts](CRYENGINE%20V%20Basics/Keyboard%20Shortcuts.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308624](
-Customizing CRYENGINE Sandbox
-)
+[Customizing CRYENGINE Sandbox](CRYENGINE%20V%20Basics/Customizing%20CRYENGINE%20Sandbox.md)

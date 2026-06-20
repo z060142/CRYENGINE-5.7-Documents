@@ -9,42 +9,30 @@
 
 The blank template is designed for those situations when you want to start a project from scratch.
 This template only includes an FPS counter and a basic setup of a
-[https://www.cryengine.com/sdk/5.3.0/cs_api/interface_cry_engine_1_1_i_cry_engine_plugin.html](
-CryEnginePlugin
-)
+[CryEnginePlugin](https://www.cryengine.com/sdk/5.3.0/cs_api/interface_cry_engine_1_1_i_cry_engine_plugin.html)
  which can be used as a starting point for initializing your project. However, if you are not familiar with programming in C# in CRYENGINE, then we recommend that you first start off with another one of the available templates.
 
 Related Content:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875052](
-C# API Reference
-)
+[C# API Reference](../../../CRYENGINE%20API%20Reference/C%23%20API%20Reference.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791112](
-C# Programming
-)
+[C# Programming](../../C%23%20Programming.md)
 
 ##
 FPS-Counter
 
 The FPS counter is rendered by using the
-[https://www.cryengine.com/sdk/5.2.0/cs_api/namespace_cry_engine_1_1_u_i.html](
-CryEngine.UI
-)
+[CryEngine.UI](https://www.cryengine.com/sdk/5.2.0/cs_api/namespace_cry_engine_1_1_u_i.html)
 . The
-[https://www.cryengine.com/sdk/5.2.0/cs_api/class_cry_engine_1_1_u_i_1_1_canvas.html](
-Canvas
-)
+[Canvas](https://www.cryengine.com/sdk/5.2.0/cs_api/class_cry_engine_1_1_u_i_1_1_canvas.html)
 is set up by the
 **
 CreateUI
 **
  method. The
-[https://www.cryengine.com/sdk/5.2.0/cs_api/class_cry_engine_1_1_u_i_1_1_components_1_1_text.html](
-Text
-)
+[Text](https://www.cryengine.com/sdk/5.2.0/cs_api/class_cry_engine_1_1_u_i_1_1_components_1_1_text.html)
  component is added to the Canvas and placed in the correct position. In the
 **
 OnUpdate
@@ -58,13 +46,9 @@ Text
 OnUpdate
 **
  method is called every frame by the
-[https://www.cryengine.com/sdk/5.3.0/cs_api/class_cry_engine_1_1_game_framework.html](
-GameFramework
-)
+[GameFramework](https://www.cryengine.com/sdk/5.3.0/cs_api/class_cry_engine_1_1_game_framework.html)
 , which is achieved by calling
-[https://www.cryengine.com/sdk/5.3.0/cs_api/class_cry_engine_1_1_game_framework.html#a732a13b0937ed7342d0af3528eb45ec2](
-RegisterForUpdate
-)
+[RegisterForUpdate](https://www.cryengine.com/sdk/5.3.0/cs_api/class_cry_engine_1_1_game_framework.html#a732a13b0937ed7342d0af3528eb45ec2)
 in the constructor of the
 **
 Game

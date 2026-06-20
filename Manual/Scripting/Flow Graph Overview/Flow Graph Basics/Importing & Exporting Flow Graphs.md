@@ -36,7 +36,7 @@ Selection -> Export Selected Nodes
 **
 .
 
-[Image: /docs/static/attachments/44971123]
+![Image](https://www.cryengine.com/docs/static/attachments/44971123)
 
 -
 A new window will be displayed and it will prompt you to specify a file name for the exported graph.
@@ -75,5 +75,5 @@ right-click
 **
  directly inside the Flow Graph window and import the graph from there:
 
-[Image: /docs/static/attachments/44971124]
+![Image](https://www.cryengine.com/docs/static/attachments/44971124)
 The imported graph will not be inserted into the new graph at the position of the mouse pointer; it'll be positioned relative to the old graph.

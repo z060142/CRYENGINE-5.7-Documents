@@ -8,3 +8,5 @@
 ## Content
 
 In this lesson we author the random position query inside of the SDKGrunt LUA file located within the AI scripts of the GameSDK sample project.
+
+[Embed: https://www.youtube.com/watch?v=MeYvAxmuXLc&list=PLpCgy91Y5vMuwKSCe-iOJ-OyAMXkMvb4I&index=4]

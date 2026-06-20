@@ -178,12 +178,6 @@ mfx_ReloadFGEffects
 mfx_Reload
 **
 : Reloads the MFX Spreadsheet.
-[#sounds-and-physics](
-Sounds and Physics
-)
-[#special-cases](
-Special Cases
-)
-[#console-variables](
-Console Variables
-)
+[Sounds and Physics](#sounds-and-physics)
+[Special Cases](#special-cases)
+[Console Variables](#console-variables)

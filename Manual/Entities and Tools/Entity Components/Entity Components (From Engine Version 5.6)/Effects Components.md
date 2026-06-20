@@ -392,9 +392,7 @@ The features displayed on the
 Emitter Features
 **
  dropdown menu are the same features that can be found in the Particle Editor. For more information about the functionality of each particle effect feature, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-Particle Effect Features
-)
+[Particle Effect Features](../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features.md)
  page.
  |
 
@@ -456,9 +454,7 @@ Ignore Vis Areas
 **
  |
 Whether this component will ignore Vis Areas placed in the level. For more information about Vis Areas, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Area
-)
+[Vis Area](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Vis%20Area.md)
  page.
  |
 
@@ -467,9 +463,7 @@ Ignore Terran Layer Blend
 **
  |
 Controls blending with terrain layers. For more information, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36340007](
-Terrain Layer Blending into Objects
-)
+[Terrain Layer Blending into Objects](../../../Materials/Terrain%20Layer%20Blending%20into%20Objects.md)
  page.
  |
 
@@ -478,9 +472,7 @@ Ignore Decal Blend
 **
  |
 Controls blending with decals. For more information about Decals, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869871](
-Decal
-)
+[Decal](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Misc%20Objects/Decal%20Entity.md)
  page.
  |
 
@@ -498,9 +490,7 @@ Controls if the effect should follow a specific seed, which makes the effect det
 Rain
 
 This component creates rain in a radius around the entity that you attach this component to. This is the quickest way to introduce rain into the level; however, if you want to create a rain effect with different properties, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867992](
-Creating an Omnipresent Colliding Effect
-)
+[Creating an Omnipresent Colliding Effect](../../../Tutorials/Graphics/Particle%20Tutorials/Tutorial%20-%20Creating%20an%20Omnipresent%20Colliding%20Effect.md)
  page.
 
 Setting
@@ -739,18 +729,8 @@ AutoSpawn
  is enabled.
  |
 
-[#decal](
-Decal
-)
-[#fog-volume](
-Fog Volume
-)
-[#particle-emitter](
-Particle Emitter
-)
-[#rain](
-Rain
-)
-[#water-ripple](
-Water Ripple
-)
+[Decal](#decal)
+[Fog Volume](#fog-volume)
+[Particle Emitter](#particle-emitter)
+[Rain](#rain)
+[Water Ripple](#water-ripple)

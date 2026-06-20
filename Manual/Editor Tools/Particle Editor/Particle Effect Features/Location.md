@@ -11,9 +11,7 @@
 Overview
 
 This category sets the location of the particles that will be placed in the game world. By default, newborn particles are always placed on the same location as the particle emitter or their parent particle location. For more information about parent-child relationships, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-SecondGen
-)
+[SecondGen](SecondGen.md)
 .
 
 Some of the location features also allow the user to change the velocity or the location of a particle, even after it spawns.
@@ -26,13 +24,9 @@ The following options are available under the Location category:
 Beam
 
 Spawn particles in a consecutive line forming a beam between a source and a destination. This feature is best used when paired with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868327](
-Spawn: Count
-)
+[Spawn: Count](Spawn.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868306](
-Render: Ribbon
-)
+[Render: Ribbon](Render.md)
 .
 
 Property
@@ -104,9 +98,7 @@ Target -
 Uses particle emitter's target position, which is usually another game entity, as a source.
 
 For more information on targeting, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26217391](
-Key Concepts
-)
+[Key Concepts](../../../Graphics%20%26%20Rendering/Particles/Key%20Concepts.md)
  about Emitter Targets.
  |
 
@@ -169,9 +161,7 @@ Scale
 
  |
 Allows scaling the dimension up or down. This option is useful when used with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
 .
 
  |
@@ -218,9 +208,7 @@ Radius
 
  |
 Specifies the radius of the circle in meters. By default, it spawns the particles on the perimeter of a circle until
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
  are used. When the Random modifier is set to 100%, particles can be uniformly spawned within the circle instead of spawning around the perimeter.
 
  |
@@ -376,9 +364,7 @@ Orient to Normal
 
  |
 Rotates the particle so that its normal vector, but not the forward vector, aligns with the surface normal. Given enough particles, they can recreate the underlying mesh almost perfectly. For more information on Euler angles, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868243](
-Angles: Rotate3D
-)
+[Angles: Rotate3D](Angles.md)
 .
 
  |
@@ -448,9 +434,7 @@ The Octaves option multiplies the number of times the noise is sampled.
 Offset
 
 This feature displaces the particles in a given direction in space. While seemingly not a very interesting feature in itself, combining multiple features together and using
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
  on the scale parameter make the Offset feature one of the most useful features in the Location category. In fact, most of the Location features in this page could in theory be recreated by just using Offset feature; however, it would not be a very practical way.
 
 Property
@@ -475,9 +459,7 @@ Scale
 
  |
 Scales the size of the offset vector. Can be used with Modifiers to change particle location dynamically. By adding a Spawn Id modifier, it is ensured that the particles are distributed regularly along the vector. Please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
  for more information.
 
  |
@@ -535,17 +517,13 @@ A debugging option that fixes the view volume at the emitter's location, rather 
  |
 
 The features Location: Omni and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867966](
-Motion: Collisions
-)
+[Motion: Collisions](Motion.md)
  can be used together to create an omnipresent colliding effect.
 By setting the feature parameters appropriately, an omnipresent environmental
 effect like
 rain or snow can be authored. With the addition of Motion: Collisions feature, these effects can react to collisions and stay out of indoors or other specific areas.
  For more information, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867992](
-Tutorial - Creating an Omnipresent Colliding Effect
-)
+[Tutorial - Creating an Omnipresent Colliding Effect](../../../Tutorials/Graphics/Particle%20Tutorials/Tutorial%20-%20Creating%20an%20Omnipresent%20Colliding%20Effect.md)
 .
 
 ##
@@ -566,9 +544,7 @@ Radius
 
  |
 Specifies the radius of the sphere in meters. By default, it spawns particles on the surface of the sphere until
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
  are used. Using the Random modifier and setting it to 100% ensures that the particles spawn uniformly in the sphere's volume.
 
  |
@@ -629,33 +605,13 @@ All Location features are supported in the GPU pipeline, although there is no su
 ##
 One This Page
 
-[#beam](
-Beam
-)
-[#bindtocamera](
-BindToCamera
-)
-[#box](
-Box
-)
-[#circle](
-Circle
-)
-[#geometry](
-Geometry
-)
-[#noise](
-Noise
-)
-[#offset](
-Offset
-)
-[#omni](
-Omni
-)
-[#sphere](
-Sphere
-)
-[#gpu-support](
-GPU Support
-)
+[Beam](#beam)
+[BindToCamera](#bindtocamera)
+[Box](#box)
+[Circle](#circle)
+[Geometry](#geometry)
+[Noise](#noise)
+[Offset](#offset)
+[Omni](#omni)
+[Sphere](#sphere)
+[GPU Support](#gpu-support)

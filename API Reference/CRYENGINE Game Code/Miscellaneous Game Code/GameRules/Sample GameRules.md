@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [SinglePlayer](Sample GameRules/SinglePlayer.md)
-- [InstantAction](Sample GameRules/InstantAction.md)
-- [TeamInstantAction](Sample GameRules/TeamInstantAction.md)
+- [SinglePlayer](Sample%20GameRules/SinglePlayer.md)
+- [InstantAction](Sample%20GameRules/InstantAction.md)
+- [TeamInstantAction](Sample%20GameRules/TeamInstantAction.md)
 
 ## Content
 
@@ -24,16 +24,10 @@ Below you'll find links to each gamerule and within, information about it.
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306561](
-SinglePlayer
-)
+[SinglePlayer](Sample%20GameRules/SinglePlayer.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306559](
-InstantAction
-)
+[InstantAction](Sample%20GameRules/InstantAction.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306560](
-TeamInstantAction
-)
+[TeamInstantAction](Sample%20GameRules/TeamInstantAction.md)

@@ -17,7 +17,7 @@ Detail Bending
  system and show you the process of how to setup vertex movement through vertex paint. We will use all three vertex color channels to control different movement behaviors for the leaf geometry of our bush asset. This effect is meant to be used on vegetation objects and will help us to create a performance friendly bending effect on our bush asset. It works best for vegetation with big leaves like palm trees and fern bushes.
 
 *
-[Image: /docs/static/attachments/24157099]
+![Image](https://www.cryengine.com/docs/static/attachments/24157099)
 
 Pic1: Final asset with underlying vertex color for this system to work
 *
@@ -36,9 +36,7 @@ Tutorial Files
 Source 3dsMax scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25523837](
-GameSDK_vegtut03_files.zip
-)
+[GameSDK_vegtut03_files.zip](/docs/static/attachments/25523837)
 **
 **
 *
@@ -54,24 +52,16 @@ Before you continue with this tutorial, make sure to have read and understood th
 -
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963469](
-How to Install CryMaxTools
-)
+[How to Install CryMaxTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-The Basic CRYENGINE 3dsMax Workflow
-)
+[The Basic CRYENGINE 3dsMax Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-3dsMax Unit Scale to Match up With CRYENGINE Unit System
-)
+[3dsMax Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Helpful Information
@@ -158,7 +148,7 @@ We will continue with the assumption that you have already created the asset, si
 
 *
 *
-[Image: /docs/static/attachments/24157104]
+![Image](https://www.cryengine.com/docs/static/attachments/24157104)
 
 Pic2: 3dsMax overview of the finished model
 *
@@ -208,7 +198,7 @@ objects\natural\bushes\ground_cover_fern\ground_cover_fernbush_ddna.tif>
 
 `
 *
-[Image: /docs/static/attachments/24157109]
+![Image](https://www.cryengine.com/docs/static/attachments/24157109)
 
 Pic3: Shader parameters setup
 *
@@ -315,7 +305,7 @@ tutorial_detail_bending
 
 *
 *
-[Image: /docs/static/attachments/24157108]
+![Image](https://www.cryengine.com/docs/static/attachments/24157108)
 
 Pic4: Selecting the correct material for the .mtl export
 *
@@ -333,7 +323,7 @@ Unwrap UVW
 
 *
 *
-[Image: /docs/static/attachments/24157102]
+![Image](https://www.cryengine.com/docs/static/attachments/24157102)
 
 Pic5: Geometry of the leaf
 *
@@ -342,7 +332,7 @@ Pic5: Geometry of the leaf
 
 *
 *
-[Image: /docs/static/attachments/24157111]
+![Image](https://www.cryengine.com/docs/static/attachments/24157111)
 
 Pic6: UV Layout of the leaf in 3dsMax. Note the leaf UVs matching the underlying texture
 *
@@ -403,7 +393,7 @@ Object Properties
 
 *
 *
-[Image: /docs/static/attachments/24157105]
+![Image](https://www.cryengine.com/docs/static/attachments/24157105)
 
 Pic7: Leaf object properties selected
 *
@@ -437,7 +427,7 @@ OK
 
 *
 *
-[Image: /docs/static/attachments/24157096]
+![Image](https://www.cryengine.com/docs/static/attachments/24157096)
 
 Pic8: Leaf object properties, enabling vertex color preview
 *
@@ -451,7 +441,7 @@ tutorial_detail_bending
 
 *
 *
-[Image: /docs/static/attachments/24157097]
+![Image](https://www.cryengine.com/docs/static/attachments/24157097)
 
 Pic9: Leaf showing vertex color with temporarily assigned default white material
 *
@@ -518,7 +508,7 @@ Paint/fill all the vertices black.
 
 *
 *
-[Image: /docs/static/attachments/24157103]
+![Image](https://www.cryengine.com/docs/static/attachments/24157103)
 
 Pic10: Vertex Paint modifier properties
 *
@@ -536,7 +526,7 @@ Close the Vertex Paint modifier
 
 *
 *
-[Image: /docs/static/attachments/24157106]
+![Image](https://www.cryengine.com/docs/static/attachments/24157106)
 
 Pic11: Red vertex color on leaf
 *
@@ -583,7 +573,7 @@ tutorial_detail_bending
 
 *
 
-[Image: /docs/static/attachments/24157100]
+![Image](https://www.cryengine.com/docs/static/attachments/24157100)
 *
 
 Pic12: Full fern bush with proper material assigned, vertex color deactivated and with 2 leaf UV shell variations
@@ -629,7 +619,7 @@ Set a 255 blue value. This will allow the leaves to move up and down but with a 
 *
 
 *
-[Image: /docs/static/attachments/24157110]
+![Image](https://www.cryengine.com/docs/static/attachments/24157110)
 *
 
 Pic13: Bush with soft selected vertices in top view
@@ -637,7 +627,7 @@ Pic13: Bush with soft selected vertices in top view
 *
 
 *
-[Image: /docs/static/attachments/24157095]
+![Image](https://www.cryengine.com/docs/static/attachments/24157095)
 
 Pic14: Blue vertex color on leaves
 *
@@ -655,7 +645,7 @@ add
 
 *
 *
-[Image: /docs/static/attachments/24157094]
+![Image](https://www.cryengine.com/docs/static/attachments/24157094)
 
 Pic15: Red color added to blue values
 *
@@ -690,7 +680,7 @@ Select the first leaf and paint it with a 255 green. Each leaf should get a diff
 
 *
 *
-[Image: /docs/static/attachments/24157101]
+![Image](https://www.cryengine.com/docs/static/attachments/24157101)
 
 Pic16: Shades of green added to our fern bush
 *
@@ -708,7 +698,7 @@ add mode
 
 *
 *
-[Image: /docs/static/attachments/24157107]
+![Image](https://www.cryengine.com/docs/static/attachments/24157107)
 
 Pic17: All three vertex color channels visible
 *
@@ -772,7 +762,7 @@ Export Nodes
 
 *
 *
-[Image: /docs/static/attachments/24157098]
+![Image](https://www.cryengine.com/docs/static/attachments/24157098)
 
 Pic18: Adding the asset to the exporter with the correct export flags checked
 *
@@ -784,28 +774,12 @@ We have now finished the setup for the 3dsMax portion of the tutorial. To contin
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285896](
-Vegetation 03 Bushes (Detail Bending) CRYENGINE
-)
+[Vegetation 03 Bushes (Detail Bending) CRYENGINE](Vegetation%2003%20Bushes%20(Detail%20Bending)%20CRYENGINE.md)
 **
-[#tutorial-files](
-Tutorial Files
-)
-[#pre-requisites-for-this-tutorial](
-Pre-requisites for this Tutorial
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-3dsmax-setup](
-Initial 3dsMax setup
-)
-[#material](
-Material
-)
-[#geometry](
-Geometry
-)
-[#continue-to-cryengine](
-Continue to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Pre-requisites for this Tutorial](#pre-requisites-for-this-tutorial)
+[Helpful Information](#helpful-information)
+[Initial 3dsMax setup](#initial-3dsmax-setup)
+[Material](#material)
+[Geometry](#geometry)
+[Continue to CRYENGINE](#continue-to-cryengine)

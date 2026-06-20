@@ -41,18 +41,10 @@ draw calls
 ##
 Table of Contents
 
-[#the-shader-directory](
-The Shader Directory
-)
-[#extension-files](
-Extension Files
-)
-[#the-common-techniques](
-The Common Techniques
-)
-[#shader-editing](
-Shader Editing
-)
+[The Shader Directory](#the-shader-directory)
+[Extension Files](#extension-files)
+[The Common Techniques](#the-common-techniques)
+[Shader Editing](#shader-editing)
 
 ##
 The Shader Directory

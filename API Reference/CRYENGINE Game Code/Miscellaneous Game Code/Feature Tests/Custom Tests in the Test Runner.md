@@ -203,9 +203,7 @@ CRY_TEST(ConsoleOpenCloseTest, timeout = 60.f, game = true, editor = false)
 game (bool) -
 **
  Defines whether the test should be executed for the game project. For more information, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44109859](
-Test Runner
-)
+[Test Runner](../../../../Manual/Editor%20Tools/Advanced%20Tab/Test%20Runner.md)
  reference page.
 
 -
@@ -246,7 +244,7 @@ Tools\Tests\Test_RunUnitTests_*.cmd
 *
 .
 
-[Image: /docs/static/attachments/44959831]
+![Image](https://www.cryengine.com/docs/static/attachments/44959831)
 
 *
 Running tests from the solution explorer
@@ -275,7 +273,7 @@ Run all the tests that have been introduced to the tool;
 Run a specific test or a category of tests.
 Note that when a test crashes or hangs, it inevitably crashes or hangs the Sandbox as well. It is recommended to write the test code "defensively", i.e. check for nulls.
 
-[Image: /docs/static/attachments/44959830]
+![Image](https://www.cryengine.com/docs/static/attachments/44959830)
 
 *
 Test Runner
@@ -284,7 +282,7 @@ Test Runner
 ##
 3. Run Test Batch File (Tools\Tests\Test_RunUnitTests*.cmd)
 
-[Image: /docs/static/attachments/44959833]
+![Image](https://www.cryengine.com/docs/static/attachments/44959833)
 
 ##
 4. Console command "CryTest"
@@ -305,12 +303,6 @@ CryTest
 **
 , it's going to display a list of valid test cases.
 
-[#creating-a-simple-test](
-Creating a Simple Test
-)
-[#creating-a-feature-test](
-Creating a feature test
-)
-[#running-tests](
-Running tests
-)
+[Creating a Simple Test](#creating-a-simple-test)
+[Creating a feature test](#creating-a-feature-test)
+[Running tests](#running-tests)

@@ -181,7 +181,7 @@ any
 " and node will try to convert the incoming value and pass it to Flash. It is a good practice to specify your parameter type to avoid potential problems.
 The system will automatically create a node for the Flowgraph, with which we can call this function.
 
-[Image: /docs/static/attachments/25502644]
+![Image](https://www.cryengine.com/docs/static/attachments/25502644)
 
 It is also possible to define functions that are not in the
 **
@@ -265,7 +265,7 @@ To handle this event add a
 
 The system creates a node to handle this event:
 
-[Image: /docs/static/attachments/25502645]
+![Image](https://www.cryengine.com/docs/static/attachments/25502645)
 
 ##
 Variables, Arrays and MovieClips
@@ -329,13 +329,13 @@ UI:Variable:Array
 **
  flownode.
 
-[Image: /docs/static/attachments/25502646]
+![Image](https://www.cryengine.com/docs/static/attachments/25502646)
 
 Arrays are comma separated strings.
 
 You can also access your defined MovieClips via FlowNodes.
 
-[Image: /docs/static/attachments/25502647]
+![Image](https://www.cryengine.com/docs/static/attachments/25502647)
 
 ##
 Displaying a UI Element
@@ -356,7 +356,7 @@ UI:Display:Constraints
 **
  nodes.
 
-[Image: /docs/static/attachments/25502648]
+![Image](https://www.cryengine.com/docs/static/attachments/25502648)
 
 It is also possible to initialize all of those settings in the XML file. Keep in mind that, by doing this all of your UI Elements of this type will share the same configuration / constrains (it is still possible to customize it on per instance basis).
 
@@ -674,9 +674,7 @@ function cry_requestHide()
 
 ```
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306544](
-Example - UI Element Fading in / out
-)
+[Example - UI Element Fading in / out](../../../CRYENGINE%20Code%20Tutorials/Miscellaneous%20Tutorials/UI%20Examples/UI%20Element%20Fading%20In%20and%20Out.md)
 
 ```
 
@@ -717,15 +715,7 @@ fscommand("cry_hideElement"); // Case sensitive
 
 ```
 
-[#defining-an-ui-element](
-Defining an UI Element
-)
-[#displaying-a-ui-element](
-Displaying a UI Element
-)
-[#instancing](
-Instancing
-)
-[#functions-reserved-and-used-by-the-engine](
-Functions Reserved and Used by the Engine
-)
+[Defining an UI Element](#defining-an-ui-element)
+[Displaying a UI Element](#displaying-a-ui-element)
+[Instancing](#instancing)
+[Functions Reserved and Used by the Engine](#functions-reserved-and-used-by-the-engine)

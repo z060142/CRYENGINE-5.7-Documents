@@ -7,24 +7,24 @@
 
 ## Child Pages
 
-- [DistanceClouds Shader](Shader Reference/DistanceClouds Shader.md)
-- [Eye Shader](Shader Reference/Eye Shader.md)
-- [Glass Shader](Shader Reference/Glass Shader.md)
-- [Hair Shader](Shader Reference/Hair Shader.md)
-- [HumanSkin Shader](Shader Reference/HumanSkin Shader.md)
-- [Illum Shader](Shader Reference/Illum Shader.md)
-- [Multilayeredmaterials Shader](Shader Reference/Multilayeredmaterials Shader.md)
-- [NoDraw Shader](Shader Reference/NoDraw Shader.md)
-- [ParticleImposter Shader](Shader Reference/ParticleImposter Shader.md)
-- [Particles Shader](Shader Reference/Particles Shader.md)
-- [ReferenceImage Shader](Shader Reference/ReferenceImage Shader.md)
-- [Sky Shader](Shader Reference/Sky Shader.md)
-- [SkyHDR Shader](Shader Reference/SkyHDR Shader.md)
-- [TemplBeamProc Shader](Shader Reference/TemplBeamProc Shader.md)
-- [Terrain.Layer Shader](Shader Reference/Terrain.Layer Shader.md)
-- [Vegetation Shader](Shader Reference/Vegetation Shader.md)
-- [Water Shader](Shader Reference/Water Shader.md)
-- [WaterVolume Shader](Shader Reference/WaterVolume Shader.md)
+- [DistanceClouds Shader](Shader%20Reference/DistanceClouds%20Shader.md)
+- [Eye Shader](Shader%20Reference/Eye%20Shader.md)
+- [Glass Shader](Shader%20Reference/Glass%20Shader.md)
+- [Hair Shader](Shader%20Reference/Hair%20Shader.md)
+- [HumanSkin Shader](Shader%20Reference/HumanSkin%20Shader.md)
+- [Illum Shader](Shader%20Reference/Illum%20Shader.md)
+- [Multilayeredmaterials Shader](Shader%20Reference/Multilayeredmaterials%20Shader.md)
+- [NoDraw Shader](Shader%20Reference/NoDraw%20Shader.md)
+- [ParticleImposter Shader](Shader%20Reference/ParticleImposter%20Shader.md)
+- [Particles Shader](Shader%20Reference/Particles%20Shader.md)
+- [ReferenceImage Shader](Shader%20Reference/ReferenceImage%20Shader.md)
+- [Sky Shader](Shader%20Reference/Sky%20Shader.md)
+- [SkyHDR Shader](Shader%20Reference/SkyHDR%20Shader.md)
+- [TemplBeamProc Shader](Shader%20Reference/TemplBeamProc%20Shader.md)
+- [Terrain.Layer Shader](Shader%20Reference/Terrain.Layer%20Shader.md)
+- [Vegetation Shader](Shader%20Reference/Vegetation%20Shader.md)
+- [Water Shader](Shader%20Reference/Water%20Shader.md)
+- [WaterVolume Shader](Shader%20Reference/WaterVolume%20Shader.md)
 
 ## Content
 
@@ -44,71 +44,55 @@ Description
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448860](
-DistanceClouds Shader
-)
+[DistanceClouds Shader](Shader%20Reference/DistanceClouds%20Shader.md)
 
  |
 Used by the environment artists to create 2D DistanceClouds.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448900](
-Eye Shader
-)
+[Eye Shader](Shader%20Reference/Eye%20Shader.md)
 
  |
 Used by the character artists to create the eyes of characters. Control even the amount of dynamic pupil dilation.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448946](
-Glass Shader
-)
+[Glass Shader](Shader%20Reference/Glass%20Shader.md)
 
  |
 Used by artists to create glass. Comes with specific features tailored for glass use and also specific breakability functionality.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448981](
-Hair Shader
-)
+[Hair Shader](Shader%20Reference/Hair%20Shader.md)
 
  |
 Used by character artists to create hair. Gives wide control over coloring and physicalization options.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449035](
-HumanSkin Shader
-)
+[HumanSkin Shader](Shader%20Reference/HumanSkin%20Shader.md)
 
  |
 Used by character artists and offers a wide variety of options to achieve realistic looking skin.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449070](
-Illum Shader
-)
+[Illum Shader](Shader%20Reference/Illum%20Shader.md)
 
  |
 The most commonly used shader, can be used to create an extremely wide variety of effects. If there is no specific shader for the type of effect you are trying to achieve, use the Illum Shader.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959873](
-Multilayeredmaterials Shader
-)
+[Multilayeredmaterials Shader](Shader%20Reference/Multilayeredmaterials%20Shader.md)
 
  |
 A shader type that is used for modeling materials as a stack of thin layers, including an optional thin-film on top. Each of these layers is a micro-facet surface with its own physical properties, which when combined together, act as a single material with a unique optical response that generally can not be reproduced with the traditional single-layer models.
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449083](
-NoDraw Shader
-)
+[NoDraw Shader](Shader%20Reference/NoDraw%20Shader.md)
 
  |
 Used for physics proxy, the NoDraw Shader forces the Engine to not render the geometry on which the shader is applied. There are no specific Shader Params.
@@ -121,90 +105,70 @@ so that you can see the solid in editing mode, but not in Game mode.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449085](
-ParticleImposter Shader
-)
+[ParticleImposter Shader](Shader%20Reference/ParticleImposter%20Shader.md)
 
  |
 The ParticleImposter shader is used to create particle effects that are not affected by light and hence do not cast shadows or cause reflections.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449087](
-Particles Shader
-)
+[Particles Shader](Shader%20Reference/Particles%20Shader.md)
 
  |
 Used by particle artists.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449090](
-ReferenceImage Shader
-)
+[ReferenceImage Shader](Shader%20Reference/ReferenceImage%20Shader.md)
 
  |
 Forces the Engine to render the object without any shading or post-processing effects.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449106](
-Sky Shader
-)
+[Sky Shader](Shader%20Reference/Sky%20Shader.md)
 
  |
 Is only used for creating the sky box. The Sky Shader has no parameters, and the materials can only be applied via the Material Settings in the Material Editor.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449154](
-SkyHDR Shader
-)
+[SkyHDR Shader](Shader%20Reference/SkyHDR%20Shader.md)
 
  |
 Is the same as the Sky Shader, except that if you want to use the dynamically changing sky with the Time Of Day settings, you always have to use the SkyHDR Shader.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449224](
-TemplBeamProc Shader
-)
+[TemplBeamProc Shader](Shader%20Reference/TemplBeamProc%20Shader.md)
 
  |
 The TempleBeamProc Shader can be used to create very cheap fog light beam effects.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449280](
-Terrain.Layer Shader
-)
+[Terrain.Layer Shader](Shader%20Reference/Terrain.Layer%20Shader.md)
 
  |
 Used for all the terrain materials for painting terrain texture layers.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449329](
-Vegetation Shader
-)
+[Vegetation Shader](Shader%20Reference/Vegetation%20Shader.md)
 
  |
 Used for all vegetation.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449362](
-Water Shader
-)
+[Water Shader](Shader%20Reference/Water%20Shader.md)
 
  |
 Used for the ocean.
 
  |
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449415](
-WaterVolume Shader
-)
+[WaterVolume Shader](Shader%20Reference/WaterVolume%20Shader.md)
 
  |
 Used for water volumes and rivers.

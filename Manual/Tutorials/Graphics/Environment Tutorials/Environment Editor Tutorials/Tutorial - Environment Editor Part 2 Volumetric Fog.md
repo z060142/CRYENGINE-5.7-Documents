@@ -18,7 +18,7 @@ Global density
 **
  is toggled between a value of 0 and .1. At 0, the tones in all of the trees look the same, no matter how far away, but as soon as even a little fog is enabled, the trees become increasingly fog-colored the farther away they are, catching the warm sunlight. (The camera's FOV is set to 10° to compress the sense of distance and highlight the distance cue effect.)
 
-[Image: /docs/static/attachments/56660075]
+![Image](https://www.cryengine.com/docs/static/attachments/56660075)
 
 To see further evidence of why fog is needed to provide this distance cue, try turning off fog completely: just type
 **
@@ -40,7 +40,7 @@ through
  dense atmosphere.
 
 **
-[Image: /docs/static/attachments/56660077]
+![Image](https://www.cryengine.com/docs/static/attachments/56660077)
 **
 
 In this next image, the camera has simply been moved up to a height of
@@ -49,7 +49,7 @@ In this next image, the camera has simply been moved up to a height of
 **
  - yet that same sun now looks very different simply because we are no longer viewing it through dense fog. Thus we see the sun's orb sharply defined, with little atmosphere to scatter light around it.
 
-[Image: /docs/static/attachments/56660076]
+![Image](https://www.cryengine.com/docs/static/attachments/56660076)
 
 You control the height of both the bottom and top of your global fog or volumetric fog range. I
 f Earth-like realism is not your goal,
@@ -105,7 +105,7 @@ Move the camera from the terrain straight up until you're above the fog's upper 
 
 -
 Just as you would when flying a rocket into orbit, you'll see the sky change from blue (the fog color) to the black (the sky color) filled with stars.
-[Image: /docs/static/attachments/56660044]
+![Image](https://www.cryengine.com/docs/static/attachments/56660044)
 
 The lesson here is that what you
 *
@@ -123,9 +123,7 @@ Otherwise, it should be noted that setting up your environment to have a black s
 Volumetric Fog vs. Fog
 
 It's highly recommended that you use
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215326](
-volumetric fog
-)
+[volumetric fog](../../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Volumetric%20Fog.md)
  instead of the old, simple fog effect. Volumetric fog is voxel-based, and provides considerable advantages.
 
 Volumetric fog is
@@ -137,13 +135,9 @@ off
 e_volumetricFog 1
 **
  in the Console, or on game or editor start by putting it in your
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605736](
-autoexec.cfg
-)
+[autoexec.cfg](/docs/static/engines/cryengine-3/categories/1638401/pages/1605736)
  file. It's important to note that when you enable volumetric fog, the old Fog parameters no longer have any effect. (However, if you have SVOGI enabled with Sky Color Multiplier > 0, the Fog → Color (top) will have an effect. See the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535599](
-SVOGI
-)
+[SVOGI](../../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Voxel-Based%20Global%20Illumination%20(SVOGI).md)
  page or part three of this tutorial series for details.)
 
 For the most part, you'll recognize variables that work much the same between fog and volumetric fog. The following section details volumetric fog settings.
@@ -153,9 +147,9 @@ Variables → Fog settings
 Variables → Volumetric Fog settings
  |
 
-[Image: /docs/static/attachments/56660032]
+![Image](https://www.cryengine.com/docs/static/attachments/56660032)
  |
-[Image: /docs/static/attachments/56660031]
+![Image](https://www.cryengine.com/docs/static/attachments/56660031)
  |
 
 ##
@@ -177,7 +171,7 @@ both
 **
  global and local fog volumes, while some affect just one or the other, as shown below.
 
-[Image: /docs/static/attachments/56660019]
+![Image](https://www.cryengine.com/docs/static/attachments/56660019)
 
 Like
 **
@@ -208,9 +202,7 @@ Color (atmosphere)
 .
 
 What's not immediately apparent just from looking at the volumetric fog controls are its significantly more sophisticated features over the old fog effect. See its
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215326](
-page
-)
+[page](../../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Volumetric%20Fog.md)
  in the documentation for full details.
 
 Since the recommended workflow is to use volumetric fog, and you've already been introduced to the key properties of the old fog effect, from this point forward, we'll exclusively look at the best uses of volumetric fog. Make sure volumetric fog is
@@ -300,15 +292,15 @@ enabled
 **
 .
 
-[Image: /docs/static/attachments/56660023]
+![Image](https://www.cryengine.com/docs/static/attachments/56660023)
 
 In the next example, the setup is the same, but the color of the sunlight has been made a more typical warm orange. This affects both the global fog and the fog volume, since its Use Global Fog Color property is still enabled.
 
-[Image: /docs/static/attachments/56660018]
+![Image](https://www.cryengine.com/docs/static/attachments/56660018)
 
 Here, a neutral grey color has been set as the fog volume's color, allowing the sunlight to determine its color, but still affecting its luminosity; compare its luminosity to the previous example. (The Use Global Fog Color property of the fog volume, hidden in this screen shot, is still disabled.)
 
-[Image: /docs/static/attachments/56660015]
+![Image](https://www.cryengine.com/docs/static/attachments/56660015)
 
 In this example, the Environment Editor's
 **
@@ -324,7 +316,7 @@ enabled
 **
 .
 
-[Image: /docs/static/attachments/56660017]
+![Image](https://www.cryengine.com/docs/static/attachments/56660017)
 
 Next, the
 **
@@ -340,7 +332,7 @@ Color
 **
  property to set its albedo color to red in this case. Because the red is quite saturated, it overpowers the effect of the sunlight's color on the fog volume.
 
-[Image: /docs/static/attachments/56660016]
+![Image](https://www.cryengine.com/docs/static/attachments/56660016)
 
 ##
 Emissive Fog
@@ -498,15 +490,15 @@ outside
 
 Here are examples using the hangar from the free GameSDK assets. The hangar is about 32x20m, and the camera has been positioned in a far upper corner looking all the way across the hangar and outside. The global fog has been set to a very obvious, dense green color. In this first example, Ramp Start begins revealing fog at a distance of 15m, Ramp End bringing fog to its full density at 30m. As a result, some fog is visible in the far end of the building.
 
-[Image: /docs/static/attachments/56660022]
+![Image](https://www.cryengine.com/docs/static/attachments/56660022)
 
 In the second example, the ramping has been set to prevent any fog closer to the camera than 30m, ramping up to full density at 50m. This effectively keeps the global fog from appearing within the hangar.
 
-[Image: /docs/static/attachments/56660021]
+![Image](https://www.cryengine.com/docs/static/attachments/56660021)
 
 Finally, here's the problem that remains unsolved: using those same settings, the fog starts to appear inside the building as the camera moves away from the building past the Ramp Start distance.
 
-[Image: /docs/static/attachments/56660020]
+![Image](https://www.cryengine.com/docs/static/attachments/56660020)
 
 And of course for buildings with rooms larger then the Ramp Start distance that looks good for exteriors, this is no help at all.
 
@@ -519,9 +511,7 @@ Options → Only Affect This Area
 enabled
 **
  on any exterior fog volumes, and keeping the pivots of all fog volumes outside the clip volumes to exclude them from the interiors. See the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869891](
-clip volumes page
-)
+[clip volumes page](../../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Clip%20Volume.md)
  for details.
 
 ##
@@ -625,7 +615,7 @@ In the examples below, the sunlight color has been set to white, Color (sun radi
 **
 , scattering the color set by Color (sun radial) fairly widely around the horizon.
 
-[Image: /docs/static/attachments/56660030]
+![Image](https://www.cryengine.com/docs/static/attachments/56660030)
 
 Next, Anisotropy (sun radial) has been set to
 **
@@ -633,7 +623,7 @@ Next, Anisotropy (sun radial) has been set to
 **
 , tightening the scattering of Color (sun radial) noticeably closer to the sun.
 
-[Image: /docs/static/attachments/56660029]
+![Image](https://www.cryengine.com/docs/static/attachments/56660029)
 
 Next, Anisotropy (sun radial) has been set to
 **
@@ -641,7 +631,7 @@ Next, Anisotropy (sun radial) has been set to
 **
 , a small change that nevertheless has had an exponential effect on tightening Color (sun radial) around the sun.
 
-[Image: /docs/static/attachments/56660028]
+![Image](https://www.cryengine.com/docs/static/attachments/56660028)
 
 Finally, Anisotropy (sun radial) has been set to
 **
@@ -649,7 +639,7 @@ Finally, Anisotropy (sun radial) has been set to
 **
 , effectively making Color (sun radial) disappear completely.
 
-[Image: /docs/static/attachments/56660027]
+![Image](https://www.cryengine.com/docs/static/attachments/56660027)
 
 ##
 Anisotropy of Fog Volumes vs. Sunlight
@@ -697,7 +687,7 @@ Fog Voxelization
 
 At the default values, you're likely to notice the voxelization when using volumetric fog. It looks a bit like old analog TV static, as seen here, with r_VolumetricFogTexDepth = 8 and r_VolumetricFogTexScale = 50:
 
-[Image: /docs/static/attachments/56660073]
+![Image](https://www.cryengine.com/docs/static/attachments/56660073)
 
 You'll want to tweak the voxelization, which you can do with the following cVars:
 
@@ -721,7 +711,7 @@ r_VolumetricFogTexScale
 
 Here's the same scene with r_VolumetricFogTexDepth = 120 and r_VolumetricFogTexScale = 8:
 
-[Image: /docs/static/attachments/56660072]
+![Image](https://www.cryengine.com/docs/static/attachments/56660072)
 
 We've talked about the three key aspects of environmental lighting: the sun, the sky, and fog. However, we are far from done; there are additional considerations that you'll need to set up. In the subsequent parts of this tutorial series, we'll look at how to add ambient light using environment probes and SVOGI, look at volumetric clouds, HDR, and some other settings, and finally, bring it all together in a series of downloadable use cases that cover realistic and purely fantastical looks.
 
@@ -751,39 +741,16 @@ Video Tutorial
 
 This tutorial is also available as a video on our YouTube channel:
 
-[#light-scattering-relative-to-camera-and-sun-height](
-Light Scattering Relative to Camera and Sun Height
-)
-[#fog-and-sky](
-Fog and Sky
-)
-[#fog-vs-skylight-in-the-apparent-sky](
-Fog vs. Skylight in the Apparent Sky
-)
-[#volumetric-fog-vs-fog](
-Volumetric Fog vs. Fog
-)
-[#global-vs-local-control-over-fog-volumes](
-Global vs. Local Control Over Fog Volumes
-)
-[#global-vs-individual-control-over-of-fog-volume-albedo-color](
-Global vs. Individual Control Over of Fog Volume Albedo Color
-)
-[#emissive-fog](
-Emissive Fog
-)
-[#volumetric-fog-vertical-range](
-Volumetric Fog Vertical Range
-)
-[#global-fog-and-interior-spaces](
-Global Fog and Interior Spaces
-)
-[#fog-voxelization](
-Fog Voxelization
-)
-[#additional-tips](
-Additional Tips
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=uMfuWYcfmk8]
+[Light Scattering Relative to Camera and Sun Height](#light-scattering-relative-to-camera-and-sun-height)
+[Fog and Sky](#fog-and-sky)
+[Fog vs. Skylight in the Apparent Sky](#fog-vs-skylight-in-the-apparent-sky)
+[Volumetric Fog vs. Fog](#volumetric-fog-vs-fog)
+[Global vs. Local Control Over Fog Volumes](#global-vs-local-control-over-fog-volumes)
+[Global vs. Individual Control Over of Fog Volume Albedo Color](#global-vs-individual-control-over-of-fog-volume-albedo-color)
+[Emissive Fog](#emissive-fog)
+[Volumetric Fog Vertical Range](#volumetric-fog-vertical-range)
+[Global Fog and Interior Spaces](#global-fog-and-interior-spaces)
+[Fog Voxelization](#fog-voxelization)
+[Additional Tips](#additional-tips)
+[Video Tutorial](#video-tutorial)

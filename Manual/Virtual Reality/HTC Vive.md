@@ -7,10 +7,8 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933306]
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/44968372]
-)
+![Image](https://www.cryengine.com/docs/static/attachments/29933306)
+[![Image](https://www.cryengine.com/docs/static/attachments/44968372)](https://www.cryengine.com/support)
 
 ##
 Overview
@@ -20,24 +18,12 @@ HTC Vive support is now included with CRYENGINE. This article will guide you thr
 ##
 Chapters:
 
-[#chapters](
-Chapters:
-)
-[#getting-started](
-Getting Started
-)
-[#input-configuration](
-Input Configuration
-)
-[#flow-graph](
-Flow Graph
-)
-[#frames-per-second](
-Frames per Second
-)
-[#possible-issues-you-can-encounter](
-Possible Issues You Can Encounter
-)
+[Chapters:](#chapters)
+[Getting Started](#getting-started)
+[Input Configuration](#input-configuration)
+[Flow Graph](#flow-graph)
+[Frames per Second](#frames-per-second)
+[Possible Issues You Can Encounter](#possible-issues-you-can-encounter)
 
 ##
 Getting Started
@@ -50,9 +36,7 @@ I
 n order to use the HTC Vive you need to install
 
 **
-[http://store.steampowered.com/about/](
-Steam
-)
+[Steam](http://store.steampowered.com/about/)
 .
 **
 
@@ -64,9 +48,7 @@ HTC Vive Documentation:
 Please read the documentation regarding device setup and configuration -
 
 **
-[https://support.steampowered.com/kb_cat.php?id=111](
-Available from Steam
-)
+[Available from Steam](https://support.steampowered.com/kb_cat.php?id=111)
 .
 **
 
@@ -85,9 +67,7 @@ Recommended PC Spec:
 Information regarding hardware requirements -
 
 **
-[https://www.vive.com/us/support/vive-pro-hmd/category_howto/what-are-the-system-requirements.html](
-Available from HTC
-)
+[Available from HTC](https://www.vive.com/us/support/vive-pro-hmd/category_howto/what-are-the-system-requirements.html)
 .
 **
 Help with installation and Setup
@@ -180,9 +160,7 @@ and assign a button there.
 See
 
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306384](
-Setting up Controls & Actionmaps
-)
+[Setting up Controls & Actionmaps](../../API%20Reference/CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/Setting%20Up%20Controls%20and%20Action%20Maps.md)
 **
 
 for more information.
@@ -198,7 +176,7 @@ VR:TransformInfo
 **
 
 **
-[Image: /docs/static/attachments/44968376]
+![Image](https://www.cryengine.com/docs/static/attachments/44968376)
 **
 **
 
@@ -215,7 +193,7 @@ VR:Tools
 **
 
 **
-[Image: /docs/static/attachments/44968384]
+![Image](https://www.cryengine.com/docs/static/attachments/44968384)
 
 **
 Allows you to hook up an input to trigger the RecenterPose command.
@@ -226,7 +204,7 @@ VR:ControllerTracking
 **
 
 **
-[Image: /docs/static/attachments/44968385]
+![Image](https://www.cryengine.com/docs/static/attachments/44968385)
 
 **
 Similar to the VR:TransformInfo node. This node will allow you to access position and rotation information of a controller. Additionally, you can provide a scaling value as well as a reference entity.
@@ -240,7 +218,7 @@ VR:OpenVRController
 **
 
 **
-[Image: /docs/static/attachments/44968386]
+![Image](https://www.cryengine.com/docs/static/attachments/44968386)
 
 **
 Allows you to retrieve the button states as well as the trigger and touchpad values of the given Controller. (Index should usually be either 0 or 1).

@@ -51,10 +51,6 @@ The second entity that got created is the CameraTarget. It can be animated in Tr
 Flowgraph-based Solution
 
 If you want a camera to point at the player, an AI entity or something similar, use the attached flowgraph:
-[/docs/static/attachments/1212676](
-Tracking Camera.xml
-)
+[Tracking Camera.xml](/docs/static/attachments/1212676)
 
-[#flowgraph-based-solution](
-Flowgraph-based Solution
-)
+[Flowgraph-based Solution](#flowgraph-based-solution)

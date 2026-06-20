@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Controller mapping](Setting Up Controls and Action Maps/Controller mapping.md)
+- [Controller mapping](Setting%20Up%20Controls%20and%20Action%20Maps/Controller%20mapping.md)
 
 ## Content
 
@@ -18,14 +18,12 @@ This document will tell you about creating and modifying action maps yourself to
 
 You can find an overview of the controls in the SDK package here:
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306385](
-Controller mapping
-)
+[Controller mapping](Setting%20Up%20Controls%20and%20Action%20Maps/Controller%20mapping.md)
 .
 
 Here is an overview of the standard setup that you can find in your profile:
 
-[Image: /docs/static/attachments/23461141]
+![Image](https://www.cryengine.com/docs/static/attachments/23461141)
 
 You can find the Action Maps XML profiles for all supported platforms inside this file:
 `
@@ -234,18 +232,14 @@ Handling Actions during run-time
 Flowgraph
 
 The
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048892](
-Input Nodes
-)
+[Input Nodes](/docs/static/engines/cryengine-3/categories/1114113/pages/1048892)
  can be used to handle actions. Only digital inputs can be handled from a Flow Graph.
 
 ##
 Lua Script
 
 While Actions are usually not intended to be received directly by scripts, it's possible to interact with the Action Map Manager from Lua. More information can be found in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306608](
-ScriptBind_ActionMapManager
-)
+[ScriptBind_ActionMapManager](../../CRYENGINE%20API%20Reference/ScriptBind%20Reference/CryAction%20Functions/ScriptBind_ActionMapManager.md)
  reference document.
 
 ##

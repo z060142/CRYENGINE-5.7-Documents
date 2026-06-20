@@ -38,7 +38,7 @@ Ornatrix will color individual hairs based on the color of the growth objects at
 
 This method is especially useful for fur like pictured here:
 
-[Image: /docs/static/attachments/35398012]
+![Image](https://www.cryengine.com/docs/static/attachments/35398012)
 
 Make sure to turn
 **
@@ -88,7 +88,7 @@ Braids
 
 In addition to the above, you will probably want to bake down separate normalmap/AO maps for braids based on pretty much solid geometry, so as to really capture the big shapes.
 
-[Image: /docs/static/attachments/35398023]
+![Image](https://www.cryengine.com/docs/static/attachments/35398023)
 
 Parts that are hard to bake: baking down complex hair can be somewhat tricky – you are dealing with rather messy and heavy models, and baking issues are not uncommon. What usually works best is to reduce baking problems to an acceptable level and then fix remaining problems manually. You can use backdrop objects in your bake to stop the low-poly hair from capturing unwanted areas.
 
@@ -171,7 +171,7 @@ Finally, turn the
 Unwrap UVW
 **
  modifier back on
-[Image: /docs/static/attachments/28898530]
+![Image](https://www.cryengine.com/docs/static/attachments/28898530)
 
 Vertex Color display in CRYENGINE can be somewhat different from what you see in your DCC tool. Some tweaking of Hue/Contrast in the
 **
@@ -190,7 +190,7 @@ A good tool for copying normals from a simple reference object over to your hair
 Maya Users
 Transfer Maps can be a useful tool for transferring normals or projecting them to a target mesh.
 
-[Image: /docs/static/attachments/28898526]
+![Image](https://www.cryengine.com/docs/static/attachments/28898526)
 
 ##
 Shader Overview
@@ -254,7 +254,7 @@ Textures for traditional Hair Planes can be created either by manually painting 
 
 By default, anisotropic highlights will be aligned to the V coordinate in UV space - this means that in many cases a Directionality Map is not needed for hair planes, if the UV are set up properly.
 
-[Image: /docs/static/attachments/28898527]
+![Image](https://www.cryengine.com/docs/static/attachments/28898527)
 
 ##
 Advanced Settings
@@ -524,15 +524,7 @@ Simulate wind effects. If turned on, options will appear under
 
  |
 
-[#dcc-tool-setup](
-DCC Tool Setup
-)
-[#shader-overview](
-Shader Overview
-)
-[#shader-params](
-Shader Params
-)
-[#shader-generation-params](
-Shader Generation Params
-)
+[DCC Tool Setup](#dcc-tool-setup)
+[Shader Overview](#shader-overview)
+[Shader Params](#shader-params)
+[Shader Generation Params](#shader-generation-params)

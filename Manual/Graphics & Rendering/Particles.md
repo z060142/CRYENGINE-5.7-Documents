@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Key Concepts](Particles/Key Concepts.md)
-- [GPU Support](Particles/GPU Support.md)
+- [Key Concepts](Particles/Key%20Concepts.md)
+- [GPU Support](Particles/GPU%20Support.md)
 
 ## Content
 
@@ -22,7 +22,7 @@ On the frontend side, the particle system presents a modular
 
 The particle system introduces seamless switching between a CPU and GPU based particle pipeline, where the GPU based particle pipeline implements a subset of the CPU particle functionality while offering much higher speeds for massive particle effects such as fluid like effects and fractal movement.
 
-[Image: /docs/static/attachments/44970657]
+![Image](https://www.cryengine.com/docs/static/attachments/44970657)
 
 *
 A sample effect created using the particle system.
@@ -30,18 +30,12 @@ A sample effect created using the particle system.
 
 For more information on Particle Effect Features reference, please refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-here
-)
+[here](../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features.md)
 **
 .
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26217391](
-Key Concepts
-)
+[Key Concepts](Particles/Key%20Concepts.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25526352](
-GPU Support
-)
+[GPU Support](Particles/GPU%20Support.md)

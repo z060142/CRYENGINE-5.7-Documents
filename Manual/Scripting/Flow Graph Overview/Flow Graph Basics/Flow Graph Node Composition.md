@@ -149,7 +149,7 @@ Vec3
 
  |
 
-[Image: /docs/static/attachments/35395039]
+![Image](https://www.cryengine.com/docs/static/attachments/35395039)
 
 -
 **

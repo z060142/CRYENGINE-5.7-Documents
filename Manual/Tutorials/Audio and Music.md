@@ -7,19 +7,15 @@
 
 ## Child Pages
 
-- [Tutorial - Audio Showcase](Audio and Music/Tutorial - Audio Showcase.md)
-- [Tutorial - Setting Up the Dynamic Response System](Audio and Music/Tutorial - Setting Up the Dynamic Response System.md)
+- [Tutorial - Audio Showcase](Audio%20and%20Music/Tutorial%20-%20Audio%20Showcase.md)
+- [Tutorial - Setting Up the Dynamic Response System](Audio%20and%20Music/Tutorial%20-%20Setting%20Up%20the%20Dynamic%20Response%20System.md)
 
 ## Content
 
-[Image: /docs/static/attachments/106627342]
+![Image](https://www.cryengine.com/docs/static/attachments/106627342)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56000643](
-Tutorial - Audio Showcase
-)
+[Tutorial - Audio Showcase](Audio%20and%20Music/Tutorial%20-%20Audio%20Showcase.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44958098](
-Tutorial - Setting Up the Dynamic Response System
-)
+[Tutorial - Setting Up the Dynamic Response System](Audio%20and%20Music/Tutorial%20-%20Setting%20Up%20the%20Dynamic%20Response%20System.md)

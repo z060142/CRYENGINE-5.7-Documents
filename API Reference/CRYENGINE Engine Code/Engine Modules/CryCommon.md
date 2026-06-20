@@ -10,8 +10,8 @@
 - [CryExtension](CryCommon/CryExtension.md)
 - [CryString](CryCommon/CryString.md)
 - [ICrySizer](CryCommon/ICrySizer.md)
-- [CryColor Table](CryCommon/CryColor Table.md)
-- [Serialization Library](CryCommon/Serialization Library.md)
+- [CryColor Table](CryCommon/CryColor%20Table.md)
+- [Serialization Library](CryCommon/Serialization%20Library.md)
 
 ## Content
 
@@ -25,26 +25,16 @@ Code\CryCommon
  directory is the central directory for all the engine interfaces. Additionally some commonly used code also is stored there when it is desired to encourage reuse among different.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306448](
-CryExtension
-)
+[CryExtension](CryCommon/CryExtension.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306447](
-CryString
-)
+[CryString](CryCommon/CryString.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306446](
-ICrySizer
-)
+[ICrySizer](CryCommon/ICrySizer.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306450](
-CryColor Table
-)
+[CryColor Table](CryCommon/CryColor%20Table.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306451](
-Serialization Library
-)
+[Serialization Library](CryCommon/Serialization%20Library.md)

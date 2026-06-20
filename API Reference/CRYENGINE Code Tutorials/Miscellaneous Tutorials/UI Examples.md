@@ -7,12 +7,12 @@
 
 ## Child Pages
 
-- [Creating A Crosshair For Top-Down Games](UI Examples/Creating A Crosshair For Top-Down Games.md)
-- [Creating UI Using Vectorian Giotto and FlashDevelop](UI Examples/Creating UI Using Vectorian Giotto and FlashDevelop.md)
-- [Invoking Flash Functions](UI Examples/Invoking Flash Functions.md)
-- [Tutorial - Adding a Speedometer to a Vehicle](UI Examples/Tutorial - Adding a Speedometer to a Vehicle.md)
-- [UI Action playing videos](UI Examples/UI Action playing videos.md)
-- [UI Element Fading In and Out](UI Examples/UI Element Fading In and Out.md)
+- [Creating A Crosshair For Top-Down Games](UI%20Examples/Creating%20A%20Crosshair%20For%20Top-Down%20Games.md)
+- [Creating UI Using Vectorian Giotto and FlashDevelop](UI%20Examples/Creating%20UI%20Using%20Vectorian%20Giotto%20and%20FlashDevelop.md)
+- [Invoking Flash Functions](UI%20Examples/Invoking%20Flash%20Functions.md)
+- [Tutorial - Adding a Speedometer to a Vehicle](UI%20Examples/Tutorial%20-%20Adding%20a%20Speedometer%20to%20a%20Vehicle.md)
+- [UI Action playing videos](UI%20Examples/UI%20Action%20playing%20videos.md)
+- [UI Element Fading In and Out](UI%20Examples/UI%20Element%20Fading%20In%20and%20Out.md)
 
 ## Content
 
@@ -25,31 +25,19 @@ Below you will find links to some tutorial articles and specific example article
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306543](
-Creating A Crosshair For Top-Down Games
-)
+[Creating A Crosshair For Top-Down Games](UI%20Examples/Creating%20A%20Crosshair%20For%20Top-Down%20Games.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306541](
-Creating UI Using Vectorian Giotto and FlashDevelop
-)
+[Creating UI Using Vectorian Giotto and FlashDevelop](UI%20Examples/Creating%20UI%20Using%20Vectorian%20Giotto%20and%20FlashDevelop.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306542](
-Invoking Flash Functions
-)
+[Invoking Flash Functions](UI%20Examples/Invoking%20Flash%20Functions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306546](
-Tutorial - Adding a Speedometer to a Vehicle
-)
+[Tutorial - Adding a Speedometer to a Vehicle](UI%20Examples/Tutorial%20-%20Adding%20a%20Speedometer%20to%20a%20Vehicle.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306545](
-UI Action playing videos
-)
+[UI Action playing videos](UI%20Examples/UI%20Action%20playing%20videos.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306544](
-UI Element Fading In and Out
-)
+[UI Element Fading In and Out](UI%20Examples/UI%20Element%20Fading%20In%20and%20Out.md)

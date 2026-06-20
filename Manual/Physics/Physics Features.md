@@ -7,17 +7,13 @@
 
 ## Child Pages
 
-- [LocalGrids Component](Physics Features/LocalGrids Component.md)
-- [Rigid Body Component](Physics Features/Rigid Body Component.md)
+- [LocalGrids Component](Physics%20Features/LocalGrids%20Component.md)
+- [Rigid Body Component](Physics%20Features/Rigid%20Body%20Component.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656236](
-LocalGrids Component
-)
+[LocalGrids Component](Physics%20Features/LocalGrids%20Component.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656025](
-Rigid Body Component
-)
+[Rigid Body Component](Physics%20Features/Rigid%20Body%20Component.md)

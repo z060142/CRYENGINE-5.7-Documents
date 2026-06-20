@@ -7,35 +7,25 @@
 
 ## Child Pages
 
-- [Animation & Characters](Cinematics Overview/Animation & Characters.md)
-- [Render Output](Cinematics Overview/Render Output.md)
-- [Scene Interactivity](Cinematics Overview/Scene Interactivity.md)
-- [Track Cameras](Cinematics Overview/Track Cameras.md)
-- [Facial Sequence Tracks](Cinematics Overview/Facial Sequence Tracks.md)
+- [Animation & Characters](Cinematics%20Overview/Animation%20%26%20Characters.md)
+- [Render Output](Cinematics%20Overview/Render%20Output.md)
+- [Scene Interactivity](Cinematics%20Overview/Scene%20Interactivity.md)
+- [Track Cameras](Cinematics%20Overview/Track%20Cameras.md)
+- [Facial Sequence Tracks](Cinematics%20Overview/Facial%20Sequence%20Tracks.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874144](
-Animation & Characters
-)
+[Animation & Characters](Cinematics%20Overview/Animation%20%26%20Characters.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874142](
-Facial Sequence Tracks
-)
+[Facial Sequence Tracks](Cinematics%20Overview/Facial%20Sequence%20Tracks.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535442](
-Render Output
-)
+[Render Output](Cinematics%20Overview/Render%20Output.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874130](
-Scene Interactivity
-)
+[Scene Interactivity](Cinematics%20Overview/Scene%20Interactivity.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874128](
-Track Cameras
-)
+[Track Cameras](Cinematics%20Overview/Track%20Cameras.md)

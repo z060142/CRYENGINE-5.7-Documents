@@ -11,28 +11,16 @@
 Overview
 
 CRYENGINE is supported on the
-[http://www.ubuntu.com/download/desktop](
-Ubuntu 16 64bit
-)
+[Ubuntu 16 64bit](http://www.ubuntu.com/download/desktop)
  Linux distribution. Other Linux distributions will likely work as well, however they are not actively tested and supported by development team.
 
 Chapters:
 
-[#compilation-prerequisites](
-Compilation prerequisites
-)
-[#compiling](
-Compiling
-)
-[#running-prerequisites](
-Running prerequisites
-)
-[#stack-traces-and-core-dumps](
-Stack Traces & Core Dumps
-)
-[#known-issues](
-Known issues
-)
+[Compilation prerequisites](#compilation-prerequisites)
+[Compiling](#compiling)
+[Running prerequisites](#running-prerequisites)
+[Stack Traces & Core Dumps](#stack-traces-and-core-dumps)
+[Known issues](#known-issues)
 
 ##
 Compilation prerequisites
@@ -164,9 +152,7 @@ with the GameSDK project in Profile configuration with GCC, type:
 This command will produce the binaries for the project in the BinLinux64<compiler> sub-folder (in this case BinLinux64gcc).
 
 Visit
-[/docs/static/engines/cryengine-5/categories/23756813](
-WAF Build System
-)
+[WAF Build System](/docs/static/engines/cryengine-5/categories/23756813)
  for more informations about WAF and more advanced options.
 
 ##
@@ -180,15 +166,11 @@ For Ubuntu you can follow these guides to get the correct vendor drivers install
 
 -
 NVIDIA graphics cards:
-[https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia](
-https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia
-)
+[https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia](https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia)
 
 -
 AMD graphics cards:
-[https://help.ubuntu.com/community/BinaryDriverHowto/AMD?action=show&redirect=BinaryDriverHowto%2FATI](
-https://help.ubuntu.com/community/BinaryDriverHowto/AMD
-)
+[https://help.ubuntu.com/community/BinaryDriverHowto/AMD](https://help.ubuntu.com/community/BinaryDriverHowto/AMD?action=show&redirect=BinaryDriverHowto%2FATI)
 CRYENGINE on Linux also uses the SDL2 library runtime.
 
 The command to install  it on Ubuntu is:

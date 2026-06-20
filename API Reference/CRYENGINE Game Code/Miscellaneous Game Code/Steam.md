@@ -51,7 +51,7 @@ Achievements
 
 Achievements are awarded with the generic node "AwardTrophy".
 
-[Image: /docs/static/attachments/23461532]
+![Image](https://www.cryengine.com/docs/static/attachments/23461532)
 
 For the 220980 app there are some example Achievements set up. When you are doing your own achievements, make sure you change the amount and the names in CrySteamReward.cpp. The index in EAchievements is the index used in the flownode.
 
@@ -90,11 +90,11 @@ First you need to register the leader board. A good example, to get started quic
 
 In the case of Steam only the name needs to be correct, the index can be of your choosing. After registering the leader board you can start reading from it and writing to it, below is an example where information has been written to it.
 
-[Image: /docs/static/attachments/23461530]
+![Image](https://www.cryengine.com/docs/static/attachments/23461530)
 
 This is the result in the Steam back-end: The score column is populated, and the custom columns have been compressed and saved in the 'extra' column (0, 1 and 3).
 
-[Image: /docs/static/attachments/23461531]
+![Image](https://www.cryengine.com/docs/static/attachments/23461531)
 
 ##
 Matchmaking
@@ -152,7 +152,7 @@ Friends
 
 There are some nodes to give you quick access to friends, use them as a reference when making your own friend functionality, as the node might restrict you too much.
 
-[Image: /docs/static/attachments/23461533]
+![Image](https://www.cryengine.com/docs/static/attachments/23461533)
 
 First we create a container (1) to hold the data for us. Then when the user pressed a button (2) we asked the system to fetch the friends and store them in a container (3).
 

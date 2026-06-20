@@ -11,18 +11,16 @@
 Overview
 
 The C# Output window pops up when there is a problem with a C# asset. For more information, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066#AssetBrowser-Menu](
-this page
-)
+[this page](../Asset%20Browser.md#AssetBrowser-Menu)
 .
 
-[Image: /docs/static/attachments/44967625]
+![Image](https://www.cryengine.com/docs/static/attachments/44967625)
 
 ##
 Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44967624]
+![Image](https://www.cryengine.com/docs/static/attachments/44967624)
  icon on the top-right corner of the tool. When clicked, it reveals the following
 **
 
@@ -105,12 +103,6 @@ Help
 
 Opens the documentation page for this tool.
 
-[#menu](
-Menu
-)
-[#toolbars](
-Toolbars
-)
-[#help](
-Help
-)
+[Menu](#menu)
+[Toolbars](#toolbars)
+[Help](#help)

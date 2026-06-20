@@ -42,7 +42,7 @@ Player.xml;
 -
 In the Fragment Editor, you should see your character in T-pose:
 
-[Image: /docs/static/attachments/65438027]
+![Image](https://www.cryengine.com/docs/static/attachments/65438027)
 
 *
 Loaded character in T-pose
@@ -59,7 +59,7 @@ Option 1
 **
 :
 
-[Image: /docs/static/attachments/65438029]
+![Image](https://www.cryengine.com/docs/static/attachments/65438029)
 
 *
 Idle Option 1
@@ -68,7 +68,7 @@ Idle Option 1
 -
 In the bottom right, there are two Animation Layers, one for First Person (FirstPerson(FirstPerson)) and one for Third Person (ThirdPerson(ThirdPerson)), both with an animation already set up for them:
 
-[Image: /docs/static/attachments/65438030]
+![Image](https://www.cryengine.com/docs/static/attachments/65438030)
 
 *
 Animation Layers for Idle fragment
@@ -95,7 +95,7 @@ Anim Clip Properties
  browse
 **
 button
-[Image: /docs/static/attachments/65438025]
+![Image](https://www.cryengine.com/docs/static/attachments/65438025)
  on the right and choose the walk animation for your character;
 
 -
@@ -125,9 +125,7 @@ Time Warping
 ;
 
 If you have a blend space (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/65437964](
-previous tutorial
-)
+[previous tutorial](../Character%20Tool%20and%20Pipeline/Tutorial%20-%20Character%20Pipeline%20-%20Creating%20a%20Blend%20Space.md)
 ), choose the blend space instead of the walk animation.
 
 For more variation in for example your Idle animations, you can set up multiple animation clips for the same situation.

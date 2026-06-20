@@ -15,37 +15,21 @@ Sections
 
 Helicopters and their special functions are covered in this topic.
 
-[#sections](
-Sections
-)
-[#sample-files](
-Sample Files
-)
-[#fading-rotors](
-Fading Rotors
-)
-[#ordnance](
-Ordnance
-)
-[#landing-gears-and-other-animated-elements](
-Landing Gears and Other Animated Elements
-)
-[#in-sandbox](
-In Sandbox
-)
+[Sections](#sections)
+[Sample Files](#sample-files)
+[Fading Rotors](#fading-rotors)
+[Ordnance](#ordnance)
+[Landing Gears and Other Animated Elements](#landing-gears-and-other-animated-elements)
+[In Sandbox](#in-sandbox)
 
 ##
 Sample Files
 
 -
-[/docs/static/attachments/1441817](
-max_MH60.rar
-)
+[max_MH60.rar](/docs/static/attachments/1441817)
 
 -
-[/docs/static/attachments/1441831](
-ma_MH80.rar
-)
+[ma_MH80.rar](/docs/static/attachments/1441831)
 
 ##
 Fading Rotors
@@ -58,9 +42,7 @@ The same technique is applied to both the main and tail rotors. The rotors also 
 Ordnance
 
 Rocket pod firing positions can be added in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26214869](
-Vehicle Editor
-)
+[Vehicle Editor](../../Editor%20Tools/Deprecated%20Tab/Vehicle%20Editor.md)
  in Sandbox, or with helpers in 3ds Max. In the SDK sample asset, it's placed in the Editor.
 
 ##
@@ -74,7 +56,5 @@ For example, for exporting the landing gear opening sequence, you have to select
 In Sandbox
 
 Please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26214869](
-this
-)
+[this](../../Editor%20Tools/Deprecated%20Tab/Vehicle%20Editor.md)
  section for information on the vehicle editor.

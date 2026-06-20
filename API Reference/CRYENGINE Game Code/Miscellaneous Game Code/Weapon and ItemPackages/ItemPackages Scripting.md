@@ -62,9 +62,7 @@ The
 "display_name"
 **
  is similar to what you can define inside the item scripts themselves and is referenced by the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310919](
-localization system
-)
+[localization system](/docs/static/engines/cryengine-3/categories/1114113/pages/1310919)
 .
 
 When an item, for example, the Pistol has an accessory, for example, the Flashlight, the ItemPackages system will override any display names with whatever you define in the script.

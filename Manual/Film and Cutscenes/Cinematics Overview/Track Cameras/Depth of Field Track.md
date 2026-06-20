@@ -129,12 +129,6 @@ Do not use DoF for scenes that are far away. Your objects/characters will look l
 
 -
 Use your own eyes to focus at different distances and try to see what is sharp and what is blurred (use your thumb as a helper). It should give you a good sense on how it should look like in your scene.
-[#general-concept](
-General Concept
-)
-[#workflow-in-sandbox](
-Workflow in Sandbox
-)
-[#general-rules](
-General Rules
-)
+[General Concept](#general-concept)
+[Workflow in Sandbox](#workflow-in-sandbox)
+[General Rules](#general-rules)

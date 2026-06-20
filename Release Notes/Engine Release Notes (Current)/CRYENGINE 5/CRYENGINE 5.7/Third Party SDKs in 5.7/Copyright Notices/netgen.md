@@ -8,9 +8,7 @@
 ## Content
 
 The source code for this library can be downloaded
-[https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/NetGen431-Src.tar](
-here
-)
+[here](https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/NetGen431-Src.tar)
 .
 
 ```

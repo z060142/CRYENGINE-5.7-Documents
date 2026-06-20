@@ -14,7 +14,7 @@ Automatic joints generation allows you to take a compound (multiple node) cgf an
 
 JointGens should be placed at specific points hitting which with a specified impulse should result in some breaking (as a reference, SDK pistol has impulse around 130). Additionally, JointGen can specify a break template cgf for each source part (if there are several templates for one part, the one with the longest name will be used). Break template is something that looks like this (on the right the parts are deliberately pushed apart a bit):
 
-[Image: /docs/static/attachments/23994772]
+![Image](https://www.cryengine.com/docs/static/attachments/23994772)
 
 i.e. it’s essentially a pre-broken box. In this case it’s a very simple tessellation, but it can be as complex as a pre-broken AAA-quality asset. When applied to a source mesh, it does a Boolean intersect for all template parts.
 
@@ -30,9 +30,7 @@ BreakTemplate
 **
  |
 A cgf file that contacts the break template. example:
-[/docs/static/attachments/23994774](
-broken_cube.cgf
-)
+[broken_cube.cgf](/docs/static/attachments/23994774)
  (note - it has no material). Some CryEngine versions can have problems with immediate cgf loading, so as a precaution have that cgf loaded in a separate asset on the level (just to make sure it's loaded). Alternatively, set e_StreamCgf to 0 before using the feature.
  |
 
@@ -41,9 +39,7 @@ Material
 **
  |
 Optional material override for the break template (must be a .mtl file). example:
-[/docs/static/attachments/23994773](
-break_tpl.mtl
-)
+[break_tpl.mtl](/docs/static/attachments/23994773)
  |
 
 **
@@ -146,11 +142,7 @@ p_debug_joints
 In case of cutting, both the source mesh and break templates must use multi-sub-materials. Additionally, each source piece that's being cut and each template piece must use a single sub-material slot. Normally, Boolean intersection will append the template's sub-material to the source (unless it's already there). If the source material is outside a pak, it will be saved automatically if the .cgf is saved.
 
 Attached is a
-[/docs/static/attachments/26517143](
-jg_pillar.grp
-)
+[jg_pillar.grp](/docs/static/attachments/26517143)
  that can be placed on a level. It uses attached
-[/docs/static/attachments/26517144](
-jg_sample.zip
-)
+[jg_sample.zip](/docs/static/attachments/26517144)
 .

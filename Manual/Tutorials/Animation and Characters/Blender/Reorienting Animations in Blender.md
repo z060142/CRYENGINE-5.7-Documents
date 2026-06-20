@@ -43,7 +43,7 @@ Force Connect Children
 **
  is disabled.
 
-[Image: /docs/static/attachments/60523880]
+![Image](https://www.cryengine.com/docs/static/attachments/60523880)
 
 *
 *
@@ -60,7 +60,7 @@ Automatic Bone Orientation
 
 If this option is not enabled, your character's bones might appear as in the following image; you should still be able to successfully reorient the animation despite this.
 
-[Image: /docs/static/attachments/60523882]
+![Image](https://www.cryengine.com/docs/static/attachments/60523882)
 
 *
 Improperly aligned bones
@@ -86,7 +86,7 @@ End
 **
  at the bottom of timeline has been set to 32.
 
-[Image: /docs/static/attachments/60523895]
+![Image](https://www.cryengine.com/docs/static/attachments/60523895)
 
 *
 Frame range limited to 32
@@ -125,7 +125,7 @@ Add → Single Bone
 **
  option.
 
-[Image: /docs/static/attachments/60523899]
+![Image](https://www.cryengine.com/docs/static/attachments/60523899)
 
 *
 Add → Single Bone
@@ -147,21 +147,21 @@ Length
 **
  for example.
 
-[Image: /docs/static/attachments/60523901]
+![Image](https://www.cryengine.com/docs/static/attachments/60523901)
 
 *
 Transform → Length
 
 *
 To be able to see the other bones in the model, navigate to the object data properties by clicking the
-[Image: /docs/static/attachments/60523902]
+![Image](https://www.cryengine.com/docs/static/attachments/60523902)
  icon in the right panel, and then enable the
 **
 In Front
 **
 option.
 
-[Image: /docs/static/attachments/60523904]
+![Image](https://www.cryengine.com/docs/static/attachments/60523904)
 
 *
 In Front
@@ -191,7 +191,7 @@ Keep Offset Here
 **
  option preserves the offset between the two bones, as opposed to connecting them.
 
-[Image: /docs/static/attachments/60523906]
+![Image](https://www.cryengine.com/docs/static/attachments/60523906)
 
 *
 Keep Offset
@@ -217,7 +217,7 @@ XYZ Euler
 **
  in this panel.
 
-[Image: /docs/static/attachments/60523909]
+![Image](https://www.cryengine.com/docs/static/attachments/60523909)
 
 *
 Pose Mode
@@ -251,7 +251,7 @@ to
 **
 .
 
-[Image: /docs/static/attachments/60523911]
+![Image](https://www.cryengine.com/docs/static/attachments/60523911)
 
 *
 Rotation X, Y, Z
@@ -282,7 +282,7 @@ OK
 **
 . This bakes the entire character instead of the selected bones only, creating an action track for the hip and root bones in the process.
 
-[Image: /docs/static/attachments/60523914]
+![Image](https://www.cryengine.com/docs/static/attachments/60523914)
 
 *
 Only Selected Bones disabled
@@ -302,7 +302,7 @@ Z Location
 **
 .
 
-[Image: /docs/static/attachments/60523915]
+![Image](https://www.cryengine.com/docs/static/attachments/60523915)
 
 *
 Disabling the hip action's the Z Location
@@ -333,7 +333,7 @@ Bake Animation
 **
  option.
 
-[Image: /docs/static/attachments/60523921]
+![Image](https://www.cryengine.com/docs/static/attachments/60523921)
 
 *
 Bake animation
@@ -380,27 +380,12 @@ If the animation was correctly reoriented in Blender, you should now be able to 
 ##
 Video Tutorial
 
-[#prerequisites](
-Prerequisites
-)
-[#import-and-setup](
-Import and Setup
-)
-[#setting-up-a-root-bone](
-Setting Up a Root Bone
-)
-[#pairing-the-root-bone-with-the-hip-bone](
-Pairing the Root Bone with the Hip Bone
-)
-[#reorienting-the-animation](
-Reorienting the Animation
-)
-[#exporting-the-animation](
-Exporting the Animation
-)
-[#importing-the-animation-in-cryengine](
-Importing the Animation in CRYENGINE
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=gVPx0b3KCwk&feature=youtu.be]
+[Prerequisites](#prerequisites)
+[Import and Setup](#import-and-setup)
+[Setting Up a Root Bone](#setting-up-a-root-bone)
+[Pairing the Root Bone with the Hip Bone](#pairing-the-root-bone-with-the-hip-bone)
+[Reorienting the Animation](#reorienting-the-animation)
+[Exporting the Animation](#exporting-the-animation)
+[Importing the Animation in CRYENGINE](#importing-the-animation-in-cryengine)
+[Video Tutorial](#video-tutorial)

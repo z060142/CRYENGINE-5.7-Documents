@@ -21,7 +21,7 @@ Ray Traced Shadows in CRYENGINE can be broken down into two components.
 
 This feature can be considered as an alternative for cached shadow maps.
 
-[Image: /docs/static/attachments/36309126]
+![Image](https://www.cryengine.com/docs/static/attachments/36309126)
 
 If SVOGI is already used in a level, this feature allows calculating shadows from the static world without the following known overheads of (cached) shadow maps:
 
@@ -67,7 +67,7 @@ Ray Traced Shadows from Terrain Heightmap
 
 This feature allows shadow casting from the entire height map, even at a distance of 8 km.
 
-[Image: /docs/static/attachments/36309123]
+![Image](https://www.cryengine.com/docs/static/attachments/36309123)
 
 This is a simple alternative to the traditional shadow mapping approach for distant shadows from big mountains.
 
@@ -115,18 +115,8 @@ e_svoTI_ShadowsFromHeightmap
 Can be used to temporary disable/enable the feature
  |
 
-[#svo-ray-traced-sun-shadows](
-SVO Ray Traced Sun Shadows
-)
-[#implementation](
-Implementation
-)
-[#ray-traced-shadows-from-terrain-heightmap](
-Ray Traced Shadows from Terrain Heightmap
-)
-[#implementation](
-Implementation
-)
-[#cvars](
-CVars
-)
+[SVO Ray Traced Sun Shadows](#svo-ray-traced-sun-shadows)
+[Implementation](#implementation)
+[Ray Traced Shadows from Terrain Heightmap](#ray-traced-shadows-from-terrain-heightmap)
+[Implementation](#implementation)
+[CVars](#cvars)

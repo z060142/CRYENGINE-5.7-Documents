@@ -7,15 +7,13 @@
 
 ## Content
 
-[Image: /docs/static/attachments/44964913]
+![Image](https://www.cryengine.com/docs/static/attachments/44964913)
 
 ##
 Sounds and Merged Meshes
 
 CRYENGINE allows the usage of
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285889](
-Merged Meshes
-)
+[Merged Meshes](../../Tutorials/Game%20and%20Level%20Design/Vegetation%20Tutorials/Tutorial%20-%20Vegetation%20Asset%20Creation/Vegetation%2002%20Grass%20(Merged%20Meshes).md)
  for patches of vegetation. By default the Merged Mesh feature is disabled - this avoids unnecessary calculations when the feature is not required. In order for Merged Meshes to be calculated and therefore used with sound, the relevant CVar must be set in the
 system.cfg
  file. To do this set the CVar
@@ -23,9 +21,7 @@ g_enableMergedMeshRuntimeAreas=1.
 
 You can find more details about
 
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605736](
-Using Console and Config Files
-)
+[Using Console and Config Files](/docs/static/engines/cryengine-3/categories/1638401/pages/1605736)
 
 by following the link.
 

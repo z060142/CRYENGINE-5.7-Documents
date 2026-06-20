@@ -12,7 +12,7 @@ Attachment
 
 Attach/Detach an entity to another one.
 
-[Image: /docs/static/attachments/28901255]
+![Image](https://www.cryengine.com/docs/static/attachments/28901255)
 
 **
 Inputs
@@ -140,7 +140,7 @@ AttachmentEx
 
 This node lets you attach entities to other entities without requiring the declaration of the attachment joint in a .cdf file.
 
-[Image: /docs/static/attachments/28901254]
+![Image](https://www.cryengine.com/docs/static/attachments/28901254)
 
 ##
 BeamEntity
@@ -255,11 +255,11 @@ The events are
 case sensitive
 , so make sure you type it in correctly.
 
-[Image: /docs/static/attachments/28901241]
+![Image](https://www.cryengine.com/docs/static/attachments/28901241)
 
 You can access the list of events associated with the entity if you right click on it and go to the events menu.
 
-[Image: /docs/static/attachments/28901240]
+![Image](https://www.cryengine.com/docs/static/attachments/28901240)
 
 In this example after 5 seconds the
 *
@@ -297,7 +297,7 @@ CharAttachmentControl
 
 This node lets you easily switch a skin attachment and/or its current material and control its visibility.
 
-[Image: /docs/static/attachments/28901253]
+![Image](https://www.cryengine.com/docs/static/attachments/28901253)
 
 ##
 CheckDistance
@@ -309,7 +309,7 @@ CheckProjection
 
 Check projection between the node's target entity forward direction (or the camera's view direction if not target entity selected) and the entities defined in the inputs.
 
-[Image: /docs/static/attachments/28901252]
+![Image](https://www.cryengine.com/docs/static/attachments/28901252)
 
 ##
 ChildAttach
@@ -337,7 +337,7 @@ EntitiesInRange
 
 Takes the positions of two entities and checks if they are in a certain range to each other. Depending on the result of the check the output ports are triggered.
 
-[Image: /docs/static/attachments/28901239]
+![Image](https://www.cryengine.com/docs/static/attachments/28901239)
 
 In the above example, we make
 entity1
@@ -355,7 +355,7 @@ EntityId
 
 Outputs the entity ID number of the specified entity. The node does not need to be triggered because the entity ID never changes.
 
-[Image: /docs/static/attachments/28901238]
+![Image](https://www.cryengine.com/docs/static/attachments/28901238)
 
 In the above example, the EntityIDs are used to define the targets of the inputs for the EntitiesInRange node.
 
@@ -364,7 +364,7 @@ EntityInfo
 
 When triggered, this node outputs the ID, name, class, and archetype of the target entity. In cases where entity types need to be compared, this node is very useful.
 
-[Image: /docs/static/attachments/28901237]
+![Image](https://www.cryengine.com/docs/static/attachments/28901237)
 
 In this example, the name of the target entity of the EntityInfo node is compared to a string using a String:Compare.
 
@@ -375,7 +375,7 @@ Handles all position related manipulations of the owner entity. All position inf
 
 Unlike the GetPos node, the output ports of this node are triggered whenever one of the target entities properties changes (i.e; when the object moves, dynamically updates).
 
-[Image: /docs/static/attachments/28901236]
+![Image](https://www.cryengine.com/docs/static/attachments/28901236)
 
 In this example, the position output port is used as a target for the entity Grunt1 to walk to with the AI:Signal node.
 
@@ -394,28 +394,28 @@ DistanceTest
 
 This node lets you do basic tests with GameVolumes. Should be used for prototyping only.
 
-[Image: /docs/static/attachments/28901251]
+![Image](https://www.cryengine.com/docs/static/attachments/28901251)
 
 ##
 GetInfo
 
 This node lets you do basic tests with GameVolumes. Should be used for prototyping only.
 
-[Image: /docs/static/attachments/28901249]
+![Image](https://www.cryengine.com/docs/static/attachments/28901249)
 
 ##
 PositionTest
 
 This node lets you do basic tests with GameVolumes. Should be used for prototyping only.
 
-[Image: /docs/static/attachments/28901250]
+![Image](https://www.cryengine.com/docs/static/attachments/28901250)
 
 ##
 GetBounds
 
 Used to get and output the bounds.
 
-[Image: /docs/static/attachments/28901248]
+![Image](https://www.cryengine.com/docs/static/attachments/28901248)
 
 **
 Inputs
@@ -480,7 +480,7 @@ GetChildrenInfo
 
 Gets information (count and IDs) of an entity's children.
 
-[Image: /docs/static/attachments/28901247]
+![Image](https://www.cryengine.com/docs/static/attachments/28901247)
 
 ##
 GetPos
@@ -498,28 +498,28 @@ GlobalLayerListener
 
 This node lets you listen to layer hiding/unhiding events.
 
-[Image: /docs/static/attachments/28901246]
+![Image](https://www.cryengine.com/docs/static/attachments/28901246)
 
 ##
 LayerSwitchListener
 
 This node lets you listen to layer hiding/unhiding events for a given entity.
 
-[Image: /docs/static/attachments/28901245]
+![Image](https://www.cryengine.com/docs/static/attachments/28901245)
 
 ##
 LinksGet
 
 This node lets you inspect the configuration of entity links.
 
-[Image: /docs/static/attachments/28901244]
+![Image](https://www.cryengine.com/docs/static/attachments/28901244)
 
 ##
 LinksSet
 
 This node lets you inspect the configuration of entity links.
 
-[Image: /docs/static/attachments/28901243]
+![Image](https://www.cryengine.com/docs/static/attachments/28901243)
 
 ##
 ParentId
@@ -617,117 +617,41 @@ TacticalScanStart
 -
 Velocity
 
-[#attachment](
-Attachment
-)
-[#attachmentex](
-AttachmentEx
-)
-[#beamentity](
-BeamEntity
-)
-[#broadcastevent](
-BroadcastEvent
-)
-[#callscriptfunction](
-CallScriptFunction
-)
-[#charattachmentmaterialparam](
-CharAttachmentMaterialParam
-)
-[#charattachmentcontrol](
-CharAttachmentControl
-)
-[#checkdistance](
-CheckDistance
-)
-[#checkprojection](
-CheckProjection
-)
-[#childattach](
-ChildAttach
-)
-[#childdetach](
-ChildDetach
-)
-[#damage](
-Damage
-)
-[#entitiesinrange](
-EntitiesInRange
-)
-[#entityfaceat](
-EntityFaceAt
-)
-[#entityid](
-EntityId
-)
-[#entityinfo](
-EntityInfo
-)
-[#entitypos](
-EntityPos
-)
-[#flashinvoke](
-FlashInvoke
-)
-[#gamevolumes](
-GameVolumes
-)
-[#getbounds](
-GetBounds
-)
-[#getchildreninfo](
-GetChildrenInfo
-)
-[#getpos](
-GetPos
-)
-[#globallayerlistener](
-GlobalLayerListener
-)
-[#layerswitchlistener](
-LayerSwitchListener
-)
-[#linksget](
-LinksGet
-)
-[#linksset](
-LinksSet
-)
-[#parentid](
-ParentId
-)
-[#propertyget](
-PropertyGet
-)
-[#propertyset](
-PropertySet
-)
-[#renderparams](
-RenderParams
-)
-[#spawn](
-Spawn
-)
-[#spawnarchetype](
-SpawnArchetype
-)
-[#tacticalscan](
-TacticalScan
-)
-[#tacticalscancomplete](
-TacticalScanComplete
-)
-[#tacticalscancurrentcontrol](
-TacticalScanCurrentControl
-)
-[#tacticalscanstart](
-TacticalScanStart
-)
-[#velocity](
-Velocity
-)
-[#deprecated-nodes](
-Deprecated Nodes
-)
+[Attachment](#attachment)
+[AttachmentEx](#attachmentex)
+[BeamEntity](#beamentity)
+[BroadcastEvent](#broadcastevent)
+[CallScriptFunction](#callscriptfunction)
+[CharAttachmentMaterialParam](#charattachmentmaterialparam)
+[CharAttachmentControl](#charattachmentcontrol)
+[CheckDistance](#checkdistance)
+[CheckProjection](#checkprojection)
+[ChildAttach](#childattach)
+[ChildDetach](#childdetach)
+[Damage](#damage)
+[EntitiesInRange](#entitiesinrange)
+[EntityFaceAt](#entityfaceat)
+[EntityId](#entityid)
+[EntityInfo](#entityinfo)
+[EntityPos](#entitypos)
+[FlashInvoke](#flashinvoke)
+[GameVolumes](#gamevolumes)
+[GetBounds](#getbounds)
+[GetChildrenInfo](#getchildreninfo)
+[GetPos](#getpos)
+[GlobalLayerListener](#globallayerlistener)
+[LayerSwitchListener](#layerswitchlistener)
+[LinksGet](#linksget)
+[LinksSet](#linksset)
+[ParentId](#parentid)
+[PropertyGet](#propertyget)
+[PropertySet](#propertyset)
+[RenderParams](#renderparams)
+[Spawn](#spawn)
+[SpawnArchetype](#spawnarchetype)
+[TacticalScan](#tacticalscan)
+[TacticalScanComplete](#tacticalscancomplete)
+[TacticalScanCurrentControl](#tacticalscancurrentcontrol)
+[TacticalScanStart](#tacticalscanstart)
+[Velocity](#velocity)
+[Deprecated Nodes](#deprecated-nodes)

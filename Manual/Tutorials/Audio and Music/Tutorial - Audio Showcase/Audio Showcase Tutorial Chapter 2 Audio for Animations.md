@@ -37,22 +37,22 @@ c_player_foley_leather_long_01 - 03
 *
 if using SDL Mixer) can be used as foley for the player character's leather outfit.
 
-[Image: /docs/static/attachments/56000726]
+![Image](https://www.cryengine.com/docs/static/attachments/56000726)
 
 *
 Player Character
 *
 
 In this chapter, these audio files will be added as sounds and foley to the player character's footsteps via your choice of middleware implementation and the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961853](
-Character Tool
-)
+[Character Tool](../../../Editor%20Tools/Animation%20Tab/Character%20Tool.md)
 .
 
 ##
 FMOD Video Tutorial
 
 The FMOD workflow of this chapter is also covered in the following video:
+
+[Embed: https://www.youtube.com/watch?v=QCYWjUSvql8&feature=youtu.be]
 
 ##
 Creating Triggers for Footsteps and Foley
@@ -146,7 +146,7 @@ Similarly, create another 3D instrument with one multi-instrument using the same
 c_player_fts_R
 *
 as in the GIF below.
-[Image: /docs/static/attachments/56000713]
+![Image](https://www.cryengine.com/docs/static/attachments/56000713)
 
 *
 Import Animation
@@ -184,7 +184,7 @@ Spatializer
 
 -
 Inside the Spatializer, click the
-[Image: /docs/static/attachments/56000712]
+![Image](https://www.cryengine.com/docs/static/attachments/56000712)
  button and turn the
 **
 Mix
@@ -219,7 +219,7 @@ Event to play on the left, and the
 c_player_fts_R
 *
 Event to play on the right.
-[Image: /docs/static/attachments/56000711]
+![Image](https://www.cryengine.com/docs/static/attachments/56000711)
 
 *
 Spatialzier
@@ -410,9 +410,7 @@ Random Container can use the same simple setup as the
 l_cg_amb_one_shot_tree_movement
 *
 Container created in the
-[/docs](
-previous chapter
-)
+[previous chapter](/docs)
 .
 
 We'd like to hear the footsteps on both the right and left positions of the stereo however, which is why we'd like to set the
@@ -473,7 +471,7 @@ c_player_fts_wood
 
 -
 This activates the grid display with a small dot at its center, that represents the position of the sound emitter. For the left footstep, position the dot a little to the left in the first quadrant as shown in the GIF below (x= -20, y=100).
-[Image: /docs/static/attachments/56000710]
+![Image](https://www.cryengine.com/docs/static/attachments/56000710)
 
 *
 Left footstep
@@ -660,9 +658,7 @@ Tools → Animation → Character Tool
  option from the Sandbox's Main Menu.
 
 For more information on the Character Tool, please refer to its
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961853](
-user documentation.
-)
+[user documentation.](../../../Editor%20Tools/Animation%20Tab/Character%20Tool.md)
 
 On the left of the tool window is the
 **
@@ -673,7 +669,7 @@ Assets
 Skeletons/Objects/Characters/SampleCharacter/skelProxy.chrparams.
 *
 
-[Image: /docs/static/attachments/56000709]
+![Image](https://www.cryengine.com/docs/static/attachments/56000709)
 
 *
 Skeletons
@@ -689,7 +685,7 @@ The first step is to create and associate an
  file to the skeleton of the character, which will contain information regarding the different triggers an animation must execute while running. These triggers can be audio Triggers, Switches, or even particle effects.
 
 *
-[Image: /docs/static/attachments/56000708]
+![Image](https://www.cryengine.com/docs/static/attachments/56000708)
 
 *
 *
@@ -750,7 +746,7 @@ Characters/Objects/Characters/SampleCharacter/firstperson.cdf.
 Double-click the CDF to choose it as the active character; this loads the character model in the middle of the tool window, and its properties on the right.
 
 If you're seeing proxies/physics helpers over the character model, deactivate them by clicking the little mannequin and cross
-[Image: /docs/static/attachments/56000707]
+![Image](https://www.cryengine.com/docs/static/attachments/56000707)
  at the top of the screen.
 
 -
@@ -759,7 +755,7 @@ You can now open the animations for the first-person character, which are stored
 The left panel of the Character Tool can be split, so that the bottom half is filtered to only show animations for the active Character Definition File.
 
 To do so, click the
-[Image: /docs/static/attachments/56000706]
+![Image](https://www.cryengine.com/docs/static/attachments/56000706)
  icon above the left panel to split it, then click the
 **
 All Types
@@ -786,7 +782,7 @@ Scene Parameters
 **
  column on the upper-right of the character tool.
 
-[Image: /docs/static/attachments/56000705]
+![Image](https://www.cryengine.com/docs/static/attachments/56000705)
 
 *
 Bind Pose
@@ -819,7 +815,7 @@ Animation Events
 Play_c_player_fts_wood_R
 *
  trigger to this Animation Event by clicking the
-[Image: /docs/static/attachments/56000704]
+![Image](https://www.cryengine.com/docs/static/attachments/56000704)
  icon next to it.
 
 -
@@ -833,14 +829,14 @@ Play_c_player_foley_leather_long,
 *
 respectively. Feel free to use the timestamps shown in the image below.
 
-[Image: /docs/static/attachments/56000703]
+![Image](https://www.cryengine.com/docs/static/attachments/56000703)
 
 *
 Animation Events
 *
 
 For animations that play in third person, it makes more sense to attach triggers to specific bones of a character. To associate a trigger to a joint at a specific Animation Event, click the
-[Image: /docs/static/attachments/56000702]
+![Image](https://www.cryengine.com/docs/static/attachments/56000702)
  icon next to an Animation Event's listing.
 
 This brings up a list of all joints used by the character. Select the most appropriate one by double clicking it.
@@ -866,7 +862,7 @@ You're now ready to test the character's footsteps. Make sure to save all change
 File → Save All
 **
  option from the
-[Image: /docs/static/attachments/56000701]
+![Image](https://www.cryengine.com/docs/static/attachments/56000701)
  menu, before jumping into game mode (
 **
 Ctrl
@@ -892,7 +888,7 @@ Multi-instrument
 
 -
 On doing so, you should see a playlist of audio assets that make up the Event in the bottom panel, and a handle for pitch
-[Image: /docs/static/attachments/56000700]
+![Image](https://www.cryengine.com/docs/static/attachments/56000700)
 . Pitch in FMOD is used to increase/decrease the playback speed of audio assets; play with different values to see how they influence the footsteps.
 
 -
@@ -947,7 +943,7 @@ that lets users change the overall pitch of the selected Container. Although thi
 
 -
 Double-click the
-[Image: /docs/static/attachments/56000699]
+![Image](https://www.cryengine.com/docs/static/attachments/56000699)
  symbol on the
 **
 Pitch
@@ -972,7 +968,7 @@ Max Offset
 
 -
 Don't forget to randomize both footsteps.
-[Image: /docs/static/attachments/56000698]
+![Image](https://www.cryengine.com/docs/static/attachments/56000698)
 
 *
 Randomizer
@@ -982,15 +978,7 @@ This concludes Chapter 02 of our level's audio design.
 
 You may have noticed a campfire in the center of your Chinese garden level. The next chapter will have us adding audio effects to this campfire, before we finally move towards developing a dynamic ambience for the entire scene in Chapter 04.
 
-[#fmod-video-tutorial](
-FMOD Video Tutorial
-)
-[#creating-triggers-for-footsteps-and-foley](
-Creating Triggers for Footsteps and Foley
-)
-[#adding-triggers-to-animations-via-the-character-tool](
-Adding Triggers to Animations via the Character Tool
-)
-[#conclusion](
-Conclusion
-)
+[FMOD Video Tutorial](#fmod-video-tutorial)
+[Creating Triggers for Footsteps and Foley](#creating-triggers-for-footsteps-and-foley)
+[Adding Triggers to Animations via the Character Tool](#adding-triggers-to-animations-via-the-character-tool)
+[Conclusion](#conclusion)

@@ -21,7 +21,5 @@ Properties
  section to add an entity component to your empty entity.
 
 For more information, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966029](
-Entity Components
-)
+[Entity Components](../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)
 .

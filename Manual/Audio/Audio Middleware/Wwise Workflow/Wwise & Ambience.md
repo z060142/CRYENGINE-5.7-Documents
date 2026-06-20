@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/44964995]
+![Image](https://www.cryengine.com/docs/static/attachments/44964995)
 
 ##
 Overview
@@ -39,20 +39,12 @@ Audio Area Ambience
 Audio Area Entity
 *
  do not use the standard
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44965001](
-Wwise Attenuations
-)
+[Wwise Attenuations](Wwise%20%26%20SpotFX.md)
 . Therefore, their setup in Wwise has to be different in order to create a working implementation of your audio content.
 
-[#sections](
-Sections
-)
-[#preparing-the-wwise-project-to-work-with-area-sounds](
-Preparing the Wwise Project to Work with Area Sounds
-)
-[#setting-up-a-basic-ambient-sound-object](
-Setting up a Basic Ambient Sound Object
-)
+[Sections](#sections)
+[Preparing the Wwise Project to Work with Area Sounds](#preparing-the-wwise-project-to-work-with-area-sounds)
+[Setting up a Basic Ambient Sound Object](#setting-up-a-basic-ambient-sound-object)
 
 ##
 Preparing the Wwise Project to Work with Area Sounds
@@ -69,7 +61,7 @@ area_fade_distance
 *
 .
 
-[Image: /docs/static/attachments/44968403]
+![Image](https://www.cryengine.com/docs/static/attachments/44968403)
 
 You can enter a desired name for the
 *
@@ -89,7 +81,7 @@ Game Parameter
 *
  and set its range in the Property Editor from 0 to 1 (Default value =1).
 
-[Image: /docs/static/attachments/44968405]
+![Image](https://www.cryengine.com/docs/static/attachments/44968405)
 
 This parameter will be used later-on in CRYENGINE to attenuate or increase the sound when the object is moved closer or further away from an area connected to the audio entity. Therefore, make sure to connect the newly created
 *
@@ -97,9 +89,7 @@ area_fade_distance
 *
  Game Parameter to a global audio system RTPC within the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
 .
 
 When you set the parameter
@@ -128,7 +118,7 @@ Loop Infinite
 .
 
 After you have performed the above steps, select the sound object in Wwise and then click on the RTPC tab in the Property Editor. You can now click the
-[Image: /docs/static/attachments/44968406]
+![Image](https://www.cryengine.com/docs/static/attachments/44968406)
  button (Underneath the Y axis column) and select the
 Voice Volume
  property from the list as in below
@@ -137,10 +127,10 @@ Pic3
 *
 .
 
-[Image: /docs/static/attachments/44968408]
+![Image](https://www.cryengine.com/docs/static/attachments/44968408)
 
 A new
-[Image: /docs/static/attachments/52592780]
+![Image](https://www.cryengine.com/docs/static/attachments/52592780)
   button appears for the X axis after you have configured this option in Y axis. Now you can click this button and select the newly created
 *
 area_fade_distance
@@ -149,22 +139,18 @@ area_fade_distance
 
 After this your setup should look like the one displayed in the screenshot below:
 
-[Image: /docs/static/attachments/44968411]
+![Image](https://www.cryengine.com/docs/static/attachments/44968411)
 
 In the sound object's
 Positioning
  tab, create an attenuation which only affects the spread, but not the volume over distance. Similarly, the ambience spreads out completely when you are entering the area and diminishes when moving away from it.
 
-[Image: /docs/static/attachments/44968414]
+![Image](https://www.cryengine.com/docs/static/attachments/44968414)
 
 You can create a new event for the sound object, and regenerate your SoundBanks and connect the Wwise event in the Audio Controls Editor as explained
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964989](
-here
-)
+[here](Wwise%20Initial%20Setup.md)
 .
 
 For more information on how to setup your Wwise Event inside CRYENGINE, please refer to the tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964884](
-Audio & Ambience
-)
+[Audio & Ambience](../../Audio%20Overview/Audio%20%26%20Ambience.md)
 .

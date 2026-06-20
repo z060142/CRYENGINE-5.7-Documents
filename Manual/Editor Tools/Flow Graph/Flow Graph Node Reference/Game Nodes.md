@@ -12,7 +12,7 @@ CheckPlatform
 
 Use this node to change game events depending on what platform you are running the game on.
 
-[Image: /docs/static/attachments/28901287]
+![Image](https://www.cryengine.com/docs/static/attachments/28901287)
 
 **
 Inputs
@@ -72,7 +72,7 @@ Any
 Triggers if the platform is XboxOne
  |
 
-[Image: /docs/static/attachments/28901286]
+![Image](https://www.cryengine.com/docs/static/attachments/28901286)
 
 In the above example, we have setup a script that checks which platform the game is running on, then it will enable the appropriate entities.
 
@@ -118,7 +118,7 @@ PauseGameUpdate
 
  This node allows pausing/unpausing the game update and querying its state.
 
-[Image: /docs/static/attachments/28901288]
+![Image](https://www.cryengine.com/docs/static/attachments/28901288)
 
 USE THIS NODE IN UI FLOWGRAPH (e.g. UI_ACTIONS) NOT IN GAME FLOWGRAPH.
 
@@ -199,36 +199,14 @@ Game:TutorialPlayerSP
 -
 Game:WeaponSensor
 
-[#checkplatform](
-CheckPlatform
-)
-[#forcefeedback](
-ForceFeedback
-)
-[#forcefeedbacktweaker](
-ForceFeedbackTweaker
-)
-[#getentitystate](
-GetEntityState
-)
-[#getgamerulesentityid](
-GetGameRulesEntityId
-)
-[#getsupportedgamerulesformap](
-GetSupportedGameRulesForMap
-)
-[#isleveloftype](
-IsLevelOfType
-)
-[#objectevent](
-ObjectEvent
-)
-[#pausegameupdate](
-PauseGameUpdate
-)
-[#start](
-Start
-)
-[#deprecated-nodes](
-Deprecated Nodes
-)
+[CheckPlatform](#checkplatform)
+[ForceFeedback](#forcefeedback)
+[ForceFeedbackTweaker](#forcefeedbacktweaker)
+[GetEntityState](#getentitystate)
+[GetGameRulesEntityId](#getgamerulesentityid)
+[GetSupportedGameRulesForMap](#getsupportedgamerulesformap)
+[IsLevelOfType](#isleveloftype)
+[ObjectEvent](#objectevent)
+[PauseGameUpdate](#pausegameupdate)
+[Start](#start)
+[Deprecated Nodes](#deprecated-nodes)

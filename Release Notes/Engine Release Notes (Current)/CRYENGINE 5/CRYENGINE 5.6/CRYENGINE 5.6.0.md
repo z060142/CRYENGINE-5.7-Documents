@@ -7,30 +7,27 @@
 
 ## Child Pages
 
-- [Important CRYENGINE 5.6 Data and Code Changes](CRYENGINE 5.6.0/Important CRYENGINE 5.6 Data and Code Changes.md)
-- [Third Party SDKs in 5.6.0](CRYENGINE 5.6.0/Third Party SDKs in 5.6.0.md)
+- [Important CRYENGINE 5.6 Data and Code Changes](CRYENGINE%205.6.0/Important%20CRYENGINE%205.6%20Data%20and%20Code%20Changes.md)
+- [Third Party SDKs in 5.6.0](CRYENGINE%205.6.0/Third%20Party%20SDKs%20in%205.6.0.md)
 
 ## Content
 
-[Image: /docs/static/attachments/44962802]
+![Image](https://www.cryengine.com/docs/static/attachments/44962802)
 
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/44962799]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44962799)](https://www.cryengine.com/support)
 
 ##
 5.6 Overview
 
 We are delighted to announce that CRYENGINE 5.6 is now available from
-[https://www.cryengine.com/](
-www.cryengine.com
-)
+[www.cryengine.com](https://www.cryengine.com/)
  and also via the CRYENGINE Launcher. This major release packs in over 1,000 changes and includes production-proven features which have been used to deliver Hunt: Showdown. Everyone at Crytek would like to thank the entire CRYENGINE community for all the feedback and suggestions that have helped to shape the development of this release. This Engine is for you and we couldn’t have done it without you.
 
 CRYENGINE 5.6 is designed to put more power in your hands and make game creation quicker and easier. We’re sure you’ll agree that it marks a big step forward for the Engine. As you know, work doesn’t stop and we’re already looking at the roadmap for CRYENGINE 5.7. Make sure you keep your thoughts and feedback coming - it really does make a difference.
 
 To celebrate the launch, we have put together a CRYENGINE 5.6 technology showcase. Check it out below;
 
+[Embed: https://www.youtube.com/watch?v=vUyWwqY-pYc]
 Contributors
 
 We would like to say a massive thank you to the following for their valuable contribution in the making of this 5.6 release of CRYENGINE.
@@ -53,65 +50,29 @@ xmz6666
 ##
 Sections
 
-[#56-overview](
-5.6 Overview
-)
-[#sections](
-Sections
-)
-[#code-interface-changes](
-Code Interface Changes
-)
-[#release-highlights](
-Release Highlights
-)
-[#known-issues](
-Known Issues
-)
-[#animation](
-Animation
-)
-[#ai](
-AI
-)
-[#audio](
-Audio
-)
-[#coresystem](
-Core/System
-)
-[#graphics-and-rendering](
-Graphics and Rendering
-)
-[#c](
-C#
-)
-[#physics](
-Physics
-)
-[#network](
-Network
-)
-[#project-system](
-Project System
-)
-[#sandbox](
-Sandbox
-)
-[#tools](
-Tools
-)
-[#plugins-and-projects](
-Plugins and Projects
-)
+[5.6 Overview](#56-overview)
+[Sections](#sections)
+[Code Interface Changes](#code-interface-changes)
+[Release Highlights](#release-highlights)
+[Known Issues](#known-issues)
+[Animation](#animation)
+[AI](#ai)
+[Audio](#audio)
+[Core/System](#coresystem)
+[Graphics and Rendering](#graphics-and-rendering)
+[C#](#c)
+[Physics](#physics)
+[Network](#network)
+[Project System](#project-system)
+[Sandbox](#sandbox)
+[Tools](#tools)
+[Plugins and Projects](#plugins-and-projects)
 
 ##
 Code Interface Changes
 
 For more information, see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962803](
-Important CRYENGINE 5.6 Data and Code Changes
-)
+[Important CRYENGINE 5.6 Data and Code Changes](CRYENGINE%205.6.0/Important%20CRYENGINE%205.6%20Data%20and%20Code%20Changes.md)
 **
 
 **
@@ -125,101 +86,91 @@ In-Editor Project Management
 
 The Sandbox Editor now controls project creation and management, making getting started with a new CRYENGINE project faster and giving developers more flexibility with this new streamlined and improved workflow.
 
-[Image: /docs/static/attachments/44968455]
+![Image](https://www.cryengine.com/docs/static/attachments/44968455)
 
 ##
 Micro-facet Multi-layer Materials
 
 This new feature advances the visual reproduction of metals and gives more artistic control over the creation of a range of materials. By describing materials as a stack of layers of varying thickness, each with different optical properties, users can, for instance, model a wet surface by defining a slightly absorptive layer on top, and spatially or temporally varying the thickness of that layer.
 
-[Image: /docs/static/attachments/44968587]
+![Image](https://www.cryengine.com/docs/static/attachments/44968587)
 
 ##
 Area Lights
 
 Area lights deliver a better representation of how light behaves than traditional punctual light sources. CRYENGINE’s new implementation makes use of pre-computed textures, which will calculate and model area lights far more accurately. It also allows for more flexibility when defining different kinds of light shapes. As of right now, the area lights are a part of the Point Light Component, so if you have point lights in your scene, you can easily change them to area lights
 
-[Image: /docs/static/attachments/44968479]
+![Image](https://www.cryengine.com/docs/static/attachments/44968479)
 
 ##
 Tessellated Particle Ribbons
 
 The Render Ribbons feature has a new option called Tessellated. This enables the graphics card’s tessellation stage to smooth the joints in ribbon particles by generating new polygons in a curved shape which is also adaptive to distance. This feature benefits ribbon effects, including trails from flying objects and organic objects like worms or vines.
 
-[Image: /docs/static/attachments/44968481]
+![Image](https://www.cryengine.com/docs/static/attachments/44968481)
 
 ##
 Inter-Entity Constraint Points Storage
 
 This feature is designed to create gears, but also has other functions. It allows users to manually specify which entity will ‘own’ the constraint point, and since each constrained entity can have its own constraint point in place, it’s possible to create objects like belts with this feature.
 
-[Image: /docs/static/attachments/44968483]
+![Image](https://www.cryengine.com/docs/static/attachments/44968483)
 
 ##
 Pressurized Closed Buoyant Cloth
 
 Closed cloth shapes can now have internal pressure based on the current shape volume in this extension to the existing cloth entity.
 
-[Image: /docs/static/attachments/44968484]
+![Image](https://www.cryengine.com/docs/static/attachments/44968484)
 
 ##
 Custom-Mesh Ropes
 
 Ropes can now use bones and skinning and can be built from custom *.cgf meshes, repeated several times. This enables a chain ‘rope’ to be created from a single link and allows for the rapid creation of vines or complex cables that fit naturally in the environment.
 
-[Image: /docs/static/attachments/44968679]
+![Image](https://www.cryengine.com/docs/static/attachments/44968679)
 
 ##
 Full-Body Ragdoll IK
 
 Ragdoll IK is a physics-aware, energy-based, full-body IK, which tries to satisfy constraints imposed on the physics skeleton with minimum effort energy-wise. The effect is similar to applying physics impulses to characters, except the results are computed instantly, without the physics thread running.
 
-[Image: /docs/static/attachments/44968486]
+![Image](https://www.cryengine.com/docs/static/attachments/44968486)
 
 ##
 CRIWARE ADX2 Implementation
 
 CRYENGINE is audio middleware agnostic, and we’re proud to integrate support for CRIWARE ADX2, a comprehensive and easy-to-use audio system. If your team is already familiar with ADX2, the transition to CRYENGINE is simple. Discover more about CRIWARE ADX2 at
-[https://www.criware.com/en/products/adx2.html](
-https://www.criware.com/en/products/adx2.html
-)
+[https://www.criware.com/en/products/adx2.html](https://www.criware.com/en/products/adx2.html)
 .
 
-[Image: /docs/static/attachments/44968487]
+![Image](https://www.cryengine.com/docs/static/attachments/44968487)
 
 ##
 Behavior Tree UI
 
 The new Behavior Tree UI is a GUI interface which enables users to quickly create complex behavior trees for AI, bringing NPCs and enemies to life. This tool was developed by the Hunt: Showdown team, bringing yet more production-proven technology to the Engine.
 
-[Image: /docs/static/attachments/44968488]
+![Image](https://www.cryengine.com/docs/static/attachments/44968488)
 
 ##
 Real-time ACE Editing Feedback
 
 Users can now preview a middleware event in the right pane of the Audio Controls Editor, and without the need to firstly connect it to a corresponding trigger, so improving CRYENGINE’s audio pipeline with instant feedback.
 
-[Image: /docs/static/attachments/44968489]
+![Image](https://www.cryengine.com/docs/static/attachments/44968489)
 
 ##
 Let Us Know
 
 We hope you enjoy using CRYENGINE 5.6, and we look forward to your ongoing feedback. Keep your thoughts coming through the , or via
-[https://www.facebook.com/cryengineofficial/](
-Facebook
-)
+[Facebook](https://www.facebook.com/cryengineofficial/)
 ,
-[https://github.com/CRYTEK/CRYENGINE/issues](
-Github Issue Reporter
-)
+[Github Issue Reporter](https://github.com/CRYTEK/CRYENGINE/issues)
  and
-[https://twitter.com/cryengine](
-Twitter
-)
+[Twitter](https://twitter.com/cryengine)
 , or join the community and our CRYENGINE development team over on our
-[https://discordapp.com/invite/cryengine](
-official CRYENGINE Discord channel.
-)
+[official CRYENGINE Discord channel.](https://discordapp.com/invite/cryengine)
 
 ##
 Known Issues

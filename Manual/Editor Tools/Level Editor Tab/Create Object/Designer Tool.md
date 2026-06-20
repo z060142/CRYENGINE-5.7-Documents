@@ -32,16 +32,14 @@ Designer Cylinder
 Designer Sphere
 **
 
-[Image: /docs/static/attachments/44966507]
+![Image](https://www.cryengine.com/docs/static/attachments/44966507)
 
 To modify an object, click the
 **
 Edit
 **
  button under the Designer's Properties panel. For more information, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534693](
-Designer Tool Tab
-)
+[Designer Tool Tab](../../Designer%20Tool%20Tab.md)
 .
 
 ##
@@ -93,9 +91,7 @@ Outdoor
 
  |
 When enabled, the entity ignores the use of VisAreas in the level. Multiple Vis Areas can be combined to define the points from where the would be visible/invisible. For more information, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Area
-)
+[Vis Area](Area/Vis%20Area.md)
  page.
 
  |
@@ -172,9 +168,7 @@ Ignore Terrain Layer Blend
  |
 Controls blending with terrain layers. For more information, please refer to the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36340007](
-Terrain Layer Blending into Objects
-)
+[Terrain Layer Blending into Objects](../../../Materials/Terrain%20Layer%20Blending%20into%20Objects.md)
 
 page.
  |
@@ -185,9 +179,7 @@ Ignore Decal Blend
  |
 Controls blending with decals. For more information about Decals, please refer to the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869871](
-Decal
-)
+[Decal](Misc%20Objects/Decal%20Entity.md)
 
 page.
  |

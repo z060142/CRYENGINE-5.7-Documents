@@ -7,19 +7,19 @@
 
 ## Child Pages
 
-- [AI System Overview](Obsolete AI Documentation/AI System Overview.md)
-- [Obsolete AI Scripting Documentation](Obsolete AI Documentation/Obsolete AI Scripting Documentation.md)
-- [Behavior Trees](Obsolete AI Documentation/Behavior Trees.md)
-- [Coordinating Agents with Behavior Trees](Obsolete AI Documentation/Coordinating Agents with Behavior Trees.md)
-- [Triangulation-based Navigation](Obsolete AI Documentation/Triangulation-based Navigation.md)
-- [How to Create a Simple Flying Entity](Obsolete AI Documentation/How to Create a Simple Flying Entity.md)
-- [Flight Navigation](Obsolete AI Documentation/Flight Navigation.md)
-- [Sensory Models](Obsolete AI Documentation/Sensory Models.md)
-- [Navigation Q & A](Obsolete AI Documentation/Navigation Q & A.md)
-- [Path Following](Obsolete AI Documentation/Path Following.md)
-- [Flight AI](Obsolete AI Documentation/Flight AI.md)
-- [Pathfinding Costs](Obsolete AI Documentation/Pathfinding Costs.md)
-- [Refpoints](Obsolete AI Documentation/Refpoints.md)
+- [AI System Overview](Obsolete%20AI%20Documentation/AI%20System%20Overview.md)
+- [Obsolete AI Scripting Documentation](Obsolete%20AI%20Documentation/Obsolete%20AI%20Scripting%20Documentation.md)
+- [Behavior Trees](Obsolete%20AI%20Documentation/Behavior%20Trees.md)
+- [Coordinating Agents with Behavior Trees](Obsolete%20AI%20Documentation/Coordinating%20Agents%20with%20Behavior%20Trees.md)
+- [Triangulation-based Navigation](Obsolete%20AI%20Documentation/Triangulation-based%20Navigation.md)
+- [How to Create a Simple Flying Entity](Obsolete%20AI%20Documentation/How%20to%20Create%20a%20Simple%20Flying%20Entity.md)
+- [Flight Navigation](Obsolete%20AI%20Documentation/Flight%20Navigation.md)
+- [Sensory Models](Obsolete%20AI%20Documentation/Sensory%20Models.md)
+- [Navigation Q & A](Obsolete%20AI%20Documentation/Navigation%20Q%20%26%20A.md)
+- [Path Following](Obsolete%20AI%20Documentation/Path%20Following.md)
+- [Flight AI](Obsolete%20AI%20Documentation/Flight%20AI.md)
+- [Pathfinding Costs](Obsolete%20AI%20Documentation/Pathfinding%20Costs.md)
+- [Refpoints](Obsolete%20AI%20Documentation/Refpoints.md)
 
 ## Content
 
@@ -32,66 +32,40 @@ Here you'll find storage of obsolete documentation for older AI systems no longe
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469](
-Behavior Trees
-)
+[Behavior Trees](Obsolete%20AI%20Documentation/Behavior%20Trees.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306471](
-Coordinating Agents with Behavior Trees
-)
+[Coordinating Agents with Behavior Trees](Obsolete%20AI%20Documentation/Coordinating%20Agents%20with%20Behavior%20Trees.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306468](
-Triangulation-based Navigation
-)
+[Triangulation-based Navigation](Obsolete%20AI%20Documentation/Triangulation-based%20Navigation.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306470](
-How to Create a Simple Flying Entity
-)
+[How to Create a Simple Flying Entity](Obsolete%20AI%20Documentation/How%20to%20Create%20a%20Simple%20Flying%20Entity.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306467](
-Flight Navigation
-)
+[Flight Navigation](Obsolete%20AI%20Documentation/Flight%20Navigation.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306455](
-Sensory Models
-)
+[Sensory Models](Obsolete%20AI%20Documentation/Sensory%20Models.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306453](
-Navigation Q & A
-)
+[Navigation Q & A](Obsolete%20AI%20Documentation/Navigation%20Q%20%26%20A.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306473](
-Path Following
-)
+[Path Following](Obsolete%20AI%20Documentation/Path%20Following.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306456](
-Flight AI
-)
+[Flight AI](Obsolete%20AI%20Documentation/Flight%20AI.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306457](
-Pathfinding Costs
-)
+[Pathfinding Costs](Obsolete%20AI%20Documentation/Pathfinding%20Costs.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306458](
-AI System Overview
-)
+[AI System Overview](Obsolete%20AI%20Documentation/AI%20System%20Overview.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306490](
-Refpoints
-)
+[Refpoints](Obsolete%20AI%20Documentation/Refpoints.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306476](
-Obsolete AI Scripting Documentation
-)
+[Obsolete AI Scripting Documentation](Obsolete%20AI%20Documentation/Obsolete%20AI%20Scripting%20Documentation.md)

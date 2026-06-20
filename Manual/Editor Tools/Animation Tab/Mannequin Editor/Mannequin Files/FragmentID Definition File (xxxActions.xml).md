@@ -15,34 +15,22 @@ A
 FragmentID Definition File
 *
  contains a FragmentID definition, which is basically a collection of names for
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-FragmentIDs
-)
+[FragmentIDs](../Mannequin%20Concepts/FragmentIDs.md)
 .
 They are used to define which FragmentIDs a mannequin character can use.
 
 FragmentID definition files are referenced by the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition File
-)
+[Controller Definition File](Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
  and any
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743](
-Animation Database File
-)
+[Animation Database File](Animation%20Database%20(ADB).md)
 . Or they can be included hierarchically in other FragmentID definition files. See the overview picture on the page about
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308470](
-Mannequin Files
-)
+[Mannequin Files](../Mannequin%20Files.md)
 .
 
 FragmentID definition files can refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-Tag Definition Files
-)
+[Tag Definition Files](Tag%20Definition%20File%20(xxxTags.xml).md)
  to define
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308434](
-FragmentID-specific Tags (fragtags)
-)
+[FragmentID-specific Tags (fragtags)](../Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)
 .
 
 ##
@@ -50,9 +38,7 @@ Creating a FragmentID Definition File
 
 FragmentID Definition files have to be created manually. See
 the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474#FragmentIDDefinitionFile(xxxActions.xml)-FileFormat](
-FileFormat
-)
+[FileFormat](FragmentID%20Definition%20File%20(xxxActions.xml).md#FragmentIDDefinitionFile%28xxxActions.xml)-FileFormat)
  section.
 
 FragmentID Definition files are stored in the
@@ -71,13 +57,9 @@ Actions.xml
 Editing a FragmentID Definition File
 
 FragmentID Definition files are edited indirectly by adding/removing/renaming FragmentIDs using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-Fragments](
-Mannequin Fragment Browser
-)
+[Mannequin Fragment Browser](../../Mannequin%20Editor.md#MannequinEditor-Fragments)
  and editing their settings using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308446](
-Mannequin FragmentID Editor
-)
+[Mannequin FragmentID Editor](../Mannequin%20FragmentID%20Editor.md)
 .
 
 ##
@@ -128,13 +110,9 @@ Tags
 Tag
 *
 elements.  Each individual FragmentID can have a Tag Definition assigned to it containing
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308434](
-FragmentID-specific Tags (fragtags)
-)
+[FragmentID-specific Tags (fragtags)](../Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)
 . This is done by specifying a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-Tag Definition File (xxxTags.xml)
-)
+[Tag Definition File (xxxTags.xml)](Tag%20Definition%20File%20(xxxTags.xml).md)
  in the
 *
 subTagDef
@@ -142,11 +120,7 @@ subTagDef
  attribute.
 
 The FragmentID Definition file uses a similar format as the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-Tag Definition File (xxxTags.xml)
-)
+[Tag Definition File (xxxTags.xml)](Tag%20Definition%20File%20(xxxTags.xml).md)
 , as it uses the same underlying code, the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308477](
-Mannequin CTagDefinition
-)
+[Mannequin CTagDefinition](../Mannequin%20Technical%20Topics/Mannequin%20CTagDefinition.md)
 .

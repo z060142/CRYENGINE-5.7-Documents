@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934011]
+![Image](https://www.cryengine.com/docs/static/attachments/29934011)
 
 ##
 Overview
@@ -23,23 +23,15 @@ At the moment this is "hardcoded". Using more than these 3 Channels per map chan
 
 The different Ranges are evenly distributed on the channels from 0 to 255, with a gap of 20 between the first and second ranges and a gap of 10 between the second and third ranges to prevent the channels from mixing into each other.
 
-[#sections](
-Sections
-)
-[#connection-between-color-ranges-and-rig](
-Connection Between Color Ranges and Rig
-)
-[#driven-bone-setup-in-maya](
-Driven Bone Setup in Maya
-)
-[#shader-setup](
-Shader Setup
-)
+[Sections](#sections)
+[Connection Between Color Ranges and Rig](#connection-between-color-ranges-and-rig)
+[Driven Bone Setup in Maya](#driven-bone-setup-in-maya)
+[Shader Setup](#shader-setup)
 Below is the resulting texture without the alpha channel and the right is the red converted to grayscale:
 
-[Image: /docs/static/attachments/23994286]
+![Image](https://www.cryengine.com/docs/static/attachments/23994286)
 
-[Image: /docs/static/attachments/23994288]
+![Image](https://www.cryengine.com/docs/static/attachments/23994288)
 
 ##
 Connection Between Color Ranges and Rig
@@ -271,31 +263,31 @@ Following a brief description of the Driven Key setup in Maya:
 
 To open the Dialog use the menu in the picture below:
 
-[Image: /docs/static/attachments/23994284]
+![Image](https://www.cryengine.com/docs/static/attachments/23994284)
 
 This opens the Driven Key Setup Dialog, where connections between driving and driven nodes are set up, and also keyed at the desired values.
 
-[Image: /docs/static/attachments/23994289]
+![Image](https://www.cryengine.com/docs/static/attachments/23994289)
 
 In this example, according to the table in the preceding chapter, the connection has been set between def_r_upperCheek's local x translation value and is mapped to the 0 to 100 range of blend_control_01's y-translation.
 
 Below is an example of one connection and its correlated curve by which the movement of the driving bone is mapped.
 
-[Image: /docs/static/attachments/23994285]
+![Image](https://www.cryengine.com/docs/static/attachments/23994285)
 
 ##
 Shader Setup
 
 In the picture below you can see an overview of how each map needs to be applied in the material.
 
-[Image: /docs/static/attachments/23994290]
+![Image](https://www.cryengine.com/docs/static/attachments/23994290)
 
 Note that on the right side of the picture where the properties of the anim object are, the "WrinkleMap"-flag under the "Rendering" section needs to be set, in order for the wrinkle shading to work.
 
 Also, on the "Shader Generation Params" section inside the material, "Wrinkle Blending" has to be checked:
 
-[Image: /docs/static/attachments/23994291]
+![Image](https://www.cryengine.com/docs/static/attachments/23994291)
 
 Here is a 2 frame example (animated gif) which shows the blend_bone driving the "crows feet" without deforming its surroundings to make the effect more visible.
 
-[Image: /docs/static/attachments/23994287]
+![Image](https://www.cryengine.com/docs/static/attachments/23994287)

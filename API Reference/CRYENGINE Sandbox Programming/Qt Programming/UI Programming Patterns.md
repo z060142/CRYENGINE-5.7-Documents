@@ -11,16 +11,14 @@
 Patterns
 
 **
-[https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller](
-Model View Controller
-)
+[Model View Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 **
 
 This concept and its many different variants is the most important notion you need to understand to produce good UI code.
 
 If you apply this pattern everywhere you win, it's not more complicated than this. If however, you break this basic design, you will make life very complicated for those who come after you.
 
-[Image: /docs/static/attachments/26952241]
+![Image](https://www.cryengine.com/docs/static/attachments/26952241)
 Behavior:
 
 -

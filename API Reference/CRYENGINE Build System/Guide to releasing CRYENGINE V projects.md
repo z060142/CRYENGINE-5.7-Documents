@@ -22,15 +22,9 @@ If you don't care about maximum performance or security, you needn't follow thes
 
 Chapters:
 
-[#one-time-setup](
-One-time Setup
-)
-[#creating-a-release-build](
-Creating a Release Build
-)
-[#troubleshooting](
-Troubleshooting
-)
+[One-time Setup](#one-time-setup)
+[Creating a Release Build](#creating-a-release-build)
+[Troubleshooting](#troubleshooting)
 
 ##
 One-time Setup
@@ -136,9 +130,7 @@ bin/<platform>_release
 Packed Assets
 
 Assets required by the game must be packaged into appropriate .pak files. In the simplest case, this can be achieved by zipping them and then changing the file extension. For more control over the process see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306345](
-Compiling Assets for Multiple Platforms
-)
+[Compiling Assets for Multiple Platforms](Compiling%20Assets%20for%20Multiple%20Platforms.md)
 .
 
 After a release build, all assets must be inside a signed or encrypted .pakfiles.
@@ -445,10 +437,7 @@ The .pak file containing the asset is signed or encrypted with the correct key
 I get a lot of Warnings about "Non binary XML found"
 
 This is not a fatal error. However, you can convert your XML files to binary XML using RC, see also
-[/docs/static/engines/cryengine-3/categories/1114113/pages/13205851](
-Binary XML conversion
-
-)
+[Binary XML conversion](/docs/static/engines/cryengine-3/categories/1114113/pages/13205851)
 The conversion is recommended for an end-user distribution
 
 ##

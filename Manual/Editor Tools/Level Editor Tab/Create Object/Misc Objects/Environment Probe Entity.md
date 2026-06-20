@@ -47,7 +47,7 @@ This will generate a Tif cubemap image in:
 Textures\cubemaps\<LevelDirectory>\<EnvironmentProbeName_cm>.tif
 `
 
-[Image: /docs/static/attachments/36849638]
+![Image](https://www.cryengine.com/docs/static/attachments/36849638)
 
 Generally, the environment probe should be placed at head height to generate proper reflections.
 
@@ -79,9 +79,9 @@ Set
 Set
 IgnoreVisAreas
  to true.
-[Image: /docs/static/attachments/44966509]
+![Image](https://www.cryengine.com/docs/static/attachments/44966509)
 
-[Image: /docs/static/attachments/44966510]
+![Image](https://www.cryengine.com/docs/static/attachments/44966510)
 
 ##
 Environment Probe Properties
@@ -324,30 +324,24 @@ High reflective materials are suggested to be used in conjunction with SSR (Scre
 
 No SSR and no Environment Probe.
 
-[Image: /docs/static/attachments/36849635]
+![Image](https://www.cryengine.com/docs/static/attachments/36849635)
 
 The following example was put together using a box projection method SSR with Environment Probe. Notice how the grid is accurately aligned with the shapes. When modifying your box projection be aware that a boundinggreen bounding box appears and to tweak the size accordingly.
 
-[Image: /docs/static/attachments/36849641]
+![Image](https://www.cryengine.com/docs/static/attachments/36849641)
 
 This screen has SSR with no Environment Probe enabled. Notice the localized reflections located around edges and corners.
 
-[Image: /docs/static/attachments/36849640]
+![Image](https://www.cryengine.com/docs/static/attachments/36849640)
 
 No SSR with BoxProject enabled Environment Probe aligned with the size of the room.
 
-[Image: /docs/static/attachments/36849632]
+![Image](https://www.cryengine.com/docs/static/attachments/36849632)
 
 SSR with spherical Environment Probe. This aspect is not as accurate but in less reflective areas this option may be easier to use.
 
-[Image: /docs/static/attachments/36849631]
+![Image](https://www.cryengine.com/docs/static/attachments/36849631)
 
-[#setup](
-Setup
-)
-[#environment-probe-properties](
-Environment Probe Properties
-)
-[#tweaking-environment-probes](
-Tweaking Environment Probes
-)
+[Setup](#setup)
+[Environment Probe Properties](#environment-probe-properties)
+[Tweaking Environment Probes](#tweaking-environment-probes)

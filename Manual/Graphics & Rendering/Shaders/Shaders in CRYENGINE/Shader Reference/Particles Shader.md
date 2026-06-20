@@ -350,30 +350,12 @@ Refraction Lightning
 
 Enables the use of a color texture to tint refraction.
 
-[#shader-params](
-Shader Params
-)
-[#shader-generation-params](
-Shader Generation Params
-)
-[#refraction](
-Refraction
-)
-[#screen-space-deformation](
-Screen Space Deformation
-)
-[#deformation](
-Deformation
-)
-[#color-lookup](
-Color Lookup
-)
-[#specular-lighting](
-Specular Lighting
-)
-[#depth-fixup](
-Depth Fixup
-)
-[#refraction-lightning](
-Refraction Lightning
-)
+[Shader Params](#shader-params)
+[Shader Generation Params](#shader-generation-params)
+[Refraction](#refraction)
+[Screen Space Deformation](#screen-space-deformation)
+[Deformation](#deformation)
+[Color Lookup](#color-lookup)
+[Specular Lighting](#specular-lighting)
+[Depth Fixup](#depth-fixup)
+[Refraction Lightning](#refraction-lightning)

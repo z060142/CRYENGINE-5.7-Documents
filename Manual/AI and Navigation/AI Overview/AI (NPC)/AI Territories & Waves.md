@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933202]
+![Image](https://www.cryengine.com/docs/static/attachments/29933202)
 
 ##
 What are AI Territories and Waves
@@ -25,39 +25,17 @@ T/W allow Level Designers a much easier and faster setup for AI in their levels 
 ##
 Sections
 
-[#what-are-ai-territories-and-waves](
-What are AI Territories and Waves
-)
-[#sections](
-Sections
-)
-[#example-usecases](
-Example Usecases
-)
-[#what-is-an-entity-pool](
-What is an Entity Pool?
-)
-[#ai-territories](
-AI Territories
-)
-[#ai-waves](
-AI Waves
-)
-[#ai-entity-properties](
-AI Entity Properties
-)
-[#how-to-set-up-ai-territories](
-How to set up AI Territories
-)
-[#how-to-set-up-ai-waves](
-How to set up AI Waves
-)
-[#debugging-waves](
-Debugging Waves
-)
-[#debugging-entity-pools](
-Debugging Entity Pools
-)
+[What are AI Territories and Waves](#what-are-ai-territories-and-waves)
+[Sections](#sections)
+[Example Usecases](#example-usecases)
+[What is an Entity Pool?](#what-is-an-entity-pool)
+[AI Territories](#ai-territories)
+[AI Waves](#ai-waves)
+[AI Entity Properties](#ai-entity-properties)
+[How to set up AI Territories](#how-to-set-up-ai-territories)
+[How to set up AI Waves](#how-to-set-up-ai-waves)
+[Debugging Waves](#debugging-waves)
+[Debugging Entity Pools](#debugging-entity-pools)
 
 ##
 Example Usecases
@@ -529,9 +507,7 @@ Created Through Pool
 ' property as true. This can be done either through the Archetype or on each individual entity via its Params on the Rollup Bar. The latter overrides the former's setting.
 
 When the level is loaded in the
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605722](
-Launcher
-)
+[Launcher](/docs/static/engines/cryengine-3/categories/1638401/pages/1605722)
 , the entity will be correctly setup to work with the pool if a pool exists to handle it. If not, the entity will be created as normal.
 
 The '

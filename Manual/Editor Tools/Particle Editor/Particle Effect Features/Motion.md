@@ -12,19 +12,13 @@ Overview
 
 Motion features provide movement to a component. Without a motion feature, particles can't move even when a velocity value is assigned on them,
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868166](
-Velocity
-)
+[Velocity](Velocity.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867977](
-Location
-)
+[Location](Location.md)
  for more details on how to add velocity to particles.
 
 Motion features can also use
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869033](
-Effectors
-)
+[Effectors](Modifiers/Effectors.md)
  to apply non-uniform forces to the particles. Effectors are extremely important in adding flair to otherwise standard physics.
 
 The following options are available under the Motion category:
@@ -35,9 +29,7 @@ Collisions
 This feature allows particles to collide and interact with the physical environment around them.
 
 This feature is for CPU particles only. For GPU particles, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868272](
-GPU Particles: Collision
-)
+[GPU Particles: Collision](GPU%20Particles.md)
  feature. The CryPhysics motion feature already supports collisions and does not require this feature.
 Properties
 
@@ -172,13 +164,9 @@ Every time a particle collides, it realigns its orientation to the surface it co
  |
 
 The features
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867977](
-Location: Omni
-)
+[Location: Omni](Location.md)
  and Motion: Collisions can be used together to create an omnipresent colliding effect. By setting the respective feature parameters appropriately, an omnipresent environmental effect like rain or snow can be authored. With the addition of Motion: Collisions feature, these effects can react to collisions and stay out of indoors or other specific areas. For more information, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867992](
-Tutorial - Creating an Omnipresent Colliding Effect
-)
+[Tutorial - Creating an Omnipresent Colliding Effect](../../../Tutorials/Graphics/Particle%20Tutorials/Tutorial%20-%20Creating%20an%20Omnipresent%20Colliding%20Effect.md)
 .
 
 ##
@@ -187,9 +175,7 @@ CryPhysics
 CryPhysics is a more advanced type of Motion: Physics. It uses CRYENGINE CryPhysics to move a particle and It sacrifices the high levels of performance that Physics can provide. On the other hand, it is far more precise and better integrated with the physics scene. One of the most important aspects of this feature is that it allows the addition of mass to a particle and prevents the particle from being points in space without any physical properties. This also implies that particles can carry momentum. Therefore, not only the particles are affected by a level's physical objects, but these physical objects can also be affected by the particles. This feature also enables particle collisions. Please note that Only Point Particle collision detection is supported at the moment. Other types of collisions will be added later.
 
 This feature supports many of the systems provided by CRYENGINE, but it comes with a significant cost in performance and is therefore not recommended to be used for more than a thousand particles. Ideally, it is recommended to use less than a thousand particles at a time. Note that while Motion: Physics can handle dozens of thousands of particles in comparison, GPU particles can handle hundreds of thousands of particles. Therefore, it is highly recommended to mix up components with regular Physics and with CryPhysics using
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-SecondGen
-)
+[SecondGen](SecondGen.md)
  particles. By doing so, the optimal result can be achieved as this technique uses the best outcomes of both scenarios.
 Properties
 
@@ -222,9 +208,7 @@ Surface Type
 
  |
 Specifies the physical material being used by the particle. For more information on Surface Types and Material Effects, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215203](
-Material Effects
-)
+[Material Effects](/docs/static/engines/cryengine-5/categories/23756816/pages/26215203)
 .
 
  |
@@ -376,9 +360,7 @@ Level Wind Scale
 
  |
 Specifies how much the global wind affects the particles. Refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848989](
-Level Settings
-)
+[Level Settings](../../Level%20Editor%20Tab/Level%20Settings.md)
 for more details on how to setup global scene wind. With a value of 0, particles will not be affected by the global wind, but they will still be affected by other wind sources.
 
  |
@@ -426,9 +408,7 @@ Uniform Wind
 
  |
 Specifies a global wind velocity to be applied to all particles. This is added to the scene's wind velocity, but is not scaled by the Wind Scale property of the level. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848989](
-Level Settings
-)
+[Level Settings](../../Level%20Editor%20Tab/Level%20Settings.md)
 for more details on how to setup global scene wind.
 
  |
@@ -439,9 +419,7 @@ Local Effectors
 
  |
 Enables the usage of the Effectors that can be applied to the particles. While Uniform Acceleration and Uniform Wind affect all particles equally, Effectors can specify different accelerations and wind velocities to each particle individually. This can enable quite sophisticated particle dynamics. For more information, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869033](
-Effectors
-)
+[Effectors](Modifiers/Effectors.md)
 .
 
  |
@@ -451,18 +429,8 @@ GPU Support
 
 This feature is supported on the GPU, but no modifiers are available for the properties.
 
-[#collisions](
-Collisions
-)
-[#cryphysics](
-CryPhysics
-)
-[#moverelativetoemitter](
-MoveRelativeToEmitter
-)
-[#physics](
-Physics
-)
-[#gpu-support](
-GPU Support
-)
+[Collisions](#collisions)
+[CryPhysics](#cryphysics)
+[MoveRelativeToEmitter](#moverelativetoemitter)
+[Physics](#physics)
+[GPU Support](#gpu-support)

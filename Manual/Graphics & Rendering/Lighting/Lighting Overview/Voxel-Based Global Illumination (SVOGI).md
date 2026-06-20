@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Ray Traced Shadows](Voxel-Based Global Illumination (SVOGI)/Ray Traced Shadows.md)
+- [Ray Traced Shadows](Voxel-Based%20Global%20Illumination%20(SVOGI)/Ray%20Traced%20Shadows.md)
 
 ## Content
 
@@ -25,15 +25,15 @@ Large scale AO and indirect shadows from static geometry (vegetation, brushes an
 
 -
 Works without pre-baking and does not require manual setup of many bounce lights or light volumes.
-[Image: /docs/static/attachments/21239779]
-[Image: /docs/static/attachments/21239457]
+![Image](https://www.cryengine.com/docs/static/attachments/21239779)
+![Image](https://www.cryengine.com/docs/static/attachments/21239457)
 
-[Image: /docs/static/attachments/19335754]
-[Image: /docs/static/attachments/20349274]
+![Image](https://www.cryengine.com/docs/static/attachments/19335754)
+![Image](https://www.cryengine.com/docs/static/attachments/20349274)
 
-[Image: /docs/static/attachments/44964629]
-[Image: /docs/static/attachments/21240534]
-[Image: /docs/static/attachments/21235585]
+![Image](https://www.cryengine.com/docs/static/attachments/44964629)
+![Image](https://www.cryengine.com/docs/static/attachments/21240534)
+![Image](https://www.cryengine.com/docs/static/attachments/21235585)
 
 *
 Global Illumination examples
@@ -77,7 +77,7 @@ Total Illumination Advanced
 **
 :
 
-[Image: /docs/static/attachments/52593394]
+![Image](https://www.cryengine.com/docs/static/attachments/52593394)
 
 *
 Global Illumination settings
@@ -85,9 +85,7 @@ Global Illumination settings
 
 For more information about the Global Illumination parameters in this window,
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658466](
-click here
-)
+[click here](../../../Editor%20Tools/Environment%20Editor.md)
 **
 .
 
@@ -107,7 +105,7 @@ Use
 r_ShowRenderTarget svo_fin
 **
 to show the output of GI system.
-[Image: /docs/static/attachments/44964633]
+![Image](https://www.cryengine.com/docs/static/attachments/44964633)
 
 *
 r_ShowRenderTarget svo_fin
@@ -205,7 +203,7 @@ Integration Modes 1-2
  use more memory for voxelization (at least 64 MB) - albedo, normals and several layers of radiance are voxelized together with opacity. The lighting gets injected into voxelization, then it may be propagated (within the voxelization) and is then sampled during ray tracing pass.
 
 Below, you can see example of information stored in voxels: albedo colors, direct light injection and light propagation.
-[Image: /docs/static/attachments/44964634]
+![Image](https://www.cryengine.com/docs/static/attachments/44964634)
 
 *
 Albedo colors, direct light injection and light propagation
@@ -234,9 +232,7 @@ Large semi-static multi-bounce lights can not be moved freely (but slowly moving
 Dynamic objects can not affect GI (but can receive it of course).
 If you get the error message "Display driver stopped responding and has recovered", you can use
 **
-[https://support.microsoft.com/en-us/kb/2665946](
-this workaround from Microsoft
-)
+[this workaround from Microsoft](https://support.microsoft.com/en-us/kb/2665946)
 **
 . This fix is applicable to Windows 10 as well.
 
@@ -343,71 +339,36 @@ in future versions).
 For more information about SVOGI and how to it efficiently in your level, please refer to the following tutorials:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656827](
-Tutorial - Creative Lighting Basics
-)
+[Tutorial - Creative Lighting Basics](../../../Tutorials/Graphics/Lighting%20Tutorials/Tutorial%20-%20Creative%20Lighting%20Basics.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56660088](
-Tutorial - Environment Editor part 3 - SVOGI and Ambient Light
-)
+[Tutorial - Environment Editor part 3 - SVOGI and Ambient Light](../../../Tutorials/Graphics/Environment%20Tutorials/Environment%20Editor%20Tutorials/Tutorial%20-%20Environment%20Editor%20part%203%20-%20SVOGI%20and%20Ambient%20Light.md)
 
 ##
 External Links
 
-[http://www.dsogaming.com/news/cryteks-artists-showcase-cryengine-with-new-beautiful-forest-maps/](
-Crytek’s Artists Showcase CRYENGINE With New Beautiful Forest Maps
-)
+[Crytek’s Artists Showcase CRYENGINE With New Beautiful Forest Maps](http://www.dsogaming.com/news/cryteks-artists-showcase-cryengine-with-new-beautiful-forest-maps/)
 
-[https://www.youtube.com/watch?v=PEfqtOYjolE](
-SVOTI in Kingdom Come: Deliverance Alpha 0.5 on/off comparison (with FPS)
-)
+[SVOTI in Kingdom Come: Deliverance Alpha 0.5 on/off comparison (with FPS)](https://www.youtube.com/watch?v=PEfqtOYjolE)
 
-[http://80.lv/articles/light-art-using-svoti-to-build-better-games/](
-LIGHT & ART: USING SVOTI TO BUILD BETTER GAMES
-)
+[LIGHT & ART: USING SVOTI TO BUILD BETTER GAMES](http://80.lv/articles/light-art-using-svoti-to-build-better-games/)
 
-[http://steamcommunity.com/app/299740](
-SVOTI in Miscreated open world MMO
-
-)
-[https://www.youtube.com/watch?v=JC5jIa5fvlk](
-GI on/off comparision
-)
+[SVOTI in Miscreated open world MMO](http://steamcommunity.com/app/299740)
+[GI on/off comparision](https://www.youtube.com/watch?v=JC5jIa5fvlk)
 
 ,
-[https://www.youtube.com/watch?v=bnvmB9iztaM](
-YouTube
-)
+[YouTube](https://www.youtube.com/watch?v=bnvmB9iztaM)
 ,
-[https://www.youtube.com/watch?v=laZ97IAJ8Xo](
-YouTube
-)
+[YouTube](https://www.youtube.com/watch?v=laZ97IAJ8Xo)
 
 ,
-[https://www.youtube.com/watch?v=Jy-G5aopdi4](
-YouTube
-)
+[YouTube](https://www.youtube.com/watch?v=Jy-G5aopdi4)
 ,
 
-[#performance](
-Performance
-)
-[#user-interface](
-User Interface
-)
-[#debugging](
-Debugging
-)
-[#current-limitations](
-Current Limitations
-)
-[#about-integration-modes](
-About Integration Modes
-)
-[#analytical-occluders-prototype](
-Analytical Occluders Prototype
-)
-[#external-links](
-External Links
-)
+[Performance](#performance)
+[User Interface](#user-interface)
+[Debugging](#debugging)
+[Current Limitations](#current-limitations)
+[About Integration Modes](#about-integration-modes)
+[Analytical Occluders Prototype](#analytical-occluders-prototype)
+[External Links](#external-links)

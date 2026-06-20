@@ -12,9 +12,9 @@ Overview
 
 The Glass Shader for CRYENGINE hosts an array of options which allows you to fully customize the appearance of glass objects, including refraction effects, tint effects, fog effects and more.
 
-[Image: /docs/static/attachments/28898520]
+![Image](https://www.cryengine.com/docs/static/attachments/28898520)
 
-[Image: /docs/static/attachments/28898502]
+![Image](https://www.cryengine.com/docs/static/attachments/28898502)
 
 ##
 Basic Information and Limitations
@@ -28,9 +28,7 @@ If you
 really
 *
  want to make alpha-blended, non-refractive glass you can use the Illum shader as described
-[https://www.youtube.com/watch?v=uGFA5nGv9so&ab_channel=Eat3D](
-here
-)
+[here](https://www.youtube.com/watch?v=uGFA5nGv9so&ab_channel=Eat3D)
 .
 
 -
@@ -61,7 +59,7 @@ Directions for use
 ##
 Tinting
 
-[Image: /docs/static/attachments/28898494]
+![Image](https://www.cryengine.com/docs/static/attachments/28898494)
 
 -
 In its most basic and cheapest form, with none of the options enabled, the glass shader simply tints and refracts what's behind it using a normal map in the normal map slot.
@@ -105,7 +103,7 @@ Tint Color
 ##
 Cloudiness
 
-[Image: /docs/static/attachments/28898503]
+![Image](https://www.cryengine.com/docs/static/attachments/28898503)
 
 -
 Increasing the
@@ -124,7 +122,7 @@ Small values work best, especially in bright sunlight.
 ##
 Normal Map Tiling and Scale
 
-[Image: /docs/static/attachments/28898504]
+![Image](https://www.cryengine.com/docs/static/attachments/28898504)
 
 -
 You can use the
@@ -147,7 +145,7 @@ Using tiling values less than
 ##
 Reflection
 
-[Image: /docs/static/attachments/28898508]
+![Image](https://www.cryengine.com/docs/static/attachments/28898508)
 
 -
 In most cases, you will want your glass to be reflective. To enable reflection tick the
@@ -163,7 +161,7 @@ Shader Generation Params
 -
 You will need to specify a cubemap to use for the reflection, as transparent objects cannot pick up deferred cubemaps. Generally, you should set it up to automatically use the nearest cubemap from the level like this:
 
-[Image: /docs/static/attachments/28898507]
+![Image](https://www.cryengine.com/docs/static/attachments/28898507)
 
 -
 Doing this will mean you can use the material throughout the level and it should get the cubemap right for the location most of the time.
@@ -205,7 +203,7 @@ Fresnel Power
 ##
 Getting Dirty
 
-[Image: /docs/static/attachments/28898505]
+![Image](https://www.cryengine.com/docs/static/attachments/28898505)
 
 -
 By checking
@@ -270,7 +268,7 @@ DiffAlpha to Spec Mult
 ##
 Specular Map and Tint Masking
 
-[Image: /docs/static/attachments/28898493]
+![Image](https://www.cryengine.com/docs/static/attachments/28898493)
 
 -
 If you want to use a specific specular map rather than generating it from the diffuse alpha, you can simply drop one into the specular map slot.
@@ -338,7 +336,7 @@ not
 ##
 Refraction Blur
 
-[Image: /docs/static/attachments/28898500]
+![Image](https://www.cryengine.com/docs/static/attachments/28898500)
 
 -
 Ticking
@@ -360,7 +358,7 @@ This effect only works on PC.
 ##
 Cloudiness Masks Blur
 
-[Image: /docs/static/attachments/28898501]
+![Image](https://www.cryengine.com/docs/static/attachments/28898501)
 
 -
 The
@@ -375,7 +373,7 @@ This can mimic the effect of diffusion films applied to parts of the glass.
 ##
 Depth Fog
 
-[Image: /docs/static/attachments/28898506]
+![Image](https://www.cryengine.com/docs/static/attachments/28898506)
 
 -
 Checking
@@ -476,33 +474,17 @@ References
 Some interesting information/links:
 
 -
-[http://en.wikipedia.org/wiki/Glass](
-http://en.wikipedia.org/wiki/Glass
-)
+[http://en.wikipedia.org/wiki/Glass](http://en.wikipedia.org/wiki/Glass)
 
 -
-[http://en.wikipedia.org/wiki/Stained_glass](
-http://en.wikipedia.org/wiki/Stained_glass
-)
+[http://en.wikipedia.org/wiki/Stained_glass](http://en.wikipedia.org/wiki/Stained_glass)
 
 -
-[http://www.powellbrosglassart.com/index.html](
-http://www.powellbrosglassart.com/index.html
-)
+[http://www.powellbrosglassart.com/index.html](http://www.powellbrosglassart.com/index.html)
 
 -
-[http://en.wikipedia.org/wiki/Chromatic_aberration](
-http://en.wikipedia.org/wiki/Chromatic_aberration
-)
-[#basic-information-and-limitations](
-Basic Information and Limitations
-)
-[#directions-for-use](
-Directions for use
-)
-[#addendum-pre-cracked-glass](
-Addendum - Pre-Cracked Glass
-)
-[#references](
-References
-)
+[http://en.wikipedia.org/wiki/Chromatic_aberration](http://en.wikipedia.org/wiki/Chromatic_aberration)
+[Basic Information and Limitations](#basic-information-and-limitations)
+[Directions for use](#directions-for-use)
+[Addendum - Pre-Cracked Glass](#addendum-pre-cracked-glass)
+[References](#references)

@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Color Modifiers](Modifiers/Color Modifiers.md)
+- [Color Modifiers](Modifiers/Color%20Modifiers.md)
 - [Effectors](Modifiers/Effectors.md)
 
 ## Content
@@ -21,7 +21,7 @@ Many properties implemented by particle effect Features can contain a stack of M
 
 Each Modifier takes that property value and then manipulates it in a specific way and sends the modified value to the next element in the stack. Some of these combine the output value of the previous Modifier with their own input by multiplying them.
 *
-[Image: /docs/static/attachments/44107843]
+![Image](https://www.cryengine.com/docs/static/attachments/44107843)
 
 *
 Modifiers menu options
@@ -37,16 +37,14 @@ function-based
 Domains
 **
 . When enabled, these domains can display additional fields, depending on the Modifier itself and the domain type. For more information about the Function-based Modifiers and domains, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-FBMCS](
-Function-based Modifiers Common Settings
-)
+[Function-based Modifiers Common Settings](Modifiers.md#Modifiers-FBMCS)
  section below.
 
 ##
 Modifiers
 
 Modifiers can be assigned to many properties in the Inspector panel. To access the Modifiers list, click the
-[Image: /docs/static/attachments/65438081]
+![Image](https://www.cryengine.com/docs/static/attachments/65438081)
  dropdown button found next to a property that supports Modifiers. When assigned, each Modifier manipulates the corresponding value in a specific way.
 
 Depending on the property in question and the settings of the Modifier, its logic can be applied on each Component. For example,
@@ -58,9 +56,7 @@ Attribute
 With this option, users can modify the original property based on an effect's Attribute.
 
 This Modifier is an alternative way of using Attributes. Another way would be to use
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-linear](
-Linear (Function-based Modifier)
-)
+[Linear (Function-based Modifier)](Modifiers.md#Modifiers-linear)
  with source option set to Attribute.
 
 Property
@@ -76,9 +72,7 @@ Attribute Name
 
  |
 Defines the name of the Attribute to read from. If the attribute does not exist in this emitter, the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-domain](
-Domain
-)
+[Domain](Modifiers.md#Modifiers-domain)
 input will get a value of
 **
 1
@@ -191,9 +185,7 @@ Scale value used when on PlayStation 4 Pro.
 Linear (Function-based Modifier)
 
 This option allows users to combine properties that are modified with a Domain; however, it doesn't apply any additional modification. In this Modifier, only the function-based properties are used. Please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-FBMCS](
-Function-based Modifiers Common Settings
-)
+[Function-based Modifiers Common Settings](Modifiers.md#Modifiers-FBMCS)
  for more information.
 
 Property
@@ -206,9 +198,7 @@ Owner
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-owner](
-below
-)
+[below](Modifiers.md#Modifiers-owner)
 .
  |
 
@@ -217,9 +207,7 @@ Domain Scale
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-dsdb](
-below
-)
+[below](Modifiers.md#Modifiers-dsdb)
 .
  |
 
@@ -228,9 +216,7 @@ Domain Bias
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-dsdb](
-below
-)
+[below](Modifiers.md#Modifiers-dsdb)
 .
  |
 
@@ -261,9 +247,7 @@ Owner
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-owner](
-below
-)
+[below](Modifiers.md#Modifiers-owner)
 .
 
  |
@@ -273,9 +257,7 @@ Domain Scale
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-dsdb](
-below
-)
+[below](Modifiers.md#Modifiers-dsdb)
 .
  |
 
@@ -284,9 +266,7 @@ Domain Bias
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-dsdb](
-below
-)
+[below](Modifiers.md#Modifiers-dsdb)
 .
  |
 
@@ -378,13 +358,13 @@ Domain Scale
 **
  value is too high, Noise starts to behave closer to pure randomness and fuzziness; as a result, diffuse might start to arise.
 
-[Image: /docs/static/attachments/44107844]
+![Image](https://www.cryengine.com/docs/static/attachments/44107844)
 
  |
-[Image: /docs/static/attachments/44107845]
+![Image](https://www.cryengine.com/docs/static/attachments/44107845)
 
  |
-[Image: /docs/static/attachments/44107846]
+![Image](https://www.cryengine.com/docs/static/attachments/44107846)
 
  |
 
@@ -419,9 +399,7 @@ Owner
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-owner](
-below
-)
+[below](Modifiers.md#Modifiers-owner)
 .
  |
 
@@ -430,9 +408,7 @@ Domain Scale
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-dsdb](
-below
-)
+[below](Modifiers.md#Modifiers-dsdb)
 .
  |
 
@@ -441,9 +417,7 @@ Domain Bias
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-dsdb](
-below
-)
+[below](Modifiers.md#Modifiers-dsdb)
 .
  |
 
@@ -510,13 +484,13 @@ Bias
 
 Cosine is the same as Sine with a 0.25 phase.
 
-[Image: /docs/static/attachments/44107847]
+![Image](https://www.cryengine.com/docs/static/attachments/44107847)
 
  |
-[Image: /docs/static/attachments/44107848]
+![Image](https://www.cryengine.com/docs/static/attachments/44107848)
 
  |
-[Image: /docs/static/attachments/44107849]
+![Image](https://www.cryengine.com/docs/static/attachments/44107849)
 
  |
 
@@ -534,7 +508,7 @@ Pulse
 Wave equations samples
 *
 
-[Image: /docs/static/attachments/44107850]
+![Image](https://www.cryengine.com/docs/static/attachments/44107850)
 
 *
 A waveform setting sample
@@ -566,9 +540,7 @@ Specifies the amount of variation that will be added to the particle. If the amo
 Double Curve (Function-based Modifier)
 
 Unlike Curve, the Double Curve Modifier uses two Bezier curves, in this Modifier, the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-domain](
-Domain
-)
+[Domain](Modifiers.md#Modifiers-domain)
 is used to sample both curves at the same time, while the
 **
 Random
@@ -589,9 +561,7 @@ Owner
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-owner](
-below
-)
+[below](Modifiers.md#Modifiers-owner)
 .
  |
 
@@ -600,9 +570,7 @@ Domain Scale
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-dsdb](
-below
-)
+[below](Modifiers.md#Modifiers-dsdb)
 .
  |
 
@@ -611,9 +579,7 @@ Domain Bias
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-dsdb](
-below
-)
+[below](Modifiers.md#Modifiers-dsdb)
 .
  |
 
@@ -623,9 +589,7 @@ Double Curve
 
  |
 Uses a double Bezier curve to provide additional variance. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-Particle Editor
-)
+[Particle Editor](../../Particle%20Editor.md)
  for more information about Curve Editor.
 
  |
@@ -655,9 +619,7 @@ Owner
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-owner](
-below
-)
+[below](Modifiers.md#Modifiers-owner)
 .
  |
 
@@ -666,9 +628,7 @@ Domain Scale
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-dsdb](
-below
-)
+[below](Modifiers.md#Modifiers-dsdb)
 .
  |
 
@@ -677,9 +637,7 @@ Domain Bias
 **
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-dsdb](
-below
-)
+[below](Modifiers.md#Modifiers-dsdb)
 .
  |
 
@@ -689,9 +647,7 @@ Curve
 
  |
 Uses a single curve to modify the values. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-Particle Editor
-)
+[Particle Editor](../../Particle%20Editor.md)
  for more information about Curve Editor.
 
  |
@@ -726,7 +682,7 @@ Field
 ##
 Function-based Modifiers Common Settings
 
-[Image: /docs/static/attachments/44107852]
+![Image](https://www.cryengine.com/docs/static/attachments/44107852)
 
 Many of the Particle Effect Modifiers are function-based. This allows the Modifier to accept not only the input from the property value modified by previous Modifiers, but also other aspects of the particle. All of these Modifiers have a common set of properties.
 
@@ -757,9 +713,7 @@ This is the normalized time of the current particle; meaning this value will alw
 Spawn Fraction -
 **
 When particles are spawned using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868327](
-Spawn
-)
+[Spawn](Spawn.md)
  feature, a Spawn Fraction field is added to each particle property. The first particle spawned gets order value 0 and the last spawned particle gets order value 1.
 
 -
@@ -795,9 +749,7 @@ Specifies the speed of the particle in meters per second.
 Field -
 **
 Particles can have other fields besides Size or Opacity. This mode allows users to select/choose any of the fields for a given particle. For more information about fields, please see Field in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-Particle Effect Features
-)
+[Particle Effect Features](../Particle%20Effect%20Features.md)
  section.
 
 -
@@ -817,9 +769,7 @@ Specifies the time of the current level in seconds.
 View Angle -
 **
  This option corresponds to the relative angle to the camera for particles which have 3D angles. For more information about angles, please see the Angles in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-Particle Effect Features
-)
+[Particle Effect Features](../Particle%20Effect%20Features.md)
 section.
 
 When a particle faces the camera, it emits an output value of 1. When the particle is perfectly flat relative to the camera, then it emits an output value of 0. This option is best used in conjunction with the
@@ -835,9 +785,7 @@ Opacity
 
 **
 on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-Particle Effect Features
-)
+[Particle Effect Features](../Particle%20Effect%20Features.md)
  page.
 
 -
@@ -892,9 +840,7 @@ Field.
 Angle2D -
 **
 Current particle's rotation angle (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868243](
-Angles
-)
+[Angles](Angles.md)
  for more detail).
 
 -
@@ -902,9 +848,7 @@ Angles
 Spin2D -
 **
 Current particle's spin rate (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868243](
-Angles
-)
+[Angles](Angles.md)
  for more detail).
 
 -
@@ -916,9 +860,7 @@ Specifies particle's
 
 **
 opacity (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868265](
-Field
-)
+[Field](Field.md)
  for more detail).
 
 -
@@ -926,9 +868,7 @@ Field
 Collide Speed -
 **
 Particle's collision data (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867966](
-Motion
-)
+[Motion](Motion.md)
 for more detail).
 
 -
@@ -940,9 +880,7 @@ Specifies particle's
 
 **
 size in meters (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868265](
-Field
-)
+[Field](Field.md)
  for more detail).
 
 -
@@ -954,9 +892,7 @@ Specifies particle's
 
 **
 gravity multiplier (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867966](
-Motion
-)
+[Motion](Motion.md)
  for more detail).
 
 -
@@ -968,9 +904,7 @@ Specifies particle's
 
 **
 drag (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867966](
-Motion
-)
+[Motion](Motion.md)
  for more detail).
 
 -
@@ -978,9 +912,7 @@ Motion
 Life Time -
 **
 Specifies the lifetime of a particle in seconds; set it to 0 for immortal particles (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868279](
-Life
-)
+[Life](Life.md)
  for more detail).
 
 -
@@ -1002,7 +934,7 @@ Field
 **
 Domain is selected. The Random Domain will always output a different number and is fully stochastic. Field Random, on other hand, corresponds to a particle's own random number and can be used to have consistent behavior between Modifiers. This can be used for example to have varying but consistent size and opacity or to have all children particles share the same randomness as their parent.
 
-[Image: /docs/static/attachments/65438083]
+![Image](https://www.cryengine.com/docs/static/attachments/65438083)
 
 *
 Domain Field menu options
@@ -1070,21 +1002,13 @@ Currently, Modifiers have a very limited support in the current GPU pipeline. At
 Curve
 **
  Modifier, and it can only be used when
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-owner](
-Owner
-)
+[Owner](Modifiers.md#Modifiers-owner)
 is set to
 **
  Self
 **
 .
 
-[#modifiers](
-Modifiers
-)
-[#function-based-modifiers-common-settings](
-Function-based Modifiers Common Settings
-)
-[#gpu-support](
-GPU Support
-)
+[Modifiers](#modifiers)
+[Function-based Modifiers Common Settings](#function-based-modifiers-common-settings)
+[GPU Support](#gpu-support)

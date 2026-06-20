@@ -21,15 +21,11 @@ Sample Files
 
 -
 Explosion shape example:
-[/docs/static/attachments/23994757](
-cut_shape.max
-)
+[cut_shape.max](/docs/static/attachments/23994757)
 
 -
 Tree example:
-[/docs/static/attachments/23994760](
-sample_tree.max
-)
+[sample_tree.max](/docs/static/attachments/23994760)
 
 ##
 Performance Impact
@@ -141,7 +137,7 @@ Setup in 3dsMax
 
 For the Trunk Material, turn on "physicalize" in the Material Editor in 3dsMax. Set the Parameter for the physics to "default".
 
-[Image: /docs/static/attachments/23994759]
+![Image](https://www.cryengine.com/docs/static/attachments/23994759)
 
 **
 Important:
@@ -154,7 +150,7 @@ Remove any proxy physics objects from parts you want to be breakable.
 Be sure your procedural breakable mesh is closed and has no gaps.
 Create a predefined mesh in an extra cgf file, which is used to "cap" the broken parts.
 
-[Image: /docs/static/attachments/23994758]
+![Image](https://www.cryengine.com/docs/static/attachments/23994758)
 
 Please take a look at the files shipped with the CRYENGINE SDK, they are located in
 `
@@ -254,18 +250,8 @@ p_debug_joints 1
  - To check weights.
 Shoot at the tree to check if it's breakable.
 
-[#sample-files](
-Sample Files
-)
-[#performance-impact](
-Performance Impact
-)
-[#components-of-the-system](
-Components of the System
-)
-[#setup-in-3dsmax](
-Setup in 3dsMax
-)
-[#setup-in-sandbox](
-Setup in Sandbox
-)
+[Sample Files](#sample-files)
+[Performance Impact](#performance-impact)
+[Components of the System](#components-of-the-system)
+[Setup in 3dsMax](#setup-in-3dsmax)
+[Setup in Sandbox](#setup-in-sandbox)

@@ -824,30 +824,12 @@ As described earlier, while evaluating points we always know both the maximum an
 
 We could relax the optimality constraint and accept a point when we know that no other point could be significantly better. For example, the minimum potential fitness of this point may be less than, say, 5% lower than the maximum potential fitness of the next best point. Hence we might stop evaluation early and yield a further performance saving.
 
-[#introduction](
-Introduction
-)
-[#execution-flow](
-Execution Flow
-)
-[#c-interface](
-C++ Interface
-)
-[#lua-interface](
-Lua Interface
-)
-[#query-language-semantics](
-Query Language Semantics
-)
-[#point-generation](
-Point Generation
-)
-[#point-evaluation](
-Point Evaluation
-)
-[#integration-with-the-modular-behavior-tree-system](
-Integration with the Modular Behavior Tree system
-)
-[#future-plans-and-possibilities](
-Future Plans and Possibilities
-)
+[Introduction](#introduction)
+[Execution Flow](#execution-flow)
+[C++ Interface](#c-interface)
+[Lua Interface](#lua-interface)
+[Query Language Semantics](#query-language-semantics)
+[Point Generation](#point-generation)
+[Point Evaluation](#point-evaluation)
+[Integration with the Modular Behavior Tree system](#integration-with-the-modular-behavior-tree-system)
+[Future Plans and Possibilities](#future-plans-and-possibilities)

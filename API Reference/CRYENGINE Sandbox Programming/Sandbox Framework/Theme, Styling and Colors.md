@@ -60,9 +60,7 @@ Icons/
 CategoryFolder/MyIcon.ico". Both will seem like they work but the first will allow our designers to work on the icons without needing to generate an executable of the editor every time they change an icon.
 For more info on the Qt Resource System, please refer
 **
-[http://doc.qt.io/qt-5/resources.html](
-here
-)
+[here](http://doc.qt.io/qt-5/resources.html)
 **
 .
 
@@ -80,9 +78,7 @@ QPalette
  for styling is prohibited since it conflicts with the use of style sheets. Palette colors are defined in QSS and can be accessed through EditorStyleHelper.
 
 For a full list of objects and properties that can be styled, please look at the
-[http://doc.qt.io/qt-5/stylesheet-reference.html](
-Qss Reference
-)
+[Qss Reference](http://doc.qt.io/qt-5/stylesheet-reference.html)
 .
 
 ##

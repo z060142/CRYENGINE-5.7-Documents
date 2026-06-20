@@ -14,7 +14,7 @@ This tool is part of the Asset System and allows users to explore asset dependen
 
 The Dependency graph tool shows unresolved dependencies in red:
 
-[Image: /docs/static/attachments/44966606]
+![Image](https://www.cryengine.com/docs/static/attachments/44966606)
 
 ##
 Opening in the Console

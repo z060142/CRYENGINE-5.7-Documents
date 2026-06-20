@@ -66,7 +66,7 @@ time_of_day
 *
 AISAC could resemble the graph in the picture below.
 
-[Image: /docs/static/attachments/44966423]
+![Image](https://www.cryengine.com/docs/static/attachments/44966423)
 
 *
 AISAC graph for time_of_day
@@ -118,7 +118,7 @@ Max Value
 **
  field to 24.
 
-[Image: /docs/static/attachments/44966424]
+![Image](https://www.cryengine.com/docs/static/attachments/44966424)
 
 *
 Multiply

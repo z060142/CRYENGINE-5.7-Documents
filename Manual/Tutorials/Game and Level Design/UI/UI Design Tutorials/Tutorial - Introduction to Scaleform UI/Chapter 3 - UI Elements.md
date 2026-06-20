@@ -37,7 +37,7 @@ uiQuickStart.xml
 *
 .
 
-[Image: /docs/static/attachments/89456852]
+![Image](https://www.cryengine.com/docs/static/attachments/89456852)
 
 *
 uiQuickstart.xml
@@ -85,7 +85,7 @@ Create Flow Graph
 **
  option from the context menu that opens.
 
-[Image: /docs/static/attachments/90833534]
+![Image](https://www.cryengine.com/docs/static/attachments/90833534)
 
 *
 Create Flow Graph
@@ -111,13 +111,13 @@ uQuickStart
 **
  to show on game start.
 
-[Image: /docs/static/attachments/89456854]
+![Image](https://www.cryengine.com/docs/static/attachments/89456854)
 
 *
 UI::Display::Display
 
 *
-[Image: /docs/static/attachments/89456855]
+![Image](https://www.cryengine.com/docs/static/attachments/89456855)
 
 *
 Set Element to uiQuickStart
@@ -133,14 +133,14 @@ No
 **
  in the popup dialog box that asks if you would like to use another Schematyc Entity as a base.
 
-[Image: /docs/static/attachments/90833146]
+![Image](https://www.cryengine.com/docs/static/attachments/90833146)
 
 *
 Create a new Schematyc Entity
 *
 *
 
-[Image: /docs/static/attachments/90833147]
+![Image](https://www.cryengine.com/docs/static/attachments/90833147)
 
 Click No on the Popup dialog
 
@@ -149,13 +149,13 @@ Click No on the Popup dialog
 -
 To display the UI Element, add the generated UI Element Component to your Schematyc Entity. The Component can keep the default generated name of "FlashElement:uiQuickStart".
 
-[Image: /docs/static/attachments/90833538]
+![Image](https://www.cryengine.com/docs/static/attachments/90833538)
 
 *
 Add Component
 
 *
-[Image: /docs/static/attachments/90833149]
+![Image](https://www.cryengine.com/docs/static/attachments/90833149)
 
 *
 Leave the FlashElement:uiQuickStart default name
@@ -169,7 +169,7 @@ Functions → Components → FlashElement:uiQuickStart → SetVisibility
 **
  node.
 
-[Image: /docs/static/attachments/90833150]
+![Image](https://www.cryengine.com/docs/static/attachments/90833150)
 
 *
 Add the SetVisibility node
@@ -191,7 +191,7 @@ Visible
 **
  property of the SetVisibility node is checked.
 
-[Image: /docs/static/attachments/90833151]
+![Image](https://www.cryengine.com/docs/static/attachments/90833151)
 
 *
 Check the SetVisibility node's Visible property
@@ -201,22 +201,14 @@ Check the SetVisibility node's Visible property
 -
 For the Schematyc (Experimental) graph to be executed, an instance of the entity needs to exist within the level. Drag the uiquickstart Schematyc Entity from Step 1 anywhere into the Perspective viewport to create an instance of it.
 
-[Image: /docs/static/attachments/90833152]
+![Image](https://www.cryengine.com/docs/static/attachments/90833152)
 
 *
 Draft the uiquickstart Schematyc Entity into the Perspective viewport
 *
 You should now be able to see your UI displayed on-screen upon entering Game mode in the Sandbox Editor.
 
-[#registering-the-ui-element](
-Registering the UI Element
-)
-[#exposing-the-ui-element-to-visual-scripting](
-Exposing the UI Element to Visual Scripting
-)
-[#flow-graph](
-Flow Graph
-)
-[#schematyc-experimental](
-Schematyc (Experimental)
-)
+[Registering the UI Element](#registering-the-ui-element)
+[Exposing the UI Element to Visual Scripting](#exposing-the-ui-element-to-visual-scripting)
+[Flow Graph](#flow-graph)
+[Schematyc (Experimental)](#schematyc-experimental)

@@ -8,3 +8,5 @@
 ## Content
 
 Using vertex snapping, angular snapping, and object snapping for precise object placement in the sandbox editor.
+
+[Embed: http://youtube.com/watch?v=CUgYOq5MEzc]

@@ -33,24 +33,22 @@ r_TexelsPerMeter = 512
 You can add any number you like into this CVar, but the number used will be the "target" range. Hence, we are using 512.
 
 To gain easier access to this Debug Mode it is included in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308636](
-View Modes Toolbar
-)
+[View Modes Toolbar](../View%20Modes%20ToolBar.md)
 . Three predefined variations, 256, 512 & 1024 are mapped to the buttons as highlighted in the screenshot below. To add the toolbar, right click on an empty space in the UI to bring up the toolbar menu & select ViewModes.
 
-[Image: /docs/static/attachments/52199443]
+![Image](https://www.cryengine.com/docs/static/attachments/52199443)
 
 *
 Displaying View Modes toolbar
 *
 
-[Image: /docs/static/attachments/52199444]
+![Image](https://www.cryengine.com/docs/static/attachments/52199444)
 
 *
 Texels per meter options
 *
 
-[Image: /docs/static/attachments/52199440]
+![Image](https://www.cryengine.com/docs/static/attachments/52199440)
 
 *
 Texels per meter = 512
@@ -70,7 +68,7 @@ r_TexelsPerMeter = 512,
 : F
 ar left = Zero, far right = 512.
 
-[Image: /docs/static/attachments/52199437]
+![Image](https://www.cryengine.com/docs/static/attachments/52199437)
 
 *
 256 tpm bar
@@ -82,7 +80,7 @@ ar left = Zero, far right = 512.
 :
 Far left = Zero, far right = 1024.
 
-[Image: /docs/static/attachments/52199439]
+![Image](https://www.cryengine.com/docs/static/attachments/52199439)
 
 *
 512 tpm bar
@@ -94,7 +92,7 @@ Far left = Zero, far right = 1024.
 : Far
 left = Zero, far right = 2048.
 
-[Image: /docs/static/attachments/52199438]
+![Image](https://www.cryengine.com/docs/static/attachments/52199438)
 
 *
 1024 tpm bar
@@ -117,7 +115,7 @@ Anything that is green is just right
 To help visualize the colors and mapping of the UV's a checkerboard texture is also applied - this also scales to the stretching of the mapping and the
 higher the density, then the tighter the checkerboard becomes. Notice the high frequency checkerboard in the red area vs the low frequency checkerboard in dark blue area.
 
-[Image: /docs/static/attachments/52199431]
+![Image](https://www.cryengine.com/docs/static/attachments/52199431)
 
 *
 Tpm checkboard scaling
@@ -146,13 +144,13 @@ World:
 **
  The further back geometry is from the play area, then the Texel Density requirement becomes less = (Dark Blue). This is shown in the screen shots below by the buildings and trees.  However, the Roman Standard (it was classed as an important asset) has a high Texel Density and is colored Red. Some cloth assets and barrels are in the range of yellow to orange, these are close to the play area and therefore required more detail and thus have a higher Texel Density.
 
-[Image: /docs/static/attachments/52199450]
+![Image](https://www.cryengine.com/docs/static/attachments/52199450)
 
 *
 Ryse scene with tpm off
 *
 
-[Image: /docs/static/attachments/52199451]
+![Image](https://www.cryengine.com/docs/static/attachments/52199451)
 
 *
 Ryse scene with tpm on
@@ -163,13 +161,13 @@ Characters:
 **
  Texel budget spent on the Roman Soldier vs the generic Civilian. Notice how the shield didn't require as much detail as the Roman armor.
 
-[Image: /docs/static/attachments/52199452]
+![Image](https://www.cryengine.com/docs/static/attachments/52199452)
 
 *
 Ryse characters tpm off
 *
 
-[Image: /docs/static/attachments/52199453]
+![Image](https://www.cryengine.com/docs/static/attachments/52199453)
 
 *
 Ryse characters tpm on
@@ -188,7 +186,7 @@ Scale Tool
 Example:
 **
 
-[Image: /docs/static/attachments/52199454]
+![Image](https://www.cryengine.com/docs/static/attachments/52199454)
 
 *
 Tpm scaling
@@ -228,15 +226,7 @@ to 1024 will show all the surfaces mapped with a 1024 Texel Density as green and
 
 Equally, the 256 button is provided for targeting a lower end platform, where the raw horse power isn't there to shove all the pixels around. Hence, you can use the same Debug View to target this range of detail. Also, this helps to investigate the background (not so important) assets where if the range is pushed down to 256, then you have a wider color variation to investigate with.
 
-[#enabling-the-debug-mode](
-Enabling the Debug Mode
-)
-[#not-all-assets-are-created-equal](
-Not all Assets are Created Equal
-)
-[#size-matters](
-Size Matters
-)
-[#why-give-me-3-buttons-256-512-and-1024-if-512-is-the-desired-setting](
-Why Give me 3 Buttons (256, 512 & 1024), if 512 is the Desired Setting?
-)
+[Enabling the Debug Mode](#enabling-the-debug-mode)
+[Not all Assets are Created Equal](#not-all-assets-are-created-equal)
+[Size Matters](#size-matters)
+[Why Give me 3 Buttons (256, 512 & 1024), if 512 is the Desired Setting?](#why-give-me-3-buttons-256-512-and-1024-if-512-is-the-desired-setting)

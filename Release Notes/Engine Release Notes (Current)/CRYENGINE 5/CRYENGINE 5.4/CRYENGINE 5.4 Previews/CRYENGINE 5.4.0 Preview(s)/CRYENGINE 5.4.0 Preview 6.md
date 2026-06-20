@@ -21,9 +21,7 @@ In this Preview Release, we bring you the Particle Editor Presets Library. This 
 
 For more detailed information on the Particle Editor Presets Library, please refer to
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869024](
-Particle Presets Library
-)
+[Particle Presets Library](../../../../../../Manual/Editor%20Tools/Particle%20Editor/Particle%20Presets%20Library.md)
 .
 **
 
@@ -51,9 +49,7 @@ Temporal Supersampling (TSAA)
 Supersampling
 **
 For more information on Anti-Aliasing, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872518](
-Anti-Aliasing
-)
+[Anti-Aliasing](../../../../../../Manual/Post-processing/Anti-Aliasing.md)
 .
 
 ##
@@ -61,9 +57,7 @@ Schematyc Editor
 
 Finally in this Preview Release, we bring you our updated documentation for the Schematyc Editor Interface. For more information, please refer to
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868211](
-Schematyc Editor
-)
+[Schematyc Editor](../../../../../../Manual/Editor%20Tools/Deprecated%20Tab/Schematyc%20Editor%20(Experimental).md)
 .
 **
 
@@ -72,9 +66,7 @@ Accessing the 5.4.0 Preview 6 Release
 
 -
 Go to
-[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview6](
-https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview6
-)
+[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview6](https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview6)
 .
 
 -
@@ -90,21 +82,15 @@ Double-click on “InstallEngine.bat".
 Code Interface Changes
 
 For more information, see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962727](
-Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)
-)
+[Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)](../Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes%20(5.4%20Preview%20Releases).md)
 **
 
 **
 article.
 
 If you are upgrading from CRYENGINE 5.3, please read this topic:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962700](
-Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)
-)
-[/docs](
-.
-)
+[Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)](../Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4%20(5.4%20Preview%20Releases).md)
+[.](/docs)
 
 ##
 Known Issues

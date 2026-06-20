@@ -125,9 +125,7 @@ AI object's name or a
 *
 
 *
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306485#GoalopReference-SpecialAIobject](
-SpecialAIobject
-)
+[SpecialAIobject](Goalop%20Reference.md#GoalopReference-SpecialAIobject)
 *
 )
 
@@ -145,9 +143,7 @@ name="AI object's name or a
 *
 
 *
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306485#GoalopReference-SpecialAIobject](
-SpecialAIobject
-)
+[SpecialAIobject](Goalop%20Reference.md#GoalopReference-SpecialAIobject)
 *
 *
 "
@@ -159,9 +155,7 @@ Parameter:
 **
 
 AI object's name: named AI object or a
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306485#GoalopReference-SpecialAIobject](
-SpecialAIobject
-)
+[SpecialAIobject](Goalop%20Reference.md#GoalopReference-SpecialAIobject)
 ;
 **
 empty string
@@ -938,9 +932,7 @@ Deprecated.
 communicate
 
 Trigger a communication (sound/voice and/or animation) event. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306491](
-AI Communication
-)
+[AI Communication](../../../AI%20Communication.md)
  for more details.
 
 **
@@ -1888,9 +1880,7 @@ range
 Lua:
 **
  AI.PushGoal("locate", blocking, AI object type name or ID or
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306485#GoalopReference-SpecialAIobject](
-SpecialAIobject
-)
+[SpecialAIobject](Goalop%20Reference.md#GoalopReference-SpecialAIobject)
 ,
 *
 range
@@ -1908,9 +1898,7 @@ XML:
  <Locate
 
 name="AI object's name or a
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306485#GoalopReference-SpecialAIobject](
-SpecialAIobject
-)
+[SpecialAIobject](Goalop%20Reference.md#GoalopReference-SpecialAIobject)
 " or type="AI object's type"
 
 *
@@ -2286,9 +2274,7 @@ AI object's name or a
 *
 
 *
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306485#GoalopReference-SpecialAIobject](
-SpecialAIobject
-)
+[SpecialAIobject](Goalop%20Reference.md#GoalopReference-SpecialAIobject)
 *
 *
 , end tolerance (
@@ -2342,9 +2328,7 @@ XML:
  <Pathfind
 
 target="target AI object's name or a
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306485#GoalopReference-SpecialAIobject](
-SpecialAIobject
-)
+[SpecialAIobject](Goalop%20Reference.md#GoalopReference-SpecialAIobject)
 "
 
 *
@@ -3185,9 +3169,7 @@ locateName="AI object's name or a
 *
 
 *
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306485#GoalopReference-SpecialAIobject](
-SpecialAIobject
-)
+[SpecialAIobject](Goalop%20Reference.md#GoalopReference-SpecialAIobject)
 *
 *
 ; default is empty string"
@@ -3418,9 +3400,7 @@ AI.EndGoalPipe();
 tacticalpos
 
 See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306474](
-Tactical Point System
-)
+[Tactical Point System](../../../Tactical%20Point%20System.md)
 .
 
 ##
@@ -3835,12 +3815,6 @@ self
 -
 vehicle_avoid
 
-[#introduction](
-Introduction
-)
-[#goalop-reference](
-Goalop Reference
-)
-[#special-ai-object](
-Special AI object
-)
+[Introduction](#introduction)
+[Goalop Reference](#goalop-reference)
+[Special AI object](#special-ai-object)

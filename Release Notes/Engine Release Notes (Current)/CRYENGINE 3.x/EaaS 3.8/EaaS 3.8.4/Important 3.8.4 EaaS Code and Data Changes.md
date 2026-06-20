@@ -86,9 +86,7 @@ Many of our customers have been asking for improved support for other Windows co
 Previously, it was possible to make WAF pick up those tool-chains, but it required changes to the WAF scripts to make it work.
 
 In 3.8.4 we have improved the support for Visual Studio 2013 and 2015 compilers. The primary supported compiler tool-chain for Windows (for 3.8.4) remains Visual Studio 2012 compiler, but we have included experimental support for the other tool-chains. You may have to change some WAF options to customize which tool-chain you want to use, please read the "
-[/docs/static/engines/cryengine-3/categories/1638401/pages/21890417](
-Visual Studio supported versions
-)
+[Visual Studio supported versions](/docs/static/engines/cryengine-3/categories/1638401/pages/21890417)
 " page for information on how to configure this feature.
 
 For CRYENGINE 3.8.4 - when using Visual Studio 2015 compiler then the following features will not work:

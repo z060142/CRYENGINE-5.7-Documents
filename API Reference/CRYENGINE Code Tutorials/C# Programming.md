@@ -7,12 +7,12 @@
 
 ## Child Pages
 
-- [C# Game Templates](C# Programming/C# Game Templates.md)
-- [Sydewinder](C# Programming/Sydewinder.md)
-- [Using C# UI](C# Programming/Using C# UI.md)
-- [Compiling CRYENGINE for Mono](C# Programming/Compiling CRYENGINE for Mono.md)
-- [Using Console Command](C# Programming/Using Console Command.md)
-- [Using Console Variables](C# Programming/Using Console Variables.md)
+- [C# Game Templates](C%23%20Programming/C%23%20Game%20Templates.md)
+- [Sydewinder](C%23%20Programming/Sydewinder.md)
+- [Using C# UI](C%23%20Programming/Using%20C%23%20UI.md)
+- [Compiling CRYENGINE for Mono](C%23%20Programming/Compiling%20CRYENGINE%20for%20Mono.md)
+- [Using Console Command](C%23%20Programming/Using%20Console%20Command.md)
+- [Using Console Variables](C%23%20Programming/Using%20Console%20Variables.md)
 
 ## Content
 
@@ -65,9 +65,7 @@ Create Project
 
 **
 If you're using the engine-source from
-[https://github.com/CRYTEK/CRYENGINE/tree/main](
-Github
-)
+[Github](https://github.com/CRYTEK/CRYENGINE/tree/main)
 , you can create a new project by copying the template you want from
 **
 <root>/Code/GameTemplates/cs/
@@ -103,7 +101,7 @@ The solution for a managed plugin needs to be generated first before you can sta
 
 -
 To start programming, mouse over the relevant project name (left-hand side of the Launcher window) which will reveal a Settings icon
-[Image: /docs/static/attachments/29921317]
+![Image](https://www.cryengine.com/docs/static/attachments/29921317)
 . Click the icon and then click on
 **
 Reveal in Explorer.
@@ -257,32 +255,15 @@ Crytek no longer supports Xamarin Studio, we recommend the Visual Studio 2017 ex
 
 Chapters:
 
-[#getting-started](
-Getting Started
-)
-[#managed-plugin](
-Managed Plugin
-)
-[#c-assets](
-C# Assets
-)
-[#developing-in-the-cryengine-with-c](
-Developing in the CRYENGINE with C#
-)
-[#visual-studio-2017](
-Visual Studio 2017
-)
-[#older-versions-of-visual-studio](
-Older Versions of Visual Studio
-)
-[#xamarin-studio](
-Xamarin Studio
-)
+[Getting Started](#getting-started)
+[Managed Plugin](#managed-plugin)
+[C# Assets](#c-assets)
+[Developing in the CRYENGINE with C#](#developing-in-the-cryengine-with-c)
+[Visual Studio 2017](#visual-studio-2017)
+[Older Versions of Visual Studio](#older-versions-of-visual-studio)
+[Xamarin Studio](#xamarin-studio)
 Related Content:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875052](
-C# API Reference
-)
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875052](
-)
+[C# API Reference](../CRYENGINE%20API%20Reference/C%23%20API%20Reference.md)
+[/docs/static/engines/cryengine-5/categories/23756813/pages/26875052](../CRYENGINE%20API%20Reference/C%23%20API%20Reference.md)

@@ -10,23 +10,15 @@
 This complete beginner's course teaches the fundamentals of CRYENGINE 5 by taking you step by step through the process of building a finished "flappy boid" sidescroller-style game.
 
 The course is available both as a series of video tutorials which you can view on our YouTube channel
-[https://www.youtube.com/playlist?list=PLpCgy91Y5vMsnIXPWRD2vyWRzYYENbEbr](
-here
-)
+[here](https://www.youtube.com/playlist?list=PLpCgy91Y5vMsnIXPWRD2vyWRzYYENbEbr)
  and as a written PDF document (provided in the free
-[https://www.cryengine.com/marketplace/product/crytek/flappy-boid](
-Flappy Boid course asset
-)
+[Flappy Boid course asset](https://www.cryengine.com/marketplace/product/crytek/flappy-boid)
  on the Asset Database). We recommend that you watch and follow along with the video tutorials to see the game actually being built, and use the PDF version as a supplement resource, as it contains additional information and explanations.
 
 In order to build this game, you'll need to download the free
-[https://www.cryengine.com/marketplace/product/crytek/flappy-boid](
-Flappy Boid course assets
-)
+[Flappy Boid course assets](https://www.cryengine.com/marketplace/product/crytek/flappy-boid)
  and
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-GameSDK assets
-)
+[GameSDK assets](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
  from the CRYENGINE Asset Database. The course requires CRYENGINE 5.6.
 
 While this course does not cover every single feature in CRYENGINE 5 (unsurprisingly), it's an ideal way to get up to speed with game design in CRYENGINE 5.6. Programming is not a part of this course; our Flow Graph visual scripting tool is used to script game mechanics.
@@ -99,3 +91,4 @@ Export a finished game to a stand-alone executable and test it.
 
 -
 Use Console Variables to control the Editor and a stand-alone game.
+[Embed: https://www.youtube.com/watch?v=FAXHqKvuPF4&list=PLpCgy91Y5vMsnIXPWRD2vyWRzYYENbEbr&index=1]

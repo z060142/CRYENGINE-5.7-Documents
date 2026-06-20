@@ -19,10 +19,6 @@ The other file provide below is the heightmap that is referred to in the Beginne
 ##
 Files
 
-[/docs/static/attachments/36844915](
-CE 5 Beginner's Guide 2018-10-26.pdf
-)
+[CE 5 Beginner's Guide 2018-10-26.pdf](/docs/static/attachments/36844915)
 
-[/docs/static/attachments/36844916](
-practice_heightmap_1K.raw
-)
+[practice_heightmap_1K.raw](/docs/static/attachments/36844916)

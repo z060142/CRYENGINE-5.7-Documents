@@ -7,18 +7,16 @@
 
 ## Child Pages
 
-- [CRYENGINE 5.2.0](CRYENGINE 5.2/CRYENGINE 5.2.0.md)
-- [CRYENGINE 5.2.3](CRYENGINE 5.2/CRYENGINE 5.2.3.md)
-- [CRYENGINE 5.2.2](CRYENGINE 5.2/CRYENGINE 5.2.2.md)
-- [CRYENGINE 5.2.1](CRYENGINE 5.2/CRYENGINE 5.2.1.md)
+- [CRYENGINE 5.2.0](CRYENGINE%205.2/CRYENGINE%205.2.0.md)
+- [CRYENGINE 5.2.3](CRYENGINE%205.2/CRYENGINE%205.2.3.md)
+- [CRYENGINE 5.2.2](CRYENGINE%205.2/CRYENGINE%205.2.2.md)
+- [CRYENGINE 5.2.1](CRYENGINE%205.2/CRYENGINE%205.2.1.md)
 
 ## Content
 
-[Image: /docs/static/attachments/44962628]
+![Image](https://www.cryengine.com/docs/static/attachments/44962628)
 
-[https://www.cryengine.com/enterprise](
-[Image: /docs/static/attachments/44962625]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44962625)](https://www.cryengine.com/enterprise)
 
 ##
 Overview of CRYENGINE 5.2
@@ -28,81 +26,42 @@ CRYENGINE 5.2 is now available for download!
 Welcome to the release notes for our next major CRYENGINE update: CE 5.2. In this release we have focused on addressing community feedback by adding some long requested features (FBX Importer support for animations!) and continue with our recent efforts to make getting started and working with the Engine easier than ever.
 
 Please be aware that we have restructured our Release Notes – they are now aligned with our new
-[https://www.cryengine.com/roadmap](
-Roadmap
-)
+[Roadmap](https://www.cryengine.com/roadmap)
  and are listed according to the internal development team. This alignment will make it easier for users to compare the Road Map with the Release Notes and better track the progress we are making.
 
-[Image: /docs/static/attachments/44962639]
+![Image](https://www.cryengine.com/docs/static/attachments/44962639)
 
 ##
 Sections
 
-[#overview-of-cryengine-52](
-Overview of CRYENGINE 5.2
-)
-[#sections](
-Sections
-)
-[#code-interface-changes](
-Code Interface Changes
-)
-[#release-highlights](
-Release Highlights
-)
-[#animation](
-Animation
-)
-[#ai](
-AI
-)
-[#audio](
-Audio
-)
-[#coresystem](
-Core/System
-)
-[#c](
-C#
-)
-[#graphics-and-rendering](
-Graphics and Rendering
-)
-[#physics](
-Physics
-)
-[#network](
-Network
-)
-[#sandbox](
-Sandbox
-)
-[#tools](
-Tools
-)
-[#known-issues](
-Known Issues
-)
+[Overview of CRYENGINE 5.2](#overview-of-cryengine-52)
+[Sections](#sections)
+[Code Interface Changes](#code-interface-changes)
+[Release Highlights](#release-highlights)
+[Animation](#animation)
+[AI](#ai)
+[Audio](#audio)
+[Core/System](#coresystem)
+[C#](#c)
+[Graphics and Rendering](#graphics-and-rendering)
+[Physics](#physics)
+[Network](#network)
+[Sandbox](#sandbox)
+[Tools](#tools)
+[Known Issues](#known-issues)
 
 ##
 Code Interface Changes
 
 See the
 **
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962650](
-Important CRYENGINE 5.2 Data and Code Changes
-)
+[Important CRYENGINE 5.2 Data and Code Changes](CRYENGINE%205.2/CRYENGINE%205.2.0/Important%20CRYENGINE%205.2%20Data%20and%20Code%20Changes.md)
 
 **
 article for more information.
 
 If you are upgrading from CRYENGINE 5.1 please read
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962655](
-**
-Migrating from CRYENGINE 5.1 to CRYENGINE 5.2
-**
-.
-)
+[Migrating from CRYENGINE 5.1 to CRYENGINE 5.2 .](CRYENGINE%205.2/CRYENGINE%205.2.0/Migrating%20from%20CRYENGINE%205.1%20to%20CRYENGINE%205.2.md)
 
 ##
 Release Highlights
@@ -118,7 +77,9 @@ Support for FBX has been a popular long time request from our users, hence we ar
 **
  once you have tried these new additions! See the videos below for more information.
 
+[Embed: https://www.youtube.com/watch?v=o4vpWF58qIE]
  |
+[Embed: https://www.youtube.com/watch?v=TUDWb1CMETE]
  |
 
 **
@@ -127,13 +88,14 @@ Animation: VCloth 2.0 Character Cloth Simulation
 
 VCloth 2.0 is a new attachment for the existing Character Tool that gives users vastly expanded options when it comes to placing accurately simulated cloth onto their characters. The initial setup in Maya uses vertex colors to constrain cloth vertices. After exporting the cloth as a skin file, the cloth can then be set up directly in the Character Tool. To see how to set up the simulated cloth in Maya and see it in action in CRYENGINE, see the video below.
 
+[Embed: https://www.youtube.com/watch?v=Hq4zn6KK9Wk]
 **
 Animation: Constraints on Live Characters
 **
 
 This new feature allows users to place restraints such as ropes or shackles on characters that will physically and accurately affect their animations. The rigid body solver now recognizes rigid bodies that are part of an articulated structure and uses callbacks to calculate their contact matrices and apply impulses (based on spatial Featherstone algebra). If some constraints involve pure physical (simclass 2) objects, the character will be simulated in the same group as them. Otherwise, it'll use an isolated call to InvokeContactSolver.
 
-[Image: /docs/static/attachments/44962645]
+![Image](https://www.cryengine.com/docs/static/attachments/44962645)
 
 **
 Content: New C++ Starter Templates
@@ -142,19 +104,10 @@ Content: New C++ Starter Templates
 Additional templates that are beyond the venerable GameSDK have also been on many community members wish lists, so we are very pleased to announce that 5.2 includes 5 brand new C++ based templates for a variety of genres and camera perspectives. We have stripped out as much unnecessary code as is possible to give you a clean canvas that you can achieve your vision on, hence getting started will be fast and as easy as is possible.
 
 For each template that uses a character we have partnered with
-[http://www.mocaponline.com/](
-**
-M
-**
-**
-ocap Online
-**
-)
+[M ocap Online](http://www.mocaponline.com/)
  to provide their default character and a
 **
-[https://www.cryengine.com/marketplace/product/rifle-starter-mocap](
-rifle locomotion set
-)
+[rifle locomotion set](https://www.cryengine.com/marketplace/product/rifle-starter-mocap)
 **
 to get you up and running with a bare bones mannequin setup.
 
@@ -175,9 +128,9 @@ The Templates include:
 -
 Rolling Ball physics template
 
-[Image: /docs/static/attachments/44962630]
+![Image](https://www.cryengine.com/docs/static/attachments/44962630)
  |
-[Image: /docs/static/attachments/44962629]
+![Image](https://www.cryengine.com/docs/static/attachments/44962629)
  |
 
 As before, you will be able to select these templates during the new streamlined project creation flow (see ‘Core: Project Launcher Tools’ below). Please let us know what other templates you want to see released in future Engine updates!
@@ -189,16 +142,12 @@ Content: Documentation Overhaul
 While technically speaking not part of the actual 5.2 release, our Documentation Overhaul is nevertheless an important piece of the puzzle, and again something that is directly based on your feedback. We have made great progress in our on-going efforts to completely overhaul our Documentation to make it easier to find the information you need. This includes some detailed (and highly requested) starter documentation for our CE# framework. As it’s an ongoing effort we’d be grateful for any feedback regarding the new documentation.
 
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25536751](
-CE# UI System Tutorials
-)
+[CE# UI System Tutorials](/docs/static/engines/cryengine-5/categories/23756813/pages/25536751)
 
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25536731](
-CE# Managed Entities
-)
+[CE# Managed Entities](/docs/static/engines/cryengine-5/categories/23756813/pages/25536731)
 
 **
 
@@ -208,15 +157,13 @@ Core: Project Launcher Tools
 
 Continued development has resulted in an easy and central method for the Launcher and other external programs to call Engine operations. Users need no knowledge of how the operations are performed. See
 **
-[/docs](
-here
-)
+[here](/docs)
 **
  for more information.
 
-[Image: /docs/static/attachments/44962644]
+![Image](https://www.cryengine.com/docs/static/attachments/44962644)
  |
-[Image: /docs/static/attachments/44962643]
+![Image](https://www.cryengine.com/docs/static/attachments/44962643)
 
  |
 
@@ -237,7 +184,7 @@ Sandbox: Notification Center
 
 The new Notification Center is part of our ongoing efforts to make the Sandbox UI more comfortable and efficient for users. Here users will find all task lists, errors and warnings gathered in one central location as non-modal pop-up messages; this includes a history of previous messages. See the video below for more information.
 
-[Image: /docs/static/attachments/44962642]
+![Image](https://www.cryengine.com/docs/static/attachments/44962642)
 
 **
 Sandbox: Viewport Gizmos
@@ -245,7 +192,7 @@ Sandbox: Viewport Gizmos
 
 We have reworked the Viewport gizmos to make working with 3D objects in the Viewport more intuitive and with a design that is more in line with industry standards used in other 3D packages. The new implementation builds and enhances on the previous class structure for gizmos. Gizmos are now more independent from the object manager, allowing for more components to register and use gizmos in Viewports and they also have their own interaction routines.
 
-[Image: /docs/static/attachments/44962641]
+![Image](https://www.cryengine.com/docs/static/attachments/44962641)
 
 **
 Sandbox: Particle Editor
@@ -263,14 +210,14 @@ CRYENGINE 5.1
 CRYENGINE 5.2
  |
 
-[Image: /docs/static/attachments/44962640]
+![Image](https://www.cryengine.com/docs/static/attachments/44962640)
  |
-[Image: /docs/static/attachments/44962638]
+![Image](https://www.cryengine.com/docs/static/attachments/44962638)
  |
 
-[Image: /docs/static/attachments/44962637]
+![Image](https://www.cryengine.com/docs/static/attachments/44962637)
  |
-[Image: /docs/static/attachments/44962636]
+![Image](https://www.cryengine.com/docs/static/attachments/44962636)
  |
 
 **
@@ -279,9 +226,9 @@ Launcher: Simplified Project Creation and Management
 
 With the recent update to our CRYENGINE Launcher we have made the creation of new projects (using both C++ and C#) easier than ever. With just a few clicks you can quickly choose your preferred Engine version, framework and template (including all the new C++ templates). You will also notice that we have reworked the layout of the Launcher’s main page, moving the links to our other Crytek channels to the bottom and adding a button that will directly launch your game.exe from within the launcher.
 
-[Image: /docs/static/attachments/44962635]
+![Image](https://www.cryengine.com/docs/static/attachments/44962635)
  |
-[Image: /docs/static/attachments/44962634]
+![Image](https://www.cryengine.com/docs/static/attachments/44962634)
  |
 
 **
@@ -290,7 +237,7 @@ Launcher: Reporting Tool
 
 We have also added a new Reporting Tool that allows users to more comfortably report issues they run into. Users can also decide to automatically attach all required logs and dump files to their report – this allows us to more accurately determine the cause of their problems.
 
-[Image: /docs/static/attachments/44962633]
+![Image](https://www.cryengine.com/docs/static/attachments/44962633)
 
 **
 Rendering: Extended Analytical Occluders Support for SVOGI -BETA
@@ -298,7 +245,7 @@ Rendering: Extended Analytical Occluders Support for SVOGI -BETA
 
 5.2 brings further improvements to our popular SVOGI feature (as seen in games such as KINGDOM COME: Deliverance, MISCREATED and WOLCEN: Lords of Mayhem). For this release we have greatly extended the usage of analytical occluders, which can lead to major improvements to the quality and resolution of indirect shadows while avoiding some of the common problems of working with voxel-based global illumination.
 
-[Image: /docs/static/attachments/44962632]
+![Image](https://www.cryengine.com/docs/static/attachments/44962632)
 
 **
 Rendering: Detailed Screen Space Shadows (DSSS)
@@ -306,7 +253,7 @@ Rendering: Detailed Screen Space Shadows (DSSS)
 
 Detailed screen space shadows have actually been part of the Engine in previous releases, but 5.2 marks its official release as a fully documented and supported feature. DSSS works in conjunction with regular shadow maps to prevent common problems such as shadow bias and low resolution. This is especially common with character’s faces, where DSSS allows a more performance-efficient way to handle such issues.
 
-[Image: /docs/static/attachments/44962631]
+![Image](https://www.cryengine.com/docs/static/attachments/44962631)
 
 As always please leave us your feedback in the
 **
@@ -977,9 +924,7 @@ Note:
 **
  This change requires a restructured Wwise SDK in the form of the original Wwise SDK structure. See
 **
-[/docs](
-Important CRYENGINE 5.2 Data and Code Changes
-)
+[Important CRYENGINE 5.2 Data and Code Changes](/docs)
 **
  for more detailed info.
 

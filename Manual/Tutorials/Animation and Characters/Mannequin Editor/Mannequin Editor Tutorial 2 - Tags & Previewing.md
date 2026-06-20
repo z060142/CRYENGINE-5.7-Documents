@@ -13,14 +13,12 @@ Overview
 This tutorial will guide you through adding tags to fragments and how to preview a sequence. It uses samples that are part of the SDK. Feel free to follow along with the step by step instructions.
 
 Before doing this tutorial you should know how to open the editor, how to load a preview setup and what fragments and fragmentIDs are. For a tutorial on this see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308483](
-Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving
-)
+[Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving](Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md)
 .
 
 The tutorial will use a lot of pictures and a simple color code to distinguish areas to interact with and areas to look at:
 
-[Image: /docs/static/attachments/23998441]
+![Image](https://www.cryengine.com/docs/static/attachments/23998441)
 
 ##
 Tags
@@ -33,26 +31,20 @@ Load the preview file for the second tutorial called
 "sdk_tutorial2preview.xml"
 **
 . See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308484#MannequinEditorTutorial2-Tags&Previewing-LoadingPreviewFile](
-Loading the Preview File
-)
+[Loading the Preview File](Mannequin%20Editor%20Tutorial%202%20-%20Tags%20%26%20Previewing.md#MannequinEditorTutorial2-Tags%26Previewing-LoadingPreviewFile)
  (but this time the file is called "sdk_tutorial2preview.xml").
 
 If the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308484#MannequinEditorTutorial2-Tags&Previewing-FileManager](
-file manager
-)
+[file manager](Mannequin%20Editor%20Tutorial%202%20-%20Tags%20%26%20Previewing.md#MannequinEditorTutorial2-Tags%26Previewing-FileManager)
  pops up you can press "Undo Changes to Selected Files" to ignore your previous changes.
 
 You will notice that this time we create 2 fragments (one under the FragmentID "Idle" and one under the FragmentID "Move").
 
-[Image: /docs/static/attachments/23998469]
+![Image](https://www.cryengine.com/docs/static/attachments/23998469)
 
 The bit under the fragment browser displays something new: you can now assign what are called
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-Tags
-)
+[Tags](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Tags%20%26%20Tag%20Definitions.md)
 *
  to the fragments. What does this mean? In the previous tutorial we just made a couple of variations for a FragmentID. When the game requests that FragmentID ("Idle" in our example), fragments are basically chosen
 randomly
@@ -60,7 +52,7 @@ from those variations. Now we can start adding "tags" to the fragment to limit t
 
 Let's try this last example now. Currently the fragment inside "Idle" has an animation where the character is standing. Let's make a variation that is kneeling. The simplest way to do this is by first copying the old fragment using right-mouse-button drag-and-drop:
 
-[Image: /docs/static/attachments/23998448]
+![Image](https://www.cryengine.com/docs/static/attachments/23998448)
 
 Next we modify the animation in this fragment to point to the kneel_tac_idle_01 animation:
 
@@ -83,7 +75,7 @@ Find the animation in the kneel section.
 
 -
 Select the animation into the clip by double-clicking.
-[Image: /docs/static/attachments/23998442]
+![Image](https://www.cryengine.com/docs/static/attachments/23998442)
 
 Now we tag this fragment with the tag "kneeling".
 
@@ -91,11 +83,11 @@ Again, make sure you have the fragment in boldface.
 
 Next select "kneeling" from the "stance" combobox:
 
-[Image: /docs/static/attachments/23998466]
+![Image](https://www.cryengine.com/docs/static/attachments/23998466)
 
 Note how this change affects the fragment browser. What used to be "option 2" in the "default" section now became "option 1" in the "kneeling" section.
 
-[Image: /docs/static/attachments/23998465]
+![Image](https://www.cryengine.com/docs/static/attachments/23998465)
 
 Now whenever the game requests "Idle" with tag "kneeling", it will get the new fragment. But if the game requests "Idle" with tag "standing" instead, it will take the default option.
 
@@ -112,17 +104,17 @@ can
 *
  be both "kneeling" and "tired". Let's see what happens when we do that, let's also select "tired":
 
-[Image: /docs/static/attachments/23998467]
+![Image](https://www.cryengine.com/docs/static/attachments/23998467)
 
 And this is how this shows up in the fragment browser:
 
-[Image: /docs/static/attachments/23998468]
+![Image](https://www.cryengine.com/docs/static/attachments/23998468)
 
 Our fragment now became an option within "tired", and that sits within "kneeling" (this gives you a hint that "kneeling" is in some sense more important than "tired", which is the case, "kneeling" has higher priority than "tired" in this setup).
 
 If you find the folders for the tags confusing and you just want to see the whole list of fragments you can use the "Sub Folders" checkbox:
 
-[Image: /docs/static/attachments/23998470]
+![Image](https://www.cryengine.com/docs/static/attachments/23998470)
 
 Note how our fragment with the tags "kneeling" and "tired" now shows up as "kneeling+tired".
 
@@ -143,13 +135,11 @@ Editing Tag Definitions
 
 Though we will not explain this in this tutorial, you can edit the tags in the
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308456](
-Tag Definition Editor
-)
+[Tag Definition Editor](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Tag%20Definition%20Editor.md)
 *
  which can be found in the File menu:
 
-[Image: /docs/static/attachments/23998451]
+![Image](https://www.cryengine.com/docs/static/attachments/23998451)
 
 ##
 Previewing Sequences
@@ -158,9 +148,7 @@ Previewing Sequences
 What are Preview Sequences
 
 Up until now we just worked on little 'fragments' of your game's animation (literally). These will be sequenced together by the game code, but the CryMannequin editor also provides a way to preview how this sequencing would look even without running the game. Actually the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308476](
-preview sequences
-)
+[preview sequences](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Files/Sequence%20File%20(xml).md)
  or are not used in the game at all! This is useful for all kinds of things:
 
 -
@@ -171,30 +159,24 @@ Analyzing Bugs: You can record a real sequence from the game and load it up in t
 
 -
 Testing: Setting up little test scenarios and reloading them later on to see if they still work. You can also preview which transitions the system will pick (see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308485](
-next tutorial
-)
+[next tutorial](Mannequin%20Editor%20Tutorial%203%20-%20Transitions.md)
 )
 
 ##
 Creating a preview sequence
 
 To try out and preview how your fragments will look in the game the editor has the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502](
-Previewer
-)
+[Previewer](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor.md)
 . You can find this one as a tab on the right side of the CryMannequin editor, please select it:
 
-[Image: /docs/static/attachments/23998450]
+![Image](https://www.cryengine.com/docs/static/attachments/23998450)
 
 This is how it will look:
 
-[Image: /docs/static/attachments/23998459]
+![Image](https://www.cryengine.com/docs/static/attachments/23998459)
 
 Note that it looks quite similar to the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011394](
-Mannequin Fragment Editor
-)
+[Mannequin Fragment Editor](/docs/static/engines/cryengine-3/categories/1114113/pages/15011394)
  we worked in before. But there are a couple of details that give it away (apart from the tab at the bottom that says "Previewer").
 
 Instead of the name of the fragment on a colored background it now simply says "Preview" and instead of having animation & procedural layers we now have a track labeled "FragmentID".
@@ -208,11 +190,11 @@ Drag the default "Idle" fragment onto the beginning of the FragmentID track.
 
 -
 Drag the default "Move" fragment a bit further on the FragmentID track.
-[Image: /docs/static/attachments/23998460]
+![Image](https://www.cryengine.com/docs/static/attachments/23998460)
 
 A lot happened automatically while you were dragging, let's explain what happened:
 
-[Image: /docs/static/attachments/23998461]
+![Image](https://www.cryengine.com/docs/static/attachments/23998461)
 
 -
 You added "Idle" and "Move" on the FragmentID track. This mimics what the game does to play animation: it just requests "Idle" and then "Move". The previewer mimics the selection process, and as we are not requesting any specific tags (we'll do that later) it just picks the default fragments for both FragmentIDs.
@@ -232,7 +214,7 @@ TagState
  track. What they mean should become clear in the next step...
 Now let's drag the special fragment that has both kneeling and tired tags onto the track too:
 
-[Image: /docs/static/attachments/23998462]
+![Image](https://www.cryengine.com/docs/static/attachments/23998462)
 
 The fragment appears, and notice:
 
@@ -241,14 +223,14 @@ The fragment is now labeled "kneeling+tired - 0", as we would expect.
 
 -
 The TagState track now contains a key that is labeled "kneeling+tired". This mimics the fact that the game has to somehow request those tags too, along with the FragmentID.
-[Image: /docs/static/attachments/23998463]
+![Image](https://www.cryengine.com/docs/static/attachments/23998463)
 
 ##
 Option Index
 
 If you select a fragmentID key you can change the option index (OptionIdx) in case you want to select a different option:
 
-[Image: /docs/static/attachments/23998457]
+![Image](https://www.cryengine.com/docs/static/attachments/23998457)
 
 Here we have OptionIdx = 1, so the first option is selected.
 
@@ -257,18 +239,14 @@ If you set OptionIdx = 0 the system will pick an option randomly and the Fragmen
 If you use an option index which is higher than the number of options it is divided by the number of options and the remainder determines the actual option. For example if you have 3 options and you set OptionIdx=5, option 2 gets chosen.
 
 In case you are wondering, we'll talk about the "trump previous fragment" option in a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308484#MannequinEditorTutorial2-Tags&Previewing-Trumping](
-later section
-)
+[later section](Mannequin%20Editor%20Tutorial%202%20-%20Tags%20%26%20Previewing.md#MannequinEditorTutorial2-Tags%26Previewing-Trumping)
 .
 
 ##
 TagState Keys
 
 Let's play a bit with this
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-TagState
-)
+[TagState](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20TagState.md)
  to get a feeling of how it works.
 
 -
@@ -276,7 +254,7 @@ Select this key .
 
 -
 Toggle the "tired" tag off.
-[Image: /docs/static/attachments/23998443]
+![Image](https://www.cryengine.com/docs/static/attachments/23998443)
 
 The result is:
 
@@ -285,15 +263,15 @@ The key is now called simply "kneeling" (that is the only tag that is still set 
 
 -
 The fragment that is selected is now the default one again, "<default> - 0". This fragment now is the 'best match' for the game's request.
-[Image: /docs/static/attachments/23998444]
+![Image](https://www.cryengine.com/docs/static/attachments/23998444)
 
 Let's play some more. Turn the "tired" tag back on inside that key:
 
-[Image: /docs/static/attachments/23998443]
+![Image](https://www.cryengine.com/docs/static/attachments/23998443)
 
 Move the key a bit to the right:
 
-[Image: /docs/static/attachments/23998445]
+![Image](https://www.cryengine.com/docs/static/attachments/23998445)
 
 This simulates a situation in which the game requests those tags ("kneeling+tired")
 *
@@ -301,7 +279,7 @@ after
 *
  requesting the FragmentID "Idle". This means that at the moment "Idle" is requested the tags are not set, and the default fragment will be chosen:
 
-[Image: /docs/static/attachments/23998446]
+![Image](https://www.cryengine.com/docs/static/attachments/23998446)
 
 It is very important to keep this in mind when you start dragging the keys around on the FragmentID or TagState track. The order in which requests come into the system has an influence on which fragments get selected eventually. For example if you want to move a certain fragment around, you need to select both the FragmentID and the TagState key above it (to select both at the same time you can use regular multi-selection: drag a box around both with the left mouse button or use CTRL+left mouse click to select more objects while keeping the old ones selected).
 
@@ -309,7 +287,7 @@ This is not part of the tutorial, but instead of using drag-and-drop you can als
 
 You can delete keys by pressing DEL (or picking "Delete" from the right-click menu) while the key is selected. Delete both the TagState key we were playing with and the corresponding FragmentID:
 
-[Image: /docs/static/attachments/23998447]
+![Image](https://www.cryengine.com/docs/static/attachments/23998447)
 
 ##
 Undocking the Previewer
@@ -318,14 +296,14 @@ If you want you can pull out the Previewer from the mannequin editor and put it 
 
 You can also dock the previewer somewhere else if you want to. For example here is the Previewer alongside the Fragment Editor:
 
-[Image: /docs/static/attachments/23998449]
+![Image](https://www.cryengine.com/docs/static/attachments/23998449)
 
 ##
 Saving & Loading Preview Sequences
 
 You can save the sequence we just set up using the "Previewer/Save Sequence..." menu item. Give it a nice name and save it, for example name it "my test sequence".
 
-[Image: /docs/static/attachments/23998464]
+![Image](https://www.cryengine.com/docs/static/attachments/23998464)
 
 To load a sequence you can use the "Previewer/Load Sequence..." menu item or even easier: just open it from the Sequences tab on the left side.
 
@@ -337,7 +315,7 @@ Double-click the folder icon to open the folder (the sequence you saved before s
 
 -
 Double-click your sequence to load it (or select it and press the Open button below).
-[Image: /docs/static/attachments/23998455]
+![Image](https://www.cryengine.com/docs/static/attachments/23998455)
 
 ##
 Preview Filter Tags
@@ -356,16 +334,12 @@ Preview Filter Tags
 
 -
 These are the tags associated with the Fragment we are currently editing (the boldface fragment in the Fragment Browser). See the section on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308484#MannequinEditorTutorial2-Tags&Previewing-AssigningTagsToFragments](
-Assigning Tags to Fragments
-)
+[Assigning Tags to Fragments](Mannequin%20Editor%20Tutorial%202%20-%20Tags%20%26%20Previewing.md#MannequinEditorTutorial2-Tags%26Previewing-AssigningTagsToFragments)
 .
 
 -
 These are the tags set in a TagState key which we put on the TagState track in the Previewer. See the section on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308484#MannequinEditorTutorial2-Tags&Previewing-TagStateKeys](
-TagState Keys
-)
+[TagState Keys](Mannequin%20Editor%20Tutorial%202%20-%20Tags%20%26%20Previewing.md#MannequinEditorTutorial2-Tags%26Previewing-TagStateKeys)
 .
 
 -
@@ -374,11 +348,11 @@ These are the
 Preview Filter Tags
 *
 .
-[Image: /docs/static/attachments/23998452]
+![Image](https://www.cryengine.com/docs/static/attachments/23998452)
 
 Let's play with it. Let's select both "kneeling" and "tired" in it:
 
-[Image: /docs/static/attachments/23998453]
+![Image](https://www.cryengine.com/docs/static/attachments/23998453)
 
 Now note how this change in the default tagstate
 *
@@ -391,7 +365,7 @@ Even though the first TagState key is set up to be empty, it is labeled "{}"...
 
 -
 ...the kneeling+tired fragment gets selected.
-[Image: /docs/static/attachments/23998454]
+![Image](https://www.cryengine.com/docs/static/attachments/23998454)
 
 What we did now is add "kneeling" and "tired" to the Preview Filter Tags. These work as a default for the TagState. So the tags that are set by default for the whole sequence are "kneeling" and "tired".
 
@@ -406,16 +380,14 @@ Params Track
 
 Work in progress
 The game can set certain '
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-parameters
-)
+[parameters](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Parameters%20Conditions.md)
 ' that get picked up by the clips. By adding keys on the params track you can control these parameters in the previewer.
 
 Parameters have names (eg. 'TargetPos'). Which parameters and how they are used depends on the specific clips.
 
 For example a 'positioning' clip takes a parameter that is a location&orientation in space to slide towards.
 
-[Image: /docs/static/attachments/23998458]
+![Image](https://www.cryengine.com/docs/static/attachments/23998458)
 
 Fill in the name needed by the procedural clip or game. For the procedural alignment clips (all the PositionAdjustXXX clips) this parameter name
 *
@@ -432,7 +404,7 @@ New Sequence
 
 If you would like to clear a sequence you can use the "New Sequence..." menu item:
 
-[Image: /docs/static/attachments/23998456]
+![Image](https://www.cryengine.com/docs/static/attachments/23998456)
 
 ##
 Trumping
@@ -455,7 +427,7 @@ Just in case: Double check the fragmentID...
 
 -
 Select the first animation clip and uncheck the Looping setting.
-[Image: /docs/static/attachments/23998471]
+![Image](https://www.cryengine.com/docs/static/attachments/23998471)
 
 Now go back to the previewer and look at a simple sequence (if you lost your sequence just drag the "Idle (Kneeling+Tired)" and "Moving" fragments into the previewer again as before.
 
@@ -465,7 +437,7 @@ delayed
 *
 !
 
-[Image: /docs/static/attachments/23998472]
+![Image](https://www.cryengine.com/docs/static/attachments/23998472)
 
 This means that the new animation only starts after the previous one has ended. This is the default behavior for non-looping fragments. Up til now we didn't set up sequences with non-looping fragments so it simply didn't show up yet.
 
@@ -476,11 +448,11 @@ Selecting the Move fragmentID key.
 
 -
 Checking the "Trump Previous Fragment" option.
-[Image: /docs/static/attachments/23998473]
+![Image](https://www.cryengine.com/docs/static/attachments/23998473)
 
 The result is the following, where the animation starts immediately:
 
-[Image: /docs/static/attachments/23998474]
+![Image](https://www.cryengine.com/docs/static/attachments/23998474)
 
 This concludes this tutorial.
 
@@ -488,27 +460,15 @@ This concludes this tutorial.
 Where to Go Next
 
 You can continue with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308485](
-Mannequin Editor Tutorial 3 - Transitions
-)
+[Mannequin Editor Tutorial 3 - Transitions](Mannequin%20Editor%20Tutorial%203%20-%20Transitions.md)
 .
 
 Or you can review the concepts we touched:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308456](
-Mannequin Tag Definition Editor
-)
+[Mannequin Tag Definition Editor](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Tag%20Definition%20Editor.md)
 ,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308476](
-Sequence File (xml)
-)
+[Sequence File (xml)](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Files/Sequence%20File%20(xml).md)
 , etc.
 
-[#tags](
-Tags
-)
-[#previewing-sequences](
-Previewing Sequences
-)
-[#where-to-go-next](
-Where to Go Next
-)
+[Tags](#tags)
+[Previewing Sequences](#previewing-sequences)
+[Where to Go Next](#where-to-go-next)

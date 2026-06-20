@@ -12,7 +12,7 @@ Overview
 
 This feature creates a soft transition between terrain materials and objects (e.g. rocks or tree trunks), which makes for a much more natural look. It hides the artificial looking hard edge between objects and the terrain.
 
-[Image: /docs/static/attachments/36309128]
+![Image](https://www.cryengine.com/docs/static/attachments/36309128)
 
 ##
 Implementation

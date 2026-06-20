@@ -11,9 +11,7 @@
 Component Interface
 
 In Sandbox, adding an AI
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966037](
-Behavior Tree Component
-)
+[Behavior Tree Component](../../../Manual/Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6)/AI%20Components.md)
  to an Entity gives it the ability to run AI behaviors by specifying which Behavior Tree must be used. In addition, extra functionality is provided to the Entity in C++ through the Behavior Tree Component Interface, called
 *
 IEntityBehaviorTreeComponent,
@@ -39,9 +37,7 @@ void SendEvent(const char* szEventName);
 IEntityBehaviorTreeComponent
 *
 also allows values to be read from and written to the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/44958325](
-Blackboard
-)
+[Blackboard](Behavior%20Tree%20Blackboard.md)
 .
 
 ```

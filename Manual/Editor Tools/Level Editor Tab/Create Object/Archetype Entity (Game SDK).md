@@ -8,9 +8,7 @@
 ## Content
 
 This entity is GameSDK Sample Project specific and can only be accessed to if the project is downloaded from the
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
  and installed into the Engine folder.
 
 ##
@@ -19,9 +17,7 @@ Overview
 An Archetype Entity is based on a regular Entity and specifies individual parameter values for that Entity. If the value of an Archetype parameter is changed, all instances of that Archetype in the scene will be updated automatically.
 
 Archetype Entities are organized in libraries which can be created in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869094](
-DataBase View
-)
+[DataBase View](../../DataBase%20View.md)
 .
 
 So technical level designers can predefine variations of Entity classes as Archetype Entities that can be used throughout the whole game. For global changes affecting all instances, the Archetype Entity just needs to be changed once in the Database View.
@@ -31,7 +27,7 @@ Search Bar
 
 In the Search bar at the top, you can filter out any Archetype Entities by typing part of their name. The tool will then show you only the Archetype Entities and the groups they are in.
 
-[Image: /docs/static/attachments/53543116]
+![Image](https://www.cryengine.com/docs/static/attachments/53543116)
 
 ##
 Preview
@@ -40,14 +36,14 @@ The button next to the Search bar toggles the preview of the Archetype Entity yo
 
 As shown in the image below, clicking Open will bring up the Legacy Material Editor where you can modify the parameters as well as the material properties of the archetype entity.
 
-[Image: /docs/static/attachments/53543113]
+![Image](https://www.cryengine.com/docs/static/attachments/53543113)
 
 ##
 Archetype Entity Parameters
 
 Archetype Entity Parameters are a basic set of parameters shared by all Archetype Entities.
 
-[Image: /docs/static/attachments/53543112]
+![Image](https://www.cryengine.com/docs/static/attachments/53543112)
 
 **
 Parameter
@@ -83,9 +79,7 @@ Dynamic Distance Shadows
 **
  |
 Enables the Dynamic Distance Shadows. For more information, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215322](
-Cached Shadows
-)
+[Cached Shadows](../../../Profiling%20%26%20Optimization/Optimization%20Overview/Cached%20Shadows.md)
 .
  |
 
@@ -150,12 +144,6 @@ When this option is set, decals will not project onto the object.
 
  |
 
-[#search-bar](
-Search Bar
-)
-[#preview](
-Preview
-)
-[#archetype-entity-parameters](
-Archetype Entity Parameters
-)
+[Search Bar](#search-bar)
+[Preview](#preview)
+[Archetype Entity Parameters](#archetype-entity-parameters)

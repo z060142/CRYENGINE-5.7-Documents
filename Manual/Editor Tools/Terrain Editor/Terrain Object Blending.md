@@ -7,14 +7,14 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933263]
+![Image](https://www.cryengine.com/docs/static/attachments/29933263)
 
 ##
 Overview
 
 In CRYENGINE you can mark entities with a Mesh component to become a part of the terrain mesh. This dramatically extends the possibilities of current terrain editing tools, and thus allows for a much higher level of realism, overhanging materials and therefore much greater levels of flexibility.
 
-[Image: /docs/static/attachments/36308969]
+![Image](https://www.cryengine.com/docs/static/attachments/36308969)
 
 The object meshes can be copied
  into the heightmap mesh
@@ -36,7 +36,7 @@ section of the
 **
 .
 
-[Image: /docs/static/attachments/36308970]
+![Image](https://www.cryengine.com/docs/static/attachments/36308970)
 
 Now go to the
 **
@@ -50,7 +50,7 @@ Integrate into Terrain
 **
 .
 
-[Image: /docs/static/attachments/36308971]
+![Image](https://www.cryengine.com/docs/static/attachments/36308971)
 
 ##
 Console Variables

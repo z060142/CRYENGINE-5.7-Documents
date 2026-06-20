@@ -137,9 +137,7 @@ geom_colltype
 `
 
 In situations when it is known that collision checks are one-sided (i.e. entity A can check collisions against entity B but never vice versa), it is ok to not maintain this rule. Some flags are reserved for special collision groups, such as geom_colltype1 is equal to geom_colltype_players and geom_colltype2 is equal to geom_colltype_explosion (i.e. whenever explosion pressure is calculated, only parts with this flag are considered). There are also special flags for ray-tracing and buoyancy calculations, geom_colltype_ray and geom_floats respectively (it is possible however to specify different flags to be used for raytraycing).
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306413](
-Collision Classes
-)
+[Collision Classes](Collision%20Classes.md)
  are an additional way of filtering interactions between entities.
 
 -

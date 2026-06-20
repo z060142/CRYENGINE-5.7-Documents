@@ -38,7 +38,7 @@ To add the toolbar, right click on an empty space in the UI to bring up the tool
 
 View using predefined variation 512. Range = 512
 
-[Image: /docs/static/attachments/44109210]
+![Image](https://www.cryengine.com/docs/static/attachments/44109210)
 
 ##
 How it Works
@@ -56,21 +56,21 @@ r_TexelsPerMeter = 512,
 **
 : Far left = Zero, far right = 512.
 
-[Image: /docs/static/attachments/44109212]
+![Image](https://www.cryengine.com/docs/static/attachments/44109212)
 
 **
 512
 **
 : Far left = Zero, far right = 1024.
 
-[Image: /docs/static/attachments/44109213]
+![Image](https://www.cryengine.com/docs/static/attachments/44109213)
 
 **
 1024
 **
 : Far left = Zero, far right = 2048.
 
-[Image: /docs/static/attachments/44109214]
+![Image](https://www.cryengine.com/docs/static/attachments/44109214)
 
 As we have selected 512 as our value, (middle screen shot above) then assets that meet the requirement will be shaded in green.
 
@@ -84,7 +84,7 @@ Anything that has a higher Texel Density than 512 will shade from yellow -> oran
 Anything that is green is just right
 To help visualize the colors and mapping of the UV's a checkerboard texture is also applied - this also scales to the stretching of the mapping and the higher the density, then the tighter the checkerboard becomes. Notice the high frequency checkerboard in the red area vs the low frequency checkerboard in dark blue area.
 
-[Image: /docs/static/attachments/44109215]
+![Image](https://www.cryengine.com/docs/static/attachments/44109215)
 
 ##
 Not all Assets are Created Equal
@@ -109,18 +109,18 @@ World:
 **
  The further back geometry is from the play area, then the Texel Density requirement becomes less = (Dark Blue). This is shown in the screen shots below by the buildings and trees.  However, the Roman Standard (it was classed as an important asset) has a high Texel Density and is colored Red. Some cloth assets and barrels are in the range of yellow to orange, these are close to the play area and therefore required more detail and thus have a higher Texel Density.
 
-[Image: /docs/static/attachments/44109216]
+![Image](https://www.cryengine.com/docs/static/attachments/44109216)
 
-[Image: /docs/static/attachments/44109217]
+![Image](https://www.cryengine.com/docs/static/attachments/44109217)
 
 **
 Characters:
 **
  Texel budget spent on the Roman Soldier vs the generic Civilian. Notice how the shield didn't require as much detail as the Roman armor.
 
-[Image: /docs/static/attachments/44109218]
+![Image](https://www.cryengine.com/docs/static/attachments/44109218)
 
-[Image: /docs/static/attachments/44109220]
+![Image](https://www.cryengine.com/docs/static/attachments/44109220)
 
 ##
 Scaling
@@ -135,7 +135,7 @@ Scale Tool
 Example:
 **
 
-[Image: /docs/static/attachments/44109221]
+![Image](https://www.cryengine.com/docs/static/attachments/44109221)
 
 In the center of the screen shot above is a 1x1x1 m cube. The cube has the correct UV map setting i.e. using 512 Texels per Meter and is therefore displayed in green.
 
@@ -170,18 +170,8 @@ to 1024 will show all the surfaces mapped with a 1024 Texel Density as green and
 
 Equally, the 256 button is provided for targeting a lower end platform, where the raw horse power isn't there to shove all the pixels around. Hence, you can use the same Debug View to target this range of detail. Also, this helps to investigate the background (not so important) assets where if the range is pushed down to 256, then you have a wider color variation to investigate with.
 
-[#enabling-the-debug-mode](
-Enabling the Debug Mode
-)
-[#how-it-works](
-How it Works
-)
-[#not-all-assets-are-created-equal](
-Not all Assets are Created Equal
-)
-[#scaling](
-Scaling
-)
-[#why-give-me-3-buttons-256-512-and-1024-if-512-is-the-desired-setting](
-Why Give me 3 Buttons (256, 512 & 1024), if 512 is the Desired Setting?
-)
+[Enabling the Debug Mode](#enabling-the-debug-mode)
+[How it Works](#how-it-works)
+[Not all Assets are Created Equal](#not-all-assets-are-created-equal)
+[Scaling](#scaling)
+[Why Give me 3 Buttons (256, 512 & 1024), if 512 is the Desired Setting?](#why-give-me-3-buttons-256-512-and-1024-if-512-is-the-desired-setting)

@@ -20,13 +20,9 @@ category:
 Time
 
 This feature sets the lifetime of a new born particle. It functions similarly to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868265](
-Field
-)
+[Field](Field.md)
 feature, this feature is specifically designed to be used with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
  for further control on how particles should spawn and die.
 
 Property
@@ -59,9 +55,5 @@ GPU Support
 
 The Time category is supported in the GPU Pipeline, although currently there is no support for modifiers on the Life: Time feature.
 
-[#time](
-Time
-)
-[#gpu-support](
-GPU Support
-)
+[Time](#time)
+[GPU Support](#gpu-support)

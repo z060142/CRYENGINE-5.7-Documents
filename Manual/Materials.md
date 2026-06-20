@@ -6,23 +6,17 @@
 
 ## Child Pages
 
-- [Material Effects](Materials/Material Effects.md)
-- [Material Relative Pathing](Materials/Material Relative Pathing.md)
-- [Terrain Layer Blending into Objects](Materials/Terrain Layer Blending into Objects.md)
+- [Material Effects](Materials/Material%20Effects.md)
+- [Material Relative Pathing](Materials/Material%20Relative%20Pathing.md)
+- [Terrain Layer Blending into Objects](Materials/Terrain%20Layer%20Blending%20into%20Objects.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29799264](
-Material Relative Pathing
-)
+[Material Relative Pathing](Materials/Material%20Relative%20Pathing.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36340007](
-Terrain Layer Blending into Objects
-)
+[Terrain Layer Blending into Objects](Materials/Terrain%20Layer%20Blending%20into%20Objects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448756](
-Material Effects
-)
+[Material Effects](Materials/Material%20Effects.md)

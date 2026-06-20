@@ -7,14 +7,14 @@
 
 ## Child Pages
 
-- [ScriptBind_AI](CRYENGINE Functions/ScriptBind_AI.md)
-- [ScriptBind_Entity](CRYENGINE Functions/ScriptBind_Entity.md)
-- [ScriptBind_Movie](CRYENGINE Functions/ScriptBind_Movie.md)
-- [ScriptBind_Particle](CRYENGINE Functions/ScriptBind_Particle.md)
-- [ScriptBind_Physics](CRYENGINE Functions/ScriptBind_Physics.md)
-- [ScriptBind_Script](CRYENGINE Functions/ScriptBind_Script.md)
-- [ScriptBind_Sound](CRYENGINE Functions/ScriptBind_Sound.md)
-- [ScriptBind_System](CRYENGINE Functions/ScriptBind_System.md)
+- [ScriptBind_AI](CRYENGINE%20Functions/ScriptBind_AI.md)
+- [ScriptBind_Entity](CRYENGINE%20Functions/ScriptBind_Entity.md)
+- [ScriptBind_Movie](CRYENGINE%20Functions/ScriptBind_Movie.md)
+- [ScriptBind_Particle](CRYENGINE%20Functions/ScriptBind_Particle.md)
+- [ScriptBind_Physics](CRYENGINE%20Functions/ScriptBind_Physics.md)
+- [ScriptBind_Script](CRYENGINE%20Functions/ScriptBind_Script.md)
+- [ScriptBind_Sound](CRYENGINE%20Functions/ScriptBind_Sound.md)
+- [ScriptBind_System](CRYENGINE%20Functions/ScriptBind_System.md)
 
 ## Content
 
@@ -22,41 +22,25 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306598](
-ScriptBind_AI
-)
+[ScriptBind_AI](CRYENGINE%20Functions/ScriptBind_AI.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306601](
-ScriptBind_Entity
-)
+[ScriptBind_Entity](CRYENGINE%20Functions/ScriptBind_Entity.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306600](
-ScriptBind_Movie
-)
+[ScriptBind_Movie](CRYENGINE%20Functions/ScriptBind_Movie.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306602](
-ScriptBind_Particle
-)
+[ScriptBind_Particle](CRYENGINE%20Functions/ScriptBind_Particle.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306603](
-ScriptBind_Physics
-)
+[ScriptBind_Physics](CRYENGINE%20Functions/ScriptBind_Physics.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306604](
-ScriptBind_Script
-)
+[ScriptBind_Script](CRYENGINE%20Functions/ScriptBind_Script.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306599](
-ScriptBind_Sound
-)
+[ScriptBind_Sound](CRYENGINE%20Functions/ScriptBind_Sound.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306605](
-ScriptBind_System
-)
+[ScriptBind_System](CRYENGINE%20Functions/ScriptBind_System.md)

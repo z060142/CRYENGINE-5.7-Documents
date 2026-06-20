@@ -16,9 +16,7 @@ Vehicles are special geometry objects, which are driven by scripts, which also d
 Sample Files
 
 -
-[/docs/static/attachments/1441795](
-HMMWV.rar
-)
+[HMMWV.rar](/docs/static/attachments/1441795)
 
 ##
 General Setup
@@ -93,9 +91,7 @@ You must use Crytek shader in the max files to set up the material file for expo
 
 -
 In the 3d application, the proxy material must have "Physicalize" turned on and the Value set to "Physical Proxy (NoDraw)". For further information, please see:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308590](
-Creating Material Files
-)
+[Creating Material Files](../../Tutorials/Game%20and%20Level%20Design/Materials%20Tutorials/Tutorial%20-%20Creating%20Material%20Files.md)
 .
 
 -
@@ -129,9 +125,7 @@ LODs
 
 -
 For general information refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215356](
-Creating LODs
-)
+[Creating LODs](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/LODs.md)
  page, for specialties in vehicle creation, please see below.
 
 -
@@ -158,9 +152,7 @@ debris
 *
 _" suffix. (hull -> hull_debris_1, hull_debris_2, etc...) These will spawn and fly away from the blast when the vehicle explodes.
 It happens only when the SpawnDebris damage behavior is set on a vehicle. Please refer to the Sandbox
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26214869](
-Vehicle Editor
-)
+[Vehicle Editor](../../Editor%20Tools/Deprecated%20Tab/Vehicle%20Editor.md)
  guide for this.
 
 -
@@ -221,9 +213,7 @@ Drag and drop the item from the entity section in the RollupBar or the Entity Li
 -
 If no script is available, drag and drop the asset from the Geom Entity section in the RollupBar into the level.
 Please refer to the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048909](
-Vehicle Editor
-)
+[Vehicle Editor](/docs/static/engines/cryengine-3/categories/1114113/pages/1048909)
  section for information on the vehicle editor.
 
 ##
@@ -296,18 +286,8 @@ Shows the specified LOD number as LOD0 - very handy for debugging LOD's in the e
 
  |
 
-[#sample-files](
-Sample Files
-)
-[#general-setup](
-General Setup
-)
-[#export-options](
-Export Options
-)
-[#setup-in-sandbox](
-Setup in Sandbox
-)
-[#debugging](
-Debugging
-)
+[Sample Files](#sample-files)
+[General Setup](#general-setup)
+[Export Options](#export-options)
+[Setup in Sandbox](#setup-in-sandbox)
+[Debugging](#debugging)

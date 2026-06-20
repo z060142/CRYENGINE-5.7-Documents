@@ -24,9 +24,7 @@ Legacy Entities → AI → Characters → Human
 AITerritory
 
 Used with AIWave entity to create and control enemy waves for combat, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535416](
-AI Territories and Waves
-)
+[AI Territories and Waves](../../../../AI%20and%20Navigation/AI%20Overview/AI%20(NPC)/AI%20Territories%20%26%20Waves.md)
  for more information.
 
 Property
@@ -85,9 +83,7 @@ By pressing this button, all assigned AIs will be selected, the Territory itself
 AIWave
 
 Used with AITerritory entity to create and control enemy waves for combat, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535416](
-AI Territories and Waves
-)
+[AI Territories and Waves](../../../../AI%20and%20Navigation/AI%20Overview/AI%20(NPC)/AI%20Territories%20%26%20Waves.md)
  for more information.
 
 Property
@@ -129,9 +125,7 @@ Placeholder for a player.
 Flyer
 
 Flyer is a simple flying entity, which can serve as a starting point for more sophisticated flying entities. Details on
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605737](
-How to Create a Simple Flying Entity
-)
+[How to Create a Simple Flying Entity](/docs/static/engines/cryengine-3/categories/1638401/pages/1605737)
  are available.
 
 ##
@@ -420,9 +414,7 @@ CommConfig
 
  |
 Name of communication configuration (see
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1933379](
-AI Communication
-)
+[AI Communication](/docs/static/engines/cryengine-3/categories/1638401/pages/1933379)
 ).
 
  |
@@ -453,9 +445,7 @@ Faction
 
  |
 Specify the
-[/docs/static/engines/cryengine-3/categories/1638401/pages/13205553](
-Faction
-)
+[Faction](/docs/static/engines/cryengine-3/categories/1638401/pages/13205553)
  which the AI belongs to.
 
  |
@@ -475,9 +465,7 @@ FmodCharacterTypeParam
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/11240792](
-Character Type Filter Parameter
-)
+[Character Type Filter Parameter](/docs/static/engines/cryengine-3/categories/1114113/pages/11240792)
  for more information.
 
  |
@@ -533,9 +521,7 @@ NavigationType
 
  |
 Select a suitable size of the entity, for use with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961796](
-MNM
-)
+[MNM](../../../../AI%20and%20Navigation/AI%20Overview/Navigation%20(MNM)/Navigation%20Configuration.md)
 .
 
  |
@@ -1032,9 +1018,7 @@ IsAffectedByLight
 
  |
 Indicates if the AI's detection of danger is based on Light Level. Meaning a target would be harder to detect if it is in a dark place, and vice-versa. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798764](
-AI Perception
-)
+[AI Perception](../../../../AI%20and%20Navigation/AI%20Overview/AI%20(NPC)/AI%20Perception.md)
 .
 
  |
@@ -1252,27 +1236,13 @@ WrinkleMap
 
  |
 See:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959598](
-Tutorial - Wrinkle Map Setup
-)
+[Tutorial - Wrinkle Map Setup](../../../../Tutorials/Digital%20Content%20Creation/Tutorial%20-%20Wrinkle%20Map%20Setup.md)
 
  |
 
-[#aiterritory](
-AITerritory
-)
-[#aiwave](
-AIWave
-)
-[#damagetestent](
-DamageTestEnt
-)
-[#dummyplayer](
-DummyPlayer
-)
-[#flyer](
-Flyer
-)
-[#human-entity-reference](
-Human Entity Reference
-)
+[AITerritory](#aiterritory)
+[AIWave](#aiwave)
+[DamageTestEnt](#damagetestent)
+[DummyPlayer](#dummyplayer)
+[Flyer](#flyer)
+[Human Entity Reference](#human-entity-reference)

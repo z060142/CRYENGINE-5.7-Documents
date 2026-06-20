@@ -7,18 +7,18 @@
 
 ## Child Pages
 
-- [ScriptBind_Action](CryAction Functions/ScriptBind_Action.md)
-- [ScriptBind_ActionMapManager](CryAction Functions/ScriptBind_ActionMapManager.md)
-- [ScriptBind_ActorSystem](CryAction Functions/ScriptBind_ActorSystem.md)
-- [ScriptBind_GameStatistics](CryAction Functions/ScriptBind_GameStatistics.md)
-- [ScriptBind_GameToken](CryAction Functions/ScriptBind_GameToken.md)
-- [ScriptBind_Inventory](CryAction Functions/ScriptBind_Inventory.md)
-- [ScriptBind_ItemSystem](CryAction Functions/ScriptBind_ItemSystem.md)
-- [ScriptBind_Network](CryAction Functions/ScriptBind_Network.md)
-- [ScriptBind_UIAction](CryAction Functions/ScriptBind_UIAction.md)
-- [ScriptBind_Vehicle](CryAction Functions/ScriptBind_Vehicle.md)
-- [ScriptBind_VehicleSeat](CryAction Functions/ScriptBind_VehicleSeat.md)
-- [ScriptBind_VehicleSystem](CryAction Functions/ScriptBind_VehicleSystem.md)
+- [ScriptBind_Action](CryAction%20Functions/ScriptBind_Action.md)
+- [ScriptBind_ActionMapManager](CryAction%20Functions/ScriptBind_ActionMapManager.md)
+- [ScriptBind_ActorSystem](CryAction%20Functions/ScriptBind_ActorSystem.md)
+- [ScriptBind_GameStatistics](CryAction%20Functions/ScriptBind_GameStatistics.md)
+- [ScriptBind_GameToken](CryAction%20Functions/ScriptBind_GameToken.md)
+- [ScriptBind_Inventory](CryAction%20Functions/ScriptBind_Inventory.md)
+- [ScriptBind_ItemSystem](CryAction%20Functions/ScriptBind_ItemSystem.md)
+- [ScriptBind_Network](CryAction%20Functions/ScriptBind_Network.md)
+- [ScriptBind_UIAction](CryAction%20Functions/ScriptBind_UIAction.md)
+- [ScriptBind_Vehicle](CryAction%20Functions/ScriptBind_Vehicle.md)
+- [ScriptBind_VehicleSeat](CryAction%20Functions/ScriptBind_VehicleSeat.md)
+- [ScriptBind_VehicleSystem](CryAction%20Functions/ScriptBind_VehicleSystem.md)
 
 ## Content
 
@@ -26,61 +26,37 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306607](
-ScriptBind_Action
-)
+[ScriptBind_Action](CryAction%20Functions/ScriptBind_Action.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306608](
-ScriptBind_ActionMapManager
-)
+[ScriptBind_ActionMapManager](CryAction%20Functions/ScriptBind_ActionMapManager.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306612](
-ScriptBind_ActorSystem
-)
+[ScriptBind_ActorSystem](CryAction%20Functions/ScriptBind_ActorSystem.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306613](
-ScriptBind_GameStatistics
-)
+[ScriptBind_GameStatistics](CryAction%20Functions/ScriptBind_GameStatistics.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306618](
-ScriptBind_GameToken
-)
+[ScriptBind_GameToken](CryAction%20Functions/ScriptBind_GameToken.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306610](
-ScriptBind_Inventory
-)
+[ScriptBind_Inventory](CryAction%20Functions/ScriptBind_Inventory.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306611](
-ScriptBind_ItemSystem
-)
+[ScriptBind_ItemSystem](CryAction%20Functions/ScriptBind_ItemSystem.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306609](
-ScriptBind_Network
-)
+[ScriptBind_Network](CryAction%20Functions/ScriptBind_Network.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306614](
-ScriptBind_UIAction
-)
+[ScriptBind_UIAction](CryAction%20Functions/ScriptBind_UIAction.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306615](
-ScriptBind_Vehicle
-)
+[ScriptBind_Vehicle](CryAction%20Functions/ScriptBind_Vehicle.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306616](
-ScriptBind_VehicleSeat
-)
+[ScriptBind_VehicleSeat](CryAction%20Functions/ScriptBind_VehicleSeat.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306617](
-ScriptBind_VehicleSystem
-)
+[ScriptBind_VehicleSystem](CryAction%20Functions/ScriptBind_VehicleSystem.md)

@@ -15,13 +15,13 @@ In this tutorial, we will be using our Merged Mesh system and show you the proce
 Contrary to bone based setups like Touch Bending, ropes can be cheaper and get affected through the global wind and our Breeze Generation system. Large fields of grass are perfect examples to showcase this type of technology since each asset instance can be merged into bigger clusters through the merged mesh system. So for this tutorial, we will create two simple grass plane assets as a base for a dense overgrown grass field.
 
 *
-[Image: /docs/static/attachments/26509595]
+![Image](https://www.cryengine.com/docs/static/attachments/26509595)
 
 Pic1: Dense grass field affected through wind
 *
 
 *
-[Image: /docs/static/attachments/26509594]
+![Image](https://www.cryengine.com/docs/static/attachments/26509594)
 
 Pic2: Two assets that this entire grass field contains
 *
@@ -32,9 +32,7 @@ Tutorial Files
 Source Maya scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25523836](
-GameSDK_vegtut02_files.zip
-)
+[GameSDK_vegtut02_files.zip](/docs/static/attachments/25523836)
 **
 
 ##
@@ -43,24 +41,16 @@ Pre-requisites for this Tutorial
 Before you continue with this tutorial, make sure to have read and understood the following:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963475](
-How to Install CryMayaTools
-)
+[How to Install CryMayaTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308292](
-The Basic CRYENGINE Maya Workflow
-)
+[The Basic CRYENGINE Maya Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205569](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools/CRYENGINE%20User%20Interface%20in%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-Maya Unit Scale to Match up With CRYENGINE Unit System
-)
+[Maya Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Helpful Information
@@ -212,7 +202,7 @@ So to begin with, save your Maya scene to this location. All our exported assets
 
 We will continue with the assumption that you have already created the asset, since this is not a Maya modeling tutorial. We will begin with preparing the asset ready for CRYENGINE and configuring the material.
 
-[Image: /docs/static/attachments/24157054]
+![Image](https://www.cryengine.com/docs/static/attachments/24157054)
 
 *
 Pic3: This is the final exportable scene hierarchy
@@ -231,7 +221,7 @@ MAT.ED
 **
  shelf icon from your installed Crytek shelf:
 
-[Image: /docs/static/attachments/24157055]
+![Image](https://www.cryengine.com/docs/static/attachments/24157055)
 
 *
 Pic4: Setting a new Material Group and adding a shader to this material group
@@ -260,7 +250,7 @@ tutorial_merged_meshMAT
 **
 >
 `
-[Image: /docs/static/attachments/24157056]
+![Image](https://www.cryengine.com/docs/static/attachments/24157056)
 
 *
 *
@@ -291,7 +281,7 @@ tutorial_merged_mesh_a
 
 -
 tutorial_merged_mesh_b
-[Image: /docs/static/attachments/24157057]
+![Image](https://www.cryengine.com/docs/static/attachments/24157057)
 
 *
 Pic6: grass blade geometry with their UVs tweaked to match the grass texture
@@ -336,7 +326,7 @@ Export the Geometry
 
 As with all Maya to CRYENGINE exports, you must create a separate cryExportNode for each asset. Since we are using two variations of grass blades, we should create two cryExportNodes. Move the locators for the Merged Mesh vegetation under their respective parent geometry as shown here:
 
-[Image: /docs/static/attachments/24157058]
+![Image](https://www.cryengine.com/docs/static/attachments/24157058)
 
 *
 Pic7: Export ready scene hierarchy
@@ -347,28 +337,12 @@ Continue to CRYENGINE
 
 We have now finished the setup for the Maya portion of the tutorial. To continue, move to the next page where we configure the material and use the Vegetation Tool to place down some of these Merged Mesh assets.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285892](
-Vegetation 02 Grass (Merged Meshes) CRYENGINE
-)
+[Vegetation 02 Grass (Merged Meshes) CRYENGINE](Vegetation%2002%20Grass%20(Merged%20Meshes)%20CRYENGINE.md)
 
-[#tutorial-files](
-Tutorial Files
-)
-[#pre-requisites-for-this-tutorial](
-Pre-requisites for this Tutorial
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-maya-setup](
-Initial Maya setup
-)
-[#material](
-Material
-)
-[#geometry](
-Geometry
-)
-[#continue-to-cryengine](
-Continue to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Pre-requisites for this Tutorial](#pre-requisites-for-this-tutorial)
+[Helpful Information](#helpful-information)
+[Initial Maya setup](#initial-maya-setup)
+[Material](#material)
+[Geometry](#geometry)
+[Continue to CRYENGINE](#continue-to-cryengine)

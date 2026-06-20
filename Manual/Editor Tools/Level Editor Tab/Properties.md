@@ -14,7 +14,7 @@ The Properties tool shows a number of relevant options and operators for the sel
 
 Which options are shown depends on the object/entity etc. is selected.
 
-[Image: /docs/static/attachments/44958726]
+![Image](https://www.cryengine.com/docs/static/attachments/44958726)
 
 The properties that are shown for
 *
@@ -26,7 +26,7 @@ every
 Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44966564]
+![Image](https://www.cryengine.com/docs/static/attachments/44966564)
  icon on the top-right corner of the panel. When clicked, it reveals the
 
 **
@@ -109,7 +109,7 @@ Changes the minimum spec the object is visible in (choose from LowSpec, MedSpec,
  |
 
 Clicking the
-[Image: /docs/static/attachments/44965518]
+![Image](https://www.cryengine.com/docs/static/attachments/44965518)
  button locks the currently displayed properties and makes sure that the Properties panel content doesn't change even when another entity is selected.
 
 ##
@@ -190,7 +190,7 @@ Shows existing entity links.
 By default, all
 Scale
  values are linked. For instance, when the scale of the X-axis is changed from 1 to 2, the Y and Z axes will also change to 2. The scaling axes can be unlinked by clicking the link icon
-[Image: /docs/static/attachments/44971024]
+![Image](https://www.cryengine.com/docs/static/attachments/44971024)
  next to the values.
 
 ##
@@ -246,32 +246,14 @@ The
 Add Component
 **
  button allows users to add logical components to entities. This button only appears in the Properties panel when an entity is selected and shows all components available for creation, including user-made ones. For more information about the components that can be added to an entity, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966029](
-Entity Components - Components Panel
-)
+[Entity Components - Components Panel](../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)
  page.
 
-[#menu](
-Menu
-)
-[#general](
-General
-)
-[#flowgraph](
-Flowgraph
-)
-[#transform](
-Transform
-)
-[#entity-links](
-Entity Links
-)
-[#group](
-Group
-)
-[#properties](
-Properties
-)
-[#add-component](
-Add Component
-)
+[Menu](#menu)
+[General](#general)
+[Flowgraph](#flowgraph)
+[Transform](#transform)
+[Entity Links](#entity-links)
+[Group](#group)
+[Properties](#properties)
+[Add Component](#add-component)

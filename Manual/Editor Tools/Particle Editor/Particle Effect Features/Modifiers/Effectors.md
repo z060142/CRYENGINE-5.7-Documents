@@ -17,9 +17,7 @@ Motion: Physics
  feature. They apply non-uniform forces to particles and are used to add flair to an otherwise standard physical motion.
 
 For more information about particle physics, refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867966](
-Motion
-)
+[Motion](../Motion.md)
  section.
 
 Effectors can be found under
@@ -30,7 +28,7 @@ Local Effectors
 
 Modifiers and Effectors can be combined to create highly sophisticated effects.
 
-[Image: /docs/static/attachments/44107871]
+![Image](https://www.cryengine.com/docs/static/attachments/44107871)
 
 ##
 Turbulence
@@ -40,9 +38,7 @@ Turbulence simulates the motion of particles within a participating medium like 
 This effector creates the impression that particles are floating in a medium rather than appearing to be in a vacuum. The Turbulence Effector is applied in world space and does not depend on parent location.
 
 For more information about parent child relationships, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-SecondGen
-)
+[SecondGen](../SecondGen.md)
 .
 
 Properties
@@ -172,9 +168,7 @@ Uses the particle as the sources of the gravity field.
 Parent -
 **
 Uses parent's particle (or emitter) as the source of the gravity field. For more information on parent child relationships, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-SecondGen
-)
+[SecondGen](../SecondGen.md)
 **
 .
 **
@@ -184,9 +178,7 @@ SecondGen
 Target -
 **
  Particle emitter's target position (usually another game entity) as a source. For more information on targeting, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26217391](
-Key Concepts
-)
+[Key Concepts](../../../../Graphics%20%26%20Rendering/Particles/Key%20Concepts.md)
  about Targets.
  |
 
@@ -286,9 +278,7 @@ Uses the particle as the center of the vortex.
 Parent -
 **
 Uses particle's parent or its emitter as the center of the vortex. For more information on parent child relationships, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-SecondGen
-)
+[SecondGen](../SecondGen.md)
  page.
 
 -
@@ -296,9 +286,7 @@ SecondGen
 Target -
 **
  Defines the emitter's target position, which is usually another game entity, as a source. Please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26217391](
-Key Concepts
-)
+[Key Concepts](../../../../Graphics%20%26%20Rendering/Particles/Key%20Concepts.md)
  to learn more about
 **
 Targets
@@ -406,18 +394,8 @@ Gravity
 
 -
 Vortex
-[#turbulence](
-Turbulence
-)
-[#gravity](
-Gravity
-)
-[#vortex](
-Vortex
-)
-[#spiral](
-Spiral
-)
-[#gpu-support](
-GPU Support
-)
+[Turbulence](#turbulence)
+[Gravity](#gravity)
+[Vortex](#vortex)
+[Spiral](#spiral)
+[GPU Support](#gpu-support)

@@ -87,9 +87,7 @@ Usable
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048651](
-Common Entity Parameters
-)
+[Common Entity Parameters](/docs/static/engines/cryengine-3/categories/1114113/pages/1048651)
 .
 
  |
@@ -100,9 +98,7 @@ UseMessage
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048651](
-Common Entity Parameters
-)
+[Common Entity Parameters](/docs/static/engines/cryengine-3/categories/1114113/pages/1048651)
 .
 
  |
@@ -433,9 +429,7 @@ CanTriggerAreas
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796943#PhysicsEntities-BasicEntity](
-BasicEntity
-)
+[BasicEntity](Physics%20Entities.md#PhysicsEntities-BasicEntity)
 .
 
  |
@@ -473,9 +467,7 @@ DmgFactorWhenCollidingAI
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796943#PhysicsEntities-BasicEntity](
-BasicEntity
-)
+[BasicEntity](Physics%20Entities.md#PhysicsEntities-BasicEntity)
 .
 
  |
@@ -497,9 +489,7 @@ ExcludeCover
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796943#PhysicsEntities-BasicEntity](
-BasicEntity
-)
+[BasicEntity](Physics%20Entities.md#PhysicsEntities-BasicEntity)
 .
 
  |
@@ -510,9 +500,7 @@ Faction
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -523,9 +511,7 @@ HeavyObject
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -536,9 +522,7 @@ InteractLargeObject
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -549,9 +533,7 @@ MissionCritical
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796943#PhysicsEntities-BasicEntity](
-BasicEntity
-)
+[BasicEntity](Physics%20Entities.md#PhysicsEntities-BasicEntity)
 .
 
  |
@@ -571,9 +553,7 @@ Pickable
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -584,9 +564,7 @@ Serialize
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -597,9 +575,7 @@ SmartObjectClass
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -619,9 +595,7 @@ Usable
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -632,9 +606,7 @@ UseMessage
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -645,9 +617,7 @@ UsedAsDynamicObstacle
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796943#PhysicsEntities-RigidBodyEx](
-RigidBodyEX
-)
+[RigidBodyEX](Physics%20Entities.md#PhysicsEntities-RigidBodyEx)
 .
 
  |
@@ -664,9 +634,7 @@ Invulnerable
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -677,9 +645,7 @@ MaxHealth
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -690,9 +656,7 @@ OnlyEnemyFire
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -709,9 +673,7 @@ Networked
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -731,9 +693,7 @@ CanBreakOthers
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -818,9 +778,7 @@ Pickable
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -1077,9 +1035,7 @@ Networked
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796951](
-Common Entity Parameters
-)
+[Common Entity Parameters](BEGIN%20--%20Common%20Entity%20Parameters.md)
 .
 
  |
@@ -1182,9 +1138,7 @@ Enabled
 TeamRandomSoundVolume
 
 This entity is similar to the RandomSoundVolume entity, in the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048826](
-Sound Entities (deprecated)
-)
+[Sound Entities (deprecated)](/docs/static/engines/cryengine-3/categories/1114113/pages/1048826)
  page, except that it will play a different sound, according to which team owns the entity in a multiplayer game.
 
 **
@@ -1308,9 +1262,7 @@ Name of this team.
 TeamSoundSpot
 
 This entity is similar to the SoundSpot entity in the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048826](
-Sound Entities (deprecated)
-)
+[Sound Entities (deprecated)](/docs/static/engines/cryengine-3/categories/1114113/pages/1048826)
  page, except that it will play a different sound, according to which team owns the entity in a multiplayer game.
 
 **
@@ -1452,51 +1404,19 @@ The name of the team.
 
  |
 
-[#ammocratemp](
-AmmoCrateMP
-)
-[#assaultintel](
-AssaultIntel
-)
-[#btbbombbase](
-BTBBombBase
-)
-[#btbbombsite](
-BTBBombSite
-)
-[#ctfbase](
-CTFBase
-)
-[#camerapoint](
-CameraPoint
-)
-[#dangerousrigidbody](
-DangerousRigidBody
-)
-[#environmentalweapon](
-EnvironmentalWeapon
-)
-[#extractionpoint](
-ExtractionPoint
-)
-[#extractionweaponspawn](
-ExtractionWeaponSpawn
-)
-[#forbiddenarea](
-ForbiddenArea
-)
-[#spawngroup](
-SpawnGroup
-)
-[#spectatorpoint](
-SpectatorPoint
-)
-[#tagnamepoint](
-TagNamePoint
-)
-[#teamrandomsoundvolume](
-TeamRandomSoundVolume
-)
-[#teamsoundspot](
-TeamSoundSpot
-)
+[AmmoCrateMP](#ammocratemp)
+[AssaultIntel](#assaultintel)
+[BTBBombBase](#btbbombbase)
+[BTBBombSite](#btbbombsite)
+[CTFBase](#ctfbase)
+[CameraPoint](#camerapoint)
+[DangerousRigidBody](#dangerousrigidbody)
+[EnvironmentalWeapon](#environmentalweapon)
+[ExtractionPoint](#extractionpoint)
+[ExtractionWeaponSpawn](#extractionweaponspawn)
+[ForbiddenArea](#forbiddenarea)
+[SpawnGroup](#spawngroup)
+[SpectatorPoint](#spectatorpoint)
+[TagNamePoint](#tagnamepoint)
+[TeamRandomSoundVolume](#teamrandomsoundvolume)
+[TeamSoundSpot](#teamsoundspot)

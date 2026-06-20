@@ -39,7 +39,7 @@ reactor -> Create Object -> Rigid Body Collection
 
 -
 Any object that you do not want to move can be set to "unyielding" in the
-[Image: /docs/static/attachments/23994761]
+![Image](https://www.cryengine.com/docs/static/attachments/23994761)
 .
 
 -
@@ -117,9 +117,7 @@ All the position and rotation controllers of the objects in the CGA need to be s
 TCB
 **
 . The easiest way to do this is with the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310776](
-CryAnim Tools
-)
+[CryAnim Tools](/docs/static/engines/cryengine-3/categories/1114113/pages/1310776)
  (On the General Tools rollout).
 
 -
@@ -141,9 +139,7 @@ Select one object that is not moving and parent all the other pieces to it. This
 
 -
 You can add special metadata to your individual CGA objects, either through the Meta Data Editor found in CryTools (
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310724](
-Rigging Tools
-)
+[Rigging Tools](/docs/static/engines/cryengine-3/categories/1114113/pages/1310724)
 ), or by using these flags in the
 **
 User Defined Properties
@@ -176,9 +172,7 @@ Open your CGA in the Character Editor and play the animation labelled "Default",
 
 -
 As always, obey the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307986](
-Character Rigging Guidelines
-)
+[Character Rigging Guidelines](../../Animated%20Geometry/Basics%20(animated)/Rigging%20(animated)/Character%20Rigging%20Guidelines.md)
  for CRYENGINE; pay particular attention to having no scales and transformations.
 
 ##
@@ -648,18 +642,8 @@ RigidBody
 
  |
 
-[#the-destructible-object](
-The Destructible Object
-)
-[#setting-up-the-simulation-in-3ds-max](
-Setting Up the Simulation in 3ds Max
-)
-[#exporting-to-cryengine](
-Exporting to CRYENGINE
-)
-[#creating-an-animobject-entity](
-Creating an AnimObject Entity
-)
-[#entity-properties](
-Entity Properties
-)
+[The Destructible Object](#the-destructible-object)
+[Setting Up the Simulation in 3ds Max](#setting-up-the-simulation-in-3ds-max)
+[Exporting to CRYENGINE](#exporting-to-cryengine)
+[Creating an AnimObject Entity](#creating-an-animobject-entity)
+[Entity Properties](#entity-properties)

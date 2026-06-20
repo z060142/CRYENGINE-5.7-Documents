@@ -7,12 +7,12 @@
 
 ## Child Pages
 
-- [Getting Started with MemReplay](MemReplay/Getting Started with MemReplay.md)
-- [Setup and Loading data with MemReplay Tool](MemReplay/Setup and Loading data with MemReplay Tool.md)
-- [Online Recording in MemReplay](MemReplay/Online Recording in MemReplay.md)
-- [MemReplay Tool at First Sight](MemReplay/MemReplay Tool at First Sight.md)
-- [MemReplay Tool Advanced Knowledge](MemReplay/MemReplay Tool Advanced Knowledge.md)
-- [MemReplay in Code](MemReplay/MemReplay in Code.md)
+- [Getting Started with MemReplay](MemReplay/Getting%20Started%20with%20MemReplay.md)
+- [Setup and Loading data with MemReplay Tool](MemReplay/Setup%20and%20Loading%20data%20with%20MemReplay%20Tool.md)
+- [Online Recording in MemReplay](MemReplay/Online%20Recording%20in%20MemReplay.md)
+- [MemReplay Tool at First Sight](MemReplay/MemReplay%20Tool%20at%20First%20Sight.md)
+- [MemReplay Tool Advanced Knowledge](MemReplay/MemReplay%20Tool%20Advanced%20Knowledge.md)
+- [MemReplay in Code](MemReplay/MemReplay%20in%20Code.md)
 
 ## Content
 
@@ -29,9 +29,7 @@ MemReplay
 
 Chapters:
 
-[#memreplay-features](
-MemReplay Features
-)
+[MemReplay Features](#memreplay-features)
 
 -
 The first part is built into the Engine code itself. When active (see Quickstart guide at the bottom of this document), it records every allocation and every free to disk
@@ -42,7 +40,7 @@ The second part is a standalone application which analyzes the data to produce r
 Example of MemReplay tool after loading
 *
 
-[Image: /docs/static/attachments/26964592]
+![Image](https://www.cryengine.com/docs/static/attachments/26964592)
 
 ##
 MemReplay Features
@@ -65,31 +63,19 @@ Locating memory tramples
 Finding Double frees
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306658](
-Getting Started with MemReplay
-)
+[Getting Started with MemReplay](MemReplay/Getting%20Started%20with%20MemReplay.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306659](
-Setup and Loading data with MemReplay Tool
-)
+[Setup and Loading data with MemReplay Tool](MemReplay/Setup%20and%20Loading%20data%20with%20MemReplay%20Tool.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306660](
-Online Recording in MemReplay
-)
+[Online Recording in MemReplay](MemReplay/Online%20Recording%20in%20MemReplay.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306661](
-MemReplay Tool at First Sight
-)
+[MemReplay Tool at First Sight](MemReplay/MemReplay%20Tool%20at%20First%20Sight.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306662](
-MemReplay Tool Advanced Knowledge
-)
+[MemReplay Tool Advanced Knowledge](MemReplay/MemReplay%20Tool%20Advanced%20Knowledge.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306663](
-MemReplay in Code
-)
+[MemReplay in Code](MemReplay/MemReplay%20in%20Code.md)

@@ -11,13 +11,11 @@
 Overview
 
 In this tutorial, you will be adding the "crouching" functionality to the player character that was built in the first part of this series (
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
 )
 .
 
-[Image: /docs/static/attachments/110199586]
+![Image](https://www.cryengine.com/docs/static/attachments/110199586)
 
 You will be building upon the
 *
@@ -32,9 +30,7 @@ Player.h
 *
  files built
 in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
  tutorial
 .
 
@@ -72,9 +68,7 @@ Game.sln
 
 I
 f you have not generated a solution yet, or are unsure about the location of the Game.sln file, follow the first steps of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
  tutorial.
 
 -
@@ -104,7 +98,7 @@ CPlayerComponent
 .
 
 *
-[Image: /docs/static/attachments/110199396]
+![Image](https://www.cryengine.com/docs/static/attachments/110199396)
 
 EPlayerState Position
 
@@ -130,7 +124,7 @@ Player.h
 ,
 *
 
-[Image: /docs/static/attachments/110199397]
+![Image](https://www.cryengine.com/docs/static/attachments/110199397)
 
 *
 along with the corresponding
@@ -143,16 +137,14 @@ lines:
 *
 
 *
-[Image: /docs/static/attachments/110199398]
+![Image](https://www.cryengine.com/docs/static/attachments/110199398)
 *
 
 `
 m_movementSpeed
 `
 was replaced with walk and run speed
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679384](
-in the sprinting tutorial
-)
+[in the sprinting tutorial](Tutorial%20-%20Adding%20Specialized%20Controls%20to%20a%20Player%20(Sprint).md)
 .
 
 -
@@ -179,7 +171,7 @@ Vec3 m_CameraOffsetStanding;
 ```
 
 *
-[Image: /docs/static/attachments/110199399]
+![Image](https://www.cryengine.com/docs/static/attachments/110199399)
 *
 
 *
@@ -207,16 +199,14 @@ desc.AddMember(&CPlayerComponent::m_cameraOffsetStanding, 'cams', "cameraoffsets
 ```
 
 *
-[Image: /docs/static/attachments/110199400]
+![Image](https://www.cryengine.com/docs/static/attachments/110199400)
 
 cameraOffsetStanding AddMember lines
 
 *
 
 Previously, the values
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
- had to be modified
-)
+[had to be modified](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
 every time you placed a player into your level. However, you can define the variables in advance within the code while still allowing values to be modified within CRYENGINE 5.7 LTS. To achieve this, you must define constant values for each member.
 
 -
@@ -254,7 +244,7 @@ static constexpr EPlayerState DEFAULT_STATE = EPlayerState::Walking;
 ```
 
 *
-[Image: /docs/static/attachments/110199092]
+![Image](https://www.cryengine.com/docs/static/attachments/110199092)
 *
 
 *
@@ -297,7 +287,7 @@ desc.AddMember(&CPlayerComponent::m_walkSpeed, 'pws', "playerwalkspeed", "Player
 ```
 
 *
-[Image: /docs/static/attachments/110199402]
+![Image](https://www.cryengine.com/docs/static/attachments/110199402)
 *
 
 *
@@ -329,7 +319,7 @@ virtual ~CPlayerComponent() override {};
 ```
 
 *
-[Image: /docs/static/attachments/110199097]
+![Image](https://www.cryengine.com/docs/static/attachments/110199097)
 
 The updated public class
 
@@ -349,7 +339,7 @@ Any line can be turned into a comment (i.e., completely disregarded when the cod
  to the front of the line.
 
 *
-[Image: /docs/static/attachments/110199403]
+![Image](https://www.cryengine.com/docs/static/attachments/110199403)
 
 Example comments
 
@@ -368,7 +358,7 @@ float m_currentPitch;
 ```
 
 *
-[Image: /docs/static/attachments/110199404]
+![Image](https://www.cryengine.com/docs/static/attachments/110199404)
 *
 
 *
@@ -426,7 +416,7 @@ void UpdateCamera();
 ```
 
 *
-[Image: /docs/static/attachments/110199405]
+![Image](https://www.cryengine.com/docs/static/attachments/110199405)
 *
 
 *
@@ -440,7 +430,7 @@ Player.h
 *
  should look like this:
 
-[Image: /docs/static/attachments/110199456]
+![Image](https://www.cryengine.com/docs/static/attachments/110199456)
 
 *
 The refined Player.h file
@@ -511,7 +501,7 @@ Player.h
 ```
 
 *
-[Image: /docs/static/attachments/110199406]
+![Image](https://www.cryengine.com/docs/static/attachments/110199406)
 *
 
 *
@@ -568,7 +558,7 @@ m_mouseDeltaRotation = ZERO;
 ```
 
 *
-[Image: /docs/static/attachments/110199407]
+![Image](https://www.cryengine.com/docs/static/attachments/110199407)
 *
 
 *
@@ -604,7 +594,7 @@ CPlayerComponent::Reset
 *
 .
 
-[Image: /docs/static/attachments/110199410]
+![Image](https://www.cryengine.com/docs/static/attachments/110199410)
 
 Reset Function with Comments
 
@@ -637,7 +627,7 @@ Reset();
 ```
 
 *
-[Image: /docs/static/attachments/110199411]
+![Image](https://www.cryengine.com/docs/static/attachments/110199411)
 *
 
 *
@@ -670,7 +660,7 @@ void CPlayerComponent::RecenterCollider()
 ```
 
 *
-[Image: /docs/static/attachments/110199412]
+![Image](https://www.cryengine.com/docs/static/attachments/110199412)
 *
 
 *
@@ -738,7 +728,7 @@ m_pCharacterController->Physicalize();
 ```
 
 *
-[Image: /docs/static/attachments/110199580]
+![Image](https://www.cryengine.com/docs/static/attachments/110199580)
 *
 
 *
@@ -768,7 +758,7 @@ Cry::Entity::EEvent::PhysicalTypeChanged;
 ```
 
 *
-[Image: /docs/static/attachments/110199414]
+![Image](https://www.cryengine.com/docs/static/attachments/110199414)
 *
 
 *
@@ -808,7 +798,7 @@ case Cry::Entity::EEvent::GameplayStarted:
 ```
 
 *
-[Image: /docs/static/attachments/110199415]
+![Image](https://www.cryengine.com/docs/static/attachments/110199415)
 *
 
 *
@@ -841,7 +831,7 @@ case Cry::Entity::EEvent::Update:
 ```
 
 *
-[Image: /docs/static/attachments/110199416]
+![Image](https://www.cryengine.com/docs/static/attachments/110199416)
 *
 
 *
@@ -870,7 +860,7 @@ case Cry::Entity::EEvent::EditorPropertyChanged:
 ```
 
 *
-[Image: /docs/static/attachments/110199417]
+![Image](https://www.cryengine.com/docs/static/attachments/110199417)
 *
 
 *
@@ -916,7 +906,7 @@ const float
 `
 .
 
-[Image: /docs/static/attachments/110199419]
+![Image](https://www.cryengine.com/docs/static/attachments/110199419)
 
 *
 Completed CPlayerComponent UpdateMovement
@@ -977,7 +967,7 @@ m_pEntity->SetRotation(m_currentYaw);
 
 ```
 
-[Image: /docs/static/attachments/110199420]
+![Image](https://www.cryengine.com/docs/static/attachments/110199420)
 
 *
 Completed CPlayerComponent UpdateRotation
@@ -985,9 +975,7 @@ Completed CPlayerComponent UpdateRotation
 *
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/106627474#Tutorial-AddingSpecializedControlstoaPlayer(Crouch)-#CreateDefinition](
-Create a definition
-)
+[Create a definition](Tutorial%20-%20Adding%20Specialized%20Controls%20to%20a%20Player%20(Crouch).md#Tutorial-AddingSpecializedControlstoaPlayer%28Crouch)-#CreateDefinition)
  for
 `
 UpdateCamera();
@@ -1011,7 +999,7 @@ void CPlayerComponent::UpdateCamera()
 ```
 
 *
-[Image: /docs/static/attachments/110199549]
+![Image](https://www.cryengine.com/docs/static/attachments/110199549)
 
 *
 
@@ -1027,7 +1015,7 @@ Player.cpp
 *
  file should look like this:
 
-[Image: /docs/static/attachments/110199458]
+![Image](https://www.cryengine.com/docs/static/attachments/110199458)
 
 *
 Refined Player.cpp
@@ -1061,7 +1049,7 @@ namespace primitives
 
 ```
 
-[Image: /docs/static/attachments/110199427]
+![Image](https://www.cryengine.com/docs/static/attachments/110199427)
 
 *
 Namespace Primitives
@@ -1101,7 +1089,7 @@ Underneath that, define and name the player stances:
 
 ```
 
-[Image: /docs/static/attachments/110199086]
+![Image](https://www.cryengine.com/docs/static/attachments/110199086)
 
 *
 The finalized EPlayerStance class
@@ -1133,7 +1121,7 @@ Vec3 m_cameraEndOffset;
 
 ```
 
-[Image: /docs/static/attachments/110199428]
+![Image](https://www.cryengine.com/docs/static/attachments/110199428)
 
 *
 EPlayerStance Runtime Variables
@@ -1158,7 +1146,7 @@ float m_capsuleGroundOffset;
 
 ```
 
-[Image: /docs/static/attachments/110199429]
+![Image](https://www.cryengine.com/docs/static/attachments/110199429)
 
 *
 EPlayerStance Component Properties
@@ -1188,7 +1176,7 @@ static constexpr EPlayerStance DEFAULT_STANCE = EPlayerStance::Standing;
 
 ```
 
-[Image: /docs/static/attachments/110199430]
+![Image](https://www.cryengine.com/docs/static/attachments/110199430)
 
 *
 Static value declarations
@@ -1218,7 +1206,7 @@ desc.AddMember(&CPlayerComponent::m_capsuleGroundOffset, 'capo', "capsulegroundo
 
 ```
 
-[Image: /docs/static/attachments/110199431]
+![Image](https://www.cryengine.com/docs/static/attachments/110199431)
 
 *
 Crouching AddMember lines
@@ -1241,7 +1229,7 @@ bool IsCapsuleIntersectingGeometry(const primitives::capsule& capsule) const;
 
 ```
 
-[Image: /docs/static/attachments/110199433]
+![Image](https://www.cryengine.com/docs/static/attachments/110199433)
 
 *
 New Functions
@@ -1267,7 +1255,7 @@ void UpdateCamera(float frametime);
 
 ```
 
-[Image: /docs/static/attachments/110199432]
+![Image](https://www.cryengine.com/docs/static/attachments/110199432)
 
 *
 Updated void UpdateCamera
@@ -1286,9 +1274,7 @@ Player.cpp
 CPlayerComponent
 `
 variables
-[/docs/static/engines/cryengine-5/categories/23756816/pages/106627474#Tutorial-AddingSpecializedControlstoaPlayer(Crouch)-CPlayerComponentvariables](
-added during refinement
-)
+[added during refinement](Tutorial%20-%20Adding%20Specialized%20Controls%20to%20a%20Player%20(Crouch).md#Tutorial-AddingSpecializedControlstoaPlayer%28Crouch)-CPlayerComponentvariables)
 :
 
 ```
@@ -1306,7 +1292,7 @@ added during refinement
 
 ```
 
-[Image: /docs/static/attachments/110199434]
+![Image](https://www.cryengine.com/docs/static/attachments/110199434)
 
 *
 Crouching variables
@@ -1329,7 +1315,7 @@ m_desiredStance = m_currentStance;
 
 ```
 
-[Image: /docs/static/attachments/110199436]
+![Image](https://www.cryengine.com/docs/static/attachments/110199436)
 
 *
 Player State Reset Variables
@@ -1338,9 +1324,7 @@ Player State Reset Variables
 
 -
 Add the following to reset the camera position when a lerp is added
-[/docs/static/engines/cryengine-5/categories/23756816/pages/106627474#Tutorial-AddingSpecializedControlstoaPlayer(Crouch)-AddingALerp](
-later in this tutorial
-)
+[later in this tutorial](Tutorial%20-%20Adding%20Specialized%20Controls%20to%20a%20Player%20(Crouch).md#Tutorial-AddingSpecializedControlstoaPlayer%28Crouch)-AddingALerp)
 , and add a relevant description:
 
 ```
@@ -1351,7 +1335,7 @@ m_cameraEndOffset = m_cameraOffsetStanding;
 
 ```
 
-[Image: /docs/static/attachments/110199438]
+![Image](https://www.cryengine.com/docs/static/attachments/110199438)
 
 *
 Lerp Reset
@@ -1401,7 +1385,7 @@ m_pInputComponent->BindAction("player", "crouch", eAID_KeyboardMouse, eKI_LCtrl)
 
 ```
 
-[Image: /docs/static/attachments/110199104]
+![Image](https://www.cryengine.com/docs/static/attachments/110199104)
 
 *
 Crouching Bind and Register Actions
@@ -1461,7 +1445,7 @@ else if (activationMode == (int)eAAM_OnRelease)
 -
 The complete register/bind actions for the crouching should look like this:
 
-[Image: /docs/static/attachments/110199104]
+![Image](https://www.cryengine.com/docs/static/attachments/110199104)
 
 *
 Crouch Register and Bind actions
@@ -1495,7 +1479,7 @@ TryUpdateStance();
 
 ```
 
-[Image: /docs/static/attachments/110199441]
+![Image](https://www.cryengine.com/docs/static/attachments/110199441)
 
 *
 Crouching Calls
@@ -1525,7 +1509,7 @@ UpdateCamera(frametime);
 
 ```
 
-[Image: /docs/static/attachments/110199442]
+![Image](https://www.cryengine.com/docs/static/attachments/110199442)
 
 *
 UpdateCamera frametime
@@ -1553,7 +1537,7 @@ void CPlayerComponent::UpdateCamera(float frametime)
 
 ```
 
-[Image: /docs/static/attachments/110199444]
+![Image](https://www.cryengine.com/docs/static/attachments/110199444)
 
 *
 CPlayerComponent UpdateCamera
@@ -1566,9 +1550,7 @@ Within
 CPlayerComponent::UpdateCamera
 `
 , below the lines that modify the camera movement (added in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-a previous tutorial
-)
+[a previous tutorial](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
 ), add the following line to enable lerping:
 
 ```
@@ -1580,7 +1562,7 @@ currentCameraOffset = Vec3::CreateLerp(currentCameraOffset, m_cameraEndOffset, 1
 
 ```
 
-[Image: /docs/static/attachments/110199445]
+![Image](https://www.cryengine.com/docs/static/attachments/110199445)
 
 *
 Adding the Lerp
@@ -1597,9 +1579,7 @@ member variable.
 
 -
 As you did
-[/docs/static/engines/cryengine-5/categories/23756816/pages/106627474#Tutorial-AddingSpecializedControlstoaPlayer(Crouch)-CreateDefinition](
-earlier in the tutorial
-)
+[earlier in the tutorial](Tutorial%20-%20Adding%20Specialized%20Controls%20to%20a%20Player%20(Crouch).md#Tutorial-AddingSpecializedControlstoaPlayer%28Crouch)-CreateDefinition)
 , create a definition of
 `
 TryUpdateStance
@@ -1675,7 +1655,7 @@ Vec3 camOffset = ZERO;
 
 ```
 
-[Image: /docs/static/attachments/110199108]
+![Image](https://www.cryengine.com/docs/static/attachments/110199108)
 
 *
 TryUpdateStance Setup
@@ -1719,7 +1699,7 @@ switch (m_desiredStance)
 
 ```
 
-[Image: /docs/static/attachments/110199109]
+![Image](https://www.cryengine.com/docs/static/attachments/110199109)
 
 *
 The crouch switch logic
@@ -1749,7 +1729,7 @@ pPhysEnt->SetParams(&playerDimensions);
 
 ```
 
-[Image: /docs/static/attachments/110199449]
+![Image](https://www.cryengine.com/docs/static/attachments/110199449)
 
 *
 Continued TryUpdateStance code
@@ -1763,7 +1743,7 @@ TryUpdateStance
 `
 should look like this:
 
-[Image: /docs/static/attachments/110199111]
+![Image](https://www.cryengine.com/docs/static/attachments/110199111)
 
 *
 The completed TryUpdateStance
@@ -1792,9 +1772,7 @@ bool CPlayerComponent
 Player.h
 *
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/106627474#Tutorial-AddingSpecializedControlstoaPlayer(Crouch)-IsCapsuleIntersectingGeometry](
-earlier in this tutorial.
-)
+[earlier in this tutorial.](Tutorial%20-%20Adding%20Specialized%20Controls%20to%20a%20Player%20(Crouch).md#Tutorial-AddingSpecializedControlstoaPlayer%28Crouch)-IsCapsuleIntersectingGeometry)
 
 -
 Add a line between the curly brackets of the new definition added to
@@ -1814,7 +1792,7 @@ bool CPlayerComponent::IsCapsuleIntersectingGeometry(const primitives::capsule& 
 
 ```
 
-[Image: /docs/static/attachments/110199450]
+![Image](https://www.cryengine.com/docs/static/attachments/110199450)
 
 *
 Empty IsCapsuleIntersectingGeometry function
@@ -1850,7 +1828,7 @@ return contactCount > 0;
 
 ```
 
-[Image: /docs/static/attachments/110199112]
+![Image](https://www.cryengine.com/docs/static/attachments/110199112)
 
 *
 The Capsule Intersection test
@@ -1892,9 +1870,7 @@ Once the solution is built, you can test your player character in the Sandbox Ed
 
 -
 Open the level you created in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
 
 tutorial and select the previously placed
 Player Entity.
@@ -1916,13 +1892,9 @@ CPlayerComponent
  properties or redefine the default values in the code to find a camera and capsule height that best suits your game.
 
 You may also want to add a static object, such as a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869865](
-static mesh
-)
+[static mesh](../../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Static%20Mesh%20Entity.md)
  or
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869859](
-designer box
-)
+[designer box](../../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Designer%20Tool.md)
 , suspended in the air, to test the collision mechanism.
 
 -
@@ -1936,13 +1908,9 @@ Ctrl + G
 Conclusion
 
 This concludes Part 4 of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/101679110](
-Creating a Player using C++
-)
+[Creating a Player using C++](../Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B.md)
  tutorial. To learn more about C++ in CRYENGINE and/or other topics, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307414](
-CRYENGINE V Manual
-)
+[CRYENGINE V Manual](/docs/static/engines/cryengine-5/categories/23756816/pages/23307414)
 .
 
 ##
@@ -1950,21 +1918,11 @@ Video Tutorial
 
 You can also follow this tutorial series in video form on our YouTube channel:
 
-[#prerequisites](
-Prerequisites
-)
-[#refining-the-code](
-Refining the Code
-)
-[#adding-crouching](
-Adding Crouching
-)
-[#testing-the-character](
-Testing the Character
-)
-[#conclusion](
-Conclusion
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=H8U8UU0Y1m8]
+
+[Prerequisites](#prerequisites)
+[Refining the Code](#refining-the-code)
+[Adding Crouching](#adding-crouching)
+[Testing the Character](#testing-the-character)
+[Conclusion](#conclusion)
+[Video Tutorial](#video-tutorial)

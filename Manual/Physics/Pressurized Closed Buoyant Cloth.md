@@ -60,7 +60,7 @@ Examples
 To illustrate how this feature can be used, here are some examples, with pressure values in the 10-80 range (smaller values on the right):
 
 *
-[Image: /docs/static/attachments/44964250]
+![Image](https://www.cryengine.com/docs/static/attachments/44964250)
 *
 
 *
@@ -73,7 +73,7 @@ Different Shapes
 It is possible to use shapes other than a sphere or box, like the torus shape below.
 
 Keep in mind that internal pressure can distort the original mesh shape.
-[Image: /docs/static/attachments/44964836]
+![Image](https://www.cryengine.com/docs/static/attachments/44964836)
 
 *
 Torus shape
@@ -105,7 +105,7 @@ cloth's_volume
 *
 ) should be large enough to lift the cloth's mass.
 
-[Image: /docs/static/attachments/44964252]
+![Image](https://www.cryengine.com/docs/static/attachments/44964252)
 
 *
 Lighter than air

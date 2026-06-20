@@ -54,15 +54,7 @@ Align to Object
 **
 ). Even with a small number of keys you can easily recreate the orbit movement.
 
-[#potential-problems-with-rotation](
-Potential Problems with Rotation
-)
-[#solution-1-adjusting-pivot-rotation](
-Solution 1: Adjusting Pivot Rotation
-)
-[#solution-2-using-a-different-setup](
-Solution 2: Using a Different Setup
-)
-[#using-an-orbit-camera-for-reference](
-Using an Orbit Camera for Reference
-)
+[Potential Problems with Rotation](#potential-problems-with-rotation)
+[Solution 1: Adjusting Pivot Rotation](#solution-1-adjusting-pivot-rotation)
+[Solution 2: Using a Different Setup](#solution-2-using-a-different-setup)
+[Using an Orbit Camera for Reference](#using-an-orbit-camera-for-reference)

@@ -12,7 +12,7 @@ Overview
 
 The player actor implementation has the possibility of interacting with entities using a key press ('F' by default). Entities which can be interacted with, will enable a special icon on-screen inside the game to inform the player.
 
-[Image: /docs/static/attachments/23461166]
+![Image](https://www.cryengine.com/docs/static/attachments/23461166)
 
 ##
 Preparing the Script

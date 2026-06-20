@@ -15,9 +15,7 @@ NavMesh Queries provide an easy way to query for NavMesh triangles within an Axi
 The system is powerful since it supports custom C++ filters and post-processing structures, and, as we'll see later on in this page, allows the user to filter out 'invalid' triangles from NavMeshes and perform post-processing transformations on them.
 
 Refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961882](
-Navigation Areas
-)
+[Navigation Areas](../../Manual/AI%20and%20Navigation/AI%20Overview/Navigation%20(MNM)/Navigation%20Areas.md)
  in the CRYENGINE V Manual for information on creating NavMeshes.
 
 The two types of NavMesh Queries available are Instant Queries and Batch Queries. The following documentation describes their configuration, usage and debugging.
@@ -550,9 +548,7 @@ List mode when debugging NavMesh Queries. Shows one query with 5 batches of 3 tr
 UDR Mode
 
 The results of all NavMesh Queries can also be visualized in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959189](
-UDR Visualizer
-)
+[UDR Visualizer](../../Manual/Editor%20Tools/Advanced%20Tab/Universal%20Debug%20Recordings%20(UDR)%20Visualizer.md)
 . The
 **
 ai_DebugDrawNavigationQueriesUDR
@@ -576,12 +572,6 @@ Statistics child expanded
 *
  |
 
-[#common-parameters](
-Common Parameters
-)
-[#types](
-Types
-)
-[#debug](
-Debug
-)
+[Common Parameters](#common-parameters)
+[Types](#types)
+[Debug](#debug)

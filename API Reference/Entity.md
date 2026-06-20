@@ -7,15 +7,15 @@
 ## Child Pages
 
 - [Components](Entity/Components.md)
-- [Slots, Geometry and Effects](Entity/Slots, Geometry and Effects.md)
-- [Physics and Movement](Entity/Physics and Movement.md)
-- [Characters and Animations](Entity/Characters and Animations.md)
-- [Players and Connections](Entity/Players and Connections.md)
+- [Slots, Geometry and Effects](Entity/Slots%2C%20Geometry%20and%20Effects.md)
+- [Physics and Movement](Entity/Physics%20and%20Movement.md)
+- [Characters and Animations](Entity/Characters%20and%20Animations.md)
+- [Players and Connections](Entity/Players%20and%20Connections.md)
 - [Networking](Entity/Networking.md)
 - [Audio](Entity/Audio.md)
-- [Execution Order and Lifecycle](Entity/Execution Order and Lifecycle.md)
-- [Areas and Triggers](Entity/Areas and Triggers.md)
-- [Input and Action Mapping](Entity/Input and Action Mapping.md)
+- [Execution Order and Lifecycle](Entity/Execution%20Order%20and%20Lifecycle.md)
+- [Areas and Triggers](Entity/Areas%20and%20Triggers.md)
+- [Input and Action Mapping](Entity/Input%20and%20Action%20Mapping.md)
 - [Cameras](Entity/Cameras.md)
 
 ## Content
@@ -38,45 +38,26 @@ Components
 
 Entities were previously known as Game Objects, and Entity Components were referred to as "Game Object Extensions".
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26870341](
-Blue
-SWITCH TO MANUAL
-)
+[Blue SWITCH TO MANUAL](../Manual/Entities%20and%20Tools.md)
 
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#components](
-Components
-)
-[#identifiers](
-Identifiers
-)
-[#transform-and-parent-child-hierarchy](
-Transform & Parent / Child Hierarchy
-)
-[#slots-entity-geometry](
-Slots / Entity Geometry
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[Components](#components)
+[Identifiers](#identifiers)
+[Transform & Parent / Child Hierarchy](#transform-and-parent-child-hierarchy)
+[Slots / Entity Geometry](#slots-entity-geometry)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797278](
-IEntitySystem
-)
+[IEntitySystem](/docs/static/engines/cryengine-5/categories/28704770/pages/29797278)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity
-)
+[IEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 
 ##
 Components
@@ -87,29 +68,23 @@ Components
 **
 . For example, a Camera component could be attached to an entity, exposing functionality for rendering a specific viewpoint in the level:
 
-[Image: /docs/static/attachments/29919088]
+![Image](https://www.cryengine.com/docs/static/attachments/29919088)
 
 Entities are stored and managed in the
 **
 Entity System
 **
 , represented by the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797278](
-IEntitySystem
-)
+[IEntitySystem](/docs/static/engines/cryengine-5/categories/28704770/pages/29797278)
  interface, and accessible through
 *
 gEnv->pEntitySystem
 *
 . The system is responsible for spawning, managing entities throughout their lifetime, and finally removing them. See
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797278](
-IEntitySystem::SpawnEntity
-)
+[IEntitySystem::SpawnEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797278)
  for an example on how to spawn entities.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797278](
-SpawnEntity Example
-)
+[SpawnEntity Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797278)
 
 ##
 Identifiers
@@ -136,7 +111,7 @@ position
 **
  of the entity in the entity system’s internal storage. This allows for constant-time retrieval of an entity, as we can simply look up an entity by index in contiguous storage.
 
-[Image: /docs/static/attachments/29923925]
+![Image](https://www.cryengine.com/docs/static/attachments/29923925)
 
 This means that despite being a 32-bit unsigned integer, the index is only 16 bits – resulting in a max limit of 65533 entities in the world at any given time
 (0 and 65534+ are reserved).
@@ -189,26 +164,16 @@ world
 **
 ). We can retrieve the world transformation through the following functions:
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetWorldTM
-)
+[IEntity::GetWorldTM](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetWorldPos
-)
+[IEntity::GetWorldPos](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetWorldRotation
-)
+[IEntity::GetWorldRotation](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetWorldScale
-)
+[IEntity::GetWorldScale](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 Similarly, we can change the world transformation easily using
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::SetWorldTM
-)
+[IEntity::SetWorldTM](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 
 ##
 Hierarchy
@@ -220,42 +185,26 @@ linked
  together in a hierarchy, ensuring that the entity's position is relative to the parent. This is useful to pair entities together in a parent / child relationship where the child should always follow its parent.
 
 An entity can be linked to a parent at
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797259](
-spawn time
-)
+[spawn time](/docs/static/engines/cryengine-5/categories/28704770/pages/29797259)
 , or at any point during an
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-during an instance's lifetime
-)
+[during an instance's lifetime](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 .
 
 Once linked, we can retrieve the local-space transformation (relative to the parent) of the entity through the following functions:
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetLocalTM
-)
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetPos
-)
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetRotation
-)
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetScale
-)
+[IEntity::GetLocalTM](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
+[IEntity::GetPos](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
+[IEntity::GetRotation](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
+[IEntity::GetScale](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 The local transformation can be modified using
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::SetLocalTM
-)
+[IEntity::SetLocalTM](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 
 ##
 Slots / Entity Geometry
 
 For more information, see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216230](
-Slots, Geometry and Effects
-)
+[Slots, Geometry and Effects](Entity/Slots%2C%20Geometry%20and%20Effects.md)
 .
 
 ##
@@ -264,16 +213,10 @@ Conclusion
 This concludes the article on entities. You may also be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26871489](
-Components
-)
+[Components](Entity/Components.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/28184910](
-Execution Order and Lifecycle
-)
+[Execution Order and Lifecycle](Entity/Execution%20Order%20and%20Lifecycle.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216232](
-Networking
-)
+[Networking](Entity/Networking.md)

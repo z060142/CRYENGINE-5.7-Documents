@@ -27,9 +27,7 @@ At the end of each step, an XML representation of the behavior tree is depicted 
 Only interested in knowing how to use the Behavior Tree Editor tool?
 
 Skip this section and move on to the second part of this tutorial,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870017](
-Implementing the Behavior Tree in The Behavior Tree Editor
-)
+[Implementing the Behavior Tree in The Behavior Tree Editor](Implementing%20The%20Behavior%20Tree%20in%20The%20Behavior%20Tree%20Editor.md)
  instead.
 
 ##
@@ -631,9 +629,7 @@ Name
 
  |
 Name of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-Fragment
-)
+[Fragment](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Fragments.md)
  containing the animation which must be played by the agent.
 
  |
@@ -656,9 +652,7 @@ To preview and experiment with other GameSDK animations, load the
 sdk_humanpreview.xml
 **
  preview setup in the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011340](
-Mannequin Fragment Browser
-)
+[Mannequin Fragment Browser](/docs/static/engines/cryengine-3/categories/1114113/pages/15011340)
  using the
 **
 File → Load Preview Setup...
@@ -913,31 +907,17 @@ Move
 **
  node is executed again and the agent follows the player/target as before.
 The structural design of the behavior tree is now complete. Now to implement it in the Behavior Tree Editor, and link it to an AI character in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870017](
-next section
-)
+[next section](Implementing%20The%20Behavior%20Tree%20in%20The%20Behavior%20Tree%20Editor.md)
  of this tutorial.
 
-[#root-node](
-Root Node
-)
-[#defining-events](
-Defining Events
-)
-[#node-sequence](
-Node Sequence
-)
-[#final-configuration](
-Final Configuration
-)
+[Root Node](#root-node)
+[Defining Events](#defining-events)
+[Node Sequence](#node-sequence)
+[Final Configuration](#final-configuration)
 
 ##
 Related Pages
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870017](
-Implementing The Behavior Tree in The Behavior Tree Editor
-)
+[Implementing The Behavior Tree in The Behavior Tree Editor](Implementing%20The%20Behavior%20Tree%20in%20The%20Behavior%20Tree%20Editor.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869208](
-Behavior Tree Editor
-)
+[Behavior Tree Editor](../../../Editor%20Tools/Behavior%20Tree%20Editor.md)

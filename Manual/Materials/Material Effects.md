@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Material Effects and Vehicles](Material Effects/Material Effects and Vehicles.md)
+- [Material Effects and Vehicles](Material%20Effects/Material%20Effects%20and%20Vehicles.md)
 
 ## Content
 
@@ -470,7 +470,7 @@ Obsolete:
 
 It should be noted that Objects which need to use Alpha Test for Collision (railings, etc) should have a surface type with the suffix _RayProxy. This is also used to allow characters to see through glass objects and such as part of the perception system.
 
-[Image: /docs/static/attachments/28898467]
+![Image](https://www.cryengine.com/docs/static/attachments/28898467)
 
 ##
 Adding Material Effect Events
@@ -710,7 +710,7 @@ mfx_DebugVisual
 **
  (Enhanced visual debugging):
 
-[Image: /docs/static/attachments/28898466]
+![Image](https://www.cryengine.com/docs/static/attachments/28898466)
 
 -
 **
@@ -778,18 +778,8 @@ Known issues
 
 The MFX table is prone to breakage and unexpected behavior when the order in rows and columns is different from the expected one, e.g. after using find-replace and/or inserting cells.
 
-[#required-files](
-Required Files
-)
-[#creating-a-new-material-effect](
-Creating a New Material Effect
-)
-[#debugging](
-Debugging
-)
-[#reloading](
-Reloading
-)
-[#known-issues](
-Known issues
-)
+[Required Files](#required-files)
+[Creating a New Material Effect](#creating-a-new-material-effect)
+[Debugging](#debugging)
+[Reloading](#reloading)
+[Known issues](#known-issues)

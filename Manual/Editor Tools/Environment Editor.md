@@ -14,13 +14,13 @@ The Environment Editor is used to setup different aspects of the environment in 
 
 Users can open multiple Environment Editor instances at the same time. However, the Viewport environment settings are determined by the window which is currently on the focus point. If an environment editor is closed, the Viewport settings fall back to the default settings. Only when an Environment Editor window gains focus does it apply its settings to the Viewport.
 
-[Image: /docs/static/attachments/56658505]
+![Image](https://www.cryengine.com/docs/static/attachments/56658505)
 
 ##
 1. Menu
 
 The Menu can be accessed by clicking on the
-[Image: /docs/static/attachments/56658510]
+![Image](https://www.cryengine.com/docs/static/attachments/56658510)
  icon on the top-right corner of the Environment Editor. When clicked, it reveals
 **
 File
@@ -241,12 +241,10 @@ Opens the documentation page for this tool.
 Tool-specific Asset Browser panels let users view and edit the assets within the tool that is currently being used. Unlike the stand-alone Asset Browser tool, the assets that are displayed on this panel are pre-filtered by default; meaning it only displays the assets that are relative to the tool itself.
 
 Menu options and their functionalities on both the stand-alone and the tool-specific Asset Browsers are the same and they can be used to achieve the same goal. For more information about the Asset Browser Menu options, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-Asset Browser
-)
+[Asset Browser](Asset%20Browser.md)
  page.
 When the Sync Selection
-[Image: /docs/static/attachments/56658506]
+![Image](https://www.cryengine.com/docs/static/attachments/56658506)
  button in the toolbar is active, selecting a different asset in a tool-specific Asset Browser will instantly open it. This button makes it very easy to cycle through different assets and edit them on the fly.
 
 ##
@@ -614,9 +612,7 @@ Large-scale AO and indirect shadows from static geometry (vegetation, brushes an
 -
 Works without pre-baking and does not require manual setup of many bounce lights or light volumes.
 For more information about Global Illumination, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535599](
-Voxel-Based Global Illumination (SVOGI)
-)
+[Voxel-Based Global Illumination (SVOGI)](../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Voxel-Based%20Global%20Illumination%20(SVOGI).md)
  page.
 
 Setting
@@ -731,9 +727,7 @@ Min Node Size
 
  |
 The size of the smallest SVO node to be created during level voxelization. Smaller values help getting more detailed lighting but may work slower and use more memory in pool. It may be necessary to increase Voxel Pool Resolution in order to prevent running out of voxel pool (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658466#EnvironmentEditor-vpr](
-below
-)
+[below](Environment%20Editor.md#EnvironmentEditor-vpr)
 ).
 
  |
@@ -841,7 +835,7 @@ Portals Inject
  |
 Injects portal lighting together with direct lights, allows good indoor sky light even with just one indirect bounce.
 
-[Image: /docs/static/attachments/56658520]
+![Image](https://www.cryengine.com/docs/static/attachments/56658520)
 
  |
 
@@ -872,7 +866,7 @@ Pros -
 Cons -
 **
  Smooth surfaces like mirrors show very blurry approximation of reflections.
-[Image: /docs/static/attachments/56658519]
+![Image](https://www.cryengine.com/docs/static/attachments/56658519)
 
  |
 
@@ -1208,9 +1202,7 @@ Sun specular multiplier
 Controls the specular contribution of the sunlight.
 
 This should always be set to 1 to ensure that the materials work properly based on the Physically Based Shading (PBS) pipeline. For more information, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959238](
-Physically Based Shading (PBS)
-)
+[Physically Based Shading (PBS)](../Graphics%20%26%20Rendering/Shaders/Physically%20Based%20Shading%20(PBS).md)
 .
 
  |
@@ -1402,9 +1394,9 @@ Radial Lobe at 0.3 (blurred horizon)
 *
  |
 
-[Image: /docs/static/attachments/56658538]
+![Image](https://www.cryengine.com/docs/static/attachments/56658538)
  |
-[Image: /docs/static/attachments/56658539]
+![Image](https://www.cryengine.com/docs/static/attachments/56658539)
  |
 
 Be aware that if a the Radial Lobe value is too high, it can get projected in front of objects:
@@ -1418,9 +1410,9 @@ Radial Lobe at 0
 *
  |
 
-[Image: /docs/static/attachments/56658541]
+![Image](https://www.cryengine.com/docs/static/attachments/56658541)
  |
-[Image: /docs/static/attachments/56658540]
+![Image](https://www.cryengine.com/docs/static/attachments/56658540)
  |
 
  |
@@ -1543,9 +1535,7 @@ system.cfg
 game.cfg
 *
 . For further information, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215326](
-Volumetric Fog
-)
+[Volumetric Fog](../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Volumetric%20Fog.md)
  page.
 
 Setting
@@ -1815,11 +1805,11 @@ Mie scattering constant of 100.0
 Mie scattering constant of 2000.0
  |
 
-[Image: /docs/static/attachments/56658526]
+![Image](https://www.cryengine.com/docs/static/attachments/56658526)
  |
-[Image: /docs/static/attachments/56658525]
+![Image](https://www.cryengine.com/docs/static/attachments/56658525)
  |
-[Image: /docs/static/attachments/56658524]
+![Image](https://www.cryengine.com/docs/static/attachments/56658524)
  |
 
  |
@@ -1836,9 +1826,9 @@ Rayleigh scattering constant of 2.5
 Rayleigh scattering constant of 4.8
  |
 
-[Image: /docs/static/attachments/56658502]
+![Image](https://www.cryengine.com/docs/static/attachments/56658502)
  |
-[Image: /docs/static/attachments/56658501]
+![Image](https://www.cryengine.com/docs/static/attachments/56658501)
  |
 
  |
@@ -1857,9 +1847,9 @@ Sun anisotropy constant of -0.999
 Sun anisotropy constant of -0.8
  |
 
-[Image: /docs/static/attachments/56658500]
+![Image](https://www.cryengine.com/docs/static/attachments/56658500)
  |
-[Image: /docs/static/attachments/56658499]
+![Image](https://www.cryengine.com/docs/static/attachments/56658499)
  |
 
  |
@@ -1879,9 +1869,9 @@ RGB=(650.0, 570.0, 475.0)
 RGB=(750.0, 601.0, 555.0)
  |
 
-[Image: /docs/static/attachments/56658498]
+![Image](https://www.cryengine.com/docs/static/attachments/56658498)
  |
-[Image: /docs/static/attachments/56658497]
+![Image](https://www.cryengine.com/docs/static/attachments/56658497)
  |
 
  |
@@ -1929,9 +1919,9 @@ A zenith shift of 0.2
 A zenith shift of 0.8
  |
 
-[Image: /docs/static/attachments/56658496]
+![Image](https://www.cryengine.com/docs/static/attachments/56658496)
  |
-[Image: /docs/static/attachments/56658495]
+![Image](https://www.cryengine.com/docs/static/attachments/56658495)
  |
 
  |
@@ -2005,11 +1995,11 @@ Inner = 0.5, Outer = 0.5
 Inner = 1.5, Outer = 0.05
  |
 
-[Image: /docs/static/attachments/56658494]
+![Image](https://www.cryengine.com/docs/static/attachments/56658494)
  |
-[Image: /docs/static/attachments/56658493]
+![Image](https://www.cryengine.com/docs/static/attachments/56658493)
  |
-[Image: /docs/static/attachments/56658492]
+![Image](https://www.cryengine.com/docs/static/attachments/56658492)
  |
 
  |
@@ -2157,9 +2147,7 @@ game.cfg
 *
 .
 For further information, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535467](
-Procedural Volumetric Clouds
-)
+[Procedural Volumetric Clouds](../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Procedural%20Volumetric%20Clouds.md)
  page.
 
 Setting
@@ -2401,7 +2389,7 @@ Sun rays attenuation
  |
 This value controls the attenuation of sun rays. Higher values cause shorter rays around the sun:
 
-[Image: /docs/static/attachments/56658491]
+![Image](https://www.cryengine.com/docs/static/attachments/56658491)
 
 *
 Sun rays attenuation
@@ -2442,13 +2430,13 @@ sun shafts visibility/sun rays visibility/sun rays attenuation
 1.0/2.0/0.5
  |
 
-[Image: /docs/static/attachments/56658490]
+![Image](https://www.cryengine.com/docs/static/attachments/56658490)
  |
-[Image: /docs/static/attachments/56658489]
+![Image](https://www.cryengine.com/docs/static/attachments/56658489)
  |
-[Image: /docs/static/attachments/56658488]
+![Image](https://www.cryengine.com/docs/static/attachments/56658488)
  |
-[Image: /docs/static/attachments/56658487]
+![Image](https://www.cryengine.com/docs/static/attachments/56658487)
  |
 
  |
@@ -2674,7 +2662,7 @@ CRYENGINE supports multiple cascades. Cascade 0 is the closest to the camera, ca
 
 Shadow map acne is usually visible at medium range on the 3rd and 4th cascade especially. To prevent shadow map artifacts, the sun shadows bias and slope bias settings are exposed in the time of day.
 
-[Image: /docs/static/attachments/56658486]
+![Image](https://www.cryengine.com/docs/static/attachments/56658486)
 
 *
 Cascaded Sun Shadow Map
@@ -2731,11 +2719,11 @@ Bias = 0.05
 
  |
 
-[Image: /docs/static/attachments/56658484]
+![Image](https://www.cryengine.com/docs/static/attachments/56658484)
 q
 
  |
-[Image: /docs/static/attachments/56658483]
+![Image](https://www.cryengine.com/docs/static/attachments/56658483)
 
  |
 
@@ -2746,10 +2734,10 @@ Bias = 5
 
  |
 
-[Image: /docs/static/attachments/56658482]
+![Image](https://www.cryengine.com/docs/static/attachments/56658482)
 
  |
-[Image: /docs/static/attachments/56658481]
+![Image](https://www.cryengine.com/docs/static/attachments/56658481)
 
  |
 
@@ -2767,10 +2755,10 @@ Slope Bias = 32
 
  |
 
-[Image: /docs/static/attachments/56658475]
+![Image](https://www.cryengine.com/docs/static/attachments/56658475)
 
  |
-[Image: /docs/static/attachments/56658478]
+![Image](https://www.cryengine.com/docs/static/attachments/56658478)
 
  |
 
@@ -2781,10 +2769,10 @@ Bias = 0.025 / Slope Bias = 32
 
  |
 
-[Image: /docs/static/attachments/56658479]
+![Image](https://www.cryengine.com/docs/static/attachments/56658479)
 
  |
-[Image: /docs/static/attachments/56658485]
+![Image](https://www.cryengine.com/docs/static/attachments/56658485)
 
  |
 
@@ -2813,13 +2801,13 @@ Shadow Jittering = 10
 
  |
 
-[Image: /docs/static/attachments/56658473]
+![Image](https://www.cryengine.com/docs/static/attachments/56658473)
 
  |
-[Image: /docs/static/attachments/56658472]
+![Image](https://www.cryengine.com/docs/static/attachments/56658472)
 
  |
-[Image: /docs/static/attachments/56658471]
+![Image](https://www.cryengine.com/docs/static/attachments/56658471)
 
  |
 
@@ -2862,7 +2850,7 @@ This section parameters are deprecated.
 
 In the Curve Editor, a visual representation of the changes that has been made in the aforementioned options are displayed. With this panel, it is possible to view the progression of the values for the selected setting over the course of one day and how gradually they change over time.
 
-[Image: /docs/static/attachments/56658470]
+![Image](https://www.cryengine.com/docs/static/attachments/56658470)
 
 The Curve Editor is comprised of the following sections:
 
@@ -2871,7 +2859,7 @@ Toolbar
 
 The Curve Editor has its own toolbar:
 
-[Image: /docs/static/attachments/56658469]
+![Image](https://www.cryengine.com/docs/static/attachments/56658469)
 
 Button
 
@@ -3078,7 +3066,7 @@ Ruler
 
 The Ruler can be found at the top of the panel:
 
-[Image: /docs/static/attachments/56658468]
+![Image](https://www.cryengine.com/docs/static/attachments/56658468)
 
 This ruler shows the time of day at the triangular arrow. Dragging this arrow back and forth will change the time of day in the level and add the effects that the settings have in real-time to the Viewport.
 
@@ -3094,7 +3082,7 @@ Graph
 
 The actual graph is interactive as well; a key will appear where a value starts changing:
 
-[Image: /docs/static/attachments/56658467]
+![Image](https://www.cryengine.com/docs/static/attachments/56658467)
 
 These squares can be selected by clicking on them or dragging a selection box around them. Then, they can be dragged around, which will change the settings in the Settings Window that are related to the selected line. Once again, the changes will be displayed in real-time in the Viewport.
 
@@ -3107,7 +3095,7 @@ Time Options
 
 Time Options can be found at the bottom of the Graph:
 
-[Image: /docs/static/attachments/56658504]
+![Image](https://www.cryengine.com/docs/static/attachments/56658504)
 
 Option
 
@@ -3214,7 +3202,7 @@ option.
 
 Alternatively, dragging and dropping an environment asset into the Viewport would manipulate the environment based on its parameters and set it as the default environment asset:
 
-[Image: /docs/static/attachments/56658513]
+![Image](https://www.cryengine.com/docs/static/attachments/56658513)
 
 Setting an Environment Asset as default by either dragging and dropping it into the Viewport or choosing
 **
@@ -3238,41 +3226,21 @@ Environment Presets
 **
 tab, please refer to the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848989](
-Level Settings
-)
+[Level Settings](Level%20Editor%20Tab/Level%20Settings.md)
 
 section.
-[#1-menu](
-1. Menu
-)
-[#2-asset-browser](
-2. Asset Browser
-)
-[#3-constants](
-3. Constants
-)
-[#4-variables](
-4. Variables
-)
-[#5-curve-editor](
-5. Curve Editor
-)
-[#environment-assets](
-Environment Assets
-)
+[1. Menu](#1-menu)
+[2. Asset Browser](#2-asset-browser)
+[3. Constants](#3-constants)
+[4. Variables](#4-variables)
+[5. Curve Editor](#5-curve-editor)
+[Environment Assets](#environment-assets)
 **
 Related content
 **
 :
 
-[/docs](
-Environment
-)
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656708](
-Tutorials
-)
+[Environment](/docs)
+[Tutorials](../Tutorials/Graphics/Environment%20Tutorials.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656710](
-Lighting Tutorials
-)
+[Lighting Tutorials](../Tutorials/Graphics/Lighting%20Tutorials.md)

@@ -7,15 +7,9 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450191](
-[Image: /docs/static/attachments/44971018]
-2 - Game Variables
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971018) 2 - Game Variables](/docs/static/engines/cryengine-5/categories/23756816/pages/29450191)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450270](
-[Image: /docs/static/attachments/44971019]
-4 - Opening a Locked Door
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971019) 4 - Opening a Locked Door](/docs/static/engines/cryengine-5/categories/23756816/pages/29450270)
 
 ##
 What are the differences in tokens and what are the variable types?
@@ -43,6 +37,8 @@ String
 -
 Vector
  3 - Any 3 dimensional positional coordinate (x,y,z) - for example, 290,200,180.
+
+[Embed: https://vimeo.com/271698129]
 
 ##
 How to Create Game and Graph Tokens
@@ -139,12 +135,6 @@ Mission:GameToken
 **
  node and see if they come up in the listing on both in the properties panel.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450191](
-[Image: /docs/static/attachments/44971018]
-2 - Game Variables
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971018) 2 - Game Variables](/docs/static/engines/cryengine-5/categories/23756816/pages/29450191)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450270](
-[Image: /docs/static/attachments/44971019]
-4 - Opening a Locked Door
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971019) 4 - Opening a Locked Door](/docs/static/engines/cryengine-5/categories/23756816/pages/29450270)

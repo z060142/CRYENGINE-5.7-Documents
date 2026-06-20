@@ -138,11 +138,9 @@ Tools → Advanced → Test Runner
 in the Sandbox menu.
 
 For more information about Test Runner, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44109859](
-Test Runner
-)
+[Test Runner](../../../../Manual/Editor%20Tools/Advanced%20Tab/Test%20Runner.md)
  page.
-[Image: /docs/static/attachments/44960103]
+![Image](https://www.cryengine.com/docs/static/attachments/44960103)
 
 ##
 Custom Test Example

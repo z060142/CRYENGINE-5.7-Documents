@@ -11,16 +11,10 @@
 Overview
 
 CRYENGINE's SDL Mixer-based audio implementation provides a simple interface to import audio files in different languages through the use of its
-[/docs/static/engines/cryengine-5/categories/23756816](
-
-)
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[/docs/static/engines/cryengine-5/categories/23756816](/docs/static/engines/cryengine-5/categories/23756816)
+[Audio Controls Editor](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
  and command line editor,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44967641](
-Console
-)
+[Console](../../../Editor%20Tools/Advanced%20Tab/Console.md)
 .
 
 While the ACE allows localized sound files to be imported from disk into a project's audio assets directory, the CVar
@@ -75,7 +69,7 @@ Import Files
 **
  option.
 
-[Image: /docs/static/attachments/44964977]
+![Image](https://www.cryengine.com/docs/static/attachments/44964977)
 
 *
 Import Files
@@ -118,7 +112,7 @@ Target Folder
 **
  field if the imported audio file is localized/available in other languages.
 
-[Image: /docs/static/attachments/44964976]
+![Image](https://www.cryengine.com/docs/static/attachments/44964976)
 
 *
 Localized checkbox
@@ -165,7 +159,7 @@ In any case. the save destination of the imported audio files can be changed, or
 Target Folder
 **
 field. The
-[Image: /docs/static/attachments/44964978]
+![Image](https://www.cryengine.com/docs/static/attachments/44964978)
  icon beside a folder's listing in the Middleware Data panel indicates that it contains localized files.
 
 The imported file can then be linked to a new or previously created audio trigger through the Audio System Controls and Properties panels.
@@ -177,16 +171,14 @@ Once imported, an audio file can be linked to a previously created Audio Trigger
 
 To connect an imported audio file to a previously created Audio Trigger, select the Trigger in the Audio System Controls panel, and then drag/drop the audio file from the Middleware Data panel into the Connections section of the Properties panel.
 
-[Image: /docs/static/attachments/44964975]
+![Image](https://www.cryengine.com/docs/static/attachments/44964975)
 
 *
 Connections
 *
 
 Audio Triggers can then be associated to Audio Trigger Components, and to
-[/docs/static/engines/cryengine-5/categories/23756816](
-audio entities
-)
+[audio entities](/docs/static/engines/cryengine-5/categories/23756816)
  such as Audio Area Entity, Audio Area Random and Audio Trigger Spot within the Viewport.
 
 ##
@@ -231,10 +223,10 @@ If the language of the audio file linked to a trigger doesn't correspond to the 
 g_languageAudio
 **
 , a
-[Image: /docs/static/attachments/44964980]
+![Image](https://www.cryengine.com/docs/static/attachments/44964980)
  icon beside the file's listing under the Connections section of the Properties panel will indicate that the linked audio file is no longer available.
 
-[Image: /docs/static/attachments/52592755]
+![Image](https://www.cryengine.com/docs/static/attachments/52592755)
 
 *
 Unavailable audio file
@@ -281,9 +273,7 @@ When this
 NPC_Trigger
 *
 is associated with an Audio Area Ambience or Audio Area Random audio entity that might be attached to an an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869902](
-Area Shape
-)
+[Area Shape](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Shape.md)
  in the Viewport, users can specify which language of the
 *
 dg_npc_generator_01.wav
@@ -308,18 +298,8 @@ German_dg_npc_generator_01.wav
 *
 file to be triggered within the defined Area Shape.
 
-[#importing-localized-audio-files](
-Importing Localized Audio Files
-)
-[#connecting-imported-audio-files-to-an-audio-trigger](
-Connecting Imported Audio Files to an Audio Trigger
-)
-[#importing-different-language-versions-of-the-same-audio-file](
-Importing Different Language Versions of the Same Audio File
-)
-[#switching-between-different-language-versions-of-an-audio-file-in-the-viewport](
-Switching Between Different Language Versions of an Audio File in the Viewport
-)
-[#use-case-example](
-Use Case Example
-)
+[Importing Localized Audio Files](#importing-localized-audio-files)
+[Connecting Imported Audio Files to an Audio Trigger](#connecting-imported-audio-files-to-an-audio-trigger)
+[Importing Different Language Versions of the Same Audio File](#importing-different-language-versions-of-the-same-audio-file)
+[Switching Between Different Language Versions of an Audio File in the Viewport](#switching-between-different-language-versions-of-an-audio-file-in-the-viewport)
+[Use Case Example](#use-case-example)

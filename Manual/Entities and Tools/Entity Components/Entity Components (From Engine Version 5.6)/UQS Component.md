@@ -12,7 +12,5 @@ The Universal Query System (UQS) is a system for undertaking spatial queries in 
 The UQS entity component, on the other hand, works in the background and makes use of the functions and signals that have been set up in a Schematyc graph.
 
 For more information about the UQS, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450474](
-Universal Query System (UQS)
-)
+[Universal Query System (UQS)](../../../Editor%20Tools/Universal%20Query%20System%20(UQS).md)
 reference page.

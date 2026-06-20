@@ -7,14 +7,14 @@
 
 ## Child Pages
 
-- [Behavior Selection Trees](Obsolete AI Scripting Documentation/Behavior Selection Trees.md)
-- [Goal Pipes](Obsolete AI Scripting Documentation/Goal Pipes.md)
-- [General Logic Scripts](Obsolete AI Scripting Documentation/General Logic Scripts.md)
-- [Character Scripts](Obsolete AI Scripting Documentation/Character Scripts.md)
-- [Behavior Scripts (Obsolete Version)](Obsolete AI Scripting Documentation/Behavior Scripts (Obsolete Version).md)
-- [AI Wander Behavior](Obsolete AI Scripting Documentation/AI Wander Behavior.md)
-- [Behavior Scripts](Obsolete AI Scripting Documentation/Behavior Scripts.md)
-- [Behavior Scripts and Goal Pipes](Obsolete AI Scripting Documentation/Behavior Scripts and Goal Pipes.md)
+- [Behavior Selection Trees](Obsolete%20AI%20Scripting%20Documentation/Behavior%20Selection%20Trees.md)
+- [Goal Pipes](Obsolete%20AI%20Scripting%20Documentation/Goal%20Pipes.md)
+- [General Logic Scripts](Obsolete%20AI%20Scripting%20Documentation/General%20Logic%20Scripts.md)
+- [Character Scripts](Obsolete%20AI%20Scripting%20Documentation/Character%20Scripts.md)
+- [Behavior Scripts (Obsolete Version)](Obsolete%20AI%20Scripting%20Documentation/Behavior%20Scripts%20(Obsolete%20Version).md)
+- [AI Wander Behavior](Obsolete%20AI%20Scripting%20Documentation/AI%20Wander%20Behavior.md)
+- [Behavior Scripts](Obsolete%20AI%20Scripting%20Documentation/Behavior%20Scripts.md)
+- [Behavior Scripts and Goal Pipes](Obsolete%20AI%20Scripting%20Documentation/Behavior%20Scripts%20and%20Goal%20Pipes.md)
 
 ## Content
 
@@ -29,41 +29,25 @@ For convenience the following documents are still kept in the documentation. The
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306480](
-General Logic Scripts
-)
+[General Logic Scripts](Obsolete%20AI%20Scripting%20Documentation/General%20Logic%20Scripts.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306482](
-Character Scripts
-)
+[Character Scripts](Obsolete%20AI%20Scripting%20Documentation/Character%20Scripts.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306486](
-Behavior Scripts (Obsolete Version)
-)
+[Behavior Scripts (Obsolete Version)](Obsolete%20AI%20Scripting%20Documentation/Behavior%20Scripts%20(Obsolete%20Version).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306481](
-AI Wander Behavior
-)
+[AI Wander Behavior](Obsolete%20AI%20Scripting%20Documentation/AI%20Wander%20Behavior.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306477](
-Behavior Selection Trees
-)
+[Behavior Selection Trees](Obsolete%20AI%20Scripting%20Documentation/Behavior%20Selection%20Trees.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306479](
-Behavior Scripts
-)
+[Behavior Scripts](Obsolete%20AI%20Scripting%20Documentation/Behavior%20Scripts.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306487](
-Behavior Scripts and Goal Pipes
-)
+[Behavior Scripts and Goal Pipes](Obsolete%20AI%20Scripting%20Documentation/Behavior%20Scripts%20and%20Goal%20Pipes.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306483](
-Goal Pipes
-)
+[Goal Pipes](Obsolete%20AI%20Scripting%20Documentation/Goal%20Pipes.md)

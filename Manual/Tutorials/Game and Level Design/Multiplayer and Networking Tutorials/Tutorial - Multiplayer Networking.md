@@ -7,23 +7,17 @@
 
 ## Child Pages
 
-- [Tutorial - Dedicated Server](Tutorial - Multiplayer Networking/Tutorial - Dedicated Server.md)
-- [Tutorial - Setting Up a Multiplayer Level](Tutorial - Multiplayer Networking/Tutorial - Setting Up a Multiplayer Level.md)
-- [Tutorial - Setting Up a Multiplayer Server](Tutorial - Multiplayer Networking/Tutorial - Setting Up a Multiplayer Server.md)
+- [Tutorial - Dedicated Server](Tutorial%20-%20Multiplayer%20Networking/Tutorial%20-%20Dedicated%20Server.md)
+- [Tutorial - Setting Up a Multiplayer Level](Tutorial%20-%20Multiplayer%20Networking/Tutorial%20-%20Setting%20Up%20a%20Multiplayer%20Level.md)
+- [Tutorial - Setting Up a Multiplayer Server](Tutorial%20-%20Multiplayer%20Networking/Tutorial%20-%20Setting%20Up%20a%20Multiplayer%20Server.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44967553](
-Tutorial - Dedicated Server
-)
+[Tutorial - Dedicated Server](Tutorial%20-%20Multiplayer%20Networking/Tutorial%20-%20Dedicated%20Server.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535225](
-Tutorial - Setting Up a Multiplayer Level
-)
+[Tutorial - Setting Up a Multiplayer Level](Tutorial%20-%20Multiplayer%20Networking/Tutorial%20-%20Setting%20Up%20a%20Multiplayer%20Level.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44967551](
-Tutorial - Setting Up a Multiplayer Server
-)
+[Tutorial - Setting Up a Multiplayer Server](Tutorial%20-%20Multiplayer%20Networking/Tutorial%20-%20Setting%20Up%20a%20Multiplayer%20Server.md)

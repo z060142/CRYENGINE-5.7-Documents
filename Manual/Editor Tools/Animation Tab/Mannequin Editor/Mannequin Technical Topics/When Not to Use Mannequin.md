@@ -23,9 +23,7 @@ Note that specifically for non-interactive animation there are good alternatives
 
 -
 For Cinematics, you can use the specialized tool
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849263](
-Track View
-)
+[Track View](../../../Track%20View.md)
 .
 
 -
@@ -33,9 +31,7 @@ For Environment/background animations, you can create AnimObject entities.
 
 -
 For Simple scripting, you can use AnimObject entities and drive them with Flowgraph nodes like PlayAnimation. (but then again, you can also use
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308486](
-MannequinObject
-)
+[MannequinObject](../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Tutorial%20-%20Mannequin%20Scripting.md)
  entities)
 
 ##
@@ -69,11 +65,7 @@ shoot
 
 -
 Mannequin currently only supports synchronization of clips using absolute time. That means it has no support for synchronizing clips to cycles within a looping animation (for example footsteps that need to play on every cycle). Similarly, it doesn't adjust synchronized clips when you have animations that change length dynamically like
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28186170](
-blend spaces
-)
+[blend spaces](../../Character%20Tool/Blend%20Spaces%20-%20Character%20Tool.md)
 . In both cases
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450425](
-Animation Events
-)
+[Animation Events](../../Character%20Tool/Animation%20Events%20-%20Character%20Tool.md)
  which are tied directly to the "segment time" of animation clips can be a better fit.

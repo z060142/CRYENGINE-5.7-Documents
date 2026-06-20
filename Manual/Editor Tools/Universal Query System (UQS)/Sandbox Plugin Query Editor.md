@@ -23,7 +23,7 @@ You can access the UQS Query Editor by going to
 
 The Query Editor's main window will then open:
 
-[Image: /docs/static/attachments/28900921]
+![Image](https://www.cryengine.com/docs/static/attachments/28900921)
 
 -
 **

@@ -11,21 +11,15 @@
 Sample File
 
 -
-[/docs/static/attachments/23994688](
-ma_destroyable.rar
-)
+[ma_destroyable.rar](/docs/static/attachments/23994688)
 
 ##
 Destroyable Objects
 
 Destroyable objects are structures that contain the original object and pre-created pieces that appear when the original object is destroyed. Its setup is similar to a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308021](
-jointed breakable
-)
+[jointed breakable](../Jointed%20Breakable%20Objects.md)
  but it doesn't use any bones. Instead it uses the model in its unbroken state and the pieces in the broken state embedded in one cgf. It can be used to completely destroy specific types of objects in the environment. It shatters into the pre-created pieces by taking more damage then the specified "health" property of the object. It is placed using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796943](
-DestroyableObject Entity
-)
+[DestroyableObject Entity](../../../../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Legacy%20Entities/Physics%20Entities.md)
  in the engine.
 
 A DestroyableObject can be in two states, an "Alive" state, or a "Dead" state. In the "Alive" state, it acts exactly like a normal physical entity. It can be set up to be a rigid body or a static physical entity. After taking more damage then the specified "health", it will go into the Dead state. When going into the Dead state, it can optionally generate a physical explosion and apply area damage on the surrounding entities, spawn a particle effect (for example, an explosion), and replace the original geometry of the entity with either destroyed geometry and/or pre-broken pieces of the original geometry. If the object breaks due to a hit (bullet), that hit impulse is applied to the pieces in addition to any explosion (outward) impulse.
@@ -35,9 +29,7 @@ Destroyable Objects Setup
 
 -
 Create your object with physics geometry, LOD's and a
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310892](
-pickup helper
-)
+[pickup helper](/docs/static/engines/cryengine-3/categories/1114113/pages/1310892)
  if needed.
 
 -
@@ -59,13 +51,9 @@ remain_xx
 
 -
 Enter mass a
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310799](
-UDP
-)
+[UDP](/docs/static/engines/cryengine-3/categories/1114113/pages/1310799)
  to the main piece and enter mass and entity
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310799](
-UDP's
-)
+[UDP's](/docs/static/engines/cryengine-3/categories/1114113/pages/1310799)
  to your broken pieces. The amount of mass of your broken pieces should ideally add up to the mass of your main, unbroken piece.
 
 -
@@ -76,11 +64,9 @@ Export with merge all nodes off and Export file per node on.
 
 -
 Place your destroyable object as a DestroyableObjects Entity in the editor, set up the correct
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796943](
-values
-)
+[values](../../../../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Legacy%20Entities/Physics%20Entities.md)
  and shoot it. It should now break.
-[Image: /docs/static/attachments/23994689]
+![Image](https://www.cryengine.com/docs/static/attachments/23994689)
 
 ##
 Using plane cgfs without embedded pieces
@@ -91,7 +77,7 @@ Place the object as a destroyable Object Entity and specify the cgf's and a heal
 
 When not specifying anything in the ModelDestroyed tab and not using a cgf that has pieces embedded, the object will disappear when the health is drained.
 
-[Image: /docs/static/attachments/23994687]
+![Image](https://www.cryengine.com/docs/static/attachments/23994687)
 
 After you've created your Destroyable object cgf(s), add a particle effect, health values and explosion effects. I've used
 **
@@ -156,9 +142,7 @@ A plain CGF, with only one sub-model, can also be destroyed. Its model will disa
 Creating Pickable Destroyable Objects
 
 The setup for making your destroyable object pickable is fairly simple. Refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308034](
-Pickable Objects
-)
+[Pickable Objects](../../Pickable%20Objects.md)
  documentation for more information.
 
 ##
@@ -203,35 +187,15 @@ A: The physics geometry pieces intersect with each other. Make sure that there a
 Properties
 
 Please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308034](
-Pickable Objects
-)
+[Pickable Objects](../../Pickable%20Objects.md)
  document for information on placing a DestroyableObject and their property values.
 
-[#sample-file](
-Sample File
-)
-[#destroyable-objects](
-Destroyable Objects
-)
-[#destroyable-objects-setup](
-Destroyable Objects Setup
-)
-[#using-plane-cgfs-without-embedded-pieces](
-Using plane cgfs without embedded pieces
-)
-[#general-rules](
-General Rules
-)
-[#creating-pickable-destroyable-objects](
-Creating Pickable Destroyable Objects
-)
-[#secondary-particle-effects](
-Secondary Particle Effects
-)
-[#troubleshooting](
-Troubleshooting
-)
-[#properties](
-Properties
-)
+[Sample File](#sample-file)
+[Destroyable Objects](#destroyable-objects)
+[Destroyable Objects Setup](#destroyable-objects-setup)
+[Using plane cgfs without embedded pieces](#using-plane-cgfs-without-embedded-pieces)
+[General Rules](#general-rules)
+[Creating Pickable Destroyable Objects](#creating-pickable-destroyable-objects)
+[Secondary Particle Effects](#secondary-particle-effects)
+[Troubleshooting](#troubleshooting)
+[Properties](#properties)

@@ -99,36 +99,14 @@ The Update() member is responsible for calculating the desired face state based 
 
 The UpdatePlayingSequences() is responsible for updating the time of the currently playing sequences. It simply adds the time delta to the current time of each sequence that is playing, and then removes any sequences from the list that are finished.
 
-[#cfacialeffector](
-CFacialEffector
-)
-[#cfacialeffctrl](
-CFacialEffCtrl
-)
-[#cfacialeffectorslibrary](
-CFacialEffectorsLibrary
-)
-[#cfacialmodel](
-CFacialModel
-)
-[#cfacialinstance](
-CFacialInstance
-)
-[#cfacialanimation](
-CFacialAnimation
-)
-[#cfacialsentence](
-CFacialSentence
-)
-[#cfacialanimchannel](
-CFacialAnimChannel
-)
-[#cfacialanimsequence](
-CFacialAnimSequence
-)
-[#cfacestate](
-CFaceState
-)
-[#cfacialanimationcontext](
-CFacialAnimationContext
-)
+[CFacialEffector](#cfacialeffector)
+[CFacialEffCtrl](#cfacialeffctrl)
+[CFacialEffectorsLibrary](#cfacialeffectorslibrary)
+[CFacialModel](#cfacialmodel)
+[CFacialInstance](#cfacialinstance)
+[CFacialAnimation](#cfacialanimation)
+[CFacialSentence](#cfacialsentence)
+[CFacialAnimChannel](#cfacialanimchannel)
+[CFacialAnimSequence](#cfacialanimsequence)
+[CFaceState](#cfacestate)
+[CFacialAnimationContext](#cfacialanimationcontext)

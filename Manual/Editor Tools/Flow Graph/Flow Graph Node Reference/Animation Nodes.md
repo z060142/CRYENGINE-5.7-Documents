@@ -19,7 +19,7 @@ By choosing a .cdf entity, you can choose all its attachments and hide or displa
 
 This Barrel is getting shown or hidden based on Trackevent in a Trackview sequence.
 
-[Image: /docs/static/attachments/28901194]
+![Image](https://www.cryengine.com/docs/static/attachments/28901194)
 
 ##
 BoneInfo
@@ -63,7 +63,7 @@ Plays a Trackview Sequence. Sequence has to point to the right Trackview Sequenc
 
 Started outputs the start, Done outputs if the sequence is either played or skipped, Finished outputs only when the scenes complete without being skipped and Aborted outputs only when skipped. For example, if you want the game to fade in if the sequence is skipped, you would use Aborted, but in case the same sequence is finished, you want to trigger another sequence, you would use the Finished.
 
-[Image: /docs/static/attachments/28901195]
+![Image](https://www.cryengine.com/docs/static/attachments/28901195)
 
 ##
 StopAnimation
@@ -80,42 +80,16 @@ TriggerOnKeyTime
 
 Triggers the animations based on the key time.
 
-[#animationeventlistener](
-AnimationEventListener
-)
-[#attachmentcontrol](
-AttachmentControl
-)
-[#boneinfo](
-BoneInfo
-)
-[#checkanimplaying](
-CheckAnimPlaying
-)
-[#cooperativeanimation](
-CooperativeAnimation
-)
-[#lookat](
-LookAt
-)
-[#noaiming](
-NoAiming
-)
-[#playanimation](
-PlayAnimation
-)
-[#playcga](
-PlayCGA
-)
-[#playsequence](
-PlaySequence
-)
-[#stopanimation](
-StopAnimation
-)
-[#synchronizetwoanimations](
-SynchronizeTwoAnimations
-)
-[#triggeronkeytime](
-TriggerOnKeyTime
-)
+[AnimationEventListener](#animationeventlistener)
+[AttachmentControl](#attachmentcontrol)
+[BoneInfo](#boneinfo)
+[CheckAnimPlaying](#checkanimplaying)
+[CooperativeAnimation](#cooperativeanimation)
+[LookAt](#lookat)
+[NoAiming](#noaiming)
+[PlayAnimation](#playanimation)
+[PlayCGA](#playcga)
+[PlaySequence](#playsequence)
+[StopAnimation](#stopanimation)
+[SynchronizeTwoAnimations](#synchronizetwoanimations)
+[TriggerOnKeyTime](#triggeronkeytime)

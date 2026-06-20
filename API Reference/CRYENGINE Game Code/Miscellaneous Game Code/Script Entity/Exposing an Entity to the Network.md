@@ -175,9 +175,7 @@ self.onClient:ClClientConnect( channelId, player:GetName(), reconnect );
 ```
 
 More information on RMI functions can be found in the Technical Documentation
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306395](
-RMI Functions
-)
+[RMI Functions](../../../CRYENGINE%20Engine%20Code/Engine%20Modules/CryNetwork/RMI%20Functions.md)
 .
 
 Note: Script networking doesn't have an equivalent to the dependent object RMIs.

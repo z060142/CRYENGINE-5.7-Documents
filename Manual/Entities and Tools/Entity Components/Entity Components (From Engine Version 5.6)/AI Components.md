@@ -12,7 +12,7 @@ AI Behavior Tree
 
 Allows users to specify, from a dropdown menu, the Behavior Tree an Entity should run.
 
-[Image: /docs/static/attachments/44966039]
+![Image](https://www.cryengine.com/docs/static/attachments/44966039)
 
 *
 Behavior Tree component
@@ -26,9 +26,7 @@ Scripts/AI/BehaviorTrees
  directory of your project.
 Please refer to the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870017](
-Implementing The Behavior Tree in The Behavior Tree Editor
-)
+[Implementing The Behavior Tree in The Behavior Tree Editor](../../../Tutorials/AI/Tutorial%20-%20Getting%20Started%20With%20The%20Behavior%20Tree%20Editor/Implementing%20The%20Behavior%20Tree%20in%20The%20Behavior%20Tree%20Editor.md)
 
 section for an example.
 
@@ -532,9 +530,7 @@ Affected Agent Types
 **
  |
 Defines what
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961796](
-agent type
-)
+[agent type](../../../AI%20and%20Navigation/AI%20Overview/Navigation%20(MNM)/Navigation%20Configuration.md)
 's NavMeshes should be affected by the Markup Shape. There are currently two agent types that can be affected by the Markup Shape, namely
 **
 MediumSizedCharacters
@@ -788,27 +784,11 @@ ObserverCustomFilter
  signal.
  |
 
-[#ai-behavior-tree](
-AI Behavior Tree
-)
-[#ai-cover-user](
-AI Cover User
-)
-[#ai-faction](
-AI Faction
-)
-[#ai-listener](
-AI Listener
-)
-[#ai-navigation-agent](
-AI Navigation Agent
-)
-[#ai-navigation-markup-shape](
-AI Navigation Markup Shape
-)
-[#ai-observable](
-AI Observable
-)
-[#ai-observer](
-AI Observer
-)
+[AI Behavior Tree](#ai-behavior-tree)
+[AI Cover User](#ai-cover-user)
+[AI Faction](#ai-faction)
+[AI Listener](#ai-listener)
+[AI Navigation Agent](#ai-navigation-agent)
+[AI Navigation Markup Shape](#ai-navigation-markup-shape)
+[AI Observable](#ai-observable)
+[AI Observer](#ai-observer)

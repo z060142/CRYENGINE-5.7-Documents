@@ -14,12 +14,8 @@ This article will explain how to collect memory information from a running CRYEN
 
 Chapters:
 
-[#offline-recording-of-memory-information](
-Offline Recording of Memory Information
-)
-[#offline-recording-on-xbox-one](
-Offline Recording on Xbox One
-)
+[Offline Recording of Memory Information](#offline-recording-of-memory-information)
+[Offline Recording on Xbox One](#offline-recording-on-xbox-one)
 
 ##
 Offline Recording of Memory Information
@@ -112,9 +108,7 @@ memReplayStop
 
 -
 Go to the debugger and save a
-[http://msdn.microsoft.com/en-us/library/d5zhxt22.aspx](
-core dump
-)
+[core dump](http://msdn.microsoft.com/en-us/library/d5zhxt22.aspx)
  (without heap) -
 **
 *.dmp

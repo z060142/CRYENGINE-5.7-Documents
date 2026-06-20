@@ -180,9 +180,7 @@ CryDesigner
 New
 **
 : Added the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/18383153](
-Cube Editor
-)
+[Cube Editor](/docs/static/engines/cryengine-3/categories/1114113/pages/18383153)
 .
 
 -

@@ -13,15 +13,11 @@ Introduction
 This tutorial concentrates on the Point Light Component and serves as an introduction to its use and to some of its features. The Point Light Component emits light in all directions from the Entity and in the real world, it can be compared to a light bulb.
 
 Before attempting this tutorial we recommend that you read the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966029](
-Entity Components (From Engine Version 5.6)
-)
+[Entity Components (From Engine Version 5.6)](../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)
  documentation. Doing so will give you a much better understanding of the concepts behind CRYENGINE's Entity Components, furthermore, the documentation can be used as a reference guide in regard to the various attributes/parameters that relate to each of the available Components.
 
 Different methods can be used to create a new Entity. For more information see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966282](
-Creating an Entity
-)
+[Creating an Entity](../../../Entities%20and%20Tools/Entities%20Overview/Creating%20an%20Entity.md)
  documentation.
 
 ##
@@ -104,7 +100,7 @@ up
 
 into the air.
 
-[Image: /docs/static/attachments/44967782]
+![Image](https://www.cryengine.com/docs/static/attachments/44967782)
 
 *
 Adding a point light component to the level
@@ -317,8 +313,8 @@ outside
 Changing the Attenuation Bulb Size. The brightness within the 8m Attenuation Bulb Size is completely uniform, followed by rapid falloff from 8m to the 10m limit of the light set by the radius property.
 *
 
-[Image: /docs/static/attachments/44967783]
-[Image: /docs/static/attachments/44967781]
+![Image](https://www.cryengine.com/docs/static/attachments/44967783)
+![Image](https://www.cryengine.com/docs/static/attachments/44967781)
 
 *
 Changing the light color and intensity. You can also see the falloff in intensity within the 10m radius
@@ -334,9 +330,7 @@ Animations
  property. Many pre-programmed animations are supplied, including various speeds of pulsing, flickering, varying color. Some of these mimic flickering firelight, for example. The "Speed" attribute will change the playback speed of the animation. For example, light styles #36 and 39 work well to simulate flickering fire; 36 varies the brightness of the light to a greater degree.
 
 If you want to set up custom animations, you can either animate their properties using
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849263](
-Track View
-)
+[Track View](../../../Editor%20Tools/Track%20View.md)
 , or extract and edit the
 **
 Shaders\
@@ -355,13 +349,9 @@ engine\shaders.pak\Shaders\HWScripts\CryFX
 .
 
 You can get more information on shaders in the technical documentation
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306637](
-here
-)
+[here](../../../../API%20Reference/CRYENGINE%20Engine%20Code/Engine%20Modules/Rendering%20Modules/Shaders.md)
 . You can also view a video tutorial on modifying shaders on our YouTube channel
-[https://www.youtube.com/watch?v=FuRhCPQar0w](
-here
-)
+[here](https://www.youtube.com/watch?v=FuRhCPQar0w)
 .
 
 ##
@@ -423,7 +413,7 @@ not even across the entire width and height of the area light
 **
  (a 5x5m rectangle in this case), as seen in the image below. It is not realistic if used this way.
 
-[Image: /docs/static/attachments/44967851]
+![Image](https://www.cryengine.com/docs/static/attachments/44967851)
 
 *
 Incorrect
@@ -432,7 +422,7 @@ Incorrect
 
 In order to make an area light behave correctly and have even luminosity across its entire surface, the Attenuation Bulb Size must be equal to (or greater than) the widest dimension of the area light (width or height). The example below illustrate this - the light is completely even across the entire 5x5m area light rectangle shape because Attenuation Bulb Size has been changed to 5m.
 
-[Image: /docs/static/attachments/44967852]
+![Image](https://www.cryengine.com/docs/static/attachments/44967852)
 
 *
 Correct setup for an Area Light, with Attenuation Bulb Size matching the Shape size
@@ -448,89 +438,51 @@ Texture
 **
 ). In the example below, we've assigned a texture from the GameSDK assets (textures/lights/scatter.dds), which looks like this:
 
-[Image: /docs/static/attachments/44967845]
+![Image](https://www.cryengine.com/docs/static/attachments/44967845)
 
 The texture provides some organic imperfections to break up the even wash of light from a light with no texture. You'll notice that the shiny metal sphere reflects the circular texture, even though it's projected through a rectangular area light shape. You can see the result below. For information on creating your own projection textures, see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966009](
-Tutorial - Projector Light Component
-)
+[Tutorial - Projector Light Component](Tutorial%20-%20Projector%20Light%20Component.md)
  page.
 
 (Note that in the image below, the specular highlights on the sphere come from the blue backlight and the moon hanging above the scene out of view.)
 
-[Image: /docs/static/attachments/44967844]
+![Image](https://www.cryengine.com/docs/static/attachments/44967844)
 
 ##
 Related Topics
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966009](
-Tutorial - Projector Light Component
-)
+[Tutorial - Projector Light Component](Tutorial%20-%20Projector%20Light%20Component.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215326](
-Volumetric Fog
-)
+[Volumetric Fog](../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Volumetric%20Fog.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869891](
-Clip Volumes
-)
+[Clip Volumes](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Clip%20Volume.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Areas
-)
+[Vis Areas](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Vis%20Area.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868680](
-Optical Flare System
-)
+[Optical Flare System](../../../Editor%20Tools/Lens%20Flare%20Editor/Optical%20Flare%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869088](
-Lens Flare Editor
-)
+[Lens Flare Editor](../../../Editor%20Tools/Lens%20Flare%20Editor.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535599](
-Global Illumination (SVOGI)
-)
+[Global Illumination (SVOGI)](../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Voxel-Based%20Global%20Illumination%20(SVOGI).md)
 
 -
-[/docs/static/engines/cryengine-3/categories/1114113/pages/19380385](
-Shadows
-)
+[Shadows](/docs/static/engines/cryengine-3/categories/1114113/pages/19380385)
 
 -
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310742](
-CryTif Plug-In
-)
-[#introduction](
-Introduction
-)
-[#creating-the-point-light](
-Creating the Point Light
-)
-[#setting-core-light-properties](
-Setting Core Light Properties
-)
-[#enabling-shadows](
-Enabling Shadows
-)
-[#controlling-falloff](
-Controlling Falloff
-)
-[#understanding-attenuation-bulb-size](
-Understanding Attenuation Bulb Size
-)
-[#animating-light-color-and-brightness](
-Animating Light Color and Brightness
-)
-[#setting-up-an-area-light](
-Setting Up an Area Light
-)
-[#related-topics](
-Related Topics
-)
+[CryTif Plug-In](/docs/static/engines/cryengine-3/categories/1114113/pages/1310742)
+[Introduction](#introduction)
+[Creating the Point Light](#creating-the-point-light)
+[Setting Core Light Properties](#setting-core-light-properties)
+[Enabling Shadows](#enabling-shadows)
+[Controlling Falloff](#controlling-falloff)
+[Understanding Attenuation Bulb Size](#understanding-attenuation-bulb-size)
+[Animating Light Color and Brightness](#animating-light-color-and-brightness)
+[Setting Up an Area Light](#setting-up-an-area-light)
+[Related Topics](#related-topics)

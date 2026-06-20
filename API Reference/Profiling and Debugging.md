@@ -6,10 +6,10 @@
 
 ## Child Pages
 
-- [Memory Profiling](Profiling and Debugging/Memory Profiling.md)
-- [Graphics Debugging](Profiling and Debugging/Graphics Debugging.md)
-- [Loadtime Profiling](Profiling and Debugging/Loadtime Profiling.md)
-- [Performance Profiling](Profiling and Debugging/Performance Profiling.md)
+- [Memory Profiling](Profiling%20and%20Debugging/Memory%20Profiling.md)
+- [Graphics Debugging](Profiling%20and%20Debugging/Graphics%20Debugging.md)
+- [Loadtime Profiling](Profiling%20and%20Debugging/Loadtime%20Profiling.md)
+- [Performance Profiling](Profiling%20and%20Debugging/Performance%20Profiling.md)
 
 ## Content
 
@@ -21,24 +21,12 @@ This article aims to showcase a set of common utilities that can be used to debu
 ##
 Table of Contents
 
-[#profiling](
-Profiling
-)
-[#drawing-physics-helpers](
-Drawing Physics Helpers
-)
-[#drawing-debug-helpers-per-frame](
-Drawing Debug Helpers per Frame
-)
-[#drawing-persistent-debug-helpers](
-Drawing Persistent Debug Helpers
-)
-[#related-cvars](
-Related CVars
-)
-[#conclusion](
-Conclusion
-)
+[Profiling](#profiling)
+[Drawing Physics Helpers](#drawing-physics-helpers)
+[Drawing Debug Helpers per Frame](#drawing-debug-helpers-per-frame)
+[Drawing Persistent Debug Helpers](#drawing-persistent-debug-helpers)
+[Related CVars](#related-cvars)
+[Conclusion](#conclusion)
 
 ##
 Profiling
@@ -50,7 +38,7 @@ Graphics Performance
 
 For a simple view of current frame performance, enter "r_Profiler 1" into the console, resulting in the view below:
 
-[Image: /docs/static/attachments/29927081]
+![Image](https://www.cryengine.com/docs/static/attachments/29927081)
 
 You can specify a target FPS (
 r_profilerTargetFPS 30)
@@ -60,30 +48,24 @@ This overview gives information on what the Main thread (CPU), Render thread (CP
 
 In addition, "r_Profiler 2" can be enabled to get much more detailed information, giving information on what exactly is causing issues in your scene:
 
-[Image: /docs/static/attachments/29927082]
+![Image](https://www.cryengine.com/docs/static/attachments/29927082)
 
 More detailed graphics profiling and debugging can be measured using the Renderdoc tool described
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216308](
-here
-)
+[here](Profiling%20and%20Debugging/Graphics%20Debugging.md)
 .
 
 ##
 Load time
 
 The boot profiler allows for profiling time it takes to start the engine, as well as profiling the loading time of levels. For more information, see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216301](
-Loadtime Profiling
-)
+[Loadtime Profiling](Profiling%20and%20Debugging/Loadtime%20Profiling.md)
 .
 
 ##
 Memory usage
 
 The MemReplay tool allows for tracking memory usage within the engine, in order to find memory usage issues and leaks. For more information, see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216310](
-Memory Profiling
-)
+[Memory Profiling](Profiling%20and%20Debugging/Memory%20Profiling.md)
 .
 
 ##
@@ -92,9 +74,7 @@ CPU Performance
 CRYENGINE exposes several helpers that track the timing of critical functions in the engine.
 
 To see more detailed profiling stats, use the external Brofiler profiling tool referenced in
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216304](
-Performance Profiling
-)
+[Performance Profiling](Profiling%20and%20Debugging/Performance%20Profiling.md)
 .
 
 ##
@@ -106,7 +86,7 @@ p_draw_helpers
 **
  CVar. This value can be set to 1 in order to draw the most common physical types:
 
-[Image: /docs/static/attachments/29927036]
+![Image](https://www.cryengine.com/docs/static/attachments/29927036)
 
 Otherwise, more fine grained tweaking can be accomplishing by combining
 **
@@ -138,7 +118,7 @@ p_draw_helpers s_g
 
 This results in only static geometry being drawn:
 
-[Image: /docs/static/attachments/29927037]
+![Image](https://www.cryengine.com/docs/static/attachments/29927037)
 
 Multiple types can be used at the same time, for example:
 
@@ -152,7 +132,7 @@ p_draw_helpers st_gb
 
 Will only draw static and terrain entity types, and display their geometry as well as bounding boxes:
 
-[Image: /docs/static/attachments/29927038]
+![Image](https://www.cryengine.com/docs/static/attachments/29927038)
 
 See the full list of types below:
 
@@ -264,19 +244,15 @@ p_draw_helpers 1
 **
  - giving the view below where we can see the state of the server world:
 
-[Image: /docs/static/attachments/29927080]
+![Image](https://www.cryengine.com/docs/static/attachments/29927080)
 
 ##
 Drawing Debug Helpers per Frame
 
 The renderer exposes the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797291](
-IRenderAuxGeom
-)
+[IRenderAuxGeom](/docs/static/engines/cryengine-5/categories/28704770/pages/29797291)
  interface to support drawing rudimentary geometry, most commonly for debug purposes. Drawing using the auxiliary renderer is quite simple, and requires first calling
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797291](
-IRenderAuxGeom::SetRenderFlags
-)
+[IRenderAuxGeom::SetRenderFlags](/docs/static/engines/cryengine-5/categories/28704770/pages/29797291)
  in order to set the rendering state - and then invoking one or more of the IRenderAuxGeom::Draw* functions, seen in the API reference.
 
 For example:
@@ -298,15 +274,11 @@ Note that auxiliary geometry has to be rendered every frame in order to be rende
 Drawing Persistent Debug Helpers
 
 The
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797327](
-IPersistantDebug
-)
+[IPersistantDebug](/docs/static/engines/cryengine-5/categories/28704770/pages/29797327)
  interface can be used to draw debug helpers persistently, specifying a time out and having them drawn until the timer expires.
 
 Before drawing can occur, we have to call the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797327](
-IPersistantDebug::Begin
-)
+[IPersistantDebug::Begin](/docs/static/engines/cryengine-5/categories/28704770/pages/29797327)
  function, after which we can call any number of the IPersistantDebug::Add* functions. For example to draw a red sphere for 60 seconds:
 
 ```
@@ -347,11 +319,7 @@ Conclusion
 This concludes the article on Debugging Utilities, you may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791867](
-Console
-)
+[Console](_Console.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26874879](
-Filesystem
-)
+[Filesystem](Filesystem_.md)

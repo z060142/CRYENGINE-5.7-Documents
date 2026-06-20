@@ -7,11 +7,9 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933233]
+![Image](https://www.cryengine.com/docs/static/attachments/29933233)
 
-[https://www.cryengine.com/get-cryengine/memberships](
-[Image: /docs/static/attachments/51347609]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/51347609)](https://www.cryengine.com/get-cryengine/memberships)
 
 ##
 Overview
@@ -24,25 +22,17 @@ Cloth simulation is generally an expensive process. To reduce performance impact
 Separation of render and simulation mesh for cloth simulation
 **
 
-[Image: /docs/static/attachments/51347610]
+![Image](https://www.cryengine.com/docs/static/attachments/51347610)
 
 A homogeneous edge flow improves plausibility.
 
 ##
 Chapters:
 
-[#chapters](
-Chapters:
-)
-[#best-practices](
-Best Practices
-)
-[#usage](
-Usage
-)
-[#time-stepping](
-Time-stepping
-)
+[Chapters:](#chapters)
+[Best Practices](#best-practices)
+[Usage](#usage)
+[Time-stepping](#time-stepping)
 
 -
 **
@@ -123,7 +113,7 @@ Simulation of the end of torn trousers
 
 *
 
-[Image: /docs/static/attachments/51347611]
+![Image](https://www.cryengine.com/docs/static/attachments/51347611)
 *
 
 In this case, the whole trousers are skinned, only the end is simulated/animated with a few pendulum simulations.
@@ -162,7 +152,7 @@ In computer graphics, cloth behavior is modeled using three forces: stretch, she
 Stretch, shear and bend forces
 **
 
-[Image: /docs/static/attachments/51347612]
+![Image](https://www.cryengine.com/docs/static/attachments/51347612)
 
 ##
 Time-stepping
@@ -211,7 +201,7 @@ Per frame several sub-steps are executed - whereas each sub-steps contains sever
 
 *
 *
-[Image: /docs/static/attachments/51347613]
+![Image](https://www.cryengine.com/docs/static/attachments/51347613)
 *
 
 *
@@ -226,21 +216,15 @@ Related Pages
 For more information on how to use VCloth, check the following pages:
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530837](
-How To - Export VCloth from Maya to CRYENGINE
-)
+[How To - Export VCloth from Maya to CRYENGINE](../../../Physics/VCloth%202.0/How%20To%20-%20Export%20VCloth%20from%20Maya%20to%20CRYENGINE.md)
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849282#CharacterTool-PropertiesPanel-VCloth2Attachment](
-VCloth 2.0 properties
-)
+[VCloth 2.0 properties](../../../Editor%20Tools/Animation%20Tab/Character%20Tool/Character%20Tool%20-%20Properties%20Panel.md#CharacterTool-PropertiesPanel-VCloth2Attachment)
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530479](
-Tutorial - VCloth 2.0 Setup
-)
+[Tutorial - VCloth 2.0 Setup](../../../Tutorials/Animation%20and%20Characters/Character%20Tool%20and%20Pipeline/Tutorial%20-%20VCloth%202.0%20Setup.md)
 **
 
 Make sure to load a level, or the VCloth attachment may not render properly.

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/53543055]
+![Image](https://www.cryengine.com/docs/static/attachments/53543055)
 
 ##
 Overview
@@ -23,7 +23,7 @@ Audio Trigger Spot
 **
 triggers an event on a specific position. This position can be automatically randomized from the entity position on each axis and/or with time delays.
 
-[Image: /docs/static/attachments/53543054]
+![Image](https://www.cryengine.com/docs/static/attachments/53543054)
 
  Property
  |
@@ -281,7 +281,7 @@ Trigger Rate
 
  |
 
-[Image: /docs/static/attachments/53543053]
+![Image](https://www.cryengine.com/docs/static/attachments/53543053)
 
 Node Input
  |
@@ -358,13 +358,11 @@ Audio Area Ambience
 Examples of this setup can be found in the CRYENGINE Sandbox Editor showcase levels.
 
 To learn how to set up ambient sounds in a level, take a look at the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964884](
-Audio & Ambience
-)
+[Audio & Ambience](Audio%20%26%20Ambience.md)
  page
 .
 
-[Image: /docs/static/attachments/53543052]
+![Image](https://www.cryengine.com/docs/static/attachments/53543052)
 
 Property
 
@@ -455,7 +453,7 @@ Trigger Areas On Move
 Allows the ATS to receive updates from the Area Management System. Useful, for example, when entering an area that is linked to an environment to apply those environment values on this ATS.
  |
 
-[Image: /docs/static/attachments/53543051]
+![Image](https://www.cryengine.com/docs/static/attachments/53543051)
 
 Node Input
  |
@@ -554,12 +552,10 @@ Audio Area Entity
 .
 
 To learn how to set up ambient sounds in a level then take a look at the following documentation:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964884](
-Ambiences
-)
+[Ambiences](Audio%20%26%20Ambience.md)
 .
 
-[Image: /docs/static/attachments/53543050]
+![Image](https://www.cryengine.com/docs/static/attachments/53543050)
 
 Property
  |
@@ -682,7 +678,7 @@ Trigger Areas On Move
 Allows the ATS to receive updates from the Area Management System. Useful, for example, when entering an area that is linked to an environment to apply those environment values on this ATS.
  |
 
-[Image: /docs/static/attachments/53543049]
+![Image](https://www.cryengine.com/docs/static/attachments/53543049)
 
 Flownode Input
  |
@@ -740,7 +736,7 @@ Area Solid
 **
 . The sound is randomly triggered and positioned in a radius around the listener, provided that they are inside of the connected area.
 
-[Image: /docs/static/attachments/53543048]
+![Image](https://www.cryengine.com/docs/static/attachments/53543048)
 
 Property
  |
@@ -875,7 +871,7 @@ Trigger Areas On Move
 Allows the ATS to receive updates from the Area Management System. Useful, for example, when entering an area that is linked to an environment to apply those environment values on this ATS.
  |
 
-[Image: /docs/static/attachments/53543047]
+![Image](https://www.cryengine.com/docs/static/attachments/53543047)
 
 Flownode Input
 
@@ -911,7 +907,7 @@ Preload
 **
 Flow Graph node can load and unload a preload request to optimize memory consumption.
 
-[Image: /docs/static/attachments/53543057]
+![Image](https://www.cryengine.com/docs/static/attachments/53543057)
 
 Node Input
 
@@ -1000,7 +996,7 @@ Name
 **
  input will change the parameters of all Entities.
 
-[Image: /docs/static/attachments/53543046]
+![Image](https://www.cryengine.com/docs/static/attachments/53543046)
 
 Node Input
 
@@ -1075,7 +1071,7 @@ SwitchState
 **
 Flow Graph node is used to to set an audio Switch State.
 
-[Image: /docs/static/attachments/53543045]
+![Image](https://www.cryengine.com/docs/static/attachments/53543045)
 
 Node Input
 
@@ -1153,7 +1149,7 @@ Trigger
 **
 Flow Graph node simply triggers events.
 
-[Image: /docs/static/attachments/25035127]
+![Image](https://www.cryengine.com/docs/static/attachments/25035127)
 
 Node Input
 
@@ -1250,7 +1246,7 @@ Audio:Trigger
 **
  node; but in addition to its main function, it also lets the user to choose whether to get callbacks from the middleware or not.
 
-[Image: /docs/static/attachments/53543060]
+![Image](https://www.cryengine.com/docs/static/attachments/53543060)
 
 Node Input
  |
@@ -1450,30 +1446,12 @@ The
 On User Marker
 **
  requires the user to add a destination marker in the FMOD event.
-[#audio-trigger-spot](
-Audio Trigger Spot
-)
-[#audio-area-entity](
-Audio Area Entity
-)
-[#audio-area-ambience](
-Audio Area Ambience
-)
-[#audio-area-random](
-Audio Area Random
-)
-[#audiopreload-flow-graph-node](
-Audio:Preload Flow Graph Node
-)
-[#audioparameter-flow-graph-node](
-Audio:Parameter Flow Graph Node
-)
-[#audioswitchstate-flow-graph-node](
-Audio:SwitchState Flow Graph Node
-)
-[#audiotrigger-flow-graph-node](
-Audio:Trigger Flow Graph Node
-)
-[#audio-triggerwithcallbacks-flow-graph-node](
-Audio: TriggerWithCallbacks Flow Graph Node
-)
+[Audio Trigger Spot](#audio-trigger-spot)
+[Audio Area Entity](#audio-area-entity)
+[Audio Area Ambience](#audio-area-ambience)
+[Audio Area Random](#audio-area-random)
+[Audio:Preload Flow Graph Node](#audiopreload-flow-graph-node)
+[Audio:Parameter Flow Graph Node](#audioparameter-flow-graph-node)
+[Audio:SwitchState Flow Graph Node](#audioswitchstate-flow-graph-node)
+[Audio:Trigger Flow Graph Node](#audiotrigger-flow-graph-node)
+[Audio: TriggerWithCallbacks Flow Graph Node](#audio-triggerwithcallbacks-flow-graph-node)

@@ -11,30 +11,22 @@
 Overview
 
 This article explains how to start investigating a MemReplay log file. Please refer to
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306658](
-Getting Started with MemReplay
-)
+[Getting Started with MemReplay](Getting%20Started%20with%20MemReplay.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306659](
-Setup and Loading data with MemReplay Tool
-)
+[Setup and Loading data with MemReplay Tool](Setup%20and%20Loading%20data%20with%20MemReplay%20Tool.md)
  if you have not yet successfully loaded a zmrl file.
 
 Chapters:
 
-[#usage-screen](
-Usage Screen
-)
-[#tracing-memory](
-Tracing Memory
-)
+[Usage Screen](#usage-screen)
+[Tracing Memory](#tracing-memory)
 
 ##
 Usage Screen
 
 If you have loaded a zmrl file into the MemReplay Tool you will see something similar to the following screenshot.
 
-[Image: /docs/static/attachments/26964616]
+![Image](https://www.cryengine.com/docs/static/attachments/26964616)
 
 The example log file which has been loaded here is showing all the allocations for life cycle:
 
@@ -158,7 +150,7 @@ By Frame
 **
  window.
 
-[Image: /docs/static/attachments/26964617]
+![Image](https://www.cryengine.com/docs/static/attachments/26964617)
 
 In the top bar, press the
 **
@@ -170,7 +162,7 @@ view selection details
 *
 .
 
-[Image: /docs/static/attachments/26964618]
+![Image](https://www.cryengine.com/docs/static/attachments/26964618)
 
 Then press
 **
@@ -183,11 +175,11 @@ Alloc Ev Range
 **
  is representing the actual selection and can be adjusted if required.
 
-[Image: /docs/static/attachments/26964619]
+![Image](https://www.cryengine.com/docs/static/attachments/26964619)
 
 This opens a new tab which looks similar to the one in the following screenshot. By clicking on the green memory block, the callstack on the left is updated.
 
-[Image: /docs/static/attachments/26964620]
+![Image](https://www.cryengine.com/docs/static/attachments/26964620)
 
 In this example the memory block and callstack reveal that
 **
@@ -205,7 +197,7 @@ Code
 **
  tab at the bottom shows you the actual position inside code.
 
-[Image: /docs/static/attachments/26964621]
+![Image](https://www.cryengine.com/docs/static/attachments/26964621)
 
 Pressing the
 **
@@ -223,7 +215,7 @@ context tree
 **
 .
 
-[Image: /docs/static/attachments/26964622]
+![Image](https://www.cryengine.com/docs/static/attachments/26964622)
 
 This gives a summary of the items which together form the memory block you have selected.
 
@@ -237,7 +229,7 @@ foam_tiled2.dds
 *
  and others.
 
-[Image: /docs/static/attachments/26964623]
+![Image](https://www.cryengine.com/docs/static/attachments/26964623)
 
 Context tree information can programmatically be added by using macros
 **
@@ -258,4 +250,4 @@ Build context trees
 **
 . If no area is selected, then it will be generated for the complete life cycle of the capture log.
 
-[Image: /docs/static/attachments/26964634]
+![Image](https://www.cryengine.com/docs/static/attachments/26964634)

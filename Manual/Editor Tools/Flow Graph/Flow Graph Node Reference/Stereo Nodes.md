@@ -12,7 +12,7 @@ ReadStereoParameters
 
 Used to read the HUD stereo display parameters.
 
-[Image: /docs/static/attachments/29687997]
+![Image](https://www.cryengine.com/docs/static/attachments/29687997)
 
 **
 Inputs
@@ -95,7 +95,7 @@ StereoParameters
 
 Used to output the HUD stereo display parameters.
 
-[Image: /docs/static/attachments/29687996]
+![Image](https://www.cryengine.com/docs/static/attachments/29687996)
 
 **
 Inputs
@@ -209,9 +209,5 @@ Any
 Outputs when interpolation has completed
  |
 
-[#readstereoparameters](
-ReadStereoParameters
-)
-[#stereoparameters](
-StereoParameters
-)
+[ReadStereoParameters](#readstereoparameters)
+[StereoParameters](#stereoparameters)

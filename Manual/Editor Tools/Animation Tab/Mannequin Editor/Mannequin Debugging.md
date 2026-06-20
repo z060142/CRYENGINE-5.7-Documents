@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934012]
+![Image](https://www.cryengine.com/docs/static/attachments/29934012)
 
 ##
 Overview
@@ -17,21 +17,11 @@ Sections
 
 Mannequin provides a couple of console variables and commands to debug the system state.
 
-[#sections](
-Sections
-)
-[#on-screen-debugging](
-On-Screen Debugging
-)
-[#saving-a-history-sequence](
-Saving a History Sequence
-)
-[#logging-fragment-requests](
-Logging Fragment Requests
-)
-[#frame-by-frame-debugging](
-Frame-by-Frame Debugging
-)
+[Sections](#sections)
+[On-Screen Debugging](#on-screen-debugging)
+[Saving a History Sequence](#saving-a-history-sequence)
+[Logging Fragment Requests](#logging-fragment-requests)
+[Frame-by-Frame Debugging](#frame-by-frame-debugging)
 
 ##
 On-Screen Debugging
@@ -61,9 +51,7 @@ Description of the On-Screen Information
 Global TagState
 
 The current
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011534#MannequinTagState-GlobalTagState](
-Global TagState
-)
+[Global TagState](/docs/static/engines/cryengine-3/categories/1114113/pages/15011534#MannequinTagState-GlobalTagState)
  is displayed in the topleft corner.
 
 ##
@@ -76,9 +64,7 @@ All the scopes are displayed in a list on the left side. Each scope contains the
 Scope
 *
 : The name of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-Scope
-)
+[Scope](Mannequin%20Concepts/Mannequin%20Scopes.md)
 .
 
 -
@@ -86,9 +72,7 @@ Scope
 Action
 *
 : The name of the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011601](
-Action
-)
+[Action](/docs/static/engines/cryengine-3/categories/1114113/pages/15011601)
  playing on the scope.
 
 -
@@ -96,21 +80,13 @@ Action
 FragmentID(Tags)
 *
 : The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-FragmentID
-)
+[FragmentID](Mannequin%20Concepts/FragmentIDs.md)
  of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-Fragment
-)
+[Fragment](Mannequin%20Concepts/Mannequin%20Fragments.md)
  playing on this scope. The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-tags
-)
+[tags](Mannequin%20Concepts/Mannequin%20Tags%20%26%20Tag%20Definitions.md)
  for this fragment are within the parentheses.
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308434](
-Fragtags
-)
+[Fragtags](Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)
 , if any, are shown surrounded by square brackets.  If no matching fragment could be found, the tags used to request the fragment are shown, see the Motion1P scope in the overview screenshot above.
 
 -
@@ -141,13 +117,9 @@ This section is grayed out if the scope is
 inactive
 *
 . This happens if the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450870](
-Scope Context
-)
+[Scope Context](Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
  it uses has no valid
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743](
-Animation Database File (ADB)
-)
+[Animation Database File (ADB)](Mannequin%20Files/Animation%20Database%20(ADB).md)
  assigned to it, or if it is invalid (for example an non-existing entity is assigned to it).
 
 ##
@@ -160,9 +132,7 @@ The top right section shows the actions which are currently pending, sorted by p
 Action
 *
 : The name of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308467](
-Action
-)
+[Action](Mannequin%20Technical%20Topics/Mannequin%20Actions.md)
  that is pending.
 
 -
@@ -170,9 +140,7 @@ Action
 FragmentID
 *
 : The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-FragmentID
-)
+[FragmentID](Mannequin%20Concepts/FragmentIDs.md)
  that this action is currently requesting.
 
 -
@@ -186,13 +154,9 @@ Priority
 Forced Scope Mask
 *
 : (after the '-', not shown in the screenshot above) The scope mask the action is forced to use, if any. By default it uses the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450861](
-ScopeMask
-)
+[ScopeMask](Mannequin%20Concepts/Mannequin%20Scopemasks.md)
  set up in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308446](
-FragmentID Editor
-)
+[FragmentID Editor](Mannequin%20FragmentID%20Editor.md)
 , but code
 *
 can
@@ -231,9 +195,7 @@ Duration: optional parameter specifying how many seconds back in time you want t
 Result
 
 The sequence is stored as a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308476](
-Sequence File (xml)
-)
+[Sequence File (xml)](Mannequin%20Files/Sequence%20File%20(xml).md)
  in the folder specified in the console variable
 *
 mn_debug_sequence
@@ -253,9 +215,7 @@ Dude_17_Apr_2012_15_12_37.xml.
 *
 
 You can load these sequences up in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-previewer](
-Mannequin Previewer
-)
+[Mannequin Previewer](../Mannequin%20Editor.md#MannequinEditor-previewer)
 .
 
 ##
@@ -287,15 +247,11 @@ Type:
 
 -
 1 to turn on debugging of all fragments started on the root scope of an action for the entity specified with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798746#MannequinDebugging-mn_debug](
-mn_debug
-)
+[mn_debug](Mannequin%20Debugging.md#MannequinDebugging-mn_debug)
 
 -
 2 to turn on debugging of all started fragments for the entity specified with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798746#MannequinDebugging-mn_debug](
-mn_debug
-)
+[mn_debug](Mannequin%20Debugging.md#MannequinDebugging-mn_debug)
 
 ##
 Result

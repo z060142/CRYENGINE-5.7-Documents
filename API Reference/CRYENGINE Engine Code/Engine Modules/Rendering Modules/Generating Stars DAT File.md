@@ -22,15 +22,9 @@ Data file: Build\Engine\EngineAssets
 Loader code file: CRESky.cpp, function CStars::LoadData
 Chapters:
 
-[#file-format](
-File Format
-)
-[#header-12-bytes](
-Header (12 bytes)
-)
-[#entry-12-bytes](
-Entry (12 bytes)
-)
+[File Format](#file-format)
+[Header (12 bytes)](#header-12-bytes)
+[Entry (12 bytes)](#entry-12-bytes)
 
 ##
 File Format

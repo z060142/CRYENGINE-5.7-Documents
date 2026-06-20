@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934003]
+![Image](https://www.cryengine.com/docs/static/attachments/29934003)
 
 ##
 Overview
@@ -17,18 +17,10 @@ Sections
 
 Shadow Proxies are a method of reducing shadow performance costs by creating a dedicated piece of (low-poly) geometry which is solely responsible for the shadow casting of that object. Shadow Proxies can also be used to alleviate shadow artifacts by giving the artist more control over which geometry casts shadows.
 
-[#sections](
-Sections
-)
-[#shadow-proxy-creation](
-Shadow Proxy Creation
-)
-[#shadow-proxy-material-setup](
-Shadow Proxy Material Setup
-)
-[#results](
-Results
-)
+[Sections](#sections)
+[Shadow Proxy Creation](#shadow-proxy-creation)
+[Shadow Proxy Material Setup](#shadow-proxy-material-setup)
+[Results](#results)
 
 ##
 Shadow Proxy Creation
@@ -40,8 +32,7 @@ The mesh itself can be created however you like, though treating it like you are
 Below you can see an example of a shadow proxy setup being used on a vegetation object which ships with the CRYENGINE SDK (Objects/natural/trees/tree_roots/na_tree_roots_c.cgf):
 
 For the RenderMesh, the triangle count is 3,969. For the Shadow Proxy mesh, it's 640 triangles. This will lead to a significant saving and the visual difference should be minimal, which you can see in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215318#ShadowProxies-Results](
-)
+[/docs/static/engines/cryengine-5/categories/23756816/pages/26215318#ShadowProxies-Results](Shadow%20Proxies.md#ShadowProxies-Results)
  section below.
 
 ##

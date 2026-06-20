@@ -12,7 +12,7 @@ AddVec3
 
 Used to output the sum of two vectors.
 
-[Image: /docs/static/attachments/29688072]
+![Image](https://www.cryengine.com/docs/static/attachments/29688072)
 
 **
 Inputs
@@ -68,7 +68,7 @@ Calculate
 
 Used to output the specified calculation between two vectors.
 
-[Image: /docs/static/attachments/29688071]
+![Image](https://www.cryengine.com/docs/static/attachments/29688071)
 
 **
 Inputs
@@ -133,7 +133,7 @@ ClampVec3
 
 Used to clamp the output range of a vector between a minimum and a maximum.
 
-[Image: /docs/static/attachments/29688070]
+![Image](https://www.cryengine.com/docs/static/attachments/29688070)
 
 **
 Inputs
@@ -198,7 +198,7 @@ CrossVec3
 
 Used to output the cross product of two vectors.
 
-[Image: /docs/static/attachments/29688069]
+![Image](https://www.cryengine.com/docs/static/attachments/29688069)
 
 **
 Inputs
@@ -254,7 +254,7 @@ DotVec3
 
 Used to output the dot product of the inputs.
 
-[Image: /docs/static/attachments/29688068]
+![Image](https://www.cryengine.com/docs/static/attachments/29688068)
 
 **
 Inputs
@@ -310,7 +310,7 @@ EqualVec3
 
 Used to trigger an output when both vectors are equal in value.
 
-[Image: /docs/static/attachments/29688067]
+![Image](https://www.cryengine.com/docs/static/attachments/29688067)
 
 **
 Inputs
@@ -366,7 +366,7 @@ FromVec3
 
 Used to output the x, y, and z values of the vector.
 
-[Image: /docs/static/attachments/29688066]
+![Image](https://www.cryengine.com/docs/static/attachments/29688066)
 
 **
 Inputs
@@ -431,7 +431,7 @@ MagnitudeVec3
 
 Used to output the magnitude (length) of the vector.
 
-[Image: /docs/static/attachments/29688065]
+![Image](https://www.cryengine.com/docs/static/attachments/29688065)
 
 **
 Inputs
@@ -478,7 +478,7 @@ MulVec3
 
 Used to output the multiplication of two vectors.
 
-[Image: /docs/static/attachments/29688064]
+![Image](https://www.cryengine.com/docs/static/attachments/29688064)
 
 **
 Inputs
@@ -534,7 +534,7 @@ NormalizeVec3
 
 Used to output the normalized value of the vector.
 
-[Image: /docs/static/attachments/29688063]
+![Image](https://www.cryengine.com/docs/static/attachments/29688063)
 
 **
 Inputs
@@ -590,7 +590,7 @@ ReciprocalVec3
 
 Used to output the reciprocal of the vector.
 
-[Image: /docs/static/attachments/29688062]
+![Image](https://www.cryengine.com/docs/static/attachments/29688062)
 
 **
 Inputs
@@ -637,7 +637,7 @@ Scalevec3
 
 Used to output a scaled value of the vector.
 
-[Image: /docs/static/attachments/29688061]
+![Image](https://www.cryengine.com/docs/static/attachments/29688061)
 
 **
 Inputs
@@ -693,7 +693,7 @@ SetVec3
 
 Used to output the input value when the Set input is activated.
 
-[Image: /docs/static/attachments/29688060]
+![Image](https://www.cryengine.com/docs/static/attachments/29688060)
 
 **
 Inputs
@@ -749,7 +749,7 @@ SubVec3
 
 Used to output the subtracted value of two vectors.
 
-[Image: /docs/static/attachments/29688059]
+![Image](https://www.cryengine.com/docs/static/attachments/29688059)
 
 **
 Inputs
@@ -805,7 +805,7 @@ ToVec3
 
 Used to output three floating point values to a vector.
 
-[Image: /docs/static/attachments/29688058]
+![Image](https://www.cryengine.com/docs/static/attachments/29688058)
 
 **
 Inputs
@@ -861,48 +861,18 @@ Vec3
 Vector output
  |
 
-[#addvec3](
-AddVec3
-)
-[#calculate](
-Calculate
-)
-[#clampvec3](
-ClampVec3
-)
-[#crossvec3](
-CrossVec3
-)
-[#dotvec3](
-DotVec3
-)
-[#equalvec3](
-EqualVec3
-)
-[#fromvec3](
-FromVec3
-)
-[#magnitudevec3](
-MagnitudeVec3
-)
-[#mulvec3](
-MulVec3
-)
-[#normalizevec3](
-NormalizeVec3
-)
-[#reciprocalvec3](
-ReciprocalVec3
-)
-[#scalevec3](
-Scalevec3
-)
-[#setvec3](
-SetVec3
-)
-[#subvec3](
-SubVec3
-)
-[#tovec3](
-ToVec3
-)
+[AddVec3](#addvec3)
+[Calculate](#calculate)
+[ClampVec3](#clampvec3)
+[CrossVec3](#crossvec3)
+[DotVec3](#dotvec3)
+[EqualVec3](#equalvec3)
+[FromVec3](#fromvec3)
+[MagnitudeVec3](#magnitudevec3)
+[MulVec3](#mulvec3)
+[NormalizeVec3](#normalizevec3)
+[ReciprocalVec3](#reciprocalvec3)
+[Scalevec3](#scalevec3)
+[SetVec3](#setvec3)
+[SubVec3](#subvec3)
+[ToVec3](#tovec3)

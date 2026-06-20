@@ -15,9 +15,7 @@ Tutorial Files
 
 If you want some files for reference, please download and unzip the tutorial files as described on
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959301](
-this page
-)
+[this page](../Tutorial%20-%20Jiggle%20Bones.md)
 **
 .
 
@@ -29,24 +27,16 @@ Before you continue with this tutorial, make sure to have read and understood th
 -
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963469](
-How to Install CryMaxTools
-)
+[How to Install CryMaxTools](../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-The Basic CRYENGINE 3dsMax Workflow
-)
+[The Basic CRYENGINE 3dsMax Workflow](../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-3dsMax Unit Scale to Match up With CRYENGINE Unit System
-)
+[3dsMax Unit Scale to Match up With CRYENGINE Unit System](../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Setting Up the 3ds Max Scene and Exporting to CRYENGINE
@@ -143,7 +133,7 @@ File: ponytail_skeleton_start.max
 *
 )
 
-[Image: /docs/static/attachments/25521848]
+![Image](https://www.cryengine.com/docs/static/attachments/25521848)
 
 *
 Pic1: A clean named bone hierarchy
@@ -158,7 +148,7 @@ File: ponytail_skeleton_step01.max
 *
 )
 
-[Image: /docs/static/attachments/25521849]
+![Image](https://www.cryengine.com/docs/static/attachments/25521849)
 
 *
 Pic2: Image showing the pony tail hierarchy, with a custom made tripod helper objects
@@ -177,7 +167,7 @@ File: ponytail_skeleton_step02.max
 *
 )
 
-[Image: /docs/static/attachments/25521850]
+![Image](https://www.cryengine.com/docs/static/attachments/25521850)
 
 *
 Pic3: Shown are the creation parameters for the dummy pony tail geometry. Nothing to show off your amazing modeling skills ;-) !
@@ -190,9 +180,9 @@ II. Creating a simplified target (primary) skeleton to be extended by the pony t
 We want to keep our primary skeleton as abstract as possible. Create 3 objects: a root, a pelvis and a head bone object. Rename the bone objects and orient them to the sample scene / image shown below. We created some tripod helper objects for you to see their final local orientation.
 
 The root of any skinned hierarchy must match the default world orientation. (Go to Top View, the positive X-axis must point to the right, the positive Y-axis must point to the top.)
-[Image: /docs/static/attachments/24150908]
+![Image](https://www.cryengine.com/docs/static/attachments/24150908)
 
-[Image: /docs/static/attachments/24150910]
+![Image](https://www.cryengine.com/docs/static/attachments/24150910)
 
 *
 Pic4a & b: Root matching the default world orientation before export
@@ -209,7 +199,7 @@ File: ponytail_skeleton_step03.max
 *
 )
 
-[Image: /docs/static/attachments/24004015]
+![Image](https://www.cryengine.com/docs/static/attachments/24004015)
 
 *
 Pic5: Primary / base skeleton for the pony tail to be attached to. The dummy triangle mesh is also shown
@@ -225,7 +215,7 @@ File: ponytail_skeleton_step03.max
 )
 
 *
-[Image: /docs/static/attachments/24004026]
+![Image](https://www.cryengine.com/docs/static/attachments/24004026)
 
 Pic6: Skinned triangle dummy mesh as CRYENGINE CHR object
 
@@ -243,7 +233,7 @@ Pic6: Skinned triangle dummy mesh as CRYENGINE CHR object
 *
 *
 *
-[Image: /docs/static/attachments/24004029]
+![Image](https://www.cryengine.com/docs/static/attachments/24004029)
 
 Pic7: Export the base skeleton to a *.CHR file
 
@@ -264,7 +254,7 @@ File: ponytail_skeleton_CHR_export.max)
 *
 
 *
-[Image: /docs/static/attachments/24004035]
+![Image](https://www.cryengine.com/docs/static/attachments/24004035)
 
 *
 Pic8: Export a "default" animation to *.I_CAF / *.CAF file
@@ -287,7 +277,7 @@ Open the File
 -
 Select the cylinder / pony tail mesh and add a Skin modifier. Add the 7 pony tail bones to bone list of its "Skin" modifier.
 
-[Image: /docs/static/attachments/24004030]
+![Image](https://www.cryengine.com/docs/static/attachments/24004030)
 
 *
 Pic9: Skin the "pony tail" / poly cylinder mesh
@@ -301,7 +291,7 @@ Tweak the skin weights by moving the Envelopes and their radii or use 3ds Max 20
 File: ponytail_skeleton_step04.max)
 *
 
-[Image: /docs/static/attachments/24004031]
+![Image](https://www.cryengine.com/docs/static/attachments/24004031)
 
 *
 Pic10: Skin Weights
@@ -318,7 +308,7 @@ File: ponytail_skeleton_CHR_export.max
 *
  to it:
 
-[Image: /docs/static/attachments/24004032]
+![Image](https://www.cryengine.com/docs/static/attachments/24004032)
 
 *
 Pic
@@ -333,13 +323,13 @@ Since we use a "Skin Attachment" for the pony tail geometry, we must somehow tel
 
 Link up the pony tail root joint to the attachment node of the base skeleton:
 
-[Image: /docs/static/attachments/24004033]
+![Image](https://www.cryengine.com/docs/static/attachments/24004033)
 
 *
 Pic12: Link the two hierarchies together
 *
 
-[Image: /docs/static/attachments/24150939]
+![Image](https://www.cryengine.com/docs/static/attachments/24150939)
 
 *
 Pic13: Schematic view of the two linked hierarchies
@@ -354,7 +344,7 @@ File: ponytail_skeleton_SKIN_export.max
 *
 )
 
-[Image: /docs/static/attachments/24004034]
+![Image](https://www.cryengine.com/docs/static/attachments/24004034)
 
 *
 Pic14: Export File Type must be set to *.SKIN
@@ -362,16 +352,8 @@ Pic14: Export File Type must be set to *.SKIN
 
 This concludes this 3ds Max section. The next steps will be how to import the assets into CRYENGINE's Character Tool.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959430](
-[Image: /docs/static/attachments/24151097]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/24151097)](/docs/static/engines/cryengine-5/categories/23756816/pages/44959430)
 
-[#tutorial-files](
-Tutorial Files
-)
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#setting-up-the-3ds-max-scene-and-exporting-to-cryengine](
-Setting Up the 3ds Max Scene and Exporting to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Setting Up the 3ds Max Scene and Exporting to CRYENGINE](#setting-up-the-3ds-max-scene-and-exporting-to-cryengine)

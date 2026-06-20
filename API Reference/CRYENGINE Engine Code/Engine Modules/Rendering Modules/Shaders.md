@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Shader Cache](Shaders/Shader Cache.md)
-- [Shader Development Introduction](Shaders/Shader Development Introduction.md)
+- [Shader Cache](Shaders/Shader%20Cache.md)
+- [Shader Development Introduction](Shaders/Shader%20Development%20Introduction.md)
 
 ## Content
 
@@ -19,11 +19,7 @@ This section provides information for
 shader development and customization. It includes a material and pipeline overview with the Effect format, Shader Cache and Remote Shader Compiler.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306643](
-Shader Cache
-)
+[Shader Cache](Shaders/Shader%20Cache.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306638](
-Shader Development Introduction
-)
+[Shader Development Introduction](Shaders/Shader%20Development%20Introduction.md)

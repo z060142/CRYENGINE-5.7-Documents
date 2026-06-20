@@ -12,24 +12,18 @@ This article covers a detailed walk through of the steps required to successfull
 gamesdk sample project
 **
  with a custom engine cloned from GIT. Note: We will not move the gamesdk source code, but will refer to assets located in an external project folder. In addition to the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25529768](
-steps required for C++ projects
-)
+[steps required for C++ projects](/docs/static/engines/cryengine-5/categories/23756813/pages/25529768)
  you will need to:
 
 -
 Download the
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-CRYENGINE GameSDK Sample Project
-)
+[CRYENGINE GameSDK Sample Project](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
  through the CRYENGINE Launcher i.e. from
 **
 "Library/My Assets"
 **
  Note: If you have not previously downloaded the CRYENGINE GameSDK Sample Project then you will have to do this first. It can be downloaded free of charge from the CRYENGINE
-[https://www.cryengine.com/marketplace](
-Asset Database.
-)
+[Asset Database.](https://www.cryengine.com/marketplace)
  You can easily locate the path of the asset by selecting "Reveal in Explorer" from the samples drop-down list
 
 -

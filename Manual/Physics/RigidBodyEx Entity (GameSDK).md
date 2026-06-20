@@ -111,9 +111,7 @@ At the base of each set is a RigidBodyEx entity which has a
 Mass
 **
  of 4kg. We use
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048831](
-Ropes
-)
+[Ropes](/docs/static/engines/cryengine-3/categories/1114113/pages/1048831)
  with standard settings to physically connect the objects.
 
 -
@@ -133,9 +131,7 @@ In the
 center
 **
  we have the exact same setup except this time we have two balloons. This setup is able to lift the weight. Using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450587](
-Entity:Velocity
-)
+[Entity:Velocity](../Editor%20Tools/Flow%20Graph/Flow%20Graph%20Node%20Reference/Entity%20Nodes.md)
  Flow Graph node we can measure it is able to lift the object at a rate of around 4m/s.
 
 -
@@ -144,7 +140,7 @@ On the
 left
 **
  we have the same setup again but using four balloons. It can of course lift the weight and measures in at around 8m/s lift speed.
-[Image: /docs/static/attachments/21864582]
+![Image](https://www.cryengine.com/docs/static/attachments/21864582)
 
 And don't forget the hot air balloon mentioned earlier!
 
@@ -215,7 +211,7 @@ water_resistance
  of 1000. The more specific 130 value for the density allows it to sink deep into the water and then slowly climb its way back to the surface. In this case, anything less than 125 will cause the cube to continue to sink until it hits the floor, the lower the value, the faster it will sink.
 These values are all of course arbitrary because it depends on the size of your object as to how buoyant it will be. Offsetting Mass for Density will also provide slightly different reactionary results, for example.
 
-[Image: /docs/static/attachments/21864584]
+![Image](https://www.cryengine.com/docs/static/attachments/21864584)
 
 ##
 Example - Falling Rocks
@@ -239,9 +235,7 @@ Iterator:GetEntitiesInBox
  node we can find all of the RigidBodyEx entities in a specified area.
 
 We place two
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048823](
-Tagpoints
-)
+[Tagpoints](/docs/static/engines/cryengine-3/categories/1114113/pages/1048823)
  to easily figure out the minimum and maximum bounds for the "box". This "box" is the area where the node will check for the entities:
 
 Once we have our box defined and we identify all of the entities within that box, we can apply a simple
@@ -250,7 +244,7 @@ Physics:ActionImpulse
 **
  to every entity which will wake them up and allow them to physicalize.
 
-[Image: /docs/static/attachments/21863454]
+![Image](https://www.cryengine.com/docs/static/attachments/21863454)
 
 ##
 Example - Breakable Wall
@@ -258,9 +252,7 @@ Example - Breakable Wall
 For this example we're going to create a fully destructible and physicalized brick wall made from individual bricks.
 
 First thing we're going to need is a brick! So create a simple Box object (0.5m x 0.25m x 0.25m) with the Designer tool, apply a brick material of your choosing, setup the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798807](
-Texture Mapping
-)
+[Texture Mapping](/docs/static/engines/cryengine-5/categories/23756816/pages/29798807)
  and then Export to CGF. Once that is done we can add another RigidbodyEx entity and use our brick as the Model.
 
 Once you've got your RigidBodyEx brick in the world, start copy-pasting it to build up a decent sized wall. You can also do a double-brick setup (2x thickness) and then turn the end bricks 90 degrees to cap it off nicely.
@@ -303,23 +295,11 @@ p_profile=1
 
 Lastly, this wouldn't have been complete without a wrecking ball!
 
-[Image: /docs/static/attachments/21863451]
+![Image](https://www.cryengine.com/docs/static/attachments/21863451)
 
-[#adding-the-object](
-Adding The Object
-)
-[#physics-settings](
-Physics Settings
-)
-[#example-balloons](
-Example - Balloons
-)
-[#example-floating-objects](
-Example - Floating Objects
-)
-[#example-falling-rocks](
-Example - Falling Rocks
-)
-[#example-breakable-wall](
-Example - Breakable Wall
-)
+[Adding The Object](#adding-the-object)
+[Physics Settings](#physics-settings)
+[Example - Balloons](#example-balloons)
+[Example - Floating Objects](#example-floating-objects)
+[Example - Falling Rocks](#example-falling-rocks)
+[Example - Breakable Wall](#example-breakable-wall)

@@ -45,7 +45,7 @@ We can switch trees in run-time
 
 -
 We can duplicate behaviors and add small differences to them
-[Image: /docs/static/attachments/23461235]
+![Image](https://www.cryengine.com/docs/static/attachments/23461235)
 
 ##
 Before Behavior Trees: Events
@@ -61,7 +61,7 @@ We will rely on the event system (perception data, wounds received, distance to 
 
 -
 Every event will transform the agent knowledge
-[Image: /docs/static/attachments/23461240]
+![Image](https://www.cryengine.com/docs/static/attachments/23461240)
 
 ##
 Before Behavior Tress: Agent Knowledge
@@ -74,7 +74,7 @@ Must be as short and easy to read as possible
 
 -
 E. g. : The agent sees an enemy. It will receive "Enemy_Seen" event. This will change the Agent knowledge, now the flag "Can_See_Enemy" is 1
-[Image: /docs/static/attachments/23461236]
+![Image](https://www.cryengine.com/docs/static/attachments/23461236)
 
 -
 Agent knowledge is the first filter we will use to simplify world complexity
@@ -87,12 +87,12 @@ Now Behavior Tree can focus on taking decisions
 
 -
 E. g. of table numbers could be:
-[Image: /docs/static/attachments/23461232]
+![Image](https://www.cryengine.com/docs/static/attachments/23461232)
 
 ##
 The Tree: Condition Checks
 
-[Image: /docs/static/attachments/23461231]
+![Image](https://www.cryengine.com/docs/static/attachments/23461231)
 
 Condition Checks will run an expression using the agent knowledge to see if we can select this node:
 
@@ -105,7 +105,7 @@ if (Num_Friends - Num_Enemies) > 1
 ##
 The Tree: Actions
 
-[Image: /docs/static/attachments/23461237]
+![Image](https://www.cryengine.com/docs/static/attachments/23461237)
 
 -
 The Action is a piece of code (normally script code) that will be executed if this node is valid
@@ -119,7 +119,7 @@ If current node is not a leaf node, test children
 ##
 The Tree: Child Execution
 
-[Image: /docs/static/attachments/23461230]
+![Image](https://www.cryengine.com/docs/static/attachments/23461230)
 
 -
 Children execution is evaluated in order (left to right in this case) of importance
@@ -130,35 +130,35 @@ There are more ways to select children, but this one is the most common by far
 ##
 The Tree: Sample Soldier
 
-[Image: /docs/static/attachments/23461238]
+![Image](https://www.cryengine.com/docs/static/attachments/23461238)
 
 We will stop at the first leaf node that pass the condition check
 
 ##
 The Tree: Execution Example 1
 
-[Image: /docs/static/attachments/23461242]
+![Image](https://www.cryengine.com/docs/static/attachments/23461242)
 
 Game starts: tree is updated and runs the Action: Patrol, since rest of nodes were rejected
 
 ##
 The Tree: Execution Example 2
 
-[Image: /docs/static/attachments/23461244]
+![Image](https://www.cryengine.com/docs/static/attachments/23461244)
 
 Player sneaks behind the agent, but it manages to hear the player! The agent will go to melee node
 
 ##
 The Tree: Adding Complexity
 
-[Image: /docs/static/attachments/23461239]
+![Image](https://www.cryengine.com/docs/static/attachments/23461239)
 
 Game designer asks us to add a new behavior "wounded" that will drop the NPC to the ground
 
 ##
 The Tree: Adding Variations 1
 
-[Image: /docs/static/attachments/23461241]
+![Image](https://www.cryengine.com/docs/static/attachments/23461241)
 
 Now game designers asks us to add new "captain" NPC: It will give orders in and out of combat
 
@@ -188,19 +188,19 @@ Coordination: Synchronized behavior change between 2 or more agents while the ga
 
 We will place hooks on certain nodes that will be in charge of identifying an agents as a good candidate
 
-[Image: /docs/static/attachments/23461234]
+![Image](https://www.cryengine.com/docs/static/attachments/23461234)
 
 Following the previous example, we consider that agents ready to fire are good candidates for flanking
 
-[Image: /docs/static/attachments/23461233]
+![Image](https://www.cryengine.com/docs/static/attachments/23461233)
 
 If an agent happens to visit the Flank node and pass the initial condition, he will be remembered as a good candidate but rejected from Flanking
 
-[Image: /docs/static/attachments/23461229]
+![Image](https://www.cryengine.com/docs/static/attachments/23461229)
 
 When we detect that we have enough candidates to start the tactic, we will "open" the access to the tactic and re-evaluate candidate's trees
 
-[Image: /docs/static/attachments/23461228]
+![Image](https://www.cryengine.com/docs/static/attachments/23461228)
 
 ##
 Coordinating Agents: Hints
@@ -274,6 +274,4 @@ A. J. Champandard, www.aigamedev.com
 
 -
 Various authors,
-[http://www.ai-blog.net](
-www.ai-blog.net
-)
+[www.ai-blog.net](http://www.ai-blog.net)

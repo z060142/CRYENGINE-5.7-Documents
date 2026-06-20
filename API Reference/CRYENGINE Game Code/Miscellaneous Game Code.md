@@ -7,71 +7,49 @@
 
 ## Child Pages
 
-- [Feature Tests](Miscellaneous Game Code/Feature Tests.md)
-- [Flowgraph Scripting](Miscellaneous Game Code/Flowgraph Scripting.md)
-- [Game Characters](Miscellaneous Game Code/Game Characters.md)
-- [GameRules](Miscellaneous Game Code/GameRules.md)
-- [Script Entity](Miscellaneous Game Code/Script Entity.md)
-- [Setting Up Controls and Action Maps](Miscellaneous Game Code/Setting Up Controls and Action Maps.md)
-- [User Interface](Miscellaneous Game Code/User Interface.md)
-- [Vehicle Scripting](Miscellaneous Game Code/Vehicle Scripting.md)
-- [Weapon and ItemPackages](Miscellaneous Game Code/Weapon and ItemPackages.md)
-- [Adding Constraints for Animated Characters](Miscellaneous Game Code/Adding Constraints for Animated Characters.md)
-- [Steam](Miscellaneous Game Code/Steam.md)
+- [Feature Tests](Miscellaneous%20Game%20Code/Feature%20Tests.md)
+- [Flowgraph Scripting](Miscellaneous%20Game%20Code/Flowgraph%20Scripting.md)
+- [Game Characters](Miscellaneous%20Game%20Code/Game%20Characters.md)
+- [GameRules](Miscellaneous%20Game%20Code/GameRules.md)
+- [Script Entity](Miscellaneous%20Game%20Code/Script%20Entity.md)
+- [Setting Up Controls and Action Maps](Miscellaneous%20Game%20Code/Setting%20Up%20Controls%20and%20Action%20Maps.md)
+- [User Interface](Miscellaneous%20Game%20Code/User%20Interface.md)
+- [Vehicle Scripting](Miscellaneous%20Game%20Code/Vehicle%20Scripting.md)
+- [Weapon and ItemPackages](Miscellaneous%20Game%20Code/Weapon%20and%20ItemPackages.md)
+- [Adding Constraints for Animated Characters](Miscellaneous%20Game%20Code/Adding%20Constraints%20for%20Animated%20Characters.md)
+- [Steam](Miscellaneous%20Game%20Code/Steam.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25533917](
-Adding Constraints for Animated Characters
-)
+[Adding Constraints for Animated Characters](Miscellaneous%20Game%20Code/Adding%20Constraints%20for%20Animated%20Characters.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306421](
-Feature Tests
-)
+[Feature Tests](Miscellaneous%20Game%20Code/Feature%20Tests.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23309000](
-Flowgraph Scripting
-)
+[Flowgraph Scripting](Miscellaneous%20Game%20Code/Flowgraph%20Scripting.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306579](
-Game Characters
-)
+[Game Characters](Miscellaneous%20Game%20Code/Game%20Characters.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306556](
-GameRules
-)
+[GameRules](Miscellaneous%20Game%20Code/GameRules.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306590](
-Script Entity
-)
+[Script Entity](Miscellaneous%20Game%20Code/Script%20Entity.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306384](
-Setting Up Controls and Action Maps
-)
+[Setting Up Controls and Action Maps](Miscellaneous%20Game%20Code/Setting%20Up%20Controls%20and%20Action%20Maps.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306698](
-Steam
-)
+[Steam](Miscellaneous%20Game%20Code/Steam.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306532](
-User Interface
-)
+[User Interface](Miscellaneous%20Game%20Code/User%20Interface.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306517](
-Vehicle Scripting
-)
+[Vehicle Scripting](Miscellaneous%20Game%20Code/Vehicle%20Scripting.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306527](
-Weapon and ItemPackages
-)
+[Weapon and ItemPackages](Miscellaneous%20Game%20Code/Weapon%20and%20ItemPackages.md)

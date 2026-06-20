@@ -12,7 +12,7 @@ AttributeGet
 
 Returns the value of the specified Attribute.
 
-[Image: /docs/static/attachments/65438697]
+![Image](https://www.cryengine.com/docs/static/attachments/65438697)
 
 Input
  |
@@ -59,7 +59,7 @@ AttributeSet
 
 Changes the value of the specified Attribute.
 
-[Image: /docs/static/attachments/65438696]
+![Image](https://www.cryengine.com/docs/static/attachments/65438696)
 
 Input
  |
@@ -101,9 +101,5 @@ Error
 Outputs when an error occurs in the change of the Attribute's value.
  |
 
-[#attributeget](
-AttributeGet
-)
-[#attributeset](
-AttributeSet
-)
+[AttributeGet](#attributeget)
+[AttributeSet](#attributeset)

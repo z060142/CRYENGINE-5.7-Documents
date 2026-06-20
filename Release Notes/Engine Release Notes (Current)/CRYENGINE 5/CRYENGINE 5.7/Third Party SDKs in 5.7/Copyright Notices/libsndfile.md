@@ -8,9 +8,7 @@
 ## Content
 
 The source code for this library can be downloaded
-[https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/libsndfile-1.0.26.zip](
-here
-)
+[here](https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/libsndfile-1.0.26.zip)
 .
 
 ```

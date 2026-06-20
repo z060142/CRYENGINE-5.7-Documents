@@ -25,9 +25,7 @@ Starting with 3.8.4
 *
 : Refer to
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306511](
-Visual Studio Supported Versions_dup
-)
+[Visual Studio Supported Versions_dup](/docs/static/engines/cryengine-5/categories/23756813/pages/23306511)
 **
 .
 
@@ -39,15 +37,9 @@ Children:
 
 Related Pages:
 
-[#3rd-party-sdk-dependencies](
-3rd party SDK dependencies
-)
-[#solution-files](
-Solution Files
-)
-[#compilation-configurations](
-Compilation Configurations
-)
+[3rd party SDK dependencies](#3rd-party-sdk-dependencies)
+[Solution Files](#solution-files)
+[Compilation Configurations](#compilation-configurations)
 
 ##
 3rd party SDK dependencies
@@ -182,9 +174,7 @@ Starting with
 : No longer used
 
 **
-[http://www.microsoft.com/en-us/download/details.aspx?id=6812](
-Download Link
-)
+[Download Link](http://www.microsoft.com/en-us/download/details.aspx?id=6812)
 
 **
 
@@ -226,9 +216,7 @@ CRY_PROFILE_MARKERS_USE_GPA
 By default, this SDK is used.
 
 **
-[http://registrationcenter-download.intel.com/akdlm/irc_nas/4211/gpa_14.2_release_225646_windows.exe](
-Download Link
-)
+[Download Link](http://registrationcenter-download.intel.com/akdlm/irc_nas/4211/gpa_14.2_release_225646_windows.exe)
 
 **
 
@@ -590,9 +578,7 @@ Code\SDKs\AMD\AMD_Extensions
 
  |
 **
-[http://developer.amd.com/tools-and-sdks/graphics-development/amd-gpu-services-ags-library/](
-Download Link
-)
+[Download Link](http://developer.amd.com/tools-and-sdks/graphics-development/amd-gpu-services-ags-library/)
 
 **
 
@@ -601,9 +587,7 @@ Starting with 5.0.0:
 *
  The AMD_Extensions folder can be obtained within an AMD Code sample:
 **
-[http://developer.amd.com/wordpress/media/2013/05/DepthBoundsTest11_v1.0.zip](
-Download Link
-)
+[Download Link](http://developer.amd.com/wordpress/media/2013/05/DepthBoundsTest11_v1.0.zip)
 **
 
  |
@@ -628,9 +612,7 @@ Code\SDKs\NVAPI
 
  |
 **
-[https://developer.nvidia.com/nvapi](
-Download Link
-)
+[Download Link](https://developer.nvidia.com/nvapi)
 **
 
  |
@@ -715,9 +697,7 @@ XOne XDK
 *
 Please check
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306689](
-Xbox One Supported Versions
-)
+[Xbox One Supported Versions](/docs/static/engines/cryengine-5/categories/23756813/pages/23306689)
 **
 *
 **
@@ -742,9 +722,7 @@ PS4 SDK
 *
 Please check
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306679](
-PS4 SDK versions
-)
+[PS4 SDK versions](/docs/static/engines/cryengine-5/categories/23756813/pages/23306679)
 **
 *
 
@@ -766,9 +744,7 @@ PS4 Pad Support
 *
 Please check
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306679](
-PS4 SDK versions
-)
+[PS4 SDK versions](/docs/static/engines/cryengine-5/categories/23756813/pages/23306679)
 **
 *
 
@@ -904,9 +880,7 @@ Required.
 Also used by Resource Compiler.
 
 **
-[http://usa.autodesk.com/adsk/servlet/pc/item?siteID=123112&id=10775892](
-Download Link
-)
+[Download Link](http://usa.autodesk.com/adsk/servlet/pc/item?siteID=123112&id=10775892)
 
 **
 
@@ -927,19 +901,12 @@ Code\SDKs\XT_13_4
  |
 Required.
 **
-[/docs/static/engines/cryengine-5/categories/23756813](
-Note on building XT Toolkit
-)
+[Note on building XT Toolkit](/docs/static/engines/cryengine-5/categories/23756813)
 **
 .
 
 Can be purchased from
-[http://www.codejock.com/](
-**
-CodeJock
-**
-.
-)
+[CodeJock .](http://www.codejock.com/)
 
  |
 
@@ -1039,9 +1006,7 @@ Required only for FBXPlugin.
 Also used by RC.
 
 **
-[http://usa.autodesk.com/adsk/servlet/pc/item?siteID=123112&id=10775892](
-Download Link
-)
+[Download Link](http://usa.autodesk.com/adsk/servlet/pc/item?siteID=123112&id=10775892)
 
 **
 
@@ -1126,9 +1091,7 @@ Required.
 Also used by Sandbox.
 
 **
-[http://usa.autodesk.com/adsk/servlet/pc/item?siteID=123112&id=10775892](
-Download Link
-)
+[Download Link](http://usa.autodesk.com/adsk/servlet/pc/item?siteID=123112&id=10775892)
 
 **
 
@@ -1226,9 +1189,7 @@ Code\SDKs\Alembic
 Required.
 
 **
-[https://github.com/alembic/alembic/releases](
-Download Link
-)
+[Download Link](https://github.com/alembic/alembic/releases)
 **
 
  |
@@ -1256,9 +1217,7 @@ Code\SDKs\hdf5
 Required for Alembic.
 
 **
-[https://www.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8.15-patch1/src/](
-Download Link
-)
+[Download Link](https://www.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8.15-patch1/src/)
 **
 
  |
@@ -1287,9 +1246,7 @@ Required for Alembic
 .
 
 **
-[http://www.openexr.com/downloads.html](
-Download Link
-)
+[Download Link](http://www.openexr.com/downloads.html)
 
 **
 
@@ -1319,9 +1276,7 @@ Required for hdf5
 .
 
 **
-[https://www.hdfgroup.org/HDF5/release/obtain5.html#extlibs](
-Download Link
-)
+[Download Link](https://www.hdfgroup.org/HDF5/release/obtain5.html#extlibs)
 
 **
 

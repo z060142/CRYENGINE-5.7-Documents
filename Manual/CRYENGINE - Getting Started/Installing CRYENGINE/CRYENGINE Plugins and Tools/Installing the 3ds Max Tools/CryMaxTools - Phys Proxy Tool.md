@@ -22,7 +22,7 @@ First Steps
 -
 Launch the CryMaxTools, open the Model tab and navigate to the Phys Proxy Tool rollout:
 
-[Image: /docs/static/attachments/23996891]
+![Image](https://www.cryengine.com/docs/static/attachments/23996891)
 
 -
 Set the
@@ -31,7 +31,7 @@ Material ID
 **
  spinner to the number of the sub-material that you want the proxy to use:
 
-[Image: /docs/static/attachments/23996890]
+![Image](https://www.cryengine.com/docs/static/attachments/23996890)
 
 -
 Select the Objects or SubObjects that you want to create a physics proxy for.
@@ -43,7 +43,7 @@ Box
 **
  button to create proxies.
 
-[Image: /docs/static/attachments/23996889]
+![Image](https://www.cryengine.com/docs/static/attachments/23996889)
 
 ##
 Parameters and Characteristics
@@ -70,12 +70,7 @@ UDPs
 
  |
 Additional user string for the Proxy's User Defined Properties. Separate by spaces.
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308017](
-**
-See here for details
-**
-.
-)
+[See here for details .](../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Geometry%20Metadata%20(UDP).md)
 
  |
 
@@ -190,13 +185,7 @@ The tool currently does not support undo/redo, so the user will need to delete t
 -
 When working with complex objects, it's best to work with sub-object selection to create multiple proxies, see image below:
 
-[Image: /docs/static/attachments/23996892]
-[#first-steps](
-First Steps
-)
-[#parameters-and-characteristics](
-Parameters and Characteristics
-)
-[#known-limitations-and-characteristics](
-Known Limitations and Characteristics:
-)
+![Image](https://www.cryengine.com/docs/static/attachments/23996892)
+[First Steps](#first-steps)
+[Parameters and Characteristics](#parameters-and-characteristics)
+[Known Limitations and Characteristics:](#known-limitations-and-characteristics)

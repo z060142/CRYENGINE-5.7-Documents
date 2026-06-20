@@ -7,77 +7,53 @@
 
 ## Child Pages
 
-- [Asset System](Sandbox Framework/Asset System.md)
-- [Sandbox Plugins](Sandbox Framework/Sandbox Plugins.md)
-- [Creating a new editor window](Sandbox Framework/Creating a new editor window.md)
-- [Editor Command System](Sandbox Framework/Editor Command System.md)
-- [Preferences and Settings](Sandbox Framework/Preferences and Settings.md)
-- [Personalization](Sandbox Framework/Personalization.md)
-- [Serialization and Property Trees](Sandbox Framework/Serialization and Property Trees.md)
-- [Undo system](Sandbox Framework/Undo system.md)
-- [Notifications and Error Reporting](Sandbox Framework/Notifications and Error Reporting.md)
-- [Integrated Documentation](Sandbox Framework/Integrated Documentation.md)
-- [Theme, Styling and Colors](Sandbox Framework/Theme, Styling and Colors.md)
-- [Sandbox Threading API](Sandbox Framework/Sandbox Threading API.md)
+- [Asset System](Sandbox%20Framework/Asset%20System.md)
+- [Sandbox Plugins](Sandbox%20Framework/Sandbox%20Plugins.md)
+- [Creating a new editor window](Sandbox%20Framework/Creating%20a%20new%20editor%20window.md)
+- [Editor Command System](Sandbox%20Framework/Editor%20Command%20System.md)
+- [Preferences and Settings](Sandbox%20Framework/Preferences%20and%20Settings.md)
+- [Personalization](Sandbox%20Framework/Personalization.md)
+- [Serialization and Property Trees](Sandbox%20Framework/Serialization%20and%20Property%20Trees.md)
+- [Undo system](Sandbox%20Framework/Undo%20system.md)
+- [Notifications and Error Reporting](Sandbox%20Framework/Notifications%20and%20Error%20Reporting.md)
+- [Integrated Documentation](Sandbox%20Framework/Integrated%20Documentation.md)
+- [Theme, Styling and Colors](Sandbox%20Framework/Theme%2C%20Styling%20and%20Colors.md)
+- [Sandbox Threading API](Sandbox%20Framework/Sandbox%20Threading%20API.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873098](
-Creating a new editor window
-)
+[Creating a new editor window](Sandbox%20Framework/Creating%20a%20new%20editor%20window.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873096](
-Asset System
-)
+[Asset System](Sandbox%20Framework/Asset%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875812](
-Sandbox Plugins
-)
+[Sandbox Plugins](Sandbox%20Framework/Sandbox%20Plugins.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873102](
-Editor Command System
-)
+[Editor Command System](Sandbox%20Framework/Editor%20Command%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873108](
-Preferences and Settings
-)
+[Preferences and Settings](Sandbox%20Framework/Preferences%20and%20Settings.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873106](
-Personalization
-)
+[Personalization](Sandbox%20Framework/Personalization.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873112](
-Serialization and Property Trees
-)
+[Serialization and Property Trees](Sandbox%20Framework/Serialization%20and%20Property%20Trees.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873116](
-Undo system
-)
+[Undo system](Sandbox%20Framework/Undo%20system.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873104](
-Notifications and Error Reporting
-)
+[Notifications and Error Reporting](Sandbox%20Framework/Notifications%20and%20Error%20Reporting.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875311](
-Integrated Documentation
-)
+[Integrated Documentation](Sandbox%20Framework/Integrated%20Documentation.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873114](
-Theme, Styling and Colors
-)
+[Theme, Styling and Colors](Sandbox%20Framework/Theme%2C%20Styling%20and%20Colors.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873110](
-Sandbox Threading API
-)
+[Sandbox Threading API](Sandbox%20Framework/Sandbox%20Threading%20API.md)

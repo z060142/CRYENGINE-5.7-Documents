@@ -7,14 +7,14 @@
 
 ## Child Pages
 
-- [Debug Views](Profiling Overview/Debug Views.md)
-- [Debugging and Profiling Tools](Profiling Overview/Debugging and Profiling Tools.md)
-- [Profiling Quick Guide](Profiling Overview/Profiling Quick Guide.md)
-- [Debug Draw](Profiling Overview/Debug Draw.md)
-- [Job Profiling](Profiling Overview/Job Profiling.md)
-- [Physics Profiling](Profiling Overview/Physics Profiling.md)
-- [Render Stats](Profiling Overview/Render Stats.md)
-- [Worker Thread Profiling](Profiling Overview/Worker Thread Profiling.md)
+- [Debug Views](Profiling%20Overview/Debug%20Views.md)
+- [Debugging and Profiling Tools](Profiling%20Overview/Debugging%20and%20Profiling%20Tools.md)
+- [Profiling Quick Guide](Profiling%20Overview/Profiling%20Quick%20Guide.md)
+- [Debug Draw](Profiling%20Overview/Debug%20Draw.md)
+- [Job Profiling](Profiling%20Overview/Job%20Profiling.md)
+- [Physics Profiling](Profiling%20Overview/Physics%20Profiling.md)
+- [Render Stats](Profiling%20Overview/Render%20Stats.md)
+- [Worker Thread Profiling](Profiling%20Overview/Worker%20Thread%20Profiling.md)
 
 ## Content
 
@@ -24,41 +24,25 @@ Overview
 Here you can find information on debugging and profiling in CRYENGINE.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260143](
-Profiling Quick Guide
-)
+[Profiling Quick Guide](Profiling%20Overview/Profiling%20Quick%20Guide.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308528](
-Debug Draw
-)
+[Debug Draw](Profiling%20Overview/Debug%20Draw.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308523](
-Debug Views
-)
+[Debug Views](Profiling%20Overview/Debug%20Views.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868666](
-Debugging and Profiling Tools
-)
+[Debugging and Profiling Tools](Profiling%20Overview/Debugging%20and%20Profiling%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535464](
-Job Profiling
-)
+[Job Profiling](Profiling%20Overview/Job%20Profiling.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26876703](
-Physics Profiling
-)
+[Physics Profiling](Profiling%20Overview/Physics%20Profiling.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215385](
-Render Stats
-)
+[Render Stats](Profiling%20Overview/Render%20Stats.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535461](
-Worker Thread Profiling
-)
+[Worker Thread Profiling](Profiling%20Overview/Worker%20Thread%20Profiling.md)

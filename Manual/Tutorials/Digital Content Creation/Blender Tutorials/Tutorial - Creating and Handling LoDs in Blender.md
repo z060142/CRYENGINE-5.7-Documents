@@ -11,7 +11,7 @@
 Introduction
 
 In the following tutorial, you will find out how to set up LoDs for your assets using any version of Blender, as well as properly setting up the hierarchy for the best results.
-[Image: /docs/static/attachments/64290823]
+![Image](https://www.cryengine.com/docs/static/attachments/64290823)
 
 *
 LoDs in CRYENGINE
@@ -46,7 +46,7 @@ $
 **
  symbol in the name of the right geometry element, which will help us force that specific geometry element to act as a certain LoD.
 
-[Image: /docs/static/attachments/64290822]
+![Image](https://www.cryengine.com/docs/static/attachments/64290822)
 
 *
 LoDs hierarchy in FBX Importer
@@ -77,7 +77,7 @@ $proxy
 **
 .
 
-[Image: /docs/static/attachments/64290824]
+![Image](https://www.cryengine.com/docs/static/attachments/64290824)
 
 *
 LoD hierarchy in Blender
@@ -106,29 +106,16 @@ As soon as we export the
  file from Blender, we can drag it into the FBX Mesh Importer and we should already have all LoDs automatically assigned to the right geometry elements. All that’s left to do is to physicalize the proxy, generate a material for the asset and to save it in the desired location.
 
 For more information, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294](
-FBX Import Tools
-)
+[FBX Import Tools](../../../Editor%20Tools/FBX%20Import%20Tools.md)
  documentation.
 
 ##
 Video Tutorial
 
-[#introduction](
-Introduction
-)
-[#naming-scheme](
-Naming Scheme
-)
-[#hierarchy-setup](
-Hierarchy Setup
-)
-[#material-setup](
-Material Setup
-)
-[#importing-setup](
-Importing Setup
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=92XKUxfxYpM&feature=youtu.be]
+[Introduction](#introduction)
+[Naming Scheme](#naming-scheme)
+[Hierarchy Setup](#hierarchy-setup)
+[Material Setup](#material-setup)
+[Importing Setup](#importing-setup)
+[Video Tutorial](#video-tutorial)

@@ -10,41 +10,23 @@
 ##
 Overview
 
-[http://www.brofiler.com/](
-Brofiler
-)
+[Brofiler](http://www.brofiler.com/)
  is an external profiling tool developed by Vadim Slyusarev. The Author describes the tool as a "Super Lightweight C++ Profiler for Games". While other profilers often can come with a huge overhead, Brofiler focuses on finding the most expensive functions. In combination with
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306648](
-Statoscope
-)
+[Statoscope](../CRYENGINE%20Tools/Statoscope.md)
  bottlenecks can be pinpointed from a high level perspective.
 
 Please refer to the
-[https://github.com/bombomby/brofiler/wiki](
-Author's tutorial
-)
+[Author's tutorial](https://github.com/bombomby/brofiler/wiki)
 . Please note, that you do not have to set your own markers - we have already placed various markers in the Engine code.
 
 Chapters:
 
-[#1-getting-started](
-1. Getting Started
-)
-[#2-getting-an-overview](
-2. Getting an Overview
-)
-[#3-deep-analysis](
-3. Deep Analysis
-)
-[#4-sampling-inside-labels](
-4. Sampling Inside Labels
-)
-[#5-profiling-all-threads](
-5. Profiling all Threads
-)
-[#troubleshooting](
-Troubleshooting
-)
+[1. Getting Started](#1-getting-started)
+[2. Getting an Overview](#2-getting-an-overview)
+[3. Deep Analysis](#3-deep-analysis)
+[4. Sampling Inside Labels](#4-sampling-inside-labels)
+[5. Profiling all Threads](#5-profiling-all-threads)
+[Troubleshooting](#troubleshooting)
 
 ##
 1. Getting Started
@@ -61,7 +43,7 @@ Tools/Brofiler
 **
  of your CRYENGINE installation directory:
 
-[Image: /docs/static/attachments/26964643]
+![Image](https://www.cryengine.com/docs/static/attachments/26964643)
 
 -
 Click the
@@ -69,7 +51,7 @@ Click the
 Record
 **
 
-[Image: /docs/static/attachments/24152213]
+![Image](https://www.cryengine.com/docs/static/attachments/24152213)
  button to start capturing an image.
 
 -
@@ -77,15 +59,15 @@ After a few frames have been captured, click the
 **
 Stop
 **
-[Image: /docs/static/attachments/24152215]
+![Image](https://www.cryengine.com/docs/static/attachments/24152215)
  button:
 
-[Image: /docs/static/attachments/26964645]
+![Image](https://www.cryengine.com/docs/static/attachments/26964645)
 
 -
 You will get a hierarchical profile capture similar to the screenshot below:
 
-[Image: /docs/static/attachments/26964646]
+![Image](https://www.cryengine.com/docs/static/attachments/26964646)
 
 ##
 2. Getting an Overview
@@ -97,11 +79,11 @@ Light blue = busy time
 
 -
 Yellow = waiting time
-[Image: /docs/static/attachments/26964647]
+![Image](https://www.cryengine.com/docs/static/attachments/26964647)
 
 Below the threads panel you get a listed overview of the Regions which are sorted by the lifetime of the label:
 
-[Image: /docs/static/attachments/26964648]
+![Image](https://www.cryengine.com/docs/static/attachments/26964648)
 
 ##
 3. Deep Analysis
@@ -118,24 +100,24 @@ profile_deep = 1
 
 After recording again, you will recognize that the list of labels is now much longer than before:
 
-[Image: /docs/static/attachments/26964649]
+![Image](https://www.cryengine.com/docs/static/attachments/26964649)
 
 ##
 4. Sampling Inside Labels
 
 In the previous step you learned how to track all the labels of CRYENGINE on the main thread. If you are interested in what is actually going on inside one of those labels, then you can get an estimation by performing sampling:
 
-[Image: /docs/static/attachments/26964650]
+![Image](https://www.cryengine.com/docs/static/attachments/26964650)
 
 The longer you sample, then the more precise your result will be. Stop recording by pressing the
 **
 Stop
 **
-[Image: /docs/static/attachments/24152215]
+![Image](https://www.cryengine.com/docs/static/attachments/24152215)
  button.
 
 If you want to disable sampling, for example you want to take another frame capture, then you should remove the current sampling flags by pressing the
-[Image: /docs/static/attachments/24152223]
+![Image](https://www.cryengine.com/docs/static/attachments/24152223)
   button:
 
 ##
@@ -151,7 +133,7 @@ profile_allthreads = 1
 
 ```
 
-[Image: /docs/static/attachments/26964651]
+![Image](https://www.cryengine.com/docs/static/attachments/26964651)
 
 Sampling is not currently supported for threads that occur outside of Main.
 

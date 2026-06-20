@@ -9,7 +9,7 @@
 
 In SDL_mixer users can manipulate a file's volume by connecting it to a parameter:
 
-[Image: /docs/static/attachments/53543011]
+![Image](https://www.cryengine.com/docs/static/attachments/53543011)
 
 *
 Connecting a file to a parameter
@@ -29,7 +29,7 @@ Trigger
 **
 :
 
-[Image: /docs/static/attachments/53543012]
+![Image](https://www.cryengine.com/docs/static/attachments/53543012)
 
 *
 The max volume when Parameter is set to 1

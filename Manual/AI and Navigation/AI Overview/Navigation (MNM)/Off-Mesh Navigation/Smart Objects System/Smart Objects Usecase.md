@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933215]
+![Image](https://www.cryengine.com/docs/static/attachments/29933215)
 
 ##
 Overview
@@ -26,24 +26,12 @@ Any level
 -
 The checked out SmartObject library XML file
 
-[#sections](
-Sections
-)
-[#the-idea](
-The Idea
-)
-[#getting-started](
-Getting Started
-)
-[#more-complex-examples](
-More Complex Examples
-)
-[#combining-smart-objects-with-static-flow-graphs](
-Combining Smart Objects with Static Flow Graphs
-)
-[#debugging-smart-objects](
-Debugging Smart Objects
-)
+[Sections](#sections)
+[The Idea](#the-idea)
+[Getting Started](#getting-started)
+[More Complex Examples](#more-complex-examples)
+[Combining Smart Objects with Static Flow Graphs](#combining-smart-objects-with-static-flow-graphs)
+[Debugging Smart Objects](#debugging-smart-objects)
 
 ##
 The Idea
@@ -86,7 +74,7 @@ New
 **
  from the Rules menu.
 
-[Image: /docs/static/attachments/24000918]
+![Image](https://www.cryengine.com/docs/static/attachments/24000918)
 
 This rule is empty by default and will not do anything until it is set up manually. Go through the Properties window and set up the rule according to your needs.
 
@@ -172,7 +160,7 @@ GameSDK\
 
 -
 Add the explosion entity to your action graph and link it to be triggered right away. Your action graph should like this:
-[Image: /docs/static/attachments/24000916]
+![Image](https://www.cryengine.com/docs/static/attachments/24000916)
 
 Now, set the pre action state of the object to 'Exploded'.
 
@@ -192,7 +180,7 @@ Since a mine can only explode once, that is what you want. The next time the pla
 You do not need to set any post action states since the only state you want to set is already set before the action starts.
 That's it, you have created a new rule. The properties window should look like this:
 
-[Image: /docs/static/attachments/24000917]
+![Image](https://www.cryengine.com/docs/static/attachments/24000917)
 
 The rule itself is now complete. To successfully test the rule, set the SmartObject class to the explosion entity you already placed.
 
@@ -295,7 +283,7 @@ library/storage/crates/palette_box
 `
 It should look like this:
 
-[Image: /docs/static/attachments/24000921]
+![Image](https://www.cryengine.com/docs/static/attachments/24000921)
 
 *
 The worker, the crate to be carried, and a pallet as a destination
@@ -330,7 +318,7 @@ Open the Smart Objects editor and create a new rule (PickUpCrate).
 
 The properties of the rule should look like this:
 
-[Image: /docs/static/attachments/24000919]
+![Image](https://www.cryengine.com/docs/static/attachments/24000919)
 
 ##
 Rules for Picking Up a Crate
@@ -371,7 +359,7 @@ All you have to do now is to define another rule which tells every worker who is
 
 Create a new rule ('DeliverCrate') or duplicate and modify the first rule and set it up like this:
 
-[Image: /docs/static/attachments/24000920]
+![Image](https://www.cryengine.com/docs/static/attachments/24000920)
 
 *
 Rule for bringing a crate to a delivery place

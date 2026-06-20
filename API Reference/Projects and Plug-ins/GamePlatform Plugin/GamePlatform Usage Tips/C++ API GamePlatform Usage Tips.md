@@ -13,9 +13,7 @@ Overview
 The C++ API tries to abstract the interfaces of various platform implementations. This necessitates several custom types that allow identification of the service the data originates from, as well as custom events and classes that allow interaction with the various systems of the platform service.
 
 For an overview of capabilities and support, please refer to
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448424](
-GamePlatform Features (Discord/Steam)
-)
+[GamePlatform Features (Discord/Steam)](../GamePlatform%20Features%20(Discord%20Steam).md)
 
 ##
 GamePlatform Plugin Interop
@@ -173,18 +171,8 @@ The data held by each identifier is platform specific. For example, an AccountId
 
 -
 Each identifier instance also holds the service GUID that it belongs to.
-[#gameplatform-plugin-interop](
-GamePlatform Plugin Interop
-)
-[#customizing-project-cmakelists](
-Customizing Project CMakelists
-)
-[#using-the-plugin-helper](
-Using the Plugin Helper
-)
-[#service-identifiers](
-Service Identifiers
-)
-[#service-specific-identifiers](
-Service Specific Identifiers:
-)
+[GamePlatform Plugin Interop](#gameplatform-plugin-interop)
+[Customizing Project CMakelists](#customizing-project-cmakelists)
+[Using the Plugin Helper](#using-the-plugin-helper)
+[Service Identifiers](#service-identifiers)
+[Service Specific Identifiers:](#service-specific-identifiers)

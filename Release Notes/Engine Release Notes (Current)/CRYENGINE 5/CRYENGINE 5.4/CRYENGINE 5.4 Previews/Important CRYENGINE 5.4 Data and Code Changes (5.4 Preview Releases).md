@@ -297,30 +297,12 @@ CryMath/Random.h - Is no longer included by default in certain header files. Thi
 
 -
 IConsole functions that were used to register console commands and CVars are no longer publicly accessible. You might have to update your code to use the already existing macros or the new ConsoleRegistrationHelper class (all of which are located in <CrySystem/ISystem.h>.
-[#visual-studio-support](
-Visual Studio Support
-)
-[#deprecation-notices](
-Deprecation Notices
-)
-[#entity-system-and-schematyc](
-Entity System & Schematyc
-)
-[#templates](
-Templates
-)
-[#network](
-Network
-)
-[#animation](
-Animation
-)
-[#audio](
-Audio
-)
-[#asset-browser-and-paths](
-Asset Browser & Paths
-)
-[#miscellaneous](
-Miscellaneous
-)
+[Visual Studio Support](#visual-studio-support)
+[Deprecation Notices](#deprecation-notices)
+[Entity System & Schematyc](#entity-system-and-schematyc)
+[Templates](#templates)
+[Network](#network)
+[Animation](#animation)
+[Audio](#audio)
+[Asset Browser & Paths](#asset-browser-and-paths)
+[Miscellaneous](#miscellaneous)

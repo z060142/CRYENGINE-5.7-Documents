@@ -7,12 +7,12 @@
 
 ## Child Pages
 
-- [Prefab Communication](Prefabs/Prefab Communication.md)
-- [Run-time Prefabs](Prefabs/Run-time Prefabs.md)
+- [Prefab Communication](Prefabs/Prefab%20Communication.md)
+- [Run-time Prefabs](Prefabs/Run-time%20Prefabs.md)
 
 ## Content
 
-[Image: /docs/static/attachments/36840438]
+![Image](https://www.cryengine.com/docs/static/attachments/36840438)
 
 ##
 Overview
@@ -26,24 +26,16 @@ Altering one prefab universally applies the changes to each instance of the pref
 
 Prefabs are separate assets and can be found by using the Asset Browser.
 
-[Image: /docs/static/attachments/36840437]
+![Image](https://www.cryengine.com/docs/static/attachments/36840437)
 
 Prefab Logic
 Prefabs support Flow Graph logic, so make sure you check out the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347840](
-Prefab Communication
-)
+[Prefab Communication](Prefabs/Prefab%20Communication.md)
  tutorial for more information.
 
-[#creating-a-new-prefab](
-Creating a New Prefab
-)
-[#using-prefabs](
-Using Prefabs
-)
-[#prefab-object-parameters](
-Prefab Object Parameters
-)
+[Creating a New Prefab](#creating-a-new-prefab)
+[Using Prefabs](#using-prefabs)
+[Prefab Object Parameters](#prefab-object-parameters)
 
 ##
 Creating a New Prefab
@@ -55,7 +47,7 @@ right click
 **
 on one of the selected objects and choose Create Prefab.
 
-[Image: /docs/static/attachments/36840436]
+![Image](https://www.cryengine.com/docs/static/attachments/36840436)
 
 Now, fill in a Group and Name for the new prefab. The prefab will be created in the currently selected library.
 
@@ -63,7 +55,7 @@ The prefab has now been created and is ready to be used in the level.
 
 Alternatively, a prefab may be created by dragging and dropping multiple objects of choice from the Level Explorer into the Asset Browser. Objects can be picked from multiple layers.
 
-[Image: /docs/static/attachments/36842171]
+![Image](https://www.cryengine.com/docs/static/attachments/36842171)
 
 Once assigned a custom name, the created prefab will appear listed within the Level Explorer.
 
@@ -105,7 +97,7 @@ Select All Prefabs of Type "
 
 Clicking this option selects all instances of the selected prefab that have been included within a level, even if these are nested in other prefabs.
 
-[Image: /docs/static/attachments/36847510]
+![Image](https://www.cryengine.com/docs/static/attachments/36847510)
 
 *
 Select all Prefabs of Type "Open"

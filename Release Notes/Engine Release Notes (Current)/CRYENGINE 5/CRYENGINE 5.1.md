@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [CRYENGINE 5.1.0](CRYENGINE 5.1/CRYENGINE 5.1.0.md)
-- [CRYENGINE 5.1.1](CRYENGINE 5.1/CRYENGINE 5.1.1.md)
+- [CRYENGINE 5.1.0](CRYENGINE%205.1/CRYENGINE%205.1.0.md)
+- [CRYENGINE 5.1.1](CRYENGINE%205.1/CRYENGINE%205.1.1.md)
 
 ## Content
 
@@ -18,17 +18,12 @@ Code Interface Changes
 See the
 Important
 
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962616](
-CRYENGINE 5.1 Data and Code Changes
-)
+[CRYENGINE 5.1 Data and Code Changes](CRYENGINE%205.1/CRYENGINE%205.1.0/Important%20CRYENGINE%205.1%20Data%20and%20Code%20Changes.md)
  article for more information.
 
 If you upgrade from CRYENGINE 5.0, please read
 
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962617](
-Migrating from CRYENGINE 5.0 to CRYENGINE 5.1
-.
-)
+[Migrating from CRYENGINE 5.0 to CRYENGINE 5.1 .](CRYENGINE%205.1/CRYENGINE%205.1.0/Migrating%20from%20CRYENGINE%205.0%20to%20CRYENGINE%205.1.md)
 
 ##
 Editor

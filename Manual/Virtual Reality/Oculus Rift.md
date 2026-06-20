@@ -7,10 +7,8 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933316]
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/44968359]
-)
+![Image](https://www.cryengine.com/docs/static/attachments/29933316)
+[![Image](https://www.cryengine.com/docs/static/attachments/44968359)](https://www.cryengine.com/support)
 
 ##
 Overview
@@ -20,24 +18,12 @@ Oculus Rift support is now included with CRYENGINE. This article will guide you 
 ##
 Chapters:
 
-[#chapters](
-Chapters:
-)
-[#getting-started](
-Getting Started
-)
-[#input-configuration](
-Input Configuration
-)
-[#flow-graph](
-Flow Graph
-)
-[#oculus-rift-specific-console-commands-and-variables](
-Oculus Rift-Specific Console Commands and Variables
-)
-[#possible-issues-you-can-encounter](
-Possible Issues You Can Encounter
-)
+[Chapters:](#chapters)
+[Getting Started](#getting-started)
+[Input Configuration](#input-configuration)
+[Flow Graph](#flow-graph)
+[Oculus Rift-Specific Console Commands and Variables](#oculus-rift-specific-console-commands-and-variables)
+[Possible Issues You Can Encounter](#possible-issues-you-can-encounter)
 
 ##
 Getting Started
@@ -50,9 +36,7 @@ Drivers:
 Install the most up to date drivers -
 
 **
-[https://developer.oculus.com/downloads/](
-Available from Oculus
-)
+[Available from Oculus](https://developer.oculus.com/downloads/)
 **
 . We currently support version
 
@@ -68,9 +52,7 @@ Oculus Documentation:
 Please read the documentation regarding device setup and configuration -
 
 **
-[https://developer.oculus.com/documentation/](
-Available from Oculus
-)
+[Available from Oculus](https://developer.oculus.com/documentation/)
 **
 .
 
@@ -82,9 +64,7 @@ Health and Safety:
 Please carefully read the H&S information -
 
 **
-[http://static.oculus.com/sdk-downloads/documents/Oculus_Health_and_Safety_Warnings_0.5.0.pdf](
-Available from Oculus
-)
+[Available from Oculus](http://static.oculus.com/sdk-downloads/documents/Oculus_Health_and_Safety_Warnings_0.5.0.pdf)
 **
 .
 
@@ -102,9 +82,7 @@ Recommended PC Specs:
 Information regarding hardware requirements -
 
 **
-[https://www.oculus.com/en-us/blog/the-rifts-recommended-spec-pc-sdk-0-6-released-and-mobile-vr-jam-voting/](
-Available from Oculus
-)
+[Available from Oculus](https://www.oculus.com/en-us/blog/the-rifts-recommended-spec-pc-sdk-0-6-released-and-mobile-vr-jam-voting/)
 **
 .
 Help with installation and setup
@@ -138,7 +116,7 @@ Add 'sys_vr_support=1' to your system.cfg or user.cfg file
 Launch the Engine
 Once launched, the Engine should be rendering to your head-mounted device.
 
-[Image: /docs/static/attachments/44968360]
+![Image](https://www.cryengine.com/docs/static/attachments/44968360)
 
 ##
 Making Changes to a Level (Edit Mode)
@@ -191,9 +169,7 @@ Alternatively, you could modify the
 
 See
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306384](
-Setting up Controls & Actionmaps
-)
+[Setting up Controls & Actionmaps](../../API%20Reference/CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/Setting%20Up%20Controls%20and%20Action%20Maps.md)
 **
  for more information.
 
@@ -208,7 +184,7 @@ VR:TransformInfo
 **
 
 **
-[Image: /docs/static/attachments/56000784]
+![Image](https://www.cryengine.com/docs/static/attachments/56000784)
 **
 
 *
@@ -222,7 +198,7 @@ VR:Tools
 **
 
 **
-[Image: /docs/static/attachments/56000785]
+![Image](https://www.cryengine.com/docs/static/attachments/56000785)
 
 **
 *
@@ -236,7 +212,7 @@ VR:ControllerTracking
 **
 
 **
-[Image: /docs/static/attachments/56000787]
+![Image](https://www.cryengine.com/docs/static/attachments/56000787)
 
 **
 *
@@ -256,7 +232,7 @@ VR:OculusController
 **
 
 **
-[Image: /docs/static/attachments/56000788]
+![Image](https://www.cryengine.com/docs/static/attachments/56000788)
 
 **
 *
@@ -273,7 +249,7 @@ VR:QuadRenderLayer
 **
 
 **
-[Image: /docs/static/attachments/56000789]
+![Image](https://www.cryengine.com/docs/static/attachments/56000789)
 
 **
 *
@@ -290,7 +266,7 @@ VR:RenderLayerTexture
 **
 
 **
-[Image: /docs/static/attachments/56000791]
+![Image](https://www.cryengine.com/docs/static/attachments/56000791)
 
 **
 *

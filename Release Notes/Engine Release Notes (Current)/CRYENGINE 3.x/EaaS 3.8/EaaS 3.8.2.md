@@ -20,9 +20,9 @@ New Depth-of-Field Implementation
 
 CRYENGINE 3.8.2 introduces an all-new DOF implementation that fixes many of the edge bleeding artifacts of the previous technique, while being more bandwidth-friendly and thus efficient at the same time. The new implementation is based on the gather-based technique that was prototyped during Ryse and presented at SIGGRAPH back then.
 
-[Image: /docs/static/attachments/44962929]
+![Image](https://www.cryengine.com/docs/static/attachments/44962929)
 
-[Image: /docs/static/attachments/44962928]
+![Image](https://www.cryengine.com/docs/static/attachments/44962928)
 
 *
 Left: Old DOF implementation (note the ghosting/silhouette around the characters). Right: New DOF implementation.
@@ -1637,42 +1637,16 @@ Fixed
 Tweaked
 **
 : Added MovementModifiers description info to Rifle script. Deceased firingSpeedScale to 0.75.
-[#release-highlights](
-Release Highlights
-)
-[#important-code-and-data-changes](
-Important Code and Data Changes
-)
-[#editor](
-Editor
-)
-[#rendering](
-Rendering
-)
-[#engine](
-Engine
-)
-[#3d-engine](
-3D Engine
-)
-[#particles](
-Particles
-)
-[#rctools](
-RC/Tools
-)
-[#animation](
-Animation
-)
-[#action](
-Action
-)
-[#audio](
-Audio
-)
-[#ai-system](
-AI System
-)
-[#game](
-Game
-)
+[Release Highlights](#release-highlights)
+[Important Code and Data Changes](#important-code-and-data-changes)
+[Editor](#editor)
+[Rendering](#rendering)
+[Engine](#engine)
+[3D Engine](#3d-engine)
+[Particles](#particles)
+[RC/Tools](#rctools)
+[Animation](#animation)
+[Action](#action)
+[Audio](#audio)
+[AI System](#ai-system)
+[Game](#game)

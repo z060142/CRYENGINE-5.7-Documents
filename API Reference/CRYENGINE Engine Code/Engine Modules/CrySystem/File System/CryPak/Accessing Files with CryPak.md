@@ -51,9 +51,7 @@ Now, make use of 7za.exe which is located in
 Examples\ExampleText.txt
 `
  only. Alternatively, you can also use the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/14290302](
-Obsolete PAK Manager
-)
+[Obsolete PAK Manager](/docs/static/engines/cryengine-3/categories/1114113/pages/14290302)
 .
 
 ```
@@ -714,15 +712,7 @@ RemoveAll()
 UpdateFile()
 **
 .
-[#preparation](
-Preparation
-)
-[#reading-files-with-crypak](
-Reading Files With CryPak
-)
-[#writing-files-with-crypak](
-Writing Files With CryPak
-)
-[#modifying-paks-with-cryarchive](
-Modifying Paks With CryArchive
-)
+[Preparation](#preparation)
+[Reading Files With CryPak](#reading-files-with-crypak)
+[Writing Files With CryPak](#writing-files-with-crypak)
+[Modifying Paks With CryArchive](#modifying-paks-with-cryarchive)

@@ -16,9 +16,7 @@ We are very pleased to bring you the 5.5.0 Preview 3 release. Our Dev Team have 
 **
 
 As always we really do welcome further feedback and comments from the CRYENGINE Community, but please can these come through our normal channels i.e. the
-[https://github.com/CRYTEK/CRYENGINE/issues](
-Github Issue Reporter
-)
+[Github Issue Reporter](https://github.com/CRYTEK/CRYENGINE/issues)
  and the .
 
 ##
@@ -46,10 +44,7 @@ Preview Engine versions are also available from Github, however Sandbox Editor s
 -
 Go to:
 
-[https://github.com/CRYTEK/CRYENGINE/releases/5.5.0_preview3](
-https://github.com/CRYTEK/CRYENGINE
-/releases/5.5.0_preview3
-)
+[https://github.com/CRYTEK/CRYENGINE /releases/5.5.0_preview3](https://github.com/CRYTEK/CRYENGINE/releases/5.5.0_preview3)
 
 -
 **
@@ -71,18 +66,12 @@ InstallEngine.bat
 Code Interface Changes
 
 For more information. see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962762](
-Important CRYENGINE 5.5 Data and Code Changes
-)
+[Important CRYENGINE 5.5 Data and Code Changes](../CRYENGINE%205.5.0/Important%20CRYENGINE%205.5%20Data%20and%20Code%20Changes.md)
 .
 
 If you are updating from CRYENGINE 5.4, please read this topic:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962763](
-Migrating from CRYENGINE 5.4 to CRYENGINE 5.5
-)
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29445533](
-.
-)
+[Migrating from CRYENGINE 5.4 to CRYENGINE 5.5](../CRYENGINE%205.5.0/Migrating%20from%20CRYENGINE%205.4%20to%20CRYENGINE%205.5.md)
+[.](/docs/static/engines/cryengine-5/categories/23756816/pages/29445533)
 
 ##
 Known Issues
@@ -1438,9 +1427,7 @@ Refactored:
 **
 
 ParticleDataType is now type-templated - provides more type-safety and easier interface with Container Streams; now supports Vec3 etc. directly rather than float
-[/docs/static/engines/cryengine-5/categories/23756816](
-3
-)
+[3](/docs/static/engines/cryengine-5/categories/23756816)
 . Streams now have [] operators. Vec3 and Quat streams are template specializations. Moving from specialized stream names to generic TIStreams and TIOStreams. Simplified ParamMod Init and Update functions.
 
 -

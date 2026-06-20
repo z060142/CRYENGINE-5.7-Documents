@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Coding Guidelines](Accessing CE Source Code via GitHub/Coding Guidelines.md)
+- [Coding Guidelines](Accessing%20CE%20Source%20Code%20via%20GitHub/Coding%20Guidelines.md)
 
 ## Content
 
@@ -17,23 +17,17 @@ Before proceeding to make your request, please make sure that you have:
 
 -
 A
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468180#InstallingCRYENGINE-create_account](
- CRYENGINE account
-)
+[CRYENGINE account](../../Manual/CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE.md#InstallingCRYENGINE-create_account)
 .
 
 -
 An account with GitHub (sign up
-[https://github.com/](
-here
-)
+[here](https://github.com/)
 )
 
 -
 Installed the GitHub Desktop for Windows on your PC (available
-[https://desktop.github.com/](
-here
-)
+[here](https://desktop.github.com/)
 )
 
 ##
@@ -41,14 +35,10 @@ Requesting Access to Source Code
 
 -
 Navigate to the
-[https://www.cryengine.com/support](
-
-)
-[https://www.cryengine.com/contact](
-contact form
-)
+[https://www.cryengine.com/support](https://www.cryengine.com/support)
+[contact form](https://www.cryengine.com/contact)
  on the CRYENGINE website and log in to your CRYENGINE account by clicking the
-[Image: /docs/static/attachments/89457361]
+![Image](https://www.cryengine.com/docs/static/attachments/89457361)
  icon in the top-right corner of the page.
 
 -
@@ -73,16 +63,14 @@ Please make sure that you include your GitHub username in your message.
 
 Following this, please wait for us to respond to your request via e-mail.
 
-[Image: /docs/static/attachments/89457387]
+![Image](https://www.cryengine.com/docs/static/attachments/89457387)
 
 *
 E-mail invitation to  join Crytek on GitHub
 *
 
 Add
-[mailto:contact@cryengine.com](
-contact@cryengine.com
-)
+[contact@cryengine.com](mailto:contact@cryengine.com)
  to your e-mail list so that our e-mails don't miss you.
 
 ##
@@ -90,7 +78,7 @@ Downloading Source Code
 
 Once your request has been approved via e-mail as explained above, simply navigate to the GitHub website, log in using your GitHub account and accept the invitation to CRYENGINE's Source Code.
 
-[Image: /docs/static/attachments/89457382]
+![Image](https://www.cryengine.com/docs/static/attachments/89457382)
 
 *
 GitHub invitation
@@ -118,7 +106,7 @@ Crytek → Repositories → CRENGINE_Source
 **
 option.
 
-[Image: /docs/static/attachments/89457384]
+![Image](https://www.cryengine.com/docs/static/attachments/89457384)
 
 *
 CRYENGINE_Source
@@ -136,7 +124,7 @@ Code → Clone
 **
 option from the dropdown at the top.
 
-[Image: /docs/static/attachments/89457391]
+![Image](https://www.cryengine.com/docs/static/attachments/89457391)
 
 *
 Code → Clone
@@ -169,24 +157,14 @@ You should now be able to see your cloned repo both in the desktop app and the G
 
 Restricted Access code
 In order to obtain repositories for consoles you need to be a Sony PlayStation or Microsoft Xbox certified Developer. For more information about getting registered see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306665](
-here
-)
+[here](../CRYENGINE%20Platform%20Specific.md)
 .
 
 ##
 Related Information
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468180](
-Installing CRYENGINE
-)
-[#requesting-access-to-source-code](
-Requesting Access to Source Code
-)
-[#downloading-source-code](
-Downloading Source Code
-)
-[#related-information](
-Related Information
-)
+[Installing CRYENGINE](../../Manual/CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE.md)
+[Requesting Access to Source Code](#requesting-access-to-source-code)
+[Downloading Source Code](#downloading-source-code)
+[Related Information](#related-information)

@@ -8,3 +8,5 @@
 ## Content
 
 How to set up a character for ragdoll simulations and how to use the new Ragdoll Component introduced with in CRYENGINE 5.6.0.
+
+[Embed: https://www.youtube.com/watch?v=Zw9cEP3ULUc]

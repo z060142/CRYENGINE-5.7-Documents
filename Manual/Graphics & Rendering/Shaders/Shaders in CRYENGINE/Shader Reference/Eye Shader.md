@@ -12,7 +12,7 @@ Overview
 
 The eye shader is a specialized shader for rendering eyes. Eyes are very complex not only in shading but also in composition, therefore their shading/look cannot be achieved via regular shading methods.
 
-[Image: /docs/static/attachments/35397791]
+![Image](https://www.cryengine.com/docs/static/attachments/35397791)
 
 ##
 Shader Parameters
@@ -156,7 +156,7 @@ Used for the eye water mesh.
 ##
 Eye Anatomy
 
-[Image: /docs/static/attachments/35397792]
+![Image](https://www.cryengine.com/docs/static/attachments/35397792)
 
 An eye is made of several "components". The most relevant ones in this case are:
 
@@ -178,7 +178,7 @@ In-Game Eye Parts
 
 The first step is to setup the meshes needed for the eye. There are 5 meshes used to create a believable eye.
 
-[Image: /docs/static/attachments/35397793]
+![Image](https://www.cryengine.com/docs/static/attachments/35397793)
 
 -
 **
@@ -209,13 +209,11 @@ The eye occlusion mesh
 The eye lashes
 **
 : A simple mesh with an alpha blended eye lash texture applied. See:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448981](
-Hair Shader
-)
+[Hair Shader](Hair%20Shader.md)
 .
 The modeling process is relatively straightforward. The eye occlusion mesh and the eye water topology should have the same density and align with the eye lids edge loops; this is to make the skinning easier and animations smooth.
 
-[Image: /docs/static/attachments/28898482]
+![Image](https://www.cryengine.com/docs/static/attachments/28898482)
 
 ##
 Textures
@@ -245,7 +243,7 @@ The displacement map provides the information for how the iris and pupil should 
 
 -
 The Iris Depth slider under Shader Params can further tweak the intensity of the displacement.
-[Image: /docs/static/attachments/28898490]
+![Image](https://www.cryengine.com/docs/static/attachments/28898490)
 
 Previous versions of the Eye shader had a dedicated "Subsurface" map but this is obsolete with the current Eye shader, as this masking information is received from the Diffuse Alpha channel and controlled with the Iris/Sclera SSS sliders.
 
@@ -255,16 +253,14 @@ Eye Water
 -
 The specular map defines where the highlights should occur.
 Even if it’s a specular map it hooks up to the diffuse slot of the texture maps.
-[Image: /docs/static/attachments/28898484]
+![Image](https://www.cryengine.com/docs/static/attachments/28898484)
 
 ##
 Tear Duct
 
 -
 This mesh uses the standard
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449070](
-Illum Shader
-)
+[Illum Shader](Illum%20Shader.md)
  and works as regular assets when it comes to the texture maps.
 
 ##
@@ -281,15 +277,13 @@ The specular map defines where and how much occlusion should appear on the specu
 
 -
 The strength can be later on be controlled with the Specular occlusion strength slider under Shader Params.
-[Image: /docs/static/attachments/28898481]
+![Image](https://www.cryengine.com/docs/static/attachments/28898481)
 
 ##
 Eye Lashes
 
 This mesh works as a regular hair setup. See:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448981](
-Hair Shader
-)
+[Hair Shader](Hair%20Shader.md)
 .
 
 ##
@@ -298,41 +292,27 @@ Shader Texture Setup Examples
 ##
 Eye Ball
 
-[Image: /docs/static/attachments/28898489]
+![Image](https://www.cryengine.com/docs/static/attachments/28898489)
 
 ##
 Eye Occlusion
 
-[Image: /docs/static/attachments/28898486]
+![Image](https://www.cryengine.com/docs/static/attachments/28898486)
 
 ##
 Eye Water
 
-[Image: /docs/static/attachments/28898487]
+![Image](https://www.cryengine.com/docs/static/attachments/28898487)
 
 ##
 Shader Params Examples
 
-[Image: /docs/static/attachments/28898485]
+![Image](https://www.cryengine.com/docs/static/attachments/28898485)
 
-[#shader-parameters](
-Shader Parameters
-)
-[#shader-generation-params](
-Shader Generation Params
-)
-[#eye-anatomy](
-Eye Anatomy
-)
-[#in-game-eye-parts](
-In-Game Eye Parts
-)
-[#textures](
-Textures
-)
-[#shader-texture-setup-examples](
-Shader Texture Setup Examples
-)
-[#shader-params-examples](
-Shader Params Examples
-)
+[Shader Parameters](#shader-parameters)
+[Shader Generation Params](#shader-generation-params)
+[Eye Anatomy](#eye-anatomy)
+[In-Game Eye Parts](#in-game-eye-parts)
+[Textures](#textures)
+[Shader Texture Setup Examples](#shader-texture-setup-examples)
+[Shader Params Examples](#shader-params-examples)

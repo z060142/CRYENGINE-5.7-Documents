@@ -10,9 +10,7 @@
 This article is for CRYENGINE 3.4 or earlier. The Behavior Selection Tree and old-style behavior scripts was deprecated in favor of the Modular Behavior Tree in CRYENGINE 3.5 and beyond.
 
 Since CryENGINE 3.3.0 Behavior Trees are obsolete and have been replaced by
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306477](
-Behavior Selection Trees
-)
+[Behavior Selection Trees](Obsolete%20AI%20Scripting%20Documentation/Behavior%20Selection%20Trees.md)
 .
 
 Any class can utilize a behavior/decision tree. The benefits of using a behavior tree are:
@@ -33,24 +31,16 @@ Global knowledge can be shared between all tree users. This includes the AI!
 Table of Contents
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-SettinguptheBehaviorTree](
-#Setting up the Behavior Tree
-)
+[#Setting up the Behavior Tree](Behavior%20Trees.md#BehaviorTrees-SettinguptheBehaviorTree)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-AdvanceTopics](
-#Advance Topics
-)
+[#Advance Topics](Behavior%20Trees.md#BehaviorTrees-AdvanceTopics)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-ImplementingaBehaviorTreeUserClass](
-#Implementing a Behavior Tree User Class
-)
+[#Implementing a Behavior Tree User Class](Behavior%20Trees.md#BehaviorTrees-ImplementingaBehaviorTreeUserClass)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-OtherDiscussionPoints](
-#Other Discussion Points
-)
+[#Other Discussion Points](Behavior%20Trees.md#BehaviorTrees-OtherDiscussionPoints)
 
 ##
 Setting up the Behavior Tree
@@ -162,9 +152,7 @@ The
 Notes
 *
  column is an optional place where you can write a note about the variable, like how it is used.
-[/docs/static/attachments/23461222](
-TestClassAC.xls
-)
+[TestClassAC.xls](/docs/static/attachments/23461222)
 *
 **
 Signals
@@ -179,9 +167,7 @@ The
 Signal
 *
  column defines the name of the signal that is sent from code to trigger this action. See the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-TreeInput](
-#Tree Input
-)
+[#Tree Input](Behavior%20Trees.md#BehaviorTrees-TreeInput)
  section below for more details.
 
 -
@@ -197,13 +183,9 @@ The
 Values Change
 *
  column defines the Lua chunk of code to execute when this signal is called. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-LuaLanguageRules](
-#Lua Language Rules
-)
+[#Lua Language Rules](Behavior%20Trees.md#BehaviorTrees-LuaLanguageRules)
  section below for more details.
-[/docs/static/attachments/23461222](
-TestClassAC.xls
-)
+[TestClassAC.xls](/docs/static/attachments/23461222)
 
 ##
 Create a new Table chart
@@ -219,9 +201,7 @@ Tree charts are Excel spreadsheets. The name of the file should match the name r
 DAG
 **
  - This is where you define the directed acyclic graph for the tree. This tree is represented as a top-down flow, with child elements expanding to the right. Parent nodes are represented as merged cells.
-[/docs/static/attachments/23461224](
-TestClassTree.xls
-)
+[TestClassTree.xls](/docs/static/attachments/23461224)
 
 **
 Node properties
@@ -271,9 +251,7 @@ The
 Signal
 *
  column represents the output signal sent from the tree when the node traverses pass this. See the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-TreeOutput](
-#Tree Output
-)
+[#Tree Output](Behavior%20Trees.md#BehaviorTrees-TreeOutput)
  section below for more details.
 
 -
@@ -282,13 +260,9 @@ The
 Activation Conditions
 *
  column defines the Lua chunk of code to execute when this node is traversed to. If the statement returns true, traversal is allowed to continue. If this node is a child node, the tree selects it as the new leaf node and stops traversing. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-LuaLanguageRules](
-#Lua Language Rules
-)
+[#Lua Language Rules](Behavior%20Trees.md#BehaviorTrees-LuaLanguageRules)
  section below for more details.
-[/docs/static/attachments/23461224](
-TestClassTree.xls
-)
+[TestClassTree.xls](/docs/static/attachments/23461224)
 
 ##
 Advance Topics
@@ -328,9 +302,7 @@ The
 Uses Group
 *
  column states if the tactic can only be used within a Tactics Group or not. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-TacticsGroup](
-#Tactics Group
-)
+[#Tactics Group](Behavior%20Trees.md#BehaviorTrees-TacticsGroup)
  section below for more details.
 
 -
@@ -357,9 +329,7 @@ The
 SubTactic
 *
  column defines the sub-tactic associated with this tactic. For multiple sub-tactics, create a new blank row below and fill in only this column with the name of the next sub-tactic.
-[/docs/static/attachments/23461226](
-Tactics.xls
-)
+[Tactics.xls](/docs/static/attachments/23461226)
 
 **
 Requirements
@@ -409,13 +379,9 @@ The
 Ordering Function
 *
  is a Lua chunk of code executed to sort potential candidates. Two users (A and B) are passed in. A return value of TRUE means to rank A higher than B as a candidate for this tactic. The highest-ranking candidates will be selected, up to the Max count. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-LuaLanguageRules](
-#Lua Language Rules
-)
+[#Lua Language Rules](Behavior%20Trees.md#BehaviorTrees-LuaLanguageRules)
  section below for more details.
-[/docs/static/attachments/23461226](
-Tactics.xls
-)
+[Tactics.xls](/docs/static/attachments/23461226)
 
 ##
 Tactics Group
@@ -430,25 +396,19 @@ Global Activation Conditions
 *
 
 Global Activation Conditions are stored in a unique Activation Conditions Chart. This is a special knowledge table that is accessible and modifiable by any and all active Profile users. Code can also send signals straight to the Global table for quick changing of values. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-LuaLanguageRules](
-#Lua Language Rules
-)
+[#Lua Language Rules](Behavior%20Trees.md#BehaviorTrees-LuaLanguageRules)
  section for more details on how to access this knowledge table.
 
 **
 Values
 **
 
-[/docs/static/attachments/23461225](
-Globals.xls
-)
+[Globals.xls](/docs/static/attachments/23461225)
 **
 Signals
 **
 
-[/docs/static/attachments/23461225](
-Globals.xls
-)
+[Globals.xls](/docs/static/attachments/23461225)
 
 ##
 Implementing a Behavior Tree User Class
@@ -475,9 +435,7 @@ GetBTUserName
 GetBTUserTable
 **
  - Return an IScriptTable* that can be easily accessed inside the Activation Conditions and Tree charts. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-LuaLanguageRules](
-#Lua Language Rules
-)
+[#Lua Language Rules](Behavior%20Trees.md#BehaviorTrees-LuaLanguageRules)
  section for more details.
 
 -
@@ -497,9 +455,7 @@ CanBTUserTreeRun
 OnBTUserEvent
 **
  - Called when the tree has outputted a value. See the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306469#BehaviorTrees-TreeOutput](
-#Tree Output
-)
+[#Tree Output](Behavior%20Trees.md#BehaviorTrees-TreeOutput)
  section below for more details.
 
 ##

@@ -28,9 +28,7 @@ An OnBeginState function (optional).
 
 -
 A bunch of further callback functions (all optional). For a list of available functions c. f.
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306636](
-Entity System Script Callbacks
-)
+[Entity System Script Callbacks](../../../CRYENGINE%20Engine%20Code/Engine%20Modules/CryEntitySystem/Entity%20System%20Script%20Callbacks.md)
 All entity states must be
 **
 declared

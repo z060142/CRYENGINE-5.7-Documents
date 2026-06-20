@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Using Area Solid with Audio Entities](Solid/Using Area Solid with Audio Entities.md)
+- [Using Area Solid with Audio Entities](Solid/Using%20Area%20Solid%20with%20Audio%20Entities.md)
 
 ## Content
 
@@ -16,7 +16,7 @@ Overview
 
 The Area Solid is for defining a complex range of sound obstructions with the Designer Tool.
 
-[Image: /docs/static/attachments/44966493]
+![Image](https://www.cryengine.com/docs/static/attachments/44966493)
 
 ##
 Properties
@@ -88,9 +88,7 @@ Area
 
  |
 Opens the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534693](
-Designer Tool
-)
+[Designer Tool](../../../Designer%20Tool%20Tab.md)
  which can be used to edit the shape of the Area Solid
 when
 **

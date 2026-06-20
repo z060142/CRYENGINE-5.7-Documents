@@ -23,7 +23,7 @@ Add New Item
 **
  button:
 
-[Image: /docs/static/attachments/25507463]
+![Image](https://www.cryengine.com/docs/static/attachments/25507463)
 
 *
 Pic1: Add New Item button
@@ -31,7 +31,7 @@ Pic1: Add New Item button
 
 Save the material in your desired folder. After saving the new material (In this example, it has been saved as "testmaterial"), the material will be added to the material browser:
 
-[Image: /docs/static/attachments/25507462]
+![Image](https://www.cryengine.com/docs/static/attachments/25507462)
 
 *
 Pic2: Material added to the material browser
@@ -43,7 +43,7 @@ Add New Material
 **
 :
 
-[Image: /docs/static/attachments/25507464]
+![Image](https://www.cryengine.com/docs/static/attachments/25507464)
 
 *
 Pic3: Add New Material in context menu
@@ -62,7 +62,7 @@ Add New Multi-Material
 **
 :
 
-[Image: /docs/static/attachments/25507465]
+![Image](https://www.cryengine.com/docs/static/attachments/25507465)
 
 *
 Pic4: Add New Multi-Material option
@@ -84,7 +84,7 @@ Set Number of Sub Materials
 **
 :
 
-[Image: /docs/static/attachments/25507467]
+![Image](https://www.cryengine.com/docs/static/attachments/25507467)
 
 *
 Pic5: Set Number of Sub Materials option
@@ -105,7 +105,7 @@ Get Properties from Selection
 **
  button (2):
 
-[Image: /docs/static/attachments/25507470]
+![Image](https://www.cryengine.com/docs/static/attachments/25507470)
 
 *
 Pic6: Get Properties from Selection button
@@ -131,7 +131,7 @@ Copy All
 **
 :
 
-[Image: /docs/static/attachments/25507469]
+![Image](https://www.cryengine.com/docs/static/attachments/25507469)
 
 *
 Pic7: Copy All option
@@ -145,7 +145,7 @@ Paste
 **
 :
 
-[Image: /docs/static/attachments/25507472]
+![Image](https://www.cryengine.com/docs/static/attachments/25507472)
 
 *
 Pic8: Pasting copied parameters to new material
@@ -160,7 +160,7 @@ parameters
 copied over and visible on this object:
 
 *
-[Image: /docs/static/attachments/25507474]
+![Image](https://www.cryengine.com/docs/static/attachments/25507474)
 
 Pic9: Parameters copied over to new material
 *
@@ -185,23 +185,13 @@ Texture Maps
 See Also
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44967563](
-Material Editor Legacy Reference
-)
+[Material Editor Legacy Reference](../../../Editor%20Tools/Material%20Editor%20Legacy.md)
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259544](
-Material Editor Reference
-)
+[Material Editor Reference](../../../Editor%20Tools/Material%20Editor.md)
 **
 
-[#creating-a-new-material](
-Creating a New Material
-)
-[#copying-an-existing-material](
-Copying an Existing Material
-)
-[#see-also](
-See Also
-)
+[Creating a New Material](#creating-a-new-material)
+[Copying an Existing Material](#copying-an-existing-material)
+[See Also](#see-also)

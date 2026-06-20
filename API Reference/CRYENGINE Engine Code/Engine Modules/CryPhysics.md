@@ -7,18 +7,18 @@
 
 ## Child Pages
 
-- [In Depth Simulation Description](CryPhysics/In Depth Simulation Description.md)
+- [In Depth Simulation Description](CryPhysics/In%20Depth%20Simulation%20Description.md)
 - [GetEntitiesInBox](CryPhysics/GetEntitiesInBox.md)
-- [Collision Classes](CryPhysics/Collision Classes.md)
-- [Registering geometries in the physics](CryPhysics/Registering geometries in the physics.md)
-- [Physical entity types](CryPhysics/Physical entity types.md)
-- [Physical entity interface](CryPhysics/Physical entity interface.md)
-- [Physical Areas](CryPhysics/Physical Areas.md)
-- [Ray and Primitive Tracing](CryPhysics/Ray and Primitive Tracing.md)
-- [Physical Explosions](CryPhysics/Physical Explosions.md)
-- [Physical Breakage Systems](CryPhysics/Physical Breakage Systems.md)
-- [Using NVIDIA PhysX in CRYENGINE](CryPhysics/Using NVIDIA PhysX in CRYENGINE.md)
-- [Local Simulation Grids](CryPhysics/Local Simulation Grids.md)
+- [Collision Classes](CryPhysics/Collision%20Classes.md)
+- [Registering geometries in the physics](CryPhysics/Registering%20geometries%20in%20the%20physics.md)
+- [Physical entity types](CryPhysics/Physical%20entity%20types.md)
+- [Physical entity interface](CryPhysics/Physical%20entity%20interface.md)
+- [Physical Areas](CryPhysics/Physical%20Areas.md)
+- [Ray and Primitive Tracing](CryPhysics/Ray%20and%20Primitive%20Tracing.md)
+- [Physical Explosions](CryPhysics/Physical%20Explosions.md)
+- [Physical Breakage Systems](CryPhysics/Physical%20Breakage%20Systems.md)
+- [Using NVIDIA PhysX in CRYENGINE](CryPhysics/Using%20NVIDIA%20PhysX%20in%20CRYENGINE.md)
+- [Local Simulation Grids](CryPhysics/Local%20Simulation%20Grids.md)
 
 ## Content
 
@@ -40,57 +40,37 @@ sys_physics_enable_MT
 Physical notifications come in the form of events (the corresponding structures have names prefixed with "EventPhys"). In order to listen to them, other systems must register listeners via an AddEventClient call. All listeners are "global" and must internally redirect the event to specific engine objects (if necessary) using physical foreign data information. There are two types of events - immediate and logged. Immediate event clients are called directly from the physics thread, so the functions must be thread-safe regarding their systems' main threads. Logged events are accumulated in an internal queue and are sent from the main thread, close to the end of the main step. Generally, immediate events are useful for doing some additional simulation in the listener, since in this case precise synchronization with the physics is necessary.
 
 Typically physical entities have one or more physicalized geometries. Geometry physicalization is described here :
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282097](
-Registering geometries in the physics
-)
+[Registering geometries in the physics](CryPhysics/Registering%20geometries%20in%20the%20physics.md)
 
 There are several
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282101](
-Physical entity types
-)
+[Physical entity types](CryPhysics/Physical%20entity%20types.md)
 . More information about setting up physical entities can be found here:
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282108](
-Physical entity interface
-)
+[Physical entity interface](CryPhysics/Physical%20entity%20interface.md)
 . More information about how the simulation works internally can be found
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306411](
-here
-)
+[here](CryPhysics/In%20Depth%20Simulation%20Description.md)
 .
 
 In order to speed up broad-phase collision detection (i.e. quickly find entities that are potentially colliding with each other) the physics uses a 2-dimensional grid. Each entity is registered in each cell that's touched by its axis-aligned bounding box, so it's possible to get a list of entities that touch a specific cell. Entity-in-cell bookkeeping is facilitated by so-called "grid thunk" structures. Note that there is a global limit on their amount, and once it's reached no further grid changes will be registered, resulting in entities "losing collisions" (there will be a warning in the log about it). Cell size should be chosen based on the total map size and "interaction density", i.e. smaller cells can give more precise potential collision candidates list, but if an entity occupies many cells, the costs of gathering lists from all of them will outweigh this advantage. Grid queries are exposed to other systems via
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306412](
-GetEntitiesInBox
-)
+[GetEntitiesInBox](CryPhysics/GetEntitiesInBox.md)
 function.
 
 Since version 5.2,
-[/docs/static/engines/cryengine-5/categories/23756813/pages/28182887](
-multiple simulation grids
-)
+[multiple simulation grids](CryPhysics/Local%20Simulation%20Grids.md)
  are supported.
 
 Other commonly used world queries are
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282295](
-Ray and Primitive Tracing
-)
+[Ray and Primitive Tracing](CryPhysics/Ray%20and%20Primitive%20Tracing.md)
 .
 
 Various environmental effects can be simulated by using
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282225](
-Physical Areas
-)
+[Physical Areas](CryPhysics/Physical%20Areas.md)
 .
 
 There are several breakage systems in the engine, described
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282347](
-here
-)
+[here](CryPhysics/Physical%20Breakage%20Systems.md)
 .
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282320](
-Explosions
-)
+[Explosions](CryPhysics/Physical%20Explosions.md)
  are one way to trigger said breakage.
 
 It's possible to see physical entities by using
@@ -114,61 +94,37 @@ p_profile_functions
  to monitor the costs of RayWorldIntersection, PrimitiveWorldIntersection, and GetEntitiesInBox calls coming from various systems.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306411](
-In Depth Simulation Description
-)
+[In Depth Simulation Description](CryPhysics/In%20Depth%20Simulation%20Description.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306412](
-GetEntitiesInBox
-)
+[GetEntitiesInBox](CryPhysics/GetEntitiesInBox.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306413](
-Collision Classes
-)
+[Collision Classes](CryPhysics/Collision%20Classes.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282097](
-Registering geometries in the physics
-)
+[Registering geometries in the physics](CryPhysics/Registering%20geometries%20in%20the%20physics.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282101](
-Physical entity types
-)
+[Physical entity types](CryPhysics/Physical%20entity%20types.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282108](
-Physical entity interface
-)
+[Physical entity interface](CryPhysics/Physical%20entity%20interface.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282225](
-Physical Areas
-)
+[Physical Areas](CryPhysics/Physical%20Areas.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282295](
-Ray and Primitive Tracing
-)
+[Ray and Primitive Tracing](CryPhysics/Ray%20and%20Primitive%20Tracing.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282320](
-Physical Explosions
-)
+[Physical Explosions](CryPhysics/Physical%20Explosions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282347](
-Physical Breakage Systems
-)
+[Physical Breakage Systems](CryPhysics/Physical%20Breakage%20Systems.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26218204](
-Using NVIDIA PhysX in CRYENGINE
-)
+[Using NVIDIA PhysX in CRYENGINE](CryPhysics/Using%20NVIDIA%20PhysX%20in%20CRYENGINE.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/28182887](
-Local Simulation Grids
-)
+[Local Simulation Grids](CryPhysics/Local%20Simulation%20Grids.md)

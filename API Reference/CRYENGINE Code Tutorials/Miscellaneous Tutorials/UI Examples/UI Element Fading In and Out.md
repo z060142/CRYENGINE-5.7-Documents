@@ -92,4 +92,4 @@ cry_requestHide
 **
 *
 action script function.
-[Image: /docs/static/attachments/25502643]
+![Image](https://www.cryengine.com/docs/static/attachments/25502643)

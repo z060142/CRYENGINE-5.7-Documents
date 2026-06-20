@@ -14,83 +14,47 @@ Overview
 Components
 **
 represent user-authored code that attach to
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216196](
-Entities
-)
+[Entities](../Entity.md)
 , known in code by the name
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent
-)
+[IEntityComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 .
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-Minimal Component Implementation Example
-)
+[Minimal Component Implementation Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#type-and-instance-guids](
-Type and Instance GUIDs
-)
-[#events](
-Events
-)
-[#transform](
-Transform
-)
-[#creating-and-querying-components](
-Creating and Querying Components
-)
-[#editor-properties](
-Editor Properties
-)
-[#adding-components-to-entities](
-Adding Components to Entities
-)
-[#adding-components-programmatically](
-Adding Components Programmatically
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[Type and Instance GUIDs](#type-and-instance-guids)
+[Events](#events)
+[Transform](#transform)
+[Creating and Querying Components](#creating-and-querying-components)
+[Editor Properties](#editor-properties)
+[Adding Components to Entities](#adding-components-to-entities)
+[Adding Components Programmatically](#adding-components-programmatically)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent
-)
+[IEntityComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 
 ##
 Type and Instance GUIDs
 
 As seen in the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-minimal entity component implementation
-)
+[minimal entity component implementation](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 , each component type has to specify a GUID - used to uniquely identify this component implementation across the engine. This is stored as a
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797020](
-CryGUID
-)
+[CryGUID](/docs/static/engines/cryengine-5/categories/28704770/pages/29797020)
 . Each component's type GUID is defined in its ReflectType function, for reference see the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-minimal component example
-)
+[minimal component example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 .
 
 In addition to the type GUID, each component instance is assigned a GUID. This is mostly used for internal purposes, but can also be used to query components using
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetComponentByGUID
-)
+[IEntity::GetComponentByGUID](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 . The instance GUID of a component can be retrieved by calling
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent::GetGUID
-)
+[IEntityComponent::GetGUID](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 .
 
 ##
@@ -102,7 +66,7 @@ Tools -> Create GUID
 **
 , bringing up the dialog below:
 
-[Image: /docs/static/attachments/29926602]
+![Image](https://www.cryengine.com/docs/static/attachments/29926602)
 
 Once open, select
 **
@@ -118,26 +82,18 @@ Copy
 Events
 
 Entities routinely send events of type
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797082](
-EEntityEvent
-)
+[EEntityEvent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797082)
 , for example
 ENTITY_EVENT_UPDATE
  - sent each frame to give components a chance to do per-frame logic.
 
 Components can handle events by overriding the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent::ProcessEvent
-)
+[IEntityComponent::ProcessEvent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
  function, and providing a bit-mask of the desired event in
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent::GetEventMask
-)
+[IEntityComponent::GetEventMask](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 .
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 
 ##
 Transform
@@ -155,35 +111,25 @@ Function name
 Description
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent::SetTransformMatrix
-)
+[IEntityComponent::SetTransformMatrix](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
  |
 Sets the local transformation, in relation to the parent entities world transformation
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent::GetTransformMatrix
-)
+[IEntityComponent::GetTransformMatrix](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
  |
 Gets the local transformation, in relation to the parent entities world transformation
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent::GetWorldTransformMatrix
-)
+[IEntityComponent::GetWorldTransformMatrix](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
  |
 Gets the world space transformation of the component, automatically applying the parent entities world transformation to the result
  |
 
 In addition, each component can assign itself one
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216196](
-entity slot
-)
+[entity slot](../Entity.md)
 that will be automatically moved with the component's transformation. This is made possible by loading geometry into the slot returned by
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent::GetOrMakeEntitySlotId
-)
+[IEntityComponent::GetOrMakeEntitySlotId](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 .
 
 ##
@@ -203,9 +149,7 @@ Template function helpers
 The template helpers take one template parameter
 T
  that is assumed to be derived from
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent
-)
+[IEntityComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 . This allows for easily querying and creating components of a known type of interface.
 
 Function name
@@ -213,58 +157,42 @@ Function name
 Description
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::CreateComponent
-)
+[IEntity::CreateComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Searches the component registry for the type description and creates a new instance of it in the entity
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetOrCreateComponent
-)
+[IEntity::GetOrCreateComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Searches the component registry for the type description, searches the entity for other instances of the same type and if found, returns that instance. If none are found, a new instance of the type is created.
  |
 
-[http://docs.cryengine.com/docs.cryengine.com/display/CPP/IEntity#a2ade8aa2c906405edf195b2fabefa801](
-IEntity::CreateComponentClass
-)
+[IEntity::CreateComponentClass](http://docs.cryengine.com/docs.cryengine.com/display/CPP/IEntity#a2ade8aa2c906405edf195b2fabefa801)
  |
 Creates a new instance of the component using the 'new' operator, skipping the need to search the component registry.
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetOrCreateComponentClass
-)
+[IEntity::GetOrCreateComponentClass](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Searches the entity for other instances of the same type and if found, returns that instance. If none are found, a new instance of the type is created using the 'new' operator, skipping the need to search the component registry.
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetComponent
-)
+[IEntity::GetComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Searches the component for existing instances of the type - and returns the first result, or nullptr if none are found.
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetAllComponents
-)
+[IEntity::GetAllComponents](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Searches the component for existing instances of the type - and returns all results in a dynamic array.
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::RemoveComponent
-)
+[IEntity::RemoveComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Searches the component for existing instances of the type and removes the first occurrence.
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::RemoveAllComponents
-)
+[IEntity::RemoveAllComponents](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Searches the component for existing instances of the type and removes every occurrence.
  |
@@ -273,9 +201,7 @@ Searches the component for existing instances of the type and removes every occu
 Low-level functions
 
 The low-level functions operate on unique component type and instance GUIDs, and will always return an
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent
-)
+[IEntityComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 * that can then be statically cast to the requested type.
 
 Function name
@@ -283,16 +209,12 @@ Function name
 Description
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::CreateComponentByInterfaceID
-)
+[IEntity::CreateComponentByInterfaceID](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Queries the component registry for any component type that implements the specified interface ID, and creates a new instance of the first result, if any.
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::AddComponent
-)
+[IEntity::AddComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Adds an already created component instance to the entity. Note that a component can
 **
@@ -301,37 +223,27 @@ not
 be added to multiple entities!
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::Remove Component
-)
+[IEntity::Remove Component](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Removes the specified component instance from the entity.
  |
 
-[http://docs.cryengine.com/docs.cryengine.com/display/CPP/IEntity#aadfb3f8561409670123de7ab6e0c527a](
-IEntity::RemoveAllComponents
-)
+[IEntity::RemoveAllComponents](http://docs.cryengine.com/docs.cryengine.com/display/CPP/IEntity#aadfb3f8561409670123de7ab6e0c527a)
  |
 Removes all components from the entity.
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetComponentByTypeId
-)
+[IEntity::GetComponentByTypeId](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Queries the entity for any components with the specified type ID, and returns the first occurrence.
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetComponentsByTypeId
-)
+[IEntity::GetComponentsByTypeId](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Queries the entity for any components with the  specified type ID, and returns all occurrences.
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetComponentByGUID
-)
+[IEntity::GetComponentByGUID](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  |
 Queries the entity for a component with the specific
 **
@@ -340,25 +252,17 @@ instance
 ID, and returns it if found.
  |
 
-[http://docs.cryengine.com/docs.cryengine.com/display/CPP/IEntity#a9f63d88d4766c2c240de99fa8161e8df](
-IEntity::QueryComponentsByInterfaceID
-)
+[IEntity::QueryComponentsByInterfaceID](http://docs.cryengine.com/docs.cryengine.com/display/CPP/IEntity#a9f63d88d4766c2c240de99fa8161e8df)
  |
 Queries the entity for any components that implement the specified interface ID, and returns the first occurrence. Note that this function is significantly slower than
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetComponentByTypeId
-)
+[IEntity::GetComponentByTypeId](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 !
  |
 
-[http://docs.cryengine.com/docs.cryengine.com/display/CPP/IEntity#ae4d452243ec37971e311b2d89d727f9a](
-IEntity::QueryComponentByInterfaceID
-)
+[IEntity::QueryComponentByInterfaceID](http://docs.cryengine.com/docs.cryengine.com/display/CPP/IEntity#ae4d452243ec37971e311b2d89d727f9a)
  |
 Queries the entity for any components that implement the specified interface ID, and returns all occurrences. Note that this function is significantly slower than
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetComponentsByTypeId
-)
+[IEntity::GetComponentsByTypeId](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 !
  |
 
@@ -373,7 +277,7 @@ Properties
 **
  window when an entity with the component is selected:
 
-[Image: /docs/static/attachments/28893578]
+![Image](https://www.cryengine.com/docs/static/attachments/28893578)
 
 See the example below:
 
@@ -416,25 +320,21 @@ Through the Sandbox
 Properties
 **
  panel (see below)
-[Image: /docs/static/attachments/28893356]
+![Image](https://www.cryengine.com/docs/static/attachments/28893356)
 
 -
 By creating a new Schematyc Entity, and adding the component (any instances of this entity in the scene will automatically instantiate the predefined components)
 
 -
 Programmatically, using the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity
-)
+[IEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  interface (see below).
 
 ##
 Adding Components Programmatically
 
 Components can be attached to entities through code using the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity
-)
+[IEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  interface through a set of simple functions:
 
 Name
@@ -442,32 +342,21 @@ Name
 Description
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::CreateComponent
-<T>
-)
+[IEntity::CreateComponent <T>](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 
  |
 Creates an instance of the specified component, assuming that the component implementation was registered (see the section below).
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetOrCreateComponent
-<T>
-)
+[IEntity::GetOrCreateComponent <T>](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 
  |
 Queries the entity for an existing instance of the specified component, and returns it if present. Otherwise, fallback to creating the entity component like
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::CreateComponent<T>
-)
+[IEntity::CreateComponent<T>](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 .
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::CreateComponentClass
-<T>
-)
+[IEntity::CreateComponentClass <T>](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 
  |
 Creates an instance of the specified component by using the 'new' operator directly, this does
@@ -477,17 +366,12 @@ not
  require the component implementation to be registered.
  |
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetOrCreateComponentClass
-<T>
-)
+[IEntity::GetOrCreateComponentClass <T>](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 
  |
 Queries the entity for an existing instance of the specified component, and returns it if present.
 Otherwise, fallback to creating the entity component like
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::CreateComponentClass<T>
-)
+[IEntity::CreateComponentClass<T>](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 .
  |
 
@@ -495,13 +379,9 @@ IEntity::CreateComponentClass<T>
 Registering a Component implementation
 
 In order for
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::CreateComponent<T>
-)
+[IEntity::CreateComponent<T>](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  and
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetOrCreateComponent<T>
-)
+[IEntity::GetOrCreateComponent<T>](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
  to work, component implementations need to be registered into the entity component registry. Additionally, this exposes your component to the Sandbox user interface - allowing direct usage of your component by designers without needing to modify code.
 
 This is achieved by creating a Schematyc package, and registering your components inside it:
@@ -536,36 +416,22 @@ Conclusion
 This concludes the article on entity components. You may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216232](
-Networking
-)
+[Networking](Networking.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/28184910](
-Execution Order and Lifecycle
-)
+[Execution Order and Lifecycle](Execution%20Order%20and%20Lifecycle.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216226](
-Characters and Animations
-)
+[Characters and Animations](Characters%20and%20Animations.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216230](
-Slots, Geometry and Effects
-)
+[Slots, Geometry and Effects](Slots%2C%20Geometry%20and%20Effects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29428286](
-Input and Action Mapping
-)
+[Input and Action Mapping](Input%20and%20Action%20Mapping.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216224](
-Physics and Movement
-)
+[Physics and Movement](Physics%20and%20Movement.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26871538](
-Audio
-)
+[Audio](Audio.md)

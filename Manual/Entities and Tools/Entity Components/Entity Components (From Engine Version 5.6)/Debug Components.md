@@ -52,6 +52,4 @@ Persistent Font Size
 The font size of the persistent text.
  |
 
-[#debug-draw](
-Debug Draw
-)
+[Debug Draw](#debug-draw)

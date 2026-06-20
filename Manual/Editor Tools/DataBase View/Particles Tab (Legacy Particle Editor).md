@@ -8,9 +8,7 @@
 ## Content
 
 Particles tab on DataBase View is no longer supported in CRYENGINE. It will be removed from the engine in the future and some features might not function as expected. For more information about the new Particle Editor tool, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-Particle Editor
-)
+[Particle Editor](../Particle%20Editor.md)
  page.
 
 ##
@@ -27,21 +25,17 @@ store
 A particle effect can be used by either being dragged and dropped into the perspective view or by being assigned to a selected particle entity. This entity determines the basic location, angle, scale, and or link information with other entities.
 
 For more information on particle parameters that are available in the Particle Editor, see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/11239648](
-Particle Editor Params
-)
+[Particle Editor Params](/docs/static/engines/cryengine-3/categories/1114113/pages/11239648)
 . For advanced techniques, please see
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048602](
-Particle Editor Advanced Techniques
-)
+[Particle Editor Advanced Techniques](/docs/static/engines/cryengine-3/categories/1114113/pages/1048602)
 .
 
-[Image: /docs/static/attachments/44108014]
+![Image](https://www.cryengine.com/docs/static/attachments/44108014)
 
 ##
 Toolbar
 
-[Image: /docs/static/attachments/44108015]
+![Image](https://www.cryengine.com/docs/static/attachments/44108015)
 
 Function
 
@@ -112,7 +106,7 @@ To undo a step on the current library without restarting the editor, simply clos
 
  |
 
-[Image: /docs/static/attachments/44108016]
+![Image](https://www.cryengine.com/docs/static/attachments/44108016)
 
 Function
 
@@ -181,7 +175,7 @@ To undo a step on the current library without restarting the editor, simply clos
 
  |
 
-[Image: /docs/static/attachments/44108017]
+![Image](https://www.cryengine.com/docs/static/attachments/44108017)
 
 Function
 
@@ -226,7 +220,7 @@ Writes any entry data from the clip board to the current entry.
 
  |
 
-[Image: /docs/static/attachments/44108018]
+![Image](https://www.cryengine.com/docs/static/attachments/44108018)
 
 Function
 
@@ -401,22 +395,16 @@ Item
 Apply Texture/Materials and Edit Parameters
 
 After applying the texture and/or materials to the new particle, users can start working on
-[/docs/static/engines/cryengine-3/categories/1114113/pages/11239648](
-Particle Editor Params
-)
+[Particle Editor Params](/docs/static/engines/cryengine-3/categories/1114113/pages/11239648)
 .
 
 ##
 Implement into Game
 
 The final step is to implement the particle effect into the game. Now, different steps can be taken, such as putting the emitter in the scene and linking it to an asset or giving it different functions via the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../Flow%20Graph.md)
  or
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849263](
-Track View
-)
+[Track View](../Track%20View.md)
 .
 
 A Material Effect can also be set up to define a custom impact effect or make a full screen effect through Flow Graph and implement it into the particle effect.
@@ -426,7 +414,7 @@ Item View
 
 In the Item View, the particle effects can be access and organized.
 
-[Image: /docs/static/attachments/36848589]
+![Image](https://www.cryengine.com/docs/static/attachments/36848589)
 
 ##
 Context Menu
@@ -536,7 +524,7 @@ Preview Window
 
 Positioned at the bottom left corner of the Particle Editor window, this window displays a quick preview of particles; but it is advised not to try and edit particles in this window.
 
-[Image: /docs/static/attachments/36848591]
+![Image](https://www.cryengine.com/docs/static/attachments/36848591)
 
 The Preview Window will position the camera automatically to capture the particle in its entirety. This means if the particle has a large bounding box, it will zoom the camera out far to fit it all on the screen. Use the Left Mouse button to pan the camera and the Mouse Wheel to control zoom levels.
 
@@ -545,14 +533,8 @@ Tool Tips
 
 When hovering over the different parameters inside the Particle Editor, the tool tips at the bottom of the Particle Editor can be seen. If the Particle Editor spreads over two columns, these tips are displayed under the left column.
 
-[Image: /docs/static/attachments/36848590]
+![Image](https://www.cryengine.com/docs/static/attachments/36848590)
 
-[#toolbar](
-Toolbar
-)
-[#editing-concepts](
-Editing Concepts
-)
-[#particle-effect-creation-workflow](
-Particle Effect Creation Workflow
-)
+[Toolbar](#toolbar)
+[Editing Concepts](#editing-concepts)
+[Particle Effect Creation Workflow](#particle-effect-creation-workflow)

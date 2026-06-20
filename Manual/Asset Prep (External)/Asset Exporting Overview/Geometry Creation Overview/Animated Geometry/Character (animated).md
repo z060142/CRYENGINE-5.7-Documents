@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [DCC Setup (animated)](Character (animated)/DCC Setup (animated).md)
-- [Engine Setup (animated)](Character (animated)/Engine Setup (animated).md)
+- [DCC Setup (animated)](Character%20(animated)/DCC%20Setup%20(animated).md)
+- [Engine Setup (animated)](Character%20(animated)/Engine%20Setup%20(animated).md)
 
 ## Content
 
@@ -21,11 +21,7 @@ This section describes the setup of animated and skinned objects in the DCC and 
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307993](
-DCC Setup (animated)
-)
+[DCC Setup (animated)](Character%20(animated)/DCC%20Setup%20(animated).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307998](
-Engine Setup (animated)
-)
+[Engine Setup (animated)](Character%20(animated)/Engine%20Setup%20(animated).md)

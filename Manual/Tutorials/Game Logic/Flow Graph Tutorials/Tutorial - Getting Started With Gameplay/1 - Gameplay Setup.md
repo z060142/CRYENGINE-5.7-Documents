@@ -7,19 +7,11 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27593403](
-[Image: /docs/static/attachments/44971004]
-Tutorial - Getting Started With Gameplay
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971004) Tutorial - Getting Started With Gameplay](/docs/static/engines/cryengine-5/categories/23756816/pages/27593403)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450191](
-[Image: /docs/static/attachments/44971005]
-2 - Game Variables
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971005) 2 - Game Variables](/docs/static/engines/cryengine-5/categories/23756816/pages/29450191)
 
-[/docs](
-
-)
+[/docs](/docs)
 
 ##
 What do you mean by gameplay?
@@ -29,6 +21,8 @@ The concept of the Editor is simple in that it needs to give you access to entit
 To begin, one of the main ways that we store variables on the designer end of the Editor is through a system called Game Tokens and these will be the basis of this exercise. The writing will be housed inside of Flow Graph as well as we will be saving to disk through an .xml file to show the flexibility of the system.
 
 These types of elements will be covered in this tutorial which allows for you to start piecing Entities together to create compelling gameplay mechanics.
+
+[Embed: https://vimeo.com/271653454]
 
 ##
 Setting Up Our DisplayMessage Node and Input
@@ -251,66 +245,63 @@ On
 ##
 Step 1
 
-[Image: /docs/static/attachments/29931452]
+![Image](https://www.cryengine.com/docs/static/attachments/29931452)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/29931453]
+![Image](https://www.cryengine.com/docs/static/attachments/29931453)
 
 ##
 Step 3-1
 
-[Image: /docs/static/attachments/29931454]
+![Image](https://www.cryengine.com/docs/static/attachments/29931454)
 
 ##
 Step 3-2
 
-[Image: /docs/static/attachments/29931455]
+![Image](https://www.cryengine.com/docs/static/attachments/29931455)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/29931456]
+![Image](https://www.cryengine.com/docs/static/attachments/29931456)
 
 ##
 Step 5
 
-[Image: /docs/static/attachments/29931457]
+![Image](https://www.cryengine.com/docs/static/attachments/29931457)
 
 ##
 Step 6
 
-[Image: /docs/static/attachments/29931458]
+![Image](https://www.cryengine.com/docs/static/attachments/29931458)
 
 ##
 Step 7
 
-[Image: /docs/static/attachments/29931459]
+![Image](https://www.cryengine.com/docs/static/attachments/29931459)
 
 ##
 Step 8
 
-[Image: /docs/static/attachments/29931460]
+![Image](https://www.cryengine.com/docs/static/attachments/29931460)
 
 ##
 Step 9
 
-[Image: /docs/static/attachments/29931461]
+![Image](https://www.cryengine.com/docs/static/attachments/29931461)
 
 ##
 Step 10
 
-[Image: /docs/static/attachments/29931462]
+![Image](https://www.cryengine.com/docs/static/attachments/29931462)
 
 ##
 Final Setup
 
-[Image: /docs/static/attachments/29931451]
+![Image](https://www.cryengine.com/docs/static/attachments/29931451)
 
-[Image: /docs/static/attachments/44971004]
+![Image](https://www.cryengine.com/docs/static/attachments/44971004)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450191](
-[Image: /docs/static/attachments/44971005]
-2 - Game Variables
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971005) 2 - Game Variables](/docs/static/engines/cryengine-5/categories/23756816/pages/29450191)

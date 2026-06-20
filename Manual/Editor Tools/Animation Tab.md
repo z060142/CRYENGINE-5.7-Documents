@@ -7,23 +7,17 @@
 
 ## Child Pages
 
-- [Character Tool](Animation Tab/Character Tool.md)
-- [Mannequin Editor](Animation Tab/Mannequin Editor.md)
-- [Facial Editor](Animation Tab/Facial Editor.md)
+- [Character Tool](Animation%20Tab/Character%20Tool.md)
+- [Mannequin Editor](Animation%20Tab/Mannequin%20Editor.md)
+- [Facial Editor](Animation%20Tab/Facial%20Editor.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961853](
-Character Tool
-)
+[Character Tool](Animation%20Tab/Character%20Tool.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450435](
-Facial Editor
-)
+[Facial Editor](Animation%20Tab/Facial%20Editor.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502](
-Mannequin Editor
-)
+[Mannequin Editor](Animation%20Tab/Mannequin%20Editor.md)

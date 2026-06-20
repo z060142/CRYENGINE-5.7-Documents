@@ -8,3 +8,5 @@
 ## Content
 
 In this third and final part of the particle effects master class series, senior VFX artist Viktor Ikkes presents advanced particle design techniques. You'll learn how to define surface types and create material effects, ensuring that collisions between any two material types produce the desired reactions. Those reactions include generating particle effects, spawning decals, playing audio cues, and responses that produce the correct friction and elasticity, damage accumulation, breakages and piercings, and more. Viktor also demonstrates how to expose particle properties to the sandbox editor using attributes, how to send particles between a source and target to create effects like lightning bolts, how to debug particle effects, and more.
+
+[Embed: https://www.youtube.com/watch?v=9EQ_93kqbZ4&feature=emb_imp_woyt]

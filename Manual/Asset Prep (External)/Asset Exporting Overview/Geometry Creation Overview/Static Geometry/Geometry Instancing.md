@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934002]
+![Image](https://www.cryengine.com/docs/static/attachments/29934002)
 
 ##
 Overview
@@ -19,15 +19,9 @@ Please be aware that this feature natively does not work for consoles and as a r
 
 Usually each separate mesh of a model results in an additional draw call for the engine. In order to reduce the number of drawcalls, the engine can make use of a hardware feature that is called 'geometry instancing'. By using this feature, the engine can combine identical meshes of a model and draw them in a single drawcall. Instancing is mainly useful for complex objects consisting of a lot of separate elements that have the same geometry but a different transformation.
 
-[#sections](
-Sections
-)
-[#general-setup-in-dcc-tools](
-General Setup in DCC Tools
-)
-[#debugging](
-Debugging
-)
+[Sections](#sections)
+[General Setup in DCC Tools](#general-setup-in-dcc-tools)
+[Debugging](#debugging)
 
 ##
 General Setup in DCC Tools
@@ -42,7 +36,7 @@ Only the transformation may be different. The Elements can be translated, rotate
 
 -
 Naming is not important.
-[Image: /docs/static/attachments/35400749]
+![Image](https://www.cryengine.com/docs/static/attachments/35400749)
 
 *
 Fence consisting of instanced elements (instances are blue).

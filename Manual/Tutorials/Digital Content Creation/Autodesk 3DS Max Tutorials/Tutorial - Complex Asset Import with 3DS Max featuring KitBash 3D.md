@@ -8,3 +8,5 @@
 ## Content
 
 Importing complex assets into the engine with 3DSMax, using assets from our friends at KitBash 3D.
+
+[Embed: https://www.youtube.com/watch?v=FUNVb59U-Jw]

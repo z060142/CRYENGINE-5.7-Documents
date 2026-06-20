@@ -31,7 +31,7 @@ Create New
 **
  column.
 
-[Image: /docs/static/attachments/89456834]
+![Image](https://www.cryengine.com/docs/static/attachments/89456834)
 
 *
 Actionscript 2.0 template
@@ -44,7 +44,7 @@ FPS
 **
  to 30.
 
-[Image: /docs/static/attachments/89456835]
+![Image](https://www.cryengine.com/docs/static/attachments/89456835)
 
 *
 Change FPS and Size
@@ -57,14 +57,14 @@ Publish Settings
 **
  to Flash Player 10 and Actionscript 2.0 if you haven't already done so, and also disable HTML.
 
-[Image: /docs/static/attachments/89456838]
+![Image](https://www.cryengine.com/docs/static/attachments/89456838)
 
 *
 Open the Publish Settings window
 
 *
 
-[Image: /docs/static/attachments/89456839]
+![Image](https://www.cryengine.com/docs/static/attachments/89456839)
 
 *
 Set Publish Settings to Flash Player 10 and ActionScript 2.0. Disable HTML Wrapper
@@ -120,7 +120,7 @@ and
 
 respectively.
 
-[Image: /docs/static/attachments/90833127]
+![Image](https://www.cryengine.com/docs/static/attachments/90833127)
 
 *
 Advanced tab
@@ -146,7 +146,7 @@ CTRL+SHIFT+F12
 **
 .
 
-[Image: /docs/static/attachments/90833128]
+![Image](https://www.cryengine.com/docs/static/attachments/90833128)
 
 *
 Publish Settings
@@ -179,21 +179,13 @@ HTML Wrapper
 
 publish format option.
 
-[Image: /docs/static/attachments/90833129]
+![Image](https://www.cryengine.com/docs/static/attachments/90833129)
 
 *
 Set Target to Flash Player 10.3 and Output name to uiQuickStart. Uncheck HTML Wrapper
 *
 
-[#user-interface-introduction](
-User Interface Introduction
-)
-[#steps-for-flash-file-creation](
-Steps for Flash File Creation
-)
-[#scaleform-3](
-Scaleform 3
-)
-[#scaleform-4](
-Scaleform 4
-)
+[User Interface Introduction](#user-interface-introduction)
+[Steps for Flash File Creation](#steps-for-flash-file-creation)
+[Scaleform 3](#scaleform-3)
+[Scaleform 4](#scaleform-4)

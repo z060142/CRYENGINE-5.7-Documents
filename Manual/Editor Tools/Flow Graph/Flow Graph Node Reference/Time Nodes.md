@@ -37,7 +37,7 @@ ServerTime
 
 Reads the server time and reports the current time (seconds or milliseconds) for the specified period.
 
-[Image: /docs/static/attachments/29688002]
+![Image](https://www.cryengine.com/docs/static/attachments/29688002)
 
 **
 Inputs
@@ -127,7 +127,7 @@ Time
 
 Outputs the total number of seconds from the start of the game, ticking once per frame.
 
-[Image: /docs/static/attachments/29688003]
+![Image](https://www.cryengine.com/docs/static/attachments/29688003)
 
 **
 Inputs
@@ -193,7 +193,7 @@ Triggers the TimeOfDay, which is set in the flownode and can change the speed of
 
 ForceUpdate should be on. Same node can also read out the current TimeOfDay setting.
 
-[Image: /docs/static/attachments/29688004]
+![Image](https://www.cryengine.com/docs/static/attachments/29688004)
 
 ##
 TimeOfDayLoadDefinitionFile
@@ -220,42 +220,16 @@ Timer
 
 Timer node will output count from min to max, ticking at the specified period of time.
 
-[#delay](
-Delay
-)
-[#framedelay](
-FrameDelay
-)
-[#measuretime](
-MeasureTime
-)
-[#randomdelay](
-RandomDelay
-)
-[#realtime](
-RealTime
-)
-[#servertime](
-ServerTime
-)
-[#time](
-Time
-)
-[#timeofday](
-TimeOfDay
-)
-[#timeofdayloaddefinitionfile](
-TimeOfDayLoadDefinitionFile
-)
-[#timeofdaytransitiontrigger](
-TimeOfDayTransitionTrigger
-)
-[#timeofdaytrigger](
-TimeOfDayTrigger
-)
-[#timedcounter](
-TimedCounter
-)
-[#timer](
-Timer
-)
+[Delay](#delay)
+[FrameDelay](#framedelay)
+[MeasureTime](#measuretime)
+[RandomDelay](#randomdelay)
+[RealTime](#realtime)
+[ServerTime](#servertime)
+[Time](#time)
+[TimeOfDay](#timeofday)
+[TimeOfDayLoadDefinitionFile](#timeofdayloaddefinitionfile)
+[TimeOfDayTransitionTrigger](#timeofdaytransitiontrigger)
+[TimeOfDayTrigger](#timeofdaytrigger)
+[TimedCounter](#timedcounter)
+[Timer](#timer)

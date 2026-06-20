@@ -11,12 +11,10 @@
 Layered Transition Queue Debugging
 
 You can enable on-screen debug information to see which animations are queued and playing, as well as information about the applied pose modifiers and IK. See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15012021](
-Animation Layers
-)
+[Animation Layers](/docs/static/engines/cryengine-3/categories/1114113/pages/15012021)
  for more information about the system.
 
-[Image: /docs/static/attachments/23461205]
+![Image](https://www.cryengine.com/docs/static/attachments/23461205)
 
 *
 Example output
@@ -533,7 +531,7 @@ At the lowest level the animation system executes a list of simple commands to c
 
 These commands are for example "sample animation x at time t, and add the result with weight w to the pose". Or "clear the pose".
 
-[Image: /docs/static/attachments/23461204]
+![Image](https://www.cryengine.com/docs/static/attachments/23461204)
 
 *
 Example output
@@ -585,9 +583,7 @@ All warnings are on. This includes the least important warnings, e.g. a warning 
 See Also
 
 -
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011302](
-Mannequin Debugging
-)
+[Mannequin Debugging](/docs/static/engines/cryengine-3/categories/1114113/pages/15011302)
  (includes the very useful
 *
 Frame by Frame debugging
@@ -595,19 +591,9 @@ Frame by Frame debugging
 !).
 
 -
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011676](
-AimPoses and LookPoses
-)
+[AimPoses and LookPoses](/docs/static/engines/cryengine-3/categories/1114113/pages/15011676)
  (last section in this page talks about debugging).
-[#layered-transition-queue-debugging](
-Layered Transition Queue Debugging
-)
-[#commandbuffer-debugging](
-CommandBuffer Debugging
-)
-[#warning-level](
-Warning Level
-)
-[#see-also](
-See Also
-)
+[Layered Transition Queue Debugging](#layered-transition-queue-debugging)
+[CommandBuffer Debugging](#commandbuffer-debugging)
+[Warning Level](#warning-level)
+[See Also](#see-also)

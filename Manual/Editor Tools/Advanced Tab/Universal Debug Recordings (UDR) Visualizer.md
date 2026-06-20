@@ -50,16 +50,14 @@ Allowing programmers to inspect the 'state' of each scope, which contains record
 
 -
 Intermixing visuals (render primitives) with text in the 3D world.
-[Image: /docs/static/attachments/44959212]
+![Image](https://www.cryengine.com/docs/static/attachments/44959212)
 
 *
 UDR Visualizer Overview
 *
 
 For an example of creating debugging routines and using the UDR Visualizer to visualize Render Primitives, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/44959297](
-technical documentation
-)
+[technical documentation](../../../API%20Reference/AI/Universal%20Debug%20Recordings%20(UDR).md)
  of UDR.
 
 ##
@@ -147,7 +145,7 @@ Clears the contents of the UDR Tree Panel.
 
 Selecting a particular node within the UDR Tree Panel will display the Render Primitives associated with that node and its children in the Viewport, as shown in the GIF below.
 
-[Image: /docs/static/attachments/44959718]
+![Image](https://www.cryengine.com/docs/static/attachments/44959718)
 
 *
 Render Primitives in the Viewport
@@ -162,7 +160,7 @@ When the node of a Live or Deserialized Tree is selected in the UDR Tree Panel, 
 4. Menu
 
 Clicking the
-[Image: /docs/static/attachments/44959292]
+![Image](https://www.cryengine.com/docs/static/attachments/44959292)
  menu brings up the
 **
 Help
@@ -249,18 +247,8 @@ UDR_PrintStatistics
 Prints statistics regarding the number of nodes, memory used, and other information related to the Live Tree, to the console.
  |
 
-[#1-file](
-1. File
-)
-[#2-udr-tree-panel](
-2. UDR Tree Panel
-)
-[#3-log](
-3. Log
-)
-[#4-menu](
-4. Menu
-)
-[#cvars-and-console-commands](
-CVars and Console Commands
-)
+[1. File](#1-file)
+[2. UDR Tree Panel](#2-udr-tree-panel)
+[3. Log](#3-log)
+[4. Menu](#4-menu)
+[CVars and Console Commands](#cvars-and-console-commands)

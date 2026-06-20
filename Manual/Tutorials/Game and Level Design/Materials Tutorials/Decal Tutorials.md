@@ -7,17 +7,13 @@
 
 ## Child Pages
 
-- [Tutorial - Creating Decal Textures and Materials](Decal Tutorials/Tutorial - Creating Decal Textures and Materials.md)
-- [Tutorial - Deferred Decal Setup](Decal Tutorials/Tutorial - Deferred Decal Setup.md)
+- [Tutorial - Creating Decal Textures and Materials](Decal%20Tutorials/Tutorial%20-%20Creating%20Decal%20Textures%20and%20Materials.md)
+- [Tutorial - Deferred Decal Setup](Decal%20Tutorials/Tutorial%20-%20Deferred%20Decal%20Setup.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308151](
-Tutorial - Creating Decal Textures and Materials
-)
+[Tutorial - Creating Decal Textures and Materials](Decal%20Tutorials/Tutorial%20-%20Creating%20Decal%20Textures%20and%20Materials.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308152](
-Tutorial - Deferred Decal Setup
-)
+[Tutorial - Deferred Decal Setup](Decal%20Tutorials/Tutorial%20-%20Deferred%20Decal%20Setup.md)

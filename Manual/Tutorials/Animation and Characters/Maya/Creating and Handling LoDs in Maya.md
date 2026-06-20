@@ -7,6 +7,7 @@
 
 ## Content
 
+[Embed: https://www.youtube.com/watch?v=HA5G1JUIJBY]
 This video includes a practical explanation of LoDs (Level of Detail), showing you how to optimize for various viewing distances, which will help keep the poly count low and the performance high in your scenes.
 
 You will be shown a full workflow for the creation and management of LoDs using Autodesk Maya, and you’ll learn the naming system used to mark different geometry elements. You will also be provided with an overview of the settings required to export assets using a CryTools pipeline and an FBX pipeline.

@@ -195,9 +195,7 @@ Exhibit A - Source Code Form License Notice
 
 This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at
 
-[https://mozilla.org/MPL/2.0/](
-https://mozilla.org/MPL/2.0/
-)
+[https://mozilla.org/MPL/2.0/](https://mozilla.org/MPL/2.0/)
 .
 
 If it is not possible or desirable to put the notice in a particular file, then You may include the notice in a location (such as a LICENSE file in a relevant directory) where a recipient would be likely to look for such a notice.
@@ -209,45 +207,17 @@ Exhibit B - “Incompatible With Secondary Licenses” Notice
 
 This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Mozilla Public License, v. 2.0.
 
-[#mozilla-public-license](
-Mozilla Public License
-)
-[#version-20](
-Version 2.0
-)
-[#1-definitions](
-1. Definitions
-)
-[#2-license-grants-and-conditions](
-2. License Grants and Conditions
-)
-[#3-responsibilities](
-3. Responsibilities
-)
-[#4-inability-to-comply-due-to-statute-or-regulation](
-4. Inability to Comply Due to Statute or Regulation
-)
-[#5-termination](
-5. Termination
-)
-[#6-disclaimer-of-warranty](
-6. Disclaimer of Warranty
-)
-[#7-limitation-of-liability](
-7. Limitation of Liability
-)
-[#8-litigation](
-8. Litigation
-)
-[#9-miscellaneous](
-9. Miscellaneous
-)
-[#10-versions-of-the-license](
-10. Versions of the License
-)
-[#exhibit-a-source-code-form-license-notice](
-Exhibit A - Source Code Form License Notice
-)
-[#exhibit-b-incompatible-with-secondary-licenses-notice](
-Exhibit B - “Incompatible With Secondary Licenses” Notice
-)
+[Mozilla Public License](#mozilla-public-license)
+[Version 2.0](#version-20)
+[1. Definitions](#1-definitions)
+[2. License Grants and Conditions](#2-license-grants-and-conditions)
+[3. Responsibilities](#3-responsibilities)
+[4. Inability to Comply Due to Statute or Regulation](#4-inability-to-comply-due-to-statute-or-regulation)
+[5. Termination](#5-termination)
+[6. Disclaimer of Warranty](#6-disclaimer-of-warranty)
+[7. Limitation of Liability](#7-limitation-of-liability)
+[8. Litigation](#8-litigation)
+[9. Miscellaneous](#9-miscellaneous)
+[10. Versions of the License](#10-versions-of-the-license)
+[Exhibit A - Source Code Form License Notice](#exhibit-a-source-code-form-license-notice)
+[Exhibit B - “Incompatible With Secondary Licenses” Notice](#exhibit-b-incompatible-with-secondary-licenses-notice)

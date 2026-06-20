@@ -7,39 +7,29 @@
 
 ## Child Pages
 
-- [3DS Max](Animation and Characters/3DS Max.md)
-- [Blender](Animation and Characters/Blender.md)
-- [Maya](Animation and Characters/Maya.md)
-- [Character Tool and Pipeline](Animation and Characters/Character Tool and Pipeline.md)
-- [Mannequin Editor*](Animation and Characters/Mannequin Editor.md)
+- [3DS Max](Animation%20and%20Characters/3DS%20Max.md)
+- [Blender](Animation%20and%20Characters/Blender.md)
+- [Maya](Animation%20and%20Characters/Maya.md)
+- [Character Tool and Pipeline](Animation%20and%20Characters/Character%20Tool%20and%20Pipeline.md)
+- [Mannequin Editor*](Animation%20and%20Characters/Mannequin%20Editor.md)
 
 ## Content
 
-[Image: /docs/static/attachments/106627337]
+![Image](https://www.cryengine.com/docs/static/attachments/106627337)
 
 Everything about getting animated characters, props, and anything else you want to move up and running.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/106627370](
-3DS Max
-)
+[3DS Max](Animation%20and%20Characters/3DS%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/106627372](
-Blender
-)
+[Blender](Animation%20and%20Characters/Blender.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/106627374](
-Maya
-)
+[Maya](Animation%20and%20Characters/Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/106627376](
-Character Tool and Pipeline
-)
+[Character Tool and Pipeline](Animation%20and%20Characters/Character%20Tool%20and%20Pipeline.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/106627378](
-Mannequin Editor*
-)
+[Mannequin Editor*](Animation%20and%20Characters/Mannequin%20Editor.md)

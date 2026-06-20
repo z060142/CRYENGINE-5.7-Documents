@@ -8,6 +8,7 @@
 ## Content
 
 **
+[Embed: http://youtube.com/watch?v=W9hwiEG4xT0]
 **
 
 An in-depth case study of a sidescroller game created by a Crytek team for Global Game Jam 2019 in 48 hours.

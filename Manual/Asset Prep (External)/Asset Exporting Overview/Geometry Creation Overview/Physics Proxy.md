@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934005]
+![Image](https://www.cryengine.com/docs/static/attachments/29934005)
 
 ##
 Overview
@@ -17,30 +17,14 @@ Sections
 
 The physics proxy is the geometry that is used for collision detection. It can be part of the visible geometry or linked to it as a separate node. Usually the physics proxy geometry is a simplified version of the render geometry but it is also possible to use the render geometry directly for physics. However, for performance reasons the collision geometry should be kept as simple as possible since checking for intersections on complex geometry is very expensive, especially if it happens often. A physics proxy is set up in the DCC tool exclusively. The only setup needed in Sandbox is assigning the surface type.
 
-[#sections](
-Sections
-)
-[#general-setup-in-dcc-tools](
-General Setup in DCC Tools
-)
-[#current-allowed-proxy-settings](
-Current Allowed Proxy Settings
-)
-[#level-of-detail-settings](
-Level of Detail Settings
-)
-[#complexity-of-geometry](
-Complexity of Geometry
-)
-[#linking-objects-to-simplify-export](
-Linking Objects to Simplify Export
-)
-[#setup-in-sandbox](
-Setup in Sandbox
-)
-[#debugging](
-Debugging
-)
+[Sections](#sections)
+[General Setup in DCC Tools](#general-setup-in-dcc-tools)
+[Current Allowed Proxy Settings](#current-allowed-proxy-settings)
+[Level of Detail Settings](#level-of-detail-settings)
+[Complexity of Geometry](#complexity-of-geometry)
+[Linking Objects to Simplify Export](#linking-objects-to-simplify-export)
+[Setup in Sandbox](#setup-in-sandbox)
+[Debugging](#debugging)
 
 ##
 General Setup in DCC Tools
@@ -56,7 +40,7 @@ Physicalization
 
 The screenshot below shows a physics proxy surrounding a standard render mesh.
 
-[Image: /docs/static/attachments/35400698]
+![Image](https://www.cryengine.com/docs/static/attachments/35400698)
 
 ##
 Using Primitives
@@ -85,7 +69,7 @@ capsule.
 
 -
 cylinder.
-[Image: /docs/static/attachments/35400697]
+![Image](https://www.cryengine.com/docs/static/attachments/35400697)
 
 *
 Box, sphere, capsule and cylinder
@@ -96,7 +80,7 @@ Maya
 
 1. Create a group called 'cryexportnode_@' replacing the '@' with the filename to export to.
 
-[Image: /docs/static/attachments/35400696]
+![Image](https://www.cryengine.com/docs/static/attachments/35400696)
 
 2. Create a group under the 'cryexportnode'.
 
@@ -104,21 +88,21 @@ Maya
 
 4. Group the meshes to the group you created in step 3.
 
-[Image: /docs/static/attachments/35400695]
+![Image](https://www.cryengine.com/docs/static/attachments/35400695)
 
 5. Group the physics mesh to the group you created in step 3.
 
-[Image: /docs/static/attachments/35400694]
+![Image](https://www.cryengine.com/docs/static/attachments/35400694)
 
 6. Create a new phong material named 'proxy'.
 
-[Image: /docs/static/attachments/35400693]
+![Image](https://www.cryengine.com/docs/static/attachments/35400693)
 
 7. Assign the new material to the physics mesh.
 
 8. Be sure to add your material to the material group with the rest of your materials.
 
-[Image: /docs/static/attachments/35400692]
+![Image](https://www.cryengine.com/docs/static/attachments/35400692)
 
 9. Click the export button on the 'Crytek' toolbar to open the 'Crytek Export' dialog.
 
@@ -127,7 +111,7 @@ Maya
 11. Modify the physics proxy material and set its physicalise flag to
 Proxy No Draw
 
-[Image: /docs/static/attachments/35400691]
+![Image](https://www.cryengine.com/docs/static/attachments/35400691)
 
 12. Select the 'cryexportnode' group.
 
@@ -137,18 +121,16 @@ Proxy No Draw
 Do Not Merge
  option is checked.
 
-[Image: /docs/static/attachments/35400690]
+![Image](https://www.cryengine.com/docs/static/attachments/35400690)
 
 15. Click the
 Export
  button on the 'Crytek Export' dialog.
 
-[Image: /docs/static/attachments/35400689]
+![Image](https://www.cryengine.com/docs/static/attachments/35400689)
 
 An example Maya scene with the hierarchy setup for the static geometry exporting can be downloaded
-[/docs/static/attachments/23994590](
-proxytest.mb
-)
+[proxytest.mb](/docs/static/attachments/23994590)
 .
 
 ##
@@ -215,12 +197,12 @@ Soft Cover
 These properties are assigned in the materials in each 3D package:
 
 *
-[Image: /docs/static/attachments/35400688]
+![Image](https://www.cryengine.com/docs/static/attachments/35400688)
 
 Material Editor in 3ds Max.
 *
 
-[Image: /docs/static/attachments/35400687]
+![Image](https://www.cryengine.com/docs/static/attachments/35400687)
 
 *
 Extra Attributes tab in the material's attribute editor.
@@ -304,11 +286,11 @@ Example: p_draw_helpers larRis_g - show geometry for static, sleeping, active, i
 
 Example picture without physics proxy visualization:
 
-[Image: /docs/static/attachments/35400686]
+![Image](https://www.cryengine.com/docs/static/attachments/35400686)
 
 The same object with physics proxy visualization:
 
-[Image: /docs/static/attachments/35400685]
+![Image](https://www.cryengine.com/docs/static/attachments/35400685)
 
 **
 p_proxy_highlight_range
@@ -340,4 +322,4 @@ e_PhysProxyTriLimit
 
 It will look something like this:
 
-[Image: /docs/static/attachments/35400684]
+![Image](https://www.cryengine.com/docs/static/attachments/35400684)

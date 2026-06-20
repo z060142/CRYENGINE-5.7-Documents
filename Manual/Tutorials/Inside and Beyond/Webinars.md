@@ -7,11 +7,9 @@
 
 ## Child Pages
 
-- [Tutorial/case study - "Homebound" game](Webinars/Tutorial case study - Homebound game.md)
+- [Tutorial/case study - "Homebound" game](Webinars/Tutorial%20case%20study%20-%20Homebound%20game.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658105](
-Tutorial/case study - "Homebound" game
-)
+[Tutorial/case study - "Homebound" game](Webinars/Tutorial%20case%20study%20-%20Homebound%20game.md)

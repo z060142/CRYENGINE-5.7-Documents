@@ -271,18 +271,8 @@ Exec N
 
 Where N is the name of the config file.
 
-[#preparation](
-Preparation
-)
-[#video-settings](
-Video Settings
-)
-[#file-format-selection](
-File Format Selection
-)
-[#audio-settings](
-Audio Settings
-)
-[#creating-configuration-files](
-Creating Configuration Files
-)
+[Preparation](#preparation)
+[Video Settings](#video-settings)
+[File Format Selection](#file-format-selection)
+[Audio Settings](#audio-settings)
+[Creating Configuration Files](#creating-configuration-files)

@@ -17,7 +17,7 @@ RollupBar
 
 One of the main differences is the removal of the RollupBar:
 
-[Image: /docs/static/attachments/44963448]
+![Image](https://www.cryengine.com/docs/static/attachments/44963448)
 
 This was split into smaller tools. Starting from the left:
 
@@ -32,12 +32,12 @@ Old (MFC)
 New (Qt)
  |
 
-[Image: /docs/static/attachments/44963447]
+![Image](https://www.cryengine.com/docs/static/attachments/44963447)
 
  |
-[Image: /docs/static/attachments/44963446]
+![Image](https://www.cryengine.com/docs/static/attachments/44963446)
 
-[Image: /docs/static/attachments/44963449]
+![Image](https://www.cryengine.com/docs/static/attachments/44963449)
 
  |
 
@@ -46,9 +46,7 @@ New (Qt)
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869846](
-Create Object
-)
+[Create Object](../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object.md)
 **
  (
 **
@@ -63,9 +61,7 @@ all objects
 to a scene just like in the old Sandbox Editor.
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866220](
-Properties
-)
+[Properties](../../Editor%20Tools/Level%20Editor%20Tab/Properties.md)
 
 **
 (
@@ -88,21 +84,19 @@ Old (MFC)
 New (Qt)
  |
 
-[Image: /docs/static/attachments/44963445]
+![Image](https://www.cryengine.com/docs/static/attachments/44963445)
 
  |
-[Image: /docs/static/attachments/44963409]
+![Image](https://www.cryengine.com/docs/static/attachments/44963409)
 
-[Image: /docs/static/attachments/44963410]
+![Image](https://www.cryengine.com/docs/static/attachments/44963410)
 
-[Image: /docs/static/attachments/44963442]
+![Image](https://www.cryengine.com/docs/static/attachments/44963442)
 
  |
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849146](
-Terrain Editor
-)
+[Terrain Editor](../../Editor%20Tools/Terrain%20Editor.md)
 **
  (
 **
@@ -115,9 +109,7 @@ RollupBar,
  but it also contains other terrain relevant tools that were scattered in different places in the old Sandbox Editor such as Terrain Texture Layers.
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865590](
-Vegetation Editor
-)
+[Vegetation Editor](../../Editor%20Tools/Vegetation%20Editor.md)
 **
  (
 **
@@ -126,9 +118,7 @@ Tools -> Vegetation Editor
 ): this is a tool that has basically been stripped out of the RollupBar. However, it still has the same functionality and serves the same purpose as it did before.
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848989](
-Level Settings
-)
+[Level Settings](../../Editor%20Tools/Level%20Editor%20Tab/Level%20Settings.md)
 
 **
 (
@@ -142,16 +132,14 @@ Tools -> Level Editor -> Level Settings
 
 The modelling tools in the third tab are no longer supported:
 
-[Image: /docs/static/attachments/44963441]
+![Image](https://www.cryengine.com/docs/static/attachments/44963441)
 
 ##
 4th Tab (Display)
 
 Most of the display settings in the fourth tab have been moved to the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848606](
-Display
-)
+[Display](../For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface/Viewport%20Window/Display%20Settings.md)
 **
  menu in the header of the 3D Viewport.
 
@@ -166,10 +154,10 @@ Old (MFC)
 New (Qt)
  |
 
-[Image: /docs/static/attachments/44963440]
+![Image](https://www.cryengine.com/docs/static/attachments/44963440)
 
  |
-[Image: /docs/static/attachments/44963425]
+![Image](https://www.cryengine.com/docs/static/attachments/44963425)
 
  |
 
@@ -178,9 +166,7 @@ New (Qt)
 
 The fifth tab has turned into its own tool, the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541](
-Level Explorer
-)
+[Level Explorer](../../Editor%20Tools/Level%20Editor%20Tab/Level%20Explorer.md)
 **
 . The Level Explorer also takes over the functionality of the
 **
@@ -193,10 +179,10 @@ Old (MFC)
 New (Qt)
  |
 
-[Image: /docs/static/attachments/44963438]
+![Image](https://www.cryengine.com/docs/static/attachments/44963438)
 
  |
-[Image: /docs/static/attachments/44963436]
+![Image](https://www.cryengine.com/docs/static/attachments/44963436)
 
  |
 
@@ -213,14 +199,14 @@ Old (MFC)
 New (Qt)
  |
 
-[Image: /docs/static/attachments/44963437]
+![Image](https://www.cryengine.com/docs/static/attachments/44963437)
 
-[Image: /docs/static/attachments/44963407]
+![Image](https://www.cryengine.com/docs/static/attachments/44963407)
 
  |
-[Image: /docs/static/attachments/44963406]
+![Image](https://www.cryengine.com/docs/static/attachments/44963406)
 
-[Image: /docs/static/attachments/44963435]
+![Image](https://www.cryengine.com/docs/static/attachments/44963435)
 
  |
 
@@ -229,9 +215,7 @@ Filters
 
 By using the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26216501](
-filter system
-)
+[filter system](../For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface/Update%205.3%20-%20UI%20Improvements.md)
 **
  in the
 **
@@ -244,10 +228,10 @@ Old (MFC)
 New (Qt)
  |
 
-[Image: /docs/static/attachments/44963434]
+![Image](https://www.cryengine.com/docs/static/attachments/44963434)
 
  |
-[Image: /docs/static/attachments/44963431]
+![Image](https://www.cryengine.com/docs/static/attachments/44963431)
 
  |
 
@@ -284,12 +268,12 @@ Old (MFC)
 New (Qt)
  |
 
-[Image: /docs/static/attachments/44963430]
+![Image](https://www.cryengine.com/docs/static/attachments/44963430)
 
-[Image: /docs/static/attachments/44963404]
+![Image](https://www.cryengine.com/docs/static/attachments/44963404)
 
  |
-[Image: /docs/static/attachments/44963429]
+![Image](https://www.cryengine.com/docs/static/attachments/44963429)
 
  |
 
@@ -300,13 +284,13 @@ Old (MFC)
  |
 (click images to enlarge)
 
-[Image: /docs/static/attachments/44963428]
+![Image](https://www.cryengine.com/docs/static/attachments/44963428)
 
  |
 
 New (Qt)
  |
-[Image: /docs/static/attachments/44963427]
+![Image](https://www.cryengine.com/docs/static/attachments/44963427)
 
  |
 
@@ -316,15 +300,10 @@ Camera Settings
 Previously at the top of the Viewport there were options such as fov, ratio, resolution and settings inside of the perspective menu.
 
 These options have now moved to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966443](
-**
-Camera
-**
-
-)
+[Camera](../For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface/Viewport%20Window/Camera%20Settings.md)
 menu in the top-left corner of the Viewport:
 
-[Image: /docs/static/attachments/44963401]
+![Image](https://www.cryengine.com/docs/static/attachments/44963401)
 
 On the right side are 3 speed settings that
 were
@@ -335,10 +314,10 @@ Old (MFC)
 New (Qt)
  |
 
-[Image: /docs/static/attachments/44963426]
+![Image](https://www.cryengine.com/docs/static/attachments/44963426)
 
  |
-[Image: /docs/static/attachments/44963400]
+![Image](https://www.cryengine.com/docs/static/attachments/44963400)
 
  |
 
@@ -351,9 +330,7 @@ Display
 **
  button in CRYENGINE V represent ways of
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44960236](
-snapping objects
-)
+[snapping objects](../For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Snap%20%26%20Alignment.md)
 **
 . These were previously located in the
 **
@@ -368,10 +345,10 @@ Old (MFC)
 New (Qt)
  |
 
-[Image: /docs/static/attachments/44963422]
+![Image](https://www.cryengine.com/docs/static/attachments/44963422)
 
  |
-[Image: /docs/static/attachments/44963424]
+![Image](https://www.cryengine.com/docs/static/attachments/44963424)
 
  |
 
@@ -380,7 +357,7 @@ Bottom Bar
 
 The bottom bar of the old MFC Editor has been removed. These options have been moved to different places:
 
-[Image: /docs/static/attachments/44963423]
+![Image](https://www.cryengine.com/docs/static/attachments/44963423)
 
 The
 **
@@ -392,14 +369,14 @@ Properties
 **
  (when an object is selected):
 
-[Image: /docs/static/attachments/44963402]
+![Image](https://www.cryengine.com/docs/static/attachments/44963402)
 
 **
 Camera speed
 **
 has moved to the top-left of the 3D Viewport:
 
-[Image: /docs/static/attachments/44963400]
+![Image](https://www.cryengine.com/docs/static/attachments/44963400)
 
 **
 Enabling AI/Physics
@@ -410,7 +387,7 @@ Game
 **
  menu. It also has a button in the Game toolbar that is displayed by default at the top of the main UI:
 
-[Image: /docs/static/attachments/44963399]
+![Image](https://www.cryengine.com/docs/static/attachments/44963399)
 
 **
 Audio
@@ -436,9 +413,7 @@ Error Report
 
 In older versions of CRYENGINE (up to 3.8.6) a window popped up when an error occurred. From CRYENGINE V, we now have the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44967728](
-Notification Center
-)
+[Notification Center](../../Editor%20Tools/Advanced%20Tab/Notification%20Center.md)
 **
 .
 **
@@ -451,10 +426,10 @@ Old (MFC)
 New (Qt)
  |
 
-[Image: /docs/static/attachments/44963420]
+![Image](https://www.cryengine.com/docs/static/attachments/44963420)
 
  |
-[Image: /docs/static/attachments/44963419]
+![Image](https://www.cryengine.com/docs/static/attachments/44963419)
 
  |
 
@@ -463,9 +438,7 @@ Asset Browser/Texture Browser
 
 Among other changes that come with the latest revision of the Sandbox Editor it's important to mention that new
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-Asset Browser
-)
+[Asset Browser](../../Editor%20Tools/Asset%20Browser.md)
 
 **
 is
@@ -491,13 +464,13 @@ Old (MFC)
 New (Qt)
  |
 
-[Image: /docs/static/attachments/44963418]
+![Image](https://www.cryengine.com/docs/static/attachments/44963418)
 
  |
-[Image: /docs/static/attachments/44963403]
+![Image](https://www.cryengine.com/docs/static/attachments/44963403)
 
  |
-[Image: /docs/static/attachments/44963416]
+![Image](https://www.cryengine.com/docs/static/attachments/44963416)
 
  |
 
@@ -509,13 +482,13 @@ In order for the layout to make more sense in the new Qt Editor, the tools and m
 Some deprecated items have been removed.
 Old (MFC)
  |
-[Image: /docs/static/attachments/44963415]
+![Image](https://www.cryengine.com/docs/static/attachments/44963415)
 
  |
 
 New (Qt)
  |
-[Image: /docs/static/attachments/44963414]
+![Image](https://www.cryengine.com/docs/static/attachments/44963414)
 
  |
 
@@ -524,58 +497,26 @@ Merged Windows Feature
 
 One of the behaviors that many users liked in the 'old' MFC Editor was that the Sandbox and its windows were shown as a single tab on a task bar. For some users “alt tabbing” between tools is cumbersome and ineffective, so there is an option in the new Qt Editor under the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848616](
-Preferences
-)
+[Preferences](../For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Customizing%20CRYENGINE%20Sandbox/Changing%20Sandbox%20Preferences.md)
 **
  menu that allows for the same behavior that could be found in the 'old' MFC Editor:
 
-[Image: /docs/static/attachments/44963413]
+![Image](https://www.cryengine.com/docs/static/attachments/44963413)
 
 Please note that by default the UX is designed with the above option set to 'off'. Windows management will be less efficient once the Sandbox Editor has more complex tools with more sub-windows. Also the child windows will be obscured, thus making it more cumbersome to use. For example: the Asset System will give one window for each asset the user wants to have open, hence many windows will very likely be hidden behind other bigger windows and without the user even noticing it.
 
-[#rollupbar](
-RollupBar
-)
-[#1st-tab-objects](
-1st Tab (Objects)
-)
-[#2nd-tab-terrain](
-2nd Tab (Terrain)
-)
-[#3rd-tab-modelling](
-3rd Tab (Modelling)
-)
-[#4th-tab-display](
-4th Tab (Display)
-)
-[#5th-tab-layers](
-5th Tab (Layers)
-)
-[#other-mfc-editor-tools](
-Other MFC Editor Tools
-)
-[#lighting-tool](
-Lighting Tool
-)
-[#navigation-toolbars-and-options](
-Navigation Toolbars and Options
-)
-[#snapping](
-Snapping
-)
-[#bottom-bar](
-Bottom Bar
-)
-[#error-report](
-Error Report
-)
-[#asset-browsertexture-browser](
-Asset Browser/Texture Browser
-)
-[#menu-items-rearrangement](
-Menu Items Rearrangement
-)
-[#merged-windows-feature](
-Merged Windows Feature
-)
+[RollupBar](#rollupbar)
+[1st Tab (Objects)](#1st-tab-objects)
+[2nd Tab (Terrain)](#2nd-tab-terrain)
+[3rd Tab (Modelling)](#3rd-tab-modelling)
+[4th Tab (Display)](#4th-tab-display)
+[5th Tab (Layers)](#5th-tab-layers)
+[Other MFC Editor Tools](#other-mfc-editor-tools)
+[Lighting Tool](#lighting-tool)
+[Navigation Toolbars and Options](#navigation-toolbars-and-options)
+[Snapping](#snapping)
+[Bottom Bar](#bottom-bar)
+[Error Report](#error-report)
+[Asset Browser/Texture Browser](#asset-browsertexture-browser)
+[Menu Items Rearrangement](#menu-items-rearrangement)
+[Merged Windows Feature](#merged-windows-feature)

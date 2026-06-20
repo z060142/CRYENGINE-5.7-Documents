@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [Smart Objects Usecase](Smart Objects System/Smart Objects Usecase.md)
+- [Smart Objects Usecase](Smart%20Objects%20System/Smart%20Objects%20Usecase.md)
 
 ## Content
 
-[Image: /docs/static/attachments/29933214]
+![Image](https://www.cryengine.com/docs/static/attachments/29933214)
 
 ##
 Overview
@@ -50,18 +50,10 @@ SmartObject rules are not stored within the
 XML
  file.
 
-[#sections](
-Sections
-)
-[#the-smart-objects-editor](
-The Smart Objects Editor
-)
-[#smart-objects-helper-editor-ui](
-Smart Objects Helper Editor UI
-)
-[#accessing-smart-object-data-outside-the-smart-object-editor](
-Accessing Smart Object Data Outside the Smart Object Editor
-)
+[Sections](#sections)
+[The Smart Objects Editor](#the-smart-objects-editor)
+[Smart Objects Helper Editor UI](#smart-objects-helper-editor-ui)
+[Accessing Smart Object Data Outside the Smart Object Editor](#accessing-smart-object-data-outside-the-smart-object-editor)
 
 ##
 The Smart Objects Editor

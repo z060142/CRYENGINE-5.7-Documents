@@ -7,17 +7,13 @@
 
 ## Child Pages
 
-- [Tutorial - Creating Collision Proxies for CRYENGINE Using Blender](Blender Tutorials/Tutorial - Creating Collision Proxies for CRYENGINE Using Blender.md)
-- [Tutorial - Creating and Handling LoDs in Blender](Blender Tutorials/Tutorial - Creating and Handling LoDs in Blender.md)
+- [Tutorial - Creating Collision Proxies for CRYENGINE Using Blender](Blender%20Tutorials/Tutorial%20-%20Creating%20Collision%20Proxies%20for%20CRYENGINE%20Using%20Blender.md)
+- [Tutorial - Creating and Handling LoDs in Blender](Blender%20Tutorials/Tutorial%20-%20Creating%20and%20Handling%20LoDs%20in%20Blender.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/60522630](
-Tutorial - Creating Collision Proxies for CRYENGINE Using Blender
-)
+[Tutorial - Creating Collision Proxies for CRYENGINE Using Blender](Blender%20Tutorials/Tutorial%20-%20Creating%20Collision%20Proxies%20for%20CRYENGINE%20Using%20Blender.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/64290821](
-Tutorial - Creating and Handling LoDs in Blender
-)
+[Tutorial - Creating and Handling LoDs in Blender](Blender%20Tutorials/Tutorial%20-%20Creating%20and%20Handling%20LoDs%20in%20Blender.md)

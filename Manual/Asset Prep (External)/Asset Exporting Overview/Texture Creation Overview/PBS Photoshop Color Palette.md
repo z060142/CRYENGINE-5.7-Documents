@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933580]
+![Image](https://www.cryengine.com/docs/static/attachments/29933580)
 
 ##
 Overview
@@ -22,6 +22,4 @@ Here are a selection of various metals saved as swatches for easy color picking 
 This will be updated once we discover more values that are not regarded to fit in the 50,50,50 range.
 
 You can download the Physically based value here:
-[/docs/static/attachments/16221041](
-pbs_spec_values.aco
-)
+[pbs_spec_values.aco](/docs/static/attachments/16221041)

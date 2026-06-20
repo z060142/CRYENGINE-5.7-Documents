@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933275]
+![Image](https://www.cryengine.com/docs/static/attachments/29933275)
 
 ##
 Overview
@@ -19,12 +19,8 @@ The blend layer feature allows mixing a second set of textures with the base set
 
 A very useful feature of the blend layer is that a heightmap can be used as blend map. This makes the blending follow the structure of the base texture.
 
-[#sections](
-Sections
-)
-[#3ds-max-asset-setup](
-3ds Max Asset Setup
-)
+[Sections](#sections)
+[3ds Max Asset Setup](#3ds-max-asset-setup)
 
 ##
 3ds Max Asset Setup

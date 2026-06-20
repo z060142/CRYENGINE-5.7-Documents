@@ -16,9 +16,7 @@ The different ways you setup your character defines the facial animation's forma
 
 -
 You can have facial animations composed of morphs (blendshapes). These are setup in the Facial Editor and the Facial Animations are saved as
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310899#FacialAnimationAssetFiles-fsq](
-.fsq files
-)
+[.fsq files](/docs/static/engines/cryengine-3/categories/1114113/pages/1310899#FacialAnimationAssetFiles-fsq)
 . This was the method used for all Characters in Crysis.
 
 -
@@ -26,9 +24,7 @@ If your character has a facial rig made of bones:
 
 -
 You can create animations in your DCC and export them as
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310796#ExportingAnimations-ExportingaCAFFile](
-.caf files
-)
+[.caf files](/docs/static/engines/cryengine-3/categories/1114113/pages/1310796#ExportingAnimations-ExportingaCAFFile)
 . These are then treated the same way as the body animations. This was the method used for A-Level Characters in Crysis 2.
 
 -
@@ -38,27 +34,19 @@ You can setup the expressions in Facial Editor using Bone Expressions. These are
 Morph Based Setup
 
 If your character is setup with morph targets, please refer to
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310723](
-Facial Setup
-)
+[Facial Setup](/docs/static/engines/cryengine-3/categories/1114113/pages/1310723)
  document.
 
 There is more information on
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310771](
-Facial Animation
-)
+[Facial Animation](/docs/static/engines/cryengine-3/categories/1114113/pages/1310771)
 .
 
 To setup a character in Facial Editor, please refer to
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048829](
-Facial Editor Tutorial
-)
+[Facial Editor Tutorial](/docs/static/engines/cryengine-3/categories/1114113/pages/1048829)
 .
 
 To play Facial Animation on a Character setup with Morphs in Track View, you need to add a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874142#FacialSequenceTracks-FacialSequenceTrack](
-Facial Sequence
-)
+[Facial Sequence](Facial%20Sequence%20Tracks.md#FacialSequenceTracks-FacialSequenceTrack)
  Track on the Character.
 
 ##
@@ -198,15 +186,7 @@ The Facial Sequence track allows to set fixed facial expressions on characters.
 A Facial Sequence track being used on a C-level character.
 *
 
-[#morph-based-setup](
-Morph Based Setup
-)
-[#bone-driven-facial-rig](
-Bone Driven Facial Rig
-)
-[#animations-created-in-dcc](
-Animations created in DCC
-)
-[#animations-created-in-facial-editor](
-Animations created in Facial Editor
-)
+[Morph Based Setup](#morph-based-setup)
+[Bone Driven Facial Rig](#bone-driven-facial-rig)
+[Animations created in DCC](#animations-created-in-dcc)
+[Animations created in Facial Editor](#animations-created-in-facial-editor)

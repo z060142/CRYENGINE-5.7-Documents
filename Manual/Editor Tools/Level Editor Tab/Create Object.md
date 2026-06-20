@@ -7,18 +7,18 @@
 
 ## Child Pages
 
-- [Area](Create Object/Area.md)
-- [Legacy Entities](Create Object/Legacy Entities.md)
-- [Misc Objects](Create Object/Misc Objects.md)
-- [AI (AI Control Objects)](Create Object/AI (AI Control Objects).md)
-- [Archetype Entity (Game SDK)](Create Object/Archetype Entity (Game SDK).md)
-- [Audio Entities](Create Object/Audio Entities.md)
-- [Brush Objects](Create Object/Brush Objects.md)
-- [Components](Create Object/Components.md)
-- [Designer Tool](Create Object/Designer Tool.md)
-- [Empty Entity](Create Object/Empty Entity.md)
-- [Game Custom (Game SDK)](Create Object/Game Custom (Game SDK).md)
-- [Static Mesh Entity](Create Object/Static Mesh Entity.md)
+- [Area](Create%20Object/Area.md)
+- [Legacy Entities](Create%20Object/Legacy%20Entities.md)
+- [Misc Objects](Create%20Object/Misc%20Objects.md)
+- [AI (AI Control Objects)](Create%20Object/AI%20(AI%20Control%20Objects).md)
+- [Archetype Entity (Game SDK)](Create%20Object/Archetype%20Entity%20(Game%20SDK).md)
+- [Audio Entities](Create%20Object/Audio%20Entities.md)
+- [Brush Objects](Create%20Object/Brush%20Objects.md)
+- [Components](Create%20Object/Components.md)
+- [Designer Tool](Create%20Object/Designer%20Tool.md)
+- [Empty Entity](Create%20Object/Empty%20Entity.md)
+- [Game Custom (Game SDK)](Create%20Object/Game%20Custom%20(Game%20SDK).md)
+- [Static Mesh Entity](Create%20Object/Static%20Mesh%20Entity.md)
 
 ## Content
 
@@ -33,13 +33,13 @@ Tools → Level Editor → Create Object
 **
 .
 
-[Image: /docs/static/attachments/44966480]
+![Image](https://www.cryengine.com/docs/static/attachments/44966480)
 
 ##
 Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44966481]
+![Image](https://www.cryengine.com/docs/static/attachments/44966481)
  icon on the top-right corner of the Create Object tool. When clicked, it reveals the following
 **
 
@@ -128,74 +128,42 @@ Create Object Tool Elements
 See the pages below for more information about the various different objects.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869848](
-AI (AI Control Objects)
-)
+[AI (AI Control Objects)](Create%20Object/AI%20(AI%20Control%20Objects).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870432](
-Archetype Entity (Game SDK)
-)
+[Archetype Entity (Game SDK)](Create%20Object/Archetype%20Entity%20(Game%20SDK).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869850](
-Area
-)
+[Area](Create%20Object/Area.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869852](
-Audio Entities
-)
+[Audio Entities](Create%20Object/Audio%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869855](
-Brush Objects
-)
+[Brush Objects](Create%20Object/Brush%20Objects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869857](
-Components
-)
+[Components](Create%20Object/Components.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869859](
-Designer Tool
-)
+[Designer Tool](Create%20Object/Designer%20Tool.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869861](
-Empty Entity
-)
+[Empty Entity](Create%20Object/Empty%20Entity.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870426](
-Game Custom (Game SDK)
-)
+[Game Custom (Game SDK)](Create%20Object/Game%20Custom%20(Game%20SDK).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450771](
-Legacy Entities
-)
+[Legacy Entities](Create%20Object/Legacy%20Entities.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869863](
-Misc Objects
-)
+[Misc Objects](Create%20Object/Misc%20Objects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869865](
-Static Mesh Entity
-)
+[Static Mesh Entity](Create%20Object/Static%20Mesh%20Entity.md)
 
-[#menu](
-Menu
-)
-[#toolbars](
-Toolbars
-)
-[#help](
-Help
-)
-[#create-object-tool-elements](
-Create Object Tool Elements
-)
+[Menu](#menu)
+[Toolbars](#toolbars)
+[Help](#help)
+[Create Object Tool Elements](#create-object-tool-elements)

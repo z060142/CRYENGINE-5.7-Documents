@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Important CRYENGINE 5.2 Data and Code Changes](CRYENGINE 5.2.0/Important CRYENGINE 5.2 Data and Code Changes.md)
-- [Migrating from CRYENGINE 5.1 to CRYENGINE 5.2](CRYENGINE 5.2.0/Migrating from CRYENGINE 5.1 to CRYENGINE 5.2.md)
-- [Third-party SDKs in 5.2](CRYENGINE 5.2.0/Third-party SDKs in 5.2.md)
+- [Important CRYENGINE 5.2 Data and Code Changes](CRYENGINE%205.2.0/Important%20CRYENGINE%205.2%20Data%20and%20Code%20Changes.md)
+- [Migrating from CRYENGINE 5.1 to CRYENGINE 5.2](CRYENGINE%205.2.0/Migrating%20from%20CRYENGINE%205.1%20to%20CRYENGINE%205.2.md)
+- [Third-party SDKs in 5.2](CRYENGINE%205.2.0/Third-party%20SDKs%20in%205.2.md)
 
 ## Content
 

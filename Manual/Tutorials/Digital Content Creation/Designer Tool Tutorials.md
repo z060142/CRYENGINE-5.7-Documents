@@ -7,35 +7,25 @@
 
 ## Child Pages
 
-- [Demo - Designer Tool part 1](Designer Tool Tutorials/Demo - Designer Tool part 1.md)
-- [Demo - Designer Tool part 2](Designer Tool Tutorials/Demo - Designer Tool part 2.md)
-- [How to use the subdiv and smoothing tools in CryDesigner](Designer Tool Tutorials/How to use the subdiv and smoothing tools in CryDesigner.md)
-- [How to use the lathe tool in CryDesigner](Designer Tool Tutorials/How to use the lathe tool in CryDesigner.md)
-- [How to create a bridge in CryDesigner](Designer Tool Tutorials/How to create a bridge in CryDesigner.md)
+- [Demo - Designer Tool part 1](Designer%20Tool%20Tutorials/Demo%20-%20Designer%20Tool%20part%201.md)
+- [Demo - Designer Tool part 2](Designer%20Tool%20Tutorials/Demo%20-%20Designer%20Tool%20part%202.md)
+- [How to use the subdiv and smoothing tools in CryDesigner](Designer%20Tool%20Tutorials/How%20to%20use%20the%20subdiv%20and%20smoothing%20tools%20in%20CryDesigner.md)
+- [How to use the lathe tool in CryDesigner](Designer%20Tool%20Tutorials/How%20to%20use%20the%20lathe%20tool%20in%20CryDesigner.md)
+- [How to create a bridge in CryDesigner](Designer%20Tool%20Tutorials/How%20to%20create%20a%20bridge%20in%20CryDesigner.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56657124](
-Demo - Designer Tool part 1
-)
+[Demo - Designer Tool part 1](Designer%20Tool%20Tutorials/Demo%20-%20Designer%20Tool%20part%201.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56657126](
-Demo - Designer Tool part 2
-)
+[Demo - Designer Tool part 2](Designer%20Tool%20Tutorials/Demo%20-%20Designer%20Tool%20part%202.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656842](
-How to use the subdiv and smoothing tools in CryDesigner
-)
+[How to use the subdiv and smoothing tools in CryDesigner](Designer%20Tool%20Tutorials/How%20to%20use%20the%20subdiv%20and%20smoothing%20tools%20in%20CryDesigner.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656844](
-How to use the lathe tool in CryDesigner
-)
+[How to use the lathe tool in CryDesigner](Designer%20Tool%20Tutorials/How%20to%20use%20the%20lathe%20tool%20in%20CryDesigner.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656860](
-How to create a bridge in CryDesigner
-)
+[How to create a bridge in CryDesigner](Designer%20Tool%20Tutorials/How%20to%20create%20a%20bridge%20in%20CryDesigner.md)

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/44964915]
+![Image](https://www.cryengine.com/docs/static/attachments/44964915)
 
 ##
 Overview
@@ -68,7 +68,7 @@ SoundObstructionType
 Pic1: SoundObstructionType options
 *
 
-[Image: /docs/static/attachments/44970654]
+![Image](https://www.cryengine.com/docs/static/attachments/44970654)
 
 Property
 
@@ -275,9 +275,7 @@ MultipleRay
 providing they are located within 150m from the sound's listener.
 
 For a full reference of the audio system CVars in the Editor, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867762](
-Audio CVars & Console Commands
-)
+[Audio CVars & Console Commands](Audio%20CVars%20%26%20Console%20Commands.md)
 .
 
 ##
@@ -389,9 +387,7 @@ For example,
 " means that for the sources that are farther than 5m away from the listener the Obstruction value will be lower than the actual value calculated from the Raycast. In this case, an object 10m away will have half the obstruction value of the similarly obstructed source located 5m away.
 
 For a full reference of the audio system CVars in the Editor please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867762](
-Audio CVars & Console Commands
-)
+[Audio CVars & Console Commands](Audio%20CVars%20%26%20Console%20Commands.md)
 .
 
 ##
@@ -421,9 +417,7 @@ For example,
 " means that for the sources within 10m from the listener the Raycast will be executed synchronously, and for the sources farther than 10m they will be executed asynchronously.
 
 For a full reference of the audio system CVars in the Editor please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867762](
-Audio CVars & Console Commands
-)
+[Audio CVars & Console Commands](Audio%20CVars%20%26%20Console%20Commands.md)
 .
 
 ##
@@ -536,9 +530,7 @@ occlusion
  ray labels.
 
 For a full reference of the audio system CVars in the Editor please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867762](
-Audio CVars & Console Commands
-)
+[Audio CVars & Console Commands](Audio%20CVars%20%26%20Console%20Commands.md)
 .
 
 *
@@ -569,7 +561,5 @@ SoundObstructionType
 *
 
 To learn how to setup Sound Obstruction/Occlusion in Wwise please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964998](
-Wwise & Occlusion
-)
+[Wwise & Occlusion](../Audio%20Middleware/Wwise%20Workflow/Wwise%20%26%20Occlusion.md)
 .

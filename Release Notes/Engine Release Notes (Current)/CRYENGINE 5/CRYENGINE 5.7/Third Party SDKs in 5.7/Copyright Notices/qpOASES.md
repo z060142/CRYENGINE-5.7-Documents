@@ -9,9 +9,7 @@
 
 -
 The source code for this library can be found
-[https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/qpOASES-3.0-Src.zip](
-here
-)
+[here](https://content.cryengine.com/cryengine-content/cryengine-57-lts/sdk-source/qpOASES-3.0-Src.zip)
 .
 
 -

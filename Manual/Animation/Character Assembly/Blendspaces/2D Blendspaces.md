@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933231]
+![Image](https://www.cryengine.com/docs/static/attachments/29933231)
 
 ##
 2D-Blend Spaces Overview
@@ -17,30 +17,14 @@ So far we were able to change only one single parameter at a time. But there are
 ##
 Chapters:
 
-[#2d-blend-spaces-overview](
-2D-Blend Spaces Overview
-)
-[#chapters](
-Chapters:
-)
-[#2d-bspacemoveturn1bspace](
-2D-BSpace_MoveTurn1.bspace
-)
-[#2d-bspacemoveslopebspace](
-2D-BSpace_MoveSlope.bspace
-)
-[#2d-bspacemoveturn2bspace](
-2D-BSpace_MoveTurn2.bspace
-)
-[#2d-bspacei2mleftbspace](
-2D-BSpace_I2M_left.bspace
-)
-[#2d-bspacemovestrafe1bspace](
-2D-BSpace_MoveStrafe1.bspace
-)
-[#2d-bspacemovestrafe2bspace](
-2D-BSpace_MoveStrafe2.bspace
-)
+[2D-Blend Spaces Overview](#2d-blend-spaces-overview)
+[Chapters:](#chapters)
+[2D-BSpace_MoveTurn1.bspace](#2d-bspacemoveturn1bspace)
+[2D-BSpace_MoveSlope.bspace](#2d-bspacemoveslopebspace)
+[2D-BSpace_MoveTurn2.bspace](#2d-bspacemoveturn2bspace)
+[2D-BSpace_I2M_left.bspace](#2d-bspacei2mleftbspace)
+[2D-BSpace_MoveStrafe1.bspace](#2d-bspacemovestrafe1bspace)
+[2D-BSpace_MoveStrafe2.bspace](#2d-bspacemovestrafe2bspace)
 
 ##
 2D-BSpace_MoveTurn1.bspace
@@ -55,7 +39,7 @@ A classical example for a 2D blend space could be a character who moves at diffe
 *
  while he moves. When we change the speed, we don't want to change the turn-radius and when we change the turn-radius it should have no impact on the speed.
 
-[Image: /docs/static/attachments/35397165]
+![Image](https://www.cryengine.com/docs/static/attachments/35397165)
 
 ```
 
@@ -216,7 +200,7 @@ Idle2Moves
 **
  with different speeds. In the next example we can blend between walkStart and runStart when doing a transition into a walk or run. This XML also uses a combination of real examples and a scaled example to cover the whole blend-space.
 
-[Image: /docs/static/attachments/35397166]
+![Image](https://www.cryengine.com/docs/static/attachments/35397166)
 
 ```
 
@@ -295,7 +279,7 @@ Another example for a 2D blend space is a character who moves at different speed
 *
  while he moves. When we change the speed, we don't want to change the move-direction and when we change the move-direction it should have no impact on the speed.
 
-[Image: /docs/static/attachments/35397167]
+![Image](https://www.cryengine.com/docs/static/attachments/35397167)
 
 ```
 
@@ -376,7 +360,7 @@ In the previous strafe example we had walk and run assets for different speeds. 
 **
  by scaling the speed of original assets.
 
-[Image: /docs/static/attachments/35397168]
+![Image](https://www.cryengine.com/docs/static/attachments/35397168)
 
 ```
 

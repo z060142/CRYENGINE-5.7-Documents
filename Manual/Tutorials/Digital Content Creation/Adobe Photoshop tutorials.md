@@ -7,11 +7,9 @@
 
 ## Child Pages
 
-- [Tutorial - Creating a terrain texture in Photoshop](Adobe Photoshop tutorials/Tutorial - Creating a terrain texture in Photoshop.md)
+- [Tutorial - Creating a terrain texture in Photoshop](Adobe%20Photoshop%20tutorials/Tutorial%20-%20Creating%20a%20terrain%20texture%20in%20Photoshop.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56657015](
-Tutorial - Creating a terrain texture in Photoshop
-)
+[Tutorial - Creating a terrain texture in Photoshop](Adobe%20Photoshop%20tutorials/Tutorial%20-%20Creating%20a%20terrain%20texture%20in%20Photoshop.md)

@@ -30,15 +30,11 @@ Vectorian Giotto
 
 -
 Notepad++:
-[http://notepad-plus-plus.org/](
-http://notepad-plus-plus.org/
-)
+[http://notepad-plus-plus.org/](http://notepad-plus-plus.org/)
 
 -
 FlashDevelop:
-[http://www.flashdevelop.org/](
-http://www.flashdevelop.org/
-)
+[http://www.flashdevelop.org/](http://www.flashdevelop.org/)
 
 ##
 Getting Started with the Graphical UI
@@ -82,7 +78,7 @@ Enter 30 for the frame rate.
 
 -
 Set the ruler units to be in pixels.
-[Image: /docs/static/attachments/23461338]
+![Image](https://www.cryengine.com/docs/static/attachments/23461338)
 
 Vectorian Giotto never asks you to save your work, so make sure you save regularly as well as before closing.
 
@@ -119,8 +115,8 @@ Right click on the layer, and add a new layer.
 
 -
 Rename this one to "Components".
-[Image: /docs/static/attachments/23461335]
-[Image: /docs/static/attachments/23461334]
+![Image](https://www.cryengine.com/docs/static/attachments/23461335)
+![Image](https://www.cryengine.com/docs/static/attachments/23461334)
 
 ##
 Creating the Graphical User Interface
@@ -128,11 +124,11 @@ Creating the Graphical User Interface
 ##
 Creating the Button
 
-[Image: /docs/static/attachments/23461344]
+![Image](https://www.cryengine.com/docs/static/attachments/23461344)
 
 -
 On the right, select a color of your choice from the color palette, and on the left select the Rectangle Tool
-[Image: /docs/static/attachments/23461333]
+![Image](https://www.cryengine.com/docs/static/attachments/23461333)
 .
 
 -
@@ -140,11 +136,11 @@ Make sure the component layer is selected at the top.
 
 -
 Draw a box on the canvas which will represent the button.
-[Image: /docs/static/attachments/23461342]
+![Image](https://www.cryengine.com/docs/static/attachments/23461342)
 
 -
 Select the Text Tool
-[Image: /docs/static/attachments/23461332]
+![Image](https://www.cryengine.com/docs/static/attachments/23461332)
  on the left, and again, pick a color on the right.
 
 -
@@ -152,7 +148,7 @@ Click on the button and type some text.
 
 -
 Click on the Selection Tool
-[Image: /docs/static/attachments/23461331]
+![Image](https://www.cryengine.com/docs/static/attachments/23461331)
  and move your text in place.
 Now we are going to turn this shape with text into a button.
 
@@ -164,7 +160,7 @@ Give it a name, e.g. "TestButton".
 
 -
 Make sure to select Button, not movieclip, and click on "OK".
-[Image: /docs/static/attachments/23461339]
+![Image](https://www.cryengine.com/docs/static/attachments/23461339)
 
 Now the shape has been replaced with your button. If you double click on it you will zoom in on it, the timeline will change and we can edit the buttons properties.
 
@@ -214,7 +210,7 @@ Insert keyframe
 
 -
 Do this for the other states as well.
-[Image: /docs/static/attachments/23461343]
+![Image](https://www.cryengine.com/docs/static/attachments/23461343)
 
 Now we can change the appearance of the button in different states.
 
@@ -231,7 +227,7 @@ Now we will add some text to our scene which we can edit in real-time later.
 
 -
 Select the Text Tool
-[Image: /docs/static/attachments/23461332]
+![Image](https://www.cryengine.com/docs/static/attachments/23461332)
  on the left.
 
 -
@@ -241,7 +237,7 @@ Pick a color on the right. Make sure not to pick black. The UI emulator which we
 Draw a text field.
 Your scene should look something like this:
 
-[Image: /docs/static/attachments/23461340]
+![Image](https://www.cryengine.com/docs/static/attachments/23461340)
 
 ##
 Exporting the UI
@@ -251,12 +247,12 @@ Now, since we want to use the button and the text field in script, we will give 
 -
 Click on the button and give it a name.
 
-[Image: /docs/static/attachments/23461341]
+![Image](https://www.cryengine.com/docs/static/attachments/23461341)
 
 -
 Do the same for the textbox in the middle.
 
-[Image: /docs/static/attachments/23461336]
+![Image](https://www.cryengine.com/docs/static/attachments/23461336)
 Also, because we are using fonts, we need to embed them in the SWF file.
 
 To do this use the Selection Tool, and click on the MessageBox in the middle.
@@ -277,7 +273,7 @@ Click on "Embed...".
 
 -
 Select all the four lines and click on "OK". This will make sure that the font is included in the SWF and thus can be rendered.
-[Image: /docs/static/attachments/23461337]
+![Image](https://www.cryengine.com/docs/static/attachments/23461337)
 
 -
 Save your file again.
@@ -323,9 +319,7 @@ New project
 
 -
 Under ActionScript 2, Select Empty project. If the AS2 templates are missing please get the templates from
-[https://raw.github.com/fdorg/flashdevelop/development/External/Extensions/AS2Templates/AS2Templates-1.01.fdz](
-here
-)
+[here](https://raw.github.com/fdorg/flashdevelop/development/External/Extensions/AS2Templates/AS2Templates-1.01.fdz)
 .
 
 -
@@ -370,7 +364,7 @@ Give it a name (ButtonTestClass for example).
 Click on "OK".
 Now we have a project and a class which we will use to hook Flash up to CRYENGINE via Scaleform.
 
-[Image: /docs/static/attachments/23461347]
+![Image](https://www.cryengine.com/docs/static/attachments/23461347)
 
 -
 Right click on the class and select
@@ -378,7 +372,7 @@ Right click on the class and select
 Always Compile
 **
 . This will make sure it compiles the class when you run the project.
-[Image: /docs/static/attachments/23461350]
+![Image](https://www.cryengine.com/docs/static/attachments/23461350)
 
 Let's look at the project properties.
 
@@ -389,7 +383,7 @@ Properties
 **
 .
 
-[Image: /docs/static/attachments/23461349]
+![Image](https://www.cryengine.com/docs/static/attachments/23461349)
 Here you will see 5 tabs, we will be editing only 2.
 
 -
@@ -406,7 +400,7 @@ Click on browse and locate the folder with the SWF but make sure to give it a di
 
 -
 Set the dimensions and the frame rate to the same values as in your Vectorian Giotto project, 1280 x 720, 30 fps.
-[Image: /docs/static/attachments/23461345]
+![Image](https://www.cryengine.com/docs/static/attachments/23461345)
 
 -
 Go to the "Injection" tab. This one holds the settings which are used to inject our ActionScript code into the graphical SWF file.
@@ -416,7 +410,7 @@ Tick the "Enable Code Injection" checkbox.
 
 -
 In the Input SWF file box, locate your UI file we have just created with Vectorian Giotto (TutorialButton.swf).
-[Image: /docs/static/attachments/23461346]
+![Image](https://www.cryengine.com/docs/static/attachments/23461346)
 
 ##
 Adding the ActionScript
@@ -648,7 +642,7 @@ Open up "Flags".
 Set the property "Mouse Events" to true.
 Now the UI will accept mouse events and the button will react to your mouse in the previewer.
 
-[Image: /docs/static/attachments/23461348]
+![Image](https://www.cryengine.com/docs/static/attachments/23461348)
 
 You can even test the function you've just made and added.
 
@@ -660,7 +654,7 @@ Double click on "ChangeMessage".
 
 -
 You can change the "message" parameter and click on call to see if it works.
-[Image: /docs/static/attachments/23461355]
+![Image](https://www.cryengine.com/docs/static/attachments/23461355)
 
 If you have no background in your UI and the text is black, you won't be able to read it since the UI emulator's background is black as well. So for testing purposes it is wise to add a background, or use colored elements.
 
@@ -685,7 +679,7 @@ New
 
 -
 Give it a name and click on "OK".
-[Image: /docs/static/attachments/23461351]
+![Image](https://www.cryengine.com/docs/static/attachments/23461351)
 
 We don't need to bother with adding anything to the level, the water will be fine for now.
 
@@ -806,7 +800,7 @@ In Constraints:
 Scale
 Now link all the FlowGraph nodes together as shown below.
 
-[Image: /docs/static/attachments/23461330]
+![Image](https://www.cryengine.com/docs/static/attachments/23461330)
 
 ##
 The FlowGraph for Handling Events and Functions
@@ -864,7 +858,7 @@ ChangeMessage
 
 -
 Now simply link OnClicks' "onEvent" to ChangeMessage's "Call" and give the message parameter a value by double clicking on it.
-[Image: /docs/static/attachments/23461329]
+![Image](https://www.cryengine.com/docs/static/attachments/23461329)
 
 -
 Click on your main viewport.

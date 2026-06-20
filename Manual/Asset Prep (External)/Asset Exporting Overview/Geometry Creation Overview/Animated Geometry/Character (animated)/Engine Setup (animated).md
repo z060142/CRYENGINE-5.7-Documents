@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Character Parameters File (chrparams)](Engine Setup (animated)/Character Parameters File (chrparams).md)
-- [Attachment Setup](Engine Setup (animated)/Attachment Setup.md)
+- [Character Parameters File (chrparams)](Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)
+- [Attachment Setup](Engine%20Setup%20(animated)/Attachment%20Setup.md)
 
 ## Content
 
@@ -21,11 +21,7 @@ This section will describe the required file setup of characters to work in CRYE
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308007](
-Attachment Setup
-)
+[Attachment Setup](Engine%20Setup%20(animated)/Attachment%20Setup.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307999](
-Character Parameters File (chrparams)
-)
+[Character Parameters File (chrparams)](Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)

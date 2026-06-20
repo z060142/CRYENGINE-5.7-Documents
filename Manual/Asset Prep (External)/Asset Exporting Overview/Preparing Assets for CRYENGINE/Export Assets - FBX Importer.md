@@ -73,9 +73,7 @@ Tools
  menu on the main Toolbar.
 
 For a full description of the FBX Importer interface and functionality visit the page
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294](
-FBX Import Tools
-)
+[FBX Import Tools](../../../Editor%20Tools/FBX%20Import%20Tools.md)
 **
 .
 **
@@ -129,7 +127,7 @@ Based on the above process, assign the right value to the LOD2 geometry. This is
 Assigning values for the LODs
 *
 
-[Image: /docs/static/attachments/25523814]
+![Image](https://www.cryengine.com/docs/static/attachments/25523814)
 
 ##
 User Defined Properties
@@ -138,7 +136,7 @@ Most of the assets used in CRYENGINE require custom properties that enable the e
 
 Similar to the CGF workflow, the proxy geometry needs to be physicalized in order for the engine to make use of it. We do that by selecting the corresponding proxy mesh for our asset and by enabling Physics Proxy in the Properties panel.
 
-[Image: /docs/static/attachments/25523815]
+![Image](https://www.cryengine.com/docs/static/attachments/25523815)
 
 ##
 Materials
@@ -154,7 +152,7 @@ proxy only (no draw)
 :
 
 *
-[Image: /docs/static/attachments/25523818]
+![Image](https://www.cryengine.com/docs/static/attachments/25523818)
 
 *
 
@@ -170,16 +168,10 @@ Material
 **
 tab.
 
-[Image: /docs/static/attachments/25523816]
+![Image](https://www.cryengine.com/docs/static/attachments/25523816)
 
 The color of a source material is for previewing purposes only. Setting a source material color helps in finding vertices used in this material on the preview viewport, but does not affect the color of the exported CGF file in any way.
 
-[#helpful-information](
-Helpful Information
-)
-[#asset-setup-dcc-tool](
-Asset Setup - DCC tool
-)
-[#importing-static-geometry](
-Importing Static Geometry
-)
+[Helpful Information](#helpful-information)
+[Asset Setup - DCC tool](#asset-setup-dcc-tool)
+[Importing Static Geometry](#importing-static-geometry)

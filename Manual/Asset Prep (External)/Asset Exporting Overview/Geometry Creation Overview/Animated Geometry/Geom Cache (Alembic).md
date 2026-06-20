@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Geom Cache Technical Overview](Geom Cache (Alembic)/Geom Cache Technical Overview.md)
+- [Geom Cache Technical Overview](Geom%20Cache%20(Alembic)/Geom%20Cache%20Technical%20Overview.md)
 
 ## Content
 
@@ -21,35 +21,18 @@ Geometry Caches in CRYENGINE allow the storing and playback of arbitrary animate
 
 Some use-cases are: complex destruction animations, complicated cloth motion or special effects that cannot be achieved with CRYENGINE's particle system.
 
-[Image: /docs/static/attachments/51347647]
+[Embed: https://www.youtube.com/watch?v=leD9-oxNfaQ]
+![Image](https://www.cryengine.com/docs/static/attachments/51347647)
 
-[#sections](
-Sections
-)
-[#features-and-limitations](
-Features and Limitations
-)
-[#filetypes](
-Filetypes
-)
-[#creating-geomcache-assets](
-Creating GeomCache Assets
-)
-[#alembic-export-from-maya](
-Alembic Export from Maya
-)
-[#alembic-export-from-3ds-max](
-Alembic Export from 3ds Max
-)
-[#using-geomcaches-in-sandbox](
-Using GeomCaches in Sandbox
-)
-[#optimization](
-Optimization
-)
-[#debugging-and-troubleshooting](
-Debugging & Troubleshooting
-)
+[Sections](#sections)
+[Features and Limitations](#features-and-limitations)
+[Filetypes](#filetypes)
+[Creating GeomCache Assets](#creating-geomcache-assets)
+[Alembic Export from Maya](#alembic-export-from-maya)
+[Alembic Export from 3ds Max](#alembic-export-from-3ds-max)
+[Using GeomCaches in Sandbox](#using-geomcaches-in-sandbox)
+[Optimization](#optimization)
+[Debugging & Troubleshooting](#debugging-and-troubleshooting)
 
 ##
 Features and Limitations
@@ -130,7 +113,7 @@ The format is subject to change with future Engine updates and is not backwards-
 Keep your *.abc and *.cbc just like you would keep your *.tif files.
 
 See the Batch Conversion section for information on how to update all *.cax files at the same time.
-[Image: /docs/static/attachments/51347654]
+![Image](https://www.cryengine.com/docs/static/attachments/51347654)
 
 ##
 Creating GeomCache Assets
@@ -211,9 +194,7 @@ CryPhys_cylinder
 CryPhys_mesh
  - arbitrary mesh. Supports non-uniform scale.
 Please refer to the manual pages in regards to setting any
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310799](
-User Defined Properties
-)
+[User Defined Properties](/docs/static/engines/cryengine-3/categories/1114113/pages/1310799)
  (UDPs) for CRYENGINE physics proxies in Maya or 3ds Max
 
 ##
@@ -225,23 +206,23 @@ CryAbc"
 
 Make sure that you have installed the Maya Alembic export plugin: from Maya's Main Menu bar ->  Windows -> Settings/Preferences -> Plug-In Manager, tick the "Loaded" and "Auto-load" checkbox for the "AbcExport.mll".
 
-[Image: /docs/static/attachments/51347655]
+![Image](https://www.cryengine.com/docs/static/attachments/51347655)
 
 1. Run the
 AbcMat
  script (inside the Crytek Shelf) to prepare your scene for export. This script slightly modifies your scene to work around some limitations in Maya's Alembic exporter.
 
-[Image: /docs/static/attachments/51347656]
+![Image](https://www.cryengine.com/docs/static/attachments/51347656)
 
 2. Now bring up the
 Maya
  Alembic exporter GUI.
 
-[Image: /docs/static/attachments/51347657]
+![Image](https://www.cryengine.com/docs/static/attachments/51347657)
 
 3. Under the advanced Options, (scroll to the bottom) and make sure to have the essential flags enabled - as in the picture below.
 
-[Image: /docs/static/attachments/51347658]
+![Image](https://www.cryengine.com/docs/static/attachments/51347658)
 
 After you have set the options in step 3.
 Do not use
@@ -256,7 +237,7 @@ Once you have set these flags, click the close button and go to the Crytek Expor
 CryAbc
 " shelf button. A file dialog will pop up and ask you to set the file location and file name for the Alembic file.
 
-[Image: /docs/static/attachments/51347659]
+![Image](https://www.cryengine.com/docs/static/attachments/51347659)
 
 ##
 Alembic Export from 3ds Max
@@ -276,7 +257,7 @@ Here's an example for using the resource compiler via the command line to conver
 rc.exe /refresh /threads *.abc
 `
 
-[Image: /docs/static/attachments/51347660]
+![Image](https://www.cryengine.com/docs/static/attachments/51347660)
 
 ##
 Using GeomCaches in Sandbox
@@ -301,7 +282,7 @@ Editing
 
 Double click on the asset to edit.
 
-[Image: /docs/static/attachments/51347661]
+![Image](https://www.cryengine.com/docs/static/attachments/51347661)
 
 These settings do the following:
 
@@ -447,9 +428,9 @@ With the appropriate settings, the entity can be used as a looping animated prop
 
 Here's an example of an independent GeomCache prop from Ryse that loads and unloads as the player moves closer to or further away from:
 
-[Image: /docs/static/attachments/51347662]
+![Image](https://www.cryengine.com/docs/static/attachments/51347662)
 
-[Image: /docs/static/attachments/51347663]
+![Image](https://www.cryengine.com/docs/static/attachments/51347663)
 
 ##
 Optimization
@@ -516,7 +497,7 @@ This sequence illustrates how different techniques affect draw-calls and data-ra
 *
  to color instances:
 
-[Image: /docs/static/attachments/51347647]
+![Image](https://www.cryengine.com/docs/static/attachments/51347647)
 
 ##
 Profiling
@@ -546,13 +527,13 @@ Animated/Static Tris/Verts
 -
 Animated/Static Meshes
  - the number of individual meshes (unless instanced) directly translates into draw-calls. Meshes with multiple sub-materials cost multiple draw-calls.
-[Image: /docs/static/attachments/51347664]
+![Image](https://www.cryengine.com/docs/static/attachments/51347664)
 
 The Statistics Overlay can be enabled in the preferences:
 
-[Image: /docs/static/attachments/51347665]
+![Image](https://www.cryengine.com/docs/static/attachments/51347665)
 
-[Image: /docs/static/attachments/51347666]
+![Image](https://www.cryengine.com/docs/static/attachments/51347666)
 
 ##
 Debugging & Troubleshooting
@@ -620,7 +601,7 @@ Console Commands
 e_GeomCacheDebug
  - displays GeomCache streaming debug information. Avoid having a full streaming buffer, since it will lead to animation stalls:
 
-[Image: /docs/static/attachments/51347667]
+![Image](https://www.cryengine.com/docs/static/attachments/51347667)
 
 e_GeomCacheDebugFilter
  - show debug info only caches with this string in its name.

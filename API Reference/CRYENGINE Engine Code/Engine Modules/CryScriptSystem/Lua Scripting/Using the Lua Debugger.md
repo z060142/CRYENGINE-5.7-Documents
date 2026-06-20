@@ -12,7 +12,7 @@ Overview
 
 CRYENGINE includes a visual LUA script debugger. The debugger is embedded in CryScriptSystem making it accessible both from Sandbox and also the Launcher.
 
-[Image: /docs/static/attachments/23461424]
+![Image](https://www.cryengine.com/docs/static/attachments/23461424)
 
 ##
 Using the Debugger

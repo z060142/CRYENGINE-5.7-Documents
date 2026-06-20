@@ -23,9 +23,7 @@ Select the
 AI → Navigation Area
 **
  option from the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869846](
-Create Object
-)
+[Create Object](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object.md)
  tool.
 
 -
@@ -44,9 +42,7 @@ Navigation Area
 
 -
 Next, set the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961796](
-Agent Type
-)
+[Agent Type](Navigation%20Configuration.md)
  of the Navigation Area to match the Agent Types of the AI characters that need to use the navigation mesh.
 Checkboxes for available Agent Types are listed in the
 **
@@ -58,7 +54,7 @@ Display Filled
 **
  checkbox, as shown in the image below. Tick the corresponding boxes to set the Agent Type of the Navigation Area.
 
-[Image: /docs/static/attachments/44961883]
+![Image](https://www.cryengine.com/docs/static/attachments/44961883)
 
 *
 Navigation Area properties
@@ -77,9 +73,7 @@ ProjectFolder/Scripts/AI/.
 *
 Please refer to the NavMesh Agent Types
 
-[/docs](
-documentation
-)
+[documentation](/docs)
 
 for more information.
 
@@ -130,7 +124,7 @@ Game → AI
  menu.
 The following screenshot shows a created Navigation Area (purple shape) and the NavMesh generated inside it.
 
-[Image: /docs/static/attachments/44965395]
+![Image](https://www.cryengine.com/docs/static/attachments/44965395)
 
 *
 Selected Navigation Area and its properties
@@ -141,10 +135,10 @@ Shape Surface Alignment
 
 Creating Navigation Areas above or below the terrain or object surface can prevent NavMeshes from generating properly. To avoid this, make sure you place the base of the Navigation Area's shape below the terrain/object, and its top above the terrain/object to provide plenty of clearance.
 
-[Image: /docs/static/attachments/44965392]
+![Image](https://www.cryengine.com/docs/static/attachments/44965392)
 
  |
-[Image: /docs/static/attachments/44965396]
+![Image](https://www.cryengine.com/docs/static/attachments/44965396)
 
  |
 
@@ -162,16 +156,12 @@ The Editor's
 Game → AI
 **
  menu contains options to visualize and update Navigation Areas; for a complete list of options and their functions, please refer to the
-[/docs](
-Game Menu
-)
+[Game Menu](/docs)
 's documentation.
 
 Debugging in the Game Launcher
 It's possible to visualize NavMeshes within the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535321](
-Game Launcher
-)
+[Game Launcher](../../../Packaging%20and%20Deployment/Game%20Executable%20Launcher.md)
  by using the following CVars:
 
 -
@@ -227,7 +217,7 @@ Exclusion
  property of the new Navigation Area.
 Areas that are so excluded from a Navigation Area are colored red to indicate that they cannot be used by AI to navigate within, as shown in the image below.
 
-[Image: /docs/static/attachments/44965393]
+![Image](https://www.cryengine.com/docs/static/attachments/44965393)
 
 *
 Exclusion Area marked in red
@@ -239,15 +229,13 @@ The Exclusion Area placed in the middle of the image above ensures that the NavM
 Accessibility and Seed Points
 
 Creating a NavMesh around multiple objects generates areas that might be inaccessible to AI characters while path-finding; these inaccessible areas can be filtered out by using Seed Points. Refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36340564](
-Accessibility and Seed Points
-)
+[Accessibility and Seed Points](Accessibility%20and%20Seed%20Points.md)
  documentation for more information on placing Seed Points and computing the accessibility of NavMeshes.
 
-[Image: /docs/static/attachments/44965390]
+![Image](https://www.cryengine.com/docs/static/attachments/44965390)
 
  |
-[Image: /docs/static/attachments/44965391]
+![Image](https://www.cryengine.com/docs/static/attachments/44965391)
 
  |
 
@@ -282,9 +270,7 @@ After Change
 Disabled
 **
 . For a complete description of their functions, please refer to the
-[/docs](
-Game Menu
-)
+[Game Menu](/docs)
 's documentation.
 
 You can easily tell if a Navigation Area is being updated by a small character icon that is displayed at the top left of the screen. If multiple NavMeshes need to be updated, a progress bar might be shown as well.
@@ -308,9 +294,7 @@ ai_NavigationSystemMT
 Updating at Run-time
 
 Although automatic navigation updates are disabled at run-time, it is possible to update parts of NavMeshes manually. To learn more, refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535422](
-Run-Time MNM Regeneration
-)
+[Run-Time MNM Regeneration](Run-Time%20MNM%20Regeneration.md)
  documentation.
 
 ##
@@ -318,24 +302,14 @@ Navigation System Warning
 
 While the navigation is being updated or while parts of NavMeshes are not up to date, you may sometimes receive a "Navigation System Warning" when trying to export your level. This warning is to prevent the navigation from being in an inconsistent state, and should not be interrupted to be safe.
 
-[Image: /docs/static/attachments/44965394]
+![Image](https://www.cryengine.com/docs/static/attachments/44965394)
 
 *
 Navigation System Warning
 *
 
-[#creating-a-new-navigation-area](
-Creating a New Navigation Area
-)
-[#exclusion-areas](
-Exclusion Areas
-)
-[#accessibility-and-seed-points](
-Accessibility and Seed Points
-)
-[#updating-navigation](
-Updating Navigation
-)
-[#navigation-system-warning](
-Navigation System Warning
-)
+[Creating a New Navigation Area](#creating-a-new-navigation-area)
+[Exclusion Areas](#exclusion-areas)
+[Accessibility and Seed Points](#accessibility-and-seed-points)
+[Updating Navigation](#updating-navigation)
+[Navigation System Warning](#navigation-system-warning)

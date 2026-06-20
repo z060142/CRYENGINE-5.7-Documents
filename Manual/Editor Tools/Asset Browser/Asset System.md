@@ -20,9 +20,7 @@ Using the tools available in the Sandbox Editor, Designers can then import, crea
 
 The main tool and the front-end for the Asset System is the Asset Browser.
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
- See here
-)
+[See here](../Asset%20Browser.md)
 **
  for information on how this works.
 
@@ -59,12 +57,6 @@ Missing or Corrupted Cryasset Files
 
 If the cryasset files are missing, something is corrupted or if some assets do not show in the content browser, then you can either re-import/re-save individual assets or use the repair button mentioned above.
 
-[#implementation](
-Implementation
-)
-[#generating-metadata](
-Generating Metadata
-)
-[#missing-or-corrupted-cryasset-files](
-Missing or Corrupted Cryasset Files
-)
+[Implementation](#implementation)
+[Generating Metadata](#generating-metadata)
+[Missing or Corrupted Cryasset Files](#missing-or-corrupted-cryasset-files)

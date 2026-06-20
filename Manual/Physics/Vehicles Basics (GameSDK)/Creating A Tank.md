@@ -11,23 +11,17 @@
 Overview
 
 Tanks need special treatment because they are a combination of .cga and .chr files. For general information about vehicle setup, please refer to
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605652](
-Vehicle System
-)
+[Vehicle System](/docs/static/engines/cryengine-3/categories/1638401/pages/1605652)
 .
 
 ##
 Sample Files
 
 -
-[/docs/static/attachments/1441827](
-max_abrams.rar
-)
+[max_abrams.rar](/docs/static/attachments/1441827)
 
 -
-[/docs/static/attachments/1441793](
-ma_abrams.rar
-)
+[ma_abrams.rar](/docs/static/attachments/1441793)
 
 ##
 General Setup in 3D Applications
@@ -98,7 +92,5 @@ The treads must be exported as a CHR one at a time, as they have different skele
 In Sandbox
 
 For more information please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26214869](
-Vehicle Editor
-)
+[Vehicle Editor](../../Editor%20Tools/Deprecated%20Tab/Vehicle%20Editor.md)
  article.

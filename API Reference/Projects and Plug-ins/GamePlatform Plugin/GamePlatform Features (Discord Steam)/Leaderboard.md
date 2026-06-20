@@ -23,9 +23,7 @@ GetLeaderboardData
 Retrieves leaderboard information as requested.
 
 Listen for the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448580#Leaderboard-onentry](
-OnLeaderboardEntryDownloaded
-)
+[OnLeaderboardEntryDownloaded](Leaderboard.md#Leaderboard-onentry)
  event after the request.
 Platform(s)
  |
@@ -85,9 +83,7 @@ Leaderboard Service Events
 OnLeaderboardEntryDownloaded
 
 Fired when a leaderboard entry has been received via a
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448580#Leaderboard-getdata](
- GetLeaderboardData
-)
+[GetLeaderboardData](Leaderboard.md#Leaderboard-getdata)
 request.
 
 Platform(s)
@@ -112,18 +108,8 @@ Schematyc Nodes
 Signal::Receive::[EntityName]::Accounts::PlatformSignalReceiver::Leaderboard::OnLeaderboardEntryDownloaded
  |
 
-[#leaderboard-service-functions](
-Leaderboard Service Functions
-)
-[#getleaderboarddata](
-GetLeaderboardData
-)
-[#updateleaderboardscore](
-UpdateLeaderboardScore
-)
-[#leaderboard-service-events](
-Leaderboard Service Events
-)
-[#onleaderboardentrydownloaded](
-OnLeaderboardEntryDownloaded
-)
+[Leaderboard Service Functions](#leaderboard-service-functions)
+[GetLeaderboardData](#getleaderboarddata)
+[UpdateLeaderboardScore](#updateleaderboardscore)
+[Leaderboard Service Events](#leaderboard-service-events)
+[OnLeaderboardEntryDownloaded](#onleaderboardentrydownloaded)

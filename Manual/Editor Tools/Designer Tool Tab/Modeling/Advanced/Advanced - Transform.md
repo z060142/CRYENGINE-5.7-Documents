@@ -12,7 +12,7 @@ Overview
 
 With the tools available under Transform in the Advanced section you can...
 
-[Image: /docs/static/attachments/28900742]
+![Image](https://www.cryengine.com/docs/static/attachments/28900742)
 
 ##
 Pivot2Bottom
@@ -41,9 +41,7 @@ Exports .obj, .cgf, or .grp files.
 Snap to Grid
 
 When Snapping to Grid (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44960236](
-Grid Snapping
-)
+[Grid Snapping](../../../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Snap%20%26%20Alignment.md)
 ) is activated, will snap the selected vertex, edge, polygon or pivot to the nearest grid point.
 
 ##

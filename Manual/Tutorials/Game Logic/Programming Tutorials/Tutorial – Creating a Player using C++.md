@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Tutorial - Adding Specialized Controls to a Player (Sprint)](Tutorial – Creating a Player using C++/Tutorial - Adding Specialized Controls to a Player (Sprint).md)
-- [Tutorial - Adding Specialized Controls to a Player (Jump)](Tutorial – Creating a Player using C++/Tutorial - Adding Specialized Controls to a Player (Jump).md)
-- [Tutorial - Adding Specialized Controls to a Player (Crouch)](Tutorial – Creating a Player using C++/Tutorial - Adding Specialized Controls to a Player (Crouch).md)
+- [Tutorial - Adding Specialized Controls to a Player (Sprint)](Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B/Tutorial%20-%20Adding%20Specialized%20Controls%20to%20a%20Player%20(Sprint).md)
+- [Tutorial - Adding Specialized Controls to a Player (Jump)](Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B/Tutorial%20-%20Adding%20Specialized%20Controls%20to%20a%20Player%20(Jump).md)
+- [Tutorial - Adding Specialized Controls to a Player (Crouch)](Tutorial%20%E2%80%93%20Creating%20a%20Player%20using%20C%2B%2B/Tutorial%20-%20Adding%20Specialized%20Controls%20to%20a%20Player%20(Crouch).md)
 
 ## Content
 
@@ -18,7 +18,7 @@ Overview
 
 In this tutorial, we will be covering the basics of how to use C++ to create a usable and controllable first-person player (FPP). More specifically, we will be creating a "Player Component" that can be configured directly within CRYENGINE by changing values such as the player’s height, walking speed, rotation speed, etc.
 
-[Image: /docs/static/attachments/101679139]
+![Image](https://www.cryengine.com/docs/static/attachments/101679139)
 
 This "Player Component" will be written entirely in C++, and while we will be using either a First Person Shooter or Third Person Shooter project template for the animations, we will be building the movements ourselves from scratch. The player itself is comprised of four main components; the Camera, the Input, the Physics and the Animation. By the time you're done, your player character will have:
 
@@ -59,9 +59,7 @@ To get started, the first step is to create a project. While the templates we wi
 Begin by creating a new project in CRYENGINE 5.7 LTS. For a template, select either the Third Person Shooter or First Person Shooter template.
 
 For more information on how to create a project, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468348](
-Creating, Importing & Upgrading Projects
-)
+[Creating, Importing & Upgrading Projects](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Launcher%20Reference/Managing%20Projects.md)
 .
 
 Make sure you select the
@@ -79,7 +77,7 @@ Name your project and open it in CRYENGINE 5.7 LTS Sandbox. Upon the project loa
 
 -
 Open the CRYENGINE Launcher and navigate to the Projects tab. Once there, click the
-[Image: /docs/static/attachments/101679116]
+![Image](https://www.cryengine.com/docs/static/attachments/101679116)
  icon corresponding to our newly-created project and select
 **
 Reveal in Explorer
@@ -87,9 +85,7 @@ Reveal in Explorer
 .
 
 If you're confused about the Launcher interface, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/69468204](
-CRYENGINE Launcher Reference
-)
+[CRYENGINE Launcher Reference](../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Launcher%20Reference.md)
 .
 
 -
@@ -135,7 +131,7 @@ Generate Solution
 **
  from the dropdown menu.
 
-[Image: /docs/static/attachments/101679141]
+![Image](https://www.cryengine.com/docs/static/attachments/101679141)
 
 *
 The Generate Solution option
@@ -173,14 +169,14 @@ Game.sln
 *
 .h files.
 
-[Image: /docs/static/attachments/101679142]
+![Image](https://www.cryengine.com/docs/static/attachments/101679142)
 
 *
 Game.sln file in the win64 folder
 *
 
 From the CRYENGINE Launcher, you can also click the
-[Image: /docs/static/attachments/101679116]
+![Image](https://www.cryengine.com/docs/static/attachments/101679116)
  button corresponding to your project and select
 **
 Open in Visual Studio
@@ -880,7 +876,7 @@ B
 **
  to build. You should receive the following error:
 
-[Image: /docs/static/attachments/101679146]
+![Image](https://www.cryengine.com/docs/static/attachments/101679146)
 *
 Unrecognized class error
 *
@@ -980,7 +976,7 @@ private
  for member variables or functions you don’t want anything else to access
 .
 
-[Image: /docs/static/attachments/101679147]
+![Image](https://www.cryengine.com/docs/static/attachments/101679147)
 
 *
 Public, protected and private sections
@@ -1127,7 +1123,7 @@ Followed by the last
 
 ```
 
-[Image: /docs/static/attachments/101679148]
+![Image](https://www.cryengine.com/docs/static/attachments/101679148)
 
 *
 The final list of added Components with the corresponding #include lines
@@ -1324,7 +1320,7 @@ CPlayerComponent
 `
 :
 
-[Image: /docs/static/attachments/101679177]
+![Image](https://www.cryengine.com/docs/static/attachments/101679177)
 
 *
 InitializeInput() in
@@ -1482,7 +1478,7 @@ m_pInputComponent->BindAction("player", "yaw", eAID_KeyboardMouse, eKI_MouseY);
 
 ```
 
-[Image: /docs/static/attachments/101679181]
+![Image](https://www.cryengine.com/docs/static/attachments/101679181)
 *
 T
 he complete input lines for the
@@ -1554,7 +1550,7 @@ virtual void ProcessEvent(const SEntityEvent& event) override;
 
 ```
 
-[Image: /docs/static/attachments/101679183]
+![Image](https://www.cryengine.com/docs/static/attachments/101679183)
 
 *
 The added lines under the public section in Player.h
@@ -1611,7 +1607,7 @@ Reset
 GameplayStarted
 `
 .
-[Image: /docs/static/attachments/101679155]
+![Image](https://www.cryengine.com/docs/static/attachments/101679155)
 
 *
 Note that the events are separated by the “|” key, and not by the “:” or “;” keys which you may be used to seeing
@@ -1714,7 +1710,7 @@ break;
 
 ```
 
-[Image: /docs/static/attachments/101679158]
+![Image](https://www.cryengine.com/docs/static/attachments/101679158)
 
 *
 Defining GameplayStarted
@@ -1784,7 +1780,7 @@ float m_rotationLimitsMaxPitch;
 
 ```
 
-[Image: /docs/static/attachments/101679159]
+![Image](https://www.cryengine.com/docs/static/attachments/101679159)
 *
 The final
 list of
@@ -1869,10 +1865,7 @@ CPlayerComponent
 `
 , so that we can modify the values directly within CRYENGINE
  via the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866220](
-Properties
- tool
-)
+[Properties tool](../../../Editor%20Tools/Level%20Editor%20Tab/Properties.md)
 
 when we add and select our Player Entity.
 
@@ -1914,7 +1907,7 @@ Properties
 **
 of the Player Entity.
 
-[Image: /docs/static/attachments/101679249]
+![Image](https://www.cryengine.com/docs/static/attachments/101679249)
 *
 The final
 list of
@@ -2250,7 +2243,7 @@ Reset
 
 should look like this:
 
-[Image: /docs/static/attachments/101679188]
+![Image](https://www.cryengine.com/docs/static/attachments/101679188)
 *
 
 Complete Reset section
@@ -2376,7 +2369,7 @@ m_pCharacterController->SetVelocity(m_pEntity->GetWorldRotation() * velocity *  
 
 ```
 
-[Image: /docs/static/attachments/101679187]
+![Image](https://www.cryengine.com/docs/static/attachments/101679187)
 
 *
 Last line in PlayerMovement
@@ -2409,7 +2402,7 @@ B
 **
  to build
  the completed solution.
-[Image: /docs/static/attachments/101679186]
+![Image](https://www.cryengine.com/docs/static/attachments/101679186)
 
 *
 The completed Player Movement section
@@ -2427,10 +2420,7 @@ By default, clicking the
 Local Windows Debugger
 **
  button at the top will launch our project in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535321](
-Game Executable
-Launcher
-)
+[Game Executable Launcher](../../../Packaging%20and%20Deployment/Game%20Executable%20Launcher.md)
 . We want to change this so that when the project is launched from Visual Studio, it runs CRYENGINE Sandbox
  in Editor Mode.
 To do this, go to the Solution Explorer and right-click on
@@ -2445,7 +2435,7 @@ StartUp
 **
 .
 
-[Image: /docs/static/attachments/101679199]
+![Image](https://www.cryengine.com/docs/static/attachments/101679199)
 *
 
 Defining the Sandbox Editor as the default project launch application
@@ -2481,8 +2471,8 @@ CPlayerComponent
 **
  that should now be available.
 
-[Image: /docs/static/attachments/101679198]
-[Image: /docs/static/attachments/101679197]
+![Image](https://www.cryengine.com/docs/static/attachments/101679198)
+![Image](https://www.cryengine.com/docs/static/attachments/101679197)
 
 *
 CPlayerComponent Entity Component properties
@@ -2572,9 +2562,7 @@ Ctrl + G
 Conclusion
 
 This concludes the tutorial. To learn more about C++ in CRYENGINE and/or other topics, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307414](
-CRYENGINE V Manual
-)
+[CRYENGINE V Manual](/docs/static/engines/cryengine-5/categories/23756816/pages/23307414)
 .
 
 ##
@@ -2582,31 +2570,17 @@ Video Tutorial
 
 You can also follow this tutorial series in video form on our YouTube channel:
 
+[Embed: https://www.youtube.com/watch?v=63PuJoVoQMg]
+
 ##
 Related Information
 
-[https://youtu.be/xKTygGa6hg0](
-Tutorial - Coding in C++ - Creating a Player Controller - CRYENGINE Summer Academy
-)
+[Tutorial - Coding in C++ - Creating a Player Controller - CRYENGINE Summer Academy](https://youtu.be/xKTygGa6hg0)
 
-[#prerequisites](
-Prerequisites
-)
-[#getting-started](
-Getting Started
-)
-[#creating-a-player](
-Creating a Player
-)
-[#testing-the-character](
-Testing the Character
-)
-[#conclusion](
-Conclusion
-)
-[#video-tutorial](
-Video Tutorial
-)
-[#related-information](
-Related Information
-)
+[Prerequisites](#prerequisites)
+[Getting Started](#getting-started)
+[Creating a Player](#creating-a-player)
+[Testing the Character](#testing-the-character)
+[Conclusion](#conclusion)
+[Video Tutorial](#video-tutorial)
+[Related Information](#related-information)

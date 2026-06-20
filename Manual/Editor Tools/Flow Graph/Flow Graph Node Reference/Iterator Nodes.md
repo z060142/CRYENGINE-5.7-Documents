@@ -12,7 +12,7 @@ GetEntities
 
 Used to find and return all entities in the world.
 
-[Image: /docs/static/attachments/29687850]
+![Image](https://www.cryengine.com/docs/static/attachments/29687850)
 
 **
 Inputs
@@ -113,7 +113,7 @@ GetEntitiesInArea
 
 Used to find and return all entities within the specified area shape.
 
-[Image: /docs/static/attachments/29687849]
+![Image](https://www.cryengine.com/docs/static/attachments/29687849)
 
 **
 Inputs
@@ -223,7 +223,7 @@ GetEntitiesInBox
 
 Used to find and return all entities within the defined AABB box.
 
-[Image: /docs/static/attachments/29687848]
+![Image](https://www.cryengine.com/docs/static/attachments/29687848)
 
 **
 Inputs
@@ -342,7 +342,7 @@ GetEntitiesInBoxByClass
 
 Used to find and return all entities assigned to the classes that are defined AABB box.
 
-[Image: /docs/static/attachments/29687847]
+![Image](https://www.cryengine.com/docs/static/attachments/29687847)
 
 **
 Inputs
@@ -443,7 +443,7 @@ GetEntitiesInSphere
 
 Used to find and return all entities within the defined sphere volume.
 
-[Image: /docs/static/attachments/29687846]
+![Image](https://www.cryengine.com/docs/static/attachments/29687846)
 
 **
 Inputs
@@ -557,18 +557,8 @@ Integer
 Triggered when all entities have been found, with the total count returned
  |
 
-[#getentities](
-GetEntities
-)
-[#getentitiesinarea](
-GetEntitiesInArea
-)
-[#getentitiesinbox](
-GetEntitiesInBox
-)
-[#getentitiesinboxbyclass](
-GetEntitiesInBoxByClass
-)
-[#getentitiesinsphere](
-GetEntitiesInSphere
-)
+[GetEntities](#getentities)
+[GetEntitiesInArea](#getentitiesinarea)
+[GetEntitiesInBox](#getentitiesinbox)
+[GetEntitiesInBoxByClass](#getentitiesinboxbyclass)
+[GetEntitiesInSphere](#getentitiesinsphere)

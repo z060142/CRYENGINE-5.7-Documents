@@ -8,3 +8,5 @@
 ## Content
 
 Alembic technology that provides high quality vertex caching. This tutorial uses the legacy geom cache entity to house this technology and also uses a proximity trigger to trigger the animation when the player enters the volume.
+
+[Embed: http://youtube.com/watch?v=9Gi119B-iJg]

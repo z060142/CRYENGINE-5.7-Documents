@@ -10,9 +10,7 @@
 Released 16th January, 2015
 
 Make sure you check out the
-[/docs/static/engines/cryengine-3/categories/1638401](
-Guide to releasing EaaS-based projects (3.6) - DEPRECATED
-)
+[Guide to releasing EaaS-based projects (3.6) - DEPRECATED](/docs/static/engines/cryengine-3/categories/1638401)
  article, which covers information on how to setup your EaaS game to be compiled in "Release" mode.
 
 ##

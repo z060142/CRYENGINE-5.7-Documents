@@ -23,9 +23,7 @@ NOTE:
 **
  the AppData is a hidden folder.
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308628](
-Check here
-)
+[Check here](Restoring%20Default%20Settings.md)
 **
  how to display hidden folders.
 
@@ -36,7 +34,7 @@ Showing and Hiding Preset Toolbars
 
 When opening the Sandbox Editor for the first time, not all preset toolbars are shown. By right-clicking the toolbar area, a context menu is opened in which you can show and hide several preset toolbars:
 
-[Image: /docs/static/attachments/36850235]
+![Image](https://www.cryengine.com/docs/static/attachments/36850235)
 
 ##
 Customizing Toolbars
@@ -51,14 +49,14 @@ Customize
 **
 window which allows you to customize existing toolbars and create your own toolbars from scratch:
 
-[Image: /docs/static/attachments/36850236]
+![Image](https://www.cryengine.com/docs/static/attachments/36850236)
 
 ##
 Search Bar
 
 In the top you'll find a search bar:
 
-[Image: /docs/static/attachments/36850237]
+![Image](https://www.cryengine.com/docs/static/attachments/36850237)
 
 This bar can be used to filter actions in the window below. For example, typing
 *
@@ -77,7 +75,7 @@ Toolbar Editing Section
 
 Under the list of actions is the toolbar editing section:
 
-[Image: /docs/static/attachments/36850238]
+![Image](https://www.cryengine.com/docs/static/attachments/36850238)
 
 In this section, you can switch between the existing toolbars, add new toolbars and remove them. You also see a preview of the toolbar with all the buttons that are on the toolbar you have chosen.
 
@@ -90,7 +88,7 @@ Option
 Description
  |
 
-[Image: /docs/static/attachments/44958887]
+![Image](https://www.cryengine.com/docs/static/attachments/44958887)
 
  |
 **
@@ -100,7 +98,7 @@ Toolbar dropdown menu
 Lets you display a preview of the existing toolbars so you can edit them.
  |
 
-[Image: /docs/static/attachments/44958891]
+![Image](https://www.cryengine.com/docs/static/attachments/44958891)
 
  |
 **
@@ -110,7 +108,7 @@ Create New Toolbar
 Lets you create a new toolbar.
  |
 
-[Image: /docs/static/attachments/44958889]
+![Image](https://www.cryengine.com/docs/static/attachments/44958889)
 
  |
 **
@@ -120,7 +118,7 @@ Rename Toolbar
 Lets you rename the selected toolbar.
  |
 
-[Image: /docs/static/attachments/44958890]
+![Image](https://www.cryengine.com/docs/static/attachments/44958890)
 
  |
 **
@@ -150,7 +148,7 @@ In the Toolbar Preview, you can move buttons around as you see fit - just drag a
 
 Right-clicking on the toolbar preview area will display a context menu:
 
-[Image: /docs/static/attachments/36850239]
+![Image](https://www.cryengine.com/docs/static/attachments/36850239)
 
 With this menu, you can perform the following actions:
 
@@ -185,7 +183,7 @@ Button Editing Section
 
 The bottom section of the window is where you can edit the buttons:
 
-[Image: /docs/static/attachments/36850240]
+![Image](https://www.cryengine.com/docs/static/attachments/36850240)
 
 Depending on what kind of button you have selected in the toolbar preview, different options appear in the bottom of this window:
 
@@ -254,7 +252,7 @@ Many of the Sandbox's tools have their own toolbars. These toolbars have some de
 Toolbars Menu
 
 In the Toolbars option in the menu
-[Image: /docs/static/attachments/44965696]
+![Image](https://www.cryengine.com/docs/static/attachments/44965696)
 , the following options are available:
 
 **
@@ -271,13 +269,11 @@ Customize
 **
  |
 Opens the toolbar customization window (
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870764#CustomizingToolBars-CustomizingToolbars](
-see above
-)
+[see above](Customizing%20ToolBars.md#CustomizingToolBars-CustomizingToolbars)
 ) allowing users to create new toolbars and/or customize them, adding buttons specific to the tool the toolbar is in.
 
 Most of the options available to put on a toolbar are also options in the menu
-[Image: /docs/static/attachments/44965696]
+![Image](https://www.cryengine.com/docs/static/attachments/44965696)
 of the respective tool.
 
  |
@@ -353,12 +349,6 @@ Lists all default and custom toolbars created for the respective tool, allowing 
 
 When a tool has a toolbar, whether this is a default one or a custom one, the options above are also available when right-clicking in the toolbar area (only when a toolbar is already displayed).
 
-[#showing-and-hiding-preset-toolbars](
-Showing and Hiding Preset Toolbars
-)
-[#customizing-toolbars](
-Customizing Toolbars
-)
-[#tool-specific-toolbars](
-Tool-Specific Toolbars
-)
+[Showing and Hiding Preset Toolbars](#showing-and-hiding-preset-toolbars)
+[Customizing Toolbars](#customizing-toolbars)
+[Tool-Specific Toolbars](#tool-specific-toolbars)

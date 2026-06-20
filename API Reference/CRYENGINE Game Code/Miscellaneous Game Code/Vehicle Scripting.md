@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [XML Setup Guide](Vehicle Scripting/XML Setup Guide.md)
+- [XML Setup Guide](Vehicle%20Scripting/XML%20Setup%20Guide.md)
 
 ## Content
 
@@ -15,17 +15,11 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306524](
-XML Setup Guide
-)
+[XML Setup Guide](Vehicle%20Scripting/XML%20Setup%20Guide.md)
 Related links:
 
 C++ Programming:
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306516](
-Vehicle System
-)
+[Vehicle System](../../CRYENGINE%20Engine%20Code/Engine%20Modules/CryAction/Vehicle%20System.md)
 
 Vehicle Tutorials:
-[/docs/static/engines/cryengine-5/categories/23756816](
-Tutorial - Vehicle Setup
-)
+[Tutorial - Vehicle Setup](/docs/static/engines/cryengine-5/categories/23756816)

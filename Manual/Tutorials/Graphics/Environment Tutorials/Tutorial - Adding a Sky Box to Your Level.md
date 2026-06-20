@@ -22,13 +22,9 @@ A working version of Photoshop
 A sky texture, either LDR or HDR
 
 These can be downloaded from websites like
-[http://www.cgskies.com](
-www.cgskies.com
-)
+[www.cgskies.com](http://www.cgskies.com)
  or
-[http://www.hdri-skies.com.](
-www.hdri-skies.com
-)
+[www.hdri-skies.com](http://www.hdri-skies.com.)
 .
 
 Save the Texture
@@ -281,17 +277,9 @@ r_volumetricclouds 1
 Video Tutorial
 
 This tutorial is also available in video form on our YouTube channel
-[https://www.youtube.com/watch?v=LAnb0EjV3g4](
-here
-)
+[here](https://www.youtube.com/watch?v=LAnb0EjV3g4)
 .
 
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#creating-a-material](
-Creating a Material
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Creating a Material](#creating-a-material)
+[Video Tutorial](#video-tutorial)

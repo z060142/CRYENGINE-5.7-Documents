@@ -12,7 +12,7 @@ Overview
 
 This tutorial takes you through the process of creating the simplest vegetation asset; grass patches. It covers the basics of the vegetation shader parameters and introduces you to the Vegetation Tool in CRYENGINE. Grass patches is the former method that we used to make grass assets for the ENGINE. While this method is still valid and worth knowing our preferred and current method for creating grass is to use the Merged Mesh (MM) technology.
 
-[Image: /docs/static/attachments/26509313]
+![Image](https://www.cryengine.com/docs/static/attachments/26509313)
 
 *
 Pic1: Finished scene using grass patches.
@@ -24,7 +24,7 @@ Pic2
 *
 ) depicts the creation of grass patches using the vegetation tool. The one on the right is shown in a highlighted planes view.
 
-[Image: /docs/static/attachments/26509314]
+![Image](https://www.cryengine.com/docs/static/attachments/26509314)
 
 *
 Pic2: Grass objects in normal and highlighted planes view.
@@ -35,9 +35,7 @@ Tutorial Files
 
 Source Maya scene with exported CRYENGINE files:
 
-[/docs/static/attachments/25523834](
-GameSDK_vegtut01_files.zip
-)
+[GameSDK_vegtut01_files.zip](/docs/static/attachments/25523834)
 
 ##
 Prerequisites for this Tutorial
@@ -47,24 +45,16 @@ Before you continue with this tutorial, make sure to have read and understood th
 -
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963475](
-How to Install CryMayaTools
-)
+[How to Install CryMayaTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308292](
-The Basic CRYENGINE Maya Workflow
-)
+[The Basic CRYENGINE Maya Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205569](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%20Maya%20Tools/CRYENGINE%20User%20Interface%20in%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-Maya Unit Scale to Match up With CRYENGINE Unit System
-)
+[Maya Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Helpful Information
@@ -141,7 +131,7 @@ Sandbox Material Editor
 **
  later.
 
-[Image: /docs/static/attachments/24157007]
+![Image](https://www.cryengine.com/docs/static/attachments/24157007)
 
 *
 Pic3: Creating a new Material Group.
@@ -152,7 +142,7 @@ Export the Material
 
 After you have added the new Material Group with one sub-material, you can open up the Maya and export an *.MTL material file using the CRYENGINE Exporter.
 
-[Image: /docs/static/attachments/24157008]
+![Image](https://www.cryengine.com/docs/static/attachments/24157008)
 
 *
 Pic4: Exporting the generated material files.
@@ -209,7 +199,7 @@ UV Editor
 **
  window with the geometry selected to adjust the UV of the single grass patch object to only fit around on the texture.
 
-[Image: /docs/static/attachments/24157009]
+![Image](https://www.cryengine.com/docs/static/attachments/24157009)
 
 *
 Pic5: Modified poly plane with UVs edited
@@ -232,7 +222,7 @@ Delete History
 **
  (renamed grass_patch to tutorial_grass_patch_big).
 
-[Image: /docs/static/attachments/24157010]
+![Image](https://www.cryengine.com/docs/static/attachments/24157010)
 
 *
 Pic6: Randomly distributed grass patch objects combined to one single mesh.
@@ -245,15 +235,13 @@ Make sure that the pivot of the object is roughly in the center and slightly up 
 
 Make sure you do not set the pivot too high, otherwise you will lose the bottom of the geometry into the terrain.
 
-[Image: /docs/static/attachments/24157011]
+![Image](https://www.cryengine.com/docs/static/attachments/24157011)
 
 *
 Pic7: Pivot location, hit the Insert key to offset any pivots in Maya and keep X key pressed to snap to the grid.
 *
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285886](
-Apply Vertex Color (to control material Vertex Deformation)
-)
+[Apply Vertex Color (to control material Vertex Deformation)](Vegetation%2001%20Grass%20(Patch)%203dsMax.md)
 This is an optional feature that can be applied to the asset. It is not required unless you use the asset with a specific material setup, such as Vertex Deformation. Without the vertex coloring in the asset, the simplified movement you get when using vertex deformation is
 **
 applied across the entire geometry
@@ -282,7 +270,7 @@ Paint Vertex Color Tool
 **
 , you add vertex colors. Instead of painting, it is easier to just select the bottom vertices and give them a black color which is interpreted as non-moving vertices in the vegetation tool settings later. Redo with white color for the top vertices. This will let them move freely.
 
-[Image: /docs/static/attachments/24157012]
+![Image](https://www.cryengine.com/docs/static/attachments/24157012)
 
 *
 Pic8:
@@ -341,7 +329,7 @@ Parent the lower LODs under the full render mesh ( you can say, this is the "lod
 Re-orient the all group nodes which will get child mesh objects to match CRYENGINE requirement: Go to a Top view, any group positive X-Axis must point to the right, the positive Y-Axis must point to the top.
 This will result into an exportable hierarchy shown in the below image:
 
-[Image: /docs/static/attachments/24157013]
+![Image](https://www.cryengine.com/docs/static/attachments/24157013)
 
 *
 Pic9: LOD group nodes for the meshes
@@ -362,7 +350,7 @@ Reduce
 Try to reduce the polygon count by approximately 50% per LOD step (if possible) while still preserving the overall shape
 Group the reduced LOD meshes under their respective group nodes, until you get this:
 
-[Image: /docs/static/attachments/24157014]
+![Image](https://www.cryengine.com/docs/static/attachments/24157014)
 
 *
 Pic10: Grouped LOD group nodes
@@ -382,7 +370,7 @@ Attribute Editor
 **
  if you need to re-evaluate the export settings shown below:
 
-[Image: /docs/static/attachments/24157015]
+![Image](https://www.cryengine.com/docs/static/attachments/24157015)
 
 *
 Pic11: Exporting the geometry and its settings.
@@ -393,28 +381,12 @@ Continue to CRYENGINE
 
 We have now finished the setup for the Maya portion of the tutorial. To continue, move onto the next page where we configure the material and use the Vegetation Tool to place down some grass assets.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285888](
-Vegetation 01 Grass (Patch) CRYENGINE
-)
+[Vegetation 01 Grass (Patch) CRYENGINE](Vegetation%2001%20Grass%20(Patch)%20CRYENGINE.md)
 
-[#tutorial-files](
-Tutorial Files
-)
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-maya-setup](
-Initial Maya Setup
-)
-[#material](
-Material
-)
-[#object-setup](
-Object Setup
-)
-[#continue-to-cryengine](
-Continue to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Helpful Information](#helpful-information)
+[Initial Maya Setup](#initial-maya-setup)
+[Material](#material)
+[Object Setup](#object-setup)
+[Continue to CRYENGINE](#continue-to-cryengine)

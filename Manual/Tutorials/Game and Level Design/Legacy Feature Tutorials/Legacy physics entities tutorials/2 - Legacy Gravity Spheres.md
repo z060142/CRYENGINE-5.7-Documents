@@ -45,14 +45,14 @@ Now that we have the entities positioned as shown below we will look to add a tr
 ##
 Step 1
 
-[Image: /docs/static/attachments/52593001]
+![Image](https://www.cryengine.com/docs/static/attachments/52593001)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/52593002]
+![Image](https://www.cryengine.com/docs/static/attachments/52593002)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/52593003]
+![Image](https://www.cryengine.com/docs/static/attachments/52593003)

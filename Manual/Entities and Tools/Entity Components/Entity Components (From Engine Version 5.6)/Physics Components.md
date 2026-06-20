@@ -930,9 +930,7 @@ Local Grid allows entities to be attached to larger hosts and be physically simu
 An interior of a moving train or a spaceship are some of the examples where a Local Grid can be used to define a local environment.
 
 More related information can be found on the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/28182887](
-Local Simulation Grids
-)
+[Local Simulation Grids](../../../../API%20Reference/CRYENGINE%20Engine%20Code/Engine%20Modules/CryPhysics/Local%20Simulation%20Grids.md)
  Technical Documentation page.
 
 Property
@@ -1987,54 +1985,20 @@ Whether to cast a ray downwards to find collisions and/or to check for mesh inte
 
  |
 
-[#area](
-Area
-)
-[#box-collider](
-Box Collider
-)
-[#capsule-collider](
-Capsule Collider
-)
-[#character-controller](
-Character Controller
-)
-[#cloth](
-Cloth
-)
-[#cylinder-collider](
-Cylinder Collider
-)
-[#local-grid](
-Local Grid
-)
-[#physparticle](
-PhysParticle
-)
-[#ragdoll](
-Ragdoll
-)
-[#rigidbody](
-RigidBody
-)
-[#sample-rigidbody-actor](
-Sample Rigidbody Actor
-)
-[#sphere-collider](
-Sphere Collider
-)
-[#thruster](
-Thruster
-)
-[#vr-interaction](
-VR Interaction
-)
-[#vehicle-physics](
-Vehicle Physics
-)
-[#watervolume](
-WaterVolume
-)
-[#wheel-collider](
-Wheel Collider
-)
+[Area](#area)
+[Box Collider](#box-collider)
+[Capsule Collider](#capsule-collider)
+[Character Controller](#character-controller)
+[Cloth](#cloth)
+[Cylinder Collider](#cylinder-collider)
+[Local Grid](#local-grid)
+[PhysParticle](#physparticle)
+[Ragdoll](#ragdoll)
+[RigidBody](#rigidbody)
+[Sample Rigidbody Actor](#sample-rigidbody-actor)
+[Sphere Collider](#sphere-collider)
+[Thruster](#thruster)
+[VR Interaction](#vr-interaction)
+[Vehicle Physics](#vehicle-physics)
+[WaterVolume](#watervolume)
+[Wheel Collider](#wheel-collider)

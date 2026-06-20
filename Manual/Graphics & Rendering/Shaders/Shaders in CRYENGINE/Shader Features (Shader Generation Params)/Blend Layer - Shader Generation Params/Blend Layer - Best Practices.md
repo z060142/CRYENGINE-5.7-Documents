@@ -21,9 +21,9 @@ How to Use Blend Mapping
 
 We will be blending these two textures on a flat plane.
 
-[Image: /docs/static/attachments/28898780]
+![Image](https://www.cryengine.com/docs/static/attachments/28898780)
 
-[Image: /docs/static/attachments/28898781]
+![Image](https://www.cryengine.com/docs/static/attachments/28898781)
 
 ##
 Creating Geometry for Blend Mapping
@@ -36,7 +36,7 @@ In modern game development geometry is a little bit cheaper than using lots of t
 
 Below we created a poly plane with subdivisions:
 
-[Image: /docs/static/attachments/28898777]
+![Image](https://www.cryengine.com/docs/static/attachments/28898777)
 
 ##
 Painting the Vertex Alpha
@@ -47,7 +47,7 @@ If the vertex alpha is 255 (pure white) on our asset it means that only the orig
 
 Since we have a range from 0 to 255, we can use the full spectrum and decide how much and where we want the blend to show through.
 
-[Image: /docs/static/attachments/28898778]
+![Image](https://www.cryengine.com/docs/static/attachments/28898778)
 
 ##
 Making the Blend Mask
@@ -58,7 +58,7 @@ Since our blend mask acts like an alpha all the white parts will be displaying o
 
 As you can see down below we have taken the brick pattern and added some noise. We also, in order to increase believability, made the grout in some places black, so the original grout from the bricks will show through.
 
-[Image: /docs/static/attachments/28898779]
+![Image](https://www.cryengine.com/docs/static/attachments/28898779)
 
 ##
 3ds Max Asset Setup
@@ -69,13 +69,13 @@ Open the objects property window of the asset and enable vertex color display, b
 
 All the textures are tiled and do not use unique UV shells. You cannot use a baked ambient OCC map in this case, but it is still possible to use baked vertex color shadows on the asset.
 
-[Image: /docs/static/attachments/23993875]
+![Image](https://www.cryengine.com/docs/static/attachments/23993875)
 
 You can use our blend shader for 3ds Max not just for previewing the result but also to paint your vertex alpha in real time.
 
 Open up the Material Editor and switch the standard material to a DirectX shader where you can load the blend layer shader instead and get all the similar parameters of the sandbox editor to tweak the values.
 
-[Image: /docs/static/attachments/23993878]
+![Image](https://www.cryengine.com/docs/static/attachments/23993878)
 
 ##
 Material Setup in CRYENGINE for Blend Mapping
@@ -115,7 +115,7 @@ In those we'll load in our blend textures.
 One good tip is to load the same normal map from the original texture, this way it will give the blend texture the brick pattern.
 
 This is on a case to case basis, but if you're doing dirt, paint, etc. which doesn't have a unique surface property it is a good idea to reuse the same normal map.
-[Image: /docs/static/attachments/28898770]
+![Image](https://www.cryengine.com/docs/static/attachments/28898770)
 
 ##
 Tweaking the Blends in CRYENGINE
@@ -140,7 +140,7 @@ Blend Factor
  we can adjust how much of the blend texture gets blended in. In other words it acts as an opacity slider in Photoshop.
 
 **
-[Image: /docs/static/attachments/28898769]
+![Image](https://www.cryengine.com/docs/static/attachments/28898769)
 **
 
 By tweaking the
@@ -151,38 +151,24 @@ Blend Falloff
 
 In other terms we are adjusting the feathering of the blend mask. This means the higher the value, the softer our alpha gets (which in this case is the blend mask).
 
-[Image: /docs/static/attachments/28898771]
+![Image](https://www.cryengine.com/docs/static/attachments/28898771)
 
 Once you have
 tweaked
 everything you should get a result like this:
 
-[Image: /docs/static/attachments/28898772]
+![Image](https://www.cryengine.com/docs/static/attachments/28898772)
 
-[Image: /docs/static/attachments/28898773]
+![Image](https://www.cryengine.com/docs/static/attachments/28898773)
 
 As you can see the bottom right corner is completely free of the blend, since this is the part that we left white and only the original texture is coming through.
 
 You can also see as opposing the bottom left corner is fully blended. But you can also see that the grout is the original one coming through, since our blend mask we left that black.
 
-[#how-to-use-blend-mapping](
-How to Use Blend Mapping
-)
-[#creating-geometry-for-blend-mapping](
-Creating Geometry for Blend Mapping
-)
-[#painting-the-vertex-alpha](
-Painting the Vertex Alpha
-)
-[#making-the-blend-mask](
-Making the Blend Mask
-)
-[#3ds-max-asset-setup](
-3ds Max Asset Setup
-)
-[#material-setup-in-cryengine-for-blend-mapping](
-Material Setup in CRYENGINE for Blend Mapping
-)
-[#tweaking-the-blends-in-cryengine](
-Tweaking the Blends in CRYENGINE
-)
+[How to Use Blend Mapping](#how-to-use-blend-mapping)
+[Creating Geometry for Blend Mapping](#creating-geometry-for-blend-mapping)
+[Painting the Vertex Alpha](#painting-the-vertex-alpha)
+[Making the Blend Mask](#making-the-blend-mask)
+[3ds Max Asset Setup](#3ds-max-asset-setup)
+[Material Setup in CRYENGINE for Blend Mapping](#material-setup-in-cryengine-for-blend-mapping)
+[Tweaking the Blends in CRYENGINE](#tweaking-the-blends-in-cryengine)

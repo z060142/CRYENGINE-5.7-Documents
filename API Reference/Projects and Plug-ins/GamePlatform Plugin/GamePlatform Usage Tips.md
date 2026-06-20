@@ -7,16 +7,14 @@
 
 ## Child Pages
 
-- [C++ API GamePlatform Usage Tips](GamePlatform Usage Tips/C++ API GamePlatform Usage Tips.md)
-- [Flow Graph GamePlatform Usage Tips](GamePlatform Usage Tips/Flow Graph GamePlatform Usage Tips.md)
-- [Schematyc (Experimental) Usage Tips](GamePlatform Usage Tips/Schematyc (Experimental) Usage Tips.md)
+- [C++ API GamePlatform Usage Tips](GamePlatform%20Usage%20Tips/C%2B%2B%20API%20GamePlatform%20Usage%20Tips.md)
+- [Flow Graph GamePlatform Usage Tips](GamePlatform%20Usage%20Tips/Flow%20Graph%20GamePlatform%20Usage%20Tips.md)
+- [Schematyc (Experimental) Usage Tips](GamePlatform%20Usage%20Tips/Schematyc%20(Experimental)%20Usage%20Tips.md)
 
 ## Content
 
 This section includes various examples and usage tips to get you started with the GamePlatformPlugin
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448424](
-features
-)
+[features](GamePlatform%20Features%20(Discord%20Steam).md)
 .
 
 The GamePlatformPlugin itself is comprised of a management system (CryGamePlatformPlugin) and various implementations of platform services. For example, CryGamePlatformSteam). There is also an additional module that provides Flow Graph and Schematyc (Experimental) Nodes and Components to allow non-programmer development and interaction with these services via Visual Graphs (CryGamePlatformNodes).
@@ -63,29 +61,15 @@ In some cases, poor throttling can even prevent a game from passing a platform v
 In This Section
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448706](
-C++ API GamePlatform Usage Tips
-)
+[C++ API GamePlatform Usage Tips](GamePlatform%20Usage%20Tips/C%2B%2B%20API%20GamePlatform%20Usage%20Tips.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448709](
-Flow Graph GamePlatform Usage Tips
-)
+[Flow Graph GamePlatform Usage Tips](GamePlatform%20Usage%20Tips/Flow%20Graph%20GamePlatform%20Usage%20Tips.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76449009](
-Schematyc (Experimental) Usage Tips
-)
+[Schematyc (Experimental) Usage Tips](GamePlatform%20Usage%20Tips/Schematyc%20(Experimental)%20Usage%20Tips.md)
 
-[#c-api-flow-graph-or-schematyc](
-C++ API, Flow Graph or Schematyc?
-)
-[#interaction-and-response-of-the-gameplatform-services](
-Interaction and Response of the GamePlatform Services
-)
-[#api-throttling](
-API Throttling
-)
-[#in-this-section](
-In This Section
-)
+[C++ API, Flow Graph or Schematyc?](#c-api-flow-graph-or-schematyc)
+[Interaction and Response of the GamePlatform Services](#interaction-and-response-of-the-gameplatform-services)
+[API Throttling](#api-throttling)
+[In This Section](#in-this-section)

@@ -125,9 +125,7 @@ In this section, the process of implementing the above tree and linking it to an
 
 Since the following uses assets from the GameSDK sample project, please remember to
 
-[https://www.cryengine.com/asset-db/product/crytek/cryengine-gamesdk-sample-project](
-download GameSDK
-)
+[download GameSDK](https://www.cryengine.com/asset-db/product/crytek/cryengine-gamesdk-sample-project)
  from the CRYENGINE Asset Database.
 
 ##
@@ -143,7 +141,7 @@ File → New
 **
 option to create a new behavior tree.
 
-[Image: /docs/static/attachments/36849739]
+![Image](https://www.cryengine.com/docs/static/attachments/36849739)
 
 *
 File menu options
@@ -174,7 +172,7 @@ View → Built-in Events → Enable CryEngine Events
 **
  option from the Behavior Tree Editor's main menu.
 
-[Image: /docs/static/attachments/36849740]
+![Image](https://www.cryengine.com/docs/static/attachments/36849740)
 
 *
 Enable CryEngine events
@@ -202,7 +200,7 @@ Timestamps
 **
 , these sections of the Behavior Tree Editor are left blank for the tutorial.
 
-[Image: /docs/static/attachments/36849741]
+![Image](https://www.cryengine.com/docs/static/attachments/36849741)
 
 *
 CryEngine Events enabled
@@ -268,7 +266,7 @@ Insert/Add
 **
  option as shown below.
 
-[Image: /docs/static/attachments/36849744]
+![Image](https://www.cryengine.com/docs/static/attachments/36849744)
 
 *
 Sequence node
@@ -322,7 +320,7 @@ OnNewAttentionTarget
 **
  Event from the popup window.
 *
-[Image: /docs/static/attachments/36849745]
+![Image](https://www.cryengine.com/docs/static/attachments/36849745)
 
 *
 *
@@ -363,7 +361,7 @@ Selector
 **
  node to the behavior tree as depicted below:
 
-[Image: /docs/static/attachments/36849746]
+![Image](https://www.cryengine.com/docs/static/attachments/36849746)
 
 *
 Loop node
@@ -387,16 +385,14 @@ File → Save
 **
  from the Behavior Editor Tool's main menu.
 
-[Image: /docs/static/attachments/36849747]
+![Image](https://www.cryengine.com/docs/static/attachments/36849747)
 
 *
 Final behavior tree
 *
 
 As described in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870015](
-previous section
-)
+[previous section](Structuring%20The%20Behavior%20Tree.md)
  of this tutorial, the
 **
 Name
@@ -422,9 +418,7 @@ To preview and experiment with other GameSDK animations, load the
 sdk_humanpreview.xml
 **
 preview setup in the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011340](
-Mannequin Fragment Browser
-)
+[Mannequin Fragment Browser](/docs/static/engines/cryengine-3/categories/1114113/pages/15011340)
  using the
 **
 File → Load Preview Setup...
@@ -442,9 +436,7 @@ Time to test the behavior tree.
 Adding Obstacles
 
 The first step towards doing so is to set up a level with obstacles; either use the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869846](
-Create Object
-)
+[Create Object](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object.md)
  tool to add existing GameSDK assets to the level, or import custom-designed ones via the Asset Browser.
 This tutorial makes use of the
 *
@@ -452,7 +444,7 @@ Airfield
 *
  multiplayer level and assets included in the GameSDK sample project.
 
-[Image: /docs/static/attachments/36849748]
+![Image](https://www.cryengine.com/docs/static/attachments/36849748)
 
 *
 Airfield
@@ -462,9 +454,7 @@ Airfield
 Adding a Navmesh and AI Character
 
 Before adding an AI agent to which the created behavior tree is to be associated, it is important to design a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961882](
-NavMesh
-)
+[NavMesh](../../../AI%20and%20Navigation/AI%20Overview/Navigation%20(MNM)/Navigation%20Areas.md)
 . A NavMesh defines the area within which the AI is free to navigate.
 
 To add a NavMesh:
@@ -509,7 +499,7 @@ Legacy Entities → AI → Characters → Human
 **
  option of the Create Object tool.
 
-[Image: /docs/static/attachments/36849750]
+![Image](https://www.cryengine.com/docs/static/attachments/36849750)
 
 *
 AI Human
@@ -532,7 +522,7 @@ Modular Behavior Tree
 **
  field. This field contains a dropdown of all behavior trees available to that character; select the created behavior tree from the dropdown menu.
 
-[Image: /docs/static/attachments/36849752]
+![Image](https://www.cryengine.com/docs/static/attachments/36849752)
 
 *
 Modular Behavior Tree
@@ -580,7 +570,7 @@ Move
 **
  node.
 
-[Image: /docs/static/attachments/36849951]
+![Image](https://www.cryengine.com/docs/static/attachments/36849951)
 
 *
 Behavior tree in action
@@ -631,35 +621,23 @@ Press the forward-slash key (
 /
 **
 ) when looking at the AI agent; this displays information related to the behavior tree's active branch at the top-left corner of the screen, in textual format, as shown in the image below:
-[Image: /docs/static/attachments/36849779]
+![Image](https://www.cryengine.com/docs/static/attachments/36849779)
 
 *
 Debugging
 *
 
 This concludes the introduction to the Behavior Tree Editor. For a more in-depth look at the Editor's elements, default nodes and instructions on setting up custom nodes, please refer to the Behavior Tree Editor's
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869208](
-user documentation
-)
+[user documentation](../../../Editor%20Tools/Behavior%20Tree%20Editor.md)
 .
 
-[#creating-the-behavior-tree](
-Creating The Behavior Tree
-)
-[#level-design](
-Level Design
-)
-[#testing-and-debugging](
-Testing and Debugging
-)
+[Creating The Behavior Tree](#creating-the-behavior-tree)
+[Level Design](#level-design)
+[Testing and Debugging](#testing-and-debugging)
 
 ##
 Related Pages
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870015](
-Structuring The Behavior Tree
-)
+[Structuring The Behavior Tree](Structuring%20The%20Behavior%20Tree.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869208](
-Behavior Tree Editor
-)
+[Behavior Tree Editor](../../../Editor%20Tools/Behavior%20Tree%20Editor.md)

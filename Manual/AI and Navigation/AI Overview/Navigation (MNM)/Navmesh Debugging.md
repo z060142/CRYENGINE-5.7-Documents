@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933207]
+![Image](https://www.cryengine.com/docs/static/attachments/29933207)
 
 ##
 Console Variables
@@ -37,9 +37,7 @@ ai_debugMNMAgentType
 
  |
 agent type - the name of meshes'
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961796](
-agent type
-)
+[agent type](Navigation%20Configuration.md)
 , for which debugging information is displayed.
 
  |
@@ -47,9 +45,7 @@ agent type
 ai_MNMPathFinderQuota
 
  |
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534842](
-pathfinding
-)
+[pathfinding](Navmesh%20Pathfinding.md)
  quota per frame, in seconds.
 
  |
@@ -71,18 +67,10 @@ ai_MNMProfileMemory
 ##
 Sections
 
-[#console-variables](
-Console Variables
-)
-[#sections](
-Sections
-)
-[#debugging](
-Debugging
-)
-[#memory-statistics](
-Memory Statistics
-)
+[Console Variables](#console-variables)
+[Sections](#sections)
+[Debugging](#debugging)
+[Memory Statistics](#memory-statistics)
 
 ##
 Debugging
@@ -139,9 +127,7 @@ MNMPathStart
 Debugging Raycast
 
 To debug
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048582](
-raycast
-)
+[raycast](/docs/static/engines/cryengine-3/categories/1114113/pages/1048582)
 , create two
 *
 TagPoints

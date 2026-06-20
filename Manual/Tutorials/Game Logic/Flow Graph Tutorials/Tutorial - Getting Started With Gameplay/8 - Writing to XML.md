@@ -7,23 +7,15 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450272](
-[Image: /docs/static/attachments/44971057]
-7 - Counting Kills
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971057) 7 - Counting Kills](/docs/static/engines/cryengine-5/categories/23756816/pages/29450272)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450276](
-[Image: /docs/static/attachments/44971058]
-9 - Reading the XML
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971058) 9 - Reading the XML](/docs/static/engines/cryengine-5/categories/23756816/pages/29450276)
 
 ##
 Where can we save our XML out to?
 
 Now that we created a Kill Counter and GameToken in the previous chapter,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450272](
-7 - Counting Kills
-)
+[7 - Counting Kills](7%20-%20Counting%20Kills.md)
 , we can look at how we can take that variable and write it out to .xml. That way, we can retrieve it for external reference or even for when the next time the game loads.
 
 In this lesson we will house the .xml in the Levels folder as it is the most easily accessible and is generally one of the most common folders to be copied over for all scenarios to work. Likewise you also have the ability to save the .xml at the following locations:
@@ -43,6 +35,8 @@ Root
 -
 User
  - Saves to your user folder
+
+[Embed: https://vimeo.com/271654415]
 
 ##
 How To Write Out To XML
@@ -230,54 +224,48 @@ Level
 ##
 Step 1
 
-[Image: /docs/static/attachments/29931647]
+![Image](https://www.cryengine.com/docs/static/attachments/29931647)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/29931648]
+![Image](https://www.cryengine.com/docs/static/attachments/29931648)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/29931649]
+![Image](https://www.cryengine.com/docs/static/attachments/29931649)
 
 ##
 Step 4-1
 
-[Image: /docs/static/attachments/29931650]
+![Image](https://www.cryengine.com/docs/static/attachments/29931650)
 
 ##
 Step 4-2
 
-[Image: /docs/static/attachments/29931651]
+![Image](https://www.cryengine.com/docs/static/attachments/29931651)
 
 ##
 Step 5
 
-[Image: /docs/static/attachments/29931652]
+![Image](https://www.cryengine.com/docs/static/attachments/29931652)
 
 ##
 Step 6
 
-[Image: /docs/static/attachments/29931653]
+![Image](https://www.cryengine.com/docs/static/attachments/29931653)
 
 ##
 Step 7
 
-[Image: /docs/static/attachments/29931654]
+![Image](https://www.cryengine.com/docs/static/attachments/29931654)
 
 ##
 Step 8
 
-[Image: /docs/static/attachments/29931655]
+![Image](https://www.cryengine.com/docs/static/attachments/29931655)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450272](
-[Image: /docs/static/attachments/44971057]
-7 - Counting Kills
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971057) 7 - Counting Kills](/docs/static/engines/cryengine-5/categories/23756816/pages/29450272)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450276](
-[Image: /docs/static/attachments/44971058]
-9 - Reading the XML
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971058) 9 - Reading the XML](/docs/static/engines/cryengine-5/categories/23756816/pages/29450276)

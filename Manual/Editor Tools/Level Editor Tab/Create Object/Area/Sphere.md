@@ -12,7 +12,7 @@ Overview
 
 Triggers and other entities that should be enabled when the player enters or leaves a specific area can be linked to Area Sphere.
 
-[Image: /docs/static/attachments/44966501]
+![Image](https://www.cryengine.com/docs/static/attachments/44966501)
 
 **
 Parameters

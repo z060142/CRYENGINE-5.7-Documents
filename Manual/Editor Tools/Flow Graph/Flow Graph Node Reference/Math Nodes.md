@@ -12,7 +12,7 @@ Math:Abs
 
 This node is the maths operation (Absolute) that will convert the input number from negative to positive.
 
-[Image: /docs/static/attachments/44958272]
+![Image](https://www.cryengine.com/docs/static/attachments/44958272)
 
 In the above example we have the negative number of -14.6 & after it has been through the "Math:Abs" node, the result (positive number) is outputted to the hud.
 
@@ -74,7 +74,7 @@ This is a simple operation of adding Input B to Input A, then outputting the res
 
 In the following example, we have a flowgraph to output the result of the "Math:Add" to the HUD.
 
-[Image: /docs/static/attachments/44958271]
+![Image](https://www.cryengine.com/docs/static/attachments/44958271)
 
 Input
 
@@ -141,7 +141,7 @@ Math:AnglesToDir
 
 Used to convert the input angle to a unit vector direction.
 
-[Image: /docs/static/attachments/44958259]
+![Image](https://www.cryengine.com/docs/static/attachments/44958259)
 
 **
 Inputs
@@ -197,7 +197,7 @@ Math:ArcCosinus
 
 Used to calculate the inverse cosine of the input.
 
-[Image: /docs/static/attachments/44958258]
+![Image](https://www.cryengine.com/docs/static/attachments/44958258)
 
 **
 Inputs
@@ -242,7 +242,7 @@ Math:ArcSinus
 
 Used to calculate the inverse sine of the input.
 
-[Image: /docs/static/attachments/44958257]
+![Image](https://www.cryengine.com/docs/static/attachments/44958257)
 
 **
 Inputs
@@ -289,7 +289,7 @@ Math:ArcTangens
 
 Used to calculate the inverse tangent of the input.
 
-[Image: /docs/static/attachments/44958256]
+![Image](https://www.cryengine.com/docs/static/attachments/44958256)
 
 **
 Inputs
@@ -336,7 +336,7 @@ Math:Auto3DNoise
 
 Generates continuous 3D noise, smoothly interpolating between a series of randomized 3D coordinates (Vec3 or X,Y,Z values). Output values are randomized based on a Vec3 seed value input and output as a Vec3 value.
 
-[Image: /docs/static/attachments/44958255]
+![Image](https://www.cryengine.com/docs/static/attachments/44958255)
 
 As seen in the reference image below,
 **
@@ -352,7 +352,7 @@ Amplitude
 **
  values respectively.
 
-[Image: /docs/static/attachments/44958302]
+![Image](https://www.cryengine.com/docs/static/attachments/44958302)
 
 *
 3D Noise Reference Image
@@ -498,7 +498,7 @@ interpolating between a series of randomized
 floating point values based on a seed value input.
 
 Unlike the Math:Auto3DNoise node, Math:AutoNoise1D node is only effective on one axis.
-[Image: /docs/static/attachments/44958254]
+![Image](https://www.cryengine.com/docs/static/attachments/44958254)
 
 Input
 
@@ -635,7 +635,7 @@ Math:BooleanFrom
 
 This node will split a boolean input into a true / false (1/0) output.
 
-[Image: /docs/static/attachments/44958270]
+![Image](https://www.cryengine.com/docs/static/attachments/44958270)
 
 In the above example, the flowgraph loops around switching the input of the "Math:FromBoolean" from true to false.
 
@@ -706,7 +706,7 @@ Math:BooleanTo
 
 This node will take the input of true or false, and convert it into a boolean output.
 
-[Image: /docs/static/attachments/44958266]
+![Image](https://www.cryengine.com/docs/static/attachments/44958266)
 
 In the above example upon press the key "O" to trigger the true input, it will make the Math:ToBoolean output a 1 to the HUD. And then upon pressing the key "P" to trigger the false input, the Math:ToBoolean will convert the signal to output a 0 to the HUD.
 
@@ -777,11 +777,11 @@ This node is an all in one basic math node. From the operation field on the left
 
 Then it will do the selected operation on A and B then output the result.
 
-[Image: /docs/static/attachments/44958267]
+![Image](https://www.cryengine.com/docs/static/attachments/44958267)
 
 In the above example, on pressing the key "J" the Math:Calculate node will do the selected operation of "Add" on A & B.
 
-[Image: /docs/static/attachments/44958265]
+![Image](https://www.cryengine.com/docs/static/attachments/44958265)
 
 In this example the upon pressing the key"J", the Math:Calculate node will do the first operation (Add) then after it has displayed it to the HUD, it will cycle through to the next math operation after a 1 second delay and pressing "J" again.
 
@@ -878,7 +878,7 @@ Math:Ceil
 
 Used to output the ceiling value of the input.
 
-[Image: /docs/static/attachments/44958241]
+![Image](https://www.cryengine.com/docs/static/attachments/44958241)
 
 **
 Inputs
@@ -925,7 +925,7 @@ Math:Clamp
 
 This node will take a float number and clamp it to the specified range set within its parameters.
 
-[Image: /docs/static/attachments/44958264]
+![Image](https://www.cryengine.com/docs/static/attachments/44958264)
 
 In the above picture, upon pressing the key "K", the "Math:Random" will generate a number between 0 and 100. The signal then passes to the two "Math:Clamp" nodes where they have been set to only output a number between 0 and 50.
 
@@ -1011,7 +1011,7 @@ Math:Cosinus
 
 This node will take the input of an angle in degrees and output the result in radians.
 
-[Image: /docs/static/attachments/44958263]
+![Image](https://www.cryengine.com/docs/static/attachments/44958263)
 
 In the above example we are using a "Math:SetNumber" to input an angle (56 degrees) which passes through the "Math:Cosinus" to display the result to the HUD.
 
@@ -1069,7 +1069,7 @@ Math:CosinusInverse
 
 This node will take the input in radians and output the result in degrees.
 
-[Image: /docs/static/attachments/44958262]
+![Image](https://www.cryengine.com/docs/static/attachments/44958262)
 
 In the above example we are using a "Math:SetNumber" to input the radian which passes through the "Math:CosinusInverse" to display the result to the HUD.
 
@@ -1129,7 +1129,7 @@ Every time this node receives an input, it will increase the number by 1, then f
 
 When the internal number reaches the specified number set in the "MAX" option, it will reset the counter back to zero.
 
-[Image: /docs/static/attachments/44958240]
+![Image](https://www.cryengine.com/docs/static/attachments/44958240)
 
 *
 Time based counter
@@ -1139,7 +1139,7 @@ As the signal passes through the flowgraph it increases the counter by 1, then i
 
 Then it goes around again, increasing the counter by 1 each time. Once the count is equal to 3 (specified in the Math:Equal) it will hide the first HUD message then Show the second.
 
-[Image: /docs/static/attachments/44958238]
+![Image](https://www.cryengine.com/docs/static/attachments/44958238)
 
 *
 Bodycount counter
@@ -1225,7 +1225,7 @@ Math:DirToAngles
 
 Used to convert the input vector direction to an angle.
 
-[Image: /docs/static/attachments/44958242]
+![Image](https://www.cryengine.com/docs/static/attachments/44958242)
 
 **
 Inputs
@@ -1283,7 +1283,7 @@ This is a simple operation of dividing Input A by Input B, then outputting the r
 
 In the following example, we have a flowgraph to output the result of the "Math:Div" to the HUD.
 
-[Image: /docs/static/attachments/44958237]
+![Image](https://www.cryengine.com/docs/static/attachments/44958237)
 
 Input
 
@@ -1350,7 +1350,7 @@ Math:Equal
 
 The "Math:Equal" node tests to see if input B is equal to input A. This will then output the answer in boolean form.
 
-[Image: /docs/static/attachments/44958236]
+![Image](https://www.cryengine.com/docs/static/attachments/44958236)
 
 In the above example, we set a number to 10 (A), and also interpolate another number from 0 - 10 (B). These both feed into the "Math:Equal" node.
 
@@ -1454,14 +1454,14 @@ Math:EqualCheck
 **
  is true when [A]==[B], false otherwise. The check is only performed when the 'Check' input is triggered
 
-[Image: /docs/static/attachments/44958243]
+![Image](https://www.cryengine.com/docs/static/attachments/44958243)
 
 ##
 Math:Floor
 
 Used to output the floor of the input.
 
-[Image: /docs/static/attachments/44958244]
+![Image](https://www.cryengine.com/docs/static/attachments/44958244)
 
 **
 Inputs
@@ -1511,21 +1511,21 @@ SwitchCoordinateSpace
 
 Used for conversion between spaces (coordinate systems).
 
-[Image: /docs/static/attachments/44958261]
+![Image](https://www.cryengine.com/docs/static/attachments/44958261)
 
 ##
 TransformSpace
 
 Performs a transformation inside the space of a pivot.
 
-[Image: /docs/static/attachments/44958260]
+![Image](https://www.cryengine.com/docs/static/attachments/44958260)
 
 ##
 Math:InRange
 
 Used to check if the input is within the Min and Max value range.
 
-[Image: /docs/static/attachments/44958245]
+![Image](https://www.cryengine.com/docs/static/attachments/44958245)
 
 **
 Inputs
@@ -1608,7 +1608,7 @@ Math:Less
 
 This node is a simple calculation of, is (A) less than (B)?
 
-[Image: /docs/static/attachments/44958235]
+![Image](https://www.cryengine.com/docs/static/attachments/44958235)
 
 In the above example, at the start the value (A) is higher than value (B). As the seconds tick down via the "Interpol:Int", once (B) is at zero the "Math:Less" becomes true and the HUD message is updated.
 
@@ -1704,14 +1704,14 @@ Math:LessCheck
 **
  is true when [A] < [B], false otherwise. The check is only performed when the 'Check' input is triggered
 
-[Image: /docs/static/attachments/44958246]
+![Image](https://www.cryengine.com/docs/static/attachments/44958246)
 
 ##
 Math:Mod
 
 Used to calculate the modulus of the two inputs.
 
-[Image: /docs/static/attachments/44958247]
+![Image](https://www.cryengine.com/docs/static/attachments/44958247)
 
 **
 Inputs
@@ -1769,7 +1769,7 @@ This is a simple operation of multiplying Input A by Input B, then outputting th
 
 In the following example, we have a flowgraph to output the result of the "Math:Mul" to the HUD.
 
-[Image: /docs/static/attachments/44958234]
+![Image](https://www.cryengine.com/docs/static/attachments/44958234)
 
 Input
 
@@ -1836,7 +1836,7 @@ Math:Noise1D
 
 Used to multiply the scalar input by the frequency and amplitude.
 
-[Image: /docs/static/attachments/44958248]
+![Image](https://www.cryengine.com/docs/static/attachments/44958248)
 
 **
 Inputs
@@ -1901,7 +1901,7 @@ Math:Noise3D
 
 Used to multiple the vector input by the frequency and amplitude.
 
-[Image: /docs/static/attachments/44958249]
+![Image](https://www.cryengine.com/docs/static/attachments/44958249)
 
 **
 Inputs
@@ -1966,7 +1966,7 @@ Math:PortCounter
 
 Used to count the number of activated inputs.
 
-[Image: /docs/static/attachments/44958250]
+![Image](https://www.cryengine.com/docs/static/attachments/44958250)
 
 **
 Inputs
@@ -2067,7 +2067,7 @@ Math:Power
 
 When you use this node in a flow graph, it will calculate the base by the number set in the power input.
 
-[Image: /docs/static/attachments/44958233]
+![Image](https://www.cryengine.com/docs/static/attachments/44958233)
 
 In the the above example, we set the number of the base to 10, then pass it through the "Math:Power" node with the power set to 3. This will output the result (1000) to the HUD.
 
@@ -2138,7 +2138,7 @@ This node will upon receiving an input generates a random number between your sp
 
 Depending on which one you select it will output the number as a float or an integer.
 
-[Image: /docs/static/attachments/44958232]
+![Image](https://www.cryengine.com/docs/static/attachments/44958232)
 
 In the above example the upon pressing the key "K" it will make the "Math:Random" node generate a number between 0 and 100 (ignoring the clamps, the two hud messages will output the number to the screen).
 
@@ -2238,7 +2238,7 @@ Math:Reciprocal
 
 This node will calculate the reciprocal of the input number. (To the power of -1).
 
-[Image: /docs/static/attachments/44958231]
+![Image](https://www.cryengine.com/docs/static/attachments/44958231)
 
 In the above example we set an input number of 10 and pass it through the "Math:reciprocal" which will then output the result (0.1) to the HUD.
 
@@ -2294,7 +2294,7 @@ Math:Remainder
 
 This node will calculate the quantity left over after dividing the two inputs into each other.
 
-[Image: /docs/static/attachments/44958230]
+![Image](https://www.cryengine.com/docs/static/attachments/44958230)
 
 In the above example, we have 2 integers going into the inputs 25 & 7. So 25/7 = 3, remainder 4.
 
@@ -2363,7 +2363,7 @@ Math:Round
 
 This node will round up or down the float input number depending on the value after the decimal point.
 
-[Image: /docs/static/attachments/44958229]
+![Image](https://www.cryengine.com/docs/static/attachments/44958229)
 
 In the above example, we are rounding down the top path and rounding up the bottom path. The system it follows is...
 
@@ -2423,7 +2423,7 @@ Math:SetColor
 
 This node sets the color in RGB format.
 
-[Image: /docs/static/attachments/44958228]
+![Image](https://www.cryengine.com/docs/static/attachments/44958228)
 
 In the above example, we have the message "Color change!" displayed on the HUD.
 
@@ -2494,14 +2494,14 @@ Math:SetInteger
 
 Used to send an integer input value to the output when an event on the Set port is received.
 
-[Image: /docs/static/attachments/44958251]
+![Image](https://www.cryengine.com/docs/static/attachments/44958251)
 
 ##
 Math:SetNumber
 
 This node is a basic function to state a number specified within a flowgraph. This is usually used in conjunction with other nodes.
 
-[Image: /docs/static/attachments/44958227]
+![Image](https://www.cryengine.com/docs/static/attachments/44958227)
 
 In the above example, we set the number 2001 to be displayed on the HUD.
 
@@ -2570,7 +2570,7 @@ Math:SinCos
 
 This node is a combination of the "Math:Sinus" and the "Math:Cosinus" nodes. It will take the input in degrees, and then output to the two different ports in sinus & cosinus format.
 
-[Image: /docs/static/attachments/44958226]
+![Image](https://www.cryengine.com/docs/static/attachments/44958226)
 
 In the above example, the input in degrees (62) is fed into the "Math:SinCos" node and then outputs the results on separate ports sin & cos, which go to a different message block on the HUD.
 
@@ -2641,7 +2641,7 @@ Math:Sinus
 
 This node will take the input of an angle in degrees and output the result in radians.
 
-[Image: /docs/static/attachments/44958225]
+![Image](https://www.cryengine.com/docs/static/attachments/44958225)
 
 In the above example, we set the degrees to 45 and pass it through the "Math:Sinus" node to output the result in radians to the HUD.
 
@@ -2703,7 +2703,7 @@ Math:SinusInverse
 
 This node will take the input in radians and convert them into degrees.
 
-[Image: /docs/static/attachments/44958224]
+![Image](https://www.cryengine.com/docs/static/attachments/44958224)
 
 In the above example, we set the input in radians via the "Math:SetNumber", and passed it through the "Math:SinusInverse" node to get the result to the HUD in degrees.
 
@@ -2761,7 +2761,7 @@ Math:Sqrt
 
 This node will give you the square root of the input number.
 
-[Image: /docs/static/attachments/44958223]
+![Image](https://www.cryengine.com/docs/static/attachments/44958223)
 
 In the above example, we state a number with the "Math:SetNumber" node which then passes through the "Math:Sqrt" node which displays the result on the HUD.
 
@@ -2821,7 +2821,7 @@ This is a simple operation of subtracting Input B from Input A, then outputting 
 
 In the following example, we have made a flowgraph output the result of the "Math:Sub" to the HUD.
 
-[Image: /docs/static/attachments/44958222]
+![Image](https://www.cryengine.com/docs/static/attachments/44958222)
 
 Input
 
@@ -2888,7 +2888,7 @@ Math:Tangent
 
 This node will take the input of degrees and output the result into radians.
 
-[Image: /docs/static/attachments/44958221]
+![Image](https://www.cryengine.com/docs/static/attachments/44958221)
 
 In the example above, we set the input (in degrees) to 15 via the "Math:SetNumber", then passed it through the "Math:Tangent" node and output the result to the HUD.
 
@@ -2946,7 +2946,7 @@ Math:TangentInverse
 
 This node will take the input of radians and output the result in degrees.
 
-[Image: /docs/static/attachments/44958220]
+![Image](https://www.cryengine.com/docs/static/attachments/44958220)
 
 In the above example, we have set the input in radians via the "Math:SetNumber" and it passes through the "Math:TangentInverse" to output the result in degrees to the HUD.
 
@@ -3004,7 +3004,7 @@ Math:UpDownCounter
 
 Used to output an up or down counter.
 
-[Image: /docs/static/attachments/44958253]
+![Image](https://www.cryengine.com/docs/static/attachments/44958253)
 
 **
 Inputs
@@ -3096,146 +3096,52 @@ Math:Wrap
 
 Wraps Value around the interval defined by Min and Max.
 
-[Image: /docs/static/attachments/44958252]
+![Image](https://www.cryengine.com/docs/static/attachments/44958252)
 
-[#mathabs](
-Math:Abs
-)
-[#mathadd](
-Math:Add
-)
-[#mathanglestodir](
-Math:AnglesToDir
-)
-[#matharccosinus](
-Math:ArcCosinus
-)
-[#matharcsinus](
-Math:ArcSinus
-)
-[#matharctangens](
-Math:ArcTangens
-)
-[#mathauto3dnoise](
-Math:Auto3DNoise
-)
-[#mathautonoise1d](
-Math:AutoNoise1D
-)
-[#mathbooleanfrom](
-Math:BooleanFrom
-)
-[#mathbooleanto](
-Math:BooleanTo
-)
-[#mathcalculate](
-Math:Calculate
-)
-[#mathceil](
-Math:Ceil
-)
-[#mathclamp](
-Math:Clamp
-)
-[#mathcosinus](
-Math:Cosinus
-)
-[#mathcosinusinverse](
-Math:CosinusInverse
-)
-[#mathcounter](
-Math:Counter
-)
-[#mathdirtoangles](
-Math:DirToAngles
-)
-[#mathdiv](
-Math:Div
-)
-[#mathequal](
-Math:Equal
-)
-[#mathequalcheck](
-Math:EqualCheck
-)
-[#mathfloor](
-Math:Floor
-)
-[#mathgeometry](
-Math:Geometry
-)
-[#mathinrange](
-Math:InRange
-)
-[#mathless](
-Math:Less
-)
-[#mathlesscheck](
-Math:LessCheck
-)
-[#mathmod](
-Math:Mod
-)
-[#mathmul](
-Math:Mul
-)
-[#mathnoise1d](
-Math:Noise1D
-)
-[#mathnoise3d](
-Math:Noise3D
-)
-[#mathportcounter](
-Math:PortCounter
-)
-[#mathpower](
-Math:Power
-)
-[#mathrandom](
-Math:Random
-)
-[#mathreciprocal](
-Math:Reciprocal
-)
-[#mathremainder](
-Math:Remainder
-)
-[#mathround](
-Math:Round
-)
-[#mathsetcolor](
-Math:SetColor
-)
-[#mathsetinteger](
-Math:SetInteger
-)
-[#mathsetnumber](
-Math:SetNumber
-)
-[#mathsincos](
-Math:SinCos
-)
-[#mathsinus](
-Math:Sinus
-)
-[#mathsinusinverse](
-Math:SinusInverse
-)
-[#mathsqrt](
-Math:Sqrt
-)
-[#mathsub](
-Math:Sub
-)
-[#mathtangent](
-Math:Tangent
-)
-[#mathtangentinverse](
-Math:TangentInverse
-)
-[#mathupdowncounter](
-Math:UpDownCounter
-)
-[#mathwrap](
-Math:Wrap
-)
+[Math:Abs](#mathabs)
+[Math:Add](#mathadd)
+[Math:AnglesToDir](#mathanglestodir)
+[Math:ArcCosinus](#matharccosinus)
+[Math:ArcSinus](#matharcsinus)
+[Math:ArcTangens](#matharctangens)
+[Math:Auto3DNoise](#mathauto3dnoise)
+[Math:AutoNoise1D](#mathautonoise1d)
+[Math:BooleanFrom](#mathbooleanfrom)
+[Math:BooleanTo](#mathbooleanto)
+[Math:Calculate](#mathcalculate)
+[Math:Ceil](#mathceil)
+[Math:Clamp](#mathclamp)
+[Math:Cosinus](#mathcosinus)
+[Math:CosinusInverse](#mathcosinusinverse)
+[Math:Counter](#mathcounter)
+[Math:DirToAngles](#mathdirtoangles)
+[Math:Div](#mathdiv)
+[Math:Equal](#mathequal)
+[Math:EqualCheck](#mathequalcheck)
+[Math:Floor](#mathfloor)
+[Math:Geometry](#mathgeometry)
+[Math:InRange](#mathinrange)
+[Math:Less](#mathless)
+[Math:LessCheck](#mathlesscheck)
+[Math:Mod](#mathmod)
+[Math:Mul](#mathmul)
+[Math:Noise1D](#mathnoise1d)
+[Math:Noise3D](#mathnoise3d)
+[Math:PortCounter](#mathportcounter)
+[Math:Power](#mathpower)
+[Math:Random](#mathrandom)
+[Math:Reciprocal](#mathreciprocal)
+[Math:Remainder](#mathremainder)
+[Math:Round](#mathround)
+[Math:SetColor](#mathsetcolor)
+[Math:SetInteger](#mathsetinteger)
+[Math:SetNumber](#mathsetnumber)
+[Math:SinCos](#mathsincos)
+[Math:Sinus](#mathsinus)
+[Math:SinusInverse](#mathsinusinverse)
+[Math:Sqrt](#mathsqrt)
+[Math:Sub](#mathsub)
+[Math:Tangent](#mathtangent)
+[Math:TangentInverse](#mathtangentinverse)
+[Math:UpDownCounter](#mathupdowncounter)
+[Math:Wrap](#mathwrap)

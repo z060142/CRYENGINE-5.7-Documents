@@ -32,7 +32,7 @@ Pic1:
 A hi-res render mesh and a lo-res simulation mesh
 
 *
-[Image: /docs/static/attachments/25505679]
+![Image](https://www.cryengine.com/docs/static/attachments/25505679)
 
 -
 The cloth mesh needs to be skinned according to the characters joints. This would be the same process as skinning the character, but instead of using the body, you would skin the cloth.
@@ -47,7 +47,7 @@ At the end of the process, your cloth should look something like this in Maya:
 *
 Pic2: Cloth ready to be exported
 
-[Image: /docs/static/attachments/25507628]
+![Image](https://www.cryengine.com/docs/static/attachments/25507628)
 
 *
 
@@ -71,7 +71,7 @@ must appear in the beginning of the node's name. Therefore, if you have been usi
 Pic3: Incorrect namepace
 *
 
-[Image: /docs/static/attachments/25510085]
+![Image](https://www.cryengine.com/docs/static/attachments/25510085)
 
 To merge the namespaces down to the root, execute the following steps:
 
@@ -98,7 +98,7 @@ Now the namespaces are merged and you can continue with the following steps to e
 Pic4: Correct namespace
 
 *
-[Image: /docs/static/attachments/25510090]
+![Image](https://www.cryengine.com/docs/static/attachments/25510090)
 
 ##
 Method 1: Export - using Plugin
@@ -119,7 +119,7 @@ Open the "Export" plugin from the Crytek Maya Plugins:
 *
 Pic5: Crytek Maya plugin bar
 
-[Image: /docs/static/attachments/25510091]
+![Image](https://www.cryengine.com/docs/static/attachments/25510091)
 *
 
 -
@@ -148,7 +148,7 @@ checkbox
 Pic6: Crytek Exporter settings - Method 1
 
 *
-[Image: /docs/static/attachments/25510092]
+![Image](https://www.cryengine.com/docs/static/attachments/25510092)
 
 The
 *
@@ -181,7 +181,7 @@ Export
 Pic7: Crytek Maya plugin bar
 *
 
-[Image: /docs/static/attachments/25510091]
+![Image](https://www.cryengine.com/docs/static/attachments/25510091)
 In the Exporter:
 
 -
@@ -218,7 +218,7 @@ Resource Compiler
 *
 Pic8: Adding /forceVCloth in the CryEngine Settings
 
-[Image: /docs/static/attachments/25515996]
+![Image](https://www.cryengine.com/docs/static/attachments/25515996)
 *
 
 Now close the CRYENGINE Settings Manager and export the simulation mesh by clicking
@@ -244,35 +244,19 @@ Related Pages
 For more information on how to use VCloth, check the following pages:
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29799532](
-VCloth 2.0
-)
+[VCloth 2.0](../VCloth%202.0.md)
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849282#CharacterTool-PropertiesPanel-VCloth2Attachment](
-VCloth 2.0 properties
-)
+[VCloth 2.0 properties](../../Editor%20Tools/Animation%20Tab/Character%20Tool/Character%20Tool%20-%20Properties%20Panel.md#CharacterTool-PropertiesPanel-VCloth2Attachment)
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530479](
-Tutorial - VCloth 2.0 Setup
-)
+[Tutorial - VCloth 2.0 Setup](../../Tutorials/Animation%20and%20Characters/Character%20Tool%20and%20Pipeline/Tutorial%20-%20VCloth%202.0%20Setup.md)
 **
 
-[#cloth-setup](
-Cloth Setup
-)
-[#cloth-export-to-cryengine](
-Cloth Export to CRYENGINE
-)
-[#preparation-using-correct-namespace](
-Preparation: Using correct namespace
-)
-[#method-1-export-using-plugin](
-Method 1: Export - using Plugin
-)
-[#method-2-export-using-rc-command-line-commands](
-Method 2: Export - using RC command-line commands
-)
+[Cloth Setup](#cloth-setup)
+[Cloth Export to CRYENGINE](#cloth-export-to-cryengine)
+[Preparation: Using correct namespace](#preparation-using-correct-namespace)
+[Method 1: Export - using Plugin](#method-1-export-using-plugin)
+[Method 2: Export - using RC command-line commands](#method-2-export-using-rc-command-line-commands)

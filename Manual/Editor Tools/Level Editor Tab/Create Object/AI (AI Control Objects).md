@@ -17,7 +17,5 @@ In addition, AI control objects define navigation paths or an area for the AI on
 The AI control objects are mostly used with the Flow Graph scripting feature to design level concepts and scripted or triggered events.
 
 For more information about the objects listed on this page and their functions, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535410](
-AI Control Objects
-)
+[AI Control Objects](../../../AI%20and%20Navigation/AI%20Overview/AI%20(NPC)/AI%20Control%20Objects.md)
  page.

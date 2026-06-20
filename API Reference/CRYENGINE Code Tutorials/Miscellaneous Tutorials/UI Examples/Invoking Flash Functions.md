@@ -13,9 +13,7 @@ Overview
 CRYENGINE supports Scaleform GFx to load and render Flash assets within a game.
 
 To load a flash file follow the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306536](
-Scaleform GFx and CRYENGINE
-)
+[Scaleform GFx and CRYENGINE](../../../CRYENGINE%20Engine%20Code/Engine%20Modules/CrySystem/User%20Interface%20(Programming)/Scaleform%20GFx%20and%20CRYENGINE.md)
  document.
 
 ##
@@ -71,9 +69,7 @@ There are three Invoke functions that allow you to call flash functions:
 Loading a Minimap
 
 The Sandbox Editor has a function to create a minimap for your level. More information can be found in the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048847](
-Creating Mini Maps
-)
+[Creating Mini Maps](/docs/static/engines/cryengine-3/categories/1114113/pages/1048847)
  tutorial.
 
 After you have created the .dds and .xml files of your level, you can easily load this .dds file into your flash hud.

@@ -63,12 +63,6 @@ OnDeath
 
 Causes a child component to begin spawning particles when a parent particle dies.
 
-[#onbirth](
-OnBirth
-)
-[#oncollide](
-OnCollide
-)
-[#ondeath](
-OnDeath
-)
+[OnBirth](#onbirth)
+[OnCollide](#oncollide)
+[OnDeath](#ondeath)

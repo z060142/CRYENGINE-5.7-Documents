@@ -46,7 +46,7 @@ occlusion
 **
 .
 
-[Image: /docs/static/attachments/44967828]
+![Image](https://www.cryengine.com/docs/static/attachments/44967828)
 
 *
 Add AISAC
@@ -58,7 +58,7 @@ occlusion
 *
  parameter can be used to drive both the volume and high-cut cut-off frequency.
 
-[Image: /docs/static/attachments/44967829]
+![Image](https://www.cryengine.com/docs/static/attachments/44967829)
 
 *
 Occlusion cut-off

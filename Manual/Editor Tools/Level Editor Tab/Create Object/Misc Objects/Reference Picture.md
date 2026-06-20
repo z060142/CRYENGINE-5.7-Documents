@@ -16,7 +16,7 @@ The main purpose of the ReferenceImage setup is that the ReferenceImage shader d
 Illum Shader on the left, ReferenceImage Shader on the right
 
 *
-[Image: /docs/static/attachments/36849645]
+![Image](https://www.cryengine.com/docs/static/attachments/36849645)
 
 This tutorial shows how to add raw reference pictures in a level.
 
@@ -25,9 +25,7 @@ Saving the reference picture
 
 -
 Make sure you have the CryTiff plugin
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963493](
-installed
-)
+[installed](../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20CryTIF%20Plugin%20for%20Photoshop.md)
 .
 
 -
@@ -36,7 +34,7 @@ Open the original reference picture in Photoshop.
 -
 Set the size of the canvas or resize the picture to a power of 2 and use alpha channel to hide the black stripe if needed.
 
-[Image: /docs/static/attachments/36849643]
+![Image](https://www.cryengine.com/docs/static/attachments/36849643)
 
 -
 Save the picture as CryTiff, use
@@ -49,7 +47,7 @@ highQ
 **
  preset. If needed, disable the streaming of the texture.
 
-[Image: /docs/static/attachments/36849647]
+![Image](https://www.cryengine.com/docs/static/attachments/36849647)
 
 ##
 Inserting the reference picture in the level
@@ -64,21 +62,15 @@ diffuse
 **
  slot. Increase AlphaTest parameter when needed.
 
-[Image: /docs/static/attachments/36849642]
+![Image](https://www.cryengine.com/docs/static/attachments/36849642)
 
 ##
 Result
 
 This picture shows the difference between the standard Illum shader (left panel) and the ReferenceImage shader (right panel), unaffected by the noise/grain shading.
 
-[Image: /docs/static/attachments/36849646]
+![Image](https://www.cryengine.com/docs/static/attachments/36849646)
 
-[#saving-the-reference-picture](
-Saving the reference picture
-)
-[#inserting-the-reference-picture-in-the-level](
-Inserting the reference picture in the level
-)
-[#result](
-Result
-)
+[Saving the reference picture](#saving-the-reference-picture)
+[Inserting the reference picture in the level](#inserting-the-reference-picture-in-the-level)
+[Result](#result)

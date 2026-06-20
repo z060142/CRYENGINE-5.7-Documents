@@ -8,3 +8,5 @@
 ## Content
 
 How to use input nodes to drive the vector movement of a geom entity or a camera, and activate a camera on game start.
+
+[Embed: http://youtube.com/watch?v=bCrL2OEU4Ds]

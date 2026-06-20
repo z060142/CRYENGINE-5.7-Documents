@@ -28,54 +28,34 @@ Game/Scripts/common.lua
 Functions
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306627#EntityUtilsLua-DumpEntities](
-#DumpEntities
-)
+[#DumpEntities](EntityUtils%20Lua.md#EntityUtilsLua-DumpEntities)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306627#EntityUtilsLua-CompareEntitiesByName](
-#CompareEntitiesByName
-)
+[#CompareEntitiesByName](EntityUtils%20Lua.md#EntityUtilsLua-CompareEntitiesByName)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306627#EntityUtilsLua-CompareEntitiesByDistanceFromPoint](
-#CompareEntitiesByDistanceFromPoint
-)
+[#CompareEntitiesByDistanceFromPoint](EntityUtils%20Lua.md#EntityUtilsLua-CompareEntitiesByDistanceFromPoint)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306627#EntityUtilsLua-BroadcastEvent](
-#BroadcastEvent
-)
+[#BroadcastEvent](EntityUtils%20Lua.md#EntityUtilsLua-BroadcastEvent)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306627#EntityUtilsLua-MakeDerivedEntity](
-#MakeDerivedEntity
-)
+[#MakeDerivedEntity](EntityUtils%20Lua.md#EntityUtilsLua-MakeDerivedEntity)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306627#EntityUtilsLua-MakeDerivedEntityOverride](
-#MakeDerivedEntityOverride
-)
+[#MakeDerivedEntityOverride](EntityUtils%20Lua.md#EntityUtilsLua-MakeDerivedEntityOverride)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306627#EntityUtilsLua-MakeUsable](
-#MakeUsable
-)
+[#MakeUsable](EntityUtils%20Lua.md#EntityUtilsLua-MakeUsable)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306627#EntityUtilsLua-MakePickable](
-#MakePickable
-)
+[#MakePickable](EntityUtils%20Lua.md#EntityUtilsLua-MakePickable)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306627#EntityUtilsLua-MakeSpawnable](
-#MakeSpawnable
-)
+[#MakeSpawnable](EntityUtils%20Lua.md#EntityUtilsLua-MakeSpawnable)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306627#EntityUtilsLua-EntityCommon.PhysicalizeRigid](
-#EntityCommon.PhysicalizeRigid
-)
+[#EntityCommon.PhysicalizeRigid](EntityUtils%20Lua.md#EntityUtilsLua-EntityCommon.PhysicalizeRigid)
 
 ##
 DumpEntities()

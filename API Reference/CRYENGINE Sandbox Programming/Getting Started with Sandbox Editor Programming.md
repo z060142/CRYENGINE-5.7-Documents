@@ -31,14 +31,10 @@ Qt
 If you are not familiar with this, then there are plenty of very well documented online resources. You can also download the Sandbox Editor source code to help to debug certain issues.
 
 -
-[https://doc.qt.io/qt-5/qtwidgets-index.html](
-Qt Widgets
-)
+[Qt Widgets](https://doc.qt.io/qt-5/qtwidgets-index.html)
 
 -
-[https://doc.qt.io/qt-5/qtwidgets-tutorials-widgets-windowlayout-example.html](
-Widgets Tutorial
-)
+[Widgets Tutorial](https://doc.qt.io/qt-5/qtwidgets-tutorials-widgets-windowlayout-example.html)
 From CRYENGINE 5.0 onwards, the Sandbox has been partially rewritten using Qt and its architecture has been restructured towards a more modern and modular Editor while supporting extensions for the various Editor and Engine plugins.
 
 This was an extremely ambitious goal, so we decided to focus on the core of the Sandbox whilst still allowing certain modules within the Sandbox to remain unchanged. Some of these modules still use some MFC UI components (MFC was used in pre-CRYENGINE 5.0 versions of the Engine), hence MFC only remains in modules that haven't yet been converted to Qt.
@@ -67,19 +63,13 @@ MUST-READ
  documents for every Programmer that deals with Tools code. These guidelines need to be followed for any contribution to the main Sandbox code or the official plugins. We recommend that 3rd party developers also follow these guidelines to ensure quality and consistency in the code and user experience.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873248](
-User Experience Guidelines
-)
+[User Experience Guidelines](User%20Experience%20Guidelines.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873088](
-Qt Programming in Sandbox
-)
+[Qt Programming in Sandbox](Qt%20Programming/Qt%20Programming%20in%20Sandbox.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873090](
-UI Programming Patterns
-)
+[UI Programming Patterns](Qt%20Programming/UI%20Programming%20Patterns.md)
 
 ##
 Getting Started
@@ -96,9 +86,7 @@ OPTION_SAMPLEPLUGIN
 turned on if you want to use this as a template to base your plugin on.
 
 For more information on CMake, please refer here:
-[/docs/static/engines/cryengine-5/categories/23756813](
-CMake 5.5.2
-)
+[CMake 5.5.2](/docs/static/engines/cryengine-5/categories/23756813)
 
 ##
 Common Use Cases
@@ -106,30 +94,18 @@ Common Use Cases
 If you are developing for the Sandbox, then the chances are you are trying to do one of the following common tasks. If so, follow the process below.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873092](
-Create a new plugin
-)
+[Create a new plugin](Sandbox%20Framework/Sandbox%20Plugins/Sandbox%20C%2B%2B%20plugins.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873096](
-Add a new asset type and an editor for this asset type
-)
+[Add a new asset type and an editor for this asset type](Sandbox%20Framework/Asset%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873098](
-Add a new tool window that is not related to ass
-)
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873098](
-et
-)
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873098](
- management or editing
-)
+[Add a new tool window that is not related to ass](Sandbox%20Framework/Creating%20a%20new%20editor%20window.md)
+[et](Sandbox%20Framework/Creating%20a%20new%20editor%20window.md)
+[management or editing](Sandbox%20Framework/Creating%20a%20new%20editor%20window.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873100](
-Add new commands
-)
+[Add new commands](/docs/static/engines/cryengine-5/categories/23756813/pages/26873100)
 
 -
 Add any
@@ -213,76 +189,42 @@ Some old plugins still depend on MFC.
 Features
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873098](
-Creating a new editor window
-)
+[Creating a new editor window](Sandbox%20Framework/Creating%20a%20new%20editor%20window.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873096](
-Asset System
-)
+[Asset System](Sandbox%20Framework/Asset%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875812](
-Sandbox Plugins
-)
+[Sandbox Plugins](Sandbox%20Framework/Sandbox%20Plugins.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873102](
-Editor Command System
-)
+[Editor Command System](Sandbox%20Framework/Editor%20Command%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873108](
-Preferences and Settings
-)
+[Preferences and Settings](Sandbox%20Framework/Preferences%20and%20Settings.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873106](
-Personalization
-)
+[Personalization](Sandbox%20Framework/Personalization.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873112](
-Serialization and Property Trees
-)
+[Serialization and Property Trees](Sandbox%20Framework/Serialization%20and%20Property%20Trees.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873116](
-Undo system
-)
+[Undo system](Sandbox%20Framework/Undo%20system.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873104](
-Notifications and Error Reporting
-)
+[Notifications and Error Reporting](Sandbox%20Framework/Notifications%20and%20Error%20Reporting.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875311](
-Integrated Documentation
-)
+[Integrated Documentation](Sandbox%20Framework/Integrated%20Documentation.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873114](
-Theme, Styling and Colors
-)
+[Theme, Styling and Colors](Sandbox%20Framework/Theme%2C%20Styling%20and%20Colors.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873110](
-Sandbox Threading API
-)
-[#qt-and-mfc](
-Qt and MFC
-)
-[#guidelines](
-Guidelines
-)
-[#getting-started](
-Getting Started
-)
-[#common-use-cases](
-Common Use Cases
-)
-[#architecture-overview](
-Architecture Overview
-)
+[Sandbox Threading API](Sandbox%20Framework/Sandbox%20Threading%20API.md)
+[Qt and MFC](#qt-and-mfc)
+[Guidelines](#guidelines)
+[Getting Started](#getting-started)
+[Common Use Cases](#common-use-cases)
+[Architecture Overview](#architecture-overview)

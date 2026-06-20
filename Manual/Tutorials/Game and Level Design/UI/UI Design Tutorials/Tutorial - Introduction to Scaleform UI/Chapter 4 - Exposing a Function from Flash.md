@@ -25,7 +25,7 @@ Draw a Dynamic Textbox inside of the Flash canvas and type "
 Score: 0.
 " in the box.
 
-[Image: /docs/static/attachments/90833159]
+![Image](https://www.cryengine.com/docs/static/attachments/90833159)
 
 *
 Dynamic Textbox
@@ -45,7 +45,7 @@ Paragraph
 **
  option to left-justified.
 
-[Image: /docs/static/attachments/90833160]
+![Image](https://www.cryengine.com/docs/static/attachments/90833160)
 
 *
 lblScore
@@ -63,7 +63,7 @@ Window → Actions
 **
  in the menu.
 
-[Image: /docs/static/attachments/90833550]
+![Image](https://www.cryengine.com/docs/static/attachments/90833550)
 
 *
 Window → Actions
@@ -84,7 +84,7 @@ function updateScore(value:Number)
 
 ```
 
-[Image: /docs/static/attachments/90833162]
+![Image](https://www.cryengine.com/docs/static/attachments/90833162)
 
 *
 House the script in the default layer
@@ -93,9 +93,7 @@ House the script in the default layer
 
 -
 Now that you have defined your function, you can compile your GFx file through the exporter as explained in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/89456800](
-Chapter 2 - Flash and Gfx
-)
+[Chapter 2 - Flash and Gfx](Chapter%202%20-%20Flash%20and%20Gfx.md)
 , then enter the following adjustments to your UI Elements XML file to expose the function to visual scripting:
 
 ```
@@ -110,7 +108,7 @@ Chapter 2 - Flash and Gfx
 
 ```
 
-[Image: /docs/static/attachments/90833163]
+![Image](https://www.cryengine.com/docs/static/attachments/90833163)
 
 *
 Exposing the function to visual scripting
@@ -122,7 +120,7 @@ Scaleform 4
 -
 Draw a Dynamic Textbox inside of the Flash canvas and type "Score: 0." in the box.
 
-[Image: /docs/static/attachments/90833165]
+![Image](https://www.cryengine.com/docs/static/attachments/90833165)
 
 *
 Dynamic Textbox
@@ -131,7 +129,7 @@ Dynamic Textbox
 -
 Name the instance "lblScore" and make sure a suitable color and size is chosen.
 
-[Image: /docs/static/attachments/90833557]
+![Image](https://www.cryengine.com/docs/static/attachments/90833557)
 
 *
 lblscore
@@ -149,7 +147,7 @@ Window → Actions
 **
  in the menu.
 
-[Image: /docs/static/attachments/90833167]
+![Image](https://www.cryengine.com/docs/static/attachments/90833167)
 
 *
 Window → Actions
@@ -159,7 +157,7 @@ Window → Actions
 -
 Considering how this is the most basic form of ActionScript we can enter, we will house the script on the default layer as is (Scene 1, Layer 1, Frame 1), and enter the following code to expose our function and allow Scaleform to call it:
 
-[Image: /docs/static/attachments/90833168]
+![Image](https://www.cryengine.com/docs/static/attachments/90833168)
 
 *
 House the script in the default layer
@@ -179,9 +177,7 @@ function updateScore(value:Number)
 
 -
 Now that we have defined our function, we can compile our GFx file through the exporter as explained in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/89456800](
-Chapter 2 - Flash and Gfx
-)
+[Chapter 2 - Flash and Gfx](Chapter%202%20-%20Flash%20and%20Gfx.md)
 ,, then enter the following adjustments to our UI Elements XML file to expose the function to visual scripting:
 
 ```
@@ -196,21 +192,13 @@ Chapter 2 - Flash and Gfx
 
 ```
 
-[Image: /docs/static/attachments/90833163]
+![Image](https://www.cryengine.com/docs/static/attachments/90833163)
 
 *
 Exposing the function to visual scripting
 *
 
-[#how-do-we-expose-scoring](
-How Do We Expose Scoring?
-)
-[#exposing-a-function-for-dynamic-text](
-Exposing a Function for Dynamic Text
-)
-[#scaleform-3](
-Scaleform 3
-)
-[#scaleform-4](
-Scaleform 4
-)
+[How Do We Expose Scoring?](#how-do-we-expose-scoring)
+[Exposing a Function for Dynamic Text](#exposing-a-function-for-dynamic-text)
+[Scaleform 3](#scaleform-3)
+[Scaleform 4](#scaleform-4)

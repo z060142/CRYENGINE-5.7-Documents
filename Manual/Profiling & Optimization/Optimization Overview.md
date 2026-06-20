@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [Cached Shadows](Optimization Overview/Cached Shadows.md)
-- [Layer Streaming Optimization](Optimization Overview/Layer Streaming Optimization.md)
-- [Occlusion Mesh (OCM) Optimization](Optimization Overview/Occlusion Mesh (OCM) Optimization.md)
-- [Texels Per Meter Optimization](Optimization Overview/Texels Per Meter Optimization.md)
-- [Vis Area and Portals](Optimization Overview/Vis Area and Portals.md)
+- [Cached Shadows](Optimization%20Overview/Cached%20Shadows.md)
+- [Layer Streaming Optimization](Optimization%20Overview/Layer%20Streaming%20Optimization.md)
+- [Occlusion Mesh (OCM) Optimization](Optimization%20Overview/Occlusion%20Mesh%20(OCM)%20Optimization.md)
+- [Texels Per Meter Optimization](Optimization%20Overview/Texels%20Per%20Meter%20Optimization.md)
+- [Vis Area and Portals](Optimization%20Overview/Vis%20Area%20and%20Portals.md)
 
 ## Content
 
@@ -538,45 +538,17 @@ Particles
 
 Make particle effects as effective as possible, as they create a huge amount of overdraw and thus have a big effect on performance. Also, place standing particle effects as early as possible in order to get a feeling for the performance impact.
 
-[#importance-of-asset-optimization](
-Importance of Asset Optimization
-)
-[#scene-complexity](
-Scene Complexity
-)
-[#cpu-performance](
-CPU Performance
-)
-[#gpu-performance](
-GPU Performance
-)
-[#texture-streaming](
-Texture Streaming
-)
-[#general-performance-guidelines](
-General Performance Guidelines
-)
-[#level-design-setup-splitting-large-meshes](
-Level design setup / splitting large meshes
-)
-[#drawcalls](
-Drawcalls
-)
-[#number-of-vertices](
-Number of Vertices
-)
-[#physics-proxy](
-Physics Proxy
-)
-[#level-of-detail-objects-lods](
-Level of Detail Objects (LOD's)
-)
-[#material-setup](
-Material Setup
-)
-[#vegetation](
-Vegetation
-)
-[#particles](
-Particles
-)
+[Importance of Asset Optimization](#importance-of-asset-optimization)
+[Scene Complexity](#scene-complexity)
+[CPU Performance](#cpu-performance)
+[GPU Performance](#gpu-performance)
+[Texture Streaming](#texture-streaming)
+[General Performance Guidelines](#general-performance-guidelines)
+[Level design setup / splitting large meshes](#level-design-setup-splitting-large-meshes)
+[Drawcalls](#drawcalls)
+[Number of Vertices](#number-of-vertices)
+[Physics Proxy](#physics-proxy)
+[Level of Detail Objects (LOD's)](#level-of-detail-objects-lods)
+[Material Setup](#material-setup)
+[Vegetation](#vegetation)
+[Particles](#particles)

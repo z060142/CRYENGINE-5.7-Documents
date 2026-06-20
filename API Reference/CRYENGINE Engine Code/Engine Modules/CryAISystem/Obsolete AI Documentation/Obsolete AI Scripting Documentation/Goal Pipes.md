@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Goalop Reference](Goal Pipes/Goalop Reference.md)
-- [Goalpipes - From Lua to XML](Goal Pipes/Goalpipes - From Lua to XML.md)
+- [Goalop Reference](Goal%20Pipes/Goalop%20Reference.md)
+- [Goalpipes - From Lua to XML](Goal%20Pipes/Goalpipes%20-%20From%20Lua%20to%20XML.md)
 
 ## Content
 

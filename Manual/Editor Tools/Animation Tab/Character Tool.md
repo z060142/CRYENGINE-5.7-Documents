@@ -7,15 +7,15 @@
 
 ## Child Pages
 
-- [Character Tool - Display Options](Character Tool/Character Tool - Display Options.md)
-- [Character Tool - Properties Panel](Character Tool/Character Tool - Properties Panel.md)
-- [Animation Compression - Character Tool](Character Tool/Animation Compression - Character Tool.md)
-- [Animation Events - Character Tool](Character Tool/Animation Events - Character Tool.md)
-- [Animation Import - Character Tool](Character Tool/Animation Import - Character Tool.md)
-- [Attachment System Tutorial - Character Tool](Character Tool/Attachment System Tutorial - Character Tool.md)
-- [Blend Spaces - Character Tool](Character Tool/Blend Spaces - Character Tool.md)
-- [Character Attachments - Character Tool](Character Tool/Character Attachments - Character Tool.md)
-- [Creating Character Definition - Character Tool](Character Tool/Creating Character Definition - Character Tool.md)
+- [Character Tool - Display Options](Character%20Tool/Character%20Tool%20-%20Display%20Options.md)
+- [Character Tool - Properties Panel](Character%20Tool/Character%20Tool%20-%20Properties%20Panel.md)
+- [Animation Compression - Character Tool](Character%20Tool/Animation%20Compression%20-%20Character%20Tool.md)
+- [Animation Events - Character Tool](Character%20Tool/Animation%20Events%20-%20Character%20Tool.md)
+- [Animation Import - Character Tool](Character%20Tool/Animation%20Import%20-%20Character%20Tool.md)
+- [Attachment System Tutorial - Character Tool](Character%20Tool/Attachment%20System%20Tutorial%20-%20Character%20Tool.md)
+- [Blend Spaces - Character Tool](Character%20Tool/Blend%20Spaces%20-%20Character%20Tool.md)
+- [Character Attachments - Character Tool](Character%20Tool/Character%20Attachments%20-%20Character%20Tool.md)
+- [Creating Character Definition - Character Tool](Character%20Tool/Creating%20Character%20Definition%20-%20Character%20Tool.md)
 
 ## Content
 
@@ -36,7 +36,7 @@ Tools -> Animation -> Character Tool
 **
 .
 
-[Image: /docs/static/attachments/44961857]
+![Image](https://www.cryengine.com/docs/static/attachments/44961857)
 
 Here are four core UI components of the Character Tool:
 
@@ -87,9 +87,7 @@ Import Animation Layers
 **
  |
 Import previously exported
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961853#CharacterTool-animationlayers](
-animation layers
-)
+[animation layers](Character%20Tool.md#CharacterTool-animationlayers)
 .
  |
 
@@ -98,9 +96,7 @@ Export Animation Layers
 **
  |
 Export existing
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961853#CharacterTool-animationlayers](
-animation layers
-)
+[animation layers](Character%20Tool.md#CharacterTool-animationlayers)
 .
  |
 
@@ -345,7 +341,7 @@ Assets
 **
  panel:
 
-[Image: /docs/static/attachments/44961863]
+![Image](https://www.cryengine.com/docs/static/attachments/44961863)
 
 *
 Split Pane button
@@ -414,11 +410,7 @@ Display Options
 
 The Display Options determine how the scene is displayed in the Character Tool. These settings are not saved in the character files, they are purely for preview purposes.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961824](
-**
-See here
-**
-)
+[See here](Character%20Tool/Character%20Tool%20-%20Display%20Options.md)
  for descriptions of these options.
 
 ##
@@ -426,9 +418,7 @@ Edit Proxies
 
 Here you can create and edit proxies for your character.
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869398](
-See here
-)
+[See here](Character%20Tool/Character%20Attachments%20-%20Character%20Tool.md)
 **
  for more information.
 
@@ -449,7 +439,7 @@ It's possible to launch several instances of it to compare several iterations of
 
 A scene is set up only for previewing purposes and consists of:
 
-[Image: /docs/static/attachments/44961854]
+![Image](https://www.cryengine.com/docs/static/attachments/44961854)
 
 Parameter
  |
@@ -499,9 +489,7 @@ The options in this section were created for use with a tool that was developed 
 5. Properties
 
 There are many properties that can appear in the Properties panel, depending on what is selected. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849282](
-this page
-)
+[this page](Character%20Tool/Character%20Tool%20-%20Properties%20Panel.md)
  for details.
 
 ##
@@ -513,21 +501,9 @@ Playback
 **
  panel at the bottom can be used to scrub the timeline and provides playback options like looping of animations and playback speed. You can also change the timeline to be represented in seconds, frames or normalize the timeline from 0 - 1. The options gear offers further control on organizing how the timeline is represented.
 
-[#1-menu](
-1. Menu
-)
-[#2-assets](
-2. Assets
-)
-[#3-viewport](
-3. Viewport
-)
-[#4-scene-parameters](
-4. Scene Parameters
-)
-[#5-properties](
-5. Properties
-)
-[#6-playback](
-6. Playback
-)
+[1. Menu](#1-menu)
+[2. Assets](#2-assets)
+[3. Viewport](#3-viewport)
+[4. Scene Parameters](#4-scene-parameters)
+[5. Properties](#5-properties)
+[6. Playback](#6-playback)

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933281]
+![Image](https://www.cryengine.com/docs/static/attachments/29933281)
 
 ##
 Overview
@@ -28,5 +28,5 @@ Pic1: A sample Detailed Screen Space Shadows utilized in a scene.
 *
 
 *
-[Image: /docs/static/attachments/44970779]
+![Image](https://www.cryengine.com/docs/static/attachments/44970779)
 *

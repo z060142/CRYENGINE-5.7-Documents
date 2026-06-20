@@ -8,3 +8,5 @@
 ## Content
 
 How to use a script an AI entity to follow an AI path using AI sequence and movement nodes, and how to use a vehicle to follow a path once the AI has entered into driver's seat.
+
+[Embed: https://www.youtube.com/watch?v=QQWhp4qJpz8&list=PLpCgy91Y5vMuwKSCe-iOJ-OyAMXkMvb4I&index=8]

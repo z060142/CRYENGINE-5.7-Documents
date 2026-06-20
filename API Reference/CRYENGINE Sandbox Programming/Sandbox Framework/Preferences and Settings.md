@@ -16,9 +16,7 @@ Note:
  Make as little changes as necessary. Too much customization and options is not necessarily a good thing and quickly becomes confusing and off-putting to the user. Our tools are already extremely complex, and customization makes them harder to work on, harder to share knowledge, harder to design, etc...
 
 Before adding a new setting, please consider if this could not be handled better by
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873106](
-Personalization
-)
+[Personalization](Personalization.md)
 , or if a solution without settings is possible.
 
 **
@@ -303,4 +301,4 @@ gMyCustomPreferences.bMyProperty = !gMyCustomPreferences.bMyProperty;
 `
  |
 
-[Image: /docs/static/attachments/26952245]
+![Image](https://www.cryengine.com/docs/static/attachments/26952245)

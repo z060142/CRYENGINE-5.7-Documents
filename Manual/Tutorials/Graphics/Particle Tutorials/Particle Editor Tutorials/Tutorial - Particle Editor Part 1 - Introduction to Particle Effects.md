@@ -11,16 +11,12 @@
 Introduction to the Particle Editor
 
 If you’ve ever poked around in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869094](
-DataBase View
-)
+[DataBase View](../../../../Editor%20Tools/DataBase%20View.md)
  tool, you may have seen the old particle effects stored there. You can drag them into your level, trigger them, or create and edit them directly in the DataBase View. These were our first generation particle effects, and while you can continue to use them, we're going to work with CRYENGINE's second generation
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-Particle Editor
-)
+[Particle Editor](../../../../Editor%20Tools/Particle%20Editor.md)
 .
 
-[Image: /docs/static/attachments/65438178]
+![Image](https://www.cryengine.com/docs/static/attachments/65438178)
 
 *
 Particle effects created with the second generation Particle Editor
@@ -29,16 +25,12 @@ Particle effects created with the second generation Particle Editor
 We will discuss the main concepts of particle creation in this first tutorial. Once we understand those, we’ll be on our way to making all sorts of increasingly complex particle effects over the course of this series.
 
 You can begin by right-clicking in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-Asset Browser
-)
+[Asset Browser](../../../../Editor%20Tools/Asset%20Browser.md)
  and adding a new particle entity to any folder you like, but opening the Particle Editor tool and creating your first particle in its Asset Browser is what we recommend. Give it a descriptive name to make it easy to find amongst the other particles you’ll create. Once you have your particle created, you can just drag it from the Particle Editor’s Asset Browser into your level. That creates an instance of the particle effect as an entity with one Entity Component, the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966055#EffectsComponents-emitter](
-Particle Emitter
-)
+[Particle Emitter](../../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6)/Effects%20Components.md#EffectsComponents-emitter)
 .
 
-[Image: /docs/static/attachments/65438179]
+![Image](https://www.cryengine.com/docs/static/attachments/65438179)
 
 *
 Particle effect entity with Properties panel
@@ -49,9 +41,7 @@ Alternatively you can use the
 Create Object Tool → Components → Effects →
 **
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966029](
-Effect Component
-)
+[Effect Component](../../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)
  to create an entity with a Particle Emitter component, but you’ll then need to actually assign a particle effect to it by clicking on the
 **
 Effect
@@ -74,17 +64,13 @@ Enabled
 The Default Sprite
 
 After the particle effect is dragged into the level, where like any other entity it will automatically snap to the terrain, pull it up out of the terrain by using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308620#TransformingObjects-move](
-Move
-)
+[Move](../../../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Transforming%20Objects.md#TransformingObjects-move)
 tool so you can take a better look at it. You’ll immediately see a little rectangle which is the
 **
 default sprite
 **
 . A sprite is a simple 2D plane that can have color or movement, emit light, collide with surfaces and objects etc. However, unless it’s very simple and very small, we usually
-[/docs/static/engines/cryengine-5/categories/23756816/pages/65437722#Tutorial-ParticleEditorPart1-IntroductiontoParticleEffects-spriteimage](
-replace the default plane
-)
+[replace the default plane](Tutorial%20-%20Particle%20Editor%20Part%201%20-%20Introduction%20to%20Particle%20Effects.md#Tutorial-ParticleEditorPart1-IntroductiontoParticleEffects-spriteimage)
  with an image - either a simple image or 2D animated image sequences, such as bugs flapping their wings, curling smoke, flames, etcetera.
 
 To get you started, some of the essential particle effects are provided in the
@@ -102,9 +88,7 @@ particles
 GameSDK Sample Project
 **
  is downloaded and added to the current project folder. Please see the
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
  for more information.
 
 If you click on the particle in the Particle Editor's Asset Browser, you’ll see how it’s built in the Effect Graph. The box shaped container shown in the image below is called a
@@ -116,15 +100,11 @@ Component
 Feature.
 **
 In the default Component, the Feature
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868306#Render-sprites](
-Render:Sprites
-)
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868306#Render-sprites](
-
-)
+[Render:Sprites](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Render.md#Render-sprites)
+[/docs/static/engines/cryengine-5/categories/23756816/pages/36868306#Render-sprites](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Render.md#Render-sprites)
 is what’s responsible for actually generating that rectangle which is our current particle. Sprites are just one type of entities you can spawn in a particle, but this is the one you’ll probably use more than any other.
 
-[Image: /docs/static/attachments/65437857]
+![Image](https://www.cryengine.com/docs/static/attachments/65437857)
 
 *
 A Component and its Features
@@ -152,12 +132,10 @@ Another panel that is available in the Particle Editor is the
 Curve Editor
 **
 , which you use to modify how properties change over time or relative to other parameters, just like the Curve Editor in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658466](
-Environment Editor
-)
+[Environment Editor](../../../../Editor%20Tools/Environment%20Editor.md)
 .
 
-[Image: /docs/static/attachments/65438180]
+![Image](https://www.cryengine.com/docs/static/attachments/65438180)
 
 *
 A simple effect and the Particle Editor interface, with all five of its panels open
@@ -174,7 +152,7 @@ Effect Graph
 These are the basics and even though the interface is very easy to use, what you can build with it is limitless.
 
 All panels can be opened or closed by clicking the
-[Image: /docs/static/attachments/65438181]
+![Image](https://www.cryengine.com/docs/static/attachments/65438181)
  menu and choosing a panel from the
 **
 Window →  Panels
@@ -182,9 +160,7 @@ Window →  Panels
  list.
 
 For more information on the Particle Editor interface, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-Particle Editor
-)
+[Particle Editor](../../../../Editor%20Tools/Particle%20Editor.md)
  page.
 
 ##
@@ -193,9 +169,7 @@ Facing Mode
 If you rotate the camera around the sprite, you’ll notice that by default, the rectangle always faces the screen. While you can change this behavior, the point of it is to help a 2D image pretend to be 3D simply by hiding the fact that it has no volume or thickness. That’s pretty much the essence of how particles work.
 
 To illustrate that, if you click on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868306#Render-sprites](
-Render:Sprites
-)
+[Render:Sprites](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Render.md#Render-sprites)
  Feature, you’ll see its properties in the
 **
 Inspector
@@ -218,13 +192,13 @@ Camera
 **
 , which makes the sprites always parallel to the camera rotation.
 
-[Image: /docs/static/attachments/65438182]
+![Image](https://www.cryengine.com/docs/static/attachments/65438182)
 
  |
-[Image: /docs/static/attachments/65438183]
+![Image](https://www.cryengine.com/docs/static/attachments/65438183)
 
  |
-[Image: /docs/static/attachments/65438184]
+![Image](https://www.cryengine.com/docs/static/attachments/65438184)
 
  |
 
@@ -256,13 +230,9 @@ Free
 The reason it's most common to use Screen mode is that the basis of particle effects is to use 2D images to simulate 3D effects, and Screen mode hides the fact that the sprites have no thickness. Hopefully, that clarifies why you’ll usually want the sprite to face the screen. We’ll explore the remaining facing modes later. For now, let's reset this to always face the screen.
 
 Just like in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259544](
-Material Editor
-)
+[Material Editor](../../../../Editor%20Tools/Material%20Editor.md)
 , the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-Audio Controls Editor
-)
+[Audio Controls Editor](../../../../Editor%20Tools/Audio%20Controls%20Editor.md)
  and other tools, you have to save your particle entity
 **
 while
@@ -274,7 +244,7 @@ Throughout the Sandbox Editor interface, when you have unsaved changes to an ent
 File → Save
 **
  option in the
-[Image: /docs/static/attachments/65438181]
+![Image](https://www.cryengine.com/docs/static/attachments/65438181)
  menu or just press
 **
 Ctrl + S
@@ -287,9 +257,7 @@ If you’re new to the Sandbox Editor, it's worth knowing that any instance of a
 Field:Size
 
 The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868265#Field-size](
-Field:Size
-)
+[Field:Size](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Field.md#Field-size)
 Feature sets the size of the sprite. The default value of one actually makes it two by two meters, because it’s the radius to the edge of the sprite, not to a corner vertex.
 
 You can make these sprites as tiny or as big as you like.
@@ -300,21 +268,15 @@ Spawn:Rate and Life:Time
 Next, we need to control when our sprite appears by “spawning” it.
 
 The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868327#Spawn-rate](
-Spawn:Rate
-)
+[Spawn:Rate](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Spawn.md#Spawn-rate)
 Feature is useful when you want sprites to appear in a continuous stream. Right now, a new sprite is being spawned once every second, but because the old one never disappears, you can’t actually see that new ones are appearing.
 
 But here’s an interesting thing: if you drag the effect around with the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308620#TransformingObjects-move](
-Move
-)
+[Move](../../../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Transforming%20Objects.md#TransformingObjects-move)
 tool, you’ll notice that it "lags" in a weird way, almost like it keeps getting stuck on something. But it’s actually because a new sprite is in fact being spawned only once per second, and because we haven’t explicitly set up the sprite to follow the movement of the Entity Component.
 
 To make this spawning and disappearing visible, we can modify how long the sprite lasts through the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868279](
-Life:Time
-)
+[Life:Time](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Life.md)
 Feature. Set the
 **
 Life Time
@@ -325,10 +287,10 @@ Life Time
 **
  (half a second), and now we finally start to see something a bit more interesting, which is a new sprite appearing every second and disappearing half a second later.
 
-[Image: /docs/static/attachments/65438185]
+![Image](https://www.cryengine.com/docs/static/attachments/65438185)
 
  |
-[Image: /docs/static/attachments/65438186]
+![Image](https://www.cryengine.com/docs/static/attachments/65438186)
 
  |
 
@@ -355,9 +317,7 @@ Spawn:Rate
 Adding Movement
 
 There are many ways to get a particle to move, but as we already have a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867966#Motion-physics](
-Motion:Physics
-)
+[Motion:Physics](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Motion.md#Motion-physics)
 Feature in our Component, we'll set the
 **
 Life Time
@@ -386,10 +346,10 @@ Gravity Scale
 **
 , the sprites will fall to the terrain as if they had weight. You can drag the particle entity up a bit higher above the terrain so you can see them cascading down and disappearing over their three second lifetime.
 
-[Image: /docs/static/attachments/65438187]
+![Image](https://www.cryengine.com/docs/static/attachments/65438187)
 
  |
-[Image: /docs/static/attachments/65438188]
+![Image](https://www.cryengine.com/docs/static/attachments/65438188)
 
  |
 
@@ -406,10 +366,10 @@ Gravity Scale
 **
  a negative number though, we can create things like smoke, where gravity pushes lighter-than-air particles upward.
 
-[Image: /docs/static/attachments/65438189]
+![Image](https://www.cryengine.com/docs/static/attachments/65438189)
 
  |
-[Image: /docs/static/attachments/65438190]
+![Image](https://www.cryengine.com/docs/static/attachments/65438190)
 
  |
 
@@ -443,16 +403,14 @@ Drag
 
 Let’s break it down:
 
-[Image: /docs/static/attachments/65438191]
+![Image](https://www.cryengine.com/docs/static/attachments/65438191)
 
 *
 Motion:Physics → Drag = 1
 *
 
 We’re looking at a ruler that’s marked in centimeters. The yellow line is a particle sprite that is launched using a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868166#Velocity-directional](
-Velocity:Directional
-)
+[Velocity:Directional](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Velocity.md#Velocity-directional)
 Feature because it allows us to launch a particle into motion at a precise starting velocity, in this case
 **
 1
@@ -464,9 +422,7 @@ X
  axis.
 
 Then, in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867966#Motion-physics](
-Motion:Physics
-)
+[Motion:Physics](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Motion.md#Motion-physics)
 Feature, we've set
 **
 Drag
@@ -513,7 +469,7 @@ Drag
 **
 , it takes a lot longer for the particle to stop moving, but it still stops after the same one meter distance.
 
-[Image: /docs/static/attachments/65438193]
+![Image](https://www.cryengine.com/docs/static/attachments/65438193)
 
 *
 Motion:Physics → Drag = 0.5
@@ -601,7 +557,7 @@ matches
 
 This may be a bit easier to see if you make the wind move a bit faster. You can see the particle below accelerating quickly until it’s moving at the speed of the wind:
 
-[Image: /docs/static/attachments/65438195]
+![Image](https://www.cryengine.com/docs/static/attachments/65438195)
 
 *
 Particles influenced by Uniform Wind
@@ -639,9 +595,7 @@ Motion:Physics
 .
 
 This will allow the global wind speed as set in your
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848989](
-environment preset
-)
+[environment preset](../../../../Editor%20Tools/Level%20Editor%20Tab/Level%20Settings.md)
  to affect the particle. At a
 **
 Level Wind Scale
@@ -664,7 +618,7 @@ Drag
 **
 , the particles will reach the same speed as the global wind after one meter of travel.
 
-[Image: /docs/static/attachments/65438196]
+![Image](https://www.cryengine.com/docs/static/attachments/65438196)
 
 *
 A level wind of 10m/sec in an X direction pushing particles in a positive direction on the X axis as gravity pushes them upward
@@ -721,11 +675,11 @@ Level Wind Scale
  higher than one; it just acts as a multiplier for the global wind speed.
 
 *
-[Image: /docs/static/attachments/65438197]
+![Image](https://www.cryengine.com/docs/static/attachments/65438197)
 *
 
  |
-[Image: /docs/static/attachments/65438199]
+![Image](https://www.cryengine.com/docs/static/attachments/65438199)
 
  |
 
@@ -739,10 +693,10 @@ Drag
 
  |
 
-[Image: /docs/static/attachments/65438200]
+![Image](https://www.cryengine.com/docs/static/attachments/65438200)
 
  |
-[Image: /docs/static/attachments/65438202]
+![Image](https://www.cryengine.com/docs/static/attachments/65438202)
 
  |
 
@@ -760,9 +714,7 @@ If you check the
 Breeze Enabled
 **
  checkbox in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658466#EnvironmentEditor-wind](
-Wind
-)
+[Wind](../../../../Editor%20Tools/Environment%20Editor.md#EnvironmentEditor-wind)
 section of the
 **
 Environment Editor
@@ -781,12 +733,10 @@ Overlay Collision Proxies
 **
  view mode
 in the Sandbox Editor's
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308636](
-View Modes Toolbar
-)
+[View Modes Toolbar](../../../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface/Toolbars/View%20Modes%20ToolBar.md)
 , you can see the breezes represented as red boxes and watch them affecting the particles that they touch:
 
-[Image: /docs/static/attachments/65438203]
+![Image](https://www.cryengine.com/docs/static/attachments/65438203)
 
 *
 Particles influenced by breeze
@@ -814,12 +764,10 @@ property in the
 Advanced
 **
  section of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869094](
-DataBase View
-)
+[DataBase View](../../../../Editor%20Tools/DataBase%20View.md)
  was enabled to produce a wind force.
 
-[Image: /docs/static/attachments/65438206]
+![Image](https://www.cryengine.com/docs/static/attachments/65438206)
 
 *
 Particles influenced by an explosion's force
@@ -852,16 +800,14 @@ Z
 . This provides separate control within every particle effect that isn't affected by changes to the global wind, which may be easier to track throughout your level design.
 
 \
-[Image: /docs/static/attachments/65438208]
+![Image](https://www.cryengine.com/docs/static/attachments/65438208)
 
 *
 Uniform Acceleration in action
 *
 
 Or you can let the global wind from your
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848989](
-environment preset
-)
+[environment preset](../../../../Editor%20Tools/Level%20Editor%20Tab/Level%20Settings.md)
  do the pushing by setting
 **
 Motion:Physics→
@@ -891,10 +837,10 @@ Level Wind Scale
 **
  and make our own little wind in the opposite direction.
 
-[Image: /docs/static/attachments/65438209]
+![Image](https://www.cryengine.com/docs/static/attachments/65438209)
 
  |
-[Image: /docs/static/attachments/65438212]
+![Image](https://www.cryengine.com/docs/static/attachments/65438212)
 
  |
 
@@ -910,10 +856,10 @@ Adding a Sprite Image
 
 Let's use the earlier example of gravity causing a particle sprite to accelerate upward to build a smoke effect. Create or modify your particle effect using the Features and settings shown below. You can create an entirely new effect using the default Component.
 
-[Image: /docs/static/attachments/65438213]
+![Image](https://www.cryengine.com/docs/static/attachments/65438213)
 
  |
-[Image: /docs/static/attachments/65438214]
+![Image](https://www.cryengine.com/docs/static/attachments/65438214)
 
  |
 
@@ -923,21 +869,17 @@ Basis for smoke effect
  |
 
 Right now, our sprite is still just an ordinary rectangle. Let’s change that by right-clicking on any of the existing Features and inserting a new one:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868247#Appearance-material](
-Appearance:Material
-)
+[Appearance:Material](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Appearance.md#Appearance-material)
 . You’ll note that you can insert Features before or after where you click. Because Features are executed top to bottom, there will be cases where their order is going to make a difference, which will be explained further in this series.
 
 Select your new
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868247#Appearance-material](
-Appearance:Material
-)
+[Appearance:Material](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Appearance.md#Appearance-material)
 Feature and;
 
 -
 Click on the
 **
-[Image: /docs/static/attachments/65438215]
+![Image](https://www.cryengine.com/docs/static/attachments/65438215)
 **
  button next to the
 **
@@ -960,15 +902,13 @@ The textures and materials used in this tutorial are only available in the
 GameSDK Sample Project
 **
 . For more information, please check out the
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
 .
 
-[Image: /docs/static/attachments/65438216]
+![Image](https://www.cryengine.com/docs/static/attachments/65438216)
 
  |
-[Image: /docs/static/attachments/65438217]
+![Image](https://www.cryengine.com/docs/static/attachments/65438217)
 
  |
 
@@ -985,15 +925,13 @@ Modifying Size Dynamically
 Even though it is an improvement for our particle effect, right now the smoke just appears and disappears instantly, and stays the same size. Let’s make it start small and gradually expand like real smoke.
 
 To do so, we need to modify the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868265#Field-size](
-Field:Size
-)
+[Field:Size](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Field.md#Field-size)
 value over the age of the particle. If you click on the
 **
 Field:Size
 **
  Feature, you’ll see the
-[Image: /docs/static/attachments/65438218]
+![Image](https://www.cryengine.com/docs/static/attachments/65438218)
  dropdown button next to the
 **
 Value
@@ -1003,12 +941,10 @@ Value
 Inspector
 **
  panel. This allows us to add what we call
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Modifiers.md)
 to change values - in this case, to affect the sprite size over its age:
 
-[Image: /docs/static/attachments/65438219]
+![Image](https://www.cryengine.com/docs/static/attachments/65438219)
 
 *
 Adding Modifiers
@@ -1028,7 +964,7 @@ First, make sure the
 Curve Editor
 **
  panel is visible. If it's not, you can open it by clicking the
-[Image: /docs/static/attachments/65438181]
+![Image](https://www.cryengine.com/docs/static/attachments/65438181)
  menu icon and choosing
 **
 Window → Panels → Curve editor
@@ -1071,10 +1007,10 @@ Now, to make the smoke grow steadily from nothing, drag the start point down to
 **
 . The smoke now begins as a point and grows to 200% of its original Field:Size.
 
-[Image: /docs/static/attachments/65438220]
+![Image](https://www.cryengine.com/docs/static/attachments/65438220)
 
  |
-[Image: /docs/static/attachments/65438221]
+![Image](https://www.cryengine.com/docs/static/attachments/65438221)
 
  |
 
@@ -1111,7 +1047,7 @@ Randomizing Particle Size - the Random Modifier
 Now smoke grows a bit more realistically, but each puff of smoke looks exactly the same. Let's randomize the size a bit.
 
 To do so, click
-[Image: /docs/static/attachments/65438218]
+![Image](https://www.cryengine.com/docs/static/attachments/65438218)
 and insert another Modifier for the size, which is called
 **
 Random
@@ -1171,10 +1107,10 @@ Life:Time
 8
 **
  seconds.
-[Image: /docs/static/attachments/65438222]
+![Image](https://www.cryengine.com/docs/static/attachments/65438222)
 
  |
-[Image: /docs/static/attachments/65438225]
+![Image](https://www.cryengine.com/docs/static/attachments/65438225)
 
  |
 
@@ -1209,7 +1145,7 @@ Right now the opacity is
 100%
 **
 . Click the
-[Image: /docs/static/attachments/65438218]
+![Image](https://www.cryengine.com/docs/static/attachments/65438218)
 dropdown button and add a
 **
 Curve
@@ -1240,10 +1176,10 @@ Leave those at
 100%
 **
  opacity and drag the start and end points down to zero - you can drag the mouse to select both points and then move them simultaneously.
-[Image: /docs/static/attachments/65438226]
+![Image](https://www.cryengine.com/docs/static/attachments/65438226)
 
  |
-[Image: /docs/static/attachments/65438236]
+![Image](https://www.cryengine.com/docs/static/attachments/65438236)
 
  |
 
@@ -1277,9 +1213,7 @@ angent
 button in the Curve Editor's Toolbar to straighten the incoming curve on the third point.
 
 For more information about the Curve Editor's Toolbar options, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-Particle Editor
-)
+[Particle Editor](../../../../Editor%20Tools/Particle%20Editor.md)
  page.
 We've made a lot of changes, so press
 **
@@ -1317,9 +1251,7 @@ texture. Even if the thumbnail is missing, the filename alerts you that this is 
 
 -
 To tell the particle editor to treat it as a multi-image sprite sheet and just show one tile at a time, we need to add an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868247#Appearance-tiling](
-Appearance:TextureTiling
-)
+[Appearance:TextureTiling](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Appearance.md#Appearance-tiling)
 Feature,
 
 -
@@ -1375,10 +1307,10 @@ Cycle Mode
 Frame Blending
 **
 to keep this looking smooth.
-[Image: /docs/static/attachments/65438237]
+![Image](https://www.cryengine.com/docs/static/attachments/65438237)
 
  |
-[Image: /docs/static/attachments/65438240]
+![Image](https://www.cryengine.com/docs/static/attachments/65438240)
 
  |
 
@@ -1424,10 +1356,10 @@ Here, we've set it to
 **
  particles per second:
 
-[Image: /docs/static/attachments/65438241]
+![Image](https://www.cryengine.com/docs/static/attachments/65438241)
 
  |
-[Image: /docs/static/attachments/65438244]
+![Image](https://www.cryengine.com/docs/static/attachments/65438244)
 
  |
 
@@ -1441,17 +1373,15 @@ Smoke with random rotation and spin and a Spawn:Rate of 3
 Field:Color - Modifying the Sprite Color
 
 The last thing you need to do is very simple: to make this sprite a more consistent dark color, add a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868265#Field-color](
-Field:Color
-)
+[Field:Color](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Field.md#Field-color)
  Feature to the Component. You can go crazy here, for instance you can make colored smoke, but in this case, we just want to make the smoke color close to black.
 
 Here, we've used a value of 3 with no saturation:
 
-[Image: /docs/static/attachments/65438245]
+![Image](https://www.cryengine.com/docs/static/attachments/65438245)
 
  |
-[Image: /docs/static/attachments/65438248]
+![Image](https://www.cryengine.com/docs/static/attachments/65438248)
 
  |
 
@@ -1481,10 +1411,10 @@ Luminance
 **
 .
 
-[Image: /docs/static/attachments/65438249]
+![Image](https://www.cryengine.com/docs/static/attachments/65438249)
 
  |
-[Image: /docs/static/attachments/65438252]
+![Image](https://www.cryengine.com/docs/static/attachments/65438252)
 
  |
 
@@ -1504,38 +1434,17 @@ Video Tutorial
 You can also follow this tutorial series in video form on our YouTube channel.
 
 **
+[Embed: https://www.youtube.com/watch?v=LjgEE2QF-6c]
 **
 
-[#introduction-to-the-particle-editor](
-Introduction to the Particle Editor
-)
-[#the-default-sprite](
-The Default Sprite
-)
-[#the-particle-editor-interface](
-The Particle Editor Interface
-)
-[#adding-movement](
-Adding Movement
-)
-[#understanding-drag](
-Understanding Drag
-)
-[#adding-a-sprite-image](
-Adding a Sprite Image
-)
-[#modifying-size-dynamically](
-Modifying Size Dynamically
-)
-[#appearanceopacity-making-the-smoke-disappear-smoothly](
-Appearance:Opacity - Making the Smoke Disappear Smoothly
-)
-[#appearancematerial-using-an-animated-sprite-sheet](
-Appearance:Material - Using an Animated Sprite Sheet
-)
-[#summary](
-Summary
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Introduction to the Particle Editor](#introduction-to-the-particle-editor)
+[The Default Sprite](#the-default-sprite)
+[The Particle Editor Interface](#the-particle-editor-interface)
+[Adding Movement](#adding-movement)
+[Understanding Drag](#understanding-drag)
+[Adding a Sprite Image](#adding-a-sprite-image)
+[Modifying Size Dynamically](#modifying-size-dynamically)
+[Appearance:Opacity - Making the Smoke Disappear Smoothly](#appearanceopacity-making-the-smoke-disappear-smoothly)
+[Appearance:Material - Using an Animated Sprite Sheet](#appearancematerial-using-an-animated-sprite-sheet)
+[Summary](#summary)
+[Video Tutorial](#video-tutorial)

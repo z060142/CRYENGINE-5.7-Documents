@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934033]
+![Image](https://www.cryengine.com/docs/static/attachments/29934033)
 
 ##
 Trumping
@@ -30,7 +30,7 @@ Just in case: Double check the fragmentID...
 
 -
 Select the first animation clip and uncheck the Looping setting.
-[Image: /docs/static/attachments/23998471]
+![Image](https://www.cryengine.com/docs/static/attachments/23998471)
 
 Now go back to the previewer and look at a simple sequence (if you lost your sequence just drag the "Idle (Kneeling+Tired)" and "Moving" fragments into the previewer again as before.
 
@@ -40,7 +40,7 @@ delayed
 *
 !
 
-[Image: /docs/static/attachments/23998472]
+![Image](https://www.cryengine.com/docs/static/attachments/23998472)
 
 This means that the new animation only starts after the previous one has ended. This is the default behavior for non-looping fragments. Up until now we didn't set up sequences with non-looping fragments so it simply didn't show up yet.
 
@@ -51,8 +51,8 @@ Selecting the Move fragmentID key.
 
 -
 Checking the "Trump Previous Fragment" option.
-[Image: /docs/static/attachments/23998473]
+![Image](https://www.cryengine.com/docs/static/attachments/23998473)
 
 The result is the following, where the animation starts immediately:
 
-[Image: /docs/static/attachments/23998474]
+![Image](https://www.cryengine.com/docs/static/attachments/23998474)

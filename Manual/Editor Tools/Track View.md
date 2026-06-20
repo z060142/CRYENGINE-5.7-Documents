@@ -15,12 +15,10 @@ The Track View is the embedded Sandbox cut-scene editing tool for making interac
 Creating cinematic cut-scenes and scripted events are both possible, allowing you to sequence objects, animations, and sounds in a scene that can be triggered in the game and, played either as a detached cut-scene from the third person perspective, or from the first person perspective of the player while playing the game.
 
 Sequences created with the Track View can be triggered in game with a specific
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](Flow%20Graph.md)
  node. Different properties enable sequences to range from passive in game scenarios up to fully uncoupled cut-scenes.
 
-[Image: /docs/static/attachments/44107227]
+![Image](https://www.cryengine.com/docs/static/attachments/44107227)
 
 The Track View consists of the following panels and buttons:
 
@@ -28,7 +26,7 @@ The Track View consists of the following panels and buttons:
 1. Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44966466]
+![Image](https://www.cryengine.com/docs/static/attachments/44966466)
  icon on the top-right corner of the Track View. When clicked, it reveals the following
 **
 
@@ -291,9 +289,7 @@ Inverts the snapper behavior of the scrubber; e.g. when this it's active, snappi
 ALT
 **
  key is pressed and vice versa. For more information about the snapping behaviors, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849263#TrackView-toolbar](
-Toolbar section
-)
+[Toolbar section](Track%20View.md#TrackView-toolbar)
  below.
  |
 
@@ -481,9 +477,7 @@ Light Animation
  node to the Events and Nodes List to animate the light.
 
 In order to use this node properly, you need the Legacy Light entity which can only be found in GameSDK project. For more information, please visit the
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
 
 .
 
@@ -577,7 +571,7 @@ Description
 
  |
 
-[Image: /docs/static/attachments/44107294]
+![Image](https://www.cryengine.com/docs/static/attachments/44107294)
 
  |
 **
@@ -589,7 +583,7 @@ Shows where on the timeline you currently are.
 
  |
 
-[Image: /docs/static/attachments/44107239]
+![Image](https://www.cryengine.com/docs/static/attachments/44107239)
 
  |
 **
@@ -601,7 +595,7 @@ Skips to the start of the sequence.
 
  |
 
-[Image: /docs/static/attachments/44107276]
+![Image](https://www.cryengine.com/docs/static/attachments/44107276)
 
  |
 **
@@ -613,7 +607,7 @@ Plays the sequence.
 
  |
 
-[Image: /docs/static/attachments/44107289]
+![Image](https://www.cryengine.com/docs/static/attachments/44107289)
 
  |
 **
@@ -626,7 +620,7 @@ the sequence.
 
  |
 
-[Image: /docs/static/attachments/44107240]
+![Image](https://www.cryengine.com/docs/static/attachments/44107240)
 
  |
 **
@@ -638,7 +632,7 @@ Skips to the end of the sequence.
 
  |
 
-[Image: /docs/static/attachments/44107274]
+![Image](https://www.cryengine.com/docs/static/attachments/44107274)
 
  |
 **
@@ -651,7 +645,7 @@ Loops
 
  |
 
-[Image: /docs/static/attachments/44107287]
+![Image](https://www.cryengine.com/docs/static/attachments/44107287)
 
  |
 **
@@ -663,7 +657,7 @@ Sets the start time for sequence playback and places a marker.
 
  |
 
-[Image: /docs/static/attachments/44107286]
+![Image](https://www.cryengine.com/docs/static/attachments/44107286)
 
  |
 **
@@ -677,7 +671,7 @@ Sets the end time for sequence playback
 
  |
 
-[Image: /docs/static/attachments/44107226]
+![Image](https://www.cryengine.com/docs/static/attachments/44107226)
 
  |
 **
@@ -689,7 +683,7 @@ Allows for recording of live keyframes within a timeline in your sequence.
 
  |
 
-[Image: /docs/static/attachments/44107250]
+![Image](https://www.cryengine.com/docs/static/attachments/44107250)
 
  |
 **
@@ -710,7 +704,7 @@ Add Selected Entities
  button.
  |
 
-[Image: /docs/static/attachments/44107249]
+![Image](https://www.cryengine.com/docs/static/attachments/44107249)
 
  |
 **
@@ -722,7 +716,7 @@ User can edit the currently loaded sequence properties.
 
  |
 
-[Image: /docs/static/attachments/44107295]
+![Image](https://www.cryengine.com/docs/static/attachments/44107295)
 
  |
 **
@@ -734,7 +728,7 @@ Zooms in on the dopesheet.
 
  |
 
-[Image: /docs/static/attachments/44107296]
+![Image](https://www.cryengine.com/docs/static/attachments/44107296)
 
  |
 **
@@ -746,7 +740,7 @@ Zooms in on the dopesheet.
 
  |
 
-[Image: /docs/static/attachments/44107251]
+![Image](https://www.cryengine.com/docs/static/attachments/44107251)
 
  |
 **
@@ -758,7 +752,7 @@ Skips to the previous key of the currently selected track in both Dope Sheet Edi
 
  |
 
-[Image: /docs/static/attachments/44107272]
+![Image](https://www.cryengine.com/docs/static/attachments/44107272)
 
  |
 **
@@ -770,7 +764,7 @@ Skips to the next key of the currently selected track in both Dope Sheet Editor 
 
  |
 
-[Image: /docs/static/attachments/44107252]
+![Image](https://www.cryengine.com/docs/static/attachments/44107252)
 
  |
 **
@@ -782,7 +776,7 @@ Disables snapping. Alternatively, holding Alt
 
  |
 
-[Image: /docs/static/attachments/44107273]
+![Image](https://www.cryengine.com/docs/static/attachments/44107273)
 
  |
 **
@@ -794,7 +788,7 @@ Jumps to next or previous key when dragging playback progress indicator line.
 
  |
 
-[Image: /docs/static/attachments/44107292]
+![Image](https://www.cryengine.com/docs/static/attachments/44107292)
 
  |
 **
@@ -806,7 +800,7 @@ Jumps to next or previous unit of time when dragging playback progress indicator
 
  |
 
-[Image: /docs/static/attachments/44965455]
+![Image](https://www.cryengine.com/docs/static/attachments/44965455)
 
  |
 **
@@ -816,7 +810,7 @@ Move Keys
 Allows you to move the keys individually on the Dopesheet.
  |
 
-[Image: /docs/static/attachments/44107255]
+![Image](https://www.cryengine.com/docs/static/attachments/44107255)
 
  |
 **
@@ -828,7 +822,7 @@ Allows you to slide all the keys on the same row to the left and right.
 
  |
 
-[Image: /docs/static/attachments/44107277]
+![Image](https://www.cryengine.com/docs/static/attachments/44107277)
 
  |
 **
@@ -840,7 +834,7 @@ Allows you to scale keys relative to the cursor position.
 
  |
 
-[Image: /docs/static/attachments/44107259]
+![Image](https://www.cryengine.com/docs/static/attachments/44107259)
 
  |
 **
@@ -852,7 +846,7 @@ Syncs the selected tracks to the base position.
 
  |
 
-[Image: /docs/static/attachments/44107260]
+![Image](https://www.cryengine.com/docs/static/attachments/44107260)
 
  |
 **
@@ -872,14 +866,14 @@ The dopesheet is the primary track view window. It allows you to add and remove 
 ##
 Nodes and Tracks List
 
-[Image: /docs/static/attachments/44107229]
+![Image](https://www.cryengine.com/docs/static/attachments/44107229)
 
 On the left is a list showing the Nodes and Tracks contained within your track view sequence.
 
 The search bar allows you to quickly find a specific node.
 
 The
-[Image: /docs/static/attachments/44958713]
+![Image](https://www.cryengine.com/docs/static/attachments/44958713)
  button that is found next to the search bar allows you to add new Nodes. These Nodes can also be found on the list's
 **
 Context Menu
@@ -988,7 +982,7 @@ Exports a Node.
 ##
 Dopesheet Events
 
-[Image: /docs/static/attachments/44107230]
+![Image](https://www.cryengine.com/docs/static/attachments/44107230)
 
 Each track view node has a track on which keys can be assigned. These new keys then can be edited or removed.
 
@@ -1116,13 +1110,11 @@ Pastes what you have previously copied or cut to the position of the cursor.
 ##
 4. Curve Editor
 
-[Image: /docs/static/attachments/44958337]
+![Image](https://www.cryengine.com/docs/static/attachments/44958337)
 
 The Curve Editor is a powerful tool that lets you alter the splines between keyframes. It can be
 used to tweak certain properties much in the same way that users can in the
-[/docs/static/engines/cryengine-5/categories/23756816](
-Environment Editor (Old as of 26/2)
-)
+[Environment Editor (Old as of 26/2)](/docs/static/engines/cryengine-5/categories/23756816)
 . It
  shows the progression of the values for the selected node/track over the course of a specific time and how gradually they change. It is especially useful when time-based periodic changes are envisioned for a sequence in the Track View.
 
@@ -1152,7 +1144,7 @@ Name
 Description
  |
 
-[Image: /docs/static/attachments/44107261]
+![Image](https://www.cryengine.com/docs/static/attachments/44107261)
 
  |
 **
@@ -1164,7 +1156,7 @@ Sets the tangents for the selected key(s) (the squares in the graph) to auto.
 
  |
 
-[Image: /docs/static/attachments/44107262]
+![Image](https://www.cryengine.com/docs/static/attachments/44107262)
 
  |
 **
@@ -1176,7 +1168,7 @@ Sets the in tangent for the selected key(s) (the squares in the graph) to zero.
 
  |
 
-[Image: /docs/static/attachments/44107263]
+![Image](https://www.cryengine.com/docs/static/attachments/44107263)
 
  |
 **
@@ -1190,7 +1182,7 @@ tangent for the selected key(s) (the squares in the graph) to step.
 
  |
 
-[Image: /docs/static/attachments/44107264]
+![Image](https://www.cryengine.com/docs/static/attachments/44107264)
 
  |
 **
@@ -1205,7 +1197,7 @@ o linear.
 
  |
 
-[Image: /docs/static/attachments/44107265]
+![Image](https://www.cryengine.com/docs/static/attachments/44107265)
 
  |
 **
@@ -1217,7 +1209,7 @@ Sets the out tangent for the selected key(s) (the squares in the graph) to zero.
 
  |
 
-[Image: /docs/static/attachments/44107284]
+![Image](https://www.cryengine.com/docs/static/attachments/44107284)
 
  |
 **
@@ -1230,7 +1222,7 @@ tangent for the selected key(s) (the squares in the graph) to step.
 
  |
 
-[Image: /docs/static/attachments/44107283]
+![Image](https://www.cryengine.com/docs/static/attachments/44107283)
 
  |
 **
@@ -1243,7 +1235,7 @@ tangent for the selected key(s) (the squares in the graph) to linear.
 
  |
 
-[Image: /docs/static/attachments/44107268]
+![Image](https://www.cryengine.com/docs/static/attachments/44107268)
 
  |
 **
@@ -1255,7 +1247,7 @@ Fits the graph into the graph window horizontally.
 
  |
 
-[Image: /docs/static/attachments/44107269]
+![Image](https://www.cryengine.com/docs/static/attachments/44107269)
 
  |
 **
@@ -1267,7 +1259,7 @@ Fits the graph into the graph window vertically.
 
  |
 
-[Image: /docs/static/attachments/44107270]
+![Image](https://www.cryengine.com/docs/static/attachments/44107270)
 
  |
 **
@@ -1279,7 +1271,7 @@ Breaks the tangents for the selected key(s).
 
  |
 
-[Image: /docs/static/attachments/44107271]
+![Image](https://www.cryengine.com/docs/static/attachments/44107271)
 
  |
 **
@@ -1294,7 +1286,7 @@ Sets the tangents for the selected key(s) to auto.
 ##
 5. Properties
 
-[Image: /docs/static/attachments/44958395]
+![Image](https://www.cryengine.com/docs/static/attachments/44958395)
 
 On this panel, you will see a number of properties. Which properties you see depends on which key you have selected on the Dopesheet Events panel.
 
@@ -1669,7 +1661,7 @@ Add Component
 **
  button on the Properties panel;
 
-[Image: /docs/static/attachments/44958684]
+![Image](https://www.cryengine.com/docs/static/attachments/44958684)
 
 -
 After the component is added, right-click it on the Nodes and Tracks List and follow the
@@ -1678,7 +1670,7 @@ Add Track → Components
 **
  path to animate its properties in Track View;
 
-[Image: /docs/static/attachments/44958685]
+![Image](https://www.cryengine.com/docs/static/attachments/44958685)
 
 Only certain component types can be introduced to the Events and Tracks List and these are limited to
 **
@@ -1707,26 +1699,12 @@ Angle
 .
 
 For more information about entity components, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966029](
-Entity Components
-)
+[Entity Components](../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)
  page.
 
-[#1-menu](
-1. Menu
-)
-[#2-toolbar](
-2. Toolbar
-)
-[#3-dopesheet](
-3. Dopesheet
-)
-[#4-curve-editor](
-4. Curve Editor
-)
-[#5-properties](
-5. Properties
-)
-[#animating-an-entity-component-in-track-view](
-Animating an Entity Component in Track View
-)
+[1. Menu](#1-menu)
+[2. Toolbar](#2-toolbar)
+[3. Dopesheet](#3-dopesheet)
+[4. Curve Editor](#4-curve-editor)
+[5. Properties](#5-properties)
+[Animating an Entity Component in Track View](#animating-an-entity-component-in-track-view)

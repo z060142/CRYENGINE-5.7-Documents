@@ -131,7 +131,5 @@ Flame
  |
 
 For more information about how to set up a Sensor Volume, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28181813](
-Sensor Volume Component
-)
+[Sensor Volume Component](../../../Tutorials/Game%20and%20Level%20Design/Entity%20Component%20Tutorials/Tutorial%20-%20SensorVolume%20Component.md)
  use case page.

@@ -858,30 +858,12 @@ None.
 
  |
 
-[#flow-nodes](
-Flow Nodes
-)
-[#sequence](
-Sequence
-)
-[#selector](
-Selector
-)
-[#priority](
-Priority
-)
-[#parallel](
-Parallel
-)
-[#loop](
-Loop
-)
-[#loop-until-success](
-Loop Until Success
-)
-[#state-machine](
-State Machine
-)
-[#send-transition-event](
-Send Transition Event
-)
+[Flow Nodes](#flow-nodes)
+[Sequence](#sequence)
+[Selector](#selector)
+[Priority](#priority)
+[Parallel](#parallel)
+[Loop](#loop)
+[Loop Until Success](#loop-until-success)
+[State Machine](#state-machine)
+[Send Transition Event](#send-transition-event)

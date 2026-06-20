@@ -24,9 +24,7 @@ These license terms are an agreement between you and Microsoft Corporation (or o
   a. General. You may install and use any number of copies of the software to design, develop and test your Microsoft Windows programs.
 
   b. Third Party Software. The software may include third party applications that are licensed to you under this agreement or under their own terms. License terms, notices, and acknowledgements, if any, for the third party applications may be accessible online at
-[http://aka.ms/thirdpartynotices](
-http://aka.ms/thirdpartynotices
-)
+[http://aka.ms/thirdpartynotices](http://aka.ms/thirdpartynotices)
  or in an accompanying notices file. Even if such applications are governed by other agreements, the disclaimer, limitations on, and exclusions of damages below also apply to the extent allowed by applicable law.
 
 ##
@@ -85,9 +83,7 @@ The software is licensed, not sold. Microsoft reserves all other rights. Unless 
 4. Export Restrictions
 
 You must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and end use. For further information on export restrictions, visit
-[http://aka.ms/exporting](
-http://aka.ms/exporting
-)
+[http://aka.ms/exporting](http://aka.ms/exporting)
 .
 
 ##
@@ -99,9 +95,7 @@ Microsoft is not obligated under this agreement to provide any support services 
 6. Binding Arbitration and Class Action Waiver
 
 This Section applies if you live in (or, if a business, your principal place of business is in) the United States. If you and Microsoft have a dispute, you and Microsoft agree to try for 60 days to resolve it informally. If you and Microsoft can’t, you and Microsoft agree to binding individual arbitration before the American Arbitration Association under the Federal Arbitration Act (“FAA”), and not to sue in court in front of a judge or jury. Instead, a neutral arbitrator will decide. Class action lawsuits, class-wide arbitrations, private attorney-general actions, and any other proceeding where someone acts in a representative capacity are not allowed; nor is combining individual proceedings without the consent of all parties. The complete Arbitration Agreement contains more terms and is at
-[http://aka.ms/arb-agreement-1](
-http://aka.ms/arb-agreement-1
-)
+[http://aka.ms/arb-agreement-1](http://aka.ms/arb-agreement-1)
 . You and Microsoft agree to these terms.
 
 ##
@@ -317,42 +311,16 @@ END OF SQLITE3 NOTICES AND INFORMATION
 
 ```
 
-[#microsoft-software-license-terms](
-MICROSOFT SOFTWARE LICENSE TERMS
-)
-[#1-installation-and-usage-rights](
-1. Installation and Usage Rights
-)
-[#2-distributable-code](
-2. Distributable Code
-)
-[#3-scope-of-license](
-3. Scope of License
-)
-[#4-export-restrictions](
-4. Export Restrictions
-)
-[#5-support-services](
-5. Support Services
-)
-[#6-binding-arbitration-and-class-action-waiver](
-6. Binding Arbitration and Class Action Waiver
-)
-[#7-entire-agreement](
-7. Entire Agreement
-)
-[#8-applicable-law-and-place-to-resolve-disputes](
-8. Applicable Law and Place to Resolve Disputes
-)
-[#9-consumer-rights-regional-variations](
-9. Consumer Rights; Regional Variations
-)
-[#10-disclaimer-of-warranty](
-10. Disclaimer of Warranty
-)
-[#11-limitation-on-and-exclusion-of-damages](
-11. Limitation on and Exclusion of Damages
-)
-[#third-party-software-notices-and-information](
-Third-party Software Notices and Information
-)
+[MICROSOFT SOFTWARE LICENSE TERMS](#microsoft-software-license-terms)
+[1. Installation and Usage Rights](#1-installation-and-usage-rights)
+[2. Distributable Code](#2-distributable-code)
+[3. Scope of License](#3-scope-of-license)
+[4. Export Restrictions](#4-export-restrictions)
+[5. Support Services](#5-support-services)
+[6. Binding Arbitration and Class Action Waiver](#6-binding-arbitration-and-class-action-waiver)
+[7. Entire Agreement](#7-entire-agreement)
+[8. Applicable Law and Place to Resolve Disputes](#8-applicable-law-and-place-to-resolve-disputes)
+[9. Consumer Rights; Regional Variations](#9-consumer-rights-regional-variations)
+[10. Disclaimer of Warranty](#10-disclaimer-of-warranty)
+[11. Limitation on and Exclusion of Damages](#11-limitation-on-and-exclusion-of-damages)
+[Third-party Software Notices and Information](#third-party-software-notices-and-information)

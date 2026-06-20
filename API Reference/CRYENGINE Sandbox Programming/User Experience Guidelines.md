@@ -109,14 +109,10 @@ personalization
  over customization: let the UI learn from the user and adapt.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873106](
-Sandbox Personalization Page
-)
+[Sandbox Personalization Page](Sandbox%20Framework/Personalization.md)
 
 -
-[http://www.towerdata.com/blog/2012/02/22/personalization-vs-customization-2](
-Towerdata: Personalization vs. Customization
-)
+[Towerdata: Personalization vs. Customization](http://www.towerdata.com/blog/2012/02/22/personalization-vs-customization-2)
 
 ##
 Immersive
@@ -147,9 +143,7 @@ Performance is the universal UX killer: noticeable performance drops on the UI t
 **
 use multi-threading
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873110](
-Sandbox Threading API
-)
+[Sandbox Threading API](Sandbox%20Framework/Sandbox%20Threading%20API.md)
 **
 **
 
@@ -321,9 +315,7 @@ Every UI action has
 feedback
 **
 , failure should be clearly communicated:
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873104](
-Notifications and Error Reporting
-)
+[Notifications and Error Reporting](Sandbox%20Framework/Notifications%20and%20Error%20Reporting.md)
 
 -
 Every state of the tool can be easily accessed and without repeating the commands that led to the state the first time
@@ -331,9 +323,7 @@ Every state of the tool can be easily accessed and without repeating the command
 -
 Heavy processing is done by a thread - there is a notification to the user for when the task starts, is in progress and when it ends
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873110](
-Sandbox Threading API
-)
+[Sandbox Threading API](Sandbox%20Framework/Sandbox%20Threading%20API.md)
 **
 
 -
@@ -347,9 +337,7 @@ tooltips
 **
  or the
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875311](
-Help System
-)
+[Help System](Sandbox%20Framework/Integrated%20Documentation.md)
 **
 
 -
@@ -443,24 +431,18 @@ All strings must be translated
 
 -
 Style and Tone:
-[https://msdn.microsoft.com/en-us/library/windows/desktop/dn742477(v=vs.85).aspx](
-Microsoft Windows - Style and tone
-)
+[Microsoft Windows - Style and tone](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742477(v=vs.85).aspx)
 
 -
 Detailed guidelines:
-[https://msdn.microsoft.com/en-us/library/windows/desktop/dn742478(v=vs.85).aspx](
-Microsoft Windows - User interface text
-)
+[Microsoft Windows - User interface text](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742478(v=vs.85).aspx)
 
 ##
 Messages
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873104](
-Notifications
-)
+[Notifications](Sandbox%20Framework/Notifications%20and%20Error%20Reporting.md)
 **
 are the primary form of messaging to the user
 
@@ -704,9 +686,7 @@ Aesthetically pleasing layout and proportions
 
 -
 Effective layout in regards to the user's workflow
-[https://msdn.microsoft.com/en-us/library/windows/desktop/dn742486(v=vs.85).aspx](
-Microsoft Windows - Layout
-)
+[Microsoft Windows - Layout](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742486(v=vs.85).aspx)
 
 -
 Reusing familiar UI components
@@ -790,44 +770,24 @@ If you are looking for more detailed information on how a UI component should lo
 
 -
 Microsoft Windows (Design principles):
-[https://msdn.microsoft.com/en-us/library/windows/desktop/dn742491(v=vs.85).aspx](
-Microsoft Windows - Windows UX design principles
-)
+[Microsoft Windows - Windows UX design principles](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742491(v=vs.85).aspx)
 
 -
 Microsoft Windows (Simple and powerful UI):
-[https://msdn.microsoft.com/en-us/library/windows/desktop/dn742462(v=vs.85).aspx](
-Microsoft Windows - How to design a great user experience for desktop applications
-)
+[Microsoft Windows - How to design a great user experience for desktop applications](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742462(v=vs.85).aspx)
 
 -
 Microsoft Windows (UX Checklist):
-[https://msdn.microsoft.com/en-us/library/windows/desktop/dn742479(v=vs.85).aspx](
-Microsoft Windows - UX checklist for desktop applications
-)
+[Microsoft Windows - UX checklist for desktop applications](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742479(v=vs.85).aspx)
 
 -
 Apple OSX:
-[https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/](
-Apple - Human Interface Guidelines
-)
+[Apple - Human Interface Guidelines](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/)
 Windows UX guidelines in particular apply to the Sandbox, as Windows is the main platform of development for CRYENGINE.
 
-[#design-pillars](
-Design Pillars
-)
-[#ui-guidelines](
-UI Guidelines
-)
-[#visual-guidelines](
-Visual Guidelines
-)
-[#common-mistakes](
-Common Mistakes
-)
-[#addendum](
-Addendum
-)
-[#more-information](
-More Information
-)
+[Design Pillars](#design-pillars)
+[UI Guidelines](#ui-guidelines)
+[Visual Guidelines](#visual-guidelines)
+[Common Mistakes](#common-mistakes)
+[Addendum](#addendum)
+[More Information](#more-information)

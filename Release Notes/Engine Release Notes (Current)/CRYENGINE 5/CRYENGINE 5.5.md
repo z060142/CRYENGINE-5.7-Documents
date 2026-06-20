@@ -7,10 +7,10 @@
 
 ## Child Pages
 
-- [CRYENGINE 5.5.0](CRYENGINE 5.5/CRYENGINE 5.5.0.md)
-- [CRYENGINE 5.5 Previews](CRYENGINE 5.5/CRYENGINE 5.5 Previews.md)
-- [CRYENGINE 5.5.2](CRYENGINE 5.5/CRYENGINE 5.5.2.md)
-- [CRYENGINE 5.5.1](CRYENGINE 5.5/CRYENGINE 5.5.1.md)
+- [CRYENGINE 5.5.0](CRYENGINE%205.5/CRYENGINE%205.5.0.md)
+- [CRYENGINE 5.5 Previews](CRYENGINE%205.5/CRYENGINE%205.5%20Previews.md)
+- [CRYENGINE 5.5.2](CRYENGINE%205.5/CRYENGINE%205.5.2.md)
+- [CRYENGINE 5.5.1](CRYENGINE%205.5/CRYENGINE%205.5.1.md)
 
 ## Content
 
@@ -23,21 +23,13 @@ Release notes for the 5.5.x revisions of CRYENGINE.
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962767](
-CRYENGINE 5.5.2
-)
+[CRYENGINE 5.5.2](CRYENGINE%205.5/CRYENGINE%205.5.2.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962765](
-CRYENGINE 5.5.1
-)
+[CRYENGINE 5.5.1](CRYENGINE%205.5/CRYENGINE%205.5.1.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962729](
-CRYENGINE 5.5.0
-)
+[CRYENGINE 5.5.0](CRYENGINE%205.5/CRYENGINE%205.5.0.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962768](
-CRYENGINE 5.5 Previews
-)
+[CRYENGINE 5.5 Previews](CRYENGINE%205.5/CRYENGINE%205.5%20Previews.md)

@@ -43,25 +43,23 @@ Dot Gain 20%
 *
  which will result in a color transformation in the alpha channel. In this case, a value of 127 will come into the engine as 104, which can cause inconsistencies, so please make sure Gamma 2.2 is used instead.
 
-[Image: /docs/static/attachments/54427812]
+![Image](https://www.cryengine.com/docs/static/attachments/54427812)
 
-[Image: /docs/static/attachments/54427813]
+![Image](https://www.cryengine.com/docs/static/attachments/54427813)
 
 After Photoshop has been set up we can get our correct values by looking at the chart and "color" picking the values. Please remember that your Gloss Map goes into the Alpha of Normal Map.
 
 Here are the values for all the materials. To get the values "color" pick the swatches. Please click on the image to download the .bmp source file (it is uncompressed and gives you the true values) and DO NOT color pick from the images here in the document since it's a .jpeg, meaning it's compressed and therefore will give you the wrong values!
 
 **
-[Image: /docs/static/attachments/69468498]
+![Image](https://www.cryengine.com/docs/static/attachments/69468498)
 
 **
 
-[Image: /docs/static/attachments/54427798]
+![Image](https://www.cryengine.com/docs/static/attachments/54427798)
 
 If you want to understand more about Physically Based Shaders and how they work, please see:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959238](
-Physically Based Shading
-)
+[Physically Based Shading](../Physically%20Based%20Shading%20(PBS).md)
 .
 
 ##
@@ -138,7 +136,7 @@ Most materials should have a gloss map, as it can give a lot of variation to the
 
 With this we can paint our maps dictating how much usage parts of an object has gotten (since a heavily worn parts of an object is smoother and the it will have a tighter gloss and more reflectivity than parts who haven't been used that much)
 
-[Image: /docs/static/attachments/54427799]
+![Image](https://www.cryengine.com/docs/static/attachments/54427799)
 
 Based on these basics we need to start thinking on how to set up our gloss map. This is the most important step in setting up your gloss map!
 
@@ -169,9 +167,9 @@ The gloss map needs to go always into the normal map alpha, even if you're using
 
 To export your normal map with the gloss in the alpha channel, name it and always add the suffix _ddna (in this case courtyard_wall_arch_marble_ddna).
 
-[Image: /docs/static/attachments/54427847]
+![Image](https://www.cryengine.com/docs/static/attachments/54427847)
 
-[Image: /docs/static/attachments/54427849]
+![Image](https://www.cryengine.com/docs/static/attachments/54427849)
 
 ##
 Examples of gloss maps and how to set up the shaders
@@ -185,55 +183,55 @@ Marble tiled floor material
 
 As you can see the marble tiled floor is a very smooth surface with a mostly tight spec, a high and sharpened reflectivity. There are some sections which are not reflective, have a wide spec, and are therefore are not as smooth looking.
 
-[Image: /docs/static/attachments/54427800]
+![Image](https://www.cryengine.com/docs/static/attachments/54427800)
 
 The big dark grey tile has a very wide spec, is not as smooth and has a very low reflectivity. By the look at the gloss map we can analyze why. As you can see most of the map is very light and bright. Where the tile is located you see that it's dark grey. This is the reason why that part is dull looking compared to rest of the tiles. Please pay also attention on how we're defining the cracks and dirt by adding localized darker areas. We also have a mid level of contrast. All this helps in conjunction with the normal map to define the material and make the surface more interesting, also making it more believable.
 
-[Image: /docs/static/attachments/54427801]
+![Image](https://www.cryengine.com/docs/static/attachments/54427801)
 
 To set up our Shader correctly we need to set in the Material editor the Glossiness to 255 otherwise the gloss map will not work.
 
 As for the Specular Color, you have some creative freedom in how high you should set it and what achieves the best look for the asset. The values it should be between 53 and 61 for non metals.
 
-[Image: /docs/static/attachments/54427794]
+![Image](https://www.cryengine.com/docs/static/attachments/54427794)
 
 ##
 Stone material
 
 Stone is a very rough surface with a very low reflectivity and a very wide spec.
 
-[Image: /docs/static/attachments/54427795]
+![Image](https://www.cryengine.com/docs/static/attachments/54427795)
 
 If we take a look at the gloss map we can see that it's pretty dark and muted. The level of contrast is not very high. All this creates a very low and unsharpened reflectivity, with a wide spec and low highlights. The material appears to have a high roughness.
 
 If you look closely at the gloss map you'll see also that it has unevenness in light and dark areas. This helps to make the surface look interesting as it creates different values as light travels across it, helping in making it look more believable.
 
-[Image: /docs/static/attachments/54427796]
+![Image](https://www.cryengine.com/docs/static/attachments/54427796)
 
 To set up our Shader correctly we need to set in the Material editor the Glossiness to 255, otherwise the gloss map will not work.
 
 As for the Specular Color, you have some creative freedom in how high you should set it and what achieves the best look for the asset. The values it should be between 53 and 61 for non metals.
 
-[Image: /docs/static/attachments/54427797]
+![Image](https://www.cryengine.com/docs/static/attachments/54427797)
 
 ##
 Sandstone bricks material
 
 The sandstone brick material is also a rough surface with low reflectivity and a wide spec. It is though not as rough as stone.
 
-[Image: /docs/static/attachments/54427791]
+![Image](https://www.cryengine.com/docs/static/attachments/54427791)
 
 Taking a look at the gloss map we see a muted map, with greys in the mid to dark range. It is muted with a not high level of contrast and it represents a low and an unsharpened reflectivity, with a wide spec. But as opposed to stone it's not as dark and muted.
 
 Again you can see how different values of grey help to make the surface look more interesting, as differences in specularity occur when it's hit by the light. This makes our material more believable.
 
-[Image: /docs/static/attachments/54427792]
+![Image](https://www.cryengine.com/docs/static/attachments/54427792)
 
 To set up our Shader correctly we need to set in the Material editor the Glossiness to 255 otherwise the gloss map will not work.
 
 As for the Specular Color, you have some creative freedom in how high you should set it and what achieves the best look for the asset. The values it should be between 53 and 61 for non metals.
 
-[Image: /docs/static/attachments/54427793]
+![Image](https://www.cryengine.com/docs/static/attachments/54427793)
 
 ##
 Painted marble material
@@ -242,74 +240,74 @@ As you can see the painted marble material is a fairly smooth surface with a tig
 
 Pay close attention to how the paint is actually visible on the spec (breaking the smoothness) where the light hits it.
 
-[Image: /docs/static/attachments/54427787]
+![Image](https://www.cryengine.com/docs/static/attachments/54427787)
 
 The general set up for this map is light and bright with greys in the mid to high range. We have a mid level of contrast. Tthe white speckles will break the roughness of the surface and the cracks. Worn off and chipped parts will be rougher and therefore darker. That way we achieve the look and believability we're looking for.
 
-[Image: /docs/static/attachments/54427788]
+![Image](https://www.cryengine.com/docs/static/attachments/54427788)
 
 To set up our Shader correctly we need to set in the Material editor the Glossiness to 255 otherwise the gloss map will not work.
 
 As for the Specular Color, you have some creative freedom in how high you should set it and what achieves the best look for the asset. The values it should be between 53 and 61 for non metals.
 
-[Image: /docs/static/attachments/54427789]
+![Image](https://www.cryengine.com/docs/static/attachments/54427789)
 
 ##
 Marble unpolished material
 
 The unpolished marble material is a rougher surface with low and unsharpened reflectivity. It shows also a high roughness, with very wide and low highlights.
 
-[Image: /docs/static/attachments/54427790]
+![Image](https://www.cryengine.com/docs/static/attachments/54427790)
 
 If we look at the gloss map, we see a dark and muted map resulting in a low level of contrast. This gives us a low and unsharpened reflectivity and makes also the material rough. This also makes the spec wide with low highlights.
 
 The different values of dark and light in the map create uneven specular values and reflectivity, making the surface believable and interesting.
 
-[Image: /docs/static/attachments/54427784]
+![Image](https://www.cryengine.com/docs/static/attachments/54427784)
 
 To set up our Shader correctly we need to set in the Material editor the Glossiness to 255 otherwise the gloss map will not work.
 
 As for the Specular Color, you have some creative freedom in how high you should set it and what achieves the best look for the asset. The values it should be between 53 and 61 for non metals.
 
-[Image: /docs/static/attachments/54427785]
+![Image](https://www.cryengine.com/docs/static/attachments/54427785)
 
 ##
 White/black and grey polished marble material
 
 As opposed to the unpolished marble, we have a very smooth surface, with a high and much sharpened reflectivity. The spec is very tight with high highlights.
 
-[Image: /docs/static/attachments/54427786]
+![Image](https://www.cryengine.com/docs/static/attachments/54427786)
 
 To achieve that the way we need to set up our gloss map is very light and bright with some contrast.
 
 By having through the map different values of lights and darks, we can break the spec, reflectivity and sharpness. This helps make the surface look more interesting and believable.
 
-[Image: /docs/static/attachments/54427781]
+![Image](https://www.cryengine.com/docs/static/attachments/54427781)
 
 To set up our Shader correctly we need to set in the Material editor the Glossiness to 255, otherwise the gloss map will not work.
 
 As for the Specular Color, you have some creative freedom in how high you should set it and what achieves the best look for the asset. The values should be between 53 and 61 for non-metals.
 
-[Image: /docs/static/attachments/54427782]
+![Image](https://www.cryengine.com/docs/static/attachments/54427782)
 
 ##
 Polished white marble bricks material
 
 The polished white marble brick material is a very smooth surface, but we have the crevices an in real life dirt accumulates there in making them less reflective.
 
-[Image: /docs/static/attachments/54427783]
+![Image](https://www.cryengine.com/docs/static/attachments/54427783)
 
 Looking at the gloss map for it we can see a very light and bright map with a higher contrast. This makes the material very smooth as its polished bricks, but as you look towards the corner we see dark areas creating less polished and less reflecting parts of the material.
 
 The different values of dark and light make the material more believable and interesting as it creates different values in highness and sharpened reflectivity and smoothness.
 
-[Image: /docs/static/attachments/54427778]
+![Image](https://www.cryengine.com/docs/static/attachments/54427778)
 
 To set up our Shader correctly we need to set in the Material editor the Glossiness to 255 otherwise the gloss map will not work.
 
 As for the Specular Color, you have some creative freedom in how high you should set it and what achieves the best look for the asset. The values it should be between 53 and 61 for non metals.
 
-[Image: /docs/static/attachments/54427779]
+![Image](https://www.cryengine.com/docs/static/attachments/54427779)
 
 ##
 Non metal with metal material in the same texture
@@ -320,7 +318,7 @@ In this case we use a dedicated spec map and our gloss map will still go into th
 
 We have an example of how the texture of the spec map would look. In the color map of the spec we can see the gold parts having a yellow/goldish color. This makes the specular color that gets reflected yellow/goldish, which in this case is gold. As you can see the rest of the map is grey with a value of 55,55 and 55 for the non metal parts.
 
-[Image: /docs/static/attachments/54427775]
+![Image](https://www.cryengine.com/docs/static/attachments/54427775)
 
 In the alpha channel of the normal map we still have our gloss map, which will define our reflectivity, smoothness and highlights. Pay close attention to how white and contrasting the metal parts are.
 
@@ -328,17 +326,17 @@ We want the metal to have a high level of reflectivity, smoothness and tight hig
 
 Please look also at the rest of the gloss map. We see that the surfaces are being defined by parts. There are parts of the object which are rough with low highlights, wide spec and low reflectivity.
 
-[Image: /docs/static/attachments/54427774]
+![Image](https://www.cryengine.com/docs/static/attachments/54427774)
 
 Once the asset is in the engine we need to open up the material editor and set the specular value of the material to 255. This has to be done since the color map of the spec map is controlling the specular color and not the shader.
 
 Please don't forget to set the value of the gloss also to 255 so the gloss map in the alpha channel will work.
 
-[Image: /docs/static/attachments/54427776]
+![Image](https://www.cryengine.com/docs/static/attachments/54427776)
 
 Finally our asset will look like this in the game.
 
-[Image: /docs/static/attachments/54427780]
+![Image](https://www.cryengine.com/docs/static/attachments/54427780)
 
 ##
 Metals
@@ -349,25 +347,25 @@ The gloss map in the alpha channel of the normal map, still defines the smoothne
 
 We have to do it in the texture itself. To do that, we have to take the values from the Physically Based Shading chart and add the color into our spec map.
 
-[Image: /docs/static/attachments/54427773]
+![Image](https://www.cryengine.com/docs/static/attachments/54427773)
 
 In this case we use a dedicated spec map and our gloss map will still go into the ALPHA CHANNEL of the Normal map!
 
-[Image: /docs/static/attachments/54427768]
+![Image](https://www.cryengine.com/docs/static/attachments/54427768)
 
 In the alpha channel of the normal map we still have our gloss map, which will define our reflectivity, smoothness and highlights.
 
 Pay close attention to how white and contrasting the metal parts are. There are two examples of the gloss map. We have an unpolished metal, with wider spec and lower reflectivity, and we have the polished metal with a whiter gloss map that gives us a tight spec and high reflectivity.
 
-[Image: /docs/static/attachments/54427770]
+![Image](https://www.cryengine.com/docs/static/attachments/54427770)
 
-[Image: /docs/static/attachments/54427764]
+![Image](https://www.cryengine.com/docs/static/attachments/54427764)
 
 Once the asset is in the engine, we need to open up the material editor and set the specular value of the material to 255. This has to be done since the color map of the spec map is controlling the specular color and not the shader.
 
 Please don't forget to set the value of the gloss also to 255 so the gloss map in the alpha channel will work.
 
-[Image: /docs/static/attachments/54427766]
+![Image](https://www.cryengine.com/docs/static/attachments/54427766)
 
 ##
 Oxidized / Rusted Metals
@@ -380,12 +378,12 @@ with metals we won't control the spec color in the shader. We have to do it in t
 
 In the alpha channel of the normal map we still have our gloss map, which will define our reflectivity, smoothness and highlights.
 
-[Image: /docs/static/attachments/54427757]
+![Image](https://www.cryengine.com/docs/static/attachments/54427757)
 
 After we're done with our gloss map we paint according to our gloss map our spec map, to get different specular color of the oxidization.
 
 **
-[Image: /docs/static/attachments/54427761]
+![Image](https://www.cryengine.com/docs/static/attachments/54427761)
 
 **
 
@@ -393,11 +391,11 @@ Once the asset is in engine we need to open up the material editor and set the s
 
 Please don't forget to set the value of the gloss also to 255 so the gloss map in the alpha channel will work.
 
-[Image: /docs/static/attachments/54427759]
+![Image](https://www.cryengine.com/docs/static/attachments/54427759)
 
 Here's our final asset looks in game with the normal, gloss and spec map working.
 
-[Image: /docs/static/attachments/54427755]
+![Image](https://www.cryengine.com/docs/static/attachments/54427755)
 
 ##
 Subsurface scattering for environments
@@ -410,35 +408,19 @@ There are three colors of subsurface scattering we can use: red, blue and yellow
 
 To show the difference better here are two screenshots of a marble pillar, the first without subsurface scattering, the second with.
 
-[Image: /docs/static/attachments/54427777]
+![Image](https://www.cryengine.com/docs/static/attachments/54427777)
 
-[Image: /docs/static/attachments/54427771]
+![Image](https://www.cryengine.com/docs/static/attachments/54427771)
 
 To set the amount of the subsurface scattering you go to the tab and set the value to something that looks good. Please be careful and don't set it too high, as it will look like wax. The recommendation is to go up by increments of .05. We have some degree of artistic freedom here.
 
-[Image: /docs/static/attachments/54427772]
+![Image](https://www.cryengine.com/docs/static/attachments/54427772)
 
-[#photoshop-set-up-for-physically-based-shaders](
-Photoshop set up for Physically Based Shaders
-)
-[#specular-texturing-for-physically-based-shaders](
-Specular Texturing for Physically Based Shaders
-)
-[#material-types](
-Material types
-)
-[#specular-color-and-what-it-does-to-the-asset](
-Specular Color and what it does to the asset
-)
-[#gloss-values-and-what-they-do-to-the-asset](
-Gloss values and what they do to the asset
-)
-[#how-to-texture-for-physically-based-shading](
-How to texture for Physically based shading
-)
-[#exporting-your-normal-map-with-your-gloss-map-out-of-photoshop](
-Exporting your Normal Map with your Gloss Map out of Photoshop
-)
-[#examples-of-gloss-maps-and-how-to-set-up-the-shaders](
-Examples of gloss maps and how to set up the shaders
-)
+[Photoshop set up for Physically Based Shaders](#photoshop-set-up-for-physically-based-shaders)
+[Specular Texturing for Physically Based Shaders](#specular-texturing-for-physically-based-shaders)
+[Material types](#material-types)
+[Specular Color and what it does to the asset](#specular-color-and-what-it-does-to-the-asset)
+[Gloss values and what they do to the asset](#gloss-values-and-what-they-do-to-the-asset)
+[How to texture for Physically based shading](#how-to-texture-for-physically-based-shading)
+[Exporting your Normal Map with your Gloss Map out of Photoshop](#exporting-your-normal-map-with-your-gloss-map-out-of-photoshop)
+[Examples of gloss maps and how to set up the shaders](#examples-of-gloss-maps-and-how-to-set-up-the-shaders)

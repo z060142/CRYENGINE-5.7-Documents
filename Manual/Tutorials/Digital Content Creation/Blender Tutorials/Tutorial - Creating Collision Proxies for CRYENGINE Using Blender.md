@@ -25,10 +25,10 @@ party plugins or tools will be needed in order to get the right results. In CRYE
 .fbx
 **
  setups quite easily. This allows us to achieve the results we want without using any Crytek plugins.
-[Image: /docs/static/attachments/60522632]
+![Image](https://www.cryengine.com/docs/static/attachments/60522632)
 
 Collision proxies are simple geometrical elements or shapes, which are much more simplified versions of the original asset that they are linked to. In most cases, they only need to slightly resemble the general outline of the original asset in order to behave realistically from a physical perspective.
-[Image: /docs/static/attachments/60522633]
+![Image](https://www.cryengine.com/docs/static/attachments/60522633)
 *
 Collision proxy shapes
 
@@ -50,7 +50,7 @@ SHIFT
 **
  key:
 
-[Image: /docs/static/attachments/60522660]
+![Image](https://www.cryengine.com/docs/static/attachments/60522660)
 
 *
 Dragging and dropping the proxy element
@@ -58,7 +58,7 @@ Dragging and dropping the proxy element
 
 After that, the hierarchy should look like this:
 
-[Image: /docs/static/attachments/60522678]
+![Image](https://www.cryengine.com/docs/static/attachments/60522678)
 
 *
 Final hierarchy in Blender
@@ -70,7 +70,7 @@ $proxy
 **
 :
 
-[Image: /docs/static/attachments/60522636]
+![Image](https://www.cryengine.com/docs/static/attachments/60522636)
 
 *
 Naming the proxy geometry
@@ -116,7 +116,7 @@ But first, we need to set a different material to both the barrel and its proxy 
 
 In order to do that, we simply need to click on the mesh of our original asset as well as all the LoDs or components that belong to the same asset part, except the proxy. Then, we will click on the material tab, then New button to create a new material :
 
-[Image: /docs/static/attachments/60522661]
+![Image](https://www.cryengine.com/docs/static/attachments/60522661)
 
 *
 Creating a new material in Blender
@@ -130,7 +130,7 @@ barrel_a
 **
 :
 
-[Image: /docs/static/attachments/60522638]
+![Image](https://www.cryengine.com/docs/static/attachments/60522638)
 
 *
 Naming the asset material in Blender
@@ -144,7 +144,7 @@ proxy_mat
 **
 . Make sure to name it something descriptive that would indicate that this is the material you need to physicalize:
 
-[Image: /docs/static/attachments/60522639]
+![Image](https://www.cryengine.com/docs/static/attachments/60522639)
 
 *
 Naming the proxy material in Blender
@@ -172,9 +172,7 @@ Tools → FBX Import → Mesh
 With the Mesh Importer open, all we need to do is to drag the .fbx file we created into the FBX Importer’s Viewport.
 
 For more information about the FBX Mesh Importer tool, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294](
-FBX Import Tools
-)
+[FBX Import Tools](../../../Editor%20Tools/FBX%20Import%20Tools.md)
  documentation page.
 If you click on the
 **
@@ -182,7 +180,7 @@ Material
 **
  tab on the right-hand side of the tool, you can see that we have two materials. These are the two material entries we created in Blender, and you can see that their names have been successfully carried over:
 
-[Image: /docs/static/attachments/60522662]
+![Image](https://www.cryengine.com/docs/static/attachments/60522662)
 
 *
 Material view in the FBX Mesh Importer
@@ -208,7 +206,7 @@ Proxy Only (no draw)
 **
  option. As soon as it's set, every geometry that this proxy sub-material is assigned to will act as a collision proxy and will no longer be rendered.
 
-[Image: /docs/static/attachments/60522642]
+![Image](https://www.cryengine.com/docs/static/attachments/60522642)
 
 *
 Physicalization dropdown menu
@@ -232,7 +230,7 @@ Physics Proxy
 **
 .
 
-[Image: /docs/static/attachments/60522643]
+![Image](https://www.cryengine.com/docs/static/attachments/60522643)
 
 *
 Setting the type of geometry of the proxy to Physics Proxy
@@ -240,7 +238,7 @@ Setting the type of geometry of the proxy to Physics Proxy
 
 Now you are ready to use the asset at any location you desire.
 
-[Image: /docs/static/attachments/60522644]
+![Image](https://www.cryengine.com/docs/static/attachments/60522644)
 
 *
 Result
@@ -249,21 +247,10 @@ Result
 ##
 Video Tutorial
 
-[#introduction](
-Introduction
-)
-[#modeling](
-Modeling
-)
-[#hierarchy](
-Hierarchy
-)
-[#material-setup](
-Material Setup
-)
-[#fbx-mesh-importer-setup](
-FBX Mesh Importer Setup
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=YlvsLo4IcJM]
+[Introduction](#introduction)
+[Modeling](#modeling)
+[Hierarchy](#hierarchy)
+[Material Setup](#material-setup)
+[FBX Mesh Importer Setup](#fbx-mesh-importer-setup)
+[Video Tutorial](#video-tutorial)

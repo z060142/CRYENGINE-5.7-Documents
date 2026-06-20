@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Basic Asset Setup and Export - 3ds Max](Preparing Assets for CRYENGINE/Basic Asset Setup and Export - 3ds Max.md)
-- [Basic Asset Setup and Export - Maya](Preparing Assets for CRYENGINE/Basic Asset Setup and Export - Maya.md)
-- [Export Assets - FBX Importer](Preparing Assets for CRYENGINE/Export Assets - FBX Importer.md)
+- [Basic Asset Setup and Export - 3ds Max](Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
+- [Basic Asset Setup and Export - Maya](Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%20Maya.md)
+- [Export Assets - FBX Importer](Preparing%20Assets%20for%20CRYENGINE/Export%20Assets%20-%20FBX%20Importer.md)
 
 ## Content
 
@@ -26,9 +26,7 @@ General Setup in DCC Tools
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-This tutorial
-)
+[This tutorial](Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 
 **
 assumes that users understand the basics of 3ds Max, such as the user interface and the creation of simple geometry, and can place objects in the Sandbox Editor. From there it will discuss how to prepare your assets from within 3ds Max in order to get them into the Sandbox Editor as well.
@@ -38,9 +36,7 @@ Maya
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308292](
-This tutorial
-)
+[This tutorial](Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%20Maya.md)
 **
  assumes that users understand the basics of Maya, such as the user interface and the creation of simple geometry, and can place objects in the Sandbox Editor. From there it will discuss how to prepare your assets from within Maya in order to get them into the Sandbox Editor as well.
 
@@ -49,9 +45,7 @@ FBX
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25529353](
-This page
-)
+[This page](Preparing%20Assets%20for%20CRYENGINE/Export%20Assets%20-%20FBX%20Importer.md)
 **
  shows you how to import your asset via the FBX Importer tool. It assumes you have followed the 3dsMax or Maya page to correctly configure your asset, and details how to import that asset into CRYENGINE via FBX, instead of using the tool specific exporters.
 
@@ -74,7 +68,7 @@ Create Object
 
 Drag the object into the level.
 
-[Image: /docs/static/attachments/25037457]
+![Image](https://www.cryengine.com/docs/static/attachments/25037457)
 
 ##
 Fetching and Assigning Materials
@@ -95,7 +89,7 @@ Get Properties from Selection
 **
  button in the toolbar of the Material Editor window. This gets the material of the selected object:
 
-[Image: /docs/static/attachments/25037458]
+![Image](https://www.cryengine.com/docs/static/attachments/25037458)
 
 You can assign any material to the object by selecting the material (always select the parent, not a sub-material) and clicking the leftmost button in the Material Editor toolbar (the
 **
@@ -154,7 +148,7 @@ Physicalize
 Reloading the *.cgf file in the properties panel
 *
 
-[Image: /docs/static/attachments/25501318]
+![Image](https://www.cryengine.com/docs/static/attachments/25501318)
 
 You may find sometimes that the physicalized geometry does not get updated (if it was changed) after clicking
 **
@@ -230,15 +224,7 @@ Draw helpers with information for each object (same number negative hides the te
 
 ```
 
-[#general-setup-in-dcc-tools](
-General Setup in DCC Tools
-)
-[#viewing-the-object-in-sandbox](
-Viewing the Object in Sandbox
-)
-[#fetching-and-assigning-materials](
-Fetching and Assigning Materials
-)
-[#testing-the-object](
-Testing the Object
-)
+[General Setup in DCC Tools](#general-setup-in-dcc-tools)
+[Viewing the Object in Sandbox](#viewing-the-object-in-sandbox)
+[Fetching and Assigning Materials](#fetching-and-assigning-materials)
+[Testing the Object](#testing-the-object)

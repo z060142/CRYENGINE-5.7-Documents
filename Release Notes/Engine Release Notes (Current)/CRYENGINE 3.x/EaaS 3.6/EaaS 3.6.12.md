@@ -623,3 +623,5 @@ Optimized
 
 ##
 Blended Shadow Cascades Feature
+
+[Embed: https://www.youtube.com/watch?v=x5Zzuqc-qUw]

@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Third-party SDKs in 5.3.2](CRYENGINE 5.3.2/Third-party SDKs in 5.3.2.md)
+- [Third-party SDKs in 5.3.2](CRYENGINE%205.3.2/Third-party%20SDKs%20in%205.3.2.md)
 
 ## Content
 
@@ -20,7 +20,7 @@ Crash Reporter Now Available
 
 The new Crash Reporter has now been activated. Should the Engine crash, then the following window will open:
 
-[Image: /docs/static/attachments/44962665]
+![Image](https://www.cryengine.com/docs/static/attachments/44962665)
 
 This will allow you to send us information (along with the necessary files) and create a bug report that is sent to our QA team. Hence, reporting a crash has never been easier.
 
@@ -77,9 +77,7 @@ Known Issues
 
 -
 Cryselect Issue. If users do not see 'Generate/repair metadata' (please see:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29447695](
-AssetSystem-GeneratingMetadata
-)
+[AssetSystem-GeneratingMetadata](../../../../Manual/Editor%20Tools/Asset%20Browser/Asset%20System.md)
 ) they
 should then;
 

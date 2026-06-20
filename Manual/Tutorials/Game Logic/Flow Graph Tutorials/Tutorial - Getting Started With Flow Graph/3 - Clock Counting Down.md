@@ -7,15 +7,9 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591903](
-[Image: /docs/static/attachments/52593277]
-2 - Spawning your Player
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593277) 2 - Spawning your Player](/docs/static/engines/cryengine-5/categories/23756816/pages/27591903)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591908](
-[Image: /docs/static/attachments/52593279]
-4 - Debugging
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593279) 4 - Debugging](/docs/static/engines/cryengine-5/categories/23756816/pages/27591908)
 
 For this sample we will be looking at how we can create a countdown timer in order to limit a round and communicate the remaining time to the player. The concept is simple to understand in that we need to start at a set number and then subtract a single value each second. Some things we will have to manage are the counting and also the pausing of the number decremented when it hits the value of zero.
 
@@ -168,39 +162,33 @@ Message
 ##
 Step 1-2
 
-[Image: /docs/static/attachments/36309392]
+![Image](https://www.cryengine.com/docs/static/attachments/36309392)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/36309393]
+![Image](https://www.cryengine.com/docs/static/attachments/36309393)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/36309394]
+![Image](https://www.cryengine.com/docs/static/attachments/36309394)
 
 ##
 Step 5
 
-[Image: /docs/static/attachments/36309396]
+![Image](https://www.cryengine.com/docs/static/attachments/36309396)
 
 ##
 Step 6
 
-[Image: /docs/static/attachments/36309397]
+![Image](https://www.cryengine.com/docs/static/attachments/36309397)
 
 ##
 Step 7
 
-[Image: /docs/static/attachments/36309399]
+![Image](https://www.cryengine.com/docs/static/attachments/36309399)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591903](
-[Image: /docs/static/attachments/52593277]
-2 - Spawning your Player
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593277) 2 - Spawning your Player](/docs/static/engines/cryengine-5/categories/23756816/pages/27591903)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27591908](
-[Image: /docs/static/attachments/52593279]
-4 - Debugging
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/52593279) 4 - Debugging](/docs/static/engines/cryengine-5/categories/23756816/pages/27591908)

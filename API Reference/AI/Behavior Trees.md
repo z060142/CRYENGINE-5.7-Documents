@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Behavior Tree Blackboard](Behavior Trees/Behavior Tree Blackboard.md)
-- [Behavior Tree Component](Behavior Trees/Behavior Tree Component.md)
-- [Custom Nodes in C++](Behavior Trees/Custom Nodes in C++.md)
+- [Behavior Tree Blackboard](Behavior%20Trees/Behavior%20Tree%20Blackboard.md)
+- [Behavior Tree Component](Behavior%20Trees/Behavior%20Tree%20Component.md)
+- [Custom Nodes in C++](Behavior%20Trees/Custom%20Nodes%20in%20C%2B%2B.md)
 
 ## Content
 
@@ -17,9 +17,7 @@
 Overview
 
 The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869208](
-Behavior Tree Editor
-)
+[Behavior Tree Editor](../../Manual/Editor%20Tools/Behavior%20Tree%20Editor.md)
  provides an intuitive user interface for developing complex behavior trees in high-level language.
 
 This documentation is intended to provide users with a brief technical overview of Behavior Tree memory management, followed by information on creating and implementing custom nodes in C++.
@@ -56,9 +54,7 @@ Event Handles
 -
 A "skeleton" of the Behavior Tree, with specific configuration data for each node.
 In code, this Configuration Data lives in a structure called the Behavior Tree Template that can only be modified when the Tree isn't running (i.e., in "Edit" mode). While Events, Variables, Timestamps and Event Handles can also be changed via the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869459](
-Data Definitions
-)
+[Data Definitions](../../Manual/Editor%20Tools/Behavior%20Tree%20Editor/Behavior%20Tree%20Editor%20Window.md)
 block of the Behavior Tree Editor, the "skeleton" can be modified by changing the structure of the tree and node parameters via the BTE.
 
 Memory for Configuration Data is allocated from the level heap.
@@ -91,15 +87,7 @@ This is to minimize fragmentation; since Runtime Data is normally of a few bytes
 ##
 Table of Contents
 
-[#markup-language-xml](
-Markup Language (XML)
-)
-[#memory-model](
-Memory Model
-)
-[#configuration-data](
-Configuration Data
-)
-[#runtime-data](
-Runtime Data
-)
+[Markup Language (XML)](#markup-language-xml)
+[Memory Model](#memory-model)
+[Configuration Data](#configuration-data)
+[Runtime Data](#runtime-data)

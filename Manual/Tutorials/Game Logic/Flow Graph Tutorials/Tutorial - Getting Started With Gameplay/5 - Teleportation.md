@@ -7,15 +7,9 @@
 
 ## Content
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450270](
-[Image: /docs/static/attachments/44971029]
-4 - Opening a Locked Door
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971029) 4 - Opening a Locked Door](/docs/static/engines/cryengine-5/categories/23756816/pages/29450270)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793816](
-[Image: /docs/static/attachments/44971030]
-6 - Spawning AI Waves
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971030) 6 - Spawning AI Waves](/docs/static/engines/cryengine-5/categories/23756816/pages/29793816)
 
 ##
 What logic is required for teleportation to work?
@@ -23,6 +17,8 @@ What logic is required for teleportation to work?
 One of the most common forms of gameplay to progress multiplayer or even story is the ability to teleport from one point to another. The logic behind this is simple in that we need to be able to define the bounds of an object that we pass into and then we need to be able to direct the repositioning of the player when we intersect those bounds.
 
 After this we will need to be able to drive the player to a point, in this regard we will be using a Tag Point from the AI section to be able to house the positional coordinates. At first we will look at exposing the basic teleporter and then we will quickly look at the logic to make it multi-positional for teleportation on both sides.
+
+[Embed: https://vimeo.com/271836600]
 
 ##
 How To Create a Teleporter
@@ -148,54 +144,48 @@ Finally, jump into the game. You will notice that when you walk forward to the b
 ##
 Step 1
 
-[Image: /docs/static/attachments/29929307]
+![Image](https://www.cryengine.com/docs/static/attachments/29929307)
 
 ##
 Step 2-1
 
-[Image: /docs/static/attachments/29929308]
+![Image](https://www.cryengine.com/docs/static/attachments/29929308)
 
 ##
 Step 2-2
 
-[Image: /docs/static/attachments/29929309]
+![Image](https://www.cryengine.com/docs/static/attachments/29929309)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/29929310]
+![Image](https://www.cryengine.com/docs/static/attachments/29929310)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/29929311]
+![Image](https://www.cryengine.com/docs/static/attachments/29929311)
 
 ##
 Step 5
 
-[Image: /docs/static/attachments/29929312]
+![Image](https://www.cryengine.com/docs/static/attachments/29929312)
 
 ##
 Step 6
 
-[Image: /docs/static/attachments/29929304]
+![Image](https://www.cryengine.com/docs/static/attachments/29929304)
 
 ##
 Step 7
 
-[Image: /docs/static/attachments/29929305]
+![Image](https://www.cryengine.com/docs/static/attachments/29929305)
 
 ##
 Step 8
 
-[Image: /docs/static/attachments/29929306]
+![Image](https://www.cryengine.com/docs/static/attachments/29929306)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450270](
-[Image: /docs/static/attachments/44971029]
-4 - Opening a Locked Door
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971029) 4 - Opening a Locked Door](/docs/static/engines/cryengine-5/categories/23756816/pages/29450270)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793816](
-[Image: /docs/static/attachments/44971030]
-6 - Spawning AI Waves
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971030) 6 - Spawning AI Waves](/docs/static/engines/cryengine-5/categories/23756816/pages/29793816)

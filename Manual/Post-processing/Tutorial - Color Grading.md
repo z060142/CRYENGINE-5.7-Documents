@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Enabling Charts in Sandbox](Tutorial - Color Grading/Enabling Charts in Sandbox.md)
+- [Enabling Charts in Sandbox](Tutorial%20-%20Color%20Grading/Enabling%20Charts%20in%20Sandbox.md)
 
 ## Content
 
@@ -21,18 +21,10 @@ These typically include effects like Hue & Saturation, Contrast & Brightness, Lu
 ##
 Chapters:
 
-[#chapters](
-Chapters:
-)
-[#using-reference-images](
-Using Reference Images
-)
-[#troubleshooting](
-Troubleshooting
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Chapters:](#chapters)
+[Using Reference Images](#using-reference-images)
+[Troubleshooting](#troubleshooting)
+[Video Tutorial](#video-tutorial)
 
 ##
 Using Reference Images
@@ -50,9 +42,7 @@ Avoid using insanely high resolution images as they won't improve color correcti
 2 - Add color chart
 
 Copy/paste the attached
-[/docs/static/attachments/1212829](
-RGBChart.bmp
-)
+[RGBChart.bmp](/docs/static/attachments/1212829)
  into the reference image. It is important to use the color chart supplied with this document, as otherwise the resource compiler later on won't be able to detect and extract the chart.
 
 Flatten all layers, and save the file.
@@ -109,9 +99,7 @@ However, there's currently no way to detect that the video driver is overwriting
 Video Tutorial
 
 See also
-[http://youtube.com/watch?v=Ecq2YTlJM-8](
-this
-)
+[this](http://youtube.com/watch?v=Ecq2YTlJM-8)
  video tutorial on our YouTube channel.
 
 *

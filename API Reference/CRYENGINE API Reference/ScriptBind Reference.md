@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [CRYENGINE Functions](ScriptBind Reference/CRYENGINE Functions.md)
-- [CryAction Functions](ScriptBind Reference/CryAction Functions.md)
+- [CRYENGINE Functions](ScriptBind%20Reference/CRYENGINE%20Functions.md)
+- [CryAction Functions](ScriptBind%20Reference/CryAction%20Functions.md)
 
 ## Content
 
@@ -16,11 +16,7 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306597](
-CRYENGINE Functions
-)
+[CRYENGINE Functions](ScriptBind%20Reference/CRYENGINE%20Functions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306606](
-CryAction Functions
-)
+[CryAction Functions](ScriptBind%20Reference/CryAction%20Functions.md)

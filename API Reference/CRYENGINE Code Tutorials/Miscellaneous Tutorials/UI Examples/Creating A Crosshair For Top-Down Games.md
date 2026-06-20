@@ -66,7 +66,7 @@ Press
 **
 OK
 **
-[Image: /docs/static/attachments/23461381]
+![Image](https://www.cryengine.com/docs/static/attachments/23461381)
 
 On the right
 **
@@ -82,7 +82,7 @@ Target
 **
 .
 
-[Image: /docs/static/attachments/23461379]
+![Image](https://www.cryengine.com/docs/static/attachments/23461379)
 
 You can now use Flash as usual to create your scene. The following screenshot shows an example crosshair, already converted to a
 **
@@ -104,7 +104,7 @@ Graphic
 **
 -Symbol.
 
-[Image: /docs/static/attachments/23461378]
+![Image](https://www.cryengine.com/docs/static/attachments/23461378)
 
 ##
 Animating Flash Crosshair
@@ -124,7 +124,7 @@ and choose
 **
  from the context menu.
 
-[Image: /docs/static/attachments/23461376]
+![Image](https://www.cryengine.com/docs/static/attachments/23461376)
 
 **
 Select a frame between 1-100
@@ -135,9 +135,9 @@ Create Motion Tween
 **
  from the context menu.
 
-[Image: /docs/static/attachments/23461375]
+![Image](https://www.cryengine.com/docs/static/attachments/23461375)
 
-[Image: /docs/static/attachments/23461374]
+![Image](https://www.cryengine.com/docs/static/attachments/23461374)
 
 The crosshair is now ready to get animated. Select
 **
@@ -194,7 +194,7 @@ Frame 100:
 360
 **
  degree
-[Image: /docs/static/attachments/23461373]
+![Image](https://www.cryengine.com/docs/static/attachments/23461373)
 
 If the scene is selected and you hit
 **
@@ -223,7 +223,7 @@ swf file
 **
  somewhere on your hard disk.
 
-[Image: /docs/static/attachments/23461372]
+![Image](https://www.cryengine.com/docs/static/attachments/23461372)
 
 To be able to load the flash file you need to convert the
 **
@@ -258,7 +258,7 @@ swf
 **
 .
 
-[Image: /docs/static/attachments/23461370]
+![Image](https://www.cryengine.com/docs/static/attachments/23461370)
 
 Create the following folder structure for the engine and place the
 **
@@ -345,7 +345,7 @@ Also make sure that the light source is not too far away from the floor (
 **
  above the ground should be fine).
 
-[Image: /docs/static/attachments/23461363]
+![Image](https://www.cryengine.com/docs/static/attachments/23461363)
 
 -
 Set
@@ -371,8 +371,8 @@ crosshair.ui
 gfx
 **
  filename)
-[Image: /docs/static/attachments/23461361]
-[Image: /docs/static/attachments/23461362]
+![Image](https://www.cryengine.com/docs/static/attachments/23461361)
+![Image](https://www.cryengine.com/docs/static/attachments/23461362)
 
 The light is now projecting to the floor. If you press
 **
@@ -384,7 +384,7 @@ game mode
 **
 , you can observe that the animation is also played.
 
-[Image: /docs/static/attachments/23461359]
+![Image](https://www.cryengine.com/docs/static/attachments/23461359)
 
 You might want to tweak some values of the light as for example
 **
@@ -392,7 +392,7 @@ ProjectorFov
 **
  to get a steeper projection angle.
 
-[Image: /docs/static/attachments/23461358]
+![Image](https://www.cryengine.com/docs/static/attachments/23461358)
 
 After you have found good settings for the light, select the light and choose
 **
@@ -400,21 +400,13 @@ Create Flow Graph
 **
  from the context menu.
 
-[Image: /docs/static/attachments/23461357]
+![Image](https://www.cryengine.com/docs/static/attachments/23461357)
 
 This will create a new flowgraph for this light entity. To make the crosshair following the mouse cursor, build a similar flowgraph as shown in the picture below.
 
-[Image: /docs/static/attachments/23461356]
+![Image](https://www.cryengine.com/docs/static/attachments/23461356)
 
-[#creating-simple-flash-crosshair](
-Creating Simple Flash Crosshair
-)
-[#animating-flash-crosshair](
-Animating Flash Crosshair
-)
-[#importing-crosshair-into-the-engine](
-Importing Crosshair into the Engine
-)
-[#attaching-crosshair-to-mouse-position](
-Attaching Crosshair to Mouse Position
-)
+[Creating Simple Flash Crosshair](#creating-simple-flash-crosshair)
+[Animating Flash Crosshair](#animating-flash-crosshair)
+[Importing Crosshair into the Engine](#importing-crosshair-into-the-engine)
+[Attaching Crosshair to Mouse Position](#attaching-crosshair-to-mouse-position)

@@ -27,17 +27,9 @@ WildcardExtract
 
 Extract strings matching a pattern in another string.
 
-[Image: /docs/static/attachments/29687998]
+![Image](https://www.cryengine.com/docs/static/attachments/29687998)
 
-[#compare](
-Compare
-)
-[#concat](
-Concat
-)
-[#setstring](
-SetString
-)
-[#wildcardextract](
-WildcardExtract
-)
+[Compare](#compare)
+[Concat](#concat)
+[SetString](#setstring)
+[WildcardExtract](#wildcardextract)

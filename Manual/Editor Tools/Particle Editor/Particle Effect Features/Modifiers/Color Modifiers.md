@@ -18,18 +18,14 @@ feature.
 
 The following features can be found under the Color Modifier category:
 
-[Image: /docs/static/attachments/44107855]
+![Image](https://www.cryengine.com/docs/static/attachments/44107855)
 
 For more information about colors, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868265](
-Field
-)
+[Field](../Field.md)
 .
 
 For more information about Modifiers, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](../Modifiers.md)
  page
 .
 
@@ -85,9 +81,7 @@ Enables the attribute color to be applied on new born particles.
 Color Curve
 
 This Modifier is a function-based Modifier; for more information please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Function-based Modifiers Common Settings
-)
+[Function-based Modifiers Common Settings](../Modifiers.md)
 .
 
 Color Curve uses the Time Source input to sample a Bezier curve per color channel. In Particle Effects System, Bezier curves have an unlimited number of points. Each point has to be in the range 0 to 1 in the X axis; but there are no enforced limits on Y axis. For performance reasons, Bezier points support slopes but not the slope weight.
@@ -106,9 +100,7 @@ modifier,
 
 **
 but it outputs a random color. For more information about the Random modifier, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](../Modifiers.md)
  section.
 
 Properties
@@ -169,27 +161,15 @@ Field: Color
 Self
 **
 time-source is the main property source to take a value from. Please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Function-based Modifiers Common Settings
-)
+[Function-based Modifiers Common Settings](../Modifiers.md)
  for more information about
 **
 Self
 **
 time-source option.
 
-[#attribute](
-Attribute
-)
-[#color-curve](
-Color Curve
-)
-[#color-random](
-Color Random
-)
-[#inherit](
-Inherit
-)
-[#gpu-support](
-GPU Support
-)
+[Attribute](#attribute)
+[Color Curve](#color-curve)
+[Color Random](#color-random)
+[Inherit](#inherit)
+[GPU Support](#gpu-support)

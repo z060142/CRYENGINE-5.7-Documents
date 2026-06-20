@@ -26,7 +26,7 @@ Point Constraints
 
 Adding a Point Constraint to your entity will add it at the pivot. It appears as a yellow sphere:
 
-[Image: /docs/static/attachments/56655894]
+![Image](https://www.cryengine.com/docs/static/attachments/56655894)
 
 *
 Point Constraint added
@@ -48,7 +48,7 @@ Transform → Translation
 **
  options:
 
-[Image: /docs/static/attachments/56655896]
+![Image](https://www.cryengine.com/docs/static/attachments/56655896)
 
 *
 Moving the Point Constraint
@@ -56,7 +56,7 @@ Moving the Point Constraint
 
  You can now enable physics (1) and pull the entity around with the Physics Tool (2):
 
-[Image: /docs/static/attachments/56655898]
+![Image](https://www.cryengine.com/docs/static/attachments/56655898)
 
 *
 Physics Tool & Enable Physics
@@ -110,7 +110,7 @@ Maximum X Angle
 **
  to same value in the positive range, like 40. You'll then get this effect:
 
-[Image: /docs/static/attachments/56655900]
+![Image](https://www.cryengine.com/docs/static/attachments/56655900)
 
 *
 Point Constraint pendulum
@@ -125,7 +125,7 @@ Maximum YZ Angle
 **
 . When you pull the entity, you'll then see a cone attached to the constraint, indicating how much it will twist around it:
 
-[Image: /docs/static/attachments/56655901]
+![Image](https://www.cryengine.com/docs/static/attachments/56655901)
 
 *
 Twist cone
@@ -143,7 +143,7 @@ Translation
 **
  values so it swings in an arc around the Point Constraint:
 
-[Image: /docs/static/attachments/56655904]
+![Image](https://www.cryengine.com/docs/static/attachments/56655904)
 
 *
 Point Constraint offset
@@ -157,7 +157,7 @@ Adding a Line Constraint to your entity will add it at the pivot, just like the 
 This will make the attached entity move along a straight line, like so:
 
 *
-[Image: /docs/static/attachments/56655908]
+![Image](https://www.cryengine.com/docs/static/attachments/56655908)
 
 Line Constraint example
 *
@@ -178,7 +178,7 @@ Z
 **
 . In the example above, the axes were set up as follows:
 
-[Image: /docs/static/attachments/56655910]
+![Image](https://www.cryengine.com/docs/static/attachments/56655910)
 
 *
 Axes setup example
@@ -226,7 +226,7 @@ Y
 **
 , which equates to a 45° angle along the X and Y axes:
 
-[Image: /docs/static/attachments/56655912]
+![Image](https://www.cryengine.com/docs/static/attachments/56655912)
 
 *
 45 degree angle
@@ -236,7 +236,7 @@ Making one of these negative will turn the Line Constraint 180°.
 
 You can even rotate the Line Constraint on 3 axes this way:
 
-[Image: /docs/static/attachments/56655916]
+![Image](https://www.cryengine.com/docs/static/attachments/56655916)
 
 *
 Rotated in 3 dimensions
@@ -266,7 +266,7 @@ Twist Rotation Max Angle
 **
  are set to -360 and 360 respectively. This means the entity is allowed to spin around its Z-axis freely:
 
-[Image: /docs/static/attachments/56655923]
+![Image](https://www.cryengine.com/docs/static/attachments/56655923)
 
 *
 Spinning around Z-axis
@@ -283,7 +283,7 @@ Bend Max Angle
 **
  property. When pulling it around with the Physics Tool, it will display a cone on this intersection, showing the angle of movement:
 
-[Image: /docs/static/attachments/56655924]
+![Image](https://www.cryengine.com/docs/static/attachments/56655924)
 
 *
 Wobbling
@@ -294,15 +294,8 @@ Video Tutorial
 
 To watch a video tutorial about these Constraints, see below.
 
-[#point-constraints](
-Point Constraints
-)
-[#line-constraints](
-Line Constraints
-)
-[#plane-constraints](
-Plane Constraints
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=eYZa3vaoVn4]
+[Point Constraints](#point-constraints)
+[Line Constraints](#line-constraints)
+[Plane Constraints](#plane-constraints)
+[Video Tutorial](#video-tutorial)

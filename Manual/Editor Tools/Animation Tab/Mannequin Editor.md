@@ -7,24 +7,24 @@
 
 ## Child Pages
 
-- [Mannequin Concepts](Mannequin Editor/Mannequin Concepts.md)
-- [Mannequin Technical Topics](Mannequin Editor/Mannequin Technical Topics.md)
-- [Mannequin Files](Mannequin Editor/Mannequin Files.md)
-- [Mannequin Introduction](Mannequin Editor/Mannequin Introduction.md)
-- [Mannequin Additive Animations](Mannequin Editor/Mannequin Additive Animations.md)
-- [Mannequin AI Sequence](Mannequin Editor/Mannequin AI Sequence.md)
-- [Mannequin Animation Clip Properties](Mannequin Editor/Mannequin Animation Clip Properties.md)
-- [Mannequin Animation DB Editor](Mannequin Editor/Mannequin Animation DB Editor.md)
-- [Mannequin Animation Layers](Mannequin Editor/Mannequin Animation Layers.md)
-- [Mannequin Audio](Mannequin Editor/Mannequin Audio.md)
-- [Mannequin Context Editor](Mannequin Editor/Mannequin Context Editor.md)
-- [Mannequin File Manager](Mannequin Editor/Mannequin File Manager.md)
-- [Mannequin Flowgraph](Mannequin Editor/Mannequin Flowgraph.md)
-- [Mannequin FragmentID Editor](Mannequin Editor/Mannequin FragmentID Editor.md)
-- [Mannequin List Used Animations](Mannequin Editor/Mannequin List Used Animations.md)
-- [Mannequin Debugging](Mannequin Editor/Mannequin Debugging.md)
-- [Mannequin Tag Definition Editor](Mannequin Editor/Mannequin Tag Definition Editor.md)
-- [Mannequin Track Properties](Mannequin Editor/Mannequin Track Properties.md)
+- [Mannequin Concepts](Mannequin%20Editor/Mannequin%20Concepts.md)
+- [Mannequin Technical Topics](Mannequin%20Editor/Mannequin%20Technical%20Topics.md)
+- [Mannequin Files](Mannequin%20Editor/Mannequin%20Files.md)
+- [Mannequin Introduction](Mannequin%20Editor/Mannequin%20Introduction.md)
+- [Mannequin Additive Animations](Mannequin%20Editor/Mannequin%20Additive%20Animations.md)
+- [Mannequin AI Sequence](Mannequin%20Editor/Mannequin%20AI%20Sequence.md)
+- [Mannequin Animation Clip Properties](Mannequin%20Editor/Mannequin%20Animation%20Clip%20Properties.md)
+- [Mannequin Animation DB Editor](Mannequin%20Editor/Mannequin%20Animation%20DB%20Editor.md)
+- [Mannequin Animation Layers](Mannequin%20Editor/Mannequin%20Animation%20Layers.md)
+- [Mannequin Audio](Mannequin%20Editor/Mannequin%20Audio.md)
+- [Mannequin Context Editor](Mannequin%20Editor/Mannequin%20Context%20Editor.md)
+- [Mannequin File Manager](Mannequin%20Editor/Mannequin%20File%20Manager.md)
+- [Mannequin Flowgraph](Mannequin%20Editor/Mannequin%20Flowgraph.md)
+- [Mannequin FragmentID Editor](Mannequin%20Editor/Mannequin%20FragmentID%20Editor.md)
+- [Mannequin List Used Animations](Mannequin%20Editor/Mannequin%20List%20Used%20Animations.md)
+- [Mannequin Debugging](Mannequin%20Editor/Mannequin%20Debugging.md)
+- [Mannequin Tag Definition Editor](Mannequin%20Editor/Mannequin%20Tag%20Definition%20Editor.md)
+- [Mannequin Track Properties](Mannequin%20Editor/Mannequin%20Track%20Properties.md)
 
 ## Content
 
@@ -33,12 +33,10 @@ Overview
 
 The Mannequin Editor is set of high level tools to help you manage the complexities of interactive animation.
 
-[Image: /docs/static/attachments/44970373]
+![Image](https://www.cryengine.com/docs/static/attachments/44970373)
 
 For a detailed introduction of the Mannequin Editor, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308427](
-this page
-)
+[this page](Mannequin%20Editor/Mannequin%20Introduction.md)
 .
 
 ##
@@ -64,9 +62,7 @@ Preview Editor
 **
  |
 The Preview Editor can be used bind characters and animation databases to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450870](
-Scope Contexts
-)
+[Scope Contexts](Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
  for visualization purposes within the Mannequin Editor. Multiple context configurations can be defined and later  switched between through the Context dropdown available in the Fragments and Transitions panes.
  |
 
@@ -89,9 +85,7 @@ Tag Definition Files
 .
 
 More information can be found in the (technical) tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308465](
-Entity Setup From Scratch
-)
+[Entity Setup From Scratch](Mannequin%20Editor/Mannequin%20Technical%20Topics/Entity%20Setup%20From%20Scratch.md)
 .
 
  |
@@ -172,43 +166,27 @@ Fragments
 The Fragments pane consists of two parts: the Fragment List  and the TagState list.
 
 This pane lists all fragments in an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743](
-animation database
-)
+[animation database](Mannequin%20Editor/Mannequin%20Files/Animation%20Database%20(ADB).md)
  (and its sub-databases). It is used to find & create
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-fragments
-)
+[fragments](Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Fragments.md)
 , change fragment
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450874](
-tags
-)
+[tags](Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Tags%20%26%20Tag%20Definitions.md)
 , as well as creating and editing
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-fragmentIDs
-)
+[fragmentIDs](Mannequin%20Editor/Mannequin%20Concepts/FragmentIDs.md)
 .
 
 It is typically used in combination with either the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-FragmentEditor](
-Fragment Editor
-)
+[Fragment Editor](Mannequin%20Editor.md#MannequinEditor-FragmentEditor)
  (to edit fragments) or the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-previewer](
-previewer
-)
+[previewer](Mannequin%20Editor.md#MannequinEditor-previewer)
  (to preview sequences).
 
 It can be accessed by clicking on the "Fragments" tab at the left side of the editor.
 
 For tutorials that go through some of this functionality, check out
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308483](
-Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving
-)
+[Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving](../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308484](
-Mannequin Editor Tutorial 2 - Tags & Previewing
-)
+[Mannequin Editor Tutorial 2 - Tags & Previewing](../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%202%20-%20Tags%20%26%20Previewing.md)
 .
 
 The next sections will go through the parts of this panel from top to bottom:
@@ -279,9 +257,7 @@ When checked: The fragment list will create folders for all tags. Higher priorit
 For example in the following screenshot the tags are "rifle", "pistol", "shoulder" and "iron":
 
 When not checked: The fragment list will create folders only when there are multiple fragments for the same combination of tags (aka multiple fragment options). In this view the fragments are sorted by selection order (See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308439](
-Fragment Selection Process
-)
+[Fragment Selection Process](Mannequin%20Editor/Mannequin%20Concepts/Fragment%20Selection%20Process.md)
 ).
 
 For example in the following screenshot there are 2 options for "pistol+iron", but the other combinations of tags have only one option each.
@@ -322,9 +298,7 @@ The currently 'edited' fragment is shown in
 bold
 **
 . This is the fragment whose
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-TagState](
-tagstate
-)
+[tagstate](Mannequin%20Editor.md#MannequinEditor-TagState)
  is displayed below, and it is the same fragment which is the main fragment currently displayed in the Mannequin Fragment Editor.
 
 Note that this is a different fragment than the currently selected one! (see screenshot above).
@@ -340,9 +314,7 @@ Left click
 Double click
 *
  a fragment to 'edit' it: open it in the Mannequin Fragment Editor and show its
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-TagState](
-tagstate
-)
+[tagstate](Mannequin%20Editor.md#MannequinEditor-TagState)
  below.
 
 -
@@ -362,9 +334,7 @@ Right-mouse drag and drop
 Right-click on a fragment and select "Copy Selected Text"
 *
  to copy its
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-TagState](
-tagstate
-)
+[tagstate](Mannequin%20Editor.md#MannequinEditor-TagState)
 .
 
 -
@@ -427,9 +397,7 @@ New ID
 **
  |
 Create new FragmentID. First it will ask you for a name, after which it opens the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308446](
-Mannequin FragmentID Editor
-)
+[Mannequin FragmentID Editor](Mannequin%20Editor/Mannequin%20FragmentID%20Editor.md)
 .
  |
 
@@ -465,19 +433,13 @@ Here you can edit this fragment's tagstate. An empty or unchecked tag means the 
 Sequences Browser
 
 The Sequences browser is used to select the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308476](
-sequence
-)
+[sequence](Mannequin%20Editor/Mannequin%20Files/Sequence%20File%20(xml).md)
  you would like to open in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-previewer](
-Mannequin Previewer
-)
+[Mannequin Previewer](Mannequin%20Editor.md#MannequinEditor-previewer)
 .
 
 It simply lists the files in the default sequence folder, described in the article on
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308476](
-sequence files
-)
+[sequence files](Mannequin%20Editor/Mannequin%20Files/Sequence%20File%20(xml).md)
 .
 
 To access the panel, click on the tab
@@ -496,19 +458,13 @@ Open
 Transitions Browser
 
 The Transition Browser is used to list all the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450872](
-transitions
-)
+[transitions](Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Transitions.md)
  in a certain
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798743](
-animation database
-)
+[animation database](Mannequin%20Editor/Mannequin%20Files/Animation%20Database%20(ADB).md)
  (and its sub-ADBs).
 
 It is used in combination with the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-TransitionEditor](
-Mannequin Transition Editor
-)
+[Mannequin Transition Editor](Mannequin%20Editor.md#MannequinEditor-TransitionEditor)
 .
 
 It can be accessed by clicking the
@@ -518,9 +474,7 @@ Transitions
  tab at the bottom of the mannequin editor.
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308485](
-Mannequin Editor Tutorial 3 - Transitions
-)
+[Mannequin Editor Tutorial 3 - Transitions](../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%203%20-%20Transitions.md)
 .
 
 Option
@@ -621,36 +575,26 @@ Edit Fragment
 **
  from the right-click menu of a fragmentID key (in the Mannequin Previewer or other editors)
 For details on the tracks, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308450](
-Mannequin Track Properties
-)
+[Mannequin Track Properties](Mannequin%20Editor/Mannequin%20Track%20Properties.md)
 .
 
 For specific details on editing clips, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308449](
-Mannequin Animation Clip Properties
-)
+[Mannequin Animation Clip Properties](Mannequin%20Editor/Mannequin%20Animation%20Clip%20Properties.md)
 .
 
 For more, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308483](
-Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving
-)
+[Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving](../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md)
 .
 
 ##
 Transition Editor
 
 The Transition Editor is where you edit specific
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450872](
-mannequin transitions
-)
+[mannequin transitions](Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Transitions.md)
 .
 
 It is typically used together with the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-TransitionBrowser](
-Transition Browser
-)
+[Transition Browser](Mannequin%20Editor.md#MannequinEditor-TransitionBrowser)
 .
 
 Is is accessed by clicking the
@@ -660,43 +604,33 @@ Transitions
  tab at the bottom of the mannequin editor.
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308485](
-Mannequin Editor Tutorial 3 - Transitions
-)
+[Mannequin Editor Tutorial 3 - Transitions](../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%203%20-%20Transitions.md)
 .
 
 ##
 Previewer
 
 The Previewer is used to edit and view
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308476](
-Sequence Files
-)
+[Sequence Files](Mannequin%20Editor/Mannequin%20Files/Sequence%20File%20(xml).md)
 , or simply to test a sequence of fragments without even saving it to a file.
 
 It can be accessed by clicking the "Previewer" tab at the bottom of the mannequin editor.
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308484](
-Mannequin Editor Tutorial 2: Tags & Previewing
-)
+[Mannequin Editor Tutorial 2: Tags & Previewing](../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%202%20-%20Tags%20%26%20Previewing.md)
 .
 
 ##
 Mannequin Error Report
 
 This panel displays the result of validation on the currently opened
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308475](
-setup
-)
+[setup](Mannequin%20Editor/Mannequin%20Files/Preview%20Setup%20File%20(xxxPreview.xml).md)
 .
 
 It is one of the panels at the right of the mannequin editor. To access it simply press the "Error Report" tab at the bottom.
 
 Every time you open a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308475](
-preview setup
-)
+[preview setup](Mannequin%20Editor/Mannequin%20Files/Preview%20Setup%20File%20(xxxPreview.xml).md)
  validation is done on that setup. If any errors are found, the error report will pop up to the front automatically.
 
 ##
@@ -705,9 +639,7 @@ Error/Warning List
 This area shows the list of errors/warnings the validation found.
 
 Double click a line to select that
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450856](
-fragment
-)
+[fragment](Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20Fragments.md)
  in the Fragment Browser/Editor.
 
 Select one or more lines to operate on those fragments using the menu or right click menu.
@@ -785,12 +717,6 @@ Open in Excel
 Open the lines in Excel.
  |
 
-[#1-menu-bar](
-1. Menu Bar
-)
-[#2-fragmentssequencestransitions-pane](
-2. Fragments/Sequences/Transitions Pane
-)
-[#3-fragment-editortransition-editorpreviewermannequin-error-report](
-3. Fragment Editor/Transition Editor/Previewer/Mannequin Error Report
-)
+[1. Menu Bar](#1-menu-bar)
+[2. Fragments/Sequences/Transitions Pane](#2-fragmentssequencestransitions-pane)
+[3. Fragment Editor/Transition Editor/Previewer/Mannequin Error Report](#3-fragment-editortransition-editorpreviewermannequin-error-report)

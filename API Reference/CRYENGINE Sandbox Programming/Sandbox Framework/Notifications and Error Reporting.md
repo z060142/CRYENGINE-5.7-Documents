@@ -9,7 +9,7 @@
 
 The notification center is one of the preferred places to present the user with errors, warnings or any other useful information.
 
-[Image: /docs/static/attachments/26952244]
+![Image](https://www.cryengine.com/docs/static/attachments/26952244)
 
 Please
 **

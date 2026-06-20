@@ -16,24 +16,12 @@ This guide will help to get started with shader development in CRYENGINE, howeve
 
 Chapters:
 
-[#getting-started](
-Getting Started
-)
-[#writing-shader-code](
-Writing Shader Code
-)
-[#remote-shader-compiler](
-Remote Shader Compiler
-)
-[#using-shader-debugging-and-profiling-tools](
-Using Shader Debugging and Profiling Tools
-)
-[#basic-shader-format](
-Basic Shader Format
-)
-[#shader-flags](
-Shader Flags
-)
+[Getting Started](#getting-started)
+[Writing Shader Code](#writing-shader-code)
+[Remote Shader Compiler](#remote-shader-compiler)
+[Using Shader Debugging and Profiling Tools](#using-shader-debugging-and-profiling-tools)
+[Basic Shader Format](#basic-shader-format)
+[Shader Flags](#shader-flags)
 Related Pages:
 
 ##
@@ -79,18 +67,14 @@ r_ShadersEditing 1
 Remote Shader Compiler
 
 It is highly recommended to use a locally running Remote Shader Compiler, so that shader debug symbols will be generated. See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306645](
-Remote Shader Compiler
-)
+[Remote Shader Compiler](Shader%20Cache/Remote%20Shader%20Compiler.md)
  for detailed instructions.
 
 ##
 Using Shader Debugging and Profiling Tools
 
 On Xbox 360, PIX can be used to debug and profile shader code. To make this work properly
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306673](
-Using PIX for GPU and CPU Profiling
-)
+[Using PIX for GPU and CPU Profiling](/docs/static/engines/cryengine-5/categories/23756813/pages/23306673)
  are required. For PS3, GPAD provides similar functionality.
 
 To use it, the automatic 10Hz backbuffer flip has to be disabled and the usage of RSX memory as virtual memory should be disabled:
@@ -120,9 +104,7 @@ Shaders that can be used directly for rendering (e.g. in a material) have the ex
 Shader Flags
 
 CRYENGINE uses an ubershader system with compile-time defines to handle the plenty of different
-[/docs/static/engines/cryengine-5/categories/23756813](
-Shader Permutations
-)
+[Shader Permutations](/docs/static/engines/cryengine-5/categories/23756813)
  that are required for combining the numerous shader features.
 
 By using ifdefs with shader flags, it is possible to define several code branches that are compiled and used depending on the flag bitmask. The shader compiler generates different hardware shader programs for each branch and stores them in the shader cache. A huger number of flags can lead to a plenty of permutations, so it is essential to keep the number of flags as small as possible. There are three different types of flags:

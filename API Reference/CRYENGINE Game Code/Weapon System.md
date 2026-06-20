@@ -47,21 +47,11 @@ The core functionality is implemented in C++ , but these components read the dat
 
 Chapters:
 
-[#weapon-class](
-Weapon Class
-)
-[#fire-mode-class](
-Fire Mode Class
-)
-[#projectile-class](
-Projectile Class
-)
-[#zoom-mode-class](
-Zoom Mode Class
-)
-[#the-weapon-xml](
-The Weapon XML
-)
+[Weapon Class](#weapon-class)
+[Fire Mode Class](#fire-mode-class)
+[Projectile Class](#projectile-class)
+[Zoom Mode Class](#zoom-mode-class)
+[The Weapon XML](#the-weapon-xml)
 Related Pages:
 
 ##
@@ -186,7 +176,7 @@ CanPickUp()
 
  |
 
-[Image: /docs/static/attachments/23461307]
+![Image](https://www.cryengine.com/docs/static/attachments/23461307)
 
 The final step for your custom weapon, to be useable in the weapon xml file, is to register it in the
 **
@@ -369,7 +359,7 @@ Performs various frame dependent computations for different weapon features incl
 
  |
 
-[Image: /docs/static/attachments/23461306]
+![Image](https://www.cryengine.com/docs/static/attachments/23461306)
 
 The final step for your custom fire mode, to be useable in the weapon xml file, is to register it in the
 **
@@ -479,7 +469,7 @@ If the weapon has any auto-aiming capabilities, this function will be called wit
 
  |
 
-[Image: /docs/static/attachments/23461305]
+![Image](https://www.cryengine.com/docs/static/attachments/23461305)
 
 The final step for your custom projectile is to register it in the
 **
@@ -601,7 +591,7 @@ Updating/Changing any first person view parameters should go here.
 
  |
 
-[Image: /docs/static/attachments/23461304]
+![Image](https://www.cryengine.com/docs/static/attachments/23461304)
 
 The final step for your custom zoom mode is to register it in the
 **
@@ -655,4 +645,4 @@ Rifle.xml
 **
  weapon example.
 
-[Image: /docs/static/attachments/23461303]
+![Image](https://www.cryengine.com/docs/static/attachments/23461303)

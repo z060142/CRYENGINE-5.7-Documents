@@ -8,3 +8,5 @@
 ## Content
 
 Prototyping, texturing, and importing a character head
+
+[Embed: https://www.youtube.com/watch?v=rQNIuR5QhC8]

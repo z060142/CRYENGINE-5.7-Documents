@@ -41,7 +41,7 @@ e_CoverageBufferDebug = 0/1
 
 **
 **
-[Image: /docs/static/attachments/35395690]
+![Image](https://www.cryengine.com/docs/static/attachments/35395690)
 **
 **
 
@@ -80,7 +80,7 @@ e_CoverageBufferReproj=2
 **
 (per-object test only)
 
-[Image: /docs/static/attachments/35395691]
+![Image](https://www.cryengine.com/docs/static/attachments/35395691)
 
 **
 e_CoverageBufferReproj=4
@@ -91,7 +91,7 @@ e_CoverageBufferReproj=4
 (Level Occlusion Mesh (OCM) only)
 
 **
-[Image: /docs/static/attachments/35395692]
+![Image](https://www.cryengine.com/docs/static/attachments/35395692)
 
 **
 
@@ -102,7 +102,7 @@ e_CoverageBufferReproj=6
 
 **
 **
-[Image: /docs/static/attachments/35395693]
+![Image](https://www.cryengine.com/docs/static/attachments/35395693)
 **
 **
 
@@ -120,13 +120,13 @@ Adding Objects to the Level Occlusion Mesh
 Brush
 **
 
-[Image: /docs/static/attachments/35395694]
+![Image](https://www.cryengine.com/docs/static/attachments/35395694)
 
 **
 Designer Object
 **
 
-[Image: /docs/static/attachments/35395695]
+![Image](https://www.cryengine.com/docs/static/attachments/35395695)
 
 ##
 Exporting the Occlusion Mesh
@@ -140,7 +140,7 @@ File -> Export Occlusion Mesh.
 
 This will open the save as dialog box shown below.
 
-[Image: /docs/static/attachments/35395696]
+![Image](https://www.cryengine.com/docs/static/attachments/35395696)
 
 The Occlusion Mesh needs to be saved inside the
 **
@@ -190,7 +190,7 @@ e_CoverageBufferDebug=1
 
 This now shows us the OCM in the debug Viewport. This is what we are trying to configure when we add brushes and designer objects to the mesh via the Occluder flag in the object (s) properties.
 
-[Image: /docs/static/attachments/35395692]
+![Image](https://www.cryengine.com/docs/static/attachments/35395692)
 
 While optimizing the OCM, it is a good idea to disable the vegetation using the CVar
 **
@@ -198,7 +198,7 @@ e_vegetation=0
 **
  (default=1) or to uncheck the relevant box in the rollup bar.
 
-[Image: /docs/static/attachments/35395698]
+![Image](https://www.cryengine.com/docs/static/attachments/35395698)
 
 Straight away you can see that the terrain isn't part of the OCM and that only the large cliff elements have been added to the OCM - the smaller rock groups located on the ground have not been added. This is where your judgement comes into play. Ask yourself, "is the object big enough to actually 'hide' something behind it"? If it's not then do not include it in the OCM.
 
@@ -225,17 +225,17 @@ In the original versions of the OCM (pre CRYENGINE 3.6+) designer objects were p
 
 Simple Occluder setup with designer objects and terrain.
 
-[Image: /docs/static/attachments/35395699]
+![Image](https://www.cryengine.com/docs/static/attachments/35395699)
 
 Simple Occluder setup without terrain.
 
-[Image: /docs/static/attachments/35395700]
+![Image](https://www.cryengine.com/docs/static/attachments/35395700)
 
 Once the layout of the level has been confirmed, the true level geometry (cliff pieces) have been added to the OCM and the mesh regenerated through the file menu\Export Occlusion Mesh process.
 
 Final Occlusion Mesh with brushes and designer objects.
 
-[Image: /docs/static/attachments/35395698]
+![Image](https://www.cryengine.com/docs/static/attachments/35395698)
 
 ##
 Possible Problems You Can Encounter
@@ -259,7 +259,7 @@ To fix this, regenerate the OCM - it will then update the OCM to NOT include thi
 
 Object in the world and included in the Level Occluder Mesh (OCM).
 
-[Image: /docs/static/attachments/35395702]
+![Image](https://www.cryengine.com/docs/static/attachments/35395702)
 
 Object
 **
@@ -273,11 +273,11 @@ IS
 
 Notice the empty space that would be behind the rock and occluded. This is the Occlusion System working.
 
-[Image: /docs/static/attachments/35395703]
+![Image](https://www.cryengine.com/docs/static/attachments/35395703)
 
 A final screenshot to highlight the difference between the 2 images. Where the OCM thinks there is some geometry.
 
-[Image: /docs/static/attachments/35395704]
+![Image](https://www.cryengine.com/docs/static/attachments/35395704)
 
 ##
 Testing the Level Occlusion Mesh
@@ -313,11 +313,11 @@ Note:
 **
 with the debug text active you can see which brushes are considered active and when they drop from the scene.
 
-[Image: /docs/static/attachments/35395705]
+![Image](https://www.cryengine.com/docs/static/attachments/35395705)
 
-[Image: /docs/static/attachments/35395706]
+![Image](https://www.cryengine.com/docs/static/attachments/35395706)
 
-[Image: /docs/static/attachments/35395707]
+![Image](https://www.cryengine.com/docs/static/attachments/35395707)
 
 Once you have finished inspecting your OCM through this debug view make sure to re-enable the full Occlusion System with CVar
 **
@@ -340,18 +340,8 @@ Any modifications to the OCM such as adding in new geometry or taking it away wi
 
 -
 Adding new geometry or taking it away requires a restart of the Editor to reflect the changes in the debug Viewport (limitation in the debug window)
-[#cvars](
-CVars
-)
-[#brief-history](
-Brief History
-)
-[#how-to-create-and-export-the-level-occlusion-mesh-ocm](
-How to Create & Export the Level Occlusion Mesh (OCM)
-)
-[#optimizing-the-level-occlusion-mesh-ocm](
-Optimizing the Level Occlusion Mesh (OCM)
-)
-[#notes](
-Notes
-)
+[CVars](#cvars)
+[Brief History](#brief-history)
+[How to Create & Export the Level Occlusion Mesh (OCM)](#how-to-create-and-export-the-level-occlusion-mesh-ocm)
+[Optimizing the Level Occlusion Mesh (OCM)](#optimizing-the-level-occlusion-mesh-ocm)
+[Notes](#notes)

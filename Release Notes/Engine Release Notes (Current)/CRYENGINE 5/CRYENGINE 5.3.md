@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [CRYENGINE 5.3.4](CRYENGINE 5.3/CRYENGINE 5.3.4.md)
-- [CRYENGINE 5.3.3](CRYENGINE 5.3/CRYENGINE 5.3.3.md)
-- [CRYENGINE 5.3.2](CRYENGINE 5.3/CRYENGINE 5.3.2.md)
-- [CRYENGINE 5.3.1](CRYENGINE 5.3/CRYENGINE 5.3.1.md)
-- [CRYENGINE 5.3.0](CRYENGINE 5.3/CRYENGINE 5.3.0.md)
+- [CRYENGINE 5.3.4](CRYENGINE%205.3/CRYENGINE%205.3.4.md)
+- [CRYENGINE 5.3.3](CRYENGINE%205.3/CRYENGINE%205.3.3.md)
+- [CRYENGINE 5.3.2](CRYENGINE%205.3/CRYENGINE%205.3.2.md)
+- [CRYENGINE 5.3.1](CRYENGINE%205.3/CRYENGINE%205.3.1.md)
+- [CRYENGINE 5.3.0](CRYENGINE%205.3/CRYENGINE%205.3.0.md)
 
 ## Content
 
@@ -21,9 +21,7 @@ Code Interface Changes
 See the
 **
 
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962674](
-Important CRYENGINE 5.3 Data and Code Changes
-)
+[Important CRYENGINE 5.3 Data and Code Changes](CRYENGINE%205.3/CRYENGINE%205.3.0/Important%20CRYENGINE%205.3%20Data%20and%20Code%20Changes.md)
 **
 **
 
@@ -32,9 +30,7 @@ article for more information.
 
 If you are upgrading from CRYENGINE 5.2 please read
 **
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962673](
-Migrating from CRYENGINE 5.2 to CRYENGINE 5.3
-)
+[Migrating from CRYENGINE 5.2 to CRYENGINE 5.3](CRYENGINE%205.3/CRYENGINE%205.3.0/Migrating%20from%20CRYENGINE%205.2%20to%20CRYENGINE%205.3.md)
 **
 .
 
@@ -59,12 +55,10 @@ Schematyc is a node-based visual scripting language aimed at changing the way ga
 
 Schematyc "Lighten Up" sample for users to reverse engineer and learn common Schematyc best practices:
 **
-[https://www.cryengine.com/marketplace/product/cryengine-schematyc-sample](
-Lighten Up!
-)
+[Lighten Up!](https://www.cryengine.com/marketplace/product/cryengine-schematyc-sample)
 **
 
-[Image: /docs/static/attachments/44962659]
+![Image](https://www.cryengine.com/docs/static/attachments/44962659)
 
 Note: This is a Beta release with limited functionality and nodes. We look forward to your feedback!
 
@@ -74,17 +68,13 @@ The Sandbox Editor
 
 Our new Qt-based Sandbox Editor, that we released with CRYENGINE 5.0 is now the only supported Editor. The previously provided Legacy Editor (using the older MFC-based interface) will now be deprecated and thus no longer available going forward. You can learn more about this decision and our thinking behind it
 **
-[https://www.cryengine.com/news/an-update-on-our-sandbox-interface-and-the-legacy-editor](
-in this blog post
-)
+[in this blog post](https://www.cryengine.com/news/an-update-on-our-sandbox-interface-and-the-legacy-editor)
 **
 . Other improvements to the Sandbox Editor include support for High-DPI displays for a more comfortable working experience and what we call the “F-Key Workflow” in which we have mapped many of the most commonly used commands in the Engine to your function keys.
 
 For those of you who are just making the transition to the new Sandbox Editor, then we have prepared
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963398](
-a page that will get you started
-)
+[a page that will get you started](../../../Manual/CRYENGINE%20-%20Getting%20Started/Migration%20Guides/MFC%20Editor%20to%20Qt%20Editor%20Interface%20(CRYENGINE%20V).md)
 **
  and show you the biggest interface changes between the new and the old Sandbox Editor.
 
@@ -113,15 +103,11 @@ So what is CMake? CMake is a cross-platform open-source tool for compiler-indepe
 You can find the full documentation for
 **
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/35849259](
-CMake in CRYENGINE here
-)
+[CMake in CRYENGINE here](../../../API%20Reference/CRYENGINE%20Build%20System/CMake.md)
 **
 . We have also prepared some
 **
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26218339](
-documentation covering the migration from WAF to CMake
-)
+[documentation covering the migration from WAF to CMake](../../../API%20Reference/CRYENGINE%20Build%20System/Migrating%20from%20WAF%20to%20CMake.md)
 **
 .
 
@@ -130,19 +116,13 @@ Built-in PhysX Support
 **
 
 **
-[https://developer.nvidia.com/gameworks-physx-overview](
-NVIDIA’s PhysX technology
-)
+[NVIDIA’s PhysX technology](https://developer.nvidia.com/gameworks-physx-overview)
 **
  is coming to CRYENGINE in the 5.3 release as a Beta, this will be the first time that users will have a built-in alternative to our proprietary CryPhysics suite when building their games. This will give all Cryengineers more flexibility than ever before when it comes to selecting the right physics solution for their games’ unique needs.
 
 For those unfamiliar with it, NVIDIA PhysX is a scalable multi-platform game physics solution that supports a wide range of devices and has been/is used in many of today’s most popular games and platforms.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26218186](
-**
-Using NVIDIA PhysX in CRYENGINE
-**
-)
+[Using NVIDIA PhysX in CRYENGINE](/docs/static/engines/cryengine-5/categories/23756816/pages/26218186)
 
 **
 New Asset System (Beta Release)
@@ -154,9 +134,7 @@ For the initial release in CE 5.3, this tool will allow you to search for anythi
 
 Want to learn more about the new Asset Browser and the metadata-driven Asset System?
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-You can do so with our documentation
-)
+[You can do so with our documentation](../../../Manual/Editor%20Tools/Asset%20Browser.md)
 **
 .
 
@@ -172,7 +150,7 @@ The second big improvement is automatic physical proxy generation for static geo
 
 The FBX Import Pipeline is a prime example of how community feedback can shape the future development of CRYENGINE, so we look forward to hear/read your thoughts on these new additions!
 
-[Image: /docs/static/attachments/44962658]
+![Image](https://www.cryengine.com/docs/static/attachments/44962658)
 
 **
 F-Key Workflow
@@ -240,9 +218,7 @@ One of the highlights of this system is to be able to have the basic building bl
 Expect more updates on UQS in the future and expansion on it within other systems like Schematyc!
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26217637](
-UQS Documentation Link
-)
+[UQS Documentation Link](/docs/static/engines/cryengine-5/categories/23756816/pages/26217637)
 **
 
 ##
@@ -2023,9 +1999,7 @@ Tweaked:
 Tweaked:
 **
  Note that redistribution of mfc140.dll from Windows/system32 is okay (
-[https://msdn.microsoft.com/en-us/library/ms235264.aspx](
-https://msdn.microsoft.com/en-us/library/ms235264.aspx
-)
+[https://msdn.microsoft.com/en-us/library/ms235264.aspx](https://msdn.microsoft.com/en-us/library/ms235264.aspx)
 ).
 
 -
@@ -7265,9 +7239,7 @@ Known Issue
 **
 - Upgrading projects from CRYENGINE 5.2 to 5.3. See our documentation page
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26218520](
-here.
-)
+[here.](/docs/static/engines/cryengine-5/categories/23756816/pages/26218520)
 **
 
 -
@@ -7287,42 +7259,16 @@ Known Issue
 Known Issue
 **
  - Render entity "GeomCache" is not displayed when placed in a level (workaround - After placing the GeomCache render entity in your level, go to File > Save, and the entity will be rendered).
-[#code-interface-changes](
-Code Interface Changes
-)
-[#release-highlights](
-Release Highlights
-)
-[#game-templates](
-Game Templates
-)
-[#animation](
-Animation
-)
-[#ai](
-AI
-)
-[#audio](
-Audio
-)
-[#coresystem](
-Core/System
-)
-[#graphics-and-rendering](
-Graphics and Rendering
-)
-[#physics](
-Physics
-)
-[#network](
-Network
-)
-[#sandbox](
-Sandbox
-)
-[#tools](
-Tools
-)
-[#known-issues](
-Known Issues
-)
+[Code Interface Changes](#code-interface-changes)
+[Release Highlights](#release-highlights)
+[Game Templates](#game-templates)
+[Animation](#animation)
+[AI](#ai)
+[Audio](#audio)
+[Core/System](#coresystem)
+[Graphics and Rendering](#graphics-and-rendering)
+[Physics](#physics)
+[Network](#network)
+[Sandbox](#sandbox)
+[Tools](#tools)
+[Known Issues](#known-issues)

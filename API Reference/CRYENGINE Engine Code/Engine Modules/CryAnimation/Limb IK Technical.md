@@ -18,15 +18,11 @@ When an IK chain is active, the system figures out the values for the joints tha
 Setup
 
 The IK chains are defined in data, in the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310814](
-chrparams file
-)
+[chrparams file](/docs/static/engines/cryengine-3/categories/1114113/pages/1310814)
 .
 
 For detailed information on how to create the Limb IK chains refer to the dedicated
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310803](
-Limb IK
-)
+[Limb IK](/docs/static/engines/cryengine-3/categories/1114113/pages/1310803)
  setup document.
 
 ##

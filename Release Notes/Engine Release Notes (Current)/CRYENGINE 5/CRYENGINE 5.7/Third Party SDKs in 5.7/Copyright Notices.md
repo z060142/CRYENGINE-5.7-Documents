@@ -7,473 +7,317 @@
 
 ## Child Pages
 
-- [Alembic](Copyright Notices/Alembic.md)
-- [AMD AGS](Copyright Notices/AMD AGS.md)
-- [astc-encoder](Copyright Notices/astc-encoder.md)
-- [BigDigits](Copyright Notices/BigDigits.md)
-- [Boost](Copyright Notices/Boost.md)
-- [Brofiler](Copyright Notices/Brofiler.md)
-- [CrashRpt](Copyright Notices/CrashRpt.md)
-- [curl](Copyright Notices/curl.md)
-- [Detours](Copyright Notices/Detours.md)
-- [DirectX Shader Compiler](Copyright Notices/DirectX Shader Compiler.md)
-- [Discord Game SDK](Copyright Notices/Discord Game SDK.md)
-- [expat](Copyright Notices/expat.md)
-- [FBX SDK](Copyright Notices/FBX SDK.md)
-- [flac](Copyright Notices/flac.md)
-- [FreeType](Copyright Notices/FreeType.md)
-- [functor](Copyright Notices/functor.md)
-- [GLEW](Copyright Notices/GLEW.md)
-- [Google Test](Copyright Notices/Google Test.md)
-- [hdf5](Copyright Notices/hdf5.md)
-- [ilmbase](Copyright Notices/ilmbase.md)
-- [Intel Laptop Gaming TDK](Copyright Notices/Intel Laptop Gaming TDK.md)
-- [jansson](Copyright Notices/jansson.md)
-- [jpeg](Copyright Notices/jpeg.md)
-- [jsmn](Copyright Notices/jsmn.md)
-- [libHttpClient](Copyright Notices/libHttpClient.md)
-- [libmodplug](Copyright Notices/libmodplug.md)
-- [libogg](Copyright Notices/libogg.md)
-- [libsndfile](Copyright Notices/libsndfile.md)
-- [libstrophe](Copyright Notices/libstrophe.md)
-- [LibTomCrypt](Copyright Notices/LibTomCrypt.md)
-- [LibTomMath](Copyright Notices/LibTomMath.md)
-- [libvorbis](Copyright Notices/libvorbis.md)
-- [libvorbisidec](Copyright Notices/libvorbisidec.md)
-- [Lua](Copyright Notices/Lua.md)
-- [lz4](Copyright Notices/lz4.md)
-- [lzma](Copyright Notices/lzma.md)
-- [lzss](Copyright Notices/lzss.md)
-- [md5](Copyright Notices/md5.md)
-- [mongodb](Copyright Notices/mongodb.md)
-- [Mono](Copyright Notices/Mono.md)
-- [mpg123](Copyright Notices/mpg123.md)
-- [mtrand](Copyright Notices/mtrand.md)
-- [ncurses](Copyright Notices/ncurses.md)
-- [netgen](Copyright Notices/netgen.md)
-- [nodejs](Copyright Notices/nodejs.md)
-- [nunit](Copyright Notices/nunit.md)
-- [NVAPI](Copyright Notices/NVAPI.md)
-- [NVIDIA Multiprojection](Copyright Notices/NVIDIA Multiprojection.md)
-- [Oculus SDK](Copyright Notices/Oculus SDK.md)
-- [OpenSSL](Copyright Notices/OpenSSL.md)
-- [OpenVR](Copyright Notices/OpenVR.md)
-- [opus](Copyright Notices/opus.md)
-- [opusfile](Copyright Notices/opusfile.md)
-- [OSVR](Copyright Notices/OSVR.md)
-- [pdcurses](Copyright Notices/pdcurses.md)
-- [png16](Copyright Notices/png16.md)
-- [portaudio](Copyright Notices/portaudio.md)
-- [protobuf](Copyright Notices/protobuf.md)
-- [PVRTexLib](Copyright Notices/PVRTexLib.md)
-- [Python](Copyright Notices/Python.md)
-- [qpOASES](Copyright Notices/qpOASES.md)
-- [Qt + PySide2](Copyright Notices/Qt + PySide2.md)
-- [SDL2](Copyright Notices/SDL2.md)
-- [SDL Mixer](Copyright Notices/SDL Mixer.md)
-- [speex](Copyright Notices/speex.md)
-- [spirv-cross](Copyright Notices/spirv-cross.md)
-- [squash-ccr](Copyright Notices/squash-ccr.md)
-- [squish-ccr](Copyright Notices/squish-ccr.md)
-- [swagger-codegen](Copyright Notices/swagger-codegen.md)
-- [SWIG](Copyright Notices/SWIG.md)
-- [TangentBasisComputation](Copyright Notices/TangentBasisComputation.md)
-- [tiff](Copyright Notices/tiff.md)
-- [Vulkan](Copyright Notices/Vulkan.md)
-- [Windows SDK](Copyright Notices/Windows SDK.md)
-- [winpixeventruntime](Copyright Notices/winpixeventruntime.md)
-- [xNormal](Copyright Notices/xNormal.md)
-- [XSVG](Copyright Notices/XSVG.md)
-- [zlib](Copyright Notices/zlib.md)
+- [Alembic](Copyright%20Notices/Alembic.md)
+- [AMD AGS](Copyright%20Notices/AMD%20AGS.md)
+- [astc-encoder](Copyright%20Notices/astc-encoder.md)
+- [BigDigits](Copyright%20Notices/BigDigits.md)
+- [Boost](Copyright%20Notices/Boost.md)
+- [Brofiler](Copyright%20Notices/Brofiler.md)
+- [CrashRpt](Copyright%20Notices/CrashRpt.md)
+- [curl](Copyright%20Notices/curl.md)
+- [Detours](Copyright%20Notices/Detours.md)
+- [DirectX Shader Compiler](Copyright%20Notices/DirectX%20Shader%20Compiler.md)
+- [Discord Game SDK](Copyright%20Notices/Discord%20Game%20SDK.md)
+- [expat](Copyright%20Notices/expat.md)
+- [FBX SDK](Copyright%20Notices/FBX%20SDK.md)
+- [flac](Copyright%20Notices/flac.md)
+- [FreeType](Copyright%20Notices/FreeType.md)
+- [functor](Copyright%20Notices/functor.md)
+- [GLEW](Copyright%20Notices/GLEW.md)
+- [Google Test](Copyright%20Notices/Google%20Test.md)
+- [hdf5](Copyright%20Notices/hdf5.md)
+- [ilmbase](Copyright%20Notices/ilmbase.md)
+- [Intel Laptop Gaming TDK](Copyright%20Notices/Intel%20Laptop%20Gaming%20TDK.md)
+- [jansson](Copyright%20Notices/jansson.md)
+- [jpeg](Copyright%20Notices/jpeg.md)
+- [jsmn](Copyright%20Notices/jsmn.md)
+- [libHttpClient](Copyright%20Notices/libHttpClient.md)
+- [libmodplug](Copyright%20Notices/libmodplug.md)
+- [libogg](Copyright%20Notices/libogg.md)
+- [libsndfile](Copyright%20Notices/libsndfile.md)
+- [libstrophe](Copyright%20Notices/libstrophe.md)
+- [LibTomCrypt](Copyright%20Notices/LibTomCrypt.md)
+- [LibTomMath](Copyright%20Notices/LibTomMath.md)
+- [libvorbis](Copyright%20Notices/libvorbis.md)
+- [libvorbisidec](Copyright%20Notices/libvorbisidec.md)
+- [Lua](Copyright%20Notices/Lua.md)
+- [lz4](Copyright%20Notices/lz4.md)
+- [lzma](Copyright%20Notices/lzma.md)
+- [lzss](Copyright%20Notices/lzss.md)
+- [md5](Copyright%20Notices/md5.md)
+- [mongodb](Copyright%20Notices/mongodb.md)
+- [Mono](Copyright%20Notices/Mono.md)
+- [mpg123](Copyright%20Notices/mpg123.md)
+- [mtrand](Copyright%20Notices/mtrand.md)
+- [ncurses](Copyright%20Notices/ncurses.md)
+- [netgen](Copyright%20Notices/netgen.md)
+- [nodejs](Copyright%20Notices/nodejs.md)
+- [nunit](Copyright%20Notices/nunit.md)
+- [NVAPI](Copyright%20Notices/NVAPI.md)
+- [NVIDIA Multiprojection](Copyright%20Notices/NVIDIA%20Multiprojection.md)
+- [Oculus SDK](Copyright%20Notices/Oculus%20SDK.md)
+- [OpenSSL](Copyright%20Notices/OpenSSL.md)
+- [OpenVR](Copyright%20Notices/OpenVR.md)
+- [opus](Copyright%20Notices/opus.md)
+- [opusfile](Copyright%20Notices/opusfile.md)
+- [OSVR](Copyright%20Notices/OSVR.md)
+- [pdcurses](Copyright%20Notices/pdcurses.md)
+- [png16](Copyright%20Notices/png16.md)
+- [portaudio](Copyright%20Notices/portaudio.md)
+- [protobuf](Copyright%20Notices/protobuf.md)
+- [PVRTexLib](Copyright%20Notices/PVRTexLib.md)
+- [Python](Copyright%20Notices/Python.md)
+- [qpOASES](Copyright%20Notices/qpOASES.md)
+- [Qt + PySide2](Copyright%20Notices/Qt%20%2B%20PySide2.md)
+- [SDL2](Copyright%20Notices/SDL2.md)
+- [SDL Mixer](Copyright%20Notices/SDL%20Mixer.md)
+- [speex](Copyright%20Notices/speex.md)
+- [spirv-cross](Copyright%20Notices/spirv-cross.md)
+- [squash-ccr](Copyright%20Notices/squash-ccr.md)
+- [squish-ccr](Copyright%20Notices/squish-ccr.md)
+- [swagger-codegen](Copyright%20Notices/swagger-codegen.md)
+- [SWIG](Copyright%20Notices/SWIG.md)
+- [TangentBasisComputation](Copyright%20Notices/TangentBasisComputation.md)
+- [tiff](Copyright%20Notices/tiff.md)
+- [Vulkan](Copyright%20Notices/Vulkan.md)
+- [Windows SDK](Copyright%20Notices/Windows%20SDK.md)
+- [winpixeventruntime](Copyright%20Notices/winpixeventruntime.md)
+- [xNormal](Copyright%20Notices/xNormal.md)
+- [XSVG](Copyright%20Notices/XSVG.md)
+- [zlib](Copyright%20Notices/zlib.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884088](
-Alembic
-)
+[Alembic](Copyright%20Notices/Alembic.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884394](
-AMD AGS
-)
+[AMD AGS](Copyright%20Notices/AMD%20AGS.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884093](
-astc-encoder
-)
+[astc-encoder](Copyright%20Notices/astc-encoder.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884096](
-BigDigits
-)
+[BigDigits](Copyright%20Notices/BigDigits.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884099](
-Boost
-)
+[Boost](Copyright%20Notices/Boost.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884103](
-Brofiler
-)
+[Brofiler](Copyright%20Notices/Brofiler.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884105](
-CrashRpt
-)
+[CrashRpt](Copyright%20Notices/CrashRpt.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884120](
-curl
-)
+[curl](Copyright%20Notices/curl.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884122](
-Detours
-)
+[Detours](Copyright%20Notices/Detours.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884127](
-DirectX Shader Compiler
-)
+[DirectX Shader Compiler](Copyright%20Notices/DirectX%20Shader%20Compiler.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884129](
-Discord Game SDK
-)
+[Discord Game SDK](Copyright%20Notices/Discord%20Game%20SDK.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884134](
-expat
-)
+[expat](Copyright%20Notices/expat.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884139](
-FBX SDK
-)
+[FBX SDK](Copyright%20Notices/FBX%20SDK.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884142](
-flac
-)
+[flac](Copyright%20Notices/flac.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884145](
-FreeType
-)
+[FreeType](Copyright%20Notices/FreeType.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884147](
-functor
-)
+[functor](Copyright%20Notices/functor.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884152](
-GLEW
-)
+[GLEW](Copyright%20Notices/GLEW.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884154](
-Google Test
-)
+[Google Test](Copyright%20Notices/Google%20Test.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884233](
-hdf5
-)
+[hdf5](Copyright%20Notices/hdf5.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884156](
-ilmbase
-)
+[ilmbase](Copyright%20Notices/ilmbase.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884161](
-Intel Laptop Gaming TDK
-)
+[Intel Laptop Gaming TDK](Copyright%20Notices/Intel%20Laptop%20Gaming%20TDK.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884163](
-jansson
-)
+[jansson](Copyright%20Notices/jansson.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884165](
-jpeg
-)
+[jpeg](Copyright%20Notices/jpeg.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884167](
-jsmn
-)
+[jsmn](Copyright%20Notices/jsmn.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884170](
-libHttpClient
-)
+[libHttpClient](Copyright%20Notices/libHttpClient.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884172](
-libmodplug
-)
+[libmodplug](Copyright%20Notices/libmodplug.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884174](
-libogg
-)
+[libogg](Copyright%20Notices/libogg.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884176](
-libsndfile
-)
+[libsndfile](Copyright%20Notices/libsndfile.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884178](
-libstrophe
-)
+[libstrophe](Copyright%20Notices/libstrophe.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884180](
-LibTomCrypt
-)
+[LibTomCrypt](Copyright%20Notices/LibTomCrypt.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884182](
-LibTomMath
-)
+[LibTomMath](Copyright%20Notices/LibTomMath.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884184](
-libvorbis
-)
+[libvorbis](Copyright%20Notices/libvorbis.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884187](
-libvorbisidec
-)
+[libvorbisidec](Copyright%20Notices/libvorbisidec.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884189](
-Lua
-)
+[Lua](Copyright%20Notices/Lua.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884191](
-lz4
-)
+[lz4](Copyright%20Notices/lz4.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884194](
-lzma
-)
+[lzma](Copyright%20Notices/lzma.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884196](
-lzss
-)
+[lzss](Copyright%20Notices/lzss.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884198](
-md5
-)
+[md5](Copyright%20Notices/md5.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884201](
-mongodb
-)
+[mongodb](Copyright%20Notices/mongodb.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884204](
-Mono
-)
+[Mono](Copyright%20Notices/Mono.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884855](
-mpg123
-)
+[mpg123](Copyright%20Notices/mpg123.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884210](
-mtrand
-)
+[mtrand](Copyright%20Notices/mtrand.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884212](
-ncurses
-)
+[ncurses](Copyright%20Notices/ncurses.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884214](
-netgen
-)
+[netgen](Copyright%20Notices/netgen.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884216](
-nodejs
-)
+[nodejs](Copyright%20Notices/nodejs.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884218](
-nunit
-)
+[nunit](Copyright%20Notices/nunit.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884220](
-NVAPI
-)
+[NVAPI](Copyright%20Notices/NVAPI.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884224](
-NVIDIA Multiprojection
-)
+[NVIDIA Multiprojection](Copyright%20Notices/NVIDIA%20Multiprojection.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884226](
-Oculus SDK
-)
+[Oculus SDK](Copyright%20Notices/Oculus%20SDK.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884235](
-OpenSSL
-)
+[OpenSSL](Copyright%20Notices/OpenSSL.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884237](
-OpenVR
-)
+[OpenVR](Copyright%20Notices/OpenVR.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884239](
-opus
-)
+[opus](Copyright%20Notices/opus.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884241](
-opusfile
-)
+[opusfile](Copyright%20Notices/opusfile.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884244](
-OSVR
-)
+[OSVR](Copyright%20Notices/OSVR.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884249](
-pdcurses
-)
+[pdcurses](Copyright%20Notices/pdcurses.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884251](
-png16
-)
+[png16](Copyright%20Notices/png16.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884253](
-portaudio
-)
+[portaudio](Copyright%20Notices/portaudio.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884255](
-protobuf
-)
+[protobuf](Copyright%20Notices/protobuf.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884258](
-PVRTexLib
-)
+[PVRTexLib](Copyright%20Notices/PVRTexLib.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884260](
-Python
-)
+[Python](Copyright%20Notices/Python.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884262](
-qpOASES
-)
+[qpOASES](Copyright%20Notices/qpOASES.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884264](
-Qt + PySide2
-)
+[Qt + PySide2](Copyright%20Notices/Qt%20%2B%20PySide2.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884268](
-SDL2
-)
+[SDL2](Copyright%20Notices/SDL2.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884270](
-SDL Mixer
-)
+[SDL Mixer](Copyright%20Notices/SDL%20Mixer.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884272](
-speex
-)
+[speex](Copyright%20Notices/speex.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884274](
-spirv-cross
-)
+[spirv-cross](Copyright%20Notices/spirv-cross.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884276](
-squash-ccr
-)
+[squash-ccr](Copyright%20Notices/squash-ccr.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884284](
-squish-ccr
-)
+[squish-ccr](Copyright%20Notices/squish-ccr.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884286](
-swagger-codegen
-)
+[swagger-codegen](Copyright%20Notices/swagger-codegen.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884289](
-SWIG
-)
+[SWIG](Copyright%20Notices/SWIG.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884291](
-TangentBasisComputation
-)
+[TangentBasisComputation](Copyright%20Notices/TangentBasisComputation.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884293](
-tiff
-)
+[tiff](Copyright%20Notices/tiff.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884295](
-Vulkan
-)
+[Vulkan](Copyright%20Notices/Vulkan.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884302](
-Windows SDK
-)
+[Windows SDK](Copyright%20Notices/Windows%20SDK.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884312](
-winpixeventruntime
-)
+[winpixeventruntime](Copyright%20Notices/winpixeventruntime.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884320](
-xNormal
-)
+[xNormal](Copyright%20Notices/xNormal.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/89456643](
-XSVG
-)
+[XSVG](Copyright%20Notices/XSVG.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/87884322](
-zlib
-)
+[zlib](Copyright%20Notices/zlib.md)

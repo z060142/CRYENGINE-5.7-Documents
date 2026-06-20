@@ -100,9 +100,7 @@ DoUpdate()
  method, which will be called through a base class's method by applying the
 
 **
-[https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern](
-https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
-)
+[https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern](https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern)
 **
 
 ##
@@ -144,9 +142,5 @@ UQS::Client::CFactoryRegistrationHelper::RegisterAllFactoryInstancesInHub()
 
 This is the same process as is already done when exposing item factories to the UQS core.
 
-[#example-generator-pointsonpuregrid](
-Example Generator: PointsOnPureGrid
-)
-[#registering-custom-generators](
-Registering Custom Generators
-)
+[Example Generator: PointsOnPureGrid](#example-generator-pointsonpuregrid)
+[Registering Custom Generators](#registering-custom-generators)

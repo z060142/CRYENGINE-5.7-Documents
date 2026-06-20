@@ -118,15 +118,7 @@ e_DynamicDistanceShadows
 **
 : Toggles support for having selected objects cast dynamic shadows.
 
-[#placement-and-update](
-Placement and Update
-)
-[#dynamic-distance-shadows](
-Dynamic Distance Shadows
-)
-[#notes](
-Notes
-)
-[#related-cvars](
-Related CVars
-)
+[Placement and Update](#placement-and-update)
+[Dynamic Distance Shadows](#dynamic-distance-shadows)
+[Notes](#notes)
+[Related CVars](#related-cvars)

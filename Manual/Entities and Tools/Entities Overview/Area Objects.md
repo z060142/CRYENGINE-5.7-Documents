@@ -7,20 +7,18 @@
 
 ## Child Pages
 
-- [Occlusion - Preparing a Level](Area Objects/Occlusion - Preparing a Level.md)
-- [Solids](Area Objects/Solids.md)
+- [Occlusion - Preparing a Level](Area%20Objects/Occlusion%20-%20Preparing%20a%20Level.md)
+- [Solids](Area%20Objects/Solids.md)
 
 ## Content
 
-[Image: /docs/static/attachments/29933296]
+![Image](https://www.cryengine.com/docs/static/attachments/29933296)
 
 ##
 Overview
 
 The area objects are used to create three dimensional zones in the level that can be used to trigger events. Access the Area Objects via the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869846](
-Create Object tool
-)
+[Create Object tool](../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object.md)
 .
 
 ##
@@ -150,9 +148,7 @@ Enable to expand Sound Obstruction options.
 Solid
 
 Please see the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048858](
-AreaSolid
-)
+[AreaSolid](/docs/static/engines/cryengine-3/categories/1114113/pages/1048858)
  documentation for more information.
 
 ##
@@ -335,13 +331,9 @@ Specifies if the occluder plane should work from both sides.
 Portal
 
 Please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Area
-)
+[Vis Area](../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Vis%20Area.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869900](
-Portal
-)
+[Portal](../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Portal.md)
 documentation pages for more information.
 
 ##
@@ -505,48 +497,24 @@ Offset voxel grid on the Y axis.
 Vis Area
 
 Please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Area
-)
+[Vis Area](../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Vis%20Area.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869900](
-Portal
-)
+[Portal](../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Portal.md)
 documentations for more information.
 
 ##
 WaterVolume
 
 Please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869912](
-Water Volume
-)
+[Water Volume](../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Water%20Volume.md)
  article for more information.
 
-[#box](
-Box
-)
-[#solid](
-Solid
-)
-[#sphere](
-Sphere
-)
-[#occluderarea](
-OccluderArea
-)
-[#occluderplane](
-OccluderPlane
-)
-[#portal](
-Portal
-)
-[#shape](
-Shape
-)
-[#vis-area](
-Vis Area
-)
-[#watervolume](
-WaterVolume
-)
+[Box](#box)
+[Solid](#solid)
+[Sphere](#sphere)
+[OccluderArea](#occluderarea)
+[OccluderPlane](#occluderplane)
+[Portal](#portal)
+[Shape](#shape)
+[Vis Area](#vis-area)
+[WaterVolume](#watervolume)

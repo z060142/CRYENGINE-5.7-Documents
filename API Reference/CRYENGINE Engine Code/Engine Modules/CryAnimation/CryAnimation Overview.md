@@ -59,9 +59,7 @@ direct control
 Because everything is fixed and predicable, it's possible to guarantee a consistent motion-quality. Animators can always go back and adjust little details in the scene, i.e add or delete keyframes, adjust the lighting, change the camera position, etc.
 
 Therefore creating linear animation is currently not really a technical challenge in games. You still have to make sure that the rendering is not dropping the framerate and that the facial-animations and body-animations are in synch, but this is more a challenge for animators and render-gurus. The animation-technology for linear animation is much simpler then for interactive animations. All linear animations in the CryENGINE are created with
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048798](
-Track View Editor
-)
+[Track View Editor](/docs/static/engines/cryengine-3/categories/1114113/pages/1048798)
 .
 
 ##
@@ -173,11 +171,7 @@ In this case characters are acting on a predefined path. The quality for this ki
 There are many scenes in Crysis where Crytek made use of scripted animations. In the "Sphere cutscene" you can see the Hunter walking uphill and downhill and stepping over obstacles. This is a scripted sequence where the assets were made for walking on flat ground. Crytek used CCD-IK to adapt the legs to the uneven terrain. In the "Fleet cutscene" with the Hunter on the carrier deck, the player can move around, while the Hunter is fighting the VTOL's and other NPC's.
 
 Both scenes look and feel highly interactive, but they are not: the Hunter doesn't respond to the player and the player cannot fight the Hunter. The entire scene is fully linear and scripted; it's basically just animated background graphics. These sequences were created in
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048798](
-Track View Editor
-)
+[Track View Editor](/docs/static/engines/cryengine-3/categories/1114113/pages/1048798)
 . Some of them are using the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048897](
-Flow Graph Editor
-)
+[Flow Graph Editor](/docs/static/engines/cryengine-3/categories/1114113/pages/1048897)
 . When the cut-scene is over, the Hunter turns into an AI-controlled interactive character.

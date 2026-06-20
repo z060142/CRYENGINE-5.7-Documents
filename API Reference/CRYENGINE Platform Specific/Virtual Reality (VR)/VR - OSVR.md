@@ -12,20 +12,14 @@ Overview
 
 For those developers using the
 **
-[http://osvr.github.io/whitepapers/introduction_to_osvr/](
-OSVR open source platform
-)
+[OSVR open source platform](http://osvr.github.io/whitepapers/introduction_to_osvr/)
 **
  then CRYENGINE can be setup so that the OSVR SDK is used and an HMD connects to CRYENGINE.
 
 Chapters:
 
-[#osvr-and-cryengine](
-OSVR and CRYENGINE
-)
-[#osvr-setup-for-cryengine](
-OSVR Setup for CRYENGINE
-)
+[OSVR and CRYENGINE](#osvr-and-cryengine)
+[OSVR Setup for CRYENGINE](#osvr-setup-for-cryengine)
 
 ##
 OSVR and CRYENGINE
@@ -33,9 +27,7 @@ OSVR and CRYENGINE
 OSVR requires an OSVR Server to be running in order for CRYENGINE to connect to the HMD. The easiest way to acquire the server and to test it is to download and install the OSVR Render Manager from
 
 **
-[http://osvr.github.io/using/](
-here.
-)
+[here.](http://osvr.github.io/using/)
 **
 
 After installation, Render Manager creates a series of shortcuts to the start menu. To start the server, click on the corresponding server shortcut:

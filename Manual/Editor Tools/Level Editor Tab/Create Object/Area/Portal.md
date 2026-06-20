@@ -118,9 +118,7 @@ Ambient Occlusion.
 Setting Up Portals
 
 Portals are used to add a visual "entrance" into the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Area
-)
+[Vis Area](Vis%20Area.md)
  and allows users to view and seamlessly transition in and out of a Vis Area.
 
 -
@@ -128,11 +126,11 @@ Create the portal shape according to the size of the entrance.
 
 -
 Keep the size as small as possible (also the size of the portal can't be bigger then the Vis Area itself).
-[Image: /docs/static/attachments/44969529]
+![Image](https://www.cryengine.com/docs/static/attachments/44969529)
 
 -
 The Portal has to be half inside the Vis Area (usingin the Top and Front viewports helps).
-[Image: /docs/static/attachments/44969530]
+![Image](https://www.cryengine.com/docs/static/attachments/44969530)
 
 ##
 Enabling and Disabling Portals via Flow Graph
@@ -161,12 +159,6 @@ Ctrl + Shift + LMB
 
 This is true for all Area objects, except Occluders.
 
-[#properties](
-Properties
-)
-[#setting-up-portals](
-Setting Up Portals
-)
-[#enabling-and-disabling-portals-via-flow-graph](
-Enabling and Disabling Portals via Flow Graph
-)
+[Properties](#properties)
+[Setting Up Portals](#setting-up-portals)
+[Enabling and Disabling Portals via Flow Graph](#enabling-and-disabling-portals-via-flow-graph)

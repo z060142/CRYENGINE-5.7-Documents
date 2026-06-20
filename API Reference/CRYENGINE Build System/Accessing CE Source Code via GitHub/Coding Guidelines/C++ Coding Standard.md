@@ -10,9 +10,7 @@
 With CRYENGINE 5.1.0, we have
 deprecated
 the support for Visual Studio 2012 and 2013. For more information, please check
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26876722](
-Visual Studio Supported Versions
-)
+[Visual Studio Supported Versions](../../Visual%20Studio%20Supported%20Versions.md)
 .
 
 This has implications on the language features that can be used in the code-base.
@@ -1757,9 +1755,7 @@ The header files should follow the below mentioned format:
 
 -
 See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25530454#C++CodingStandard-copyrightnotice](
-Copyright notice
-)
+[Copyright notice](C%2B%2B%20Coding%20Standard.md#C%2B%2BCodingStandard-copyrightnotice)
 
 -
 Always use '
@@ -1801,9 +1797,7 @@ The source files should follow the below mentioned format:
 
 -
 See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25530454#C++CodingStandard-copyrightnotice](
-Copyright notice
-)
+[Copyright notice](C%2B%2B%20Coding%20Standard.md#C%2B%2BCodingStandard-copyrightnotice)
 
 -
 Classes should not be split across multiple source files.
@@ -1837,17 +1831,13 @@ C++11 and newer, on the use of Modern C++
 Up to CRYENGINE 5.1.X, only certain features of C++11 were allowed due to limited compiler support across platforms.
 
 Starting with CRYENGINE 5.2 we have dropped support for some of the older compilers, and the state of this document reflects 5.2. Specifically, when considering future use, check the current minimum compiler supported at
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306511](
-Visual Studio Supported Versions_dup
-)
+[Visual Studio Supported Versions_dup](/docs/static/engines/cryengine-5/categories/23756813/pages/23306511)
  page.
 
 The use of entire C++11 is allowed, with certain exceptions listed below.
 
 For a full list of allowed features, see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/44972277](
-Allowed C++ Standard Features
-)
+[Allowed C++ Standard Features](Allowed%20C%2B%2B%20Standard%20Features.md)
 .
 
 The following features
@@ -3028,10 +3018,7 @@ if (tooLateForMeeting == false) // better to avoid: "If the fact that it's too l
 
  Below is a compact version of bitsquid blog post:
 
-[http://bitsquid.blogspot.de/2012/08/cleaning-bad-code.html](
-http://bitsquid.blogspot.de/2012/08/cleaning-bad-code.html
-
-)
+[http://bitsquid.blogspot.de/2012/08/cleaning-bad-code.html](http://bitsquid.blogspot.de/2012/08/cleaning-bad-code.html)
 
  Smart programmers organize the way they work so that they don't have to be that smart.
 
@@ -3052,11 +3039,7 @@ http://bitsquid.blogspot.de/2012/08/cleaning-bad-code.html
 
  Below is a compact version of bitsquid blog post:
 
-[http://bitsquid.blogspot.de/2012/08/cleaning-bad-code.html](
-
- http://bitsquid.blogspot.de/2012/08/cleaning-bad-code.html
-
-)
+[http://bitsquid.blogspot.de/2012/08/cleaning-bad-code.html](http://bitsquid.blogspot.de/2012/08/cleaning-bad-code.html)
 
  Shared mutable state complicates understanding of code since a single piece of code could easily change behavior of a completely different piece of code. Getting rid of shared mutable state makes multithreading much simpler.
 
@@ -3111,21 +3094,9 @@ Create...
 -
  In very extreme cases, you may consider getting rid of objects entirely and implement the functionality as pure functions without side effects.
  See also John Carmack’s blog post:
-[http://gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php](
+[http://gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php](http://gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php)
 
-http://gamasutra.com/view/news/169296/Indepth_Functional_programming_in_C.php
-
-)
-
-[#coding-standard](
-Coding standard
-)
-[#naming-conventions](
-Naming conventions
-)
-[#c-11-and-newer-on-the-use-of-modern-c](
-C++11 and newer, on the use of Modern C++
-)
-[#code-quality](
-Code quality
-)
+[Coding standard](#coding-standard)
+[Naming conventions](#naming-conventions)
+[C++11 and newer, on the use of Modern C++](#c-11-and-newer-on-the-use-of-modern-c)
+[Code quality](#code-quality)

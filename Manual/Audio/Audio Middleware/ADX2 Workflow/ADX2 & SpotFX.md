@@ -29,9 +29,7 @@ Audio
 Tools → Level Editor → Create Object
 **
 ), and can be placed anywhere in your level. For more information on Audio Trigger Spots, refer to the
-[/docs/static/engines/cryengine-5/categories/23756816](
-Audio Entities & Flow Graph Nodes
-)
+[Audio Entities & Flow Graph Nodes](/docs/static/engines/cryengine-5/categories/23756816)
  documentation.
 
 ##
@@ -72,7 +70,7 @@ option is located within this tab. Set its value to
 3D Positioning
 **
  from the dropdown as shown in the image below.
-[Image: /docs/static/attachments/44967859]
+![Image](https://www.cryengine.com/docs/static/attachments/44967859)
 
 *
 Pan Type
@@ -101,7 +99,7 @@ In the
 Attenuation Distance → Max
 **
  field to any value you like.
-[Image: /docs/static/attachments/44967860]
+![Image](https://www.cryengine.com/docs/static/attachments/44967860)
 
 *
 Attenuation Distance
@@ -160,7 +158,7 @@ Effective Angle
 **
  tab.
 
-[Image: /docs/static/attachments/44967863]
+![Image](https://www.cryengine.com/docs/static/attachments/44967863)
 
 *
 Effective Angle
@@ -176,19 +174,13 @@ All the above functionality is also relevant to sounds that are not triggered by
 Please refer to the following pages for information on connecting Triggers for those use cases.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964886](
-Audio & Animations
-)
+[Audio & Animations](../../Audio%20Overview/Audio%20%26%20Animations.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964916](
-Audio & Particles*
-)
+[Audio & Particles*](../../Audio%20Overview/Audio%20%26%20Particles.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816](
-Audio & Trackview
-)
+[Audio & Trackview](/docs/static/engines/cryengine-5/categories/23756816)
 
 ##
 Randomizing Sounds on Audio Trigger Spots
@@ -196,9 +188,7 @@ Randomizing Sounds on Audio Trigger Spots
 An Audio Trigger Spot also offers randomization that allows sounds to be re-triggered at a certain time around a defined radius. This, for example, can be used to simulate the sound of seagulls at different points in the sky.
 
 An example of this randomization can be found in the Audio Showcase
-[/docs](
-tutorial
-)
+[tutorial](/docs)
 .
 
 -
@@ -211,7 +201,7 @@ Random No Repeat
 **
 using the dropdown on its master audio track as shown in the image below. This ensures that all of the Cue's audio tracks are played before the first track is triggered again.
 
-[Image: /docs/static/attachments/44967882]
+![Image](https://www.cryengine.com/docs/static/attachments/44967882)
 
 *
 Random No Repeat
@@ -294,7 +284,5 @@ Properties
 Setting up this functionality in CRYENGINE is more efficient in terms of performance when using obstruction/occlusion on the audio. The randomized positioning of audio also takes into account the obstruction/occlusion of other materials placed between the sound's spawn point and the listener's position.
 
 More on obstruction/occlusion can be found
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964914](
-here
-)
+[here](../../Audio%20Overview/Audio%20%26%20Occlusion.md)
 .

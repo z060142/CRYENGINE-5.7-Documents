@@ -1403,24 +1403,10 @@ AI action of this agent was finished. data.ObjectName is the action name, data.i
 
  |
 
-[#perception](
-Perception
-)
-[#weapon-related](
-Weapon-related
-)
-[#navigation](
-Navigation
-)
-[#tactics](
-Tactics
-)
-[#groups](
-Groups
-)
-[#flow-graph](
-Flow Graph
-)
-[#other-signals](
-Other Signals
-)
+[Perception](#perception)
+[Weapon-related](#weapon-related)
+[Navigation](#navigation)
+[Tactics](#tactics)
+[Groups](#groups)
+[Flow Graph](#flow-graph)
+[Other Signals](#other-signals)

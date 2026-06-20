@@ -52,9 +52,7 @@ For a detailed explanation on how to correctly setup the
 Audio Trigger Spot
 *
  entity in your level, follow the instructions found
-[/docs/static/engines/cryengine-5/categories/23756816](
-here.
-)
+[here.](/docs/static/engines/cryengine-5/categories/23756816)
 
 ##
 Working with Attenuation
@@ -69,7 +67,7 @@ Audio Trigger Spot
 *
 entity in your level.
 
-[Image: /docs/static/attachments/44968264]
+![Image](https://www.cryengine.com/docs/static/attachments/44968264)
 
 After you have finished setting up the attenuation for your sound, you need to generate your Soundbanks and connect the audio system Trigger on the
 *
@@ -96,9 +94,9 @@ After you enable Cone Attenuation, you can recreate your Soundbanks and then rel
 Refresh Audio
  menu option in CRYENGINE.
 
-[Image: /docs/static/attachments/44968265]
+![Image](https://www.cryengine.com/docs/static/attachments/44968265)
 
-[Image: /docs/static/attachments/44968266]
+![Image](https://www.cryengine.com/docs/static/attachments/44968266)
 
 The y-axis of the
 *
@@ -106,7 +104,7 @@ Audio Trigger Spot
 *
  will always point to the front of the Cone.
 
-[Image: /docs/static/attachments/44968267]
+![Image](https://www.cryengine.com/docs/static/attachments/44968267)
 
 When you are now moving around the
 *
@@ -124,9 +122,7 @@ Audio Trigger Spot
 . The FMOD Studio Attenuation can also be used to setup audio system Triggers that can be called for Material Effects, Particles, or Animations.
 
 If you want to learn how to connect the audio system Triggers for those use cases, then take a look at the pages under
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964864](
-Audio Overview
-)
+[Audio Overview](../../Audio%20Overview.md)
 .
 
 ##
@@ -181,23 +177,11 @@ RadiusRandom
 Setting up this functionality in CRYENGINE is more performance effective, when you use Obstruction/Occlusion on the Audio. The randomized positioning also considers the Obstruction/Occlusion of other materials placed between the spawn point of the sound and the listener's position.
 
 You can learn more about Obstruction and Occlusion in CRYENGINE
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964914](
-here
-)
+[here](../../Audio%20Overview/Audio%20%26%20Occlusion.md)
 .
 
-[#fmod-studio-and-spotfx](
-FMOD Studio and SpotFX
-)
-[#setting-up-spotfx-in-fmod-studio-and-cryengine](
-Setting up SpotFX in FMOD Studio and CRYENGINE
-)
-[#setting-up-the-audio-trigger-spot-entity-in-cryengine](
-Setting up the Audio Trigger Spot Entity in CRYENGINE
-)
-[#other-use-cases-for-fmod-studio-attenuation](
-Other Use Cases for FMOD Studio Attenuation
-)
-[#randomizing-sound-on-the-audio-trigger-spot](
-Randomizing Sound on the Audio Trigger Spot
-)
+[FMOD Studio and SpotFX](#fmod-studio-and-spotfx)
+[Setting up SpotFX in FMOD Studio and CRYENGINE](#setting-up-spotfx-in-fmod-studio-and-cryengine)
+[Setting up the Audio Trigger Spot Entity in CRYENGINE](#setting-up-the-audio-trigger-spot-entity-in-cryengine)
+[Other Use Cases for FMOD Studio Attenuation](#other-use-cases-for-fmod-studio-attenuation)
+[Randomizing Sound on the Audio Trigger Spot](#randomizing-sound-on-the-audio-trigger-spot)

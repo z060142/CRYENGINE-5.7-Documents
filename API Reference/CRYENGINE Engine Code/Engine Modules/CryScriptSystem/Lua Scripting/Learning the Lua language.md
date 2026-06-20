@@ -18,19 +18,13 @@ Recommended Reading
 Before working working scripts with CryENGINE, it's strongly suggested to learn more the Lua language. The following website hold useful documentation about the language.
 
 -
-[http://www.lua.org/manual/5.1/](
-Lua 5.1 Reference Manual
-)
+[Lua 5.1 Reference Manual](http://www.lua.org/manual/5.1/)
 .
 
 -
-[http://www.inf.puc-rio.br/~roberto/pil2/](
-Programming in Lua, Second Edition
-)
+[Programming in Lua, Second Edition](http://www.inf.puc-rio.br/~roberto/pil2/)
 .
 
 -
-[http://www.charlesriver.com/Books/BookDetail.aspx?productID=109811](
-Game Development with Lua
-)
+[Game Development with Lua](http://www.charlesriver.com/Books/BookDetail.aspx?productID=109811)
 .

@@ -16,14 +16,10 @@ We are very pleased to bring you the 5.4.0 Preview 3 release. This is another â€
 Pull Requests
 
 As our community you will know that
-[https://www.cryengine.com/news/cryengine-github-pull-requests-are-go-here-s-what-you-need-to-know](
-CRYENGINE Pull Requests
-)
+[CRYENGINE Pull Requests](https://www.cryengine.com/news/cryengine-github-pull-requests-are-go-here-s-what-you-need-to-know)
 are go - for more information
 about Pull Requests follow this
-[https://help.github.com/articles/creating-a-pull-request/](
-link
-)
+[link](https://help.github.com/articles/creating-a-pull-request/)
 on GitHub. Please note that the 'branch' for submitting CRYENGINE Pull Requests is called
 *
 pullrequests
@@ -37,9 +33,7 @@ Finally, thank you once again for your feedback, please keep it coming (but thro
 Vulkan Support in CRYENGINE
 
 We are very pleased to let you know that we have begun adding
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594203](
-documentation
-)
+[documentation](../../../../../../Manual/Beta%20Features/Vulkan%20Support%20in%20CRYENGINE.md)
  for Vulkan support in CRYENGINE. We will continue to add to our Rendering documentation over the coming months.
 
 ##
@@ -47,9 +41,7 @@ Accessing the 5.4.0 Preview 3 Release
 
 -
 Go to
-[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview3](
-https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview3
-)
+[https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview3](https://github.com/CRYTEK/CRYENGINE/releases/5.4.0_preview3)
 
 -
 Download CRYENGINE_preview_5.4.0.108_pc.zip
@@ -64,21 +56,15 @@ Double-click on â€œInstallEngine.bat"
 Code Interface Changes
 
 For more information, see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962727](
-Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)
-)
+[Important CRYENGINE 5.4 Data and Code Changes (5.4 Preview Releases)](../Important%20CRYENGINE%205.4%20Data%20and%20Code%20Changes%20(5.4%20Preview%20Releases).md)
 **
 
 **
 article.
 
 If you are upgrading from CRYENGINE 5.3, please read this topic:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962700](
-Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)
-)
-[/docs](
-.
-)
+[Migrating from CRYENGINE 5.3 to CRYENGINE 5.4 (5.4 Preview Releases)](../Migrating%20from%20CRYENGINE%205.3%20to%20CRYENGINE%205.4%20(5.4%20Preview%20Releases).md)
+[.](/docs)
 
 ##
 Known Issues

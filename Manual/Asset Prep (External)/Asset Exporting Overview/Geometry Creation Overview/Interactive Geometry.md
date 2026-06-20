@@ -7,29 +7,21 @@
 
 ## Child Pages
 
-- [Breakable Objects](Interactive Geometry/Breakable Objects.md)
-- [Ladder Object](Interactive Geometry/Ladder Object.md)
-- [Pickable Objects](Interactive Geometry/Pickable Objects.md)
-- [Smart Objects](Interactive Geometry/Smart Objects.md)
+- [Breakable Objects](Interactive%20Geometry/Breakable%20Objects.md)
+- [Ladder Object](Interactive%20Geometry/Ladder%20Object.md)
+- [Pickable Objects](Interactive%20Geometry/Pickable%20Objects.md)
+- [Smart Objects](Interactive%20Geometry/Smart%20Objects.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308020](
-Breakable Objects
-)
+[Breakable Objects](Interactive%20Geometry/Breakable%20Objects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308044](
-Ladder Object
-)
+[Ladder Object](Interactive%20Geometry/Ladder%20Object.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308034](
-Pickable Objects
-)
+[Pickable Objects](Interactive%20Geometry/Pickable%20Objects.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308035](
-Smart Objects
-)
+[Smart Objects](Interactive%20Geometry/Smart%20Objects.md)

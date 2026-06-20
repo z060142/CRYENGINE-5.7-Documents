@@ -265,13 +265,9 @@ Another important option is
 Important Properties Set Elsewhere
 
 because different parts, and even different sections of the same part, can have different surface types, and thus different friction/elasticity, RigidBody's friction and elasticity (bounciness) are set via
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448756](
-surface types
-)
+[surface types](../../Materials/Material%20Effects.md)
 . Surfacetype is set in cgf's material properties (via the Material Editor), or directly for primitive components. Each surfacetype has fixed friction and elasticity values, and friction and elasticity at a specific contact point are set to be the average of those values of the two involved surface types. Sample friction values can be taken from
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796943#PhysicsEntities-ReferenceValues](
-the same place as densities
-)
+[the same place as densities](../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Legacy%20Entities/Physics%20Entities.md#PhysicsEntities-ReferenceValues)
 .
 
 ##

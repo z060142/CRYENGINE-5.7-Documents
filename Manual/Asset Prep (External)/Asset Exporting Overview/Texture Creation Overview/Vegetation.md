@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933577]
+![Image](https://www.cryengine.com/docs/static/attachments/29933577)
 
 ##
 Overview
@@ -18,23 +18,13 @@ Section
 The vegetation shader provides special features for foliage and grass, most notably translucency (light transmittance).
 
 To open the material dialog for vegetation objects, right-click on your object in the vegetation list and press "Go To Object Material". For more information on vegetation please visit the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310884](
-Vegetation
-)
+[Vegetation](/docs/static/engines/cryengine-3/categories/1114113/pages/1310884)
  section.
 
-[#section](
-Section
-)
-[#textures](
-Textures
-)
-[#shader-parameters](
-Shader Parameters
-)
-[#shader-generation-parameters](
-Shader Generation Parameters
-)
+[Section](#section)
+[Textures](#textures)
+[Shader Parameters](#shader-parameters)
+[Shader Generation Parameters](#shader-generation-parameters)
 
 ##
 Textures
@@ -56,7 +46,7 @@ Diffuse
  |
 RGB contains diffuse color. Alpha should contain opacity (used for alpha test).
 
-[Image: /docs/static/attachments/28898612]
+![Image](https://www.cryengine.com/docs/static/attachments/28898612)
 
  |
 
@@ -86,9 +76,7 @@ Heightmap
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048776](
-Tessellation and Displacement
-)
+[Tessellation and Displacement](/docs/static/engines/cryengine-3/categories/1114113/pages/1048776)
  for more information.
 
  |
@@ -99,9 +87,7 @@ Detail
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048715](
-Unified Detail Mapping
-)
+[Unified Detail Mapping](/docs/static/engines/cryengine-3/categories/1114113/pages/1048715)
  for more information.
 
  |
@@ -114,7 +100,7 @@ Opacity
  |
 Grayscale map that defines the thickness of foliage and how much light can pass through from the backside (transmittance).
 
-[Image: /docs/static/attachments/28898610]
+![Image](https://www.cryengine.com/docs/static/attachments/28898610)
 
  |
 
@@ -124,9 +110,7 @@ Blending Map
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048616](
-Blend Layer
-)
+[Blend Layer](/docs/static/engines/cryengine-3/categories/1114113/pages/1048616)
  for more information.
 
  |
@@ -137,9 +121,7 @@ Second Gloss Map
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048616](
-Blend Layer
-)
+[Blend Layer](/docs/static/engines/cryengine-3/categories/1114113/pages/1048616)
  for more information.
 
  |
@@ -150,9 +132,7 @@ Second Height Map
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048616](
-Blend Layer
-)
+[Blend Layer](/docs/static/engines/cryengine-3/categories/1114113/pages/1048616)
  for more information.
 
  |
@@ -163,9 +143,7 @@ Second Diffuse Map
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048616](
-Blend Layer
-)
+[Blend Layer](/docs/static/engines/cryengine-3/categories/1114113/pages/1048616)
  for more information.
 
  |
@@ -176,9 +154,7 @@ Second Bump Map
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048616](
-Blend Layer
-)
+[Blend Layer](/docs/static/engines/cryengine-3/categories/1114113/pages/1048616)
  for more information.
 
  |
@@ -232,9 +208,7 @@ Blend Factor
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048616](
-Blend Layer
-)
+[Blend Layer](/docs/static/engines/cryengine-3/categories/1114113/pages/1048616)
  for more information.
 
  |
@@ -248,9 +222,7 @@ Blend Falloff
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048616](
-Blend Layer
-)
+[Blend Layer](/docs/static/engines/cryengine-3/categories/1114113/pages/1048616)
  for more information.
 
  |
@@ -264,9 +236,7 @@ Blend Layer 2 Spec
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048616](
-Blend Layer
-)
+[Blend Layer](/docs/static/engines/cryengine-3/categories/1114113/pages/1048616)
  for more information.
 
  |
@@ -280,9 +250,7 @@ Blend Layer 2 Tiling
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048616](
-Blend Layer
-)
+[Blend Layer](/docs/static/engines/cryengine-3/categories/1114113/pages/1048616)
  for more information.
 
  |
@@ -332,9 +300,7 @@ Indirect bounce color
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048911](
-Illum Shader
-)
+[Illum Shader](/docs/static/engines/cryengine-3/categories/1114113/pages/1048911)
  for more information.
 
  |
@@ -458,9 +424,7 @@ Detail mapping
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048715](
-Unified Detail Mapping
-)
+[Unified Detail Mapping](/docs/static/engines/cryengine-3/categories/1114113/pages/1048715)
  for more information.
 
  |
@@ -475,9 +439,7 @@ DEPRECATED (Prefer Illum shader for surfaces that require the blend layer)
 **
 
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048616](
-Blend Layer
-)
+[Blend Layer](/docs/static/engines/cryengine-3/categories/1114113/pages/1048616)
  for more information.
 
  |
@@ -488,9 +450,7 @@ Displacement mapping
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048911](
-Illum Shader
-)
+[Illum Shader](/docs/static/engines/cryengine-3/categories/1114113/pages/1048911)
  for more information.
 
  |
@@ -501,9 +461,7 @@ Phong tessellation
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048911](
-Illum Shader
-)
+[Illum Shader](/docs/static/engines/cryengine-3/categories/1114113/pages/1048911)
  for more information.
 
  |
@@ -514,9 +472,7 @@ PN triangles tessellation
 
  |
 See
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048911](
-Illum Shader
-)
+[Illum Shader](/docs/static/engines/cryengine-3/categories/1114113/pages/1048911)
  for more information.
 
  |

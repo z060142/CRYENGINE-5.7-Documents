@@ -34,11 +34,11 @@ Recording must be done in game mode.
 
 -
 If using a trackview sequence, set it to playback in the engine, here is an example flowgraph:
-[Image: /docs/static/attachments/53542936]
+![Image](https://www.cryengine.com/docs/static/attachments/53542936)
 
 2. Convergence is fixed at 0.14m by default, here is a quick flowgraph example that sets the convergence at what the player is looking at (what is in focus):
 
-[Image: /docs/static/attachments/53542937]
+![Image](https://www.cryengine.com/docs/static/attachments/53542937)
 
 3. Set the following CVars to begin the capture:
 
@@ -60,7 +60,7 @@ r_ShowRenderTarget 26
 **
 . Which will look like this:
 
-[Image: /docs/static/attachments/53542932]
+![Image](https://www.cryengine.com/docs/static/attachments/53542932)
 
 ##
 Dealing with the output
@@ -68,9 +68,7 @@ Dealing with the output
 -
 Download
 
-[http://tripp.arrozcru.org/](
-ffmpeg
-)
+[ffmpeg](http://tripp.arrozcru.org/)
 
 and add it to the system path environment variable.
 
@@ -86,14 +84,12 @@ If you edit multiple videos, it's easiest to set an adjustment layer above the f
 
 You can also edit the TGA streams themselves now they are renamed and placed in L and R folders; but output them to the L and R videos before moving on.
 
-[Image: /docs/static/attachments/53542935]
+![Image](https://www.cryengine.com/docs/static/attachments/53542935)
 
 -
 Download
 
-[http://stereo.jpn.org/eng/stvmkr/](
-Stereo Movie Maker
-)
+[Stereo Movie Maker](http://stereo.jpn.org/eng/stvmkr/)
 
 -
 Click File -> Open Left/Right movies...

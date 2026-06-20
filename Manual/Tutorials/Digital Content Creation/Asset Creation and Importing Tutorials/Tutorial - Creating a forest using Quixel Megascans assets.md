@@ -8,3 +8,5 @@
 ## Content
 
 How to prepare and import Quixel Megascan assets and use terrain features to build a forest scene
+
+[Embed: https://www.youtube.com/watch?v=9P3Fr2TL9mo&list=PLpCgy91Y5vMtWDdz1L0UnFo7lwi4LDBUq&index=1]

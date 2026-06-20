@@ -60,24 +60,12 @@ Align the reference camera to the camera bone by position the camera to 0, 0, 0
 
 When assigning animation onto the actor in the trackview sequence, you will see the reference camera is tracking the movement of the actor's camerabone. Assign the maincamera in the trackview, and start aligns the main camera to the reference camera.
 
-[#link-the-camera-to-the-character](
-Link the camera to the character
-)
-[#link-the-camera-to-the-characters-camera-bone](
-Link the camera to the character's camera bone
-)
-[#link-the-camera-to-the-tagpoint](
-Link the camera to the tagpoint
-)
-[#link-the-camera-to-the-character](
-Link the camera to the character
-)
-[#link-the-camera-to-the-characters-camera-bone](
-Link the camera to the character's camera bone
-)
-[#link-the-camera-to-the-tagpoint](
-Link the camera to the tagpoint
-)
+[Link the camera to the character](#link-the-camera-to-the-character)
+[Link the camera to the character's camera bone](#link-the-camera-to-the-characters-camera-bone)
+[Link the camera to the tagpoint](#link-the-camera-to-the-tagpoint)
+[Link the camera to the character](#link-the-camera-to-the-character)
+[Link the camera to the character's camera bone](#link-the-camera-to-the-characters-camera-bone)
+[Link the camera to the tagpoint](#link-the-camera-to-the-tagpoint)
 
 ##
 Overview

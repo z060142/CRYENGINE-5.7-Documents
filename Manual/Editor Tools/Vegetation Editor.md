@@ -19,9 +19,7 @@ From trees, grass and flowers to other naturally occurring elements such as rock
  extension can be assigned to the vegetation tool and painted across a created terrain.
 
 Adding these objects via the Vegetation Editor rather than placing them as static objects/
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27593400](
-brushes
-)
+[brushes](../Entities%20and%20Tools/Entities%20Overview/Brushes.md)
  to a level enables them to react to various interconnected physics-based systems, such as those of wind and similar environmental conditions, within the engine. Additionally, the tool functions by;
 
 -
@@ -39,13 +37,13 @@ Tools → Vegetation Editor
 
 and contains the following components:
 
-[Image: /docs/static/attachments/36839127]
+![Image](https://www.cryengine.com/docs/static/attachments/36839127)
 
 ##
 1. Menu
 
 Accessed via the
-[Image: /docs/static/attachments/36850477]
+![Image](https://www.cryengine.com/docs/static/attachments/36850477)
  icon situated at the top-right corner of the Vegetation Editor, it includes the following options:
 
 ##
@@ -388,7 +386,7 @@ Description
 
  |
 
-[Image: /docs/static/attachments/54427653]
+![Image](https://www.cryengine.com/docs/static/attachments/54427653)
 
  |
 **
@@ -400,7 +398,7 @@ Creates a new group of default name to which any number of vegetation objects ma
 
  |
 
-[Image: /docs/static/attachments/54427654]
+![Image](https://www.cryengine.com/docs/static/attachments/54427654)
 
  |
 **
@@ -412,7 +410,7 @@ Opens a separate window to select vegetation objects from the project's asset fo
 
  |
 
-[Image: /docs/static/attachments/54427655]
+![Image](https://www.cryengine.com/docs/static/attachments/54427655)
 
  |
 **
@@ -424,7 +422,7 @@ Creates a copy of the selected vegetation object within the same group.
 
  |
 
-[Image: /docs/static/attachments/54427656]
+![Image](https://www.cryengine.com/docs/static/attachments/54427656)
 
  |
 **
@@ -441,7 +439,7 @@ Removes the selected vegetation object from the Vegetation Editor and the level.
 
 The Objects Overview window lists all assets that have been added to the Vegetation Editor and their respective groups.
 
-[Image: /docs/static/attachments/54427657]
+![Image](https://www.cryengine.com/docs/static/attachments/54427657)
 
 The visibility of individual objects/groups can be toggled from the check boxes situated against their respective listings as shown. Depending on whether the header, a group/object or an empty space within the Overview window has been
 **
@@ -748,7 +746,7 @@ Description
 
  |
 
-[Image: /docs/static/attachments/44970837]
+![Image](https://www.cryengine.com/docs/static/attachments/44970837)
 
  |
 With specific vegetation objects/groups of objects selected within the Overview Window, the
@@ -767,7 +765,7 @@ LMB
 
  |
 
-[Image: /docs/static/attachments/44970838]
+![Image](https://www.cryengine.com/docs/static/attachments/44970838)
 
  |
 Working contrary to the
@@ -790,7 +788,7 @@ LMB
 
  |
 
-[Image: /docs/static/attachments/44970839]
+![Image](https://www.cryengine.com/docs/static/attachments/44970839)
 
  |
 Permits selecting a painted vegetation object as these cannot be picked using the standard
@@ -974,9 +972,7 @@ Allow Indoor
 
  |
 Enables vegetation objects contained in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Areas
-)
+[Vis Areas](Level%20Editor%20Tab/Create%20Object/Area/Vis%20Area.md)
  to be rendered within a level.
 
  |
@@ -1000,9 +996,7 @@ The magnitude of wind effects within a level is influenced by that of the global
 Wind Vector
 **
  value set in the
-[/docs/static/engines/cryengine-5/categories/23756816](
-Environment Editor (Old as of 26/2)
-)
+[Environment Editor (Old as of 26/2)](/docs/static/engines/cryengine-5/categories/23756816)
 .
 
  |
@@ -1048,13 +1042,11 @@ Ground Decal Material
 Decal materials refer to image patterns that may be placed under vegetation object models; examples include concrete or mud type designs, for instance.
 
 Custom materials can be imported from the project's Assets directory via the
-[Image: /docs/static/attachments/36839150]
+![Image](https://www.cryengine.com/docs/static/attachments/36839150)
  icon against the parameter field, which can then be customized in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259544](
-Material Editor
-)
+[Material Editor](Material%20Editor.md)
  by clicking
-[Image: /docs/static/attachments/36839151]
+![Image](https://www.cryengine.com/docs/static/attachments/36839151)
 .
 
  |
@@ -1111,9 +1103,7 @@ Auto Merged
 
  |
 When enabled, CRYENGINE's physics, explosions, local and global wind like subsystems are combined to create realistic vegetation effects with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285889](
-Merged Mesh
-)
+[Merged Mesh](../Tutorials/Game%20and%20Level%20Design/Vegetation%20Tutorials/Tutorial%20-%20Vegetation%20Asset%20Creation/Vegetation%2002%20Grass%20(Merged%20Meshes).md)
  technology.
 
  |
@@ -1396,9 +1386,7 @@ This feature needs to be also enabled in the
 Level Settings
 **
  panel. For more information, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848989](
-Level Settings
-)
+[Level Settings](Level%20Editor%20Tab/Level%20Settings.md)
  page.
 
  |
@@ -1474,13 +1462,11 @@ Material
 
  |
 Assigns a custom material to the objects of a Brush, imported using the
-[Image: /docs/static/attachments/36839150]
+![Image](https://www.cryengine.com/docs/static/attachments/36839150)
  icon and edited in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259544](
-Material Editor
-)
+[Material Editor](Material%20Editor.md)
  via
-[Image: /docs/static/attachments/36839151]
+![Image](https://www.cryengine.com/docs/static/attachments/36839151)
 .
 
  |
@@ -1570,9 +1556,7 @@ Controls blending with terrain layers.
  |
 For more information, please refer to the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36340007](
-Terrain Layer Blending into Objects
-)
+[Terrain Layer Blending into Objects](../Materials/Terrain%20Layer%20Blending%20into%20Objects.md)
 
 page.
 
@@ -1621,15 +1605,13 @@ Object
 
  |
 Points to the mesh file utilized by the Brush's objects, which can be replaced with an alternate mesh from the project's Asset directory using the
-[Image: /docs/static/attachments/36839150]
+![Image](https://www.cryengine.com/docs/static/attachments/36839150)
  icon.
 
 Clicking
-[Image: /docs/static/attachments/36839151]
+![Image](https://www.cryengine.com/docs/static/attachments/36839151)
  opens the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966294](
-FBX
-)
+[FBX](FBX%20Import%20Tools.md)
  importer to edit
 **
 .cgf
@@ -1653,9 +1635,7 @@ Use On Terrain Layers
 Lists and allows the selected vegetation object to be procedurally generated upon specific layers of terrain texture.
 
 When a specific terrain layer has been checked under this option, that layer will automatically generate instances of the selected vegetation object when painted/flooded upon the terrain using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849146](
-Terrain Editor
-)
+[Terrain Editor](Terrain%20Editor.md)
 .
 
 This procedural generation abides by the Brush parameters corresponding to the selected object at all times.
@@ -1697,7 +1677,7 @@ Paint
 **
  is active.
 
-[Image: /docs/static/attachments/36839203]
+![Image](https://www.cryengine.com/docs/static/attachments/36839203)
 
 Clicking upon the terrain within the Viewport places the selected vegetation within a level in accordance with the established Vegetation Parameters, and multiple objects can be painted all at once by dragging across the terrain with the left mouse button. Alternatively, the Brush may be caused to paint only a single instance of the selected objects by holding the
 **
@@ -1732,7 +1712,7 @@ Place/Remove
 **
  at the center of the green circle.
 
-[Image: /docs/static/attachments/36839204]
+![Image](https://www.cryengine.com/docs/static/attachments/36839204)
 
 ##
 Select
@@ -1751,7 +1731,7 @@ CTRL
 **
  key pressed, or by dragging across the Viewport with the left mouse button.
 
-[Image: /docs/static/attachments/36839315]
+![Image](https://www.cryengine.com/docs/static/attachments/36839315)
 
 Pressing the
 **
@@ -1908,9 +1888,7 @@ LMB
 Move/Rotate/Scale Transformations
 
 With one or more objects selected via the Select editor button, vegetation may be moved, rotated and/or scaled as standard objects using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308620](
-Axis Gizmo
-)
+[Axis Gizmo](../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Transforming%20Objects.md)
 interface.
 
 Alternatively,
@@ -1947,28 +1925,14 @@ active
 **
 , moving an object's instance to an invalid location, such as where there might be insufficient room due to overcrowded vegetation, will cause the instance to be restored to its last valid location and highlighted by a red circle as shown.
 
-[Image: /docs/static/attachments/36840088]
+![Image](https://www.cryengine.com/docs/static/attachments/36840088)
 
 This is so as to prevent resource wastage, the overcrowding of assets and provides for easier control over the placement of vegetation objects.
 
-[#1-menu](
-1. Menu
-)
-[#2-tool-bar](
-2. Tool Bar
-)
-[#3-objects-overview](
-3. Objects Overview
-)
-[#4-editor-buttons](
-4. Editor Buttons
-)
-[#5-brush-and-vegetation-parameters](
-5. Brush & Vegetation Parameters
-)
-[#6-preview-window](
-6. Preview Window
-)
-[#functionality](
-Functionality
-)
+[1. Menu](#1-menu)
+[2. Tool Bar](#2-tool-bar)
+[3. Objects Overview](#3-objects-overview)
+[4. Editor Buttons](#4-editor-buttons)
+[5. Brush & Vegetation Parameters](#5-brush-and-vegetation-parameters)
+[6. Preview Window](#6-preview-window)
+[Functionality](#functionality)

@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [SCAR Example Script](Weapon and ItemPackages/SCAR Example Script.md)
-- [ItemPackages Scripting](Weapon and ItemPackages/ItemPackages Scripting.md)
+- [SCAR Example Script](Weapon%20and%20ItemPackages/SCAR%20Example%20Script.md)
+- [ItemPackages Scripting](Weapon%20and%20ItemPackages/ItemPackages%20Scripting.md)
 
 ## Content
 
@@ -193,9 +193,7 @@ giveable
 true
  |
 If false, item will not appear in the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048841](
-Equipment Pack
-)
+[Equipment Pack](/docs/static/engines/cryengine-3/categories/1114113/pages/1048841)
  dialog and cannot be added to player inventory.
  |
 
@@ -595,9 +593,7 @@ display_name
 ""
  |
 Used by the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310919](
-localization system
-)
+[localization system](/docs/static/engines/cryengine-3/categories/1114113/pages/1310919)
  to display an item name in the UI.
  |
 
@@ -3729,9 +3725,7 @@ pierceability
 <int>
  |
 Indicates what surface materials the bullet can penetrate. Surface pierceability is defined through
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310761](
-SurfaceTypes
-)
+[SurfaceTypes](/docs/static/engines/cryengine-3/categories/1114113/pages/1310761)
 .
  |
 Particle
@@ -4075,9 +4069,7 @@ ammo_category
 
  |
 The
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048755#ItemsEntities-AmmoCrate](
-AmmoCrate
-)
+[AmmoCrate](/docs/static/engines/cryengine-3/categories/1114113/pages/1048755#ItemsEntities-AmmoCrate)
  entity recharges ammo of a particular "Ammo Category". With this you can define which ammo types should be added or not.
  |
 
@@ -4501,87 +4493,31 @@ false
 
  |
 
-[#items](
-Items
-)
-[#root](
-Root
-)
-[#params](
-Params
-)
-[#movementmodifiers](
-MovementModifiers
-)
-[#ammos](
-Ammos
-)
-[#fire](
-Fire
-)
-[#recoil](
-Recoil
-)
-[#recoilshake](
-RecoilShake
-)
-[#spread](
-Spread
-)
-[#tracer](
-Tracer
-)
-[#rapid](
-Rapid
-)
-[#melee](
-Melee
-)
-[#zoom](
-Zoom
-)
-[#zoomsway](
-zoomSway
-)
-[#scope](
-Scope
-)
-[#spreadmod](
-spreadMod
-)
-[#recoilmod](
-recoilMod
-)
-[#ammo](
-Ammo
-)
-[#flags](
-Flags
-)
-[#physics](
-Physics
-)
-[#explosion](
-Explosion
-)
-[#collision](
-Collision
-)
-[#params](
-Params
-)
-[#homing-missile](
-Homing Missile
-)
-[#flashbang](
-Flashbang
-)
-[#trail](
-Trail
-)
-[#trailunderwater](
-trailUnderWater
-)
-[#bullettimeparams](
-BulletTimeParams
-)
+[Items](#items)
+[Root](#root)
+[Params](#params)
+[MovementModifiers](#movementmodifiers)
+[Ammos](#ammos)
+[Fire](#fire)
+[Recoil](#recoil)
+[RecoilShake](#recoilshake)
+[Spread](#spread)
+[Tracer](#tracer)
+[Rapid](#rapid)
+[Melee](#melee)
+[Zoom](#zoom)
+[zoomSway](#zoomsway)
+[Scope](#scope)
+[spreadMod](#spreadmod)
+[recoilMod](#recoilmod)
+[Ammo](#ammo)
+[Flags](#flags)
+[Physics](#physics)
+[Explosion](#explosion)
+[Collision](#collision)
+[Params](#params)
+[Homing Missile](#homing-missile)
+[Flashbang](#flashbang)
+[Trail](#trail)
+[trailUnderWater](#trailunderwater)
+[BulletTimeParams](#bullettimeparams)

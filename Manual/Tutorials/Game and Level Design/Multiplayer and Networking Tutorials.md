@@ -7,11 +7,9 @@
 
 ## Child Pages
 
-- [Tutorial - Multiplayer Networking](Multiplayer and Networking Tutorials/Tutorial - Multiplayer Networking.md)
+- [Tutorial - Multiplayer Networking](Multiplayer%20and%20Networking%20Tutorials/Tutorial%20-%20Multiplayer%20Networking.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/52592897](
-Tutorial - Multiplayer Networking
-)
+[Tutorial - Multiplayer Networking](Multiplayer%20and%20Networking%20Tutorials/Tutorial%20-%20Multiplayer%20Networking.md)

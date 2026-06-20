@@ -8,15 +8,11 @@
 ## Content
 
 This reference contains documentation about all functions and properties of the Core project of the C# Framework. Functions in this project provide high level access to the mid level API of
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306445](
-CryCommon
-)
+[CryCommon](../CRYENGINE%20Engine%20Code/Engine%20Modules/CryCommon.md)
 .
 
 This API Reference is only for the CRYENGINE C# API. For more information about the C# API please refer to the
-[https://msdn.microsoft.com/en-us/library/mt472912(v=vs.110).aspx](
-Microsoft .NET documentation
-)
+[Microsoft .NET documentation](https://msdn.microsoft.com/en-us/library/mt472912(v=vs.110).aspx)
 .
 
 Children:
@@ -24,33 +20,19 @@ Children:
 Related Content:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791112](
-C# Programming
-)
+[C# Programming](../CRYENGINE%20Code%20Tutorials/C%23%20Programming.md)
 
 The CRYENGINE C# API reference for the most recent version of CRYENGINE is available here:
 
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448761](
-C# API Reference for CRYENGINE 5.5
-)
+[C# API Reference for CRYENGINE 5.5](/docs/static/engines/cryengine-5/categories/28704771/pages/29448761)
 
 C# API Reference for earlier releases
-[https://www.cryengine.com/sdk/5.4.0/cs_api/annotated.html](
-C# API Reference for CRYENGINE 5.4
-)
+[C# API Reference for CRYENGINE 5.4](https://www.cryengine.com/sdk/5.4.0/cs_api/annotated.html)
 
-[http://www.cryengine.com/sdk/5.3.0/cs_api/annotated.html](
-C# API Reference for CRYENGINE 5.3
-)
+[C# API Reference for CRYENGINE 5.3](http://www.cryengine.com/sdk/5.3.0/cs_api/annotated.html)
 
-[http://www.cryengine.com/sdk/5.2.0/cs_api/annotated.html](
-C# API Reference for CRYENGINE 5.2
-)
+[C# API Reference for CRYENGINE 5.2](http://www.cryengine.com/sdk/5.2.0/cs_api/annotated.html)
 
-[http://www.cryengine.com/sdk/5.1.0/cs_api/annotated.html](
-C# API Reference for CRYENGINE 5.1
-)
+[C# API Reference for CRYENGINE 5.1](http://www.cryengine.com/sdk/5.1.0/cs_api/annotated.html)
 
-[http://www.cryengine.com/sdk/5.0.0/cs_api/annotated.html](
-C# API Reference for CRYENGINE 5.0
-)
+[C# API Reference for CRYENGINE 5.0](http://www.cryengine.com/sdk/5.0.0/cs_api/annotated.html)

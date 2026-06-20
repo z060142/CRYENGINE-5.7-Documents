@@ -16,9 +16,7 @@ all the time.
 
 CRYENGINE's animation system alleviates this issue by streaming in animation resources (file granularity level) when they are needed and unloading them when not used any more.
 Streaming of asset files is achieved by using the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306430](
-Streaming System
-)
+[Streaming System](../CrySystem/Streaming%20System.md)
 .
 Streaming assets in and out allows to have in memory only the resources we need, at the expense of more complexity given that we now require certain planning on how and when the animation resources are going to be used.
 
@@ -78,9 +76,7 @@ Animation Controller Data
 Location in Files
 
 The controller data for animations is stored in CAF files or
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15012226](
-DBA files
-)
+[DBA files](/docs/static/engines/cryengine-3/categories/1114113/pages/15012226)
 .
 
 CAF files contain controller information for a single animation.
@@ -177,14 +173,10 @@ gEnv->pCharacterManager->DBA_Unload(dbaFilename);
 
 You can make the system automatically load and lock a DBA file while a character is loaded by using the flags="persistent" feature in the chrparams file. See
 
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15012226](
-Database File (dba)
-)
+[Database File (dba)](/docs/static/engines/cryengine-3/categories/1114113/pages/15012226)
  or
 
-[/docs/static/engines/cryengine-5/categories/23756813](
-CHRPARAMS File
-)
+[CHRPARAMS File](/docs/static/engines/cryengine-5/categories/23756813)
  for more details.
 
 ##

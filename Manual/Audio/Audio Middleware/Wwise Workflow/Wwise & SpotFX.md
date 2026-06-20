@@ -45,10 +45,7 @@ For a detailed explanation on how to setup the
 Audio Trigger Spot
 *
  entity in your level, please follow the instructions in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964989](
-here
-.
-)
+[here .](Wwise%20Initial%20Setup.md)
 
 ##
 Working with Attenuations
@@ -64,12 +61,10 @@ Audio Trigger Spot
  entity in your level.
 
 To setup a 3D sound in Wwise, first create a new sound object in the Wwise's Actor-Mixer Hierarchy, make sure to create an event and include it in the SoundBanks as explained
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964989](
-Wwise Initial Setup
-)
+[Wwise Initial Setup](Wwise%20Initial%20Setup.md)
 .
 
-[Image: /docs/static/attachments/44968472]
+![Image](https://www.cryengine.com/docs/static/attachments/44968472)
 
 However, if you want to place the audio in the game and have it attenuate properly and according to the listener and entity's position, then you need to define the sound object in Wwise to be a 3D sound.
 
@@ -89,15 +84,13 @@ Pic2
 *
 ).
 
-[Image: /docs/static/attachments/44968474]
+![Image](https://www.cryengine.com/docs/static/attachments/44968474)
 
 Best Practices
 In Wwise, it is useful to create
 ShareSets
  for the attenuations that you are using on multiple sound objects. To learn more about ShareSets, please refer to the Wwise documentation and the following
-[https://www.youtube.com/watch?v=3T4CK6viRiU](
-tutorial video
-)
+[tutorial video](https://www.youtube.com/watch?v=3T4CK6viRiU)
 .
 
 You can change the custom attenuation by clicking the
@@ -108,7 +101,7 @@ Edit
 Sound Property Editor
 . For example, you can set it to a range of 45 meters and attenuate the volume accordingly.
 
-[Image: /docs/static/attachments/44968475]
+![Image](https://www.cryengine.com/docs/static/attachments/44968475)
 
 After you have finished setting up the attenuation for your sound, now generate your SoundBanks and connect the audio system Trigger on the
 *
@@ -135,7 +128,7 @@ Cone Attenuation
 Attenuation Editor
 .
 
-[Image: /docs/static/attachments/44968476]
+![Image](https://www.cryengine.com/docs/static/attachments/44968476)
 
 After you enable Cone Attenuation, you need to recreate your SoundBanks and then reload them via the
 Refresh Audio
@@ -147,7 +140,7 @@ Audio Trigger Spot
 *
  will always point towards the front of the Cone.
 
-[Image: /docs/static/attachments/44968477]
+![Image](https://www.cryengine.com/docs/static/attachments/44968477)
 
 When you are now moving around the
 *
@@ -166,9 +159,7 @@ Audio Trigger Spot
 
 If you want to learn how to connect the audio system Triggers for those use cases, then take a look at the
  pages under
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964864](
-Audio Overview
-)
+[Audio Overview](../../Audio%20Overview.md)
 .
 
 ##
@@ -318,32 +309,14 @@ Play_ Event
  is active, and also if no audio is currently playing inside of Wwise.
 
 You can learn more about Obstruction and Occlusion in CRYENGINE
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964914](
-here
-)
+[here](../../Audio%20Overview/Audio%20%26%20Occlusion.md)
 .
 
-[#setting-up-the-audio-trigger-spot-entity-in-cryengine](
-Setting up the Audio Trigger Spot Entity in CRYENGINE
-)
-[#using-the-audio-trigger-spot-entity](
-Using the Audio Trigger Spot Entity
-)
-[#working-with-attenuations](
-Working with Attenuations
-)
-[#working-with-cone-attenuation](
-Working with Cone Attenuation
-)
-[#other-use-cases-for-wwise-attenuations](
-Other Use Cases for Wwise Attenuations
-)
-[#randomizing-sound-on-the-audio-trigger-spot-and-wwise](
-Randomizing Sound on the Audio Trigger Spot and Wwise
-)
-[#using-the-audio-trigger-spot](
-Using the Audio Trigger Spot
-)
-[#using-wwise-functionality](
-Using Wwise Functionality
-)
+[Setting up the Audio Trigger Spot Entity in CRYENGINE](#setting-up-the-audio-trigger-spot-entity-in-cryengine)
+[Using the Audio Trigger Spot Entity](#using-the-audio-trigger-spot-entity)
+[Working with Attenuations](#working-with-attenuations)
+[Working with Cone Attenuation](#working-with-cone-attenuation)
+[Other Use Cases for Wwise Attenuations](#other-use-cases-for-wwise-attenuations)
+[Randomizing Sound on the Audio Trigger Spot and Wwise](#randomizing-sound-on-the-audio-trigger-spot-and-wwise)
+[Using the Audio Trigger Spot](#using-the-audio-trigger-spot)
+[Using Wwise Functionality](#using-wwise-functionality)

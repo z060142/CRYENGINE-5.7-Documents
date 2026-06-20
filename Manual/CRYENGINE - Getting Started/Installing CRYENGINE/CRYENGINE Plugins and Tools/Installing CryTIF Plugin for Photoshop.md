@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Export Textures with CryTIF - Photoshop](Installing CryTIF Plugin for Photoshop/Export Textures with CryTIF - Photoshop.md)
+- [Export Textures with CryTIF - Photoshop](Installing%20CryTIF%20Plugin%20for%20Photoshop/Export%20Textures%20with%20CryTIF%20-%20Photoshop.md)
 
 ## Content
 
@@ -15,9 +15,7 @@
 Overview
 
 CryTIF is a Photoshop plugin (CS4 and higher) that can load and save Photoshop images as TIF files. After saving the TIF the plugin invokes the
-[/docs/static/engines/cryengine-5/categories/23756816](
-RC
-)
+[RC](/docs/static/engines/cryengine-5/categories/23756816)
  which shows a user dialog box where the compression, size and platform specific settings can be selected.
 
 The settings that have been chosen in the dialog box are stored as meta data in the TIF file which is used when the RC creates the *.dds file for in-engine use.
@@ -26,9 +24,7 @@ The settings that have been chosen in the dialog box are stored as meta data in 
 Automatic Install with CryToolsInstaller
 
 We recommend using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963458](
-CryToolsInstaller
-)
+[CryToolsInstaller](CryToolsInstaller.md)
  to install all DCC tool packages, including CryTif. If you need to manually install the CryToolsInstaller, then follow the instructions in the Manual Install section below.
 
 ##
@@ -52,7 +48,7 @@ Help -> About Plugin -> CryTIFPlugin
 `
 ) in the dialog box that is displayed.
 
-[Image: /docs/static/attachments/44963510]
+![Image](https://www.cryengine.com/docs/static/attachments/44963510)
 
 3. Set it to the
 root directory
@@ -65,19 +61,15 @@ Click the
 Use SettingsMgr.exe location
  button to point it towards its default location within the build directory.
 
-[Image: /docs/static/attachments/44963500]
+![Image](https://www.cryengine.com/docs/static/attachments/44963500)
 
 4. After a successful installation, CryTIFPlugin (*.tif) should be available as a file format in the Photoshop File dialog:
 
-[Image: /docs/static/attachments/44963498]
+![Image](https://www.cryengine.com/docs/static/attachments/44963498)
 
 5. Once installed and the CryTIF exporter is selected you will be shown a screen like the one below to allow for some fine-tuning:
 
-[Image: /docs/static/attachments/44963508]
+![Image](https://www.cryengine.com/docs/static/attachments/44963508)
 
-[#automatic-install-with-crytoolsinstaller](
-Automatic Install with CryToolsInstaller
-)
-[#manual-install](
-Manual Install
-)
+[Automatic Install with CryToolsInstaller](#automatic-install-with-crytoolsinstaller)
+[Manual Install](#manual-install)

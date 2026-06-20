@@ -21,19 +21,17 @@ The Standard Parameters pane is where you can adjust standard parameters like th
 
 The text box at the top of the pane allows you to enter a new name for your object, the default name given is "ObjectTypeX". In the screen shot below, "Rifle1" is displayed, as this is the first Rifle entity to be placed in the world.
 
-[Image: /docs/static/attachments/56000602]
+![Image](https://www.cryengine.com/docs/static/attachments/56000602)
 
 Some entities have color schemes applied by default, depending on their type. The colored box next to the text box opens the color editor window. This can be used to give particular entities a color scheme of your choosing, if you'd wish to customize this.
 
 Clicking the Browse icon next to the Layer field opens the Select Layer window, allowing you to place your object in the appropriate layer. The text to the right of the layer button tells you which layer is currently selected.
 
 For more information on this, see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541](
-Level Explorer
-)
+[Level Explorer](../../Level%20Explorer.md)
  documentation.
 
-[Image: /docs/static/attachments/56000604]
+![Image](https://www.cryengine.com/docs/static/attachments/56000604)
 
 **
 Parameters
@@ -207,9 +205,7 @@ Faction
 
  |
 Entity faction (see
-[/docs/static/engines/cryengine-3/categories/1638401/pages/13205553](
-Factions
-)
+[Factions](/docs/static/engines/cryengine-3/categories/1638401/pages/13205553)
 ).
 
  |
@@ -240,9 +236,7 @@ Pickable
 
  |
 If true, players can "grab" or pick the object up (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308034](
-Pickable Objects
-)
+[Pickable Objects](../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Interactive%20Geometry/Pickable%20Objects.md)
 ).
 
  |
@@ -273,9 +267,7 @@ SmartObjectClass
 
  |
 Specifies the smart object type of the object (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308035](
-Smart Objects
-)
+[Smart Objects](../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Interactive%20Geometry/Smart%20Objects.md)
 ).
 
  |
@@ -286,9 +278,7 @@ Usable
 
  |
 If true entity is usable by players (see
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1933360](
-Adding Usable Support on an Entity
-)
+[Adding Usable Support on an Entity](/docs/static/engines/cryengine-3/categories/1638401/pages/1933360)
 ).
 
  |
@@ -303,9 +293,7 @@ If
 useable
 **
  is true this message will be displayed when players are in range. Can be a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534808](
-localized string
-)
+[localized string](../../../../User%20Interface%20(HUD%20Menu)/UI%20Overview/Localization%20System.md)
  such as @use_object.
 
  |
@@ -340,9 +328,7 @@ OnlyEnemyFire
 
  |
 Will only take damage from enemy (
-[/docs/static/engines/cryengine-3/categories/1638401/pages/13205553](
-Faction
-)
+[Faction](/docs/static/engines/cryengine-3/categories/1638401/pages/13205553)
 -based) fire, only if a faction is set.
 
  |
@@ -411,9 +397,7 @@ Edit Script
 
  |
 Clicking the Edit Script button opens the script file in your
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848616](
-associated program
-)
+[associated program](../../../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Customizing%20CRYENGINE%20Sandbox/Changing%20Sandbox%20Preferences.md)
  and allows you to modify the script for the selected entity.
 
 The script file location is shown above this and the Reload Script button. Clicking the '
@@ -439,9 +423,7 @@ Entity Archetype
 
  |
 If the entity is an Entity Archetype, the name of this Entity Archetype will appear on the button and clicking will open the archetype in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869094](
-DataBase View
-)
+[DataBase View](../../../DataBase%20View.md)
 .
 
  |
@@ -452,9 +434,7 @@ Create
 
  |
 Create a new Flow Graph. For more information on flow graphs, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450509](
-Flow Graph
-)
+[Flow Graph](../../../Flow%20Graph/How%20to%20Use%20Flow%20Graph.md)
  documentation.
 
  |
@@ -515,7 +495,7 @@ So, for example, if you have a Mission Objective entity you can create a link th
 
 Or, maybe you have an Explosion Trigger that is linked to multiple entities that when activated will kill all these linked entities.
 
-[Image: /docs/static/attachments/56000605]
+![Image](https://www.cryengine.com/docs/static/attachments/56000605)
 
 To pick a target, click the
 **
@@ -647,24 +627,10 @@ Select
 Selects an object from the Target window. Double-clicking the object name in the Target Window will also select the object.
  |
 
-[#standard-parameters](
-Standard Parameters
-)
-[#entity-params](
-Entity Params
-)
-[#material-layers](
-Material Layers
-)
-[#entity-properties](
-Entity Properties
-)
-[#miscellaneous-entity-parameters](
-Miscellaneous Entity Parameters
-)
-[#entity-links](
-Entity Links
-)
-[#entity-property-panes](
-Entity Property Panes
-)
+[Standard Parameters](#standard-parameters)
+[Entity Params](#entity-params)
+[Material Layers](#material-layers)
+[Entity Properties](#entity-properties)
+[Miscellaneous Entity Parameters](#miscellaneous-entity-parameters)
+[Entity Links](#entity-links)
+[Entity Property Panes](#entity-property-panes)

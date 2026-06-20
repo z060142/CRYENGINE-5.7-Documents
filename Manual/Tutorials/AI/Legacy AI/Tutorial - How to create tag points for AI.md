@@ -8,3 +8,5 @@
 ## Content
 
 How to use tag point entities as position markers for AI patrols. Note that a tag point is really nothing more than an empty entity, invisible to the player, so an empty entity could also be used just as easily.
+
+[Embed: http://youtube.com/watch?v=qPkXuKsNlUs]

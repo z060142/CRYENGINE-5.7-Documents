@@ -9,12 +9,12 @@
 
 - [Threading](CrySystem/Threading.md)
 - [Console](CrySystem/Console.md)
-- [File System](CrySystem/File System.md)
-- [User Interface (Programming)](CrySystem/User Interface (Programming).md)
-- [Memory Manager](CrySystem/Memory Manager.md)
-- [Streaming System](CrySystem/Streaming System.md)
-- [Text Localization & Unicode Support](CrySystem/Text Localization & Unicode Support.md)
-- [Logging System](CrySystem/Logging System.md)
+- [File System](CrySystem/File%20System.md)
+- [User Interface (Programming)](CrySystem/User%20Interface%20(Programming).md)
+- [Memory Manager](CrySystem/Memory%20Manager.md)
+- [Streaming System](CrySystem/Streaming%20System.md)
+- [Text Localization & Unicode Support](CrySystem/Text%20Localization%20%26%20Unicode%20Support.md)
+- [Logging System](CrySystem/Logging%20System.md)
 
 ## Content
 
@@ -40,47 +40,31 @@ Role of CrySystem during initialization of engine modules.
 ##
 Highlights of CrySystem
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306428](
-Console
-)
+[Console](CrySystem/Console.md)
 
 Extension system
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306405](
-File System
-)
+[File System](CrySystem/File%20System.md)
 
-[/docs/static/engines/cryengine-5/categories/23756813](
-Frame Profiler
-)
+[Frame Profiler](/docs/static/engines/cryengine-5/categories/23756813)
 
 Global Environment
 
  |
 Job System
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306431](
-Text Localization
-)
+[Text Localization](CrySystem/Text%20Localization%20%26%20Unicode%20Support.md)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306426](
-Logging System
-)
+[Logging System](CrySystem/Logging%20System.md)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24281463](
-Memory Manager
-)
+[Memory Manager](CrySystem/Memory%20Manager.md)
 
 Remote Console
 
  |
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23309135](
-User Interface (Programming)
-)
+[User Interface (Programming)](CrySystem/User%20Interface%20(Programming).md)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306430](
-Streaming System
-)
+[Streaming System](CrySystem/Streaming%20System.md)
 
 Thread Manager
 
@@ -89,41 +73,25 @@ XML Utilities
  |
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306432](
-Threading
-)
+[Threading](CrySystem/Threading.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306430](
-Streaming System
-)
+[Streaming System](CrySystem/Streaming%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306431](
-Text Localization & Unicode Support
-)
+[Text Localization & Unicode Support](CrySystem/Text%20Localization%20%26%20Unicode%20Support.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306426](
-Logging System
-)
+[Logging System](CrySystem/Logging%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306428](
-Console
-)
+[Console](CrySystem/Console.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306405](
-File System
-)
+[File System](CrySystem/File%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23309135](
-User Interface (Programming)
-)
+[User Interface (Programming)](CrySystem/User%20Interface%20(Programming).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24281463](
-Memory Manager
-)
+[Memory Manager](CrySystem/Memory%20Manager.md)

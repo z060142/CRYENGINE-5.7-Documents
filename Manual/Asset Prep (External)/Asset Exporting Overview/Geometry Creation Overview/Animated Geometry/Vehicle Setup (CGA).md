@@ -15,41 +15,25 @@ This section contains information about designing general and specific vehicles 
 These pages depend on assets available only in GameSDK.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793889](
-Creating A Bike
-)
+[Creating A Bike](../../../../Physics/Vehicles%20Basics%20(GameSDK)/Creating%20A%20Bike.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26870705](
-Creating A Boat
-)
+[Creating A Boat](../../../../Physics/Vehicles%20Basics%20(GameSDK)/Creating%20A%20Boat.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26870699](
-Creating A Helicopter
-)
+[Creating A Helicopter](../../../../Physics/Vehicles%20Basics%20(GameSDK)/Creating%20A%20Helicopter.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29793891](
-Creating A Tank
-)
+[Creating A Tank](../../../../Physics/Vehicles%20Basics%20(GameSDK)/Creating%20A%20Tank.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798896](
-Creating a Vehicle (Max)
-)
+[Creating a Vehicle (Max)](../../../../Physics/Vehicles%20Basics%20(GameSDK)/Creating%20a%20Vehicle%20(Max).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798898](
-Creating a Vehicle (Maya)
-)
+[Creating a Vehicle (Maya)](../../../../Physics/Vehicles%20Basics%20(GameSDK)/Creating%20a%20Vehicle%20(Maya).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798905](
-Vehicle Entity
-)
+[Vehicle Entity](../../../../Physics/Vehicles%20Basics%20(GameSDK)/Vehicle%20Entity.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798907](
-Vehicle XML Reference
-)
+[Vehicle XML Reference](../../../../Physics/Vehicles%20Basics%20(GameSDK)/Vehicle%20XML%20Reference.md)

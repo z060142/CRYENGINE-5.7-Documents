@@ -13,9 +13,7 @@ Overview
 In order to animate textures in Sandbox, you need to have a particular name in the material editor like this.
 
 For a hands-on example please download this sample package
-[/docs/static/attachments/23999644](
-animate_test.rar
-)
+[animate_test.rar](/docs/static/attachments/23999644)
 .
 
 ##
@@ -48,7 +46,7 @@ count
 -
 (0.5)
  - Optional time of single frame in seconds (default value is 0.05 seconds = 50 ms).
-[Image: /docs/static/attachments/23999645]
+![Image](https://www.cryengine.com/docs/static/attachments/23999645)
 
 *
 Here is an example of the texture in the material editor:
@@ -68,7 +66,7 @@ number00##
 **
 . In this case the engine will try to load all textures from name number0000 until the last texture file that's available.
 
-[Image: /docs/static/attachments/23999646]
+![Image](https://www.cryengine.com/docs/static/attachments/23999646)
 
 *
 Example texture files

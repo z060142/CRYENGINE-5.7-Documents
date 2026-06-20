@@ -16,9 +16,7 @@ Render Entities available in CRYENGINE give designers quick ways of introducing 
 Flash
 
 The entity flashes the users screen making it white for a few seconds. Very bright explosions can be simulated with the Flash Entity. Trigger strikes through
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../../../Flow%20Graph.md)
 .
 
 **
@@ -99,9 +97,7 @@ Sets up the amount of time (in sec.) fade in and out takes the effect.
 FogVolume
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215326](
-Fog
-)
+[Fog](../../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Volumetric%20Fog.md)
  for more information.
 
 ##
@@ -313,13 +309,9 @@ ViewDist
 The ViewDist entity limits how far the player can see. Using the ViewDistance entity can significantly increase the frame rate in specific areas.
 
 This entity can be used in two ways, by linking it to an
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27593384](
-area shape
-)
+[area shape](../../../../Entities%20and%20Tools/Entities%20Overview/Area%20Objects.md)
  or triggered through
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../../../Flow%20Graph.md)
 .
 
 **
@@ -351,15 +343,7 @@ Sets up the rendering View Distance in meters.
 
  |
 
-[#flash](
-Flash
-)
-[#fogvolume](
-FogVolume
-)
-[#lightning](
-Lightning
-)
-[#viewdist](
-ViewDist
-)
+[Flash](#flash)
+[FogVolume](#fogvolume)
+[Lightning](#lightning)
+[ViewDist](#viewdist)

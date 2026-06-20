@@ -12,7 +12,7 @@ Video:ClipCapture
 
 Used to capture video clips while a game is running and save them locally or to the cloud.
 
-[Image: /docs/static/attachments/29688102]
+![Image](https://www.cryengine.com/docs/static/attachments/29688102)
 
 **
 Inputs
@@ -121,11 +121,7 @@ Video:VideoPlayback
 
 Video player node that is using USMPlayer UIElement.
 
-[Image: /docs/static/attachments/29688101]
+![Image](https://www.cryengine.com/docs/static/attachments/29688101)
 
-[#videoclipcapture](
-Video:ClipCapture
-)
-[#videovideoplayback](
-Video:VideoPlayback
-)
+[Video:ClipCapture](#videoclipcapture)
+[Video:VideoPlayback](#videovideoplayback)

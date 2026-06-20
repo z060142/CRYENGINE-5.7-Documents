@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [VR - HTC Vive](Virtual Reality (VR)/VR - HTC Vive.md)
-- [VR - OSVR](Virtual Reality (VR)/VR - OSVR.md)
-- [VR - Oculus Rift](Virtual Reality (VR)/VR - Oculus Rift.md)
+- [VR - HTC Vive](Virtual%20Reality%20(VR)/VR%20-%20HTC%20Vive.md)
+- [VR - OSVR](Virtual%20Reality%20(VR)/VR%20-%20OSVR.md)
+- [VR - Oculus Rift](Virtual%20Reality%20(VR)/VR%20-%20Oculus%20Rift.md)
 
 ## Content
 
@@ -22,16 +22,10 @@ This page and its children cover the technical details of Virtual Reality.
 Supported Devices
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25536775](
-VR - HTC Vive
-)
+[VR - HTC Vive](Virtual%20Reality%20(VR)/VR%20-%20HTC%20Vive.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23309878](
-VR - OSVR
-)
+[VR - OSVR](Virtual%20Reality%20(VR)/VR%20-%20OSVR.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25536784](
-VR - Oculus Rift
-)
+[VR - Oculus Rift](Virtual%20Reality%20(VR)/VR%20-%20Oculus%20Rift.md)

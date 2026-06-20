@@ -78,6 +78,4 @@ Links
 Halo 2 Solution
 **
 
-[http://www.game-tech.com/Talks/Butcher.doc](
-http://www.game-tech.com/Talks/Butcher.doc
-)
+[http://www.game-tech.com/Talks/Butcher.doc](http://www.game-tech.com/Talks/Butcher.doc)

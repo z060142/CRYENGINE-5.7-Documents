@@ -27,9 +27,7 @@ The base layer is always active. Dielectric layers can be activated by specifyin
 diffuse texture
 **
 , and a thin-film can be enabled as well by clicking the related checkbox on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259544](
- Material Editor
-)
+[Material Editor](../../../../Editor%20Tools/Material%20Editor.md)
 's Properties panel. The layers model the thin coatings and not the additional geometry; therefore no per-layer geometric modulations (normal maps, all kinds of parallax mappings, etc.) conform to this context. The normal direction of the macroscopic surface of each layer is always the base layer's normal. The parametric controls of each layer are then the thickness, the roughness and the optical properties (diffuse color and refractive index) which can be modulated via a texture.
 
 ##
@@ -50,35 +48,35 @@ A common example is the tempering color chart used by blacksmiths to judge steel
 
 The same phenomena can be reproduced by adding a thin-film of high refractive-index to an iron base layer:
 
-[Image: /docs/static/attachments/44964032]
+![Image](https://www.cryengine.com/docs/static/attachments/44964032)
 
  |
-[Image: /docs/static/attachments/44964033]
+![Image](https://www.cryengine.com/docs/static/attachments/44964033)
 
  |
-[Image: /docs/static/attachments/44964034]
+![Image](https://www.cryengine.com/docs/static/attachments/44964034)
 
  |
-[Image: /docs/static/attachments/44964035]
+![Image](https://www.cryengine.com/docs/static/attachments/44964035)
 
  |
-[Image: /docs/static/attachments/44964036]
+![Image](https://www.cryengine.com/docs/static/attachments/44964036)
 
  |
 
-[Image: /docs/static/attachments/44964037]
+![Image](https://www.cryengine.com/docs/static/attachments/44964037)
 
  |
-[Image: /docs/static/attachments/44964038]
+![Image](https://www.cryengine.com/docs/static/attachments/44964038)
 
  |
-[Image: /docs/static/attachments/44964040]
+![Image](https://www.cryengine.com/docs/static/attachments/44964040)
 
  |
-[Image: /docs/static/attachments/44964039]
+![Image](https://www.cryengine.com/docs/static/attachments/44964039)
 
  |
-[Image: /docs/static/attachments/44964041]
+![Image](https://www.cryengine.com/docs/static/attachments/44964041)
 
  |
 
@@ -101,19 +99,19 @@ thick layer (50nm)
 very thick layer (75nm)
  |
 
-[Image: /docs/static/attachments/44964043]
+![Image](https://www.cryengine.com/docs/static/attachments/44964043)
 
  |
-[Image: /docs/static/attachments/44964044]
+![Image](https://www.cryengine.com/docs/static/attachments/44964044)
 
  |
-[Image: /docs/static/attachments/44964045]
+![Image](https://www.cryengine.com/docs/static/attachments/44964045)
 
  |
-[Image: /docs/static/attachments/44964046]
+![Image](https://www.cryengine.com/docs/static/attachments/44964046)
 
  |
-[Image: /docs/static/attachments/44964047]
+![Image](https://www.cryengine.com/docs/static/attachments/44964047)
 
  |
 
@@ -133,15 +131,11 @@ Material Editor
 .
 
 For more information about the shader parameters, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259544#MaterialEditor-shaderparams](
-Material Editor
-)
+[Material Editor](../../../../Editor%20Tools/Material%20Editor.md#MaterialEditor-shaderparams)
  reference page.
 
 For more information about the dielectric and conductive layers, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959238](
-Physically Based Shading (PBS)
-)
+[Physically Based Shading (PBS)](../../Physically%20Based%20Shading%20(PBS).md)
  page.
 
 ##
@@ -174,9 +168,7 @@ Specify what
 Index of Refraction
 *
 (
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959873#MultilayeredmaterialsShader-ior](
-see below
-)
+[see below](Multilayeredmaterials%20Shader.md#MultilayeredmaterialsShader-ior)
 ) a fully white value in the reflectivity map maps to by adjusting the slider.
 
 ##
@@ -331,10 +323,10 @@ ndex of Refraction (IOR)
 
 We remap the IOR,
 
-[Image: /docs/static/attachments/44960944]
+![Image](https://www.cryengine.com/docs/static/attachments/44960944)
 , to a more intuitive reflectivity control via the invertible function:
 
-[Image: /docs/static/attachments/44960942]
+![Image](https://www.cryengine.com/docs/static/attachments/44960942)
 
 ##
 Artist Control of a Conductor
@@ -344,17 +336,17 @@ For an artist-friendly control of the complex
 Index of Refraction
 *
 , we use the remapping to reflectivity and edge-tint controls. Given a complex IOR:
-[Image: /docs/static/attachments/44960946]
+![Image](https://www.cryengine.com/docs/static/attachments/44960946)
 , our new control parameters, the reflectivity (r) at normal incidence and the edge-tint (g) can be extracted via the following equations:
 
-[Image: /docs/static/attachments/44960943]
+![Image](https://www.cryengine.com/docs/static/attachments/44960943)
 
 Those two functions define a bijection between the IOR,
 
-[Image: /docs/static/attachments/44960944]
+![Image](https://www.cryengine.com/docs/static/attachments/44960944)
 , and the artist controls, r and g, therefore the complex IOR can be uniquely recovered from
 
-[Image: /docs/static/attachments/44960945]
+![Image](https://www.cryengine.com/docs/static/attachments/44960945)
 .
 
 As the IOR can vary strongly with wavelength we use an IOR per-channel for conductors (that is, a reflectivity and edge-tint value pair for each RGB channel). Therefore, to control the visual response of a conductor in an artist friendly fashion, we use RGB reflectivity and edge-tint textures.
@@ -368,21 +360,13 @@ can be consulted and the equations above can be used to convert the IOR to the c
 ##
 Examples of Conductor Values (RGB Triplets for Each Value)
 
-[Image: /docs/static/attachments/44961594]
+![Image](https://www.cryengine.com/docs/static/attachments/44961594)
 
-[Image: /docs/static/attachments/44961595]
+![Image](https://www.cryengine.com/docs/static/attachments/44961595)
 
-[Image: /docs/static/attachments/44961596]
+![Image](https://www.cryengine.com/docs/static/attachments/44961596)
 
-[#multi-layered-materials](
-Multi-layered Materials
-)
-[#thin-film-and-the-thin-film-interference](
-Thin-film and the Thin-film Interference
-)
-[#setting-up-layers](
-Setting Up Layers
-)
-[#meaning-of-reflectivity](
-Meaning of Reflectivity
-)
+[Multi-layered Materials](#multi-layered-materials)
+[Thin-film and the Thin-film Interference](#thin-film-and-the-thin-film-interference)
+[Setting Up Layers](#setting-up-layers)
+[Meaning of Reflectivity](#meaning-of-reflectivity)

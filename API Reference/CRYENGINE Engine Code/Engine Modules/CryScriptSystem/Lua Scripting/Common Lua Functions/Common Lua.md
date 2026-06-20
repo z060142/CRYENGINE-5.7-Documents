@@ -62,9 +62,7 @@ g_SignalData
 
  |
 Used for passing signal data in the AI behavior scripts (see:
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306492](
-AI.Signal
-)
+[AI.Signal](../../../CryAISystem/Signals.md)
 ).
 
  |
@@ -223,89 +221,55 @@ Possible string value you need to pass along.
 Functions
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-AIReload](
-#AIReload
-)
+[#AIReload](Common%20Lua.md#CommonLua-AIReload)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-AIDebugToggle](
-#AIDebugToggle
-)
+[#AIDebugToggle](Common%20Lua.md#CommonLua-AIDebugToggle)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-ShowTime](
-#ShowTime
-)
+[#ShowTime](Common%20Lua.md#CommonLua-ShowTime)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-count](
-#count
-)
+[#count](Common%20Lua.md#CommonLua-count)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-new](
-#new
-)
+[#new](Common%20Lua.md#CommonLua-new)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-merge](
-#merge
-)
+[#merge](Common%20Lua.md#CommonLua-merge)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-mergef](
-#mergef
-)
+[#mergef](Common%20Lua.md#CommonLua-mergef)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-Vec2Str](
-#Vec2Str
-)
+[#Vec2Str](Common%20Lua.md#CommonLua-Vec2Str)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-LogError](
-#LogError
-)
+[#LogError](Common%20Lua.md#CommonLua-LogError)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-LogWarning](
-#LogWarning
-)
+[#LogWarning](Common%20Lua.md#CommonLua-LogWarning)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-Log](
-#Log
-)
+[#Log](Common%20Lua.md#CommonLua-Log)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-dump](
-#dump
-)
+[#dump](Common%20Lua.md#CommonLua-dump)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-EmptyString](
-#EmptyString
-)
+[#EmptyString](Common%20Lua.md#CommonLua-EmptyString)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-NumberToBool](
-#NumberToBool
-)
+[#NumberToBool](Common%20Lua.md#CommonLua-NumberToBool)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-EntityName](
-#EntityName
-)
+[#EntityName](Common%20Lua.md#CommonLua-EntityName)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-EntityNamed](
-#EntityNamed
-)
+[#EntityNamed](Common%20Lua.md#CommonLua-EntityNamed)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626#CommonLua-SafeTableGet](
-#SafeTableGet
-)
+[#SafeTableGet](Common%20Lua.md#CommonLua-SafeTableGet)
 
 ##
 AIReload()
@@ -324,9 +288,7 @@ Game/Scripts/AI/
 AIDebugToggle()
 
 Toggles the
-[/docs/static/engines/cryengine-3/categories/9895942/pages/9215946](
-ai_DebugDraw
-)
+[ai_DebugDraw](/docs/static/engines/cryengine-3/categories/9895942/pages/9215946)
  console variable on and off.
 
 ##

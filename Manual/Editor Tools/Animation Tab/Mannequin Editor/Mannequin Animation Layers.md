@@ -12,7 +12,7 @@ Overview
 
 Animations are started in layers:
 
-[Image: /docs/static/attachments/28878008]
+![Image](https://www.cryengine.com/docs/static/attachments/28878008)
 We have a total of 16 animation layers available.
 
 Layer 0 is special as it is considered the base layer. Layer 0 supports blend spaces and motion extraction.

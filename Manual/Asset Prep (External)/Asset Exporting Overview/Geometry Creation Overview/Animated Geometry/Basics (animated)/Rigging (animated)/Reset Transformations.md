@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934054]
+![Image](https://www.cryengine.com/docs/static/attachments/29934054)
 
 ##
 "Zeroing Out" Transform Values - Why and How
@@ -60,6 +60,4 @@ Automating the process with zeroOut.mcr
 
 There is a macro script for max to allow you to select many controllers and zero them all out with the click of a button/keystroke. It is attached below.
 
-[/docs/static/attachments/23994292](
-zeroOut.mcr
-)
+[zeroOut.mcr](/docs/static/attachments/23994292)

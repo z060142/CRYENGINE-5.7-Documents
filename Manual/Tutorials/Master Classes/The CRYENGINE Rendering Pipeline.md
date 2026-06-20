@@ -8,3 +8,5 @@
 ## Content
 
 Watch Technical Director Theodor Mader give a 90 minute, deep-dive presentation packed with insights about the CRYENGINE rendering pipeline.
+
+[Embed: https://www.youtube.com/watch?v=34S3onEr3r8]

@@ -11,79 +11,54 @@ This tutorial covers the process of Generating a Visual Studio solution for the 
 Topics covered:
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=9s](
-00:09
-)
+[00:09](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=9s)
  Downloading CRYENGINE Source Code From GitHub
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=128s](
-02:08
-)
+[02:08](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=128s)
  Cloning the CRYENGINE Repository
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=207s](
-03:27
-)
+[03:27](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=207s)
  Downloading Required SDKs
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=274s](
-04:34
-)
+[04:34](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=274s)
  Using CMake To Choose Components To Install
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=296s](
-04:56
-)
+[04:56](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=296s)
  Installing the FBX SDK
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=470s](
-07:50
-)
+[07:50](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=470s)
  Selecting Optional Components
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=534s](
-08:54
-)
+[08:54](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=534s)
  Generating a Solution and Opening Project
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=562s](
-09:22
-)
+[09:22](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=562s)
  Getting to Know the Engine Modules in Visual Studio
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=609s](
-10:09
-)
+[10:09](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=609s)
  Choosing a Configuration Method
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=691s](
-11:31
-)
+[11:31](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=691s)
  Building the Engine
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=729s](
-12:09
-)
+[12:09](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=729s)
  Connecting Build to a Launcher Project
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=769s](
-12:49
-)
+[12:49](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=769s)
  Registering In the Project Management System
 
 -
-[https://www.youtube.com/watch?v=wSDHLj8HkhE&t=931s](
-15:31
-)
+[15:31](https://www.youtube.com/watch?v=wSDHLj8HkhE&t=931s)
  Creating a Launcher Project and Assigning to Build
+[Embed: https://www.youtube.com/watch?v=wSDHLj8HkhE&list=PLpCgy91Y5vMseqbcMTFRd7hfvT_1GyWKO&index=4]

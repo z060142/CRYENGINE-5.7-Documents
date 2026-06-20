@@ -83,29 +83,29 @@ Ctrl+G
 ##
 Step 1
 
-[Image: /docs/static/attachments/29928926]
+![Image](https://www.cryengine.com/docs/static/attachments/29928926)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/29928961]
+![Image](https://www.cryengine.com/docs/static/attachments/29928961)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/29928927]
+![Image](https://www.cryengine.com/docs/static/attachments/29928927)
 
 ##
 Step 3-1
 
-[Image: /docs/static/attachments/29928928]
+![Image](https://www.cryengine.com/docs/static/attachments/29928928)
 
 ##
 Step 4
 
-[Image: /docs/static/attachments/29928930]
+![Image](https://www.cryengine.com/docs/static/attachments/29928930)
 
 ##
 Step 5
 
-[Image: /docs/static/attachments/29928931]
+![Image](https://www.cryengine.com/docs/static/attachments/29928931)

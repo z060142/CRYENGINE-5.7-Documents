@@ -7,14 +7,14 @@
 
 ## Child Pages
 
-- [Adding & Editing Nodes](Flow Graph Basics/Adding & Editing Nodes.md)
-- [Creating & Editing Links](Flow Graph Basics/Creating & Editing Links.md)
-- [Flow Graph Node Composition](Flow Graph Basics/Flow Graph Node Composition.md)
-- [Importing & Exporting Flow Graphs](Flow Graph Basics/Importing & Exporting Flow Graphs.md)
+- [Adding & Editing Nodes](Flow%20Graph%20Basics/Adding%20%26%20Editing%20Nodes.md)
+- [Creating & Editing Links](Flow%20Graph%20Basics/Creating%20%26%20Editing%20Links.md)
+- [Flow Graph Node Composition](Flow%20Graph%20Basics/Flow%20Graph%20Node%20Composition.md)
+- [Importing & Exporting Flow Graphs](Flow%20Graph%20Basics/Importing%20%26%20Exporting%20Flow%20Graphs.md)
 
 ## Content
 
-[Image: /docs/static/attachments/29933583]
+![Image](https://www.cryengine.com/docs/static/attachments/29933583)
 
 ##
 Overview
@@ -26,24 +26,12 @@ After completing this tutorial, you will be able to set up a simple mission, def
 
 The more non-linear the mission objectives are, the more time you need to spend testing them. It is therefore recommended that beginners make a linear gameplay path to start with: 1st objective, complete triggers, 2nd objective, and triggers mission end.
 
-[#sections](
-Sections
-)
-[#adding-a-spawn-point](
-Adding a Spawn Point
-)
-[#triggering-events](
-Triggering Events
-)
-[#adding-logic-to-triggers](
-Adding Logic to Triggers
-)
-[#loading-a-new-mission](
-Loading a New Mission
-)
-[#result](
-Result
-)
+[Sections](#sections)
+[Adding a Spawn Point](#adding-a-spawn-point)
+[Triggering Events](#triggering-events)
+[Adding Logic to Triggers](#adding-logic-to-triggers)
+[Loading a New Mission](#loading-a-new-mission)
+[Result](#result)
 
 ##
 Adding a Spawn Point
@@ -58,7 +46,7 @@ SpawnPoint
 Pic1: Creating a Spawnpoint
 *
 
-[Image: /docs/static/attachments/35401651]
+![Image](https://www.cryengine.com/docs/static/attachments/35401651)
 
 It is generally a good idea to use
 Flow Graph
@@ -87,7 +75,7 @@ SpawnPoint
 *
 Pic2:  Using Flowgraph to script the game's Spawn Point
 
-[Image: /docs/static/attachments/35401650]
+![Image](https://www.cryengine.com/docs/static/attachments/35401650)
 
 *
 
@@ -109,7 +97,7 @@ Area Triggers
 Pic3: ProximityTrigger location
 *
 
-[Image: /docs/static/attachments/35401651]
+![Image](https://www.cryengine.com/docs/static/attachments/35401651)
 
 You can double-click or drag and place this trigger in your level. It will be displayed as a
 T
@@ -119,7 +107,7 @@ T
 Pic4: Proximity Trigger placed
 *
 
-[Image: /docs/static/attachments/35401652]
+![Image](https://www.cryengine.com/docs/static/attachments/35401652)
 
 When you select the Proximity Trigger, you can change its properties in the Properties tool:
 
@@ -127,7 +115,7 @@ When you select the Proximity Trigger, you can change its properties in the Prop
 Pic5: Proximity Trigger properties
 *
 
-[Image: /docs/static/attachments/35401653]
+![Image](https://www.cryengine.com/docs/static/attachments/35401653)
 
 There are numerous things you can set up here, like the size of the area in which it's triggered (
 DimX
@@ -180,12 +168,12 @@ Pic6:
 Creating a Shape using the Area tool
 *
 
-[Image: /docs/static/attachments/35401654]
+![Image](https://www.cryengine.com/docs/static/attachments/35401654)
 
 *
 Pic7: Area Shape drawn
 
-[Image: /docs/static/attachments/35401655]
+![Image](https://www.cryengine.com/docs/static/attachments/35401655)
 
 *
 
@@ -206,7 +194,7 @@ Add
 *
 Pic8: Adding an EntityLink
 
-[Image: /docs/static/attachments/35401656]
+![Image](https://www.cryengine.com/docs/static/attachments/35401656)
 
 *
 
@@ -216,7 +204,7 @@ When you've done this, a box will appear under the EntityLinks header. Click on 
 Pic9: Picking the AreaTrigger
 *
 
-[Image: /docs/static/attachments/35401657]
+![Image](https://www.cryengine.com/docs/static/attachments/35401657)
 
 Unlike Proximity Triggers, Area Triggers have no boundary to speak of. They are simply logical triggers. To use Area Triggers, you must link a shape to them to so they can work.
 Area Shapes when created are a flat plane. Technically this means that the "activation area" of that shape is infinite in the Z axis. This is OK for most situations, unless you have a multi-floor setup where you only want to activate it on the ground floor.
@@ -230,7 +218,7 @@ Entity Properties
 *
 Pic10: Changing the height of a Proximity Trigger
 
-[Image: /docs/static/attachments/35401658]
+![Image](https://www.cryengine.com/docs/static/attachments/35401658)
 
 *
 
@@ -262,7 +250,7 @@ Create Flow Graph
 Pic11: Creating a Flow Graph
 *
 
-[Image: /docs/static/attachments/35401659]
+![Image](https://www.cryengine.com/docs/static/attachments/35401659)
 
 Specify a group name for the Flow Graph by clicking
 New...
@@ -276,14 +264,12 @@ Pic12: Creating a new group
 *
 
 *
-[Image: /docs/static/attachments/35401660]
+![Image](https://www.cryengine.com/docs/static/attachments/35401660)
 
 *
 
 For more information, please see the documentation on using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450509](
-How to Use Flow Graph
-)
+[How to Use Flow Graph](../../Editor%20Tools/Flow%20Graph/How%20to%20Use%20Flow%20Graph.md)
 .
 
 ##
@@ -301,7 +287,7 @@ Add Selected Entity
 Pic13: Adding AreaTrigger node in Flow Graph
 *
 
-[Image: /docs/static/attachments/35401661]
+![Image](https://www.cryengine.com/docs/static/attachments/35401661)
 
 Make sure that the
 AreaTrigger
@@ -314,7 +300,7 @@ Pic14: Fitting the Graph to view
 *
 
 *
-[Image: /docs/static/attachments/35401662]
+![Image](https://www.cryengine.com/docs/static/attachments/35401662)
 
 *
 
@@ -332,14 +318,14 @@ MissionObjective
 *
 Pic15: MissionObjective location
 
-[Image: /docs/static/attachments/35401663]
+![Image](https://www.cryengine.com/docs/static/attachments/35401663)
 
 *
 
 *
 Pic16: MissionObjective dragged into the level
 
-[Image: /docs/static/attachments/35401664]
+![Image](https://www.cryengine.com/docs/static/attachments/35401664)
 
 *
 
@@ -382,7 +368,7 @@ MissionObjective
 Pic17: Connecting AreaTrigger node to MissionObjective node
 *
 
-[Image: /docs/static/attachments/35401665]
+![Image](https://www.cryengine.com/docs/static/attachments/35401665)
 
 The Mission Objective has several important inputs:
 
@@ -425,9 +411,7 @@ Marks an objective in the PDA as failed.
 Loading a New Mission
 
 Once the player has finished his objective, let's load the next level (obviously you could trigger another objective after the first one, but for this test, simply load the next level. Any random level will do, for example Woodland if you have downloaded the CRYENGINE GameSDK Sample Project from the
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
 ).
 
 -
@@ -511,7 +495,7 @@ Pic18: Loading a new mission using FlowGraph
 *
 
 *
-[Image: /docs/static/attachments/35401666]
+![Image](https://www.cryengine.com/docs/static/attachments/35401666)
 
 *
 

@@ -14,7 +14,7 @@ Having reached this point you should have now successfully exported out the geom
 
 First open the Material Editor and navigate to your object.
 
-[Image: /docs/static/attachments/24157020]
+![Image](https://www.cryengine.com/docs/static/attachments/24157020)
 
 *
 Pic1: Material Editor overview
@@ -55,7 +55,7 @@ Vegetation
 **
  from the drop down lists.
 
-[Image: /docs/static/attachments/26509315]
+![Image](https://www.cryengine.com/docs/static/attachments/26509315)
 
 *
 Pic2: Material settings
@@ -88,13 +88,13 @@ AlphaTest
 **
  set to around 35. There is no hard and fast rule for the setting of the alpha test level. Set it to what looks right for your asset.
 
-[Image: /docs/static/attachments/24157021]
+![Image](https://www.cryengine.com/docs/static/attachments/24157021)
 
 *
 Pic3: Opacity
 *
 
-[Image: /docs/static/attachments/24157022]
+![Image](https://www.cryengine.com/docs/static/attachments/24157022)
 
 *
 Pic4: Re-cap of where this info came from in 3dsMax
@@ -129,7 +129,7 @@ Set the
 Smoothness
 **
  slider to a low value such as 30.
-[Image: /docs/static/attachments/24157023]
+![Image](https://www.cryengine.com/docs/static/attachments/24157023)
 
 *
 Pic5: Lighting Settings
@@ -146,12 +146,7 @@ Smoothness
  slider instead.
 
 For more information on the PBS rendering setup please go
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959238](
-**
-HERE
-**
-
-)
+[HERE](../../../../../Graphics%20%26%20Rendering/Shaders/Physically%20Based%20Shading%20(PBS).md)
 for a full explanation.
 
 ##
@@ -168,7 +163,7 @@ Diffuse
  (*.diff) details through the material export from 3dsMax.
 
 *
-[Image: /docs/static/attachments/24157025]
+![Image](https://www.cryengine.com/docs/static/attachments/24157025)
 
 Pic6: Texture maps with only the diffuse assigned
 *
@@ -186,7 +181,7 @@ Grass
 **
  parameter. We want our asset to run through the cheaper and faster pipeline.
 
-[Image: /docs/static/attachments/24157024]
+![Image](https://www.cryengine.com/docs/static/attachments/24157024)
 
 *
 Pic7: Shader Generation Params with grass enabled
@@ -274,7 +269,7 @@ Shader Params
 **
  section. It should now look like this.
 
-[Image: /docs/static/attachments/26509316]
+![Image](https://www.cryengine.com/docs/static/attachments/26509316)
 
 *
 Pic8: Shader Params
@@ -291,9 +286,7 @@ Bending branch amplitude
  |
 Detail bending control. Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this page
-)
+[this page](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 **
  for information on detail bending (not required for this tutorial).
  |
@@ -304,9 +297,7 @@ Bending edges amplitude
  |
 Detail bending control. Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this page
-)
+[this page](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 **
  for information on detail bending (not required for this tutorial).
  |
@@ -324,9 +315,7 @@ Detail bending frequency
  |
 Detail bending control. Please see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-this page
-)
+[this page](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 **
  for information on detail bending (not required for this tutorial).
  |
@@ -395,9 +384,7 @@ Before we continue to configure the material params, it will help if we place so
 
 For more information of the usage of the vegetation editor, please refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865590](
-HERE
-)
+[HERE](../../../../../Editor%20Tools/Vegetation%20Editor.md)
 **
 .
 
@@ -415,7 +402,7 @@ Vegetation
  Editor.
 
 *
-[Image: /docs/static/attachments/25035762]
+![Image](https://www.cryengine.com/docs/static/attachments/25035762)
 
 Pic9: Selecting the "Vegetation" tool
 *
@@ -426,7 +413,7 @@ Default1
 **
 ).
 
-[Image: /docs/static/attachments/25035763]
+![Image](https://www.cryengine.com/docs/static/attachments/25035763)
 
 *
 Pic10: Adding a Vegetation group
@@ -440,7 +427,7 @@ Add Vegetation Object
 first button
 ) to add a vegetation object to this group.
 
-[Image: /docs/static/attachments/25035764]
+![Image](https://www.cryengine.com/docs/static/attachments/25035764)
 
 *
 Pic11: Adding a vegetation object to the group
@@ -474,7 +461,7 @@ Enable the paint objects button to paint down lots of instances your bush asset,
 To be more precise, do not select the paint objects button (so it's not active) and on the terrain Shift+LMB to place only 1 instance.
 Paint down about 100 - 150m worth of grass over the terrain. Enough to cover most of the ground around the vicinity of the player and off into the distance. We need some distance to be able to observer the changes in the object when we modify some of the properties such as terrain color blending.
 
-[Image: /docs/static/attachments/25035781]
+![Image](https://www.cryengine.com/docs/static/attachments/25035781)
 
 *
 Pic12: Accessing the Ruler Tool
@@ -483,7 +470,7 @@ Pic12: Accessing the Ruler Tool
 Adjust the ruler tool to quickly judge distances accurately. Simply highlight the tool so its active, then click left-mouse button (LMB) where you want the start and end points of the ruler to measure.
 
 *
-[Image: /docs/static/attachments/24157035]
+![Image](https://www.cryengine.com/docs/static/attachments/24157035)
 
 Pic12a: Unused area in the Woodland level. Using the ruler tool to judge the distance covered by the grass
 *
@@ -513,7 +500,7 @@ Grass
 **
  object and check the box to make it active.
 
-[Image: /docs/static/attachments/24157036]
+![Image](https://www.cryengine.com/docs/static/attachments/24157036)
 
 *
 Pic13: Enabling the terrain color blending to be used on this vegetation object
@@ -528,9 +515,9 @@ UseTerrainColor
  in the vegetation object, this tech is now active. Even though you have the sliders set as low as possible there will be some color bleeding from the terrain into the vegetation object at the far distance.
 This enables the blending of your vegetation into its surroundings. If you do not want this to happen, you have to disable the check box in the vegetation properties.
 
-[Image: /docs/static/attachments/24157026]
-[Image: /docs/static/attachments/24157027]
-[Image: /docs/static/attachments/24157028]
+![Image](https://www.cryengine.com/docs/static/attachments/24157026)
+![Image](https://www.cryengine.com/docs/static/attachments/24157027)
+![Image](https://www.cryengine.com/docs/static/attachments/24157028)
 
 *
 Pic13,14,15: Same setup, but with different blend strengths, 0, 0.5 & 1.
@@ -565,9 +552,9 @@ Terrain Color Blend Dist
 **
  to fine tune the color blend. Again, setting this to a maximum value will flood the grass with terrain color.
 
-[Image: /docs/static/attachments/24157032]
-[Image: /docs/static/attachments/24157033]
-[Image: /docs/static/attachments/24157034]
+![Image](https://www.cryengine.com/docs/static/attachments/24157032)
+![Image](https://www.cryengine.com/docs/static/attachments/24157033)
+![Image](https://www.cryengine.com/docs/static/attachments/24157034)
 
 *
 Pic16,17,18: As above, Terrain Color Blend (0.5) but added on top with Terrain Color Blend Dist at values 0.01, 0.5, 0.75
@@ -633,13 +620,13 @@ First pick the global wind strength and direction, that you want in your level.
 Then in the vegetation categories, set the amount of bending you would like to have on the asset at that level of global wind.
 Then if you were to modify the global wind in the level (because there is a storm or something) as you increase the global wind strength, its effect will be multiplied through the vegetation instances bending setting. So if all the vegetation is configured to move correctly at one wind setting, as you change the global wind up and down, they should all multiply up or down in coordination with the wind strength.
 
-[Image: /docs/static/attachments/24157016]
+![Image](https://www.cryengine.com/docs/static/attachments/24157016)
 
 *
 Pic19 : Setting the global wind strength / direction in the environment tab
 *
 
-[Image: /docs/static/attachments/24157031]
+![Image](https://www.cryengine.com/docs/static/attachments/24157031)
 
 *
 Pic20: The Bending slider to set per vegetation object
@@ -670,7 +657,7 @@ none
 **
 (instead of Sin Wave in this example).
 
-[Image: /docs/static/attachments/24157037]
+![Image](https://www.cryengine.com/docs/static/attachments/24157037)
 
 *
 Pic21: Vertex Deformation panel with Sin Wave active
@@ -682,9 +669,7 @@ Detail Bending,
 **
  go to the following
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285893](
-page
-)
+[page](../Vegetation%2003%20Bushes%20(Detail%20Bending).md)
 **
 .
 
@@ -693,7 +678,7 @@ LODs (Level of detail)
 
 As we set our model to contain some LODs, lets check them out in CRYENGINE.
 
-[Image: /docs/static/attachments/24157017]
+![Image](https://www.cryengine.com/docs/static/attachments/24157017)
 
 *
 Pic 22: Recap of the LOD hierarchy in 3dsMax (dropping approx 50% polys per LOD step).
@@ -745,7 +730,7 @@ Purple
 
 As we only added 2 LODs to the grass patch, when we see enable the debug view to inspect the LODs, we should only see the first 3 levels, Red, green and blue (0,1,2).
 
-[Image: /docs/static/attachments/24157018]
+![Image](https://www.cryengine.com/docs/static/attachments/24157018)
 
 *
 Pic23: e_debugdraw -3 (color coded lod visualization)
@@ -753,7 +738,7 @@ Pic23: e_debugdraw -3 (color coded lod visualization)
 
 To adjust where the LOD swap will happen, we control this using settings in the vegetation editor.
 
-[Image: /docs/static/attachments/24157019]
+![Image](https://www.cryengine.com/docs/static/attachments/24157019)
 
 *
 Pic24: View Distance & LOD ratios in the vegetation editor
@@ -818,21 +803,9 @@ r_stats=6
 
 -
 Do not enable MergedMesh technology on grass patches. The geometric grid setup inside the asset is too complex for the system to handle (MergedMesh technology requires simple individual grass planes, not patches).
-[#material-setup-in-cryengine](
-Material Setup in CRYENGINE
-)
-[#vegetation-editor](
-Vegetation Editor
-)
-[#modify-the-properties-of-the-grass-material](
-Modify the properties of the grass material
-)
-[#adding-some-movement-to-the-vegetation](
-Adding some movement to the vegetation
-)
-[#lods-level-of-detail](
-LODs (Level of detail)
-)
-[#final-notes](
-Final Notes
-)
+[Material Setup in CRYENGINE](#material-setup-in-cryengine)
+[Vegetation Editor](#vegetation-editor)
+[Modify the properties of the grass material](#modify-the-properties-of-the-grass-material)
+[Adding some movement to the vegetation](#adding-some-movement-to-the-vegetation)
+[LODs (Level of detail)](#lods-level-of-detail)
+[Final Notes](#final-notes)

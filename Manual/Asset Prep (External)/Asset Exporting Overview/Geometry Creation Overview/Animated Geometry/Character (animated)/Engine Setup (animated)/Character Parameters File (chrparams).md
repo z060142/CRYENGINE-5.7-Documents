@@ -7,12 +7,12 @@
 
 ## Child Pages
 
-- [Look IK (lookposes)](Character Parameters File (chrparams)/Look IK (lookposes).md)
-- [Limb IK](Character Parameters File (chrparams)/Limb IK.md)
-- [Leg and Foot Ground Alignment](Character Parameters File (chrparams)/Leg and Foot Ground Alignment.md)
-- [Bone Requirements](Character Parameters File (chrparams)/Bone Requirements.md)
-- [Animation Driven IK](Character Parameters File (chrparams)/Animation Driven IK.md)
-- [Aim IK (aimposes)](Character Parameters File (chrparams)/Aim IK (aimposes).md)
+- [Look IK (lookposes)](Character%20Parameters%20File%20(chrparams)/Look%20IK%20(lookposes).md)
+- [Limb IK](Character%20Parameters%20File%20(chrparams)/Limb%20IK.md)
+- [Leg and Foot Ground Alignment](Character%20Parameters%20File%20(chrparams)/Leg%20and%20Foot%20Ground%20Alignment.md)
+- [Bone Requirements](Character%20Parameters%20File%20(chrparams)/Bone%20Requirements.md)
+- [Animation Driven IK](Character%20Parameters%20File%20(chrparams)/Animation%20Driven%20IK.md)
+- [Aim IK (aimposes)](Character%20Parameters%20File%20(chrparams)/Aim%20IK%20(aimposes).md)
 
 ## Content
 
@@ -555,12 +555,6 @@ convert_to_chrparams.py
 
 -
 Double click the .py file to execute the Python script as it goes through all the folders inside the Game folder to look for the .setup, .ik and .cal files and create a merged .chrparams file.
-[#chrparams-definitions](
-CHRPARAMS Definitions
-)
-[#character-animation-lists](
-Character Animation Lists
-)
-[#creating-chrparams-file-using-python-script](
-Creating .chrparams file using Python Script
-)
+[CHRPARAMS Definitions](#chrparams-definitions)
+[Character Animation Lists](#character-animation-lists)
+[Creating .chrparams file using Python Script](#creating-chrparams-file-using-python-script)

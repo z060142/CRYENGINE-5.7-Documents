@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Asset Importers](Asset System/Asset Importers.md)
-- [CAssetBrowser model hierarchy](Asset System/CAssetBrowser model hierarchy.md)
-- [Computed Column](Asset System/Computed Column.md)
+- [Asset Importers](Asset%20System/Asset%20Importers.md)
+- [CAssetBrowser model hierarchy](Asset%20System/CAssetBrowser%20model%20hierarchy.md)
+- [Computed Column](Asset%20System/Computed%20Column.md)
 
 ## Content
 
@@ -45,9 +45,7 @@ Rare case, but asset editors may be able to handle different types of assets, fo
 Ultimately, the asset system is a way to hide the real files to the user, so the engine can use more creative solutions when it comes to file management, while the users are only concerned with the concept of an asset, i.e. a piece of data that can be created, modified and submitted to source control.
 
 The user documentation of the Asset System can be found here:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26874315](
-Asset System 5.5.2
-)
+[Asset System 5.5.2](/docs/static/engines/cryengine-5/categories/23756816/pages/26874315)
 
 ##
 Features
@@ -74,9 +72,7 @@ Opening, editing, saving, recent files...
 
 -
 Inherits from
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873098](
-CEditor
-)
+[CEditor](Creating%20a%20new%20editor%20window.md)
  framework and all of its functionality.
 
 -
@@ -106,9 +102,7 @@ Adding an asset type
 Create a class and inherit from CAssetType. Implement all the virtual methods to describe your type, implement importing if necessary, and editing if necessary.
 
 A good example of this can be found in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873092](
-SamplePlugin
-)
+[SamplePlugin](Sandbox%20Plugins/Sandbox%20C%2B%2B%20plugins.md)
  in SampleAssetType.h/cpp.
 These files will be updated if the API changes.
 
@@ -117,16 +111,12 @@ Adding an asset editor
 Create an editor class inheriting from CAssetEditor. This is an advanced version of CEditor that offers similar services and then some more related to editing assets. Implement all the virtual methods necessary and you are done, your asset can now be edited.
 
 A good example of this can be found in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873092](
-SamplePlugin
-)
+[SamplePlugin](Sandbox%20Plugins/Sandbox%20C%2B%2B%20plugins.md)
  in SampleAssetEditor.h/cpp. These files will be updated if the API changes.
 
 ##
 Asset Importer
 
 If your asset is imported from an external tool such as a DCC, you may also need to write an
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26873126](
-Asset Importer
-)
+[Asset Importer](Asset%20System/Asset%20Importers.md)
 .

@@ -38,14 +38,14 @@ Ctrl+G
 ##
 Step 1
 
-[Image: /docs/static/attachments/29929017]
+![Image](https://www.cryengine.com/docs/static/attachments/29929017)
 
 ##
 Step 2
 
-[Image: /docs/static/attachments/29929018]
+![Image](https://www.cryengine.com/docs/static/attachments/29929018)
 
 ##
 Step 3
 
-[Image: /docs/static/attachments/29929019]
+![Image](https://www.cryengine.com/docs/static/attachments/29929019)

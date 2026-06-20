@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Important 3.8.3 EaaS Code and Data Changes](EaaS 3.8.3/Important 3.8.3 EaaS Code and Data Changes.md)
+- [Important 3.8.3 EaaS Code and Data Changes](EaaS%203.8.3/Important%203.8.3%20EaaS%20Code%20and%20Data%20Changes.md)
 
 ## Content
 
@@ -33,9 +33,7 @@ In CRYENGINE, characters consist of many discrete parts (=attachments) all tied 
 Code Interface Changes
 
 See the
-[/docs](
-Important 3.8.3 EaaS Code and Data Changes
-)
+[Important 3.8.3 EaaS Code and Data Changes](/docs)
  article for more information
 
 ##
@@ -106,16 +104,14 @@ Tweaked
 ##
 Designer Tool
 
-[Image: /docs/static/attachments/44962931]
+![Image](https://www.cryengine.com/docs/static/attachments/44962931)
 
 -
 **
 New
 **
 : UV Mapping Editor has been added -
-[/docs/static/engines/cryengine-3/categories/1114113/pages/21268798](
-UV Mapping Editor(Manual)
-)
+[UV Mapping Editor(Manual)](/docs/static/engines/cryengine-3/categories/1114113/pages/21268798)
 
 -
 **
@@ -1134,45 +1130,17 @@ Fixed
 Tweaked
 **
 : Rename Objectives_new.xml to Objectives_global.xml
-[#release-highlights](
-Release Highlights
-)
-[#code-interface-changes](
-Code Interface Changes
-)
-[#editor-update](
-Editor Update
-)
-[#editor](
-Editor
-)
-[#renderer](
-Renderer
-)
-[#engine](
-Engine
-)
-[#3d-engine](
-3D Engine
-)
-[#particles](
-Particles
-)
-[#rctools](
-RC/Tools
-)
-[#animation](
-Animation
-)
-[#action](
-Action
-)
-[#audio](
-Audio
-)
-[#ai-system](
-AI System
-)
-[#game](
-Game
-)
+[Release Highlights](#release-highlights)
+[Code Interface Changes](#code-interface-changes)
+[Editor Update](#editor-update)
+[Editor](#editor)
+[Renderer](#renderer)
+[Engine](#engine)
+[3D Engine](#3d-engine)
+[Particles](#particles)
+[RC/Tools](#rctools)
+[Animation](#animation)
+[Action](#action)
+[Audio](#audio)
+[AI System](#ai-system)
+[Game](#game)

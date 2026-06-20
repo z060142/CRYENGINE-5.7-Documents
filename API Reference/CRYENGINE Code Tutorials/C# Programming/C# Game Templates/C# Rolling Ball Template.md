@@ -11,9 +11,7 @@ The Rolling Ball template is a simple game in which you can control a ball rolli
 
 -
 Use the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448894](
-EntityComponent
-)
+[EntityComponent](/docs/static/engines/cryengine-5/categories/28704771/pages/29448894)
  to modify the behavior of the entities in your game.
 
 -
@@ -21,26 +19,16 @@ How to receive input from the Player.
 
 -
 How to use physics to move entities around.
-[#general-setup](
-General Setup
-)
-[#player](
-Player
-)
-[#playerview](
-PlayerView
-)
-[#entityproperties](
-EntityProperties
-)
+[General Setup](#general-setup)
+[Player](#player)
+[PlayerView](#playerview)
+[EntityProperties](#entityproperties)
 
 ##
 General Setup
 
 In the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29798417](
-Blank template
-)
+[Blank template](C%23%20Blank%20Template.md)
 , most of the work is done inside the
 `
 Game
@@ -60,9 +48,7 @@ Asset Browser
 Player
 **
 class which is an
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448894](
-EntityComponent
-)
+[EntityComponent](/docs/static/engines/cryengine-5/categories/28704771/pages/29448894)
 . Since the
 **
 Player
@@ -105,9 +91,7 @@ Player
 Player
 **
  is an
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448894](
-EntityComponent
-)
+[EntityComponent](/docs/static/engines/cryengine-5/categories/28704771/pages/29448894)
 , it can be added to an Entity in the level in the Sandbox from the
 **
 Add Component
@@ -121,13 +105,9 @@ Player
 Player
 **
  are exposed by the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448914](
-EntityPropertyAttribute
-)
+[EntityPropertyAttribute](/docs/static/engines/cryengine-5/categories/28704771/pages/29448914)
  which are explained in more detail in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791343#C#RollingBallTemplate-EntityProperties](
-EntityProperties
-)
+[EntityProperties](C%23%20Rolling%20Ball%20Template.md#C%23RollingBallTemplate-EntityProperties)
  chapter.
 
 Once
@@ -141,13 +121,9 @@ Player
 SetPlayerModel
 **
  method, which calls
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448766](
-LoadGeometry
-)
+[LoadGeometry](/docs/static/engines/cryengine-5/categories/28704771/pages/29448766)
  and
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448766](
-LoadMaterial
-)
+[LoadMaterial](/docs/static/engines/cryengine-5/categories/28704771/pages/29448766)
  with the values that are set according to the
 **
 PlayerGeometryUrl
@@ -157,9 +133,7 @@ PlayerGeometryUrl
 PlayerMaterialUrl
 **
 . Once the visuals are rendered, it will
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448897](
-Physicalize
-)
+[Physicalize](/docs/static/engines/cryengine-5/categories/28704771/pages/29448897)
  itself by calling the
 **
 PrepareRigidbody
@@ -169,9 +143,7 @@ PrepareRigidbody
 Mass
 **
  of the entity and set the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282101](
-physicalization type
-)
+[physicalization type](../../../CRYENGINE%20Engine%20Code/Engine%20Modules/CryPhysics/Physical%20entity%20types.md)
  to
 **
 Rigid
@@ -193,9 +165,7 @@ PrepareRigidbody
 Mass
 **
  of the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448897](
-PhysicsEntity
-)
+[PhysicsEntity](/docs/static/engines/cryengine-5/categories/28704771/pages/29448897)
 .
 For objects that shouldn't move around, the physicalization type should be set to
 **
@@ -208,9 +178,7 @@ The Player receives its update calls in
 OnUpdate
 **
 , which is called every frame. The
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448894](
-EntityComponent
-)
+[EntityComponent](/docs/static/engines/cryengine-5/categories/28704771/pages/29448894)
  has several virtual methods that can be overridden, such as
 **
 OnCollision
@@ -230,13 +198,9 @@ On each frame, the player's movement is handled by the
 UpdateMovement
 **
  method. First, the user-input is gathered through the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448891](
-Input
-)
+[Input](/docs/static/engines/cryengine-5/categories/28704771/pages/29448891)
  class. Next the forward direction of the camera is retrieved and transformed (so it will not point up or down). After the forward is calculated, the correct direction of the camera can be calculated using
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448783](
-Vector3.Cross
-)
+[Vector3.Cross](/docs/static/engines/cryengine-5/categories/28704771/pages/29448783)
  in combination with the world's up direction. Once both the forward and the correct direction of the camera have been calculated, they can be used to add or subtract from the impulse direction (depending on the input that was retrieved earlier). Finally, the impulse direction is multiplied with the
 **
 FrameTime
@@ -260,9 +224,7 @@ Player
 PlayerView
 **
  class which is explained in more detail in the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791343#C#RollingBallTemplate-PlayerView](
-PlayerView
-)
+[PlayerView](C%23%20Rolling%20Ball%20Template.md#C%23RollingBallTemplate-PlayerView)
 chapter.
 
 ##
@@ -314,13 +276,9 @@ PlayerView
 
 -
 As it is not an
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448894](
-EntityComponent
-)
+[EntityComponent](/docs/static/engines/cryengine-5/categories/28704771/pages/29448894)
 it is unable to make use of the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448914](
-EntityPropertyAttribute
-)
+[EntityPropertyAttribute](/docs/static/engines/cryengine-5/categories/28704771/pages/29448914)
 .
 
 -
@@ -342,9 +300,7 @@ The
 Player
 **
  class has several properties that can be adjusted in the Sandbox. This is done by adding the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448914](
-EntityPropertyAttribute
-)
+[EntityPropertyAttribute](/docs/static/engines/cryengine-5/categories/28704771/pages/29448914)
 to the properties.
 
 ```
@@ -414,9 +370,7 @@ ViewDistance
 **
  - Determines the distance between the Player and camera.
 All of these properties are float properties, but the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448914](
-EntityPropertyAttribute
-)
+[EntityPropertyAttribute](/docs/static/engines/cryengine-5/categories/28704771/pages/29448914)
  can be used to expose a wide variety of types. By default it will assume the property's type is a primitive type (
 **
 `
@@ -442,26 +396,18 @@ bool
 `
 **
 ). By changing the first parameter in the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448914](
-EntityProperty
-)
+[EntityProperty](/docs/static/engines/cryengine-5/categories/28704771/pages/29448914)
  you can adjust how the value is represented in the Sandbox. For example, if you want to also expose the
 **
 PlayerGeometryUrl
 **
  you could do it by using the default
 **
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448761](
-EntityPropertyType
-)
+[EntityPropertyType](/docs/static/engines/cryengine-5/categories/28704771/pages/29448761)
 .Primitive
 **
 , but you can also choose to change it to
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448761](
-**
-EntityPropertyType
-**
-)
+[EntityPropertyType](/docs/static/engines/cryengine-5/categories/28704771/pages/29448761)
 **
 .Geometry
 **

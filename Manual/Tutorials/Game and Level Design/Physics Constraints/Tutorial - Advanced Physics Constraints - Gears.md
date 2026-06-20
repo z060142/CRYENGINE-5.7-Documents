@@ -55,7 +55,7 @@ Maximum X Angle
 **
 to 360. Set the desired axis (perpendicular to the diameter of the gear, like the axle of a wheel) to 1. (You'll see the "axle" represented by a yellow line as long as your helpers are enabled):
 
-[Image: /docs/static/attachments/56656095]
+![Image](https://www.cryengine.com/docs/static/attachments/56656095)
 
 *
 Axle line
@@ -153,7 +153,7 @@ close
 **
 the Pick Object tool from the Perspective Viewport's window after linking to the empty entity:
 
-[Image: /docs/static/attachments/56656096]
+![Image](https://www.cryengine.com/docs/static/attachments/56656096)
 
 *
 Close Pick Object tool
@@ -175,7 +175,7 @@ link
 **
 between the gear and the linking entity to something that clarifies its role, such as "gear_linker":
 
-[Image: /docs/static/attachments/56656097]
+![Image](https://www.cryengine.com/docs/static/attachments/56656097)
 
 *
 Rename entity link
@@ -207,7 +207,7 @@ smaller
 
 In order to create the illusion that one gear is making the other(s) move, position the two gears at any angle you like, but such that the teeth or surfaces of the gears appear to engage or touch. Depending on your gear design, you may need to rotate one of the gears around its axle so its teeth appear to engage:
 
-[Image: /docs/static/attachments/56656098]
+![Image](https://www.cryengine.com/docs/static/attachments/56656098)
 
 *
 Gears engaging
@@ -282,7 +282,7 @@ normal
 **
  (not the plane itself) should be vertical (facing up or down makes no difference), like this:
 
-[Image: /docs/static/attachments/56656099]
+![Image](https://www.cryengine.com/docs/static/attachments/56656099)
 
 *
 Plane Constraint normal and position
@@ -352,7 +352,7 @@ from the master gear to the slave gear and paste it into the plane constraint co
 Target Link Name
 **
 .
-[Image: /docs/static/attachments/56656111]
+![Image](https://www.cryengine.com/docs/static/attachments/56656111)
 
 -
 Save your level, enable physics (
@@ -444,7 +444,7 @@ Setting up multiple slave gears is fairly straightforward.
 -
 Duplicate the existing slave gear. Move it to where you want it to be, e.g. the other side of the master gear:
 
-[Image: /docs/static/attachments/56656103]
+![Image](https://www.cryengine.com/docs/static/attachments/56656103)
 
 *
 Second slave gear duplicated
@@ -452,15 +452,11 @@ Second slave gear duplicated
 
 -
 This new slave gear will need its own Plane Constraint, so select the master gear and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656092#Tutorial-AdvancedPhysicsConstraints-Gears-AddPlaneConstraint](
-add another Plane Constraint
-)
+[add another Plane Constraint](Tutorial%20-%20Advanced%20Physics%20Constraints%20-%20Gears.md#Tutorial-AdvancedPhysicsConstraints-Gears-AddPlaneConstraint)
 . Name the gear something like "gear_slave-2".
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56656092#Tutorial-AdvancedPhysicsConstraints-Gears-LinkMasterToSlave](
-Link the master gear to the new slave gear
-)
+[Link the master gear to the new slave gear](Tutorial%20-%20Advanced%20Physics%20Constraints%20-%20Gears.md#Tutorial-AdvancedPhysicsConstraints-Gears-LinkMasterToSlave)
 .
  Name this
 *
@@ -491,7 +487,7 @@ Non-Parallel Location
 
 Of course, gears aren't always positioned neatly in a straight line; sometimes a slave gear is off to the top left or right of the master gear. All you really need to do is move the gear and rotate the Plane Constraint. Rotating the Plane Constraint is not done with Transform → Rotation, however. The property you'll need for this is Axis:
 
-[Image: /docs/static/attachments/56656104]
+![Image](https://www.cryengine.com/docs/static/attachments/56656104)
 
 *
 Change Axis for rotation Plane Constraint
@@ -501,7 +497,7 @@ Be sure to first carefully at the entity links on your master gear and be sure t
 
 Together with changing the Translation, you can position the Plane Constraint perpendicular to the contact point between the master and slave gears, like this:
 
-[Image: /docs/static/attachments/56656106]
+![Image](https://www.cryengine.com/docs/static/attachments/56656106)
 
 *
 Plane Constraint rotated
@@ -509,7 +505,7 @@ Plane Constraint rotated
 
 Now they will rotate like this, in opposite directions, as if intermeshed:
 
-[Image: /docs/static/attachments/56656107]
+![Image](https://www.cryengine.com/docs/static/attachments/56656107)
 
 *
 Offset slave gear rotating
@@ -526,7 +522,7 @@ Set up a master gear and several slave gears as explained above. However, make s
 -
 To make the gears rotate in the same direction, the Plane Constraints generally need to be quite far away:
 
-[Image: /docs/static/attachments/56656108]
+![Image](https://www.cryengine.com/docs/static/attachments/56656108)
 
 *
 Same Direction Plane Constraints
@@ -548,12 +544,8 @@ Video Tutorial
 
 For more detailed information and to watch a video tutorial about these setups, see below.
 
-[#basics](
-Basics
-)
-[#advanced-setups](
-Advanced Setups
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=0zgCcjdY_Fg]
+
+[Basics](#basics)
+[Advanced Setups](#advanced-setups)
+[Video Tutorial](#video-tutorial)

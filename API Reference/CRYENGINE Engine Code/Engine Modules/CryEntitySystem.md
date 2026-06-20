@@ -7,11 +7,11 @@
 
 ## Child Pages
 
-- [Entity Property Prefixes](CryEntitySystem/Entity Property Prefixes.md)
-- [Creating a New Entity Class](CryEntitySystem/Creating a New Entity Class.md)
-- [EntityID Explained](CryEntitySystem/EntityID Explained.md)
-- [Adding Usable Support on an Entity](CryEntitySystem/Adding Usable Support on an Entity.md)
-- [Entity System Script Callbacks](CryEntitySystem/Entity System Script Callbacks.md)
+- [Entity Property Prefixes](CryEntitySystem/Entity%20Property%20Prefixes.md)
+- [Creating a New Entity Class](CryEntitySystem/Creating%20a%20New%20Entity%20Class.md)
+- [EntityID Explained](CryEntitySystem/EntityID%20Explained.md)
+- [Adding Usable Support on an Entity](CryEntitySystem/Adding%20Usable%20Support%20on%20an%20Entity.md)
+- [Entity System Script Callbacks](CryEntitySystem/Entity%20System%20Script%20Callbacks.md)
 
 ## Content
 
@@ -19,26 +19,16 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306399](
-Entity Property Prefixes
-)
+[Entity Property Prefixes](CryEntitySystem/Entity%20Property%20Prefixes.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306402](
-Creating a New Entity Class
-)
+[Creating a New Entity Class](CryEntitySystem/Creating%20a%20New%20Entity%20Class.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306401](
-EntityID Explained
-)
+[EntityID Explained](CryEntitySystem/EntityID%20Explained.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306403](
-Adding Usable Support on an Entity
-)
+[Adding Usable Support on an Entity](CryEntitySystem/Adding%20Usable%20Support%20on%20an%20Entity.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306636](
-Entity System Script Callbacks
-)
+[Entity System Script Callbacks](CryEntitySystem/Entity%20System%20Script%20Callbacks.md)

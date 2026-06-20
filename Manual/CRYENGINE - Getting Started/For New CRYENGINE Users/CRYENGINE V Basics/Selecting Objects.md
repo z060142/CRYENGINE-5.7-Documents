@@ -15,7 +15,7 @@ Understanding concepts of selection inside CRYENGINE Sandbox is essential to suc
 ##
 Select Mode
 
-[Image: /docs/static/attachments/24152069]
+![Image](https://www.cryengine.com/docs/static/attachments/24152069)
 
 In
 **
@@ -33,7 +33,7 @@ H
 **
  icon on top of the 3D Viewport window:
 
-[Image: /docs/static/attachments/24152070]
+![Image](https://www.cryengine.com/docs/static/attachments/24152070)
 
 ##
 Selecting a Single Object
@@ -71,12 +71,12 @@ When local or parent coordinate frame is used, the transform gizmo will use the 
 
 Managing multiple objects selection using gizmos:
 
-[Image: /docs/static/attachments/26526167]
+![Image](https://www.cryengine.com/docs/static/attachments/26526167)
 
 ##
 Selection Outlines
 
-[Image: /docs/static/attachments/27566948]
+![Image](https://www.cryengine.com/docs/static/attachments/27566948)
 
 When you hover over or select an object, you'll see a highlight and an outline. The effect works as follows:
 
@@ -101,9 +101,7 @@ Grass/mergeable vegetation during vegetation editing
 Attached weapons on animated characters
 You can change the colors, outline width and other parameters concerning the selection outlines in the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848616](
-Preferences
-)
+[Preferences](Customizing%20CRYENGINE%20Sandbox/Changing%20Sandbox%20Preferences.md)
 **
 .
 
@@ -166,13 +164,11 @@ Clicking this eye icon will change the state of that object to Hidden.
 -
 To freeze/unfreeze an object through the Level Explorer, click on the arrow icon in the second column from the left.
 
-[Image: /docs/static/attachments/24151243]
+![Image](https://www.cryengine.com/docs/static/attachments/24151243)
 
 The Level Explorer allows you to do more than just selecting, hiding/unhiding tools and layers and freezing/unfreezing them. For more information on this tool,
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541](
-click here
-)
+[click here](../../../Editor%20Tools/Level%20Editor%20Tab/Level%20Explorer.md)
 **
 .
 
@@ -201,7 +197,7 @@ TAB+LMB.
 Deep Section in action TAB+Z+LMB (Range = 50m)
 
 *
-[Image: /docs/static/attachments/26526166]
+![Image](https://www.cryengine.com/docs/static/attachments/26526166)
 *
 
 The Deep Selection mode is activated only when multiple objects are in Deep Selection range.
@@ -220,21 +216,9 @@ Edit -> Preferences -> General Settings -> General -> Deep Selection -> Range
 **
 . (Default setting of 1 meter. To use this effectively, increase the range to take more objects into account.)
 
-[#select-mode](
-Select Mode
-)
-[#show-hide-helpers](
-Show / Hide Helpers
-)
-[#selecting-a-single-object](
-Selecting a Single Object
-)
-[#selecting-multiple-objects](
-Selecting Multiple Objects
-)
-[#selection-outlines](
-Selection Outlines
-)
-[#adding-and-removing-objects-from-selection](
-Adding and Removing Objects from Selection
-)
+[Select Mode](#select-mode)
+[Show / Hide Helpers](#show-hide-helpers)
+[Selecting a Single Object](#selecting-a-single-object)
+[Selecting Multiple Objects](#selecting-multiple-objects)
+[Selection Outlines](#selection-outlines)
+[Adding and Removing Objects from Selection](#adding-and-removing-objects-from-selection)

@@ -365,18 +365,8 @@ None.
 
  |
 
-[#core-nodes](
-Core Nodes
-)
-[#fail](
-Fail
-)
-[#random-gate](
-Random Gate
-)
-[#send-event](
-Send Event
-)
-[#suppress-failure](
-Suppress Failure
-)
+[Core Nodes](#core-nodes)
+[Fail](#fail)
+[Random Gate](#random-gate)
+[Send Event](#send-event)
+[Suppress Failure](#suppress-failure)

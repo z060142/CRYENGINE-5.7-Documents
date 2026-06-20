@@ -17,14 +17,14 @@ Files
 
 Click the file below for a downloadable PDF copy of this chapter.
 
-[/docs/static/attachments/56000687](
-audio_showcase_tutorial_part_1.pdf
-)
+[audio_showcase_tutorial_part_1.pdf](/docs/static/attachments/56000687)
 
 ##
 FMOD Video Tutorial
 
 The FMOD workflow of this chapter is also covered in the following video:
+
+[Embed: https://www.youtube.com/watch?v=mN7g6KN-UkE]
 
 ##
 Project Setup
@@ -35,7 +35,7 @@ Begin by creating a new CRYENGINE project from the Launcher by selecting the
 **
  icon shown in the image below.
 
-[Image: /docs/static/attachments/56000783]
+![Image](https://www.cryengine.com/docs/static/attachments/56000783)
 
 *
 First Person Shooter
@@ -66,16 +66,14 @@ Create Project
 to complete the process.
 
 *
-[Image: /docs/static/attachments/56000797]
+![Image](https://www.cryengine.com/docs/static/attachments/56000797)
 
 Project Browser
 *
 
 Next, navigate to the
 *
-[http://gs.crytek.com/AudioShowcaseTutorial/Showcase_Level.zip](
-Showcase_Level.zip
-)
+[Showcase_Level.zip](http://gs.crytek.com/AudioShowcaseTutorial/Showcase_Level.zip)
 *
  package and copy its contents to the folder of the project you just created. Be sure to select the
 **
@@ -98,7 +96,7 @@ SurfaceTypes.xml
  to 0 for the purpose of this tutorial.
 
 To locate your project's installation directory, click the
-[Image: /docs/static/attachments/56000684]
+![Image](https://www.cryengine.com/docs/static/attachments/56000684)
  icon against your project's listing in the Launcher, and select the
 **
 Reveal in Explorer
@@ -110,9 +108,7 @@ At this point, you must decide if you'd like to follow the entire tutorial, or s
 -
 To implement the entire tutorial, please extract and copy the contents of the
 *
-[http://gs.crytek.com/AudioShowcaseTutorial/Showcase_Audio_Source.zip](
-Showcase_Audio_Source.zip
-)
+[Showcase_Audio_Source.zip](http://gs.crytek.com/AudioShowcaseTutorial/Showcase_Audio_Source.zip)
 
 *
 package into your project folder.
@@ -120,9 +116,7 @@ package into your project folder.
 -
 If you prefer to skip the middleware setup/instructions, then copy the contents of the
 *
-[http://gs.crytek.com/AudioShowcaseTutorial/Showcase_Assets_5.6.4.zip](
-Showcase_Assets.zip
-)
+[Showcase_Assets.zip](http://gs.crytek.com/AudioShowcaseTutorial/Showcase_Assets_5.6.4.zip)
 *
  package into your project folder.
 Make sure none of the downloaded asset files are write protected.
@@ -130,7 +124,7 @@ Make sure none of the downloaded asset files are write protected.
 ##
 Middleware Setup
 
-[Image: /docs/static/attachments/56000683]
+![Image](https://www.cryengine.com/docs/static/attachments/56000683)
 
 *
 Middleware setup
@@ -196,7 +190,7 @@ However, if you do wish to save the FMOD project in a different location, make s
 Edit → Preferences
 **
  option under the
-[Image: /docs/static/attachments/56000682]
+![Image](https://www.cryengine.com/docs/static/attachments/56000682)
  menu located at its top right corner.
 
 Next, to define where FMOD saves Soundbanks so that they can be read by the Engine;
@@ -310,9 +304,7 @@ assets
 
 -
 Download and launch the Wwise Launcher from the
-[https://www.audiokinetic.com/downloads/](
-audiokinetic
-)
+[audiokinetic](https://www.audiokinetic.com/downloads/)
  website.
 
 -
@@ -321,7 +313,7 @@ Install the version of Wwise that is compatible with your Engine build, then cho
 Authoring Tool
 *
  package also.
-[Image: /docs/static/attachments/56000681]
+![Image](https://www.cryengine.com/docs/static/attachments/56000681)
 
 *
 Wwise
@@ -341,7 +333,7 @@ Assets/Audio/
 *
 directory of your CRYNENGINE project as shown below.
 
-[Image: /docs/static/attachments/56000680]
+![Image](https://www.cryengine.com/docs/static/attachments/56000680)
 
 *
 wwise_project
@@ -366,7 +358,7 @@ However, if you do wish to save the Wwise project in a different location, make 
 Edit → Preferences
 **
  option under the
-[Image: /docs/static/attachments/56000679]
+![Image](https://www.cryengine.com/docs/static/attachments/56000679)
  menu located at its top right corner.
 
 Next, to define where Wwise generates SoundBanks so that they can be read by the Engine;
@@ -388,7 +380,7 @@ Under the
 Soundbanks Path
 **
  section, click on the
-[Image: /docs/static/attachments/56000678]
+![Image](https://www.cryengine.com/docs/static/attachments/56000678)
  symbol, and navigate to the
 *
 Assets/Audio/wwise/assets
@@ -409,7 +401,7 @@ F7
 Generate All
 **
  button at the top of the project window.
-[Image: /docs/static/attachments/56000677]
+![Image](https://www.cryengine.com/docs/static/attachments/56000677)
 
 *
 SoundBank Paths
@@ -505,9 +497,7 @@ in the console.
 
 The
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481#AudioControlsEditor-WwiseControlsPanel](
-s_ImplName
-)
+[s_ImplName](../../../Editor%20Tools/Audio%20Controls%20Editor.md#AudioControlsEditor-WwiseControlsPanel)
 **
  CVar d
 efines which audio middleware implementation (SDL Mixer, FMOD Studio or Wwise) is loaded by CRYENGINE's audio system. It's recommended to set its value via the
@@ -539,7 +529,7 @@ G
 **
 ). Move the first-person character using the WASD keys, aim and shoot using the mouse buttons.
 
-[Image: /docs/static/attachments/56655917]
+![Image](https://www.cryengine.com/docs/static/attachments/56655917)
 
 *
 Viewport
@@ -559,7 +549,7 @@ Tools → Audio Controls Editor
 **
  option of the Engine's main menu, the ACE consists of four panels namely, Audio System Controls, Properties, Middleware Data and Contexts; note that only the first three are relevant to this tutorial.
 
-[Image: /docs/static/attachments/56655921]
+![Image](https://www.cryengine.com/docs/static/attachments/56655921)
 
 *
 Audio Controls Editor
@@ -626,9 +616,7 @@ Add
 **
  from the context menu.
 For an in-depth overview of the ACE tool window, its panels and menu options please refer to its
-[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
-user documentation
-)
+[user documentation](../../../Editor%20Tools/Audio%20Controls%20Editor.md)
 .
 
 The properties of these controls can also be edited via the
@@ -693,7 +681,7 @@ button to complete the process.
 
 The reason behind creating a 2D Event for gunfire is that we'd like it to sound like it is triggered on the player. Although a 3D Event would be more appropriate, it would have to be triggered by an audio Entity that is physically placed on the player. Creating a 2D Event allows us to trigger the sound of gunfire from anywhere in the level while still sounding like it was triggered upon the player. However, this works only when there is a single player in a level and isn't practical for a multiplayer setting.
 
-[Image: /docs/static/attachments/56000674]
+![Image](https://www.cryengine.com/docs/static/attachments/56000674)
 
 *
 Play_w_gun_fire_01
@@ -729,7 +717,7 @@ S),
 Events
 **
  tab of the FMOD project. An
-[Image: /docs/static/attachments/56000673]
+![Image](https://www.cryengine.com/docs/static/attachments/56000673)
  icon against the create Event indicates that it hasn't been associated with a Soundbank.
 
 -
@@ -830,7 +818,7 @@ Weapon
 Audio System Controls panel.
 **
 The created Trigger will be listed with the
-[Image: /docs/static/attachments/56000672]
+![Image](https://www.cryengine.com/docs/static/attachments/56000672)
  icon on the Audio System Controls panel, but for it to function, the
 *
 Weapon
@@ -856,7 +844,7 @@ Weapon
 panel into it. This creates a Preload Request with the same name in the Audio System Control panel.
 
 In CRYENGINE's audio system, Preloads
-[Image: /docs/static/attachments/56000671]
+![Image](https://www.cryengine.com/docs/static/attachments/56000671)
  are requests to load audio specific files (such as Soundbanks in an FMOD Studio/Wwise implementation) into memory. They are automatically executed when a level is loaded.
 
 Save both the
@@ -868,12 +856,12 @@ Weapon
 Preloads
 *
  Libraries by clicking the
-[Image: /docs/static/attachments/56000670]
+![Image](https://www.cryengine.com/docs/static/attachments/56000670)
  button at the upper left corner of the ACE. To preview the created Trigger in the ACE;
 
 -
 First refresh the audio system by clicking the
-[Image: /docs/static/attachments/56000669]
+![Image](https://www.cryengine.com/docs/static/attachments/56000669)
  button at the upper left corner of the ACE.
 
 -
@@ -887,7 +875,7 @@ Execute Trigger
 **
  option from the context menu.
 Remember to save created Libraries in the ACE using the
-[Image: /docs/static/attachments/56000668]
+![Image](https://www.cryengine.com/docs/static/attachments/56000668)
  button; the
 **
 Ctrl
@@ -924,7 +912,7 @@ Play_w_gun_fire_01 event
 
 -
 Use the volume dial
-[Image: /docs/static/attachments/56000667]
+![Image](https://www.cryengine.com/docs/static/attachments/56000667)
  on the Event's
 *
 Audio 1
@@ -985,7 +973,7 @@ Default Work Unit
 Actor-Mixer Hierarchy
 *
  and click the
-[Image: /docs/static/attachments/56000666]
+![Image](https://www.cryengine.com/docs/static/attachments/56000666)
  icon at the top of the panel to create a new Actor-Mixer
 *
 .
@@ -1026,7 +1014,7 @@ w_gun_fire_01
 Weapon
 *
  Actor-Mixer within the Project Explorer of your Wwise project.
-[Image: /docs/static/attachments/56000665]
+![Image](https://www.cryengine.com/docs/static/attachments/56000665)
 
 *
 Wwise import asset
@@ -1089,7 +1077,7 @@ Default Work Unit.
 
 -
 Click the
-[Image: /docs/static/attachments/56000664]
+![Image](https://www.cryengine.com/docs/static/attachments/56000664)
  icon at the top of the Project Explorer panel to create a new folder, name it
 *
 Weapon,
@@ -1114,7 +1102,7 @@ Select the
 Default Work Unit
 *
  listing and then click on the
-[Image: /docs/static/attachments/56000663]
+![Image](https://www.cryengine.com/docs/static/attachments/56000663)
  symbol to create a new SoundBank; name it
 *
 Weapon.
@@ -1178,7 +1166,7 @@ Generate All
 **
  button at the top of the window.
 
-[Image: /docs/static/attachments/56000662]
+![Image](https://www.cryengine.com/docs/static/attachments/56000662)
 
 *
 Weapon SoundBank
@@ -1259,7 +1247,7 @@ Audio System Controls
 **
 panel.
 The created Trigger will be listed with the
-[Image: /docs/static/attachments/56000661]
+![Image](https://www.cryengine.com/docs/static/attachments/56000661)
  icon in the Audio System Controls panel, but for it to function, the
 *
 Weapon
@@ -1284,7 +1272,7 @@ Weapon
 **
 panel into it. This creates a Preload Request with the same name in the Audio System Control panel.
 In CRYENGINE's audio system, Preloads
-[Image: /docs/static/attachments/56000671]
+![Image](https://www.cryengine.com/docs/static/attachments/56000671)
  are requests to load audio specific files (such as Soundbanks in an FMOD Studio/Wwise implementation) into memory. They are automatically executed when a level is loaded.
 
 Save both the
@@ -1296,12 +1284,12 @@ Weapon
 Preloads
 *
  Libraries by clicking the
-[Image: /docs/static/attachments/56000660]
+![Image](https://www.cryengine.com/docs/static/attachments/56000660)
  button at the upper left corner of the ACE. To preview the created Trigger in the ACE;
 
 -
 First refresh the audio system by clicking the
-[Image: /docs/static/attachments/56000659]
+![Image](https://www.cryengine.com/docs/static/attachments/56000659)
  button at the upper left corner of the ACE.
 
 -
@@ -1315,7 +1303,7 @@ Execute Trigger
 **
  option from the context menu.
 Remember to save created Libraries in the ACE using the
-[Image: /docs/static/attachments/56000660]
+![Image](https://www.cryengine.com/docs/static/attachments/56000660)
  button; the
 **
 Ctrl
@@ -1359,7 +1347,7 @@ F7
 **
  key. Reload the audio engine on the ACE, then jump into Game Mode to test your changes.
 
-[Image: /docs/static/attachments/56000658]
+![Image](https://www.cryengine.com/docs/static/attachments/56000658)
 
 *
 Volume Fader
@@ -1470,18 +1458,18 @@ Library in the
 Audio System Controls panel.
 **
 The created Trigger will be listed with the
-[Image: /docs/static/attachments/56000657]
+![Image](https://www.cryengine.com/docs/static/attachments/56000657)
  icon in the Audio System Controls panel. Save the
 *
 Weapon
 *
  Library by clicking the
-[Image: /docs/static/attachments/56000656]
+![Image](https://www.cryengine.com/docs/static/attachments/56000656)
  button at the upper left corner of the ACE. To preview the created Trigger in the ACE;
 
 -
 First, refresh the audio system by clicking the
-[Image: /docs/static/attachments/56000655]
+![Image](https://www.cryengine.com/docs/static/attachments/56000655)
  button at the upper left corner of the ACE.
 
 -
@@ -1498,7 +1486,7 @@ Execute Trigger
 option from the context menu.
 Remember to save created Libraries in the ACE using the
 
-[Image: /docs/static/attachments/56000656]
+![Image](https://www.cryengine.com/docs/static/attachments/56000656)
 
 button; the
 
@@ -1554,9 +1542,7 @@ G
 LMB
 **
  to fire the weapon; on gunfire, the created Audio Trigger is called by CRYENGINE's visual scripting tool
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../../../Editor%20Tools/Flow%20Graph.md)
  causing the
 *
 Play_w_gun_fire_01
@@ -1636,7 +1622,7 @@ oneshots
 *
  folder.
 
-[Image: /docs/static/attachments/56000654]
+![Image](https://www.cryengine.com/docs/static/attachments/56000654)
 
 *
 Audio Bin
@@ -1726,7 +1712,7 @@ by double-clicking it.
 
 A Multi-instrument plays one of its assigned audio files each time it is triggered, this allows for more variation in audio while using a single audio Trigger.
 
-[Image: /docs/static/attachments/56000653]
+![Image](https://www.cryengine.com/docs/static/attachments/56000653)
 
 *
 3D Event
@@ -1788,7 +1774,7 @@ Save changes and then press
 F7
 **
  to save all banks.
-[Image: /docs/static/attachments/56000652]
+![Image](https://www.cryengine.com/docs/static/attachments/56000652)
 
 *
 Ambience
@@ -1941,7 +1927,7 @@ Play Type
 **
  section of the Random Container Property Editor on the right panel.
 
-[Image: /docs/static/attachments/56000651]
+![Image](https://www.cryengine.com/docs/static/attachments/56000651)
 
 *
 Play Type
@@ -2016,7 +2002,7 @@ Generate All
 **
  to regenerate all SoundBanks, and save your Wwise project when complete.
 
-[Image: /docs/static/attachments/56000650]
+![Image](https://www.cryengine.com/docs/static/attachments/56000650)
 
 *
 Ambience Event and Soundbank
@@ -2145,9 +2131,7 @@ Play_l_cg_amb_one_shot_tree
 Trigger to play across the entire level, for which we use the Audio Trigger Spot (ATS) Entity. The ATS triggers audio Events at a specific position, which can be automatically randomized along with time delays.
 
 It is found under the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869846](
-Create Object
-)
+[Create Object](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object.md)
  tool, accessed via the
 **
 Tools → Level Editor → Create Object
@@ -2163,20 +2147,18 @@ option from the Create Object tool panel.
 
 -
 If you now mouse-over the Viewport, you should see the
-[Image: /docs/static/attachments/56000649]
+![Image](https://www.cryengine.com/docs/static/attachments/56000649)
  icon representing the ATS Entity; click anywhere on the ground of the Audio Showcase level to place it.
 
 -
 At this point, the properties of the ATS Entity should be visible in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866220](
-Properties
-)
+[Properties](../../../Editor%20Tools/Level%20Editor%20Tab/Properties.md)
  panel on the right of your Sandbox window. Locate the
 **
 PlayTrigger
 **
  field, click the
-[Image: /docs/static/attachments/56000648]
+![Image](https://www.cryengine.com/docs/static/attachments/56000648)
  icon and select the
 *
 Play_l_cg_amb_one_shot_tree
@@ -2205,7 +2187,7 @@ TriggerRate.
 *
 
 *
-[Image: /docs/static/attachments/56000647]
+![Image](https://www.cryengine.com/docs/static/attachments/56000647)
 
 *
 *
@@ -2249,30 +2231,12 @@ Although the ambience trigger is called by an audio specific Entity (the ATS), t
 
 This concludes the first chapter of the Audio Showcase tutorial. The remaining chapters will have us implementing audio for player footsteps, particle effects and dynamic ambience.
 
-[#files](
-Files
-)
-[#fmod-video-tutorial](
-FMOD Video Tutorial
-)
-[#project-setup](
-Project Setup
-)
-[#middleware-setup](
-Middleware Setup
-)
-[#level-load-and-orientation](
-Level Load and Orientation
-)
-[#audio-controls-editor-ace](
-Audio Controls Editor (ACE)
-)
-[#adding-sound-to-gunfire](
-Adding Sound to Gunfire
-)
-[#adding-tree-movements](
-Adding Tree Movements
-)
-[#conclusion](
-Conclusion
-)
+[Files](#files)
+[FMOD Video Tutorial](#fmod-video-tutorial)
+[Project Setup](#project-setup)
+[Middleware Setup](#middleware-setup)
+[Level Load and Orientation](#level-load-and-orientation)
+[Audio Controls Editor (ACE)](#audio-controls-editor-ace)
+[Adding Sound to Gunfire](#adding-sound-to-gunfire)
+[Adding Tree Movements](#adding-tree-movements)
+[Conclusion](#conclusion)

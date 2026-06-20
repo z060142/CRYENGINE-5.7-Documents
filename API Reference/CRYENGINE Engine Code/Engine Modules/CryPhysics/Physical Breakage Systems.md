@@ -37,9 +37,7 @@ hierarchical breaking
  can be used. It allows breakable parts to have "parents" and remain hidden until any part inside said parent breaks off. Once this happens, the parent is removed and all its children become revealed. The children are hidden both in the physic and during the rendering, but any impulses applied to the parent are translated to the children and are redistributed through their joints.
 
 In the assets, joints can be set up either manually, via helper nodes with special names and user-defined properties, or using
-[/docs/static/engines/cryengine-3/categories/1114113](
-automatic joint generation in the Sandbox
-)
+[automatic joint generation in the Sandbox](/docs/static/engines/cryengine-3/categories/1114113)
 
 ##
 Boolean Subtraction
@@ -47,9 +45,7 @@ Boolean Subtraction
 Mesh geometries in physical entity parts can be modified by subtracting other meshes ("explosion shapes" or "cut shapes") from them. If it happens, mesh connectivity is re-computed and isolated mesh pieces are moved to new rigid body entities. The system can work in tandem with breakable joints, meaning that joints can be attached to modifiable parts and follow their pieces.
 
 Boolean deformation can be triggered by
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24282320](
-physical explosions
-)
+[physical explosions](Physical%20Explosions.md)
  (in explosion parameters), however the most commonly used way is to mark parts with
 *
 geom_manually_breakable

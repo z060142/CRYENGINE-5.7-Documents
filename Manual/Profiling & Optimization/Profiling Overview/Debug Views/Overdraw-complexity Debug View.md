@@ -47,7 +47,7 @@ Preview
 r_OverdrawComplexity=0
 **
  |
-[Image: /docs/static/attachments/44961701]
+![Image](https://www.cryengine.com/docs/static/attachments/44961701)
 
 No overdraw shown. This is the default value
 
@@ -57,7 +57,7 @@ No overdraw shown. This is the default value
 r_OverdrawComplexity=1
 **
  |
-[Image: /docs/static/attachments/44961702]
+![Image](https://www.cryengine.com/docs/static/attachments/44961702)
 
 Overdraw without any culling. Displays the depth of the scene. Histogram is on the bottom right corner.
 
@@ -67,7 +67,7 @@ Overdraw without any culling. Displays the depth of the scene. Histogram is on t
 r_OverdrawComplexity=2
 **
  |
-[Image: /docs/static/attachments/44961703]
+![Image](https://www.cryengine.com/docs/static/attachments/44961703)
 
 Rejection rate with depth culling (z-test). Displays the overdraw of the depth-buffer.
 
@@ -77,7 +77,7 @@ Rejection rate with depth culling (z-test). Displays the overdraw of the depth-b
 r_OverdrawComplexity=3
 **
  |
-[Image: /docs/static/attachments/44961704]
+![Image](https://www.cryengine.com/docs/static/attachments/44961704)
 
 Overdraw with depth culling (z-test). Displays the rejection rate of the depth-buffer.
 
@@ -87,7 +87,7 @@ Overdraw with depth culling (z-test). Displays the rejection rate of the depth-b
 r_OverdrawComplexity=4
 **
  |
-[Image: /docs/static/attachments/44961705]
+![Image](https://www.cryengine.com/docs/static/attachments/44961705)
 
 Overdraw without any culling, including quad-overdraw (dead lanes). Displays the depth inclusive quad-overshading of the scene, distribution on the bottom right corner.
 
@@ -97,7 +97,7 @@ Overdraw without any culling, including quad-overdraw (dead lanes). Displays the
 r_OverdrawComplexity=5
 **
  |
-[Image: /docs/static/attachments/44961706]
+![Image](https://www.cryengine.com/docs/static/attachments/44961706)
 
 Rejection rate with depth culling (z-test), including quad-overdraw (dead lanes).
 Displays the overdraw of the depth-buffer inclusive quad-overshading.
@@ -108,7 +108,7 @@ Displays the overdraw of the depth-buffer inclusive quad-overshading.
 r_OverdrawComplexity=6
 **
  |
-[Image: /docs/static/attachments/44961707]
+![Image](https://www.cryengine.com/docs/static/attachments/44961707)
 
 Overdraw with depth culling (z-test), including quad-overdraw (dead lanes). Displays the quad-inclusive rejection rate of  the depth-buffer
 
@@ -128,7 +128,7 @@ Preview
 r_OverdrawComplexityBluePoint
 **
  |
-[Image: /docs/static/attachments/44961693]
+![Image](https://www.cryengine.com/docs/static/attachments/44961693)
 
 Changes the blue-point value. The blue-point aligns the darkest blue-value in the palette with the given counter-value.
 
@@ -140,7 +140,7 @@ The preview image represents the CVar outcomes when it is set to 1,2,4 and 8, fr
 r_OverdrawComplexitySmoothness
 **
  |
-[Image: /docs/static/attachments/44961692]
+![Image](https://www.cryengine.com/docs/static/attachments/44961692)
 
 Changes the smoothness.
 Smaller values produce a steeper mapping than larger values. The given value is the logarithm base used to map the counter-values. 2.0 means log
@@ -158,7 +158,7 @@ The preview image represents, from left to right, the CVar outcomes when it is s
 r_OverdrawComplexityCompression
 **
  |
-[Image: /docs/static/attachments/44961694]
+![Image](https://www.cryengine.com/docs/static/attachments/44961694)
 
 Changes the a
 mount of compression applied after logarithmic mapping.
@@ -168,9 +168,5 @@ The preview image represents, from left to right, the CVar outcomes when it is s
 
  |
 
-[#modes](
-Modes
-)
-[#configuration-options](
-Configuration Options
-)
+[Modes](#modes)
+[Configuration Options](#configuration-options)

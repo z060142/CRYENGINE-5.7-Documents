@@ -19,7 +19,7 @@ When running a query, it uses its evaluators to go through the set of generated 
 
 These two transforms can be specified for each evaluator of a query:
 
-[Image: /docs/static/attachments/28900927]
+![Image](https://www.cryengine.com/docs/static/attachments/28900927)
 
 ##
 Score Transform:

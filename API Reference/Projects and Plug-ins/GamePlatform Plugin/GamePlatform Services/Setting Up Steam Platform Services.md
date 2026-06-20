@@ -105,17 +105,9 @@ Here is an example of the CVar and Application Identifier declared in a First Sh
 
 For more information on setting up your own Steamworks Application, please see the
 
-[https://partner.steamgames.com/doc/home](
-Steamworks Developer Documentation
-)
+[Steamworks Developer Documentation](https://partner.steamgames.com/doc/home)
 .
 
-[#requirements](
-Requirements
-)
-[#configuration-setup](
-Configuration Setup
-)
-[#example](
-Example
-)
+[Requirements](#requirements)
+[Configuration Setup](#configuration-setup)
+[Example](#example)

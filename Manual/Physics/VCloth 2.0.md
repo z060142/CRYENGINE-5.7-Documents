@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [How To - Export VCloth from Maya to CRYENGINE](VCloth 2.0/How To - Export VCloth from Maya to CRYENGINE.md)
+- [How To - Export VCloth from Maya to CRYENGINE](VCloth%202.0/How%20To%20-%20Export%20VCloth%20from%20Maya%20to%20CRYENGINE.md)
 
 ## Content
 
@@ -16,14 +16,10 @@ Overview
 
 VCloth 2.0 is the cloth simulation feature of CRYENGINE. Using VCloth, your character’s cloth can be simulated and animated automatically, according to their actual movement. This can make it look much more realistic.
 
-[/docs/static/attachments/44960715](
-1_vcloth_different_stiffness.avi
-)
+[1_vcloth_different_stiffness.avi](/docs/static/attachments/44960715)
 
  |
-[/docs/static/attachments/44960716](
-2_vcloth_many_characters.avi
-)
+[2_vcloth_many_characters.avi](/docs/static/attachments/44960716)
 
  |
 
@@ -33,7 +29,7 @@ Cloth simulation is generally an expensive process. To reduce performance impact
 Pic1: Separation of render and simulation mesh for cloth simulation
 
 *
-[Image: /docs/static/attachments/44960722]
+![Image](https://www.cryengine.com/docs/static/attachments/44960722)
 
 A homogeneous edge flow improves plausibility.
 
@@ -99,7 +95,7 @@ To improve performance and stability, it might sometimes be beneficial to use a 
 *
 Pic2: Simulation of the end of torn trousers
 
-[Image: /docs/static/attachments/44960723]
+![Image](https://www.cryengine.com/docs/static/attachments/44960723)
 *
 
 In this case, the whole trousers are skinned, only the end is simulated/animated with a few pendulum simulations.
@@ -127,7 +123,7 @@ In computer graphics, cloth behavior is modeled using three forces: stretch, she
 Pic3: Stretch, shear and bend forces
 *
 
-[Image: /docs/static/attachments/44960713]
+![Image](https://www.cryengine.com/docs/static/attachments/44960713)
 
 ##
 Time-stepping
@@ -159,7 +155,7 @@ Pic4: Per frame several sub-steps are executed - whereas each sub-steps contains
 
 *
 *
-[Image: /docs/static/attachments/44960724]
+![Image](https://www.cryengine.com/docs/static/attachments/44960724)
 *
 
  The 20 FPS mentioned above are only used as an example to make the calculations easier; in reality, most games would require a minimum of 30 FPS to run smoothly.
@@ -169,16 +165,10 @@ Related Pages
 
 For more information on how to use VCloth, check the following pages:
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530837](
-How To - Export VCloth from Maya to CRYENGINE
-)
+[How To - Export VCloth from Maya to CRYENGINE](VCloth%202.0/How%20To%20-%20Export%20VCloth%20from%20Maya%20to%20CRYENGINE.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849282#CharacterTool-PropertiesPanel-VCloth2Attachment](
-VCloth 2.0 properties
-)
+[VCloth 2.0 properties](../Editor%20Tools/Animation%20Tab/Character%20Tool/Character%20Tool%20-%20Properties%20Panel.md#CharacterTool-PropertiesPanel-VCloth2Attachment)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530479](
-Tutorial - VCloth 2.0 Setup
-)
+[Tutorial - VCloth 2.0 Setup](../Tutorials/Animation%20and%20Characters/Character%20Tool%20and%20Pipeline/Tutorial%20-%20VCloth%202.0%20Setup.md)
 
 Make sure to load a level, or the VCloth attachment may not render properly.

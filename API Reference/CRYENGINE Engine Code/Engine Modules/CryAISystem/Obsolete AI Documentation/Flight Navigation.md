@@ -180,27 +180,11 @@ Picture 6.
 **
  Designer has created path through a hole in an obstacle. The volume of the area the designer created is subtracted from the automatically generated height field.
 
-[#current-situation](
-Current Situation
-)
-[#problem-description](
-Problem Description
-)
-[#necessity](
-Necessity
-)
-[#solution-a](
-Solution A
-)
-[#solution-b](
-Solution B
-)
-[#solution-c](
-Solution C
-)
-[#solution-d](
-Solution D
-)
-[#span-height-field](
-Span Height Field
-)
+[Current Situation](#current-situation)
+[Problem Description](#problem-description)
+[Necessity](#necessity)
+[Solution A](#solution-a)
+[Solution B](#solution-b)
+[Solution C](#solution-c)
+[Solution D](#solution-d)
+[Span Height Field](#span-height-field)

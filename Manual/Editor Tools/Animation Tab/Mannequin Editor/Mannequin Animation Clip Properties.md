@@ -12,20 +12,14 @@ Properties Window
 
 When you select an animation clip, the properties window will show the animation clip properties.
 
-[Image: /docs/static/attachments/23998313]
+![Image](https://www.cryengine.com/docs/static/attachments/23998313)
 
 You will be able to edit these when in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-FragmentEditor](
-Mannequin Fragment Editor
-)
+[Mannequin Fragment Editor](../Mannequin%20Editor.md#MannequinEditor-FragmentEditor)
 , or when editing a transition clip in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-TransitionEditor](
-Mannequin Transition Editor
-)
+[Mannequin Transition Editor](../Mannequin%20Editor.md#MannequinEditor-TransitionEditor)
 . In the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594502#MannequinEditor-previewer](
-Mannequin Previewer
-)
+[Mannequin Previewer](../Mannequin%20Editor.md#MannequinEditor-previewer)
  you will only be able to view the properties.
 
 Animation Clip Property
@@ -166,9 +160,7 @@ Advanced
 
 **
 Set up to 4 custom values that get blended along with the animation, using the same transition times as the animation clips. The final blended values are exposed as
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-Mannequin Parameters
-)
+[Mannequin Parameters](Mannequin%20Concepts/Mannequin%20Parameters%20Conditions.md)
  with names 'channel0' - 'channel3'. They can be picked up by procedural clips or actions like any other mannequin parameter though there will be 1 frame of delay.
 
 (maps to the first 4 'userdata' channels specified in CryCharAnimationParams::m_fUserData when starting the animation. The final values can also be picked up by code using ISkeletonAnim::GetUserData(index))
@@ -180,7 +172,7 @@ Context Menu
 
 When you right click on an animation clip you get its context menu.
 
-[Image: /docs/static/attachments/23998315]
+![Image](https://www.cryengine.com/docs/static/attachments/23998315)
 
 Explanation for the options specific to animation clips: (only available in CRYENGINE 3.7 or higher)
 

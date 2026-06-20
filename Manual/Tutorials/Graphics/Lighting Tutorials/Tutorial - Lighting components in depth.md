@@ -11,84 +11,57 @@ This tutorial covers the use of the lighting components (point light, projector 
 
 -
 Point vs. projector light components
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=47s](
-0:47
-)
+[0:47](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=47s)
 
 -
 Properties common to point and projector lights
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=110s](
-1:50
-)
+[1:50](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=110s)
 
 -
 Area lights
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=218s](
-3:38
-)
+[3:38](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=218s)
 
 -
 Using area lights to create a moonlit night scene
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=412s](
-6:52
-)
+[6:52](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=412s)
 
 -
 Using clip volumes to constrain lights
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=722s](
-12:02
-)
+[12:02](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=722s)
 
 -
 Using clip volumes with projector lights
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1077s](
-17:57
-)
+[17:57](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1077s)
 
 -
 Projector lights and projection textures
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1139s](
-18:59
-)
+[18:59](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1139s)
 
 -
 Making a custom light projection texture
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1218s](
-20:18
-)
+[20:18](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1218s)
 
 -
 Installing and using the CryTif Photoshop plug-in
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1335s](
-22:15
-)
+[22:15](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1335s)
 
 -
 Custom projection texture use cases
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1534s](
-25:34
-)
+[25:34](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1534s)
 
 -
 Assembling a light fixture model
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1664s](
-27:44
-)
+[27:44](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1664s)
 
 -
 Understanding SSR (Screen Space Reflections)
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1766s](
-29:26
-)
+[29:26](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=1766s)
 
 -
 Environment probes
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=2009s](
-33:29
-)
+[33:29](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=2009s)
 
 -
 Environment probes and dynamic lighting
-[https://www.youtube.com/watch?v=0T8h2fXbdJc&t=2186s](
-36:26
-)
+[36:26](https://www.youtube.com/watch?v=0T8h2fXbdJc&t=2186s)
+[Embed: https://www.youtube.com/watch?v=0T8h2fXbdJc]

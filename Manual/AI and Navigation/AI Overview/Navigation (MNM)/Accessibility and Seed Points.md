@@ -16,7 +16,7 @@ These inaccessible areas can be filtered out by using Seed Points, such that the
 
 This accessibility is computed by performing a flood-fill algorithm within the NavMesh; islands with triangles that are connected to a Seed Point directly or by off-mesh links are accessible and hence colored blue, while the rest are grayed out.
 
-[Image: /docs/static/attachments/36316040]
+![Image](https://www.cryengine.com/docs/static/attachments/36316040)
 
 *
 Areas inaccessible from the Seed Point (center) are grayed
@@ -36,9 +36,7 @@ In order to compute the accessibility of islands within a NavMesh, at least one 
 AI → Navigation Seed Point
 **
  within the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869846](
-Create Object
-)
+[Create Object](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object.md)
  tool.
 
 -
@@ -46,7 +44,7 @@ The flood-fill algorithm begins with the triangle that is at a distance of one u
 If the position of the Seed Point is changed, the accessibility to triangles is recalculated and updated accordingly. Similarly if a NavMesh had no Seed Points, it will not contain any inaccessible (gray) areas as shown below.
 
 *
-[Image: /docs/static/attachments/36316223]
+![Image](https://www.cryengine.com/docs/static/attachments/36316223)
 
 *
 
@@ -61,9 +59,7 @@ Moreover, the AI characters included within GameSDK (
 Legacy Entities → AI → Characters → Human
 **
 ) are also considered as Seed Points, when placed within a NavMesh, provided the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961796](
-Agent Type
-)
+[Agent Type](Navigation%20Configuration.md)
  of the NavMesh is the same as that of the character.
 
 To set the Agent Type of a NavMesh,
@@ -92,12 +88,10 @@ file located under
 ProjectFolder/Scripts/AI/.
 *
 Please refer to the Navmesh Agent Types
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961796](
-documentation
-)
+[documentation](Navigation%20Configuration.md)
  for more information.
 
-[Image: /docs/static/attachments/44960186]
+![Image](https://www.cryengine.com/docs/static/attachments/44960186)
 
 *
 Navigation Area
@@ -117,16 +111,14 @@ Enabling the
 Remove Inaccessible Triangles
 **
  property of a Navigation Area removes inaccessible triangles when the level is loaded in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535321](
-Game Launcher
-)
+[Game Launcher](../../../Packaging%20and%20Deployment/Game%20Executable%20Launcher.md)
 ; this property is located under the
 **
 Navigation Area
 **
 tab of the Properties panel, when an existing Navigation Area is selected via the Level Explorer or Viewport.
 
-[Image: /docs/static/attachments/44960184]
+![Image](https://www.cryengine.com/docs/static/attachments/44960184)
 
 *
 Remove Inaccessible Triangles
@@ -159,13 +151,11 @@ ai_MNMRemoveInaccessibleTrianglesOnLoad
 Remove Inaccessible Triangles
 **
  property is enabled.
-[Image: /docs/static/attachments/36316039]
+![Image](https://www.cryengine.com/docs/static/attachments/36316039)
 
 *
 The NavMesh from the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36340564#AccessibilityandSeedPoints-inaccessible](
-first image
-)
+[first image](Accessibility%20and%20Seed%20Points.md#AccessibilityandSeedPoints-inaccessible)
  with inaccessible triangles removed
 *
 
@@ -175,12 +165,6 @@ ai_MNMRemoveInaccessibleTrianglesOnLoad
 **
  is ignored when loading a NavMesh in the Sandbox Editor, and is taken into account when in the Game Launcher only. Moreover, removed triangles might reappear when the NavMesh is updated, although they'd still be marked as inaccessible (gray).
 
-[#functionality](
-Functionality
-)
-[#seed-points](
-Seed Points
-)
-[#removing-inaccessible-triangles](
-Removing Inaccessible Triangles
-)
+[Functionality](#functionality)
+[Seed Points](#seed-points)
+[Removing Inaccessible Triangles](#removing-inaccessible-triangles)

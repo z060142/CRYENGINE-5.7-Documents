@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934061]
+![Image](https://www.cryengine.com/docs/static/attachments/29934061)
 
 ##
 Overview
@@ -17,29 +17,17 @@ Sections
 
 Ropes (or Character Ropes) have many purposes but are mainly used for attaching cloth, hair, or ropes to a character so that the objects can dangle, shake and deform realistically against the player and other objects.
 
-[#sections](
-Sections
-)
-[#example-files](
-Example Files
-)
-[#general-setup](
-General Setup
-)
-[#setup-in-sandbox](
-Setup in Sandbox
-)
-[#properties](
-Properties
-)
+[Sections](#sections)
+[Example Files](#example-files)
+[General Setup](#general-setup)
+[Setup in Sandbox](#setup-in-sandbox)
+[Properties](#properties)
 
 ##
 Example Files
 
 -
-[/docs/static/attachments/23994256](
-chr_rope.rar
-)
+[chr_rope.rar](/docs/static/attachments/23994256)
 : This package includes example files for Max and Maya as well as a pre-defined .cdf file.
 
 ##
@@ -84,7 +72,7 @@ To simulate: Click 'AI/PHYSICS' on the bottom of the screen.
 
 -
 Further tweaking should be made through a .cdf file made from the .chr file. This will allow in-depth customization of the simulation. Load the .chr file into the character editor and create a new bone attachment with the rope root set as the attachment, then select the box at the bottom labeled "PhysPropsAlive..."
-[Image: /docs/static/attachments/23994261]
+![Image](https://www.cryengine.com/docs/static/attachments/23994261)
 
 ##
 Properties

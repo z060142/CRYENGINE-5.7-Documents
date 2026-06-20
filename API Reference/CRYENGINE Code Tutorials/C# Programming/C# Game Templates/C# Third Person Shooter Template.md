@@ -27,35 +27,19 @@ Receiving collision messages.
 -
 Using surface types to handle interactions between entities.
 
-[#general-setup](
-General Setup
-)
-[#action-maps](
-Action Maps
-)
-[#character-animator](
-Character Animator
-)
-[#character-physics](
-Character Physics
-)
-[#collision-messages](
-Collision Messages
-)
-[#material-effects](
-Material Effects
-)
+[General Setup](#general-setup)
+[Action Maps](#action-maps)
+[Character Animator](#character-animator)
+[Character Physics](#character-physics)
+[Collision Messages](#collision-messages)
+[Material Effects](#material-effects)
 Related Content:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26875052](
-C# API Reference
-)
+[C# API Reference](../../../CRYENGINE%20API%20Reference/C%23%20API%20Reference.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791112](
-C# Programming
-)
+[C# Programming](../../C%23%20Programming.md)
 
 ##
 General Setup
@@ -90,17 +74,11 @@ OnUpdate
 Action Maps
 
 Instead of using the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448891](
-Input
-)
+[Input](/docs/static/engines/cryengine-5/categories/28704771/pages/29448891)
  class to receive the input from the user, this template uses
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306384](
-action maps
-)
+[action maps](../../../CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/Setting%20Up%20Controls%20and%20Action%20Maps.md)
 . Action maps makes it easier to change the controls later on without having to rewrite the code. In C#, this is achieved by using the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448762](
-ActionHandler
-)
+[ActionHandler](/docs/static/engines/cryengine-5/categories/28704771/pages/29448762)
  class. To use the
 **
 ActionHandler
@@ -110,15 +88,11 @@ ActionHandler
 ActionHandler
 **
  is initialized, you can add handlers to specific actions by calling
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448762](
-AddHandler
-)
+[AddHandler](/docs/static/engines/cryengine-5/categories/28704771/pages/29448762)
  with the name of the action and a delegate that gets called when the action is triggered.
 
 More details on how to set up an action map can be found on the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306384](
-Setting Up Controls and Action Maps page
-)
+[Setting Up Controls and Action Maps page](../../../CRYENGINE%20Game%20Code/Miscellaneous%20Game%20Code/Setting%20Up%20Controls%20and%20Action%20Maps.md)
 .
 
 ```
@@ -160,9 +134,7 @@ The
 CharacterAnimator
 **
  is an
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448894](
-EntityComponent
-)
+[EntityComponent](/docs/static/engines/cryengine-5/categories/28704771/pages/29448894)
  which makes it easier to setup and manage an animated character from C#. The
 **
 CharacterAnimator
@@ -188,9 +160,7 @@ AnimationDatabase
 `
 **
 : The path to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308472](
- Animation Database (.adb) file
-)
+[Animation Database (.adb) file](/docs/static/engines/cryengine-5/categories/23756816/pages/23308472)
 .
 
 -
@@ -200,9 +170,7 @@ ControllerDefinition
 `
 **
 : The path to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471](
-Controller Definition (.xml) file
-)
+[Controller Definition (.xml) file](../../../../Manual/Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Files/Controller%20Definition%20File%20(xxxControllerDefs.xml).md)
 .
 
 -
@@ -212,9 +180,7 @@ MannequinContext
 `
 **
 : The name of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308438](
-context
-)
+[context](/docs/static/engines/cryengine-5/categories/23756816/pages/23308438)
  to load from the Controller Definition file.
 
 -
@@ -224,22 +190,16 @@ StartFragmentName
 `
 **
 : The name of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308429](
- fragment
-)
+[fragment](/docs/static/engines/cryengine-5/categories/23756816/pages/23308429)
  that the
 **
 CharacterAnimator
 **
  should start in.
 While in game-mode the animations can be controlled by setting the values of
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448764](
-MotionParameterIds
-)
+[MotionParameterIds](/docs/static/engines/cryengine-5/categories/28704771/pages/29448764)
  and
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448773](
-AnimationTags
-)
+[AnimationTags](/docs/static/engines/cryengine-5/categories/28704771/pages/29448773)
 .
 The value of
 a
@@ -345,13 +305,9 @@ CharacterAnimator
 Character Physics
 
 Instead of physicalizing the player as a rigid type, this time it will be physicalized as a living type. The living type inherits from the rigid type, but is specialized for walking entities. Physicalizing the entity as living also enables it to be moved by calling
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448917](
-Move
-)
+[Move](/docs/static/engines/cryengine-5/categories/28704771/pages/29448917)
  on the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448917](
-PhysicsObject
-)
+[PhysicsObject](/docs/static/engines/cryengine-5/categories/28704771/pages/29448917)
  of the entity. The
 **
 Move
@@ -363,17 +319,11 @@ Impulse
 , which works better for moving the player around.
 
 To physicalize an entity as living, the entity is physicalized with
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448908](
-LivingPhysicalizeParams
-)
+[LivingPhysicalizeParams](/docs/static/engines/cryengine-5/categories/28704771/pages/29448908)
  as the parameters. This parameter has two important properties which will define the physics settings for the player: the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448948](
-PlayerDynamicsParameters
-)
+[PlayerDynamicsParameters](/docs/static/engines/cryengine-5/categories/28704771/pages/29448948)
  and the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448947](
-PlayerDimensionsParameters
-)
+[PlayerDimensionsParameters](/docs/static/engines/cryengine-5/categories/28704771/pages/29448947)
 .
 
 -
@@ -398,17 +348,11 @@ The shape of the collider can be either a capsule or a cylinder shape. For this 
 Collision Messages
 
 Whenever a physicalized entity hits another physicalized entity, a message is sent to the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448894](
-EntityComponents
-)
+[EntityComponents](/docs/static/engines/cryengine-5/categories/28704771/pages/29448894)
  on the entity. To receive these messages the
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448894](
-OnCollision
-)
+[OnCollision](/docs/static/engines/cryengine-5/categories/28704771/pages/29448894)
  method needs to be overridden. The message will include a
-[/docs/static/engines/cryengine-5/categories/28704771/pages/29448904](
-CollisionEvent
-)
+[CollisionEvent](/docs/static/engines/cryengine-5/categories/28704771/pages/29448904)
  which contains information about the collision, such as the collision objects involved in the collision and the point of impact of the collision. The
 **
 OnCollision
@@ -427,9 +371,7 @@ OnCollision
 Material Effects
 
 For the bullet collisions in the template, a material effect has been set up. The occurrence of the effect is specified in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308243](
-MaterialEffects.xml
-)
+[MaterialEffects.xml](/docs/static/engines/cryengine-5/categories/23756816/pages/23308243)
  file. This file is located in the
 **
 Assets\Libs\MaterialEffects
@@ -483,13 +425,9 @@ bullet_hit
 bullet_impact
 **
  which is defined in the Sandbox. The audio trigger can be adjusted in the Sandbox in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308254](
-Audio Controls Editor,
-)
+[Audio Controls Editor,](/docs/static/engines/cryengine-5/categories/23756816/pages/23308254)
  found under the Tools menu.
 
 More in-depth information about the features of Material Effects can be found in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308243](
-_Audio & Physics 5.5.2
-)
+[_Audio & Physics 5.5.2](/docs/static/engines/cryengine-5/categories/23756816/pages/23308243)
 .

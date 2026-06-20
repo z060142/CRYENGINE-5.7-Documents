@@ -11,13 +11,9 @@
 Building GameZero
 
 Assuming you are familiar with the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306497](
-Getting Started with Game Code
-)
+[Getting Started with Game Code](Getting%20Started%20with%20Game%20Code.md)
  guide and the basic concept behind
-[/docs/static/engines/cryengine-5/categories/23756813](
-GameZero
-)
+[GameZero](/docs/static/engines/cryengine-5/categories/23756813)
 , select
 **
 [GameZero] Profile, x64
@@ -27,7 +23,7 @@ GameZero
 CryGameZero.dll
 **
 
-[Image: /docs/static/attachments/25495641]
+![Image](https://www.cryengine.com/docs/static/attachments/25495641)
 
 ##
 Loading procedure
@@ -53,4 +49,4 @@ sys_dll_game = CryGameZero
 
 -
 DLL Loading pipeline is triggered as illustrated below
-[Image: /docs/static/attachments/25495640]
+![Image](https://www.cryengine.com/docs/static/attachments/25495640)

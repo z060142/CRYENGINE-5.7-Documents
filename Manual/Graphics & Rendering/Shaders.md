@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Shaders in CRYENGINE](Shaders/Shaders in CRYENGINE.md)
-- [Physically Based Shading (PBS)](Shaders/Physically Based Shading (PBS).md)
+- [Shaders in CRYENGINE](Shaders/Shaders%20in%20CRYENGINE.md)
+- [Physically Based Shading (PBS)](Shaders/Physically%20Based%20Shading%20(PBS).md)
 
 ## Content
 

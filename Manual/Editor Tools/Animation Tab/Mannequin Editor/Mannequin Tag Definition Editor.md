@@ -10,18 +10,14 @@
 ##
 Overview
 
-[Image: /docs/static/attachments/23998330]
+![Image](https://www.cryengine.com/docs/static/attachments/23998330)
 
 The Tag Definition Editor is used to create & edit
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-Tag Definition Files
-)
+[Tag Definition Files](Mannequin%20Files/Tag%20Definition%20File%20(xxxTags.xml).md)
 .
 
 It can be accessed from the Mannequin File Menu.
 
 More information can be found in the (technical) tutorial
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308465](
-Entity Setup From Scratch
-)
+[Entity Setup From Scratch](Mannequin%20Technical%20Topics/Entity%20Setup%20From%20Scratch.md)
 .

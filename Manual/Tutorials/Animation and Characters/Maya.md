@@ -7,10 +7,10 @@
 
 ## Child Pages
 
-- [Reorienting Animations in Maya](Maya/Reorienting Animations in Maya.md)
-- [Tutorial - Animated Objects (cga) Maya](Maya/Tutorial - Animated Objects (cga) Maya.md)
-- [Tutorial - Animated Blendshapes - Maya](Maya/Tutorial - Animated Blendshapes - Maya.md)
-- [Creating and Handling LoDs in Maya](Maya/Creating and Handling LoDs in Maya.md)
+- [Reorienting Animations in Maya](Maya/Reorienting%20Animations%20in%20Maya.md)
+- [Tutorial - Animated Objects (cga) Maya](Maya/Tutorial%20-%20Animated%20Objects%20(cga)%20Maya.md)
+- [Tutorial - Animated Blendshapes - Maya](Maya/Tutorial%20-%20Animated%20Blendshapes%20-%20Maya.md)
+- [Creating and Handling LoDs in Maya](Maya/Creating%20and%20Handling%20LoDs%20in%20Maya.md)
 
 ## Content
 

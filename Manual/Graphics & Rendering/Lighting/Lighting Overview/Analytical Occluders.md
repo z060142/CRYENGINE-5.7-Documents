@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933277]
+![Image](https://www.cryengine.com/docs/static/attachments/29933277)
 
 ##
 Analytical Occluders
@@ -30,7 +30,7 @@ Environment Editor → Constants → Total Illumination Advanced
 
 In this screenshot all the geometry you see is actually the proxy geometry that will be invisible in final scene.
 
-[Image: /docs/static/attachments/26516483]
+![Image](https://www.cryengine.com/docs/static/attachments/26516483)
 
 *
 Proxy geometry (scene made by Enes77)
@@ -44,9 +44,7 @@ A portal is used as area light to simulate primary bounce from the sky with shar
 -
 AO pass is used to simulate secondary bounces and also to collect bounces from sunlight. It is not very sharp.
 Here is the demo level, it's compatible only with CE 5.2:
-[/docs/static/attachments/25519569](
-AGIDemo2.zip
-)
+[AGIDemo2.zip](/docs/static/attachments/25519569)
 
 Suffix
  |

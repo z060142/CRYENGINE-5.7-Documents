@@ -72,9 +72,7 @@ Ignore Visareas
 **
  |
 Whether this component will ignore Vis Areas placed in the level. For more information about Vis Areas, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Area
-)
+[Vis Area](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Vis%20Area.md)
  page.
  |
 
@@ -83,9 +81,7 @@ Ignore Terrain Layer Blending
 **
  |
 Controls blending with terrain layers. For more information, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36340007](
-Terrain Layer Blending into Objects
-)
+[Terrain Layer Blending into Objects](../../../Materials/Terrain%20Layer%20Blending%20into%20Objects.md)
  page.
  |
 
@@ -94,9 +90,7 @@ Ignore Decal Blending
 **
  |
 Controls blending with decals. For more information about Decals, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869871](
-Decal
-)
+[Decal](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Misc%20Objects/Decal%20Entity.md)
  page.
  |
 
@@ -305,9 +299,7 @@ Density
 Alembic Mesh
 
 The Alembic Mesh Component let's you add
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534123](
-Geom Caches
-)
+[Geom Caches](../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Geom%20Cache%20(Alembic).md)
  to the entity.
 
 Setting
@@ -399,9 +391,7 @@ Ignore Visareas
 **
  |
 Whether this component will ignore Vis Areas placed in the level. For more information about Vis Areas, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Area
-)
+[Vis Area](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Vis%20Area.md)
  page.
  |
 
@@ -410,9 +400,7 @@ Ignore Terrain Layer Blending
 **
  |
 Controls blending with terrain layers. For more information, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36340007](
-Terrain Layer Blending into Objects
-)
+[Terrain Layer Blending into Objects](../../../Materials/Terrain%20Layer%20Blending%20into%20Objects.md)
  page.
  |
 
@@ -421,9 +409,7 @@ Ignore Decal Blending
 **
  |
 Controls blending with decals. For more information about Decals, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869871](
-Decal
-)
+[Decal](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Misc%20Objects/Decal%20Entity.md)
  page.
  |
 
@@ -843,15 +829,7 @@ Density
 
  |
 
-[#advanced-animations](
-Advanced Animations
-)
-[#alembic-mesh](
-Alembic Mesh
-)
-[#animated-mesh](
-Animated Mesh
-)
-[#mesh](
-Mesh
-)
+[Advanced Animations](#advanced-animations)
+[Alembic Mesh](#alembic-mesh)
+[Animated Mesh](#animated-mesh)
+[Mesh](#mesh)

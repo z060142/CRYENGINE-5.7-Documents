@@ -19,13 +19,9 @@ When an action is installed it
 owns
 *
  one or more
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-scopes
-)
+[scopes](../Mannequin%20Concepts/Mannequin%20Scopes.md)
  and can then request
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-FragmentIds
-)
+[FragmentIds](../Mannequin%20Concepts/FragmentIDs.md)
  to play onto those scopes. At a single time each scope can only be controlled by a single action. And many actions can be running in parallel, as long as they all control different scopes.
 
 Each action can only request one FragmentID installation at a time, but it can sequence multiple of these requests in a row if it wants to. So if you want to implement an animation state machine, either you queue multiple actions that each push one single FragmentID and you handle the state machine outside, or you queue one single action that has a state machine inside that requests the appropriate FragmentIDs. The latter is typically how you handle basic locomotion state machines.
@@ -51,9 +47,7 @@ Set the relevant FragmentID (which will be the first FragmentID that will be req
 
 -
 Set any
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308434](
-FragmentID-specific Tags
-)
+[FragmentID-specific Tags](../Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)
 
 -
 Set the action’s Priority, which is used to manage overlapping actions (actions that want to own the same scope). Higher number is higher priority.
@@ -108,15 +102,11 @@ IActionPtr
 Queuing
 
 Next you queue the action onto the target’s
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308466](
-Mannequin ActionController
-)
+[Mannequin ActionController](Mannequin%20ActionController.md)
 .
 
 For actors this Action Controller is accessible via the AnimatedCharacter extension (IAnimatedCharacter::GetActionController()). If you want more information about managing your own action controller, see the article
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308465](
-Entity Setup From Scratch
-)
+[Entity Setup From Scratch](Entity%20Setup%20From%20Scratch.md)
 .
 
 The queueing looks simply like this:
@@ -137,19 +127,13 @@ pending action queue
 
 Each frame the system will check whether actions that are in the queue can be installed on the scopes they want to own.
 To know which scopes those are, the system retrieves the requested fragmentID and looks up the associated scopemask. For more details on this, please have a look at the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308439](
-Fragment Selection Process
-)
+[Fragment Selection Process](../Mannequin%20Concepts/Fragment%20Selection%20Process.md)
 .
 
 If the candidate action has higher priority than all the actions currently owning those scopes it will be installed immediately and skip any waiting times in transitions (see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450863](
-trumping
-)
+[trumping](../Mannequin%20Concepts/Mannequin%20Trumping.md)
 ). Otherwise the candidate action will wait for those actions to finish, or for a suitable transition to gracefully stop the current action. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308485#MannequinEditorTutorial3-Transitions-EarliestStartTime](
-Mannequin Editor Tutorial 3 - Transitions
-)
+[Mannequin Editor Tutorial 3 - Transitions](../../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%203%20-%20Transitions.md#MannequinEditorTutorial3-Transitions-EarliestStartTime)
  for more details on how to work with transition start times.
 
 If the action gets selected from the queue, it gets installed on its scopes, and its fragmentID will be pushed on and updated before the next batch of animations are sent off for processing.
@@ -342,9 +326,7 @@ fragmentID
 tagState
 `
 : the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308434](
-fragtags
-)
+[fragtags](../Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)
  you want to set.
 
 -
@@ -376,16 +358,12 @@ ICharacterInstance::FindAnimInFIFO()
 trumpSelf
 `
 : pass true to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450863](
-trump
-)
+[trump](../Mannequin%20Concepts/Mannequin%20Trumping.md)
  the previous fragment this action was playing.
 
 -
 Set
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450867](
-mannequin parameters
-)
+[mannequin parameters](../Mannequin%20Concepts/Mannequin%20Parameters%20Conditions.md)
  for procedural clips by calling
 `
 SetParam()
@@ -547,9 +525,7 @@ When we reach the most appropriate blend point the Stamp action is terminated an
 Persistent FragmentIDs
 
 With IAction::NoAutoBlendout you can prevent an action from stopping when a non-looping fragment ends. But sometimes it's more convenient to set this up in data, on the FragmentID itself. This you can do by selecting the Persistent checkbox in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308446](
-FragmentID Editor
-)
+[FragmentID Editor](../Mannequin%20FragmentID%20Editor.md)
 . As far as the system is concerned any fragment with this fragmentID behaves as if it is looping: the action will keep running until a higher priority action comes along, or the action is explicitly stopped or force-finished.
 
 ##
@@ -558,13 +534,9 @@ Picking up Tag Changes
 You might be surprised that when tags change, the action doesn't automatically use them to pick and play a more applicable fragment. This is by design. To install the new fragment you have to call SetFragment explicitly again from within the action.
 
 However, as this is a common use case there is a flag you can apply to the FragmentID in the editor which will enable some code in IAction that will automatically pick up the most applicable fragment for the current
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-TagState
-)
+[TagState](../Mannequin%20Concepts/Mannequin%20TagState.md)
 . This is the "Auto Update" checkbox in the FragmentID. See the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308446](
-Mannequin FragmentID Editor
-)
+[Mannequin FragmentID Editor](../Mannequin%20FragmentID%20Editor.md)
 . The code that handles this can serve as a simple example if you want to handle the tag changes yourself: Look at the implementation of IAction::OnResolveActionInstallations.
 
 One example where you might want to handle it yourself is if you want to skip delays (coming from transitions). The default implementation for handling the "Auto Update" mentioned above passes "false" as last parameter to SetFragment, which means the fragment will not skip delays. If you want it to, simply pass "true" instead.

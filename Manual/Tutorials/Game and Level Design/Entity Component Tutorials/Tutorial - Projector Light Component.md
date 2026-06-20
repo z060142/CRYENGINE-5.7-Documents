@@ -17,15 +17,11 @@ fixtures
 Before You Start
 
 Before attempting this tutorial we recommend that you read the documentation on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966029](
-Entity Components (From Engine Version 5.6)
-)
+[Entity Components (From Engine Version 5.6)](../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)
 . Doing so will give you a much better understanding of the concepts behind CRYENGINE's Entity Components. You'll also find a reference guide here to all of the properties available to each component.
 
 Different methods can be used to create new entities. For more information see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28180907](
-Entity Components
-)
+[Entity Components](../../../Entities%20and%20Tools/Entity%20Components.md)
  documentation.
 
 ##
@@ -362,7 +358,7 @@ linear
 **
 , which you can see by the sudden, drastic drop in brightness between 80m and 90m, and then again to 0% brightness at 100m. (We've used a little bit of blue-green moonlight from behind the numbers so you can still see them, and a red light to mark the 100m point.)
 
-[Image: /docs/static/attachments/44966017]
+![Image](https://www.cryengine.com/docs/static/attachments/44966017)
 
 In this second example, the
 **
@@ -401,12 +397,10 @@ eliminated
 no change in brightness from 0 to 80m
 *
 . Between 80 and 100m, the brightness diminishes linearly as it did in the previous example, which you can see again from the drastic change: 90m is half as bright at 0-80, and 100 is again completely dark (i.e., the orange light has fallen to 0% intensity). See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215193#LightEntity-AttenuationFalloff](
-Attenuation and Falloff
-)
+[Attenuation and Falloff](../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Light%20Entity.md#LightEntity-AttenuationFalloff)
  for more information.
 
-[Image: /docs/static/attachments/44966018]
+![Image](https://www.cryengine.com/docs/static/attachments/44966018)
 
 ##
 Using Angle and Projected Textures
@@ -417,7 +411,7 @@ Angle
 **
  to project onto several objects and the terrain.
 
-[Image: /docs/static/attachments/44966016]
+![Image](https://www.cryengine.com/docs/static/attachments/44966016)
 
 Compare this to the example below, where the Angle is still 45°, but a
 *
@@ -429,7 +423,7 @@ Projector Options -> Projected Texture
 **
  property to give the beam a rectangular shape.
 
-[Image: /docs/static/attachments/44966015]
+![Image](https://www.cryengine.com/docs/static/attachments/44966015)
 
 You can use greyscale textures in the
 **
@@ -441,7 +435,7 @@ Projector Options -> Projected Texture
 **
  to spotlight only the ball.
 
-[Image: /docs/static/attachments/44966014]
+![Image](https://www.cryengine.com/docs/static/attachments/44966014)
 
 With a circular, hard-edge circular texture added to
 **
@@ -453,7 +447,7 @@ Angle
 **
  setting is much more effective as a spotlight, below.
 
-[Image: /docs/static/attachments/44966013]
+![Image](https://www.cryengine.com/docs/static/attachments/44966013)
 
 In this example, the Angle has been set to 24° and a texture added that imitates Venetian blinds. (You can find the Venetian blinds texture in the GameSDK
 **
@@ -465,7 +459,7 @@ textures\lights\generic
 **
 .)
 
-[Image: /docs/static/attachments/44966012]
+![Image](https://www.cryengine.com/docs/static/attachments/44966012)
 
 ##
 Creating Your Own Projection Textures
@@ -478,7 +472,7 @@ LightProjector
 
 In Photoshop, create a 512x512 pixel 16-bit greyscale image. You could begin with a black background to block all light, a white background to show light everywhere, or exactly middle grey to reveal 50% of the light's intensity, then darken and lighten areas selectively.
 
-[Image: /docs/static/attachments/44968219]
+![Image](https://www.cryengine.com/docs/static/attachments/44968219)
 
 To add texture, paint with any black brush wherever you want to create shadows or white wherever you want to increase the intensity of the light. Black will completely block the light; white will reveal the light's full intensity. You can also try Photoshop filters to render textures. Here we've used the
 **
@@ -498,11 +492,11 @@ Gaussian Blur
 **
 .
 
-[Image: /docs/static/attachments/44968220]
+![Image](https://www.cryengine.com/docs/static/attachments/44968220)
 
 You can also use drag or copy and paste any image into your Photoshop document to create projected 2D images, textures, logos, etc. In this example, we've used the CRYENGINE logo as a white area within the texture, with all pixels around it black.
 
-[Image: /docs/static/attachments/44968221]
+![Image](https://www.cryengine.com/docs/static/attachments/44968221)
 
 Make sure that you transition to black before you reach the edges of your texture, or else you'll see a pixelated edge when projecting it with a light component, as shown below. To do so,
 **
@@ -510,7 +504,7 @@ select
 **
  your desired shape with any selection tool (marquee, lasso, pen, etc.), but stay well away from the edges of the canvas.
 
-[Image: /docs/static/attachments/44968222]
+![Image](https://www.cryengine.com/docs/static/attachments/44968222)
 
 Choose
 **
@@ -555,7 +549,7 @@ LightProjector
 
 Be cautious about putting lights with projected textures too far away from surfaces, as the relatively low resolution of the textures will eventually become apparent. The example below uses a 1024 pixel circular texture placed unusually far from the terrain.
 
-[Image: /docs/static/attachments/44968223]
+![Image](https://www.cryengine.com/docs/static/attachments/44968223)
 
 ##
 Using Clip Volumes to Constrain Area Affected by Light
@@ -606,7 +600,7 @@ Edit
 **
  button and using the Designer tool to modify the model. The Clip Volume model can be complex, but it must be watertight (i.e., not contain only holes).
 
-[Image: /docs/static/attachments/44966011]
+![Image](https://www.cryengine.com/docs/static/attachments/44966011)
 
 The intensity and color of lights can also be
 *
@@ -706,60 +700,34 @@ Projector Options -> Projected Texture
 **
 . Since these must be only 512x512 pixels, the low resolution of these textures will quickly become very apparent if projected over a large area, so it's unlikely that you would put a projector light so far from a surface.
 
-[Image: /docs/static/attachments/44966010]
+![Image](https://www.cryengine.com/docs/static/attachments/44966010)
 
 ##
 Related topics
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26215326](
-Volumetric Fog
-)
+[Volumetric Fog](../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Volumetric%20Fog.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869891](
-Clip Volumes
-)
+[Clip Volumes](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Clip%20Volume.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869910](
-Vis Areas
-)
+[Vis Areas](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Area/Vis%20Area.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868680](
-Optical Flare System
-)
+[Optical Flare System](../../../Editor%20Tools/Lens%20Flare%20Editor/Optical%20Flare%20System.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869088](
-Lens Flare Editor
-)
+[Lens Flare Editor](../../../Editor%20Tools/Lens%20Flare%20Editor.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535599](
-Global Illumination (SVOGI)
-)
+[Global Illumination (SVOGI)](../../../Graphics%20%26%20Rendering/Lighting/Lighting%20Overview/Voxel-Based%20Global%20Illumination%20(SVOGI).md)
 
 -
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310742](
-CryTif Plug-In
-)
-[#before-you-start](
-Before You Start
-)
-[#creating-the-light](
-Creating the Light
-)
-[#setting-core-light-properties](
-Setting Core Light Properties
-)
-[#using-angle-and-projected-textures](
-Using Angle and Projected Textures
-)
-[#using-clip-volumes-to-constrain-area-affected-by-light](
-Using Clip Volumes to Constrain Area Affected by Light
-)
-[#related-topics](
-Related topics
-)
+[CryTif Plug-In](/docs/static/engines/cryengine-3/categories/1114113/pages/1310742)
+[Before You Start](#before-you-start)
+[Creating the Light](#creating-the-light)
+[Setting Core Light Properties](#setting-core-light-properties)
+[Using Angle and Projected Textures](#using-angle-and-projected-textures)
+[Using Clip Volumes to Constrain Area Affected by Light](#using-clip-volumes-to-constrain-area-affected-by-light)
+[Related topics](#related-topics)

@@ -15,7 +15,7 @@ ActionMaps:ActionFilter
 
 This flow node can enable/disable existing filters.
 
-[Image: /docs/static/attachments/28901372]
+![Image](https://www.cryengine.com/docs/static/attachments/28901372)
 
 In this example, we are enabling the already defined "cutscene" filter.
 
@@ -100,7 +100,7 @@ ActionMaps:ActionListener
 
 This flow node will allow you to listen to certain actions that got forwarded to the specified entity.
 
-[Image: /docs/static/attachments/28901371]
+![Image](https://www.cryengine.com/docs/static/attachments/28901371)
 
 In the example above, we start listening to the "jump" action for the local player. If there is no entity specified, the node will listen to all events that match the pattern.
 
@@ -197,7 +197,7 @@ ActionMaps:ActionMap
 
 This flow node will allow you to enable/disable action maps during runtime
 
-[Image: /docs/static/attachments/28901370]
+![Image](https://www.cryengine.com/docs/static/attachments/28901370)
 
 In the example above, we're enabling the "player" action map for the local player.
 
@@ -306,7 +306,7 @@ ActionMaps:ActionMapManager
 
 This flow node will allow you to enable/disable the whole action map manager system
 
-[Image: /docs/static/attachments/28901369]
+![Image](https://www.cryengine.com/docs/static/attachments/28901369)
 
 In the example above, we're enabling the "player" action map for the local player.
 
@@ -391,7 +391,7 @@ ActionMaps:GetDefaultActionEntity
 
 This flow node will allow you to get the current default action entity set
 
-[Image: /docs/static/attachments/28901368]
+![Image](https://www.cryengine.com/docs/static/attachments/28901368)
 
 In the example above, we're getting the current default action entity and with AutoUpdate set to 1, we subscribe to updates on it
 
@@ -452,7 +452,7 @@ ActionMaps:SetDefaultActionEntity
 
 This flow node will allow you to set the current default action entity
 
-[Image: /docs/static/attachments/28901367]
+![Image](https://www.cryengine.com/docs/static/attachments/28901367)
 
 In the example above, we're setting the local player to be the current default action entity
 
@@ -525,14 +525,14 @@ Input:GrammerManagement
 
 Enables/Disables the selected Grammar for Kinect Speech Recognition (Xbox One).
 
-[Image: /docs/static/attachments/29687814]
+![Image](https://www.cryengine.com/docs/static/attachments/29687814)
 
 ##
 Input:MouseButtonInfo
 
 Used to output mouse button state information.
 
-[Image: /docs/static/attachments/29687813]
+![Image](https://www.cryengine.com/docs/static/attachments/29687813)
 
 **
 Inputs
@@ -624,7 +624,7 @@ Input:MouseCoords
 
 Used to output mouse coordinates.
 
-[Image: /docs/static/attachments/29687812]
+![Image](https://www.cryengine.com/docs/static/attachments/29687812)
 
 **
 Inputs
@@ -743,7 +743,7 @@ Input:MouseCursor
 
 Used to show or hide the mouse cursor.
 
-[Image: /docs/static/attachments/29687811]
+![Image](https://www.cryengine.com/docs/static/attachments/29687811)
 
 **
 Inputs
@@ -799,7 +799,7 @@ Input:MouseEntitiesInBox
 
 Used to show or hide the mouse coordinates.
 
-[Image: /docs/static/attachments/29687810]
+![Image](https://www.cryengine.com/docs/static/attachments/29687810)
 
 **
 Inputs
@@ -891,7 +891,7 @@ Input:MouseRayCast
 
 Used to output the mouse raycast information.
 
-[Image: /docs/static/attachments/29687809]
+![Image](https://www.cryengine.com/docs/static/attachments/29687809)
 
 **
 Inputs
@@ -1001,49 +1001,29 @@ Input:SpeechRecognition
 
 Enables/Disables Kinect Speech Recognition (Xbox One).
 
-[Image: /docs/static/attachments/28901375]
+![Image](https://www.cryengine.com/docs/static/attachments/28901375)
 
 ##
 Input:SpeechRecognitionEnabled
 
 Queries the availability of Kinect Speech Recognition and its grammars (Xbox One).
 
-[Image: /docs/static/attachments/28901374]
+![Image](https://www.cryengine.com/docs/static/attachments/28901374)
 
 ##
 Input:SpeechRecognitionListener
 
 Listener for Kinect Voice Commands (Xbox One).
 
-[Image: /docs/static/attachments/28901373]
+![Image](https://www.cryengine.com/docs/static/attachments/28901373)
 
-[#actionmaps](
-ActionMaps
-)
-[#inputgrammermanagement](
-Input:GrammerManagement
-)
-[#inputmousebuttoninfo](
-Input:MouseButtonInfo
-)
-[#inputmousecoords](
-Input:MouseCoords
-)
-[#inputmousecursor](
-Input:MouseCursor
-)
-[#inputmouseentitiesinbox](
-Input:MouseEntitiesInBox
-)
-[#inputmouseraycast](
-Input:MouseRayCast
-)
-[#inputspeechrecognition](
-Input:SpeechRecognition
-)
-[#inputspeechrecognitionenabled](
-Input:SpeechRecognitionEnabled
-)
-[#inputspeechrecognitionlistener](
-Input:SpeechRecognitionListener
-)
+[ActionMaps](#actionmaps)
+[Input:GrammerManagement](#inputgrammermanagement)
+[Input:MouseButtonInfo](#inputmousebuttoninfo)
+[Input:MouseCoords](#inputmousecoords)
+[Input:MouseCursor](#inputmousecursor)
+[Input:MouseEntitiesInBox](#inputmouseentitiesinbox)
+[Input:MouseRayCast](#inputmouseraycast)
+[Input:SpeechRecognition](#inputspeechrecognition)
+[Input:SpeechRecognitionEnabled](#inputspeechrecognitionenabled)
+[Input:SpeechRecognitionListener](#inputspeechrecognitionlistener)

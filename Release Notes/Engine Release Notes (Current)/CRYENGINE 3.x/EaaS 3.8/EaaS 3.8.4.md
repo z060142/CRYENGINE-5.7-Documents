@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Important 3.8.4 EaaS Code and Data Changes](EaaS 3.8.4/Important 3.8.4 EaaS Code and Data Changes.md)
+- [Important 3.8.4 EaaS Code and Data Changes](EaaS%203.8.4/Important%203.8.4%20EaaS%20Code%20and%20Data%20Changes.md)
 
 ## Content
 
@@ -21,12 +21,10 @@ Release Highlights
 Heightmap-Based Ambient Occlusion
 
 With the new
-[/docs/static/engines/cryengine-3/categories/1114113/pages/21890652](
-Heightmap-Based Ambient Occlusion
-)
+[Heightmap-Based Ambient Occlusion](/docs/static/engines/cryengine-3/categories/1114113/pages/21890652)
  (Height Map AO), CRYENGINE 3.8.4 introduces a highly efficient option to obtain large-scale ambient occlusion in outdoor environments without the need for any prebaking. In combination with Screen Space Directional Occlusion (SSDO), the Heightmap AO provides additional shading cues to improve the depth perception of a scene. The focus of the technique is on high performance and to make it suitable for Virtual Reality (VR) and consoles (approximately 0.3 ms on PC).
 
-[Image: /docs/static/attachments/44962941]
+![Image](https://www.cryengine.com/docs/static/attachments/44962941)
 
 ##
 New Rendering Pipeline Profiler
@@ -37,7 +35,7 @@ r_profiler 1.
 **
 
 **
-[Image: /docs/static/attachments/44962940]
+![Image](https://www.cryengine.com/docs/static/attachments/44962940)
 
 **
 
@@ -45,9 +43,7 @@ r_profiler 1.
 Code Interface Changes
 
 See the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962942](
-Important 3.8.4 Code and Data Changes
-)
+[Important 3.8.4 Code and Data Changes](EaaS%203.8.4/Important%203.8.4%20EaaS%20Code%20and%20Data%20Changes.md)
  article for more information
 
 ##
@@ -155,7 +151,7 @@ Tweaked
 ##
 Designer Tool
 
-[Image: /docs/static/attachments/44962939]
+![Image](https://www.cryengine.com/docs/static/attachments/44962939)
 
 **
 Extrude Multiple
@@ -166,9 +162,7 @@ Extrude Multiple
 New
 **
 : ExtrudeMultiple tool has been added.
-[/docs/static/engines/cryengine-3/categories/1114113/pages/21890915](
-Manual
-)
+[Manual](/docs/static/engines/cryengine-3/categories/1114113/pages/21890915)
 
 -
 **
@@ -281,7 +275,7 @@ Tweaked
 ##
 UV Mapping Editor
 
-[Image: /docs/static/attachments/44962938]
+![Image](https://www.cryengine.com/docs/static/attachments/44962938)
 
 **
 Smart Sew
@@ -292,18 +286,14 @@ Smart Sew
 New
 **
 : SmartSew has been added.
-[/docs](
-Manual
-)
+[Manual](/docs)
 
 -
 **
 New
 **
 : LoopSelection has been added.
-[/docs](
-Manual
-)
+[Manual](/docs)
 
 -
 **
@@ -968,9 +958,7 @@ Animation General
 New:
 **
 Added technical documentation.
-[/docs/static/engines/cryengine-3/categories/1638401/pages/21890231](
-Time in CryAnimation
-)
+[Time in CryAnimation](/docs/static/engines/cryengine-3/categories/1638401/pages/21890231)
 .
 
 -
@@ -1045,7 +1033,7 @@ New
 **
 : Added the ability to create new animation events file (from within the properties panel of chrparams files) when no animation events file is specified:
 
-[Image: /docs/static/attachments/44962937]
+![Image](https://www.cryengine.com/docs/static/attachments/44962937)
 
 -
 **
@@ -1053,7 +1041,7 @@ New
 **
 : Added display of the included animation events file (the animation events file that is specified in an included chrparams file), if any.
 
-[Image: /docs/static/attachments/44962936]
+![Image](https://www.cryengine.com/docs/static/attachments/44962936)
 
 -
 **
@@ -1079,7 +1067,7 @@ Fixed
 **
 : The 'frames' playback mode - a side effect is that the resolution of the time used when editing animation events is increased; this might introduce slight changes in time when re-saving).
 
-[Image: /docs/static/attachments/44962935]
+![Image](https://www.cryengine.com/docs/static/attachments/44962935)
 
 -
 **
@@ -1093,7 +1081,7 @@ Fixed:
 **
  The display of the warning/error icons on closed branches in the property tree.
 
-[Image: /docs/static/attachments/44962934]
+![Image](https://www.cryengine.com/docs/static/attachments/44962934)
 
 -
 **
@@ -1436,42 +1424,16 @@ Fixed
 Tweaked
 **
 : Simplified GameZero InputExtension.
-[#release-highlights](
-Release Highlights
-)
-[#code-interface-changes](
-Code Interface Changes
-)
-[#editor](
-Editor
-)
-[#renderer](
-Renderer
-)
-[#engine](
-Engine
-)
-[#3d-engine](
-3D Engine
-)
-[#particles](
-Particles
-)
-[#rctools](
-RC/Tools
-)
-[#animation](
-Animation
-)
-[#action](
-Action
-)
-[#audio](
-Audio
-)
-[#ai-system](
-AI System
-)
-[#game](
-Game
-)
+[Release Highlights](#release-highlights)
+[Code Interface Changes](#code-interface-changes)
+[Editor](#editor)
+[Renderer](#renderer)
+[Engine](#engine)
+[3D Engine](#3d-engine)
+[Particles](#particles)
+[RC/Tools](#rctools)
+[Animation](#animation)
+[Action](#action)
+[Audio](#audio)
+[AI System](#ai-system)
+[Game](#game)

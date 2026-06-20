@@ -78,7 +78,7 @@ CryPhysX.dll.
 Pic1: Using CMake and WAF to build PhysX.
 
 *
-[Image: /docs/static/attachments/26526041]
+![Image](https://www.cryengine.com/docs/static/attachments/26526041)
 
 *
 

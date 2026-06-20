@@ -15,27 +15,17 @@ Networking in the engine is made possible by the
 CryNetwork
 **
  module, and is exposed to entities via the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797256](
-INetEntity
-)
+[INetEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797256)
 interface - accessible via
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797019](
-IEntity::GetNetEntity
-)
+[IEntity::GetNetEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797019)
 . Entities are by default not networked, but can be bound to the network during spawning - if a component calls
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797256](
-INetEntity::BindToNetwork
-)
+[INetEntity::BindToNetwork](/docs/static/engines/cryengine-5/categories/28704770/pages/29797256)
  before
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797278](
-IEntitySystem::InitEntity
-)
+[IEntitySystem::InitEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797278)
  is called on the entity.
 
 Once bound to the network, entities are assigned an network object identifier (
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797372](
-SNetObjectID
-)
+[SNetObjectID](/docs/static/engines/cryengine-5/categories/28704770/pages/29797372)
 ), that is used to uniquely identify the entity over the network.
 
 Entity identifiers are
@@ -43,82 +33,48 @@ Entity identifiers are
 not
 **
  guaranteed to be the same over the network, and can therefore not be sent without being converted. See the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216232#Networking-CompressionPolicies](
-Compression Policies
-)
+[Compression Policies](Networking.md#Networking-CompressionPolicies)
  section below.
 
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#channels](
-Channels
-)
-[#compression-policies](
-Compression Policies
-)
-[#scheduling](
-Scheduling
-)
-[#remote-method-invocations](
-Remote Method Invocations
-)
-[#network-serialization-and-aspects](
-Network Serialization and Aspects
-)
-[#spawn-replication-serialization](
-Spawn Replication Serialization
-)
-[#packet-rate-and-bandwidth](
-Packet Rate & Bandwidth
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[Channels](#channels)
+[Compression Policies](#compression-policies)
+[Scheduling](#scheduling)
+[Remote Method Invocations](#remote-method-invocations)
+[Network Serialization and Aspects](#network-serialization-and-aspects)
+[Spawn Replication Serialization](#spawn-replication-serialization)
+[Packet Rate & Bandwidth](#packet-rate-and-bandwidth)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797379](
-INetwork
-)
+[INetwork](/docs/static/engines/cryengine-5/categories/28704770/pages/29797379)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797256](
-INetEntity
-)
+[INetEntity](/docs/static/engines/cryengine-5/categories/28704770/pages/29797256)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797328](
-INetContext
-)
+[INetContext](/docs/static/engines/cryengine-5/categories/28704770/pages/29797328)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797372](
-SNetObjectID
-)
+[SNetObjectID](/docs/static/engines/cryengine-5/categories/28704770/pages/29797372)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797419](
-ISerialize
-)
+[ISerialize](/docs/static/engines/cryengine-5/categories/28704770/pages/29797419)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797556](
-SRmi
-)
+[SRmi](/docs/static/engines/cryengine-5/categories/28704770/pages/29797556)
 
 ##
 Channels
 
 A channel represents a connection to another engine instance, and is known in code as
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797324](
-INetChannel
-)
+[INetChannel](/docs/static/engines/cryengine-5/categories/28704770/pages/29797324)
 . By default, the server has one net channel per client, and each client has a single net channel to communicate with the server.
 
 Each channel has a unique identifier that is used to identify the connection, and is commonly used during connections for example to identify a player on the server. However, keep in mind that the channel identifier is not networked so this should not be serialized over the network as with entity identifiers.
@@ -127,9 +83,7 @@ Each channel has a unique identifier that is used to identify the connection, an
 Compression Policies
 
 All networked data is serialized through the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797419](
-ISerialize
-)
+[ISerialize](/docs/static/engines/cryengine-5/categories/28704770/pages/29797419)
  construct, specifically through the ISerialize::Value function. A very important aspect of this function is the ability to provide the optional third parameter to specify a
 **
 compression policy
@@ -151,9 +105,7 @@ ser.Value("myEntityId", myEntityId, 'eid');
 ```
 
 This would, when writing read the value of 'myEntityId', look up its internal
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797372](
-SNetObjectID
-)
+[SNetObjectID](/docs/static/engines/cryengine-5/categories/28704770/pages/29797372)
  and serialize it over the network. The receiving instance of the engine would then deserialize the local equivalent into 'myEntityId', ensuring that we are referring to the same entity instance across machines.
 
 Have a look at the different compression policies that are available, compressing data over the network can be crucial to keep both client and server bandwidth usage within sustainable levels. It is also possible to add custom policies, or override default ones, by adding a
@@ -470,16 +422,12 @@ Remote Method Invocations (RMIs) allow for executing functions remotely between 
 not
 **
 be used to communicate between multiple clients. They are represented in code by the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797556](
-SRmi
-)
+[SRmi](/docs/static/engines/cryengine-5/categories/28704770/pages/29797556)
  structure. Each remote method can contain a set of parameters that need to be serialized with the same
 ISerialize
  interface and structure that is used for aspect serialization.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797556](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797556)
 
 ##
 Network Serialization and Aspects
@@ -503,14 +451,10 @@ eEA_GameClientD
 . Any time the data we last sent over the network is changed, we’ll need to call
 IGameObject::ChangedNetworkState
 , effectively marking the aspect as dirty resulting in
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntity::NetSerialize
-)
+[IEntity::NetSerialize](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
  being called to read the data.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 
 ##
 Aspect History and Deltas
@@ -525,18 +469,12 @@ Aspect Delegation
 Typically (and by default), entities are controlled by the server. However, in certain cases it is necessary to delegate control of an aspect to the client. Usually, this is done to improve responsiveness on the client, but requires trusting the client - which can lead to cheats being developed with relative ease.
 
 In order to enable delegation of a specific aspect on an entity, we first need to call
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797256](
-INetEntity::EnableDelegatableAspect:
-)
+[INetEntity::EnableDelegatableAspect:](/docs/static/engines/cryengine-5/categories/28704770/pages/29797256)
  We can then call
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797328](
-INetContext::DelegateAuthority
-)
+[INetContext::DelegateAuthority](/docs/static/engines/cryengine-5/categories/28704770/pages/29797328)
 .
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797328](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797328)
 
 ##
 Spawn Replication Serialization
@@ -544,22 +482,16 @@ Spawn Replication Serialization
 It can often be useful to serialize data on an entity at spawn-time. This is used to spawn an entity with predefined components and data on the server side, and automatically deserialize that particular set of data when the entity is spawned on the remote client(s).
 
 This is achieved by overriding the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-IEntityComponent::NetReplicateSerialize
-)
+[IEntityComponent::NetReplicateSerialize](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
  function, and attaching components to an entity before IEntitySystem::Init is called.
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797021](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797021)
 
 ##
 Packet Rate & Bandwidth
 
 The networking system exposes a set of
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791867](
-CVars
-)
+[CVars](../_Console.md)
  with which we can increase packet rate or bandwidth for both server and client:
 
 Name
@@ -593,6 +525,4 @@ Conclusion
 That concludes the article on Networking. You may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/28184910](
-Execution Order and Lifecycle
-)
+[Execution Order and Lifecycle](Execution%20Order%20and%20Lifecycle.md)

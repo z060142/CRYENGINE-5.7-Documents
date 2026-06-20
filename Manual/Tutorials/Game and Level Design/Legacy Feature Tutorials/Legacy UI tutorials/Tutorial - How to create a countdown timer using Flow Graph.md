@@ -8,3 +8,5 @@
 ## Content
 
 How to create a simple countdown timer and print it on the screen.
+
+[Embed: http://youtube.com/watch?v=KVqQentAAsA]

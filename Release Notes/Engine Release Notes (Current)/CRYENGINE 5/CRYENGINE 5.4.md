@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [CRYENGINE 5.4.0](CRYENGINE 5.4/CRYENGINE 5.4.0.md)
-- [CRYENGINE 5.4 Previews](CRYENGINE 5.4/CRYENGINE 5.4 Previews.md)
+- [CRYENGINE 5.4.0](CRYENGINE%205.4/CRYENGINE%205.4.0.md)
+- [CRYENGINE 5.4 Previews](CRYENGINE%205.4/CRYENGINE%205.4%20Previews.md)
 
 ## Content
 
@@ -21,11 +21,7 @@ Release notes for the 5.4.x revisions of CRYENGINE.
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962676](
-CRYENGINE 5.4.0
-)
+[CRYENGINE 5.4.0](CRYENGINE%205.4/CRYENGINE%205.4.0.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962699](
-CRYENGINE 5.4 Previews
-)
+[CRYENGINE 5.4 Previews](CRYENGINE%205.4/CRYENGINE%205.4%20Previews.md)

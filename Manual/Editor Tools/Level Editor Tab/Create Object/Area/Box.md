@@ -14,7 +14,7 @@ This entity is used to create a box to which the triggers
 that should be enabled when the player enters or leaves the box
  and other entities can be linked.
 
-[Image: /docs/static/attachments/44966487]
+![Image](https://www.cryengine.com/docs/static/attachments/44966487)
 
 **
 Parameters

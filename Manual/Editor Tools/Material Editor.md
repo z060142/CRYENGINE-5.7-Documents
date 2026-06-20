@@ -17,9 +17,7 @@ It also allows you to copy existing materials and use them as a starting point f
 Editing materials not only allows you to choose textures and shaders, but also fine-tune placement, animation of textures and tweaking parameters relevant for a chosen shader type.
 
 For more information about material effects, shaders, and texture maps, see the sub-pages of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44967563](
-Legacy Material Editor
-)
+[Legacy Material Editor](Material%20Editor%20Legacy.md)
 .
 
 To open the Material Editor, go to
@@ -28,7 +26,7 @@ Tools → Material Editor
 **
 .
 
-[Image: /docs/static/attachments/44958425]
+![Image](https://www.cryengine.com/docs/static/attachments/44958425)
 
 Click on the name of the area names below to learn more about them.
 
@@ -36,7 +34,7 @@ Click on the name of the area names below to learn more about them.
 1. Menu
 
 Accessed via the
-[Image: /docs/static/attachments/44968571]
+![Image](https://www.cryengine.com/docs/static/attachments/44968571)
  icon situated at the top-right corner of the tool, the Menu contains the following options:
 
 ##
@@ -275,23 +273,19 @@ In this panel, the material (or in the case of multi-materials, the sub-material
 Tool-specific Asset Browser panels let users view and edit the assets within the tool that is currently being used. Unlike the stand-alone Asset Browser tool, the assets that are displayed on this panel are pre-filtered by default; meaning it only displays the assets that are relative to the tool itself.
 
 Menu options and their functionalities on both the stand-alone and the tool-specifc Asset Browsers are the same and they can be used to achieve the same goal. For more information about the Asset Browser Menu options, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-Asset Browser
-)
+[Asset Browser](Asset%20Browser.md)
  page.
 
 -
 When the Sync Selection
-[Image: /docs/static/attachments/44958426]
+![Image](https://www.cryengine.com/docs/static/attachments/44958426)
  button in the toolbar is active, selecting a different asset in a tool-specific Asset Browser will instantly open it. This button makes it very easy to cycle through different assets and edit them on the fly.
 
 -
 You can drag an asset from the standalone
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-Asset Browser
-)
+[Asset Browser](Asset%20Browser.md)
  and drop it onto the asset picker fields on the Material Editor's Properties panel. If the asset is compatible, e.g. textures, the field will be highlighted in green and the asset will be assigned to it; otherwise, it will be highlighted in red and the asset will not be assigned.
-[Image: /docs/static/attachments/44961601]
+![Image](https://www.cryengine.com/docs/static/attachments/44961601)
 
 ##
 Right Click Menu
@@ -381,9 +375,7 @@ Shader
 **
  |
 Here you can select the shader you want to use. Generally you use illum/vegetation/glass shader. For more information, see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959224](
-Shaders
-)
+[Shaders](../Graphics%20%26%20Rendering/Shaders.md)
 .
 
  |
@@ -398,11 +390,11 @@ For an old wooden table you would choose something like "wood", or you could eve
 
 This can be applied to any object and will result in the associated particles, decals and sounds being played on that object, so yes, you can make a rock bleed!
 
-[Image: /docs/static/attachments/35400804]
+![Image](https://www.cryengine.com/docs/static/attachments/35400804)
  |
-[Image: /docs/static/attachments/35400803]
+![Image](https://www.cryengine.com/docs/static/attachments/35400803)
  |
-[Image: /docs/static/attachments/35400802]
+![Image](https://www.cryengine.com/docs/static/attachments/35400802)
  |
 
 mat_wood
@@ -434,7 +426,7 @@ Alpha Blend
 Alpha Test
 .
 
-[Image: /docs/static/attachments/35400801]
+![Image](https://www.cryengine.com/docs/static/attachments/35400801)
 
 Opacity value
 : 0-99 -> alpha blend.
@@ -451,14 +443,14 @@ Alpha Test
  |
 If you want to use alpha test, which is less expensive, set the opacity value to 100 and the AlphaTest value to 50.
 
-[Image: /docs/static/attachments/35400800]
+![Image](https://www.cryengine.com/docs/static/attachments/35400800)
 50 is the default value. A value below 50 tends more to the white color of the alpha map. A value above 50 tends more to the black color of the alpha map.
 
-[Image: /docs/static/attachments/35400829]
+![Image](https://www.cryengine.com/docs/static/attachments/35400829)
  |
-[Image: /docs/static/attachments/35400828]
+![Image](https://www.cryengine.com/docs/static/attachments/35400828)
  |
-[Image: /docs/static/attachments/35400827]
+![Image](https://www.cryengine.com/docs/static/attachments/35400827)
  |
 
 Default alpha test = 50
@@ -476,7 +468,7 @@ Additive
  |
 When using a semi-transparent material like glass, use the additive function. The material color will be added to the background color. The resulting color will the be brighter.
 
-[Image: /docs/static/attachments/35400826]
+![Image](https://www.cryengine.com/docs/static/attachments/35400826)
 
  |
 
@@ -503,9 +495,9 @@ Using the slider next to the color you can control the brightness. You can also 
 Standard
  tab.
 
-[Image: /docs/static/attachments/35400825]
+![Image](https://www.cryengine.com/docs/static/attachments/35400825)
 
-[Image: /docs/static/attachments/35400824]
+![Image](https://www.cryengine.com/docs/static/attachments/35400824)
 
  |
 
@@ -514,9 +506,7 @@ Specular Color
 **
  |
 The specular color is the reflective or shiny component of a material when light shines onto the object. To correctly set up PBS materials please see the documentation for
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959238](
-Physically Based Shading (PBS)
-)
+[Physically Based Shading (PBS)](../Graphics%20%26%20Rendering/Shaders/Physically%20Based%20Shading%20(PBS).md)
 .
 
 Specific metals reflect a certain color, e.g.: Gold =
@@ -526,9 +516,7 @@ Specific metals reflect a certain color, e.g.: Gold =
 Copper =
  250,209,194
  (see the lookup table at the bottom of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959244](
-Texture and Material Setup for PBS
-)
+[Texture and Material Setup for PBS](../Graphics%20%26%20Rendering/Shaders/Physically%20Based%20Shading%20(PBS)/Texture%20and%20Material%20Setup%20for%20PBS.md)
  page). All other non-metals should be within the sRGB color range of 40,40,40 -> 60,60,60. They should
 never
  be above 80,80,80!
@@ -539,13 +527,13 @@ As long as you adhere to the PBS specular color guidelines, your materials shoul
 From left to right and top to bottom: midday, evening, night, neutral
 *
 
-[Image: /docs/static/attachments/35400823]
+![Image](https://www.cryengine.com/docs/static/attachments/35400823)
 
-[Image: /docs/static/attachments/35400822]
+![Image](https://www.cryengine.com/docs/static/attachments/35400822)
 
-[Image: /docs/static/attachments/35400821]
+![Image](https://www.cryengine.com/docs/static/attachments/35400821)
 
-[Image: /docs/static/attachments/35400820]
+![Image](https://www.cryengine.com/docs/static/attachments/35400820)
 
  |
 
@@ -570,9 +558,7 @@ Smoothness
 **
  |
 The smoothness defines how rough or glossy a surface is. To correctly set up PBS materials please see the documentation for
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959238](
-Physically Based Shading (PBS)
-)
+[Physically Based Shading (PBS)](../Graphics%20%26%20Rendering/Shaders/Physically%20Based%20Shading%20(PBS).md)
 .
 
 Think of it as defining the micro details on a surface, where the normal map defines the macro details. The smoothness map is stored inside the Alpha channel of the normal map (saved with the postfix _ddna). The higher the value you enter for the Smoothness, the tighter the specular highlight will be.
@@ -584,7 +570,7 @@ In the following picture, from Left to right, we are decreasing the Smoothness v
 
 -
 (Right: Smoothness = 0, very rough surface, no reflection, wide specular highlight)
-[Image: /docs/static/attachments/35400819]
+![Image](https://www.cryengine.com/docs/static/attachments/35400819)
 
  |
 
@@ -598,7 +584,7 @@ To add a texture to the material slot, click the
 Browse
 **
 button (
-[Image: /docs/static/attachments/35401163]
+![Image](https://www.cryengine.com/docs/static/attachments/35401163)
 ) or copy and paste the texture path into an empty slot.
 
 The Texture Map slot layout is fairly straightforward: the left column displays which type of texture map the slot is associated with and the middle column is where the texture map file is located.
@@ -839,11 +825,11 @@ TileU & TileV
 You can tile your texture for the U and V axis separately by using the arrow button, the slider, or the text field.
 Note that you currently cannot tile normal or specular maps independently of the diffuse map. This is because of material instancing which saves many draw calls.
 
-[Image: /docs/static/attachments/52593361]
+![Image](https://www.cryengine.com/docs/static/attachments/52593361)
  |
-[Image: /docs/static/attachments/52593362]
+![Image](https://www.cryengine.com/docs/static/attachments/52593362)
  |
-[Image: /docs/static/attachments/52593363]
+![Image](https://www.cryengine.com/docs/static/attachments/52593363)
  |
 
 Texture tiling 1, 1
@@ -859,7 +845,7 @@ OffsetU & OffsetV
 **
 - You can move the texture on the model in U and V direction separately. In the example below, the texture is moved 1.32 in U and 2.17 in V direction:
 
-[Image: /docs/static/attachments/35400789]
+![Image](https://www.cryengine.com/docs/static/attachments/35400789)
 
 -
 **
@@ -869,7 +855,7 @@ RotateU, RotateV & RotateW
 You can rotate the texture on a model in U and V direction separately. In the example below, the texture is rotated about 45 degree into U and V direction:
 
 *
-[Image: /docs/static/attachments/35400788]
+![Image](https://www.cryengine.com/docs/static/attachments/35400788)
 *
  |
 
@@ -891,7 +877,7 @@ Constant Rotation
  -
 Rotation is constant, rotating/shifting in one direction and back:
 
-[Image: /docs/static/attachments/35400787]
+![Image](https://www.cryengine.com/docs/static/attachments/35400787)
 
 -
 **
@@ -914,7 +900,7 @@ Oscillated Rotation
  -
 Rotation oscillates from the minimum, to the maximum, and back:
 
-[Image: /docs/static/attachments/35400786]
+![Image](https://www.cryengine.com/docs/static/attachments/35400786)
 
 -
 **
@@ -963,7 +949,7 @@ Constant Moving
  -
 Texture shifts endlessly in the adjusted direction:
 
-[Image: /docs/static/attachments/44971129]
+![Image](https://www.cryengine.com/docs/static/attachments/44971129)
 
 -
 **
@@ -979,7 +965,7 @@ Jitter Moving
  -
 Texture shifts endlessly in the adjusted direction with jittering added. Has a stroboscope effect:
 
-[Image: /docs/static/attachments/44971130]
+![Image](https://www.cryengine.com/docs/static/attachments/44971130)
 
 -
 **
@@ -995,7 +981,7 @@ Pan Moving
  -
 Texture shifts in the adjusted direction until the maximum amplitude is reached and back until the minimum amplitude is reached. Comparable to a pendulum movement:
 
-[Image: /docs/static/attachments/44971131]
+![Image](https://www.cryengine.com/docs/static/attachments/44971131)
 
 -
 **
@@ -1004,7 +990,7 @@ Stretch Moving
  -
 Similar to pan moving, but different in that the texture is stretched and not shifted to the adjusted direction until the maximum amplitude is reached and back until the minimum amplitude is reached:
 
-[Image: /docs/static/attachments/44971132]
+![Image](https://www.cryengine.com/docs/static/attachments/44971132)
 
 -
 **
@@ -1013,7 +999,7 @@ Stretch-Repeat Moving
  -
 Similar to stretch moving with the difference that the texture stretching restarts at 0 when the maximum amplitude is reached:
 
-[Image: /docs/static/attachments/44971133]
+![Image](https://www.cryengine.com/docs/static/attachments/44971133)
 
 -
 **
@@ -1050,7 +1036,7 @@ decal
 
 You can create many interesting effects like animated glow by using the decal slot:
 
-[Image: /docs/static/attachments/52593366]
+![Image](https://www.cryengine.com/docs/static/attachments/52593366)
 
 ##
 Advanced Settings
@@ -1145,9 +1131,7 @@ Deprecated
 Shader Params
 
 The Shader Params differ depending on the shader that is selected. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29448786](
-this page
-)
+[this page](../Graphics%20%26%20Rendering/Shaders/Shaders%20in%20CRYENGINE/Shader%20Reference.md)
  (and subpages) for more detailed information for each separate shader.
 
 ##
@@ -1155,9 +1139,7 @@ Shader Generation Params
 
 The Shader Generation Params differ depending on the shader that is selected.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449533](
-this page
-)
+[this page](../Graphics%20%26%20Rendering/Shaders/Shaders%20in%20CRYENGINE/Shader%20Features%20(Shader%20Generation%20Params).md)
  (and subpages)
 for more detailed information for each separate shader.
 
@@ -1328,27 +1310,15 @@ CTRL
 
 Small tooltip:
 
-[Image: /docs/static/attachments/35402780]
+![Image](https://www.cryengine.com/docs/static/attachments/35402780)
 
 Large tooltip:
 
-[Image: /docs/static/attachments/35402781]
+![Image](https://www.cryengine.com/docs/static/attachments/35402781)
 
-[#1-menu](
-1. Menu
-)
-[#2-materials-overview](
-2. Materials Overview
-)
-[#3-asset-browser](
-3. Asset Browser
-)
-[#4-properties](
-4. Properties
-)
-[#5-preview](
-5. Preview
-)
-[#texture-tooltips](
-Texture Tooltips
-)
+[1. Menu](#1-menu)
+[2. Materials Overview](#2-materials-overview)
+[3. Asset Browser](#3-asset-browser)
+[4. Properties](#4-properties)
+[5. Preview](#5-preview)
+[Texture Tooltips](#texture-tooltips)

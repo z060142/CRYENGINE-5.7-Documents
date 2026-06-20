@@ -489,9 +489,7 @@ The solution is to exclusively read from StreamingIOThreads during gameplay. Cry
  warning in the top left corner when reading data from the wrong thread and stall for 3 seconds to emulate the actual stall when reading from an optical drive.
 
 For more information on how to track and fix 'Invalid File Accesses' in the game check the following confluence page:
-[/docs](
-http://confluence/display/RND/Tracking+File+Access
-)
+[http://confluence/display/RND/Tracking+File+Access](/docs)
 
 ##
 High Level Streaming Engine usage

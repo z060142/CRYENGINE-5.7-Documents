@@ -11,96 +11,65 @@ Applying the vehicle physics components in an atypical use case: building a rigi
 
 -
 Accessing a spring within the vehicle components
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=17s](
-0:17
-)
+[0:17](https://www.youtube.com/watch?v=rofWYKq19cw&t=17s)
 
 -
 Understanding wheel colliders
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=104s](
-1:44
-)
+[1:44](https://www.youtube.com/watch?v=rofWYKq19cw&t=104s)
 
 -
 Adding a platform surface
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=151s](
-2:31
-)
+[2:31](https://www.youtube.com/watch?v=rofWYKq19cw&t=151s)
 
 -
 Adding the player ball entity
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=255s](
-4:15
-)
+[4:15](https://www.youtube.com/watch?v=rofWYKq19cw&t=255s)
 
 -
 Testing and fine-tuning the trampoline's behavior
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=371s](
-6:11
-)
+[6:11](https://www.youtube.com/watch?v=rofWYKq19cw&t=371s)
 
 -
 Adjusting ball behavior to accelerate testing
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=426s](
-7:06
-)
+[7:06](https://www.youtube.com/watch?v=rofWYKq19cw&t=426s)
 
 -
 Adjusting the spring response
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=525s](
-8:45
-)
+[8:45](https://www.youtube.com/watch?v=rofWYKq19cw&t=525s)
 
 -
 Adjusting the mass of the components
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=640s](
-10:40
-)
+[10:40](https://www.youtube.com/watch?v=rofWYKq19cw&t=640s)
 
 -
 Using a line constraint to stabilize the platform
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=677s](
-11:17
-)
+[11:17](https://www.youtube.com/watch?v=rofWYKq19cw&t=677s)
 
 -
 Using a plane constraint to control the ball's movement
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=828s](
-13:48
-)
+[13:48](https://www.youtube.com/watch?v=rofWYKq19cw&t=828s)
 
 -
 Creating a 3rd person camera to follow the ball
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=977s](
-16:17
-)
+[16:17](https://www.youtube.com/watch?v=rofWYKq19cw&t=977s)
 
 -
 Forcing the camera to always look at the ball
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=1350s](
-22:30
-)
+[22:30](https://www.youtube.com/watch?v=rofWYKq19cw&t=1350s)
 
 -
 Adding multiple trampolines
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=1517s](
-25:17
-)
+[25:17](https://www.youtube.com/watch?v=rofWYKq19cw&t=1517s)
 
 -
 Pushing the ball forward with Flow Graph
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=1528s](
-25:28
-)
+[25:28](https://www.youtube.com/watch?v=rofWYKq19cw&t=1528s)
 
 -
 The finished level
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=1541s](
-25:41
-)
+[25:41](https://www.youtube.com/watch?v=rofWYKq19cw&t=1541s)
 
 -
 The finished Flow Graph script
-[https://www.youtube.com/watch?v=rofWYKq19cw&t=1566s](
-26:06
-)
+[26:06](https://www.youtube.com/watch?v=rofWYKq19cw&t=1566s)
+[Embed: https://www.youtube.com/watch?v=rofWYKq19cw]

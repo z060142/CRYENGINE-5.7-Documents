@@ -7,10 +7,10 @@
 
 ## Child Pages
 
-- [Common Lua](Common Lua Functions/Common Lua.md)
-- [EntityUtils Lua](Common Lua Functions/EntityUtils Lua.md)
-- [Math Lua](Common Lua Functions/Math Lua.md)
-- [Physics Lua](Common Lua Functions/Physics Lua.md)
+- [Common Lua](Common%20Lua%20Functions/Common%20Lua.md)
+- [EntityUtils Lua](Common%20Lua%20Functions/EntityUtils%20Lua.md)
+- [Math Lua](Common%20Lua%20Functions/Math%20Lua.md)
+- [Physics Lua](Common%20Lua%20Functions/Physics%20Lua.md)
 
 ## Content
 
@@ -18,21 +18,13 @@
 In This Topic
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306626](
-Common.lua
-)
+[Common.lua](Common%20Lua%20Functions/Common%20Lua.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306628](
-Physics.lua
-)
+[Physics.lua](Common%20Lua%20Functions/Physics%20Lua.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306627](
-Utils\EntityUtils.lua
-)
+[Utils\EntityUtils.lua](Common%20Lua%20Functions/EntityUtils%20Lua.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306629](
-Utils\Math.lua
-)
+[Utils\Math.lua](Common%20Lua%20Functions/Math%20Lua.md)

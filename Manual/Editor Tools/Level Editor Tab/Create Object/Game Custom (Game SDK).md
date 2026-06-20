@@ -9,7 +9,5 @@
 
 These entities are tied to GameSDK. For more information about GameSDK, please visit the
 
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
 .

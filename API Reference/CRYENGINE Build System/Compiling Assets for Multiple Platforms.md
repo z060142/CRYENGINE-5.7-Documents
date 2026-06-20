@@ -16,15 +16,9 @@ The following table contains the description of the placeholder used inside the 
 
 Chapters:
 
-[#rc-jobs](
-RC Jobs
-)
-[#rc-job-file-main-structure](
-RC Job file - Main structure
-)
-[#how-to-define-a-specific-operation-in-one-job](
-How to define a specific operation in one job
-)
+[RC Jobs](#rc-jobs)
+[RC Job file - Main structure](#rc-job-file-main-structure)
+[How to define a specific operation in one job](#how-to-define-a-specific-operation-in-one-job)
 **
 Placeholder name
 **

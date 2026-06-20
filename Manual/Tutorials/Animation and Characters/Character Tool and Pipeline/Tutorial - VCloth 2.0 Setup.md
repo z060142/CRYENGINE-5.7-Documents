@@ -20,18 +20,14 @@ Character Tool
 
 Before you continue, you need to set up your cloth in Maya and export it as a *.skin file. This exporting process is described in detail on the following page:
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530837](
-Maya - Export VCloth to CRYENGINE
-)
+[Maya - Export VCloth to CRYENGINE](../../../Physics/VCloth%202.0/How%20To%20-%20Export%20VCloth%20from%20Maya%20to%20CRYENGINE.md)
 **
 .
 
 Since the cloth needs to be skinned according to the used character, y
 ou cannot simply change clothes between characters if they have different joints - in this case you have to re-skin the cloth to each character separately (see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530837](
-How To - Export VCloth from Maya to CRYENGINE
-)
+[How To - Export VCloth from Maya to CRYENGINE](../../../Physics/VCloth%202.0/How%20To%20-%20Export%20VCloth%20from%20Maya%20to%20CRYENGINE.md)
 **
 ).
 
@@ -46,7 +42,7 @@ Setting Up the Character
  First, load your character without cloth as usual into the Character Tool:
 
 *
-[Image: /docs/static/attachments/44958304]
+![Image](https://www.cryengine.com/docs/static/attachments/44958304)
 
 *
 
@@ -55,7 +51,7 @@ Setting Up the Character
 **
  Add a new attachment:
 
-[Image: /docs/static/attachments/44958311]
+![Image](https://www.cryengine.com/docs/static/attachments/44958311)
 
 **
 3.
@@ -70,7 +66,7 @@ VCloth 2.0 Attachment
 **
 :
 
-[Image: /docs/static/attachments/44958305]
+![Image](https://www.cryengine.com/docs/static/attachments/44958305)
 
 **
 4.
@@ -85,12 +81,10 @@ must
 **
  be skinned according to the characters joints (see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530837](
-How To - Export VCloth from Maya to CRYENGINE
-)
+[How To - Export VCloth from Maya to CRYENGINE](../../../Physics/VCloth%202.0/How%20To%20-%20Export%20VCloth%20from%20Maya%20to%20CRYENGINE.md)
 **
 ). Otherwise the cloth will not work. This means you cannot simply change clothes between different characters. If the characters have different joints, you need to re-skin the cloth for each character separately.
-[Image: /docs/static/attachments/35955798]
+![Image](https://www.cryengine.com/docs/static/attachments/35955798)
 
 (you can also change the according *.cdf file directly, which is basically an *.xml file, if that suits you better)
 
@@ -119,9 +113,7 @@ Collision handling for cloth is an expensive process. Thus, make sure to only se
 
 Collision handling is fulfilled by using Lozenges as collision proxies - these are flexible geometric objects which can be set up using only four numbers. Using Lozenges, spheres, capsules, boxes and other geometrical objects can be described. To see how Lozenges can be setup in CRYENGINE see this link:
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450433#AttachmentSystemTutorial-CharacterTool-LozengeSetup](
-Setup of Lozenges
-)
+[Setup of Lozenges](../../../Editor%20Tools/Animation%20Tab/Character%20Tool/Attachment%20System%20Tutorial%20-%20Character%20Tool.md#AttachmentSystemTutorial-CharacterTool-LozengeSetup)
 **
 .
 
@@ -138,7 +130,7 @@ Display Options
 **
  menu:
 
-[Image: /docs/static/attachments/44958319]
+![Image](https://www.cryengine.com/docs/static/attachments/44958319)
 
 -
 In the properties, click
@@ -150,7 +142,7 @@ Attachments -> Add
 
 **
 **
-[Image: /docs/static/attachments/44958320]
+![Image](https://www.cryengine.com/docs/static/attachments/44958320)
 
 **
 **
@@ -160,7 +152,7 @@ Attachments -> Add
 -
 A new attachment is created. Now you can name it:
 
-[Image: /docs/static/attachments/44958321]
+![Image](https://www.cryengine.com/docs/static/attachments/44958321)
 3. For
 **
 Type
@@ -181,13 +173,13 @@ Cloth
 
 5. Select a Joint that will be the parent of the Proxy. Now your attachment should look similar to this:
 
-[Image: /docs/static/attachments/44958323]
+![Image](https://www.cryengine.com/docs/static/attachments/44958323)
 
 6. Set Transformation and Lozenge Parameters according to your character.  You can use the mouse in the viewport to transform the proxy directly on the character.
 
 7. Finally, your scene should look similar to the image below:
 
-[Image: /docs/static/attachments/44958334]
+![Image](https://www.cryengine.com/docs/static/attachments/44958334)
 
 Now repeat the process for all body parts that are needed for collision handling of the cloth.
 
@@ -197,21 +189,21 @@ Always test your proxy setup with the character’s animation. During animations
 
 In the picture above, no collision proxies have been set. The cloth is only held by attached vertices and is not interacting with the body (see intersections with legs).
 
-[Image: /docs/static/attachments/44958324]
+![Image](https://www.cryengine.com/docs/static/attachments/44958324)
 
 *
-[Image: /docs/static/attachments/44958336]
+![Image](https://www.cryengine.com/docs/static/attachments/44958336)
 *
 
 In the picture above, a rough proxy setup (left) ensures cloth interaction with the body. Hands normally result in intersection problems (especially while the character is running); big proxies might solve this problem in practice. However, due to the complexity of movements and sometimes intersections with the body, to improve stability, it is often recommended to not use proxies for hands at all.
 
 *
-[Image: /docs/static/attachments/44958338]
+![Image](https://www.cryengine.com/docs/static/attachments/44958338)
 *
 
 A simple floor proxy moves with the characters and works well for flat surfaces.
 
-[Image: /docs/static/attachments/44958327]
+![Image](https://www.cryengine.com/docs/static/attachments/44958327)
 
 Rather rough proxies normally work better in all possible situations than filigrane, accurate ones.
 
@@ -228,9 +220,7 @@ Tweaking Parameters
 
 The default settings are pretty safe and should at least result in a stable simulation - although the resulting cloth would be very elastic. A detailed description of all parameters is given
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530856#CharacterTool-PropertiesPanel5.5.2-VCloth2Attachment](
-here
-)
+[here](/docs/static/engines/cryengine-5/categories/23756816/pages/25530856#CharacterTool-PropertiesPanel5.5.2-VCloth2Attachment)
 **
 , but the most important ones are discussed below.
 
@@ -318,9 +308,7 @@ Animation Control
 **
 do not directly affect the simulation, but are more for controlling behavior in certain situations (See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849282](
-here
-)
+[here](../../../Editor%20Tools/Animation%20Tab/Character%20Tool/Character%20Tool%20-%20Properties%20Panel.md)
 **
 ).
 If your cloth is hi-res and still too elastic, you should try out the
@@ -558,7 +546,7 @@ Debug
 Parameters
 **
  of the attachment).
-[Image: /docs/static/attachments/44958329]
+![Image](https://www.cryengine.com/docs/static/attachments/44958329)
 
 Left: Original
 
@@ -582,7 +570,7 @@ The effect of each of these parameters
 
 is described below.
 
-[Image: /docs/static/attachments/35955800]
+![Image](https://www.cryengine.com/docs/static/attachments/35955800)
 
 ##
 Draw Vertices Radius
@@ -608,7 +596,7 @@ Different Draw Vertices Radius Sizes: 0.01 (left), 0.02 (middle), 0.04 (right) -
 
 *
 *
-[Image: /docs/static/attachments/44958330]
+![Image](https://www.cryengine.com/docs/static/attachments/44958330)
 *
 
 ##
@@ -648,13 +636,13 @@ Stretch links (Parameter: 1); Right: Stretch, Shear, Bend links (Parameter: 4)
 
 *
 *
-[Image: /docs/static/attachments/44958331]
+![Image](https://www.cryengine.com/docs/static/attachments/44958331)
 *
 
 *
 Bending triangles
 
-[Image: /docs/static/attachments/44958332]
+![Image](https://www.cryengine.com/docs/static/attachments/44958332)
 
 *
 
@@ -684,7 +672,7 @@ Using this parameter, a detailed visualization of generated Nearest Neighbor Dis
 -
 3 - for each vertex, draw connection to next neighbor, which follows on the path over the simulation mesh to the closest 100% attached vertex
 *
-[Image: /docs/static/attachments/44958333]
+![Image](https://www.cryengine.com/docs/static/attachments/44958333)
 *
 
 Left:
@@ -734,36 +722,20 @@ For more information on how to use VCloth, check the following pages:
 
 **
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29799532](
-VCloth 2.0
-)
+[VCloth 2.0](../../../Physics/VCloth%202.0.md)
 **
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530837](
-How To - Export VCloth from Maya to CRYENGINE
-)
+[How To - Export VCloth from Maya to CRYENGINE](../../../Physics/VCloth%202.0/How%20To%20-%20Export%20VCloth%20from%20Maya%20to%20CRYENGINE.md)
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849282](
-VCloth 2.0 properties
-)
+[VCloth 2.0 properties](../../../Editor%20Tools/Animation%20Tab/Character%20Tool/Character%20Tool%20-%20Properties%20Panel.md)
 **
 
-[#setting-up-the-character](
-Setting Up the Character
-)
-[#collisions](
-Collisions
-)
-[#tweaking-parameters](
-Tweaking Parameters
-)
-[#performance-improvements](
-Performance Improvements
-)
-[#visual-feedbackdebugging](
-Visual Feedback/Debugging
-)
+[Setting Up the Character](#setting-up-the-character)
+[Collisions](#collisions)
+[Tweaking Parameters](#tweaking-parameters)
+[Performance Improvements](#performance-improvements)
+[Visual Feedback/Debugging](#visual-feedbackdebugging)

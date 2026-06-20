@@ -13,7 +13,7 @@ Overview
 This is a stand-alone tool in the Tools/Substance folder in your Engine installation folder. It cannot be found in the Sandbox Editor.
 This tool is a shader that tries to match the viewport shading of Allegorithmic's Substance Designer and Painter software, more that is, toward the shading found in CRYENGINE.
 
-[Image: /docs/static/attachments/28900914]
+![Image](https://www.cryengine.com/docs/static/attachments/28900914)
 
 ##
 Installation
@@ -23,9 +23,7 @@ Substance Designer
 
 Download
 **
-[/docs/static/attachments/28900920](
-Designer_shaders.zip
-)
+[Designer_shaders.zip](/docs/static/attachments/28900920)
 
 **
 and unzip it to
@@ -44,13 +42,11 @@ Substance Painter
 
 Download
 **
-[/docs/static/attachments/28900919](
-CryEngine.glsl
-)
+[CryEngine.glsl](/docs/static/attachments/28900919)
 **
  and when your project is open, drag&drop it to the Shaders shelf in the Painter:
 
-[Image: /docs/static/attachments/28900913]
+![Image](https://www.cryengine.com/docs/static/attachments/28900913)
 
 In Painter you should use the same channels CRYENGINE is using:
 
@@ -86,9 +82,9 @@ This shader tries to mimic CRYENGINE shading. It supports default Physically Bas
 
 Most of the settings from the Designer or Painter software should be straightforward and mean exactly the same as in CRYENGINE.
 
-[Image: /docs/static/attachments/28900916]
+![Image](https://www.cryengine.com/docs/static/attachments/28900916)
 
-[Image: /docs/static/attachments/28900915]
+![Image](https://www.cryengine.com/docs/static/attachments/28900915)
 
 ##
 Parallax Occlusion Mapping (POM)
@@ -147,7 +143,7 @@ Environment Exposure
 below 0.
 **
 This is not a bug, it is the result of differences between Substance and CRYENGINE. See below.
-[Image: /docs/static/attachments/28900911]
+![Image](https://www.cryengine.com/docs/static/attachments/28900911)
 
 ##
 Using CryEngine Cubemap in a Viewport
@@ -157,16 +153,14 @@ It is also possible to use CRYENGINE cubemaps as a Panorama image in Substance:
 -
 Open a cryengine tif cubemap in Photoshop. (found in the cubemaps folder, with _cm suffix). Don't be scared by strange colors.
 
-[Image: /docs/static/attachments/28900912]
+![Image](https://www.cryengine.com/docs/static/attachments/28900912)
 
 -
 Run this
-[/docs/static/attachments/28900918](
-vertical_cubemap.jsx
-)
+[vertical_cubemap.jsx](/docs/static/attachments/28900918)
  Photoshop script to transform the image to a vertical cross cubemap.
 
-[Image: /docs/static/attachments/28900910]
+![Image](https://www.cryengine.com/docs/static/attachments/28900910)
 
 -
 You can now expand the border of the cubemap so there are less seams.
@@ -180,9 +174,7 @@ HDR
 
 -
 Open the image in
-[/docs/static/attachments/28900917](
-HDRShop.zip
-)
+[HDRShop.zip](/docs/static/attachments/28900917)
 .
 
 -
@@ -195,7 +187,7 @@ Image/Panorama/PanoramaticTranform
 -
 Make sure the settings are as below, and potentially raise resolution.
 
-[Image: /docs/static/attachments/28900909]
+![Image](https://www.cryengine.com/docs/static/attachments/28900909)
 
 -
 Save as a new
@@ -236,21 +228,9 @@ This is why it's highly recommended to lower Environmental map exposure in Subst
 CRYENGINE
 .
 
-[#installation](
-Installation
-)
-[#usage](
-Usage
-)
-[#parallax-occlusion-mapping-pom](
-Parallax Occlusion Mapping (POM)
-)
-[#light-setup](
-Light Setup
-)
-[#using-cryengine-cubemap-in-a-viewport](
-Using CryEngine Cubemap in a Viewport
-)
-[#substance-render-vs-cryengine-render-differences](
-Substance Render vs CRYENGINE Render Differences
-)
+[Installation](#installation)
+[Usage](#usage)
+[Parallax Occlusion Mapping (POM)](#parallax-occlusion-mapping-pom)
+[Light Setup](#light-setup)
+[Using CryEngine Cubemap in a Viewport](#using-cryengine-cubemap-in-a-viewport)
+[Substance Render vs CRYENGINE Render Differences](#substance-render-vs-cryengine-render-differences)

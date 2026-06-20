@@ -7,10 +7,10 @@
 
 ## Child Pages
 
-- [Allowed C++ Standard Features](Coding Guidelines/Allowed C++ Standard Features.md)
-- [C# Coding Standard](Coding Guidelines/C# Coding Standard.md)
-- [C++ Coding Standard](Coding Guidelines/C++ Coding Standard.md)
-- [Using GameSDK with Custom Engine](Coding Guidelines/Using GameSDK with Custom Engine.md)
+- [Allowed C++ Standard Features](Coding%20Guidelines/Allowed%20C%2B%2B%20Standard%20Features.md)
+- [C# Coding Standard](Coding%20Guidelines/C%23%20Coding%20Standard.md)
+- [C++ Coding Standard](Coding%20Guidelines/C%2B%2B%20Coding%20Standard.md)
+- [Using GameSDK with Custom Engine](Coding%20Guidelines/Using%20GameSDK%20with%20Custom%20Engine.md)
 
 ## Content
 
@@ -20,21 +20,13 @@ This category exists to provide the coding standard we use internally at Crytek 
 Pages
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/44972277](
-Allowed C++ Standard Features
-)
+[Allowed C++ Standard Features](Coding%20Guidelines/Allowed%20C%2B%2B%20Standard%20Features.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216343](
-C# Coding Standard
-)
+[C# Coding Standard](Coding%20Guidelines/C%23%20Coding%20Standard.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25530454](
-C++ Coding Standard
-)
+[C++ Coding Standard](Coding%20Guidelines/C%2B%2B%20Coding%20Standard.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25529775](
-Using GameSDK with Custom Engine
-)
+[Using GameSDK with Custom Engine](Coding%20Guidelines/Using%20GameSDK%20with%20Custom%20Engine.md)

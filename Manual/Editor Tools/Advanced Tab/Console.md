@@ -14,7 +14,7 @@ The Console is a command-line editor, allowing access to many advanced functions
 
 It is located in the top-left corner of the UI by default, in a tab next to the Create Object tool:
 
-[Image: /docs/static/attachments/44967643]
+![Image](https://www.cryengine.com/docs/static/attachments/44967643)
 
 It can also be opened by going to
 **
@@ -33,7 +33,7 @@ Ctrl+G
 on most keyboards, typically located in the top-left corner of your keyboard
 ):
 
-[Image: /docs/static/attachments/44967719]
+![Image](https://www.cryengine.com/docs/static/attachments/44967719)
 
 The Console window in the Sandbox Editor is used to input Console Commands and Console Variables (CVars). It is treated as any other tool, and is therefore able to be docked anywhere in the User Interface.
 
@@ -41,7 +41,7 @@ The Console window in the Sandbox Editor is used to input Console Commands and C
 Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44967642]
+![Image](https://www.cryengine.com/docs/static/attachments/44967642)
  icon on the top-right corner of this tool. When clicked, it reveals the following
 
 sub-menus:
@@ -209,7 +209,7 @@ Command Line & Output Window
 
 In the bottom of the Console you'll find the command line where you can enter Console Commands and Console Variables (CVars).
 
-[Image: /docs/static/attachments/44967644]
+![Image](https://www.cryengine.com/docs/static/attachments/44967644)
 
 For example, a console variable that is used rather often is
 **
@@ -230,7 +230,7 @@ The Console has its own search function built in, so you don't necessarily have 
 
 You can simply start typing part of a Console Command or CVar into the command line and you will see a list of color-coded search results in the Search Results window:
 
-[Image: /docs/static/attachments/44967718]
+![Image](https://www.cryengine.com/docs/static/attachments/44967718)
 
 You can then scroll through this list of search results by scrolling with the
 **
@@ -269,9 +269,7 @@ g
  for game.
 
 For more advanced information please see the
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605736](
-Console and Config Usage
-)
+[Console and Config Usage](/docs/static/engines/cryengine-3/categories/1638401/pages/1605736)
  document.
 
 ##
@@ -288,7 +286,7 @@ Help -> Console Commands
 **
 . The following window will open:
 
-[Image: /docs/static/attachments/44967648]
+![Image](https://www.cryengine.com/docs/static/attachments/44967648)
 
 This is a fairly basic Search window for all existing Console Commands in the Sandbox Editor.
 
@@ -304,7 +302,7 @@ In this window,
 r
 esults of searches you have entered in the Search Bar will be displayed. For example, searching for "position" will result in several commands including the text "position":
 
-[Image: /docs/static/attachments/44967647]
+![Image](https://www.cryengine.com/docs/static/attachments/44967647)
 
 In the Description column, a description of the command will be displayed.
 
@@ -318,7 +316,7 @@ Help -> Console Variables
 **
 . The following window will open:
 
-[Image: /docs/static/attachments/44967646]
+![Image](https://www.cryengine.com/docs/static/attachments/44967646)
 
 This is a similar search window to the Console Commands window, but this one is specifically designed for Console Variables.
 
@@ -332,7 +330,7 @@ Search Results Window
 
 In this window, results of searches you have entered in the Search Bar will be displayed. For example, searching for the often-used "displayinfo" will result in a couple of CVars including the text "displayinfo":
 
-[Image: /docs/static/attachments/44967645]
+![Image](https://www.cryengine.com/docs/static/attachments/44967645)
 
 There are 4 columns in this Search Results window:
 
@@ -380,15 +378,7 @@ Importing and Exporting CVars
 
 There are also two buttons for importing and Exporting CVars in case you want to save them as a *.json file.
 
-[#menu](
-Menu
-)
-[#command-line-and-output-window](
-Command Line & Output Window
-)
-[#using-the-console](
-Using the Console
-)
-[#console-commands-and-cvar-search-windows](
-Console Commands & CVar Search Windows
-)
+[Menu](#menu)
+[Command Line & Output Window](#command-line-and-output-window)
+[Using the Console](#using-the-console)
+[Console Commands & CVar Search Windows](#console-commands-and-cvar-search-windows)

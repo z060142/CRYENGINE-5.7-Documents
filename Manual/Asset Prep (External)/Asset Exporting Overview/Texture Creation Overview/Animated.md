@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933274]
+![Image](https://www.cryengine.com/docs/static/attachments/29933274)
 
 ##
 Overview
@@ -18,20 +18,12 @@ Sections
 In order to animate textures in Sandbox, you need to have a particular name in the material editor like this.
 
 For a hands-on example please download this sample package
-[/docs/static/attachments/1442751](
-animate_test.rar
-)
+[animate_test.rar](/docs/static/attachments/1442751)
 .
 
-[#sections](
-Sections
-)
-[#naming-in-the-material-editor](
-Naming in the Material Editor
-)
-[#texture-names-themselves](
-Texture names themselves
-)
+[Sections](#sections)
+[Naming in the Material Editor](#naming-in-the-material-editor)
+[Texture names themselves](#texture-names-themselves)
 
 ##
 Naming in the Material Editor

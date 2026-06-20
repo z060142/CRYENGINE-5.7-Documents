@@ -32,19 +32,13 @@ Screen Space Collisions
 More Information
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26217391](
-Key Concepts
-)
+[Key Concepts](Key%20Concepts.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-Particle Effect Features
-)
+[Particle Effect Features](../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-Particle Editor
-)
+[Particle Editor](../../Editor%20Tools/Particle%20Editor.md)
 
 ##
 Spawning particles and Lifetime management
@@ -76,8 +70,6 @@ GPU particles can be sorted, although this introduces further overhead to the co
 
 For more information on Particles reference, please refer
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-here
-)
+[here](../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features.md)
 **
 .

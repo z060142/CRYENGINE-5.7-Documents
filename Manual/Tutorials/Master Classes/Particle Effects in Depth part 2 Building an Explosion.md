@@ -8,3 +8,5 @@
 ## Content
 
 In part two of this three-part Master Class, explosion artist Viktor Ikkes takes you on a hands-on tour of the Particle Editor, building a detailed explosion effect from start to finish, including spawning flying debris that starts fires wherever it lands. Viktor is one of the leading experts in this field, and throughout the presentation, you'll be shown practical techniques and workflows that you can apply to your own projects.
+
+[Embed: https://www.youtube.com/watch?v=-t5YkZPc_4g]

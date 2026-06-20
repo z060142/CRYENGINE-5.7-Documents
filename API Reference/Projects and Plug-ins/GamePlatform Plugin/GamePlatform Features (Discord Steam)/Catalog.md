@@ -27,9 +27,7 @@ BrowseCatalog
 Requests the catalog in the specific sorting order.
 
 Wait for the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448503#Catalog-oncatalogreceived](
- OnCatalogRecieved
-)
+[OnCatalogRecieved](Catalog.md#Catalog-oncatalogreceived)
 event after requesting the catalog.
 **
 Platform(s)
@@ -91,9 +89,7 @@ Catalog Service Events
 OnCatalogReceived
 
 Fired when a response to a
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448503#Catalog-browsecatalo](
- BrowseCatalog
-)
+[BrowseCatalog](Catalog.md#Catalog-browsecatalo)
 request was received.
 
 **
@@ -147,21 +143,9 @@ Schematyc Nodes
 Signal::Receive::[EntityName]::Accounts::PlatformSignalReceiver::Catalog::OnMicroTransactionAuthorizationResponse
  |
 
-[#catalog-service-functions](
-Catalog Service functions
-)
-[#browsecatalog](
-BrowseCatalog
-)
-[#getlicenses](
-GetLicenses
-)
-[#catalog-service-events](
-Catalog Service Events
-)
-[#oncatalogreceived](
-OnCatalogReceived
-)
-[#onmicrotransactionauthorizationresponse](
-OnMicroTransactionAuthorizationResponse
-)
+[Catalog Service functions](#catalog-service-functions)
+[BrowseCatalog](#browsecatalog)
+[GetLicenses](#getlicenses)
+[Catalog Service Events](#catalog-service-events)
+[OnCatalogReceived](#oncatalogreceived)
+[OnMicroTransactionAuthorizationResponse](#onmicrotransactionauthorizationresponse)

@@ -14,7 +14,7 @@ Deformable objects are basically cloth objects skinned to a skeleton. Unlike clo
 
 The skeleton is not an actual bone setup in a DCC package, but simply a normal geometry mesh. Its shape has to be similar to the rendermesh. The way the mesh is following the deformation of the skeleton is controlled through the position of the skeleton mesh vertices. If the skeleton vertices are outside of the render mesh, they are considered attached to the object and won't be deformed. If they are inside of the rendermesh, the mesh will be "skinned" to them and follow their deformation. This can be used to control the degree of bending (i.e. with a deformable box, pulling the skeleton vertices at the edge of the box outside of the rendermesh will make this edge "stiff" or fixed, while the rest of the mesh is following the deformation completely).
 
-[Image: /docs/static/attachments/23994756]
+![Image](https://www.cryengine.com/docs/static/attachments/23994756)
 
 ##
 General Parameters
@@ -125,7 +125,7 @@ Explanation of the skinning process
 
 For each main mesh's vertex (both physics and render independently, if they are different) a sphere with a fixed radius is created around it and is checked for collisions with the skeleton mesh. Based on the collision region, the average collision normal is computed and the sphere is 'moved' along it until it finds the touch point. This point is then considered the main mesh vertex's projection on the skeleton, and it's later tied to it. If the first sphere test finds no collisions, the code does a second check, with a sphere 3 times larger. The radius of this sphere can be adjusted with skin_dist.
 
-[Image: /docs/static/attachments/23994755]
+![Image](https://www.cryengine.com/docs/static/attachments/23994755)
 
 ##
 Setup in 3DS Max
@@ -134,9 +134,7 @@ Setup in 3DS Max
 Example Asset
 
 -
-[/docs/static/attachments/23994746](
-deformable.rar
-)
+[deformable.rar](/docs/static/attachments/23994746)
 
 ##
 Setup
@@ -171,7 +169,7 @@ mass=0.5
 -
 Now create your physics proxy. Make sure that it is tessellated enough, but remove the smaller details that don't need deforming.
 
-[Image: /docs/static/attachments/23994754]
+![Image](https://www.cryengine.com/docs/static/attachments/23994754)
 
 -
 You should now be ready for export so open up the Crytek export dialog and choose a .cgf file and click "Export".
@@ -183,9 +181,7 @@ Setup in Maya
 Example Asset
 
 -
-[/docs/static/attachments/23994752](
-ma_deformable.rar
-)
+[ma_deformable.rar](/docs/static/attachments/23994752)
 
 ##
 Setup
@@ -220,12 +216,12 @@ mass=0.5
 -
 Now create your physics proxy. Make sure that it is tessellated enough, but remove the smaller details that don't need deforming.
 
-[Image: /docs/static/attachments/23994753]
+![Image](https://www.cryengine.com/docs/static/attachments/23994753)
 
 -
 You should now be ready for export, so open up the Crytek export dialog and choose a .cgf file and click "Export". Do not forget to setup your materials and then click "Generate Material Files."
 
-[Image: /docs/static/attachments/23994751]
+![Image](https://www.cryengine.com/docs/static/attachments/23994751)
 
 ##
 Setup in Sandbox
@@ -238,19 +234,11 @@ Be sure that your Material proxy settings are set to NoDraw.
 
 -
 Now shoot at it! You should get the same results as below:
-[Image: /docs/static/attachments/23994748]
+![Image](https://www.cryengine.com/docs/static/attachments/23994748)
 
-[Image: /docs/static/attachments/23994749]
+![Image](https://www.cryengine.com/docs/static/attachments/23994749)
 
-[#general-parameters](
-General Parameters
-)
-[#setup-in-3ds-max](
-Setup in 3DS Max
-)
-[#setup-in-maya](
-Setup in Maya
-)
-[#setup-in-sandbox](
-Setup in Sandbox
-)
+[General Parameters](#general-parameters)
+[Setup in 3DS Max](#setup-in-3ds-max)
+[Setup in Maya](#setup-in-maya)
+[Setup in Sandbox](#setup-in-sandbox)

@@ -48,9 +48,7 @@ Working with PAK Files
 Crytek uses a combination of Python scripts
 
 running into our Continuous Integration (CI) system with the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959586](
-Resource Compiler
-)
+[Resource Compiler](../../Manual/System%20Utilities/System%20Utilities%20Overview/Resource%20Compiler.md)
 
 in order to generate PAK files. This allows us to easily manage the content and configuration of a PAK file using an XML file
 
@@ -197,17 +195,13 @@ How to Build a CRYENGINE Game?
 It is recommended that you familiarize yourself with the following pages to learn how to develop and compile your own projects in code:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306497](
-Getting Started with Game Code
-)
+[Getting Started with Game Code](../CRYENGINE%20Game%20Code/Getting%20Started%20with%20Game%20Code.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26872064](
-Guide to releasing CRYENGINE V project
-)
+[Guide to releasing CRYENGINE V project](Guide%20to%20releasing%20CRYENGINE%20V%20projects.md)
 The following chart shows the Jenkins build pipeline used for The Climb:
 
-[Image: /docs/static/attachments/65438796]
+![Image](https://www.cryengine.com/docs/static/attachments/65438796)
 
 *
 The climb
@@ -264,9 +258,7 @@ A Release build is a fully featured binary that is ready for distribution. It co
 Release builds are a reliable measure of performance; since they depend on optimized settings, i.e., the defined settings/configuration, you can achieve an optimized build that will run on the target platform with the best performance possible.
 
 See this
-[https://docs.microsoft.com/en-us/cpp/build/optimizing-your-code?view=vs-2019](
-documentation
-)
+[documentation](https://docs.microsoft.com/en-us/cpp/build/optimizing-your-code?view=vs-2019)
  by Microsoft about optimization for a better understanding on the subject.
 
 -
@@ -535,27 +527,15 @@ pipeline.groovy
 Related Information
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/25530454](
-C++ Coding Standards
-)
+[C++ Coding Standards](Accessing%20CE%20Source%20Code%20via%20GitHub/Coding%20Guidelines/C%2B%2B%20Coding%20Standard.md)
 
 -
-[/docs](
-Build Configuration
-)
+[Build Configuration](/docs)
 
 ##
 Table of Contents
 
-[#pak-files](
-PAK files
-)
-[#working-with-pak-files](
-Working with PAK Files
-)
-[#how-to-build-a-cryengine-game](
-How to Build a CRYENGINE Game?
-)
-[#related-information](
-Related Information
-)
+[PAK files](#pak-files)
+[Working with PAK Files](#working-with-pak-files)
+[How to Build a CRYENGINE Game?](#how-to-build-a-cryengine-game)
+[Related Information](#related-information)

@@ -115,18 +115,8 @@ Track Event for the Cave Sequence with the key frames setup in Track View
 
 Track Event is also useful to change the Time of Day per different shots.
 
-[#terminology](
-Terminology
-)
-[#defining-track-events](
-Defining Track Events
-)
-[#adding-track-event-nodes](
-Adding Track Event Nodes
-)
-[#adding-flowgraph-logic](
-Adding Flowgraph Logic
-)
-[#example](
-Example
-)
+[Terminology](#terminology)
+[Defining Track Events](#defining-track-events)
+[Adding Track Event Nodes](#adding-track-event-nodes)
+[Adding Flowgraph Logic](#adding-flowgraph-logic)
+[Example](#example)

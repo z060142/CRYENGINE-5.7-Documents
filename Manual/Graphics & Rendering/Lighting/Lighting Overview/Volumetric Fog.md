@@ -14,26 +14,16 @@ Voxel-based Volumetric Fog uses volume textures as a view-frustum-shaped voxel b
 
 The voxel-based Volumetric Fog system can handle sun with dynamic shadow, environment probes, ambient light, and regular light with dynamic shadows, as well as variations in fog density. It also supports the application of Volumetric Fog in a consistent way in respect to opaque and transparent materials.
 
-[Image: /docs/static/attachments/60522994]
+![Image](https://www.cryengine.com/docs/static/attachments/60522994)
 
 ##
 Table of Contents
 
-[#voxel-based-volumetric-fog-consists-of-two-parts](
-Voxel-based Volumetric Fog consists of two parts;
-)
-[#volumetric-fog](
-Volumetric Fog
-)
-[#fog-volume](
-Fog Volume
-)
-[#notes](
-Notes
-)
-[#console-variables](
-Console Variables
-)
+[Voxel-based Volumetric Fog consists of two parts;](#voxel-based-volumetric-fog-consists-of-two-parts)
+[Volumetric Fog](#volumetric-fog)
+[Fog Volume](#fog-volume)
+[Notes](#notes)
+[Console Variables](#console-variables)
 To enable Volumetric Fog in your level, set the CVar
 **
 e_VolumetricFog=1
@@ -61,12 +51,10 @@ Volumetric Fog
 
 To control the global fog density and color, enable the Volumetric Fog (see above) and modify the Volumetric Fog
 parameters found in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658466#EnvironmentEditor-volfog](
-Volumetric Fog
-)
+[Volumetric Fog](../../../Editor%20Tools/Environment%20Editor.md#EnvironmentEditor-volfog)
  section in the Environment Editor:
 
-[Image: /docs/static/attachments/60522995]
+![Image](https://www.cryengine.com/docs/static/attachments/60522995)
 
 Sun Radial Scattering Setup
 
@@ -124,7 +112,7 @@ Anisotropy (atmosphere)
 **
  parameter close to 0 makes the scattering more isotropic and therefore produces a uniform atmospheric fog.
 
-[Image: /docs/static/attachments/60522996]
+![Image](https://www.cryengine.com/docs/static/attachments/60522996)
 
 Setting
 **
@@ -158,7 +146,7 @@ Anisotropy (radial)
 **
  parameter to high (0.95) makes a scattering more anisotropic and therefore produces a bloom effect around the sun.
 
-[Image: /docs/static/attachments/60522997]
+![Image](https://www.cryengine.com/docs/static/attachments/60522997)
 
 Finally, adjusting
 **
@@ -174,7 +162,7 @@ Radial blend factor
 **
  blends the sun atmosphere scattering and sun radial scattering, hence the final result becomes a more life-like atmospheric fog effect.
 
-[Image: /docs/static/attachments/60522998]
+![Image](https://www.cryengine.com/docs/static/attachments/60522998)
 
 ##
 Fog Volume
@@ -186,12 +174,10 @@ Fog Volume
  entity into a level and add a fog density and color into the area.
 
 For more information about the Fog Volume entity and its properties displayed in the image below, please
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966055](
-see this page
-)
+[see this page](../../../Entities%20and%20Tools/Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6)/Effects%20Components.md)
 .
 
-[Image: /docs/static/attachments/60523000]
+![Image](https://www.cryengine.com/docs/static/attachments/60523000)
 
 Fog Volume Entity Setup
 
@@ -204,7 +190,7 @@ Global Density
 **
  to a high value (100); this will make it easier to see what you are doing when you are changing the various parameters:
 
-[Image: /docs/static/attachments/60523001]
+![Image](https://www.cryengine.com/docs/static/attachments/60523001)
 
 -
 Using the
@@ -213,7 +199,7 @@ Density Noise Offset
 **
  slider, reduce the value down into the negative range (-1.2). This will add noise into the volume and break up its solid shape into patches:
 
-[Image: /docs/static/attachments/60523002]
+![Image](https://www.cryengine.com/docs/static/attachments/60523002)
 
 -
 Next adjust the
@@ -231,7 +217,7 @@ Density Noise Scale
 **
  work closely together, so adjusting one value usually means that the other will require a tweak to achieve the desired result:
 
-[Image: /docs/static/attachments/60523003]
+![Image](https://www.cryengine.com/docs/static/attachments/60523003)
 
 -
 Adjusting the
@@ -254,7 +240,7 @@ Z
 
 Having variations within the XYZ values will randomly breakup the fog patches into random sizes.
 
-[Image: /docs/static/attachments/60523005]
+![Image](https://www.cryengine.com/docs/static/attachments/60523005)
 
 -
 Modifying the
@@ -263,7 +249,7 @@ Density Noise Time Frequency
 **
  allows the individual fog patches to morph into different shapes during the course of their lifetime. Keep this value low (0.2), otherwise they will morph too quickly and will look very unnatural. This is hard to represent in a static picture, so for consistency we have used a higher value (1) for the screenshot below:
 
-[Image: /docs/static/attachments/60523006]
+![Image](https://www.cryengine.com/docs/static/attachments/60523006)
 
 -
 Finally, check the checkbox
@@ -279,14 +265,14 @@ Density Noise Frequency
 generate the various fog patches.
 
 In order for the screenshot below to demonstrate the final result, it was necessary for us to have a high fog density setting. During production you would not have the fog density set so high (normal levels used in production settings are in the range of 1-3), this ensures the fog effect you are trying to create is subtle/lifelike, e.g. like you would see around lakes or rivers. This does of course depend on how thick you want your fog volume to be.
-[Image: /docs/static/attachments/60523008]
+![Image](https://www.cryengine.com/docs/static/attachments/60523008)
 
 ##
 Flow Graph
 
 The fog volume can be controlled through Flow Graph to modify the parameters at run-time.
 
-[Image: /docs/static/attachments/60523010]
+![Image](https://www.cryengine.com/docs/static/attachments/60523010)
 
 Input
  |
@@ -350,9 +336,7 @@ Particle
 You can put a particle emitter in your level to add a fog density to that area.
 
 This method only works in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868751](
-Legacy Particle Editor
-)
+[Legacy Particle Editor](../../../Editor%20Tools/DataBase%20View/Particles%20Tab%20(Legacy%20Particle%20Editor).md)
 .
 The following parameters found in the "Advanced" group of the Legacy Particle Editor window have been added for the control of fog density.
 
@@ -430,9 +414,7 @@ Adjusts the blend ratio of the main radial lobe (parallel to the eye ray) and si
 Anisotropic
 **
  parameter value used (found in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658466](
-Environment Editor
-)
+[Environment Editor](../../../Editor%20Tools/Environment%20Editor.md)
 ).
  |
 
@@ -440,13 +422,13 @@ Environment Editor
 On:
 **
 
-[Image: /docs/static/attachments/60523011]
+![Image](https://www.cryengine.com/docs/static/attachments/60523011)
 
 **
 Off:
 **
 
-[Image: /docs/static/attachments/60523012]
+![Image](https://www.cryengine.com/docs/static/attachments/60523012)
 
 ##
 Notes

@@ -11,15 +11,10 @@
 Overview
 
 This article continues from where we left off in the Animated Blendshapes Tutorial. It covers how to set up wrinkle maps to enhance an existing animated blendshape scene in Maya and export to CRYENGINE. It relies on the knowledge acquired in the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/21268612](
-**
-Animated Blendshapes tutorial
-**
-,
-)
+[Animated Blendshapes tutorial ,](/docs/static/engines/cryengine-3/categories/1114113/pages/21268612)
  which is a necessary precursor to this Wrinkle Maps tutorial.
 
-[Image: /docs/static/attachments/44959632]
+![Image](https://www.cryengine.com/docs/static/attachments/44959632)
 
 Normally, wrinkle maps are added to a blendshape animation to add details to a human face. CRYENGINE currently supports 12 wrinkle masks and 1 wrinkle normal map that are controlled by 4 "blend_control_01" to "..04" joints (as helper objects to hold the animated data when a wrinkle area blends in and out).
 
@@ -47,17 +42,13 @@ Tutorial Files
 Source Maya ASCII scenes with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/44959635](
-sdk_wrinkle_map_tutorial.zip
-)
+[sdk_wrinkle_map_tutorial.zip](/docs/static/attachments/44959635)
 **
  (39mb)
 
 (Do remember that you still need to have a modified "SkeletonList.xml" where you have added the skeleton CHR from this tutorial. Just in case you want to skip all these steps and want to open the character in CE Character Tool:
 **
-[/docs/static/attachments/44959636](
-SkeletonList.zip
-)
+[SkeletonList.zip](/docs/static/attachments/44959636)
 **
  )
 
@@ -71,9 +62,9 @@ Setup Your Wrinkle Normal Map
 
 This is not an in-depth tutorial on how to sculpt your high resolution and in-game meshes! Normally, your high resolution wrinkle sculptures would be based on your neutral-posed sculpture in ZBrush, MudBox or 3d-Coat. After that, you have to bake the wrinkle normal maps. What is shown in this article are the results you need and the current way that CRYENGINE handles the base Normal Map (left image below) and the Wrinkle Normal Map (right image below):
 
-[Image: /docs/static/attachments/44959628]
+![Image](https://www.cryengine.com/docs/static/attachments/44959628)
 
-[Image: /docs/static/attachments/44959629]
+![Image](https://www.cryengine.com/docs/static/attachments/44959629)
 
 Depending on your workflow, you must combine the different wrinkle normal maps onto the base normal map.
 
@@ -106,7 +97,7 @@ blend_control_01 to 04
 **
 This is all that CRYENIGNE needs, however make sure that you map the driver attribute to the range of values [0.. 100], such as using a "multiplyDivide" node as in the former Animated Blendshape Tutorial:
 
-[Image: /docs/static/attachments/44959604]
+![Image](https://www.cryengine.com/docs/static/attachments/44959604)
 
 ##
 Setup Table for the Maya Setup Artist
@@ -413,7 +404,7 @@ FG layer with Red Value -> 75
 
 BG layer with Red Value -> 0
 
-[Image: /docs/static/attachments/44959624]
+![Image](https://www.cryengine.com/docs/static/attachments/44959624)
 
 -
 Repeat the above process for the green, blue and alpha channels.
@@ -424,12 +415,12 @@ On the FG layer "lasso-select" the wrinkle area, e.g. the forehead wrinkle area 
 -
 Add an "Inner Glow" Layer Style F/x. In the "Inner Glow" pick the corresponding BG red color and set up the other options as shown below, however feel free to change things as you desire. However, the result should be a smooth "blend in" edge:
 
-[Image: /docs/static/attachments/44959623]
+![Image](https://www.cryengine.com/docs/static/attachments/44959623)
 
 -
 Copy the FG and BG pair RED layers and collapse them. Re-apply the corresponding mask from the selection and move it to a new group folder:
 
-[Image: /docs/static/attachments/44959621]
+![Image](https://www.cryengine.com/docs/static/attachments/44959621)
 
 -
 Repeat this process for the other two RED ranged areas plus the green, blue and alpha ranges as well.
@@ -439,7 +430,7 @@ At this point you might want to shift the order of the collapsed layers.
 If you're having problems removing the sharp edges of the mask (you'll notice them later on in CRYENGINE), then reduce the image resolution of the mask texture, e.g. Wrinkle Normal Map: 2048 x 2048 -> Wrinkle Mask: 512 x 512.
 This is what the final result for the RED masked area looks like in Photoshop:
 
-[Image: /docs/static/attachments/44959626]
+![Image](https://www.cryengine.com/docs/static/attachments/44959626)
 
 ##
 Export to CryTif:
@@ -458,9 +449,7 @@ WrinkleMask_Linear
 " preset in CryTif.
 At the time of writing the Preset is not yet submitted. Replace your "rc.ini" (use Search inside your CRYENGINE root directory) with this one:
 **
-[/docs/static/attachments/44959638](
-rc.ini
-)
+[rc.ini](/docs/static/attachments/44959638)
 **
 or add these lines to the bottom of your
 **
@@ -483,9 +472,9 @@ colorspace=linear,linear
 -
 The images below are a sample image (i.e. if you used all 12 masks). The right image only displays the RED channel:
 
-[Image: /docs/static/attachments/44959637]
+![Image](https://www.cryengine.com/docs/static/attachments/44959637)
 
-[Image: /docs/static/attachments/44959634]
+![Image](https://www.cryengine.com/docs/static/attachments/44959634)
 
 ##
 Setup the Content in Maya
@@ -493,17 +482,17 @@ Setup the Content in Maya
 -
 In Maya you need to create four "blend_control_01" to "blend_control_04" joints. Parent them under the "root" joint of the export hierarchy as shown below:
 
-[Image: /docs/static/attachments/44959630]
+![Image](https://www.cryengine.com/docs/static/attachments/44959630)
 
 -
 If you are coming from the Animated Blendshape Tutorial, you must rename your two "cryExportNode" and the underlying "_group" accordingly. This avoids a collision with the name of the former skeleton *.CHR:
 
-[Image: /docs/static/attachments/44959631]
+![Image](https://www.cryengine.com/docs/static/attachments/44959631)
 
 -
 These joints have input connections into their respective ".translate" attributes. The attributes may be fed by any node output, normally the ".weights" attribute of a blendShape node or some "Set Driven Keys". The ".translate" attribute values are to be mapped from [0.. 1] to [0 to 100] and back to [0.. 1] as shown below. ("blend_control_02" to "blend_control_04") are left untouched because we only have 3 blendshapes plugged into "blend_control_01.translateX", ".translateY" and ".translateZ" ). Finally, you have to create the multiplyDivide nodes and the connections in the Node Editor as shown in the screenshot below:
 
-[Image: /docs/static/attachments/44959633]
+![Image](https://www.cryengine.com/docs/static/attachments/44959633)
 
 Check the bookmarks of Maya Node Editor where the upper graph layout has been saved.
 
@@ -515,23 +504,23 @@ The following steps (5-8) are not necessary for CRYENGINE wrinkle maps to work -
 -
 Before moving on to the shader elements in Maya, make sure that you are set to Maya's "Viewport 2.0". Load the "dx11shader" and "shaderFX" plugins, set the rendering engine to "DirectX 11" and the viewport renderer to "Viewport 2.0". (You must restart Maya after these steps!):
 
-[Image: /docs/static/attachments/44959618]
+![Image](https://www.cryengine.com/docs/static/attachments/44959618)
 
-[Image: /docs/static/attachments/44959622]
+![Image](https://www.cryengine.com/docs/static/attachments/44959622)
 
-[Image: /docs/static/attachments/44959619]
+![Image](https://www.cryengine.com/docs/static/attachments/44959619)
 
-[Image: /docs/static/attachments/44959620]
+![Image](https://www.cryengine.com/docs/static/attachments/44959620)
 
 -
 Open Maya's HyperShade. In order to help visualize the wrinkle map effect being animated a "Shaderfx" and "dx11Shader" material has been created for Maya 2015+. Search for the Shaderfx material and use the Attribute Editor to open the Shaderfx Window:
 
-[Image: /docs/static/attachments/44959616]
+![Image](https://www.cryengine.com/docs/static/attachments/44959616)
 
 -
 The Shaderfx material only has 3 wrinkle masks. These are extracted from the mask layers that were created in Photoshop earlier, however you can duplicate the "Texture Map", "Float", "Multiply" and "Add" nodes and add more masks and reconnect them to the node graph yourself:
 
-[Image: /docs/static/attachments/44959627]
+![Image](https://www.cryengine.com/docs/static/attachments/44959627)
 
 Some notes regarding the ShaderFX wrinkle shader:
 
@@ -560,10 +549,10 @@ When the Shaderfx material has been completed re-import it back as a dx11Shader
 -
 Scrub the Maya timeline to see how the wrinkle map effect blends in and out. The screenshots below are samples from the provided Maya scene:
 
-[Image: /docs/static/attachments/44959617]
+![Image](https://www.cryengine.com/docs/static/attachments/44959617)
 
  |
-[Image: /docs/static/attachments/44959614]
+![Image](https://www.cryengine.com/docs/static/attachments/44959614)
 
  |
 
@@ -613,10 +602,10 @@ ON
 
  |
 
-[Image: /docs/static/attachments/44959615]
+![Image](https://www.cryengine.com/docs/static/attachments/44959615)
 
  |
-[Image: /docs/static/attachments/44959611]
+![Image](https://www.cryengine.com/docs/static/attachments/44959611)
  |
 
 **
@@ -681,7 +670,7 @@ ON
 -
 Now it's time to export the assets to CRYENGINE. Open the Export tool from the Crytek shelf. Export the two crytekExportNodes, the material and the animation in crytek shelf. The screenshot below (with the red marked areas) will help you to get things exported correctly, otherwise, just open the "*_end" Maya tutorial scene:
 
-[Image: /docs/static/attachments/44959612]
+![Image](https://www.cryengine.com/docs/static/attachments/44959612)
 
 ##
 Setting Up the Content in CRYENGINE
@@ -689,16 +678,12 @@ Setting Up the Content in CRYENGINE
 The following steps show you how to create a material for wrinkle maps in the CRYENGINE Material Editor and add an "AnimObject" in the Sandbox Editor.
 
 This tutorial relies on assets used in the GameSDK Sample Project. We recommend that you download this from the
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
 , import it into your Launcher, start it from there and then create a new level.
 
 See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870288](
-this page
-)
+[this page](/docs/static/engines/cryengine-5/categories/23756816/pages/36870288)
 **
  to find out how to import a project to your Launcher. (The default folder for the GameSDK Sample Project when downloaded is
 `
@@ -738,29 +723,29 @@ You may have to save all, exit and restart the Sandbox Editor and then re-open y
 Wrinkle Map effect is not yet supported in the Viewport of the Character Tool.
  Hence, you will need to create a new demo level or use an existing demo level in the Sandbox Editor:
 
-[Image: /docs/static/attachments/44959602]
+![Image](https://www.cryengine.com/docs/static/attachments/44959602)
 
 -
 You will need to place an "Anim Entity" into the scene. Drag and click the "AnimObject" from the Create Object tool into the scene:
 
-[Image: /docs/static/attachments/44959601]
+![Image](https://www.cryengine.com/docs/static/attachments/44959601)
 
 -
 Replace the windsock.cga in "Model" with the "sdk_wrinkle_tutorial.cdf":
 
-[Image: /docs/static/attachments/44959600]
+![Image](https://www.cryengine.com/docs/static/attachments/44959600)
 
 -
 Inside the "AnimObject" properties, scroll down to "Rendering" and check the checkbox for "WrinkleMap".
 Also, check that "Animation" is set to "default" and the "Loop" checkbox is checked (green areas in the screenshot below). Finally, when you have exported the name of your animation as "default", then this will save you from typing in the right name
 :
 
-[Image: /docs/static/attachments/44959599]
+![Image](https://www.cryengine.com/docs/static/attachments/44959599)
 
 -
 You now have to create the wrinkle map material. Go to the Material Editor and set up the material you have exported for the character ("sdk_wrinkle.skin"). Some options will open up first, if you have already set the "Humanskin" shader and added the "Wrinkle Normal Map" and the "Wrinkle Mask Texture" in the two "Custom" slots of the "Texture Maps" section:
 
-[Image: /docs/static/attachments/44959608]
+![Image](https://www.cryengine.com/docs/static/attachments/44959608)
 
 -
 You might want to tweak the "Specular" (map) settings and "Smoothness" if you want to augment the bumps.
@@ -770,9 +755,9 @@ This is not a tutorial to the "Humanskin" Shader. Please look for this very spec
 -
 In addition, you should add some light. Add a CRYENGINE "EnvironmentProbe" and change the "Time Of Day" to better visualize the wrinkle map effect, otherwise the character head mesh might be badly lit:
 
-[Image: /docs/static/attachments/44959606]
+![Image](https://www.cryengine.com/docs/static/attachments/44959606)
  |
-[Image: /docs/static/attachments/44959603]
+![Image](https://www.cryengine.com/docs/static/attachments/44959603)
  |
 
 **
@@ -870,24 +855,10 @@ AnimObject
 **
 " entity in the Sandbox Editor where you activated the wrinkle map effect
 
-[#tutorial-files](
-Tutorial Files
-)
-[#setup-your-wrinkle-normal-map](
-Setup Your Wrinkle Normal Map
-)
-[#setting-up-wrinkle-masks](
-Setting Up Wrinkle Masks
-)
-[#setup-the-content-in-photoshop](
-Setup the Content in Photoshop
-)
-[#setup-the-content-in-maya](
-Setup the Content in Maya
-)
-[#setting-up-the-content-in-cryengine](
-Setting Up the Content in CRYENGINE
-)
-[#summary](
-Summary
-)
+[Tutorial Files](#tutorial-files)
+[Setup Your Wrinkle Normal Map](#setup-your-wrinkle-normal-map)
+[Setting Up Wrinkle Masks](#setting-up-wrinkle-masks)
+[Setup the Content in Photoshop](#setup-the-content-in-photoshop)
+[Setup the Content in Maya](#setup-the-content-in-maya)
+[Setting Up the Content in CRYENGINE](#setting-up-the-content-in-cryengine)
+[Summary](#summary)

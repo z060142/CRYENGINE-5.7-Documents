@@ -6,7 +6,7 @@
 
 ## Child Pages
 
-- [GamePlatform Plugin](Projects and Plug-ins/GamePlatform Plugin.md)
+- [GamePlatform Plugin](Projects%20and%20Plug-ins/GamePlatform%20Plugin.md)
 
 ## Content
 
@@ -14,57 +14,35 @@
 Overview
 
 Projects in CRYENGINE are managed by
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797401](
-IProjectManager
-)
+[IProjectManager](/docs/static/engines/cryengine-5/categories/28704770/pages/29797401)
 , each project being represented by a
 .cryproject
  file. The concept of a project exists in order to create a clear separation between an engine installation, and engine assets.
 
 Each project specifies the plug-ins it requires, these are then loaded at startup. The CRYENGINE Launcher automatically installs a shell extension for Windows users, resulting in a few shortcuts being added to the shell menu when a .cryproject file is right-clicked in the Explorer:
 
-[Image: /docs/static/attachments/32179243]
+![Image](https://www.cryengine.com/docs/static/attachments/32179243)
 
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#project-file](
-Project File
-)
-[#project-actions](
-Project Actions
-)
-[#project-file-structure](
-Project File Structure
-)
-[#the-project-and-asset-folder](
-The Project & Asset Folder
-)
-[#engine-folder-contents](
-Engine folder contents
-)
-[#project-source-code](
-Project Source Code
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[Project File](#project-file)
+[Project Actions](#project-actions)
+[Project File Structure](#project-file-structure)
+[The Project & Asset Folder](#the-project-and-asset-folder)
+[Engine folder contents](#engine-folder-contents)
+[Project Source Code](#project-source-code)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797401](
-IProjectManager
-)
+[IProjectManager](/docs/static/engines/cryengine-5/categories/28704770/pages/29797401)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797056](
-Cry::IEnginePlugin
-)
+[Cry::IEnginePlugin](/docs/static/engines/cryengine-5/categories/28704770/pages/29797056)
 
 ##
 Project File
@@ -106,7 +84,7 @@ Project Actions
 
 Right-clicking the .cryproject file will give you a number of options that can perform various actions regarding your project:
 
-[Image: /docs/static/attachments/32179244]
+![Image](https://www.cryengine.com/docs/static/attachments/32179244)
 
 The available options do the following:
 
@@ -174,9 +152,7 @@ Generates your code solution for C++ and C#. The solution will need to be regene
 For C++ projects this requires you to install Visual Studio and to create a C++ project in Visual Studio so that the C++ compiler is installed.
 
 For C# projects you need the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/29791112](
-Xamarin Studio with the CRYENGINE plugin
-)
+[Xamarin Studio with the CRYENGINE plugin](CRYENGINE%20Code%20Tutorials/C%23%20Programming.md)
  in order to be able to open the solution.
 
  |
@@ -208,7 +184,7 @@ Browse
 button in the menu that appears:
 
 *
-[Image: /docs/static/attachments/32179245]
+![Image](https://www.cryengine.com/docs/static/attachments/32179245)
 
 *
 
@@ -322,9 +298,7 @@ Engines are registered in
 
 Defines plug-ins that should be loaded when this project starts.
 Plug-ins in CRYENGINE are represented by the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797056](
-Cry::IEnginePlugin
-)
+[Cry::IEnginePlugin](/docs/static/engines/cryengine-5/categories/28704770/pages/29797056)
  interface, and are typically loaded from disk as a dynamic library (.dll on Windows). The introduction of game code is always done through a plug-in, allowing the addition of components and other logic with relative ease.
 
 The .cryproject file is responsible for defining which plug-ins to load, for reference take a look at a snippet from the example we posted earlier:
@@ -422,9 +396,7 @@ This would result in the "map" command being executed, resulting in the level "M
 The Project & Asset Folder
 
 The project folder is where your .cryproject resides, and will also contain your assets folder. The assets folder is where the engine will load all data such as levels, models and scripts from. The vast majority of
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26874879](
-Filesystem
-)
+[Filesystem](Filesystem_.md)
  functions will be relative to this directory, instead of requiring an absolute path. This also ensures that the game will continue to function regardless of where the assets folder is, or what it is named.
 
 ##
@@ -576,27 +548,19 @@ The Launcher provides a default template for plug-in creation, and this can also
 <engine directory>\Code\GameTemplates\cpp\Plugin
 *
 . For a simple example of how
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797056](
-Cry::IEnginePlugin
-)
+[Cry::IEnginePlugin](/docs/static/engines/cryengine-5/categories/28704770/pages/29797056)
  can be implemented, see
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797056](
-here
-)
+[here](/docs/static/engines/cryengine-5/categories/28704770/pages/29797056)
 .
 
 ##
 Receiving Updates
 
 Plug-ins are able to subscribe to updates, receiving callbacks every frame to do any custom work on a per-frame basis. In the simplest case, we can simply override the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797056](
-Cry::IEnginePlugin::MainUpdate
-)
+[Cry::IEnginePlugin::MainUpdate](/docs/static/engines/cryengine-5/categories/28704770/pages/29797056)
 
  function, and then call
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797056](
-Cry::IEnginePlugin::EnableUpdate
-)
+[Cry::IEnginePlugin::EnableUpdate](/docs/static/engines/cryengine-5/categories/28704770/pages/29797056)
  to make sure that it is called every frame.
 
 ##
@@ -608,7 +572,7 @@ Generate solution
 **
  option in the menu that appears when a .cryproject file is right-clicked in the Windows Explorer:
 
-[Image: /docs/static/attachments/32179243]
+![Image](https://www.cryengine.com/docs/static/attachments/32179243)
 
 This results in a
 *
@@ -633,7 +597,7 @@ For more advanced customization of our builds, we can utilize the
 *
  option in the context menu. This will bring up the CMake GUI as shown below:
 
-[Image: /docs/static/attachments/29923923]
+![Image](https://www.cryengine.com/docs/static/attachments/29923923)
 
 This GUI can be used to toggle options in the categories at any time. Clicking
 **
@@ -651,16 +615,10 @@ Conclusion
 This concludes the article on Projects and Plug-ins, you may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26874885](
-Introduction to the Engine API
-)
+[Introduction to the Engine API](/docs/static/engines/cryengine-5/categories/23756813/pages/26874885)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216196](
-Entity
-)
+[Entity](Entity.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216218](
-Building the Engine from Source Code
-)
+[Building the Engine from Source Code](/docs/static/engines/cryengine-5/categories/23756813/pages/26216218)

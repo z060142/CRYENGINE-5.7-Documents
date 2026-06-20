@@ -12,7 +12,7 @@ Camera
 
 A camera object is used to define custom views of your level. They can be triggered via the Flow Graph and Track View, and are heavily used within animated sequences.
 
-[Image: /docs/static/attachments/36849618]
+![Image](https://www.cryengine.com/docs/static/attachments/36849618)
 
 Parameters
 

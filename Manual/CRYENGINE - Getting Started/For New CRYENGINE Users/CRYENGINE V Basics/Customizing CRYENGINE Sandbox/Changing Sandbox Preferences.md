@@ -40,7 +40,7 @@ Navigation
 **
 .
 
-[Image: /docs/static/attachments/44966024]
+![Image](https://www.cryengine.com/docs/static/attachments/44966024)
 
 ##
 Search Bar
@@ -156,9 +156,7 @@ Highlights the incoming lines (edges) from a node in red and outgoing edges in b
 Colors
 
 Detailed control over the many various color schemes of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../../../../Editor%20Tools/Flow%20Graph.md)
 .
 
 ##
@@ -517,9 +515,7 @@ Maximum number of notifications displayed before they are combined into a single
 Painting
 
 Adjusts the Hardness and Radius Sensitivity options that affect Terrain Editor's brush. For more information, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849146](
-Terrain Editor
-)
+[Terrain Editor](../../../../Editor%20Tools/Terrain%20Editor.md)
  page.
 
 ##
@@ -561,9 +557,7 @@ Alt + LMB
 **
 . For more information, please refer to the
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35849146](
-Terrain Editor
-)
+[Terrain Editor](../../../../Editor%20Tools/Terrain%20Editor.md)
 
 page.
 
@@ -789,9 +783,7 @@ Linear -
 
 For more information on these rotation styles, see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308620](
-this page
-)
+[this page](../Transforming%20Objects.md)
 **
 .
  |
@@ -1169,39 +1161,15 @@ Child Geometry Highlight Alpha
 Amount of alpha added on the child geometry.
  |
 
-[#search-bar](
-Search Bar
-)
-[#ai](
-AI
-)
-[#audio](
-Audio
-)
-[#flow-graph](
-Flow Graph
-)
-[#general](
-General
-)
-[#mannequin](
-Mannequin
-)
-[#node-graph](
-Node Graph
-)
-[#notifications](
-Notifications
-)
-[#painting](
-Painting
-)
-[#track-view](
-Track View
-)
-[#version-control](
-Version Control
-)
-[#viewport](
-Viewport
-)
+[Search Bar](#search-bar)
+[AI](#ai)
+[Audio](#audio)
+[Flow Graph](#flow-graph)
+[General](#general)
+[Mannequin](#mannequin)
+[Node Graph](#node-graph)
+[Notifications](#notifications)
+[Painting](#painting)
+[Track View](#track-view)
+[Version Control](#version-control)
+[Viewport](#viewport)

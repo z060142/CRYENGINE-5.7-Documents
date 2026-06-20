@@ -26,7 +26,7 @@ Flow Graph
 Editor
  opens the node which consist the Breakpoint, and centers that particular node in the Flow Graph viewer:
 
-[Image: /docs/static/attachments/44971103]
+![Image](https://www.cryengine.com/docs/static/attachments/44971103)
 
 ##
 Enable Debugging
@@ -40,7 +40,7 @@ button in the
 Flow Graph
 toolbar:
 
-[Image: /docs/static/attachments/35395037]
+![Image](https://www.cryengine.com/docs/static/attachments/35395037)
 
 ##
 Adding and Removing Breakpoints
@@ -61,7 +61,7 @@ Ctrl + Middle Mouse Button
 **
  on a specific port.
 
-[Image: /docs/static/attachments/44971104]
+![Image](https://www.cryengine.com/docs/static/attachments/44971104)
 
 To remove an existing
 Breakpoint,
@@ -101,7 +101,7 @@ Breakpoint
 
 When a Breakpoint is added, a red dot will be displayed next to the input or output Port.
 
-[Image: /docs/static/attachments/44971105]
+![Image](https://www.cryengine.com/docs/static/attachments/44971105)
 
 ##
 Enabling and Disabling Breakpoints
@@ -118,14 +118,14 @@ right-clicking
 Breakpoint
  overview window (second image below).
 
-[Image: /docs/static/attachments/44971106]
+![Image](https://www.cryengine.com/docs/static/attachments/44971106)
 
 *
 Enabling or disabling Breakpoint using Breakpoint overview window
 *
 
 *
-[Image: /docs/static/attachments/44971107]
+![Image](https://www.cryengine.com/docs/static/attachments/44971107)
 *
 
 ##
@@ -139,7 +139,7 @@ Unlike Breakpoints, the tracepoint prevents the game from pausing and the inform
 Converting a Breakpoint into a Tracepoint using context menu
 *
 
-[Image: /docs/static/attachments/44971108]
+![Image](https://www.cryengine.com/docs/static/attachments/44971108)
 
 *
 Converting a Breakpoint into a Tracepoint using
@@ -148,7 +148,7 @@ Breakpoint overview window
 *
 *
 
-[Image: /docs/static/attachments/44971109]
+![Image](https://www.cryengine.com/docs/static/attachments/44971109)
 
 Console output example:
 
@@ -159,7 +159,7 @@ Breakpoints Overview
 
 The Flowgraph Editor provides a Breakpoints overview panel (bottom right corner) to provide a better overview of all the Breakpoints added in the Flow Graph.
 
-[Image: /docs/static/attachments/44971110]
+![Image](https://www.cryengine.com/docs/static/attachments/44971110)
 
 When you click on a Breakpoint in the
 Breakpoint Overview
@@ -174,7 +174,7 @@ Breakpoint overview
  panel.
 
 *
-[Image: /docs/static/attachments/44971111]
+![Image](https://www.cryengine.com/docs/static/attachments/44971111)
 *
 
 ##
@@ -193,7 +193,7 @@ Flow Graph Editor
  toolbar.
 
 *
-[Image: /docs/static/attachments/35395038]
+![Image](https://www.cryengine.com/docs/static/attachments/35395038)
 *
 
 ##
@@ -207,7 +207,7 @@ R
 
 The Flow Graph Debugger allows you to see the calculated random number without requiring to add a debug message.
 
-[Image: /docs/static/attachments/44971113]
+![Image](https://www.cryengine.com/docs/static/attachments/44971113)
 
 When the
 **
@@ -217,7 +217,7 @@ R
 Breakpoints Overview
  window in the bottom right:
 
-[Image: /docs/static/attachments/44971112]
+![Image](https://www.cryengine.com/docs/static/attachments/44971112)
 
 When you press
 **
@@ -230,7 +230,7 @@ Play
 button from the toolbar the second Breakpoint will be hit:
 
 *
-[Image: /docs/static/attachments/44971114]
+![Image](https://www.cryengine.com/docs/static/attachments/44971114)
 *
 
 When you press
@@ -243,24 +243,10 @@ Play
 **
 button again, the game will be resumed.
 
-[#enable-debugging](
-Enable Debugging
-)
-[#adding-and-removing-breakpoints](
-Adding and Removing Breakpoints
-)
-[#enabling-and-disabling-breakpoints](
-Enabling and Disabling Breakpoints
-)
-[#using-tracepoints](
-Using Tracepoints
-)
-[#breakpoints-overview](
-Breakpoints Overview
-)
-[#resume-the-game](
-Resume the Game
-)
-[#basic-example](
-Basic Example
-)
+[Enable Debugging](#enable-debugging)
+[Adding and Removing Breakpoints](#adding-and-removing-breakpoints)
+[Enabling and Disabling Breakpoints](#enabling-and-disabling-breakpoints)
+[Using Tracepoints](#using-tracepoints)
+[Breakpoints Overview](#breakpoints-overview)
+[Resume the Game](#resume-the-game)
+[Basic Example](#basic-example)

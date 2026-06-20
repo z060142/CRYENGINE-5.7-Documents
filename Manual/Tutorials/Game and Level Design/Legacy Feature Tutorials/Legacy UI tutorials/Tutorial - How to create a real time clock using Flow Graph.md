@@ -8,3 +8,5 @@
 ## Content
 
 How to take the time of day and convert the values to a 24 hour clock printed on screen.
+
+[Embed: http://youtube.com/watch?v=VwBFLkAKh7M]

@@ -53,7 +53,7 @@ Trigger it all on GameStart or something else.
 
 The flowgraph should look something like this:
 
-[Image: /docs/static/attachments/14975509]
+![Image](https://www.cryengine.com/docs/static/attachments/14975509)
 
 Now when you jump in game (or trigger it), the grade should be switched on.
 

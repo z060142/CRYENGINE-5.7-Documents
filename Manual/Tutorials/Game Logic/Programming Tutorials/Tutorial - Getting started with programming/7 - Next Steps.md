@@ -21,18 +21,11 @@ Technical Documentation
 ##
 Coding Tutorials
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306343](
-[Image: /docs/static/attachments/28896946]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/28896946)](/docs/static/engines/cryengine-5/categories/23756813/pages/23306343)
 
-[/docs/static/engines/cryengine-5/categories/28704770](
-[Image: /docs/static/attachments/28896948]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/28896948)](/docs/static/engines/cryengine-5/categories/28704770)
 
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306968](
-[Image: /docs/static/attachments/28896952]
-CRYENGINE Code Tutorials
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/28896952) CRYENGINE Code Tutorials](/docs/static/engines/cryengine-5/categories/23756813/pages/23306968)
 
 This section provides you with a breakdown of simple engine architecture concepts. Along with both engine and game code source we also provide an API using Doxygen to help users understand the codebase.
 
@@ -43,30 +36,20 @@ We have multiple paths for programmers in the technical documentation that allow
 For more information on the topics covered in this
 Quick Start
 guide, and across the entire editor, see the
-[/docs](
-CRYENGINE Manual
-)
+[CRYENGINE Manual](/docs)
 .
 
 ##
 If you are interested in going further, we recommend checking out:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26874885](
-Introduction to the Engine API
-)
+[Introduction to the Engine API](/docs/static/engines/cryengine-5/categories/23756813/pages/26874885)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216222](
-Handling Player Connection Events
-)
+[Handling Player Connection Events](../../../../../API%20Reference/Entity/Players%20and%20Connections.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26871489](
-Getting Started with Entity Components
-)
+[Getting Started with Entity Components](../../../../../API%20Reference/Entity/Components.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963103](
-Using the CMake GUI with Projects
-)
+[Using the CMake GUI with Projects](../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/Project%20Tools.md)

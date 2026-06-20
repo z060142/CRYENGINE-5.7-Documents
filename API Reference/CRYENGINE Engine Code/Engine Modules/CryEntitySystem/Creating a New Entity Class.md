@@ -146,6 +146,4 @@ end
 See Also
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306399](
-Entity Property Prefixes
-)
+[Entity Property Prefixes](Entity%20Property%20Prefixes.md)

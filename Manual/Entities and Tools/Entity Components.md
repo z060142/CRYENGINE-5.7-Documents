@@ -7,10 +7,10 @@
 
 ## Child Pages
 
-- [Entity Components (From Engine Version 5.6)](Entity Components/Entity Components (From Engine Version 5.6).md)
-- [Entity Components - Properties Panel](Entity Components/Entity Components - Properties Panel.md)
-- [Entity Components (From Engine Version 5.4)](Entity Components/Entity Components (From Engine Version 5.4).md)
-- [Entity Components (From Engine Version 5.5)](Entity Components/Entity Components (From Engine Version 5.5).md)
+- [Entity Components (From Engine Version 5.6)](Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)
+- [Entity Components - Properties Panel](Entity%20Components/Entity%20Components%20-%20Properties%20Panel.md)
+- [Entity Components (From Engine Version 5.4)](Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.4).md)
+- [Entity Components (From Engine Version 5.5)](Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.5).md)
 
 ## Content
 
@@ -45,7 +45,7 @@ Layout -> Reset Layout
 
 In the image below we have opened an existing level in a Project named Test 5.4. Notice 1. the Create Object tool is open and 2. the Components and Empty Entity options in the Create Object tool.
 
-[Image: /docs/static/attachments/28248558]
+![Image](https://www.cryengine.com/docs/static/attachments/28248558)
 
 -
 Entity Components can be created in two ways; 1. using the Components option or 2. the Empty Entity option. Which one you use is user and/or situation dependent. For example a user may choose the Empty Entity option and then add the required Components, or in the case where a user knows that they only require a Component, say an Audio Trigger, then they could select one from the Components option.
@@ -73,7 +73,7 @@ To add a component click on the
 + Add Component
 button - this opens all of the available components that can be added to the Entity (right-hand image below).
 
-[Image: /docs/static/attachments/28248559]
+![Image](https://www.cryengine.com/docs/static/attachments/28248559)
 
 -
 Once a component has been selected, you can then select values for the various parameters according to your needs, of course the parameters will vary depending on the type of Component in question.
@@ -88,21 +88,13 @@ Finally, when you have finished remember to save the level.
 In This Section
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28180926](
-Entity Components - Properties Panel
-)
+[Entity Components - Properties Panel](Entity%20Components/Entity%20Components%20-%20Properties%20Panel.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/28180928](
-Entity Components (From Engine Version 5.4)
-)
+[Entity Components (From Engine Version 5.4)](Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.4).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29431714](
-Entity Components (From Engine Version 5.5)
-)
+[Entity Components (From Engine Version 5.5)](Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.5).md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44966029](
-Entity Components (From Engine Version 5.6)
-)
+[Entity Components (From Engine Version 5.6)](Entity%20Components/Entity%20Components%20(From%20Engine%20Version%205.6).md)

@@ -66,7 +66,7 @@ GPU Fluid Dynamics
 
 This is an experimental feature and is only accessible for preview. This feature provides an example for potential future uses of CRYENGINE GPU particle pipeline and the final version might be incompatible with the current implementation.
 
-[Image: /docs/static/attachments/44107820]
+![Image](https://www.cryengine.com/docs/static/attachments/44107820)
 
 *
 A sample of GPU Fluid Dynamics effect
@@ -87,7 +87,7 @@ r_GpuPhysicsFluidDynamicsDebug=0
 ##
 Assigning GPU Fluid Dynamics values to an effect
 
-[Image: /docs/static/attachments/44107821]
+![Image](https://www.cryengine.com/docs/static/attachments/44107821)
 
 Properties
 
@@ -273,28 +273,21 @@ default value
 Sprites
 
 This feature forces the entire component to be evaluated on the GPU rather than the CPU. The GPU is far more suitable for the processing of a large amount of particles than the CPU. Using a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867966](
-Motion:
- Physics
-)
+[Motion: Physics](Motion.md)
  feature, the CPU can handle dozens of thousands of particles and in some cases up to hundreds of thousands of particles. Since the computational effort is roughly linear in regard to the particle amount, then the processing of these particles can eventually become a bottleneck. However, the same feature in GPU mode can easily handle hundreds of thousands of particles.
 
 Depending on the game type and the performance of the GPU, it can even be possible to have more than a million particles introduced to the game. Currently, the user interface limits the maximum number of GPU Particles to two million. After paying the upfront cost that comes with initializing and running the GPU pipeline, the investment quickly pays off when processing a large number of particles. This is especially true for heavy features such as the Motion: Physics component; also Simplex or Simplex Curl Noise benefit a lot from the raw processing power that is available on a modern GPU. On the other hand, the GPU pipeline is more limited in functionality.
 
 For more details on how GPU particles work see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25526352](
-GPU Support
-)
+[GPU Support](../../../Graphics%20%26%20Rendering/Particles/GPU%20Support.md)
 .
 
 For more information about the difference between a Component and a Runtime, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26217391](
-Key Concepts
-)
+[Key Concepts](../../../Graphics%20%26%20Rendering/Particles/Key%20Concepts.md)
 .
 
 *
-[Image: /docs/static/attachments/44107823]
+![Image](https://www.cryengine.com/docs/static/attachments/44107823)
 
 *
 
@@ -357,9 +350,7 @@ Additive
 None
 **
 . Additive particles do not need sorting. For more details about the Appearance: Blending feature, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868247](
-Appearance
-)
+[Appearance](Appearance.md)
 .
  |
 
@@ -409,12 +400,6 @@ Specifies the sorting order of components that are always based on the distance 
 
  |
 
-[#collision](
-Collision
-)
-[#gpu-fluid-dynamics](
-GPU Fluid Dynamics
-)
-[#sprites](
-Sprites
-)
+[Collision](#collision)
+[GPU Fluid Dynamics](#gpu-fluid-dynamics)
+[Sprites](#sprites)

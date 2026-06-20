@@ -7,6 +7,4 @@
 
 ## Content
 
-[/docs/static/attachments/23461206](
-CryColor.xlsx
-)
+[CryColor.xlsx](/docs/static/attachments/23461206)

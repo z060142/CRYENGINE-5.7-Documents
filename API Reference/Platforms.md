@@ -14,9 +14,7 @@ This page serves as an introduction to how CRYENGINE functions on platforms othe
 Certain pages are not made public by default as a license with the platform provider (such as Sony or Microsoft) need to be presented to Crytek in order for access to be provided.
 
 If you are a licensed developer for the platform you are interest in, and want access to CRYENGINE documentation and source code for the platform, please contact support via
-[mailto:contact@cryengine.com](
-contact@cryengine.com
-)
+[contact@cryengine.com](mailto:contact@cryengine.com)
 .
 
 ##
@@ -25,6 +23,4 @@ Available Platforms
 ##
 Table of Contents
 
-[#available-platforms](
-Available Platforms
-)
+[Available Platforms](#available-platforms)

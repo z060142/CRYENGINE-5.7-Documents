@@ -833,24 +833,10 @@ None.
 
  |
 
-[#time-nodes](
-Time Nodes
-)
-[#timeout](
-Timeout
-)
-[#timestamp-gate](
-Timestamp Gate
-)
-[#wait](
-Wait
-)
-[#wait-for-condition](
-Wait for Condition
-)
-[#wait-for-event](
-Wait for Event
-)
-[#wait-for-timestamp](
-Wait for Timestamp
-)
+[Time Nodes](#time-nodes)
+[Timeout](#timeout)
+[Timestamp Gate](#timestamp-gate)
+[Wait](#wait)
+[Wait for Condition](#wait-for-condition)
+[Wait for Event](#wait-for-event)
+[Wait for Timestamp](#wait-for-timestamp)

@@ -34,7 +34,7 @@ Layout -> Reset Layout
 
 In the image below we have opened an existing level in a Project named Test 5.4. Notice 1. the Create Object tool is open and 2. the Components and Empty Entity options in the Create Object tool.
 
-[Image: /docs/static/attachments/44966283]
+![Image](https://www.cryengine.com/docs/static/attachments/44966283)
 
 -
 Entity Components
@@ -61,7 +61,7 @@ To add a component click on the
 **
 button - this opens all of the available components that can be added to the Entity (right-hand image below).
 
-[Image: /docs/static/attachments/44966284]
+![Image](https://www.cryengine.com/docs/static/attachments/44966284)
 
 -
 Once a component has been selected, you can then select values for the various parameters according to your needs, of course the parameters will vary depending on the type of Component in question.
@@ -71,9 +71,5 @@ Entity(s) can be edited at anytime (as long as they are highlighted) by left mou
 
 -
 Finally, when you have finished remember to save the level.
-[#creating-entity-components](
-Creating Entity Components
-)
-[#steps-for-entity-component-creation](
-Steps for Entity Component Creation
-)
+[Creating Entity Components](#creating-entity-components)
+[Steps for Entity Component Creation](#steps-for-entity-component-creation)

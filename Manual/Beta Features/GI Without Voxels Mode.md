@@ -32,7 +32,7 @@ In this screenshot all the geometry you see is actually the proxy geometry that 
 Proxy geometry (scene made by Enes77)
 
 *
-[Image: /docs/static/attachments/26516483]
+![Image](https://www.cryengine.com/docs/static/attachments/26516483)
 
 There are 2 lighting components in the scene:
 
@@ -43,9 +43,7 @@ A portal is used as area light to simulate primary bounce from the sky with shar
 AO pass is used to simulate secondary bounces and also to collect bounces from sunlight. It is not very sharp.
 Here is the demo level, it's compatible only with CE 5.2:
 **
-[/docs/static/attachments/25519569](
-AGIDemo2.zip
-)
+[AGIDemo2.zip](/docs/static/attachments/25519569)
 **
 
 Please note the changes in suffix rules:
@@ -100,9 +98,5 @@ As this is a Beta Feature, it is still in development and we would love to hear 
 **
 !
 
-[#gi-without-voxels-mode](
-"GI without voxels" mode
-)
-[#feedback](
-Feedback
-)
+["GI without voxels" mode](#gi-without-voxels-mode)
+[Feedback](#feedback)

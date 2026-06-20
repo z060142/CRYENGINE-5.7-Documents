@@ -11,9 +11,7 @@
 Overview
 
 After
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25535225](
-Setting Up a Multiplayer Level
-)
+[Setting Up a Multiplayer Level](Tutorial%20-%20Setting%20Up%20a%20Multiplayer%20Level.md)
  and exporting the level to the game engine, you will be able to run a dedicated server and host your new level.
 
 Due to security reasons, the Dedicated Server will, by default, not run if it is started with root privileges. If necessary, this behavior can be changed by toggling OPTION_ALLOW_RUNNING_SERVER_AS_ROOT in CMake, although it is preferable to change the user that runs the game server.
@@ -39,7 +37,7 @@ The DedicatedServer.exe application is located in the
 `
  directory.
 
-[Image: /docs/static/attachments/44971015]
+![Image](https://www.cryengine.com/docs/static/attachments/44971015)
 
 *
 The DedicatedServer application
@@ -61,7 +59,7 @@ Connecting to the Server
 
 Run the Launcher.exe program on each of the computers that will take part in the DeathMatch multiplayer game.
 
-[Image: /docs/static/attachments/44971016]
+![Image](https://www.cryengine.com/docs/static/attachments/44971016)
 
 *
 The Launcher application

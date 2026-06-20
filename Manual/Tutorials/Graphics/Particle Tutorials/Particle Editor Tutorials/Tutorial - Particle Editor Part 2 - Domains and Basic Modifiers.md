@@ -8,19 +8,13 @@
 ## Content
 
 This is part two in our particle effects tutorial series. Today we're going to focus on two concepts:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Modifiers.md)
 and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-domain](
-Domains
-)
+[Domains](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Modifiers.md#Modifiers-domain)
 .
 
 This tutorial builds on the concepts that we went over in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/65437722](
-part one
-)
+[part one](Tutorial%20-%20Particle%20Editor%20Part%201%20-%20Introduction%20to%20Particle%20Effects.md)
  of this tutorial series, so do make sure that you’re already familiar with what was covered there.
 
 ##
@@ -31,17 +25,13 @@ You’ve already been introduced to Modifiers in part one: the
 Curve
 **
  Modifier (
-[https://youtu.be/LjgEE2QF-6c?t=1023](
-17:03
-)
+[17:03](https://youtu.be/LjgEE2QF-6c?t=1023)
 ) and the
 **
 Random
 **
  Modifier (
-[https://youtu.be/LjgEE2QF-6c?t=1106](
-18:26
-)
+[18:26](https://youtu.be/LjgEE2QF-6c?t=1106)
 ), but in this tutorial, we'll dig much deeper into them as well as the domains on which they depend.
 
 You can start with creating a simplified version of the smoke particle we made last time, as explained in Part 1:
@@ -96,14 +86,14 @@ to
 **
 .
 Click on the
-[Image: /docs/static/attachments/65438274]
+![Image](https://www.cryengine.com/docs/static/attachments/65438274)
  dropdown button to the right of
 **
 Field:Size → Value
 **
 . Here you can find all Modifiers whose main functionality is basically to modify the values of the feature to which they’re attached. Simple enough, but in fact this can get very complicated.
 
-[Image: /docs/static/attachments/65438275]
+![Image](https://www.cryengine.com/docs/static/attachments/65438275)
 
 *
 Modifiers
@@ -228,23 +218,19 @@ Now we have two Components that do exactly the same thing. So, to make our life 
 random size
 *
 . And since we don’t want to see it for now, let's also disable one of the components by clicking the
-[Image: /docs/static/attachments/65438276]
+![Image](https://www.cryengine.com/docs/static/attachments/65438276)
  button.
 
 Disabling a Component is not quite the same thing as merely hiding it via the
-[Image: /docs/static/attachments/65438277]
+![Image](https://www.cryengine.com/docs/static/attachments/65438277)
  button. A hidden Component would still be processed by the Engine, and could affect other components if they’re linked together; you just wouldn’t see it making any particles itself.
 
 For more information, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-Particle Editor
-)
+[Particle Editor](../../../../Editor%20Tools/Particle%20Editor.md)
  page.
 
 We now need to make our particles spawn randomly to either side of the actual position of the particle emitter entity. For that, we need a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867977#Location-offset](
-Location:Offset
-)
+[Location:Offset](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Location.md#Location-offset)
 Feature.
 **
 Location:Offset
@@ -253,7 +239,7 @@ Location:Offset
 
 In the image below is a ten meter ruler with the particle emitter placed in the middle of it. This will make it easier for you to see exactly what's happening:
 
-[Image: /docs/static/attachments/65438278]
+![Image](https://www.cryengine.com/docs/static/attachments/65438278)
 
 *
 Location:Offset → X = 5, Scale = 1
@@ -450,7 +436,7 @@ Random → Amount
 1
 **
  multiplier.
-[Image: /docs/static/attachments/65438279]
+![Image](https://www.cryengine.com/docs/static/attachments/65438279)
 
 *
 Multiple Location:Offset features. X = 5, Y = 10
@@ -497,7 +483,7 @@ Box
 **
 , from left to right:
 
-[Image: /docs/static/attachments/65438280]
+![Image](https://www.cryengine.com/docs/static/attachments/65438280)
 
 *
 Location:Box → X = 5, Y = 10, Z = 0
@@ -511,12 +497,10 @@ We’ll check out these other location features later on.
 Domains
 
 Now we need to talk about
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-domain](
-Domains
-)
+[Domains](../../../../Editor%20Tools/Particle%20Editor/Particle%20Effect%20Features/Modifiers.md#Modifiers-domain)
 .
 
-[Image: /docs/static/attachments/65438281]
+![Image](https://www.cryengine.com/docs/static/attachments/65438281)
 
 *
 Domains
@@ -586,7 +570,7 @@ Age
 **
  on the far right side.
 
-[Image: /docs/static/attachments/65438282]
+![Image](https://www.cryengine.com/docs/static/attachments/65438282)
 
 *
 Domain Scale = 1, Domain Bias = 0
@@ -603,9 +587,7 @@ Age
 . We've also made the curve a straight line by setting the tangents on these keyframe points to linear (outgoing tangent on the first point and incoming tangent on the second).
 
 For more information on the Particle Editor's Curve Editor, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945](
-Particle Editor
-)
+[Particle Editor](../../../../Editor%20Tools/Particle%20Editor.md)
  page.
 Now the particles simply shrink as they age.
 **
@@ -709,7 +691,7 @@ Field:Size
 **
  has only shrunk to about 60%, which is exactly what we see our particles doing.
 
-[Image: /docs/static/attachments/65438283]
+![Image](https://www.cryengine.com/docs/static/attachments/65438283)
 
 *
 Domain Scale = 0.5, Domain Bias = 0
@@ -784,7 +766,7 @@ Domain Scale
 **
 , and watch what happens to the particles: they still shrink all the way down to the final keyframe value 50% of the way through their Age, but then they just stay that way.
 
-[Image: /docs/static/attachments/65438284]
+![Image](https://www.cryengine.com/docs/static/attachments/65438284)
 
 *
 Domain Scale = 2, Domain Bias = 1
@@ -845,7 +827,7 @@ Domain Bias
 **
  of the way through this curve when the particles have already shrunk about halfway.
 
-[Image: /docs/static/attachments/65438285]
+![Image](https://www.cryengine.com/docs/static/attachments/65438285)
 
 *
 Domain Scale = 1, Domain Bias = 0.5
@@ -956,7 +938,7 @@ Leave
 Age
 **
  as the Domain.
-[Image: /docs/static/attachments/65438286]
+![Image](https://www.cryengine.com/docs/static/attachments/65438286)
 
 All Linear does is simply passing on the values from the Domain, which you can then modify further with
 **
@@ -988,27 +970,12 @@ Video Tutorial
 
 You can also follow this tutorial series in video form on our YouTube channel.
 
-[#introduction-to-modifiers](
-Introduction to Modifiers
-)
-[#the-random-modifier](
-The Random Modifier
-)
-[#domains](
-Domains
-)
-[#domain-scale-and-domain-bias](
-Domain Scale and Domain Bias
-)
-[#the-linear-modifier](
-The Linear Modifier
-)
-[#using-multiple-modifiers](
-Using Multiple Modifiers
-)
-[#summary](
-Summary
-)
-[#video-tutorial](
-Video Tutorial
-)
+[Embed: https://www.youtube.com/watch?v=h8FV9n7xnz8]
+[Introduction to Modifiers](#introduction-to-modifiers)
+[The Random Modifier](#the-random-modifier)
+[Domains](#domains)
+[Domain Scale and Domain Bias](#domain-scale-and-domain-bias)
+[The Linear Modifier](#the-linear-modifier)
+[Using Multiple Modifiers](#using-multiple-modifiers)
+[Summary](#summary)
+[Video Tutorial](#video-tutorial)

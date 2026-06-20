@@ -13,9 +13,7 @@ Overview
 Vegetation shader provides special features for foliage and grass, most notably translucency (light transmittance). To open the material dialog for vegetation objects, right-click on your object in the vegetation list and press "Go To Object Material".
 
 For more information on vegetation, please visit the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36865590](
-Vegetation Editor
-)
+[Vegetation Editor](../../../../Editor%20Tools/Vegetation%20Editor.md)
  section.
 
 ##
@@ -38,7 +36,7 @@ Diffuse
  |
 RGB contains diffuse color. Alpha should contain opacity (used for alpha test).
 
-[Image: /docs/static/attachments/35402186]
+![Image](https://www.cryengine.com/docs/static/attachments/35402186)
 
  |
 
@@ -68,9 +66,7 @@ Heightmap
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450127](
-Displacement/Phong/PN Triangles Tesselation - Shader Generation Params
-)
+[Displacement/Phong/PN Triangles Tesselation - Shader Generation Params](../Shader%20Features%20(Shader%20Generation%20Params)/Displacement%20Phong%20PN%20Triangles%20Tesselation%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -81,9 +77,7 @@ Detail
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449936](
-Detail Mapping - Shader Generation Params
-)
+[Detail Mapping - Shader Generation Params](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -96,7 +90,7 @@ Opacity
  |
 Grayscale map that defines the thickness of foliage and how much light can pass through from the backside (transmittance).
 
-[Image: /docs/static/attachments/28898610]
+![Image](https://www.cryengine.com/docs/static/attachments/28898610)
 
  |
 
@@ -106,9 +100,7 @@ Blending Map
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450135](
-Blend Layer
-)
+[Blend Layer](../Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -119,9 +111,7 @@ Second Gloss Map
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450135](
-Blend Layer
-)
+[Blend Layer](../Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -132,9 +122,7 @@ Second Height Map
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450135](
-Blend Layer
-)
+[Blend Layer](../Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -145,9 +133,7 @@ Second Diffuse Map
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450135](
-Blend Layer
-)
+[Blend Layer](../Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -158,9 +144,7 @@ Second Bump Map
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450135](
-Blend Layer
-)
+[Blend Layer](../Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -219,9 +203,7 @@ Blendlayer
 **
  generation parameter must be enabled first.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450135](
-Blend Layer
-)
+[Blend Layer](../Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -236,9 +218,7 @@ Blend Falloff
  |
 Changes the fall off of blending.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450135](
-Blend Layer
-)
+[Blend Layer](../Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -257,9 +237,7 @@ Blendlayer
 **
  generation parameter must be enabled first.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450135](
-Blend Layer
-)
+[Blend Layer](../Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -278,9 +256,7 @@ Blendlayer
 **
  generation parameter must be enabled first.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450135](
-Blend Layer
-)
+[Blend Layer](../Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -331,9 +307,7 @@ Indirect Bounce Color
  |
 Sets the amount of indirectly bounced color.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449070](
-Illum Shader
-)
+[Illum Shader](Illum%20Shader.md)
  for more information.
 
  |
@@ -461,9 +435,7 @@ Detail Mapping
  |
 Enables detail mapping.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449936](
-Detail Mapping - Shader Generation Params
-)
+[Detail Mapping - Shader Generation Params](../Shader%20Features%20(Shader%20Generation%20Params)/Detail%20Mapping%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -475,9 +447,7 @@ Blendlayer
  |
 Enables normal-mapped diffuse layer blended on top of the base material.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450135](
-Blend Layer
-)
+[Blend Layer](../Shader%20Features%20(Shader%20Generation%20Params)/Blend%20Layer%20-%20Shader%20Generation%20Params.md)
  for more information.
 
  |
@@ -504,9 +474,7 @@ Displacement Mapping
  |
 Enables displacement mapping. Requires a height map.
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449070](
-Illum Shader
-)
+[Illum Shader](Illum%20Shader.md)
  for more information.
 
  |
@@ -518,9 +486,7 @@ Phong Tessellation
  |
 Enables rough approximation of smooth surface subdivision..
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449070](
-Illum Shader
-)
+[Illum Shader](Illum%20Shader.md)
  for more information.
 
  |
@@ -541,9 +507,7 @@ nables rough approximation of surface subdivision in a
  low polygon mesh
 .
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29449070](
-Illum Shader
-)
+[Illum Shader](Illum%20Shader.md)
  for more information.
 
  |

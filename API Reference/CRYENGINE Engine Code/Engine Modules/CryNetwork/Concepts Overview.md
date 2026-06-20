@@ -15,13 +15,9 @@ CryNetwork separates object management from communication. The heart of the comm
 NetContext
 *
 . All communication is handled by packets, containing one message, each with a header and a payload. Messages are being sent in an independent thread to decouple the game frame rate from the speed of the network connection (see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306390#ConceptsOverview-Multithreading](
-#Multithreading
-)
+[#Multithreading](Concepts%20Overview.md#ConceptsOverview-Multithreading)
 ). All non critical information is transferred through UDP (see
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306390#ConceptsOverview-MessageQueuing](
-#Message Queuing
-)
+[#Message Queuing](Concepts%20Overview.md#ConceptsOverview-MessageQueuing)
 ).
 
 A Server uses class
@@ -121,9 +117,7 @@ scheduler.xml
 entityscheduler.xml
 *
 . For a more detailed explanation of channel prioritization, see chapter
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306390#ConceptsOverview-MessagingSystem](
-#Messaging System
-)
+[#Messaging System](Concepts%20Overview.md#ConceptsOverview-MessagingSystem)
 . If traffic rates are intended to be changed, the console variable
 *
 net_enable_tfrc
@@ -326,9 +320,7 @@ Messages are serialized into the main body. As described by the previous list, t
 Message Prioritization
 
 Since there are usually too many queued messages than can fit in a single update packet, a prioritization system is employed to decide which messages to send and when. This prioritization system will never override the message DAG but may be modified by the DAG (as described in
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306390#ConceptsOverview-MessageQueuing](
-#Message Queuing
-)
+[#Message Queuing](Concepts%20Overview.md#ConceptsOverview-MessageQueuing)
 ).
 
 The instantaneous message priority is a number between 0 and 16, with 16 being the highest possible priority and 0 being the lowest. Each frame the instantaneous priority of each message is recalculated and a running integration of priority 2 is kept. It is this running integration that determines the message priority, meaning that longer delayed messages still have a chance to be sent eventually.

@@ -7,22 +7,22 @@
 
 ## Child Pages
 
-- [Custom DeferredEvaluators](Universal Query System (UQS)/Custom DeferredEvaluators.md)
-- [Custom Functions](Universal Query System (UQS)/Custom Functions.md)
-- [Custom Generators](Universal Query System (UQS)/Custom Generators.md)
-- [Custom InstantEvaluators](Universal Query System (UQS)/Custom InstantEvaluators.md)
-- [Custom Item types](Universal Query System (UQS)/Custom Item types.md)
-- [CVars and Console Commands](Universal Query System (UQS)/CVars and Console Commands.md)
-- [Evaluation Result Transform](Universal Query System (UQS)/Evaluation Result Transform.md)
-- [Exceptions](Universal Query System (UQS)/Exceptions.md)
-- [Item-Monitors](Universal Query System (UQS)/Item-Monitors.md)
-- [Query Hierarchies](Universal Query System (UQS)/Query Hierarchies.md)
-- [Running a Query](Universal Query System (UQS)/Running a Query.md)
-- [Sandbox Plugin: Query Editor](Universal Query System (UQS)/Sandbox Plugin Query Editor.md)
-- [Sandbox Plugin: Query History Inspector](Universal Query System (UQS)/Sandbox Plugin Query History Inspector.md)
-- [Schematyc Support](Universal Query System (UQS)/Schematyc Support.md)
-- [Standard Library](Universal Query System (UQS)/Standard Library.md)
-- [Startup and Update](Universal Query System (UQS)/Startup and Update.md)
+- [Custom DeferredEvaluators](Universal%20Query%20System%20(UQS)/Custom%20DeferredEvaluators.md)
+- [Custom Functions](Universal%20Query%20System%20(UQS)/Custom%20Functions.md)
+- [Custom Generators](Universal%20Query%20System%20(UQS)/Custom%20Generators.md)
+- [Custom InstantEvaluators](Universal%20Query%20System%20(UQS)/Custom%20InstantEvaluators.md)
+- [Custom Item types](Universal%20Query%20System%20(UQS)/Custom%20Item%20types.md)
+- [CVars and Console Commands](Universal%20Query%20System%20(UQS)/CVars%20and%20Console%20Commands.md)
+- [Evaluation Result Transform](Universal%20Query%20System%20(UQS)/Evaluation%20Result%20Transform.md)
+- [Exceptions](Universal%20Query%20System%20(UQS)/Exceptions.md)
+- [Item-Monitors](Universal%20Query%20System%20(UQS)/Item-Monitors.md)
+- [Query Hierarchies](Universal%20Query%20System%20(UQS)/Query%20Hierarchies.md)
+- [Running a Query](Universal%20Query%20System%20(UQS)/Running%20a%20Query.md)
+- [Sandbox Plugin: Query Editor](Universal%20Query%20System%20(UQS)/Sandbox%20Plugin%20Query%20Editor.md)
+- [Sandbox Plugin: Query History Inspector](Universal%20Query%20System%20(UQS)/Sandbox%20Plugin%20Query%20History%20Inspector.md)
+- [Schematyc Support](Universal%20Query%20System%20(UQS)/Schematyc%20Support.md)
+- [Standard Library](Universal%20Query%20System%20(UQS)/Standard%20Library.md)
+- [Startup and Update](Universal%20Query%20System%20(UQS)/Startup%20and%20Update.md)
 
 ## Content
 
@@ -248,84 +248,52 @@ Technical Information
 For more technical information on how to work with these features, then see the following pages:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450492](
-Custom DeferredEvaluators
-)
+[Custom DeferredEvaluators](Universal%20Query%20System%20(UQS)/Custom%20DeferredEvaluators.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450486](
-Custom Functions
-)
+[Custom Functions](Universal%20Query%20System%20(UQS)/Custom%20Functions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450488](
-Custom Generators
-)
+[Custom Generators](Universal%20Query%20System%20(UQS)/Custom%20Generators.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450490](
-Custom InstantEvaluators
-)
+[Custom InstantEvaluators](Universal%20Query%20System%20(UQS)/Custom%20InstantEvaluators.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450484](
-Custom Item types
-)
+[Custom Item types](Universal%20Query%20System%20(UQS)/Custom%20Item%20types.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450504](
-CVars and Console Commands
-)
+[CVars and Console Commands](Universal%20Query%20System%20(UQS)/CVars%20and%20Console%20Commands.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450502](
-Evaluation Result Transform
-)
+[Evaluation Result Transform](Universal%20Query%20System%20(UQS)/Evaluation%20Result%20Transform.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450498](
-Exceptions
-)
+[Exceptions](Universal%20Query%20System%20(UQS)/Exceptions.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450496](
-Item-Monitors
-)
+[Item-Monitors](Universal%20Query%20System%20(UQS)/Item-Monitors.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450494](
-Query Hierarchies
-)
+[Query Hierarchies](Universal%20Query%20System%20(UQS)/Query%20Hierarchies.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450500](
-Running a Query
-)
+[Running a Query](Universal%20Query%20System%20(UQS)/Running%20a%20Query.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450476](
-Sandbox Plugin: Query Editor
-)
+[Sandbox Plugin: Query Editor](Universal%20Query%20System%20(UQS)/Sandbox%20Plugin%20Query%20Editor.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450478](
-Sandbox Plugin: Query History Inspector
-)
+[Sandbox Plugin: Query History Inspector](Universal%20Query%20System%20(UQS)/Sandbox%20Plugin%20Query%20History%20Inspector.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450506](
-Schematyc Support
-)
+[Schematyc Support](Universal%20Query%20System%20(UQS)/Schematyc%20Support.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450482](
-Standard Library
-)
+[Standard Library](Universal%20Query%20System%20(UQS)/Standard%20Library.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450480](
-Startup and Update
-)
+[Startup and Update](Universal%20Query%20System%20(UQS)/Startup%20and%20Update.md)
 
 ##
 New Features in CRYENGINE 5.4
@@ -537,21 +505,9 @@ Pos3AddOfs3
 `
 .
 `
-[#features](
-Features
-)
-[#core-parts-of-a-query](
-Core Parts of a Query
-)
-[#scoring-of-items](
-Scoring of Items
-)
-[#technical-information](
-Technical Information
-)
-[#new-features-in-cryengine-54](
-New Features in CRYENGINE 5.4
-)
-[#breaking-changes-in-54](
-Breaking Changes in 5.4
-)
+[Features](#features)
+[Core Parts of a Query](#core-parts-of-a-query)
+[Scoring of Items](#scoring-of-items)
+[Technical Information](#technical-information)
+[New Features in CRYENGINE 5.4](#new-features-in-cryengine-54)
+[Breaking Changes in 5.4](#breaking-changes-in-54)

@@ -7,23 +7,17 @@
 
 ## Child Pages
 
-- [CRYENGINE V Basics](For New CRYENGINE Users/CRYENGINE V Basics.md)
-- [CRYENGINE V Interface](For New CRYENGINE Users/CRYENGINE V Interface.md)
-- [Getting Started Guide for CRYENGINE](For New CRYENGINE Users/Getting Started Guide for CRYENGINE.md)
+- [CRYENGINE V Basics](For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics.md)
+- [CRYENGINE V Interface](For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface.md)
+- [Getting Started Guide for CRYENGINE](For%20New%20CRYENGINE%20Users/Getting%20Started%20Guide%20for%20CRYENGINE.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26871857](
-Getting Started Guide for CRYENGINE
-)
+[Getting Started Guide for CRYENGINE](For%20New%20CRYENGINE%20Users/Getting%20Started%20Guide%20for%20CRYENGINE.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308615](
-CRYENGINE V Basics
-)
+[CRYENGINE V Basics](For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308631](
-CRYENGINE V Interface
-)
+[CRYENGINE V Interface](For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface.md)

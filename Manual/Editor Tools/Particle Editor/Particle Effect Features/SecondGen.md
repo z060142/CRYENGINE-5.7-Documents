@@ -38,9 +38,7 @@ section below.
 OnSpawn
 
 This feature will start spawning child effects every time a new particle is spawned. This is a continuous event; it will trigger the spawning of child particles when a new parent particle is born and will automatically stop when the parent particle finally dies. The actual child spawning logic is executed within the child component. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868327](
-Spawn
-)
+[Spawn](Spawn.md)
  features for more details. Use this feature to create effects such as trails.
 
 For more information regarding the options available in this feature, see the Common Settings section below.
@@ -108,18 +106,8 @@ GPU Support
 
 GPU particles can be spawned by CPU particles but not the other way round. Information about the parent particles is sent to the GPU and saved in the GPU memory.
 
-[#oncollide](
-OnCollide
-)
-[#ondeath](
-OnDeath
-)
-[#onspawn](
-OnSpawn
-)
-[#common-settings](
-Common Settings
-)
-[#gpu-support](
-GPU Support
-)
+[OnCollide](#oncollide)
+[OnDeath](#ondeath)
+[OnSpawn](#onspawn)
+[Common Settings](#common-settings)
+[GPU Support](#gpu-support)

@@ -23,7 +23,7 @@ Link Context Menu
 
 Every link has a context menu that can be opened by right-clicking the handle in the middle of the link.
 
-[Image: /docs/static/attachments/44971081]
+![Image](https://www.cryengine.com/docs/static/attachments/44971081)
 
 The link context menu has four entries:
 
@@ -75,7 +75,7 @@ Link Highlighting
 
 Input and output links are highlighted to make the debugging of complex graphs easier. You can also hover your mouse over input/output ports to highlight the links. You can view the type of links connected to the node based on the color. When you select a node, the input links are highlighted in red and the output links in blue.
 
-[Image: /docs/static/attachments/44971082]
+![Image](https://www.cryengine.com/docs/static/attachments/44971082)
 
 ##
 Multiple Inputs on a Single Port
@@ -86,7 +86,7 @@ Logic:Any
 **
  node can take multiple links and reroute them to the output port.
 
-[Image: /docs/static/attachments/44971083]
+![Image](https://www.cryengine.com/docs/static/attachments/44971083)
 
 Every time an input is received on one of the input ports, the output port is triggered. The
 **
@@ -98,7 +98,5 @@ Logic:Any
 Link Appearance
 
 The color of the links and nodes can be changed in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848616](
-Preferences
-)
+[Preferences](../../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Customizing%20CRYENGINE%20Sandbox/Changing%20Sandbox%20Preferences.md)
 menu of the Sandbox Editor.

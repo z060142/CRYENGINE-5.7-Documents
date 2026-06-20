@@ -20,24 +20,18 @@ Attachments
 Please use the following attachments to this document:
 
 -
-[/docs/static/attachments/23461251](
-WalkerIdle.lua
-)
+[WalkerIdle.lua](/docs/static/attachments/23461251)
 .
 
 -
-[/docs/static/attachments/23461252](
-Walker.xml
-)
+[Walker.xml](/docs/static/attachments/23461252)
 .
 
 ##
 Creating AI Wander Behavior
 
 1. Add the
-[/docs/static/attachments/23461252](
-Walker.xml
-)
+[Walker.xml](/docs/static/attachments/23461252)
  file to the following folder:
 
 ```
@@ -48,12 +42,10 @@ Game/Scripts/AI/SelectionTrees
 
 ```
 
-[Image: /docs/static/attachments/23461250]
+![Image](https://www.cryengine.com/docs/static/attachments/23461250)
 
 2. Add the
-[/docs/static/attachments/23461251](
-WalkerIdle.lua
-)
+[WalkerIdle.lua](/docs/static/attachments/23461251)
  script to the following folder:
 
 ```
@@ -64,7 +56,7 @@ Game/Scripts/AI/Behaviors/Personalities/Walker/WalkerIdle.lua
 
 ```
 
-[Image: /docs/static/attachments/23461255]
+![Image](https://www.cryengine.com/docs/static/attachments/23461255)
 
 3. Start the Sandbox Editor and open or create a test level. If the Editor was already active, on the menu bar, go to the
 **
@@ -76,7 +68,7 @@ Reload Scripts
 **
 .
 
-[Image: /docs/static/attachments/23461254]
+![Image](https://www.cryengine.com/docs/static/attachments/23461254)
 
 5. Insert a Grunt entity into your level.
 
@@ -90,7 +82,7 @@ BehaviorSelectionTree
 **
  property to "Walker".
 
-[Image: /docs/static/attachments/23461249]
+![Image](https://www.cryengine.com/docs/static/attachments/23461249)
 
 7. Make as many copies of him as you want.
 
@@ -100,7 +92,7 @@ AI/Physics
 **
  button at the bottom of the Perspective Viewport.
 
-[Image: /docs/static/attachments/23461253]
+![Image](https://www.cryengine.com/docs/static/attachments/23461253)
 
 ##
 Debugging

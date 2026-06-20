@@ -7,11 +7,9 @@
 
 ## Child Pages
 
-- [Tutorial - Setting Up Mission Objectives](Legacy AI entity tutorials/Tutorial - Setting Up Mission Objectives.md)
+- [Tutorial - Setting Up Mission Objectives](Legacy%20AI%20entity%20tutorials/Tutorial%20-%20Setting%20Up%20Mission%20Objectives.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308223](
-Tutorial - Setting Up Mission Objectives
-)
+[Tutorial - Setting Up Mission Objectives](Legacy%20AI%20entity%20tutorials/Tutorial%20-%20Setting%20Up%20Mission%20Objectives.md)

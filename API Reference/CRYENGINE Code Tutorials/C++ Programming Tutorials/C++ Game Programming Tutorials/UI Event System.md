@@ -252,7 +252,7 @@ UI:Functions:Game:Bar
 **
 .
 
-[Image: /docs/static/attachments/23461328]
+![Image](https://www.cryengine.com/docs/static/attachments/23461328)
 
 If the port "send" is triggered, it will call the C++ code in UIFunctions.cpp.
 
@@ -371,7 +371,7 @@ bool CGame::Init(IGameFramework *pFramework)
 
 The code will create two nodes for the flowgraph:
 
-[Image: /docs/static/attachments/23461327]
+![Image](https://www.cryengine.com/docs/static/attachments/23461327)
 
 Now you can call from everywhere in your code the
 **
@@ -398,9 +398,5 @@ CUIEvents::GetInstance()->SendEvent( CUIEvents::eUIGE_BarEvent, args );
 
 ```
 
-[#function-nodes](
-Function nodes
-)
-[#event-nodes](
-Event nodes
-)
+[Function nodes](#function-nodes)
+[Event nodes](#event-nodes)

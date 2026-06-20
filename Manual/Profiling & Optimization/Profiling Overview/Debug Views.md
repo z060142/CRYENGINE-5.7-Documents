@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Overdraw-complexity Debug View](Debug Views/Overdraw-complexity Debug View.md)
+- [Overdraw-complexity Debug View](Debug%20Views/Overdraw-complexity%20Debug%20View.md)
 
 ## Content
 
@@ -26,7 +26,7 @@ Console command:
 
 This will draw the entire scene in wireframe, including objects hidden from view. (Can over complicate a busy scene).
 
-[Image: /docs/static/attachments/23998971]
+![Image](https://www.cryengine.com/docs/static/attachments/23998971)
 **
 Console command:
 **
@@ -34,7 +34,7 @@ Console command:
 
 This view will overlay wireframe only on the front facing geometry. Anything behind doesn't get rendered.
 
-[Image: /docs/static/attachments/23998970]
+![Image](https://www.cryengine.com/docs/static/attachments/23998970)
 
 Both of these images are of the exact same scene, but visually r_showlines is easier on the eye.
 
@@ -48,7 +48,7 @@ Console command:
 
 Applies a uniform flat grey material to every surface in the game.
 
-[Image: /docs/static/attachments/23998958]
+![Image](https://www.cryengine.com/docs/static/attachments/23998958)
 
 **
 Console command:
@@ -57,7 +57,7 @@ Console command:
 
 Applies a uniform flat grey material with normal map information, to every surface in the game.
 
-[Image: /docs/static/attachments/23998972]
+![Image](https://www.cryengine.com/docs/static/attachments/23998972)
 
 ##
 Helpers
@@ -69,7 +69,7 @@ Console command:
 
 This debug draw shows all exported helpers linked to the geometry in 3ds Max, like grab helper, touch bending helper, etc.
 
-[Image: /docs/static/attachments/23998961]
+![Image](https://www.cryengine.com/docs/static/attachments/23998961)
 
 ##
 Physics Mesh
@@ -81,7 +81,7 @@ Console command:
 
 This debug draw shows physics proxy meshes additionally to the render geometry.
 
-[Image: /docs/static/attachments/23998969]
+![Image](https://www.cryengine.com/docs/static/attachments/23998969)
 
 ##
 Mass, Joints, Detailed Joint Status Information
@@ -93,19 +93,9 @@ Console command:
 
 This debug draw shows the mass of objects in kg and the joint linked to the object in 3ds Max. To display joints you have to activate p_draw_helpers 1 first.
 
-[Image: /docs/static/attachments/23998968]
-[#wireframe](
-Wireframe
-)
-[#default-material-views](
-Default Material Views
-)
-[#helpers](
-Helpers
-)
-[#physics-mesh](
-Physics Mesh
-)
-[#mass-joints-detailed-joint-status-information](
-Mass, Joints, Detailed Joint Status Information
-)
+![Image](https://www.cryengine.com/docs/static/attachments/23998968)
+[Wireframe](#wireframe)
+[Default Material Views](#default-material-views)
+[Helpers](#helpers)
+[Physics Mesh](#physics-mesh)
+[Mass, Joints, Detailed Joint Status Information](#mass-joints-detailed-joint-status-information)

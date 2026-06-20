@@ -34,21 +34,11 @@ Once complete, we'll have a build that can be run by end-users. Keep in mind tha
 ##
 Table of Contents
 
-[#shader-cache](
-Shader Cache
-)
-[#compiling-and-archiving-assets](
-Compiling and Archiving Assets
-)
-[#compiling-code-in-release-mode](
-Compiling Code in Release Mode
-)
-[#packaging-the-final-build](
-Packaging the Final Build
-)
-[#conclusion](
-Conclusion
-)
+[Shader Cache](#shader-cache)
+[Compiling and Archiving Assets](#compiling-and-archiving-assets)
+[Compiling Code in Release Mode](#compiling-code-in-release-mode)
+[Packaging the Final Build](#packaging-the-final-build)
+[Conclusion](#conclusion)
 
 ##
 Shader Cache
@@ -241,12 +231,10 @@ RCOut_PC/
 Compiling Code in Release Mode
 
 This section assumes that you have already read
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216218](
-Building the Engine from Source Code
-)
+[Building the Engine from Source Code](/docs/static/engines/cryengine-5/categories/23756813/pages/26216218)
 . Once you have a solution containing both the engine and your project, simply change the configuration mode to Release:
 
-[Image: /docs/static/attachments/29926168]
+![Image](https://www.cryengine.com/docs/static/attachments/29926168)
 
 In addition, it is recommended to enable OPTION_STATIC_LINKING in CMake when building a release configuration. This ensures that all CRYENGINE binaries get linked into one main executable.
 

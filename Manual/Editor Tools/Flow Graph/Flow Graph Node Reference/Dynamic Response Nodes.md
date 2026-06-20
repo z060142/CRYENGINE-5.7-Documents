@@ -12,14 +12,14 @@ CancelSignalProcessing
 
 This node sends a signal to cancel the processing of the sent signal in the Dynamic Response System.
 
-[Image: /docs/static/attachments/28901228]
+![Image](https://www.cryengine.com/docs/static/attachments/28901228)
 
 ##
 SendSignal
 
 This node sends a signal to the Dynamic Response System.
 
-[Image: /docs/static/attachments/28901227]
+![Image](https://www.cryengine.com/docs/static/attachments/28901227)
 
 **
 Inputs
@@ -77,7 +77,7 @@ This node is used to set a
 float
 variable in a variable collection for the Dynamic Response System.
 
-[Image: /docs/static/attachments/28901226]
+![Image](https://www.cryengine.com/docs/static/attachments/28901226)
 
 **
 Inputs
@@ -171,7 +171,7 @@ This node is used to set an
 integer
 variable in a variable collection for the Dynamic Response System.
 
-[Image: /docs/static/attachments/28901225]
+![Image](https://www.cryengine.com/docs/static/attachments/28901225)
 
 **
 Inputs
@@ -265,7 +265,7 @@ This node is used to set a
 String
 variable in a variable collection for the Dynamic Response System.
 
-[Image: /docs/static/attachments/28901224]
+![Image](https://www.cryengine.com/docs/static/attachments/28901224)
 
 **
 Inputs
@@ -352,18 +352,8 @@ String
 Outputs the name of the variable collection created or used
  |
 
-[#cancelsignalprocessing](
-CancelSignalProcessing
-)
-[#sendsignal](
-SendSignal
-)
-[#setfloatvariable](
-SetFloatVariable
-)
-[#setintegervariable](
-SetIntegerVariable
-)
-[#setstringvariable](
-SetStringVariable
-)
+[CancelSignalProcessing](#cancelsignalprocessing)
+[SendSignal](#sendsignal)
+[SetFloatVariable](#setfloatvariable)
+[SetIntegerVariable](#setintegervariable)
+[SetStringVariable](#setstringvariable)

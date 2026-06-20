@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933302]
+![Image](https://www.cryengine.com/docs/static/attachments/29933302)
 
 ##
 Overview
@@ -18,31 +18,17 @@ Topics
 An Archetype Entity is based on a regular Entity and specifies individual parameter values for that Entity. If the value of an Archetype parameter is changed, all instances of that Archetype in the scene will be updated automatically.
 
 Archetype Entities are organized in libraries which can be created in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869094](
-The DataBase View
-)
+[The DataBase View](../../Editor%20Tools/DataBase%20View.md)
 .
 
 So technical level designers can predefine variations of Entity classes as Archetype Entities that can be used throughout the whole game. For global changes affecting all instances, the Archetype Entity just needs to be changed once in the Database View.
 
-[#topics](
-Topics
-)
-[#placing-archetype-entities](
-Placing Archetype Entities
-)
-[#creating-archetype-entity-libraries](
-Creating Archetype Entity Libraries
-)
-[#difference-between-archetype-settings-and-script-defaults](
-Difference between Archetype settings and script defaults
-)
-[#revert-to-script-defaults](
-Revert to Script Defaults
-)
-[#checking-the-script-default-value](
-Checking the Script Default value
-)
+[Topics](#topics)
+[Placing Archetype Entities](#placing-archetype-entities)
+[Creating Archetype Entity Libraries](#creating-archetype-entity-libraries)
+[Difference between Archetype settings and script defaults](#difference-between-archetype-settings-and-script-defaults)
+[Revert to Script Defaults](#revert-to-script-defaults)
+[Checking the Script Default value](#checking-the-script-default-value)
 
 ##
 Placing Archetype Entities
@@ -165,25 +151,23 @@ Below is an example of the EntityArchetype Properties2 dialog box. This dialog b
 
 The example below shows the properties2 set for an AI entity:
 
-[Image: /docs/static/attachments/51347848]
+![Image](https://www.cryengine.com/docs/static/attachments/51347848)
 
 ##
 Creating Archetype Entity Libraries
 
 Archetype Entity Libraries can be created and configured in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869094](
-The DataBase View
-)
+[The DataBase View](../../Editor%20Tools/DataBase%20View.md)
 .
 
-[Image: /docs/static/attachments/51347849]
+![Image](https://www.cryengine.com/docs/static/attachments/51347849)
 
 ##
 Difference between Archetype settings and script defaults
 
 Every highlighted property in the database view has actually a different value than the script default.
 
-[Image: /docs/static/attachments/51347850]
+![Image](https://www.cryengine.com/docs/static/attachments/51347850)
 
 ##
 Revert to Script Defaults
@@ -194,19 +178,19 @@ Revert to Script Default
 **
 .
 
-[Image: /docs/static/attachments/51347851]
+![Image](https://www.cryengine.com/docs/static/attachments/51347851)
 
 ##
 Checking the Script Default value
 
 It is possible to check the default value in the entities script by hovering over the property.
 
-[Image: /docs/static/attachments/51347852]
+![Image](https://www.cryengine.com/docs/static/attachments/51347852)
 
 ##
 Toolbar
 
-[Image: /docs/static/attachments/51347853]
+![Image](https://www.cryengine.com/docs/static/attachments/51347853)
 
 **
 Action

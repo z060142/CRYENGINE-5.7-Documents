@@ -7,11 +7,9 @@
 
 ## Content
 
-[Image: /docs/static/attachments/27570814]
+![Image](https://www.cryengine.com/docs/static/attachments/27570814)
 
-[https://www.cryengine.com/support](
-[Image: /docs/static/attachments/44971622]
-)
+[![Image](https://www.cryengine.com/docs/static/attachments/44971622)](https://www.cryengine.com/support)
 
 ##
 Overview
@@ -23,21 +21,11 @@ You will also be able to carry the inventory of the player from one mission to a
 ##
 Chapters:
 
-[#chapters](
-Chapters:
-)
-[#editing-equipment-packs](
-Editing Equipment Packs
-)
-[#accessories-setup](
-Accessories Setup
-)
-[#saving-players-equipment-over-multiple-levels](
-Saving Players Equipment Over Multiple Levels
-)
-[#giving-the-player-individual-weapons-and-items](
-Giving the Player Individual Weapons and Items
-)
+[Chapters:](#chapters)
+[Editing Equipment Packs](#editing-equipment-packs)
+[Accessories Setup](#accessories-setup)
+[Saving Players Equipment Over Multiple Levels](#saving-players-equipment-over-multiple-levels)
+[Giving the Player Individual Weapons and Items](#giving-the-player-individual-weapons-and-items)
 
 ##
 Editing Equipment Packs
@@ -47,7 +35,7 @@ Step 1
 
 In the Game menu, click Edit Equipment-Packs:
 
-[Image: /docs/static/attachments/51871750]
+![Image](https://www.cryengine.com/docs/static/attachments/51871750)
 
 **
 Pic1: Edit Equipment-packs
@@ -58,7 +46,7 @@ Step 2
 
 Using the drop-down list, select one of the Equipment-Packs:
 
-[Image: /docs/static/attachments/51871751]
+![Image](https://www.cryengine.com/docs/static/attachments/51871751)
 
 **
 Pic2: Configuring the Equipment
@@ -76,24 +64,22 @@ Available Equipment
 Used Equipment
 **
  list, or remove equipment by using the Add
-[Image: /docs/static/attachments/51871752]
+![Image](https://www.cryengine.com/docs/static/attachments/51871752)
  and Remove
-[Image: /docs/static/attachments/51871753]
+![Image](https://www.cryengine.com/docs/static/attachments/51871753)
  buttons.
 
 As ammo/weapons/accessories are added/removed from the build, the EquipmentPack Editor will automatically notify of changes and update available equipment accordingly.
 
 Player_Default is loaded by default unless specified otherwise through Flow Graph (
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450601](
-Inventory:EquipPackAdd
-)
+[Inventory:EquipPackAdd](../Flow%20Graph/Flow%20Graph%20Node%20Reference/Inventory%20Nodes.md)
 **
 ).
 
 Or, create a new pack by clicking Add:
 
-[Image: /docs/static/attachments/51871754]
+![Image](https://www.cryengine.com/docs/static/attachments/51871754)
 
 **
 Pic3: Adding a new pack using the Equipment pack window
@@ -104,7 +90,7 @@ Accessories Setup
 
 Since CRYENGINE 3.5, the Equipment Pack tool also has the ability to sort Accessories/Attachments for Weapons.
 
-[Image: /docs/static/attachments/51871755]
+![Image](https://www.cryengine.com/docs/static/attachments/51871755)
 
 *
 Pic4: Sorting the Equipment packs
@@ -132,9 +118,7 @@ EquipmentPack
 
 Remember, if you're dealing with many AI/Equipment Packs, AI
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870432](
-Entity Archetypes
-)
+[Entity Archetypes](../Level%20Editor%20Tab/Create%20Object/Archetype%20Entity%20(Game%20SDK).md)
 **
  can be used.
 
@@ -145,7 +129,7 @@ You can also access the Equipment Pack editor by clicking the EquipmentPack "
 " button in the properties of a character with a weapon.
 
 *
-[Image: /docs/static/attachments/51871756]
+![Image](https://www.cryengine.com/docs/static/attachments/51871756)
 
 Pic5: Assigning the Equipment pack for an AI
 
@@ -165,7 +149,7 @@ MissionObjective
  we will save the player's inventory, fade out the screen and then trigger the next level.
 
 *
-[Image: /docs/static/attachments/51871757]
+![Image](https://www.cryengine.com/docs/static/attachments/51871757)
 
 Pic6: Example for
 saving the player's inventory
@@ -179,7 +163,7 @@ MissionObjective2
 .
 
 *
-[Image: /docs/static/attachments/51871758]
+![Image](https://www.cryengine.com/docs/static/attachments/51871758)
 
 Pic7: Resorting the saved player's inventory
 
@@ -190,22 +174,18 @@ Giving the Player Individual Weapons and Items
 
 To give the player individual weapons and items, the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23309636](
-Inventory and Weapon Nodes
-)
+[Inventory and Weapon Nodes](/docs/static/engines/cryengine-5/categories/23756816/pages/23309636)
 **
  should be used.
 
 In the example below, the player would receive a Pistol at the beginning of the level, as well as Pistol ammo:
 
-[Image: /docs/static/attachments/51871759]
+![Image](https://www.cryengine.com/docs/static/attachments/51871759)
 
 *
 Pic8: Providing a player with individual weapons and items through
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450601](
-Inventory and Weapon Nodes
-)
+[Inventory and Weapon Nodes](../Flow%20Graph/Flow%20Graph%20Node%20Reference/Inventory%20Nodes.md)
 **
 .
 *

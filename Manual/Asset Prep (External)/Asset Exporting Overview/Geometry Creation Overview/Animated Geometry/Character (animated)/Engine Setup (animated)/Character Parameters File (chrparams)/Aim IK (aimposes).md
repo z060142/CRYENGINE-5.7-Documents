@@ -31,17 +31,17 @@ Creating Aim Poses with the Aim Pose Creator (CryMaxTools)
 
 The Aim Pose Creator is used to create all the Aim Poses based on templates and will create automatically frames with right angles and poses.
 
-[Image: /docs/static/attachments/23994496]
+![Image](https://www.cryengine.com/docs/static/attachments/23994496)
 
 Create the base pose from which all the aim poses will be derived. we will et up a forward aiming pose first and will create all the other aim poses based on our main pose.
 
 Make sure that your weapon bone and the weapon are aligned and both are pointing straight Y forward.
 
-[Image: /docs/static/attachments/23994495]
+![Image](https://www.cryengine.com/docs/static/attachments/23994495)
 
 Select now all the upper parts of the body starting from the Bip01 Pelvis and open up the Aim pose Creator to create the poses.
 
-[Image: /docs/static/attachments/23994494]
+![Image](https://www.cryengine.com/docs/static/attachments/23994494)
 
 -
 Template for biped human and the template for the pose angles and the count.
@@ -89,17 +89,9 @@ Aim Poses work, but the Animation Driven IK Targets are not evaluated
 **
 
 If you want to use the Animation Driven (Limb Retargetting) IK inside an Aim Pose to glue the front hand to the weapon for example (attach blend bone and target to the weapon bone) you need to make sure that both, the blend bone AND the target bone have at least one rotation key set on them. The Aiming system disregards bones without rotation controllers as an optimization. The blend bones can be freely rotated anyway, since only his translation is relevant. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308003](
-Animation Driven IK
-)
+[Animation Driven IK](Animation%20Driven%20IK.md)
  for more information.
 
-[#setup](
-Setup
-)
-[#animating-aim-poses](
-Animating Aim Poses
-)
-[#troubleshooting](
-Troubleshooting
-)
+[Setup](#setup)
+[Animating Aim Poses](#animating-aim-poses)
+[Troubleshooting](#troubleshooting)

@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Creating a NavMesh in Sandbox](Multi-Layer Navigation Mesh (MNM)/Creating a NavMesh in Sandbox.md)
-- [Debugging Navigation](Multi-Layer Navigation Mesh (MNM)/Debugging Navigation.md)
+- [Creating a NavMesh in Sandbox](Multi-Layer%20Navigation%20Mesh%20(MNM)/Creating%20a%20NavMesh%20in%20Sandbox.md)
+- [Debugging Navigation](Multi-Layer%20Navigation%20Mesh%20(MNM)/Debugging%20Navigation.md)
 
 ## Content
 
@@ -18,11 +18,7 @@ Overview
 The Navigation used in CryAISystem is Navigation Mesh system that allows for easy editing in Sandbox. It can have multiple layers that offer different setups for differently-sized agents. It gets generated through voxelization of the physical representation of the world.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24281122](
-Creating a NavMesh in Sandbox
-)
+[Creating a NavMesh in Sandbox](Multi-Layer%20Navigation%20Mesh%20(MNM)/Creating%20a%20NavMesh%20in%20Sandbox.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/24281245](
-Debugging Navigation
-)
+[Debugging Navigation](Multi-Layer%20Navigation%20Mesh%20(MNM)/Debugging%20Navigation.md)

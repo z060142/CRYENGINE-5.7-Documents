@@ -43,7 +43,7 @@ In this simple example we'll create a basic AI character that will keep a certai
 
 This is the states diagram for this personality.
 
-[Image: /docs/static/attachments/23461248]
+![Image](https://www.cryengine.com/docs/static/attachments/23461248)
 
 ##
 Create a new selection tree
@@ -198,9 +198,7 @@ function PipeManager:CreateGoalPipes()
 ```
 
 To read more about XML goal pipes you can click
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306483](
-here
-)
+[here](../Goal%20Pipes.md)
 .
 
 ##
@@ -792,18 +790,8 @@ AnalyzeSituation()
 **
  function to an external utility script file to make easier the modification of that block of code and minimize the duplication of the behavior logic.
 
-[#introduction](
-Introduction
-)
-[#create-a-new-selection-tree](
-Create a new selection tree
-)
-[#creating-a-new-goal-pipe-file-that-will-contain-all-the-goal-pipes-for-the-desired-behavior](
-Creating a new Goal pipe file that will contain all the goal pipes for the desired behavior.
-)
-[#creating-the-different-states-for-the-fogofwar-personality-and-related-goalpipes](
-Creating the different states for the FogOfWar personality and related goalpipes
-)
-[#conclusions-and-future-improvements](
-Conclusions and future improvements
-)
+[Introduction](#introduction)
+[Create a new selection tree](#create-a-new-selection-tree)
+[Creating a new Goal pipe file that will contain all the goal pipes for the desired behavior.](#creating-a-new-goal-pipe-file-that-will-contain-all-the-goal-pipes-for-the-desired-behavior)
+[Creating the different states for the FogOfWar personality and related goalpipes](#creating-the-different-states-for-the-fogofwar-personality-and-related-goalpipes)
+[Conclusions and future improvements](#conclusions-and-future-improvements)

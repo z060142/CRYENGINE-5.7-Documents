@@ -7,19 +7,15 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933308]
+![Image](https://www.cryengine.com/docs/static/attachments/29933308)
 
 ##
 Overview
 
 The Sandbox Editor has a built in tool for creating mini-maps. Note that Scale form needs to be installed in order to use mini-maps.
 
-[#preparing-to-create-a-mini-map](
-Preparing to Create a Mini Map
-)
-[#creating-a-minimap](
-Creating a Minimap
-)
+[Preparing to Create a Mini Map](#preparing-to-create-a-mini-map)
+[Creating a Minimap](#creating-a-minimap)
 
 ##
 Preparing to Create a Mini Map
@@ -104,7 +100,7 @@ Editor
 Pic1: Mini Map tab
 *
 
-[Image: /docs/static/attachments/32178863]
+![Image](https://www.cryengine.com/docs/static/attachments/32178863)
 
 After pressing the Mini Map button, a green bounding box, and a smaller blue selection box appears on the terrain. It is helpful to zoom far away from the terrain in order to see the entire area.
 
@@ -119,7 +115,7 @@ Pic2: Selected area for creating a Mini Map
 *
 
 *
-[Image: /docs/static/attachments/32178864]
+![Image](https://www.cryengine.com/docs/static/attachments/32178864)
 *
 
 To move the mini-map bounding box, click on a different section of the terrain where you want to create your mini-map.
@@ -153,7 +149,7 @@ Generate MiniMap.
 Pic3: Generating a Mini Map using the Terrain Editor
 *
 
-[Image: /docs/static/attachments/32178865]
+![Image](https://www.cryengine.com/docs/static/attachments/32178865)
 
 All the associated files (*.tif, *.dds and *.xml) will be saved in the level file name.
 

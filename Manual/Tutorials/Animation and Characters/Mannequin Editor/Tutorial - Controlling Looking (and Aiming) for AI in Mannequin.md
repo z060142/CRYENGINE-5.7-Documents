@@ -53,31 +53,25 @@ IA_PsychoDoorBreachRight_01
 You open up the preview setup for your AI (in the SDK example this one is called SDK_humanPreview.xml).
 
 Then you browse to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-FragmentID
-)
+[FragmentID](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/FragmentIDs.md)
  you want to edit in the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/15011394](
-fragment browser
-)
+[fragment browser](/docs/static/engines/cryengine-3/categories/1114113/pages/15011394)
 . In our example we use
 **
 IA_PsychoDoorBreachRight_01 (not available in SDK)
 **
 
-[Image: /docs/static/attachments/23998534]
+![Image](https://www.cryengine.com/docs/static/attachments/23998534)
 
 Click on the button called '
 **
 Edit ID…
 **
 ' to see which
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308437](
-scopes
-)
+[scopes](/docs/static/engines/cryengine-5/categories/23756816/pages/23308437)
  of the character this Fragment ID is set up to control.
 
-[Image: /docs/static/attachments/23998536]
+![Image](https://www.cryengine.com/docs/static/attachments/23998536)
 
 Above is how this typically looks like. Look for the Scopes called
 **
@@ -101,7 +95,7 @@ whether or not we allow to look
 
 Which scopes we control is also visible when you open up a specific Fragment. For example:
 
-[Image: /docs/static/attachments/23998538]
+![Image](https://www.cryengine.com/docs/static/attachments/23998538)
 
 In the screenshot above the pink arrow shows that I selected the fragment "<default>", "Option 1".
 
@@ -117,13 +111,13 @@ NOT
 
 Let's go back to the Edit ID… window (to open it up just press Edit ID… again – just make sure IA_PsychoDoorBreachRight_01 or anything inside that FragmentID is selected before you do so)
 
-[Image: /docs/static/attachments/23998539]
+![Image](https://www.cryengine.com/docs/static/attachments/23998539)
 
 Un-check LookPose and Looking as in the screenshot above and press OK.
 
 Now let's look at our <default> Fragment again:
 
-[Image: /docs/static/attachments/23998540]
+![Image](https://www.cryengine.com/docs/static/attachments/23998540)
 
 Two light green tracks appeared. This shows you that you now gave up control over the LookPose and Looking scope completely. The game can now do whatever it wants on these scopes while it plays this door breach fragmentID. And the game is set up in such a way that it will, by default, start playing a
 *
@@ -151,7 +145,7 @@ where
 
 An example flowgraph setup looks like this:
 
-[Image: /docs/static/attachments/23998545]
+![Image](https://www.cryengine.com/docs/static/attachments/23998545)
 
 Here the AI will try to look at the Camera for 100 seconds.
 
@@ -238,13 +232,13 @@ we use this joint as the target. This would still be overridden by AI requests t
 
 If you want to specify exactly when looking is allowed in a fragment, we'll need to check Looking again.
 
-[Image: /docs/static/attachments/23998537]
+![Image](https://www.cryengine.com/docs/static/attachments/23998537)
 
 Only Looking needs to be checked for this (the default LookPose is typically good enough so we don't need to control the LookPose scope).
 
 Now select the fragment you want to edit and use the right-click menu on the Looking scope to add a track here:
 
-[Image: /docs/static/attachments/23998541]
+![Image](https://www.cryengine.com/docs/static/attachments/23998541)
 
 You'll notice that only 'proclayer' is allowed, we set it up such that no animations are allowed here.
 
@@ -262,12 +256,10 @@ Looking
 **
 .
 
-[Image: /docs/static/attachments/23998542]
+![Image](https://www.cryengine.com/docs/static/attachments/23998542)
 
 Now you can move this
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308430](
-procedural clip (procclip)
-)
+[procedural clip (procclip)](/docs/static/engines/cryengine-5/categories/23756816/pages/23308430)
  over to an appropriate place in the animation.
 
 Feel free to add more Looking procclips, to tweak the blendtime, or to add procclips of type '
@@ -276,7 +268,7 @@ None
 **
 ' to blend out the Looking:
 
-[Image: /docs/static/attachments/23998546]
+![Image](https://www.cryengine.com/docs/static/attachments/23998546)
 
 When you do this, you will allow looking exactly when the Looking procclip is running. Keep in mind that there still needs to be a request from AI or FlowGraph to look, just like above.
 
@@ -307,7 +299,7 @@ AnimLayer
 
 Add lookpose animation clips and None clips to specify exactly when to use which pose.
 
-[Image: /docs/static/attachments/23998543]
+![Image](https://www.cryengine.com/docs/static/attachments/23998543)
 
 Check Looping as pointed out by the pink arrow in the screenshot above to make sure the lookpose continues playing. Use a None clip to stop the lookpose.
 
@@ -321,7 +313,7 @@ both
 *
  LookPose and Looking, but again keep in mind that when you take control over the LookPose scope you will NOT get any looking if there is no LookPose specified. So in the picture below, AI or flowgraph will only be able to look in the marked region.
 
-[Image: /docs/static/attachments/23998535]
+![Image](https://www.cryengine.com/docs/static/attachments/23998535)
 
 *
 Note: A Scope_LookPose folder will appear when you re-open the CryMannequin editor. This is a side-effect of how these multiple scopes work 'under-the-hood'. As a general rule do not edit the lookpose fragment in that folder.
@@ -341,12 +333,10 @@ Looking
 LookPose
 **
  and push these automatically onto the scopes with the same name. In code, this is done in the AnimActionAILooking.cpp and AnimActionAIAiming.cpp. It will also listen to changes in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435#MannequinTagState-GlobalTagState](
-global tagstate
-)
+[global tagstate](../../../Editor%20Tools/Animation%20Tab/Mannequin%20Editor/Mannequin%20Concepts/Mannequin%20TagState.md#MannequinTagState-GlobalTagState)
  (which tags are currently active) and push new fragments when appropriate. All these fragments can be found and edited in Mannequin, should you want to. They are fragmentIDs just like the rest and can be found in the Fragments browser:
 
-[Image: /docs/static/attachments/23998544]
+![Image](https://www.cryengine.com/docs/static/attachments/23998544)
 
 You will see there are already quite a few variations set up. The cyan arrow points to a special example: we have a variation set up for LookPose when the 'Aiming' tag is set. This tag is only set when the behavior or flowgraph requests aiming, so this is a special LookPose which is picked when we are also aiming. This special lookpose only moves the head such that it doesn't interfere too much with the aimpose.
 
@@ -357,18 +347,8 @@ Tip: Feel free to add new variations where appropriate.
 Be careful as these defaults will be used during normal AI behavior.
 *
 
-[#2-basic-setup](
-2. Basic Setup
-)
-[#3-decoupling-lookinglookpose-and-requests](
-3. Decoupling Looking/LookPose and Requests
-)
-[#4-detailed-control-over-looking](
-4. Detailed Control Over Looking
-)
-[#5-detailed-control-over-lookpose](
-5. Detailed Control over LookPose
-)
-[#6-default-looking-and-lookposes](
-6. Default Looking and LookPoses
-)
+[2. Basic Setup](#2-basic-setup)
+[3. Decoupling Looking/LookPose and Requests](#3-decoupling-lookinglookpose-and-requests)
+[4. Detailed Control Over Looking](#4-detailed-control-over-looking)
+[5. Detailed Control over LookPose](#5-detailed-control-over-lookpose)
+[6. Default Looking and LookPoses](#6-default-looking-and-lookposes)

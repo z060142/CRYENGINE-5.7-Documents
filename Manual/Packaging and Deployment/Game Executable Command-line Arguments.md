@@ -11,9 +11,7 @@
 Overview
 
 Sandbox accepts most of the same command line arguments as
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605722](
-Launcher.exe
-)
+[Launcher.exe](/docs/static/engines/cryengine-3/categories/1638401/pages/1605722)
 , and also has the additional ability of loading
 *
 .cry

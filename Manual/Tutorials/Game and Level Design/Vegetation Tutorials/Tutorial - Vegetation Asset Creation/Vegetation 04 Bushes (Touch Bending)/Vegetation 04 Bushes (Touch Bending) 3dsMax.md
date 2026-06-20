@@ -12,7 +12,7 @@ Overview
 
 This page will cover the 3dsMax pipeline for getting vegetation assets with touch bending into CRYENGINE.
 
-[Image: /docs/static/attachments/24157167]
+![Image](https://www.cryengine.com/docs/static/attachments/24157167)
 
 *
 Pic1: Touch Bending in action (with physics debug info displayed: F10 or p_draw_helper=1)
@@ -24,9 +24,7 @@ Tutorial Files
 Source 3dsMax scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25523839](
-GameSDK_vegtut04_files.zip
-)
+[GameSDK_vegtut04_files.zip](/docs/static/attachments/25523839)
 **
 
 ##
@@ -35,24 +33,16 @@ Prerequisites for this Tutorial
 Before you continue with this tutorial, make sure to have read and understood the following;
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963469](
-How to Install CryMaxTools
-)
+[How to Install CryMaxTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-The Basic CRYENGINE 3dsMax Workflow
-)
+[The Basic CRYENGINE 3dsMax Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-3dsMax Unit Scale to Match up With CRYENGINE Unit System
-)
+[3dsMax Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Helpful Information
@@ -121,7 +111,7 @@ To begin with, we save our 3dsMax scene to this location. All our exported asset
 
 We will continue with the assumption that you have already created the asset, since this is not a 3dsMax modeling tutorial. We will begin with preparing the asset ready for CRYENGINE, assigning SubIds to the relevant polygons and configuring the material.
 
-[Image: /docs/static/attachments/24157169]
+![Image](https://www.cryengine.com/docs/static/attachments/24157169)
 
 *
 Pic2: 3dsMax overview of the finished model including the visible and no-collide mesh
@@ -196,7 +186,7 @@ Your_Project
 `
 objects\natural\bushes\ground_cover_fern\ground_cover_fernbush_ddna.tif>
 `
-[Image: /docs/static/attachments/24157146]
+![Image](https://www.cryengine.com/docs/static/attachments/24157146)
 
 *
 Pic3: Leaves SubId1 "Shader Basic Parameters"
@@ -263,7 +253,7 @@ Physical Proxy (No Collide)
 **
 , this does not block the player, it detects if something is inside.
 *
-[Image: /docs/static/attachments/24157170]
+![Image](https://www.cryengine.com/docs/static/attachments/24157170)
 
 Pic4: tb_proxy SubId2 "Shader Basic Parameters" setup
 *
@@ -343,7 +333,7 @@ tutorial_touch_bending.mtl
 **
 `
 *
-[Image: /docs/static/attachments/24157159]
+![Image](https://www.cryengine.com/docs/static/attachments/24157159)
 
 Pic5: Selecting the correct material for the texture export
 *
@@ -377,13 +367,13 @@ modifier
  to adjust its UV shell to only fit around one of the leaves on the texture.
 
 *
-[Image: /docs/static/attachments/24157143]
+![Image](https://www.cryengine.com/docs/static/attachments/24157143)
 
 Pic6: Geometry of one leaf of the bush
 
 *
 
-[Image: /docs/static/attachments/24157171]
+![Image](https://www.cryengine.com/docs/static/attachments/24157171)
 
 *
 Pic7: UV Layout of the leaf in 3dsMax. Note the leaf UVs matching the underlying texture
@@ -394,7 +384,7 @@ Adding the Helper Dummies
 
 Before we continue creating the rest of the plant by duplicating this leaf over and over, we will add on our helper dummy objects to the geometry. You can also add the dummy helpers at the end once the bush geometry is complete.
 
-[Image: /docs/static/attachments/24157144]
+![Image](https://www.cryengine.com/docs/static/attachments/24157144)
 
 *
 Pic8: Adding the helper dummies (Branch1_1, 1_2, 1_3) via vertex snapping to the geometry
@@ -466,7 +456,7 @@ Linking the Dummies to the Parent Object
 
 The dummies are simply linked directly to the parent node (the geometry in this case).
 
-[Image: /docs/static/attachments/24157168]
+![Image](https://www.cryengine.com/docs/static/attachments/24157168)
 
 *
 Pic9: Schematic view of the assets hierarchy
@@ -478,7 +468,7 @@ Duplicate the Leaf to Build the Bush
 With the leaf selected i
 n element edit mode; detach and make a clone of the geometry. Use the rotate, position and scale tools to add variation to the structure of the bush. Repeat enough times to make the object look realistic.
 
-[Image: /docs/static/attachments/24157160]
+![Image](https://www.cryengine.com/docs/static/attachments/24157160)
 
 *
 Pic10: Cloning the leaf geometry to make another copy using the "Detach" tool
@@ -521,7 +511,7 @@ Click
 OK
 **
  to confirm.
-[Image: /docs/static/attachments/24157161]
+![Image](https://www.cryengine.com/docs/static/attachments/24157161)
 
 *
 Pic11: Final leaf layout with the original leaf selected (red)
@@ -549,7 +539,7 @@ Since we only created 1 bone chain (
 Branch1_*
 **
 ) but the UV layout of all the copied geometry is in exactly the same space, the other leaves inherit the the bone chain setups since the UV coordinates share the same UV space.
-[Image: /docs/static/attachments/24157165]
+![Image](https://www.cryengine.com/docs/static/attachments/24157165)
 
 *
 Pic12: Overview of the 3dsMax setup
@@ -588,7 +578,7 @@ At the moment every leaf element is of the same size, but with different positio
 
 If we do not change the UV layout between different leaf elements, we can still change the shape of the individual leaves.
 
-[Image: /docs/static/attachments/24157132]
+![Image](https://www.cryengine.com/docs/static/attachments/24157132)
 
 *
 Pic13: Modified geometry but keeping the same UV layout
@@ -618,7 +608,7 @@ Even with all these different modifications that we have applied to the leaves, 
 *
 
 *
-[Image: /docs/static/attachments/24157134]
+![Image](https://www.cryengine.com/docs/static/attachments/24157134)
 
 *
 Pic14: Extra leaves with modified geometry, while still inheriting the Branch setup. (visualized with the physics debug CVar p_draw_helpers=1.)
@@ -699,7 +689,7 @@ ic15
 *
 )
 
-[Image: /docs/static/attachments/24157162]
+![Image](https://www.cryengine.com/docs/static/attachments/24157162)
 
 *
 Pic15: Setting the tb_proxy to use SubId2
@@ -722,7 +712,7 @@ Tweaking the Pivot Location
 
 To help the bush fit into the scene when we add the vegetation object to a level, it is recommended to move the pivot up slightly so the base of the plant (actually sits underneath the terrain). This avoids the possibility of seeing the bottom of the bush hovering in the air.
 
-[Image: /docs/static/attachments/24157164]
+![Image](https://www.cryengine.com/docs/static/attachments/24157164)
 
 *
 Pic16: Adjusting the pivot to sit higher in the asset
@@ -734,7 +724,7 @@ Adding Additional Branches for Touch Bending
 When you need an additional, different looking leaf by covering its UV shell on one of the other leaves in the texture, you can apply
 an additional six variations on this one texture.
 
-[Image: /docs/static/attachments/24157135]
+![Image](https://www.cryengine.com/docs/static/attachments/24157135)
 
 *
 Pic17: Source Diffuse texture
@@ -751,7 +741,7 @@ not
 Branch1_*
 **
  bone setup.
-[Image: /docs/static/attachments/24157138]
+![Image](https://www.cryengine.com/docs/static/attachments/24157138)
 
 *
 Pic18: Moving the UV shells of some of the leaves to a new location on the texture
@@ -793,7 +783,7 @@ Branch2_3
 *
 ) and make sure to vertex snap them to a local vertex.
 
-[Image: /docs/static/attachments/24157139]
+![Image](https://www.cryengine.com/docs/static/attachments/24157139)
 
 *
 Pic19: Overview of the two Branch setups, explorer, UV editor, 3d view
@@ -825,7 +815,7 @@ branch*_*
 **
  setup since they do not share the same UV space as the others and are just planes of geometry that are not physicalized.
 Try to keep the non-physicalized leaves closer to the ground so their non-interactivity is hidden under the physicalized ones. This way it's less noticeable.
-[Image: /docs/static/attachments/24157145]
+![Image](https://www.cryengine.com/docs/static/attachments/24157145)
 
 *
 Pic20: 3 leaf variations, branch1_*, branch2_* and a third set that is not associated with a branch
@@ -866,7 +856,7 @@ Press the
 Export Nodes
 **
  button.
-[Image: /docs/static/attachments/24157142]
+![Image](https://www.cryengine.com/docs/static/attachments/24157142)
 
 *
 Pic21: Adding the asset to the exporter
@@ -879,28 +869,12 @@ We have now finished the setup for the 3dsMax portion of the tutorial. To contin
 
 -
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285900](
-Vegetation 04 Bushes (Touch Bending) CRYENGINE
-)
+[Vegetation 04 Bushes (Touch Bending) CRYENGINE](Vegetation%2004%20Bushes%20(Touch%20Bending)%20CRYENGINE.md)
 **
-[#tutorial-files](
-Tutorial Files
-)
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-3dsmax-setup](
-Initial 3dsMax setup
-)
-[#material](
-Material
-)
-[#geometry](
-Geometry
-)
-[#continue-to-cryengine](
-Continue to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Helpful Information](#helpful-information)
+[Initial 3dsMax setup](#initial-3dsmax-setup)
+[Material](#material)
+[Geometry](#geometry)
+[Continue to CRYENGINE](#continue-to-cryengine)

@@ -18,13 +18,13 @@ To show comments in game, go to the console and type cl_comment 1.
 
 This is a comment in the editor:
 
-[Image: /docs/static/attachments/36849623]
+![Image](https://www.cryengine.com/docs/static/attachments/36849623)
 
 And this is what a comment looks like in the game:
 
-[Image: /docs/static/attachments/36849622]
+![Image](https://www.cryengine.com/docs/static/attachments/36849622)
 
-[Image: /docs/static/attachments/36849621]
+![Image](https://www.cryengine.com/docs/static/attachments/36849621)
 
 Parameter
 

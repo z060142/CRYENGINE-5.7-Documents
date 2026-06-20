@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Particle Effect Features](Particle Editor/Particle Effect Features.md)
-- [Creating a Particle Effect](Particle Editor/Creating a Particle Effect.md)
-- [Particle Presets Library](Particle Editor/Particle Presets Library.md)
+- [Particle Effect Features](Particle%20Editor/Particle%20Effect%20Features.md)
+- [Creating a Particle Effect](Particle%20Editor/Creating%20a%20Particle%20Effect.md)
+- [Particle Presets Library](Particle%20Editor/Particle%20Presets%20Library.md)
 
 ## Content
 
@@ -38,20 +38,18 @@ New → Particle
 from the context menu.
 
 For more information about the particle effect creation workflow, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869022](
-Creating a Particle Effect
-)
+[Creating a Particle Effect](Particle%20Editor/Creating%20a%20Particle%20Effect.md)
  page.
 
 By default, the Particle Editor layout consists of the following panels:
 
-[Image: /docs/static/attachments/44957938]
+![Image](https://www.cryengine.com/docs/static/attachments/44957938)
 
 ##
 1. The Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44105939]
+![Image](https://www.cryengine.com/docs/static/attachments/44105939)
  icon on the top-right corner of the Particle Editor. When clicked, it reveals the following options:
 
 ##
@@ -139,9 +137,7 @@ Show Effect Options
 Displays the Effect Options on the Inspector panel instead of Properties.
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945#ParticleEditor-effecto](
-Effect Options
-)
+[Effect Options](Particle%20Editor.md#ParticleEditor-effecto)
  for a more detailed explanation.
 
  |
@@ -170,9 +166,7 @@ Import...
 
  |
 Imports an existing Pfx1 effect from the Particle Editor Tab in the Database View tool directly into the Particle Editor System. For more information about the Pfx1 effects, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868751](
-Particles Tab (Legacy Particle Editor)
-)
+[Particles Tab (Legacy Particle Editor)](DataBase%20View/Particles%20Tab%20(Legacy%20Particle%20Editor).md)
 .
 
  |
@@ -308,7 +302,7 @@ Effect -
 **
 **
 Toggles the
-[Image: /docs/static/attachments/44960495]
+![Image](https://www.cryengine.com/docs/static/attachments/44960495)
 **
 **
  part of the toolbar on and off.
@@ -323,7 +317,7 @@ Toggles the
 Library -
 **
 Toggles the
-[Image: /docs/static/attachments/44960496]
+![Image](https://www.cryengine.com/docs/static/attachments/44960496)
  part of the toolbar on and off
  |
 
@@ -393,7 +387,7 @@ Opens the documentation page for this tool.
 
 When the Particle Editor is opened for the first time, the default Toolbar below is displayed:
 
-[Image: /docs/static/attachments/44960499]
+![Image](https://www.cryengine.com/docs/static/attachments/44960499)
 
 Button
 
@@ -456,9 +450,7 @@ Opens the Effect Options. See
 **
 
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945#ParticleEditor-effecto](
-Effect Options
-)
+[Effect Options](Particle%20Editor.md#ParticleEditor-effecto)
  below for a more detailed explanation.
 
  |
@@ -469,12 +461,10 @@ Effect Options
 Tool-specific Asset Browser panels let users view and edit the assets within the tool that is currently being used. Unlike the stand-alone Asset Browser tool, the assets that are displayed on this panel are pre-filtered by default; meaning it only displays the assets that are relative to the tool itself.
 
 Menu options and their functionalities on both the stand-alone and the tool-specific Asset Browsers are the same and they can be used to achieve the same goal. For more information about the Asset Browser Menu options, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
-Asset Browser
-)
+[Asset Browser](Asset%20Browser.md)
  page.
 When the Sync Selection
-[Image: /docs/static/attachments/44957941]
+![Image](https://www.cryengine.com/docs/static/attachments/44957941)
  button in the toolbar is active, selecting a different asset in a tool-specific Asset Browser will instantly open it. This button makes it very easy to cycle through different assets and edit them on the fly.
 
 ##
@@ -483,9 +473,7 @@ When the Sync Selection
 The Effect Graph is the default editing panel on which users can modify existing particle effects or create a new one from scratch; it is a node based panel where users can view and edit components, their parent-child relationships and the particle effect features.
 
 If a tree-based layout is preferred, the Effect Tree panel can be used to edit and create particle effects instead. For more information, see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945#ParticleEditor-EffectTree](
-Effect Tree
-)
+[Effect Tree](Particle%20Editor.md#ParticleEditor-EffectTree)
  section on this page.
 
 Button
@@ -498,7 +486,7 @@ Description
 
  |
 
-[Image: /docs/static/attachments/36846786]
+![Image](https://www.cryengine.com/docs/static/attachments/36846786)
 
  |
 **
@@ -510,7 +498,7 @@ By double clicking, users can edit the component's name.
 
  |
 
-[Image: /docs/static/attachments/44106087]
+![Image](https://www.cryengine.com/docs/static/attachments/44106087)
 
  |
 **
@@ -522,7 +510,7 @@ Enables or disables the component. Disabled components are not processed by CRYE
 
  |
 
-[Image: /docs/static/attachments/44106104]
+![Image](https://www.cryengine.com/docs/static/attachments/44106104)
 
  |
 **
@@ -533,14 +521,12 @@ Visible/Invisible
 Makes the component either visible or invisible. Particles in an invisible component are hidden, but are still simulated. Best used on parent components that are not supposed to be visible, but need to be visible while editing.
 
 For more information about parent-child relationships, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-SecondGen
-)
+[SecondGen](Particle%20Editor/Particle%20Effect%20Features/SecondGen.md)
 .
 
  |
 
-[Image: /docs/static/attachments/44106103]
+![Image](https://www.cryengine.com/docs/static/attachments/44106103)
 
  |
 **
@@ -609,7 +595,7 @@ however,
  if a single feature is selected, only the properties of that specific feature will be displayed instead.
 
 Clicking the
-[Image: /docs/static/attachments/44957993]
+![Image](https://www.cryengine.com/docs/static/attachments/44957993)
  button on the Inspector panel locks the currently displayed feature parameters and makes sure that the Inspector panel content doesn't change even when another feature is selected.
 
 ##
@@ -618,7 +604,7 @@ Effect Options
 The Effect Options button lets you add Attributes to the currently selected particle effect.
 
 Effect options can be displayed by clicking on the
-[Image: /docs/static/attachments/44106102]
+![Image](https://www.cryengine.com/docs/static/attachments/44106102)
  button on the Effect Toolbar.
 
 ##
@@ -630,37 +616,27 @@ They can, for instance, be used;
 
 -
 In the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868260#Component-activeif](
-Component: ActiveIf
-)
+[Component: ActiveIf](Particle%20Editor/Particle%20Effect%20Features/Component.md#Component-activeif)
  and
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868260#Component-enableif](
-Component: EnableIf
-)
+[Component: EnableIf](Particle%20Editor/Particle%20Effect%20Features/Component.md#Component-enableif)
  Features to enable or disable a certain Component.
 
 -
 As a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-attribute](
-Modifier
-)
+[Modifier](Particle%20Editor/Particle%20Effect%20Features/Modifiers.md#Modifiers-attribute)
  to linearly scale a property's value.
 
 -
 As a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151#Modifiers-attributedomain](
-Domain
-)
+[Domain](Particle%20Editor/Particle%20Effect%20Features/Modifiers.md#Modifiers-attributedomain)
  in an applicable Modifier, acting as the input for the Modifier function, scaling the property's value by the function output.
 When used in conjunction with other systems, e.g.
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450622](
-Flow Graph
-)
+[Flow Graph](Flow%20Graph/Flow%20Graph%20Node%20Reference/Particle%20Nodes.md)
  nodes, Attributes can work in line with in-game events, influencing the property to which it's attached in a certain way, at a certain time.
 
 *
-[Image: /docs/static/attachments/44106089]
+![Image](https://www.cryengine.com/docs/static/attachments/44106089)
 
 *
 
@@ -669,7 +645,7 @@ To add an Attribute to the particle effect, click the
 Attributes
 **
 
-[Image: /docs/static/attachments/69468512]
+![Image](https://www.cryengine.com/docs/static/attachments/69468512)
 dropdown button and select
 **
 Insert
@@ -685,7 +661,7 @@ To remove all Attributes, choose the
 Remove All
 **
  option from the
-[Image: /docs/static/attachments/69468512]
+![Image](https://www.cryengine.com/docs/static/attachments/69468512)
  dropdown menu displayed in the image above.
 
 To remove Attributes individually, right-click one, and choose
@@ -694,7 +670,7 @@ Remove
 **
 .
 
-[Image: /docs/static/attachments/44106090]
+![Image](https://www.cryengine.com/docs/static/attachments/44106090)
 
 Effects can have any number of custom attributes. Each attribute can have the following properties:
 
@@ -770,9 +746,7 @@ After enabling Minimum and/or Maximum Value options, user can set the parameters
  |
 
 When a new Attribute is added to the particle effect, it appears in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36866220](
-Properties
-)
+[Properties](Level%20Editor%20Tab/Properties.md)
 panel, under the Emitter Attributes section, where each Attribute is listed along with a value field or a check box, depending on its value type.
 
 Value changes made in the Properties panel are applied
@@ -782,9 +756,7 @@ selected
  instance of the particle effect.
 
 To change the value of an Attribute in all instances of a particle effect, modify its value in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945#ParticleEditor-effecto](
-Effect Options
-)
+[Effect Options](Particle%20Editor.md#ParticleEditor-effecto)
 .
 
 The
@@ -793,9 +765,7 @@ button lets you revert an Attribute to its default value, which is by default
 0
 **
 , or it can be set in the Particle Editor's
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945#ParticleEditor-effecto](
-Effect Options
-)
+[Effect Options](Particle%20Editor.md#ParticleEditor-effecto)
 .
 
 Different
@@ -805,9 +775,7 @@ Different
 Types can be converted into each other. For example, if a modifier expects an attribute of float type, but a color is assigned to it, then the attribute is first converted into a float based value on color brightness. If a modifier is expecting a color attribute, but a boolean attribute is assigned, then the attribute turns either black or white.
 
 For more information about how to use attributes in an effect, please see
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Particle%20Editor/Particle%20Effect%20Features/Modifiers.md)
 .
 
 ##
@@ -816,45 +784,35 @@ Properties
 When a feature is selected, its properties can be modified on the Inspector panel. This allows users to create various effects for the particles they use.
 
 For a detailed information about individual feature properties, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-Particle Effect Features
-)
+[Particle Effect Features](Particle%20Editor/Particle%20Effect%20Features.md)
 .
 
 ##
 6. Curve Editor
 
 The Curve Editor can be used to tweak certain properties much in the same way that users can in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/56658466](
-Environment Editor
-)
+[Environment Editor](Environment%20Editor.md)
 . It
  shows the progression of the values for the selected feature over the course of a specific time and how gradually they change. It is especially useful when time-based periodic changes are envisioned for a particle effect.
 
 In order to edit the particle effect features on the Curve Editor panel,
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869028](
-Color Modifiers
-)
+[Color Modifiers](Particle%20Editor/Particle%20Effect%20Features/Modifiers/Color%20Modifiers.md)
  or a feature with the Curve or the Double Curve modifier should be selected.
 
 For more information about Curve and Double Curve modifiers, see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Particle%20Editor/Particle%20Effect%20Features/Modifiers.md)
  page.
 
 For more information about Features that support modifiers, refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868779](
-Particle Effect Features
-)
+[Particle Effect Features](Particle%20Editor/Particle%20Effect%20Features.md)
 .
 
-[Image: /docs/static/attachments/44106091]
+![Image](https://www.cryengine.com/docs/static/attachments/44106091)
 
 ##
 Curve Editor Toolbar
 
-[Image: /docs/static/attachments/44106086]
+![Image](https://www.cryengine.com/docs/static/attachments/44106086)
 
 Curve Editor Toolbar lets users modify the curves and give them certain properties. It consists of the following options:
 
@@ -1038,7 +996,7 @@ Effect Tree
 **
 .
 
-[Image: /docs/static/attachments/44106118]
+![Image](https://www.cryengine.com/docs/static/attachments/44106118)
 
 The Effect Tree panel has two different sub-panels: the Component Tree
 **
@@ -1080,9 +1038,7 @@ Add Component
 .
 
 For more information about preset components, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945#ParticleEditor-ContextMenu](
-Context Menu
-)
+[Context Menu](Particle%20Editor.md#ParticleEditor-ContextMenu)
  section.
 
  |
@@ -1103,9 +1059,7 @@ Add Child Component
 .
 
 For more information about preset components, please see the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867945#ParticleEditor-ContextMenu](
-Context Menu
-)
+[Context Menu](Particle%20Editor.md#ParticleEditor-ContextMenu)
  section.
 
  |
@@ -1236,24 +1190,10 @@ Features can be enabled or disabled by clicking on the checkbox next to the name
 
 The list hierarchy of the features can be reorganized by dragging and dropping it to the desired position.
 
-[#1-the-menu](
-1. The Menu
-)
-[#2-toolbar](
-2. Toolbar
-)
-[#3-asset-browser](
-3. Asset Browser
-)
-[#4-effect-graph](
-4. Effect Graph
-)
-[#5-inspector](
-5. Inspector
-)
-[#6-curve-editor](
-6. Curve Editor
-)
-[#effect-tree](
-Effect Tree
-)
+[1. The Menu](#1-the-menu)
+[2. Toolbar](#2-toolbar)
+[3. Asset Browser](#3-asset-browser)
+[4. Effect Graph](#4-effect-graph)
+[5. Inspector](#5-inspector)
+[6. Curve Editor](#6-curve-editor)
+[Effect Tree](#effect-tree)

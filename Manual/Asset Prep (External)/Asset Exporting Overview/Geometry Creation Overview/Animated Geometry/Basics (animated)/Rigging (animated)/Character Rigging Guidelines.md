@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934056]
+![Image](https://www.cryengine.com/docs/static/attachments/29934056)
 
 ##
 Basic Understanding
@@ -17,13 +17,9 @@ This tutorial is designed to outline the rules and guidelines for rigging charac
 Biped
 **
 , please go to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307988](
-Biped Rigging
-)
+[Biped Rigging](Biped%20Rigging.md)
  tutorial, and if you are interested in character physics authoring, go to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307978](
-Ragdoll
-)
+[Ragdoll](../Physics%20(animated)/Ragdoll.md)
 .
 
 This tutorial is for people who are building new rigs, or troubleshooting.
@@ -94,9 +90,7 @@ The Character must have a proper phys mesh.
 
 -
 Refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307978](
-Ragdoll
-)
+[Ragdoll](../Physics%20(animated)/Ragdoll.md)
  for information on setting up phys meshes.
 **
 The character must have the proper LODs:

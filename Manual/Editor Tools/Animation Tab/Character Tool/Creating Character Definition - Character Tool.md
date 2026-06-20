@@ -138,9 +138,7 @@ Save
 
 -
 If you haven't imported your animations yet follow these steps:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450427](
-Animation Import
-)
+[Animation Import](Animation%20Import%20-%20Character%20Tool.md)
 .
 
 -
@@ -186,9 +184,7 @@ folder
 Geometry
 **
  parameter to locate the SKIN file. You can read more on attachments here:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869398](
-Character Attachments
-)
+[Character Attachments](Character%20Attachments%20-%20Character%20Tool.md)
 .
 
 -

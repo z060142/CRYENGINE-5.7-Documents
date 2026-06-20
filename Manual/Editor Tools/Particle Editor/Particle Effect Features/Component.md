@@ -13,9 +13,7 @@ Overview
 The Component category contains features which dynamically manipulate the component behavior as opposed to individual particles in that component. With this feature, particles can be activated based on certain conditions and probabilities.
 
 To fully understand this category, it is recommended to study the difference between Component, Feature, Runtime and Emitter concepts on the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26217391](
-Key Concepts
-)
+[Key Concepts](../../../Graphics%20%26%20Rendering/Particles/Key%20Concepts.md)
  section
 .
 
@@ -172,15 +170,7 @@ Enables the option to add an attribute that specifies a condition needed for a p
 
 The main difference between EnableIf and SpawnIf is that ActivateIf is evaluated during instantiation of the Emitter and will not create the Runtime. This saves on resources, but does not allow changing the condition dynamically. ActivateIf, on the other hand, will create a Runtime regardless of the condition. This makes ActivateIf a dynamic feature.
 
-[#activateif](
-ActivateIf
-)
-[#activaterandom](
-ActivateRandom
-)
-[#enablebyconfig](
-EnableByConfig
-)
-[#enableif](
-EnableIf
-)
+[ActivateIf](#activateif)
+[ActivateRandom](#activaterandom)
+[EnableByConfig](#enablebyconfig)
+[EnableIf](#enableif)

@@ -10,31 +10,22 @@
 In this tutorial we will walk you through the process of installing Microsoft Visual Studio with the required components necessary to be able to build CRYENGINE projects and the engine itself along with the Sandbox editor. Topics covered:
 
 -
-[https://www.youtube.com/watch?v=BRqz4I2DtlI&t=17s](
-00:17
-)
+[00:17](https://www.youtube.com/watch?v=BRqz4I2DtlI&t=17s)
  Choosing Your Visual Studio Version
 
 -
-[https://www.youtube.com/watch?v=BRqz4I2DtlI&t=51s](
-00:51
-)
+[00:51](https://www.youtube.com/watch?v=BRqz4I2DtlI&t=51s)
  Choosing Components to Install
 
 -
-[https://www.youtube.com/watch?v=BRqz4I2DtlI&t=74s](
-01:14
-)
+[01:14](https://www.youtube.com/watch?v=BRqz4I2DtlI&t=74s)
  Selecting a Required Component for Sandbox
 
 -
-[https://www.youtube.com/watch?v=BRqz4I2DtlI&t=96s](
-01:36
-)
+[01:36](https://www.youtube.com/watch?v=BRqz4I2DtlI&t=96s)
  Choosing the Correct Windows SDK Component
 
 -
-[https://www.youtube.com/watch?v=BRqz4I2DtlI&t=166s](
-02:46
-)
+[02:46](https://www.youtube.com/watch?v=BRqz4I2DtlI&t=166s)
  Starting Visual Studio for the First Time
+[Embed: https://www.youtube.com/watch?v=BRqz4I2DtlI&list=PLpCgy91Y5vMseqbcMTFRd7hfvT_1GyWKO&index=2]

@@ -54,9 +54,7 @@ Scripts/AI/
 *
 folder.
 
-[/docs/static/attachments/44970382](
-Navigation.xml
-)
+[Navigation.xml](/docs/static/attachments/44970382)
 
 The
 *
@@ -234,10 +232,10 @@ Example
 
 ```
 
-[Image: /docs/static/attachments/44966077]
+![Image](https://www.cryengine.com/docs/static/attachments/44966077)
 
  |
-[Image: /docs/static/attachments/44966076]
+![Image](https://www.cryengine.com/docs/static/attachments/44966076)
 
  |
 
@@ -444,7 +442,7 @@ The following is an example of how Area Types and Flags can be configured:
 
 ```
 
-[Image: /docs/static/attachments/44966074]
+![Image](https://www.cryengine.com/docs/static/attachments/44966074)
 
 *
 NavMesh marked with special Area Types
@@ -516,13 +514,11 @@ Example
 
 If we take the level shown in the
 *
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44961796#NavigationConfiguration-Types](
-NavMesh marked with special Area Types
-)
+[NavMesh marked with special Area Types](Navigation%20Configuration.md#NavigationConfiguration-Types)
 *
  image above, and block the bottom entrance with a fallen tree, no NavMesh will be generated there because the space between the terrain and the tree isn't large enough for an AI character to pass through.
 
-[Image: /docs/static/attachments/44966081]
+![Image](https://www.cryengine.com/docs/static/attachments/44966081)
 
 *
 Fallen tree
@@ -541,10 +537,10 @@ Since it shouldn't be a problem for a character to crouch or lay prone under it,
 
 ```
 
-[Image: /docs/static/attachments/44966082]
+![Image](https://www.cryengine.com/docs/static/attachments/44966082)
 
  |
-[Image: /docs/static/attachments/44966108]
+![Image](https://www.cryengine.com/docs/static/attachments/44966108)
 
  |
 
@@ -630,9 +626,7 @@ The smaller the voxel size, the more accurate (and expensive) the generated NavM
 Smart Object User Classes
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534290](
-Off-mesh Navigation
-)
+[Off-mesh Navigation](Off-Mesh%20Navigation.md)
 .
 
 ##
@@ -670,27 +664,15 @@ Navigation Agent Type
 **
  dropdown.
 
-[Image: /docs/static/attachments/44967940]
+![Image](https://www.cryengine.com/docs/static/attachments/44967940)
 
 *
 Navigation Agent Type
 *
 
-[#agent-types](
-Agent Types
-)
-[#triangle-annotations](
-Triangle Annotations
-)
-[#lower-height-areas](
-Lower Height Areas
-)
-[#voxels-and-units](
-Voxels and Units
-)
-[#smart-object-user-classes](
-Smart Object User Classes
-)
-[#assignment-of-a-navigation-agent-type-to-an-ai-character](
-Assignment of a Navigation Agent Type to an AI Character
-)
+[Agent Types](#agent-types)
+[Triangle Annotations](#triangle-annotations)
+[Lower Height Areas](#lower-height-areas)
+[Voxels and Units](#voxels-and-units)
+[Smart Object User Classes](#smart-object-user-classes)
+[Assignment of a Navigation Agent Type to an AI Character](#assignment-of-a-navigation-agent-type-to-an-ai-character)

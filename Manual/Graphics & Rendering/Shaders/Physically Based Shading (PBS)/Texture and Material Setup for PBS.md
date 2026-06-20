@@ -40,7 +40,7 @@ The smoothness defines how rough or glossy a surface is. A a low smoothness valu
 
 Most materials should use a smoothness map, as it allows to give a lot of variation to the shading and makes a surface look interesting. Gloss is closely related to normal maps, as high frequency details in a normal can create some feeling of roughness as well. However, gloss is more the micro-scale roughness of the material.
 
-[Image: /docs/static/attachments/44970769]
+![Image](https://www.cryengine.com/docs/static/attachments/44970769)
 
 The smoothness map is stored in the alpha channel of the normal map. If the preset
 **
@@ -254,24 +254,10 @@ N/A
 ##
 See also
 
-[#albedo-diffuse-color](
-Albedo (Diffuse Color)
-)
-[#surface-normals](
-Surface Normals
-)
-[#reflectance-specular-color](
-Reflectance (Specular Color)
-)
-[#smoothness-gloss](
-Smoothness (Gloss)
-)
-[#non-metals](
-Non-Metals
-)
-[#metals](
-Metals
-)
-[#see-also](
-See also
-)
+[Albedo (Diffuse Color)](#albedo-diffuse-color)
+[Surface Normals](#surface-normals)
+[Reflectance (Specular Color)](#reflectance-specular-color)
+[Smoothness (Gloss)](#smoothness-gloss)
+[Non-Metals](#non-metals)
+[Metals](#metals)
+[See also](#see-also)

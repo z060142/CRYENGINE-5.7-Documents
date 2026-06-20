@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Optical Flare System](Lens Flare Editor/Optical Flare System.md)
+- [Optical Flare System](Lens%20Flare%20Editor/Optical%20Flare%20System.md)
 
 ## Content
 
@@ -32,13 +32,13 @@ AttachToSun
 **
  in the Properties tool.
 
-[Image: /docs/static/attachments/36850001]
+![Image](https://www.cryengine.com/docs/static/attachments/36850001)
 
 ##
 1. Menu
 
 The Menu can be accessed via the
-[Image: /docs/static/attachments/44109258]
+![Image](https://www.cryengine.com/docs/static/attachments/44109258)
  icon on the top-right corner of the panel. When clicked, it reveals the
 
 **
@@ -68,7 +68,7 @@ Library Item Control
 ##
 Library Control
 
-[Image: /docs/static/attachments/36850006]
+![Image](https://www.cryengine.com/docs/static/attachments/36850006)
 
 Button
  |
@@ -132,7 +132,7 @@ Reloads the active library. All changes that have been made since the last save 
 ##
 Item Control
 
-[Image: /docs/static/attachments/36850007]
+![Image](https://www.cryengine.com/docs/static/attachments/36850007)
 
 Button
 
@@ -236,7 +236,7 @@ Pastes the copied item.
 
 A Lens Flare Item can contain several Lens Flare Elements, which are displayed on the Element Tree.
 
-[Image: /docs/static/attachments/36848685]
+![Image](https://www.cryengine.com/docs/static/attachments/36848685)
 
 A Lens Flare Item is a basic unit that can be attached to a light entity. When an item is selected in the Lens Flare Tree, some of the other windows such as the Element Tree, the Preview panel and the Light Entities View will be updated automatically.
 
@@ -338,7 +338,7 @@ Copies the name of the selected item to the clipboard.
 
 When a Lens Flare item is selected in the Lens Flare Tree, it will be rendered in this window. Every time a property of each element of the Lens Flare is modified, it will be reflected in the Preview window.
 
-[Image: /docs/static/attachments/36848684]
+![Image](https://www.cryengine.com/docs/static/attachments/36848684)
 
 The camera in this window can be moved by clicking and dragging the middle mouse button. Right-clicking in the window will re-focus the camera on the lens flare.
 
@@ -347,14 +347,12 @@ The camera in this window can be moved by clicking and dragging the middle mouse
 
 The Basic Set View is a set of atomic lens flare elements supplied by the engine.
 
-[Image: /docs/static/attachments/36848682]
+![Image](https://www.cryengine.com/docs/static/attachments/36848682)
 
 The objective of this view is to add an atomic lens flare element to a selected Lens Flare item. One or more of these atomic elements can be added to the Element Tree by dragging and dropping them.
 
 For detailed information about each atomic element, refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868680](
-Optical Flare System
-)
+[Optical Flare System](Lens%20Flare%20Editor/Optical%20Flare%20System.md)
  article.
 
 When a new atomic lens flare element is added to the item, it may be rendered in the Preview window. Unfortunately, some atomic elements won't be displayed at once due to
@@ -366,7 +364,7 @@ limitations
 
 The Element Tree displays all the different elements that make up the selected Lens Flare item.
 
-[Image: /docs/static/attachments/36848683]
+![Image](https://www.cryengine.com/docs/static/attachments/36848683)
 
 ##
 Context Menu
@@ -479,7 +477,7 @@ Moves the element down in the Element Tree.
 
 When an element in the Element Tree window is selected, the properties of this element will be displayed in the Properties window.
 
-[Image: /docs/static/attachments/36848681]
+![Image](https://www.cryengine.com/docs/static/attachments/36848681)
 
 Basically each type of atomic lens flare elements have their own properties defined in the engine. Each property of the selected element can be adjusted so that the flares looks exactly as desired.
 
@@ -490,7 +488,7 @@ Whenever a parameter is adjusted, the change will be displayed on the Preview pa
 
 In this window, users can display the light entities that the selected lens flare item has been assigned to the current level.
 
-[Image: /docs/static/attachments/36848680]
+![Image](https://www.cryengine.com/docs/static/attachments/36848680)
 
 When users double-click a light entity in the window, the light entity will be selected in the Viewport. If it is double-clicked again in the Light Entities Window, the camera in the Viewport will focus on that light entity.
 
@@ -564,35 +562,15 @@ When creating new flares, make sure to use the
 LensOptics
 **
  preset in the CryTif exporter when dealing with textures for the lens flare system. Using standard Diffuse preset will result in a blurry result because of unwanted mips.
-[Image: /docs/static/attachments/36848691]
+![Image](https://www.cryengine.com/docs/static/attachments/36848691)
 
-[#1-menu](
-1. Menu
-)
-[#2-toolbar](
-2. Toolbar
-)
-[#3-lens-flare-tree-window](
-3. Lens Flare Tree Window
-)
-[#4-preview](
-4. Preview
-)
-[#5-basic-set-window](
-5. Basic Set Window
-)
-[#6-element-tree-window](
-6. Element Tree Window
-)
-[#7-properties-window](
-7. Properties Window
-)
-[#8-light-entities-window](
-8. Light Entities Window
-)
-[#copycut-and-paste](
-Copy/Cut and Paste
-)
-[#troubleshooting](
-Troubleshooting
-)
+[1. Menu](#1-menu)
+[2. Toolbar](#2-toolbar)
+[3. Lens Flare Tree Window](#3-lens-flare-tree-window)
+[4. Preview](#4-preview)
+[5. Basic Set Window](#5-basic-set-window)
+[6. Element Tree Window](#6-element-tree-window)
+[7. Properties Window](#7-properties-window)
+[8. Light Entities Window](#8-light-entities-window)
+[Copy/Cut and Paste](#copycut-and-paste)
+[Troubleshooting](#troubleshooting)

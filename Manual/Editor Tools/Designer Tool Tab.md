@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Modeling](Designer Tool Tab/Modeling.md)
-- [UV Mapping](Designer Tool Tab/UV Mapping.md)
+- [Modeling](Designer%20Tool%20Tab/Modeling.md)
+- [UV Mapping](Designer%20Tool%20Tab/UV%20Mapping.md)
 
 ## Content
 
@@ -28,11 +28,7 @@ Tools -> Designer Tool
 . In this sub-menu, there are two options: Modeling and UV Mapping. We'll discuss both in separate sub-pages.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26872935](
-Modeling
-)
+[Modeling](Designer%20Tool%20Tab/Modeling.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450463](
-UV Mapping
-)
+[UV Mapping](Designer%20Tool%20Tab/UV%20Mapping.md)

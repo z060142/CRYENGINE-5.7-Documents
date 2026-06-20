@@ -11,15 +11,11 @@
 Overview
 
 Procedural Clips, as explained in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798726](
-the article on them
-)
+[the article on them](../Mannequin%20Concepts/Mannequin%20Procedural%20Clips/Procedural%20Clip%20Directory.md)
 , are clips that can be placed in fragments and allow to execute custom code in synch with the rest of the fragment.
 
 We have Procedural Clips that range all the way from playing a sound, controlling joints on a character, to procedurally aligning an entity to a location specified by the game. The current types are listed in
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29798726](
-this article
-)
+[this article](../Mannequin%20Concepts/Mannequin%20Procedural%20Clips/Procedural%20Clip%20Directory.md)
 .
 
 The main interface functions that a procedural clip offers are OnEnter(blendTime, duration, params) Update(timePassed) and OnExit(blendTime).
@@ -86,9 +82,7 @@ CRYENGINE 3.6
 Procedural Context
 
 (not to be confused with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450870](
-scope context
-)
+[scope context](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
 )
 
 Procedural Clips have a limited lifetime. By themselves they have no way to handle what to do when blending out, since after the OnExit callback they are not getting updated anymore. They also have no straightforward way to know what other Procedural Clips might be doing in other layers and resolve any conflicts between them if they should want to, or work together with other Procedural Clips to combine what they do.

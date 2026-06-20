@@ -13,9 +13,7 @@ Overview
 It is possible to use the Flow Graph to create full screen effects. This document explains the nodes and functions for making these effects.
 
 In order to reproduce the following settings in the Flow Graph, a basic understanding of the tool is required. For more information, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../Editor%20Tools/Flow%20Graph.md)
  page.
 
 ##
@@ -123,7 +121,7 @@ Math:BooleanTo
 
 Here is an example of a flowgraph that turns on/off the FilterBlur fullscreen FX with input keys:
 
-[Image: /docs/static/attachments/52593276]
+![Image](https://www.cryengine.com/docs/static/attachments/52593276)
 
 Node
 
@@ -277,9 +275,7 @@ Game specific effect, simulates nearby volumetric foggy environment.
  |
 
 Full usage information on these nodes can be found here:
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048803](
-Image Nodes
-)
+[Image Nodes](/docs/static/engines/cryengine-3/categories/1114113/pages/1048803)
 
 ##
 MaterialFX Nodes
@@ -442,7 +438,7 @@ Adjust timing, animate value
 
 This is an example Flow Graph of the impact effect of nuclear weapon.
 
-[Image: /docs/static/attachments/52593252]
+![Image](https://www.cryengine.com/docs/static/attachments/52593252)
 
 -
 Use a
@@ -513,7 +509,7 @@ Fade in Textures on Screen
 
 This is an example Flow Graph of the dirt effect on the screen, when player was near to explosion.
 
-[Image: /docs/static/attachments/52593253]
+![Image](https://www.cryengine.com/docs/static/attachments/52593253)
 
 -
 Use a
@@ -573,18 +569,8 @@ Any
 Add Node/Logic/Any
 **
  ), to gather the output textures and pick up the one to display.
-[#effect-nodes](
-Effect Nodes
-)
-[#image-nodes](
-Image Nodes
-)
-[#materialfx-nodes](
-MaterialFX Nodes
-)
-[#examples](
-Examples
-)
-[#fade-in-textures-on-screen](
-Fade in Textures on Screen
-)
+[Effect Nodes](#effect-nodes)
+[Image Nodes](#image-nodes)
+[MaterialFX Nodes](#materialfx-nodes)
+[Examples](#examples)
+[Fade in Textures on Screen](#fade-in-textures-on-screen)

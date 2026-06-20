@@ -13,9 +13,7 @@ Overview - CRYENGINE 5.5.0 Preview 2
 We are very pleased to bring you the 5.5.0 Preview 2 release. Our Dev Team have been busy improving on the first preview that was released on 20th March 2018.
 
 As always we really do welcome further feedback and comments from the CRYENGINE Community, but please can these come through our normal channels i.e. the
-[https://github.com/CRYTEK/CRYENGINE/issues](
-Github Issue Reporter
-)
+[Github Issue Reporter](https://github.com/CRYTEK/CRYENGINE/issues)
  and the .
 
 ##
@@ -40,9 +38,7 @@ CRYENGINE can still be obtained from Github as can full Sandbox Editor source co
 
 -
 Go to
-[https://github.com/CRYTEK/CRYENGINE/releases/5.5.0_preview2](
-https://github.com/CRYTEK/CRYENGINE/releases/5.5.0_preview2
-)
+[https://github.com/CRYTEK/CRYENGINE/releases/5.5.0_preview2](https://github.com/CRYTEK/CRYENGINE/releases/5.5.0_preview2)
 
 -
 **
@@ -64,18 +60,12 @@ InstallEngine.bat
 Code Interface Changes
 
 For more information. see the
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962762](
-Important CRYENGINE 5.5 Data and Code Changes
-)
+[Important CRYENGINE 5.5 Data and Code Changes](../CRYENGINE%205.5.0/Important%20CRYENGINE%205.5%20Data%20and%20Code%20Changes.md)
 .
 
 If you are updating from CRYENGINE 5.4, please read this topic:
-[/docs/static/engines/cryengine-5/categories/47316993/pages/44962763](
-Migrating from CRYENGINE 5.4 to CRYENGINE 5.5
-)
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29445533](
-.
-)
+[Migrating from CRYENGINE 5.4 to CRYENGINE 5.5](../CRYENGINE%205.5.0/Migrating%20from%20CRYENGINE%205.4%20to%20CRYENGINE%205.5.md)
+[.](/docs/static/engines/cryengine-5/categories/23756816/pages/29445533)
 
 ##
 Known Issues

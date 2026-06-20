@@ -12,7 +12,7 @@ Overview
 
 In this tutorial we will be going over the process of creating a day-night cycle using the Environment Editor inside CRYENGINE, which will serve as a good basis for most Earth like lighting scenarios. This will cover setting up a few different times of day as well as the transitions between them, while also staying within the boundaries of physically accurate lighting.
 
-[Image: /docs/static/attachments/24154263]
+![Image](https://www.cryengine.com/docs/static/attachments/24154263)
 
 *
 Pic1: Time-lapse of a full day-night cycle achieved in CRYENGINE
@@ -33,7 +33,7 @@ Tools Menu -> Environment Editor
 **
  from the list. The layout of this tool incorporates a number of different elements. On the left side we have the Presets list, under it there is the Sun orientation/angle settings and next to these there’s the list of customizable parameters. On the right side you can find the curve editing tools, the timeline at the top, a visual representation of the selected property over the course of the 24 hour cycle & under it and at the bottom, we have the Start/Current/End time values as well as controls for playing the cycle.
 
-[Image: /docs/static/attachments/24154167]
+![Image](https://www.cryengine.com/docs/static/attachments/24154167)
 
 *
 Pic2: Environment Editor Layout
@@ -137,7 +137,7 @@ r_HDREyeAdaptationMode 1
 **
 . These 2 values dramatically change the sensitivity to light so they need to be set up properly before changing any of the other parameters.
 
-[Image: /docs/static/attachments/24154168]
+![Image](https://www.cryengine.com/docs/static/attachments/24154168)
 
 *
 Pic3: Location of the Film Curve Whitepoint setting
@@ -165,7 +165,7 @@ To set this up we create a key at 05:56 and give it a blue tint ( 140, 160, 176 
 
 If you set this up correctly your preview and curves should look like this:
 
-[Image: /docs/static/attachments/24154169]
+![Image](https://www.cryengine.com/docs/static/attachments/24154169)
 
 *
 Pic4: Screenshot of the Sun Color gradient preview and curves
@@ -176,7 +176,7 @@ Sun intensity ( lux ) :
 
 This property controls the illuminance of the sun and as mentioned previously it is important to keep this close to the physically based value. A quick search on the internet comes up with an average illuminance value of 100000 lux for bright sunlight.
 
-[Image: /docs/static/attachments/24154170]
+![Image](https://www.cryengine.com/docs/static/attachments/24154170)
 
 *
 Pic5: Screenshot from the Wikipedia page containing the Illuminance values chart
@@ -194,7 +194,7 @@ Real world measurements read <1 lux values for moonlight, this number is way too
 
 Making sure the transitions between your keys are smooth your gradient and curves should look like this:
 
-[Image: /docs/static/attachments/24154171]
+![Image](https://www.cryengine.com/docs/static/attachments/24154171)
 
 *
 Pic6: Screenshot of the Sun Intensity (lux) gradient preview and curves
@@ -216,7 +216,7 @@ Sun Intensity Multiplier
 
 Change the time to 12:00 and set the intensity to 50. At 05:45 and 18:15 drop this value to 1. Create two more keys at 00:00 and 23:59 and set the value to 0. The transition from 0 to 1 gives us the effect of the sky brightening  in the area where the sun is just about to set.
 
-[Image: /docs/static/attachments/24154176]
+![Image](https://www.cryengine.com/docs/static/attachments/24154176)
 
 *
 Pic7:
@@ -227,7 +227,7 @@ Sun Intensity Multiplier
 *
 
 *
-[Image: /docs/static/attachments/24154225]
+![Image](https://www.cryengine.com/docs/static/attachments/24154225)
 
 Pic8: Screenshot taken at 05:30
 *
@@ -240,7 +240,7 @@ r_HDRdebug  1
 **
 in the console and simply look at the surface. Keep in mind that turning this on brightens the whole scene so don’t forget to turn it off once you’re done measuring your illuminance.
 
-[Image: /docs/static/attachments/24154172]
+![Image](https://www.cryengine.com/docs/static/attachments/24154172)
 
 *
 Pic9: Planes facing the sun used for measuring full sunlight/shadow illuminance
@@ -250,9 +250,7 @@ By looking directly at the surface we’re getting a reading of approximately 80
 
 In order to do that we will need to set up an Environment Probe. This handles indirect lighting effectively acting as ambient lighting that you would normally get from the sky. We won’t get into specifics about Environment Probes ( for that check the dedicated page
 **
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048591](
-Environment Probes
-)
+[Environment Probes](/docs/static/engines/cryengine-3/categories/1114113/pages/1048591)
 **
  ) but for now go to your
 **
@@ -266,7 +264,7 @@ Misc
 
 By doing this we are now getting blue tinted shadows as opposed to pure black and our lux value also jumped up to about 100000 while keeping the shadow illuminance at around 20000. A 1/5 ratio between fully lit/shadow areas is close to real world values.
 
-[Image: /docs/static/attachments/24154173]
+![Image](https://www.cryengine.com/docs/static/attachments/24154173)
 
 *
 Pic10: Top - Fully lit area lux reading, Bottom - Shadow area lux reading
@@ -283,7 +281,7 @@ The parameters that control the hue of the atmosphere are the Wavelength (R/G/B)
 
 Taken from the Wikipedia page on Diffuse Sky Radiation ( also known as Skylight ) we set these values at 650 (R), 550 (G), 450 (B).
 
-[Image: /docs/static/attachments/24154179]
+![Image](https://www.cryengine.com/docs/static/attachments/24154179)
 
 *
 Pic11: Screenshot from the Wikipedia page detailing Diffuse sky radiation
@@ -356,7 +354,7 @@ Shadow Darkening
 **
  settings that are only used to control the appearance of the fog in shadow areas. In order to enable the effect of these values VolFogShadows needs to be enabled in the Environment Panel. This is not to be confused with the Volumetric Fog in the Environment Editor which has a global influence.
 
-[Image: /docs/static/attachments/24154199]
+![Image](https://www.cryengine.com/docs/static/attachments/24154199)
 
 *
 Pic12: The Fog parameters section inside the Environment Editor
@@ -369,7 +367,7 @@ Color ( bottom )
 
 We start by setting the current time to 12:00 and assigning a light blue color ( 185, 251, 251 ). This value needs to stay consistent throughout the day and will start fading to almost black once we get close to sunset/sunrise. Create two more keys at 07:00 and 17:00 and assign the same color. After we’ve done that create a key at 06:00 and 18:00 and assign them a very dark grey color ( 13, 13, 13 ). Copy the same value to 00:00 and 23:59 to keep it constant for night time. We will be using this to create the illusion of light pollution on the horizon at night time.
 
-[Image: /docs/static/attachments/24154204]
+![Image](https://www.cryengine.com/docs/static/attachments/24154204)
 
 *
 Pic13: Color (bottom) curves setup
@@ -381,7 +379,7 @@ Set this value to 3 for mid day and gradually drop it to 0.02 towards dusk/dawn.
 
  If you are wondering why this is set so low for night time it is because of the way eye adaptation works making the fog way too strong in low light conditions.
 
-[Image: /docs/static/attachments/24154213]
+![Image](https://www.cryengine.com/docs/static/attachments/24154213)
 
 *
 Pic14: Color (bottom) multiplier curves setup
@@ -396,7 +394,7 @@ Density ( bottom )
 
 We want the amount of fog to ramp up at sunset/sunrise. To achieve this set some keys at 06:00, 07:00, 17:00 and 18:00 wih a value of 0.3 then set 3 more keys at 00:00, 12:00 and 23:59 with a value of 0.2. As always make sure you have a smooth transition from one key to another by using editing their tangents.
 
-[Image: /docs/static/attachments/24154232]
+![Image](https://www.cryengine.com/docs/static/attachments/24154232)
 
 *
 Pic15: Density (bottom)
@@ -410,7 +408,7 @@ Color ( top )
 
 This value will be very subtle as we will be setting our top density quite low. For midday assign a light blue color , slightly darker than the bottom one, let’s say 131, 183, 231. At 07:00 and 17:00 change the value to a darker blue like 51, 72, 90. With the low density we will be using this color has no impact at night time. I have created more keys at 00:00, 06:00, 18:00 and 23:59 and set the value to black, but this is entirely optional.
 
-[Image: /docs/static/attachments/24154233]
+![Image](https://www.cryengine.com/docs/static/attachments/24154233)
 
 *
 Pic16: Color (top) curves setup
@@ -430,7 +428,7 @@ Color height offset
 
 As mentioned before this value can be used to offset the height of the transition between our top and bottom colors which is not necessary for our level.
 
-[Image: /docs/static/attachments/24154234]
+![Image](https://www.cryengine.com/docs/static/attachments/24154234)
 
 *
 Pic17: The effect of Color height offset
@@ -440,7 +438,7 @@ Color ( radial )
 
 Between 08:00 and 16:00 set this color to a light yellow like 193, 158, 100. As we get closer to the ends of our timeline this should transition into a gradually darker orange. To get this result set two keys at 07:00 and 17:00 and assign them a dark yellow color like 192, 126, 49 and leave the 00:00 and 23:59 times to their default value of black. Provided you’ve set up the curves properly this should give you the orange color when the sun is right above the horizon.
 
-[Image: /docs/static/attachments/24154235]
+![Image](https://www.cryengine.com/docs/static/attachments/24154235)
 
 *
 Pic18: Color (radial) curves setup
@@ -452,7 +450,7 @@ To start with set this to 16 for mid day. The impact of the radial fog becomes m
 
 It’s probably a good time to mention that the radial fog also gets applied to the moon during night time so if we keep our multiplier at 10, as soon as the sun goes under the horizon we will get a huge orange glow for the moon. To fix this create some keys at 05:55 and 18:05 and set the value to 0. It’s possible to set this up to control the bloom for the moon but there is a dedicated section for night sky. We will go over that later on.
 
-[Image: /docs/static/attachments/24154236]
+![Image](https://www.cryengine.com/docs/static/attachments/24154236)
 
 *
 Pic19: Color (radial) multiplier
@@ -471,7 +469,7 @@ Radial lobe
 
 Same as the Radial size, set this to 0.8 at 07:00 and 17:00 respectively.
 
-[Image: /docs/static/attachments/24154237]
+![Image](https://www.cryengine.com/docs/static/attachments/24154237)
 
 *
 Pic20: Top: Radial size curve, Bottom: Radial lobe curve
@@ -481,7 +479,7 @@ Global density
 
 As mentioned previously we want our fog to be denser in the morning/evening and fade out as the sun gets higher in the sky. Set a key at 12:00 and put in a value of 0.05. To handle the smooth transition add a few more keys at 00:00, 06:00, 18:00 and 23:59 with the value of 0.1.
 
-[Image: /docs/static/attachments/24154238]
+![Image](https://www.cryengine.com/docs/static/attachments/24154238)
 
 *
 Pic21: Global density
@@ -552,13 +550,13 @@ Star intensity
 
 Set this to 0.01 for night time between 00:00 – 06:00 and 18:00 – 23:59 respectively. We want some of the stars to also be visible for a little while after the sun has risen above the horizon. To achieve this add two more keys at 06:30 and 17:30 and set the value to 0.1.
 
-[Image: /docs/static/attachments/24154239]
+![Image](https://www.cryengine.com/docs/static/attachments/24154239)
 
 *
 Pic22: Star Intensity curve setup
 *
 
-[Image: /docs/static/attachments/24154240]
+![Image](https://www.cryengine.com/docs/static/attachments/24154240)
 
 *
 Pic23: Some of the brighter stars still being visible after the sun has risen
@@ -568,7 +566,7 @@ Moon color
 
 This parameter controls the emissive color of the moon. For night time set this to a desaturated blue like 51, 58, 65. Assign this value for the whole night duration by creating the appropriate keys. For day time this will transition to a light blue color, as we want the moon to still be visible for most of the day. Create two keys at 07:00 and 17:00 and assign them the color 200, 228, 255.
 
-[Image: /docs/static/attachments/24154241]
+![Image](https://www.cryengine.com/docs/static/attachments/24154241)
 
 *
 Pic24: Moon color
@@ -605,7 +603,7 @@ Moon inner corona color – 0.01
 
 Moon outer corona color – 0.01
 
-[Image: /docs/static/attachments/24154242]
+![Image](https://www.cryengine.com/docs/static/attachments/24154242)
 
 *
 Pic25: Night time screenshot of the finished result
@@ -623,9 +621,7 @@ To enable it use the command
 e_volumetricfog 1
 **
 in the console. To insure that this (and any other cVars) will be set correctly in the game and/or in the editor, you either need to use
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605736](
-config files
-)
+[config files](/docs/static/engines/cryengine-3/categories/1638401/pages/1605736)
  or add them to your .cryproject file.
 
 Although there are some similarities between regular fog and volumetric fog, the later one has a unique set of parameters that are better suited for its functionality.
@@ -642,7 +638,7 @@ Density ( bottom )
 
 Set this to 0.5 at 00:00, 05:00, 12:00, 19:00 and 23:59 and add two more keys at 06:15 and 17:45 with a value of 0.8. Setting the tangents for these keys to get a smooth curve between them will make the fog gradually ramp up at sunset/sunrise.
 
-[Image: /docs/static/attachments/24154243]
+![Image](https://www.cryengine.com/docs/static/attachments/24154243)
 
 *
 Pic26: Density (bottom)
@@ -661,7 +657,7 @@ Global density
 
 As you probably guessed this controls the overall density of the volumetric fog.  Set the value to 0.5 for the 00:00, 05:00, 19:00, 23:59. Add another key with a value of 0.2 at 12:00.
 
-[Image: /docs/static/attachments/24154245]
+![Image](https://www.cryengine.com/docs/static/attachments/24154245)
 
 *
 Pic27:
@@ -686,7 +682,7 @@ This controls the overall fog color of the atmosphere. Set it to a light blue co
 
 For night time set this color to pure white at the 00:00, 05:55, 17:55 and 23:59 times. Same as the regular fog bottom color this is used to create the effect of light pollution at the horizon.
 
-[Image: /docs/static/attachments/24154246]
+![Image](https://www.cryengine.com/docs/static/attachments/24154246)
 
 *
 Pic28: Color (atmosphere)
@@ -700,7 +696,7 @@ Anisotropy ( atmosphere )
 
 This value can only be defined between the -1 to 1 range, however neither the minimum or the maximum values should be used as they create artifacts. Values lower than 0 will shift the fog in the opposite direction from the sun so using these is not recommended for realistic lighting scenarios. A positive value closer to 0 produces a more consistent appearance of the atmospheric fog regardless of the viewing angle in relation to the sun. The default value of 0.2 is appropriate for our scene.
 
-[Image: /docs/static/attachments/24154249]
+![Image](https://www.cryengine.com/docs/static/attachments/24154249)
 
 *
 Pic29: Anisotropy (atmosphere) going from 0.01 to 0.99 in 0.1 step
@@ -713,7 +709,7 @@ Similar to the regular fog radial color this is used to control the color of the
 
 At 12:00 set this to a light yellow color ( 199, 183, 119 ). Change this to orange ( 184, 111, 64 ) at sunset/sunrise. The effect produced by this color is also applied to the moon at night time. Since we are already controlling that through the night sky settings we will have to change this color to black at night time to completely remove the effect. Add some keys at 00:00, 05:55, 18:05 and 23:59 and assign them the color black.
 
-[Image: /docs/static/attachments/24154247]
+![Image](https://www.cryengine.com/docs/static/attachments/24154247)
 
 *
 Pic30: Color (sun radial)
@@ -731,7 +727,7 @@ Anisotropy ( atmosphere )
 **
  this value defines the dependency of the glow effect in relation to the sun position. Setting this to a positive low value makes the radial color visible even when looking away from the sun, while using negative numbers the effect will gradually shift to the opposite side of the sun. We will leave this at the default value of 0.95.
 
-[Image: /docs/static/attachments/24154250]
+![Image](https://www.cryengine.com/docs/static/attachments/24154250)
 
 *
 Pic31: Anisotropy (sun radial)
@@ -748,7 +744,7 @@ Radial blend factor
 
 This parameter enables the blending of the sun radial color with the atmospheric color and it can only be set to values between 0 and 1. Setting it to 0 effectively turns off the radial fog. We will leave this at its default value of 1.
 
-[Image: /docs/static/attachments/24154254]
+![Image](https://www.cryengine.com/docs/static/attachments/24154254)
 
 *
 Pic32: The impact of Radial blend factor
@@ -793,7 +789,7 @@ The area near to the camera is covered by ray-marching Volumetric Fog, while eve
 
 The radius of this area is controlled via the Range parameter. We will set this at 256 for the whole timeline.
 
-[Image: /docs/static/attachments/24154255]
+![Image](https://www.cryengine.com/docs/static/attachments/24154255)
 
 *
 Pic33: Range set at 64 and 256
@@ -806,7 +802,7 @@ It controls how much the sun light and any other lights get scattered by the fog
 
 Keep in mind that this parameter has a big impact on the overall illuminance of the scene so it should be used with caution.
 
-[Image: /docs/static/attachments/24154257]
+![Image](https://www.cryengine.com/docs/static/attachments/24154257)
 
 *
 Pic34: The effect of different In-Scattering
@@ -822,7 +818,7 @@ Extinction
 
 This handles the amount of light the fog will absorb making it harder for the sun light to penetrate it. Higher values will produce a thick atmosphere effect. A good use for it would be for creating an underwater scene. For our scene we will set this to 0.15 for the whole timeline.
 
-[Image: /docs/static/attachments/24154258]
+![Image](https://www.cryengine.com/docs/static/attachments/24154258)
 
 *
 Pic35: Extinction set at different values showing the effect it has on the sun light
@@ -855,7 +851,7 @@ Sun rays attenuation
 
 This value controls the attenuation of sun rays. Higher values produce shorter sun rays. Set this to 1.5 for the whole timeline.
 
-[Image: /docs/static/attachments/24154259]
+![Image](https://www.cryengine.com/docs/static/attachments/24154259)
 
 *
 Pic36: The impact of different Sun rays attenuation values
@@ -892,7 +888,7 @@ This value effectively controls the tint of the ocean surface as well as the col
 
 Set this to a blue color like 36, 67, 77 between 08:00 and 16:00 times. this will fade into a darker blue as it nears sunset/sunrise. Set two more keys with the value of 25, 36, 46 at 06:00 and 18:00. For night time we'll be using a dark desaturated green color like 55, 68, 61 so add some keys with this value at 00:00, 05:30, 18:30 and 23:59.
 
-[Image: /docs/static/attachments/24154260]
+![Image](https://www.cryengine.com/docs/static/attachments/24154260)
 
 *
 Pic37: Ocean Fog Color
@@ -932,45 +928,17 @@ Last but not least, don't forget to use the Curve Editor to set your Playback Sp
 
 At this point you should have a full day-night cycle set up to work with both Volumetric Fog and Standard Fog. Hopefully you also have a better understanding of how the Environment Editor works, allowing you to create your own unique lighting setups inside CRYENGINE.
 
-[#helpful-information](
-Helpful Information
-)
-[#curve-editor](
-Curve Editor
-)
-[#dynamic-time-of-day-and-curve-editor-settings](
-Dynamic Time of Day and Curve Editor Settings
-)
-[#initial-setup](
-Initial Setup
-)
-[#setting-up-the-sun](
-Setting up the Sun
-)
-[#sky-light](
-Sky Light
-)
-[#fog](
-Fog
-)
-[#night-sky](
-Night Sky
-)
-[#night-sky-multiplier](
-Night Sky Multiplier
-)
-[#volumetric-fog](
-Volumetric Fog
-)
-[#sun-rays-effect](
-Sun Rays Effect
-)
-[#advanced](
-Advanced
-)
-[#volumetric-clouds](
-Volumetric Clouds
-)
-[#making-time-of-day-dynamic](
-Making Time of Day Dynamic
-)
+[Helpful Information](#helpful-information)
+[Curve Editor](#curve-editor)
+[Dynamic Time of Day and Curve Editor Settings](#dynamic-time-of-day-and-curve-editor-settings)
+[Initial Setup](#initial-setup)
+[Setting up the Sun](#setting-up-the-sun)
+[Sky Light](#sky-light)
+[Fog](#fog)
+[Night Sky](#night-sky)
+[Night Sky Multiplier](#night-sky-multiplier)
+[Volumetric Fog](#volumetric-fog)
+[Sun Rays Effect](#sun-rays-effect)
+[Advanced](#advanced)
+[Volumetric Clouds](#volumetric-clouds)
+[Making Time of Day Dynamic](#making-time-of-day-dynamic)

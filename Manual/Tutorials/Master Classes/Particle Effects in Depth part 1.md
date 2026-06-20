@@ -8,3 +8,5 @@
 ## Content
 
 Senior VFX Artist Viktor Ikkes delivers part one of an in-depth three-part Master Class presentation demonstrating the particle effects system in CRYENGINE.
+
+[Embed: https://www.youtube.com/watch?v=npPlJ0npfVQ&feature=emb_imp_woyt]

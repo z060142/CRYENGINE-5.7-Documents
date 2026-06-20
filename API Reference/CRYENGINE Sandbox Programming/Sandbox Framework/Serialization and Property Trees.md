@@ -9,7 +9,7 @@
 
 Serialization is primarily used to write serializable structures to a file, but can also be used to reflect the state of any serializable object in an editable property tree.
 
-[Image: /docs/static/attachments/28257664]
+![Image](https://www.cryengine.com/docs/static/attachments/28257664)
 
 As we don't want anyone to spend time writing more code than they need, serialization and "inspectors" should be the primary means of enabling the user to edit a data structure and the bread and butter of all the tools in Sandbox.
 

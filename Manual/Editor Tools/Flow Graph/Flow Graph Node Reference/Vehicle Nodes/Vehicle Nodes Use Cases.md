@@ -17,4 +17,4 @@ Enter
 
 Player enter vehicle on spawn.
 
-[Image: /docs/static/attachments/29688099]
+![Image](https://www.cryengine.com/docs/static/attachments/29688099)

@@ -14,9 +14,7 @@ The Dynamic Response System (DRS)
  can be used when working on dialogues instead.
 
 For more information about that tool, please refer to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36870836](
-Dynamic Response System
-)
+[Dynamic Response System](../Dynamic%20Response%20System.md)
  page.
 
 ##
@@ -26,14 +24,14 @@ The Dialog Editor is used to play spoken words in CRYENGINE during normal game s
 
 The functions of the Dialog Editor can be referenced using the Flow Graph.
 
-[Image: /docs/static/attachments/44959679]
+![Image](https://www.cryengine.com/docs/static/attachments/44959679)
 
 ##
 The Dialog Editor
 
 Instead of a menu system, there are two buttons at the top of the editor.
 
-[Image: /docs/static/attachments/44959680]
+![Image](https://www.cryengine.com/docs/static/attachments/44959680)
 
 -
 **
@@ -62,11 +60,11 @@ Local Edit
 **
  will enable editing.
 
-[Image: /docs/static/attachments/44959681]
+![Image](https://www.cryengine.com/docs/static/attachments/44959681)
 
 The task menu allows access to management options for the dialog menu.
 
-[Image: /docs/static/attachments/44959682]
+![Image](https://www.cryengine.com/docs/static/attachments/44959682)
 
 -
 **
@@ -87,11 +85,11 @@ Rename:
  Brings up a rename dialog for the !DialogScript. Renaming its parent group will create or move the DialogScript to the defined group.
 The description box shows details and properties of the lines used within the !DialogScript.
 
-[Image: /docs/static/attachments/44959683]
+![Image](https://www.cryengine.com/docs/static/attachments/44959683)
 
 Underneath the description is the main panel for editing dialog lines.
 
-[Image: /docs/static/attachments/44959684]
+![Image](https://www.cryengine.com/docs/static/attachments/44959684)
 
 Setting
 
@@ -261,7 +259,7 @@ Description of the line.
 
 Dynamic Help underneath the main panel displays context sensitive help for the currently selected element of the dialog editor.
 
-[Image: /docs/static/attachments/44959685]
+![Image](https://www.cryengine.com/docs/static/attachments/44959685)
 
 ##
 Triggering a Dialog in Flow Graph
@@ -270,7 +268,7 @@ Triggering a Dialog in Flow Graph
 A simple dialog setup.
 *
 
-[Image: /docs/static/attachments/44959686]
+![Image](https://www.cryengine.com/docs/static/attachments/44959686)
 *
 
 *
@@ -498,7 +496,7 @@ Line
 **
  property of the Dialog Entity. Use the Dialog Browser to select a line of dialog.
 
-[Image: /docs/static/attachments/44959687]
+![Image](https://www.cryengine.com/docs/static/attachments/44959687)
 
 ##
 CVARS
@@ -518,15 +516,7 @@ s_GameDialogVolume:
 **
  Controls the dialog volume for game use. Default is 1, which is full volume.
 
-[#the-dialog-editor](
-The Dialog Editor
-)
-[#triggering-a-dialog-in-flow-graph](
-Triggering a Dialog in Flow Graph
-)
-[#the-dialog-browser](
-The Dialog Browser
-)
-[#cvars](
-CVARS
-)
+[The Dialog Editor](#the-dialog-editor)
+[Triggering a Dialog in Flow Graph](#triggering-a-dialog-in-flow-graph)
+[The Dialog Browser](#the-dialog-browser)
+[CVARS](#cvars)

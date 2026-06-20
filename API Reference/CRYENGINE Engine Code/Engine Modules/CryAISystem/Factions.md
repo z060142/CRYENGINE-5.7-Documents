@@ -15,13 +15,9 @@ AI use factions to determine their behavior when encountering other AI. This is 
 When an AI on the "Grunt" faction encounters an AI on the "Players" faction, the encounter will be hostile. Players encountering Civilians will be friendly, etc.
 
 Factions are set in the properties of the
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048711](
-AI entity
-)
+[AI entity](/docs/static/engines/cryengine-3/categories/1114113/pages/1048711)
 . You can also set factions via
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1048879](
-Flowgraph
-)
+[Flowgraph](/docs/static/engines/cryengine-3/categories/1114113/pages/1048879)
 .
 
 ##

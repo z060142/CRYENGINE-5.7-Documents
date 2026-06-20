@@ -26,9 +26,7 @@ One of the primary purposes of the RC is to compress textures by using the
 ResourceCompilerImage
 *
  module. All source textures are stored in the lossless TIF format and get converted to the DDS format.
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308299](
-The Export Textures with CryTIF - Photoshop
-)
+[The Export Textures with CryTIF - Photoshop](../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20CryTIF%20Plugin%20for%20Photoshop/Export%20Textures%20with%20CryTIF%20-%20Photoshop.md)
  page can be used to export a TIF file from Photoshop and open a dialog box where the meta data, like the desired compression scheme, can be chosen.
 
 The Resource Compiler is invoked from the following tools:
@@ -143,13 +141,9 @@ The Resource Compiler Dialog
 The following image shows the user interface that can be invoked with /
 userdialog
  or by using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308299](
-Export Textures with CryTIF - Photoshop
-)
+[Export Textures with CryTIF - Photoshop](../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20CryTIF%20Plugin%20for%20Photoshop/Export%20Textures%20with%20CryTIF%20-%20Photoshop.md)
  for Photoshop. The
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308299](
-Export Textures with CryTIF - Photoshop
-)
+[Export Textures with CryTIF - Photoshop](../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20CryTIF%20Plugin%20for%20Photoshop/Export%20Textures%20with%20CryTIF%20-%20Photoshop.md)
 
 documentation has more information about using a source texture (.tif) in CRYENGINE.
 
@@ -271,9 +265,7 @@ Tools/rc/rc.exe c:\temp\*.tif /refresh /wait
 ```
 
 The following is a list of useful command line arguments, specified as key-value pairs. Further details and a complete list of keys can be retrieved by using rc.exe with the /help argument (refer to the sample file,
-[/docs/static/attachments/23996360](
-RCkeys.txt.log
-)
+[RCkeys.txt.log](/docs/static/attachments/23996360)
 ).
 
 -
@@ -374,9 +366,7 @@ ResourceCompilerImage.
 Enables creation of VCloth chunk. It overwrites the MAKE_VCLOTH export setting of the CGF.
 
 This allows the CGF file to contain the information regarding the  pre-processing of the cloth-mesh by storing the metadata in the CGF file. And prevents the VCloth animation system to pre-process the cloth-mesh of a SKIN file at runtime which avoids performance drops when spawning a group of characters using the same cloth-mesh.  For more information on VCloth animation system, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530479](
-Tutorial - VCloth 2.0 Setup
-)
+[Tutorial - VCloth 2.0 Setup](../../Tutorials/Animation%20and%20Characters/Character%20Tool%20and%20Pipeline/Tutorial%20-%20VCloth%202.0%20Setup.md)
 .
 If you run
 rc.exe
@@ -562,18 +552,8 @@ Create animation databases (optional)
 
 -
 During this multiple CAF files are combined into a single DBA file, all duplicate controllers get eliminated.
-[#in-this-topic](
-In this Topic
-)
-[#presets](
-Presets
-)
-[#calling-the-rc-from-the-command-line](
-Calling the RC from the Command Line
-)
-[#common-animation-related-usage](
-Common Animation Related Usage
-)
-[#animation-compression-details](
-Animation Compression Details
-)
+[In this Topic](#in-this-topic)
+[Presets](#presets)
+[Calling the RC from the Command Line](#calling-the-rc-from-the-command-line)
+[Common Animation Related Usage](#common-animation-related-usage)
+[Animation Compression Details](#animation-compression-details)

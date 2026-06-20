@@ -26,19 +26,17 @@ Fractionalizing Objects in 3ds Max
 2.
 **
  Create a few cutter objects. Avoid objects that have no volume because these can cause a lot of mesh garbage. Make sure that the cutter objects have proper UV coordinates and material IDs. These will be used in the debris pieces. (You can use the attached
-[/docs/static/attachments/23994771](
-procutter_example.zip
-)
+[procutter_example.zip](/docs/static/attachments/23994771)
 .)
 
-[Image: /docs/static/attachments/23994762]
+![Image](https://www.cryengine.com/docs/static/attachments/23994762)
 
 **
 3.
 **
  Select the first cutter object and turn it into a ProCutter object.
 
-[Image: /docs/static/attachments/23994763]
+![Image](https://www.cryengine.com/docs/static/attachments/23994763)
 
 **
 4.
@@ -49,7 +47,7 @@ Pick Cutter Objects
 **
  and select the remaining cutter objects.
 
-[Image: /docs/static/attachments/23994764]
+![Image](https://www.cryengine.com/docs/static/attachments/23994764)
 
 **
 5.
@@ -72,14 +70,14 @@ Pick Stock Objects
 **
  (green).
 
-[Image: /docs/static/attachments/23994765]
+![Image](https://www.cryengine.com/docs/static/attachments/23994765)
 
 **
 6.
 **
  Remove the cutter object. You should have one new object per debris piece now. ProCutter will automatically copy the UV coordinates and material IDs from the cutter objects to the new faces in the debris pieces.
 
-[Image: /docs/static/attachments/23994766]
+![Image](https://www.cryengine.com/docs/static/attachments/23994766)
 
 ##
 Fractionalizing Objects in Maya
@@ -91,28 +89,28 @@ Maya does not have an exact tool to Pro Cutter but there are various ways to ach
 **
  First, load the object that you want to fractionalize in Maya.
 
-[Image: /docs/static/attachments/23994767]
+![Image](https://www.cryengine.com/docs/static/attachments/23994767)
 
 **
 2.
 **
  Create a few objects you wish to use as the "cookie cutter". Make sure that the cutter objects have proper UV coordinates and material IDs. These will be used in the debris pieces.
 
-[Image: /docs/static/attachments/23994768]
+![Image](https://www.cryengine.com/docs/static/attachments/23994768)
 
 **
 3.
 **
  Select the first cutter object and then select your main mesh.
 
-[Image: /docs/static/attachments/23994769]
+![Image](https://www.cryengine.com/docs/static/attachments/23994769)
 
 **
 4.
 **
  Next go to mesh, Booleans, then you have a few choices but in most cases you will just use intersection. You will likely need to duplicate this asset multiple times for each new piece you want to have.
 
-[Image: /docs/static/attachments/23994770]
+![Image](https://www.cryengine.com/docs/static/attachments/23994770)
 
 **
 5.
@@ -121,9 +119,5 @@ Maya does not have an exact tool to Pro Cutter but there are various ways to ach
 
 Also note that this should not be the final product, major clean up may be required depending on how your two assets are setup.
 
-[#fractionalizing-objects-in-3ds-max](
-Fractionalizing Objects in 3ds Max
-)
-[#fractionalizing-objects-in-maya](
-Fractionalizing Objects in Maya
-)
+[Fractionalizing Objects in 3ds Max](#fractionalizing-objects-in-3ds-max)
+[Fractionalizing Objects in Maya](#fractionalizing-objects-in-maya)

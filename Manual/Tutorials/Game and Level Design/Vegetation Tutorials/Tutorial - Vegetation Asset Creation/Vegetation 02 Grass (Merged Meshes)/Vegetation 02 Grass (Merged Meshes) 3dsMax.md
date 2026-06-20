@@ -15,13 +15,13 @@ In this tutorial, we will be using our Merged Mesh system and show you the proce
 Contrary to bone based setups like Touch Bending, ropes can be cheaper and get affected through the global wind and our Breeze Generation system. Large fields of grass are perfect examples to showcase this type of technology since each asset instance can be merged into bigger clusters through the merged mesh system. So for this tutorial, we will create two simple grass plane assets as a base for a dense overgrown grass field.
 
 *
-[Image: /docs/static/attachments/24157040]
+![Image](https://www.cryengine.com/docs/static/attachments/24157040)
 
 Pic1: Dense grass field affected through wind
 *
 
 *
-[Image: /docs/static/attachments/24157041]
+![Image](https://www.cryengine.com/docs/static/attachments/24157041)
 
 Pic2: 2 assets that this entire grass field contains
 *
@@ -32,9 +32,7 @@ Tutorial Files
 Source 3dsMax scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25523835](
-GameSDK_vegtut02_files.zip
-)
+[GameSDK_vegtut02_files.zip](/docs/static/attachments/25523835)
 **
 
 ##
@@ -43,24 +41,16 @@ Pre-requisites for this Tutorial
 Before you continue with this tutorial, make sure to have read and understood the following topics;
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963469](
-How to Install CryMaxTools
-)
+[How to Install CryMaxTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-The Basic CRYENGINE 3dsMax Workflow
-)
+[The Basic CRYENGINE 3dsMax Workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-3dsMax Unit Scale to Match up With CRYENGINE Unit System
-)
+[3dsMax Unit Scale to Match up With CRYENGINE Unit System](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Helpful Information
@@ -219,7 +209,7 @@ So to begin with, save your max scene to this location. All our exported assets 
 We will continue with the assumption that you have already created the asset, since this is not a 3dsMax modeling tutorial. We will begin with preparing the asset ready for CRYENGINE, assigning SubIds to the relevant polygons and configuring the material.
 
 *
-[Image: /docs/static/attachments/24157042]
+![Image](https://www.cryengine.com/docs/static/attachments/24157042)
 
 *
 Pic3: 3dsMax overview of the finished model
@@ -275,7 +265,7 @@ tutorial_merged_mesh_diff.tif
 
 *
 *
-[Image: /docs/static/attachments/24157052]
+![Image](https://www.cryengine.com/docs/static/attachments/24157052)
 
 *
 Pic3a: Shader parameters setup
@@ -361,7 +351,7 @@ tutorial_merged_mesh
 `
 *
 *
-[Image: /docs/static/attachments/24157053]
+![Image](https://www.cryengine.com/docs/static/attachments/24157053)
 
 Pic4: Select the material to export and make sure you are at the top level, not inside a SubID
 *
@@ -404,7 +394,7 @@ tutorial_merged_mesh_a
 tutorial_merged_mesh_b
 *
 *
-[Image: /docs/static/attachments/24157046]
+![Image](https://www.cryengine.com/docs/static/attachments/24157046)
 
 Pic5: Geometry of the grass patches
 *
@@ -413,7 +403,7 @@ Pic5: Geometry of the grass patches
 *
 *
 *
-[Image: /docs/static/attachments/24157047]
+![Image](https://www.cryengine.com/docs/static/attachments/24157047)
 
 Pic6: UV Layout of both grass meshes in 3dsMax. Note the grass UVs are matching the underlying texture
 *
@@ -452,7 +442,7 @@ snap
  the dummies exactly onto a vertex like the touch bending setup. You can if you want, but it is not required by the Merged Mesh system.
 
 *
-[Image: /docs/static/attachments/24157048]
+![Image](https://www.cryengine.com/docs/static/attachments/24157048)
 
 Pic7: Geometry of the grass patches with aligned dummies
 *
@@ -461,7 +451,7 @@ Next, open up the Schematic view and link both sets of dummies to their correspo
 
 *
 *
-[Image: /docs/static/attachments/24157049]
+![Image](https://www.cryengine.com/docs/static/attachments/24157049)
 
 Pic8: Schematic view of the assets hierarchy
 *
@@ -501,14 +491,14 @@ Export Nodes
 **
  button.
 *
-[Image: /docs/static/attachments/24157050]
+![Image](https://www.cryengine.com/docs/static/attachments/24157050)
 
 Pic9: Adding the asset to the exporter
 *
 
 *
 *
-[Image: /docs/static/attachments/24157051]
+![Image](https://www.cryengine.com/docs/static/attachments/24157051)
 
 Pic10: Successful export
 *
@@ -523,28 +513,12 @@ Vegetation
 **
  Tool to place down some of these Merged Mesh assets.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285892](
-Vegetation 02 Grass (Merged Meshes) CRYENGINE
-)
+[Vegetation 02 Grass (Merged Meshes) CRYENGINE](Vegetation%2002%20Grass%20(Merged%20Meshes)%20CRYENGINE.md)
 
-[#tutorial-files](
-Tutorial Files
-)
-[#pre-requisites-for-this-tutorial](
-Pre-requisites for this Tutorial
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-3dsmax-setup](
-Initial 3dsMax setup
-)
-[#material](
-Material
-)
-[#geometry](
-Geometry
-)
-[#continue-to-cryengine](
-Continue to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Pre-requisites for this Tutorial](#pre-requisites-for-this-tutorial)
+[Helpful Information](#helpful-information)
+[Initial 3dsMax setup](#initial-3dsmax-setup)
+[Material](#material)
+[Geometry](#geometry)
+[Continue to CRYENGINE](#continue-to-cryengine)

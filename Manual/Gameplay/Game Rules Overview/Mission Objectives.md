@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933292]
+![Image](https://www.cryengine.com/docs/static/attachments/29933292)
 
 ##
 Overview
@@ -16,30 +16,16 @@ Overview
 Topics
 
 After completing this tutorial, you will be able to set up an objective for use within a game level. This tutorial assumes that the reader has a basic knowledge of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450509](
-How to Use Flow Graph
-)
+[How to Use Flow Graph](../../Editor%20Tools/Flow%20Graph/How%20to%20Use%20Flow%20Graph.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308620](
-Object Placement
-)
+[Object Placement](../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Basics/Transforming%20Objects.md)
 .
 
-[#topics](
-Topics
-)
-[#how-to-create-a-custom-objective-text-for-a-level](
-How to Create a Custom Objective Text for a Level
-)
-[#example](
-Example
-)
-[#level-specific-objectivesxml](
-Level-Specific Objectives.xml
-)
-[#mission-objective-entity](
-Mission Objective Entity
-)
+[Topics](#topics)
+[How to Create a Custom Objective Text for a Level](#how-to-create-a-custom-objective-text-for-a-level)
+[Example](#example)
+[Level-Specific Objectives.xml](#level-specific-objectivesxml)
+[Mission Objective Entity](#mission-objective-entity)
 
 ##
 How to Create a Custom Objective Text for a Level
@@ -193,9 +179,7 @@ An example is shown below:
 
 Please refer to the
 **
-[/docs/static/engines/cryengine-3/categories/1638401/pages/1605694](
-UI Localization Documentation
-)
+[UI Localization Documentation](/docs/static/engines/cryengine-3/categories/1638401/pages/1605694)
 **
  for more information on the localization system.
 
@@ -271,7 +255,7 @@ For example: the Woodland level shipped with the GameSDK Sample Project contains
 Pic1:
 Objectives.xml in GameSDK Sample Project
 
-[Image: /docs/static/attachments/25506207]
+![Image](https://www.cryengine.com/docs/static/attachments/25506207)
 
 ##
 Mission Objective Entity
@@ -288,7 +272,7 @@ Entity -> Others -> MissionObjective
 *
 Pic2: Placing a mission objective entity
 
-[Image: /docs/static/attachments/25507137]
+![Image](https://www.cryengine.com/docs/static/attachments/25507137)
 
 *
 
@@ -306,15 +290,13 @@ Mission Objectives Browser
 Pic3: Mission Objective browser button
 **
 
-[Image: /docs/static/attachments/25507135]
+![Image](https://www.cryengine.com/docs/static/attachments/25507135)
 
 **
 *
 
 For more details on setting up a mission objective, refer to the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27593405](
-Gameplay Setup
-)
+[Gameplay Setup](../../Tutorials/Game%20Logic/Flow%20Graph%20Tutorials/Tutorial%20-%20Getting%20Started%20With%20Gameplay/1%20-%20Gameplay%20Setup.md)
 **
  tutorial.

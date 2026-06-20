@@ -20,7 +20,7 @@ Properties Panel Header
 The header of the properties panel is always the same, independent of the currently edited asset type.
 
 *
-[Image: /docs/static/attachments/35960129]
+![Image](https://www.cryengine.com/docs/static/attachments/35960129)
 
 *
 
@@ -29,25 +29,25 @@ Button / Option
 Description
  |
 
-[Image: /docs/static/attachments/35960149]
+![Image](https://www.cryengine.com/docs/static/attachments/35960149)
  |
 Navigate back to the previously selected asset.
 
  |
 
-[Image: /docs/static/attachments/35960148]
+![Image](https://www.cryengine.com/docs/static/attachments/35960148)
  |
 Navigate forward to the next selected asset.
 
  |
 
-[Image: /docs/static/attachments/35960147]
+![Image](https://www.cryengine.com/docs/static/attachments/35960147)
  |
 Name of the currently edited asset. The asterisk next to the file name signals that some properties have been changed and differ from what is currently stored in the disk file.
 
  |
 
-[Image: /docs/static/attachments/35960146]
+![Image](https://www.cryengine.com/docs/static/attachments/35960146)
  |
 
 -
@@ -67,7 +67,7 @@ Lock this property panel to the currently edited asset, ignoring Asset panel sel
 **
  |
 
-[Image: /docs/static/attachments/35960145]
+![Image](https://www.cryengine.com/docs/static/attachments/35960145)
  |
 Change display mode for character attachments list.
 
@@ -101,31 +101,31 @@ Outline: Left
  Split the panel vertically and display properties of the currently highlighted attachment in the right part.
  |
 
-[Image: /docs/static/attachments/35960144]
+![Image](https://www.cryengine.com/docs/static/attachments/35960144)
  |
 Undo the last property modification.
 
  |
 
-[Image: /docs/static/attachments/35960143]
+![Image](https://www.cryengine.com/docs/static/attachments/35960143)
  |
 Redo the previously undone property modification.
 
  |
 
-[Image: /docs/static/attachments/35960142]
+![Image](https://www.cryengine.com/docs/static/attachments/35960142)
  |
 Revert all changes and go back to the last saved state.
 
  |
 
-[Image: /docs/static/attachments/35960141]
+![Image](https://www.cryengine.com/docs/static/attachments/35960141)
  |
 Save all property changes.
 
  |
 
-[Image: /docs/static/attachments/35960140]
+![Image](https://www.cryengine.com/docs/static/attachments/35960140)
  |
 Show the location of the currently edited asset file in the Windows Explorer.
 
@@ -1406,9 +1406,7 @@ Defines intensity of gravity. This factor is multiplied with the gravity. This p
 
 For more information about time stepping see
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29799532#VCloth2.0-TimeStepping](
-here
-)
+[here](../../../Physics/VCloth%202.0.md#VCloth2.0-TimeStepping)
 **
 .
 
@@ -1804,9 +1802,7 @@ Debug
 *
 
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530479#Tutorial-VCloth2.0Setup-VCloth2DebugSim](
-here
-)
+[here](../../../Tutorials/Animation%20and%20Characters/Character%20Tool%20and%20Pipeline/Tutorial%20-%20VCloth%202.0%20Setup.md#Tutorial-VCloth2.0Setup-VCloth2DebugSim)
  for more information.
 
 ##
@@ -2147,30 +2143,14 @@ Related Pages
 
 For more information on how to use VCloth, check the following pages:
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29799532](
-VCloth 2.0
-)
+[VCloth 2.0](../../../Physics/VCloth%202.0.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530837](
-How To - Export VCloth from Maya to CRYENGINE
-)
+[How To - Export VCloth from Maya to CRYENGINE](../../../Physics/VCloth%202.0/How%20To%20-%20Export%20VCloth%20from%20Maya%20to%20CRYENGINE.md)
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530479](
-Tutorial - VCloth 2.0 Setup
-)
+[Tutorial - VCloth 2.0 Setup](../../../Tutorials/Animation%20and%20Characters/Character%20Tool%20and%20Pipeline/Tutorial%20-%20VCloth%202.0%20Setup.md)
 
-[#properties-panel-header](
-Properties Panel Header
-)
-[#character-properties](
-Character Properties
-)
-[#skeleton-properties](
-Skeleton Properties
-)
-[#animation-properties](
-Animation Properties
-)
-[#compression-animations](
-Compression (Animations)
-)
+[Properties Panel Header](#properties-panel-header)
+[Character Properties](#character-properties)
+[Skeleton Properties](#skeleton-properties)
+[Animation Properties](#animation-properties)
+[Compression (Animations)](#compression-animations)

@@ -155,12 +155,6 @@ For Water
 , this incorporates the wave heights of the ocean, instead of the average height value.
  |
 
-[#terrain](
-Terrain
-)
-[#water](
-Water
-)
-[#common-project-properties](
-Common Project Properties
-)
+[Terrain](#terrain)
+[Water](#water)
+[Common Project Properties](#common-project-properties)

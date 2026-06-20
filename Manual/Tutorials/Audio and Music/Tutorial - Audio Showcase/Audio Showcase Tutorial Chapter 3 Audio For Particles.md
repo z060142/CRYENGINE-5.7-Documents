@@ -20,7 +20,7 @@ chapter_03
 
 Go ahead and listen to them!
 
-[Image: /docs/static/attachments/56000745]
+![Image](https://www.cryengine.com/docs/static/attachments/56000745)
 
 *
 Fireplace
@@ -30,6 +30,8 @@ Fireplace
 FMOD Video Tutorial
 
 The FMOD workflow of this chapter is also covered in the following video:
+
+[Embed: https://www.youtube.com/watch?v=9qUtvEwRk0A&feature=youtu.be]
 
 ##
 Adding a Loop to The Fire Particle
@@ -72,14 +74,14 @@ Multi-instrument
  timeline at the center of the screen; y
 ou should see the following playlist of audio assets that make up the Event in the bottom panel.
 
-[Image: /docs/static/attachments/56000748]
+![Image](https://www.cryengine.com/docs/static/attachments/56000748)
 
 *
 Playlist
 *
 
 Click the
-[Image: /docs/static/attachments/56000733]
+![Image](https://www.cryengine.com/docs/static/attachments/56000733)
  button to have the audio files play in a loop when the Event is triggered. To make sure the Event loops properly, activate the
 **
 Async
@@ -255,7 +257,7 @@ Xfade(power)
  from the dropdown.
 The Xfade (power) crossfade on Wwise allows for a smooth crossfade between the audio files of a Container, while keeping the volume constant.
 
-[Image: /docs/static/attachments/56000744]
+![Image](https://www.cryengine.com/docs/static/attachments/56000744)
 
 *
 Transitions
@@ -419,14 +421,14 @@ The fire particle is located in the
 /Assets/Particles/Fire.pfx
 *
  folder of our project's asset directory; open it by clicking the
-[Image: /docs/static/attachments/56000732]
+![Image](https://www.cryengine.com/docs/static/attachments/56000732)
  button at the top-right corner of the Particle Editor tool window, and selecting the
 *
 Open
 *
  option.
 
-[Image: /docs/static/attachments/56000737]
+![Image](https://www.cryengine.com/docs/static/attachments/56000737)
 
 *
 Particle setup
@@ -524,7 +526,7 @@ Life Time
 Save
 **
  option from the
-[Image: /docs/static/attachments/56000732]
+![Image](https://www.cryengine.com/docs/static/attachments/56000732)
  menu of the Particle Editor, before jumping into the game to test your fire particle sound.
 
 ##
@@ -556,7 +558,7 @@ Events
 
 -
 Click the Event's Master Track
-[Image: /docs/static/attachments/56000731]
+![Image](https://www.cryengine.com/docs/static/attachments/56000731)
  to see the
 **
 Spatializer Effect
@@ -577,12 +579,7 @@ Max
  values can be set from below the curve.
 
 By default, a distance of 1 unit in FMOD translates to 1 meter on CRYENGINE. This distance factor can be changed by using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964955](
-
-**
-s_FmodDistanceFactor
-**
-)
+[s_FmodDistanceFactor](../../../Audio/Audio%20Middleware/FMOD%20Studio%20Workflow/FMOD%20Console%20Commands.md)
 **
 
 **
@@ -621,7 +618,7 @@ Event from the panel on the left onto the grid. This creates a new circle on the
 
 -
 With the position of the Event and its distance from the Listener set, the effect of different Attenuation curves and Min/Max values can be heard by double-clicking the Event circle to trigger it.
-[Image: /docs/static/attachments/56000747]
+![Image](https://www.cryengine.com/docs/static/attachments/56000747)
 
 *
 FMOD Sandbox
@@ -707,7 +704,7 @@ icon beside it, and select the
 Distance
 **
  parameter from the Select Parameter window that appears, as shown.
-[Image: /docs/static/attachments/56000746]
+![Image](https://www.cryengine.com/docs/static/attachments/56000746)
 
 *
 Select Parameter
@@ -748,7 +745,7 @@ s_FmodEnableLiveUpdate
 user.cfg
 *
  file, and restart CRYENGINE. Once the level is loaded again, turn on live updates by clicking the
-[Image: /docs/static/attachments/56000728]
+![Image](https://www.cryengine.com/docs/static/attachments/56000728)
  at the bottom of your FMOD Studio project window; set your IP address to
 *
 localhost
@@ -842,7 +839,7 @@ Particle
 Edit
 **
  button opens the Attenuation Editor as shown.
-[Image: /docs/static/attachments/56000743]
+![Image](https://www.cryengine.com/docs/static/attachments/56000743)
 
 *
 Attenuation
@@ -898,16 +895,14 @@ Attenuation settings can be previewed by pressing the
 spacebar
 **
  in the Attenuation Editor and moving the
-[Image: /docs/static/attachments/56000730]
+![Image](https://www.cryengine.com/docs/static/attachments/56000730)
 box to simulate specific distances.
 
 Test various attenuation settings and, when satisfied, generate all SoundBanks, reload the audio engine in the ACE, and jump into Game Mode to hear your changes.
 
 If you'd like to tweak the attenuation settings when in-game, set the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44965003](
-s_WwiseEnableCommSystem
-)
+[s_WwiseEnableCommSystem](../../../Audio/Audio%20Middleware/Wwise%20Workflow/Wwise%20Console%20Commands.md)
 **
  CVar to 1 in your project's
 *
@@ -918,7 +913,7 @@ user.cfg
 Connect to Remote Platform
 **
 
-[Image: /docs/static/attachments/56000729]
+![Image](https://www.cryengine.com/docs/static/attachments/56000729)
  icon at the top of your Wwise window, select your system from the Remote Connections window, and press
 **
 Connect
@@ -954,18 +949,8 @@ Conclusion
 
 Our level now contains a natural campfire sound, besides the tree movement ambient sounds we added in Chapter 01. In the next and final chapter, we'll work to create a dynamic ambience for the level by using a combination of sound layering, nested ambiences, and one shots.
 
-[#fmod-video-tutorial](
-FMOD Video Tutorial
-)
-[#adding-a-loop-to-the-fire-particle](
-Adding a Loop to The Fire Particle
-)
-[#adding-the-trigger-to-the-fire-particle](
-Adding the Trigger to the Fire Particle
-)
-[#attenuation](
-Attenuation
-)
-[#conclusion](
-Conclusion
-)
+[FMOD Video Tutorial](#fmod-video-tutorial)
+[Adding a Loop to The Fire Particle](#adding-a-loop-to-the-fire-particle)
+[Adding the Trigger to the Fire Particle](#adding-the-trigger-to-the-fire-particle)
+[Attenuation](#attenuation)
+[Conclusion](#conclusion)

@@ -128,76 +128,36 @@ Sequentializer
 
 On each [In] trigger triggers one of the connected outputs in sequential order.
 
-[Image: /docs/static/attachments/29687853]
+![Image](https://www.cryengine.com/docs/static/attachments/29687853)
 
 In this example, we're using the last output from the first Sequentializer node to open/close gates in order to activate the second Sequentializer node. This allows infinite daisy-chaining of sequential events and looped options.
 
-[Image: /docs/static/attachments/29687851]
+![Image](https://www.cryengine.com/docs/static/attachments/29687851)
 
-[Image: /docs/static/attachments/29687852]
+![Image](https://www.cryengine.com/docs/static/attachments/29687852)
 
 ##
 XOR
 
 Do logical operation on input ports and outputs result to out port. True port is triggered if the result was true, otherwise, the false port is triggered.
 
-[#and](
-AND
-)
-[#all](
-All
-)
-[#any](
-Any
-)
-[#blocker](
-Blocker
-)
-[#condition](
-Condition
-)
-[#conditioninverse](
-ConditionInverse
-)
-[#countblocker](
-CountBlocker
-)
-[#demuliplexer](
-DeMuliplexer
-)
-[#gate](
-Gate
-)
-[#indexer](
-Indexer
-)
-[#multiplexer](
-Multiplexer
-)
-[#not](
-NOT
-)
-[#noserializeonce](
-NoSerializeOnce
-)
-[#or](
-OR
-)
-[#onchange](
-OnChange
-)
-[#once](
-Once
-)
-[#randomselect](
-RandomSelect
-)
-[#randomtrigger](
-RandomTrigger
-)
-[#sequentializer](
-Sequentializer
-)
-[#xor](
-XOR
-)
+[AND](#and)
+[All](#all)
+[Any](#any)
+[Blocker](#blocker)
+[Condition](#condition)
+[ConditionInverse](#conditioninverse)
+[CountBlocker](#countblocker)
+[DeMuliplexer](#demuliplexer)
+[Gate](#gate)
+[Indexer](#indexer)
+[Multiplexer](#multiplexer)
+[NOT](#not)
+[NoSerializeOnce](#noserializeonce)
+[OR](#or)
+[OnChange](#onchange)
+[Once](#once)
+[RandomSelect](#randomselect)
+[RandomTrigger](#randomtrigger)
+[Sequentializer](#sequentializer)
+[XOR](#xor)

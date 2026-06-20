@@ -13,42 +13,26 @@ Description
 A Controller Definition contains the setup of a mannequin character.
 
 It refers to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-Tag Definition File (xxxTags.xml)
-)
+[Tag Definition File (xxxTags.xml)](Tag%20Definition%20File%20(xxxTags.xml).md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-FragmentID Definition File (xxxActions.xml)
-)
+[FragmentID Definition File (xxxActions.xml)](FragmentID%20Definition%20File%20(xxxActions.xml).md)
  used by this character.
 It is typically referred to by the game entity, as the file is needed by the entity to create a
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308466](
-Mannequin ActionController
-)
+[Mannequin ActionController](../Mannequin%20Technical%20Topics/Mannequin%20ActionController.md)
 . See the overview picture in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308470](
-Mannequin Files
-)
+[Mannequin Files](../Mannequin%20Files.md)
  document.
 
 It defines which scopes are assigned to each of the FragmentIDs, aka the scopemasks. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308432](
-FragmentIDs
-)
+[FragmentIDs](../Mannequin%20Concepts/FragmentIDs.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450861](
-Scopemasks
-)
+[Scopemasks](../Mannequin%20Concepts/Mannequin%20Scopemasks.md)
 .
 
 It defines which scopes and scope contexts the character has. See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-Mannequin Scopes
-)
+[Mannequin Scopes](../Mannequin%20Concepts/Mannequin%20Scopes.md)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450870](
-Scope Contexts
-)
+[Scope Contexts](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
 .
 
 ##
@@ -56,24 +40,18 @@ Creating a Controller Definition
 
 You create a controller definition manually.
  See the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471#ControllerDefinitionFile(xxxControllerDefs.xml)-FileFormat](
-FileFormat
-)
+[FileFormat](Controller%20Definition%20File%20(xxxControllerDefs.xml).md#ControllerDefinitionFile%28xxxControllerDefs.xml)-FileFormat)
  section.
 
 ##
 Editing a Controller Definition
 
 The scopemasks and related flags can be edited in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308446](
-Mannequin FragmentID Editor
-)
+[Mannequin FragmentID Editor](../Mannequin%20FragmentID%20Editor.md)
 .
 
 All the rest has to be edited manually in the xml file. See the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308471#ControllerDefinitionFile(xxxControllerDefs.xml)-FileFormat](
-FileFormat
-)
+[FileFormat](Controller%20Definition%20File%20(xxxControllerDefs.xml).md#ControllerDefinitionFile%28xxxControllerDefs.xml)-FileFormat)
  section.
 
 ##
@@ -110,9 +88,7 @@ The
 Tags
 *
  element contains a reference to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308473](
-Tag Definition File (xxxTags.xml)
-)
+[Tag Definition File (xxxTags.xml)](Tag%20Definition%20File%20(xxxTags.xml).md)
  used by this setup.
 
 The
@@ -120,9 +96,7 @@ The
 Fragments
 *
  element contains a reference to the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308474](
-FragmentID Definition File (xxxActions.xml)
-)
+[FragmentID Definition File (xxxActions.xml)](FragmentID%20Definition%20File%20(xxxActions.xml).md)
  used by this setup.
 
 The
@@ -130,9 +104,7 @@ The
 SubContexts
 *
  element lists all the different
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308478](
-Mannequin SubContexts
-)
+[Mannequin SubContexts](../Mannequin%20Technical%20Topics/Mannequin%20SubContexts.md)
 
 available for this controller definition.
 
@@ -149,9 +121,7 @@ For each of the fragmentIDs:
 scopes
 *
  attribute: defines the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450861](
-ScopeMasks
-)
+[ScopeMasks](../Mannequin%20Concepts/Mannequin%20Scopemasks.md)
  for this fragmentID.
 
 -
@@ -181,9 +151,7 @@ AutoReinstall
 
  |
 Constantly checks whether there is a fragment available that matches the current
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308435](
-Mannequin TagState
-)
+[Mannequin TagState](../Mannequin%20Concepts/Mannequin%20TagState.md)
 .
 
 If so, the system will push the new, better matching fragment for you. Useful for basic 'idling' actions. Typically used together with the "Persistent" flag.
@@ -195,22 +163,16 @@ If so, the system will push the new, better matching fragment for you. Useful fo
 Override
 *
  element: overrides the scopemask for this fragmentID when certain tags (and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308434](
-fragtags
-)
+[fragtags](../Mannequin%20Concepts/FragmentID-specific%20Tags%20(fragtags).md)
 ) are matched. In the example, when the fragmentID "burst_fire" is requested, normally the scopemask would be "Torso+Weapon". But if the global tag "heavyMortar" and fragtag "boosted" is set at that time, the scopemask "Torso" is used instead.
 The
 *
 ScopeDefs
 *
  elements defines the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450859](
-scopes
-)
+[scopes](../Mannequin%20Concepts/Mannequin%20Scopes.md)
  as well as the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450870](
-scope contexts
-)
+[scope contexts](../Mannequin%20Concepts/Mannequin%20Scopes/Mannequin%20Scope%20Contexts.md)
  used by this setup. Each element inside the ScopeDefs element defines a scope. The element name is the scope name. Each scope has the following attributes:
 
 Attribute

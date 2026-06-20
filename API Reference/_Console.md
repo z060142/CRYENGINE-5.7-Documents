@@ -24,41 +24,25 @@ The console can be manipulated either through code, or by pressing the tilde key
 ##
 Table of Contents
 
-[#api-types](
-API Types
-)
-[#console-variables](
-Console Variables
-)
-[#console-commands](
-Console Commands
-)
-[#conclusion](
-Conclusion
-)
+[API Types](#api-types)
+[Console Variables](#console-variables)
+[Console Commands](#console-commands)
+[Conclusion](#conclusion)
 
 ##
 API Types
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797230](
-IConsole
-)
+[IConsole](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797231](
-ICVar
-)
+[ICVar](/docs/static/engines/cryengine-5/categories/28704770/pages/29797231)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797234](
-IConsoleCmdArgs
-)
+[IConsoleCmdArgs](/docs/static/engines/cryengine-5/categories/28704770/pages/29797234)
 
 -
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797232](
-IConsoleArgumentAutoComplete
-)
+[IConsoleArgumentAutoComplete](/docs/static/engines/cryengine-5/categories/28704770/pages/29797232)
 
 ##
 Console Variables
@@ -69,30 +53,20 @@ CVars
 **
 , console variables can be registered in code in order to expose a global variable that can be tweaked by designers without modifying code later on.
 CVars are represented by the
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797231](
-ICVar
-)
+[ICVar](/docs/static/engines/cryengine-5/categories/28704770/pages/29797231)
  interface in code. For an example of how to create a CVar, see
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797230](
-IConsole::Register
-)
+[IConsole::Register](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
 .
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797230](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
 
 Adding a CVar can be done in many ways:
 
 -
 Through
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797230](
-IConsole::GetCVar
-)
+[IConsole::GetCVar](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
  and
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797231](
-ICVar::Set
-)
+[ICVar::Set](/docs/static/engines/cryengine-5/categories/28704770/pages/29797231)
 
 -
 By adding the CVar and its desired value to your .cryproject
@@ -156,14 +130,10 @@ Similarly to Console Variables, Console Commands are referred to as
 CCommands
 **
  and provide support for executing a function whenever the specified command is executed. For an example of how to create your own console commands, see
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797230](
-IConsole::AddCommand
-)
+[IConsole::AddCommand](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
 .
 
-[/docs/static/engines/cryengine-5/categories/28704770/pages/29797230](
-Example
-)
+[Example](/docs/static/engines/cryengine-5/categories/28704770/pages/29797230)
 
 ##
 Conclusion
@@ -171,16 +141,10 @@ Conclusion
 This concludes the article on the console. You may be interested in:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26874879](
-Filesystem_
-)
+[Filesystem_](Filesystem_.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/28184591](
-Profiling and Debugging
-)
+[Profiling and Debugging](Profiling%20and%20Debugging.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216243](
-_Shaders
-)
+[_Shaders](_Shaders.md)

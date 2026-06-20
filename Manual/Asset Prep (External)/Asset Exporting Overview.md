@@ -7,35 +7,25 @@
 
 ## Child Pages
 
-- [Preparing Assets for CRYENGINE](Asset Exporting Overview/Preparing Assets for CRYENGINE.md)
-- [Troubleshooting and Debugging Assets](Asset Exporting Overview/Troubleshooting and Debugging Assets.md)
-- [Geometry Creation Overview](Asset Exporting Overview/Geometry Creation Overview.md)
-- [Texture Creation Overview](Asset Exporting Overview/Texture Creation Overview.md)
-- [Art Asset File Types](Asset Exporting Overview/Art Asset File Types.md)
+- [Preparing Assets for CRYENGINE](Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE.md)
+- [Troubleshooting and Debugging Assets](Asset%20Exporting%20Overview/Troubleshooting%20and%20Debugging%20Assets.md)
+- [Geometry Creation Overview](Asset%20Exporting%20Overview/Geometry%20Creation%20Overview.md)
+- [Texture Creation Overview](Asset%20Exporting%20Overview/Texture%20Creation%20Overview.md)
+- [Art Asset File Types](Asset%20Exporting%20Overview/Art%20Asset%20File%20Types.md)
 
 ## Content
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959591](
-Art Asset File Types
-)
+[Art Asset File Types](Asset%20Exporting%20Overview/Art%20Asset%20File%20Types.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308291](
-Preparing Assets for CRYENGINE
-)
+[Preparing Assets for CRYENGINE](Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308045](
-Troubleshooting and Debugging Assets
-)
+[Troubleshooting and Debugging Assets](Asset%20Exporting%20Overview/Troubleshooting%20and%20Debugging%20Assets.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534064](
-Geometry Creation Overview
-)
+[Geometry Creation Overview](Asset%20Exporting%20Overview/Geometry%20Creation%20Overview.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25534066](
-Texture Creation Overview
-)
+[Texture Creation Overview](Asset%20Exporting%20Overview/Texture%20Creation%20Overview.md)

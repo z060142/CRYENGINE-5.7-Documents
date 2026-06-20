@@ -156,18 +156,8 @@ CGameRules::OnClientConnect
 *
  (called shortly after level load). The entity has no responsibility barring a manual update of the view camera position each frame to match the entity position.
 
-[#about-the-sample](
-About the sample
-)
-[#code-breakdown](
-Code Breakdown
-)
-[#startup](
-Startup
-)
-[#entities](
-Entities
-)
-[#dummy-player](
-Dummy Player
-)
+[About the sample](#about-the-sample)
+[Code Breakdown](#code-breakdown)
+[Startup](#startup)
+[Entities](#entities)
+[Dummy Player](#dummy-player)

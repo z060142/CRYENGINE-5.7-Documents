@@ -12,35 +12,35 @@ Accessory
 
 Attach/Detach [Accessory] from Actor's weapon [Weapon]. Both must be in the Inventory.
 
-[Image: /docs/static/attachments/29688112]
+![Image](https://www.cryengine.com/docs/static/attachments/29688112)
 
 In this example, we're pressing 'P' to detach the currently equipped SniperScope from the player's Rifle and then after a short delay, attaching the AssaultScope accessory.
 
-[Image: /docs/static/attachments/29688111]
+![Image](https://www.cryengine.com/docs/static/attachments/29688111)
 
 ##
 AccessoryCheck
 
 Checks if target actor's current weapon has [Accessory] attached.
 
-[Image: /docs/static/attachments/29688114]
+![Image](https://www.cryengine.com/docs/static/attachments/29688114)
 
 In this example, we're checking which Scope the player's current weapon has attached. In this case, it's the SniperScope stating 'true'.
 
-[Image: /docs/static/attachments/29688113]
+![Image](https://www.cryengine.com/docs/static/attachments/29688113)
 
 ##
 ActorWeaponMagazineAmmo
 
 Get/Set ammo in the magazine of the current player's weapon.
 
-[Image: /docs/static/attachments/29688116]
+![Image](https://www.cryengine.com/docs/static/attachments/29688116)
 
 In this example, we're getting the current AmmoCount with the 'O' key and it outputs '9' (only checks the current magazine, not full inventory amount).
 
 We also set the AmmoCount amount to '3' with the 'P' key which then gives us 3 shots left in the current magazine before a reload is required.
 
-[Image: /docs/static/attachments/29688115]
+![Image](https://www.cryengine.com/docs/static/attachments/29688115)
 
 ##
 AmmoChange
@@ -52,7 +52,7 @@ AutoSightWeapon
 
 This node allows to connect the enenmy position vector to shoot here.
 
-[Image: /docs/static/attachments/29688103]
+![Image](https://www.cryengine.com/docs/static/attachments/29688103)
 
 **
 Inputs
@@ -128,45 +128,17 @@ CheckZoom
 
 -
 WeaponListener
-[#accessory](
-Accessory
-)
-[#accessorycheck](
-AccessoryCheck
-)
-[#actorweaponmagazineammo](
-ActorWeaponMagazineAmmo
-)
-[#ammochange](
-AmmoChange
-)
-[#autosightweapon](
-AutoSightWeapon
-)
-[#changefiremode](
-ChangeFireMode
-)
-[#explosion](
-Explosion
-)
-[#explosioninfo](
-ExplosionInfo
-)
-[#fireweapon](
-FireWeapon
-)
-[#hitinfo](
-HitInfo
-)
-[#itemaction](
-ItemAction
-)
-[#listener](
-Listener
-)
-[#zoomcheck](
-ZoomCheck
-)
-[#deprecated-nodes](
-Deprecated Nodes
-)
+[Accessory](#accessory)
+[AccessoryCheck](#accessorycheck)
+[ActorWeaponMagazineAmmo](#actorweaponmagazineammo)
+[AmmoChange](#ammochange)
+[AutoSightWeapon](#autosightweapon)
+[ChangeFireMode](#changefiremode)
+[Explosion](#explosion)
+[ExplosionInfo](#explosioninfo)
+[FireWeapon](#fireweapon)
+[HitInfo](#hitinfo)
+[ItemAction](#itemaction)
+[Listener](#listener)
+[ZoomCheck](#zoomcheck)
+[Deprecated Nodes](#deprecated-nodes)

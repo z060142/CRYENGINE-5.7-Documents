@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933201]
+![Image](https://www.cryengine.com/docs/static/attachments/29933201)
 
 ##
 Overview
@@ -17,21 +17,11 @@ AI Sequencer is a system to simplify and reduce the level logic needed to manual
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#goals](
-Goals
-)
-[#concept](
-Concept
-)
-[#interrupting-resuming](
-Interrupting / Resuming
-)
-[#valid-flownodes](
-Valid Flownodes
-)
+[Sections](#sections)
+[Goals](#goals)
+[Concept](#concept)
+[Interrupting / Resuming](#interrupting-resuming)
+[Valid Flownodes](#valid-flownodes)
 
 ##
 Goals

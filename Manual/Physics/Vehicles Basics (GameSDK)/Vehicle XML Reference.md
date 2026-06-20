@@ -762,17 +762,13 @@ bool
 DamageMultipliers
 
 See
-[#VehicleSetup-Damages-DamageMultipliers](
- shared reference.
-)
+[shared reference.](#VehicleSetup-Damages-DamageMultipliers)
 
 ##
 DamageBehaviors
 
 See
-[#VehicleSetup-Damages-DamagesGroups-DamagesSubGroups-DamageBehaviors](
- shared reference.
-)
+[shared reference.](#VehicleSetup-Damages-DamagesGroups-DamagesSubGroups-DamageBehaviors)
 
 ##
 Parts
@@ -10094,25 +10090,19 @@ float
 keepEngineOn
 
 See
-[#VehicleSetup-MovementParams-StdWheeled-keepEngineOn](
- shared reference.
-)
+[shared reference.](#VehicleSetup-MovementParams-StdWheeled-keepEngineOn)
 
 ##
 engineIgnitionTime
 
 See
-[#VehicleSetup-MovementParams-StdWheeled-engineIgnitionTime](
- shared reference.
-)
+[shared reference.](#VehicleSetup-MovementParams-StdWheeled-engineIgnitionTime)
 
 ##
 Animations
 
 See
-[#VehicleSetup-MovementParams-StdWheeled-Animations](
- shared reference.
-)
+[shared reference.](#VehicleSetup-MovementParams-StdWheeled-Animations)
 
 ##
 SoundParams
@@ -10327,26 +10317,20 @@ How much wheel side slipping affects the skidding
  |
 
 See the
-[#VehicleSetup-MovementParams-StdWheeled-SoundParams](
-common table reference
-)
+[common table reference](#VehicleSetup-MovementParams-StdWheeled-SoundParams)
 .
 
 ##
 Boost
 
 See
-[#VehicleSetup-MovementParams-StdWheeled-Boost](
- shared reference.
-)
+[shared reference.](#VehicleSetup-MovementParams-StdWheeled-Boost)
 
 ##
 AirDamp
 
 See
-[#VehicleSetup-MovementParams-StdWheeled-AirDamp](
- shared reference.
-)
+[shared reference.](#VehicleSetup-MovementParams-StdWheeled-AirDamp)
 
 ##
 StdTank
@@ -10709,49 +10693,37 @@ string
 keepEngineOn
 
 See
-[#VehicleSetup-MovementParams-StdWheeled-keepEngineOn](
- shared reference.
-)
+[shared reference.](#VehicleSetup-MovementParams-StdWheeled-keepEngineOn)
 
 ##
 engineIgnitionTime
 
 See
-[#VehicleSetup-MovementParams-StdWheeled-engineIgnitionTime](
- shared reference.
-)
+[shared reference.](#VehicleSetup-MovementParams-StdWheeled-engineIgnitionTime)
 
 ##
 Animations
 
 See
-[#VehicleSetup-MovementParams-StdWheeled-Animations](
- shared reference.
-)
+[shared reference.](#VehicleSetup-MovementParams-StdWheeled-Animations)
 
 ##
 SoundParams
 
 See
-[#VehicleSetup-MovementParams-StdWheeled-SoundParams](
- shared reference.
-)
+[shared reference.](#VehicleSetup-MovementParams-StdWheeled-SoundParams)
 
 ##
 Boost
 
 See
-[#VehicleSetup-MovementParams-StdWheeled-Boost](
- shared reference.
-)
+[shared reference.](#VehicleSetup-MovementParams-StdWheeled-Boost)
 
 ##
 AirDamp
 
 See
-[#VehicleSetup-MovementParams-StdWheeled-AirDamp](
- shared reference.
-)
+[shared reference.](#VehicleSetup-MovementParams-StdWheeled-AirDamp)
 
 ##
 Helicopter
@@ -14432,63 +14404,23 @@ This is an array table nested under
 `
 , however it is deprecated and it should no longer be used.
 
-[#global-vehicle-properties](
-Global vehicle properties
-)
-[#physics](
-Physics
-)
-[#components](
-Components
-)
-[#parts](
-Parts
-)
-[#helpers](
-Helpers
-)
-[#actions](
-Actions
-)
-[#seats](
-Seats
-)
-[#seatgroups](
-SeatGroups
-)
-[#movementparams](
-MovementParams
-)
-[#damages](
-Damages
-)
-[#particles](
-Particles
-)
-[#animations](
-Animations
-)
-[#mannequin](
-Mannequin
-)
-[#paints](
-Paints
-)
-[#modifications](
-Modifications
-)
-[#inventory](
-Inventory
-)
-[#materials-deprecated](
-Materials (deprecated)
-)
-[#wheelmaster-deprecated](
-WheelMaster (deprecated)
-)
-[#damageextensions-deprecated](
-DamageExtensions (deprecated)
-)
-[#speciallocations-deprecated](
-SpecialLocations (deprecated)
-)
+[Global vehicle properties](#global-vehicle-properties)
+[Physics](#physics)
+[Components](#components)
+[Parts](#parts)
+[Helpers](#helpers)
+[Actions](#actions)
+[Seats](#seats)
+[SeatGroups](#seatgroups)
+[MovementParams](#movementparams)
+[Damages](#damages)
+[Particles](#particles)
+[Animations](#animations)
+[Mannequin](#mannequin)
+[Paints](#paints)
+[Modifications](#modifications)
+[Inventory](#inventory)
+[Materials (deprecated)](#materials-deprecated)
+[WheelMaster (deprecated)](#wheelmaster-deprecated)
+[DamageExtensions (deprecated)](#damageextensions-deprecated)
+[SpecialLocations (deprecated)](#speciallocations-deprecated)

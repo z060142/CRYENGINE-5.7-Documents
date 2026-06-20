@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [CRYENGINE User Interface in Maya](Installing the Maya Tools/CRYENGINE User Interface in Maya.md)
+- [CRYENGINE User Interface in Maya](Installing%20the%20Maya%20Tools/CRYENGINE%20User%20Interface%20in%20Maya.md)
 
 ## Content
 
@@ -15,9 +15,7 @@
 Overview
 
 Below is a list of supported Exporters and their associated file names. From Maya 2014, 32-bit support has been
-[http://knowledge.autodesk.com/support/maya/troubleshooting/caas/sfdcarticles/sfdcarticles/Operating-system-compatibility-for-Autodesk-Maya.html](
-discontinued
-)
+[discontinued](http://knowledge.autodesk.com/support/maya/troubleshooting/caas/sfdcarticles/sfdcarticles/Operating-system-compatibility-for-Autodesk-Maya.html)
 .
 
 ##
@@ -241,9 +239,7 @@ Automatic Installation with CryToolsInstaller
 
 We recommend using the
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963458](
-CryToolsInstaller
-)
+[CryToolsInstaller](CryToolsInstaller.md)
 **
  to install all DCC tool packages, including Maya. If you need to manually install the CryToolsInstaller, then follow the instructions in the Manual Install section below.
 
@@ -269,7 +265,7 @@ Settings Manager
 **
  article on how to do this:
 
-[Image: /docs/static/attachments/44963476]
+![Image](https://www.cryengine.com/docs/static/attachments/44963476)
 
 2. Copy the file:
 `
@@ -283,7 +279,7 @@ shelf_Crytek.mel
 \My Documents\maya\%MAYAVERSION%\prefs\shelves\
 `
 
-[Image: /docs/static/attachments/44963489]
+![Image](https://www.cryengine.com/docs/static/attachments/44963489)
 
 3. Copy the
 `
@@ -294,7 +290,7 @@ contents to the folder:
 \My Documents\maya\%MAYAVERSION%\prefs\icons\
 `
 
-[Image: /docs/static/attachments/44963478]
+![Image](https://www.cryengine.com/docs/static/attachments/44963478)
 
 4. Add the following to the 'Maya.env' file into
 `
@@ -321,7 +317,7 @@ MAYA_SCRIPT_PATH=%CRYENGINE%/Tools/melScript
 
 ```
 
-[Image: /docs/static/attachments/44963490]
+![Image](https://www.cryengine.com/docs/static/attachments/44963490)
 
 5. In Maya make sure that the 'MayaCryExport2%MAYAVERSION%.mll' plugin is loaded in Plugin Manager.
 
@@ -340,11 +336,11 @@ browse
 `
  folder.
 
-[Image: /docs/static/attachments/44963491]
+![Image](https://www.cryengine.com/docs/static/attachments/44963491)
 
 6. Once loaded, Maya may have to be restarted for the Exporter to work.
 
-[Image: /docs/static/attachments/44963488]
+![Image](https://www.cryengine.com/docs/static/attachments/44963488)
 
 7. Click the
 **
@@ -352,14 +348,8 @@ Export
 **
  button and the Exporter dialog box will be displayed. This is the main menu from which you will export your assets.
 
-[Image: /docs/static/attachments/44963487]
+![Image](https://www.cryengine.com/docs/static/attachments/44963487)
 
-[#plugin-files-for-different-versions-of-maya](
-Plugin Files for Different Versions of Maya
-)
-[#automatic-installation-with-crytoolsinstaller](
-Automatic Installation with CryToolsInstaller
-)
-[#manual-installation](
-Manual Installation
-)
+[Plugin Files for Different Versions of Maya](#plugin-files-for-different-versions-of-maya)
+[Automatic Installation with CryToolsInstaller](#automatic-installation-with-crytoolsinstaller)
+[Manual Installation](#manual-installation)

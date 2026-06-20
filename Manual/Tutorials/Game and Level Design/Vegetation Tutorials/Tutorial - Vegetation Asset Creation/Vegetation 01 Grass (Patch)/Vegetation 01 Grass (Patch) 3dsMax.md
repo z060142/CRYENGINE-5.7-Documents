@@ -12,7 +12,7 @@ Overview
 
 This tutorial takes you through the process of creating the simplest vegetation asset; grass patches. It covers the basics of the vegetation shader parameters and introduces you to the Vegetation Editor in CRYENGINE. Grass patches is the former method that we used to create grass assets for the ENGINE. Even though this method is still valid and worth knowing, our preferred method for creating grass is to use the Merged Mesh (MM) technology.
 
-[Image: /docs/static/attachments/24157002]
+![Image](https://www.cryengine.com/docs/static/attachments/24157002)
 
 *
 Pic1: Finished scene using grass patches.
@@ -24,7 +24,7 @@ Pic2
 *
 ) depicts the creation of grass patches using the vegetation Editor. The one on the right is shown in a highlighted planes view.
 
-[Image: /docs/static/attachments/24157003]
+![Image](https://www.cryengine.com/docs/static/attachments/24157003)
 
 *
 Pic2: Grass objects in normal and highlighted planes view.
@@ -36,9 +36,7 @@ Tutorial Files
 Source 3dsMax scene with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/25523833](
-GameSDK_vegtut01_files.zip
-)
+[GameSDK_vegtut01_files.zip](/docs/static/attachments/25523833)
 **
 
 ##
@@ -47,24 +45,16 @@ Prerequisites for this Tutorial
 Before you continue with this tutorial, make sure to have read and understood the following topics:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963469](
-How to install CryMaxTools
-)
+[How to install CryMaxTools](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25528753](
-The basic CRYENGINE 3dsMax workflow
-)
+[The basic CRYENGINE 3dsMax workflow](../../../../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Preparing%20Assets%20for%20CRYENGINE/Basic%20Asset%20Setup%20and%20Export%20-%203ds%20Max.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/13205563](
-CRYENGINE Exporter
-)
+[CRYENGINE Exporter](../../../../../CRYENGINE%20-%20Getting%20Started/Installing%20CRYENGINE/CRYENGINE%20Plugins%20and%20Tools/Installing%20the%203ds%20Max%20Tools/CRYENGINE%20Exporter%20in%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308289](
-3dsMax unit scale to match up with CRYENGINE unit system
-)
+[3dsMax unit scale to match up with CRYENGINE unit system](../../../../../Asset%20Prep%20(External)/Measurement%20Reference%20-%20(DCC%20Unit%20Setup).md)
 
 ##
 Helpful Information
@@ -135,7 +125,7 @@ SubID
 You can add a proxy to the object, but it is not recommended for grass patches.
 
 *
-[Image: /docs/static/attachments/24157004]
+![Image](https://www.cryengine.com/docs/static/attachments/24157004)
 
 Pic3: Material setup in 3dsMax, left is the top level of the multi-material, on the right the SubID's properties.
 *
@@ -227,7 +217,7 @@ Export the Material
 
 Now we have configured the material for the object with one SubID.
 
-[Image: /docs/static/attachments/24156990]
+![Image](https://www.cryengine.com/docs/static/attachments/24156990)
 
 *
 Pic4: Selecting the top level of the material (not a SubID) to export.
@@ -298,7 +288,7 @@ Unwrap UVW modifier
 **
  to adjust your UV shell to only fit around one of the grass patches on the texture.
 
-[Image: /docs/static/attachments/24156998]
+![Image](https://www.cryengine.com/docs/static/attachments/24156998)
 
 *
 Pic5: Arrange the UVs of the polygons to fit one of the grass textures.
@@ -311,14 +301,14 @@ Using this setup, duplicate the polygons and distribute them around the area whi
 Try to end up with a rough hexagon shape for the entire patch. This works the best in most situations.
 
 *
-[Image: /docs/static/attachments/24156994]
+![Image](https://www.cryengine.com/docs/static/attachments/24156994)
 
-[Image: /docs/static/attachments/24156995]
+![Image](https://www.cryengine.com/docs/static/attachments/24156995)
 *
 
 *
-[Image: /docs/static/attachments/24156996]
-[Image: /docs/static/attachments/24156997]
+![Image](https://www.cryengine.com/docs/static/attachments/24156996)
+![Image](https://www.cryengine.com/docs/static/attachments/24156997)
 
 Pic: 6, 7, 8, 9: Example grass patch geometry build up.
 *
@@ -334,7 +324,7 @@ Make sure that the pivot of the object is roughly in the center and slightly up 
 Make sure you do not set the pivot too high, otherwise you will lose the bottom of the geometry into the terrain.
 
 *
-[Image: /docs/static/attachments/24157005]
+![Image](https://www.cryengine.com/docs/static/attachments/24157005)
 
 Pic10: Pivot location slightly higher than the base of the object.
 
@@ -359,7 +349,7 @@ Object Properties
 **
 . Enable the checkbox to display vertex channel display and ensure that vertex color is selected from the drop down list.
 
-[Image: /docs/static/attachments/24156991]
+![Image](https://www.cryengine.com/docs/static/attachments/24156991)
 
 *
 Pic11: Enabling vertex color display on the asset.
@@ -372,7 +362,7 @@ To help visualize where you are assigning colors to, apply a different standard 
 
 *
 
-[Image: /docs/static/attachments/24156992]
+![Image](https://www.cryengine.com/docs/static/attachments/24156992)
 
 *
 Pic12: Apply the vertex colors, black = no movement, white = maximum movement.
@@ -422,7 +412,7 @@ Use the $LOD prefix to the LOD's name (e.g. $LOD1, $LOD2 etc...). The naming con
 
 -
 Try to reduce the polygon count by approximately 50% per LOD step (if possible) while still preserving the overall shape.
-[Image: /docs/static/attachments/24157000]
+![Image](https://www.cryengine.com/docs/static/attachments/24157000)
 
 *
 Pic13: Overview of the LOD chain.
@@ -472,7 +462,7 @@ Note, there is an approximate 50% drop in polygons as we step down the LOD chain
 
 When you link the LOD's to the parent object (dummy helper or in this instance the main mesh) all the LOD's must connect directly to the parent.
 
-[Image: /docs/static/attachments/24157001]
+![Image](https://www.cryengine.com/docs/static/attachments/24157001)
 
 *
 Pic14: Schematic view of the hierarchy that all LOD's are siblings of each other and linked to the parent.
@@ -507,13 +497,13 @@ Export Nodes
  button.
 *
 
-[Image: /docs/static/attachments/24156989]
+![Image](https://www.cryengine.com/docs/static/attachments/24156989)
 
 Pic15: Exporting the asset.
 
 *
 
-[Image: /docs/static/attachments/24156993]
+![Image](https://www.cryengine.com/docs/static/attachments/24156993)
 
 *
 Pic16: Successful export log.
@@ -524,28 +514,12 @@ Continue to CRYENGINE
 
 We have now finished the setup for the 3dsMax portion of the tutorial. To continue, move onto the next page where we configure the material and use the Vegetation Editor to place down some grass assets.
 
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285888](
-Vegetation 01 Grass (Patch) CRYENGINE
-)
+[Vegetation 01 Grass (Patch) CRYENGINE](Vegetation%2001%20Grass%20(Patch)%20CRYENGINE.md)
 
-[#tutorial-files](
-Tutorial Files
-)
-[#prerequisites-for-this-tutorial](
-Prerequisites for this Tutorial
-)
-[#helpful-information](
-Helpful Information
-)
-[#initial-3dsmax-setup](
-Initial 3dsMax Setup
-)
-[#material](
-Material
-)
-[#object-setup](
-Object Setup
-)
-[#continue-to-cryengine](
-Continue to CRYENGINE
-)
+[Tutorial Files](#tutorial-files)
+[Prerequisites for this Tutorial](#prerequisites-for-this-tutorial)
+[Helpful Information](#helpful-information)
+[Initial 3dsMax Setup](#initial-3dsmax-setup)
+[Material](#material)
+[Object Setup](#object-setup)
+[Continue to CRYENGINE](#continue-to-cryengine)

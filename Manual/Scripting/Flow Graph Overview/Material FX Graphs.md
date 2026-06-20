@@ -198,12 +198,10 @@ Here is an example of a flow graph that turns on/off the rain drops full screen 
 Pic1: A sample Flow Graph for rain drops effect.
 *
 
-[Image: /docs/static/attachments/35401678]
+![Image](https://www.cryengine.com/docs/static/attachments/35401678)
 
 For more information on Image nodes, please refer:
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450595](
-Image Nodes
-)
+[Image Nodes](../../Editor%20Tools/Flow%20Graph/Flow%20Graph%20Node%20Reference/Image%20Nodes.md)
 
 ##
 MaterialFX Nodes
@@ -227,7 +225,7 @@ dirt_bullet_hit
 **
  graph being called when the player shoots the ground with mat_grass assigned as a surface type.
 
-[Image: /docs/static/attachments/35401679]
+![Image](https://www.cryengine.com/docs/static/attachments/35401679)
 
 -
 Through the Libs\MaterialEffects.xml file, we find the combination of pistolbullet vs mat_grass. (Row 50 Column 25).
@@ -463,7 +461,7 @@ Adjust timing, animate value
 Pic2: An example Flow Graph of the impact effect of nuclear weapon.
 *
 
-[Image: /docs/static/attachments/35401680]
+![Image](https://www.cryengine.com/docs/static/attachments/35401680)
 
 -
 Use a
@@ -536,7 +534,7 @@ Fade in Textures on Screen
 Pic3: An example Flow Graph of the dirt effect on the screen, when a player is at an explosion site.
 *
 
-[Image: /docs/static/attachments/35401681]
+![Image](https://www.cryengine.com/docs/static/attachments/35401681)
 
 -
 Use a

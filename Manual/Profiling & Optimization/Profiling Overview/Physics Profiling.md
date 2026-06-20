@@ -17,7 +17,7 @@ p_draw_helpers 1
 
 Renders the physics proxies on top of the render geometry.
 
-[Image: /docs/static/attachments/26960124]
+![Image](https://www.cryengine.com/docs/static/attachments/26960124)
 
 Objects are color coded to help display the physics proxies complexity. (Grey -> Red).
 
@@ -134,7 +134,7 @@ This allows you to visually investigate the expense of individual RWI calls. Def
 
 When enabled you get a color code representation of the expense of each call. So red being the most expensive.
 
-[Image: /docs/static/attachments/26960123]
+![Image](https://www.cryengine.com/docs/static/attachments/26960123)
 
 **
 Example2
@@ -159,11 +159,11 @@ g
 
 Pic1, Displays the rigid bodies in their sleep state. (Highlighted in Red)
 
-[Image: /docs/static/attachments/26960130]
+![Image](https://www.cryengine.com/docs/static/attachments/26960130)
 
 Pic2, Displays the rigid bodies that are still in their sleep state. (Highlighted still in Red). The Green Highlight displays the objects (I just shot) to show them in their active state. This helps differentiate the 2 types of Physics states.
 
-[Image: /docs/static/attachments/26960127]
+![Image](https://www.cryengine.com/docs/static/attachments/26960127)
 
 **
 Example3:
@@ -188,7 +188,7 @@ g
 
 This displays the reverse of the previous example. Where it is only displaying the geometry of the active entities.
 
-[Image: /docs/static/attachments/26960129]
+![Image](https://www.cryengine.com/docs/static/attachments/26960129)
 
 **
 Example4: p_draw_helpers r_c (
@@ -209,7 +209,7 @@ c
 
 This displays via short rays, where the physics objects are coming into contact with other objects.
 
-[Image: /docs/static/attachments/26960132]
+![Image](https://www.cryengine.com/docs/static/attachments/26960132)
 
 **
 Example5:
@@ -234,7 +234,7 @@ j
 
 Upon the breakable object breaking, the joints will be highlighted.
 
-[Image: /docs/static/attachments/26960128]
+![Image](https://www.cryengine.com/docs/static/attachments/26960128)
 
 **
 Example6:
@@ -257,7 +257,7 @@ All static objects display their bounding box, this includes brushes, vegetation
 
 Note how the AI & HMMWV do not display a bounding box, this is due to not being a static object.
 
-[Image: /docs/static/attachments/26960125]
+![Image](https://www.cryengine.com/docs/static/attachments/26960125)
 
 **
 Example7:
@@ -274,7 +274,7 @@ t
 
 Displays the physics information for the terrain.
 
-[Image: /docs/static/attachments/26960126]
+![Image](https://www.cryengine.com/docs/static/attachments/26960126)
 
 **
 Example8:
@@ -291,7 +291,7 @@ e
 
 Displays information about explosions. Each of the grey markers indicate where the explosion hit the surface.
 
-[Image: /docs/static/attachments/26960134]
+![Image](https://www.cryengine.com/docs/static/attachments/26960134)
 
 ##
 Combining multiple physics debug view modes at once
@@ -327,7 +327,7 @@ Helpers
 
 In the picture ( from left to right) we have a gravity volume, wind area & a water volume.
 
-[Image: /docs/static/attachments/26960133]
+![Image](https://www.cryengine.com/docs/static/attachments/26960133)
 
 **
 Example2: p_draw_helpers
@@ -377,14 +377,14 @@ Helper
 **
  (geometry)
 
-[Image: /docs/static/attachments/26960131]
+![Image](https://www.cryengine.com/docs/static/attachments/26960131)
 
 ##
 p_profile 1
 
 This Mode details information of total entities, Queued Requests & World time step in ms.
 
-[Image: /docs/static/attachments/26960121]
+![Image](https://www.cryengine.com/docs/static/attachments/26960121)
 
 ##
 p_profile_entities 1
@@ -393,7 +393,7 @@ Lists the physics entities active in the level. with their assigned name & Entit
 
 Organised top / bottom in time spent (ms). So its easier to find the most expensive at the top.
 
-[Image: /docs/static/attachments/26960119]
+![Image](https://www.cryengine.com/docs/static/attachments/26960119)
 
 ##
 Combine p_profile 1 & p_profile_entities 1
@@ -412,14 +412,14 @@ alt+1 -> alt +5
 **
 .
 
-[Image: /docs/static/attachments/26960122]
+![Image](https://www.cryengine.com/docs/static/attachments/26960122)
 
 ##
 p_profile_functions 1
 
 Shows a list of all ray/primitive casts and which dll is requesting them.
 
-[Image: /docs/static/attachments/26960120]
+![Image](https://www.cryengine.com/docs/static/attachments/26960120)
 
 ##
 p_debug_joints 1
@@ -442,7 +442,7 @@ p_draw_helpers
 
 Upon a jointed breakable breaking, it will give you information on the forces that broke that particular joint. (pull, bend, shift).
 
-[Image: /docs/static/attachments/26960136]
+![Image](https://www.cryengine.com/docs/static/attachments/26960136)
 
 ##
 Standalone Physics Debugger
@@ -471,7 +471,7 @@ p_do_step 3
 text files mentioned above
 .
 
-[Image: /docs/static/attachments/26960138]
+![Image](https://www.cryengine.com/docs/static/attachments/26960138)
 
 Several options can be changed in the menu, such as step size (fixed or real time), code and entity profiler display, number of worker threads, additional helper types. Also, when the simulation is running it's possible to possess objects with
 **
@@ -479,7 +479,7 @@ Shift+Right
 **
  click and use some basic WASD+space movement controls on them (specifically on players and wheeled vehicles). To avoid camera choppiness when moving possessed objects it's possible to enable rendering and physics synchronization (Not recommended for profiling though since it can affect the results).
 
-[Image: /docs/static/attachments/26960139]
+![Image](https://www.cryengine.com/docs/static/attachments/26960139)
 
 ##
 CVars
@@ -503,30 +503,12 @@ p_do_step 3
 Enables you to create a single-file binary dump.
  |
 
-[#pdrawhelpers-1](
-p_draw_helpers 1
-)
-[#extending-pdrawhelpers-1](
-Extending p_draw_helpers 1
-)
-[#combining-multiple-physics-debug-view-modes-at-once](
-Combining multiple physics debug view modes at once
-)
-[#pprofile-1](
-p_profile 1
-)
-[#pprofileentities-1](
-p_profile_entities 1
-)
-[#combine-pprofile-1-and-pprofileentities-1](
-Combine p_profile 1 & p_profile_entities 1
-)
-[#pprofilefunctions-1](
-p_profile_functions 1
-)
-[#pdebugjoints-1](
-p_debug_joints 1
-)
-[#standalone-physics-debugger](
-Standalone Physics Debugger
-)
+[p_draw_helpers 1](#pdrawhelpers-1)
+[Extending p_draw_helpers 1](#extending-pdrawhelpers-1)
+[Combining multiple physics debug view modes at once](#combining-multiple-physics-debug-view-modes-at-once)
+[p_profile 1](#pprofile-1)
+[p_profile_entities 1](#pprofileentities-1)
+[Combine p_profile 1 & p_profile_entities 1](#combine-pprofile-1-and-pprofileentities-1)
+[p_profile_functions 1](#pprofilefunctions-1)
+[p_debug_joints 1](#pdebugjoints-1)
+[Standalone Physics Debugger](#standalone-physics-debugger)

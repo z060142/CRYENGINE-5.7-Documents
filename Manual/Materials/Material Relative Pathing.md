@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933271]
+![Image](https://www.cryengine.com/docs/static/attachments/29933271)
 
 ##
 Overview
@@ -32,15 +32,9 @@ The Material Editor checks the active material's texture paths once you make a c
 
 Advanced users can also manually change the path using a text editor. This can be useful if you want to make large amount of changes outside the Sandbox editor.
 
-[#sections](
-Sections
-)
-[#how-does-it-work](
-How does it work?
-)
-[#asset-optimization](
-Asset Optimization
-)
+[Sections](#sections)
+[How does it work?](#how-does-it-work)
+[Asset Optimization](#asset-optimization)
 
 ##
 How does it work?
@@ -126,7 +120,5 @@ This feature enables the user to easily share assets through the Asset Database,
 During the optimization stage of your project, you might want to share textures between materials or objects to optimize the memory footprint of your project.
 
 For more information about optimizing your assets, check
-[/docs/static/engines/cryengine-3/categories/1114113/pages/1310836](
-here
-)
+[here](/docs/static/engines/cryengine-3/categories/1114113/pages/1310836)
 .

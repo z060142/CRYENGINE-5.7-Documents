@@ -31,14 +31,12 @@ only
  present users with relevant information, keeping the UI from becoming too cluttered and overwhelming.
 
 *
-[Image: /docs/static/attachments/28248560]
+![Image](https://www.cryengine.com/docs/static/attachments/28248560)
 *
 
 For more information on the Schematyc Editor, please refer here:
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868211](
-Schematyc Editor
-)
+[Schematyc Editor](../Editor%20Tools/Deprecated%20Tab/Schematyc%20Editor%20(Experimental).md)
 **
 
 ##
@@ -52,9 +50,7 @@ Classes
 **
 -
 **
-[https://en.wikipedia.org/wiki/Class_(computer_programming)](
-https://en.wikipedia.org/wiki/Class_(computer_programming)
-)
+[https://en.wikipedia.org/wiki/Class_(computer_programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
 **
  - A class describes an object and encompasses all of the data and logic associated with that object.
 
@@ -70,9 +66,7 @@ Variables
 **
 -
 **
-[https://en.wikipedia.org/wiki/Variable_(computer_science)](
-https://en.wikipedia.org/wiki/Variable_(computer_science)
-)
+[https://en.wikipedia.org/wiki/Variable_(computer_science)](https://en.wikipedia.org/wiki/Variable_(computer_science))
 
 **
 - Variables store information and exist for as long as the object or state they belong to exists. By making a variable public you allow other systems access to that variable e.g. when you place a Schematyc entity in a level you can edit its public variables in the main Properties panel.
@@ -84,9 +78,7 @@ Finite State Machines
  -
 **
 
-[http://en.wikipedia.org/wiki/Finite-state_machine](
-http://en.wikipedia.org/wiki/Finite-state_machine
-)
+[http://en.wikipedia.org/wiki/Finite-state_machine](http://en.wikipedia.org/wiki/Finite-state_machine)
 
 **
 - In Schematyc, states can be structured hierarchically and all the children of a particular state inherit behavior from that state, allowing them to share both functionality and transitions.
@@ -103,9 +95,7 @@ Functions
 **
  -
 **
-[https://en.wikipedia.org/wiki/Subroutine](
-https://en.wikipedia.org/wiki/Subroutine
-)
+[https://en.wikipedia.org/wiki/Subroutine](https://en.wikipedia.org/wiki/Subroutine)
 **
  - Functions in Schematyc are just like functions in any other programming language; you pass inputs, the function performs some logic, then you return the output.
 
@@ -261,9 +251,9 @@ Search bar
 
 Child content can be added through the item context menu:
 
-[Image: /docs/static/attachments/26956285]
+![Image](https://www.cryengine.com/docs/static/attachments/26956285)
  |
-[Image: /docs/static/attachments/26956286]
+![Image](https://www.cryengine.com/docs/static/attachments/26956286)
  |
 
 ##
@@ -271,30 +261,14 @@ Intro Video
 
 For a series of videos about Schematic, follow
 **
-[https://www.youtube.com/watch?v=k8vC0j23nu4&list=PLpCgy91Y5vMvmyqmxodTMD3JQFQe8XYyD](
-this link
-)
+[this link](https://www.youtube.com/watch?v=k8vC0j23nu4&list=PLpCgy91Y5vMvmyqmxodTMD3JQFQe8XYyD)
 **
 .
 
-[#basic-concepts](
-Basic Concepts
-)
-[#the-transition-graph](
-The Transition Graph
-)
-[#low-latency-high-determinism](
-Low Latency, High Determinism
-)
-[#schematyc-assets-explained](
-Schematyc Assets Explained
-)
-[#how-to-create-a-schematyc-asset](
-How to create a Schematyc Asset
-)
-[#how-to-add-content-to-an-asset](
-How to Add Content to an Asset
-)
-[#intro-video](
-Intro Video
-)
+[Basic Concepts](#basic-concepts)
+[The Transition Graph](#the-transition-graph)
+[Low Latency, High Determinism](#low-latency-high-determinism)
+[Schematyc Assets Explained](#schematyc-assets-explained)
+[How to create a Schematyc Asset](#how-to-create-a-schematyc-asset)
+[How to Add Content to an Asset](#how-to-add-content-to-an-asset)
+[Intro Video](#intro-video)

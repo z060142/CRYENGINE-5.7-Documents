@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29934096]
+![Image](https://www.cryengine.com/docs/static/attachments/29934096)
 
 ##
 Overview
@@ -19,21 +19,11 @@ When performing batch conversion of assets using the RC (see parent article) you
 
 Binary XML conversion takes an input XML file, parses it, filters the XML elements and attributes, and stores the node tree in a binary format.
 
-[#sections](
-Sections
-)
-[#advantages](
-Advantages
-)
-[#disadvantages](
-Disadvantages
-)
-[#conversion](
-Conversion
-)
-[#filter-file](
-Filter file
-)
+[Sections](#sections)
+[Advantages](#advantages)
+[Disadvantages](#disadvantages)
+[Conversion](#conversion)
+[Filter file](#filter-file)
 
 ##
 Advantages

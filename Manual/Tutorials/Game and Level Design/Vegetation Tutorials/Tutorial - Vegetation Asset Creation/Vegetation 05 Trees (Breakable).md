@@ -7,9 +7,9 @@
 
 ## Child Pages
 
-- [Vegetation 05 Trees (Breakable) 3dsMax](Vegetation 05 Trees (Breakable)/Vegetation 05 Trees (Breakable) 3dsMax.md)
-- [Vegetation 05 Trees (Breakable) Maya](Vegetation 05 Trees (Breakable)/Vegetation 05 Trees (Breakable) Maya.md)
-- [Vegetation 05 Trees (Breakable) CRYENGINE](Vegetation 05 Trees (Breakable)/Vegetation 05 Trees (Breakable) CRYENGINE.md)
+- [Vegetation 05 Trees (Breakable) 3dsMax](Vegetation%2005%20Trees%20(Breakable)/Vegetation%2005%20Trees%20(Breakable)%203dsMax.md)
+- [Vegetation 05 Trees (Breakable) Maya](Vegetation%2005%20Trees%20(Breakable)/Vegetation%2005%20Trees%20(Breakable)%20Maya.md)
+- [Vegetation 05 Trees (Breakable) CRYENGINE](Vegetation%2005%20Trees%20(Breakable)/Vegetation%2005%20Trees%20(Breakable)%20CRYENGINE.md)
 
 ## Content
 
@@ -20,13 +20,11 @@ Boolean-breakable trees technology is a dynamic procedural breaking method that 
 
 This separates the tree parts that are cut as a result (the cut shape is generally expected to be large enough to be able to cut through the trunk in a single operation). Non-breakable tree pieces, like patches of foliage, are then assigned to the broken parts and have their
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285897](
-touch-bending
-)
+[touch-bending](Vegetation%2004%20Bushes%20(Touch%20Bending).md)
 **
  activated if they have it set up.
 
-[Image: /docs/static/attachments/25505420]
+![Image](https://www.cryengine.com/docs/static/attachments/25505420)
 
 *
 Pic01: Boolean breakage in action (with p_draw_helpers = 1 active)
@@ -106,22 +104,16 @@ Trees, however, can do some additional processing, such as
 Attach non-breakable foliage parts to broken trunk pieces
 *
 .
-[Image: /docs/static/attachments/25505418]
+![Image](https://www.cryengine.com/docs/static/attachments/25505418)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285902](
-Vegetation 05 Trees (Breakable) 3dsMax
-)
+[Vegetation 05 Trees (Breakable) 3dsMax](Vegetation%2005%20Trees%20(Breakable)/Vegetation%2005%20Trees%20(Breakable)%203dsMax.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/25530784](
-Vegetation 05 Trees (Breakable) Maya
-)
+[Vegetation 05 Trees (Breakable) Maya](Vegetation%2005%20Trees%20(Breakable)/Vegetation%2005%20Trees%20(Breakable)%20Maya.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/24285904](
-Vegetation 05 Trees (Breakable) CRYENGINE
-)
+[Vegetation 05 Trees (Breakable) CRYENGINE](Vegetation%2005%20Trees%20(Breakable)/Vegetation%2005%20Trees%20(Breakable)%20CRYENGINE.md)
 
 *
 Pic02: Upper foliage (palm fronds) with touch bending still attached to the broken trunk piece.
@@ -129,7 +121,7 @@ Pic02: Upper foliage (palm fronds) with touch bending still attached to the brok
 
 -
 Make a (usually successful) attempt to generate a set of capsule physics proxies for the broken trunk parts. This is mainly a performance optimization, and the mesh proxy is also kept, for ray tracing and possible subsequent breaks.
-[Image: /docs/static/attachments/25505419]
+![Image](https://www.cryengine.com/docs/static/attachments/25505419)
 
 *
 Pic03: Auto generated capsule at the end of the broken trunk part.
@@ -150,12 +142,6 @@ Tutorials
 
 Depending on the DCC tool used - the links below show you how to setup vegetation assets for breaking.
 
-[#boolean-cutter-geometry](
-Boolean Cutter Geometry
-)
-[#surface-types](
-Surface Types
-)
-[#vegetation](
-Vegetation
-)
+[Boolean Cutter Geometry](#boolean-cutter-geometry)
+[Surface Types](#surface-types)
+[Vegetation](#vegetation)

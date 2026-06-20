@@ -15,21 +15,14 @@ Renderdoc™ is a standalone program that can be used to capture and replay fram
 Renderdoc was originally developed by Crytek and has evolved into an independent open-source project.
 
 -
-[http://cryengine.com/renderdoc](
-
-http://cryengine.com/renderdoc
-)
+[http://cryengine.com/renderdoc](http://cryengine.com/renderdoc)
  - homepage
 
 -
-[http://docs.renderdoc.org/](
-http://docs.renderdoc.org/
-)
+[http://docs.renderdoc.org/](http://docs.renderdoc.org/)
  - documentation
 
 -
-[https://github.com/baldurk/renderdoc](
-https://github.com/baldurk/renderdoc
-)
+[https://github.com/baldurk/renderdoc](https://github.com/baldurk/renderdoc)
  - git repository with updated links and documentation
 Chapters:

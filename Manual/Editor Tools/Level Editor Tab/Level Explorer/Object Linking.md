@@ -13,9 +13,7 @@ Overview
 As projects grow in size, the number of objects included within a single level might naturally increase, leading to a cluttered and disorganized level design environment.
 
 This is partly overcome by working with multiple layers to which objects may be assigned in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35259541](
-Level Explorer
-)
+[Level Explorer](../Level%20Explorer.md)
 . Additionally, the Engine also allows for links or associations to be created between multiple objects such that any changes made to a single object automatically influences others with which it might be associated.
 
 These associations are of three basic types; Groups, Parent - Child Links and Entity Links.
@@ -42,7 +40,7 @@ Ctrl
 
 -
 Dragging a selection box around multiple objects within the Viewport.
-[Image: /docs/static/attachments/36840427]
+![Image](https://www.cryengine.com/docs/static/attachments/36840427)
 
 *
 Group Creation
@@ -56,7 +54,7 @@ Create Group
 
 Once created, a bounding box will be displayed around the group along with a group-specific pivot point that helps in easier selection/manipulation of the group as a whole via the Viewport.
 
-[Image: /docs/static/attachments/36840431]
+![Image](https://www.cryengine.com/docs/static/attachments/36840431)
 
 *
 Bounding Box
@@ -72,7 +70,7 @@ Ungroup
 **
  discards the association existing between a group's objects, such that each of them are returned to their original individual states.
 
-[Image: /docs/static/attachments/36840432]
+![Image](https://www.cryengine.com/docs/static/attachments/36840432)
 
 *
 Ungroup/Open
@@ -85,7 +83,7 @@ Open
  option meanwhile allows the objects contained within a group to be individually edited, moved, transformed, rotated or scaled, without affecting the group association between them as demonstrated below.
 
 Selecting a grouped object from the Level Explorer or double-clicking it within the Viewport automatically opens its containing group. allowing the object to be individually edited, moved, transformed, rotated or scaled as desired.
-[Image: /docs/static/attachments/36842659]
+![Image](https://www.cryengine.com/docs/static/attachments/36842659)
 
 *
 Open Group
@@ -124,14 +122,14 @@ Attach to...
 
 -
 Selecting the target group to which the selected object must be added.
-[Image: /docs/static/attachments/36842025]
+![Image](https://www.cryengine.com/docs/static/attachments/36842025)
 
 *
 Attach to...
 *
 
 Having trouble selecting the target group? Activate Helpers by clicking the
-[Image: /docs/static/attachments/36842673]
+![Image](https://www.cryengine.com/docs/static/attachments/36842673)
  icon at the top of the Viewport, hold the
 **
 Spacebar
@@ -171,7 +169,7 @@ Right-clicking the object and selecting the
 Detach
 **
  option.
-[Image: /docs/static/attachments/36842026]
+![Image](https://www.cryengine.com/docs/static/attachments/36842026)
 
 *
 Detach
@@ -192,9 +190,7 @@ Level -> Export Selected Object(s)
 **
  option of the Main Menu.
 Previously saved groups can then be imported into a level using the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35260066](
- Asset Browser
-)
+[Asset Browser](../../Asset%20Browser.md)
 .
 
 ##
@@ -206,22 +202,20 @@ Transformations applied to a child object however do not influence its parent. M
 
 Parent-child objects on the other hand might exhibit logical relationships in game code.
 
-[Image: /docs/static/attachments/28274866]
+![Image](https://www.cryengine.com/docs/static/attachments/28274866)
 
 *
 Moving a child object
 *
 
 *
-[Image: /docs/static/attachments/28274867]
+![Image](https://www.cryengine.com/docs/static/attachments/28274867)
 
 Moving a parent object
 *
 
 Linking does not work on static Brush objects; only
-[/docs/static/engines/cryengine-5/categories/23756816/pages/26870341](
-Entity
-)
+[Entity](../../../Entities%20and%20Tools.md)
  type objects can be linked.
 
 ##
@@ -241,7 +235,7 @@ Link To...
 
 -
 Select the target parent object immediately after as shown.
-[Image: /docs/static/attachments/36842751]
+![Image](https://www.cryengine.com/docs/static/attachments/36842751)
 
 *
 Linking and Unlinking
@@ -285,14 +279,12 @@ Alternatively, objects can be linked and unlinked from the
 Link -> Link/Unlink
 **
  options of the Main Menu or via the
-[Image: /docs/static/attachments/36840435]
+![Image](https://www.cryengine.com/docs/static/attachments/36840435)
  icons of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/35848748#Toolbars-Selection](
-Selection
-)
+[Selection](../../../CRYENGINE%20-%20Getting%20Started/For%20New%20CRYENGINE%20Users/CRYENGINE%20V%20Interface/Toolbars.md#Toolbars-Selection)
  toolbar.
 
-[Image: /docs/static/attachments/36840434]
+![Image](https://www.cryengine.com/docs/static/attachments/36840434)
 
 *
 Link -> Link/Unlink
@@ -306,26 +298,26 @@ Select
 Link -> Link
 **
  option from the Main Menu or the
-[Image: /docs/static/attachments/36842754]
+![Image](https://www.cryengine.com/docs/static/attachments/36842754)
  icon;
 
 -
 Click upon the object that will be the child in the new link, hold down the LMB and drag the mouse between this child object and its target parent object.
 A link in progress is indicated by a red line whereas a blue line represents a completed link; clicking upon
-[Image: /docs/static/attachments/36842752]
+![Image](https://www.cryengine.com/docs/static/attachments/36842752)
  at the top of the Viewport will exit Link mode. Similarly a child is unlinked from its parent by selecting it within the Viewport, and clicking upon either
 **
 Link -> Unlink
 **
  or the
-[Image: /docs/static/attachments/36842755]
+![Image](https://www.cryengine.com/docs/static/attachments/36842755)
  icon.
-[Image: /docs/static/attachments/28274864]
+![Image](https://www.cryengine.com/docs/static/attachments/28274864)
 
 *
 Link In Progress
 *
-[Image: /docs/static/attachments/28274865]
+![Image](https://www.cryengine.com/docs/static/attachments/28274865)
 
 *
 Link Completed
@@ -343,7 +335,7 @@ Dragging an object onto another object creates a parent-child relationship betwe
 
 -
 Dragging an Entity type object onto another Entity type object that has bones, displays a menu through which the first object can be linked to either a specific bone or the target object itself.
-[Image: /docs/static/attachments/36842412]
+![Image](https://www.cryengine.com/docs/static/attachments/36842412)
 
 *
 Level Explorer Grouping/Linking
@@ -355,19 +347,13 @@ Entity Links
 A third kind of link that can exist between objects is an Entity Link.
 
 An Entity Link merely represents a logical relationship that exists between
-[/docs/static/engines/cryengine-5/categories/23756813/pages/26216196](
-Entity
-)
+[Entity](../../../../API%20Reference/Entity.md)
  type objects, and any change made to an entity within an Entity Link doesn't affect the other.
 
 Such logical links between entities can be used to script sequences of events using
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../../Flow%20Graph.md)
  for example, where the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450603](
-GetEntity
-)
+[GetEntity](../../Flow%20Graph/Flow%20Graph%20Node%20Reference/Iterator%20Nodes.md)
 node retrieves created Entity Links.
 
 ##
@@ -387,7 +373,7 @@ Entity Links
 **
  section in the Properties panel.
 
-[Image: /docs/static/attachments/36840378]
+![Image](https://www.cryengine.com/docs/static/attachments/36840378)
 
 *
 Entity Links section.
@@ -405,7 +391,7 @@ Pick
 and select the target Entity type object with which the currently selected entity needs to be linked.
 A green line will indicate that the link process has been successfully completed.
 
-[Image: /docs/static/attachments/36840377]
+![Image](https://www.cryengine.com/docs/static/attachments/36840377)
 
 *
 Pick
@@ -417,7 +403,7 @@ Users may continue selecting multiple Entities to link the currently selected ob
 Clear
 **
  option discards all created Entity links, while clicking
-[Image: /docs/static/attachments/36842756]
+![Image](https://www.cryengine.com/docs/static/attachments/36842756)
  exits the Entity Links mode.
 Cannot see a green line between linked entities?
 
@@ -429,7 +415,7 @@ s Link is
 **
 Edit->Preferences->Viewport->General.
 **
-[Image: /docs/static/attachments/36840376]
+![Image](https://www.cryengine.com/docs/static/attachments/36840376)
 
 *
 Display Objects Link
@@ -448,7 +434,7 @@ Links
 **
  section can be edited to provide Entity Links with a custom name.
 
-[Image: /docs/static/attachments/36840375]
+![Image](https://www.cryengine.com/docs/static/attachments/36840375)
 
 *
 Renaming
@@ -462,7 +448,7 @@ To replace the target entity of any given Entity Link, click the
 Arrow
 **
  button
-[Image: /docs/static/attachments/36840380]
+![Image](https://www.cryengine.com/docs/static/attachments/36840380)
  next to the
 **
 Target
@@ -477,24 +463,12 @@ Entity Links
 Run-time Links Using Flow Graph
 
 Objects can be linked and unlinked during game run-time through
-[/docs/static/engines/cryengine-5/categories/23756816/pages/27594282](
-Flow Graph
-)
+[Flow Graph](../../Flow%20Graph.md)
  by making use of the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29450587#EntityNodes-AttachDetach](
- ChildAttach and ChildDetach
-)
+[ChildAttach and ChildDetach](../../Flow%20Graph/Flow%20Graph%20Node%20Reference/Entity%20Nodes.md#EntityNodes-AttachDetach)
  Entity Nodes respectively.
 
-[#grouping](
-Grouping
-)
-[#linking](
-Linking
-)
-[#entity-links](
-Entity Links
-)
-[#run-time-links-using-flow-graph](
-Run-time Links Using Flow Graph
-)
+[Grouping](#grouping)
+[Linking](#linking)
+[Entity Links](#entity-links)
+[Run-time Links Using Flow Graph](#run-time-links-using-flow-graph)

@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Tutorial - Animated Blendshapes - CRYENGINE](Tutorial - Animated Blendshapes/Tutorial - Animated Blendshapes - CRYENGINE.md)
+- [Tutorial - Animated Blendshapes - CRYENGINE](Tutorial%20-%20Animated%20Blendshapes/Tutorial%20-%20Animated%20Blendshapes%20-%20CRYENGINE.md)
 
 ## Content
 
@@ -23,7 +23,7 @@ They are usually either modeled by artists or by scanning physical models, like 
  In this tutorial series we
  concentrate on Blendshapes used for animation and how to get them into CRYENGINE.
 
-[Image: /docs/static/attachments/24156105]
+![Image](https://www.cryengine.com/docs/static/attachments/24156105)
 
 ##
 Tutorials
@@ -33,6 +33,4 @@ Blendshapes
  technology, or you can jump straight to the CRYENGINE section of the tutorial.
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44959518](
-Tutorial - Animated Blendshapes - CRYENGINE
-)
+[Tutorial - Animated Blendshapes - CRYENGINE](Tutorial%20-%20Animated%20Blendshapes/Tutorial%20-%20Animated%20Blendshapes%20-%20CRYENGINE.md)

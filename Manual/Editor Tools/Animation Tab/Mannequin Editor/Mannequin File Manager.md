@@ -10,7 +10,7 @@
 ##
 Overview
 
-[Image: /docs/static/attachments/14976435]
+![Image](https://www.cryengine.com/docs/static/attachments/14976435)
 
 The Mannequin file manager is used to save (or reload) mannequin related files.
 
@@ -23,7 +23,5 @@ exactly;
 this strongly discourages hand editing.
 
 See the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308483](
-Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving
-)
+[Mannequin Editor Tutorial 1 - Preview Setup, Fragments and Saving](../../../Tutorials/Animation%20and%20Characters/Mannequin%20Editor/Mannequin%20Editor%20Tutorial%201%20-%20Preview%20Setup%2C%20Fragments%20and%20Saving.md)
 .

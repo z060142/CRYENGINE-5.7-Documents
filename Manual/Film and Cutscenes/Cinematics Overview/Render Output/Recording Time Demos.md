@@ -197,9 +197,5 @@ demo_profile
 demo_time:
 **
  Time demo filename.
-[#recording-controls](
-Recording Controls
-)
-[#related-console-variables](
-Related Console Variables
-)
+[Recording Controls](#recording-controls)
+[Related Console Variables](#related-console-variables)

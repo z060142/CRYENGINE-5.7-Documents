@@ -106,14 +106,10 @@ Portions related to TinyXML ( used in the xNormal's Ogre mesh importer ):
 
 --- begin ---
 
-[http://www.sourceforge.net/projects/tinyxml](
-www.sourceforge.net/projects/tinyxml
-)
+[www.sourceforge.net/projects/tinyxml](http://www.sourceforge.net/projects/tinyxml)
 
 Original code (2.0 and earlier )copyright (c) 2000-2006 Lee Thomason (
-[http://www.grinninglizard.com/](
-www.grinninglizard.com
-)
+[www.grinninglizard.com](http://www.grinninglizard.com/)
 )
 
 This software is provided 'as-is', without any express or implied
@@ -198,9 +194,7 @@ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WAR
 
 Julian Seward, Cambridge, UK.
 
-[mailto:jseward@acm.org](
-jseward@acm.org
-)
+[jseward@acm.org](mailto:jseward@acm.org)
 
 ##
 Common Public License Version 1.0
@@ -327,30 +321,12 @@ Permission is granted to anyone to use this software for any purpose, including 
 
 — end —
 
-[#xnormals-sdk-main-license-and-copyright](
-xNormal's SDK main license & copyright
-)
-[#portions-related-to-morten-s-mikkelsens-tangent-spacederivative-calculation-used-internally-for-several-computations](
-Portions related to Morten S. Mikkelsen's tangent space/derivative calculation ( used internally for several computations ):
-)
-[#portions-related-to-autodesks-3ds-max-maya](
-Portions related to Autodesk's 3ds Max / Maya :
-)
-[#portions-related-to-ogre3d-used-in-the-xnormals-ogre-mesh-importer](
-Portions related to Ogre3D ( used in the xNormal's Ogre mesh importer ):
-)
-[#portions-related-to-tinyxml-used-in-the-xnormals-ogre-mesh-importer](
-Portions related to TinyXML ( used in the xNormal's Ogre mesh importer ):
-)
-[#portions-related-to-nsis-which-is-used-for-the-xnormals-sdk-installer](
-Portions related to NSIS ( which is used for the xNormal's SDK installer ):
-)
-[#applicable-licenses](
-Applicable Licenses
-)
-[#special-exception-for-lzma-compression-module](
-SPECIAL EXCEPTION FOR LZMA COMPRESSION MODULE
-)
-[#portions-related-to-nsiss-modern-ui-used-in-the-xnormals-sdk-installer](
-Portions related to NSIS’s Modern UI (used in the xNormal’s SDK installer)
-)
+[xNormal's SDK main license & copyright](#xnormals-sdk-main-license-and-copyright)
+[Portions related to Morten S. Mikkelsen's tangent space/derivative calculation ( used internally for several computations ):](#portions-related-to-morten-s-mikkelsens-tangent-spacederivative-calculation-used-internally-for-several-computations)
+[Portions related to Autodesk's 3ds Max / Maya :](#portions-related-to-autodesks-3ds-max-maya)
+[Portions related to Ogre3D ( used in the xNormal's Ogre mesh importer ):](#portions-related-to-ogre3d-used-in-the-xnormals-ogre-mesh-importer)
+[Portions related to TinyXML ( used in the xNormal's Ogre mesh importer ):](#portions-related-to-tinyxml-used-in-the-xnormals-ogre-mesh-importer)
+[Portions related to NSIS ( which is used for the xNormal's SDK installer ):](#portions-related-to-nsis-which-is-used-for-the-xnormals-sdk-installer)
+[Applicable Licenses](#applicable-licenses)
+[SPECIAL EXCEPTION FOR LZMA COMPRESSION MODULE](#special-exception-for-lzma-compression-module)
+[Portions related to NSIS’s Modern UI (used in the xNormal’s SDK installer)](#portions-related-to-nsiss-modern-ui-used-in-the-xnormals-sdk-installer)

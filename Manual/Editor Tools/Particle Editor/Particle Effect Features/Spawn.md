@@ -11,9 +11,7 @@
 Overview
 
 This category controls the number and duration of new particles that are added to the component. Spawn logic is always updated for each emitter that is created in the game. When a component is a child of a SecondGen component, spawn logic will instead update each parent particle that meets the trigger condition. When a parent particle dies, Spawn features will automatically stop adding new particles for that parent. For more information about SecondGen components, please refer to
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868322](
-SecondGen
-)
+[SecondGen](SecondGen.md)
 .
 
 Similar to most other features, Spawn features can also be combined together to achieve more sophisticated spawning effects.
@@ -38,9 +36,7 @@ Amount
 
  |
 Specifies the number of particles to be spawned. Can be used with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
  for more dynamic control of particle spawning.
 
  |
@@ -124,9 +120,7 @@ Amount
 Density
 
 This feature spawns particles to achieve the given spatial density and is based on the spawn length, area or volume which is usually specified in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36867977](
-Location
-)
+[Location](Location.md)
  feature.
 For each dimension, at least one particle is always spawned.
 
@@ -206,9 +200,7 @@ Amount
 
  |
 Specifies the amount of particles to spawn. Can be used with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
  for a more dynamic control of particle spawning.
 
  |
@@ -282,9 +274,7 @@ Amount
 
  |
 Specifies the amount of particles to spawn. Can be used with
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36868151](
-Modifiers
-)
+[Modifiers](Modifiers.md)
  for a more dynamic control of particle spawning.
 
  |
@@ -359,18 +349,8 @@ Rate
 **
  Feature is supported for spawning GPU particles.
 
-[#count](
-Count
-)
-[#density](
-Density
-)
-[#distance](
-Distance
-)
-[#rate](
-Rate
-)
-[#gpu-support](
-GPU Support
-)
+[Count](#count)
+[Density](#density)
+[Distance](#distance)
+[Rate](#rate)
+[GPU Support](#gpu-support)

@@ -53,9 +53,7 @@ b.
 Utilities.
 **
   The software contains certain components that are identified in the Utilities List located at
-[http://go.microsoft.com/fwlink/?LinkId=524839](
-http://go.microsoft.com/fwlink/?LinkId=524839
-)
+[http://go.microsoft.com/fwlink/?LinkId=524839](http://go.microsoft.com/fwlink/?LinkId=524839)
 .  Depending on the specific edition of the software, the number of Utility files you receive with the software may not be equal to the number of Utilities listed in the Utilities List.   Except as otherwise provided on the Utilities List for specific files, you may copy and install the Utilities you receive with the software on to other third party machines. These Utilities may only be used to debug and deploy your programs and databases you have developed with the software.  You must delete all the Utilities installed onto a third party machine within the earlier of (i) when you have finished debugging or deploying your programs; or (ii) thirty (30) days after installation of the Utilities onto that machine. We may add additional files to this list from time to time.
 
 c.
@@ -81,9 +79,7 @@ e.
 Third Party Notices
 **
 .  The software may include third party code that Microsoft, not the third party, licenses to you under this agreement. Notices, if any, for the third party code are included for your information only.  Notices, if any, for this third party code are included with the software and may be located at
-[http://aka.ms/thirdpartynotices](
-http://aka.ms/thirdpartynotices
-)
+[http://aka.ms/thirdpartynotices](http://aka.ms/thirdpartynotices)
 .
 
 ##
@@ -106,9 +102,7 @@ Right to Use and Distribute. The code and test files listed below are “Distrib
 
 REDIST.TXT Files.
 You may copy and distribute the object code form of code listed in REDIST.TXT files plus the files listed on the REDIST.TXT list located at
-[http://go.microsoft.com/fwlink/?LinkId=524842](
-http://go.microsoft.com/fwlink/?LinkId=524842
-)
+[http://go.microsoft.com/fwlink/?LinkId=524842](http://go.microsoft.com/fwlink/?LinkId=524842)
 . Depending on the specific edition of the software, the number of REDIST files you receive with the software may not be equal to the number of REDIST files listed in the REDIST.TXT List. We may add additional files to the list from time to time.
 
 -
@@ -183,9 +177,7 @@ i.
 Windows App Requirements.
 **
  If you intend to make your program available in the Windows Store, the program must comply with the Certification Requirements as defined and described in the App Developer Agreement, currently available at:
-[https://msdn.microsoft.com/en-us/library/windows/apps/hh694058.aspx](
-https://msdn.microsoft.com/en-us/library/windows/apps/hh694058.aspx
-)
+[https://msdn.microsoft.com/en-us/library/windows/apps/hh694058.aspx](https://msdn.microsoft.com/en-us/library/windows/apps/hh694058.aspx)
 .
 
 **
@@ -195,9 +187,7 @@ ii.
 Bing Maps.
 **
 The software may include features that retrieve content such as maps, images and other data through the Bing Maps (or successor branded) application programming interface (the “Bing Maps API”) to create reports displaying data on top of maps, aerial and hybrid imagery. If these features are included, you may use these features to create and view dynamic or static documents only in conjunction with and through methods and means of access integrated in the software. You may not otherwise copy, store, archive, or create a database of the entity information including business names, addresses and geocodes available through the Bing Maps API. You may not use the Bing Maps API to provide sensor based guidance/routing, nor use any Road Traffic Data or Bird’s Eye Imager (or associated metadata) even if available through the Bing Maps API for any purpose. Your use of the Bing Maps API and associated content is also subject to the additional terms and conditions at
-[http://go.microsoft.com/fwlink/?LinkId=21969](
-http://go.microsoft.com/fwlink/?LinkId=21969
-)
+[http://go.microsoft.com/fwlink/?LinkId=21969](http://go.microsoft.com/fwlink/?LinkId=21969)
 .
 
 **
@@ -262,9 +252,7 @@ Notice about the H.264/AVD Visual Standard, and the VC-1 Video Standard.
 This software may include H.264/MPEG-4 AVC and/or VD-1 decoding technology. MPEG LA, L.L.C. requires this notice:
 
 THIS PRODUCT IS LICENSED UNDER THE AVC AND THE VC-1 PATENT PORTFOLIO LICENSES FOR THE PERSONAL AND NON-COMMERCIAL USE OF A CONSUMER TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE ABOVE STANDARDS (“VIDEO STANDARDS”) AND/OR (ii) DECODE AVC, AND VC-1 VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL AND NON-COMMERCIAL ACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PROVIDER LICENSED TO PROVIDE SUCH VIDEO. NONE OF THE LICENSES EXTEND TO ANY OTHER PRODUCT REGARDLESS OF WHETHER SUCH PRODUCT IS INCLUDED WITH THIS SOFTWARE IN A SINGLE ARTICLE. NO LICENSE IS GRANTED OR SHALL BE IMPLIED FOR ANY OTHER USE. ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. SEE
-[http://www.mpegla.com/](
-WWW.MPEGLA.COM
-)
+[WWW.MPEGLA.COM](http://www.mpegla.com/)
 .
 
 For clarification purposes, this notice does not limit or inhibit the use of the software for normal business uses that are personal to that business which do not include (i) redistribution of the software to third parties, or (ii) creation of content with the VIDEO STANDARDS compliant technologies for distribution to third parties.
@@ -280,9 +268,7 @@ a.
  Consent for Internet-Based Services
 **
 . The software features described below and in the privacy statement at
-[http://go.microsoft.com/fwlink/?LinkId=506737](
-http://go.microsoft.com/fwlink/?LinkId=521839
-)
+[http://go.microsoft.com/fwlink/?LinkId=521839](http://go.microsoft.com/fwlink/?LinkId=506737)
  connect to Microsoft or service provider computer systems over the Internet. In some cases, you will not receive a separate notice when they connect. In some cases, you may switch off these features or not use them as described in the applicable product documentation. By using these features, you consent to the transmission of this information. Microsoft does not use the information to identify or contact you.
 
 **
@@ -306,9 +292,7 @@ Digital Certificates
 -
 Windows Application Certification Kit
 . To ensure you have the latest certification tests, when launched this software periodically checks a Windows Application Certification Kit file on
-[http://download.microsft.com](
-download.microsft.com
-)
+[download.microsft.com](http://download.microsft.com)
  to see if an update is available.  If an update is found, you are prompted and provided a link to a web site where you can download the update. You may use the Windows Application Certification Kit solely to test your programs before you submit them for a potential Microsoft Windows Certification and for inclusion on the Microsoft Windows Store. The results you receive are for informational purposes only. Microsoft has no obligation to either (i) provide you with a Windows Certification for your programs and/or ii) include your program in the Microsoft Windows Store.
 
 -
@@ -325,9 +309,7 @@ request media usage rights from a rights server on the Internet and
 -
  download and install available DRM Updates.
 For more information about this feature, including instructions for turning the Automatic Updates off, go to
-[http://go.microsoft.com/fwlink/?LinkId=147032](
-http://go.microsoft.com/fwlink/?LinkId=147032
-)
+[http://go.microsoft.com/fwlink/?LinkId=147032](http://go.microsoft.com/fwlink/?LinkId=147032)
 .
 
 -
@@ -343,9 +325,7 @@ ii.
 Use of Information.
 **
  We may use information collected about software use and performance to provide and improve Microsoft software and services as further described in Microsoft’s Privacy Statement available at:
-[https://go.microsoft.com/fwlink/?LinkID=521839](
-https://go.microsoft.com/fwlink/?LinkID=521839
-)
+[https://go.microsoft.com/fwlink/?LinkID=521839](https://go.microsoft.com/fwlink/?LinkID=521839)
 . We may also share it with others, such as hardware and software vendors. They may use the information to improve how their products run with Microsoft software.
 
 **
@@ -394,9 +374,7 @@ c.
 Location Framework.
 **
  The software may contain a location framework component or APIs that enable support of location services in programs.  Programs that receive device location must comply with the requirements related to the Location Service APIs as described in the Microsoft Store Policies (
-[https://docs.microsoft.com/en-us/legal/windows/agreements/store-policies](
-https://docs.microsoft.com/en-us/legal/windows/agreements/store-policies
-)
+[https://docs.microsoft.com/en-us/legal/windows/agreements/store-policies](https://docs.microsoft.com/en-us/legal/windows/agreements/store-policies)
 ).   If you choose to collect device location data outside of the control of Windows system settings, you must obtain legally sufficient consent for your data practices, and such practices must comply with all other applicable laws and regulations.
 
 d.
@@ -448,9 +426,7 @@ use the software for commercial software hosting services.
 8.    Export Restrictions
 
 The software is subject to United States export laws and regulations. You must comply with all domestic and international export laws and regulations that apply to the software. These laws include restrictions on destinations, end users and end use. For additional information, see
-[http://www.microsoft.com/exporting](
-www.microsoft.com/exporting
-)
+[www.microsoft.com/exporting](http://www.microsoft.com/exporting)
 .
 
 ##
@@ -1105,54 +1081,20 @@ For additional Microsoft Third-Party Notices see: https://aka.ms/thirdpartynotic
 
 ```
 
-[#microsoft-software-license-terms](
-MICROSOFT SOFTWARE LICENSE TERMS
-)
-[#1-installation-and-usage-rights](
-1.    Installation and Usage Rights
-)
-[#2-additional-licensing-requirements-andor-use-rights](
-2.   Additional Licensing Requirements and/or Use Rights
-)
-[#3-internet-based-services](
-3.    Internet Based Services
-)
-[#4-your-compliance-with-privacy-and-data-protection-laws](
-4.    Your Compliance with Privacy and Data Protection Laws
-)
-[#5-backup-copy](
-5.    Backup Copy
-)
-[#6-documentation](
-6.    Documentation
-)
-[#7-scope-of-license](
-7.    Scope of License
-)
-[#8-export-restrictions](
-8.    Export Restrictions
-)
-[#9-support-services](
-9.    Support Services
-)
-[#10-entire-agreement](
-10.  Entire Agreement
-)
-[#11-independent-parties](
-11. Independent Parties
-)
-[#12-applicable-law-and-place-to-resolve-disputes](
-12. Applicable Law and Place to Resolve Disputes
-)
-[#13-legal-effect](
-13. Legal Effect
-)
-[#14-disclaimer-of-warranty](
-14. Disclaimer of Warranty
-)
-[#15-limitation-on-and-exclusion-of-remedies-and-damages](
-15. Limitation on and Exclusion of Remedies and Damages
-)
-[#credits-and-third-party-software-notices-and-information](
-Credits and Third-Party Software Notices and Information
-)
+[MICROSOFT SOFTWARE LICENSE TERMS](#microsoft-software-license-terms)
+[1.    Installation and Usage Rights](#1-installation-and-usage-rights)
+[2.   Additional Licensing Requirements and/or Use Rights](#2-additional-licensing-requirements-andor-use-rights)
+[3.    Internet Based Services](#3-internet-based-services)
+[4.    Your Compliance with Privacy and Data Protection Laws](#4-your-compliance-with-privacy-and-data-protection-laws)
+[5.    Backup Copy](#5-backup-copy)
+[6.    Documentation](#6-documentation)
+[7.    Scope of License](#7-scope-of-license)
+[8.    Export Restrictions](#8-export-restrictions)
+[9.    Support Services](#9-support-services)
+[10.  Entire Agreement](#10-entire-agreement)
+[11. Independent Parties](#11-independent-parties)
+[12. Applicable Law and Place to Resolve Disputes](#12-applicable-law-and-place-to-resolve-disputes)
+[13. Legal Effect](#13-legal-effect)
+[14. Disclaimer of Warranty](#14-disclaimer-of-warranty)
+[15. Limitation on and Exclusion of Remedies and Damages](#15-limitation-on-and-exclusion-of-remedies-and-damages)
+[Credits and Third-Party Software Notices and Information](#credits-and-third-party-software-notices-and-information)

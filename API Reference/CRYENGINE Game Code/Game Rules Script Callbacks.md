@@ -14,84 +14,52 @@ File location:
 Callback Functions
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnAddTaggedEntity](
-#OnAddTaggedEntity
-)
+[#OnAddTaggedEntity](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnAddTaggedEntity)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnClientConnect](
-#OnClientConnect
-)
+[#OnClientConnect](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnClientConnect)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnClientDisconnect](
-#OnClientDisconnect
-)
+[#OnClientDisconnect](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnClientDisconnect)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnClientEnteredGame](
-#OnClientEnteredGame
-)
+[#OnClientEnteredGame](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnClientEnteredGame)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnDisconnect](
-#OnDisconnect
-)
+[#OnDisconnect](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnDisconnect)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnChangeSpectatorMode](
-#OnChangeSpectatorMode
-)
+[#OnChangeSpectatorMode](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnChangeSpectatorMode)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnChangeTeam](
-#OnChangeTeam
-)
+[#OnChangeTeam](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnChangeTeam)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnExplosion](
-#OnExplosion
-)
+[#OnExplosion](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnExplosion)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnHit](
-#OnHit
-)
+[#OnHit](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnHit)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnItemDropped](
-#OnItemDropped
-)
+[#OnItemDropped](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnItemDropped)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnItemPickedUp](
-#OnItemPickedUp
-)
+[#OnItemPickedUp](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnItemPickedUp)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnKill](
-#OnKill
-)
+[#OnKill](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnKill)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnRevive](
-#OnRevive
-)
+[#OnRevive](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnRevive)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnReviveInVehicle](
-#OnReviveInVehicle
-)
+[#OnReviveInVehicle](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnReviveInVehicle)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnSetTeam](
-#OnSetTeam
-)
+[#OnSetTeam](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnSetTeam)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306635#GameRulesScriptCallbacks-OnVehicleDestroyed](
-#OnVehicleDestroyed
-)
+[#OnVehicleDestroyed](Game%20Rules%20Script%20Callbacks.md#GameRulesScriptCallbacks-OnVehicleDestroyed)
 
 ##
 OnAddTaggedEntity( shooterId, targetId )

@@ -7,7 +7,7 @@
 
 ## Child Pages
 
-- [Implementing a Game DLL](Getting Started with Game Code/Implementing a Game DLL.md)
+- [Implementing a Game DLL](Getting%20Started%20with%20Game%20Code/Implementing%20a%20Game%20DLL.md)
 
 ## Content
 
@@ -33,9 +33,7 @@ Prerequisites
 Required Software
 
 Please refer to
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306511](
-Visual Studio Supported Versions_dup
-)
+[Visual Studio Supported Versions_dup](/docs/static/engines/cryengine-5/categories/23756813/pages/23306511)
  for information on which version of Visual Studio and Windows SDK are supported.
 
 ##
@@ -56,15 +54,11 @@ Starting with 3.6.3
 :
 *
 In order to build the CryInput.dll, you need to obtain the DirectX SDK from Microsoft
-[http://www.microsoft.com/en-us/download/details.aspx?id=6812](
-here
-)
+[here](http://www.microsoft.com/en-us/download/details.aspx?id=6812)
  (it's free). After installation, you must copy the contents of the installed SDK (the Include and Lib folders) into <CRYENGINE root>\Code\SDKs\DXSDK
 
 Alternatively, before building the Game code solution, disable the CryInput project from building by unchecking the check-box in the solution
-[http://msdn.microsoft.com/en-us/library/kwybya3w%28v=vs.110%29.aspx](
-Configuration Manager
-)
+[Configuration Manager](http://msdn.microsoft.com/en-us/library/kwybya3w%28v=vs.110%29.aspx)
  for all combinations of Configuration and Platform.
 
 ##
@@ -74,9 +68,7 @@ CRYENGINE 3.6.9 -> Current
 Starting with 3.6.9:
 *
 In order to build the CryAudioImplWwise.dll, you need to obtain the Wwise SDK from Audiokinetic
-[https://www.audiokinetic.com/downloads/](
-here
-)
+[here](https://www.audiokinetic.com/downloads/)
 . After installation, you must copy the folder <Wwise Installation root>\SDK\include\AK to <CRYENGINE root>\Code\SDKs\Audio\AK.
 Then create the
 <CRYENGINE root>\Code\SDKs\Audio\AK\lib folder and copy the contents of the following folders:
@@ -130,7 +122,7 @@ The final folder structure in
 <CRYENGINE root>\Code\SDKs\Audio\
  should look like this:
 
-[Image: /docs/static/attachments/23461268]
+![Image](https://www.cryengine.com/docs/static/attachments/23461268)
 
 ##
 Using STLport
@@ -178,9 +170,7 @@ This information applies to CRYENGINE before 3.7.0
 In CRYENGINE versions since 3.7.0, WAF is used as the build system.
 
 Please read
-[/docs/static/engines/cryengine-5/categories/23756813](
-WAF Build System
-)
+[WAF Build System](/docs/static/engines/cryengine-5/categories/23756813)
  on information how to generate Visual Studio solution files.
 
 The following table describes the solution file supplied with the CryENGINE SDK.
@@ -286,9 +276,7 @@ Source files for the reference game shipped with the SDK.
  |
 
 The header files from CryCommon and CryAction are required to recompile the GameDLL. More information on CryAudioImplWwise and writing your own Audio Implementations can be found
-[/docs](
-here
-)
+[here](/docs)
 .
 
 ##

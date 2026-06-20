@@ -49,9 +49,7 @@ AttenuationBulbSize
 
  |
 See
-[/docs/static/engines/cryengine-5/categories/23756816/pages/29796937#LightEntities-falloff](
-Attentuation and Falloff
-)
+[Attentuation and Falloff](Light%20Entities.md#LightEntities-falloff)
  for more information. When using AmbientLights, setting this value to '0' reverts to the older, non-physical attenuation model.
 
  |
@@ -163,9 +161,7 @@ FakeLight
 
  |
 Disables light projection, useful for lights which you only want to have
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869088](
-Flare
-)
+[Flare](../../../Lens%20Flare%20Editor.md)
  effects from.
 
  |
@@ -435,9 +431,7 @@ AttachToSun
 
  |
 When enabled, sets the Sun to use the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869088](
-Flare properties
-)
+[Flare properties](../../../Lens%20Flare%20Editor.md)
  for this light.
 
  |
@@ -457,9 +451,7 @@ FlareEnable
 
  |
 Used by the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/36869088](
-Flare Editor
-)
+[Flare Editor](../../../Lens%20Flare%20Editor.md)
  system.
 
  |
@@ -2145,18 +2137,8 @@ When set, the object will take damage from other damage sources.
 
  |
 
-[#light-properties](
-Light Properties
-)
-[#negative-lights-and-darkening-areas](
-Negative Lights and Darkening Areas
-)
-[#attenuation-and-fall-off](
-Attenuation and Fall Off
-)
-[#ambient-lights](
-Ambient Lights
-)
-[#destroyablelight](
-DestroyableLight
-)
+[Light Properties](#light-properties)
+[Negative Lights and Darkening Areas](#negative-lights-and-darkening-areas)
+[Attenuation and Fall Off](#attenuation-and-fall-off)
+[Ambient Lights](#ambient-lights)
+[DestroyableLight](#destroyablelight)

@@ -14,17 +14,13 @@ In this tutorial we will cover the process of setting up the CAT Rig with proper
 
 This tutorial relies on assets used in the GameSDK Sample Project. We recommend that you download this from the
 **
-[https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project](
-Asset Database
-)
+[Asset Database](https://www.cryengine.com/marketplace/product/crytek/cryengine-gamesdk-sample-project)
 **
 , import it into your Launcher, start it from there and then create a new level.
 
 See
 **
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44963099](
-this page
-)
+[this page](/docs/static/engines/cryengine-5/categories/23756816/pages/44963099)
 **
  to find out how to import a project to your Launcher. (The default folder for the GameSDK Sample Project when downloaded is
 `
@@ -401,18 +397,8 @@ Enable Physics/AI
 Pic9: Drag around the ragdoll in the viewport to test the ragdoll behavior
 *
 
-[#setting-up-custom-mesh-bones-in-cat](
-Setting up Custom Mesh Bones in CAT
-)
-[#creating-physic-proxys](
-Creating Physic Proxy's
-)
-[#testing-the-proxy-in-cryengine](
-Testing the proxy in CRYENGINE
-)
-[#ragdoll-creation](
-Ragdoll Creation
-)
-[#testing-the-ragdoll-in-cryengine](
-Testing the Ragdoll in CRYENGINE
-)
+[Setting up Custom Mesh Bones in CAT](#setting-up-custom-mesh-bones-in-cat)
+[Creating Physic Proxy's](#creating-physic-proxys)
+[Testing the proxy in CRYENGINE](#testing-the-proxy-in-cryengine)
+[Ragdoll Creation](#ragdoll-creation)
+[Testing the Ragdoll in CRYENGINE](#testing-the-ragdoll-in-cryengine)

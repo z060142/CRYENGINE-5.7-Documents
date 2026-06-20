@@ -14,27 +14,21 @@ CRYENGINE's animation system allows you to setup IK chains for characters.
 
 When an IK chain is active, the system figures out the values for the joints that are part of the chain so that the end effector reaches the provided target position (if it's possible to reach it). The exact behavior for each chain and the amount of joints supported depends on the solver used.
 
-[Image: /docs/static/attachments/23994450]
+![Image](https://www.cryengine.com/docs/static/attachments/23994450)
 
 Examples of systems that currently use LimbIK chains:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308004](
-Leg and Foot Ground Alignment
-)
+[Leg and Foot Ground Alignment](Leg%20and%20Foot%20Ground%20Alignment.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23308003](
-Animation Driven IK
-)
+[Animation Driven IK](Animation%20Driven%20IK.md)
 
 ##
 Setup
 
 IK chains are defined in the
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307999](
-chrparams file
-)
+[chrparams file](../Character%20Parameters%20File%20(chrparams).md)
  for a character
 
 ```

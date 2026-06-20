@@ -222,9 +222,7 @@ Download
 Attempts to download the specified shared file from remote storage.
 
 Listen for the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629#RemoteStorage-ondownloaded](
- OnDownloadedSharedFile
-)
+[OnDownloadedSharedFile](Remote%20Storage.md#RemoteStorage-ondownloaded)
 event after the download request.
 Platforms
  |
@@ -568,9 +566,7 @@ This function asks the platform to allow other users to query this file using th
 
 -
 Upon success, the
-[/docs/static/engines/cryengine-5/categories/23756813/pages/76448629#RemoteStorage-onfileshared](
- OnFileShared
-)
+[OnFileShared](Remote%20Storage.md#RemoteStorage-onfileshared)
 event containing the identifier to pass to other users will be triggered on the local user.
 Platforms
  |
@@ -694,21 +690,9 @@ Schematyc Nodes
 Function::GamePlatform::Service::UserGeneratedContent::Create
  |
 
-[#remote-file-cache](
-Remote File Cache
-)
-[#user-generated-content](
-User Generated Content
-)
-[#remote-storage-service-functions](
-Remote Storage Service Functions
-)
-[#remote-storage-service-events](
-Remote Storage Service Events
-)
-[#remote-file-functions](
-Remote File Functions
-)
-[#user-generated-content-service-functions](
-User Generated Content Service Functions
-)
+[Remote File Cache](#remote-file-cache)
+[User Generated Content](#user-generated-content)
+[Remote Storage Service Functions](#remote-storage-service-functions)
+[Remote Storage Service Events](#remote-storage-service-events)
+[Remote File Functions](#remote-file-functions)
+[User Generated Content Service Functions](#user-generated-content-service-functions)

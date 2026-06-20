@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/23461382]
+![Image](https://www.cryengine.com/docs/static/attachments/23461382)
 
 ##
 Overview
@@ -45,7 +45,7 @@ F
 
 You should see a dial on the left of the screen which shows your current speed, gear and RPM.
 
-[Image: /docs/static/attachments/23461407]
+![Image](https://www.cryengine.com/docs/static/attachments/23461407)
 
 Press
 **
@@ -81,7 +81,7 @@ Create Flow Graph
 **
 .
 
-[Image: /docs/static/attachments/23461406]
+![Image](https://www.cryengine.com/docs/static/attachments/23461406)
 
 This will bring up a popup window which says "Choose Group for the Flow Graph".
 
@@ -105,7 +105,7 @@ View -> Open View Pane -> Flow Graph
 
 To the left of the window is a tree showing the all the flow graphs associated with your scene. If you "lose" your Abrams1 flow graph you can get it back by clicking the icon here.
 
-[Image: /docs/static/attachments/23461405]
+![Image](https://www.cryengine.com/docs/static/attachments/23461405)
 
 ##
 Adding your first Flowgraph Nodes
@@ -133,7 +133,7 @@ Add Node->UI->Action->Control
 .
 This adds a node which we will use to start the speedometer UI element.
 
-[Image: /docs/static/attachments/23461404]
+![Image](https://www.cryengine.com/docs/static/attachments/23461404)
 
 On the UI:Action:Control node, double click the section that says
 **
@@ -147,11 +147,11 @@ Demo_HUD
 **
  from the list and click OK.
 
-[Image: /docs/static/attachments/23461403]
+![Image](https://www.cryengine.com/docs/static/attachments/23461403)
 
 Hover your cursor over the OnPassengerEnter on the entity:Abrams node, then click and drag a connector to the Start section on UI:Action:Control.
 
-[Image: /docs/static/attachments/23461402]
+![Image](https://www.cryengine.com/docs/static/attachments/23461402)
 
 ##
 Try out your new Speedometer
@@ -242,7 +242,7 @@ Choose Entity
 **
 . Click Assign Selected Entity.
 
-[Image: /docs/static/attachments/23461401]
+![Image](https://www.cryengine.com/docs/static/attachments/23461401)
 
 ##
 The Speedometer - Now with added Speed!
@@ -255,7 +255,7 @@ Ctrl+g
 
 Now would be a good time to save! It's a good idea to save your level each time you add something and try it in game to prove it works. If you wire up your Flow Graph incorrectly later on, you can just go back to the previous save.
 
-[Image: /docs/static/attachments/23461400]
+![Image](https://www.cryengine.com/docs/static/attachments/23461400)
 
 You will notice that when you get out of the tank the speedometer doesn't go away - so we will fix that in the next section.
 
@@ -305,10 +305,10 @@ Click and drag the Flow Graph view pane. As you drag, small window icons will ap
 
 Drag the view pane onto the icon to the left of the screen. This will dock the pane to the left of the game window, making it easier to see both at the same time.
 
-[Image: /docs/static/attachments/23461399]
+![Image](https://www.cryengine.com/docs/static/attachments/23461399)
  |
 
-[Image: /docs/static/attachments/23461398]
+![Image](https://www.cryengine.com/docs/static/attachments/23461398)
  |
 
 If necessary, make some more space by dragging the vertical separators between the sections of the Flow Graph View pane.
@@ -317,14 +317,14 @@ Use the middle mouse button and mouse wheel to zoom out so that you can see as m
 
 If you work with the Flow Graph a lot, you may find it useful to use 2 monitors so that you can have the game on one screen and Flow Graph on the other.
 
-[Image: /docs/static/attachments/23461397]
+![Image](https://www.cryengine.com/docs/static/attachments/23461397)
 
 ##
 Turning on the Visual Debugger
 
 At the top left of the Flow Graph view pane, click the icon with a bug on it. This turns on the visual debugger, which will let you see your script working whilst you play the game.
 
-[Image: /docs/static/attachments/23461396]
+![Image](https://www.cryengine.com/docs/static/attachments/23461396)
 
 Press the
 **
@@ -350,7 +350,7 @@ Demo_HUD Start
 
 If you get into and out of the vehicle multiple times, a small number will appear next to the link which shows you how many times it was triggered.
 
-[Image: /docs/static/attachments/23461395]
+![Image](https://www.cryengine.com/docs/static/attachments/23461395)
 
 ##
 Too much Velocity!
@@ -371,7 +371,7 @@ frame rate
 **
  would be eaten up by this node firing all the time.
 
-[Image: /docs/static/attachments/23461394]
+![Image](https://www.cryengine.com/docs/static/attachments/23461394)
 
 Many nodes in Flow Graph are
 **
@@ -399,7 +399,7 @@ Entity:Velocity
 
 To find out what type of input or output a node uses, make sure you have the Flow Graph window selected, then hover over the section you want to know about. A small text box will pop up showing the data type, along with a short description.
 
-[Image: /docs/static/attachments/23461393]
+![Image](https://www.cryengine.com/docs/static/attachments/23461393)
 
 Move your entity:Abrams node to the left to create some space.
 
@@ -441,7 +441,7 @@ true
 
 At this point, the Flow Graph will work the same as before, but now we have the option to turn off the Velocity node by connecting something to the false connector.
 
-[Image: /docs/static/attachments/23461392]
+![Image](https://www.cryengine.com/docs/static/attachments/23461392)
 
 ##
 Switching off the Engine
@@ -462,7 +462,7 @@ trash can
 **
  icon. This will clear the current flow graph debug information.
 
-[Image: /docs/static/attachments/23461391]
+![Image](https://www.cryengine.com/docs/static/attachments/23461391)
 
 Move your flow graph view so that you can see the Entity:Velocity and UpdateSpeedometer nodes.
 
@@ -494,9 +494,9 @@ click-drag
 **
  it so that it becomes a floating window again. Resize it so that you can see your Flow Graph more easily.
 
-[Image: /docs/static/attachments/23461390]
+![Image](https://www.cryengine.com/docs/static/attachments/23461390)
  |
-[Image: /docs/static/attachments/23461389]
+![Image](https://www.cryengine.com/docs/static/attachments/23461389)
  |
 
 ##
@@ -522,7 +522,7 @@ and
 *
 the OnPassengerExit to Math:BooleanTo at the same time.
 
-[Image: /docs/static/attachments/23461388]
+![Image](https://www.cryengine.com/docs/static/attachments/23461388)
 
 ##
 Accepting more than one input with the Any node
@@ -587,7 +587,7 @@ Ctrl+G
 
 Now you should see that the Entity:Velocity node only updates when you are in the vehicle.
 
-[Image: /docs/static/attachments/23461387]
+![Image](https://www.cryengine.com/docs/static/attachments/23461387)
 
 ##
 Adding Comments
@@ -610,14 +610,14 @@ Result
 
 You have added a simple speedometer to the tank vehicle, and learned the basics of using Flow Graph in CryEngine.
 
-[Image: /docs/static/attachments/23461386]
+![Image](https://www.cryengine.com/docs/static/attachments/23461386)
 
 ##
 Try it yourself - More improvements
 
 If you're feeling confident, here are some ways you could tweak the Speedometer even more. For example if you drive the boat, you will notice the speed is in knots, and it only has two gears.
 
-[Image: /docs/static/attachments/23461385]
+![Image](https://www.cryengine.com/docs/static/attachments/23461385)
 
 ##
 Changing the Units (Beginner)
@@ -628,7 +628,7 @@ You can change the units from KMH to Miles per hour, Knots or Meters per second 
 
 Take a look at the flowgraph for the boat for an example.
 
-[Image: /docs/static/attachments/23461384]
+![Image](https://www.cryengine.com/docs/static/attachments/23461384)
 
 ##
 Changing the Gears and Rev Limits (Intermediate)
@@ -641,7 +641,7 @@ To set the values in an array you need to use the UI:Util:ToArray node.
 
 For an example of how this should be set up, take a look at the flowgraph for the boat.
 
-[Image: /docs/static/attachments/23461383]
+![Image](https://www.cryengine.com/docs/static/attachments/23461383)
 
 ##
 Make the Speedometer play nice with the other HUD elements (Intermediate)
@@ -658,24 +658,10 @@ Adding Functionality to the Demo HUD and Speedometer Element (Advanced)
 
 If are interested in more complex scripting such as Action Script, you could add new features to the Demo HUD or Speedometer Flash files, such as an Altimeter and Vehicle health bar.
 
-[#getting-started](
-Getting Started
-)
-[#adding-the-basic-speedometer](
-Adding the basic Speedometer
-)
-[#quickly-hooking-up-the-speed](
-Quickly Hooking up the Speed
-)
-[#fixing-problems-making-the-speedometer-unbreakable](
-Fixing Problems - Making the Speedometer Unbreakable
-)
-[#adding-comments](
-Adding Comments
-)
-[#result](
-Result
-)
-[#try-it-yourself-more-improvements](
-Try it yourself - More improvements
-)
+[Getting Started](#getting-started)
+[Adding the basic Speedometer](#adding-the-basic-speedometer)
+[Quickly Hooking up the Speed](#quickly-hooking-up-the-speed)
+[Fixing Problems - Making the Speedometer Unbreakable](#fixing-problems-making-the-speedometer-unbreakable)
+[Adding Comments](#adding-comments)
+[Result](#result)
+[Try it yourself - More improvements](#try-it-yourself-more-improvements)

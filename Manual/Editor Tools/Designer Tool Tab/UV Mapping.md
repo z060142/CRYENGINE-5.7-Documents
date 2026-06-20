@@ -12,7 +12,7 @@ Overview
 
 The UV Mapping Editor is designed to provide easy and powerful ways to define UVs of a Designer object like one built in Maya, 3dsMax or Blender etc.
 
-[Image: /docs/static/attachments/28900768]
+![Image](https://www.cryengine.com/docs/static/attachments/28900768)
 
 ##
 Controls
@@ -203,7 +203,7 @@ View
 **
  buttons in the UV Mapping Editor. The selected polygons will be wrapped to the UV mapping view and the current sub material ID will be assigned to them.
 
-[Image: /docs/static/attachments/28900746]
+![Image](https://www.cryengine.com/docs/static/attachments/28900746)
 
 ##
 Plane
@@ -237,48 +237,48 @@ Plane
 *
 **
 
-[Image: /docs/static/attachments/28900753]
+![Image](https://www.cryengine.com/docs/static/attachments/28900753)
 **
 *
 
 If you select multiple polygon groups that are separated from one another, then UV islands (as many as the selected polygon groups) will be created as shown below.
 
-[Image: /docs/static/attachments/28900752]
+![Image](https://www.cryengine.com/docs/static/attachments/28900752)
 
 ##
 Cube
 
 A projected direction, of each selected polygon will be determined by the closest direction among Up(0,0,1), Down(0,0,-1), Left(-1,0,0), Right(1,0,0), Forward(0,1,0) and Back(0,-1,0). If a normal direction of a polygon is directed toward (0.4082,0.4082,0.8164), then the polygon will be projected toward the Up direction.
 
-[Image: /docs/static/attachments/28900751]
+![Image](https://www.cryengine.com/docs/static/attachments/28900751)
 
 ##
 View
 
 All selected polygons will be projected to a plane whose normal direction is in the camera's viewing direction.
 
-[Image: /docs/static/attachments/28900750]
+![Image](https://www.cryengine.com/docs/static/attachments/28900750)
 
 ##
 Sphere
 
 UVs will be determined by spherical coordinates.
 
-[Image: /docs/static/attachments/28900749]
+![Image](https://www.cryengine.com/docs/static/attachments/28900749)
 
 ##
 Cylinder
 
 UVs will be determined by cylindrical coordinates.
 
-[Image: /docs/static/attachments/28900748]
+![Image](https://www.cryengine.com/docs/static/attachments/28900748)
 
 ##
 Manipulation Functions
 
 The rest of the options in the UV Mapping tool are ways to manipulate the UVs.
 
-[Image: /docs/static/attachments/28900744]
+![Image](https://www.cryengine.com/docs/static/attachments/28900744)
 
 Number
  |
@@ -312,7 +312,7 @@ Pivot Type
 
  |
 There are two types of pivot. One is a pivot from selected elements, the other is the UV cursor which looks like this
-[Image: /docs/static/attachments/28900807]
+![Image](https://www.cryengine.com/docs/static/attachments/28900807)
 
 You can select either pivot types from the the pivot combo box.
 
@@ -353,7 +353,7 @@ and selecting multiple elements is also possible.
 
 The selected elements are represented in orange while the corresponding elements are represented in blue as shown below:
 
-[Image: /docs/static/attachments/28900809]
+![Image](https://www.cryengine.com/docs/static/attachments/28900809)
 
 The selected elements can be transformed by manipulating a gizmo or by dragging the mouse. The gizmo can be switched to
 **
@@ -392,9 +392,9 @@ Select Shared
 
 If you want to select blue elements which are the corresponding elements to the selected elements, hit this button. See below pictures.
 
-[Image: /docs/static/attachments/28900800]
+![Image](https://www.cryengine.com/docs/static/attachments/28900800)
 
-[Image: /docs/static/attachments/28900801]
+![Image](https://www.cryengine.com/docs/static/attachments/28900801)
 
 ##
 Loop Selection
@@ -416,17 +416,17 @@ tool in the Modeling tool
 Border Edge selected (left: initial border selected, right: result after Loop Selection)
 
 *
-[Image: /docs/static/attachments/28900769]
+![Image](https://www.cryengine.com/docs/static/attachments/28900769)
 
-[Image: /docs/static/attachments/28900770]
+![Image](https://www.cryengine.com/docs/static/attachments/28900770)
 
 *
 Inside Edge selected (left: initial border selected, right: result after Loop Selection)
 *
 
-[Image: /docs/static/attachments/28900771]
+![Image](https://www.cryengine.com/docs/static/attachments/28900771)
 
-[Image: /docs/static/attachments/28900761]
+![Image](https://www.cryengine.com/docs/static/attachments/28900761)
 
 *
 Multiple Edges selected
@@ -435,9 +435,9 @@ Multiple Edges selected
 (left: initial border selected, right: result after Loop Selection)
 
 *
-[Image: /docs/static/attachments/28900762]
+![Image](https://www.cryengine.com/docs/static/attachments/28900762)
 
-[Image: /docs/static/attachments/28900763]
+![Image](https://www.cryengine.com/docs/static/attachments/28900763)
 
 ##
 Unmap
@@ -451,22 +451,22 @@ Sew
 
 Attaches the first selected Edge border along the second selected border Edges, but does not move the island belonging to the selected Edges.
 
-[Image: /docs/static/attachments/28900795]
+![Image](https://www.cryengine.com/docs/static/attachments/28900795)
 
-[Image: /docs/static/attachments/28900796]
+![Image](https://www.cryengine.com/docs/static/attachments/28900796)
 
-[Image: /docs/static/attachments/28900797]
+![Image](https://www.cryengine.com/docs/static/attachments/28900797)
 
 ##
 Move and Sew
 
 Moves the island belonging to the first selected border Edges to orient them to the second border and attaches the first border to the second border.
 
-[Image: /docs/static/attachments/28900798]
+![Image](https://www.cryengine.com/docs/static/attachments/28900798)
 
-[Image: /docs/static/attachments/28900788]
+![Image](https://www.cryengine.com/docs/static/attachments/28900788)
 
-[Image: /docs/static/attachments/28900789]
+![Image](https://www.cryengine.com/docs/static/attachments/28900789)
 
 ##
 Smart Sew
@@ -514,7 +514,7 @@ Select Shared
 **
  are run sequentially. The corresponding Edge is highlighted in blue:
 
-[Image: /docs/static/attachments/28900764]
+![Image](https://www.cryengine.com/docs/static/attachments/28900764)
 
 Click
 **
@@ -526,7 +526,7 @@ and the
 **
 the two UV islands will be merged into one UV island:
 
-[Image: /docs/static/attachments/28900765]
+![Image](https://www.cryengine.com/docs/static/attachments/28900765)
 
 -
 Multiple Edges selected (orange color Edges) (
@@ -539,7 +539,7 @@ Move and Sew
 **
  are run sequentially). The corresponding Edges are highlighted in blue:
 
-[Image: /docs/static/attachments/28900766]
+![Image](https://www.cryengine.com/docs/static/attachments/28900766)
 
 Click
 **
@@ -547,7 +547,7 @@ Smart Sew
 **
  and the two UV islands are merged into one UV island:
 
-[Image: /docs/static/attachments/28900760]
+![Image](https://www.cryengine.com/docs/static/attachments/28900760)
 
 ##
 Separate
@@ -560,11 +560,11 @@ Separate
 **
  will then separate out the selected UV polygons and they become a separate island (third screenshot):
 
-[Image: /docs/static/attachments/28900791]
+![Image](https://www.cryengine.com/docs/static/attachments/28900791)
 
-[Image: /docs/static/attachments/28900790]
+![Image](https://www.cryengine.com/docs/static/attachments/28900790)
 
-[Image: /docs/static/attachments/28900792]
+![Image](https://www.cryengine.com/docs/static/attachments/28900792)
 
 ##
 Flip Horizontal/Flip Vertical
@@ -575,12 +575,12 @@ Flips the selected elements horizontally or vertically over a pivot position.
 Original, Flip Horizontal, Flip Vertical
 
 *
-[Image: /docs/static/attachments/28900783]
+![Image](https://www.cryengine.com/docs/static/attachments/28900783)
 
-[Image: /docs/static/attachments/28900784]
+![Image](https://www.cryengine.com/docs/static/attachments/28900784)
 
 **
-[Image: /docs/static/attachments/28900785]
+![Image](https://www.cryengine.com/docs/static/attachments/28900785)
 **
 
 ##
@@ -592,30 +592,20 @@ Aligns the selected UV positions along an X or Y axis. The axis with the longest
 Alignment with X axis
 *
 
-[Image: /docs/static/attachments/28900787]
+![Image](https://www.cryengine.com/docs/static/attachments/28900787)
 
-[Image: /docs/static/attachments/28900778]
+![Image](https://www.cryengine.com/docs/static/attachments/28900778)
 
 *
 Alignment with Y axis
 *
 
-[Image: /docs/static/attachments/28900779]
+![Image](https://www.cryengine.com/docs/static/attachments/28900779)
 
-[Image: /docs/static/attachments/28900793]
+![Image](https://www.cryengine.com/docs/static/attachments/28900793)
 
-[#controls](
-Controls
-)
-[#opening-the-uv-mapping-editor](
-Opening the UV Mapping Editor
-)
-[#basic-unwrapping-workflow](
-Basic Unwrapping Workflow
-)
-[#unwrapping-functions](
-Unwrapping Functions
-)
-[#manipulation-functions](
-Manipulation Functions
-)
+[Controls](#controls)
+[Opening the UV Mapping Editor](#opening-the-uv-mapping-editor)
+[Basic Unwrapping Workflow](#basic-unwrapping-workflow)
+[Unwrapping Functions](#unwrapping-functions)
+[Manipulation Functions](#manipulation-functions)

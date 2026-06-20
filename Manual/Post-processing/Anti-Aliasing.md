@@ -12,7 +12,7 @@ Overview
 
 A clean and stable image is very important for high-quality graphics. Furthermore, while there is a range of different anti-aliasing methods available, finding an efficient implementation and one that provides great quality remains one of the biggest challenges in rendering. This is even more true for VR applications, where jagged edges and crawling pixels can cause severe viewer discomfort and the rendering techniques employed have to operate within a very tight performance budget.
 
-[Image: /docs/static/attachments/28265954]
+![Image](https://www.cryengine.com/docs/static/attachments/28265954)
 
 ##
 Subpixel Morphological Antialiasing (SMAA) and Temporal AntiAliasing
@@ -128,12 +128,6 @@ Enables 3x3 supersampling.
 
 Supersampling can also be used in combination with the image-based AA techniques to further improve image quality.
 
-[#subpixel-morphological-antialiasing-smaa-and-temporal-antialiasing](
-Subpixel Morphological Antialiasing (SMAA) and Temporal AntiAliasing
-)
-[#temporal-supersampling-antialiasing-tsaa](
-Temporal Supersampling Antialiasing (TSAA)
-)
-[#supersampling](
-Supersampling
-)
+[Subpixel Morphological Antialiasing (SMAA) and Temporal AntiAliasing](#subpixel-morphological-antialiasing-smaa-and-temporal-antialiasing)
+[Temporal Supersampling Antialiasing (TSAA)](#temporal-supersampling-antialiasing-tsaa)
+[Supersampling](#supersampling)

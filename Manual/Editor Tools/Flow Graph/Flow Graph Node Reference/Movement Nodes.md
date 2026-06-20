@@ -12,7 +12,7 @@ MoveEntityTo
 
 Move an entity to a destination position at a defined speed or in a defined interval of time.
 
-[Image: /docs/static/attachments/29687958]
+![Image](https://www.cryengine.com/docs/static/attachments/29687958)
 
 **
 Inputs
@@ -167,7 +167,7 @@ RotateEntity
 
 Rotate at a defined speed.
 
-[Image: /docs/static/attachments/29687959]
+![Image](https://www.cryengine.com/docs/static/attachments/29687959)
 
 **
 Inputs
@@ -241,7 +241,7 @@ RotateEntityToEx
 
 Rotate an entity during a defined period of time or with a defined speed.
 
-[Image: /docs/static/attachments/29687960]
+![Image](https://www.cryengine.com/docs/static/attachments/29687960)
 
 **
 Inputs
@@ -396,15 +396,7 @@ RotateEntityTo
 
 -
 RotateTo
-[#moveentityto](
-MoveEntityTo
-)
-[#rotateentity](
-RotateEntity
-)
-[#rotateentitytoex](
-RotateEntityToEx
-)
-[#deprecated-nodes](
-Deprecated Nodes
-)
+[MoveEntityTo](#moveentityto)
+[RotateEntity](#rotateentity)
+[RotateEntityToEx](#rotateentitytoex)
+[Deprecated Nodes](#deprecated-nodes)

@@ -7,7 +7,7 @@
 
 ## Content
 
-[Image: /docs/static/attachments/44959412]
+![Image](https://www.cryengine.com/docs/static/attachments/44959412)
 
 ##
 Overview
@@ -24,15 +24,11 @@ The "SkeletonList.xml" is normally located at "<DRIVE_LETTER>:\<CRYENGINE_ROOT>\
 Source 3ds Max / Maya scenes with exported CRYENGINE files:
 
 **
-[/docs/static/attachments/24004040](
-jiggle_bone_tutorial.zip
-)
+[jiggle_bone_tutorial.zip](/docs/static/attachments/24004040)
 **
 
 **
-[/docs/static/attachments/24004041](
-skeletonlist.zip
-)
+[skeletonlist.zip](/docs/static/attachments/24004041)
 **
 
 Since the skeleton list is not used in Engine release 5.6 onwards, the Tutorial SkeletonList.xml file doesn't need to be downloaded. Any other references to this file within this tutorial can also be ignored.
@@ -107,13 +103,13 @@ Fire up the Sandbox Editor and open the Character Tool. Add the exported *.chr f
 Add the exported *.CHR skeleton file to the "SkeletonList.xml"
 *
 
-[Image: /docs/static/attachments/51347619]
+![Image](https://www.cryengine.com/docs/static/attachments/51347619)
 
 -
 Your new entry should look like this, depending if you want to modify the skeleton's name and how many skeleton entries have already been added.
 
 *
-[Image: /docs/static/attachments/51347620]
+![Image](https://www.cryengine.com/docs/static/attachments/51347620)
 *
 
 -
@@ -123,7 +119,7 @@ Don't forget to save the "SkeletonList.xml", otherwise you cannot find the skele
 Save your "SkeletonList.xml"
 *
 
-[Image: /docs/static/attachments/51347621]
+![Image](https://www.cryengine.com/docs/static/attachments/51347621)
 
 -
 Now it's time to add a new CRYENGINE Character by creating a new *.CDF file. On the Character Tool menu bar, go to "File" -> "New Character..." and a new dialog window opens. Go to your project folder (ours is located under "GameSDK\Objects\jigglebone_tutorial_maya") and give the CDF a proper name. In our case, we chose "attachment_ponytail.cdf"
@@ -132,7 +128,7 @@ Now it's time to add a new CRYENGINE Character by creating a new *.CDF file. On 
 Add a new CDF (Charcater Definition File)
 *
 
-[Image: /docs/static/attachments/51347622]
+![Image](https://www.cryengine.com/docs/static/attachments/51347622)
 
 -
 Look at the pane on the left of the Character Tool. You will find your new character CDF file under:
@@ -149,7 +145,7 @@ On the right pane the properties of the CDF are displayed, there browse for the 
 Add the skeleton again to the CDF!
 *
 
-[Image: /docs/static/attachments/51347624]
+![Image](https://www.cryengine.com/docs/static/attachments/51347624)
 
 -
 You can turn on the display of Joints and Joint Names to see you have your skeleton without any geometry skinned to it.
@@ -158,7 +154,7 @@ You can turn on the display of Joints and Joint Names to see you have your skele
 Display of joints to verify you correctly exported your skeleton!
 *
 
-[Image: /docs/static/attachments/51347625]
+![Image](https://www.cryengine.com/docs/static/attachments/51347625)
 
 -
 Since we only added an abstract skeleton as a representation of a human character (only a pelvis and a head along with the root joint was made!) we don't even need a human-like mesh bound to this skeleton. It is just to show you how minimalistic we can go with a base skeleton and focus on the physics part that comes in the next section.
@@ -173,7 +169,7 @@ We must add the pony tail skin attachment. With the character CDF still active, 
 Add the pony tail skinned object as "Skin Attachment"
 *
 
-[Image: /docs/static/attachments/51347626]
+![Image](https://www.cryengine.com/docs/static/attachments/51347626)
 
 ##
 Get the exported animations showing up by adding a *.CHRPARAMS file to your skeleton CHR
@@ -185,7 +181,7 @@ Click on the skeleton CHR file to get access to its chrparams. CRYENGINE will au
 Add *.CHRPARAMS file by clicking on the skeleton CHR entry in your CDF
 *
 
-[Image: /docs/static/attachments/51347627]
+![Image](https://www.cryengine.com/docs/static/attachments/51347627)
 
 -
 Browse to the folder where the Character Tool will find our animations.
@@ -194,7 +190,7 @@ Browse to the folder where the Character Tool will find our animations.
 Set the animation folder
 *
 
-[Image: /docs/static/attachments/51347628]
+![Image](https://www.cryengine.com/docs/static/attachments/51347628)
 
 *
 
@@ -207,7 +203,7 @@ After you finished and saved the *.chrparams file, you should see the animation 
 Animation set you exported:
 *
 
-[Image: /docs/static/attachments/51347630]
+![Image](https://www.cryengine.com/docs/static/attachments/51347630)
 
 -
 Check the correctness of the exported animation by double-clicking on the "default" file or just hit the "Play" button in the bottom "Playback" section. The Character Tool should also create an *.animasettings file for you and compress the exported *.i_caf files to *.caf
@@ -230,7 +226,7 @@ For each joint of the pony tail taking part in the simulation, we will add a "Jo
 How to activate the physics of the Attachment System, be certain you have set these five areas correctly!
 *
 
-[Image: /docs/static/attachments/51347631]
+![Image](https://www.cryengine.com/docs/static/attachments/51347631)
 
 -
 After you added a "Joint Attachment" for all pony tail simulation joints and set the five parameters shown in step 1, your basic setup is done.
@@ -239,7 +235,7 @@ After you added a "Joint Attachment" for all pony tail simulation joints and set
 Resulting "Joint Attachments" added
 *
 
-[Image: /docs/static/attachments/51347632]
+![Image](https://www.cryengine.com/docs/static/attachments/51347632)
 
 Next you will be playing with the settings of the "Pendulum Cone" physics. This will be explained in the next section and which parameters make the big changes.
 
@@ -255,7 +251,7 @@ Switch Layout for manipulating physics parameters across multiple Joint Attachme
 Split the right pane in the "Properties" section into two right and left halves
 
 *
-[Image: /docs/static/attachments/51347633]
+![Image](https://www.cryengine.com/docs/static/attachments/51347633)
 
 Try selecting multiple Joint Attachments on the left and make changes for the same parameter in the right. Cool, eh?
 
@@ -263,7 +259,7 @@ Try selecting multiple Joint Attachments on the left and make changes for the sa
 Always use this layout for tweaking parameter across several attachments.
 
 *
-[Image: /docs/static/attachments/51347634]
+![Image](https://www.cryengine.com/docs/static/attachments/51347634)
 
 In addition, you should turn on/off the debug view when you make changes to the simulation parameters:
 
@@ -272,7 +268,7 @@ Debug View
 
 *
 *
-[Image: /docs/static/attachments/51347636]
+![Image](https://www.cryengine.com/docs/static/attachments/51347636)
 *
 
 *
@@ -305,7 +301,7 @@ Blue
 Take special care of these two parameters for each "Joint Attachment" in the attachment list.
 
 *
-[Image: /docs/static/attachments/51347637]
+![Image](https://www.cryengine.com/docs/static/attachments/51347637)
 
 ##
 Physics Parameters you normally do not have to change
@@ -400,7 +396,7 @@ otate each joint in your pony tail skeleton by these two vectors:
 For the first joint we added a rotation offset to make the pony tail look like it's sticking out of the back of the head and then hanging down.
 *
 
-[Image: /docs/static/attachments/51347638]
+![Image](https://www.cryengine.com/docs/static/attachments/51347638)
 
 ##
 Parameters having no impact on the simulation of "Pendulum Cone"
@@ -572,7 +568,7 @@ will move the initial position of the simulation. If you aligned the joints in y
 Example of a "Spring Ellipsoid" simulation setup ( File: attachment_antenna.cdf )
 
 *
-[Image: /docs/static/attachments/51347639]
+![Image](https://www.cryengine.com/docs/static/attachments/51347639)
 
 **
 Springs are much harder to control than the pendulum. Your main goal should be:
@@ -653,7 +649,7 @@ Pendulum Cone
 Achieve a similar pendulum simulation with springs
 
 *
-[Image: /docs/static/attachments/51347640]
+![Image](https://www.cryengine.com/docs/static/attachments/51347640)
 
 We used a different setup to make a pony tail, but the difference between the CDF using springs and pendula is the following
 **
@@ -668,9 +664,9 @@ With the springs, the whole joint chain is tilted as the "head joint" (the node 
 *
 Comparing the difference in setups with Springs & Pendula, while in a rest pose.
 
-[Image: /docs/static/attachments/51347641]
+![Image](https://www.cryengine.com/docs/static/attachments/51347641)
 
-[Image: /docs/static/attachments/51347642]
+![Image](https://www.cryengine.com/docs/static/attachments/51347642)
 *
 
 With the spring sample CDF, we added in front of the springs a pendulum simulation joint to offset rotate the joint chain. We could also replicate the pendulum-only setup by tweaking the value for the pendulum pulled downwards by gravity.
@@ -712,15 +708,7 @@ Set up physics simulation parameters for "Joint Attachment"
 
 -
 Understand the different use cases of CRYENGINE's "Joint Attachments"
-[#tutorial-files](
-Tutorial Files
-)
-[#set-up-the-exported-assets-in-cryengines-character-tool](
-Set up the exported assets in CRYENGINE's Character Tool
-)
-[#joint-attachment-physics-in-character-tool](
-Joint Attachment Physics in Character Tool
-)
-[#summary](
-Summary
-)
+[Tutorial Files](#tutorial-files)
+[Set up the exported assets in CRYENGINE's Character Tool](#set-up-the-exported-assets-in-cryengines-character-tool)
+[Joint Attachment Physics in Character Tool](#joint-attachment-physics-in-character-tool)
+[Summary](#summary)

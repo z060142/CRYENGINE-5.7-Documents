@@ -27,7 +27,7 @@ Main Menu Search Window
 In the top-right corner of the UI the Menu Search window can be found:
 
 *
-[Image: /docs/static/attachments/25510249]
+![Image](https://www.cryengine.com/docs/static/attachments/25510249)
 
 *
 
@@ -40,7 +40,7 @@ menu bar can be found and executed very easily.
 
 For example, typing "material" will show all options and tools in the menu bar containing "material:
 
-[Image: /docs/static/attachments/25510250]
+![Image](https://www.cryengine.com/docs/static/attachments/25510250)
 
 The right column will show where each tool or option is located in the menu bar.
 
@@ -68,7 +68,7 @@ Notification Center
 The notification center is a combination of pop-up messages that are not modal and don't require user input, and is a place where a list of tasks, errors and warnings can be seen. These messages show notifications, warnings and errors and background tasks.
 
 *
-[Image: /docs/static/attachments/25510410]
+![Image](https://www.cryengine.com/docs/static/attachments/25510410)
 
 *
 
@@ -115,7 +115,7 @@ Current
 
 The Current tab shows a collection of all notifications.
 
-[Image: /docs/static/attachments/25511199]
+![Image](https://www.cryengine.com/docs/static/attachments/25511199)
 
 -
 Notifications coming from warnings, asserts and errors will be, by default, combined into a single notification after more than 25 are displayed. This option can be disabled, and the number can be tweaked in the preferences panel described below
@@ -132,7 +132,7 @@ All notification can be hidden by clicking the
 Clear All
 **
 (
-[Image: /docs/static/attachments/25510420]
+![Image](https://www.cryengine.com/docs/static/attachments/25510420)
 ) button on the top-left
 
 ##
@@ -140,34 +140,34 @@ History
 
 The Notification History contains a full history of messages. Double-clicking an item will, if possible, take the user to where the error originated from.
 
-[Image: /docs/static/attachments/25510419]
+![Image](https://www.cryengine.com/docs/static/attachments/25510419)
 
 Button
  |
 Description
  |
 
-[Image: /docs/static/attachments/25510420]
+![Image](https://www.cryengine.com/docs/static/attachments/25510420)
  |
 Clears the list of messages.
  |
 
-[Image: /docs/static/attachments/25510452]
+![Image](https://www.cryengine.com/docs/static/attachments/25510452)
  |
 Shows the complete history of messages.
  |
 
-[Image: /docs/static/attachments/25510453]
+![Image](https://www.cryengine.com/docs/static/attachments/25510453)
  |
 Shows/hides info messages.
  |
 
-[Image: /docs/static/attachments/25510454]
+![Image](https://www.cryengine.com/docs/static/attachments/25510454)
  |
 Shows/hides warnings.
  |
 
-[Image: /docs/static/attachments/25510455]
+![Image](https://www.cryengine.com/docs/static/attachments/25510455)
  |
 Shows/hides errors.
  |
@@ -194,7 +194,7 @@ Message
 Preferences
 
 *
-[Image: /docs/static/attachments/25510421]
+![Image](https://www.cryengine.com/docs/static/attachments/25510421)
 
 *
 
@@ -230,7 +230,7 @@ File Dialog
 In update 5.2, some buttons have been added to the file dialog windows:
 
 *
-[Image: /docs/static/attachments/25515885]
+![Image](https://www.cryengine.com/docs/static/attachments/25515885)
 
 *
 
@@ -243,7 +243,7 @@ Name
 Description
  |
 
-[Image: /docs/static/attachments/25515887]
+![Image](https://www.cryengine.com/docs/static/attachments/25515887)
  |
 **
 Directories
@@ -252,7 +252,7 @@ Directories
 Shows the standard tree view of directories.
  |
 
-[Image: /docs/static/attachments/25515889]
+![Image](https://www.cryengine.com/docs/static/attachments/25515889)
  |
 **
 History
@@ -261,7 +261,7 @@ History
 List of folders for last selected files. This will store the last 30 entries.
  |
 
-[Image: /docs/static/attachments/25515891]
+![Image](https://www.cryengine.com/docs/static/attachments/25515891)
  |
 **
 Favorites
@@ -281,12 +281,6 @@ Remove from Favorites
  to remove.
  |
 
-[#main-menu-search-window](
-Main Menu Search Window
-)
-[#notification-center](
-Notification Center
-)
-[#file-dialog](
-File Dialog
-)
+[Main Menu Search Window](#main-menu-search-window)
+[Notification Center](#notification-center)
+[File Dialog](#file-dialog)

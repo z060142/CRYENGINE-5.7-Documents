@@ -103,9 +103,7 @@ Display Sound Info
 
  |
 Enable to expand
-[/docs/static/engines/cryengine-5/categories/23756816/pages/44964914](
-Sound Obstruction
-)
+[Sound Obstruction](../../../../Audio/Audio%20Overview/Audio%20%26%20Occlusion.md)
  options.
 
  |

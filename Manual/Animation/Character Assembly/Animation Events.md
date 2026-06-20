@@ -7,19 +7,15 @@
 
 ## Content
 
-[Image: /docs/static/attachments/29933220]
+![Image](https://www.cryengine.com/docs/static/attachments/29933220)
 
 ##
 Overview
 
 This page deals with the AnimEvent Database and the Tracks Database. For general information about the .chrparams File and on how to map animations, see the
-[/docs/static/engines/cryengine-5/categories/23756816](
-CRYENGINE V Manual
-)
+[CRYENGINE V Manual](/docs/static/engines/cryengine-5/categories/23756816)
  and
-[/docs/static/engines/cryengine-5/categories/23756816/pages/23307999](
-Character Parameters File (chrparams)
-)
+[Character Parameters File (chrparams)](../../Asset%20Prep%20(External)/Asset%20Exporting%20Overview/Geometry%20Creation%20Overview/Animated%20Geometry/Character%20(animated)/Engine%20Setup%20(animated)/Character%20Parameters%20File%20(chrparams).md)
  documentation.
 
 The .chrparams file, or Character Parameters File, contains a reference list of animation files (.caf) to character specific animations in the game. The .chrparams file has the same name as the character file to which it refers.
@@ -29,15 +25,9 @@ Aside from listing all animations that the engine should load for the character,
 ##
 Sections
 
-[#sections](
-Sections
-)
-[#setup](
-Setup
-)
-[#presets](
-Presets
-)
+[Sections](#sections)
+[Setup](#setup)
+[Presets](#presets)
 
 ##
 Setup
@@ -52,7 +42,7 @@ Accessing Context Menu
 
 The timeline has a context menu that gives you possibilities to jump between frames and events. It also contains hints about keyboard shortcuts.
 
-[Image: /docs/static/attachments/51347571]
+![Image](https://www.cryengine.com/docs/static/attachments/51347571)
 
 ##
 Event Properties

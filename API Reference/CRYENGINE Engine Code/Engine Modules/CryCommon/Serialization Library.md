@@ -203,7 +203,7 @@ Editing in PropertyTree
 
 If you have Serialize method implemented for your types it  is enough to get it exposed to the QPropertyTree.
 
-[Image: /docs/static/attachments/23461207]
+![Image](https://www.cryengine.com/docs/static/attachments/23461207)
 
 ```
 
@@ -635,9 +635,7 @@ Callback
 Provides per-property callback function.
 
 See
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306451#SerializationLibrary-AddingCallbackstoPropertyTree](
-Adding Callbacks to PropertyTree
-)
+[Adding Callbacks to PropertyTree](Serialization%20Library.md#SerializationLibrary-AddingCallbackstoPropertyTree)
  |
 All types apart from compound ones (structs and containers)
  |
@@ -856,19 +854,17 @@ void BlendSpace::Serialize(IArchive& ar)
 
 ```
 
-[Image: /docs/static/attachments/23461209]
+![Image](https://www.cryengine.com/docs/static/attachments/23461209)
 
 Warning messages look as follows:
 
-[Image: /docs/static/attachments/23461208]
+![Image](https://www.cryengine.com/docs/static/attachments/23461208)
 
 ##
 Drop-down with a dynamic list
 
 If you want to specify enumeration value I suggest you to use enum registration macro from
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306451#SerializationLibrary-DefiningData](
-Defining Data
-)
+[Defining Data](Serialization%20Library.md#SerializationLibrary-DefiningData)
  section.
 
 There are two ways to define drop down. One is to transform your data into Serialization::StringListValue. Below is a little example of a custom reference.
@@ -928,12 +924,6 @@ struct SType
 
 Another way would require you to implement custom PropertyRow in UI. This takes a bit more effort but allows to move the code that creates list of possible items entirely into editor code.
 
-[#features](
-Features
-)
-[#tutorial](
-Tutorial
-)
-[#use-cases](
-Use cases
-)
+[Features](#features)
+[Tutorial](#tutorial)
+[Use cases](#use-cases)

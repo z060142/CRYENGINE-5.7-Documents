@@ -506,12 +506,6 @@ Schematyc Nodes
 Function::GamePlatform::Service::Statistics::SetAchievementProgress
  |
 
-[#achievement-configuration](
-Achievement Configuration
-)
-[#achievement-service-functions](
-Achievement Service Functions
-)
-[#achievement-specific-functions](
-Achievement Specific Functions
-)
+[Achievement Configuration](#achievement-configuration)
+[Achievement Service Functions](#achievement-service-functions)
+[Achievement Specific Functions](#achievement-specific-functions)

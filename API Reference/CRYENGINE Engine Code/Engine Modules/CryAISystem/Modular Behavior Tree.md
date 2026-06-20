@@ -7,8 +7,8 @@
 
 ## Child Pages
 
-- [Modular Behavior Tree Nodes](Modular Behavior Tree/Modular Behavior Tree Nodes.md)
-- [Modular Behavior Tree Debugging](Modular Behavior Tree/Modular Behavior Tree Debugging.md)
+- [Modular Behavior Tree Nodes](Modular%20Behavior%20Tree/Modular%20Behavior%20Tree%20Nodes.md)
+- [Modular Behavior Tree Debugging](Modular%20Behavior%20Tree/Modular%20Behavior%20Tree%20Debugging.md)
 
 ## Content
 
@@ -75,14 +75,10 @@ Example Tree Structure
 Additional documentation:
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23306489](
-Modular Behavior Tree Nodes
-)
+[Modular Behavior Tree Nodes](Modular%20Behavior%20Tree/Modular%20Behavior%20Tree%20Nodes.md)
 
 -
-[/docs/static/engines/cryengine-5/categories/23756813/pages/23310620](
-Modular Behavior Tree Debugging
-)
+[Modular Behavior Tree Debugging](Modular%20Behavior%20Tree/Modular%20Behavior%20Tree%20Debugging.md)
 
 ##
 Tree Files
@@ -109,10 +105,6 @@ SelectionTree
 Specification (draft)
 
 Download:
-[/docs/static/attachments/23461256](
-Modular Behavior Tree Documentation.pdf
-)
+[Modular Behavior Tree Documentation.pdf](/docs/static/attachments/23461256)
 
-[/docs/static/attachments/23461256](
-Modular Behavior Tree Documentation.pdf
-)
+[Modular Behavior Tree Documentation.pdf](/docs/static/attachments/23461256)

@@ -33,7 +33,7 @@ Open Selected
 **
 .
 
-[Image: /docs/static/attachments/35407906]
+![Image](https://www.cryengine.com/docs/static/attachments/35407906)
 
 ##
 Creating a New Vehicle
@@ -83,7 +83,7 @@ Editing Movement Parameters
 
 The Movement panel offers a box for choosing the movement type. Each type has its specific set of properties. Tool tips give a short explanation of each property.
 
-[Image: /docs/static/attachments/35407909]
+![Image](https://www.cryengine.com/docs/static/attachments/35407909)
 
 Click
 *
@@ -402,7 +402,7 @@ The Wheel Master
 
 For easier setup of common wheel properties, the Wheel Master Dialog is available.
 
-[Image: /docs/static/attachments/35408476]
+![Image](https://www.cryengine.com/docs/static/attachments/35408476)
 
 -
 Right-click on any of the wheels then select "Edit Wheel Master" to open the dialog.
@@ -419,7 +419,7 @@ Selecting the desired properties (and the desired wheels) only, allows you to pr
 
 As an example, the dialog below is used to update the minFriction and maxFriction of wheels 1 and 2.
 
-[Image: /docs/static/attachments/35408477]
+![Image](https://www.cryengine.com/docs/static/attachments/35408477)
 
 ##
 MassBox Editing
@@ -428,9 +428,9 @@ Mass boxes can be used to get a symmetrical mass distribution if desired (in con
 
 This allows easy tweaking of Center of Gravity and Inertia, what's quite fundamental for e.g. wheeled vehicles behavior.
 
-[Image: /docs/static/attachments/35408478]
+![Image](https://www.cryengine.com/docs/static/attachments/35408478)
 
-[Image: /docs/static/attachments/35407913]
+![Image](https://www.cryengine.com/docs/static/attachments/35407913)
 
 ##
 Helpers
@@ -439,7 +439,7 @@ Helpers are small objects specifying a position and a direction in vehicle (or p
 
 In the main window, they are displayed as small yellow boxes. They are only displayed if the box "Vehicle Helpers" on the Parts Panel is checked.
 
-[Image: /docs/static/attachments/35408479]
+![Image](https://www.cryengine.com/docs/static/attachments/35408479)
 
 Helpers are used everywhere where a user-supplied position/direction is needed, e.g. for seat & view positions, weapon positions, effect locations, and more.
 
@@ -565,7 +565,7 @@ Helpers
 
 You can add Helpers with right-clicking the property item. The helpers you specify here should of course be attached to the corresponding part you want the weapon to move with, e.g. the tank cannon.
 
-[Image: /docs/static/attachments/35408480]
+![Image](https://www.cryengine.com/docs/static/attachments/35408480)
 
 Currently primary weapons are supported, secondary will follow. You can have several primary weapons on one seat! The weapons will be fired consecutively (e.g. alternate between left and right rocketlauncher on a Helicopter).
 
@@ -578,9 +578,9 @@ Damage Components
 
 A damage component is specified by a name, an amount of damage points it can take and an axis-aligned bounding box:
 
-[Image: /docs/static/attachments/35408481]
+![Image](https://www.cryengine.com/docs/static/attachments/35408481)
 
-[Image: /docs/static/attachments/35408482]
+![Image](https://www.cryengine.com/docs/static/attachments/35408482)
 
 Whenever the vehicle gets hit, the component(s) which bounding box(es) include the hit position receive damage. As damage on a component rises towards its maximum, predefined DamageBehaviors can be triggered (e.g. a particle effect, sound, change in handling, or finally, an explosion).
 
@@ -735,7 +735,7 @@ Engine stopping.
 
 -
 Engine running.
-[Image: /docs/static/attachments/35408483]
+![Image](https://www.cryengine.com/docs/static/attachments/35408483)
 
 If you have a ParticleEffect entity in your level, you can right-click on the
 *
@@ -801,17 +801,9 @@ The effect is scaled with increasing damage up to this maximum at 100% damage.
 
  |
 
-[Image: /docs/static/attachments/35408484]
+![Image](https://www.cryengine.com/docs/static/attachments/35408484)
 
-[#editing-a-vehicle](
-Editing a Vehicle
-)
-[#creating-a-new-vehicle](
-Creating a New Vehicle
-)
-[#components-of-the-vehicle-editor](
-Components of the Vehicle Editor
-)
-[#editing-effects](
-Editing Effects
-)
+[Editing a Vehicle](#editing-a-vehicle)
+[Creating a New Vehicle](#creating-a-new-vehicle)
+[Components of the Vehicle Editor](#components-of-the-vehicle-editor)
+[Editing Effects](#editing-effects)
