@@ -1,37 +1,84 @@
 # Cameras Components
 
-- Source: https://www.cryengine.com/docs/static/engines/cryengine-5/categories/23756816/pages/44966046
-- Page ID: 44966046
 - Breadcrumb: Entities and Tools > Entity Components > Entity Components (From Engine Version 5.6) > Cameras Components
 - Parent: Entity Components (From Engine Version 5.6)
 
-## Content
+## Camera
 
-### Camera
+This represents a camera in the world from which the level can be rendered. Only one camera can be active at a time — `source:Code/CryPlugins/CryDefaultEntities/Module/DefaultComponents/Cameras/CameraManager.h:22` (`SwitchCameraToActive` sets a single `m_pActive`).
 
-This represents a camera in the world from which the level can be rendered. Keep in mind that only one camera can be active at the a time.
+Entities with Camera components show up in the **Camera** menu in the **Perspective** viewport, under **Camera Entity**.
 
-Entities with Camera components will then show up in the **Camera** menu in the ** Perspective** viewport, under ** Camera Entity**.
+The Camera Component is `Cry::DefaultComponents::CCameraComponent` — `source:Code/CryPlugins/CryDefaultEntities/Module/DefaultComponents/Cameras/CameraComponent.h:37`.
 
-Setting | Description
---- | ---
-**Type** | Setting | Description --- | --- **Default** | A normal, one-directional camera. ** Omnidirectional** | Renders the full 360 view to screen.
-Setting | Description
-**Default** | A normal, one-directional camera.
-**Omnidirectional** | Renders the full 360 view to screen.
-**Active** | Whether or not this camera should be activated on component creation.
-**Near Plane** | Sets the distance from the camera that the engine will start rendering from (by default 0.25 meters).
-**Far Plane** | Sets the distance from the camera that the engine will start rendering to(by default 1024 meters).
-**Field of View** | The field of view or angle that the camera will render.
+### Settings
 
-### Roomscale VR Camera
+| Setting | Description | Default | Source |
+|---------|-------------|---------|--------|
+| **Type** | Method of rendering to use for the camera. | `Default` | `CameraComponent.h:127` |
+| **Active** | Whether or not this camera should be activated on component creation. | `true` | `CameraComponent.h:128` |
+| **Near Plane** | Distance from the camera that the engine will start rendering from (meters). Range: 0–32768. | `0.25` | `CameraComponent.h:129,165` |
+| **Far Plane** | Distance from the camera that the engine will stop rendering at (meters). Range: 0–32768. | `1024` | `CameraComponent.h:130,166` |
+| **Field of View** | The vertical field of view angle. Clamped to 20–360 degrees. | `70°` | `CameraComponent.h:131,167` |
 
-Expose a new Entity Component that allows for easily creating a Roomscale VR camera. This works quite simply, in that all the user has to do is to drag the component into their Schematyc entity, and it'll be activated. Additionally, the component automates asynchronous camera injection, effectively retrieving the headset's coordinates as late as possible to avoid unnecessary lag.
+#### Type
 
-Setting | Description
---- | ---
-**Active** | Activates the Roomscale VR Camera.
-**Near Plane** | Determines the minimum distance that the engine will start rendering from. (Example: 0.25 means the engine will render starting at 0.25m fromt he camera and forward)
-**Far Plane** | Determines the maximum distance that the engine will start rendering from. (Example: 1 means the engine will render up to 1 m from the camera, so after 1m you will not see anything)
+| Value | Description | Source |
+|-------|-------------|--------|
+| **Default** | A normal, one-directional camera. | `CameraComponent.h:23` |
+| **Omnidirectional** | Renders the full 360 view to screen. Sets `CCamera::m_bOmniCamera = true`. | `CameraComponent.h:25`, `Cry_Camera.h:341` |
 
-[Camera](#camera)[Roomscale VR Camera](#roomscale-vr-camera)
+### Behavior
+
+On each `ENTITY_EVENT_UPDATE` (when not in edit mode), the Camera Component — `source:Code/CryPlugins/CryDefaultEntities/Module/DefaultComponents/Cameras/CameraComponent.h:58`:
+
+1. Copies the surface width/height and pixel aspect ratio from the current system camera.
+2. Calls `SetFrustum(width, height, FOV-in-radians, nearPlane, farPlane, pixelAspectRatio)` on its internal `CCamera`.
+3. Calls `SetMatrix(GetWorldTransformMatrix())` to apply the entity's world transform.
+4. Calls `gEnv->pSystem->SetViewCamera(m_camera)` to set it as the main view camera.
+5. If an HMD device is present, enables late camera injection for the current frame using the entity's world transform.
+
+### Methods
+
+| Method | Description | Source |
+|--------|-------------|--------|
+| `Activate()` | Makes this camera the active camera. | `CameraComponent.h:134` |
+| `IsActive()` | Returns whether this camera is currently active. | `CameraComponent.h:140` |
+| `EnableAutomaticActivation(bool)` | Sets whether the camera activates on creation. | `CameraComponent.h:145` |
+| `SetNearPlane(float)` / `GetNearPlane()` | Near plane accessors. | `CameraComponent.h:148-149` |
+| `SetFarPlane(float)` / `GetFarPlane()` | Far plane accessors. | `CameraComponent.h:151-152` |
+| `SetFieldOfView(CAngle)` / `GetFieldOfView()` | FOV accessors. | `CameraComponent.h:154-155` |
+| `GetType()` | Returns the `ECameraType`. | `CameraComponent.h:157` |
+| `GetCamera()` | Returns the internal `CCamera&`. | `CameraComponent.h:159` |
+
+> **Note:** The Camera Component does **not** automatically add an Audio Listener Component. To play audio from the camera position, add a Listener Component (`Cry::Audio::DefaultComponents::CListenerComponent`) to the same entity manually — `source:Code/CryPlugins/CryDefaultEntities/Module/DefaultComponents/Audio/ListenerComponent.h:66`.
+
+## Roomscale VR Camera
+
+Exposes an Entity Component that allows for easily creating a Roomscale VR camera — `Cry::DefaultComponents::VirtualReality::CRoomscaleCameraComponent` — `source:Code/CryPlugins/CryDefaultEntities/Module/DefaultComponents/Cameras/VirtualReality/RoomscaleCamera.h:19`.
+
+All the user has to do is drag the component into their Schematyc entity, and it will be activated. The component automates asynchronous (late) camera injection, retrieving the headset's coordinates as late as possible to avoid unnecessary lag.
+
+### Settings
+
+| Setting | Description | Default | Source |
+|---------|-------------|---------|--------|
+| **Active** | Whether or not this camera should be activated on component creation. | `true` | `RoomscaleCamera.h:63` |
+| **Near Plane** | Minimum distance that the engine will start rendering from (meters). Range: 0–32768. Example: `0.25` means rendering starts at 0.25m from the camera. | `0.25` | `RoomscaleCamera.h:64,93` |
+| **Far Plane** | Maximum distance that the engine will render to (meters). Range: 0–32768. Example: `1024` means rendering stops at 1024m. | `1024` | `RoomscaleCamera.h:65,94` |
+
+> **Note:** The Roomscale VR Camera uses a **fixed** field of view of `75°` (`75.0_degrees`). Unlike the standard Camera Component, the FOV is not exposed as a user-editable property — `source:Code/CryPlugins/CryDefaultEntities/Module/DefaultComponents/Cameras/VirtualReality/RoomscaleCamera.cpp:66`.
+
+### Behavior
+
+On each `ENTITY_EVENT_UPDATE` — `source:Code/CryPlugins/CryDefaultEntities/Module/DefaultComponents/Cameras/VirtualReality/RoomscaleCamera.cpp:47`:
+
+1. If an HMD device is present, enables late camera injection using the entity's world transform, then reads the local tracking state and applies it to the camera matrix: `m_camera.SetMatrix(worldTransform * Matrix34::Create(Vec3(1), state.pose.orientation, state.pose.position))`.
+2. If no HMD device is present, falls back to a fixed eye-height offset of 1.7m: `m_camera.SetMatrix(worldTM * Matrix34::Create(Vec3(1), IDENTITY, worldRot.GetInverted() * Vec3(0, 0, 1.7)))`.
+3. Sets the frustum using the fixed 75° FOV.
+4. Calls `gEnv->pSystem->SetViewCamera(m_camera)`.
+
+## See Also
+
+- [API Reference > Entity > Cameras](../../../../API%20Reference/Entity/Cameras.md) — full `CCamera` API reference
+- [Audio](Audio.md) — Audio Listeners

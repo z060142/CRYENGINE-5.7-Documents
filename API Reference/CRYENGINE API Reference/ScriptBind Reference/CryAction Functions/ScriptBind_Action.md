@@ -107,15 +107,22 @@ pos | Position to be checked.
 
 ### SetViewCamera
 
-Saves the previous valid view and override it with the current camera settings.
+Saves the previous valid view and overrides it with the current camera settings. The function takes a position and direction, builds a `CCamera` from the current system camera, applies the supplied position/direction, and sets it via `ISystem::SetViewCamera` — `source:Code/CryEngine/CryAction/ScriptBind_Action.cpp:396`.
 
 ```
-Action.SetViewCamera()
+Action.SetViewCamera( pos, dir )
 ```
+
+Parameter | Description
+--- | ---
+pos | New camera position (`Vec3`).
+dir | New camera view direction (`Vec3`).
+
+> **Note:** The roll angle is preserved from the current system camera: `float fRoll = camera.GetAngles().z` — `source:Code/CryEngine/CryAction/ScriptBind_Action.cpp:414-415`. The view direction is converted to YPR orientation via `CCamera::CreateAnglesYPR` and `CCamera::CreateOrientationYPR` — `source:Code/CryEngine/CryAction/ScriptBind_Action.cpp:417`.
 
 ### ResetToNormalCamera
 
-Resets the camera to the last valid view stored.
+Resets the camera to the last valid view stored by `SetViewCamera` — `source:Code/CryEngine/CryAction/ScriptBind_Action.cpp:425`.
 
 ```
 Action.ResetToNormalCamera()

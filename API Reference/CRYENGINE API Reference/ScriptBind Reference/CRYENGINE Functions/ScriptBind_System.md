@@ -1015,15 +1015,19 @@ System.Break()
 
 ### SetViewCameraFov
 
-Sets the view camera fov.
+Sets the view camera FOV (vertical field of view, in radians). The function gets the current system camera, updates the frustum with the new FOV while preserving width/height, near/far, and pixel aspect ratio, then calls `ISystem::SetViewCamera` — `source:Code/CryEngine/CryScriptSystem/ScriptBindings/ScriptBind_System.cpp:1924`.
 
 ```
 System.SetViewCameraFov( fov )
 ```
 
+Parameter | Description
+--- | ---
+fov | New vertical field of view, in radians.
+
 ### GetViewCameraFov
 
-Gets the view camera fov.
+Gets the view camera vertical FOV (in radians) from `ISystem::GetViewCamera().GetFov()` — `source:Code/CryEngine/CryScriptSystem/ScriptBindings/ScriptBind_System.cpp:1934`.
 
 ```
 System.GetViewCameraFov()
@@ -1031,7 +1035,7 @@ System.GetViewCameraFov()
 
 ### IsPointVisible
 
-Checks if the specified point is visible.
+Checks if the specified point is visible in the current view camera frustum. Wraps `CCamera::IsPointVisible` — `source:Code/CryEngine/CryScriptSystem/ScriptBindings/ScriptBind_System.cpp:1941`.
 
 ```
 System.IsPointVisible( point )
@@ -1043,7 +1047,7 @@ point | Point vector.
 
 ### GetViewCameraPos
 
-Gets the view camera position.
+Gets the view camera position from `CCamera::GetPosition()` — `source:Code/CryEngine/CryScriptSystem/ScriptBindings/ScriptBind_System.cpp:1948`.
 
 ```
 System.GetViewCameraPos()
@@ -1051,7 +1055,7 @@ System.GetViewCameraPos()
 
 ### GetViewCameraDir
 
-Gets the view camera direction.
+Gets the view camera direction (world-space forward vector = `GetMatrix().GetColumn(1)`) — `source:Code/CryEngine/CryScriptSystem/ScriptBindings/ScriptBind_System.cpp:1955`.
 
 ```
 System.GetViewCameraDir()
@@ -1059,7 +1063,7 @@ System.GetViewCameraDir()
 
 ### GetViewCameraUpDir
 
-Gets the view camera up-direction.
+Gets the view camera up-direction (world-space up vector = `GetMatrix().GetColumn(2)`) — `source:Code/CryEngine/CryScriptSystem/ScriptBindings/ScriptBind_System.cpp:1963`.
 
 ```
 System.GetViewCameraUpDir()
@@ -1067,7 +1071,11 @@ System.GetViewCameraUpDir()
 
 ### GetViewCameraAngles
 
-Gets the view camera angles.
+Gets the view camera rotation as `Vec3` angles in degrees. Computed from the camera matrix via `Ang3::GetAnglesXYZ(Matrix33(Camera.GetMatrix()))` — `source:Code/CryEngine/CryScriptSystem/ScriptBindings/ScriptBind_System.cpp:1971`.
+
+```
+System.GetViewCameraAngles()
+```
 
 ```
 System.GetViewCameraAngles()

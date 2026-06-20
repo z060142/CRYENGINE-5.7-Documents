@@ -1,7 +1,5 @@
 # Audio
 
-- Source: https://www.cryengine.com/docs/static/engines/cryengine-5/categories/23756813/pages/26871538
-- Page ID: 26871538
 - Breadcrumb: Entity > Audio
 - Parent: Entity
 
@@ -9,33 +7,43 @@
 
 ## Overview
 
-Audio in the engine is managed by [Cry Audio::IAudioSystem](/docs/static/engines/cryengine-5/categories/28704770/pages/29797061), an abstraction layer allowing for the playback of audio through any audio middleware such as **FMOD Studio** and ** WWise**. This allows mapping the middleware setup to an engine setup in the Audio Tool in the Editor, resulting in types we can query to play back audio at run-time.
+Audio in the engine is managed by `CryAudio::IAudioSystem`, an abstraction layer allowing for the playback of audio through any audio middleware such as **FMOD Studio** and **Wwise** — `source:Code/CryEngine/CryCommon/CryAudio/IAudioSystem.h:19` (`struct IAudioSystem`). This allows mapping the middleware setup to an engine setup in the Audio Tool in the Editor, resulting in types we can query to play back audio at run-time.
 
-Although using the audio system directly for playback of audio is possible, entities provide [IEntityAudioComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797269) as a way of handling audio that is automatically set to follow the entities’ position changes and properties.
+Although using the audio system directly for playback of audio is possible, entities provide `IEntityAudioComponent` as a way of handling audio that is automatically set to follow the entities' position changes and properties.
 
 ## Table of Contents
 
-[Namespace](#namespace)[API Types](#api-types)[Listeners](#listeners)[Triggers](#triggers)[Parameters](#parameters)[Switches and States](#switches-and-states)[Preloads](#preloads)[Environments](#environments)[Conclusion](#conclusion)
+- [Namespace](#namespace)
+- [API Types](#api-types)
+- [Listeners](#listeners)
+- [Triggers](#triggers)
+- [Parameters](#parameters)
+- [Switches and States](#switches-and-states)
+- [Preloads](#preloads)
+- [Environments](#environments)
+- [Conclusion](#conclusion)
 
 ## Namespace
 
-- [CryAudio](/docs/static/engines/cryengine-5/categories/28704770/pages/29797059)
+- `CryAudio` — `source:Code/CryEngine/CryCommon/CryAudio/IAudioInterfacesCommonData.h`
 
 ## API Types
 
-- [CryAudio::IAudioSystem](/docs/static/engines/cryengine-5/categories/28704770/pages/29797061)
-- [IEntityAudioComponent](/docs/static/engines/cryengine-5/categories/28704770/pages/29797269)
-- [CryAudio::IListener](/docs/static/engines/cryengine-5/categories/28704770/pages/29797062)
-- [CryAudio::Impl::IListener](/docs/static/engines/cryengine-5/categories/28704770/pages/29797069)
-- [CryAudio::Impl::ITrigger](/docs/static/engines/cryengine-5/categories/28704770/pages/29797074)
-- [CryAudio::Impl::IParameter](/docs/static/engines/cryengine-5/categories/28704770/pages/29797071)
-- [CryAudio::Impl::IEnvironment](/docs/static/engines/cryengine-5/categories/28704770/pages/29797066)
+| Type | Description | Source |
+|------|-------------|--------|
+| `CryAudio::IAudioSystem` | Central audio system interface | `IAudioSystem.h:19` |
+| `IEntityAudioComponent` | Entity component for audio playback | `Code/CryEngine/CryCommon/CryEntitySystem/IEntityAudioComponent.h` |
+| `CryAudio::IListener` | Audio listener interface | `IListener.h:19` |
+| `CryAudio::Impl::IListener` | Middleware-side listener interface | `Code/CryEngine/CryCommon/CryAudio/Impl/IListener.h` |
+| `CryAudio::Impl::ITrigger` | Middleware-side trigger | `Code/CryEngine/CryCommon/CryAudio/Impl/ITrigger.h` |
+| `CryAudio::Impl::IParameter` | Middleware-side parameter | `Code/CryEngine/CryCommon/CryAudio/Impl/IParameter.h` |
+| `CryAudio::Impl::IEnvironment` | Middleware-side environment | `Code/CryEngine/CryCommon/CryAudio/Impl/IEnvironment.h` |
 
 ## Listeners
 
-Listeners are typically automated with camera placement, in order to receive audio from the rendered location. Listeners are represented by the [CryAudio::IListener](/docs/static/engines/cryengine-5/categories/28704770/pages/29797062) interface, and can be created using [CryAudio::IAudioSystem::CreateListener](/docs/static/engines/cryengine-5/categories/28704770/pages/29797061). Once created, each listener's world-space transformation can be updated with [CryAudio::IListener::SetTransformation](/docs/static/engines/cryengine-5/categories/28704770/pages/29797062).
+Listeners are typically placed at the camera location, in order to receive audio from the rendered location. Listeners are represented by the `CryAudio::IListener` interface — `source:Code/CryEngine/CryCommon/CryAudio/IListener.h:19`, and can be created using `CryAudio::IAudioSystem::CreateListener` — `source:Code/CryEngine/CryCommon/CryAudio/IAudioSystem.h:481`. Once created, each listener's world-space transformation can be updated with `CryAudio::IListener::SetTransformation` — `source:Code/CryEngine/CryCommon/CryAudio/IListener.h:38`.
 
-Note that listener handling is automated by the Listener Component in the default components plug-in, see Cry::Audio::DefaultComponents::CListenerComponent. In addition, the Camera Component will automatically add a listener component that will match its transformation.
+> **Note:** Listener handling is automated by the **Listener Component** in the default components plug-in, see `Cry::Audio::DefaultComponents::CListenerComponent` — `source:Code/CryPlugins/CryDefaultEntities/Module/DefaultComponents/Audio/ListenerComponent.h:66`. The **Camera Component** (`Cry::DefaultComponents::CCameraComponent`) does **not** automatically add a listener component. If you want audio to follow a camera, add a Listener Component to the same entity manually — see [Cameras](Cameras.md).
 
 ## Triggers
 

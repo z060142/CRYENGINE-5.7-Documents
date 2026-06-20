@@ -50,6 +50,8 @@ if (pDevice != null && pDevice.GetClass() == EHmdClass.eHmdClass_OpenVR) { // Ch
 
 You can retrieve the position and rotation of the HMD device. While the camera will usually be controlled by the ViewSystem directly, it might be useful to setup additional checks and game-play logic that takes the user's head position into consideration. In the following code samples we will assume pDevice to be set according to 'Check VR Support':
 
+> **Late Camera Injection:** To reduce VR latency, CRYENGINE supports late-stage camera injection via `IHmdDevice::EnableLateCameraInjectionForCurrentFrame` — `source:Code/CryEngine/CryCommon/CrySystem/VR/IHMDDevice.h:327`. This allows the headset pose to be applied as late as possible in the render thread. See [Cameras](../../../../Entity/Cameras.md#asynchronous-camera-injection-vr) for details.
+
 ```
 // Get the current tracking state
 HmdTrackingState state = pDevice->GetLocalTrackingState();

@@ -591,9 +591,12 @@ Matrix33 camRotation = CCamera::CreateOrientationYPR(pitchAngle);
 finalCamMatrix.SetRotation33(camRotation);
 m_pCameraComponent->SetTransformMatrix(finalCamMatrix);
 ```
-It's easier to understand this code block if you notice that each `Ang3` is defining one of the three axes – the ` rotationAngle`, the ` yawAngle`, and the ` pitchAngle`.
-With this setup, the camera will pivot up and down when looking up and down on the pitch axis independently and separate from the player’s body, but when looking left and right on the yaw axis, the player’s body will rotate with the camera. This is to prevent the player’s body from moving in strange ways when looking up or down by separating the `CCamera` from the player only on. This is achieved by creating Matrix33 and Matrix34 functions named ` camRotation` and ` finalCamMatrix` and nullifying the ` pitchAngle.x` and` yawAngle.y` to ` 0`.
-Note that the `CLAMP` is only added to the `rotationAngle.y`, since we only want to clamp the mouse when looking up or down.
+It's easier to understand this code block if you notice that each `Ang3` is defining one of the three axes – the `rotationAngle`, the `yawAngle`, and the `pitchAngle`.
+
+The `CCamera::CreateAnglesYPR` and `CCamera::CreateOrientationYPR` static helpers convert between orientation matrices and Yaw-Pitch-Roll angles — `source:Code/CryEngine/CryCommon/CryMath/Cry_Camera.h:97` (`CreateOrientationYPR`), `source:Code/CryEngine/CryCommon/CryMath/Cry_Camera.h:98` (`CreateAnglesYPR`). The `Ang3` components map as `x = YAW`, `y = PITCH` (negative = looking down, positive = looking up), `z = ROLL` — `source:Code/CryEngine/CryCommon/CryMath/Cry_Camera.h:389`.
+
+With this setup, the camera will pivot up and down when looking up and down on the pitch axis independently and separate from the player's body, but when looking left and right on the yaw axis, the player's body will rotate with the camera. This is to prevent the player's body from moving in strange ways when looking up or down by separating the camera rotation from the player body on the pitch axis only. This is achieved by creating `Matrix33` and `Matrix34` variables named `camRotation` and `finalCamMatrix` and nullifying `pitchAngle.x` (yaw) and `yawAngle.y` (pitch) to `0`.
+Note that the `CLAMP` is only added to the `rotationAngle.y` (pitch), since we only want to clamp the mouse when looking up or down.
 
 #### Defining Reset in Player.cpp
 

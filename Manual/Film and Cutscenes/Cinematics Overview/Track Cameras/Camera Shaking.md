@@ -15,9 +15,11 @@ If your scene has a moving camera, it's very rarely as steady as a stationary ca
 
 However, to get the desired effect, you cannot just ***turn on*** and ***turn off*** the shake in Track View. You need to tweak the exposed values below to get a realistic result:
 
-Shake > **AmplitudeA**, ** AmplitudeB**, ** FrequencyA**, ** FrequencyB**
+Shake > **AmplitudeA**, **AmplitudeB**, **FrequencyA**, **FrequencyB**
 
-Shake only effects rotation, it does nothing with the position of the camera.
+These correspond to the Camera Object's shake parameters — `source:Code/Sandbox/EditorQt/Objects/CameraObject.h:135` (`mv_amplitudeA`, `mv_frequencyA`, etc.). See [Camera Object](../../../Editor%20Tools/Level%20Editor%20Tab/Create%20Object/Misc%20Objects/Camera%20Object.md) for the full parameter list.
+
+Shake only affects rotation; it does nothing with the position of the camera.
 
 ### Amplitude Explained
 

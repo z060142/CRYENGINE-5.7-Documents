@@ -39,7 +39,7 @@ Entities were previously known as Game Objects, and Entity Components were refer
 
 ## Components
 
-Entities themselves cannot contain custom logic. Instead, they can contain **Components**. For example, a Camera component could be attached to an entity, exposing functionality for rendering a specific viewpoint in the level:
+Entities themselves cannot contain custom logic. Instead, they can contain **Components**. For example, a [Camera component](Entity/Cameras.md#camera-component) can be attached to an entity, exposing functionality for rendering a specific viewpoint in the level via `Cry::DefaultComponents::CCameraComponent` — `source:Code/CryPlugins/CryDefaultEntities/Module/DefaultComponents/Cameras/CameraComponent.h:37`.
 
 ![Image](https://www.cryengine.com/docs/static/attachments/29919088)
 
