@@ -1,0 +1,130 @@
+# Sensory Models
+
+- Source: https://www.cryengine.com/docs/static/engines/cryengine-5/categories/23756813/pages/23306455
+- Page ID: 23306455
+- Breadcrumb: CRYENGINE Engine Code > Engine Modules > CryAISystem > Obsolete AI Documentation > Sensory Models
+- Parent: Obsolete AI Documentation
+
+## Content
+
+##
+Overview
+
+This part describes the modelling and principal operation of the sensors implemented in the CryAISystem, namely the visual sensors, sound sensors and a general purpose signalling mechanism that is included here for completeness even though it cannot be called a sensor in the strictest of terms.
+
+Processing the sensory information is done on a full update of each enemy (details here), even though the actual time at which a sensory event was received is asynchronous. The sensors are the only interface the enemy has with the outside world, and they provide data from which the enemy then assesses his situation and selects potential targets. All sensors are completely configurable in all aspects that they offer, and they can be turned on/off at run-time for any individual enemy.
+
+##
+Vision
+
+The visual sensory model is the heart of the CryAISystem. It provides the enemies with the most important sense they have and it tries to simulate it as realistically as possible while still maintaining a low execution cost. To be able to meet these two often-opposing goals, various compromises and optimizations had to be done, but the end result is a quite satisfactory simulation of vision.
+
+Every full update for each individual enemy the system traverses all potential targets from the enemy’s point of view and puts them through a visibility determination routine (which is discussed in detail later). All targets that survive this filtering procedure are placed in a visibility list that is maintained until the next full update. For a target to persist as visible it has to pass the visibility test for every subsequent full update – otherwise it will be moved into the memory targets list which means that the enemy will now remember that he has seen this particular target before, but its not seeing it anymore. If some target is not visible for a few updates, but becomes visible again, it is removed from the memory target list and then goes back into the visibility list. The memory targets have an expiration time (basically a time interval it takes the enemy to “forget” about a target). This is defined by the threat index of the target, the time it was “exposed” – visible – as well as some other factors. Visibility targets have the highest priority and will be taken as the current attention target even if there is another target with a higher threat index. This is done in order to simulate the natural tendency of humans to act faster based on what they see rather then on what they remember, or hear.
+
+##
+Visibility determination details
+
+Here the actual visibility determination procedure will be dissected and explained. First and foremost we will define a few terms that we will use in the explanation. The sight range of an enemy is a floating-point value that determines how far (in meters) a particular enemy can see. The FOV (field of view) of an enemy is a floating-point value that determines how wide the visibility cone of the enemy is (in degrees). The visibility cone has its tip at the enemy’s head and extends outwards in the forward direction (out of the enemy’s face). The perception coefficient (SOM value) is a floating-point value in the range between 0 and 10 that defines how close the enemy is to actually seeing his target. An explanation of how the SOM coefficient is used is given here.
+
+Before a potential target is EVEN CONSIDERED to be run through the visibility determination routine it must be activated – so the initial check is if this target is even currently active. If not, it is rejected.
+
+Furthermore, since visibility determination can be potentially very CPU intensive, there is no visibility checks performed for enemies of the same species as the one that is currently being processed. Within the simulation, this is rationalized as follows: For example the grunts in a CryENGINE game do not perform visibility determination among themselves because they would potentially already know where their mates are and what their strategy of combat would be. Visibility determination is done only between different species, for example between mercenaries and mutants. A discussion on species can be found here.
+
+There is a mechanism to register ANY AI object as an object that should be included in the visibility determination (even user defined objects). This is done for the grenades in CryENGINE, as well as for the flashlights etc. There are even special objects called attributes, which will be discussed in more detail later in this section.
+
+The sight range defines a sphere with its center coinciding with the position of the enemy’s AI object. When determining whether a certain target is visible, first a quick and dirty check is performed to see whether this target is even in the visibility sphere of the given enemy. This is obviously done by comparing the distance to the target to the sphere radius. This is illustrated on the following figure:
+
+Targets outside the sight range sphere are culled early since the check is cheap. The next step is to determine which targets (that pass the sphere check) fall within the FOV of the enemy’s AI object. The FOV is the angle that determines how far to the left and to the right of the current forward direction the enemy can see. The value that is specified for the FOV is not the half-value – meaning it is the angle between the two border orientations that limit the visibility. For example, a FOV of 180 degrees means that the enemy can see everything which is less than 90 degrees away from his forward orientation, while a 90 degree FOV means his ca see less than 45 degrees. This is illustrated in the following illustration.
+
+Only those targets that fall inside the FOV cone (displayed by a greyed area in the picture) will continue the process of visibility determination. The rest will be culled out at this stage. The check is performed by a simple dot product between the orientation vector of the enemy and the vector created as the difference between the position of the potential target and the position of the enemy. The resulting scalar is then compared to the value of the FOV. Note: Although the illustrations are 2D the check is performed on a conical volume in 3D with its tip at the enemy position and its base perpendicular to the orientation vector of the enemy.
+
+The targets that survive these two initial quick checks are very likely to be seen. The final check that is performed is an actual ray trace through the game world- and as such is the most expensive. Since the low layer of the AI system performs distributed updates over all frames it is very seldom that a large amount of rays need to be shot per frame. The only exceptions are scenes where there are indeed A LOT of enemies that belong to different species and huge combat scenes (with an excess of 20 participants per species). Note that this is not the case when the player faces a single species – for example humans – since they do not perform visibility checks within the same species, so effectively visibility determination is done only against the player.
+
+The visibility physical ray is used to determine whether there are any physical obstacles between the enemy and his target. It originates from the head bone of the enemy character (or if the enemy does not have an animated character, it originates from the entity position – which is often on the ground), and it is traced to the head bone of the target (if it has one, otherwise the entity position is used). If this visibility ray hits anything in its path, then the target is rejected as not visible. On the other hand, if the ray reaches the target, then it is considered that the target has passed ALL TESTS and can now be added to the visibility list for this update.
+
+An additional property of this last test is the TYPE of surface the visibility ray hits. In essence, there are generally 2 types of surfaces that the AI system discriminates – the so-called soft cover and hard cover. The primary difference in a physical sense between soft and hard cover is that the players of the game can pass through soft cover, while a hard cover object is an actual obstacle. In CryENGINE, players can also hide behind soft cover objects but the visibility determination is a little “skewed” when the target is behind a soft cover object rather than behind a hard cover object or just in the open. So skewed, that it merits its own note.
+
+##
+Soft cover visibility and behavior
+
+One additional factor comes into play when determining visibility behind soft cover, and this is whether the enemy for which we are determining visibility already has a living target (living meaning not a memory, sound or other type of target). If the enemy does NOT have a living target, then for all intents and purposes soft cover is equal to hard cover and normal visibility determination is performed. This happens for example when the enemy is idle, or when the enemy is looking for the source of a sound, but has not yet spotted it.
+
+However, when the enemy already has a target, then things change a little bit. If during the last stage of the visibility determination routine (the ray shoot) the enemy detects that there is only soft cover between him and his target, then he will CONTINUE to SEE the target further – for some time. This time is between 3 and 5 seconds. If within this time period, the target remains behind soft cover, the enemy will eventually lose the target and place a memory target at the last known position. If however the target comes out from behind soft cover within this time, then the timer is reset and normal visibility rules will come in effect.
+
+The rationale behind this feature is that when a soldier perceives that his target runs inside a bush (for example) he does not immediately lose contact with it, since he can make out the target’s silhouette even inside the bush. But following a target like that is hard over time, and after a while the soldier will lose the target. The same rules apply for example for wooden cover, but the explanation of the rationale behind it is a little different. In the case of the target running behind a thin wooden wall, the soldier knows that his bullets will still pierce the wall, so because he thinks he still sees his target, he continues to shoot through it. This makes for some really intense situations in a CryENGINE game.
+
+Of course, in order for all this to work in a closed and rational system, all surfaces in the game should be properly physicalized (wood, grass, glass should be soft cover, while rock, concrete, metal should be hard cover). This is consistently done in CryENGINE.
+
+This visibility test is performed automatically for all enemies of different species, the player and any other types of AI object that the users of the system want to add. Even though it is customary (and normal) to assign a special species to the player different from that of the AI enemies, the visibility check for the player and user defined types will be performed anyway – even if the species is the same. This is done to prevent unnecessary confusion and to ensure that there is a way to accurately specify the player as an object type that is always taken into account when checking visibility.
+
+The AI System (at the lowest level) maintains a list of object types that should be included in the visibility check. Objects can be freely added and removed to this list, even from script. All that is needed is to specify an assessment multiplier to the desired object type and it will be included in the list. For an example of how this is done, refer to the file “aiconfig.lua” which can be found in the scripts folder. More about the nature of the multiplier that is being set with this function can be found in the threat assessment chapter.
+
+The final detail that needs discussion and is related to the visibility determination is the so-called ATTRIBUTE object. An attribute object is not a full AI object in its own rite, it is more of a special helper that can be attributed to an existing AI object and can serve as a helper while performing visibility determination. The attribute is a special class of an AI object specifically defined at the lowest level in the AI system. Every attribute object must have a principal object associated with it. The principal object can be ANY type of an object (including puppet, vehicle, player etc) but not an attribute. When an enemy determines that he sees an attribute object, the system will actually switch the attribute with the principal object before adding it into the visibility list of the enemy. Thus, the enemy who saw the attribute will indeed think that he is seeing the principal object attached to this attribute.
+
+Now you are surely thinking – what possible use can this “exotic” feature offer? Well, it is just a systematic way of connecting certain events to a single target. For example: When the player switches on the flashlight, an attribute object is created at the position where the light hits a nearby wall. The principal object of this attribute is of course the player. Now even if the player is hidden, but an enemy sees the attribute object (the light on the wall) he will in fact see the player! The rationale behind that is that the enemies have enough intelligence to interpolate where the origin of the light ray is coming from, and thus they immediately know the player’s position. This is illustrated in the following diagram.
+
+The same feature is used when looking at rocks, grenades, rockets etc… Optionally it can be used to add more features to the game, for example if the enemies would leave footsteps on the ground that evaporate after some time, attribute objects can be spawned on the footsteps so that any guard who sees them will know where the person who left them is. The same can be expanded to blood tracks etc.
+
+To make sure that the attribute objects are included in the visibility determination – they have to have an assessment multiplier set. Refer to
+**
+aiconfig.lua
+**
+ in the
+`
+Scripts\AI
+`
+ folder to see where CryAISystem defines the multiplier for the attribute objects.
+
+##
+Perception coefficient and visibility
+
+Visibility in CryENGINE is not an on/off switch. Since the idea was to enable the player a certain freedom in choosing his playing style (action or stealth) it was necessary to come up with some mechanism that would allow the player to make certain amount of mistakes and still be able to recover from them.
+
+To this end, every enemy has been given a perception value for every individual target it receives. This perception value describes how close an individual enemy is to actually seeing that particular target. When the perception coefficient reaches its maximum value (currently 10) then the target has been seen. The initial value of the perception coefficient is 0 and the rules under which it can increase are discussed further.
+
+The perception coefficient is only implemented in player AI objects. This is one of the reasons why a player AI object is specifically defined even in the lowest layer of the AI system hierarchy. What this means is that an enemy will not use the perception coefficient when perceiving another AI enemy – instead it will use “switch” vision – the target will be visible as soon as a ray can be shot to its position. There is of course a workaround and a way to declare that some AI enemy should also use a perception coefficient, but that will be discussed later.
+
+When an AI enemy is processing a player target for visibility, if that player passes all possible visibility tests (including the visibility ray), it still has to go through one last test – the perception coefficient that the enemy stores for this particular player target has to reach maximum value before the enemy can receive a definite visual stimulus. This statement contains several corollaries:
+
+-
+Every enemy has his own perception coefficient for every player target it is processing.
+
+-
+Every enemy has to have his own perception coefficient reach maximum value before he receives notification that he sees a particular player target.
+
+-
+Perception coefficients of two different enemies (even for the same player target) are UNRELATED.
+
+-
+There is no GAME perception coefficient (a value that shows how much a player target is perceived by ANY enemy) – although this information can be derived by statistics.
+The perception coefficient starts at 0. When the enemy starts receiving notification that some player target is passing the visibility determination routine, it starts adding to this value. The amount that is added to it depends on several factors – among others: the distance of the player target from the enemy, how high from the ground the player target is, if the player target is moving or static etc. All of these factors influence the rise of the perception coefficient in various ways.
+
+##
+Distance
+
+This is the overwhelming factor in the rise of the perception coefficient. The closer the player target is to the enemy, the faster the coefficient rises – the farther away it is, the slower the coefficient rises. The increase function is a basic quadratic function as can be seen on the figure. At distances very close to the enemy, the time to reach the maximum perception coefficient is almost non-existent – the target is instantly seen. But it can be also seen that on the boundaries of the sight range sphere, the player can move freely as the rise of the coefficient is very slow. As said before, the target STILL has to pass the complete visibility determination routine to affect the perception coefficient.
+
+##
+Height from ground
+
+The player target’s distance from the ground plane also is a major factor in determining the rate of increase of the perception coefficient. This is rationalized by the fact that a proning target is much harder to spot than someone who is standing up straight. The system has an idea of the distance of the target from the ground via the “eye height” property of each AI object. This property is set on initialization of the AI object and can be changed at anytime during the execution of the game. Note: If the enemies and the player have animated characters as their representation in the game, then the eye height is automatically calculated as the actual height of the head bone in the character. The influence of this property to the speed of increase of the perception coefficient is that its normal distance increase value (which is calculated as previously discussed based on the target’s proximity to the enemy) is lowered by 50% if the target has a height less than 1 meter.
+
+##
+Target motion
+
+It also makes a difference whether the player is standing still or he is moving. Obviously, stationary targets are much harder to spot then moving targets, so if the player is standing still, the rate of increase of the perception coefficient is lowered by additional 50% from the calculated value thus far.
+
+##
+Artificial modifiers
+
+There are additional values that can define how fast the increase rate is. Some of them affect ALL enemies in the game world, and some affect only particular targets. An example of a modifier that affects all enemies is the console variable
+**
+ai_SOM_SPEED
+**
+. Its default value varies depending on the difficulty level, but it provides a constant multiplier that is applied on top of all other calculation to the rate of increase of the perception coefficient – for all enemies. On the other hand, it is possible to set a custom multiplier per object type that will be used as an additional multiplier when a certain target is processed for perception – this is however limited to the lowest level of the AI system and thus is not available for tweaking.
+
+Obviously the effect of all these modifications on the coefficient is cumulative, so a target that is crouching and standing still will have an increase rate of only 25% of the calculated distance increase. The result is a floating-point value that is added to the perception coefficient during EACH FULL UPDATE. Basically, every time an enemy is fully updated, the update of any coefficients to any potential targets is done together with the visibility determination
+
+Potential targets (now meaning targets with a perception coefficient bigger than 0) slowly expire as time passes. What that means is that if the perception coefficient is not constantly increased every full update, it will slowly fall to the default value of 0 over time. This can happen, for example, if a target was visible for a few seconds, raised the coefficient to 5 and then broke off visual contact again. The coefficient will slowly drop towards 0. This is implemented in order to reward players that tactically advance and then pause before continuing. They can ideally wait until the coefficient drops to 0 and then continue sneaking.
+
+Finally, a statistical overview of the perception coefficients of all enemies for the player in a previous CryENGINE game is given in the form of a HUD stealth-o-meter. This is the small gauge to the left and right of the radar circle in the HUD. It represents the highest perception coefficient of the player from all enemies that currently perceive him. What that means is that it basically ALWAYS shows the perception coefficient of the one enemy that is most likely to see the player. A full stealth-o-meter does not mean that ALL enemies see the player; it just means that there is at least ONE enemy that can. An empty stealth-o-meter however means that at this time NO enemy can see the player.

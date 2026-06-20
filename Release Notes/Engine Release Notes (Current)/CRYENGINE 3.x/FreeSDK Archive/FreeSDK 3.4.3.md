@@ -1,0 +1,2773 @@
+# FreeSDK 3.4.3
+
+- Source: https://www.cryengine.com/docs/static/engines/cryengine-5/categories/47316993/pages/44963028
+- Page ID: 44963028
+- Breadcrumb: Engine Release Notes (Current) > CRYENGINE 3.x > FreeSDK Archive > FreeSDK 3.4.3
+- Parent: FreeSDK Archive
+
+## Content
+
+##
+CryENGINE 3 Free SDK – Build 5047 Changelog
+
+Released November 14th, 2012
+
+##
+Top Features:
+
+-
+Dedicated Server
+
+-
+Revamped Launcher menu
+
+-
+Sandbox Welcome screen, link to docs & smart open
+
+-
+Terrain precision/smoothing improved
+
+-
+Many tweaks/fixes/cleanups to the Sandbox UI
+
+-
+SSAO improvements
+
+-
+Improved SSR
+
+-
+Terrain shadow casting support
+
+-
+Box projected cubemaps
+
+-
+Improved DX9 support for Environment Probes
+
+##
+Release Notes 3.4.3
+
+**
+Fixed:
+**
+
+-
+Thread stays locked on editor exit.
+
+-
+Fixed particle targeting bugs: bShrink behavior, bIgnore flag.
+
+-
+Potential crash due to wrong checks for MAX_SUB_MATERIALS array size.
+
+-
+Fixed ParticleEffect entity Kill event, no longer requires Disable before Enable.
+
+-
+Fixed the vehicleBurnPos was rotated 90 degrees wrong. The effect was pointing forward not up, now fixed.
+
+-
+Fixed lifetime of emitters with ParticleLifeTime = 0: particles last through life of emitter, then die instantly.
+
+-
+Fixed and optimized some bounding box computations.
+
+-
+Clouds don't render correctly.
+
+-
+Launcher crashed on exit. Now shutdown game before renderer.
+
+-
+Animation Graph Layout loading.
+
+-
+Fixed crash when voxel objects flag "ComputeAO" is getting disabled.
+
+-
+Moved Glow pass before Transparent pass, to not occlude particles.
+
+-
+Fixed UISettings to work if some CVars are not defined.
+
+-
+Fixed invalid CVar being called on PerfHUD ().
+
+-
+Sandbox start position at 1024, should be 0.
+
+-
+Ocean height not reset on new level.
+
+-
+Tick render mesh only on the render thread.
+
+-
+Fixed positioning and texture coords of newest particle in ConnectToOrigin mode.
+
+-
+Fixed inefficient repetition of lookahead collision checks when turbulence enabled.
+
+-
+Initialize EmitParticleData fields to fix FPE in debug.
+
+-
+Save/load setting for AlwaysShowAdvancedHelpers in sandbox.
+
+-
+Added fatal error in case Scaleform memory limit exceeded.
+
+-
+Crashfix for Scaleform colorMatrixFilter.
+
+-
+Sending ESYSTEM_EVENT_LEVEL_LOAD_START event twice in Sandbox.
+
+-
+Proper fix for fog volume sorting: Set valid Distance value for RenderObjects for fog volumes and other render types. Fixed FogVolumeRenderNode distance function to return correct distance.
+
+-
+Fixed crash on exit by preventing duplicate D3DSurface frees. Fixed a couple of other on-exit errors.
+
+-
+Panning around in the Preview window cause key-repeat noise.
+
+-
+Fixed RendParams.fDistance < 0 bug in particle geom rendering.
+
+-
+Fix the fog volume render order bug.
+
+-
+Switching away from a weapon with scope_mode = 1 without zooming in will always set your DrawNearFov to 60.
+
+-
+Check against faulty gravity.
+
+-
+Editor startup viewport rendering.
+
+-
+Fixed programmatic EmitParticle function, e.g. muzzle flashes, sometimes ignored first emission. Now always emit in regular update thread, no longer special case in main thread.
+
+-
+Crash: Entity:Attachment flownode doesn't unregister itself as an entity event listener ().
+
+-
+Tessellated object LODs cast shadow on next highest LOD.
+
+-
+The raycast could have failed if the ray was passing through the intersection of several triangles.
+
+-
+The raycast could fail if the start point is exactly on the edge of one triangle. This will make the first intersection returning a distance of 0 that should be excluded.
+
+-
+Fixed level loading error handling.
+
+-
+Potential Crash when drawing number of shadow frustums and allocs (r_displayinfo).
+
+-
+Creating GravityVolume flowgraph node causes crash when going in-game.
+
+-
+Fixed vehicle enter in profile build.
+
+-
+Fixed "Runaway thread" log spam during voxel triangulation.
+
+-
+Voxel editing log spam disabled.
+
+-
+Fixed bugs with moving particle effects between parents; names were wrong, or effects disappeared. Simplified re-parenting APIs.
+
+-
+Library Manager no longer adds unneeded 0 to new item names.
+
+-
+Water is brown in the 'Terrain Editor' Preview window.
+
+-
+Incorrect entity locator position when using animation blending.
+
+-
+Fixed black polygons on Connected particles with ConnectToOrigin (prevent 0 axes).
+
+-
+Corrected calculation of e_ParticlesMinDrawPixels check.
+
+-
+Minimap generation / X-Axis bug.
+
+-
+Problems with chain-linked physicalized entities.
+
+-
+Fixed particle iteration infinite looping – inconsistent checking of sliding state. Removed unneeded ParticleUpdateContext.bHasDeviation.
+
+-
+The else case of PushPointInsideTriangle was still using the locationToCenter instead of triangleCenter value.
+
+-
+(Voxels causes very long surface generation times) disabled too precise computation of terrain normals.
+
+-
+HMMWV Major overhaul damage/health levels and wheels/axle configs. Increased friction mod on the wheels and back/front differences. Reset the max dmg levels back to standard levels and also reduced the bullet dmg modifier back to 0.1
+
+-
+Fix precision issue in ClosestPtPointTriangle (used by navigation system).
+
+-
+Fixing the "canShoot" TPS test. The vWeaponDelta was wrongly calculated.
+
+-
+Car reset broken for clients.
+
+-
+Fix dynamic frozen shader, unify dynamic and static paths.
+
+-
+Fixed some particle pulsing and initialization bugs.
+
+-
+Fixes to emitter lifetime and priming computations.
+
+-
+Fixed array bounds crash in tail rendering.
+
+-
+Support for high resolution environment probes in DX9.
+
+**
+Optimization:
+**
+
+-
+Streamlined effect serialization functions, removed FStringConversion aggregated struct.
+
+-
+Simplified application of MinPixels particle param. Param now also prevents distance culling.
+
+**
+Refactored:
+**
+
+-
+Cleaned up IParticles API: Replaced Manager.DeleteEmitter() with Emitter.Kill(); Emitter.GetParticleEffect() with GetEffect(). Removed duplicate and unused functions, fixed const.
+
+-
+Renamed CParticleLocEmitter to more descriptive CParticleSource. Renamed LifeTime and StopAge members to EndAge, for consistency.
+
+-
+Refactoring, saves struct memory and 100 lines of code. ParticleLocEmitter inherits from SParticleMoveState and SParticleTimeState, uses standard QuatTS composite type for location. Particle and Emitter now inherit directly from ParticleLocEmitter, for SubEmitter creation, saving duplicate code. Removed Particle.pChildEmitter.
+
+-
+Simplified vortex and target movement functions.
+
+-
+Changed separate location members in CParticle to standard QuatTS, for better interoperability and simplicity.
+
+**
+Tweak:
+**
+
+-
+Updated mine entity to use new asset.
+
+-
+Added constants for globally tweaking particle lighting values (= 1 by default). Changed ambient lighting gradient to start at bottom, not horizontal.
+
+-
+Using MNM by default for AI navigation.
+
+-
+Added all rain entity properties to the flowevents + triggering Enabled and Disabled output ports.
+
+-
+Updated advanced door.lua to point to existing asset. Updated localization text to reference "use_door" text.
+
+-
+Enable r_ssdo 2 by default instead of 1, for sys_spec 4. 2 provides additional AO at no performance hit.
+
+-
+Updated localization folder.
+
+-
+Debug tool - v_debugsounds 1 - need modifying.
+
+-
+Updated fan entity to use new model and updated explosion settings.
+
+-
+Updated e_ParticlesDebug help. Made obsolete cvar e_ParticlesEmitterPoolSize invisible.
+
+-
+Particle DebugBounds code now colors particle red when out of static bounds.
+
+-
+Removed duplicate CVars from sys_spec 4.
+
+**
+New Feature:
+**
+
+-
+Game will wait for entered players.
+
+-
+Read XML files from LUA.
+
+-
+Added checkAmmo flownode.
+
+-
+Added gravityInAirMult to arcadeWheeled.
+
+-
+Arcadewheel improvements for stability.
+
+-
+Coop Animation FG node now has a button to directly bring up a dialog with the available animations for the entities. This works the same way as the PlayAnimation and the SynchronizeAnimations FG node. (usability improvement).
+
+-
+New FlowGraph node to set an AnimationGraph Variation Input via FG.
+
+-
+IK FlowGraph Nodes: All IKTarget FG nodes now dynamically update the rotation and position offset - this allows for moving an IKTarget in local space at runtime.
+
+-
+Update macro tooltips / target buttons on file changes.
+
+-
+Ability to rename vegetation groups.
+
+-
+Added "Remove Category" functionality to vegetation panel menu.
+
+-
+Switch consoles to binary xml file format.
+
+-
+Added a FG node to playback facial sequences on an entity.
+
+-
+Added example macros.ini.
+
+-
+Replaced SecondGeneration and SpawnOnParentCollision params with SpawnIndirection, with enums for Direct, ParentStart, ParentCollision, and (new) ParentDeath. Refactored parent container particle allocation, and ParticleCollection freelist management, to support emitting from expired parent particles. Freelist now cycles as a queue, keeping expired data longer.
+
+-
+Added flag to set damage on flipped.
+
+-
+Being able to disable devmode in non-release builds (-nodevmode command line pre-argument) - NON EDITOR ONLY.
+
+-
+Added GlassShards screen effect.
+
+-
+Render 3D model in HUD.
+
+-
+Multiplayer map can be start with gamerules of choice.
+
+-
+Coop FG Node allows optionally for an entity to be set as a target location instead of having to specify position and rotation individually (convenience)
+
+-
+Converted tail history to also use QuatTS, now incorporate size history in tail rendering.
+
+##
+Release Notes 3.4.2
+
+**
+Known Issues:
+**
+
+-
+The compiled Maya Exporter from 3.4.1 should used; rebuilding the Maya exporter using the CryENGINE 3.4.2 codebase will result into inability to export ANM files for CGA objects (currently under investigation).
+
+-
+Possible crash on startup with certain AMD GPU/driver combinations (currently under investigation).
+
+**
+New Features:
+**
+
+-
+Z-sorting on 2d entity tags.
+
+-
+Added function RigidBodyEx:Event_Reset.
+
+-
+FlashUI reloading in Sandbox loads new UIActions.
+
+-
+Prompt for changes if UIActions have local changes before reloading is issued via Sandbox.
+
+-
+Added support for (Lua) entity IDs and (3D) vectors in UI script bind functions.
+
+-
+UIEvents can have input and output params.
+
+-
+Improves the screen-space reflection. - Do the pass in 32bit buffers instead of HDR buffers - Fix the issue of the SSR blurring entire specular result - Fix the issue of RGBK encoding in TexToTexPS() not working.
+
+-
+Added option to use plane to material editor preview, and set it as default.
+
+-
+Add support for signal variables to group behaviors and pass group signals down to group members.
+
+-
+Extended particle MoveRelEmitter param to provide option for moving tails as well.
+
+-
+Added flownode to call Lua functions on entities.
+
+-
+Set output dir to default tools folder.
+
+-
+Dedicated server runs through LAN/GameSpy Lobby.
+
+-
+Fix for editor start crash when 'terrain editor' window is opened.
+
+-
+Attachments: CharAttachHelper Entity can now be used to attach things to the player character as well.
+
+-
+Module nodes will return instance id.
+
+-
+Allow to update/cancel instanced modules via module instance id.
+
+-
+Helper to map a user id to a module instance id.
+
+-
+Some helper functions for SUIArguments.
+
+-
+Allow LUA script to handle UI Events.
+
+-
+AddArgument will keep type of given TUIData and not change to any type.
+
+-
+Vehicle fatal collision effect.
+
+-
+Shadow/glow/gradient/color adjustment.
+
+-
+Enabled lockless rendering with filters.
+
+-
+Allow to convert float to bool.
+
+-
+JobSystem priorities, allows better control over when a job is executed - Should also spare ~30kb of memory and allows more fine grained control over the job queue sizes.
+
+-
+Input Actions can now choose to go through the actionfilter.
+
+-
+Added runtime check for correct UI parameter names (no whitepsaces allowed!).
+
+-
+Emitter Strength now usable for non-continuous emitters, increases with particle count.
+
+-
+Some autoconversation from ui arg to lua arg to find best mathing conversation on any data types.
+
+-
+LUA debugger loads correct UI folder.
+
+-
+Flowgraph Editor edge highlighting on mouse over.
+
+-
+Add function BasicEntity:Event_Reset().
+
+-
+Introduced LUA UI Actions.
+
+-
+Unregister LUA UI listener.
+
+-
+Added Flownode for disabling ThirdPersonCameraCollision, added Flownode for manual ThirdPersonCameraAdjustment.
+
+-
+AI: 1) If Trace goalop does not Control Speed, just set the target desired speed immediately. 2) Slow down vehicles when slope increases.
+
+**
+Refactoring:
+**
+
+-
+Renamed source files for greater consistency: partman => ParticleManager, partpolygon => ParticleRender.
+
+-
+Renamed CPartManager to CParticleManager, and use standard Instance() singleton.
+
+-
+Moved MoveRelEmitter and related params from Visibility to Movement section.
+
+-
+Exposed IRenderMesh::DrawImmediately.
+
+-
+Simplified smart_ptr operators, removed many redundant copmare and conversion overloads. Now require manual conversion to bool, like regular pointer; use != 0 or !!
+
+-
+First step to enabling shadows on particles for DX9: Set shader flags for all platforms. Also allow shadows on non-soft-particles.
+
+-
+DXPS: Some cleanup regarding returned error codes for device functions.
+
+-
+Cleanup of unused DXPS_SUPPORT_10HZFLIP.
+
+-
+AI: Renamed COPTrace::ExecutePreamble to CheckIfPathIsEmpty.
+
+-
+Converted obscure FluidTexture option to an enum.
+
+**
+Fixed:
+**
+
+-
+Make sure one can start a multiplayer game without UI. Console commands use LAN lobby to create and connect to games now.
+
+-
+SAVELOAD: CRASH: The game crashes when using saveload; CActor::PostSerialize().
+
+-
+Make sure entities respect 'collision_proxy' materials.
+
+-
+Changed NormalizeFast to (safe) Normalize, potential 0 vector.
+
+-
+ForceFeedbackSystem console variable renamed.
+
+-
+Fixed assert in CUIManager if AddGameWarning is called too early.
+
+-
+MoveRelEmitter, fixed position and velocity scaling for indirect particles.
+
+-
+Only trigger UIEntityGetTag node it get port is triggered!
+
+-
+Rare LCP solver issue.
+
+-
+Default lighting settings are way too dark.
+
+-
+Make sure outside-the-grid physics collisions are on in character editor mode.
+
+-
+Investigate "dancing" HMMWVs.
+
+-
+Fixed ParticleEffect OnPropertyChange to modify rather than respawn emitter.
+
+-
+Fixed soft particle gradient to be properly size-relative. Removed unneeded particleThickCoef register var. Other minor shader fixes.
+
+-
+Make sure vehicles' InitialPosition and InitialOrientation are set only once, on vehicle spawn.
+
+-
+Fixed touch-bending activation for entities.
+
+-
+Fixed crash if ini files not exist.
+
+-
+Crash on serializing without gamerules.
+
+-
+Prevent non-existing files from trying to load.
+
+-
+More accurate GetMemoryUsage reporting for emitter structures.
+
+-
+Made colliding independent objects (ropes, cloth) respect their timestep caps.
+
+-
+Vehicle Editor omits parameter Vehicle.Seat.View.name when saving the XML file.
+
+-
+Fixed linear constraint serialization.
+
+-
+Made sure nRenderList in render params works for statobjects.
+
+-
+Added missing manage button in the editor preferences which leads to exceptions for the automatic control resizing.
+
+-
+Make third-person view return (like in first-person).
+
+-
+Fixed crash in Emitter.EmitParticle of procedurally broken objects – error in maintaining StatObj reference.
+
+-
+Don't set viewport if ePT_FixedDynTexSize size is used.
+
+-
+Potential deadlocking on collider/contact removal.
+
+-
+Fixed editor hang when creating particle effect with empty group name.
+
+-
+0ptr check during material overrides.
+
+-
+Third-person camera now casts rays from the goal to current camera position, not the reverse
+
+-
+Button disappears on click.
+
+-
+No wrong warnings if LUA call failed.
+
+-
+Minor fix; call stop on FlowVideoPlayer node in init.
+
+-
+Fixed div-zero crash in particle emission.
+
+-
+Fixed SCA error.
+
+-
+Lua exception when Hazard applied to AI entities.
+
+-
+Hazard.lua: Switched from "entity.actor:IsPlayer()" to "entity == g_localActorId".
+
+-
+Applying a texture to a Layer will add that texture to the preview window of all layers below it. Fix: Texture path was broken.
+
+-
+Allow to use SUILookupTable accross dl boundaries if build in different configurations.
+
+-
+Don't invalidate already returned IUIEventSystem pointers on registering new event systems.
+
+-
+Correct arg check on wchar.
+
+-
+Unregister LUA UI listener fixes.
+
+-
+Ticking/Unticking vegetation boxes is unreliable and doesn't always result in vegetation disappearing/reappearing.
+
+-
+Compile fixes, and removal of Is() function.
+
+-
+Fixed broken lifetime calculation.
+
+-
+FREEZE: Game may freeze in: CrySystem.dll!JobManager::ThreadBackEnd::CThreadBackEndWorkerThread::DoWork()".
+
+-
+FREEZE: Game froze up while gameplay in ( SJobFinishedConditionVariable::Acquire )" - Fixed Issue in jobmanager which can happen during heavy load, which leads to a worker reading an updated pull ptr, but hasn't yet read a updated push ptr, this lead to having the pull pointer overtake the push pointer followed by a freeze due broken internal logic.
+
+-
+Fixes for freezes.
+
+-
+FREEZE: Game may freeze in: CrySystem.dll!JobManager::SJobQueue<512,4096,2048>::GetJobSlot(unsigned int & rJobSlot, unsigned int nPriorityLevel, bool bWaitForFreeJobSlot) " - Ensures that wrap around for previous infoblock round is correctly handled.
+
+-
+Fixes to rope collision filtering and rope-terrain collisions.
+
+-
+Fixed UIEmulator to invoke functions correctly (since they added as string make sure to add them as any type to perform auto conversation).
+
+-
+Restored crack_decals for breakable glass.
+
+-
+Provide a way to figure out if a given action filter is enabled or disabled.
+
+-
+Fixed correct symbol resolving on pc.
+
+-
+Further fix to particle scaling.
+
+-
+Entities with Receive Wind set would not display in editor.
+
+-
+Emulator event log not attached correctly if pane has size 0.
+
+-
+AI: When following a path, make sure lookahead position does not get stuck.
+
+-
+Fixed particle texture variant count.
+
+-
+AreaManager wrong order of calling Leave/EnterArea and settings cached area values.
+
+-
+Adding back teh QuatT operator=.
+
+-
+Cloth serialization issue.
+
+-
+Crash on exiting Launcher (Sound Obstruction Test).
+
+-
+‘Export Terrain at Marker as Geometry' button removed (deprecated).
+
+-
+Clone functions for FlashUI nodes.
+
+-
+Changed LCGRandom seed from class static to instance, matching MTRand implementation, and allowing independent generators.
+
+-
+Cloth-related fixes un UnprojectSphere for some primitives.
+
+-
+Cannot open Pak file /dds0.pak.
+
+-
+Properly creating a non existing FlowgraphModules folder if it doesn't exist.
+
+-
+Fixed assert in UIInput due to wchar arg.
+
+-
+Fix to position lag on just-emitted particles, especially MoveRelEmitter muzzle flashes.
+
+-
+Fixed serialization of rigidbody breakable glass.
+
+-
+Fixes to emit rate and reserve count: increase reserve count for pulsing, and for extended child particle lifetimes. Increase count for particles rejected previous frame. Mostly eliminates rejected particles.
+
+-
+Particle lifetime code cleanup and opt: GetMaxEffectLife, GetMaxParticleFullLife cleaner, faster, correcter. GetIndirectParent replaces IsIndirect, more consistent. GetEquilibriumAge more correct.
+
+-
+AI: Crash in COPTrace::CheckIfPathIsEmpty.
+
+-
+Fix de-virtualization warning for LocalizedStringManager.
+
+-
+STL Assert and Crash when deleting WAIT GoalOp.
+
+-
+Restored previous offset behavior, changed in version 43: Emit offsets again applied in emitter coords, not transformed by FocusAngle.
+
+-
+Further improvement to soft particle fading, more consistent and compatible setting of OUT.ScreenProj.
+
+-
+Small fix to entity slot local matrices.
+
+-
+Fixed serialization compatibility with AnimCycle bool being converted to enum.
+
+-
+Compiler warning fixes.
+
+-
+Some constraints improvements/fixes.
+
+-
+Crash when attaching pfx to anims in char editor.
+
+-
+Issue with rotated inactive cloth.
+
+-
+Small fix for attached soft bodies.
+
+-
+AreaManager fails to fire LeaveArea for last player leaving an area.
+
+-
+Fixes to statobj skinning multithreading.
+
+-
+Fixed crash in CVehicleClient::OnAction.
+
+-
+Open File Dialog, Updated DialogBrowser.
+
+-
+Vehicle Editor omits some parameters of Vehicle.Seat.View when saving the XML file
+
+-
+Reversed particle Y axis reversed to match texture orientation, fixes flipped particles.
+
+**
+Added:
+**
+
+-
+Added helper.mtl to prevent console error, affects replaceme balls.
+
+-
+Added ReplaceMeCm.tif to suppress error in console.
+
+**
+Deleted:
+**
+
+-
+AI: Removed PolygonSetOps
+
+**
+Tweaks:
+**
+
+-
+Changed some warnings to errors.
+
+-
+Removed unnecessary water options from Terrain Texture Layers menu.
+
+-
+Adjusted Entity Events section in rollupbar. Hid unused buttons (Pick New, Mission Handler, Remove) and moved Send button to top left. Realigned Run, Goto, Add buttons.
+
+-
+Changed Layer "Apply" button to "Save Layer".
+
+-
+Creating proper default folders for level based Flowgraph Modules.
+
+-
+Keep stiffness scale when ragdollizing the actor.
+
+-
+Terrain Layers rollupbar. Upped Altitude limit from 1024 to 4096. Shrunk Layers list and adjusted panel to fit screen better.
+
+-
+Deleting obsolete GameCode solutions.
+
+-
+Separation between global and level based flowgraph modules (in the Flowgraph Editor UI).
+
+-
+Launcher: Quality setting not being saved in attributes.xml.
+
+-
+Changed vehicle health to effect in modification only, added extra exhaust helper.
+
+-
+Shading.cfg reintroduced SSAOQuality = 3. Removed duplicate/unneeded entries.
+
+-
+Gray out Enabled and Tracepoint context menu entries if no breakpoint exists for this port.
+
+-
+Replace "Lighting" button with "TimeOfDay" button.
+
+-
+Removed unneeded setting of stop event in remoteconsole.
+
+-
+Fixing GameCode solutions.
+
+-
+StringHelpers: added many code page converting functions.
+
+-
+StringHelpers: replaced 'new' arrays by std::vector.
+
+-
+Added AscciiUtf16 fucntion to StringHelpers.
+
+-
+Connecting Cancel start and end ports for newly created Flowgraph modules instead of Update and Cancel.
+
+-
+Create string port for wchar data type.
+
+-
+Updated InteractiveEntity object.
+
+-
+HMMWV.lua: 1) Slow down at peaks. 2) Perform collision avoidance more often.
+
+-
+ParticleParams.Connected sub-structure now inherits from bool, toggling expansion of further options.
+
+**
+Optimization:
+**
+
+-
+Refactored ParticleCollection to use intrusive links rather than separate link array, for reduced memory access, and more re-ordering functionality. (CParticle with links still <= 128 bytes). Additionally, member initialisation behavior is a ParticleCollection template param.
+
+-
+Removed ParticleCollection::full_traverser, no longer need to iterate over reserved members. ParticleCollection is now fully reset and reallocated when needed due to editor param changes.
+
+-
+Removed unneeded Normalize for unit vector.
+
+-
+Improves SSR (screen-space reflection). - r_SSReflections 2 : SSR with blurring - r_SSReflections 3 : SSR with the other blurring - r_SSReflections 4 : 3 + diffuse reflection.
+
+-
+Better EmitParticle handling, simpler and cleaner container structures, using particle pools for memory.
+
+-
+Merged Particle and Emitter memory pools for better mem usage.
+
+-
+Particles now init and allocate storage on construction rather than in separate loop.
+
+-
+Support more complex intersections on PC.
+
+-
+Improvement to particle reserve count allocation; computed per-frame for pulsing and parent particles.
+
+-
+Param spline values now serialized only with required digits of precision.
+
+-
+Improved branches with ropes attached to ropes.
+
+-
+Removed old particle threading code and USE_JOB_SYSTEM_FOR_PARTICLES flag (now always true). Simplified CREParticle memory management, removing many unneeded containers and functions. Now display memory both allocated and used for particle rendering.
+
+-
+Removed CVehicleMovementArcadeWheeled::m_prevAngle.
+
+-
+Improved character ropes/cloth skinning.
+
+-
+Don't update viewport on elements that are not visible.
+
+-
+Added alignment to CTypeInfo. Removed unneeded bUnionAlias field. Removed check for "Inline" attribute, refactored TVarParam to inherit from its data type.
+
+-
+Spline data values now serialized only with significant digits of precision.
+
+-
+Stopped collision raycasts if boid is stationary.
+
+-
+Reduced number of synchronous casts to 1 in 3 frames.
+
+-
+Cloth tweaks (mostly for characters).
+
+##
+Release Notes 3.4.1
+
+**
+New Features:
+**
+
+-
+• Added camera rotation for third-person view of HMMWV.
+
+-
+• Exposed the amount parameter of the rain entity to flow graph for modification of the param in real time.
+
+-
+• Template movie clip creation.
+
+-
+• Engine:Viewport flownode to get current viewport information (Editor/Launcher).
+
+-
+• Added Editor icon for Asset Browser.
+
+-
+• Added ability to ignore delegation on aspects on a per-object basis.
+
+-
+• Added aspect flag eAF_ServerControllerOnly. When set, the aspect is not sent to clients that don't control the entity.
+
+-
+• Shortcut (Z) to directly go to a selected object (deleting the Sandbox 3.3 registry key is required to get it working).
+
+-
+• Full incorporation of rotational velocity into particle dynamics: transfer to/from physics, affect InheritVelocity.
+
+-
+• Vehicle Destroy Event.
+
+-
+• Allow deterministic ocean waves via r_WaterRandomSeed.
+
+-
+• Automatic vehicle lights.
+
+-
+• Tweaks for high-quality shadow mode.
+
+-
+• Support cyclic (wrapped) entity grid.
+
+-
+• Window Mode Fullscreen.
+
+-
+• Lobby and Gamebrowser working for SDK with Gamespy, LAN and PSN.
+
+-
+• Pump out queued log events before log events from MainThread to keep correct order.
+
+-
+• Added code to check class registry is the same between client and server when connecting, if it isn't then disconnects with meaningful error message.
+
+-
+• Added g_pingLimit cvar for kicking players if they stay over a certain specified ping (length of time determined by g_pingLimitTimer).
+
+-
+• Added tags <Break/> and <Continue/> to XML goalops.
+
+-
+• New UIEventSystem to handle 2D entity tags.
+
+-
+• AI: Added function GetDirOnPathBySegNo
+
+-
+• Maya: Added optional scene root node that everything will be relative to. Also added option to stop RC doing up axis fixing. Also added cryLoadPluginQuiet function to autoload the export plugin.
+
+-
+• Pipeline: Export can use any installed RC to do the conversion. Only working for Maya at the moment.
+
+-
+• Maya: Export selected cryExportNodes.
+
+-
+• Maya: UI changes for export selected and rc selection functionality.
+
+-
+• Maya: Quiet option to stop the progress window waiting for OK to be clicked.
+
+-
+• Maya: Added tool to fix camera focus problem.
+
+-
+• Maya: Enable exporting of CAF animations for animated objects.
+
+-
+• Maya: Added auto-fix option for vertex weights that are not normalised.
+
+-
+• UI MP Scoreboard.
+
+-
+• Introduces drawcall limit (disabled by default).
+
+-
+• New CVar e_MaxDrawCalls.
+
+-
+• Small improvements to user feedback when going past drawcalls budgets, visible in Editor too and not only when running on consoles.
+
+-
+• Key <Tab> changes view actor.
+
+-
+• Added host migration state verification system. After host migration new host and clients store their state and clients send their state to new host. New host will log all states and show any differences between the clients and itself. Currently NetIDs are checked with the system.
+
+-
+• Time Of Day: Autozoom on property change.
+
+-
+• Added dialog system for the front-end.
+
+-
+• Added helper Lua function ChangeSeat to entities that are vehicles.
+
+-
+• New flash asset to handle dialogs.
+
+-
+• Possibility to define 3D HUD prefab in gamerules.
+
+-
+• Added property esBehaviorSelectionTree to vehicles.
+
+-
+• Facial Editor asks for CDF files by default, instead of CDF body parts.
+
+-
+• Update the resource compiler following the quat changes.
+
+-
+• New FMOD parameter listener_speed.
+
+-
+• AnimationGraph Speed Randomization.
+
+-
+• Allow to have different warning dialog types with more than one button
+
+-
+• Particle-generated decals now added directly to renderer, instead of creating Decal objects, now dynamically update location, size, and alpha. (Rendered as deferred decals, as before).
+
+-
+• Mark UIElements as HUD, display/hide them if g_showHud is set/unset.
+
+-
+• Weapons: Removing obsolete raiseable flag from Fists, so that nw item does not make the player bounce off the wall when sprinting against it.
+
+-
+• Exposed damping in action_update_constraint.
+
+-
+• Lip Synch: When playing sounds, the engine will look for an FSQ file in the same location as the sound file again in addition to the localized location. This was no longer working with the new localization system.
+
+-
+• New UIDelay Node.
+
+-
+• Big particle lighting and shader upgrade. Non-camera-facing particles can now be lit, as flat polygons; can be octagonal; can use connected and tail features.
+
+-
+• Lua scriptbinds to cache and remove cached FSB's.
+
+-
+• Support for whitelist in make system.
+
+-
+• When opening default Time of Day, first try to find a .xml file and if there is none then try to open the .tod.
+
+-
+• Add support to Sandbox for caseless path generation.
+
+-
+• Added compile time log2 check.
+
+-
+• Flowgraph Modules debugging.
+
+-
+• Box projected environment probes.
+
+-
+• Make items pickable by default.
+
+-
+• Editor: If Road has property AI Anchor Type set, export AIPath with the same name and the same set of points to the AI System.
+
+-
+• Spectators (in MP) or watching from AIs' perspective.
+
+-
+• Added platform-independent support for Interlocked*SList function, which allows lock-free ABA safe usage of single linked lists.
+
+-
+• Easy way to register warnings.
+
+-
+• Made the linear camera following speed of the vehicle third-person view independent from rotation speed.
+
+-
+• Vehicle: 0-100% dynamic power (gamepad only, HMMWV only).
+
+-
+• Render side scene uv map support.
+
+-
+• New Flownode to transform worldpos into flash pos (with scale support for 2.5D mode).
+
+-
+• Support limits for line constraints.
+
+-
+• Update to Microsoft DirectX SDK (June 2010).
+
+-
+• Improves SSAO - Triple radii to capture more small-scale details - Some optimizations – Less samples for smaller radii – Use a quarter-downscaled depth buffer for the large radius - A better blurring - Several cvars added for tuning.
+
+-
+• Moving particle emitters now spherically interpolate path for inter-frame emission, using specified pivot point. Added PivotLocation class, for use in particle location functions. Updated anim attachment code to use character origin as emitter pivot.
+
+-
+• "Volume" form partially implemented for meshes, treated as convex.
+
+-
+• Integrate GameLobby code.
+
+-
+• Health Pack Pickable/Usable Item.
+
+-
+• Mounted Gun.
+
+-
+• Global enum for action maps to simplify the usage of the Input:Action flownode.
+
+-
+• Game warnings manager.
+
+-
+• Allow to define dialog button strings.
+
+-
+• Volumetric fog shadows.
+
+-
+• Enable MultiProcessorCompilation as true for Win32 Profile builds.
+
+-
+• Enabled procedural blinking globally, without the requirement for active LookIK on the character.
+
+-
+• Added interval groups for streaming jobs and streamed object lifetimes.
+
+-
+• Added missing tooltip text for Sandbox toolbar icons.
+
+-
+• Support user token macros in ext preprocessor.
+
+-
+• More game side implementation for host migration.
+
+-
+• Return correct size of SUILookupTable.
+
+-
+• Added multiplatform CryFastSemaphore, a CrySemaphore wrapper, which only uses semaphores if the queue is empty.
+
+-
+• JobManager: Added support for multiple waiter per sync variable.
+
+-
+• JobManager: Added support for "FollowUp Jobs" These are started as soon as a syncvariable running counter reaches zero.
+
+-
+• Add support for signal variables to group behaviors and pass group signals down to group members.
+
+-
+• Allow unlimited particle pool growth by setting pool cvars to 0.
+
+-
+• Can set limitations to the editor-sliders for number via Lua comments.
+
+-
+• SUIArguments do only auto convert if data is marked as eUIDT_Any.
+
+-
+• AI: Added option to ignore current path when looking for closest path in CNavigation::GetNearestPathOfTypeInRange.
+
+-
+• Add tags <While>/<WhileAnd> and <WhileOr> to XML goal pipes.
+
+-
+• Additive blending now multiplies by source by alpha channel as well, if specified.
+
+-
+• Added new weapon customization window, accessible from ingame.
+
+-
+• Added UI flownodes to query the inventory and accessories for UI.
+
+-
+• Maya: Added Maya2013 project settings. Some script changes to load the 2013 plug-in.
+
+-
+• Maya: Initial version of validate check and AutoFix script for nodes with pivot not aligned to the grid. Made the vertex weight check more sensitive. Minor Maya2013 fix.
+
+-
+• Maya: Improved validate recheck to work properly with export selected.
+
+-
+• Added limits to third-person camera pitch.
+
+-
+• Added particle animation mirror mode.
+
+-
+• IK Targets: Made IK Target System interfaces available so the system can be accessed from the Game Dll as well (through GameFramework).
+
+-
+• High-quality shadows exposed to design through FG.
+
+-
+• Fix count leading countLeadingZeros32 returning an undefined result if 0 is passed in.
+
+-
+• Strip whitespaces from anim name on closing the Add/Edit anim range dialog.
+
+**
+Optimizations:
+**
+
+-
+• Moved all particle motion blur data and code into #define PARTICLE_MOTION_BLUR. Set to 0, as the feature does not produce good enough visuals, and disabling it produces memory and speed improvements.
+
+-
+• Sped up and simplified AllocPrefix template, used for SmallDynArray header prefix; prefix size now a template int.
+
+-
+• Sped up FixedDynArray.push_back etc, removed capacity test (storage template always performs resize).
+
+-
+• Consolidated shared realloc code into reallocate().
+
+-
+• Improved SSR (screen-space reflection): SSR with blurring, SSR with the other blurring, diffuse reflection.
+
+-
+• Some tweaks to subdivided ropes.
+
+-
+• Performance enhancement for CGoalOpXMLReader.
+
+-
+• Optimised host migration.
+
+-
+• Geom shader now usable for both quad and octagonal particle rendering (oct expansion encoded in texture x).
+
+-
+• Streamlined CParticleContainer::Render(), and particle render structures, removing redundant data.
+
+-
+• Consolidated SRenderVertices code.
+
+-
+• Moved some code inside #if !USE_JOB_SYSTEM_FOR_PARTICLES.
+
+-
+• Removed unused call to check for friendly players in Vehicle Weapon. Saves a couple of raycasts.
+
+-
+• Generating the .dds files for the glass destruction so as to not have them generated at run time.
+
+-
+• Improvements to particle update frame subdivision. No longer counts iterations, just uses min step time.
+
+-
+• Fixed MoveLinear time adjustment calculation, no longer requires multiple iterations.
+
+-
+• Re-implemented IParticleEmitter.EmitParticle to queue particles for deferred emission; so all emissions are batch-processed without requiring clients to batch into EmitParticles. Added optional rotational velocity to EmitParticle for completeness.
+
+-
+• Merged Particle and Emitter memory pools for better mem usage.
+
+-
+• Particles now init and allocate storage on construction rather than in separate loop.
+
+-
+• Some project flags tweaks.
+
+-
+• PlayerMovementController.
+
+-
+• Optimised and simplified vertex and tail construction code.
+
+-
+• Improvement to particle reserve count allocation; computed per-frame for pulsing and parent particles.
+
+-
+• Removed unneeded multiplication in _MainBending shader routine, updated comments. Removed function profile calls from mfSetParameters (too many calls).
+
+-
+• Stopped keeping gEnv pointers in Actor System.
+
+-
+• Improvements to environment sampling (for ropes, constraints attachment).
+
+-
+• Reduced z-fighting on phys proxy rendering.
+
+-
+• Particle shader avoids all normal calculations when not doing lighting.
+
+-
+• Eased spinlock on full sync.
+
+-
+• Small particle behaviour fixes.
+
+-
+• Many particle attachment fixes and improvements:
+
+-
+• Geometry render extents now cached per geom object (StatObj, CharInstance, RenderMesh), instead of recomputed per emitter.
+
+-
+• Reduced confusion in CNavigation::GetNearestPointOnPath.
+
+-
+• Removed LHS from TerrainNode::GetBox.
+
+-
+• Tweaks to contact reporting.
+
+-
+• Revived ZCullReload prior to opaque pass.
+
+-
+• JobManager: Aligned JobManager structures on all platforms, optimized memory operations.
+
+-
+• JobManager: Optimized JobManager::CJobManager::CopyJobParameter by utilizing SIMD + Loop unrolling.
+
+-
+• JobManager: Optimized JobSubmission: now only one atomic op is needed, and no serialization during submission (could introduce spinlock peaks).
+
+-
+• Fix for main thread waiting on jobs that have been preempted by physics, network, streaming, or FMOD.
+
+-
+• More efficient particle iteration. Merged erase and update loops; and emit and update loops.
+
+-
+• Simpler implementation of ConnectToOrigin feature of connected particles: emit with negative age so newest particles remain at origin for 1 emit period.
+
+-
+• Simpler and more reliable implementation of inter-frame emission timing: sub-emitters store last particle emission time rather than fractional particles.
+
+-
+• Removed unneeded Container.ChildEmitters array (redundant with Particle.pChildEmitter), and Container.pDirectEmitter.
+
+-
+• Heaps allocate pages in actual specified size, don't add PageNode overhead.
+
+-
+• Stopped passing unused pSystem to CScriptableBase::Init.
+
+-
+• Fast lookup for already registered UIParameterDesc; allow to remove movieclip via IFLashVarObject.
+
+**
+Refactoring:
+**
+
+-
+• Quaternion refactoring.
+
+-
+• Use common way to init gEnv->pFlashUI.
+
+-
+• Renames 'm_fRadius0' to 'm_fBaseRadius' to be more consistent.
+
+-
+• Added Velocity3 class to manage linear and rotational velocity together.
+
+-
+• Removed storage set_size method, now just have resize_raw with optional capacity arg.
+
+-
+• Function to get light texture.
+
+-
+• New FlashUI Features - no auto-conversation if args are typed on UIArguments - fixed a bug if any type is used with wstring - MovieClips and Templates can have functions/vars etc; - New Flownodes to dynamically create / destroy templates - New flownodes to work on templates - store UIDesc as pointers - change lookup tables to store pointers
+
+-
+• Removed confusing blending between previous stats values and fixed existing text formatting.
+
+-
+• Change UILobby to make use of UIArguments
+
+-
+• Simplified Decal APIs, removing unneeded arguments.
+
+-
+• Removed unused CTimer members.
+
+-
+• Default Time of Day Setting now including HDR Settings for good looking Default TOD.
+
+-
+• Level templates updated to deal with water/waves and view distances.
+
+-
+• Removed eye adaption from .exc's.
+
+-
+• Reduce the Boost pfx scale & count at max speed.
+
+-
+• Extended particle vertex format to contain 3D axes, unifying lighting and geometry for all particle facings.
+
+-
+• CryCG: simulation debugging enhancements.
+
+-
+• Moved ui util nodes to new file.
+
+-
+• USE_NEW_FLIGHT_NAVIGATION #ifdef replaced with eCompatibilityMode cvar check.
+
+-
+• Moved ScreentToFlash and WorldToFlash into IUIElement.
+
+-
+• Changed update order: first update View System, then Flowgraph.
+
+-
+• Removed SimpleParticle option, as it provides little benefit over turning off lighting, fog, etc.
+
+-
+• Set Receive Shadows and Global Illumination to true by default (gated by cvars).
+
+-
+• Adds two new SSAO modes which has some improvements based on 'Volumetric Obscurance'. r_ssao 5: A better close-range AO effect r_ssao 6: Above + dual radii
+
+-
+• Makes the new SSAO work on all platforms. Also optimizes it somewhat.
+
+-
+• Simplified EffectAttachment update code, more consistent location assignment.
+
+-
+• Unified use of tex gen for OBM/POM to be consistent with general rendering and opaque / transparent passes, smoother self shadow fade for terrain, general cleanup and refactor.
+
+-
+• A little cleanup to Texture2DMS functionality.
+
+-
+• Expose volumetric fog shadow params.
+
+-
+• Enable fog shadows for higher specs.
+
+-
+• Removed SFD support.
+
+-
+• Exposed GetGameContext in CryAction.
+
+-
+• Small fix to keep attached alpha support working + more cleanup related to removal of texture flags as part of name gen.
+
+-
+• MaxCryExport: removed Physics and Batch rollouts, cleanup.
+
+-
+• MaxCryExport: cleaning up Node Export and Options rollouts.
+
+-
+• MaxCryExport: clean up of Bones rollout.
+
+-
+• Fix cloud shadows, expose few controls (tilling/brightness), minor tiding up to environment tab, fix 2D gaussian distribution.
+
+-
+• Added new exposed driver variable for fallback if jobqueue is full and all workers want to submit a new job.
+
+-
+• Removed trivial ParticleSystemConstants.h file, moved definitions to appropriate places.
+
+-
+• Removed redundant ParticleFixedSizeElemtnPool class and files, replaced with more general stl::SizePoolAllocator.
+
+-
+• Stl::HeapAllocator and all derived PoolAllocators now use Opts struct for heap options, replaced template params for multi-page and free-empty options.
+
+-
+• Refactored HeapAllocator clear facilities to release memory using a lock struct, much simpler than previous multiple function calls.
+
+-
+• Changed semantics of IEntityObject.GetEntityStatObj: nSubPartId is now 0 for main object, 1+ for parts (non-zero arg was only used once). Now checks for dynamic sub-object visibility.
+
+-
+• Material FX now set collision sub-part id in DecalInfo.
+
+-
+• Volumetric fog shadows to affect fog color computation.
+
+-
+• Fixed ghosting in volumetric fog shadow pass.
+
+-
+• Custom cvar for shadow bias/slope high-quality mode, added more cascades control.
+
+-
+• Change UIACTION_ERROR to be only warning on bootstrapper unloading failed (not an fatal error).
+
+-
+• Removed res independent star size computation. Stars look better a fixed pixel size objects (especially on high res displays).
+
+-
+• Reduced minFriction="0" from 1 slipFrictionMod="0.1" on the back wheels. from 0.3 Reduced acceleration to 12 from 15 decceleration to 5 from 8 reduced boost to 20 from 30.
+
+**
+Added:
+**
+
+-
+• Added updated TOD files. Renamed previous TODs to _OLD. Set start time to 10am. Added GI during day time. Backed off sun color mult. Backed off global fog density. Increased focus range. Set skybox mult to 1 for static sky to work.
+
+-
+• Added Control Panel icon.
+
+-
+• Added helper.mtl to prevent console error, affects replaceme balls.
+
+-
+• New softedge light texture added for vehicle headlights. Backed off intensity of vehicle headlights and increased range.
+
+-
+• Added BaseAddressCalc.xml for easy tweaking of base addresses.
+
+-
+• Added the debughelper.
+
+-
+• Added another camera view.
+
+-
+• Maya: Added Maya2013 SDK.
+
+**
+Deleted
+**
+:
+
+-
+• Removing legacy .TOD files only single default left.
+
+-
+• AI: Removed PolygonSetOps.
+
+-
+• Removed ReinforcementSpots.
+
+**
+Tweaks:
+**
+
+-
+• Added helper_tp param for RocketLauncher to properly align rocket exit point (was exiting from characters face).
+
+-
+• Changed ChromaShift lower bound to 0.01.
+
+-
+• Showing Frame ID and Flowgraph ID for Flowgraph Debugger Tracepoints
+
+-
+• HMMWV.lua: 1) Slow down at peaks. 2) Perform collision avoidance more often.
+
+-
+• Added lower bound (0.09) to the Image:ChromaShift description.
+
+-
+• Removed obsolete soundname event for Sound Event Spots.
+
+-
+• Moved all reverb and volume type audio cvars to the sound cvars class, this in parallel fixed.
+
+-
+• MaxExporter: added csexport.exit() function for quick termination of Max.
+
+-
+• MaxCryExport: Adjust feedback when bone list is empty.
+
+-
+• MaxCryExport: changed dll runtime library to static.
+
+-
+• Speedboat - Added nav light and removed unused 3rd person views.
+
+-
+• Changing default terrain modify tool to pick height.
+
+-
+• Upgrade UpdateCryGameScriptsProject sln to VS 2010.
+
+-
+• Switching 1000l to 1000L to make it more obvious it's a long and not 10001 for GetViewDistRatio.
+
+-
+• Maya: Minor improvements to the look of the anim manager.
+
+-
+• Maya: Enable the selection of RC from installed builds.
+
+-
+• Maya: Plug-in version update.
+
+-
+• Maya: Added option to select objects the use a shader from a material group.
+
+-
+• Maya: Added some options to the context menu for material groups.
+
+-
+• Collada: Speed up the writing of the dea file by bypassing some of the unnecessary reformating of output strings and doing fewer writes to the file.
+
+-
+• Maya: Increased the size of the export node and animation list boxes.
+
+-
+• MaxCryExport: Reduced epsilon value when looking for degenerated triangles.
+
+-
+• MaxCryExport: "No meshes with custom normals found" - is not a warning anymore.
+
+-
+• Allow outputting of Session ID as a string consistent across clients.
+
+-
+• Updated EntitySystem debug information.
+
+-
+• Increased mouse sensitivity for vehicle third-person views.
+
+-
+• Added FlowgraphEntity to Entity Scheduler, removed obsolete HQ and Buyzone entries.
+
+-
+• Invalidating Time Of Day slider when setting the time.
+
+-
+• Added Canary for huge octree bounding box.
+
+-
+• Added color argument to DrawBBox(vec3, vec3) and DrawLine(vec3, vec3) methods.
+
+-
+• Simplified helicopter lift force calculation.
+
+-
+• Set maximum roll for helicopter to 60 degrees.
+
+-
+• Updated default time of day XML.
+
+-
+• Proper TimeOfDay Dialog default zoom for the spline control.
+
+-
+• Added Tool dependencies in make system for: - Devirt run depends on devirt - CCG files depend on CryCG.
+
+-
+• Give wrongly named platform port the correct human name.
+
+-
+• Improve helicopter lighting.
+
+-
+• Lowered HMMWV collision damage threshold from 50 to 25. Now sets engine on fire if driving flat-out into a wall.
+
+-
+• HMMWV: No fixed 3rd-person camera, no locking front wheels on handbrake, more stability.
+
+-
+• Removed unregistered/errored CVars from singleplayer.cfg: ca_aimIKFadeout, g_multiplayerDefault, r_HDRUseSetup, g_telemetrySampleRateSound, g_telemetryConfig, r_DeferredShadingHeightBasedAmbient.
+
+-
+• Fog volume type drop-down list for the FogVolume entity.
+
+-
+• Tweaked the behavior of respawnable destroyed vehicles (the way parameters Timer and Unique are used).
+
+-
+• Updates to vehicle lights. New lensflare/corona effect. HMMWV helpers moved to prevent angle flicker. MH60 lights mostly reverted to previous setup.
+
+-
+• Cloth - Set default air resistance to 1 and changed greater than syntax on air physics activation.
+
+-
+• HMMWV AIMovementAbility tweaks
+
+-
+• Improved HMMWV lighting
+
+-
+• Move CShapeObject::GetPrefabPrependedName to CBaseObject.
+
+-
+• Removed r_TexturesFilteringQuality CVar from CVarGroups. No longer used.
+
+-
+• Added message box to tell the user that initializing the default font failed (common error: missing default font in Engine or Game folder), instead of just silently failing to initialize the system.
+
+-
+• Particle backlighting now half-blended between wrapped and clamping modes.
+
+-
+• Removed redundant CVars from Shadows cfg. Changed HDRBlueShift from 1 to 0 and removed CVar from system.cfg. Added commented out r_Driver = DX9 to system.cfg to make switching to DX9 more simple.
+
+-
+• Reduced thread sleep to 500ms to satisfy Xbox360 TCR.
+
+-
+• NULLSoundSystem cleanup.
+
+-
+• Some cleanup for CrySemaphore.
+
+-
+• Jobmanager: Removed unnecessary copies from AssignMembersTo.
+
+-
+• JobManager: Allow Blocking jobs to run even if the job system is disabled (to prevent deadlocks).
+
+-
+• JobManager: On PC, Only create numcores - 2 Worker Threads, not the number of system cores to prevent contention with main/render thread.
+
+-
+• JobManager: Cap Blocking Worker Threads to 1 on all systems (these are only ThreadBackends, but if needed should be replaced with a FiberBackend).
+
+-
+• Cleaned up marking of worker thread ids.
+
+-
+• Updated minimap settings XML to be in line with C3.
+
+-
+• Disable HDR blueshift by default.
+
+-
+• Added rear park lights for HMMWV.
+
+-
+• Removed ed_highlightGeometry CVar form system.cfg.
+
+-
+• Reduced head lights range from 120 m to 70 m (Abrams and HMMWV affected).
+
+-
+• Renamed Entity tab in Database view.
+
+-
+• Made dynamic lights longer (17:30 - 6:30).
+
+-
+• Make HMMWVs more fragile.
+
+-
+• Ambient lighting on particles now scaled with Z orientation.
+
+-
+• Added AI flowevents MakeInvulnerable / MakeVulnerable and ResetHealth.
+
+-
+• Make the helicopter less of a Saturn V.
+
+-
+• Updated mounted gun script file, removed old env parameters.
+
+-
+• Changed the engine sound position from the exhaust to the actual engine; fixes wrong sound behavior in the 1st person.
+
+-
+• Updated with proper placement of the sound event names.
+
+-
+• Updated mounted gun script file to have the new mounted gun with sound.
+
+-
+• Updated the vehicle XML with racing sound modification.
+
+**
+Fixed:
+**
+
+-
+• Fix for the static path adjustment used with MNM. Also fixed the MNM update when removing objects in the level (The physics doesn't usually notify the removal of objects).
+
+-
+• Particle texture animation with blend=false was broken, inconsistent checking of blend flags.
+
+-
+• Connected particles had bad geometry, from generalised geometry checkin.
+
+-
+• Time Of Day: No additional Node is placed anymore when the focus is on Current Time and followed by pressing Enter.
+
+-
+• Important fix for conversion of old SimpleParticle option: EmissiveLighting now set to 1.
+
+-
+• Fixes several issues with the light animation system. - A visibility check issue with an animated light - A crash when deleting a node in the light animation set - Now only nodes of light anim node type can be added to the light animation set. - The issue that the diffuse color is much brighter when applied by the animation.
+
+-
+• Don't load flowgraph modules in hidden sub-directories or from non-XML files (e.g. backups).
+
+-
+• Bug in AreaTrigger.lua while chain-loading maps in Launcher.
+
+-
+• Fixing depth buffer reallocating forever on certain conditions / crash+d3derror for window resizing when SSAO enabled.
+
+-
+• Rare issue with grid-aligned rays.
+
+-
+• Call reset on script after manipulating object in case script relies on physical properties like location/rotation.
+
+-
+• Fixed serialization of HMMWV reverse movement lights and brake lights.
+
+-
+• Fixed vehicle third-person camera following.
+
+-
+• Correctly handle center offset for geometry particles for inherit velocity.
+
+-
+• AnimDoor Entity wrong check for animation ending
+
+-
+• Potential deadlocking on collider/contact removal.
+
+-
+• HMMWV camera initial angle can now only be controlled in the Z axis (ie side view) (rotation) can't adjust the up angle.
+
+-
+• Automatic firemode muzzleflash.
+
+-
+• AI: Fixed CNavigation::GetPointOnPathBySegNo.
+
+-
+• Dead AI keeps getting damage from a close destroyed vehicle.
+
+-
+• Wrong output of AI:FactionReaction flownode.
+
+-
+• ProximityTrigger doesn't unlock the player's Interactor correctly once leaving the area.
+
+-
+• Fixed crash in BreakableGlassSystem due to misuse of FOREIGN_ID with magic number.
+
+-
+• Fixed construction/destruction bugs in DynArray reallocation.
+
+-
+• Start using parameter "altitudeMax" specified in vehicle configuration files.
+
+-
+• MaxExporter: fixing crash caused by invalid reference counting in MaxMaterial.
+
+-
+• MaxCryExport: Use Object Bones now looks for bones in children of selected nodes as well; added more descriptive bones when exporting CHR and no bones selected.
+
+-
+• MaxCryExport: Fixed misleading warning when exporting CGF-geometry without skinning.
+
+-
+• MaxCryExport: fixed reset of Material ID to 0 when exporting with Custom Normals.
+
+-
+• MaxCryExport: automatic creation of folders when exporting animations
+
+-
+• MaxCryExport: fixed saving of SourceInfo chunk; added SourceInfo chunk for animation files.
+
+-
+• Added error messages to DCC exporters about RC crashing.
+
+-
+• Fixed flickering of multiple VolumeClouds in DX11
+
+-
+• Make sure outside-the-grid physics collisions are on in character editor mode.
+
+-
+• Go To Position won't go higher than 10,000
+
+-
+• Potential stack corruption on blocked AddGeometry requests.
+
+-
+• Fixed Particle Library Manager to look up effects by full name, with library name; duplicate names in different libraries now supported.
+
+-
+• Fixed HUD debug output not working in multiplayer.
+
+-
+• Fixed alpha calculation for particle decals.
+
+-
+• Fix "missed removing flag in one spot == gamma correction was applied 2x".
+
+-
+• Disabled non-uniform scaling for already instanced (procedural) geometries.
+
+-
+• GetTriangleAt can now have a verticalDownwardRange and a verticalUpwardRange specified in the function call.
+
+-
+• Pausing the background generation process every time the Navigation Continuous update is paused (When jumping in game in sandbox for example).
+
+-
+• Use the actors as Navigation Seeds (Also the Navigation Seeds are supported) to calculate the mesh accessibility. Also adding a ribbon button to allow LDs to easy access the functionality
+
+-
+• Fix potential crash on smart object offmesh link removal.
+
+-
+• Fixed crash in CVehicleSeat::SitDown (in multiplayer, when AIs are in a vehicle, and a client connects).
+
+-
+• Camera:Override FOV flownode - Reset done output doesn't trigger.
+
+-
+• Fix crash in CVehicle::BroadcastVehicleEvent when chainloading.
+
+-
+• Fixed error in Lua function ACT_EXITVEHICLE in Game/Scripts/AI/Behaviors/DEFAULT.lua.
+
+-
+• Potential crash if activation info entity doesn't exist (unified with FlowBaseNode.h code).
+
+-
+• Maya: Improved group handling in create cryExportNode tool.
+
+-
+• Maya: Fixed crash validating meshes with invalid shader connections.
+
+-
+• Maya: Missing return in cryExportGetInstalledBuildEntry. Changed some error messages.
+
+-
+• Maya: Allow negative frame numbers in anim ranges.
+
+-
+• Maya: Removed some script sourcing to stop a heap corruption bug in OpenMaya.dll.
+
+-
+• Maya: More changes to fix re-sourcing related crashes in OpenMaya.dll.
+
+-
+• The driver should not be beamed outside when vehicle explodes.
+
+-
+• MaxCryExport: Fixed bug with validation of orphaned texture vertices.
+
+-
+• MaxCryExport: Fixed crash when reporting Morph target without vertices exceeding morph-threshold.
+
+-
+• MaxCryExport: Brought back morph target export for MAX 2010 and MAX 2011.
+
+-
+• Fixed wrong DMA catch with Tuner profiling.
+
+-
+• Fixed non stopping OS thread from Tuner profiling (was waiting for DXPS to end for eternity).
+
+-
+• Fixed Freezes with SingleFlushValidate.
+
+-
+• Diffuse Cubemap option was not properly detected.
+
+-
+• Particle param and cvar combinations were not always properly computed.
+
+-
+• Children of indirect effects were not recognised as indirect.
+
+-
+• Call LockForThreadAccess in OcclusionCuller if USE_OCCLUSION_PROXY is enabled.
+
+-
+• Fixes for socket late create. LAN and online sockets are now created correctly for all platforms. This allows correct switching between LAN and online services.
+
+-
+• In ai_DebugDrawEnabledActors, AI Territory <Auto> is displayed as "(-1)".
+
+-
+• Fixed crash in CGameBrowser::InitialiseCallback and freeze in loading MP games on PC.
+
+-
+• Overbright vegetation sprites.
+
+-
+• Fixed CCamera:Project to work correctly if camera has roll.
+
+-
+• Fix use of proper port index (enum) on CGameTokenFlowNode.
+
+-
+• Some fixes in UIDialogs.
+
+-
+• Fixed the helicopter bottom big white light.
+
+-
+• Hiding Boids in Editor.
+
+-
+• Mesh not locked for thread access (CWBufferCuller.cpp).
+
+-
+• Fixed holes in Occlusion culler.
+
+-
+• Fix a potential crash in ComputeAccessibility.
+
+-
+• Fixed steering non-player vehicles in MP.
+
+-
+• Crash fix in ModelViewportCE due to missing RenderMesh locking.
+
+-
+• Restored profile_weighting stat averaging behavior, set to 1 by default.
+
+-
+• Fix quick save / quick load when player is dead.
+
+-
+• Problem with rigidbodies as ignored colliders for particles.
+
+-
+• Vis area streaming walk now uses objects bbox, not node bbox. Fixes incorrectly low-res textures across portals.
+
+-
+• Fixed color rendering for portal debug.
+
+-
+• Allow more frame subdivisions for long update times (e.g. emitter priming), and for tail particles.
+
+-
+• Disable further collisions in a frame when collision time is 0.
+
+-
+• Clearing keystates when resuming game after a Flowgraph Breakpoint was hit.
+
+-
+• Correctly cancel requested path during the OnObjectRemoved call.
+
+-
+• Typos and string adjustments in the Max Exporter UI.
+
+-
+• 0ptr check during material overrides.
+
+-
+• Don't enable game engine flowsystem updates when leaving the game / disabling AI/Physics.
+
+-
+• Editor now takes map's game rules into account, like launcher always did.
+
+-
+• Character Editor wrongly saving flags.
+
+-
+• Dedicated Server map chainloading.
+
+-
+• Fixed FP error in stats display.
+
+-
+• A few timing related fixes.
+
+-
+• Third-person camera now casts rays from the goal to current camera position, not the reverse.
+
+-
+• Don't show cursor or handle mouse/key events if hide was requested.
+
+-
+• Fixed Volume Navigation generation for voxel radii less than 1.
+
+-
+• Correct return array in Menus_Dialogs.gfx.
+
+-
+• Removed warning in Static Analyzer.
+
+-
+• Fixed a couple errors recently integrated into particle lighting. Backlighting calculation is again correct; removed spurious view-dependent ambient lighting adjustment. Fixes incorrect shading/fading out on pure emissive particles.
+
+-
+• Fix frozen shader asset.
+
+-
+• Make sure game rules are communicated to clients.
+
+-
+• Allow dead bodies work on characters without lod1 (again).
+
+-
+• If the default physics entity is used to decode network data e.g. default articulated entity it will crash because locally m_nJoints=0 but 1 joint of data will be sent over the network and BeginOptionalGroup() will return true when reading the data.
+
+-
+• Fixed SCA error.
+
+-
+• Removed function static vector (fixes level leak).
+
+-
+• Aliasing fix in CryFixedArray.
+
+-
+• Fix helicopter damage readability.
+
+-
+• More floating decal fixes. Removal of last piece of breakable object now properly detected. More accurate decal/sub-object intersection test.
+
+-
+• Scan for modules on startup to allow UIActions to use Modules (otherwise they get dropped due to missing module nodes).
+
+-
+• AI:AILookAt flownode "duration" not working.
+
+-
+• Don't kill the driver if the vehicle is flipped.
+
+-
+• Remove cgf streaming rate limiting depending on rendermesh pool size because rendermesh pool meaning has changed recently.
+
+-
+• Poolimit disabled for PC.
+
+-
+• CryCG: fix in inlined calls where the l-value of the callexpression is also used as an reference-valued argument to the call.
+
+-
+• Modified naming convention for cubemaps.
+
+-
+• Fixed path generation missing a "\" between filename and foldername.
+
+-
+• Fixes camel-case in environment probe generated cubemaps.
+
+-
+• Root folder unused and seems to cause issues on some xp machines.
+
+-
+• Fixes path in the entity generally clean up the string mess.
+
+-
+• Fixes update onto linked lights due to deferred script parameter being removed from script without code update.
+
+-
+• Fixes drag selection bug.
+
+-
+• Fixes material difference bug.
+
+-
+• Preview doesn't disable when deselecting probe.
+
+-
+• Wrong check for local actor.
+
+-
+• Fixed broken lifetime calculation.
+
+-
+• Don't allow to start remoteconsole server twice; set waitevent to signaled state on creation, otherwise it will deadlock if the server is stopped and was never started.
+
+-
+• Fixed project to all dir flag on lights.
+
+-
+• Fixed particle attachment to parent particle geometry; now initializes mesh properly.
+
+-
+• Incorrect blending of additive particles and fog, due to recent blend mode change. Reverted change; additive particles and now multiplied with alpha in the shader.
+
+-
+• Fixed loadtime flash rendering in release mode on consoles.
+
+-
+• Fixed deallocation crash in LuaCommentParser.
+
+-
+• Vegetation bending and detail bending now fixed. Reverted an incorrect integration, corrected wrongly scaled shader param.
+
+-
+• Fixed VS project for UpdateCryGameScriptsProject.
+
+-
+• MaterialBrowser scan thread was not thread safe (fixes: possible/rare crashes).
+
+-
+• Removing unnecessary redundant check for queue the pathfinding request for the MNM Pathfinder.
+
+-
+• Double registration of game specific flownodes.
+
+-
+• Fixed crash inside C3DEngine::DisplayInfo when using Release build.
+
+-
+• Correct naming for SccProjectTopLevelParentUniqueName.
+
+-
+• Fixed HUD3D correct viewport if lockless rendering API is used.
+
+-
+• Fix (incorrect) SA warning about #defined 0 const used as bit test.
+
+-
+• Don't apply hazard screeneffects in Editor mode.
+
+-
+• Rare issue with multi-part living entities.
+
+-
+• Moved Jobmanager init after pak system to allow using cvars to set the number of worker threads (Required an earlier initialization of the fallback backend).
+
+-
+• Adding a button to enable/disable the debug of the MNM accessibility.
+
+-
+• Freeze Flowgraph Editor View flowgraph when game engine flowsystem updates are enabled.
+
+-
+• Restored breakable glass for meshes.
+
+-
+• (Editor) Console variable "sv_gamerules" now reflects actual game rules.
+
+-
+• Force an unbind from the network when deleting an entity.
+
+-
+• Fixed Flash projection.
+
+-
+• Binoculars are not pickable.
+
+-
+• Fix for Character Editor missing light.
+
+-
+• Custom cubemaps shading consistency fix.
+
+-
+• Make new g-buffer target MSAA friendly / little clean up to sceneDepthSampler usage.
+
+-
+• Revived normals BF encoding.
+
+-
+• Check for gEnv existence on CryAction shutdown. Edge case (when it couldn't initialize the GameStartup interface) would result in a crash.
+
+-
+• Fixed correct symbol resolving on PC.
+
+-
+• STL Assert and Crash when deleting WAIT GoalOp.
+
+-
+• Fix for sliding vehicles in MovementArcade.
+
+-
+• Flowgraph - AI:GroupAlertness - doesn't trigger off.
+
+-
+• Maya: Check to make sure the vertex colours match when merging vertices.
+
+-
+• Maya: Fixed crash with colour checking code if there are no colours.
+
+-
+• Fixed and sped up CParticleEmitter.NeedsNearestCubemapUpdate; check OS_DIFFUSE_CUBEMAP flag, so it works for sub-effects.
+
+-
+• Potential fix indices had no frame creation time.
+
+-
+• Speculative fix to prevent multiple release calls on the same rendermesh.
+
+-
+• Speculative fix for rendermeshes prematurely deleted - prevent renderelements having dangling pointers.
+
+-
+• Deadlock on memory allocation in rendermesh.
+
+-
+• Fix for deadlock (lock ordering of mesh pool contention wrong).
+
+-
+• Missing lock VB.
+
+-
+• Fix for rendermesh vertex data being deleted before the buffer is created.
+
+-
+• Fixed correct Z offset calculation if offset relative to camera.
+
+-
+• Door errors in log.
+
+-
+• Fixed typo in SCAR.xml.
+
+-
+• Flowgraph Module Port Name should not start with a number.
+
+-
+• Animation graph float ranges can change during export.
+
+-
+• Fixed abandoned timer (for vehicles).
+
+-
+• Players can become invisible after dying in vehicles (e.g. HMMWV).
+
+-
+• Fixed frozen view in the scenario Start Editor - Click on Character Editor toolbar - Click on Character Editor - Open a map - Click on a map - Press Ctrl+G.
+
+-
+• EntitySystem settings use EditAndContinue for Debug, consistent with all other projects.
+
+-
+• AreaManager wrong order of calling Leave/EnterArea and settings cached area values.
+
+-
+• Fix to line constraint limits.
+
+-
+• Removing part of the GoalOp Stick that is not necessary with the MNM.
+
+-
+• Avoid preparing the next level load twice.
+
+-
+• Fixes and improves the new SSAO(=5). - Removes some flickering on the flat surfaces when the view changes - SSAO appears even on the first-person weapon when r_ssaoQuality is 3 - Reduces some light bleeding at the contact caused by the blurring - Implements a separable blur filter for optimization - Makes the new one the default SSAO mode - Fixes the issue of going totally black(instead of white) when r_SSAOAmount becomes zero.
+
+-
+• Adds SSAO techniques to run-time flag precache entries in the 'RunTime.ext' properly.
+
+-
+• SSAO flickering fix.
+
+-
+• Fixed "Player %s does not have physics!" on MP player disconnection.
+
+-
+• HMMWV slip sound is not always played.
+
+-
+• Flowgraph - AI:GroupAlertness - doesn't trigger off.
+
+-
+• Stripped and compressed SELF files now have a valid verification.
+
+-
+• Correctly rename the MNM menu item for the full regeneration to "Request a full MNM rebuild".
+
+-
+• Fixed missing call to LockForThreadAccess in StatObj::UpdateVertices.
+
+-
+• Time of Day always loops in-game now.
+
+-
+• Fix for the heap corruption reported in.
+
+-
+• Solve CryTifPlugin warning MSB8004: Output Directory does not end with a trailing slash.
+
+-
+• Corrected smart_ptr usage in CEffectAttachment.
+
+-
+• Only render flash dyn lazy if advance was called.
+
+-
+• Fixed viewport issues with PostProcessHud3D.
+
+-
+• Mesh surface normals now correctly computed.
+
+-
+• Correct animation pose used.
+
+-
+• Fixed evil bug in SUIArguments.
+
+-
+• Fixed empty last arg was not parsed correctly in SUIArguments.
+
+-
+• Fixed incorrect particle tangents and bump-mapping directions.
+
+-
+• Moved all frozen textures from Default to EngineAssets where they belong. Needed by the frozen layer shader.
+
+-
+• "Start Flow Graph Update" didn't work.
+
+-
+• Screenshot doesn't work in 32-bit Editor (DX9).
+
+-
+• Film tone mapping was not really enabled on consoles / remove deadcode.
+
+-
+• FREEZE: Game might freeze during alien weapon pick up. JobManager / COverlapChecker" - The last fix forget to reset the SPU local lock structure, this is now fixed.
+
+-
+• "Game might freeze shortly after save/load in FMOD::File::checkBufferedStatus" - wrong state in a fallback condition with waiting for condition variables.
+
+-
+• Moving water volumes don't render fog correctly when looking into the volume.
+
+-
+• Speculative fix to crash during shadow clearing.
+
+-
+• Fixing volumetric fog shadows for DX9.
+
+-
+• Converted union assignment back to memcpy, fixing GC compiler warning.
+
+-
+• Invalid default value vor Vec3 port in UI:MovieClip:PosRotScale node.
+
+-
+• Wrong flags passed to PWI.
+
+-
+• Removed incorrect sphere containment test for phys areas. Caused Gravity Spheres to take effect everywhere in level.
+
+-
+• Fixed helicopter strafing (roll).
+
+-
+• Fix to position lag on just-emitted particles, especially MoveRelEmitter muzzle flashes.
+
+-
+• Clears up cvars related to anisotropic filtering. - Makes the texture filtering option in Material Editor work by default - One can still force-apply a specific anisotropic level by setting 'r_TexMinAnistropy' bigger than 1.
+
+-
+• CBuffer merge crash fix.
+
+-
+• Fix threading issue on string by forcing a copy.
+
+-
+• Cleaning up parser assertions.
+
+-
+• Fix shader compile errors by dropping const instancing support on PC.
+
+-
+• Preprocessor fixes to better support #defines within shaders (e.g. feature defines).
+
+-
+• Shader cache not correctly generating all runtime combinations in some rare cases.
+
+-
+• Fix one case where bad files in user/shaders/ can crash the game.
+
+-
+• Make shader cache gen deterministic given same shader list.
+
+-
+• Fix mask being 32 instead of 64 bits.
+
+-
+• Ropes lose attachment on hiding/unhiding.
+
+-
+• Skip list built by CSingle::GetSkipEntities() is incomplete.
+
+-
+• Fix for handling nearest objects in PC CBuffer.
+
+-
+• Savegames didn't work in Launcher.
+
+-
+• Avoid OnSystemStated event in Sandbox.
+
+-
+• MaxCryExport: Fixed crash during export of Morph targets on MAX2012. Disabling Morphs for previous versions of MAX.
+
+-
+• Debugging AIActions with the Flowgraph Debugger.
+
+-
+• Fixed incorrect computation of FOV for particle view culling, which also could generate FPE.
+
+-
+• Prevent client vehicle driver seat from having m_transitionType == eVT_Entering forever, which prevents switching to a vehicle view.
+
+-
+• Re-merged staged depth downscale for D3D10 coveragebuffer.
+
+-
+• Fixed assert in Renderer during EF_Init.
+
+-
+• Guard against null device texture in CBuffer readback.
+
+-
+• Fixed memory leak in CFlashUIElement.
+
+-
+• JobManager: Fixed potential race conditon with functon static variable -> now using a plain global, which could be written by multiple thread (safe since all write the same value).
+
+-
+• "CRASH: Game crashed once after level load; Cry3DEngine.dll!CThreadSafeRendererContainer<...>::push_back_impl(...) ".
+
+-
+• Added support for fallback in jobsystem in case the jobqueue is full, and the worker threads want to submit jobs (would deadlock if all worker are doing this) - Now If a worker would wait, we allocate a temp info block.
+
+-
+• Fixed deadlock with WaterSim on PC.
+
+-
+• Crycg: fix for domain variant not being imported correctly during job creation.
+
+-
+• Crycg: fix for spurious semicolon+\n in generated code.
+
+-
+• Crycg: fix for anonymous compounds having their local indices not being unique over multiple host-compiler invocations.
+
+-
+• Entity:Tagpoint flownode entry in the flowgraph editor.
+
+-
+• Fixed boost for HMMWVs.
+
+-
+• All of the Entity:Doors - Doesn't work - many of the options are broken or do the wrong thing.
+
+-
+• Don't link dependencies in launcher release project (we use link reference dependencies).
+
+-
+• Define CRYSOUNDSYSTEM_FMOD_RELEASE in CrySoundSystem x64 release config.
+
+-
+• Clearing character manager resources twice during level unload.
+
+-
+• Fixed some multi-thread access bugs and restored validation checks in HeapAllocator and PoolAllocator.
+
+-
+• Make sure DestroyableLight has network scheduling parameters.
+
+-
+• Rocketlauncher is dropped after load.
+
+-
+• Further tangent fixes to particle shader.
+
+-
+• Fixed all-or-nothing lift and descend pedal actions for helicopter.
+
+-
+• Let HitDeathReactions handle death ragdolls.
+
+-
+• HMMWV rearlight (driving lights) not working.
+
+-
+• Fixed movement and movement damping and for helicopter.
+
+-
+• Fixed Door.lua.
+
+-
+• Decals no longer appear on missing pieces of broken objects.
+
+-
+• Missing rendermesh lockguard.
+
+-
+• Maya: Make the validate only check the nodes that will be exported when using the export selection option. Also fixed a problem with Show In Explorer.
+
+-
+• Fixed crash in CHyperGraphsTreeCtrl::Reload.
+
+-
+• Reverted new tail behavior, that preserved tail segments' size and color based on age. All segments again evolve contemporally.
+
+-
+• Volume Navigation Modifier, when displayed filled, hides AI Points that are inside.
+
+-
+• Fixed crash from un-inited struct in EmitParticles.
+
+-
+• Rare raytracing issue with scaled meshes.
+
+-
+• Changed CryFont base address to give CryScaleform more space to fit debug build.
+
+-
+• Fix in constant binding (shadow range & darkening).
+
+-
+• Non-looping animated textures no longer wrap incorrectly to first frame.
+
+-
+• Fixed unwanted view-pos-dependent sprite rotation.
+
+-
+• AreaManager fails to fire LeaveArea for last player leaving an area.
+
+-
+• Vehicle: Lights need ViewDistRatio option.
+
+-
+• Fix for deferred shadow casting lights.
+
+-
+• Shadow caching fix and cleanup.
+
+-
+• Only assert unload bootstrapper in non-Sandbox mode.
+
+-
+• Fix lighting when sun doesn’t exist.
+
+-
+• Small fix for attached soft bodies.
+
+-
+• Reversed particle Y axis reversed to match texture orientation, fixes flipped particles.
+
+-
+• Clone Flowgraph type too.
+
+-
+• Unable to choose action in FeatureTest:SimulateInput flownode. Missing input_actions global enum.
+
+-
+• Fixed tex coords on .obj mesh export. Apply color balance after saturation, hdr flares officially deprecated (superseded by new flare system).
+
+-
+• Artist controls for shadow pool caching.
+
+-
+• Fix for Editor start crash when 'Terrain Editor' window is opened.

@@ -1,0 +1,1611 @@
+# Response Tree Features
+
+- Source: https://www.cryengine.com/docs/static/engines/cryengine-5/categories/23756816/pages/38928391
+- Page ID: 38928391
+- Breadcrumb: Editor Tools > Dynamic Response System > Response Tree Features
+- Parent: Dynamic Response System
+
+## Content
+
+##
+Overview
+
+Dynamic Response System (DRS) includes many features that can be used to ensure that a unique response is made available for a signal. In order to efficiently use the DRS,
+**
+Conditions
+**
+and
+**
+Actions
+**
+should be set up according to the expected outcome.
+
+Each of these features has a unique effect and they can be combined to achieve any kind of response that has been envisioned for a signal.
+
+The features that can be found on the Response Tree are as follows:
+
+##
+Conditions
+
+The conditions refer to a specific value or function that is required to be checked before an action can be executed. They play the role between a signal and an action and define whether the action is executed, repeated or stopped etc.
+
+Setting the
+**
+Negated as whole
+**
+  option to
+**
+true
+**
+ negates the logic of each condition that has been assigned to the respective Conditions list.
+Users can assign the following conditions to a Response:
+
+[Image: /docs/static/attachments/44108002]
+
+*
+Conditions
+*
+
+Option
+ |
+Description
+ |
+
+**
+Execution Limit
+**
+
+ |
+Whenever a response is executed, its internal
+**
+ExecutionCounter
+**
+ is incremented. With this condition you can check this ExecutionCounter
+
+-
+**
+MinExecutions -
+**
+Minimum number of times that the response has to be executed.
+
+-
+**
+MaxExecutions -
+**
+Maximum number of times that the response has to be executed. Set this value to
+**
+-1
+**
+ if you don’t want an upper limit.
+
+-
+**
+Response -
+**
+The name of the response from which the ExecutionCount will be tested. Leave this box empty to use the current response.
+
+-
+**
+Negated -
+**
+Negates the logic of the variable.
+The test is carried out as:
+
+ExecutionCounter
+*
+>=
+*
+MinExecutions AND ((ExecutionCounter<=MaxExecutions) OR MaxExecutions< 0
+*
+)
+*
+
+Examples
+For an easy and only once condition, set
+**
+MinExecutions
+**
+ to
+**
+0
+**
+ and
+**
+MaxExecutions
+**
+ to
+**
+1
+**
+.
+
+For an after the third time condition, set
+**
+MinExecutions
+**
+ to
+**
+3
+**
+ and
+**
+MaxExecutions
+**
+ to
+**
+-1
+**
+.
+
+For a when executed for the fifth time condition, set
+**
+MinExecutions
+**
+ and
+**
+MaxExecutions
+**
+ to
+**
+5
+**
+.
+
+The execution counter will not be incremented if the conditions in the base were not matched. In this case, the response is treated as not started at all.
+
+ |
+
+**
+Game Token
+**
+
+ |
+Similar to Variable in range. However, this condition does not test a DRS variable; it tests a game token instead.
+
+-
+**
+Token -
+**
+The full name of the game token to check. Defined as
+*
+Library.Group.VariableName
+*
+, for example:
+*
+Level.generator.explode
+*
+.
+
+-
+**
+GREATER than or equal to -
+**
+Defines the value that has to be
+**
+lower than
+**
+ or
+**
+equal to
+**
+ the current value of the specified game token in order for this condition to be
+**
+true
+**
+.
+
+-
+**
+LESS than or equal to -
+**
+Defines the value that
+ has to be
+**
+larger than
+**
+ or
+**
+equal to
+**
+ the current value of the specified game token in order for this condition to be
+**
+true
+**
+.
+
+-
+**
+Negated -
+**
+Negates the logic of the variable.
+In general, the DRS variables are faster to use in conditions so you should prefer using them if possible. Only use game token-checks if the data is shared with other systems such as the Flow Graph.
+
+If a game token is of type
+**
+bool
+**
+ then the condition changes to an equal-test, instead of a range-check.
+
+ |
+
+**
+Inherit Conditions
+**
+
+ |
+This condition allows you to re-use conditions. Meaning that you can have a Response-Base-Template, which checks basic things like
+**
+PlayerIsAlive
+**
+,
+**
+DoesHaveAGun
+**
+,
+**
+IsNotCoughing
+**
+ and then re-use the conditions of this response in various other responses. This makes editing easier, since you have the basic conditions in one central place.
+
+-
+**
+Response to inherit from -
+**
+ The name of response from which you want to re-use the conditions in the base.
+
+-
+**
+Negated -
+**
+Negates the logic of the variable.
+ |
+
+**
+Placeholder
+**
+
+ |
+
+-
+**
+Text -
+**
+Any text that you want to link with this response. Not used internally.
+
+-
+**
+Negated -
+**
+Negates the logic of the variable.
+This very basic condition is always true (unless negated) and
+ it and it can be useful in a few ways:
+
+-
+You can add it to a response in order to boost priority, since it will still be counted for the number of conditions. Remember that always the follow-up response with the most matched conditions will be executed.
+
+-
+You can leave yourself notes about TODOs. Use the tree view filter functionality to easily find your TODO hints later on.
+
+-
+You can use this condition to put some comments to your responses. But keep in mind that the number of conditions will influence the execution order.
+
+-
+You can temporarily deactivate a response by having a negated PlaceHolder condition,
+ |
+
+**
+Random
+**
+
+ |
+A random number is generated and checked against the specified value. Allows you to add an element of randomization to your responses.
+
+-
+**
+Probability -
+**
+A value between 0-100, which specifies the percentage which defines the probability of the condition being
+**
+true
+**
+.
+
+-
+**
+Negated -
+**
+Negates the logic of the variable.
+ |
+
+**
+Time Since
+**
+
+ |
+Checks how much time has passed since the time stamp stored in the specified variable (via a ‘ResetTimer’ action).
+
+-
+**
+Collection
+**
++
+**
+ TimerVariable -
+**
+Name of a variable and a corresponding Collection which holds the TimeValue you want to test.
+
+-
+**
+MinElapsedTime -
+**
+Min amount of passed time (in seconds) since the time stored in the variable.
+
+-
+**
+MaxElapsedTime -
+**
+Max amount of passed time (in seconds) since the time stored in the variable or
+**
+-1
+**
+ if you don’t want to specify an upper limit.
+**
+
+**
+
+-
+**
+Negated -
+**
+Negates the logic of the variable.
+The test is implemented as:
+
+TimerVariable
+*
+ >=
+*
+MinElapsedTime
+**
+and
+**
+((TimerVariable <= MaxElapsedTime) OR MaxElapsedTime < 0.0f)
+
+ |
+
+**
+Time Since Response
+**
+
+ |
+This option is almost the same as the Time Since condition, but instead of checking a time stamp stored in a variable, it checks the system-internal time stamp on each response that gets set every time a response is executed.
+
+-
+**
+Response -
+**
+Name of a response from which you want to check the last execution time or leave empty to use the current response.
+
+-
+**
+MinElpasedTime -
+**
+Min amount of passed time in seconds since the time of the last execution of the specified Response.
+
+-
+**
+MaxElpasedTime -
+**
+Max amount of passed time in seconds since the time of the last execution of the specified Response. Set this value to
+**
+-1
+**
+ if you don’t want to specify an upper limit.
+
+-
+**
+Negated -
+**
+Negates the logic of the variable.
+ |
+
+**
+Variable Basic Checks (Less than, Greater than, Equal to)
+**
+
+ |
+These three conditions check the value of the variable against the specified value.
+
+-
+**
+Collection
+**
+ +
+**
+ Variable -
+**
+Name of a variable and corresponding Collection which holds the variable you want to test.
+
+-
+**
+CompareValue -
+**
+The value you want to test against, which needs to be of the same type as the variable such as
+**
+Less than
+**
+,
+**
+Greater than
+**
+ or
+**
+Equal to
+**
+.
+
+-
+**
+Negated -
+**
+Negates the logic of the variable.
+If the variable does not exist, it will be threaded as
+**
+0
+**
+. Comparing DRS variables is much faster than checking for example game tokens because they are written in a less generic way. If you compare a variable with a value of a different type such as a float variable with an integer value, the result will be totally undefined and it will probably not work the way you intended it to.
+
+ |
+
+**
+Variable in range
+**
+
+ |
+Checks if the specified variable is between
+**
+GreaterThanValue
+**
+ (included) and
+**
+LessThanValue
+**
+.
+
+-
+**
+**
+Collection
+**
+ +Variable -
+**
+Name of a variable and the corresponding Collection which holds the variable you want to test.
+
+-
+**
+Greater than or equal to -
+**
+Defines the value that has to be
+**
+lower than
+**
+ or
+**
+equal to
+**
+ the current value of the specified variable in order to let this condition be
+**
+true
+**
+.
+
+-
+**
+Less than or equal to -
+**
+Defines the value that has to be
+**
+higher than
+**
+ or
+**
+equal to
+**
+ the current value of the specified variable in order to let this condition be
+**
+true
+**
+.
+
+-
+**
+Negated -
+**
+Negates the logic of the variable.
+The check is implemented as:
+
+VariableValue >= GreaterThanValue
+**
+and
+**
+VariableValue <= LessThanValue
+
+ |
+
+**
+VariableToVariable
+**
+
+ |
+**
+[Image: /docs/static/attachments/44970822]
+
+**
+*
+VariableToVariable Conditions
+*
+
+Similar to the
+**
+Variable in range
+**
+**
+
+**
+condition, but instead of comparing the value of the variable to specified values from the conditions, the values are fetched from other DRS variables. T
+his Condition checks if the value of
+**
+ToTestVariable
+**
+ is larger than or equal to the value of
+**
+LessOrEqualVariable
+**
+ and smaller than or equal to the value of
+**
+GreaterOrEqualVariable
+**
+.
+
+-
+**
+Negated -
+**
+Negates the logic of the variable.
+
+-
+**
+LessOrEqualCollection
+**
++
+**
+ LessOrEqualVariable -
+**
+The Variable, and the corresponding Collection, that needs to be smaller than or equal to the tested variable. Can be left empty if you don’t need a lower limit.
+
+-
+**
+ToTestCollection
+**
++
+**
+ ToTestVariable -
+**
+The Variable, and the corresponding Collection, that is tested against the other two variables.
+
+-
+**
+GreaterOrEqualCollection +
+**
+GreaterOrEqual
+**
+Variable -
+**
+The Variable, and corresponding Collection, that needs to be greater than or equal to the tested Variable. Can be left empty, if you don’t need an upper limit.
+So if you want to do an equal test, you have to specify the same variable for
+**
+LessOrEqualVariable
+**
+ and
+**
+GreaterOrEqualVariable
+**
+.
+
+-
+If
+**
+ToTestVariable
+**
+ does not exist, the condition will be
+**
+false
+**
+.
+
+-
+If
+**
+LessOrEqualVariable
+**
+ does not exist, or was not specified, the condition checks only if
+**
+ToTestVariable
+**
+ is Smaller or Equal to
+**
+GreaterOrEqualVariable
+**
+.
+
+-
+If
+**
+GreaterOrEqualVariable
+**
+ does not exist (or was not specified), the condition checks only if
+**
+ToTestVariable
+**
+ is Larger or Equal to
+**
+LessOrEqualVariable
+**
+.
+
+-
+If both do not exist, it`s just a very expensive do-nothing condition that will always be
+**
+true
+**
+.
+ |
+
+**
+Distance to Entity
+**
+ |
+Determines the distance (in meters) between the actor and an entity and compares it with the value that has been assigned to
+**
+Distance
+**
+. It is especially useful when deciding the volume of a dialogue based on distance; i.e. whether it needs to sound stronger or weaker.
+
+-
+**
+Distance -
+**
+ When the distance between the actor and the entity is
+**
+equal to
+**
+ or
+**
+less
+**
+ than this value, the action(s) and/or the
+[/docs/static/engines/cryengine-5/categories/23756816/pages/38928391#ResponseTreeFeatures-followup](
+Follow up Responses
+)
+ are triggered.
+
+-
+**
+EntityName -
+**
+The name of the entity whose current distance relative to the actor will be compared with the
+**
+Distance
+**
+ value.
+
+-
+**
+Negated -
+**
+Negates the logic of this condition. When set to true, the condition checks if the current distance between the actor and the entity is
+**
+not less
+**
+ than the value that has been assigned to
+**
+Distance
+**
+.
+ |
+
+##
+Actions
+
+The following is a list of all available default actions that can be added to a response.
+
+*
+[Image: /docs/static/attachments/44108003]
+
+Actions
+*
+
+Option
+ |
+Description
+ |
+
+**
+CancelSignal
+**
+
+ |
+This action cancels an already running response.
+
+-
+**
+Signal -
+**
+The name of the signal that has started the response that you want to stop.
+
+-
+**
+OnAllActors -
+**
+Boolean that indicates if the specified signal should only be canceled on the currently active actor or on any actor.
+
+-
+**
+Delay -
+**
+The delay before the signal is cancelled.
+If
+**
+Signal
+**
+ is left empty, the name of the current response is used, so the currently executed response is canceled.
+
+You can use the special keyword
+**
+All
+**
+ in here to cancel any currently running response. In combination with
+**
+OnAllActors
+**
+ this can be used to cancel all running response on all actors.
+
+ |
+
+**
+CancelSpeaking
+**
+
+ |
+This action will make the specified actor(s) stop speaking immediately. The lines won’t count as finished, therefore play-only-once lines can be played again at some later point. Queued lines are also canceled.
+
+-
+**
+SpeakerOverride -
+**
+The name of the actor that should stop talking. This can also be left empty to use the current actor. Or you can specify choose All to cancel on all actors.
+
+-
+**
+MaxPrioToCancel -
+**
+The maximum priority of lines allowed to be canceled by this action. So playing lines that have a higher priority than this will not be stopped.
+
+-
+**
+LineToCancel -
+**
+If you only want to make sure that a specific line is not playing anymore, than you can specify that line here.
+
+-
+**
+Delay -
+**
+The delay before the actor stops talking.
+The response that started the canceled line will not be canceled by this unless the initial
+**
+SpeakLine
+**
+ action is configured in a way that it should end the response when canceled. Therefore if there are follow-up responses , the actor might directly start its next line. Use the
+**
+Cancel Response
+**
+ option if you want to cancel the response instead.
+
+ |
+
+**
+Change Variable
+**
+
+ |
+This action is used to change the value of DRS variable. You can directly set a new value or change the current value by adding to/subtracting from it by using different values for
+**
+Operation
+**
+.
+
+-
+**
+Delay -
+**
+The delay before the variable is changed.
+
+-
+**
+Collection
+**
++
+**
+ Variable -
+**
+The name of the variable and the name of the owning
+**
+VariableCollection
+**
+ define the variable you want to change.
+
+Type
+**
+Local
+**
+ for the
+**
+VariableCollection
+**
+ if you want to use the local VariableCollection of the current actor, or type
+**
+Context
+**
+ to use the context VariableCollection of the current signal.
+
+-
+**
+Operation -
+**
+You can select between
+**
+Increment
+**
+/
+**
+Decrement
+**
+/
+**
+Set
+**
+. Depending on this option, the
+**
+Value
+**
+property will be used differently.
+
+-
+**
+Value -
+**
+ Depending on the
+**
+Operation
+**
+ choice, the Value option is used differently.
+
+Option
+ |
+Description
+ |
+
+**
+Set
+**
+ |
+Replaces the value of the Variable with the value that has been assigned to this option.
+ |
+
+**
+Increment
+**
+ |
+Adds the assigned value to the current value of the Variable.
+ |
+
+**
+Decrement
+**
+ |
+Subtracts the assigned value from the current value of the Variable.
+ |
+
+-
+**
+Cooldown -
+**
+Time in seconds after which the previous value of the variable should be restored.
+
+-
+The type of a variable shouldn't be changed. For example, a
+**
+float
+**
+ value like 2.4 shouldn't be assigned to a variable of type
+**
+int
+**
+. For
+**
+Set
+**
+ operation, this might work, but for increment/decrement, the behavior is undefined.
+
+-
+You can increment/decrement variables that did not exist before; in this case, the variable will be treated as if it had 0 as a value.
+
+-
+If you set the value of a variable with a cooldown value
+**
+ higher than 0
+**
+, the previous value will be reset after the specified time. If you change the variable during the cooldown time again with a cooldown-set, it will reset the previously started cooldown-set and replace it with the new value + cooldown-time. If you do a non-cooldown-set while a cooldown-set is in progress, the cooldown-set will be reset first.
+Running cooldowns are reset on save/load, so you should not use them for longer durations. For these scenarios, please use the
+**
+ResetTimer
+**
+ action.
+
+ |
+
+**
+Copy Variable
+**
+ |
+Copies certain variables that are stored in collections within the DRS.
+
+-
+**
+Delay -
+**
+ The delay before the variable is copied.
+
+-
+**
+SourceCollection + SourceVariable -
+**
+
+The name of the variable and the name of the owning
+**
+VariableCollection
+**
+ define the variable that is to be copied
+.
+
+-
+**
+TargetCollection + TargetVariable -
+**
+
+The name of the variable and the name of the owning
+**
+VariableCollection
+**
+ define where the previously copied variable is supposed to be applied to
+.
+
+-
+**
+Operation -
+**
+You can choose between
+**
+Set
+**
+,
+**
+Increment
+**
+,
+**
+Decrement
+**
+ and
+**
+ Swap.
+**
+ Depending on the chosen option, the copied variable will be used differently.
+
+Option
+ |
+Description
+ |
+
+**
+Set
+**
+ |
+Replaces the TargetVariable with the the SourceVariable.
+ |
+
+**
+Increment
+**
+ |
+Adds the SourceVariable to the TargetVariable.
+ |
+
+**
+Decrement
+**
+ |
+Subtracts the SourceVariable from the TargetVariable.
+ |
+
+**
+Swap
+**
+ |
+Swaps the places of the TargetVariable and the SourceVariable.
+ |
+
+ |
+
+**
+ExecuteResponse
+**
+
+ |
+This action executes another response and waits for it to finish. If you don’t need to wait, check the
+**
+SendSignal
+**
+ action instead.
+
+-
+**
+Response -
+**
+The response to be executed.
+
+-
+**
+Delay -
+**
+The delay before the response is executed.
+This can be very useful to re-use re-occurring sequences of actions by creating responses that are just used as containers, holding these action-sequences and are not meant to be executed directly.
+
+ |
+
+**
+ResetTimerVariable
+**
+
+ |
+This action saves the current time into a variable. The stored time can then be used in combination with the
+**
+TimeSince
+**
+condition.
+
+The time is stored as a float value just like the global variable
+**
+CurrentTime
+**
+.
+
+-
+**
+Collection
+**
++
+**
+ TimerVariable -
+**
+Specify the name of a Variable and its corresponding Collection that will be used to hold the current time.
+
+-
+**
+Delay -
+**
+The delay before the TimerVariable is reset.
+ |
+
+**
+SendSignal
+**
+
+ |
+This action simply sends a new signal. This is an easy way to start another response. If you want to wait for the other response to finish, you should use Execute Response instead.
+
+-
+**
+Signal -
+**
+The name of the signal to send.
+
+-
+**
+Copy Context Variable -
+**
+Boolean value to indicate if the context variables of the signals should be sent with the new signal as well.
+
+-
+**
+Delay -
+**
+The delay before the signal is sent.
+ |
+
+**
+SetActor
+**
+
+ |
+This action sets the currently active actor for the current response. What this means is that any further actions, such as
+**
+SpeakLine
+**
+ actions, Set (local) variable and Send Signal, will be executed on this actor. The name of the actor is the name of the entity.
+
+-
+**
+Actor Name -
+**
+The name of the signal to send.
+
+-
+**
+Delay -
+**
+The delay before the signal is sent.
+This action is really important if you want an actor to react to another actor receiving a signal. For example, a setting as follows can be used:
+
+Response for "WasShot": SpeakLine “Ouch”, SetActor “Ally”, SpeakLine “Watch out”.
+
+Some actions might have an override depending on which actor is used. For example, in the
+**
+SpeakLine
+**
+ action you can specify an
+**
+Override actor
+**
+ that is used instead of the current actor.
+
+ |
+
+**
+SetActorFromVariable
+**
+
+ |
+Same as
+**
+SetActor
+**
+ but instead of directly specifying the name of the actor to set, you specify a variable that holds the name of an actor. It allows you, for example, to pass the name of the nearest ally along with a signal and use that data in another response to set the actor that is supposed to do something.
+
+-
+**
+Collection
+**
++
+**
+**
+ VariableWhichHoldsActorName -
+**
+**
+The name of the variable and the corresponding collection specifying the (string) variable which holds the name of the actor to set.
+
+-
+**
+Delay -
+**
+The delay before the actor is set.
+**
+Example:
+**
+
+Signal: “WasShot” send to the player with ContextVariable “Attacker = enemy1”.
+
+A response starts with these actions:
+
+SpeakLine “Ouch”,
+
+SetActorFromVariable “Context::Attacker”,
+
+SpeakLine “That will teach you!”  <-- will be spoken by "enemy1"
+
+ |
+
+**
+SetGameToken
+**
+
+ |
+This action will set the game token to the specified value. In general, it's faster to use DRS variables to store data. However, it should be used only if you want to communicate with other systems like Flow Graph.
+
+-
+**
+TokenName -
+**
+The full name of the game token to modify defined as
+*
+Library.Group.VariableName
+*
+, such as
+*
+Level.generator.explode
+*
+.
+
+-
+**
+Create if not existing -
+**
+Creates the game token if it doesn't exist in the database.
+
+-
+**
+Delay -
+**
+The delay before the game token is set.
+
+-
+**
+TypeToSet -
+**
+The list of the value types that can be set to the respective game token.
+
+-
+**
+Value -
+**
+The value that you want to set the game token to.
+ |
+
+**
+SpeakLine
+**
+
+ |
+Requests the current actor, or the
+**
+SpeakerOverride
+**
+ if one is provided, to speak the specified line.
+
+-
+**
+Line -
+**
+ The ID of the line to speak. This ID has to exist in the dialog line database.
+
+-
+**
+SpeakerOverride -
+**
+Empty by default. This property is a shortcut for letting another actor speak a dialog line, without having to set him as the active actor via a
+**
+SetActor
+**
+action.
+
+-
+**
+Delay -
+**
+The delay before the line is supposed to be spoken.
+
+-
+**
+Line Flags -
+**
+Some flags that define how to execute the action. You can choose to let the action send signals for specific events, or to cancel the whole response if the line was notStarted/canceled.
+There are three possible outcomes of this request:
+
+-
+The actors starts speaking the line.
+
+Outcome 3 will happen only if the actor is currently speaking a more important line and the line is configured so that it can be queued (the line in the dialog-line-database is setup to have a MaxQueueDuration of <= 0).
+
+-
+The actor cannot speak the line (line will be skipped).
+
+Outcome 2
+**
+
+**
+might happen if the actor is not existing or busy speaking a more important line, while the new line is not allowed to be queued (the line in the dialog-line-database is setup to have a MaxQueueDuration of <= 0).
+
+-
+The actor is currently busy with another line, therefore the line is queued for some time before evaluated again.
+
+Outcome 3 will eventually end up in outcome 1 or outcome 2. It will fail if the actor is still busy after the
+**
+MaxQueueDuration
+**
+ is reached and will succeed if the actor finished talking in the given time AND no other queued line has a higher priority or was started earlier. If it is the case, it will wait for the other queued line to be spoken before evaluating again.
+If you click on the dropdown menu to the right of
+**
+Line Flags
+**
+, you can choose several Line Flags:
+
+*
+[Image: /docs/static/attachments/44108006]
+*
+
+These Line Flags can be used to let the action fire new signals at specific events such as line started, line canceled, line skipped. This allows the actor to react with another response when a line was for example skipped.
+
+The signals are named
+**
+LineCanceled
+**
+,
+**
+LineSkipped
+**
+,
+**
+LineStarted
+**
+ and
+**
+LineFinished
+**
+. Each one has a context variable called
+**
+Line
+**
+.
+
+If you select the flag
+**
+SendSignalOnStart
+**
+ it will send a signal called
+**
+LineStarted
+**
+ with a context variable called
+**
+Line
+**
+.
+
+If you select the flag
+**
+SendSignalOnCancel
+**
+ it will send a signal called
+**
+LineCanceled
+**
+ with a context variable called
+**
+Line
+**
+.
+
+Etc.
+
+-
+The Line Flags can also be used to cancel the whole response when not successful.
+**
+CancelResponseOnCanceled
+**
+ will cancel the whole response if the line was started first but then canceled by something, for example by a more important line, a system-reset or a
+**
+CancelSpeaking
+**
+ action.
+
+-
+**
+CancelResponseOnSkip
+**
+ will cancel the whole response if the line was not started. For example if a more important line was already playing (and did not finish in the MaxQueueDuration timeframe.
+These flags are useful if the SpeakLine action is part of an ongoing dialog. Normally in those cases, you want to stop the dialog if one of the speaker did not manage to say his line, without the cancel-flags set, the next speaker will just continue with his lines.
+
+-
+**
+ReEvaluteConditionsAfterQueue
+**
+ specifies that the conditions of the current response will be re-evaluated when a line is started after it was queued for a while, to make sure, that the conditions are still fulfilled when the line is finally being started.
+ |
+
+**
+Wait
+**
+
+ |
+This action does nothing for the specified time and you can use it for some basic timing adjustments. Since the response won't continue executing until all actions in the current segment are done, this will delay the start of any further actions
+
+-
+**
+Min Time (in seconds) -
+**
+The minimum time in seconds defining how long the actions should wait before they run.
+
+-
+**
+Max Time (in seconds) -
+**
+The maximum time in seconds defining how long the actions should wait before they run.
+
+-
+**
+Delay -
+**
+The delay before the waiting process starts.
+ |
+
+**
+Execute Audio Trigger
+**
+ |
+Defines the
+**
+Audio Trigger
+**
+ that is to be executed in the Response.
+
+For more information about
+**
+Audio
+**
+
+**
+Triggers
+**
+, please refer to the
+[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
+Audio Controls Editor
+)
+ page.
+
+-
+**
+TriggerName -
+**
+The name of the
+**
+Audio
+**
+
+**
+Trigger
+**
+. The Audio Triggers have to be defined in the Audio Controls Editor before they can be used in the DRS.
+
+-
+**
+WaitForTriggerToFinish -
+**
+ When set to
+**
+true
+**
+, the DRS waits for the
+**
+Audio Trigger
+**
+ to finish before executing another response that is defined on the Follow up Responses list. Otherwise triggers might overlap.
+
+-
+**
+Delay -
+**
+ The delay before the selected Audio Trigger is executed.
+ |
+
+**
+Set Audio Switch
+**
+ |
+Defines which
+**
+Switch
+**
+ and
+**
+Switch State
+**
+will be used in the Response. It is especially useful when different vocalization types need to be played based on a certain condition; e.g. whisper, speak, shout etc.
+
+For more information about
+**
+Switches
+**
+and
+**
+Switch States
+**
+, please refer to the
+[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
+Audio Controls Editor
+)
+ page
+
+-
+**
+Switch -
+**
+The name of the Switch to be used in the Response.
+
+-
+**
+SwitchState -
+**
+ The name of the Switch State to be used in the Response.
+
+-
+**
+Delay -
+**
+T
+he delay before the selected Switch and Switch State is executed
+.
+ |
+
+**
+Set Audio Parameter
+**
+ |
+Defines which
+**
+Parameter
+**
+ will be used and potentially modified within the Response. This option can be useful when driving an audio implementation setup that is using a Parameter, and to change its sound by altering the playing sound in a Middleware.
+
+For more information about
+**
+Parameters
+**
+, please refer to the
+[/docs/static/engines/cryengine-5/categories/23756816/pages/51347481](
+Audio Controls Editor
+)
+ page.
+
+-
+**
+AudioParameter -
+**
+ The name of the
+**
+Parameter
+**
+ that will be executed in the Response.
+
+-
+**
+Value -
+**
+Changes the value of the selected
+**
+Parameter
+**
+ to this value.
+
+-
+**
+Delay -
+**
+ The delay before the selected Parameter is activated.
+ |
+
+##
+Follow Up Responses
+
+Users can specify multiple Follow up responses for any given signal which will execute after the base response has been successfully executed.
+
+The DRS always executes the Follow up response with the most conditions that have been met. When more than one Follow up response is available with the same number of conditions, the DRS picks a response randomly.
+
+[#conditions](
+Conditions
+)
+[#actions](
+Actions
+)
+[#follow-up-responses](
+Follow Up Responses
+)
