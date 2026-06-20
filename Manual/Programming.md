@@ -7,6 +7,7 @@
 - [Schematyc Guide](Programming/Schematyc%20Guide.md)
 - [Lua Scripting](Programming/Lua%20Scripting.md)
 - [Examples](Programming/Examples.md)
+- [GameSDK Showcase Examples](Programming/GameSDK%20Showcase%20Examples.md)
 - [Plugin Update Loop](Programming/Plugin%20Update%20Loop.md)
 - [Troubleshooting](Programming/Troubleshooting.md)
 
@@ -42,9 +43,14 @@ Read the articles in order for a structured on-ramp:
 5. **[Examples](Programming/Examples.md)** — Five worked examples from minimal
    to complete: a minimal plugin, a hello-world component, a property-exposing
    rotator, a full player component, and a physics bullet.
-6. **[Plugin Update Loop](Programming/Plugin%20Update%20Loop.md)** — Per-frame
+6. **[GameSDK Showcase Examples](Programming/GameSDK%20Showcase%20Examples.md)**
+   — Real-world C++ patterns from the GameSDK sample: Boids flocking AI,
+   deflector shield physics, moving platform manager, custom Flow Graph node,
+   and global framework listener. Shows how Crytek engineers structure
+   non-trivial gameplay code.
+7. **[Plugin Update Loop](Programming/Plugin%20Update%20Loop.md)** — Per-frame
    plugin-level logic and querying other plugins.
-7. **[Troubleshooting](Programming/Troubleshooting.md)** — The "my component
+8. **[Troubleshooting](Programming/Troubleshooting.md)** — The "my component
    isn't showing up" checklist and common pitfalls.
 
 Related chapters that go deeper into specific subsystems:
