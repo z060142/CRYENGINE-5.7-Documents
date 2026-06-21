@@ -95,10 +95,10 @@ public:
             return;
 
         const float frameTime = event.fParam[0];
-        Ang3 yaw(0, 0, m_degreesPerSecond * frameTime * gf_PI / 180.0f);
-        Matrix34 tm = m_pEntity->GetWorldTM();
-        tm.AddRotation(yaw);   // rotate around Z
-        m_pEntity->SetWorldTM(tm);
+        const Quat deltaRotation = Quat::CreateRotationZ(DEG2RAD(m_degreesPerSecond * frameTime));
+        Quat newRotation = m_pEntity->GetRotation() * deltaRotation;
+        newRotation.Normalize();
+        m_pEntity->SetRotation(newRotation, { ENTITY_XFORM_USER });
     }
 
     static void ReflectType(Schematyc::CTypeDesc<CRotatorComponent>& desc)
@@ -346,8 +346,14 @@ Key things to learn:
   `(int activationMode, float value)`. The activation mode is one of
   `eAAM_OnPress`, `eAAM_OnRelease`, `eAAM_OnHold`
   (source:Code/CryEngine/CryCommon/CryAction/IActionMapManager.h:15-20).
+  `BindAction(group, name, device, key)` binds press, release, and hold by
+  default. Pass the final booleans explicitly when you only want one mode, for
+  example `BindAction(group, name, device, key, true, false, false)` for
+  press-only input.
   The device enum `eAID_KeyboardMouse` is a bit flag at
   source:Code/CryEngine/CryCommon/CryAction/IActionMapManager.h:95.
+  source:Code/CryPlugins/CryDefaultEntities/Module/DefaultComponents/Input/InputComponent.h:91
+  source:Code/CryPlugins/CryDefaultEntities/Module/DefaultComponents/Input/InputComponent.cpp:604-615
 - **Camera & audio listener** are *only* created on the local player, inside
   `InitializeLocalPlayer()`. This is triggered by the `BecomeLocalPlayer`
   event.

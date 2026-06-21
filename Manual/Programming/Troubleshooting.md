@@ -126,13 +126,20 @@ exactly what went wrong.
 
 ## 9. "Lua Script Not Loading"
 
-- **`.ent` file in the right place?** It must be in `<Game_Folder>/Entities/`.
-- **Script path correct?** The `Script` attribute in the `.ent` file is relative
-  to the game folder, not the engine folder.
+- **`entities.xml` in the asset root?** The legacy script entity registry loads
+  `entities.xml` from the project asset search path. In a Blank-style project,
+  place it at `Assets/entities.xml`.
+- **XML shape correct?** The root must be `<Entities>`, with child
+  `<Entity Name="..." Script="...">` elements.
+- **Script path correct?** The `Script` attribute is relative to the asset
+  search path, for example `Scripts/Entities/Others/MyDoor.lua`.
 - **Syntax error?** Check the console (`~`) for Lua errors. They are usually
   printed with the file and line number.
 - **Script not reloaded?** Use the console command `es_reload_scripts` or
   restart the editor after editing.
+- **Logging function correct?** Use `System.Log(...)` or
+  `System.LogAlways(...)` from Lua. `CryLog(...)` is a C++ macro, not a Lua
+  global in a Blank-style project.
 
 ---
 
@@ -149,7 +156,7 @@ exactly what went wrong.
 | Network not syncing | `BindToNetwork`, return aspect mask, mark dirty |
 | Build fails | Check `StdAfx.h`, `platform_impl.inl`, plugin list |
 | Crash on startup | Check for duplicate GUIDs |
-| Lua not loading | Check `.ent` file location and script path |
+| Lua not loading | Check `Assets/entities.xml` and script path |
 
 ---
 

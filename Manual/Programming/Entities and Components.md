@@ -243,24 +243,34 @@ gEnv->pEntitySystem->RemoveEntity(entityId);
 ## 8. Entity Transform
 
 ```cpp
-// Read
+// Read world transform data
 Vec3 pos     = pEntity->GetWorldPos();
 Quat rot     = pEntity->GetWorldRotation();
-Vec3 scale   = pEntity->GetScale();
 Matrix34 tm  = pEntity->GetWorldTM();
 Vec3 forward = pEntity->GetForwardDir();   // column1 of rotation
 Vec3 right   = pEntity->GetRightDir();     // column0 of rotation
 
-// Write
+// Write world transform data
 pEntity->SetWorldTM(newTM);
+
+// Read/write local transform data
+Vec3 localPos   = pEntity->GetPos();
+Quat localRot   = pEntity->GetRotation();
+Vec3 localScale = pEntity->GetScale();
+
 pEntity->SetPos(newPos);
 pEntity->SetRotation(newRot);
+pEntity->SetScale(newScale);
 ```
+> Local transform accessors: source:Code/CryEngine/CryCommon/CryEntitySystem/IEntity.h:625-640
 > `GetForwardDir`: source:Code/CryEngine/CryCommon/CryEntitySystem/IEntity.h:1330-1340
 
 > **Note:** `GetForwardDir()` returns column 1 (Y axis), and `GetRightDir()`
 > returns column 0 (X axis). This matches CRYENGINE's convention where the
 > forward direction is +Y, not +Z.
+>
+> `SetPos`, `SetRotation`, and `SetScale` write local-space transforms. Use
+> `SetWorldTM` when you already have a world-space matrix.
 
 ---
 

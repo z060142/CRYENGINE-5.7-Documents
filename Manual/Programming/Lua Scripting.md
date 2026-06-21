@@ -33,35 +33,43 @@ this hybrid approach.
 
 ## 2. The Script Entity Workflow
 
-A Lua script entity needs **two files**:
+A Lua script entity needs:
 
-1. An **`.ent` file** (XML) — tells the entity system where the Lua script is.
+1. An **`entities.xml` registry** — tells the entity system which Lua entity
+   classes exist and which script file each class uses.
 2. A **`.lua` file** — implements the entity behavior.
 
-> To implement a new entity using Lua, two files need to be stored in the game
-> folder. The first one is the Ent file which is parsed by the Entity System to
-> know the file location of the Lua script. The second one is the Lua script
-> which implements the desired properties and functions.
-> source:docs(API Reference/CRYENGINE Game Code/Miscellaneous Game Code/Script Entity/Structure of a Script Entity.md:12-14)
+In a Blank-style CRYENGINE 5.7.1 project, put the registry in the asset root:
+`Assets/entities.xml`. The entity class registry loads the virtual path
+`entities.xml` during startup and reads `<Entity>` children from an `<Entities>`
+root.
 
-### 2.1 The `.ent` File
+> source:Code/CryEngine/CryEntitySystem/EntityClassRegistry.cpp:225
+> source:Code/CryEngine/CryEntitySystem/EntityClassRegistry.cpp:245-259
+> source:Code/CryEngine/CryEntitySystem/EntityClassRegistry.cpp:350-368
 
-Stored in `<Game_Folder>/Entities/`. The content is XML:
+### 2.1 The `entities.xml` Registry
+
+Stored as `Assets/entities.xml` in a project whose asset folder is `Assets`:
 
 ```xml
-<Entity
-  Name="RadarBase"
-  Script="Scripts/Entities/Others/RadarBase.lua"
-/>
+<Entities>
+  <Entity
+    Name="RadarBase"
+    Script="Scripts/Entities/Others/RadarBase.lua"
+  />
+</Entities>
 ```
 
 | Attribute | Description |
 |-----------|-------------|
 | `Name` | Name of the Entity class |
-| `Script` | Path of the Lua script |
+| `Script` | Path of the Lua script, relative to the asset search path |
 | `Invisible` | Prevents it from being visible in the Sandbox entity list |
 
-> source:docs(API Reference/CRYENGINE Game Code/Miscellaneous Game Code/Script Entity/Structure of a Script Entity.md:20-35)
+You can register multiple Lua entity classes in the same `entities.xml` file.
+After editing the registry or Lua scripts, reload scripts or restart Sandbox so
+the class registry and script system see the changes.
 
 ### 2.2 The `.lua` File
 
@@ -129,7 +137,7 @@ The property name prefix tells the editor what type to use:
 | `i` | integer |
 | `s` | string |
 | `clr` | color (table of r, g, b) |
-| `object_` | asset reference (CFG, CGA, CHR, or CDF file) |
+| `object_` | asset reference (CGF, CGA, CHR, or CDF file) |
 | `surf_` | surface type |
 
 > source:docs(API Reference/CRYENGINE Game Code/Miscellaneous Game Code/Script Entity/Structure of a Script Entity.md:77-84)
@@ -234,7 +242,7 @@ end
 -- State: Closed
 MyDoor.Closed = {
     OnBeginState = function(self)
-        CryLog("Door is now closed")
+        System.LogAlways("Door is now closed")
     end,
 
     OnUpdate = function(self, dt)
@@ -249,7 +257,7 @@ MyDoor.Closed = {
 -- State: Opened
 MyDoor.Opened = {
     OnBeginState = function(self)
-        CryLog("Door is now open")
+        System.LogAlways("Door is now open")
     end,
 }
 ```
@@ -260,7 +268,9 @@ Key things to notice:
   This is a ScriptBind function (see §6).
 - **`self:GotoState("Opened")`** — switches the entity to the "Opened" state.
   States must be declared in the `States` table.
-- **`CryLog("...")`** — prints to the console.
+- **`System.Log("...")` / `System.LogAlways("...")`** — prints from Lua through
+  the engine's `System` script binding. `CryLog` is a C++ logging macro, not a
+  Lua global in this 5.7.1 validation project.
 
 ---
 
@@ -370,10 +380,18 @@ System.GetEntityByName("Player1")
 System.GetEntity(entityId)
 System.GetEntitiesByClass("MyDoor")
 System.Log("Hello from Lua!")
+System.LogAlways("Always visible Lua message")
 System.ExecuteCommand("map example s")
 System.GetFrameTime()
-System.GetCurTime()
+System.GetCurrTime()
 ```
+
+Use `System.Log(...)` or `System.LogAlways(...)` for Lua logging. `CryLog(...)`
+is a C++ logging macro; it is not a Lua global in a Blank-style project.
+
+> source:Code/CryEngine/CryScriptSystem/ScriptBindings/ScriptBind_System.cpp:162-165
+> source:Code/CryEngine/CryScriptSystem/ScriptBindings/ScriptBind_System.cpp:393-404
+> source:Code/CryEngine/CryScriptSystem/ScriptBindings/ScriptBind_System.cpp:460-466
 
 ### Other ScriptBinds
 
@@ -482,7 +500,8 @@ if (auto* pScriptComponent = pEntity->GetComponent<IEntityScriptComponent>())
     pScriptComponent->SetScriptUpdateRate(0.0f);  // every frame
 }
 ```
-> source:Code/CryEngine/CryCommon/CryEntitySystem/IEntityComponent.h:661-612
+> source:Code/CryEngine/CryCommon/CryEntitySystem/IEntityComponent.h:661
+> source:Code/CryEngine/CryCommon/CryEntitySystem/IEntityComponent.h:612
 
 `SetScriptUpdateRate(0.0f)` means "update every frame". A non-zero value means
 "update every N seconds" (e.g. `0.5f` = twice per second).
@@ -546,7 +565,7 @@ function Spawner:OnTimer(timerId, ms)
             name = "Spawned_" .. self.spawnedCount,
         })
         self.spawnedCount = self.spawnedCount + 1
-        CryLog("Spawned entity #" .. self.spawnedCount)
+        System.LogAlways("Spawned entity #" .. self.spawnedCount)
 
         -- Repeat
         self:SetTimer(1, self.Properties.fInterval * 1000)
@@ -558,13 +577,15 @@ function Spawner:OnDestroy()
 end
 ```
 
-Corresponding `.ent` file:
+Corresponding `Assets/entities.xml` entry:
 
 ```xml
-<Entity
-  Name="Spawner"
-  Script="Scripts/Entities/Others/Spawner.lua"
-/>
+<Entities>
+  <Entity
+    Name="Spawner"
+    Script="Scripts/Entities/Others/Spawner.lua"
+  />
+</Entities>
 ```
 
 ---
@@ -594,7 +615,7 @@ If you are porting a Lua script entity to a C++ component:
 
 | Lua concept | C++ equivalent |
 |-------------|----------------|
-| `.ent` + `.lua` file | `IEntityComponent` subclass with `ReflectType` |
+| `entities.xml` + `.lua` file | `IEntityComponent` subclass with `ReflectType` |
 | `Properties` table | `AddMember` in `ReflectType` |
 | `OnSpawn` / `OnInit` | `Initialize()` |
 | `OnUpdate` | `ProcessEvent` with `EEvent::Update` |
