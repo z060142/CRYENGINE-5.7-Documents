@@ -208,6 +208,18 @@ The `CFlock`/`CBoidObject` pattern (manager + agents) can be adapted to
 - `Think()` runs in `ProcessEvent(EEvent::Update)`
 - `CalcFlockBehavior()` queries sibling components on nearby entities
 
+Required when adapting:
+
+- Keep the ownership boundary clear: one manager owns the agent list, while
+  each agent owns its own transform/state.
+- Provide a visible mesh or explicit debug/log output for spawned agents.
+  Default-class entities can exist and move while remaining visually invisible.
+
+Avoid:
+
+- Do not copy the GameSDK flock classes into a Blank-style project unchanged.
+  Treat them as behavior structure, not as a drop-in modern component API.
+
 ---
 
 ## Example 2 — Deflector Shield: Physics Collision + Projectile Deflection
@@ -509,7 +521,8 @@ fades the screen to/from a color. It demonstrates:
 - Deriving from `CFlowBaseNode`
 - Declaring input/output ports
 - Processing Flow Graph events (`eFE_Initialize`, `eFE_Activate`, `eFE_Update`)
-- Registering the node with `REGISTER_FLOW_NODE`
+- Registering the node with `REGISTER_FLOW_NODE` and the owning plugin's
+  flow-node registration hooks
 
 ### Node Class Declaration
 
@@ -679,10 +692,27 @@ Key takeaways:
   disable it when done to avoid unnecessary per-frame work.
 - **`ActivateOutput`** — fires an output port, which triggers connected nodes.
 - **`REGISTER_FLOW_NODE("Category:Name", ClassName)`** — registers the node so
-  it appears in the Flow Graph editor under the given category.
+  it can be picked up by the engine's auto-registration list.
+- **Plugin flow-node hooks** — a plugin that owns flow nodes should implement
+  `RegisterFlowNodes()` / `UnregisterFlowNodes()`. The engine provides
+  `PLUGIN_FLOWNODE_REGISTER` and `PLUGIN_FLOWNODE_UNREGISTER` helper macros for
+  the usual auto-registration path. source:Code/CryEngine/CryCommon/CrySystem/ICryPlugin.h:73-77 source:Code/CryEngine/CryCommon/CrySystem/ICryPlugin.h:113-138
 - **Tickets** — the `m_ticket` system prevents stale callbacks from old fade
   operations from firing outputs for a new fade. This is a robust pattern for
   any async/deferred operation in Flow Graph nodes.
+
+Required:
+
+- Define the node class and `REGISTER_FLOW_NODE(...)`.
+- Make the owning plugin expose flow-node registration/unregistration, usually
+  via `PLUGIN_FLOWNODE_REGISTER` and `PLUGIN_FLOWNODE_UNREGISTER`.
+- Test the node in the Flow Graph editor and trigger at least one input; compile
+  success alone does not prove editor registration.
+
+Avoid:
+
+- Do not assume `REGISTER_FLOW_NODE(...)` by itself is enough for every plugin
+  layout.
 
 ---
 
@@ -764,13 +794,31 @@ Key takeaways:
 | Pattern | Example | Modern equivalent |
 |---------|---------|-------------------|
 | Manager + agents (flock) | `CFlock` + `CBoidObject` | `IEntityComponent` on a manager entity + component per agent |
-| Physics collision events | `eGFE_OnCollision` via `IGameObject` | `EEvent::PhysicsCollision` via `IEntityComponent::GetEventMask` |
+| Physics collision events | `eGFE_OnCollision` via `IGameObject` | For entity-local collisions use entity physics events in a component; for global monitoring use `IPhysicalWorld::AddEventClient(EventPhysCollision::id, ...)` |
 | Global physics event client | `pPhysicalWorld->AddEventClient()` | Same API still works; can also use `IEntityComponent` on relevant entities |
-| Custom Flow Graph node | `CFlowBaseNode` + `REGISTER_FLOW_NODE` | Same API; also consider Schematyc functions |
+| Custom Flow Graph node | `CFlowBaseNode` + `REGISTER_FLOW_NODE` | Same API, plus plugin `RegisterFlowNodes()` / `UnregisterFlowNodes()` hooks; also consider Schematyc functions |
 | Global per-frame update | `IGameFrameworkListener::OnPostUpdate` | `Cry::IEnginePlugin::MainUpdate` via `EnableUpdate` |
 | Local-space buffering | Transform hit data to local, restore later | Same pattern works in `IEntityComponent` |
 | Spread via orthogonal basis | `GetOrthogonal()` + `Cross()` | Pure math, works anywhere |
 | Ticket system | `m_ticket` to invalidate stale callbacks | Same pattern for any async operation |
+
+## Porting Notes
+
+Required:
+
+- Decide whether the GameSDK example is demonstrating a gameplay algorithm, a
+  legacy framework hook, or an engine API that still exists. Port those cases
+  differently.
+- Pair global physics event registration with removal. A global
+  `AddEventClient` listener outlives individual entities unless you remove it.
+- For global per-frame systems, prefer plugin `MainUpdate` in modern plugin
+  projects; for entity-local behavior, prefer component update events.
+
+Avoid:
+
+- Do not assume GameSDK entity classes, legacy entity cards, or GameSDK-specific
+  framework objects exist in a Blank-derived project.
+- Do not use global physics callbacks when an entity-local event is sufficient.
 
 ---
 

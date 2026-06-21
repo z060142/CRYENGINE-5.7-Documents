@@ -147,9 +147,32 @@ listed plugin, in order, and your plugin's `Initialize` runs after the engine
 plugins it depends on.
 
 > **Common pitfall:** If your component does not appear in the editor's
-> "Add Component" menu, 99% of the time the cause is that `CryDefaultEntities`
-> is missing from `require.plugins`. That plugin owns the Sandbox UI that lists
-> registered components.
+> "Add Component" menu, check the whole registration chain: the game DLL path
+> in `.cryproject`, required engine plugins such as `CryDefaultEntities`, the
+> plugin's `ESYSTEM_EVENT_REGISTER_SCHEMATYC_ENV` / `RegisterPackage` path, and
+> the component's `CRY_STATIC_AUTO_REGISTER_FUNCTION` registration.
+
+### Startup Checklist
+
+Required:
+
+- The `.cryproject` must point at the DLL that actually exists on disk, e.g.
+  `bin/win_x64/Game.dll`.
+- Engine plugins used by your project must be listed in `require.plugins`;
+  `CryDefaultEntities` is required for the stock component set used by the
+  Blank template.
+- Your plugin must listen for `ESYSTEM_EVENT_REGISTER_SCHEMATYC_ENV` and call
+  `gEnv->pSchematyc->GetEnvRegistry().RegisterPackage(...)`.
+- Each component that should appear in Sandbox must have both `ReflectType` and
+  a `CRY_STATIC_AUTO_REGISTER_FUNCTION` registration callback.
+
+Avoid:
+
+- Do not treat "DLL loaded" as proof that components are registered. Plugin
+  loading, Schematyc package registration, and Add Component menu population are
+  separate steps.
+- Do not assume Blank projects automatically expose every legacy GameSDK or Lua
+  entity type. Register project-specific entity classes explicitly.
 
 ---
 

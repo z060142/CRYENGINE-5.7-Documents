@@ -69,9 +69,24 @@ Key `CTypeDesc` methods:
 | `SetDescription("...")` | Tooltip text |
 | `SetComponentFlags({...})` | Component behavior flags (see [Entities and Components](Entities%20and%20Components.md#4-component-flags)) |
 | `AddMember(...)` | Expose a property to the editor (see §3) |
-| `AddDependency<T>()` | Hard dependency: T must exist and init before this source:Code/CryEngine/CryCommon/CryEntitySystem/IEntityComponent.h:171-175 |
-| `AddSoftDependency<T>()` | Soft dependency: T should init before this if present |
-| `AddIncompatible<T>()` | Cannot coexist with T on the same entity |
+| `AddComponentInteraction<T>(SEntityComponentRequirements::EType::HardDependency)` | Hard dependency: T must exist and init before this. The dependency target must be a Singleton component, or environment validation reports it as invalid. source:Code/CryEngine/CryCommon/CryEntitySystem/IEntityComponent.h:166-175 source:Code/CryEngine/CrySchematyc/Core/Impl/Env/EnvRegistry.cpp:572-606 |
+| `AddComponentInteraction<T>(SEntityComponentRequirements::EType::SoftDependency)` | Soft dependency: T should init before this if present |
+| `AddComponentInteraction<T>(SEntityComponentRequirements::EType::Incompatibility)` | Cannot coexist with T on the same entity |
+
+Required:
+
+- Use a fresh, stable GUID for every reflected type. Reusing GUIDs can collide
+  in the environment registry.
+- For `HardDependency`, make the dependency target a Singleton component. The
+  environment registry validates this at package registration time.
+
+Avoid:
+
+- Do not use `AddDependency<T>()`, `AddSoftDependency<T>()`, or
+  `AddIncompatible<T>()` in 5.7.1 component code. Use
+  `AddComponentInteraction<T>(SEntityComponentRequirements::EType::...)`.
+- Do not make ordinary repeatable gameplay components the target of a hard
+  dependency.
 
 > **GUID generation:** Use **Tools → Create GUID** in Visual Studio (Registry
 > Format) or any online GUID generator. The `"_cry_guid"` suffix tells the
@@ -153,6 +168,16 @@ struct SCombatParams
         desc.AddMember(&SCombatParams::damage, 'dmg', "Damage", "Damage", nullptr, 10.0f);
         desc.AddMember(&SCombatParams::range, 'rang', "Range", "Range", nullptr, 5.0f);
     }
+
+    bool operator==(const SCombatParams& rhs) const
+    {
+        return damage == rhs.damage && range == rhs.range;
+    }
+
+    bool operator!=(const SCombatParams& rhs) const
+    {
+        return !(*this == rhs);
+    }
 };
 
 class CWeaponComponent : public IEntityComponent
@@ -168,6 +193,21 @@ class CWeaponComponent : public IEntityComponent
     SCombatParams m_combat;
 };
 ```
+
+Reflected nested struct members need equality comparison operators. `AddMember`
+uses them when tracking default values and changes, so a nested property type
+without `operator==` / `operator!=` will fail the component compile probe.
+
+Required:
+
+- Give the nested struct its own `ReflectType`.
+- Define `operator==` and `operator!=` for nested structs used as reflected
+  component members.
+
+Avoid:
+
+- Do not treat nested structs as plain POD once they are exposed through
+  `AddMember`; the reflection/default-value machinery needs comparison support.
 
 ---
 
@@ -214,6 +254,18 @@ Three things to notice:
 This two-stage flow (static list → deferred invoke) is why your component
 shows up in the editor **only after** the plugin's `RegisterPackage` runs.
 Forget the `RegisterPackage` call in `OnSystemEvent` and nothing registers.
+
+Required:
+
+- Put entity components under `IEntity::GetEntityScopeGUID()`.
+- Register the package from the plugin's
+  `ESYSTEM_EVENT_REGISTER_SCHEMATYC_ENV` handler.
+- Deregister the package when the plugin is destroyed.
+
+Avoid:
+
+- Do not call static registration callbacks directly at global initialization
+  time. Let the plugin package registration invoke them when Schematyc is ready.
 
 ---
 
@@ -262,14 +314,53 @@ struct SPlayerDiedSignal {
 // Send
 pEntity->GetSchematycObject()->ProcessSignal(SPlayerDiedSignal(), GetGUID());
 
-// Receive (in another component)
-void COtherComponent::ProcessSignal(const SObjectSignal& signal) {
-    if (signal.typeGUID == Schematyc::GetTypeGUID<SPlayerDiedSignal>()) { /* ... */ }
-}
+class COtherComponent : public IEntityComponent,
+                        public Schematyc::IObjectSignalListener
+{
+public:
+    void Initialize() override
+    {
+        if (Schematyc::IObject* pObject = m_pEntity->GetSchematycObject())
+        {
+            pObject->AddSignalListener(*this);
+        }
+    }
+
+    ~COtherComponent()
+    {
+        if (m_pEntity)
+        {
+            if (Schematyc::IObject* pObject = m_pEntity->GetSchematycObject())
+            {
+                pObject->RemoveSignalListener(*this);
+            }
+        }
+    }
+
+    void ProcessSignal(const Schematyc::SObjectSignal& signal) override
+    {
+        if (signal.typeGUID == Schematyc::GetTypeGUID<SPlayerDiedSignal>())
+        {
+            /* ... */
+        }
+    }
+};
 ```
 
 Signals enable Schematyc visual-scripting graphs to react to C++ events without
 a hard dependency between the sender and receiver.
+
+Required:
+
+- Register the signal type in a valid scope with `SCHEMATYC_MAKE_ENV_SIGNAL`.
+- Add and remove `Schematyc::IObjectSignalListener` registrations explicitly
+  when receiving C++ signals.
+
+Avoid:
+
+- Do not write an `IEntityComponent::ProcessSignal(...)` method and expect it to
+  be called automatically. Use the entity's Schematyc object and
+  `IObjectSignalListener`.
 
 ---
 
@@ -287,6 +378,22 @@ Beyond components, Schematyc can expose:
 These are used when you want Schematyc graph authors to call into your C++ code
 from a visual node. For most gameplay, components with `ReflectType` +
 `AddMember` are sufficient.
+
+Register functions under a valid Schematyc scope such as a component, action,
+module, class, or data type. Do not register an `SCHEMATYC_MAKE_ENV_FUNCTION`
+directly under the root scope; `EnvFunction::IsValidScope` does not accept the
+root. source:Code/CryEngine/CryCommon/CrySchematyc/Env/Elements/EnvFunction.h:472-482
+
+Required:
+
+- Register env functions/actions under a scope that `IsValidScope` accepts.
+- Keep functions/actions separate from component property reflection; use them
+  only when Schematyc graphs need callable behavior.
+
+Avoid:
+
+- Do not attach `SCHEMATYC_MAKE_ENV_FUNCTION` directly to
+  `registrar.RootScope()`.
 
 ---
 

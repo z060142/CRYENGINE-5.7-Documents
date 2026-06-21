@@ -55,6 +55,22 @@ EnableUpdate(EUpdateStep::BeforeFinalizeCamera, true);
 
 Each enabled step will call its corresponding virtual method on your plugin.
 
+Required:
+
+- Call `EnableUpdate(step, true)` before expecting a plugin update callback.
+  Declaring `MainUpdate()` or `UpdateBeforeFinalizeCamera()` alone is not
+  enough.
+- Pick the narrowest update step that matches the work. `MainUpdate` is the
+  usual place for game-logic-style global systems; `BeforeFinalizeCamera` is
+  only for camera-late work.
+
+Avoid:
+
+- Do not put per-entity gameplay in plugin updates just because the callback is
+  global. Entity-local logic belongs in `IEntityComponent` update events.
+- Do not leave optional update steps enabled after the system no longer needs
+  them.
+
 ---
 
 ## 3. Disabling Updates
@@ -88,6 +104,24 @@ if (auto* pOther = gEnv->pSystem->GetIPluginManager()->QueryPlugin<COtherPlugin>
 works if the plugin was listed in the `.cryproject` file's `require.plugins`
 array.
 
+For your own plugin instance, do not rely on `QueryPlugin<CMyPlugin>()` from
+inside that plugin's `Initialize()` body. During that call the plugin manager
+may still be completing registration of the instance. Query other already
+loaded plugins there, or query your own plugin after the manager reports the
+plugin as initialized / on a later update tick.
+
+Required:
+
+- The target plugin must be loaded by the project. In practice, that means it is
+  an engine plugin or it appears in `.cryproject` `require.plugins`.
+- Always handle `nullptr`; `QueryPlugin<T>()` is a lookup, not a guarantee.
+
+Avoid:
+
+- Do not use `QueryPlugin<T>()` as the only ownership model for systems inside
+  your own plugin. Prefer your own singleton/factory access for your own class,
+  and use the plugin manager for cross-plugin discovery.
+
 ---
 
 ## 5. Plugin Event Listeners
@@ -116,6 +150,12 @@ class CMyPlugin : public Cry::IEnginePlugin
 gEnv->pSystem->GetIPluginManager()->RegisterEventListener<COtherPlugin>(this);
 ```
 > source:Code/CryEngine/CryCommon/CrySystem/ICryPluginManager.h:35-55
+
+Required:
+
+- Remove plugin event listeners before your plugin object is destroyed.
+- Register for the specific plugin type you care about; broad assumptions about
+  load order make startup bugs hard to diagnose.
 
 ---
 
