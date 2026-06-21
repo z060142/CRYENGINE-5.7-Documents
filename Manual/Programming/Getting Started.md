@@ -136,15 +136,18 @@ Field-by-field:
 | `require.engine` | Engine version this project targets |
 | `require.plugins[]` | Other plugins to load before yours |
 | `require.plugins[].type` | `EPluginType::Native` (C++) or `Managed` (C#). Note `EType::Native` is an older alias still accepted. source:Code/CryEngine/CryCommon/CrySystem/ICryPluginManager.h:17-33 |
-| `require.plugins[].path` | Either a known engine plugin name (`CryDefaultEntities`) or a relative DLL path (`bin/win_x64/Game.dll`) |
+| `require.plugins[].path` | Either a known engine plugin name (`CryDefaultEntities`) or a relative DLL path (`bin/win_x64/Game.dll`, `bin/win_x64/MyPlugin.dll`, ...) |
 | `require.plugins[].platforms` | Optional platform filter (`"PS4"`, `"PC"`, ...) |
 | `console_variables` | Console vars to set at startup |
 | `console_commands` | Console commands to run at startup |
 
-The single most important entry for you is the **last** plugin in the list —
-that is your own game DLL (`bin/win_x64/Game.dll`). The engine loads every
-listed plugin, in order, and your plugin's `Initialize` runs after the engine
-plugins it depends on.
+The single most important entry for a Blank C++ template project is usually the
+**last** plugin in the list -- the template's own game DLL
+(`bin/win_x64/Game.dll`). `Game.dll` is only the default template name, not a
+special engine requirement. A project can list additional native plugin DLLs in
+`require.plugins` as long as each DLL exports a valid `Cry::IEnginePlugin`
+implementation. The engine loads every listed plugin, in order, and each
+plugin's `Initialize` runs after the engine plugins it depends on.
 
 > **Common pitfall:** If your component does not appear in the editor's
 > "Add Component" menu, check the whole registration chain: the game DLL path
@@ -156,8 +159,9 @@ plugins it depends on.
 
 Required:
 
-- The `.cryproject` must point at the DLL that actually exists on disk, e.g.
-  `bin/win_x64/Game.dll`.
+- The `.cryproject` must point at each DLL that actually exists on disk, e.g.
+  `bin/win_x64/Game.dll` for the Blank template or
+  `bin/win_x64/MyPlugin.dll` for an additional native plugin.
 - Engine plugins used by your project must be listed in `require.plugins`;
   `CryDefaultEntities` is required for the stock component set used by the
   Blank template.

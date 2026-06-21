@@ -12,9 +12,12 @@ reflection, and dependency validation.
 
 1. **Compiled?** Build the project. Did the DLL actually update in
    `bin/win_x64/`?
-2. **In the `.cryproject`?** Your own DLL is in `require.plugins` and
-   `CryDefaultEntities` is also listed.
-3. **`CRYREGISTER_SINGLETON_CLASS`** at the bottom of your `GamePlugin.cpp`?
+2. **In the `.cryproject`?** Every DLL that should load is in
+   `require.plugins` and `CryDefaultEntities` is also listed when you rely on
+   the stock entity components.
+3. **`CRYREGISTER_SINGLETON_CLASS`** at the bottom of exactly one `.cpp` in
+   each plugin DLL? In the Blank template this is usually `GamePlugin.cpp`;
+   additional plugins can use their own main `.cpp`.
 4. **`ESYSTEM_EVENT_REGISTER_SCHEMATYC_ENV`** handled in the plugin's
    `OnSystemEvent`, calling `RegisterPackage(...)` with a lambda that calls
    `Detail::CStaticAutoRegistrar<...>::InvokeStaticCallbacks(registrar)`?
@@ -126,7 +129,9 @@ Avoid:
 - **`eCryModule` not defined?** Your `StdAfx.h` must `#define eCryModule eCryM_EnginePlugin`
   before including any engine headers.
 - **`platform_impl.inl` included twice?** It must be included exactly once per
-  DLL module, in the main .cpp file (usually `GamePlugin.cpp`).
+  DLL module, in that plugin's main .cpp file. In the Blank template this is
+  usually `GamePlugin.cpp`, but a separate plugin DLL can use its own main
+  source file.
 - **Linker errors for unresolved symbols?** Make sure your `.cryproject` lists
   all required plugins in `require.plugins`. Missing `CryDefaultEntities` is a
   common cause.
